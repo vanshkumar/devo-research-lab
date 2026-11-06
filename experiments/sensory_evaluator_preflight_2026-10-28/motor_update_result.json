@@ -1,0 +1,63 @@
+{
+  "seed": 20261028,
+  "finite_difference": 0.05,
+  "step_norm": 0.1,
+  "results": [
+    {
+      "scale": 0.25,
+      "original_cost": 1.4877003001331337,
+      "original_loss": 0.10649859434048978,
+      "dot_product": 0.08173263584714352,
+      "gradient_cosine": 0.7031297663011312,
+      "circuit_step_cost": 1.4676433604421224,
+      "circuit_step_true_loss": 0.07953700926551081,
+      "circuit_true_improvement": 0.026961585074978964,
+      "oracle_step_cost": 1.47365948235415,
+      "oracle_step_true_loss": 0.0687797916948736,
+      "oracle_true_improvement": 0.03771880264561618,
+      "fraction_of_oracle_improvement": 0.7148049032280864,
+      "circuit_gradient_norm": 0.24104943622347216,
+      "oracle_gradient_norm": 0.4822296406706945,
+      "queries_per_actor": 96,
+      "update_norm": 0.1
+    },
+    {
+      "scale": 1.0,
+      "original_cost": 2.0004322202080496,
+      "original_loss": 1.2739657486039695,
+      "dot_product": 0.4508742536778426,
+      "gradient_cosine": 0.8247286999774347,
+      "circuit_step_cost": 1.9510034540974626,
+      "circuit_step_true_loss": 1.1843365356769993,
+      "circuit_true_improvement": 0.08962921292697024,
+      "oracle_step_cost": 1.959436103651421,
+      "oracle_step_true_loss": 1.1638777507487592,
+      "oracle_true_improvement": 0.11008799785521028,
+      "fraction_of_oracle_improvement": 0.8141597147116091,
+      "circuit_gradient_norm": 0.5091171629543113,
+      "oracle_gradient_norm": 1.073807889773507,
+      "queries_per_actor": 96,
+      "update_norm": 0.1
+    },
+    {
+      "scale": 2.0,
+      "original_cost": 2.6698849518755097,
+      "original_loss": 2.92045210536588,
+      "dot_product": 0.22857549943001343,
+      "gradient_cosine": 0.6470619064131702,
+      "circuit_step_cost": 2.6335588911214276,
+      "circuit_step_true_loss": 2.8588926972074864,
+      "circuit_true_improvement": 0.06155940815839367,
+      "oracle_step_cost": 2.645900295946513,
+      "oracle_step_true_loss": 2.8252730629708727,
+      "oracle_true_improvement": 0.09517904239500741,
+      "fraction_of_oracle_improvement": 0.6467748215296475,
+      "circuit_gradient_norm": 0.3671124592755335,
+      "oracle_gradient_norm": 0.9622429111230589,
+      "queries_per_actor": 96,
+      "update_norm": 0.1
+    }
+  ],
+  "total_seconds": 37.247206707979785,
+  "interpretation": "One deterministic finite-perturbation update per start; no full RL, no performance-tuned step, no gradient through plant given to either actor."
+}

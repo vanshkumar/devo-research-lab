@@ -1,0 +1,7618 @@
+{
+  "timestamp_utc": "2026-11-01T11:13:07.371894+00:00",
+  "scope": "Fixed observed feature histories only. Source labels/penalty selection refit in every replicate. No regenerated outcome-dependent histories, boundary power or coverage claim.",
+  "sigma_normalized": 0.09850639414339536,
+  "gamma": 4.133688293923202,
+  "counts": {
+    "signal": 100,
+    "null": 0
+  },
+  "conditional_discrimination_pass": true,
+  "attained_signal_oracle_gain_percentiles": [
+    0.26108408735786925,
+    0.28292835458985965,
+    0.3040278806408545
+  ],
+  "replicates": [
+    {
+      "kind": "signal",
+      "rep": 0,
+      "decision": {
+        "B": {
+          "gain": 0.328213128456913,
+          "interval95": [
+            0.2759898528068946,
+            0.37993176160786163
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.33433235942101946,
+          "interval95": [
+            0.26982014306381474,
+            0.39687816948892823
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.547753787728702,
+          "interval95": [
+            -1.2477124991324013,
+            0.21961054625523996
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.28420710286754236,
+      "penalties": {
+        "B": 0.01,
+        "H": 1.0,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 1,
+      "decision": {
+        "B": {
+          "gain": 0.30881301166141617,
+          "interval95": [
+            0.26637087383275615,
+            0.34975376879832715
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.32326415930031227,
+          "interval95": [
+            0.2751744381387094,
+            0.36980047181597275
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.6672318614208413,
+          "interval95": [
+            -0.39304722599626735,
+            1.8617182182780496
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2719454516058736,
+      "penalties": {
+        "B": 0.01,
+        "H": 1.0,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 2,
+      "decision": {
+        "B": {
+          "gain": 0.3120495351446899,
+          "interval95": [
+            0.2633713924776253,
+            0.3601792641515044
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.31393138393435316,
+          "interval95": [
+            0.2638506337080779,
+            0.3645210943725416
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.0362683771512336,
+          "interval95": [
+            -0.4254775807029621,
+            0.5467176758238479
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2579641443898796,
+      "penalties": {
+        "B": 0.01,
+        "H": 1.0,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 3,
+      "decision": {
+        "B": {
+          "gain": 0.3216876724929393,
+          "interval95": [
+            0.2736290741250887,
+            0.36435278906998564
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2748933384615966,
+          "interval95": [
+            0.22885751886774297,
+            0.31901438918393643
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.012807188769644961,
+          "interval95": [
+            -0.9871394639691685,
+            0.811896069752663
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2872178398332138,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 4,
+      "decision": {
+        "B": {
+          "gain": 0.32862001976497546,
+          "interval95": [
+            0.28438855428136606,
+            0.3694943414996572
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2772885243299148,
+          "interval95": [
+            0.23703904984661744,
+            0.3169102823857207
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.3100376982806698,
+          "interval95": [
+            -0.40205850684181005,
+            1.0956335497815697
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.27727076380148596,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 5,
+      "decision": {
+        "B": {
+          "gain": 0.32822269620288036,
+          "interval95": [
+            0.28600496070296544,
+            0.3692074263857628
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2918555257696408,
+          "interval95": [
+            0.25120989452235476,
+            0.3284210517959371
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 1.0835579262356105,
+          "interval95": [
+            0.13387245908707887,
+            2.11636221810551
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2932535883428343,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 6,
+      "decision": {
+        "B": {
+          "gain": 0.31717451281926845,
+          "interval95": [
+            0.27743436478833833,
+            0.3548872050994328
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.3168383523525189,
+          "interval95": [
+            0.26904359145103385,
+            0.36659917296326094
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.5214211914885312,
+          "interval95": [
+            -0.5276199984388686,
+            1.542355583761649
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.27056817096700203,
+      "penalties": {
+        "B": 0.01,
+        "H": 1.0,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 7,
+      "decision": {
+        "B": {
+          "gain": 0.31682779422256513,
+          "interval95": [
+            0.27351664191936903,
+            0.3614271218115388
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.26954218677880293,
+          "interval95": [
+            0.22667210955790493,
+            0.3096451307466777
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.6171875016110274,
+          "interval95": [
+            -1.272169842405149,
+            0.010756145509870337
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.28707301758336834,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 8,
+      "decision": {
+        "B": {
+          "gain": 0.3101763526460978,
+          "interval95": [
+            0.2769250418713292,
+            0.3467755527896476
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2658190698533055,
+          "interval95": [
+            0.2287491528861425,
+            0.30281643187017615
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.37371121466012946,
+          "interval95": [
+            -1.0195952763011624,
+            0.2674443197083209
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.27682450057588315,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 9,
+      "decision": {
+        "B": {
+          "gain": 0.3402410438442658,
+          "interval95": [
+            0.3054323340248339,
+            0.3715933572549023
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.3006815280656453,
+          "interval95": [
+            0.26628441537026354,
+            0.3345865741047474
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.33354648465904774,
+          "interval95": [
+            -0.49459017407596306,
+            1.2345926223554684
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.29748755791779447,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 10,
+      "decision": {
+        "B": {
+          "gain": 0.32933085200741274,
+          "interval95": [
+            0.27927670337784866,
+            0.3757354716842376
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2777511879542016,
+          "interval95": [
+            0.23387239110735225,
+            0.3212033971850817
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.5400885713945704,
+          "interval95": [
+            -0.3478423071586206,
+            1.4356572909916065
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2821323200545779,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 11,
+      "decision": {
+        "B": {
+          "gain": 0.3168032216493962,
+          "interval95": [
+            0.27258367464708194,
+            0.35763286235635905
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2799976474731676,
+          "interval95": [
+            0.23183277032221355,
+            0.3241971270073473
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.826897589884015,
+          "interval95": [
+            0.11543879650882714,
+            1.607967146963308
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.27463649955183556,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 12,
+      "decision": {
+        "B": {
+          "gain": 0.33087120797815184,
+          "interval95": [
+            0.29460926096077383,
+            0.363311001698351
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.28336377333048735,
+          "interval95": [
+            0.25266606489652843,
+            0.31220956646320214
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.1302092361232303,
+          "interval95": [
+            -0.8111427272162136,
+            1.0612527985320295
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.28417183726299944,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 13,
+      "decision": {
+        "B": {
+          "gain": 0.3024293234421087,
+          "interval95": [
+            0.24498217112032974,
+            0.35268313775430266
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2650625245643553,
+          "interval95": [
+            0.21527957423096852,
+            0.31023860374061324
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.6045186553435412,
+          "interval95": [
+            -1.6941813410331792,
+            0.39616293923307344
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2825271586298753,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 14,
+      "decision": {
+        "B": {
+          "gain": 0.3226669013395138,
+          "interval95": [
+            0.27823533267530476,
+            0.3635323949694465
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.28341253339624517,
+          "interval95": [
+            0.2338117995201605,
+            0.3289502358354246
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.8883201207887433,
+          "interval95": [
+            -0.11669063420579702,
+            1.8212541646639777
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.27702618600031226,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 15,
+      "decision": {
+        "B": {
+          "gain": 0.2892195704820787,
+          "interval95": [
+            0.2601406414826016,
+            0.3184115876655102
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2526477245083324,
+          "interval95": [
+            0.22412603934395692,
+            0.28080419856404787
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.5308527792506885,
+          "interval95": [
+            -1.3163454077507077,
+            0.21478903527024654
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.28313333516643746,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 16,
+      "decision": {
+        "B": {
+          "gain": 0.2533055623368139,
+          "interval95": [
+            0.17444557414460493,
+            0.31604782696484823
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.20678246022885471,
+          "interval95": [
+            0.13276101880030516,
+            0.2696290033299915
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -1.2212803343707177,
+          "interval95": [
+            -2.7069234890467477,
+            0.1732797695689396
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2815622360473006,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 17,
+      "decision": {
+        "B": {
+          "gain": 0.2999469014610565,
+          "interval95": [
+            0.2584576387947922,
+            0.33912094555916705
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2603294148386408,
+          "interval95": [
+            0.22130028683461317,
+            0.2984546445831731
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.8655927136662208,
+          "interval95": [
+            -1.53645290874677,
+            -0.17020543337743294
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2725615619927241,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 18,
+      "decision": {
+        "B": {
+          "gain": 0.3235783137312628,
+          "interval95": [
+            0.27659978384433886,
+            0.36737125505075807
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2861783434255005,
+          "interval95": [
+            0.242372654443416,
+            0.3293615163066157
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.4188189324555262,
+          "interval95": [
+            -1.3712835450856808,
+            0.4517655752569455
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.29937068559339164,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 19,
+      "decision": {
+        "B": {
+          "gain": 0.31033390416036644,
+          "interval95": [
+            0.2656210524788016,
+            0.34993281395206727
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2597068287681208,
+          "interval95": [
+            0.22343799106526202,
+            0.29285385085236115
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.0029632796918605954,
+          "interval95": [
+            -0.9957125380496672,
+            1.0184851461360878
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.27693031140251323,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 20,
+      "decision": {
+        "B": {
+          "gain": 0.3181150006976813,
+          "interval95": [
+            0.2740643465043166,
+            0.35710157393854314
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2733775365663308,
+          "interval95": [
+            0.2293213506992493,
+            0.31551702805168075
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.21792755673728711,
+          "interval95": [
+            -0.6142594896264517,
+            1.0314052574802675
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.27254731890783257,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 21,
+      "decision": {
+        "B": {
+          "gain": 0.32339621548436337,
+          "interval95": [
+            0.2794675254611502,
+            0.362436859741104
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.28264223698950464,
+          "interval95": [
+            0.24390837625081008,
+            0.32035122477403405
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.21319876334289473,
+          "interval95": [
+            -1.0262807073444686,
+            0.6025062343141672
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2914730472240855,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 22,
+      "decision": {
+        "B": {
+          "gain": 0.32500370767562015,
+          "interval95": [
+            0.2884556063926125,
+            0.361649977215868
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2868132321668696,
+          "interval95": [
+            0.250004540361645,
+            0.3207931432477575
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 1.5320851499764345,
+          "interval95": [
+            0.7060524353653755,
+            2.4859761258967037
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2870384190914559,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 23,
+      "decision": {
+        "B": {
+          "gain": 0.3222451840145293,
+          "interval95": [
+            0.28009905208441577,
+            0.3631004640382785
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2845249911685017,
+          "interval95": [
+            0.2405886358731102,
+            0.32655609198356056
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.18367691519038973,
+          "interval95": [
+            -0.7274755575326917,
+            1.133930481835185
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.28729381913696295,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 24,
+      "decision": {
+        "B": {
+          "gain": 0.33078191844004956,
+          "interval95": [
+            0.28827454179512335,
+            0.37152937127288965
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.282818868321168,
+          "interval95": [
+            0.24892078208712926,
+            0.3159116182117891
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.8098073292867419,
+          "interval95": [
+            -1.5751273166244202,
+            -0.05458325820341014
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2967038195672578,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 25,
+      "decision": {
+        "B": {
+          "gain": 0.319845455173296,
+          "interval95": [
+            0.2764568815083645,
+            0.36058921528369586
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.29036239729306634,
+          "interval95": [
+            0.24406418884829986,
+            0.3323151283981095
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.8639842715556721,
+          "interval95": [
+            -1.6233980077107784,
+            -0.11579584770566521
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.3025575919954333,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 26,
+      "decision": {
+        "B": {
+          "gain": 0.31255791860704263,
+          "interval95": [
+            0.2691371002029845,
+            0.35210649505294267
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2775959803364164,
+          "interval95": [
+            0.23531528928956216,
+            0.3157007498616296
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.5773578557409844,
+          "interval95": [
+            -1.329802181029069,
+            0.22013616101061897
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2787747540187998,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 27,
+      "decision": {
+        "B": {
+          "gain": 0.31245236245256724,
+          "interval95": [
+            0.2710734788658413,
+            0.3520291330335375
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.26919345222755464,
+          "interval95": [
+            0.2286829908157035,
+            0.30524749280002444
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.9497797763559302,
+          "interval95": [
+            -1.8044953692593502,
+            -0.11376753627713258
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.28283485895071037,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 28,
+      "decision": {
+        "B": {
+          "gain": 0.33536330520207014,
+          "interval95": [
+            0.28979366851256955,
+            0.3782625812175259
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2845925571329858,
+          "interval95": [
+            0.2432539760363801,
+            0.3247803897883319
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.18950452661500772,
+          "interval95": [
+            -0.48657440110513633,
+            0.8685702341997829
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.28844123734226457,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 29,
+      "decision": {
+        "B": {
+          "gain": 0.3107652248606909,
+          "interval95": [
+            0.2655508075448432,
+            0.35224374714135076
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.28385438150651454,
+          "interval95": [
+            0.23973573526964373,
+            0.32543070281846115
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 1.1666266078524674,
+          "interval95": [
+            0.4987648581384761,
+            1.7981393155656349
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2861609357780427,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 30,
+      "decision": {
+        "B": {
+          "gain": 0.3071351714611178,
+          "interval95": [
+            0.26808167417456563,
+            0.34665859041359387
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.27675940081432493,
+          "interval95": [
+            0.23412853951384258,
+            0.3200320005455094
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.17952776498109263,
+          "interval95": [
+            -0.8637381119796727,
+            0.4684006949798368
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.27553431411345464,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 31,
+      "decision": {
+        "B": {
+          "gain": 0.3274293709633247,
+          "interval95": [
+            0.29347212646022885,
+            0.35833986345383045
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2851570137563241,
+          "interval95": [
+            0.2527314050799762,
+            0.3195357270000715
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.8689122220995849,
+          "interval95": [
+            0.029937757619798843,
+            1.695687294109387
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.288989408454434,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 32,
+      "decision": {
+        "B": {
+          "gain": 0.2971121537531962,
+          "interval95": [
+            0.25832983800276116,
+            0.3380498155463224
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2705487525710788,
+          "interval95": [
+            0.22745475262219203,
+            0.3103182564564442
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.35514530953457285,
+          "interval95": [
+            -1.4689992600523671,
+            0.7707974138480558
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2800919697422035,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 33,
+      "decision": {
+        "B": {
+          "gain": 0.32717636550105356,
+          "interval95": [
+            0.28653855038621334,
+            0.36379887684763473
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.30392953646411314,
+          "interval95": [
+            0.26279781571059707,
+            0.3396833605970477
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.770731785943305,
+          "interval95": [
+            -0.30369676686138675,
+            2.012809080755753
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2958304523598182,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 34,
+      "decision": {
+        "B": {
+          "gain": 0.30143105239255663,
+          "interval95": [
+            0.258039433669482,
+            0.3435637754387586
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2608851199483426,
+          "interval95": [
+            0.2218339014921205,
+            0.29674784636374174
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -1.0153913128215897,
+          "interval95": [
+            -1.8483205810344803,
+            -0.24562070849551784
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2664814833945549,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 35,
+      "decision": {
+        "B": {
+          "gain": 0.3159241475148067,
+          "interval95": [
+            0.26664229179119137,
+            0.3604227960997872
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2759724616872745,
+          "interval95": [
+            0.22968722187843338,
+            0.32087256214429677
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.9034190446111922,
+          "interval95": [
+            -1.7974079365763858,
+            -0.09998081631541228
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2979076495720344,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 36,
+      "decision": {
+        "B": {
+          "gain": 0.3373138349144472,
+          "interval95": [
+            0.2938796056890731,
+            0.3791480077422554
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2989826415396889,
+          "interval95": [
+            0.25681953334862945,
+            0.3392899308469269
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.42695308876791993,
+          "interval95": [
+            -0.35699688242705935,
+            1.2021309419201036
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2988380309716915,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 37,
+      "decision": {
+        "B": {
+          "gain": 0.3484048039848586,
+          "interval95": [
+            0.29375431531499824,
+            0.39864974264443515
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.30383533944666397,
+          "interval95": [
+            0.2572549619213939,
+            0.34851939453369557
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.27910678032067104,
+          "interval95": [
+            -0.513372294396835,
+            1.1249436787587346
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.30027781190238023,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 38,
+      "decision": {
+        "B": {
+          "gain": 0.3053808028548213,
+          "interval95": [
+            0.27539492592227494,
+            0.33222242684317677
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.26934770386108775,
+          "interval95": [
+            0.2344867717529733,
+            0.30260832535906457
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.24174776704819081,
+          "interval95": [
+            -0.7131330556899439,
+            1.216030560848927
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2739857266862594,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 39,
+      "decision": {
+        "B": {
+          "gain": 0.30191052963739395,
+          "interval95": [
+            0.25743505844221415,
+            0.34461463981195173
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.30264452432234257,
+          "interval95": [
+            0.2517826553664066,
+            0.35463214049294717
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -1.0981254110890653,
+          "interval95": [
+            -2.161324951083064,
+            -0.07955165240766301
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2878384989365953,
+      "penalties": {
+        "B": 0.01,
+        "H": 1.0,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 40,
+      "decision": {
+        "B": {
+          "gain": 0.3354871419528681,
+          "interval95": [
+            0.2957707734674981,
+            0.37160729207221516
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2868317622597619,
+          "interval95": [
+            0.25423309749559003,
+            0.3161170734189789
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 1.1453304917919436,
+          "interval95": [
+            0.10951036306636015,
+            2.2747401466619994
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2971216381015622,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 41,
+      "decision": {
+        "B": {
+          "gain": 0.32848606087291665,
+          "interval95": [
+            0.2813363786749287,
+            0.37211289482362414
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2856366632890017,
+          "interval95": [
+            0.23868375431415742,
+            0.3308319437384263
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.21929644414041435,
+          "interval95": [
+            -0.8933017310596494,
+            0.41079594897286886
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2785514665856633,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 42,
+      "decision": {
+        "B": {
+          "gain": 0.29968872030788585,
+          "interval95": [
+            0.25113499919571874,
+            0.34470061274379155
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2598997786249323,
+          "interval95": [
+            0.2152775665738858,
+            0.30117042821406115
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.27794036021364993,
+          "interval95": [
+            -1.070508878748662,
+            0.4690251544305279
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.277053826726546,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 43,
+      "decision": {
+        "B": {
+          "gain": 0.31583723202586833,
+          "interval95": [
+            0.27867254468793784,
+            0.3528583194657421
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.3387843476872141,
+          "interval95": [
+            0.2969509516497289,
+            0.37800194972276935
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.11976441664155335,
+          "interval95": [
+            -1.0570234347717897,
+            1.333182612274938
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.28661326306567636,
+      "penalties": {
+        "B": 0.01,
+        "H": 1.0,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 44,
+      "decision": {
+        "B": {
+          "gain": 0.3232215471350378,
+          "interval95": [
+            0.27458437522403484,
+            0.3695351515927091
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2863220977641756,
+          "interval95": [
+            0.24301656368469665,
+            0.3294505702570932
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.5306828504660579,
+          "interval95": [
+            -0.39922176572781887,
+            1.4859855147715408
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2841388423726353,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 45,
+      "decision": {
+        "B": {
+          "gain": 0.30961665240349945,
+          "interval95": [
+            0.26189168682014197,
+            0.3539509390133201
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2655757387283746,
+          "interval95": [
+            0.22369649397886857,
+            0.3041880941099698
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.5053204733640947,
+          "interval95": [
+            -1.4729531206914672,
+            0.40211130378987137
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.28284496196141173,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 46,
+      "decision": {
+        "B": {
+          "gain": 0.3186840820876561,
+          "interval95": [
+            0.28048009918076167,
+            0.35340600504665826
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.28345370849194906,
+          "interval95": [
+            0.24289613171093724,
+            0.32189873639469757
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.41340447061125335,
+          "interval95": [
+            -0.4013802987963474,
+            1.2048135157590472
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2845257312849878,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 47,
+      "decision": {
+        "B": {
+          "gain": 0.323693582466111,
+          "interval95": [
+            0.28144933317861276,
+            0.3621506163546832
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.27278456691211805,
+          "interval95": [
+            0.23567657592361652,
+            0.3071380902664441
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.3747287718188538,
+          "interval95": [
+            -0.2846285616540317,
+            1.1050882641641975
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.27949015790822873,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 48,
+      "decision": {
+        "B": {
+          "gain": 0.3244638517843199,
+          "interval95": [
+            0.2839364700667828,
+            0.3625142029840801
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.28726284825993875,
+          "interval95": [
+            0.24608449230172433,
+            0.32435649254706556
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.07197015099269634,
+          "interval95": [
+            -0.8037087783395112,
+            0.9982321235300626
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2859073408658114,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 49,
+      "decision": {
+        "B": {
+          "gain": 0.3072454209553953,
+          "interval95": [
+            0.26740955886275536,
+            0.3457195427333074
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2787823046997864,
+          "interval95": [
+            0.24010685801898607,
+            0.3144872379871809
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.08201447094787648,
+          "interval95": [
+            -0.9658870979619972,
+            0.8413419501787507
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2927227640563149,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 50,
+      "decision": {
+        "B": {
+          "gain": 0.33320330297425405,
+          "interval95": [
+            0.29397363076792926,
+            0.36807736415605
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.29416636355704184,
+          "interval95": [
+            0.247831452855346,
+            0.33684298368541643
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.5788144322387202,
+          "interval95": [
+            -0.6669079582349714,
+            1.9504169845009507
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2949739078918082,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 51,
+      "decision": {
+        "B": {
+          "gain": 0.32511110488675865,
+          "interval95": [
+            0.28686922450156455,
+            0.3587570927852225
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.29396390292353625,
+          "interval95": [
+            0.25465820737786926,
+            0.3300563999585948
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.6039126577829853,
+          "interval95": [
+            -0.15153667222843997,
+            1.3761076139661856
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.29680127453305816,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 52,
+      "decision": {
+        "B": {
+          "gain": 0.3285306131858634,
+          "interval95": [
+            0.28964886005475843,
+            0.3648199172981395
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2930156719050798,
+          "interval95": [
+            0.25597547335534626,
+            0.32905838515581415
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.053260153301257274,
+          "interval95": [
+            -0.8758390978724686,
+            0.9307367681904728
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.285860442540398,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 53,
+      "decision": {
+        "B": {
+          "gain": 0.31605704056120076,
+          "interval95": [
+            0.27542472696185666,
+            0.354218425231082
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.27469063341250866,
+          "interval95": [
+            0.23176836922630986,
+            0.31857697067693685
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -1.2522162840099405,
+          "interval95": [
+            -2.1535630924807747,
+            -0.4631372774427163
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.28415184723947096,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 54,
+      "decision": {
+        "B": {
+          "gain": 0.3154225375474633,
+          "interval95": [
+            0.26248641527345573,
+            0.3628201724794399
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2781272086085185,
+          "interval95": [
+            0.21969140989234298,
+            0.32690641202940335
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.4549118088945756,
+          "interval95": [
+            -0.5144236666371975,
+            1.372526588603808
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2861027299562686,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 55,
+      "decision": {
+        "B": {
+          "gain": 0.3335205132483229,
+          "interval95": [
+            0.29100983855053025,
+            0.3723178071477708
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2931842285658677,
+          "interval95": [
+            0.2522024433609134,
+            0.33060201645921444
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.40539069704765945,
+          "interval95": [
+            -1.4488612061655544,
+            0.7045722130294854
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.30044076442576284,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 56,
+      "decision": {
+        "B": {
+          "gain": 0.29571018095392265,
+          "interval95": [
+            0.2521922474086763,
+            0.33760147187478773
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.25776850508683624,
+          "interval95": [
+            0.21161534369667226,
+            0.303480735793144
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.5014758149690153,
+          "interval95": [
+            -1.490992089452968,
+            0.5031826366068624
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.27505547772865524,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 57,
+      "decision": {
+        "B": {
+          "gain": 0.3294776705592045,
+          "interval95": [
+            0.2864033799641662,
+            0.36934102033260935
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.28182159330918843,
+          "interval95": [
+            0.24246852315427828,
+            0.31989394184468795
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 1.0849511717217022,
+          "interval95": [
+            0.19376685762104842,
+            2.0308570414302505
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2841969675379882,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 58,
+      "decision": {
+        "B": {
+          "gain": 0.3153665043283368,
+          "interval95": [
+            0.259726862306389,
+            0.3696608922493972
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.28146654368530744,
+          "interval95": [
+            0.22796333368185714,
+            0.330091720141288
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.05754021478360277,
+          "interval95": [
+            -0.8410997326495683,
+            0.9576590496016915
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.27964707268177413,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 59,
+      "decision": {
+        "B": {
+          "gain": 0.3152831170006748,
+          "interval95": [
+            0.2809124059856765,
+            0.34813880340135256
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.27583300034138025,
+          "interval95": [
+            0.23582751220796358,
+            0.31651602713953847
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.9583432487220429,
+          "interval95": [
+            -1.9564396424927943,
+            -0.031134535998066943
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.28570501035652063,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 60,
+      "decision": {
+        "B": {
+          "gain": 0.30452165621758,
+          "interval95": [
+            0.25710469714582657,
+            0.34766578107168405
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2631553161840725,
+          "interval95": [
+            0.21992443252923743,
+            0.30414627956163665
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.6457559878067077,
+          "interval95": [
+            -1.4261804097732058,
+            0.1252020702227314
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2620229394028496,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 61,
+      "decision": {
+        "B": {
+          "gain": 0.32050700264792564,
+          "interval95": [
+            0.28690167964262514,
+            0.35572368178781505
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2897024137345816,
+          "interval95": [
+            0.25420524787508053,
+            0.3254164277204613
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.732615260166078,
+          "interval95": [
+            -0.09747478490518871,
+            1.6937358134985672
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.28745725572084324,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 62,
+      "decision": {
+        "B": {
+          "gain": 0.3178589470034846,
+          "interval95": [
+            0.27384250127371845,
+            0.3576160787006402
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.27392868635252365,
+          "interval95": [
+            0.23458709855447676,
+            0.3129907217354948
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.5703329544005615,
+          "interval95": [
+            0.018038081985805973,
+            1.1080473713046102
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2695672011475876,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 63,
+      "decision": {
+        "B": {
+          "gain": 0.2995629398772064,
+          "interval95": [
+            0.25811500371913004,
+            0.337981526373189
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.30729640188141716,
+          "interval95": [
+            0.2675872789086321,
+            0.34828805785961
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.16492449508878587,
+          "interval95": [
+            -1.2588022224922304,
+            0.9506879997744062
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2602346497933632,
+      "penalties": {
+        "B": 0.01,
+        "H": 1.0,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 64,
+      "decision": {
+        "B": {
+          "gain": 0.27729189009103405,
+          "interval95": [
+            0.22907562146540855,
+            0.3239195229505114
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.23000192307111822,
+          "interval95": [
+            0.18545277478016475,
+            0.27280436024791516
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -1.3674397440526116,
+          "interval95": [
+            -2.2545556256319426,
+            -0.5004008490197128
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.23668228501368094,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 65,
+      "decision": {
+        "B": {
+          "gain": 0.3248484807600237,
+          "interval95": [
+            0.27983971126922724,
+            0.36898128863431334
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2838596076601122,
+          "interval95": [
+            0.23705958925512186,
+            0.32600165667471726
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.23780606196982723,
+          "interval95": [
+            -0.40147220926573246,
+            0.8401490833476208
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.27524271857079796,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 66,
+      "decision": {
+        "B": {
+          "gain": 0.3162551345815233,
+          "interval95": [
+            0.2763719528352006,
+            0.3571577395171136
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.279158952007041,
+          "interval95": [
+            0.24178492715343736,
+            0.3154476570192514
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.6075099815613197,
+          "interval95": [
+            -1.3553907964910712,
+            0.027109587350777037
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.28439922047533506,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 67,
+      "decision": {
+        "B": {
+          "gain": 0.3235311638002567,
+          "interval95": [
+            0.2801104176042736,
+            0.36464965938146365
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2734463902421498,
+          "interval95": [
+            0.23026372671377748,
+            0.31214537215665994
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.3568882122152052,
+          "interval95": [
+            -0.9066359659215459,
+            0.13772180504074685
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2812883914490082,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 68,
+      "decision": {
+        "B": {
+          "gain": 0.32353840094504804,
+          "interval95": [
+            0.2876778443321849,
+            0.35803377609492226
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.29684601142449163,
+          "interval95": [
+            0.2567341175378983,
+            0.3345198971810113
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.4966175332509007,
+          "interval95": [
+            -1.4026802216786343,
+            0.3604536767750119
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2979959396306644,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 69,
+      "decision": {
+        "B": {
+          "gain": 0.31079833086158304,
+          "interval95": [
+            0.2766286307294959,
+            0.34089705434450696
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2665435635293534,
+          "interval95": [
+            0.2362082918453608,
+            0.2953574063109146
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.31292012695393384,
+          "interval95": [
+            -0.5308936098844259,
+            1.2281630845883957
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.27582309689697004,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 70,
+      "decision": {
+        "B": {
+          "gain": 0.32602969342078436,
+          "interval95": [
+            0.2839058063870593,
+            0.3671720411915611
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.3424457841270544,
+          "interval95": [
+            0.2891463244153406,
+            0.39680718391160946
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.477041195837913,
+          "interval95": [
+            -0.4314540895201177,
+            1.4197334447792163
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2790699399427494,
+      "penalties": {
+        "B": 0.01,
+        "H": 1.0,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 71,
+      "decision": {
+        "B": {
+          "gain": 0.34114807980955464,
+          "interval95": [
+            0.2939525524900205,
+            0.38332820779315974
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.3016044182383668,
+          "interval95": [
+            0.2502242337174274,
+            0.3475000896361778
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.3678636727329113,
+          "interval95": [
+            -0.5436489881611577,
+            1.270270800575843
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.3003323884893804,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 72,
+      "decision": {
+        "B": {
+          "gain": 0.3194613329581045,
+          "interval95": [
+            0.2727761054774957,
+            0.362541989184725
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2694392316454841,
+          "interval95": [
+            0.22897448556018143,
+            0.31018662792625723
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.16119414511296223,
+          "interval95": [
+            -1.1444451965403029,
+            0.8857893187977813
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2830117472183076,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 73,
+      "decision": {
+        "B": {
+          "gain": 0.30858234099882975,
+          "interval95": [
+            0.26472978114365436,
+            0.34809014755326395
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2695916570500224,
+          "interval95": [
+            0.2312288708916389,
+            0.30274579497430126
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.28850356455534026,
+          "interval95": [
+            -0.4875919915544814,
+            1.056009622364753
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.282661043256874,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 74,
+      "decision": {
+        "B": {
+          "gain": 0.32689387889557264,
+          "interval95": [
+            0.28205774102116216,
+            0.3692307683787101
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.33482004360819506,
+          "interval95": [
+            0.27825459082511567,
+            0.38798573717088314
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.192169674486044,
+          "interval95": [
+            -0.9267776803770686,
+            0.4913826001285527
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.28878689219451625,
+      "penalties": {
+        "B": 0.01,
+        "H": 1.0,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 75,
+      "decision": {
+        "B": {
+          "gain": 0.30023257181601404,
+          "interval95": [
+            0.2575561383201867,
+            0.33901320060135254
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2516242101254501,
+          "interval95": [
+            0.2125100811124247,
+            0.2903093112240798
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.6111819253945109,
+          "interval95": [
+            -1.4879254017089223,
+            0.2088973449506397
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2779863212108781,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 76,
+      "decision": {
+        "B": {
+          "gain": 0.31466764898912647,
+          "interval95": [
+            0.2758200211677089,
+            0.35306211871318477
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2756039892155905,
+          "interval95": [
+            0.23811403649933627,
+            0.31100923503524225
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.18111141687545,
+          "interval95": [
+            -0.5429411607170499,
+            0.9401231520088887
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2708488758381352,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 77,
+      "decision": {
+        "B": {
+          "gain": 0.31181138900904726,
+          "interval95": [
+            0.260398072033944,
+            0.35872804677547293
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.26951275208736336,
+          "interval95": [
+            0.22979801032160152,
+            0.3065920433935714
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.4634313351689755,
+          "interval95": [
+            -1.249274938066019,
+            0.3004384646606554
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2716393756274934,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 78,
+      "decision": {
+        "B": {
+          "gain": 0.3348523145850204,
+          "interval95": [
+            0.28877595947270196,
+            0.37729442553369874
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.28944187252468123,
+          "interval95": [
+            0.24625824459303228,
+            0.3295214272758152
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.7494757404878243,
+          "interval95": [
+            0.08114379348131473,
+            1.4434604911599924
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2758260796587393,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 79,
+      "decision": {
+        "B": {
+          "gain": 0.31050305330663386,
+          "interval95": [
+            0.26380088566833537,
+            0.35690092045816285
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.26063808079954087,
+          "interval95": [
+            0.21923417874550186,
+            0.3023640615445708
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.7583583321141993,
+          "interval95": [
+            -1.7712720144553034,
+            0.2218752598977236
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2704172927967282,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 80,
+      "decision": {
+        "B": {
+          "gain": 0.32175109070889973,
+          "interval95": [
+            0.2791281218378753,
+            0.3613581169172338
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.285153460502803,
+          "interval95": [
+            0.24469980378463213,
+            0.32247938650007296
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.2672573677004551,
+          "interval95": [
+            -0.5469786347692274,
+            1.0919873003521756
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.27918752881723874,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 81,
+      "decision": {
+        "B": {
+          "gain": 0.31964101022510694,
+          "interval95": [
+            0.27568989329051086,
+            0.3608909617577517
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2596567898078662,
+          "interval95": [
+            0.22603484595490586,
+            0.29189248861277917
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.03445140666553543,
+          "interval95": [
+            -0.6514597389829558,
+            0.7539042686002352
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.26800873085263144,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 82,
+      "decision": {
+        "B": {
+          "gain": 0.31570942223746223,
+          "interval95": [
+            0.27208976669081697,
+            0.3585856867770203
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.27931411886067625,
+          "interval95": [
+            0.23493473189042208,
+            0.3201217629476683
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.2812638056179256,
+          "interval95": [
+            -0.36403950808016666,
+            0.9151324736711888
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2876663818331263,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 83,
+      "decision": {
+        "B": {
+          "gain": 0.3190441580201011,
+          "interval95": [
+            0.273614634367353,
+            0.3612766331718507
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.27966792837522003,
+          "interval95": [
+            0.23587564221373392,
+            0.31839055566302327
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.1492642652202716,
+          "interval95": [
+            -0.536720488939967,
+            0.8053125710597383
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.29072444676741527,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 84,
+      "decision": {
+        "B": {
+          "gain": 0.3181124034878685,
+          "interval95": [
+            0.27139355400502024,
+            0.36078573835119865
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.33032664575016424,
+          "interval95": [
+            0.27373971797591795,
+            0.38468080596568816
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.03156442210345617,
+          "interval95": [
+            -1.0656594620195856,
+            1.2369623503146383
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.28144174782609643,
+      "penalties": {
+        "B": 0.01,
+        "H": 1.0,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 85,
+      "decision": {
+        "B": {
+          "gain": 0.31914673813287764,
+          "interval95": [
+            0.2790489568756598,
+            0.35599142719876165
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2671222995781468,
+          "interval95": [
+            0.22557742669114894,
+            0.30608793623434705
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.194195692161419,
+          "interval95": [
+            -0.4919908745251113,
+            0.9127182244761805
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2785288640543585,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 86,
+      "decision": {
+        "B": {
+          "gain": 0.34142945189699325,
+          "interval95": [
+            0.297511111476702,
+            0.381907487537376
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2808300272744063,
+          "interval95": [
+            0.23885366333692226,
+            0.32383379961932635
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.3232755196761743,
+          "interval95": [
+            -0.47461096344079967,
+            1.0889030480409019
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.28706760562434297,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 87,
+      "decision": {
+        "B": {
+          "gain": 0.32616805878122634,
+          "interval95": [
+            0.28655632308145706,
+            0.3639841919020592
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.27927137498546717,
+          "interval95": [
+            0.24335093247023634,
+            0.3121603971673162
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.05704218295276024,
+          "interval95": [
+            -0.5496075707171056,
+            0.6389266015775035
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2774356892017792,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 88,
+      "decision": {
+        "B": {
+          "gain": 0.3384299630775366,
+          "interval95": [
+            0.29545971599113113,
+            0.3823687932714251
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2887384826506656,
+          "interval95": [
+            0.2546036393256956,
+            0.3233050026686133
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.11893225686073948,
+          "interval95": [
+            -1.0214751311041965,
+            0.7913081281678767
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2800940970303437,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 89,
+      "decision": {
+        "B": {
+          "gain": 0.3141150228613181,
+          "interval95": [
+            0.26634185637399654,
+            0.3568080276635493
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.26875516617968076,
+          "interval95": [
+            0.22062022135656806,
+            0.31190606862256165
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.49819225804016376,
+          "interval95": [
+            -1.5992989443725953,
+            0.5837815758679227
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.27555507562162895,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 90,
+      "decision": {
+        "B": {
+          "gain": 0.33282182698585994,
+          "interval95": [
+            0.2905279989512125,
+            0.3706762439168743
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.28401625398855057,
+          "interval95": [
+            0.2424225993452635,
+            0.32260966986233797
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.41770544449480257,
+          "interval95": [
+            -1.2787254292869126,
+            0.4246400290070863
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2924080272855276,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 91,
+      "decision": {
+        "B": {
+          "gain": 0.32676352414748044,
+          "interval95": [
+            0.29281201357453907,
+            0.35827026176246174
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2903407680331821,
+          "interval95": [
+            0.25086956364064206,
+            0.326196954469215
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 1.564283796890148,
+          "interval95": [
+            0.5920515859050443,
+            2.5365488875338613
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2902265274182325,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 92,
+      "decision": {
+        "B": {
+          "gain": 0.34371884100826455,
+          "interval95": [
+            0.30124599716372485,
+            0.38522275153369606
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.30839474691659885,
+          "interval95": [
+            0.27102471912923337,
+            0.3459090804067505
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.33592672909441595,
+          "interval95": [
+            -0.5186591531253473,
+            1.1910406604349468
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.31035534851746227,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 93,
+      "decision": {
+        "B": {
+          "gain": 0.2976720882309275,
+          "interval95": [
+            0.2398233446611523,
+            0.34792707086769925
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.26511441237195144,
+          "interval95": [
+            0.2212892207472555,
+            0.3086361338541126
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.7556681912559065,
+          "interval95": [
+            -1.7537337729828602,
+            0.1017513341984045
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.274793341967829,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 94,
+      "decision": {
+        "B": {
+          "gain": 0.3059791813749887,
+          "interval95": [
+            0.2624874885458381,
+            0.34796531783761403
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.28455788339396715,
+          "interval95": [
+            0.23948301220171878,
+            0.3271162466950205
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.7975031204625502,
+          "interval95": [
+            -0.04803237399236293,
+            1.6914777175129554
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.27669284731723087,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 95,
+      "decision": {
+        "B": {
+          "gain": 0.30813339464333855,
+          "interval95": [
+            0.26064248020856856,
+            0.3515205003324336
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.281983555064826,
+          "interval95": [
+            0.2441321311637741,
+            0.3183549322362124
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -1.478000464662449,
+          "interval95": [
+            -2.2694710465664487,
+            -0.7015761719103861
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.3059821278482402,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 96,
+      "decision": {
+        "B": {
+          "gain": 0.31765795301404265,
+          "interval95": [
+            0.2678466595117149,
+            0.3625450767508151
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.27145139864915446,
+          "interval95": [
+            0.22376201252398403,
+            0.31530198817952143
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.5482488615093056,
+          "interval95": [
+            -1.2755103960334806,
+            0.14424220800552606
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.28105905346187,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 97,
+      "decision": {
+        "B": {
+          "gain": 0.31634178056208995,
+          "interval95": [
+            0.272833706907116,
+            0.35443088369955533
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.29751249249528045,
+          "interval95": [
+            0.2506287884106987,
+            0.33846606104749744
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.539072357641485,
+          "interval95": [
+            -0.4528095060110021,
+            1.450489417468098
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.30535814179623566,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 98,
+      "decision": {
+        "B": {
+          "gain": 0.31027903431947845,
+          "interval95": [
+            0.27396558625733086,
+            0.34418925920166105
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.2794807220511859,
+          "interval95": [
+            0.23825463587341858,
+            0.31812427625646733
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.5218535045233242,
+          "interval95": [
+            -0.10097295085570135,
+            1.088512117291894
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2896286648371319,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "signal",
+      "rep": 99,
+      "decision": {
+        "B": {
+          "gain": 0.3091318579466331,
+          "interval95": [
+            0.2655838503780399,
+            0.35256243705067447
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.27471748871343904,
+          "interval95": [
+            0.22851221209355985,
+            0.31913605690645447
+          ],
+          "pass": true
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.19141220281757915,
+          "interval95": [
+            -0.8997178324573254,
+            0.4511865348055835
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": true
+      },
+      "oracle_gain_vs_H_mean": 0.2733107007415041,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 0,
+      "decision": {
+        "B": {
+          "gain": 0.09028445894952053,
+          "interval95": [
+            0.059473604250039974,
+            0.12151551911282525
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.002346174142759727,
+          "interval95": [
+            0.0005296135475359204,
+            0.00440344663517282
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.5521977015011624,
+          "interval95": [
+            -0.13367809724017995,
+            1.269408174094296
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 1,
+      "decision": {
+        "B": {
+          "gain": 0.0914398504581081,
+          "interval95": [
+            0.05617702590424059,
+            0.13101262156505689
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -8.46501240627795e-05,
+          "interval95": [
+            -0.00050778189949518,
+            0.00034369044749310004
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.2968855907584501,
+          "interval95": [
+            -0.44377696451848203,
+            1.086717940008094
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 2,
+      "decision": {
+        "B": {
+          "gain": 0.10688284471575604,
+          "interval95": [
+            0.06493495189840273,
+            0.14890613182984555
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.006748063079267452,
+          "interval95": [
+            -0.00032306729685658284,
+            0.015998730878415853
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.8461383901619663,
+          "interval95": [
+            0.028804227398969855,
+            1.708001744186503
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.001,
+        "H": 0.0001,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 3,
+      "decision": {
+        "B": {
+          "gain": 0.09435897682210603,
+          "interval95": [
+            0.04672931781668546,
+            0.1435458201995085
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.002034054576094957,
+          "interval95": [
+            0.0005926481989362326,
+            0.0034204210858792324
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.9348416485583747,
+          "interval95": [
+            0.16004880925055848,
+            1.7981397886110284
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 4,
+      "decision": {
+        "B": {
+          "gain": 0.08521365900604694,
+          "interval95": [
+            0.04860222592075543,
+            0.12707415931054003
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 5.843314622167028e-07,
+          "interval95": [
+            -6.393505392876531e-06,
+            7.293470613839443e-06
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 1.051320600638156,
+          "interval95": [
+            0.27996383518414325,
+            1.9250836808102105
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 5,
+      "decision": {
+        "B": {
+          "gain": 0.09413265498222467,
+          "interval95": [
+            0.05446511524583572,
+            0.13488688707802174
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.0011043676166373473,
+          "interval95": [
+            -0.0006095409961811349,
+            0.0028254405473875505
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.26106521984324066,
+          "interval95": [
+            -0.9908520147779895,
+            0.5120767619141985
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 6,
+      "decision": {
+        "B": {
+          "gain": 0.07990950374113914,
+          "interval95": [
+            0.04702193585283723,
+            0.1151485923852646
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.0002778205500373332,
+          "interval95": [
+            -0.0005004084471660342,
+            0.0010610970750173606
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.7932300800420478,
+          "interval95": [
+            -1.6568847691412554,
+            0.05451604909119003
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 7,
+      "decision": {
+        "B": {
+          "gain": 0.09907686195971055,
+          "interval95": [
+            0.058316784290010186,
+            0.14026842087554892
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.0007518648981055254,
+          "interval95": [
+            -0.002511117903294674,
+            0.0009390319723168248
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.6977016656411038,
+          "interval95": [
+            -1.49165124074285,
+            0.07648081954643965
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 8,
+      "decision": {
+        "B": {
+          "gain": 0.0879267398242709,
+          "interval95": [
+            0.05999471381210328,
+            0.11825152116833806
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.0019319960035283357,
+          "interval95": [
+            -0.008742956004895214,
+            0.01223162893834672
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.4120385683857311,
+          "interval95": [
+            -1.1335686932451823,
+            0.4002604625916717
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 9,
+      "decision": {
+        "B": {
+          "gain": 0.08448171014473649,
+          "interval95": [
+            0.05587768219123396,
+            0.11504139169279727
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.0007769523025484837,
+          "interval95": [
+            -0.0015829148113622404,
+            -1.1139424370415993e-05
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.7002170051110506,
+          "interval95": [
+            -1.574247868412797,
+            0.19552701809991038
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 10,
+      "decision": {
+        "B": {
+          "gain": 0.09169036009930609,
+          "interval95": [
+            0.04723458325892664,
+            0.13970611017297005
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 3.292476993499438e-05,
+          "interval95": [
+            -0.0012817077220888928,
+            0.001415817025390713
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.10893922890269328,
+          "interval95": [
+            -1.1533799694551736,
+            0.8708760669831543
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 11,
+      "decision": {
+        "B": {
+          "gain": 0.07682872168518518,
+          "interval95": [
+            0.035384817587232366,
+            0.11764673437913159
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.004986995412719852,
+          "interval95": [
+            -0.001381784273701836,
+            0.011526345318349843
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.3671324084402773,
+          "interval95": [
+            -0.48613639785167495,
+            1.3288359119592819
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 12,
+      "decision": {
+        "B": {
+          "gain": 0.058940345676457895,
+          "interval95": [
+            0.032503169226023594,
+            0.08770842772212893
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.0002670108679577732,
+          "interval95": [
+            -0.0004290152249635859,
+            0.001046529998812315
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.5174219396194548,
+          "interval95": [
+            -1.3178499560648576,
+            0.2708666477873373
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 13,
+      "decision": {
+        "B": {
+          "gain": 0.09297556279258556,
+          "interval95": [
+            0.05484833348186911,
+            0.13291691566742353
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.002647845988279829,
+          "interval95": [
+            0.0010740282316544754,
+            0.0042757720869612825
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.15010801371382285,
+          "interval95": [
+            -0.5306524984992507,
+            0.8884624908130868
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 14,
+      "decision": {
+        "B": {
+          "gain": 0.10422553081547736,
+          "interval95": [
+            0.05808744825439874,
+            0.15630171451447217
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.000489461008595593,
+          "interval95": [
+            -2.6041977084223508e-05,
+            0.001005430366945794
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.06718401665381739,
+          "interval95": [
+            -0.8882059665187345,
+            0.6697057626129721
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 15,
+      "decision": {
+        "B": {
+          "gain": 0.08100895930848329,
+          "interval95": [
+            0.045884951980536576,
+            0.11852932557465706
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.00010490860212475361,
+          "interval95": [
+            -0.0012059076126642032,
+            0.0010961406623290536
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.38234453859692846,
+          "interval95": [
+            -1.1652680145674637,
+            0.37697711572372494
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 16,
+      "decision": {
+        "B": {
+          "gain": 0.10061964605403173,
+          "interval95": [
+            0.06042092724846018,
+            0.14492882506004343
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.0001708231262491644,
+          "interval95": [
+            -0.0003550443658235147,
+            3.96339950253782e-06
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.07826956378018293,
+          "interval95": [
+            -0.596960618296166,
+            0.7512007920575621
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 17,
+      "decision": {
+        "B": {
+          "gain": 0.08061507033418902,
+          "interval95": [
+            0.04357567754533199,
+            0.11858285770513147
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.002317196849439096,
+          "interval95": [
+            -8.14040145487693e-05,
+            0.00466077266594848
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.20750923592226014,
+          "interval95": [
+            -0.7166723306298535,
+            1.089660741699069
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 18,
+      "decision": {
+        "B": {
+          "gain": 0.08639843546022208,
+          "interval95": [
+            0.04093932213713268,
+            0.1450323721659094
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.01086691352673097,
+          "interval95": [
+            -0.021871301314151458,
+            -0.0011508738872924415
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.5793504469978643,
+          "interval95": [
+            -1.5240110383201102,
+            0.36814597297738416
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": false,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.0001
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 19,
+      "decision": {
+        "B": {
+          "gain": 0.0687206580050157,
+          "interval95": [
+            0.019168573942469663,
+            0.11846239570165329
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.003160486644184557,
+          "interval95": [
+            0.0016830883086104088,
+            0.00476029752653136
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 1.2331995269275187,
+          "interval95": [
+            0.2017378743552633,
+            2.317595907137947
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 20,
+      "decision": {
+        "B": {
+          "gain": 0.09410947290403493,
+          "interval95": [
+            0.054868238653254256,
+            0.137316538618992
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.0003398785603478949,
+          "interval95": [
+            -0.0009967834111159867,
+            0.0003136894746758628
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.4508997437600861,
+          "interval95": [
+            -0.21165659640787465,
+            1.147322107320064
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 21,
+      "decision": {
+        "B": {
+          "gain": 0.09332925691482774,
+          "interval95": [
+            0.04252326564611248,
+            0.1477600082300962
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.0002060362607096966,
+          "interval95": [
+            -0.0005892363856295879,
+            0.00011475473592880148
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -1.7637701688282197,
+          "interval95": [
+            -2.594858726927981,
+            -0.9675050429530961
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 22,
+      "decision": {
+        "B": {
+          "gain": 0.11032249116080839,
+          "interval95": [
+            0.07539207291961492,
+            0.14743025390354994
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.0033631682268153718,
+          "interval95": [
+            -0.009694912271869648,
+            0.0030343710099203862
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.09150340092341824,
+          "interval95": [
+            -0.7337026427465475,
+            0.8662615307521382
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 23,
+      "decision": {
+        "B": {
+          "gain": 0.08782890888623707,
+          "interval95": [
+            0.04838893052737732,
+            0.12662361374905684
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.00379064427380138,
+          "interval95": [
+            -0.008507500107781374,
+            0.001000444351220489
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.33655126292273574,
+          "interval95": [
+            -1.094273702425941,
+            0.500058957276014
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 24,
+      "decision": {
+        "B": {
+          "gain": 0.07859768131962197,
+          "interval95": [
+            0.0470856520000926,
+            0.11210847213324653
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.00021717410051547148,
+          "interval95": [
+            -0.0003407634154358741,
+            -9.944174847837386e-05
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 1.0114701044816414,
+          "interval95": [
+            0.30228335584137817,
+            1.7243111478462865
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": false,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 25,
+      "decision": {
+        "B": {
+          "gain": 0.0883147677530085,
+          "interval95": [
+            0.05276300419698571,
+            0.1268871257767993
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.0105624836270648,
+          "interval95": [
+            -0.018208537616569875,
+            -0.003821716440039671
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.9489847842759318,
+          "interval95": [
+            0.35335505737125716,
+            1.6009298893621602
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 26,
+      "decision": {
+        "B": {
+          "gain": 0.0996007332105242,
+          "interval95": [
+            0.05128400113203524,
+            0.14711966724703618
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.004948367513940344,
+          "interval95": [
+            -0.010521808329417149,
+            -5.945901611288467e-05
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.515989758744464,
+          "interval95": [
+            -0.36237672203787424,
+            1.4298020043515185
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": false,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.001
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 27,
+      "decision": {
+        "B": {
+          "gain": 0.09556194731445111,
+          "interval95": [
+            0.05467399873341487,
+            0.13555776799752747
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.0011667085274595923,
+          "interval95": [
+            -0.0031387284181406514,
+            0.0007880071558499762
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.6560128206870295,
+          "interval95": [
+            -1.4049780932323546,
+            0.051766211898078174
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 28,
+      "decision": {
+        "B": {
+          "gain": 0.07924695477652832,
+          "interval95": [
+            0.04930172561716472,
+            0.11468286593792086
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.00074373556119256,
+          "interval95": [
+            -0.0007050872805020702,
+            0.0022135784198263724
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.10136862520810676,
+          "interval95": [
+            -0.8614619759490524,
+            0.7441355407965692
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 29,
+      "decision": {
+        "B": {
+          "gain": 0.08267325763343847,
+          "interval95": [
+            0.045829488819529744,
+            0.11921026025686655
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 4.471157899621492e-05,
+          "interval95": [
+            -0.0005458283048835221,
+            0.0006288689104200045
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.3058519987146397,
+          "interval95": [
+            -0.4525992356824636,
+            1.0574879459399347
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 30,
+      "decision": {
+        "B": {
+          "gain": 0.08005272259505913,
+          "interval95": [
+            0.05006710784997165,
+            0.11614797908416322
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.002754865331808576,
+          "interval95": [
+            -0.0066808235301393905,
+            0.0010725650453714895
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.5340691470599895,
+          "interval95": [
+            0.0779121181159989,
+            1.0137636354636779
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 31,
+      "decision": {
+        "B": {
+          "gain": 0.06810855366481372,
+          "interval95": [
+            0.035800890159018633,
+            0.10365929310777759
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.0022619176610353398,
+          "interval95": [
+            -0.001205468725139719,
+            0.006195851627951812
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.2728065999221201,
+          "interval95": [
+            -0.639467767057596,
+            1.2944041251733156
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 32,
+      "decision": {
+        "B": {
+          "gain": 0.06941441785003599,
+          "interval95": [
+            0.04537777612602206,
+            0.09439653376157489
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.0015917505063329784,
+          "interval95": [
+            -0.0054271180884458035,
+            0.008777176363409717
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.5247256759254628,
+          "interval95": [
+            -1.4207624847187421,
+            0.3144375027605264
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 33,
+      "decision": {
+        "B": {
+          "gain": 0.1003510958334215,
+          "interval95": [
+            0.05500300409377966,
+            0.14968037294979283
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.00047385931777921275,
+          "interval95": [
+            -0.00025935629957707373,
+            0.0012156879649387275
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.2445330458933655,
+          "interval95": [
+            -0.5372419272909448,
+            1.0811820193559005
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 34,
+      "decision": {
+        "B": {
+          "gain": 0.09395883219248635,
+          "interval95": [
+            0.04955356891250842,
+            0.13888137481970975
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.000491849745361872,
+          "interval95": [
+            -0.0020162285332111065,
+            0.0011103941664640088
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.3002779344394803,
+          "interval95": [
+            -0.6601458125969161,
+            1.2691578205438219
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 35,
+      "decision": {
+        "B": {
+          "gain": 0.10245864303440799,
+          "interval95": [
+            0.06178895300542563,
+            0.14510839241485246
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.00016144808963636237,
+          "interval95": [
+            -0.0008294324387825791,
+            0.0004770362622308149
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.13070757993023455,
+          "interval95": [
+            -0.8183527637873916,
+            1.073514730213222
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.001,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 36,
+      "decision": {
+        "B": {
+          "gain": 0.09401237705547905,
+          "interval95": [
+            0.0554621761687607,
+            0.14004020815931537
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.0017802164942313237,
+          "interval95": [
+            -0.003437802300891607,
+            -3.357408245540694e-05
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.7955892847584126,
+          "interval95": [
+            0.14104222390479623,
+            1.4474324919382133
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 37,
+      "decision": {
+        "B": {
+          "gain": 0.0921462750974339,
+          "interval95": [
+            0.0448098614586939,
+            0.14708038469027393
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.002774201966629697,
+          "interval95": [
+            -0.010396657371377705,
+            0.004887433344648719
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.6417884964980314,
+          "interval95": [
+            -0.1951394979559284,
+            1.4752289094244182
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 38,
+      "decision": {
+        "B": {
+          "gain": 0.11529098613072641,
+          "interval95": [
+            0.07596615192885892,
+            0.15900376979529562
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.000652447531735989,
+          "interval95": [
+            -0.0013943525544807766,
+            4.562537361408239e-05
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.8781195255896429,
+          "interval95": [
+            -1.7102236405079168,
+            -0.05815148871087756
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.001,
+        "H": 0.001,
+        "P": 0.001
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 39,
+      "decision": {
+        "B": {
+          "gain": 0.09548955113839008,
+          "interval95": [
+            0.053636969743300816,
+            0.1425666106889647
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.004581860328362053,
+          "interval95": [
+            -0.008945011355464511,
+            -0.0005158287593335444
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.14348659773767417,
+          "interval95": [
+            -0.9025086063679266,
+            0.5950869474265704
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 40,
+      "decision": {
+        "B": {
+          "gain": 0.1040449009317228,
+          "interval95": [
+            0.055594810462463284,
+            0.15277633673129168
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -4.1040996274333e-05,
+          "interval95": [
+            -0.0004883530653776891,
+            0.0004275858922735714
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.9362217266112998,
+          "interval95": [
+            0.21510311526431292,
+            1.7550543567105683
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 41,
+      "decision": {
+        "B": {
+          "gain": 0.0938659769565735,
+          "interval95": [
+            0.060525092395225306,
+            0.12789502094930447
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.0015313229371065606,
+          "interval95": [
+            -0.00011586197497348565,
+            0.003194745091042153
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.5932748386335931,
+          "interval95": [
+            -0.025669402963310533,
+            1.2628896835924202
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 42,
+      "decision": {
+        "B": {
+          "gain": 0.1027594301237632,
+          "interval95": [
+            0.05867220228276687,
+            0.1490316621930604
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.006261180716540693,
+          "interval95": [
+            -0.014425515324712567,
+            0.0026626494424438125
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.6678281703977866,
+          "interval95": [
+            0.008760757008975245,
+            1.3067586382513823
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 43,
+      "decision": {
+        "B": {
+          "gain": 0.07171375128379742,
+          "interval95": [
+            0.032567475029940625,
+            0.11406174058741206
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.0008104604894547673,
+          "interval95": [
+            -0.0025105289255507755,
+            0.0008000725125964747
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -1.0026226364632576,
+          "interval95": [
+            -1.9824784200423977,
+            -0.07261989295206803
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 44,
+      "decision": {
+        "B": {
+          "gain": 0.09900021044451235,
+          "interval95": [
+            0.05077044576212728,
+            0.15121160910273543
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.005240877057854254,
+          "interval95": [
+            -0.011613913836760793,
+            0.0008898248333907196
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.8368271722053464,
+          "interval95": [
+            0.07321438990223471,
+            1.6480250603212097
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 45,
+      "decision": {
+        "B": {
+          "gain": 0.08592863151853491,
+          "interval95": [
+            0.050961302968254255,
+            0.12263100813307201
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.00045495991609878494,
+          "interval95": [
+            -0.00206518678469369,
+            0.0010930754087365095
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.29429965552731163,
+          "interval95": [
+            -0.17698260929439905,
+            0.7606195502369175
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.001,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 46,
+      "decision": {
+        "B": {
+          "gain": 0.07877023716394005,
+          "interval95": [
+            0.0546008259446037,
+            0.10267406613342803
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.0021058423041697694,
+          "interval95": [
+            0.0007384753714879761,
+            0.0035155614810957803
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.02295065379662675,
+          "interval95": [
+            -0.6870282345972065,
+            0.6674163750941926
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 47,
+      "decision": {
+        "B": {
+          "gain": 0.08213797936961187,
+          "interval95": [
+            0.04768437162887287,
+            0.12143049348781226
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.002345123362242574,
+          "interval95": [
+            0.0004732675972181827,
+            0.004121430939638855
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.3229659986211348,
+          "interval95": [
+            -1.140007710134269,
+            0.5128452343396223
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 48,
+      "decision": {
+        "B": {
+          "gain": 0.08686766644655208,
+          "interval95": [
+            0.047539921754754216,
+            0.129096674693807
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -2.3358190042843674e-05,
+          "interval95": [
+            -0.00015478606135677642,
+            0.0001367640204715664
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.21026880509597026,
+          "interval95": [
+            -0.5082364681555476,
+            0.9498233841533618
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 49,
+      "decision": {
+        "B": {
+          "gain": 0.1192995571040909,
+          "interval95": [
+            0.07331978990056158,
+            0.16637451494258068
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -8.55196716871287e-05,
+          "interval95": [
+            -0.00202138981797908,
+            0.0016081097689584125
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.09427477444725109,
+          "interval95": [
+            -1.0012874975014,
+            0.851822859154976
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 50,
+      "decision": {
+        "B": {
+          "gain": 0.09145241171483587,
+          "interval95": [
+            0.052468971814539536,
+            0.14277383943965727
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.0006453434705449013,
+          "interval95": [
+            -6.113229469397183e-05,
+            0.0014324378163033335
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.2697164426150099,
+          "interval95": [
+            -0.6527103897237002,
+            1.3788347586893415
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 51,
+      "decision": {
+        "B": {
+          "gain": 0.07067923796940401,
+          "interval95": [
+            0.03725871911911019,
+            0.10366506310177018
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 5.247925981088919e-05,
+          "interval95": [
+            -0.0008389448825784296,
+            0.0010190946646002398
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.5344753071806564,
+          "interval95": [
+            -1.5021221730422007,
+            0.37535981595564116
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 52,
+      "decision": {
+        "B": {
+          "gain": 0.10012615279882386,
+          "interval95": [
+            0.06642816664542268,
+            0.13791068334357412
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.0042572980247284065,
+          "interval95": [
+            -0.0089974225706756,
+            -0.0002895323385893245
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.2765208576902573,
+          "interval95": [
+            -0.5373052588405678,
+            1.0291955481827328
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.001,
+        "H": 0.01,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 53,
+      "decision": {
+        "B": {
+          "gain": 0.10262679837550615,
+          "interval95": [
+            0.06523378317135273,
+            0.14331127023305565
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.0016612605084415089,
+          "interval95": [
+            0.00012244446070688864,
+            0.003493971070378424
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.42420160300054377,
+          "interval95": [
+            -0.36381615204477413,
+            1.2547243611482164
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 54,
+      "decision": {
+        "B": {
+          "gain": 0.08577499160929059,
+          "interval95": [
+            0.049124147247169445,
+            0.12575502475509934
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.0010395686010389316,
+          "interval95": [
+            -0.00041751176643253785,
+            0.002608539010926084
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.05151425564510531,
+          "interval95": [
+            -0.7551576362568078,
+            0.6694682708737723
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 55,
+      "decision": {
+        "B": {
+          "gain": 0.07069302326803817,
+          "interval95": [
+            0.01468222708772569,
+            0.11954740075229511
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.0008779658081410346,
+          "interval95": [
+            -0.002311712458013637,
+            0.000522262733712506
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -1.0026531982682156,
+          "interval95": [
+            -2.020127086874203,
+            -0.05326573723792761
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.001,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 56,
+      "decision": {
+        "B": {
+          "gain": 0.07013555648593284,
+          "interval95": [
+            0.03424977381394848,
+            0.10690011870348255
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.002077548754444769,
+          "interval95": [
+            0.00027586491497647025,
+            0.004031347371964075
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 1.532503851749729,
+          "interval95": [
+            0.6418118349186773,
+            2.41252981800093
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 57,
+      "decision": {
+        "B": {
+          "gain": 0.08198749308789888,
+          "interval95": [
+            0.042435957763929194,
+            0.12439508240545055
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.0009532985372611158,
+          "interval95": [
+            -0.002640746461426313,
+            0.0006723051814541047
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.8370428217030641,
+          "interval95": [
+            -1.5891455340822642,
+            -0.07794168773794943
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 58,
+      "decision": {
+        "B": {
+          "gain": 0.07978604495129182,
+          "interval95": [
+            0.038562551052509955,
+            0.12467098561053995
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 7.748948018815316e-05,
+          "interval95": [
+            -1.7354518009754517e-05,
+            0.00018453248928374796
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.8367154727900058,
+          "interval95": [
+            -1.539010523626883,
+            -0.1335345573475166
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 59,
+      "decision": {
+        "B": {
+          "gain": 0.0860092820808932,
+          "interval95": [
+            0.036701466036946816,
+            0.13814281221642857
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.00018401944613199994,
+          "interval95": [
+            -0.0017791190365402942,
+            0.0018887329493302474
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.7683560724566584,
+          "interval95": [
+            -1.6009592676702211,
+            0.065752810766669
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 60,
+      "decision": {
+        "B": {
+          "gain": 0.07848341247751811,
+          "interval95": [
+            0.04265312696346034,
+            0.11564488304180887
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.0001662915256082087,
+          "interval95": [
+            -0.0006562514174163203,
+            0.0010015000434456772
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.4585617729270256,
+          "interval95": [
+            -0.484299767301017,
+            1.464390808738169
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 61,
+      "decision": {
+        "B": {
+          "gain": 0.08934812946575199,
+          "interval95": [
+            0.055566869227179114,
+            0.12646727302502525
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.004897580754371855,
+          "interval95": [
+            -0.010711296375221618,
+            -0.00025883433389170687
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.09038165750068612,
+          "interval95": [
+            -0.8175462392762427,
+            0.6765526052895663
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 62,
+      "decision": {
+        "B": {
+          "gain": 0.07403876113039187,
+          "interval95": [
+            0.04343888974337124,
+            0.10620559050642069
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.002472203777013071,
+          "interval95": [
+            5.55286765716673e-05,
+            0.0050774691906670015
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.10193038050939554,
+          "interval95": [
+            -0.7179435328574537,
+            0.9103656045332501
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 63,
+      "decision": {
+        "B": {
+          "gain": 0.08738983896085295,
+          "interval95": [
+            0.05202048160997944,
+            0.12274049359461674
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.00019255798564987714,
+          "interval95": [
+            -0.00034763110917430674,
+            0.0007429540106990428
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.5600192683949056,
+          "interval95": [
+            -0.19189521665324957,
+            1.3590131607052547
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 64,
+      "decision": {
+        "B": {
+          "gain": 0.10322311952719077,
+          "interval95": [
+            0.05965385448679325,
+            0.14890343737016468
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 8.402019217212953e-05,
+          "interval95": [
+            -0.001676302257354001,
+            0.0018753727098072737
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.44542133598768574,
+          "interval95": [
+            -0.3953727707738149,
+            1.3300455738783676
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 65,
+      "decision": {
+        "B": {
+          "gain": 0.08566982132216772,
+          "interval95": [
+            0.04166065385436164,
+            0.134542801097859
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.00021110594000428584,
+          "interval95": [
+            -0.0012372095544441962,
+            0.0008164255228260771
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.2704257306702527,
+          "interval95": [
+            -0.6733295318506106,
+            1.229607870482882
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 66,
+      "decision": {
+        "B": {
+          "gain": 0.103854661144546,
+          "interval95": [
+            0.06563525662192991,
+            0.14734762515695413
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.00356162171547747,
+          "interval95": [
+            0.0019040723288005436,
+            0.00544730934871602
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.1566479873587912,
+          "interval95": [
+            -0.5452220774836157,
+            0.8504317835492802
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 67,
+      "decision": {
+        "B": {
+          "gain": 0.10330421254800648,
+          "interval95": [
+            0.05376062590288472,
+            0.15722079166109892
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 2.6293271564004073e-05,
+          "interval95": [
+            -3.931926809530029e-05,
+            9.420745739189271e-05
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.4489185377600497,
+          "interval95": [
+            -1.2970394602927888,
+            0.4519375608515729
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 68,
+      "decision": {
+        "B": {
+          "gain": 0.09948557436086947,
+          "interval95": [
+            0.05415139504626183,
+            0.1484177315281983
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.0005994034789826852,
+          "interval95": [
+            -0.002196096238900341,
+            0.0007320695048449454
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.17812246435585127,
+          "interval95": [
+            -0.7839688100947536,
+            1.089970920733204
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 69,
+      "decision": {
+        "B": {
+          "gain": 0.09284543578953353,
+          "interval95": [
+            0.05130482908414066,
+            0.13695056386865095
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 1.0019199786936994e-05,
+          "interval95": [
+            -0.0015651744367661258,
+            0.0017698027129275159
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.3151717403747328,
+          "interval95": [
+            -0.3340727251999659,
+            0.9621495773745203
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 70,
+      "decision": {
+        "B": {
+          "gain": 0.11099148418904103,
+          "interval95": [
+            0.0691577554958397,
+            0.15520074260789876
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.0035956342421838983,
+          "interval95": [
+            -0.00914475457893989,
+            0.0019806450039505648
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.2183646110184936,
+          "interval95": [
+            -0.6726095570942796,
+            1.0571137461727886
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 71,
+      "decision": {
+        "B": {
+          "gain": 0.08140757219446726,
+          "interval95": [
+            0.03875275491294346,
+            0.12625581663083704
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 6.987170467365189e-05,
+          "interval95": [
+            -0.001844729778196169,
+            0.0017861116620853656
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.9755637940191827,
+          "interval95": [
+            -1.6264105683606738,
+            -0.31092621204602366
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 72,
+      "decision": {
+        "B": {
+          "gain": 0.0800895735999354,
+          "interval95": [
+            0.04374314230913624,
+            0.11642656747234008
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.004862771298080659,
+          "interval95": [
+            -0.008587532590139385,
+            -0.001251981629865068
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.5402544330834447,
+          "interval95": [
+            -0.23726356917736488,
+            1.2264878840013762
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.001,
+        "H": 0.01,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 73,
+      "decision": {
+        "B": {
+          "gain": 0.07955308776096592,
+          "interval95": [
+            0.04231907528657397,
+            0.12109458726268622
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.004217134271406575,
+          "interval95": [
+            -0.011742623426827603,
+            0.003213654942176756
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.6188840217199666,
+          "interval95": [
+            -0.24235168794618211,
+            1.5301318266109694
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 74,
+      "decision": {
+        "B": {
+          "gain": 0.07971843621499752,
+          "interval95": [
+            0.041735364137297504,
+            0.12144224644342394
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.002069581852078395,
+          "interval95": [
+            0.0006216931481264954,
+            0.003649448162977751
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.6336718825337223,
+          "interval95": [
+            -0.010085135295687357,
+            1.2502228288512518
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 75,
+      "decision": {
+        "B": {
+          "gain": 0.08517063429085436,
+          "interval95": [
+            0.04819386022534499,
+            0.12516383832682085
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.00025739222452503263,
+          "interval95": [
+            -0.00200540137829619,
+            0.0016222782657863075
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.8297687988767839,
+          "interval95": [
+            0.08421953301639991,
+            1.6113395920468319
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 76,
+      "decision": {
+        "B": {
+          "gain": 0.08760344067369874,
+          "interval95": [
+            0.04875410304661001,
+            0.129127476171283
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.0002053192405790938,
+          "interval95": [
+            5.649656124117886e-05,
+            0.00035965227454932936
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.890063183559764,
+          "interval95": [
+            -1.7762925132252172,
+            -0.012830235338159704
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": false,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.001,
+        "P": 0.001
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 77,
+      "decision": {
+        "B": {
+          "gain": 0.0875383741959701,
+          "interval95": [
+            0.049113154754652055,
+            0.12970164292262504
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.0001687651140802604,
+          "interval95": [
+            -0.0002925855710615044,
+            0.0005955341806602953
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.5925647813151249,
+          "interval95": [
+            -1.2377199269610444,
+            0.047385606515022445
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 78,
+      "decision": {
+        "B": {
+          "gain": 0.07495730285295277,
+          "interval95": [
+            0.04470270435900638,
+            0.10603591725285842
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.00033708856063685566,
+          "interval95": [
+            -0.0006553785768567799,
+            0.0014773746523797176
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.5378677447055006,
+          "interval95": [
+            -0.24809130174893715,
+            1.3476517652756885
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 79,
+      "decision": {
+        "B": {
+          "gain": 0.10298361869529749,
+          "interval95": [
+            0.06895643173945076,
+            0.13782764643248716
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.0014207541615953723,
+          "interval95": [
+            -0.004558029486727955,
+            0.0015838507956580199
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.6007854331077563,
+          "interval95": [
+            -1.5779758724674973,
+            0.3291775755666853
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.001,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 80,
+      "decision": {
+        "B": {
+          "gain": 0.1060916599706262,
+          "interval95": [
+            0.06343663939505353,
+            0.14937956749697331
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.0026734576021550938,
+          "interval95": [
+            0.0009445001325897234,
+            0.004557804409665627
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.2606925684412284,
+          "interval95": [
+            -1.2416874341265671,
+            0.8098571636402454
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 81,
+      "decision": {
+        "B": {
+          "gain": 0.09863120601538611,
+          "interval95": [
+            0.05670060461145798,
+            0.14626566619964856
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.00015179640128093475,
+          "interval95": [
+            -0.0010669074529716881,
+            0.0007707365254161489
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.39417124078597326,
+          "interval95": [
+            -0.5177771855509021,
+            1.3517138271616254
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 82,
+      "decision": {
+        "B": {
+          "gain": 0.11453598978356028,
+          "interval95": [
+            0.06768126653258279,
+            0.1629277893252369
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.0016216678027791698,
+          "interval95": [
+            -0.003137679224203127,
+            -0.00019190645807313787
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.005633337769074946,
+          "interval95": [
+            -0.7609185470168415,
+            0.740737007586489
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 83,
+      "decision": {
+        "B": {
+          "gain": 0.07500233619339491,
+          "interval95": [
+            0.0427109068210337,
+            0.10845756417004407
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.0001097850964723035,
+          "interval95": [
+            -0.0010432278517813808,
+            0.0011570918399501893
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.2786100838846057,
+          "interval95": [
+            -1.209211183797617,
+            0.5820947438770118
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 84,
+      "decision": {
+        "B": {
+          "gain": 0.10022011793541175,
+          "interval95": [
+            0.04947420291786121,
+            0.15588021781644448
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.00027992448126679115,
+          "interval95": [
+            -0.0021031491145441115,
+            0.0016283268144804842
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.39965599979673966,
+          "interval95": [
+            -1.4674260615886554,
+            0.7189654317602383
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 85,
+      "decision": {
+        "B": {
+          "gain": 0.09839743750071694,
+          "interval95": [
+            0.06012981501730973,
+            0.1380491642212854
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.0016027360729424789,
+          "interval95": [
+            0.00022227917450561575,
+            0.00292759132403331
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.2145708610712125,
+          "interval95": [
+            -0.8729587427664738,
+            0.40552642621458834
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 86,
+      "decision": {
+        "B": {
+          "gain": 0.0790140281606303,
+          "interval95": [
+            0.0448495967045345,
+            0.11526084407956723
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -1.0354837178816467e-06,
+          "interval95": [
+            -3.50118945231348e-05,
+            3.115902379768884e-05
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.06857197285654655,
+          "interval95": [
+            -0.7998701765116512,
+            0.6762444456446713
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 87,
+      "decision": {
+        "B": {
+          "gain": 0.0983821928469144,
+          "interval95": [
+            0.06378141474029671,
+            0.1349574253610812
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.00036360498332554947,
+          "interval95": [
+            -0.0008425537313902498,
+            0.0016033692338662182
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.14273685541755435,
+          "interval95": [
+            -0.54463846363241,
+            0.8218498034535802
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 88,
+      "decision": {
+        "B": {
+          "gain": 0.08721811287477399,
+          "interval95": [
+            0.055048598758490705,
+            0.12268569338507543
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.001489175076814453,
+          "interval95": [
+            -0.0005707626105805274,
+            0.003680816460767442
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.4611057137798782,
+          "interval95": [
+            -0.3973520363561696,
+            1.2914524652420125
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 89,
+      "decision": {
+        "B": {
+          "gain": 0.09770947781882755,
+          "interval95": [
+            0.05817509865802911,
+            0.14074134275046438
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.0015346694386846327,
+          "interval95": [
+            -0.0002752440439048043,
+            0.0032648663748646826
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.22110555195807496,
+          "interval95": [
+            -0.8345535765566345,
+            0.37402052328305874
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 90,
+      "decision": {
+        "B": {
+          "gain": 0.08660737056857681,
+          "interval95": [
+            0.045884675627017986,
+            0.12929365636076282
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.0019773734077863647,
+          "interval95": [
+            -0.0038296980362256205,
+            -0.00016478376380696545
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -1.0262927891490117,
+          "interval95": [
+            -1.7539754694513026,
+            -0.30927330293197547
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 91,
+      "decision": {
+        "B": {
+          "gain": 0.08414391475715455,
+          "interval95": [
+            0.05019441672274305,
+            0.11944569304681685
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.00016172435589445477,
+          "interval95": [
+            -0.0005832194919020428,
+            0.0002773259284688327
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.24452344865679732,
+          "interval95": [
+            -0.7424265145587461,
+            0.29751649482633025
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 92,
+      "decision": {
+        "B": {
+          "gain": 0.09678417910804071,
+          "interval95": [
+            0.04845008594338687,
+            0.14721511946325963
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.002760685033255106,
+          "interval95": [
+            0.0008974416172354644,
+            0.004522233336209966
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.6171603208618403,
+          "interval95": [
+            -0.525393220555673,
+            1.7831605341311978
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 93,
+      "decision": {
+        "B": {
+          "gain": 0.06444736105353033,
+          "interval95": [
+            0.03687860522190397,
+            0.09315902518851801
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -8.216054703247266e-06,
+          "interval95": [
+            -0.002081493656849376,
+            0.002078936912340783
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.20332439608713432,
+          "interval95": [
+            -0.7949846062873615,
+            0.34186798371144095
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 94,
+      "decision": {
+        "B": {
+          "gain": 0.059760081337667414,
+          "interval95": [
+            0.028978443954454713,
+            0.09284365394569996
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.001196182821306957,
+          "interval95": [
+            -0.0003167139860099588,
+            0.002757664214116548
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.35006679092824655,
+          "interval95": [
+            -0.491222139512925,
+            1.193438843458946
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 95,
+      "decision": {
+        "B": {
+          "gain": 0.09113321453926382,
+          "interval95": [
+            0.053829875995731656,
+            0.13319076276736463
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.0011168303805261237,
+          "interval95": [
+            -3.949062374247715e-06,
+            0.002266577822593312
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.6824469572807788,
+          "interval95": [
+            0.04822084045668107,
+            1.3833695040628098
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 96,
+      "decision": {
+        "B": {
+          "gain": 0.06985995775088827,
+          "interval95": [
+            0.031986782407678854,
+            0.11122008202149714
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.0001973610768786216,
+          "interval95": [
+            -0.0007990976052404285,
+            0.00038684574576969814
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.8378778225555144,
+          "interval95": [
+            -1.807750550060021,
+            0.06317788072447536
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 97,
+      "decision": {
+        "B": {
+          "gain": 0.07203765563003373,
+          "interval95": [
+            0.03564484293829101,
+            0.10486729899271353
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.01011775497765055,
+          "interval95": [
+            -0.016492507250570505,
+            -0.004588245295775391
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.10707186991884753,
+          "interval95": [
+            -0.8700542045146105,
+            0.6466456111210493
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": false,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.001
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 98,
+      "decision": {
+        "B": {
+          "gain": 0.09287254959931168,
+          "interval95": [
+            0.058005297252594214,
+            0.13163370223785248
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": -0.0035153737903643734,
+          "interval95": [
+            -0.00875926029721762,
+            0.0016539394368575476
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": 0.44183099302374057,
+          "interval95": [
+            -0.38802027545886586,
+            1.292509422362358
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.1
+      }
+    },
+    {
+      "kind": "null",
+      "rep": 99,
+      "decision": {
+        "B": {
+          "gain": 0.08224385741948581,
+          "interval95": [
+            0.05204043759058381,
+            0.11317867839306572
+          ],
+          "pass": true
+        },
+        "H": {
+          "gain": 0.00019007720334585088,
+          "interval95": [
+            -0.00022810051659465368,
+            0.0006030562386192203
+          ],
+          "pass": false
+        },
+        "P_calibration": {
+          "directed_bias_degrees": -0.15158860144806505,
+          "interval95": [
+            -0.7469430816968657,
+            0.4329114754550757
+          ],
+          "pass": true
+        },
+        "positive_precision_coefficient": true,
+        "joint_pass": false
+      },
+      "oracle_gain_vs_H_mean": 0.0,
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01,
+        "P": 0.01
+      }
+    }
+  ]
+}

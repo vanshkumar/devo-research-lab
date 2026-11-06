@@ -1,0 +1,11 @@
+surprise-history-forecast-2026-11-01 COMPLETE; jobs0. Saved RESULT.md/README.md/STATE.md plus PROTOCOL/FREEZE/SCORES/CONTROLS/CONTRARY/VERIFICATION/SOURCES/RESOURCES/EXPOSURE/MANIFEST and LEARNING_PROPOSAL in lab/tasks/surprise-history-forecast-2026-11-01/.
+
+Original CC0 checksum-matched Nassar/Bruckner/Frank2019 ZIP supports39people/18,720trialrows. FIRST_DATA_CHECK actual472update arithmetic07:11:59Z;20development/19evaluation identity split; freeze07:25:22Z;8,968forecasts saved07:25:28Z before separate07:25:34Zscoring. All individual evaluation values remained unread before freeze, while compressed bytes/hash and published summaries were exposed.
+
+Frozen H over strong B gain1.434%[−.343%,2.772%], OB2.528%/CP−.094%,12/19improved; FAILS5%joint rule. B knows context, nonlinear current error, published approximation, source safe-law grid inference, feedback and long/short response coupling. Mean circular lossB.05767320/H.05684595; persistence.17970848. One postvalidation matched-ridge check leaves1.499%gain/stillfails5%; no main repair.
+
+100conditional fixed-feature substantial-signal controls pass100/100, null0/100; NOT5%boundary power, human trajectories or interval-coverage certification.18freeze pins/all8,968originaltargets/scalar source reference verify; frozen forecasts replay exactly, cached/direct ridge difference<=4.06e-13. Initial float32angle rotation failure corrected before freeze and retained; descriptive development context effect follows known direction. Author self-audit only.
+
+All39raw/auxiliary are consumed; old/protectedpayloads0.28publicops/ONEfamily/1,943,144knownbodybytes/10MBchargedingress/200MBreadallowance/largestmeasuredRSS272,826,368bytes. Failed-run/toolhost/provider/physicalIO unknowns remain; all acquisition failures saved. Within original deadlines/caps on observed/charged quantities; no OS-wide certification.
+
+Recommend bank this failed fixed utility result/close further author tuning, with one NEW independent review before synthesis, especially raw-to-forecast mapping/control scope/contrary test. No biological absence/equality, neural mechanism, novelty or new-context/noise transport follows. Independent review/source-fit uncertainty/5%boundary power/new-cohort/neural-causal tests UNRUN. Same continuing lab heartbeat unaffected. No acknowledgement/restart needed.

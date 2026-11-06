@@ -1,0 +1,19 @@
+# Source and calibration gate — reject a collection recommendation
+
+Saved before the second substantive calculation, 2026-11-02T23:57:23Z clock read. The first save mistakenly typed a future approximate 00:03Z; corrected immediately before code/results. Original clock and all resource/exposure charges retained. No scientific pre-main revision has been used.
+
+Four pursued measurement/method families only: (1) common-probe endpoint/heading and randomized-input state identification; (2) active/passive matched-hand localization; (3) continuous hand/goal-style reports; (4) randomized-probe 2AFC localization. PReMo and stochastic state identification are closest conceptual/method prior within these families, not additional experimental source searches. No empirical payload was sought or read.
+
+The first calculation verifies the saved ambiguities, then adds a more specific obstacle: external cursor-offset calibration does not calibrate the endogenous precursor-state component of an error report. An event-dependent reporting/decision criterion can leave external offset slopes exactly correct. Randomized input rank is therefore a reference, not a collection recommendation.
+
+Closest prior already establishes state-space learning/error equations, stochastic estimation/recovery, context-dependent localization and proprioceptive error accounts. We do not claim a new generic identification theorem. The contribution this allocation can still earn is a concrete quantitative rejection/requirement for the SAVED proposed assay at its original five-probe 0.2-degree scale. Nothing in the inspected methods certifies a measurement-error bound relative to the actual learning-driving error under the event-by-precursor perturbation. Baseline physical-hand calibration is insufficient for that specific claim. No observed reporting bias of the constructed magnitude is asserted.
+
+## Frozen closure test (not an earned separating main study)
+
+Execute exact rational constructions at BOTH signed 0.2-degree transition-contribution boundaries. Keep probe retention 0.97 and reference gain 0.2 from the first synthetic reference; neither is an empirical estimate. Use original signed half-difference and five common probes. Construct a fixed-transition world and an altered-transition world sharing all observations, with report biases centered between them. Verify the smallest symmetric bias radius of THIS affine witness by an independent scalar inequality; do not claim a global minimum over experiments or model classes.
+
+Extend the witness through continuous reports, randomized-probe logistic 2AFC reports, shared quantizers, matched report/no-report branches and shared noise. In the expression rival, let all measured physical/localization channels load on the same behavioral sum; do not call a report a known storage anchor. State the hypothetical known-unequal-loading/bias condition separately. Heterogeneity/noise/quantization cannot separate exactly equal conditional observation laws; numerical checks only confirm the construction.
+
+Calculate the systematic-error frontier on the five-probe scale, including the factor-of-two needed for overlapping uncertainty sets. Translate known published hand-report timing into a conditional report-count overhead, pricing people, episodes, reaches and other report times as unearned rather than proposing a separating N. Exact equality means no fitted estimator or larger sample can attain 80% detection with controlled false positives for this pair. Do not run an oracle power/sample-size calculation or fit an arbitrary model to manufacture separation.
+
+Close the four-version collection proposal unless this test fails or the saved source evidence independently excludes its rival. This is author-level assay closure, with no field-wide impossibility, biological storage result or native scientific-goal completion. A potentially consequential claim still needs a fresh distinct reviewer appointed by PI.

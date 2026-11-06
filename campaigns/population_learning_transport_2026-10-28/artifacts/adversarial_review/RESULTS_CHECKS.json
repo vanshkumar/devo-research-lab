@@ -1,0 +1,133 @@
+{
+  "scope": "Authorized aggregate/new-source forecast review; no external files/values opened and no raw new source read",
+  "source_result_sha256": "41455df06ac48550ce584f54c60a7e755d17519238148c261d1cce87ce8ab889",
+  "N": 24,
+  "G": 5,
+  "all_observed_cells_finite": true,
+  "minimum_side_denominator": 32,
+  "scalar_observed_minus_rnn": -0.06969990518046283,
+  "animal90": [
+    -0.089682078075791,
+    -0.04971773228513468
+  ],
+  "cluster90": [
+    -0.11070313774726158,
+    -0.028696672613664105
+  ],
+  "animal90_upper_minus_negative5pp": 0.00028226771486532243,
+  "conditional_MC_SE": 0.0007764105013522566,
+  "baseline_comparisons_independent": {
+    "growth": {
+      "curve_mae_gain": -0.04691885034007144,
+      "curve_mae_gain_interval95": [
+        -0.0566783024288655,
+        -0.02849677970196589
+      ],
+      "crps_gain": -0.008647501070272802,
+      "crps_gain_interval95": [
+        -0.013889429208022153,
+        -0.0031713124423639128
+      ]
+    },
+    "persistence": {
+      "curve_mae_gain": -0.005822505892136606,
+      "curve_mae_gain_interval95": [
+        -0.05279700126607269,
+        0.045547413528133844
+      ],
+      "crps_gain": 0.012789662318561419,
+      "crps_gain_interval95": [
+        -0.009431029112329223,
+        0.037753249720449175
+      ]
+    }
+  },
+  "maximum_aggregate_score_or_interval_difference": 1.3877787807814457e-16,
+  "all_lab_summaries_finite": true,
+  "source_performance_gate_earned": false,
+  "descriptive_lab_and_leave_lab_baseline_check": {
+    "angelakilab": {
+      "lab_only": {
+        "n": 5,
+        "rnn_MAE": 0.03513426336553813,
+        "growth_MAE": 0.0500122727664242,
+        "growth_advantage": -0.014878009400886065
+      },
+      "leave_lab_out": {
+        "n": 19,
+        "rnn_MAE": 0.0787961267107062,
+        "growth_MAE": 0.04193719368429024,
+        "growth_advantage": 0.036858933026415956
+      }
+    },
+    "churchlandlab": {
+      "lab_only": {
+        "n": 2,
+        "rnn_MAE": 0.06317097583384819,
+        "growth_MAE": 0.029401828512366234,
+        "growth_advantage": 0.03376914732148195
+      },
+      "leave_lab_out": {
+        "n": 22,
+        "rnn_MAE": 0.07029344421197325,
+        "growth_MAE": 0.023703794832609027,
+        "growth_advantage": 0.04658964937936423
+      }
+    },
+    "cortexlab": {
+      "lab_only": {
+        "n": 1,
+        "rnn_MAE": 0.060158664011142365,
+        "growth_MAE": 0.03431336799448,
+        "growth_advantage": 0.025845296016662363
+      },
+      "leave_lab_out": {
+        "n": 23,
+        "rnn_MAE": 0.070114741753042,
+        "growth_MAE": 0.02255073212527296,
+        "growth_advantage": 0.047564009627769036
+      }
+    },
+    "hoferlab": {
+      "lab_only": {
+        "n": 10,
+        "rnn_MAE": 0.1040922499534939,
+        "growth_MAE": 0.06955859230821404,
+        "growth_advantage": 0.03453365764527987
+      },
+      "leave_lab_out": {
+        "n": 14,
+        "rnn_MAE": 0.045133944628297805,
+        "growth_MAE": 0.017471905352735292,
+        "growth_advantage": 0.027662039275562513
+      }
+    },
+    "mrsicflogellab": {
+      "lab_only": {
+        "n": 6,
+        "rnn_MAE": 0.047662212467222555,
+        "growth_MAE": 0.024929290822435942,
+        "growth_advantage": 0.022732921644786613
+      },
+      "leave_lab_out": {
+        "n": 18,
+        "rnn_MAE": 0.07794969066897046,
+        "growth_MAE": 0.027726181063411976,
+        "growth_advantage": 0.05022350960555849
+      }
+    }
+  },
+  "postvalidation_sensitivity_checks": {
+    "future_retention_0p8": {
+      "independent_bias": -0.021240417225818892,
+      "independent_curve_MAE": 0.021240417225818892,
+      "independent_max_bin_error": 0.04088564184920451
+    },
+    "prefix_static_omission": {
+      "independent_bias": -0.06492531554264196,
+      "independent_curve_MAE": 0.06492531554264196,
+      "independent_max_bin_error": 0.09231837665472131
+    }
+  },
+  "diagnostics_result_sha256": "3e3e35c1dc312adf8288fcff55f5f17db4c8284612cf65e8544ac9c3ab7c1acb"
+}

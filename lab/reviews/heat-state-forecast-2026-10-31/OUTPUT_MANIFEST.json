@@ -1,0 +1,76 @@
+{
+  "at_utc": "2026-10-31T18:21:56.744810+00:00",
+  "artifacts": {
+    "EARLY_INDEPENDENT_CHECK.json": {
+      "bytes": 6663,
+      "sha256": "a1a65ecebd18693c40b68d92a164aabd31555d105b1f7c7bb843018848e36b14"
+    },
+    "INDEPENDENT_RECONSTRUCTION.json": {
+      "bytes": 13330,
+      "sha256": "ae92655dcfbdf0cb1e63050280f0054f0b1d7bf5fa050dbdc5d9b89c1bc99975"
+    },
+    "CONTRARY_RESULT.json": {
+      "bytes": 49318,
+      "sha256": "8271159ef0ab6128b4162804b2f9eb265d659c3273d6260edc71977779600c05"
+    },
+    "CONTRARY_FORECASTS.npz": {
+      "bytes": 160809,
+      "sha256": "a337aa370883543fe0852ac63bc76dfdd2636a5565a26a5b0016970788aa581b"
+    },
+    "INDEPENDENT_INPUTS.npz": {
+      "bytes": 119254,
+      "sha256": "58ad0f16cb14a85716e7d1f5de64667c0198be13ab5c4b9b846351e56de14f3e"
+    },
+    "RECONSTRUCTED_FORECASTS.npz": {
+      "bytes": 124723,
+      "sha256": "7d79f948cd185808e2201a4b52a90e2094b1180eb96e95972e257c8a82673f56"
+    },
+    "INFLUENCE_AND_BEHAVIOR.json": {
+      "bytes": 11741,
+      "sha256": "b66cf0695b8ea24631797b6eec80c8fa72d7b8016c12d4ae779cb0e196d1cabf"
+    },
+    "JOINT_BEHAVIOR_CHECK.json": {
+      "bytes": 2548,
+      "sha256": "0f1629ed9c5c55ce628dadcff24dfeb3521a73d6abccabc59eef17aea2488c6d"
+    },
+    "EXACT_BOOTSTRAP_CHECK.json": {
+      "bytes": 2136,
+      "sha256": "1a367dddf7af559391ec50cfd6e7d4ef730e471617e3fc627cb8bc9f04b5de38"
+    },
+    "SOURCE_DOCUMENT_VERIFICATION.json": {
+      "bytes": 907,
+      "sha256": "383fa56fd2926b53e72ba728b7b2d5569b260093a1066c799d75e031e69d4b74"
+    },
+    "SOURCE_DOCUMENT_EXACT_RESPONSE.json": {
+      "bytes": 16922,
+      "sha256": "89f11163b7e7372cb0e1c18ef6ae97d0aea6c23f9c1230bd93be7503a42611b8"
+    },
+    "PINNED_DATASET.md": {
+      "bytes": 11973,
+      "sha256": "57318886bfa34fd469dde895a3c3dd02951f9358aac4264cee8fae69dd023dbc"
+    },
+    "CONTRARY_PLAN.md": {
+      "bytes": 3596,
+      "sha256": "0f9378acffb5f97bc81a2725fcd1ab206405a0f16306dfc4ec81ac8e8b302772"
+    },
+    "FINAL_CHECK_PLAN.md": {
+      "bytes": 1206,
+      "sha256": "faf777a6b4204188f149e28805cd670322a1b1f99672faec4ebe23d8e79499f8"
+    },
+    "review.py": {
+      "bytes": 40969,
+      "sha256": "e623fb306e0fcbef62210ebea103a03d4c9e3e144555de013296be51c9d0a459"
+    }
+  },
+  "runtime": {
+    "python": "3.9.6 (default, Oct 19 2026, 19:18:13) \n[Clang 21.0.0 (clang-2100.4.1.1)]",
+    "numpy": "2.0.2",
+    "platform": "darwin",
+    "blas_omp_threads": 1
+  },
+  "inputs": "INDEPENDENT_RECONSTRUCTION.json pins all19 original payloads; ACCOUNTING.json retains every reservation.",
+  "jobs": 0,
+  "job_basis": "All launched commands/subprocesses returned; no background jobs were started.",
+  "original_source_url": "https://github.com/vanshkumar/LOOPER-freely-moving-worms/tree/513782b42ad77e75f35adfbc70064b7418ff674a/atanas-data/heat",
+  "license": "Original data license and equivalence to Zenodo deposit not independently certified; local research cache only."
+}

@@ -1,0 +1,131 @@
+{
+  "assignment": "independent acquisition calibration envelope",
+  "decision": "HOLD the 192 calibration attribution application",
+  "first_turn_utc": "2026-11-05T23:32:32.000Z",
+  "deadline_utc": "2026-11-06T00:27:32.000Z",
+  "scientific_job_completed_utc": "2026-11-05T23:40:30.187819+00:00",
+  "allowance_observations": {
+    "post_batch": {
+      "utc": "2026-11-05 23:40:35 UTC",
+      "ordinaryUsageAllowed": true,
+      "rateLimits": {
+        "limitId": "codex",
+        "limitName": null,
+        "normalModelSlug": null,
+        "primary": {
+          "usedPercent": 67,
+          "windowDurationMins": 10080,
+          "resetsAt": 1794445923
+        },
+        "secondary": null,
+        "credits": {
+          "hasCredits": false,
+          "unlimited": false,
+          "balance": "0"
+        },
+        "individualLimit": null,
+        "spendControlReached": false,
+        "planType": "prolite",
+        "rateLimitReachedType": null
+      }
+    },
+    "pre_synthesis": {
+      "utc": "2026-11-05 23:41:49 UTC",
+      "ordinaryUsageAllowed": true,
+      "rateLimits": {
+        "limitId": "codex",
+        "limitName": null,
+        "normalModelSlug": null,
+        "primary": {
+          "usedPercent": 67,
+          "windowDurationMins": 10080,
+          "resetsAt": 1794445923
+        },
+        "secondary": null,
+        "credits": {
+          "hasCredits": false,
+          "unlimited": false,
+          "balance": "0"
+        },
+        "individualLimit": null,
+        "spendControlReached": false,
+        "planType": "prolite",
+        "rateLimitReachedType": null
+      }
+    },
+    "checkpoint": {
+      "utc": "2026-11-05 23:44:09 UTC",
+      "weekly_remaining_percent": 32,
+      "ordinaryUsageAllowed": true,
+      "rateLimits": {
+        "limitId": "codex",
+        "limitName": null,
+        "normalModelSlug": null,
+        "primary": {
+          "usedPercent": 68,
+          "windowDurationMins": 10080,
+          "resetsAt": 1794445923
+        },
+        "secondary": null,
+        "credits": {
+          "hasCredits": false,
+          "unlimited": false,
+          "balance": "0"
+        },
+        "individualLimit": null,
+        "spendControlReached": false,
+        "planType": "prolite",
+        "rateLimitReachedType": null
+      }
+    }
+  },
+  "supervisor_report": "Supervisor reported actual 32% weekly at 23:43:43 UTC. Own native allowance read confirmed 32%. All science processes had already exited.",
+  "scientific_stop": "At 32% weekly, closeout only. No further scientific batch.",
+  "jobs": [
+    {
+      "attempt": 1,
+      "terminal": true,
+      "exit_code": 1,
+      "reported_elapsed_seconds": 0.426980458,
+      "archive_body_bytes": 0,
+      "selected_member_decode_bytes": 0,
+      "resources": "Import runtime CPU and RSS uninstrumented",
+      "log": "EXECUTION.log"
+    },
+    {
+      "attempt": 2,
+      "terminal": true,
+      "exit_code": 0,
+      "exec_session": 61996,
+      "pid": 99867,
+      "wall_inside_python_seconds": 1.1509776660241187,
+      "cpu_user_plus_system_seconds": 1.074265,
+      "peak_rss_bytes": 196050944,
+      "body_bytes": 27260751,
+      "selected_member_decode_bytes": 58746624,
+      "log": "RETRY.log",
+      "measured_record": "EXECUTION.json"
+    }
+  ],
+  "exposure": {
+    "old64_body_and_decode_bytes": 86007375,
+    "authorized_old64_decodes": 1,
+    "later_192": "Existing aggregate prose and aggregate JSON only",
+    "raw_auxiliary_protected_read_bytes": 0,
+    "http_ingress_bytes": 0,
+    "physical_provider_import_and_context_io": "Uninstrumented. Named body/member counts are logical bytes and exclude source text, outputs and runtime libraries."
+  },
+  "working_storage_before_close": {
+    "logical_bytes_including_brief": 153206,
+    "du_kib": 180
+  },
+  "validation": {
+    "json_parse_and_required_success_checks": "passed",
+    "administrative_git_status": "fatal: not a git repository from this workspace command, no Git operation taken"
+  },
+  "future_allocation_booked": {
+    "scientist_minutes": 0,
+    "scientific_cpu_seconds": 0,
+    "read_bytes": 0
+  }
+}

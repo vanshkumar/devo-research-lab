@@ -1,0 +1,59 @@
+{
+  "subject": "ibl_witten_24",
+  "lab": "wittenlab",
+  "indexed_sessions": 3,
+  "table_sessions": 3,
+  "first_indexed_date": "2020-03-12",
+  "last_indexed_date": "2020-03-16",
+  "split": "lab_holdout",
+  "hash_mod_5": 4,
+  "rows_read": 2666,
+  "total_indexed_rows": 2666,
+  "provenance": [
+    {
+      "path": "data/sealed/lab_holdout/ibl_witten_24/2020-03-12_001_534429a6-e3d7-4bf5-a682-a05219ef38e1_table.pqt",
+      "dataset_id": "25120005-6950-4496-b01f-d6754537a26b",
+      "session_uuid": "534429a6-e3d7-4bf5-a682-a05219ef38e1",
+      "date": "2020-03-12",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.4.0",
+      "md5": "129562b0353a91b60cfd975344a5c7ea",
+      "sha256": "d5a8d8e673113800644f72f1980ec30cd0d659af0526561b938afd7be5144d32",
+      "bytes": 60236,
+      "cache_md5": "129562b0353a91b60cfd975344a5c7ea",
+      "bounded_rows": 759,
+      "footer_rows": 759,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/lab_holdout/ibl_witten_24/2020-03-12_001_534429a6-e3d7-4bf5-a682-a05219ef38e1_table.pqt') LIMIT 759"
+    },
+    {
+      "path": "data/sealed/lab_holdout/ibl_witten_24/2020-03-13_001_06af8f68-2723-4850-b798-bfa41212da6a_table.pqt",
+      "dataset_id": "d2c6eca6-1a29-458a-9337-51ed912f33c8",
+      "session_uuid": "06af8f68-2723-4850-b798-bfa41212da6a",
+      "date": "2020-03-13",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.4.0",
+      "md5": "e4e6899d51cd6ade73eb4c56b31d4114",
+      "sha256": "2ae7c2bf128ef26c407b5961f29f3af9dd3962e238a3df1c0de9ac49046cf3a1",
+      "bytes": 69944,
+      "cache_md5": "e4e6899d51cd6ade73eb4c56b31d4114",
+      "bounded_rows": 902,
+      "footer_rows": 902,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/lab_holdout/ibl_witten_24/2020-03-13_001_06af8f68-2723-4850-b798-bfa41212da6a_table.pqt') LIMIT 902"
+    },
+    {
+      "path": "data/sealed/lab_holdout/ibl_witten_24/2020-03-16_001_9e7f1cf0-fe81-4b4e-9b50-907431a6fbbc_table.pqt",
+      "dataset_id": "3aaa41eb-faa4-4ac6-839f-35d346b90975",
+      "session_uuid": "9e7f1cf0-fe81-4b4e-9b50-907431a6fbbc",
+      "date": "2020-03-16",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.4.0",
+      "md5": "43f38b0f332aea22a5bcb16d29afc541",
+      "sha256": "49b9306de3e9151043b9a49c46e9bc9ce3610e860c93e057a94beedb553abc76",
+      "bytes": 76701,
+      "cache_md5": "43f38b0f332aea22a5bcb16d29afc541",
+      "bounded_rows": 1005,
+      "footer_rows": 1005,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/lab_holdout/ibl_witten_24/2020-03-16_001_9e7f1cf0-fe81-4b4e-9b50-907431a6fbbc_table.pqt') LIMIT 1005"
+    }
+  ]
+}

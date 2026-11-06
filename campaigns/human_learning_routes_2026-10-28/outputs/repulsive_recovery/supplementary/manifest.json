@@ -1,0 +1,116 @@
+{
+  "status": "complete",
+  "status_of_analysis": "post-validation supplementary generator adequacy audit",
+  "anchor": {
+    "history": [
+      0.7348222651845686,
+      -0.3613246658476084,
+      -1.0621933846651597
+    ],
+    "previous_choice": -0.16526566377372773,
+    "condition_previous_choice": -0.16378563424581746,
+    "source": "outputs/development/shared_tight.json",
+    "source_sha256": "a100e623e08ca55a2bb8fbd1a80c480a3b25a6f97948ca492e385b3bd1024f71",
+    "qualification": "Selected development mean coefficients orient one supplementary generator; this is not a validated full generative model of the human data."
+  },
+  "scenarios": {
+    "shared_commonlaw": {
+      "target": 0.0,
+      "shape": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": 0.0,
+      "expected_effect": 0.0,
+      "refinement": []
+    },
+    "slow_plus05": {
+      "target": 0.05,
+      "shape": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": 1.9844662700346918,
+      "initial_scale": 1.909653352139333,
+      "expected_effect": 0.04996464140749016,
+      "refinement": [
+        {
+          "step": 0,
+          "scale": 1.909653352139333,
+          "mean_effect": 0.04811503679792827
+        },
+        {
+          "step": 1,
+          "scale": 1.9844662700346918,
+          "mean_effect": 0.04996464140749016
+        }
+      ]
+    },
+    "slow_minus05": {
+      "target": -0.05,
+      "shape": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": 1.9872410052890634,
+      "initial_scale": 1.909653352139333,
+      "expected_effect": -0.04996341067728905,
+      "refinement": [
+        {
+          "step": 0,
+          "scale": 1.909653352139333,
+          "mean_effect": -0.04804785496718239
+        },
+        {
+          "step": 1,
+          "scale": 1.9872410052890634,
+          "mean_effect": -0.04996341067728905
+        }
+      ]
+    },
+    "redistribution_plus05": {
+      "target": 0.05,
+      "shape": [
+        -1.0,
+        0.0,
+        1.0
+      ],
+      "scale": 0.41987843635663474,
+      "initial_scale": 0.40095326957437455,
+      "expected_effect": 0.04998902152563257,
+      "refinement": [
+        {
+          "step": 0,
+          "scale": 0.40095326957437455,
+          "mean_effect": 0.04774635166472498
+        },
+        {
+          "step": 1,
+          "scale": 0.41987843635663474,
+          "mean_effect": 0.04998902152563257
+        }
+      ]
+    }
+  },
+  "args": {
+    "reps": 100,
+    "workers": 2,
+    "label": "supplementary"
+  },
+  "seeds": "502610280+10000*scenario_index+replicate",
+  "validation_outcomes_used": "None; only selected DEVELOPMENT mean coefficients orient generator. All choice/feedback responses generated.",
+  "changes_from_original_generator": "Shared history mean and previous-choice mean/group coefficient only. Common sensory-history law, heterogeneity, schedule effects, lapse/omission and nonstationarity retained.",
+  "inference_limit": "Conditional recovery under one development-oriented generator, not validated empirical task power or a new protected-data analysis.",
+  "frozen_imported_source_sha256": {
+    "model.py": "7c052b36833de38a338fbc86b2810b9d332f0282d4f5bb077a7a4f62bba2114c",
+    "analysis.py": "bc3af35c10e4f783e11f5154fafa07609607a7903495c336efdc5cf664acfef3",
+    "recovery.py": "a4031caf36304dbd551d308dedc89352eaf59b00176217c002bc900b71851e8f"
+  },
+  "input_sha256": "a099ecde4dd8652e4facff4d9bc57162d88d72bdc71f1c4763982e0f6d6a79ce",
+  "split_sha256": "5f9ed20b892a7197d8b47f75d7f8b2b64e093b2841f14f36c239bb96da12a051",
+  "elapsed_seconds": 213.08423654199999,
+  "all_converged": true
+}

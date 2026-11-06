@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "adopted_on": "2026-10-29",
+  "timezone": "America/New_York",
+  "project_id": "cf545035-16ea-4f52-9901-4c2899328bbc",
+  "workspace": "/Users/vanshkumar/Documents/repos/devo-research-lab",
+  "status": "active",
+  "pi": {
+    "thread_id": "01a183c5-84a1-71f1-b38e-323dbbd2e7bd",
+    "host_id": "local",
+    "title": "Propose High-Impact Research Next",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "ultra",
+    "configuration_status": "ultra_activation_accepted_by_app",
+    "activation_date": "2026-10-29",
+    "adoption_status": "confirmed_by_canonical_pi",
+    "adoption_date": "2026-10-29",
+    "authorization_verified_in_setup_thread": true
+  },
+  "investigator_default": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "max"
+  },
+  "question": {
+    "id": "learning-across-curricula",
+    "text": "Can a learning process inferred under one curriculum predict acquisition under another?",
+    "status": "unresolved_in_this_program_existing_positive_qualitative_prior",
+    "prior_implementation_route": "parked",
+    "protected_pan20": "prefixes_and_outcomes_sealed",
+    "next_information_need": "Can learned separation of unpredictable transitions from context change remove an oracle and support quantitative source-fixed curriculum forecasts?"
+  },
+  "budget": {
+    "policy": "conservative starting caps; not a hard token meter",
+    "max_active_flagship_questions": 1,
+    "max_active_durable_investigators": 1,
+    "max_alternatives_per_decision_cycle": 3,
+    "max_independent_reviews_per_cycle": 1,
+    "max_revisions_per_cycle": 1,
+    "max_continuations_per_investigation": 1,
+    "max_autonomous_max_agent_starts_per_day": 2,
+    "agent_starts_include": [
+      "durable investigation",
+      "ephemeral scientific review",
+      "context continuation"
+    ],
+    "max_substantive_pi_cycles_per_day": 2,
+    "minimum_account_remaining_percent_for_new_work": 20,
+    "quiet_wakeup_starts_new_work": false,
+    "handoff_max_words": 600,
+    "completion_message_max_words": 400,
+    "user_authorization_required_to_raise_caps": true,
+    "date_scoped_overrides": {
+      "2026-10-29": {
+        "authority": "Direct human instruction in canonical PI chat: you can keep going for today, go until you hit10% usage remaining roughly",
+        "minimum_account_remaining_percent_for_new_work": 10,
+        "daily_max_agent_start_ceiling": "usage_governed_today",
+        "daily_substantive_pi_cycle_ceiling": "usage_governed_today",
+        "expires_after_local_date": "2026-10-29",
+        "preserve_per_task_and_scientific_conditions": true
+      }
+    }
+  },
+  "daily_usage": {
+    "date": "2026-10-29",
+    "max_agent_starts_reserved": 8,
+    "substantive_pi_cycles_reserved": 7,
+    "note": "Research operations counted from activation. Reserve before starting; reset by local date, not by wakeup.",
+    "allowance_remaining_at_reservation_percent": 70,
+    "reservation_note": "Eighthstart under human10%todayoverride; cycle7selectedone45minute Beukers noise/context feasibility+controlledsyntheticimplementation, no humanresponses."
+  },
+  "heartbeat": {
+    "kind": "heartbeat",
+    "interval_hours": 2,
+    "target_thread_id": "01a183c5-84a1-71f1-b38e-323dbbd2e7bd",
+    "automation_id": "research-pi-progress-loop",
+    "status": "ACTIVE"
+  },
+  "pre_adoption_ephemeral_searches": [
+    {
+      "agent_task_name": "/root/intervention_animal_data",
+      "last_observed_status": "interrupted",
+      "disposition": "not_resumed; current evidence search belongs to intervention-evidence-2026-10-29"
+    },
+    {
+      "agent_task_name": "/root/intervention_human_data",
+      "last_observed_status": "interrupted",
+      "disposition": "not_resumed; current evidence search belongs to intervention-evidence-2026-10-29"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "intervention-evidence-2026-10-29",
+      "role": "investigation_lead",
+      "status": "completed",
+      "scientific_status": "bounded_feasibility_assessment_complete_question_unresolved",
+      "thread_id": "01a18845-952d-7b02-9a6d-10a5b96d2c40",
+      "host_id": "local",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "max",
+      "path": "lab/tasks/intervention-evidence-2026-10-29",
+      "pi_review_status": "closed_independent_review_collected_one_conditional_revision",
+      "delivery_status": "delivered_and_collected",
+      "continuations_used": 0,
+      "title": "Research investigator \u2014 training intervention evidence"
+    },
+    {
+      "id": "habits-route-review-2026-10-29",
+      "role": "independent_reviewer",
+      "status": "completed",
+      "scientific_status": "independent_route_review_complete_question_unresolved",
+      "thread_id": "01a1885c-3822-7bc0-88b7-e5fd7343299a",
+      "host_id": "local",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "max",
+      "path": "lab/reviews/habits-route-2026-10-29",
+      "pi_review_status": "collected_one_conditional_revision_approved_deferred",
+      "delivery_status": "delivered_after_human_approval_and_collected",
+      "continuations_used": 0,
+      "source_task": "intervention-evidence-2026-10-29",
+      "scope": "Independent local source/trainer/exposure/payoff review only; no raw trial payload, fitting, outcomes or new candidates.",
+      "title": "Independent review \u2014 HABITS test route"
+    },
+    {
+      "id": "habits-feasibility-2026-10-30",
+      "role": "investigation_lead",
+      "status": "completed",
+      "scientific_status": "feasibility_failed_deployed_teacher_contradiction",
+      "thread_id": null,
+      "host_id": "local",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "max",
+      "path": "lab/tasks/habits-feasibility-2026-10-30",
+      "pi_review_status": "collected_retire_route_pending_independent_deployment_provenance",
+      "delivery_status": "native_return_and_durable_result_collected",
+      "continuations_used": 0,
+      "source_task": "intervention-evidence-2026-10-29",
+      "independent_review": "habits-route-review-2026-10-29",
+      "scope": "One45-minute revision; synthetic-first proof then conditional BW362<=200posthabituation rows within6MBcompressed/16MBdecoded/32KiBrow caps. No fitting, target futures, continuation or automatic next stage.",
+      "agent_task_name": "/root/habits_feasibility",
+      "identity_type": "native_subagent",
+      "identity_note": "Native spawn returned canonical task name, not an app thread ID; no thread UUID fabricated.",
+      "actual_started_on": "2026-10-29"
+    },
+    {
+      "id": "fixed-training-evidence-2026-10-29",
+      "role": "investigation_lead",
+      "status": "completed",
+      "scientific_status": "bounded_search_complete_conditional_Flesch_opportunity_only",
+      "thread_id": null,
+      "host_id": "local",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "max",
+      "path": "lab/tasks/fixed-training-evidence-2026-10-29",
+      "pi_review_status": "collected_conditional_model_transport_review_reserved",
+      "delivery_status": "native_result_and_files_collected",
+      "continuations_used": 0,
+      "scope": "<=3human fixed/fullyrecorded training experiments; metadata/code only, no response trajectories or fits.",
+      "agent_task_name": "/root/fixed_training_evidence",
+      "identity_type": "native_subagent",
+      "identity_note": "Canonical task name returned by native tool; no app UUID returned."
+    },
+    {
+      "id": "flesch-transport-review-2026-10-29",
+      "role": "independent_reviewer",
+      "status": "completed",
+      "scientific_status": "conditional_source_only_study_supported_target_release_not_authorized",
+      "thread_id": null,
+      "host_id": "local",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "max",
+      "path": "lab/reviews/flesch-transport-2026-10-29",
+      "pi_review_status": "collected_one_source_only_design_refinement_approved",
+      "delivery_status": "native_return_and_durable_files_collected",
+      "continuations_used": 0,
+      "source_task": "fixed-training-evidence-2026-10-29",
+      "scope": "Selection-aware shared-parameter prediction on published Flesch cohort; source/task/model code and synthetic math only; no response values or fits.",
+      "agent_task_name": "/root/flesch_transport_review",
+      "identity_type": "native_subagent",
+      "identity_note": "Native canonical task name returned; no app thread UUID returned."
+    },
+    {
+      "id": "flesch-source-calibration-2026-10-29",
+      "role": "investigation_lead",
+      "status": "completed",
+      "scientific_status": "bounded_source_stop_adequacy_and_continuous_integration_unearned",
+      "thread_id": null,
+      "host_id": "local",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "max",
+      "path": "lab/tasks/flesch-source-calibration-2026-10-29",
+      "pi_review_status": "collected_stop_before_target_responses",
+      "delivery_status": "durable_result_and_source_evidence_collected",
+      "continuations_used": 0,
+      "source_task": "fixed-training-evidence-2026-10-29",
+      "independent_review": "flesch-transport-review-2026-10-29",
+      "scope": "90minute implementation and source-only B200/Interleaved fit/calibration; conditional selected cohort; inputs allcolumns, four original response fields source columns only; B2/B20responses sealed; no subagent or automatic continuation.",
+      "agent_task_name": "/root/flesch_source_calibration",
+      "identity_type": "native_subagent",
+      "identity_note": "Actual native spawn returned canonical task name; no app thread UUID returned."
+    },
+    {
+      "id": "flesch-source-calibration-review-2026-10-29",
+      "role": "independent_reviewer",
+      "status": "completed",
+      "scientific_status": "independent_38check_source_stop_confirmed_with_numerical_limit",
+      "thread_id": null,
+      "host_id": "local",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "max",
+      "path": "lab/reviews/flesch-source-calibration-2026-10-29",
+      "pi_review_status": "collected_stop_before_target_responses",
+      "delivery_status": "native_final_and_durable_review_collected",
+      "continuations_used": 0,
+      "source_task": "flesch-source-calibration-2026-10-29",
+      "scope": "One25minute local-only independent implementation/selection/source-adequacy/calibration check; no rawMAT or new response access; one process512MB shared ceiling.",
+      "agent_task_name": "/root/flesch_source_review",
+      "identity_type": "native_subagent",
+      "identity_note": "Actual canonical name returned by native spawn; no app UUID returned."
+    },
+    {
+      "id": "noise-context-feasibility-2026-10-29",
+      "role": "investigation_lead",
+      "status": "running",
+      "scientific_status": "noise_context_source_and_controlled_pilot_in_progress",
+      "thread_id": null,
+      "host_id": "local",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "max",
+      "path": "lab/tasks/noise-context-feasibility-2026-10-29",
+      "pi_review_status": "pending",
+      "delivery_status": "durable_files_required",
+      "continuations_used": 0,
+      "scope": "45minute pinnedtask/model/valueblinddatafeasibility and one learnedpredictability syntheticpilot; no humanresponsevalues/fits.",
+      "agent_task_name": "/root/noise_context_feasibility",
+      "identity_type": "native_subagent",
+      "identity_note": "Native spawn returned canonical task name; no app thread UUID returned.",
+      "interruption_recovery": {
+        "observed_utc": "2026-10-29T19:07:20Z",
+        "reason": "System heartbeat interrupted parent turn; native actor status confirmed interrupted.",
+        "action": "Resumed same native actor/context via followup_task; no new owner/start/context.",
+        "original_deadline_utc": "2026-10-29T19:51:20Z",
+        "budgets_reset": false
+      }
+    }
+  ],
+  "current_pi_cycle": {
+    "id": "2026-10-29-cycle-7",
+    "status": "investigation_in_progress",
+    "task": "noise-context-feasibility-2026-10-29",
+    "alternatives_considered": 3,
+    "independent_reviews_reserved": 0,
+    "revisions_used": 0,
+    "alternatives": [
+      "numerically_faithful_replay_of_existing_prescriptions",
+      "rapid_rule_inference_with_explicit_task_credit_assignment",
+      "stop_Flesch_route_without_target_access"
+    ],
+    "scope": "PI at most4 targeted primary literaturequeries and one local input-only information diagnostic; no new fit/model/task dispatch or targetresponses yet.",
+    "decision": "Change operational evidence to learned-noise/context inference; nofourthFleschmodel orfurtherfit."
+  },
+  "next_action": {
+    "id": "noise-context-feasibility-2026-10-29",
+    "status": "in_progress",
+    "brief": "lab/tasks/noise-context-feasibility-2026-10-29/BRIEF.md",
+    "approved_brief_sha256": "fa848f28da1eef2259f76672dc94ca55653e53c8940272520370e383908116f0",
+    "budget_reserved": true,
+    "dispatched": true,
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "max",
+    "actual_agent_task_name": "/root/noise_context_feasibility"
+  },
+  "completed_pi_cycles": [
+    {
+      "id": "2026-10-29-cycle-3",
+      "status": "completed",
+      "task": "habits-feasibility-2026-10-30",
+      "alternatives_considered": 1,
+      "independent_reviews_reserved": 0,
+      "revisions_used": 0,
+      "authority": "Direct human10%continuation override; original data/scientific limits unchanged.",
+      "completed_on": "2026-10-29",
+      "decision": "retire_HABITS_route_after_frozen_replay_failure_no_further_payload"
+    },
+    {
+      "id": "2026-10-29-cycle-4",
+      "status": "completed",
+      "task": "fixed-training-evidence-2026-10-29",
+      "alternatives_considered": 0,
+      "independent_reviews_reserved": 0,
+      "revisions_used": 0,
+      "reason": "Change information source within the same question: a directly observable teacher instead of another unverified adaptive firmware.",
+      "completed_on": "2026-10-29",
+      "decision": "No_unrestricted_campaign; explicitly consider conditional_shared_rule_forecast_on_Flesch_reported_cohort"
+    },
+    {
+      "id": "2026-10-29-cycle-5",
+      "status": "completed",
+      "task": "flesch-transport-review-2026-10-29",
+      "alternatives_considered": 1,
+      "independent_reviews_reserved": 1,
+      "revisions_used": 0,
+      "population": "explicit_final_success_selected_Flesch_cohort; no_unrestricted_or_causal_claim",
+      "completed_on": "2026-10-29",
+      "decision": "approve_bounded_source_only_implementation_calibration_no_target_responses"
+    },
+    {
+      "id": "2026-10-29-cycle-6",
+      "status": "completed",
+      "task": "flesch-source-calibration-2026-10-29",
+      "alternatives_considered": 3,
+      "independent_reviews_reserved": 1,
+      "revisions_used": 1,
+      "population": "reported_final_success_selected_Flesch_cohort_not_all_recruited_or_causal",
+      "refinement": "Pinned complete timeout caller certifies full-feedback primary; exact finite-state/count normalizer permitted, same mixture normalization.",
+      "completed_on": "2026-10-29",
+      "decision": "stop_current_source_prescriptions_no_target_access; likelihood_integration_unresolved_and_no_source_utility_gain"
+    }
+  ],
+  "completed_actions": [
+    {
+      "id": "habits-feasibility-2026-10-30",
+      "status": "completed_failed_feasibility",
+      "approved_on": "2026-10-29",
+      "earliest_eligible_local_date": "2026-10-29",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "max",
+      "brief": "lab/tasks/habits-feasibility-2026-10-30/BRIEF.md",
+      "approved_brief_sha256": "e6234fa872139a046388e29454eafb5ce91b38e0580f01f1d88f6d8c50fc36b6",
+      "task_path": "lab/tasks/habits-feasibility-2026-10-30",
+      "budget_reserved": true,
+      "dispatched": true,
+      "preferred_existing_investigator_thread": "01a18845-952d-7b02-9a6d-10a5b96d2c40",
+      "pre_dispatch_requirements": [
+        "Respect the original brief plus dated PI scheduling/usage amendment.",
+        "No active overlapping owner; pass explicit Sol/max settings.",
+        "Reconcile uncertain creation before any retry."
+      ],
+      "scope": "One45-minute revision; synthetic-first proof then conditional BW362<=200posthabituation rows within6MBcompressed/16MBdecoded/32KiBrow caps. No fitting, target futures, continuation or automatic next stage.",
+      "pi_amendment": "lab/tasks/habits-feasibility-2026-10-30/PI_AMENDMENT_2026-10-29.md",
+      "pi_amendment_sha256": "6b43c63090111f863bc4aa38dc5518aca7723dfca65d49dc4685716a525dd198",
+      "actual_agent_task_name": "/root/habits_feasibility",
+      "outcome": "Safe reader passed; all frozen teacher variants and parameter-independent repeat invariant failed. No fitting or more access."
+    }
+  ],
+  "usage_observations": [
+    {
+      "reported_utc": "2026-10-29T17:04:46Z",
+      "remaining_percent": 45
+    },
+    {
+      "reported_utc": "2026-10-29T17:08:46Z",
+      "remaining_percent": 72,
+      "note": "Unexpected counter change independently confirmed by PI, same weekly reset. No reset/credit invoked; not a task-consumption delta."
+    }
+  ]
+}

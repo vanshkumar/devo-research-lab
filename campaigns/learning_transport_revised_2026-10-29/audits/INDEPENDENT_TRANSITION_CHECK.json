@@ -1,0 +1,170 @@
+{
+  "utc": "2026-10-29T13:52:32.122443+00:00",
+  "passed": true,
+  "scope": "Independent synthetic recurrence plus one consumed original development prefix; no real futures or Pan",
+  "persistent_question": "Can source-inferred dynamics forecast1000+3000 acquisition under a different trainer better than growth?",
+  "source_status": "All source checks are development evidence; historical failures unchanged; Pan20 sealed",
+  "reviewed_code_sha256": {
+    "campaigns/learning_transport_revised_2026-10-29/code/common.py": "d05a80421368f527068f4c8d953a290480d0023c681f27cbf6718bb8b8d73053",
+    "campaigns/learning_transport_revised_2026-10-29/code/session_model.py": "1eefc9c9f569b20099bb64cf186d64eeeed1b840e411eac6e7dabd9663e62e83",
+    "campaigns/learning_transport_revised_2026-10-29/protocols/DESIGN.md": "784eefccfd6289cc143bbf09556e90217cafde5c5593d418a156bd0759c4e35d"
+  },
+  "synthetic_seed": 71929,
+  "synthetic_trials": 1081,
+  "scalar_reference_checks": [
+    {
+      "rho": 0.5,
+      "reference_max_abs": {
+        "probability": 3.3306690738754696e-16,
+        "coefficient": 8.881784197001252e-16,
+        "coefficient_endpoint": 2.220446049250313e-16,
+        "memory_endpoint": 2.220446049250313e-16
+      },
+      "split_continuation_max_abs": 0.0,
+      "omitted_boundary_response_update_max_abs": 0.0,
+      "wrong_double_transition_probability_gap": 0.10581339859414735,
+      "wrong_post_prediction_boundary_gap": 0.07659237067833846,
+      "causal_probability_change_through_changed_trial": 0.0
+    },
+    {
+      "rho": 0.7,
+      "reference_max_abs": {
+        "probability": 2.220446049250313e-16,
+        "coefficient": 8.881784197001252e-16,
+        "coefficient_endpoint": 2.220446049250313e-16,
+        "memory_endpoint": 1.1102230246251565e-16
+      },
+      "split_continuation_max_abs": 0.0,
+      "omitted_boundary_response_update_max_abs": 0.0,
+      "wrong_double_transition_probability_gap": 0.10575372383668907,
+      "wrong_post_prediction_boundary_gap": 0.04525395311301761,
+      "causal_probability_change_through_changed_trial": 0.0
+    },
+    {
+      "rho": 0.9,
+      "reference_max_abs": {
+        "probability": 3.3306690738754696e-16,
+        "coefficient": 8.881784197001252e-16,
+        "coefficient_endpoint": 6.661338147750939e-16,
+        "memory_endpoint": 2.220446049250313e-16
+      },
+      "split_continuation_max_abs": 0.0,
+      "omitted_boundary_response_update_max_abs": 0.0,
+      "wrong_double_transition_probability_gap": 0.06049290565858734,
+      "wrong_post_prediction_boundary_gap": 0.014815608447891648,
+      "causal_probability_change_through_changed_trial": 0.0
+    },
+    {
+      "rho": 1.0,
+      "reference_max_abs": {
+        "probability": 3.3306690738754696e-16,
+        "coefficient": 8.881784197001252e-16,
+        "coefficient_endpoint": 6.661338147750939e-16,
+        "memory_endpoint": 2.220446049250313e-16
+      },
+      "split_continuation_max_abs": 0.0,
+      "omitted_boundary_response_update_max_abs": 0.0,
+      "wrong_double_transition_probability_gap": 3.3306690738754696e-16,
+      "wrong_post_prediction_boundary_gap": 0.0,
+      "causal_probability_change_through_changed_trial": 0.0
+    }
+  ],
+  "rho1_sequence_max_abs": 0.0,
+  "rho1_prefix_particles_max_abs": 0.0,
+  "rho1_prefix_calibration_metadata_exact": true,
+  "independent_prefix_fisher": [
+    {
+      "rho": 0.7,
+      "max_abs": {
+        "initial_covariance": 1.4799272918253337e-13,
+        "endpoint_covariance": 1.4493573984204755e-14,
+        "coefficient_particles": 1.936450999551198e-12,
+        "memory_particles": 7.90589815835574e-13
+      }
+    },
+    {
+      "rho": 1.0,
+      "max_abs": {
+        "initial_covariance": 2.099431739566171e-13,
+        "endpoint_covariance": 4.177769241664464e-13,
+        "coefficient_particles": 2.0938806244430452e-12,
+        "memory_particles": 6.876998970284376e-13
+      }
+    }
+  ],
+  "rho1_autonomous_256particles_3000opportunities_max_abs": {
+    "standard": {
+      "samples": 0.0,
+      "counts": 0.0,
+      "probe100": 0.0,
+      "weights": 0.0,
+      "hidden_final": 0.0,
+      "pool_fraction": 0.0
+    },
+    "external": {
+      "samples": 0.0,
+      "counts": 0.0,
+      "probe100": 0.0,
+      "weights": 0.0,
+      "hidden_final": 0.0,
+      "pool_fraction": 0.0
+    }
+  },
+  "rho_0p7_independent_autonomous_256particles_max_abs": {
+    "standard": {
+      "samples": 0.0,
+      "counts": 0.0,
+      "weights": 0.0,
+      "hidden_final": 0.0
+    },
+    "external": {
+      "samples": 0.0,
+      "counts": 0.0,
+      "weights": 0.0,
+      "hidden_final": 0.0
+    }
+  },
+  "empirical_access": {
+    "subject": "CSHL034",
+    "cap": 1000,
+    "actual_future_rows_read": 0
+  },
+  "denied_access_fixtures": [
+    {
+      "subject": "fip_13",
+      "cap": 1000
+    },
+    {
+      "subject": "SWC_007",
+      "cap": 1000
+    },
+    {
+      "subject": "NYU-21",
+      "cap": 1000
+    },
+    {
+      "subject": "not_a_subject",
+      "cap": 1000
+    },
+    {
+      "subject": "CSHL034",
+      "cap": 4001
+    },
+    {
+      "subject": "CSHL034",
+      "cap": 0
+    }
+  ],
+  "historical_log_sha256_before": {
+    "campaigns/learning_rule_transport_2026-10-28/protocols/EXPOSURE.jsonl": "bb24c5aa6cad6e8e965919674250690368b5eb880b201040d9f64f0ec56d56f1",
+    "campaigns/population_learning_transport_2026-10-28/protocols/EXPOSURE.jsonl": "b6eaad2a9acf7d2bd7a0b9d593fdd9fffcfe8b65dfc7312aaccf7f430137ef95"
+  },
+  "historical_log_sha256_after": {
+    "campaigns/learning_rule_transport_2026-10-28/protocols/EXPOSURE.jsonl": "bb24c5aa6cad6e8e965919674250690368b5eb880b201040d9f64f0ec56d56f1",
+    "campaigns/population_learning_transport_2026-10-28/protocols/EXPOSURE.jsonl": "b6eaad2a9acf7d2bd7a0b9d593fdd9fffcfe8b65dfc7312aaccf7f430137ef95"
+  },
+  "historical_freeze_intact": true,
+  "no_historical_log_writers_called": true,
+  "all_source_results_are_development": true,
+  "protected_pan_accesses": 0
+}

@@ -1,0 +1,121 @@
+{
+  "at_utc": "2026-10-31T17:47:26.612794+00:00",
+  "uid": "2023-01-16-22",
+  "source_url": "https://raw.githubusercontent.com/vanshkumar/LOOPER-freely-moving-worms/513782b42ad77e75f35adfbc70064b7418ff674a/atanas-data/heat/atanas_kim_2023-2023-01-16-22.json",
+  "acquisition_mode": "pinned public endpoint",
+  "bytes": 9160851,
+  "sha256": "605c5d2ddfe0427dacd47fd32e46525506fb8f67036304fd179008e8dec47b7e",
+  "git_blob": "a947ca6a2c5d51342defa024d21bb0263947b387",
+  "keys": [
+    "avg_timestep",
+    "rel_enc_str_\u03b8h",
+    "trace_original",
+    "dorsalness",
+    "head_curvature",
+    "angular_velocity",
+    "events",
+    "trace_array",
+    "rel_enc_str_P",
+    "reversal_events",
+    "encoding_changing_neurons",
+    "feedingness",
+    "uid",
+    "ranges",
+    "labeled",
+    "timestamp_confocal",
+    "velocity",
+    "body_curvature",
+    "forwardness",
+    "tau_vals",
+    "num_neurons",
+    "rel_enc_str_v",
+    "max_t",
+    "dataset_type",
+    "pumping",
+    "neuron_categorization"
+  ],
+  "dataset_type": [
+    "heat",
+    "neuropal"
+  ],
+  "shape": [
+    135,
+    1614
+  ],
+  "timestamp_shape": [
+    1614
+  ],
+  "velocity_shape": [
+    1614
+  ],
+  "heat_event_export": [
+    802
+  ],
+  "heat_frame_0based": 801,
+  "heat_time_seconds": 1217144.5192927518,
+  "dt_seconds": 0.6000188863836229,
+  "pre_seconds": 481.8651301038917,
+  "post_seconds": 488.4721556962468,
+  "time_increasing": true,
+  "finite_trace_fraction": 1.0,
+  "finite_velocity_fraction": 1.0,
+  "ranges_summary": [
+    {
+      "n": 799,
+      "first": 1,
+      "last": 799
+    },
+    {
+      "n": 800,
+      "first": 810,
+      "last": 1609
+    }
+  ],
+  "label_count": 93,
+  "label_schema": [
+    [
+      "32",
+      {
+        "label": "RMDL",
+        "neuron_class": "RMD",
+        "LR": "L",
+        "region": null,
+        "roi_id": [
+          3
+        ],
+        "confidence": 5.0,
+        "DV": "undefined"
+      }
+    ],
+    [
+      "109",
+      {
+        "label": "SMDD?",
+        "neuron_class": "SMD",
+        "LR": "missing",
+        "region": null,
+        "roi_id": [
+          157
+        ],
+        "confidence": 3.0,
+        "DV": "D"
+      }
+    ],
+    [
+      "29",
+      {
+        "label": "RIVR",
+        "neuron_class": "RIV",
+        "LR": "R",
+        "region": null,
+        "roi_id": [
+          108
+        ],
+        "confidence": 5.0,
+        "DV": "undefined"
+      }
+    ]
+  ],
+  "avg_timestep": 0.010026492353527093,
+  "timing_caution": "pulse is an explicit event, not inferred from neural/behavior outcomes"
+}

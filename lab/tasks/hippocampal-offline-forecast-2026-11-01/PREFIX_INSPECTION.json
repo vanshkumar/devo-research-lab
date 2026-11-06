@@ -1,0 +1,380 @@
+{
+  "acquired_prefix_bytes": 5000001,
+  "decoded_complete_member_bytes": 7910672,
+  "central_directory_present": false,
+  "complete_archive_hash_certified": false,
+  "members": [
+    {
+      "name": "crcns-hc3-metadata-tables/",
+      "compressed": 0,
+      "uncompressed": 0,
+      "flags": 0,
+      "method": 0,
+      "offset": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "crcns-hc3-metadata-tables/00-README.txt",
+      "compressed": 598,
+      "uncompressed": 1164,
+      "flags": 8,
+      "method": 8,
+      "offset": 72,
+      "sha256": "955813804186aeb219c34da784755c389461b921a825ba36b329a6ea338cb9e3",
+      "text": "This directory contains metadata tables describing the\ncontents of hc-3 data set at CRCNS.org.  See the hc3-data-description\ndocument for information about how to use these tables.\n\nChange history:\n\nJuly 3, 2014:  Version 2.  Changes are:\n* Added three fields to cell table (eDist, RefracRatio, RefracViol)\n* Added spike_count table.\n* Added session_a table which contaion all contents in table session\n  plus information about additional sessions (most of them with behavior\n  \"sleep\") that are not included in the data set but which were used in\n  the spike sorting.  This table allows comparing the response of cells\n  during sleep to response in other sessions.  See the note in section\n  \"metadata files\" in document crcns-hc3-data-description for more\n  information and a pointer to an example SQLite query using this table.\n* Changed table session to a view of table session_a.  This change does\n  modify the content (content is the same as the previous version of\n  session) but it reduces the storage required for the table.\n \n----\n\nAugust 2013.  Original version (version 1).\nThese are now in directory \"old\" if different than the\nmost recent version.\n\n\n"
+    },
+    {
+      "name": "crcns-hc3-metadata-tables/hc3-cell.csv",
+      "compressed": 367104,
+      "uncompressed": 975829,
+      "flags": 8,
+      "method": 8,
+      "offset": 771,
+      "sha256": "903026bc308e20796b30f78c6c9355e92ccc631f431e1e89f0db68d6977a8ce1",
+      "row_count": 7736,
+      "first_three_rows": [
+        [
+          "2",
+          "ec012ec.11",
+          "ec012",
+          "1",
+          "3",
+          "EC3",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "11.0319127777911",
+          "10.9496983848998",
+          "i",
+          "404.064031781466",
+          "0.0338706467661692",
+          "0.000328731097961867"
+        ],
+        [
+          "3",
+          "ec012ec.11",
+          "ec012",
+          "1",
+          "4",
+          "EC3",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0.644957258801382",
+          "0.645164428877213",
+          "p",
+          "60.2420557654227",
+          "0.0563725490196078",
+          "0.000150829562594269"
+        ],
+        [
+          "4",
+          "ec012ec.11",
+          "ec012",
+          "1",
+          "5",
+          "EC3",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1.16474046940156",
+          "1.15333722514108",
+          "p",
+          "61.7605241994028",
+          "0.0154569892473118",
+          "8.43668269636379e-05"
+        ]
+      ]
+    },
+    {
+      "name": "crcns-hc3-metadata-tables/hc3-epos.csv",
+      "compressed": 594,
+      "uncompressed": 8702,
+      "flags": 8,
+      "method": 8,
+      "offset": 367975,
+      "sha256": "5aa1890a95c38667c11e44e12e7983575737f3e2b8e2f4437efb8409f63cc8eb",
+      "row_count": 119,
+      "first_three_rows": [
+        [
+          "ec012ec.11",
+          "ec012",
+          "EC3",
+          "EC3",
+          "EC5",
+          "EC5",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "ec012ec.12",
+          "ec012",
+          "EC3",
+          "EC3",
+          "EC5",
+          "EC5",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "ec012ec.13",
+          "ec012",
+          "EC3",
+          "EC3",
+          "EC5",
+          "EC5",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "crcns-hc3-metadata-tables/hc3-file.csv",
+      "compressed": 5659,
+      "uncompressed": 17531,
+      "flags": 8,
+      "method": 8,
+      "offset": 368669,
+      "sha256": "4f901fb71084d507cfcbbe510354936e16c122524097bd2e027c385cb3228954",
+      "row_count": 442,
+      "first_three_rows": [
+        [
+          "ec012ec.11",
+          "ec012ec.187",
+          "348509339",
+          "m1v",
+          "106726972"
+        ],
+        [
+          "ec012ec.11",
+          "ec012ec.188",
+          "56201878",
+          "m1v",
+          "16093611"
+        ],
+        [
+          "ec012ec.11",
+          "ec012ec.189",
+          "284447276",
+          "m1v",
+          "90686244"
+        ]
+      ]
+    },
+    {
+      "name": "crcns-hc3-metadata-tables/hc3-session.csv",
+      "compressed": 5217,
+      "uncompressed": 19379,
+      "flags": 8,
+      "method": 8,
+      "offset": 374428,
+      "sha256": "a94f4f4728d26e7d81fcda78ba67230de4a48d2c9be61b7bab391cf21f307c09",
+      "row_count": 442,
+      "first_three_rows": [
+        [
+          "5",
+          "ec012ec.11",
+          "ec012ec.187",
+          "Mwheel",
+          "10",
+          "1096.4"
+        ],
+        [
+          "6",
+          "ec012ec.11",
+          "ec012ec.188",
+          "Mwheel",
+          "10",
+          "171.6"
+        ],
+        [
+          "7",
+          "ec012ec.11",
+          "ec012ec.189",
+          "Mwheel",
+          "10",
+          "942.5"
+        ]
+      ]
+    },
+    {
+      "name": "crcns-hc3-metadata-tables/hc3-session_a.csv",
+      "compressed": 16246,
+      "uncompressed": 68955,
+      "flags": 8,
+      "method": 8,
+      "offset": 379748,
+      "sha256": "adc98173de5527e1af206243e54fd533aff0f632e80bad16a668578f6571aacf",
+      "row_count": 1539,
+      "first_three_rows": [
+        [
+          "id",
+          "topdir",
+          "session",
+          "behavior",
+          "familiarity",
+          "duration",
+          "problem"
+        ],
+        [
+          "1",
+          "ec012ec.11",
+          "ec012ec.181",
+          "sleep",
+          "10",
+          "462.3",
+          ""
+        ],
+        [
+          "2",
+          "ec012ec.11",
+          "ec012ec.182",
+          "sleep",
+          "10",
+          "1106.2",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "crcns-hc3-metadata-tables/hc3-spike_count.csv",
+      "compressed": 415277,
+      "uncompressed": 1329488,
+      "flags": 8,
+      "method": 8,
+      "offset": 396099,
+      "sha256": "4fb29b57019adb0a7828fa0670daebbb1abda7c3c809f5abd651197faec371b4",
+      "row_count": 104197,
+      "first_three_rows": [
+        [
+          "cellId",
+          "sessId",
+          "nSpikes"
+        ],
+        [
+          "2",
+          "1",
+          "4745"
+        ],
+        [
+          "2",
+          "2",
+          "13892"
+        ]
+      ]
+    },
+    {
+      "name": "crcns-hc3-metadata-tables/hc3-tables.db",
+      "compressed": 1187729,
+      "uncompressed": 2400256,
+      "flags": 8,
+      "method": 8,
+      "offset": 811483,
+      "sha256": "ecee0f1436ef3bcc6a377eb981c0411623ab3da57eb470ddb0b4d8bdc12f32a3"
+    },
+    {
+      "name": "crcns-hc3-metadata-tables/hc3-tables.sql",
+      "compressed": 1910,
+      "uncompressed": 5481,
+      "flags": 8,
+      "method": 8,
+      "offset": 1999313,
+      "sha256": "0cfaea09e133589408967f9a839e6e213b2988bb0d14613c22464b20b2090bcb",
+      "text": "create table cell (\r\n id integer,       -- Id used to match original row number in MatLab PyrIntMap.Map matrix\r\n topdir string,    -- top level directory containing data\r\n animal string,    -- name of animal\r\n ele integer,      -- electrode number\r\n clu integer,      -- ID # in cluster files\r\n region string,    -- brain region\r\n nexciting integer,   -- number of cells this cell monosynaptically excited\r\n ninhibiting integer, -- number of cells this cell monosynaptically inhibited\r\n exciting integer,    -- physiologically identified exciting cells based on CCG analysis\r\n inhibiting integer,  -- physiologically identified inhibiting cells based on CCG analysis\r\n      -- (Detailed method can be found in Mizuseki  Sirota Pastalkova and Buzsaki., 2009 Neuron paper.)\r\n excited integer,     -- based on cross-correlogram analysis, the cell is monosynaptically excited by other cells\r\n inhibited integer,   -- based on cross-correlogram analysis, the cell is monosynaptically inhibited by other cells\r\n fireRate real,       -- meanISI = mean(bootstrp(100,'mean',ISI)); fireRate = SampleRate/MeanISI; ISI is interspike intervals.\r\n totalFireRate real,  -- num of spikes divided by total recording length\r\n cellType string,     -- 'p'=pyramidal, 'i'=interneuron, 'n'=not identified as pyramidal or interneuron\r\n eDist float,         -- \"isolation distance\" (see Harris, Hirase, Leinekugel, Henze and Buzsaki, Neuron, 2001)\r\n RefracRatio float,   -- This is an interspike interval index \"R2/10 \"\r\n       -- (in Fee, Mitra and Kleinfeld, Journal of Neuroscience Methods, 1996)\r\n       -- R2/10 = (fraction of ISI < 2ms)/(fraction of ISI < 10 ms)*9.15/1.15\r\n       -- (our shortest interval between spikes allowed by our spike sorting method is\r\n       -- 0.85 ms, (10-0.85)/(2-0.85) = 9.15/1.15). ISI\r\n RefracViol float  -- Fraction of interspike intervals less than 2 msec.\r\n);\r\n\r\n\r\ncreate table session_a (\r\n  -- contains all sessions including those without data in the data set\r\n  id integer,      -- matches row in original MatLab Beh matrix\r\n  topdir string,   -- directory in data set containing data (tar.gz) files\r\n  session string,  -- individual session name (corresponds to name of tar.gz file having data)\r\n  behavior string, -- behavior, one of: Mwheel, Open, Tmaze, Zigzag, bigSquare, bigSquarePlus, circle\r\n                   -- linear, linearOne, linearTwo, midSquare, plus, sleep, wheel, wheel_home\r\n  familiarity integer, -- number of times animal has done task, 1=animal did task for first time, \r\n                       -- 2=second time, 3=third time, 10=10 or more\r\n  duration real,   -- recording length in seconds\r\n  problem string   -- is empty if no problem.  Has a string ('1', '2' or 'video') if there is a problem\r\n);\r\n\r\n\r\nCREATE VIEW session\r\n -- contains only those sessions with data files included in hc-3 data set\r\nas select\r\n   s.id,       -- matches row in original MatLab Beh matrix\r\n   s.topdir,   -- directory in data set containing data (tar.gz) files\r\n   s.session,  -- individual session name (corresponds to name of tar.gz file having data)\r\n   s.behavior, -- behavior, same as in table session_a\r\n   s.familiarity, -- number of times animal has done task\r\n   s.duration -- recording length in seconds\r\nfrom session_a s, file f\r\nwhere f.session = s.session\r\norder by id;\r\n\r\ncreate table file (\r\n  -- information about files in hc3 dataset\r\n  topdir string,  -- directory in data set containg data (tar.gz) files\r\n  session string, -- individual session name (corresponds to name of tar.gz file having data)\r\n  size integer,   -- number of bytes in tar.gz file\r\n  video_type string, -- 'mpg', 'm1v' or '-' (for no video file)\r\n  video_size integer -- size of video file, or 0 if no video file\r\n);\r\n\r\ncreate table epos (\r\n  -- has electrode positions for each top level directory\r\n  -- Note, some regions do not match that in cell table.\r\n  -- Those that differ have following meanings:\r\n  --   DGCA3: not sure sure if the electrode is DG or CA3.\r\n  --   Ctx: somewhere in the cortex (above the hippocampus)\r\n  --   CA: somewhere in the hippocampus (do not know if it is CA1, CA3 or DG)\r\n  topdir string,  -- directory in data set containing data (tar.gz) file\r\n  animal string,  -- animal name\r\n  e1 string,      -- region for electrode 1 \r\n  e2 string,      -- region for electrode 2\r\n  e3 string,      -- region for electrode 3\r\n  e4 string,      -- region for electrode 4\r\n  e5 string,      -- region for electrode 5\r\n  e6 string,      -- region for electrode 6\r\n  e7 string,      -- region for electrode 7\r\n  e8 string,      -- region for electrode 8\r\n  e9 string,      -- region for electrode 9\r\n  e10 string,     -- region for electrode 10\r\n  e11 string,     -- region for electrode 11\r\n  e12 string,     -- region for electrode 12\r\n  e13 string,     -- region for electrode 13\r\n  e14 string,     -- region for electrode 14\r\n  e15 string,     -- region for electrode 15\r\n  e16 string      -- region for electrode 16\r\n);\r\n\r\n\r\ncreate table spike_count (\r\n-- Contains number of spikes each cell has in each session\r\n-- (for sessions from which the cell could have been recorded).  Some\r\n-- counts will be zero because no spikes were detected from the\r\n-- a cell in those sessions, but could have been.\r\n  cellId integer,   -- id in cell table (row in original MatLab PyrIntMap.Map)\r\n  sessId integer,   -- id in session_a table (row in original MatLab Beh table)\r\n  nSpikes integer   -- number of spikes for cell in the session\r\n);\r\n\r\n\r\n"
+    },
+    {
+      "name": "crcns-hc3-metadata-tables/hc3-tables.xlsx",
+      "compressed": 2963734,
+      "uncompressed": 3083805,
+      "flags": 8,
+      "method": 8,
+      "offset": 2001325,
+      "sha256": "12f3fb8ced601c5390438ac61503fee8479f5d105b9738bbf00253dbc3780d0a"
+    },
+    {
+      "name": "__MACOSX/",
+      "compressed": 0,
+      "uncompressed": 0,
+      "flags": 0,
+      "method": 0,
+      "offset": 4965162,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "__MACOSX/crcns-hc3-metadata-tables/",
+      "compressed": 0,
+      "uncompressed": 0,
+      "flags": 0,
+      "method": 0,
+      "offset": 4965217,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "__MACOSX/crcns-hc3-metadata-tables/._hc3-tables.xlsx",
+      "compressed": 49,
+      "uncompressed": 82,
+      "flags": 8,
+      "method": 8,
+      "offset": 4965298,
+      "sha256": "cda7815294e6fb4ffa60908cd617c946389b0b9953fc17df9faf8e63a8109789"
+    },
+    {
+      "name": "crcns-hc3-metadata-tables/old/",
+      "compressed": 0,
+      "uncompressed": 0,
+      "flags": 0,
+      "method": 0,
+      "offset": 4965461,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "crcns-hc3-metadata-tables/old/hc3-cell_v1.csv",
+      "compressed": 0,
+      "uncompressed": 0,
+      "flags": 8,
+      "method": 8,
+      "offset": 4965537,
+      "stop": "partial deflate member or local decode cap"
+    }
+  ],
+  "peak_rss_bytes": 69861376
+}

@@ -1,0 +1,171 @@
+{
+  "scope": "Administrative integration checks; no scientific experiments or raw/protected observations. Native science state was not mutated; its original saved receipt is preserved.",
+  "checks": {
+    "fourteen_original_snapshots_exact": {
+      "pass": true
+    },
+    "administrative_archives_exact": {
+      "pass": true
+    },
+    "state_archive_exact": {
+      "pass": true
+    },
+    "RESEARCH_AGENDA_2026-10-29.md_historical_suffix_exact": {
+      "pass": true
+    },
+    "REPORT.md_historical_suffix_exact": {
+      "pass": true
+    },
+    "registry_changes_limited_to_authorized_fields": {
+      "pass": true,
+      "detail": {
+        "changed_paths": [
+          "budget.current_program_allocation",
+          "budget.handoff_max_words",
+          "budget.legacy_operating_limits",
+          "budget.max_alternatives_per_decision_cycle",
+          "budget.max_autonomous_max_agent_starts_per_day",
+          "budget.max_continuations_per_investigation",
+          "budget.max_independent_reviews_per_cycle",
+          "budget.max_revisions_per_cycle",
+          "budget.max_substantive_pi_cycles_per_day",
+          "budget.policy",
+          "budget.user_authorization_required_to_raise_caps",
+          "governance.administrative_reset",
+          "governance.authority",
+          "governance.current_workflow",
+          "governance.custom_gate_active",
+          "governance.historical_authority_scope",
+          "governance.resume_condition",
+          "governance.scientific_stopping_policy",
+          "governance.usage_check",
+          "heartbeat.administrative_prompt_update_receipt",
+          "heartbeat.authority",
+          "heartbeat.retirement_policy",
+          "heartbeat.scope",
+          "next_action.next_checkpoint",
+          "next_action.status",
+          "pi.context_policy.pi_refresh",
+          "question.current_operational_target",
+          "question.id",
+          "question.next_information_need",
+          "question.pre_reset_current_question_2026_11_03",
+          "question.status",
+          "question.text"
+        ],
+        "unexpected": []
+      }
+    },
+    "scientific_pi_native_objective_receipts_and_ownership_preserved": {
+      "pass": true
+    },
+    "all_task_cycle_usage_exposure_records_preserved": {
+      "pass": true,
+      "detail": [
+        "tasks",
+        "current_pi_cycle",
+        "completed_pi_cycles",
+        "completed_actions",
+        "daily_usage_history",
+        "daily_usage",
+        "usage_observations",
+        "manual_usage_check",
+        "investigator_default",
+        "pre_adoption_ephemeral_searches"
+      ]
+    },
+    "legacy_quotas_preserved_but_removed_from_active_budget": {
+      "pass": true
+    },
+    "budget_historical_authority_and_baselines_preserved": {
+      "pass": true
+    },
+    "former_current_question_preserved": {
+      "pass": true
+    },
+    "protected_policy_and_old_gate_configuration_preserved": {
+      "pass": true
+    },
+    "control_state_accounting_and_permissions_preserved": {
+      "pass": true,
+      "detail": [
+        "governance.custom_gate_active",
+        "governance.reason",
+        "governance.current_workflow",
+        "governance.historical_receipt_scope"
+      ]
+    },
+    "science_stays_paused_and_reserve_preserved": {
+      "pass": true
+    },
+    "consistent_program_zero_allocation": {
+      "pass": true
+    },
+    "project_hooks_inactive_other_functional_configuration_unchanged": {
+      "pass": true
+    },
+    "same_paused_native_heartbeat_exact_prompt": {
+      "pass": true,
+      "detail": {
+        "id": "research-pi-progress-loop",
+        "status": "PAUSED",
+        "rrule": "RRULE:FREQ=MINUTELY;INTERVAL=30",
+        "prompt_sha256": "3ba9cde24db169af3fc7532b740e9a2145d225ba6d7e67d5e2235f2bf2f9a1e6"
+      }
+    },
+    "saved_heartbeat_update_receipt_exists": {
+      "pass": true
+    },
+    "current_state_under_800_words": {
+      "pass": true,
+      "detail": {
+        "words_including_archive_links": 674
+      }
+    },
+    "all_old_state_history_links_retained": {
+      "pass": true,
+      "detail": {
+        "old_history_links": 20
+      }
+    },
+    "investment_and_review_sections_preserved": {
+      "pass": true
+    },
+    "six_distinct_fresh_workers_completed": {
+      "pass": true
+    },
+    "administration_native_goal_receipt_contains_complete": {
+      "pass": true
+    },
+    "focus_native_goal_receipt_contains_complete": {
+      "pass": true
+    },
+    "stopping_native_goal_receipt_contains_complete": {
+      "pass": true
+    },
+    "budget_native_goal_receipt_contains_complete": {
+      "pass": true
+    },
+    "review_native_goal_receipt_contains_complete": {
+      "pass": true
+    },
+    "materiality_native_goal_receipt_in_result": {
+      "pass": true
+    },
+    "json_artifacts_parse": {
+      "pass": true,
+      "detail": {
+        "count": 27
+      }
+    },
+    "active_local_markdown_links_resolve": {
+      "pass": true,
+      "detail": {
+        "checked": 125,
+        "missing": [],
+        "checks_json_exists_and_parses": true
+      }
+    }
+  },
+  "all_passed": true
+}

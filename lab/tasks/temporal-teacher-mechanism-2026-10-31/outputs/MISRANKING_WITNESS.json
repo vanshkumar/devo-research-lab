@@ -1,0 +1,66 @@
+{
+  "utc": "2026-10-31T12:41:14.279321+00:00",
+  "post_hoc_consumed_log_witness": true,
+  "case": 400,
+  "rows": [
+    {
+      "label": "best_visited_gold",
+      "query_index": 3642,
+      "action": [
+        -0.2704634451885538,
+        0.1600097413060701,
+        0.6359362511495282,
+        0.6595173344379736,
+        5.0,
+        0.8400000000000001
+      ],
+      "onset_shift_ms": 0,
+      "source_population_cost": 6.603257842954911e-05,
+      "saved_batch_cost": 6.603257842954895e-05,
+      "waveform_mse": 0.00010011543521904193,
+      "cost_reconstruction_error": 1.6263032587282567e-19
+    },
+    {
+      "label": "selected_final",
+      "query_index": 3630,
+      "action": [
+        -0.2704634451885538,
+        0.1600097413060701,
+        0.6359362511495282,
+        0.6595173344379736,
+        5.0,
+        0.8350000000000001
+      ],
+      "onset_shift_ms": -80,
+      "source_population_cost": 6.498407159505419e-05,
+      "saved_batch_cost": 6.498407159505555e-05,
+      "waveform_mse": 0.04009778853335891,
+      "cost_reconstruction_error": 1.3688052427629493e-18
+    }
+  ],
+  "source_prefers_worse_visited_program": true,
+  "feedback_gap_best_gold_minus_selected": 1.0485068344949267e-06,
+  "meaning": "local ordering counterexample, not a global wrong minimum or full-response information bound",
+  "input_hashes": {
+    "sources/temporal_teacher_mechanism_2026-10-31/held_400_model.npz": {
+      "bytes": 2316322,
+      "sha256": "0e3d1985f53b9bcc3cd3bc08b91ca109793bed3285a72492cc5b476d7022f266",
+      "decoded_memory_bytes": 6317304
+    },
+    "sources/temporal_teacher_mechanism_2026-10-31/held_400_environment.npz": {
+      "bytes": 1788368,
+      "sha256": "1e78856e4d75137ae3ce771e88b31e4971d985055fe8e20faf07cd5af57fe50f",
+      "decoded_memory_bytes": 1787104
+    },
+    "lab/tasks/temporal-teacher-mechanism-2026-10-31/outputs/held_400_population_queries.npz": {
+      "bytes": 210988,
+      "sha256": "ffcc3928095a28760560e2c6e32e9fc3457bcec5aa3760be8af84dd7aa842e17",
+      "decoded_memory_bytes": 210208
+    },
+    "lab/tasks/temporal-teacher-mechanism-2026-10-31/outputs/held_400_population_gold_queries.npz": {
+      "bytes": 17813,
+      "sha256": "f7cd4d44996ba8c61aa494f622e09b17b637736b95653a1ae1965afd05d61d87",
+      "decoded_memory_bytes": 29776
+    }
+  }
+}

@@ -1,0 +1,7 @@
+# One predeclared timing revision
+
+Main observation: free global alignment accepts94.57% later natural renditions but every global edit ties its original. This is expected scale invariance, not a discovered neural failure. Covariance and nearest exemplars already reject both20% global edits in all main renditions; covariance still rejects only27.10%/30.62% of duration_b edits, so a tempo repair cannot by itself earn the full criterion.
+
+Use ONLY the authorized bounded-tempo revision, before final10 annotation values are decoded. For candidate log intervals `x`, teaching mean `mu`, `u=mean(x-mu)`, residual `r=x-mu-u`, set `free=RMS(r)`. From unmodified teaching examples compute `lo=min mean(t-mu)`, `hi=max mean(t-mu)`. Define `excess=max(lo-u,0,u-hi)` and `bounded=sqrt(free^2+excess^2)`. This ordinary constrained global-alignment score equals free alignment inside the observed teaching tempo range and restores a cost for scaling outside it. No corruption magnitude or reference-rendition timing enters the fit.
+
+Fit unchanged first19 teaching recordings and leave-one-recording-out weighted95% thresholds, refitting lo/hi without the held recording. Score ONLY final10 alongside unchanged metrics. Preserve all main results and the full90%natural/80%each20%-edit rejection-and-ranking criterion. No new motif, tuning, source or threshold change. Report whether this narrow repair succeeds and which local timing challenges remain unresolved. Hash-freeze this file and `revise.py` before evaluating.

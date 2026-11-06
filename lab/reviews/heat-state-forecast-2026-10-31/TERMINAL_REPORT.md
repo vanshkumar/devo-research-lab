@@ -1,0 +1,9 @@
+Task heat-state-independent-review-2026-10-31 is complete; jobs0. REVIEW/README/STATE/code/actual outputs/accounting are saved at lab/reviews/heat-state-forecast-2026-10-31/.
+
+Accept numerical reconstruction and failed joint criterion; narrow the neural positive. All19original payload pins pass. Independent label/event/prefix/endpoint construction and spectral ridge reproduce31forecasts within3.84e−15; scalar primary errors match within2.22e−16. All13freeze hashes and recorded save/access chronology pass. Primary neural gain12.74%remains uncertain, behavior−24.93%, fractional neural2.51%.
+
+The frozen postvalidation contrary comparison actually tested source-tuned behavioral means/history and matched penalties in both scales. It does not erase every neural gain. Adding PCs beyond10ordinary behavioral-history features reduces error1.054%standardized and0.920%fractional, with exact conditional-bootstrap intervals[0.138%,2.110%]/[0.023%,2.156%]; only3/7fractional animals improve. This supports a small recipe-sensitive predictive increment, not reliable individual utility or mechanism identification. Simple behavior gains29.16%over shared response; reversal gain over own persistence remains uncertain.
+
+A document assertion failure resolved to one extra local blank line; exact remote pin is valid. Primary preprocessing/literature audit was not independently repeated because no existing PDF extractor; qualifications remain explicit.
+
+Review181,976,586scientific-read bytes; heat lineage595,617,889. Two text requests/4MBreserved; cumulative30requests/195,385,005acquisition bytes. All19heat consumed, all protected targets/four reserved worms untouched. Recommend bank this result and reallocate, without architecture search or further repairs on these animals. PROPOSED_LEARNING.md is ready for PI integration. This endpoint leaves the lab/heartbeat active.

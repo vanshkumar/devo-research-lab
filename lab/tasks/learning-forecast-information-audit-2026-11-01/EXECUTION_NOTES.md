@@ -1,0 +1,9 @@
+# Execution and shutdown record
+
+The first calculation exited0 at12:07:10Z and the resource plan exited0 at12:10:15Z. The main numerical computation ran12:14:32–12:16:35Z (123.667seconds), saved all24complete trial/endpoint predictions before scores, completed both unchanged strict freeze checks, saved RESULT/RESOURCES/SOURCE_PINS/STATE, printed the result, and wrote WARNINGS.json as `[]`.
+
+The native main process subsequently returned **exit120**, with `Exception ignored in: Exception ignored in sys.unraisablehook`. Its global Tee streams remain installed after the surrounding output-log context managers close. Interpreter-shutdown flush therefore attempts to flush closed log files. This is a logging-lifecycle defect in the author's wrapper. The main science-phase outputs and terminal per-animal replay checks were already saved; no numerical exception or STOP.json was produced. The code inspection explains the shutdown failure; it is not a claim that the native process exited cleanly.
+
+The executed run.py is retained byte for byte under its pre-execution FROZEN_DESIGN pin. Do not rerun saved science merely to obtain a cleaner native exit or silently repair this executed code. The separate reproduce_scores.py verifies persisted numerical scores without opening original raw data, loading a model, refitting, or running new trajectories. Future wrappers should restore original stdout/stderr before closing their Tee targets.
+
+Large generated per-trial prediction files are retained complete, with side-array hashes and file sizes in PREDICTION_MANIFEST.json. Their whole-file SHA computation remains UNRUN to avoid another large input read; MATCHED_PREDICTIONS.npz is separately pinned. All relevant historical input hashes were checked at completion; historical campaign/model/manuscript files were not edited.

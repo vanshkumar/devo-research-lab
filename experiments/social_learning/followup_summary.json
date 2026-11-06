@@ -1,0 +1,173 @@
+{
+  "regressions": {
+    "archived_script_all": {
+      "beta": [
+        -0.889695441960656,
+        -0.0632138738340215,
+        -0.03343167306199136
+      ],
+      "se": [
+        0.2051300630513201,
+        0.26386329118063817,
+        0.2675640866208152
+      ],
+      "wald_p_approx": [
+        1.4429224259090458e-05,
+        0.8106631975417309,
+        0.9005644940023094
+      ],
+      "date_sd": 0.2847653889870251,
+      "nll": 268.6016475481747,
+      "converged": true,
+      "nodes": 40,
+      "n": 452,
+      "nodes80_beta": [
+        -0.8896951753960203,
+        -0.06321433607748744,
+        -0.033431980375444405
+      ],
+      "quadrature_max_beta_difference": 4.622434659484753e-07,
+      "quadrature_nll_difference": 4.547473508864641e-13
+    },
+    "eligible_first_single": {
+      "beta": [
+        0.5108256153147552,
+        -0.014388426011543573,
+        0.007968772624188672
+      ],
+      "se": [
+        0.2581990506560887,
+        0.35230704450409006,
+        0.36121544291767704
+      ],
+      "wald_p_approx": [
+        0.047881585650738925,
+        0.9674229836981774,
+        0.9823992991770739
+      ],
+      "date_sd": 0.0009118819655545162,
+      "nll": 135.6820203150246,
+      "converged": true,
+      "nodes": 40,
+      "n": 205,
+      "nodes80_beta": [
+        0.5108257074996496,
+        -0.014388783744732642,
+        0.007968386693239399
+      ],
+      "quadrature_max_beta_difference": 3.8593094927284743e-07,
+      "quadrature_nll_difference": 5.968558980384842e-13
+    },
+    "eligible_last_single": {
+      "beta": [
+        -0.5108253850530571,
+        1.0072623008673878,
+        1.029620190720203
+      ],
+      "se": [
+        0.25819904279107414,
+        0.35230695561291386,
+        0.36121500638884013
+      ],
+      "wald_p_approx": [
+        0.04788167938030064,
+        0.004249152290756756,
+        0.004365936134600577
+      ],
+      "date_sd": 0.0009118819655545162,
+      "nll": 135.68202147158576,
+      "converged": true,
+      "nodes": 40,
+      "n": 205,
+      "nodes80_beta": [
+        -0.5108256204322718,
+        1.0072627674383257,
+        1.0296196791982903
+      ],
+      "quadrature_max_beta_difference": 5.115219126050619e-07,
+      "quadrature_nll_difference": 5.172751116333529e-12
+    }
+  },
+  "controls": {
+    "zero_sd_nll_error": 2.842170943040401e-14,
+    "known_beta": [
+      -0.3,
+      0.8
+    ],
+    "known_date_sd": 0.6,
+    "fit": {
+      "beta": [
+        -0.3540990258531351,
+        0.8794783968178282
+      ],
+      "se": [
+        0.07062954987383316,
+        0.04811335469579735
+      ],
+      "wald_p_approx": [
+        5.345751288504823e-07,
+        1.2097085036844988e-74
+      ],
+      "date_sd": 0.5732897691258048,
+      "nll": 1808.004592561613,
+      "converged": true,
+      "nodes": 40
+    },
+    "binomial_tail_error": 2.7755575615628914e-17
+  },
+  "weight_family": {
+    "best": {
+      "relative_second_weight": 0.0,
+      "g": 0.5063522192044098,
+      "color_bias": -0.04959390754462578,
+      "log_likelihood": -135.62512224318002
+    },
+    "fixed_models": {
+      "gate": {
+        "relative_second_weight": 0.0,
+        "g": 0.5063522192044098,
+        "color_bias": -0.04959390754462578,
+        "log_likelihood": -135.62512224318002,
+        "relative_likelihood": 1.0
+      },
+      "equal_evidence": {
+        "relative_second_weight": 1.0,
+        "g": 0.5042300532210123,
+        "color_bias": -0.04867417249717842,
+        "log_likelihood": -137.64745464665805,
+        "relative_likelihood": 0.1323464195615135
+      },
+      "recency": {
+        "relative_second_weight": 2.0,
+        "g": 0.18339953140709195,
+        "color_bias": -0.060797488068108876,
+        "log_likelihood": -141.1197095787096,
+        "relative_likelihood": 0.004108951734125674
+      }
+    },
+    "assumption": "common single-demonstration gain and stable color bias; no direct measurement of memory or update rule"
+  },
+  "selection": {
+    "main_choice_by_eligibility_table": [
+      [
+        40,
+        25
+      ],
+      [
+        24,
+        31
+      ]
+    ],
+    "rows": [
+      "first_demo_choice",
+      "second_demo_choice"
+    ],
+    "cols": [
+      "eligible",
+      "not_eligible"
+    ],
+    "fisher_oddsratio": 2.066666666666667,
+    "fisher_p": 0.066381208895716
+  },
+  "design_note": "ABB predictions and power condition on gate vs symmetric equal-weight accumulation, known gain and independent eligible trials. They do not identify all mechanisms or correct post-treatment selection."
+}

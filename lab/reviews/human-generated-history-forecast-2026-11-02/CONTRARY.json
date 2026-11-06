@@ -1,0 +1,379 @@
+{
+  "utc": "2026-11-02T20:57:35.276604+00:00",
+  "plan_sha256": "e6f2abd8462c9286beb226357ab8a27d12f4292c36a6c7eb9f0b400563900d49",
+  "seeds": [
+    2026110201,
+    2026110202,
+    2026110203,
+    2026110204,
+    2026110205,
+    2026110206,
+    2026110207,
+    2026110208
+  ],
+  "scrambles": 8,
+  "points_per_scramble": 16384,
+  "postvalidation": true,
+  "setting": "zero omissions; same frozen Gaussian variance, coefficients, calibration and exact known future schedule",
+  "persistent_summary": {
+    "primary": {
+      "mean": 0.03417938970864396,
+      "low": 0.02574456091848965,
+      "high": 0.04272116924284408,
+      "reps": 5000
+    },
+    "all_later": {
+      "mean": 0.015199555367693627,
+      "low": 0.008534647471324654,
+      "high": 0.022611538782002113,
+      "reps": 5000
+    },
+    "zero": {
+      "mean": 0.018738098640791914,
+      "low": 0.003333358292686563,
+      "high": 0.03411210419853695,
+      "reps": 5000
+    },
+    "primary_brier": {
+      "mean": 0.015524038288747261,
+      "low": 0.011730799073404099,
+      "high": 0.019558497416563635,
+      "reps": 5000
+    },
+    "partitions": {
+      "validation_seen_schedule": {
+        "n_people": 14,
+        "mean": 0.0270604104247065
+      },
+      "validation_unseen_schedule": {
+        "n_people": 25,
+        "mean": 0.038166018107648934
+      }
+    },
+    "schedules": {
+      "S01": {
+        "n_people": 2,
+        "mean": 0.011727900309558158
+      },
+      "S02": {
+        "n_people": 8,
+        "mean": 0.045413383221706266
+      },
+      "S03": {
+        "n_people": 9,
+        "mean": 0.04523364811226695
+      },
+      "S04": {
+        "n_people": 2,
+        "mean": 0.021789024265618608
+      },
+      "S05": {
+        "n_people": 2,
+        "mean": 0.06559464058481952
+      },
+      "S06": {
+        "n_people": 8,
+        "mean": 0.022967569238396338
+      },
+      "S07": {
+        "n_people": 2,
+        "mean": 0.025507802081116727
+      },
+      "S08": {
+        "n_people": 2,
+        "mean": 0.017945771897577636
+      },
+      "S09": {
+        "n_people": 2,
+        "mean": 0.041008642245352174
+      },
+      "S10": {
+        "n_people": 2,
+        "mean": 0.005849091588902681
+      }
+    },
+    "leave_one_schedule_out": {
+      "S01": 0.035392983730216154,
+      "S02": 0.03128029460849884,
+      "S03": 0.030863112187557065,
+      "S04": 0.03484913919205073,
+      "S05": 0.03248126803966149,
+      "S06": 0.037072762733223984,
+      "S07": 0.034648124174996776,
+      "S08": 0.035056882563296185,
+      "S09": 0.03381024092287594,
+      "S10": 0.03571075717457592
+    },
+    "schedule_person_interval": {
+      "low": 0.019548951297504325,
+      "high": 0.04562041608258327,
+      "reps": 5000
+    }
+  },
+  "reintegrated_kernel_summary": {
+    "primary": {
+      "mean": 0.03397417126329285,
+      "low": 0.02556715061887724,
+      "high": 0.04244654281997314,
+      "reps": 5000
+    },
+    "all_later": {
+      "mean": 0.014824248027255441,
+      "low": 0.008056172856229551,
+      "high": 0.022259961979686164,
+      "reps": 5000
+    },
+    "zero": {
+      "mean": 0.01861612011286233,
+      "low": 0.003341707630401066,
+      "high": 0.033805030134404807,
+      "reps": 5000
+    },
+    "primary_brier": {
+      "mean": 0.015465939315728235,
+      "low": 0.011697571637489725,
+      "high": 0.01945584793727357,
+      "reps": 5000
+    },
+    "partitions": {
+      "validation_seen_schedule": {
+        "n_people": 14,
+        "mean": 0.026996881978842337
+      },
+      "validation_unseen_schedule": {
+        "n_people": 25,
+        "mean": 0.03788145326258513
+      }
+    },
+    "schedules": {
+      "S01": {
+        "n_people": 2,
+        "mean": 0.011539307523231651
+      },
+      "S02": {
+        "n_people": 8,
+        "mean": 0.0450634712345227
+      },
+      "S03": {
+        "n_people": 9,
+        "mean": 0.044739547859112654
+      },
+      "S04": {
+        "n_people": 2,
+        "mean": 0.02183714947191214
+      },
+      "S05": {
+        "n_people": 2,
+        "mean": 0.06541823509038396
+      },
+      "S06": {
+        "n_people": 8,
+        "mean": 0.0229840788695541
+      },
+      "S07": {
+        "n_people": 2,
+        "mean": 0.026724632105920527
+      },
+      "S08": {
+        "n_people": 2,
+        "mean": 0.017570084460015963
+      },
+      "S09": {
+        "n_people": 2,
+        "mean": 0.03999485435147937
+      },
+      "S10": {
+        "n_people": 2,
+        "mean": 0.0058939108489527575
+      }
+    },
+    "leave_one_schedule_out": {
+      "S01": 0.035186866600593454,
+      "S02": 0.031112416432007725,
+      "S03": 0.030744558284546905,
+      "S04": 0.03463022649525938,
+      "S05": 0.03227449213750414,
+      "S06": 0.036810324139096406,
+      "S07": 0.034366038244772426,
+      "S08": 0.03486087865806457,
+      "S09": 0.033648728934201684,
+      "S10": 0.0354920231775815
+    },
+    "schedule_person_interval": {
+      "low": 0.019511783349092215,
+      "high": 0.045227835029543466,
+      "reps": 5000
+    }
+  },
+  "primary_gain_change": 0.00020521844535111272,
+  "person_gain_changes": [
+    0.0001773451045222335,
+    0.00017213455280810225,
+    8.202793526920923e-05,
+    -2.7642727223289865e-05,
+    -0.0023562058784636596,
+    7.253348403935683e-05,
+    -0.00010909017308240176,
+    5.442699479549229e-05,
+    -6.29721537121139e-05,
+    0.00023630326903152643,
+    3.133991457487245e-05,
+    0.0005794894025947135,
+    -0.0001782783478562755,
+    0.00045787099856627045,
+    -0.0005834303719319742,
+    0.00027125704610690693,
+    0.0007248526446915898,
+    2.3082150667378537e-05,
+    0.00016815329852395977,
+    8.64113814228809e-05,
+    0.0012203727962318972,
+    0.000373773164182592,
+    -0.00032594178913167987,
+    0.0001578483233281719,
+    -0.0002977801216818098,
+    -0.0001050600096951515,
+    1.2423677135064287e-05,
+    -7.74541711439404e-05,
+    0.0006788413910839945,
+    0.0002213497661652875,
+    0.00036523289426410033,
+    0.0018225132677728642,
+    0.0003127565412126762,
+    0.001806226021580315,
+    1.195267838891424e-05,
+    0.00036167103282301605,
+    3.352252559246649e-05,
+    -3.5464086903705394e-05,
+    0.001647126942143546
+  ],
+  "score_integration_mcse": 3.743722591858059e-07,
+  "replicate_gains": [
+    0.03418035916702805,
+    0.03418112727428912,
+    0.0341790953767468,
+    0.034179484954450556,
+    0.03417755433871548,
+    0.034178738147148335,
+    0.03417935934297657,
+    0.0341793983587808
+  ],
+  "primary_point_and_positive_interval_criterion_retained": true,
+  "probability_shift_max_abs": 0.0380252824201448,
+  "probability_shift_mean_abs": 0.001369679041852,
+  "first_trial_gaussian_integration_max_abs_difference": 1.6296046914332507e-05,
+  "first_trial_max_integration_se": 7.591243531396597e-06,
+  "controls": {
+    "kernel_enumeration": [
+      {
+        "model": "shared",
+        "max_abs_difference": 1.1102230246251565e-16,
+        "total_mass_error": 0.0
+      },
+      {
+        "model": "no_history",
+        "max_abs_difference": 5.551115123125783e-17,
+        "total_mass_error": 1.1102230246251565e-16
+      }
+    ],
+    "persistent_enumeration": [
+      {
+        "model": "shared",
+        "max_abs_difference": 1.1102230246251565e-16,
+        "maximum_total_mass_error": 2.220446049250313e-16
+      },
+      {
+        "model": "no_history",
+        "max_abs_difference": 1.1102230246251565e-16,
+        "maximum_total_mass_error": 2.220446049250313e-16
+      }
+    ],
+    "zero_variance": [
+      {
+        "model": "shared",
+        "max_abs_difference": 1.1102230246251565e-16
+      },
+      {
+        "model": "no_history",
+        "max_abs_difference": 1.1102230246251565e-16
+      }
+    ],
+    "zero_lag": [
+      {
+        "model": "shared",
+        "difference": [
+          7.920706402986255e-07,
+          1.0288113377887598e-07,
+          -7.175651065005617e-08,
+          9.430719452585556e-07
+        ],
+        "integration_se": [
+          1.9809114414074354e-06,
+          7.585412742530656e-07,
+          1.387378947251489e-06,
+          2.3520359075440544e-06
+        ],
+        "max_abs_difference": 9.430719452585556e-07
+      },
+      {
+        "model": "no_history",
+        "difference": [
+          5.161018573618392e-07,
+          -1.7855040301828495e-07,
+          4.0945364127020767e-07,
+          -3.4188973052629024e-07
+        ],
+        "integration_se": [
+          1.0477632992955526e-06,
+          8.229158637177726e-07,
+          4.682523367945659e-07,
+          1.0322105845790248e-06
+        ],
+        "max_abs_difference": 5.161018573618392e-07
+      }
+    ],
+    "choice_feedback_target_identity": true
+  },
+  "elapsed_seconds": 42.779266708,
+  "reads": [
+    {
+      "path": "lab/reviews/human-generated-history-forecast-2026-11-02/CONTRARY_PLAN.md",
+      "bytes": 3903,
+      "sha256": "e6f2abd8462c9286beb226357ab8a27d12f4292c36a6c7eb9f0b400563900d49",
+      "read_hash_decode_allowance": 11709
+    },
+    {
+      "path": "campaigns/human_learning_routes_2026-10-28/inputs/validation_numeric.csv",
+      "bytes": 1872445,
+      "sha256": "c6a7f8d84f80f86aa1e6287187a20ceb6e206a01d47dcc77a124dc658da001e9",
+      "read_hash_decode_allowance": 5617335
+    },
+    {
+      "path": "campaigns/human_learning_routes_2026-10-28/protocol/split_manifest.csv",
+      "bytes": 14977,
+      "sha256": "5f9ed20b892a7197d8b47f75d7f8b2b64e093b2841f14f36c239bb96da12a051",
+      "read_hash_decode_allowance": 44931
+    },
+    {
+      "path": "lab/tasks/human-generated-history-forecast-2026-11-01/FORECAST_INPUTS.json",
+      "bytes": 1085903,
+      "sha256": "5d396ba483a7c33962d19aa986bc8f15c39baf80d8792b48d67e1f119e98fcba",
+      "read_hash_decode_allowance": 3257709
+    },
+    {
+      "path": "campaigns/human_learning_routes_2026-10-28/outputs/primary/shared_fit.json",
+      "bytes": 12947,
+      "sha256": "b3b75d5df78c1d89d1808e7202f5cb25a6faf0eea79774d8bb3f5ae551361062",
+      "read_hash_decode_allowance": 38841
+    },
+    {
+      "path": "campaigns/human_learning_routes_2026-10-28/outputs/primary/no_history_fit.json",
+      "bytes": 8663,
+      "sha256": "a2ee182d45aa6ec8acc1855abc157c2dbee19527378d3187f73695f2d24d50c4",
+      "read_hash_decode_allowance": 25989
+    }
+  ],
+  "explicit_read_hash_decode_allowance": 8996514,
+  "observed_process_peak_rss_bytes": 353878016,
+  "measurement": "Darwin ru_maxrss; runtime/import/host/physical I/O unknown"
+}

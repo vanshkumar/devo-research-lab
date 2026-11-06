@@ -1,0 +1,43 @@
+{
+  "assumptions": [
+    "W independent of F in T",
+    "eligible choice equals W",
+    "eligibility requires no early acceptance of first male",
+    "matched-preference first male accepted at least as readily as unmatched within each F",
+    "same probability of completing an eligible record after waiting for the two W types within each F"
+  ],
+  "derivation": "odds(q_refF)=odds(theta)*(1-accept_match_refF)/(1-accept_unmatch_refF)<=odds(theta); odds(q_oppF)=odds(theta)*(1-accept_unmatch_oppF)/(1-accept_match_oppF)>=odds(theta). Equal subsequent completion cancels within each F.",
+  "required_inequality": "q_ref_first <= theta <= q_opp_first",
+  "counts_nk_ref_then_opp": [
+    29,
+    23,
+    35,
+    17
+  ],
+  "q_ref": {
+    "exact": "23/29",
+    "value": 0.7931034482758621
+  },
+  "q_opp": {
+    "exact": "17/35",
+    "value": 0.4857142857142857
+  },
+  "difference": {
+    "exact": "312/1015",
+    "value": 0.30738916256157633
+  },
+  "bootstrap_frame_dates": 15,
+  "bootstrap_frame": "all15recorded dates, including dates with zero T rows, to reproduce saved author target",
+  "initial_T_only_14date_bootstrap_95": [
+    0.13571195144724552,
+    0.46723885864085496
+  ],
+  "date_bootstrap_95": [
+    0.1389934577434577,
+    0.46562042788129726
+  ],
+  "undefined_resamples": 0,
+  "compatible_point_theta_interval": false,
+  "selection_interaction_required_by_this_model": "R_refF/R_oppF <=1; observed69/17>1",
+  "limits": "Recorded order does not itself verify sequential early acceptance, equal completion, measurement consistency, or independence. This is a restricted-account contradiction, not a causal test, universal rejection of waiting or a calibrated population interval."
+}

@@ -1,0 +1,92 @@
+{
+  "status": "SOURCE_AUDIT_ONLY_NO_MODEL_RUN",
+  "utc": "2026-11-03T05:58:24.127602+00:00",
+  "pins": [
+    {
+      "path": "interactome-README.md",
+      "sha": "249702ad64bdd5be47b98b1e24abb52f0c3a2a0b",
+      "n": 3319,
+      "actual_bytes": 3320,
+      "actual_git_blob_sha1": "afd7f8d8c468c4a1fa2bb3f37d5da1b69f20526b",
+      "sha256": "77d76c9c096fee74bd4e113771298bf6ee967d9c5bd6fa178d2626a506af43ce",
+      "matches": false
+    },
+    {
+      "path": "interactome-initialize.py",
+      "sha": "27bc70d6986e17d00fedf85ffbcaf8cb6b1b7d47",
+      "n": 12106,
+      "actual_bytes": 12107,
+      "actual_git_blob_sha1": "64c638726912b0b1e201b0a647307d49e2a9f826",
+      "sha256": "9c7ee5a19065f5b168da79cc9b050d1398ad5db71ba67f334e4ca7ad3ed5c058",
+      "matches": false
+    },
+    {
+      "path": "interactome-LICENSE",
+      "sha": "27278fcd75175ac6816497b9cf7ed0f76102fd1b",
+      "n": 1544,
+      "actual_bytes": 1545,
+      "actual_git_blob_sha1": "9d87b24dfabe61f9f5b9c7b28134e092d605db75",
+      "sha256": "2cb07ed088b884ba1435b0b520e53a5beea148acdb863415998ba398b57d5850",
+      "matches": false
+    }
+  ],
+  "constants_as_source": {
+    "N": "279",
+    "Gc": "0.1",
+    "C": "0.015",
+    "Ec": "-35.0",
+    "ar": "1.0 / 1.5",
+    "ad": "5.0 / 1.5",
+    "B": "0.125",
+    "Iext": "100000",
+    "rate": "0.025",
+    "offset": "0.15"
+  },
+  "function_lines": {
+    "transit_Mask": {
+      "line": 76,
+      "end_line": 92
+    },
+    "update_Mask": {
+      "line": 94,
+      "end_line": 96
+    },
+    "EffVth": {
+      "line": 145,
+      "end_line": 176
+    },
+    "EffVth_rhs": {
+      "line": 178,
+      "end_line": 185
+    },
+    "voltage_filter": {
+      "line": 187,
+      "end_line": 191
+    },
+    "membrane_voltageRHS": {
+      "line": 194,
+      "end_line": 235
+    },
+    "run_Network": {
+      "line": 281,
+      "end_line": 338
+    }
+  },
+  "release_tree": "bdb94ca174980e46777f7b1936f539903c688719",
+  "facts": {
+    "neurons": 279,
+    "dynamic_variables_claimed_by_primary_paper": 558,
+    "synaptic_gate_constants_differ_from_2017_table": true,
+    "inhibitory_potential_source_minus48_2017_table_minus45": true,
+    "input_update_recomputes_Vth": true,
+    "mask_set_to_new_constant_after_transition_window": true,
+    "readout_tanh_of_voltage_minus_input_dependent_threshold": true,
+    "original_2017_connectivity_equivalence_certified": false,
+    "original_full_model_or_independent_numerical_reference_executed": false
+  },
+  "elapsed_wall_s": 0.0016902919999999995,
+  "cpu_s": 0.030692999999999998,
+  "max_rss_bytes_macos": 14090240,
+  "read_bytes_explicit_payload": 16972,
+  "resource_note": "Explicit source payload only, excluding repeated reads, expected metadata, interpreter and context. No complete-I/O claim."
+}

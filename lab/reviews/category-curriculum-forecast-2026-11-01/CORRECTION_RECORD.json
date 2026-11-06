@@ -1,0 +1,17 @@
+{
+  "utc": "2026-11-01T09:50:08.401555+00:00",
+  "archived": {
+    "ORIGINAL_REFITS.json": {
+      "archive": "ORIGINAL_REFITS_PRE_CLIP_GRADIENT_CORRECTION.json",
+      "bytes": 16052,
+      "sha256": "026e7c7b393e67d796952bb6f5eeb5fbb7595dc63fbd941c1edc4e3c9ee98e9d"
+    },
+    "CONTRARY.json": {
+      "archive": "CONTRARY_PRE_CLIP_GRADIENT_CORRECTION.json",
+      "bytes": 744430,
+      "sha256": "3970c7be3c005a5e401140d47e55fa277ff1ec6c44beb3e700366035c8e933d1"
+    }
+  },
+  "reason": "Independent audit noticed that the initial analytic gradient omitted the frozen objective's1e-12 clipping derivative. Selected results were complete/converged; final path/edge behavior still required a correction. Preserve them, add zero derivatives below the clip, verify extreme parameters, rerun same seeds/starts/refits and compare. This is an implementation correction, not a scientific/model/cohort/gate revision.",
+  "affected_recipe": "Only independent analytic gradients at chosen probabilities below1e-12. Original author records remain immutable."
+}

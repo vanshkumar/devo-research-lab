@@ -1,0 +1,11 @@
+# Pre-comparison schema clarification
+
+2026-10-31, after FEATURE_AUDIT.json but before numeric expression scoring. PROTOCOL.md remains byte-frozen (SHA25670b50038972587e60173c4ac7d0ede63e51d079be7e6c9a0998dd9b1e68c86b4).
+
+The source table exports Seurat DotPlot `avg.exp.scaled` with `scale=FALSE`, and global neuron expression as `log1p(AverageExpression(..., slot='data'))`. Treat supplied values as the source's log-normalized average-expression scale; do not apply another log1p. The primary author ratio uses the first matched mouse column after descending similarity ordering, including when there are multiple mouse matches. Use that documented first-column rule for the finite comparison. Preserve all columns in the source and output; do not choose the better mouse using outcomes.
+
+Three POMC tables have five common exact source ortholog pairs: CALCR/Calcr, GLP1R/Glp1r, LEPR/Lepr, NPY1R/Npy1r and PTGER3/Ptger3. Four belong to the fixed54-target panel; the mechanical all-five common-panel comparison is the frozen fallback, and its four prespecified-target restriction will be displayed separately without selecting between them. All five are cross-species integration features. The first POMC table has two mouse columns; the other two have one. No claim that the second mouse subtype is absent or biologically exchangeable is made.
+
+In addition to the frozen raw versus POMC gene-centered comparisons, report the source-supplied global-neuron abundance baseline and its deterministic correction `H_global + M_cluster - M_global`. This is an explicit abundance control in the same conditional obstacle test, with no tuned coefficient. All six subtype permutations preserve mouse vectors and per-gene abundance. No uncertainty interval treats these three subtype groups or genes as donor replicates.
+
+No compatible new donor-resolved human–mouse non-target expression matrix has yet been acquired. Public DOI landing-page retrievals failed in the web tool; that is an access observation, not absence of the deposited objects. The cached human peptide-focused subset is not a mouse matching feature matrix. The original held-gene prediction question is not earned by the following conditional test.

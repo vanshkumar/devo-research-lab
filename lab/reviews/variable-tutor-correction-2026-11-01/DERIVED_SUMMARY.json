@@ -1,0 +1,69 @@
+{
+  "main_gold_max_discrepancy": 2.220446049250313e-16,
+  "main_initial_max_discrepancy": 5.551115123125783e-17,
+  "main_binary_disagreements": 0,
+  "max_action_difference": 0.0,
+  "max_path_difference": 0.0,
+  "main_box_max_objective_gap": 3.347627730576619e-12,
+  "main_box_max_endpoint_difference": 3.05215140578019e-06,
+  "main_ball_tangent_identical_paths": 59,
+  "main_ball_endpoints_outside_estimated_support": 0,
+  "main_ball_queried_outside_count": 792,
+  "main_ball_cases_any_query_outside": 60,
+  "main_ball_min_query_margin": -1.9726370382734997,
+  "mean_infinite_tutor_median_error": 0.12822855491847007,
+  "asymptotic_interior_cases": 52,
+  "interior_formula_max_action_difference": 7.771561172376096e-16,
+  "contrary_initial_median": 0.0014390359588992287,
+  "contrary_initial_mean": 0.013524870287741369,
+  "original_initial_mean": 0.13400824232345349,
+  "contrary_initial_outside_disk_cases": 19,
+  "contrary_metrics": {
+    "mean": {
+      "acquired": 3,
+      "mean_final": 0.00522825821090508,
+      "original_mean_final": 0.12583926011090274,
+      "mean_final_ratio": 0.04154711499652328,
+      "median_removal": -1.9555365380172793,
+      "final_error_max": 0.014579797589339001
+    },
+    "gaussian": {
+      "acquired": 6,
+      "mean_final": 0.0010931125695989145,
+      "original_mean_final": 0.0008610140591576092,
+      "mean_final_ratio": 1.2695641354200229,
+      "median_removal": 0.2685758274918762,
+      "final_error_max": 0.00197120724664879
+    },
+    "ball": {
+      "acquired": 5,
+      "mean_final": 0.0017735070997859457,
+      "original_mean_final": 0.0008094292994285912,
+      "mean_final_ratio": 2.1910586891751214,
+      "median_removal": 0.6108883794734042,
+      "final_error_max": 0.03065441364251154
+    },
+    "truth": {
+      "acquired": 64,
+      "mean_final": 1.0610415883809136e-12,
+      "original_mean_final": 1.0276109315658806e-12,
+      "mean_final_ratio": 1.0325324067583546,
+      "median_removal": 0.9999999993666309,
+      "final_error_max": 2.8743079679985197e-12
+    }
+  },
+  "contrary_quadratic_optima": {
+    "mean": {
+      "max_actor_objective_gap": 0.0007601659663168652,
+      "mean_optimum_true_error": 0.005133136821082888,
+      "optimal_acquisitions": 3,
+      "actor_acquisitions": 3
+    },
+    "gaussian": {
+      "max_actor_objective_gap": 2.7096545493487945e-12,
+      "mean_optimum_true_error": 0.0010931139688844446,
+      "optimal_acquisitions": 6,
+      "actor_acquisitions": 6
+    }
+  }
+}

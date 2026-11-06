@@ -1,0 +1,92 @@
+{
+  "created_utc": "2026-11-01T03:10:15Z",
+  "kind": "actual bounded source-vector calculation; NOT full source certification or forecast test",
+  "session_from_object_path": "742903_2024-10-22",
+  "subject_from_object_path": "742903; scalar subject value not acquired",
+  "rows": 538,
+  "finite_reward_times": 136,
+  "nan_reward_times": 402,
+  "reward_times_strictly_increasing": true,
+  "minimum_finite_interreward_seconds": 5.104310000000169,
+  "maximum_finite_interreward_seconds": 102.03539,
+  "first_five_finite_reward_trial_time_pairs": [
+    [
+      0,
+      2521.85489
+    ],
+    [
+      1,
+      2527.14271
+    ],
+    [
+      2,
+      2537.9851
+    ],
+    [
+      3,
+      2543.99012
+    ],
+    [
+      4,
+      2553.59819
+    ]
+  ],
+  "last_five_finite_reward_trial_time_pairs": [
+    [
+      473,
+      5710.1419
+    ],
+    [
+      476,
+      5729.92511
+    ],
+    [
+      480,
+      5757.29805
+    ],
+    [
+      481,
+      5780.35069
+    ],
+    [
+      484,
+      5799.98378
+    ]
+  ],
+  "schema_columns": 49,
+  "schema_has_distinct_scheduled_and_delivered_reward_flags": true,
+  "schema_has_instruction_flag": true,
+  "source_frame_sha256": "7565635e78d20f44ffe8bc31ed359d0ffcc2b9ba025e6dacf3a4bca6712a7765",
+  "decoded_sha256": "e5b3fa03f92bb16eeeedc63281529f9d4a606009066de2fc3ee25ebec310da72",
+  "codec_validation": "header, 8 split lengths, complete frame consumption, declared dtype/shape and finite/NaN checks; independent codec replay UNRUN",
+  "certified": false,
+  "missing_actual_values": [
+    "stim_name",
+    "is_response",
+    "stim_start_time",
+    "response_window_start_time",
+    "response_window_stop_time",
+    "response_time",
+    "block_index",
+    "is_instruction",
+    "is_reward_scheduled",
+    "is_noncontingent_reward",
+    "is_contingent_reward",
+    "is_opto",
+    "is_repeat"
+  ],
+  "first_encounter_opportunity_count": null,
+  "unrun": [
+    "full chronology join",
+    "task-script deployment provenance",
+    "license certification",
+    "independent-animal split",
+    "scientific model freeze",
+    "recovery/null controls",
+    "held-animal forecasts/scoring",
+    "independent scientific review"
+  ],
+  "scientific_interpretation": "Cannot test cross-stimulus transfer from a reward-time vector alone. Missing acquired columns are not absent source columns.",
+  "measured_process_rss_bytes": 13746176,
+  "conservative_read_decode_hash_charge_bytes": 1393233
+}

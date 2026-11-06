@@ -1,0 +1,9 @@
+# Frozen independent contrary plan
+
+Recorded 2026-11-01 05:27 UTC, after independent event reconstruction and reading the formal/result/proof narratives, before running this test. The author's directional counterexample will be audited separately and is not this review's contrary test.
+
+Question: does the favorable K=1 exact-return design still meet the frozen 0.10 target-diameter criterion when the compulsory return device reports a calibrated score to the nearest 0.05? Keep the two source endpoints exactly 0.75, the same deterministic shared-retention dynamics, total missing-event cap K=1, source certificates, last-event inclusion and all other controls. Change only the observation map to Q(r)=0.05*floor(r/0.05+1/2), with left-closed, right-open bins. This is a single prespecified finite-resolution measurement boundary, not an error under the frozen exact-score class, an empirical claim about instruments, or a replacement primary gate.
+
+Compute the preimage of every possible displayed score, intersect it with each count pair's feasible return range, and use the monotone count-specific target to obtain each bin's lower/upper target extrema. Treat an excluded upper edge as a supremum. Save a strictly interior finite same-observation witness if any target gap exceeds 0.10, execute it with the independent event simulator, and verify its certificates/endpoints/displayed score. No precision grid, parameter fitting, source acquisition, or altered learning law. Preserve the primary K=4 failure.
+
+Interpretation: a gap above 0.10 would show that the K=1 recommendation purchases score resolution as well as calibrated scale and nonlearning observation; a gap below 0.10 would support this one explicitly coarsened design. Either result leaves the original exact-score theorem and biological calibration unaltered. Unknown-count score coarsening differs from the author's bounded-error calculation at known counts (3,3).

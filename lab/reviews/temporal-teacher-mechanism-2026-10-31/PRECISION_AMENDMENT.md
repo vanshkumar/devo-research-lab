@@ -1,0 +1,5 @@
+# Narrow numerical audit after the frozen crossed diagnostic
+
+The predeclared grid completed and is preserved unchanged. It finds reversals in six consumed cases at acquired content, but not400. The independently reproduced original400pair does reverse at a common onset. Its stored stretch is0.8350000000000001, whereas `target_stretch-.005` in the grid is0.835. This suggests a discrete rendering boundary, not an integration discrepancy.
+
+Before inspecting any new response, fix this two-input audit: use400's already reported selected content/order, onset0and the two binary encodings of the nominal.835stretch (literal.835and the saved float). Compare starts/ends, samplewise waveforms and source-independent features; retain the previously saved.840reference. Decompose each cost change against the reference. This is a numerical representation check of already consumed stimuli, not a new candidate grid, plant, teacher/actor revision or fresh validation. No thresholds or parameters are selected.

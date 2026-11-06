@@ -1,0 +1,13 @@
+# Sources inspected — causal identifiability
+
+Access date: 2026-10-28. Public sources only. No third-party summaries are evidentiary sources.
+
+1. Geadah, Arbelaiz, Ritz, Daw, Cohen & Pillow. *Inferring System and Optimal Control Parameters of Closed-Loop Systems from Partial Observations*. CDC 2024, pp. 8006–8013, DOI [10.1109/CDC56724.2024.10886179](https://doi.org/10.1109/CDC56724.2024.10886179). Inspected [author preprint HTML, arXiv:2502.15014v1](https://arxiv.org/html/2502.15014v1), version dated 20 February 2025. Exact locations: §II-A equations (4),(7); §II-B equation (10), Fig.2; §III, especially “Solving for B and R”; §V equation (22), Fig.4 caption; Appendix A (Prop.4). Relevant background: closed-loop parameters can be identifiable while constituent system/control parameters are not. Additional measurements or parameter restrictions can relax the ambiguity. Their LQR inverse-control problem is richer than our deterministic-feedback illustration; we do not reproduce their EM algorithm or theorem. Web text inspection, not an independent verification of all proofs. This paper strongly defeats any novelty claim for the general observation.
+
+2. Ng, Goodwin & Anderson (1977). *Identifiability of MIMO linear dynamic systems operating in closed loop*. Automatica 13(5),477–485. DOI [10.1016/0005-1098(77)90068-1](https://doi.org/10.1016/0005-1098(77)90068-1). Inspected publisher search-returned abstract and [author institution abstract](https://researchportalplus.anu.edu.au/en/publications/identifiability-of-mimo-linear-dynamic-systems-operating-in-close/). Full publisher page returned 403, no access attempted around restriction. Abstract reports positive identifiability results under feedback-noise and regulator-complexity conditions. Used as contrary evidence against universal impossibility. No detailed theorem invocation based on abstract alone.
+
+3. Phan, Juang, Horta & Longman (1992), *System identification from closed-loop data with known output feedback dynamics*, NASA TM-107604. [NASA primary record](https://ntrs.nasa.gov/citations/19920014992), Document 19920014992; inspected abstract (page lines 16–17) and metadata. It uses excitation and known feedback dynamics for open-loop identification. Abstract only; no quantitative result borrowed.
+
+Access failure retained: OpenReview forum n7qKt6gjl9 returned a browser verification challenge. Not bypassed, not used in conclusions. No empirical neural data are used by this pilot.
+
+All numerical findings, exact equivalence calculations and excitation sweeps in this directory were newly computed in this campaign. They illustrate established system-identification limitations; they are not claimed as a scientific discovery.

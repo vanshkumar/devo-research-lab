@@ -1,0 +1,85 @@
+{
+  "utc": "2026-11-01T02:34:42.022577+00:00",
+  "source_pins": {
+    "bytes": 106395,
+    "sha256": "6d38c558f4ef6e8991b1f59de7a5c2bb50fcee8b55285f5db9c2fa532141298f",
+    "md5": "a8a3e15455a7342cd6d9e94872db4859",
+    "source_version": 1
+  },
+  "main_freeze": {
+    "analysis.py": true,
+    "first_data_check.py": true,
+    "controls.py": true,
+    "audit.py": true,
+    "DEVELOPMENT_PLAN.md": true,
+    "PROTOCOL.md": true,
+    "SOURCE_CERTIFICATION.json": true,
+    "SELECTED_RECIPES.json": true,
+    "FROZEN_MODELS.json": true
+  },
+  "contrary_freeze": {
+    "contrary.py": true,
+    "CONTRARY_PLAN.md": true,
+    "CONTRARY_MODELS.json": true,
+    "FREEZE.json": true,
+    "EVALUATION.json": true
+  },
+  "main_reconstructed_individual_losses": 280,
+  "main_forecast_rows": 900,
+  "main_loss_max_abs_error": 2.220446049250313e-16,
+  "contrary_reconstructed_individual_losses": 120,
+  "contrary_forecast_rows": 900,
+  "contrary_loss_max_abs_error": 1.1102230246251565e-16,
+  "excluded": [
+    {
+      "id": 120,
+      "channel": "physiology",
+      "included": false,
+      "reason": "missing/nonfinite required extinction feature",
+      "missing_count": 18
+    }
+  ],
+  "all_zero_extinction_units": [
+    {
+      "id": 113,
+      "channel": "physiology"
+    },
+    {
+      "id": 117,
+      "channel": "physiology"
+    },
+    {
+      "id": 142,
+      "channel": "physiology"
+    },
+    {
+      "id": 148,
+      "channel": "physiology"
+    },
+    {
+      "id": 150,
+      "channel": "physiology"
+    },
+    {
+      "id": 153,
+      "channel": "physiology"
+    },
+    {
+      "id": 112,
+      "channel": "physiology"
+    },
+    {
+      "id": 118,
+      "channel": "physiology"
+    }
+  ],
+  "environment": {
+    "python": "3.9.6 (default, Oct 19 2026, 19:18:13) \n[Clang 21.0.0 (clang-2100.4.1.1)]",
+    "numpy": "2.0.2",
+    "platform": "darwin"
+  },
+  "measured_scientific_bytes_this_command": 1287906,
+  "read_charge_bytes": 5000000,
+  "peak_rss_bytes": 24477696,
+  "owned_scientific_jobs_remaining": 0
+}

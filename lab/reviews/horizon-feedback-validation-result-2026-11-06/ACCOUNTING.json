@@ -1,0 +1,208 @@
+{
+  "assignment": "Independent Horizon feedback-validation result review",
+  "worker_thread_id": "01a1b186-0c0a-7a12-9d45-c98f568da5b9",
+  "pi_thread_id": "01a19fe3-50b9-7380-aebc-612c7b2beb39",
+  "booking": {
+    "wall_deadline_utc": "2026-11-06 16:26:00 UTC",
+    "cpu_seconds": 480,
+    "nominal_read_decode_bytes": 120000000,
+    "peak_rss_bytes": 800000000,
+    "incremental_storage_bytes": 60000000,
+    "concurrent_science_processes": 1,
+    "ingress_bytes": 0,
+    "internal_remaining_percent": 6,
+    "human_remaining_percent": 1
+  },
+  "usage_checks": [
+    {
+      "event": "native start",
+      "utc": "2026-11-06 15:42:20 UTC",
+      "weekly_remaining_percent": 10,
+      "ordinary_usage_allowed": true,
+      "secondary": null,
+      "individual": null
+    },
+    {
+      "event": "review freeze",
+      "utc": "2026-11-06 15:44:55 UTC",
+      "ordinaryUsageAllowed": true,
+      "windows": {
+        "primary": {
+          "usedPercent": 90,
+          "windowDurationMins": 10080,
+          "resetsAt": 1794445923
+        },
+        "secondary": null,
+        "individual": null
+      },
+      "weekly_remaining_percent": 10
+    },
+    {
+      "event": "implementation checkpoint",
+      "utc": "2026-11-06 15:50:08 UTC",
+      "ordinaryUsageAllowed": true,
+      "windows": {
+        "primary": {
+          "usedPercent": 91,
+          "windowDurationMins": 10080,
+          "resetsAt": 1794445923
+        },
+        "secondary": null,
+        "individual": null
+      },
+      "weekly_remaining_percent": 9
+    },
+    {
+      "event": "first batch launch",
+      "utc": "2026-11-06 15:52:45 UTC",
+      "ordinaryUsageAllowed": true,
+      "windows": {
+        "primary": {
+          "usedPercent": 91,
+          "windowDurationMins": 10080,
+          "resetsAt": 1794445923
+        },
+        "secondary": null,
+        "individual": null
+      },
+      "weekly_remaining_percent": 9
+    },
+    {
+      "event": "first stop",
+      "utc": "2026-11-06 15:53:36 UTC",
+      "ordinaryUsageAllowed": true,
+      "windows": {
+        "primary": {
+          "usedPercent": 91,
+          "windowDurationMins": 10080,
+          "resetsAt": 1794445923
+        },
+        "secondary": null,
+        "individual": null
+      },
+      "weekly_remaining_percent": 9
+    },
+    {
+      "event": "literal-cutoff replay launch",
+      "utc": "2026-11-06 15:54:49 UTC",
+      "ordinaryUsageAllowed": true,
+      "windows": {
+        "primary": {
+          "usedPercent": 91,
+          "windowDurationMins": 10080,
+          "resetsAt": 1794445923
+        },
+        "secondary": null,
+        "individual": null
+      },
+      "weekly_remaining_percent": 9
+    },
+    {
+      "event": "empty-calibration amendment and launch",
+      "utc": "2026-11-06 15:55:58 UTC",
+      "ordinaryUsageAllowed": true,
+      "windows": {
+        "primary": {
+          "usedPercent": 91,
+          "windowDurationMins": 10080,
+          "resetsAt": 1794445923
+        },
+        "secondary": null,
+        "individual": null
+      },
+      "weekly_remaining_percent": 9
+    },
+    {
+      "event": "completed result collection",
+      "utc": "2026-11-06 15:56:38 UTC",
+      "ordinaryUsageAllowed": true,
+      "windows": {
+        "primary": {
+          "usedPercent": 91,
+          "windowDurationMins": 10080,
+          "resetsAt": 1794445923
+        },
+        "secondary": null,
+        "individual": null
+      },
+      "weekly_remaining_percent": 9
+    },
+    {
+      "event": "close preparation",
+      "utc": "2026-11-06 16:01:42 UTC",
+      "ordinaryUsageAllowed": true,
+      "windows": {
+        "primary": {
+          "usedPercent": 91,
+          "windowDurationMins": 10080,
+          "resetsAt": 1794445923
+        },
+        "secondary": null,
+        "individual": null
+      },
+      "weekly_remaining_percent": 9
+    }
+  ],
+  "science_jobs": [
+    {
+      "session_id": 82483,
+      "exit": 1,
+      "status": "terminal",
+      "purpose": "Initial independent reconstruction",
+      "log": "SAVED_THRESHOLD_STOP.log",
+      "cpu_seconds": null,
+      "peak_rss_bytes": null,
+      "explicit_input_bytes": 2864205,
+      "conservative_cpu_guard_seconds": 200,
+      "disposition": "Stopped before independent scope score. Saved-threshold calibration mismatch using stable posterior numerics and widened tie convention."
+    },
+    {
+      "session_id": 17826,
+      "exit": 1,
+      "status": "terminal",
+      "purpose": "Literal serialized-cutoff replay",
+      "log": "EMPTY_CALIBRATION_STOP.log",
+      "cpu_seconds": 1.8963,
+      "peak_rss_bytes": 122011648,
+      "explicit_input_bytes": 2864205,
+      "disposition": "Saved-threshold assertion cleared. Stopped at assumption of all 20 calibration people retaining games after the frozen history exclusion."
+    },
+    {
+      "session_id": 6843,
+      "exit": 0,
+      "status": "terminal",
+      "purpose": "Completed independent reconstruction and disjoint-history contrary",
+      "log": "RECONSTRUCTION.log",
+      "artifact": "RECONSTRUCTION.json",
+      "cpu_seconds": 10.3686,
+      "internal_calculation_wall_seconds": 10.064110875,
+      "peak_rss_bytes": 152223744,
+      "explicit_input_bytes": 3016205,
+      "disposition": "Both boundaries complete, saved and independently computed inputs/outputs verified."
+    }
+  ],
+  "actual": {
+    "successful_science_cpu_seconds": 10.3686,
+    "summed_measured_science_cpu_seconds": 12.2649,
+    "conservative_cpu_including_unmeasured_first_guard_seconds": 212.2649,
+    "peak_measured_rss_bytes": 152223744,
+    "first_job_cpu_rss": "Not metered. It passed the per-process CPU guard setup before its early assertion.",
+    "explicit_science_input_bytes": 8744615,
+    "nominal_science_read_decode_bytes": 21060281,
+    "conservative_nominal_local_read_decode_booking_including_context_verification_bytes": 40000000,
+    "local_physical_io_library_imports_and_admin_overhead": "Unmetered. Booked nominal estimate is distinct from actual physical I/O.",
+    "incremental_review_storage_bytes_upper_booking": 1000000,
+    "max_concurrent_science_processes": 1,
+    "external_ingress_bytes": 0,
+    "external_messages": 0,
+    "source_trial_footprint": {
+      "local_pinned_original_train_body_bytes": 2052611,
+      "people": 25,
+      "source_schedule_rows": 60000,
+      "h6_typed_rows_per_science_job": 40000,
+      "latent_mean_labels": "Source evaluation and other-person training aggregates only",
+      "protected_trial_payload_access": 0
+    },
+    "open_science_processes": 0
+  }
+}

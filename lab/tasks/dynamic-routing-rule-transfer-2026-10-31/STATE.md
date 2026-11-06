@@ -1,0 +1,11 @@
+# CURRENT — partial source check; public-operation budget exhausted
+
+Task dynamic-routing-rule-transfer-2026-10-31. Sole investigator owns this directory only. START 2026-11-01T03:04:30.388Z; source stop03:24:30.388Z; absolute deadline04:19:30.388Z. Ended acquisition at12/12publicoperations; no automatic extension. Current PI at launch01a1950d-0a01-7c72-9e80-b834b1a62817; verify registry before the one terminal report.
+
+Actual FIRST_DATA_CHECK at03:10:15Z: public Allen742903_2024-10-22NWB metadata49columns/538rows; one reward-time chunk decoded by a scoped custom decoder to136finite/402NaNentries, finite times strictly increasing. Full observed stimulus/response/instruction/reward-type chronology and license/deployment provenance NOT certified. Forecast comparison, split/freeze, controls and held-animal scoring ALL UNRUN. No negative biological result. Code/source schema and actual values saved; see RESULT.md/README.md.
+
+Known direct HTTP ingress2,374,916bytes; connector/search/provider transfers unmeasured with explicit reserves in OPERATIONS.json. Additional read/decode/hash charge50MB/500MB; measured local peak25,411,584bytes/1GB; remote provider/failed-connector peaksUNKNOWN. Pre-execution hook denials had no public request; DNSfailure charged as one operation. One process at a time/one numerical thread, no running jobs or installations. Detailed actual captures in ACQUISITIONS.jsonl.
+
+Consumed: full538reward-timevector; metadata/schema entire454,267byteconsolidatedNWBdocument; complete1,916,677bytetutorial JSON including embedded images as bytes, inspected source/text/MIMEinventory but not imagepixels; five-session methods/performance summaries from search. Other trialarrays/neural/posepayloadsnotacquired. No oldraw/protected reads. Preserve all inherited exposure; no evaluation cohort designated.
+
+Recommendation: close this finite acquisition attempt honestly and reallocate. A new source/request allocation would need separate PI justification; the archive is not shown unsuitable. The ONEterminalreport was delivered to current registry PI01a1950d-0a01-7c72-9e80-b834b1a62817/local, toolisErrorfalse; see COMPLETION_REPORT.md/COMMUNICATION_STATUS.json. No acknowledgement wait or scientific continuation. Lab and SAMEACTIVEheartbeat continue across this endpoint.

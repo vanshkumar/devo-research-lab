@@ -1,0 +1,466 @@
+{
+  "limits": {
+    "elapsed_s": 4500,
+    "process_cpu_s": 600,
+    "nominal_recorded_decoded_read_bytes": 250000000,
+    "http_body_bytes": 25000000,
+    "peak_rss_bytes": 1000000000,
+    "storage_bytes": 500000000,
+    "concurrent_scientific_processes": 1,
+    "tranche_stop_remaining_percent": 45,
+    "human_reserve_percent": 25
+  },
+  "native_start": {
+    "id": "01a1ad6d-20bc-7473-bd89-c53e9b9361ea",
+    "native_started_at": 1793910972,
+    "native_started_utc": "2026-11-05T20:36:12.000Z",
+    "deadline_unix": 1793915472,
+    "deadline_utc": "2026-11-05T21:51:12.000Z"
+  },
+  "actual_allowance_snapshots": {
+    "initial": {
+      "utc": "2026-11-05 20:36:34 UTC",
+      "ordinary_usage_allowed": true,
+      "windows": [
+        {
+          "limitId": "codex",
+          "primary": {
+            "usedPercent": 47,
+            "windowDurationMins": 10080,
+            "resetsAt": 1794445923
+          },
+          "secondary": null,
+          "individualLimit": null,
+          "spendControlReached": false
+        }
+      ],
+      "remaining_weekly_percent": 53
+    },
+    "before_first_source": {
+      "time": "2026-11-05 20:38:51 UTC",
+      "ordinaryUsageAllowed": true,
+      "windows": [
+        {
+          "id": "codex",
+          "primary": {
+            "usedPercent": 47,
+            "windowDurationMins": 10080,
+            "resetsAt": 1794445923
+          },
+          "secondary": null,
+          "individualLimit": null,
+          "spendControlReached": false
+        }
+      ]
+    },
+    "before_inventory": {
+      "time": "2026-11-05 20:43:16 UTC",
+      "ordinaryUsageAllowed": true,
+      "windows": [
+        {
+          "id": "codex",
+          "primary": {
+            "usedPercent": 48,
+            "windowDurationMins": 10080,
+            "resetsAt": 1794445923
+          },
+          "secondary": null,
+          "individualLimit": null,
+          "spendControlReached": false
+        }
+      ]
+    },
+    "before_old_roster_stage": {
+      "time": "2026-11-05 20:46:38 UTC",
+      "ordinaryUsageAllowed": true,
+      "windows": [
+        {
+          "id": "codex",
+          "primary": {
+            "usedPercent": 49,
+            "windowDurationMins": 10080,
+            "resetsAt": 1794445923
+          },
+          "secondary": null,
+          "individualLimit": null,
+          "spendControlReached": false
+        }
+      ]
+    },
+    "scientific_decision": {
+      "time": "2026-11-05 20:52:19 UTC",
+      "ordinaryUsageAllowed": true,
+      "windows": [
+        {
+          "id": "codex",
+          "primary": {
+            "usedPercent": 49,
+            "windowDurationMins": 10080,
+            "resetsAt": 1794445923
+          },
+          "secondary": null,
+          "individualLimit": null,
+          "spendControlReached": false
+        }
+      ]
+    },
+    "closeout": {
+      "time": "2026-11-05 20:58:51 UTC",
+      "ordinaryUsageAllowed": true,
+      "windows": [
+        {
+          "id": "codex",
+          "primary": {
+            "usedPercent": 50,
+            "windowDurationMins": 10080,
+            "resetsAt": 1794445923
+          },
+          "secondary": null,
+          "individualLimit": null,
+          "spendControlReached": false
+        }
+      ]
+    },
+    "observed_weekly_percent_remaining_closeout": 50,
+    "unavailable_windows": "secondary and individual null"
+  },
+  "completed_jobs": {
+    "scientific_processes_live": 0,
+    "external_request_live": 0,
+    "sequential_processing": true,
+    "only_pty_returned_session_id": 19962,
+    "only_pty_session_final_exit_code": 0,
+    "default_curl": "DNS failed (curl 6), no application HTTP request or body. macOS time wrapper returned 1.",
+    "first_local_analysis": "All outputs produced, timing wrapper exit 1 after sysctl kern.clockrate restriction. Separate CSV aggregate check exit 0.",
+    "full_fit_or_trial_reads": 0
+  },
+  "ingress": {
+    "direct_http_requests": 64,
+    "direct_methods": {
+      "HEAD": 24,
+      "GET": 40
+    },
+    "statuses": {
+      "200": 61,
+      "404": 3
+    },
+    "verified_saved_bodies": 40,
+    "direct_body_bytes": 12618856,
+    "direct_body_reservations": 18336954,
+    "search_connector_serialized_utf8_bytes": 30690,
+    "search_connector_responses": [
+      {
+        "key": "primaryMethodSearch",
+        "bytes": 15456,
+        "model_facing_only": true
+      },
+      {
+        "key": "availabilityPrior",
+        "bytes": 393,
+        "model_facing_only": true
+      },
+      {
+        "key": "publisherAvailability",
+        "bytes": 14841,
+        "model_facing_only": true
+      }
+    ],
+    "additional_model_facing_body_booking_for_search": 1000000,
+    "combined_known_direct_and_connector_visible_bytes": 12649546,
+    "combined_conservative_booked_visible_body_bytes": 19336954,
+    "source_trial_or_nwb_body_bytes": 0,
+    "candidate_trial_or_behavior_summary_body_bytes": 0,
+    "known_scope": "No HTTP candidate trial or behavioral-summary GET. Prior publication text includes aggregate evidence. S3 chunked pages bounded in the client by fixed prefix, 1,000-key pagination and 600,000 bytes/page.",
+    "unknown": "TLS/framing/kernel receive, service/provider upstream indexing and input byte volumes are unavailable. Reported body bytes are application payload bytes read or serialized connector results, not provider wire telemetry."
+  },
+  "local_reads": {
+    "explicit_complete_nominal_passes": {
+      "catalogue_page_envelope_checks": 5810655,
+      "first_latest_manifest_parse": 2455839,
+      "two_manifest_scope_check": 4952001,
+      "historical_roster_schema_probe_and_manifest": 3710427,
+      "primary_join_reads": 11976921,
+      "csv_output_aggregation": 1841151,
+      "integrity_all_http_bodies_both_manifests_and_ledger": 17640121
+    },
+    "explicit_passes_bytes": 48387115,
+    "conservative_booked_bytes": 120000000,
+    "additional_booking_basis": "Includes repeated ledger scans, orientation and source checks, parsed data/text representations, reports and closeout. No NWB decoding or compressed data import.",
+    "unknown": "Kernel physical reads, process-loader and remote service storage reads are not instrumented."
+  },
+  "process_cpu": {
+    "sum_rounded_measured_user_sys_s": 2.1,
+    "early_timings": [
+      {
+        "key": "docsDefaultHead",
+        "exit_code": 1,
+        "readings": [
+          {
+            "wall_s": 0.01,
+            "user_s": 0,
+            "sys_s": 0
+          }
+        ]
+      },
+      {
+        "key": "docsReviewed",
+        "exit_code": 1,
+        "readings": [
+          {
+            "wall_s": 0.31,
+            "user_s": 0.03,
+            "sys_s": 0.01
+          }
+        ]
+      },
+      {
+        "key": "source_index",
+        "exit_code": 0,
+        "readings": [
+          {
+            "wall_s": 0.24,
+            "user_s": 0.03,
+            "sys_s": 0.01
+          },
+          {
+            "wall_s": 0.46,
+            "user_s": 0.04,
+            "sys_s": 0.01
+          }
+        ]
+      },
+      {
+        "key": "manifestSdk",
+        "exit_code": 0,
+        "readings": [
+          {
+            "wall_s": 1.26,
+            "user_s": 0.07,
+            "sys_s": 0.02
+          },
+          {
+            "wall_s": 0.32,
+            "user_s": 0.04,
+            "sys_s": 0.01
+          },
+          {
+            "wall_s": 0.24,
+            "user_s": 0.04,
+            "sys_s": 0.01
+          }
+        ]
+      },
+      {
+        "key": "manifestParse",
+        "exit_code": 0,
+        "readings": [
+          {
+            "wall_s": 0.03,
+            "user_s": 0.02,
+            "sys_s": 0
+          }
+        ]
+      },
+      {
+        "key": "manifestOlderSource",
+        "exit_code": 0,
+        "readings": [
+          {
+            "wall_s": 1.42,
+            "user_s": 0.08,
+            "sys_s": 0.02
+          },
+          {
+            "wall_s": 0.47,
+            "user_s": 0.04,
+            "sys_s": 0.01
+          },
+          {
+            "wall_s": 0.29,
+            "user_s": 0.04,
+            "sys_s": 0.01
+          },
+          {
+            "wall_s": 0.25,
+            "user_s": 0.03,
+            "sys_s": 0.01
+          },
+          {
+            "wall_s": 0.22,
+            "user_s": 0.03,
+            "sys_s": 0.01
+          }
+        ]
+      },
+      {
+        "key": "olderWriterPrior",
+        "exit_code": 1,
+        "readings": [
+          {
+            "wall_s": 0.18,
+            "user_s": 0.03,
+            "sys_s": 0.01
+          },
+          {
+            "wall_s": 0.32,
+            "user_s": 0.04,
+            "sys_s": 0.01
+          },
+          {
+            "wall_s": 0.41,
+            "user_s": 0.04,
+            "sys_s": 0.01
+          },
+          {
+            "wall_s": 0.82,
+            "user_s": 0.04,
+            "sys_s": 0.01
+          }
+        ]
+      },
+      {
+        "key": "priorLookupVersions",
+        "exit_code": 0,
+        "readings": [
+          {
+            "wall_s": 0.27,
+            "user_s": 0.03,
+            "sys_s": 0.01
+          },
+          {
+            "wall_s": 0.85,
+            "user_s": 0.03,
+            "sys_s": 0.01
+          },
+          {
+            "wall_s": 0.42,
+            "user_s": 0.04,
+            "sys_s": 0.01
+          }
+        ]
+      },
+      {
+        "key": "secondaryCheck",
+        "exit_code": 0,
+        "readings": [
+          {
+            "wall_s": 0.04,
+            "user_s": 0.02,
+            "sys_s": 0
+          }
+        ]
+      }
+    ],
+    "saved_time_files": {
+      "CPU_abstracts.txt": {
+        "real": 1.55,
+        "user": 0.04,
+        "sys": 0.01,
+        "maxrss_bytes": 18546688
+      },
+      "CPU_analysis.txt": {
+        "real": 0.16,
+        "user": 0.13,
+        "sys": 0.01,
+        "maxrss_bytes": null
+      },
+      "CPU_cache2122.txt": {
+        "real": 0.3,
+        "user": 0.04,
+        "sys": 0.01,
+        "maxrss_bytes": 18006016
+      },
+      "CPU_catalogue.txt": {
+        "real": 21.07,
+        "user": 0.28,
+        "sys": 0.06,
+        "maxrss_bytes": 24559616
+      },
+      "CPU_lims2122.txt": {
+        "real": 0.28,
+        "user": 0.04,
+        "sys": 0.01,
+        "maxrss_bytes": 17989632
+      },
+      "CPU_prior_exposures.txt": {
+        "real": 0.25,
+        "user": 0.04,
+        "sys": 0.01,
+        "maxrss_bytes": 17956864
+      },
+      "CPU_roster.txt": {
+        "real": 1.35,
+        "user": 0.05,
+        "sys": 0.01,
+        "maxrss_bytes": 20414464
+      },
+      "CPU_sdk_tree.txt": {
+        "real": 0.44,
+        "user": 0.04,
+        "sys": 0.01,
+        "maxrss_bytes": 19054592
+      },
+      "CPU_task_parameters.txt": {
+        "real": 0.31,
+        "user": 0.04,
+        "sys": 0.01,
+        "maxrss_bytes": 17907712
+      },
+      "CPU_trial.txt": {
+        "real": 0.37,
+        "user": 0.04,
+        "sys": 0.01,
+        "maxrss_bytes": 17989632
+      },
+      "CPU_trial2160.txt": {
+        "real": 0.35,
+        "user": 0.05,
+        "sys": 0.01,
+        "maxrss_bytes": 18038784
+      },
+      "CPU_trials2160.txt": {
+        "real": 0.34,
+        "user": 0.05,
+        "sys": 0.01,
+        "maxrss_bytes": 18137088
+      },
+      "CPU_writer2122.txt": {
+        "real": 0.3,
+        "user": 0.04,
+        "sys": 0.01,
+        "maxrss_bytes": 17956864
+      },
+      "CPU_writer2162.txt": {
+        "real": 0.32,
+        "user": 0.04,
+        "sys": 0.01,
+        "maxrss_bytes": 17776640
+      }
+    },
+    "audit_wall_s": 0.04,
+    "audit_user_sys_s": 0.03,
+    "conservative_total_booked_cpu_s": 60,
+    "unknown": "Several tiny shell and Python inspection processes, launch/import overhead outside timed commands, service/provider CPU and model costs remain uninstrumented."
+  },
+  "memory_and_storage": {
+    "max_measured_process_rss_bytes": 24559616,
+    "audit_process_rss_bytes": 17776640,
+    "nominal_pre_closeout_regular_file_bytes": 14596803,
+    "conservative_storage_booked_bytes": 20000000,
+    "conservative_working_rss_booking_bytes": 100000000,
+    "unknown": "Failed extended-time reporting left one computation RSS unobserved. The booking allows for in-memory metadata and unmeasured peaks, without certifying system, provider or model memory use."
+  },
+  "exposure": {
+    "scope": "REPRODUCE.md and ACCESS.md",
+    "old_roster_metadata_rows": 4787,
+    "old_roster_columns": 21,
+    "old_roster_learners": 107,
+    "current_roster_body_bytes": 0,
+    "original_source_only_session_count": 0,
+    "all_behavior_and_imaging_nwb_bodies_bytes": 0,
+    "actual_candidate_data_rows": 0,
+    "retained_protected_observations": "No restricted bodies read. Prior findings used only via named records."
+  },
+  "bookkeeping_snapshot_utc": "2026-11-05 20:58:51 UTC",
+  "whole_study_price": "No defensible whole-investigation price. See RESULT.md for exact pinned historical-footprint bytes, unobserved entrant/attrition data, missing bounded projection and unavailable source precision/runtime."
+}

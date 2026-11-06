@@ -1,0 +1,343 @@
+{
+  "outcome_blind": true,
+  "global_item_ids_in_sample": 1769,
+  "cohort": {
+    "source_fit": {
+      "people": 6,
+      "repeat_rows": 222,
+      "per_person_repeats": [
+        20,
+        21,
+        95,
+        24,
+        35,
+        27
+      ],
+      "feature_quantiles": {
+        "delta_days": [
+          5.787037037037037e-05,
+          0.0001273148148148148,
+          0.022621527777777775,
+          5.913309027777778,
+          17.981655092592593
+        ],
+        "prior_seen": [
+          1.0,
+          1.0,
+          1.0,
+          2.9000000000000057,
+          10.0
+        ],
+        "intervening_other": [
+          0.0,
+          0.0,
+          21.0,
+          88.9,
+          259.0
+        ]
+      },
+      "joint_cells": 28
+    },
+    "source_validation": {
+      "people": 2,
+      "repeat_rows": 83,
+      "per_person_repeats": [
+        55,
+        28
+      ],
+      "feature_quantiles": {
+        "delta_days": [
+          9.259259259259259e-05,
+          0.0016967592592592594,
+          0.020555555555555556,
+          1.3515416666666666,
+          2.093773148148148
+        ],
+        "prior_seen": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          3.0
+        ],
+        "intervening_other": [
+          0.0,
+          9.200000000000001,
+          35.0,
+          112.0,
+          240.0
+        ]
+      },
+      "joint_cells": 14
+    },
+    "smart": {
+      "people": 10,
+      "repeat_rows": 663,
+      "per_person_repeats": [
+        39,
+        65,
+        86,
+        22,
+        129,
+        30,
+        131,
+        26,
+        33,
+        102
+      ],
+      "feature_quantiles": {
+        "delta_days": [
+          5.787037037037037e-05,
+          0.0007962962962962965,
+          0.05378472222222222,
+          1.9666875,
+          15.844664351851852
+        ],
+        "prior_seen": [
+          1.0,
+          1.0,
+          1.0,
+          4.800000000000068,
+          20.0
+        ],
+        "intervening_other": [
+          0.0,
+          3.0,
+          38.0,
+          244.80000000000007,
+          604.0
+        ]
+      },
+      "joint_cells": 39
+    },
+    "spaced": {
+      "people": 4,
+      "repeat_rows": 433,
+      "per_person_repeats": [
+        77,
+        27,
+        290,
+        39
+      ],
+      "feature_quantiles": {
+        "delta_days": [
+          4.6296296296296294e-05,
+          0.0010185185185185184,
+          0.00962962962962963,
+          0.10049537037037037,
+          2.7996064814814816
+        ],
+        "prior_seen": [
+          1.0,
+          1.0,
+          1.0,
+          4.0,
+          10.0
+        ],
+        "intervening_other": [
+          0.0,
+          4.0,
+          40.0,
+          270.6,
+          343.0
+        ]
+      },
+      "joint_cells": 32
+    }
+  },
+  "joint_support": {
+    "source_validation": {
+      "source_cell_minimum": 10,
+      "supported_repeat_rows": 55,
+      "fraction": 0.6626506024096386
+    },
+    "smart": {
+      "source_cell_minimum": 10,
+      "supported_repeat_rows": 214,
+      "fraction": 0.32277526395173456
+    },
+    "spaced": {
+      "source_cell_minimum": 10,
+      "supported_repeat_rows": 128,
+      "fraction": 0.2956120092378753
+    }
+  },
+  "metadata_sensitivity_not_a_cohort_amendment": [
+    {
+      "period": "early",
+      "arm": "smart",
+      "stage": "stable_window",
+      "people": 226
+    },
+    {
+      "period": "early",
+      "arm": "smart",
+      "stage": "counter_complete",
+      "people": 183
+    },
+    {
+      "period": "early",
+      "arm": "random",
+      "stage": "stable_window",
+      "people": 259
+    },
+    {
+      "period": "early",
+      "arm": "random",
+      "stage": "counter_complete",
+      "people": 190
+    },
+    {
+      "period": "early",
+      "arm": "spaced",
+      "stage": "stable_window",
+      "people": 210
+    },
+    {
+      "period": "early",
+      "arm": "spaced",
+      "stage": "counter_complete",
+      "people": 168
+    },
+    {
+      "period": "early",
+      "arm": "random",
+      "stage": "qualified",
+      "people": 8
+    },
+    {
+      "period": "early",
+      "arm": "spaced",
+      "stage": "qualified",
+      "people": 5
+    },
+    {
+      "period": "early",
+      "arm": "smart",
+      "stage": "qualified",
+      "people": 8
+    },
+    {
+      "period": "late",
+      "arm": "spaced",
+      "stage": "stable_window",
+      "people": 252
+    },
+    {
+      "period": "late",
+      "arm": "spaced",
+      "stage": "counter_complete",
+      "people": 220
+    },
+    {
+      "period": "late",
+      "arm": "random",
+      "stage": "stable_window",
+      "people": 330
+    },
+    {
+      "period": "late",
+      "arm": "random",
+      "stage": "counter_complete",
+      "people": 266
+    },
+    {
+      "period": "late",
+      "arm": "random",
+      "stage": "qualified",
+      "people": 8
+    },
+    {
+      "period": "late",
+      "arm": "smart",
+      "stage": "stable_window",
+      "people": 283
+    },
+    {
+      "period": "late",
+      "arm": "smart",
+      "stage": "counter_complete",
+      "people": 234
+    },
+    {
+      "period": "late",
+      "arm": "spaced",
+      "stage": "qualified",
+      "people": 4
+    },
+    {
+      "period": "late",
+      "arm": "smart",
+      "stage": "qualified",
+      "people": 10
+    }
+  ],
+  "repeat_count_quantiles_stable_window": [
+    {
+      "period": "early",
+      "arm": "smart",
+      "n": 226,
+      "quantiles": [
+        0.0,
+        0.0,
+        61.0,
+        2176.0
+      ]
+    },
+    {
+      "period": "early",
+      "arm": "random",
+      "n": 259,
+      "quantiles": [
+        0.0,
+        0.0,
+        85.20000000000019,
+        4495.0
+      ]
+    },
+    {
+      "period": "early",
+      "arm": "spaced",
+      "n": 210,
+      "quantiles": [
+        0.0,
+        0.0,
+        46.099999999999994,
+        635.0
+      ]
+    },
+    {
+      "period": "late",
+      "arm": "spaced",
+      "n": 252,
+      "quantiles": [
+        0.0,
+        0.0,
+        38.50000000000003,
+        2019.0
+      ]
+    },
+    {
+      "period": "late",
+      "arm": "random",
+      "n": 330,
+      "quantiles": [
+        0.0,
+        0.0,
+        44.30000000000007,
+        2322.0
+      ]
+    },
+    {
+      "period": "late",
+      "arm": "smart",
+      "n": 283,
+      "quantiles": [
+        0.0,
+        0.0,
+        46.400000000000034,
+        2063.0
+      ]
+    }
+  ]
+}

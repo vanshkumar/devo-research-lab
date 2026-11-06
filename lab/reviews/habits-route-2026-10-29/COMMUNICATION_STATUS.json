@@ -1,0 +1,41 @@
+{
+  "status": "delivered_after_explicit_human_approval",
+  "destination_thread_id": "01a183c5-84a1-71f1-b38e-323dbbd2e7bd",
+  "authorization": {
+    "source_thread_id": "01a18836-d7ba-7243-a87b-50fdbe613db3",
+    "verified_direct_human_messages": [
+      "01a1883b-3806-7363-bdfc-178425d095b5",
+      "01a1883e-64f9-7ef1-9c38-181184cb52ad",
+      "01a18840-8b59-7c93-a2fa-420d59a20694"
+    ],
+    "scope": "Original human messages were inspected for lab setup and coordination scope; automatic approval review found them insufficient to explicitly authorize this report to this destination",
+    "explicit_current_human_approval": "The user answered Yes to: May I send the completed report to the PI chat?",
+    "explicit_current_human_approval_date": "2026-10-29"
+  },
+  "message_file": "COMMUNICATION_MESSAGE.md",
+  "send_attempts": 2,
+  "attempted_at_utc": "2026-10-29 16:10:11 UTC",
+  "tool_is_error": false,
+  "rejection_reason": "The action sends a consequential user-visible report to the parent thread, but the trusted user messages do not explicitly authorize sending that message or reporting back to that destination.",
+  "action": "Delivery complete. Do not resend. No additional research, access or implementation was launched.",
+  "note": "The earlier automatic approval rejection is preserved in attempt_history and rejection_reason; it was resolved by explicit human approval and successful delivery.",
+  "attempt_history": [
+    {
+      "attempt": 1,
+      "at_utc": "2026-10-29 16:10:11 UTC",
+      "status": "rejected_by_automatic_approval_review_not_delivered",
+      "reason": "The action sends a consequential user-visible report to the parent thread, but the trusted user messages do not explicitly authorize sending that message or reporting back to that destination."
+    },
+    {
+      "attempt": 2,
+      "at_utc": "2026-10-29 16:16:59 UTC",
+      "status": "delivered",
+      "authority": "Explicit current human Yes to sending the completed report to the PI chat"
+    }
+  ],
+  "delivered_at_utc": "2026-10-29 16:16:59 UTC",
+  "receipt": {
+    "threadId": "01a183c5-84a1-71f1-b38e-323dbbd2e7bd"
+  },
+  "message_sha256": "8e1ab4af0fd03ba86dce46910c76113c150dafe5aca1312e9c785957ae25aa16"
+}

@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-03",
+  "selected_model": {
+    "paper": "Kim, Leahy, Shlizerman (2019), Neural Interactome: Interactive Simulation of a Neuronal System",
+    "doi": "10.3389/fncom.2019.00008",
+    "repository": "https://github.com/shlizee/C-elegans-Neural-Interactome",
+    "tree": "bdb94ca174980e46777f7b1936f539903c688719",
+    "source_version": "3.0.0-beta",
+    "scope": "Own published-linked release; never certified as exact2017 or every original2019published numerical condition",
+    "code_license": "BSD-3-Clause, exact notice retained at sibling connectome-persistence-contrast-2026-11-03/sources/interactome-LICENSE",
+    "article_license": "CC BY publisher copy, inherited primary-source verification",
+    "asset_license_qualification": "Fixed assets are in the licensed repository; underlying Varshney/White connectivity attribution follows the source paper. Separate upstream asset terms were not independently acquired/certified."
+  },
+  "inherited_ordinary_sources": {
+    "directory": "../connectome-persistence-contrast-2026-11-03/sources/",
+    "source_code": "interactome-initialize.py",
+    "source_git_blob": "27bc70d6986e17d00fedf85ffbcaf8cb6b1b7d47",
+    "paper_excerpts": ["interactome-paper.json", "interactome-results.json", "article-open.json", "article-results.json"],
+    "primary_programs": ["Kunert-Graf et al.2017 doi:10.3389/fncom.2017.00053", "Kim et al.2019 doi:10.3389/fncom.2019.00008"],
+    "complete_original_article_bytes_certified": false,
+    "prior_closures_unchanged": true
+  },
+  "new_public_operations": [
+    {"n":1,"tool":"github_fetch","resource":"git/blobs/07b8ab0aa4471aa19cfae5e662d291493f09819b","outcome":"400 text-only binary rejection; preserved"},
+    {"n":2,"tool":"github_fetch","resource":"git/blobs/19e964a95d45d30f8e0b1ba3ced52a08192da4c7","path":"neuron_names.txt","bytes":2822,"outcome":"full text/exact Gitblob verified"},
+    {"n":3,"tool":"github_fetch","resource":"git/blobs/3f4ecedef8ccfb8794a83121b243333568cd8b57","path":"static/slider.js","bytes":2110,"outcome":"full text/exact Gitblob verified"},
+    {"n":4,"tool":"github_fetch","resource":"git/blobs/64a0ba0a39d5e7745a842ffd0ca1275a68cc8edc","path":"static/networkService.js","bytes":4998,"outcome":"full text/exact Gitblob verified"},
+    {"n":5,"tool":"github_fetch_file encoding=base64","path":"Gg.npy","ref":"bdb94ca174980e46777f7b1936f539903c688719","bytes":622808,"git_blob":"07b8ab0aa4471aa19cfae5e662d291493f09819b","shape":[279,279],"dtype":"float64"},
+    {"n":6,"tool":"github_fetch_file encoding=base64","path":"Gs.npy","ref":"bdb94ca174980e46777f7b1936f539903c688719","bytes":622808,"git_blob":"0a6e1cc361d9fe377f48cbf48e0557fec65debe8","shape":[279,279],"dtype":"float64"},
+    {"n":7,"tool":"github_fetch_file encoding=base64","path":"emask.npy","ref":"bdb94ca174980e46777f7b1936f539903c688719","bytes":359,"git_blob":"ae289f5055e5661739b977cee62935d2f3b0be06","shape":[279,1],"dtype":"uint8"},
+    {"n":8,"tool":"github_fetch","resource":"git/blobs/0840d0d732a38e1b76de384310e113ecda8e1405","path":"presets/FWD.json","bytes":16781,"outcome":"full preset/canonical Gitblob verified, local added terminal newline retained and qualified"},
+    {"n":9,"tool":"github_fetch","resource":"git/blobs/87d8afda2195a3fb5a8dec2bd05a1a14ca5104f2","path":"presets/PLM.json","bytes":16775,"outcome":"full fixed preset/canonical Gitblob verified; not simulated as an extra pilot"}
+  ],
+  "resource_url_prefix": "https://api.github.com/repos/shlizee/C-elegans-Neural-Interactome/",
+  "successful_canonical_asset_payload_bytes": 1289461,
+  "new_deliberately_screened_third_programs": 0,
+  "constants": {
+    "N":279,"Gc":0.1,"C":0.015,"ggap":1.0,"gsyn":1.0,"Ec":-35.0,
+    "inhibitory_reversal":-48.0,"ar":"1/1.5","ad":"5/1.5","B":0.125,
+    "Iext":100000,"rate":0.025,"offset":0.15,"transition_window":0.3,
+    "threshold_gate_rounded":0.0909
+  },
+  "units_and_semantics": {
+    "time": "Source simulation seconds; relevant FWDperiod1.935s agrees with paper~2s",
+    "voltage": "Source says leakage/reversal mV and sigmoid/mV; physical amplitude calibration not independently earned, so report source-voltage units",
+    "current": "Exact FWD masksPLM.14/AVB.23 and sourceIext100000; publication labels1.4/2.3nA, source slider range0to1. No silent SI rescaling",
+    "conductance_capacitance": "Literal releaseGc.1/C.015/connection1 retained; source-comment physical scaling is not independently reconciled to2017",
+    "threshold": "Exact source rounded gate, input-dependent linear solve; independently assembled dense solve agrees within9.10e-13",
+    "initialization": "Source1e-4Normal(0,.94), seeds0and1fixed before pilot, actual20s baseline gates retained",
+    "observation": "All37DB/VB/DD/VD raw motor voltages and instantaneous500tanh((V-Vth)/500); no behavior/calcium calibration or hidden filter"
+  },
+  "exposure": {
+    "fixed_assets": "Both complete279x279matrices/279maskvalues decoded repeatedly and source-hashed, all279names/two complete279entry presets/full UI source exposed",
+    "model_outputs": "All original/default/reference, two baseline histories, all six primary branches, tight literal histories, scalar/linear/renderer summaries, failed partial solver calculations and all auxiliary states are development forever",
+    "independent_units": "ONE fixed connectome; seeds are initialization controls, timepoints correlated",
+    "empirical_or_old_numeric_inputs": 0,
+    "prohibited_unread": "saved_dynamics, old fitted arrays, all19heat/sixoldbaseline CLOSED recordings and every reservedworm/Pan20/Flesch/HABITS/memory/Figure4_42/optional210/category target",
+    "history_reset": false
+  },
+  "unknowns": "Provider-internal requests/redirects/base64 traffic/cache/compute and complete runtime/context/physicalIO unmeasured. No exhaustive prior or original article-byte certification."
+}

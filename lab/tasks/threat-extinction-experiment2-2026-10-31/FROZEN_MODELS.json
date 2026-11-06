@@ -1,0 +1,184 @@
+{
+  "physiology/primary": {
+    "common": {
+      "parameters": {
+        "w": 1.0,
+        "q": 0.5,
+        "k": 2.0,
+        "alpha": 0.0,
+        "allow_above1": true
+      },
+      "training_mse": 0.024058352780326413,
+      "prior": {
+        "means": [
+          0.15869767217448885,
+          0.13673735330582912,
+          0.12297933404777833
+        ],
+        "us_mean": 0.4792689315825372,
+        "slope": 0.3917064653452337,
+        "uses_acquisition_US": true
+      },
+      "augmented": false,
+      "shrink_family": false
+    },
+    "update": {
+      "parameters": {
+        "w": 1.0,
+        "q": 0.5,
+        "k": 2.0,
+        "alpha": 1.0,
+        "allow_above1": true
+      },
+      "training_mse": 0.02389668215019266,
+      "prior": {
+        "means": [
+          0.15869767217448885,
+          0.13673735330582912,
+          0.12297933404777833
+        ],
+        "us_mean": 0.4792689315825372,
+        "slope": 0.3917064653452337,
+        "uses_acquisition_US": true
+      },
+      "augmented": true,
+      "shrink_family": false
+    },
+    "past_US_prior_common": {
+      "parameters": {
+        "w": 0.0,
+        "q": 0.5,
+        "k": 2.0,
+        "alpha": 0.0,
+        "allow_above1": true
+      },
+      "training_mse": 0.027944949828402087,
+      "prior": {
+        "means": [
+          0.15869767217448885,
+          0.13673735330582912,
+          0.12297933404777833
+        ],
+        "us_mean": 0.4792689315825372,
+        "slope": 0.3917064653452337,
+        "uses_acquisition_US": true
+      },
+      "augmented": false,
+      "shrink_family": false
+    }
+  },
+  "physiology/past_acquisition_scale": {
+    "common": {
+      "parameters": {
+        "w": 1.0,
+        "q": 0.5,
+        "k": 2.0,
+        "alpha": 0.0,
+        "allow_above1": true
+      },
+      "training_mse": 0.11911415929389395,
+      "prior": {
+        "means": [
+          0.2940564995454692,
+          0.23437272918496987,
+          0.2600401054502277
+        ],
+        "us_mean": 1.1105900856160087,
+        "slope": -0.0383593253889133,
+        "uses_acquisition_US": true
+      },
+      "augmented": false,
+      "shrink_family": false
+    },
+    "update": {
+      "parameters": {
+        "w": 1.0,
+        "q": 0.5,
+        "k": 2.0,
+        "alpha": 0.15,
+        "allow_above1": true
+      },
+      "training_mse": 0.1190478149764682,
+      "prior": {
+        "means": [
+          0.2940564995454692,
+          0.23437272918496987,
+          0.2600401054502277
+        ],
+        "us_mean": 1.1105900856160087,
+        "slope": -0.0383593253889133,
+        "uses_acquisition_US": true
+      },
+      "augmented": true,
+      "shrink_family": false
+    },
+    "past_US_prior_common": {
+      "parameters": {
+        "w": 0.0,
+        "q": 0.5,
+        "k": 1.0,
+        "alpha": 0.0,
+        "allow_above1": true
+      },
+      "training_mse": 0.12251122650869259,
+      "prior": {
+        "means": [
+          0.2940564995454692,
+          0.23437272918496987,
+          0.2600401054502277
+        ],
+        "us_mean": 1.1105900856160087,
+        "slope": -0.0383593253889133,
+        "uses_acquisition_US": true
+      },
+      "augmented": false,
+      "shrink_family": false
+    }
+  },
+  "expectancy/primary": {
+    "common": {
+      "parameters": {
+        "w": 1.0,
+        "q": 0.25,
+        "k": 1.0,
+        "alpha": 0.0,
+        "allow_above1": false
+      },
+      "training_mse": 0.058981098747192894,
+      "prior": {
+        "means": [
+          0.85625,
+          0.903125,
+          0.25625
+        ],
+        "us_mean": 0.0,
+        "slope": 0.0,
+        "uses_acquisition_US": false
+      },
+      "augmented": false,
+      "shrink_family": false
+    },
+    "update": {
+      "parameters": {
+        "w": 1.0,
+        "q": 0.25,
+        "k": 1.0,
+        "alpha": 0.0,
+        "allow_above1": false
+      },
+      "training_mse": 0.058981098747192894,
+      "prior": {
+        "means": [
+          0.85625,
+          0.903125,
+          0.25625
+        ],
+        "us_mean": 0.0,
+        "slope": 0.0,
+        "uses_acquisition_US": false
+      },
+      "augmented": true,
+      "shrink_family": false
+    }
+  }
+}

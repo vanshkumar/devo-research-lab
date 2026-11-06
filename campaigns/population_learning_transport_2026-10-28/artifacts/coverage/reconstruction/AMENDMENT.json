@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-29T01:59:59.550432+00:00",
+  "event": "independent_reconstruction_access_limit_amendment",
+  "reason": "Latest lead release capsNYU21at3000rows rather than all3473; independent reconstruction now reads only prefix plus completefuture500bins, matching source scoring. No endpoint, interval, gate, baseline, forecast or source scoring changes. Original frozen code stays unchanged.",
+  "frozen_source": "campaigns/population_learning_transport_2026-10-28/code/reconstruct_scores.py",
+  "frozen_source_sha256": "190114b10e09062efa08afdd8372a435ace253b93da59ca147ef816e8ac9a061",
+  "audit_copy": "campaigns/population_learning_transport_2026-10-28/artifacts/coverage/reconstruction/reconstruct_scores_limited.py",
+  "audit_copy_sha256": "f70fc4dab247cabde26bf973404ffbbdb949b0ab53b8fbc655621212b5e49cf4",
+  "path_adjustment": "relocated audit copy adjusts ROOT/C constants only",
+  "newsource_values_read_before_amendment": false,
+  "diff": "--- frozen\n+++ audit_copy\n@@ -11,8 +11,8 @@\n from pathlib import Path\n import numpy as np\n from scipy.stats import t\n-ROOT=Path(__file__).resolve().parents[3]\n-C=Path(__file__).resolve().parents[1]\n+ROOT=Path(__file__).resolve().parents[5]\n+C=ROOT/'campaigns/population_learning_transport_2026-10-28'\n OUT=C/'artifacts/coverage/reconstruction'\n MODELS=('rnn','growth','persistence')\n sys.dont_write_bytecode=True\n@@ -168,7 +168,8 @@\n     observed=[];denominators=[];numerators=[];comparisons=[];partial_result={}\n     folder=C/'artifacts/forecasts/source'\n     for subject in primary+partial:\n-        n=min(4000,sum(s['rows'] for s in sessions if s['subject']==subject))\n+        total=sum(s['rows'] for s in sessions if s['subject']==subject)\n+        n=min(4000,1000+500*((total-1000)//500))\n         y,den,num=exact_observation(original_rows(subject,sessions,n))\n         with np.load(folder/(subject+'__observed.npz'),allow_pickle=False) as z:\n             comparisons.extend(compare_numbers(dict(observed=y,counts=den),dict(observed=z['observed'],counts=z['counts']),subject))\n"
+}

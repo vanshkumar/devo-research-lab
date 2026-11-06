@@ -1,0 +1,97 @@
+{
+  "status": "postvalidation_diagnostic;predeclaredfamiliesfromscientificfreeze",
+  "freeze_sha256": "c0141244ac43d240f858956917e3b2b661c72a01a4bddbccdb3974a818b5741f",
+  "full_source_ids": [
+    "CSHL046",
+    "CSHL047",
+    "CSHL049",
+    "CSHL060",
+    "CSHL_013",
+    "CSHL_014",
+    "CSHL_015",
+    "CSH_ZAD_004",
+    "CSH_ZAD_006",
+    "CSH_ZAD_018",
+    "CSH_ZAD_019",
+    "CSH_ZAD_022",
+    "DY_009",
+    "KS022",
+    "KS025",
+    "SWC_004",
+    "SWC_023",
+    "SWC_035",
+    "ZM_3001",
+    "ZM_3004",
+    "ZM_3006",
+    "SWC_006",
+    "SWC_013",
+    "SWC_019",
+    "SWC_032",
+    "SWC_033",
+    "SWC_034",
+    "SWC_041",
+    "SWC_042",
+    "SWC_043",
+    "ibl_witten_11",
+    "ibl_witten_12",
+    "ibl_witten_13",
+    "ibl_witten_14",
+    "ibl_witten_15",
+    "ibl_witten_16",
+    "ibl_witten_17",
+    "ibl_witten_18",
+    "ibl_witten_19",
+    "ibl_witten_20"
+  ],
+  "variants": {
+    "static_current": {
+      "calibration_method": "static"
+    },
+    "zero_w0": {
+      "calibration_method": "zero"
+    },
+    "retention_0p8": {
+      "weight_retention": 0.8
+    },
+    "reset_to_prefix_anchor": {
+      "reset_weights": true
+    },
+    "no_correction": {
+      "trainer_options": {
+        "correction": false
+      }
+    },
+    "fast_promotion": {
+      "trainer_options": {
+        "promotion": "fast"
+      }
+    },
+    "slow_promotion": {
+      "trainer_options": {
+        "promotion": "slow"
+      }
+    },
+    "fixed_omission": {
+      "omission_mode": "fixed"
+    },
+    "actual_contrast_replay": {}
+  },
+  "particles_primary_diagnostics": 256,
+  "confirmation": "Any nondiagnostic variant with meanCRPSgain>=.001overgrowth512 receives512particleconfirmation; no new fit/gateclaim.",
+  "mc1024_first6_by_subject_sha256": [
+    "ibl_witten_11",
+    "CSHL_013",
+    "ZM_3001",
+    "ibl_witten_17",
+    "SWC_041",
+    "SWC_034"
+  ],
+  "mc1024_all40_models": [
+    "dnnglm",
+    "growth"
+  ],
+  "replay": "actual future contrasts only; choices/rewards generated; hidden zero-contrast side drawn by own trainer",
+  "inert_protocol_parameters": "Binary reward actors do not use reward volume or wheel gain; no inert robustness test is claimed.",
+  "external_status": "sealed; no access authorized",
+  "utc": "2026-10-29T00:41:38.744571+00:00"
+}

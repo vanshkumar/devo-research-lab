@@ -1,0 +1,227 @@
+{
+  "finished_utc": "2026-11-03T07:50:55.070356+00:00",
+  "source_comparator_attribution": "six original 2019 functions AST extracted, no lab helper imported",
+  "neurons": 279,
+  "states": 558,
+  "motors": 37,
+  "gap_nonzero": 1122,
+  "synapse_nonzero": 2305,
+  "independent_rhs_source_maxabs": 2.423803380224854e-10,
+  "independent_jac_source_maxabs": 3.410605131648481e-13,
+  "independent_threshold_source_maxabs": 1.8189894035458565e-12,
+  "schema": {
+    "seed0_finite_equilibrium.npz": {
+      "y": {
+        "shape": [
+          558
+        ],
+        "dtype": "float64"
+      },
+      "rhs": {
+        "shape": [
+          558
+        ],
+        "dtype": "float64"
+      },
+      "eigenvalues": {
+        "shape": [
+          558
+        ],
+        "dtype": "complex128"
+      }
+    },
+    "PERIODIC_ORBIT.npz": {
+      "t": {
+        "shape": [
+          4097
+        ],
+        "dtype": "float64"
+      },
+      "y": {
+        "shape": [
+          4097,
+          558
+        ],
+        "dtype": "float64"
+      },
+      "period": {
+        "shape": [],
+        "dtype": "float64"
+      },
+      "section": {
+        "shape": [],
+        "dtype": "float64"
+      }
+    },
+    "MONODROMY_2048.npz": {
+      "matrix": {
+        "shape": [
+          558,
+          558
+        ],
+        "dtype": "float64"
+      },
+      "eigenvalues": {
+        "shape": [
+          558
+        ],
+        "dtype": "complex128"
+      },
+      "eigenvectors": {
+        "shape": [
+          558,
+          558
+        ],
+        "dtype": "complex128"
+      },
+      "phase_index": {
+        "shape": [],
+        "dtype": "int64"
+      },
+      "dominant_index": {
+        "shape": [],
+        "dtype": "int64"
+      }
+    },
+    "SOURCE_REFERENCE.npz": {
+      "t": {
+        "shape": [
+          55
+        ],
+        "dtype": "float64"
+      },
+      "literal": {
+        "shape": [
+          55,
+          558
+        ],
+        "dtype": "float64"
+      },
+      "sparse": {
+        "shape": [
+          55,
+          558
+        ],
+        "dtype": "float64"
+      }
+    },
+    "INPUT_STATES.npz": {
+      "background": {
+        "shape": [
+          279
+        ],
+        "dtype": "float64"
+      },
+      "section": {
+        "shape": [],
+        "dtype": "float64"
+      },
+      "seed0_finite": {
+        "shape": [
+          558
+        ],
+        "dtype": "float64"
+      },
+      "seed0_sham": {
+        "shape": [
+          558
+        ],
+        "dtype": "float64"
+      },
+      "seed1_finite": {
+        "shape": [
+          558
+        ],
+        "dtype": "float64"
+      },
+      "seed1_sham": {
+        "shape": [
+          558
+        ],
+        "dtype": "float64"
+      }
+    },
+    "seed0_finite_challenge.npz": {
+      "t": {
+        "shape": [
+          201
+        ],
+        "dtype": "float64"
+      },
+      "y": {
+        "shape": [
+          201,
+          558
+        ],
+        "dtype": "float64"
+      }
+    },
+    "seed0_sham_continuation.npz": {
+      "t": {
+        "shape": [
+          12901
+        ],
+        "dtype": "float64"
+      },
+      "y": {
+        "shape": [
+          12901,
+          558
+        ],
+        "dtype": "float64"
+      },
+      "event_times": {
+        "shape": [
+          98
+        ],
+        "dtype": "float64"
+      },
+      "event_states": {
+        "shape": [
+          98,
+          558
+        ],
+        "dtype": "float64"
+      }
+    }
+  },
+  "pins": {
+    "lab/tasks/connectome-persistence-contrast-2026-11-03/sources/interactome-initialize.py": {
+      "bytes": 12106,
+      "sha256": "fd045492eed4684e029f3849ae6b57bf20f19d26575510af044742d6a2b4291d",
+      "git_blob_local_bytes": "27bc70d6986e17d00fedf85ffbcaf8cb6b1b7d47"
+    },
+    "lab/tasks/interactome-transient-reachability-2026-11-03/sources/Gg.npy": {
+      "bytes": 622808,
+      "sha256": "01a3c438c8be50dc5fdd8f20d4b48b9063a1bd33e2a0a4af010b8079883d2c10",
+      "git_blob_local_bytes": "07b8ab0aa4471aa19cfae5e662d291493f09819b"
+    },
+    "lab/tasks/interactome-transient-reachability-2026-11-03/sources/Gs.npy": {
+      "bytes": 622808,
+      "sha256": "d4b4cf00c11a9bc79b2b6d581ef471f9237c8f09ddd13ec90c866bf19004b3fd",
+      "git_blob_local_bytes": "0a6e1cc361d9fe377f48cbf48e0557fec65debe8"
+    },
+    "lab/tasks/interactome-transient-reachability-2026-11-03/sources/emask.npy": {
+      "bytes": 359,
+      "sha256": "b19b49efcfd78fa471fecaa70cbe765aa319c2db7165add45475f69a053e74e8",
+      "git_blob_local_bytes": "ae289f5055e5661739b977cee62935d2f3b0be06"
+    },
+    "lab/tasks/interactome-transient-reachability-2026-11-03/sources/FWD.json": {
+      "bytes": 16782,
+      "sha256": "d9e2fb3fec28b196df4b8794668a0ab7825f160b74a8fd4b2b1a55e135d9a748",
+      "git_blob_local_bytes": "f65c06188c5242665a2b7b60eed47aa4441e838c"
+    },
+    "lab/tasks/interactome-transient-reachability-2026-11-03/sources/PLM.json": {
+      "bytes": 16776,
+      "sha256": "85fedc98f99c58caa56cbb7a5681d8bc032061ee3857de6ee1286fd5492d03fd",
+      "git_blob_local_bytes": "cd7f7a5b8792286c9a7610e27dd7175e8b5a4b90"
+    },
+    "lab/tasks/interactome-transient-reachability-2026-11-03/sources/names-response.json": {
+      "bytes": 7240,
+      "sha256": "84bf28e6d0f19423c7463009f90fef2d05587adae8be1193aa81482a1e8d6756",
+      "git_blob_local_bytes": "e495e9bcf35ab5685c9820d92abf165214ba5dff"
+    }
+  },
+  "self_elapsed_s": 0.29611416700000004,
+  "rss_bytes_macos": 150568960
+}

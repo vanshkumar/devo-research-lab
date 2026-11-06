@@ -1,0 +1,480 @@
+{
+  "all_pass": true,
+  "checks": [
+    {
+      "check": "frozen_pilot.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_FROZEN_PROTOCOL.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_DEVELOPMENT_PLAN.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "frozen_DEVELOPMENT_REFINEMENT.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "1800_runs_600_sequences",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "finite_probability_simplex",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all_1800_metric_reconstructions",
+      "pass": true,
+      "detail": {
+        "max_error": 0.0
+      }
+    },
+    {
+      "check": "all_600_learned_weight_reconstructions",
+      "pass": true,
+      "detail": {
+        "max_error": 2.288447209508604e-14
+      }
+    },
+    {
+      "check": "exact_native_source_reconstructions",
+      "pass": true,
+      "detail": [
+        {
+          "name": "native_sim1",
+          "max_probability_error": 0.0,
+          "assignments_exact": true,
+          "source_schema_count": 3,
+          "replica_schema_count": 3
+        },
+        {
+          "name": "matched_no_oracle",
+          "max_probability_error": 0.0,
+          "assignments_exact": true,
+          "source_schema_count": 2,
+          "replica_schema_count": 2
+        },
+        {
+          "name": "native_sim2",
+          "max_probability_error": 0.0,
+          "assignments_exact": true,
+          "source_schema_count": 2,
+          "replica_schema_count": 2
+        },
+        {
+          "name": "known_conditional_vs_pooled_entropy",
+          "conditional_deterministic_weight": 1.0,
+          "within_context_fair_weight": 0.0930348301097458
+        }
+      ]
+    },
+    {
+      "check": "learned_evaluator_noise_context_label_independence",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "future_suffix_does_not_change_past_predictions",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "pre_observation_prediction_uses_no_next_state",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "replay_0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "replay_2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "replay_5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "replay_66",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "replay_89",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "replay_102",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "replay_121",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "replay_604",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "replay_905",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "replay_1207",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "replay_1502",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "replay_1799",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "deterministic_200_oracle_identity_pairs",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "native_development_metrics": {
+    "native_sim1": {
+      "role": "no_oracle",
+      "seed": 11,
+      "family": "original",
+      "curriculum": "blocked",
+      "all_probability": 0.7753088038571658,
+      "signal_probability": 0.862161680780124,
+      "test_signal_probability": 0.873439104191522,
+      "test_signal_nll": 0.46724713615892133,
+      "first_block_signal_probability": 0.9565959338298333,
+      "second_block_signal_probability": 0.7822406239073594,
+      "return_block_signal_probability": 0.9817587934654346,
+      "return_first5_signal_probability": 0.9816529363056903,
+      "first_block_last5_signal_probability": 0.9816236042025428,
+      "test_signal_modal_accuracy": 0.8875,
+      "n_schemas": 3,
+      "signal_w_last40": 1.0,
+      "noise_w_last40": 1.0,
+      "signal_w_40to80": 1.0,
+      "max_probability": 0.9819429613020373,
+      "min_probability": 0.018059962291909946,
+      "test_context_purity": 1.0,
+      "test_noise_error_from_chance": 0.058082380744627904
+    },
+    "native_sim2": {
+      "role": "oracle",
+      "seed": 11,
+      "family": "original",
+      "curriculum": "blocked",
+      "all_probability": 0.8240668572543786,
+      "signal_probability": 0.9693894493323972,
+      "test_signal_probability": 0.9813401780212434,
+      "test_signal_nll": 0.018836115242301405,
+      "first_block_signal_probability": 0.9518642029313653,
+      "second_block_signal_probability": 0.9519087885632345,
+      "return_block_signal_probability": 0.9809371306281898,
+      "return_first5_signal_probability": 0.9804844079104132,
+      "first_block_last5_signal_probability": 0.9803580497471664,
+      "test_signal_modal_accuracy": 1.0,
+      "n_schemas": 2,
+      "signal_w_last40": 1.0,
+      "noise_w_last40": 1.0,
+      "signal_w_40to80": 1.0,
+      "max_probability": 0.9817200244328014,
+      "min_probability": 0.018292013584071516,
+      "test_context_purity": 1.0,
+      "test_noise_error_from_chance": 0.0
+    },
+    "matched_sim2_no_oracle": {
+      "role": "no_oracle",
+      "seed": 11,
+      "family": "original",
+      "curriculum": "blocked",
+      "all_probability": 0.5297228269806609,
+      "signal_probability": 0.5402317634853655,
+      "test_signal_probability": 0.501825691391333,
+      "test_signal_nll": 0.6923546679242134,
+      "first_block_signal_probability": 0.9518642029313653,
+      "second_block_signal_probability": 0.23430832948818803,
+      "return_block_signal_probability": 0.6672432727715778,
+      "return_first5_signal_probability": 0.513399312779524,
+      "first_block_last5_signal_probability": 0.9803580497471664,
+      "test_signal_modal_accuracy": 0.51875,
+      "n_schemas": 2,
+      "signal_w_last40": 1.0,
+      "noise_w_last40": 1.0,
+      "signal_w_40to80": 1.0,
+      "max_probability": 0.9812407637599654,
+      "min_probability": 0.01873972508380412,
+      "test_context_purity": 0.575,
+      "test_noise_error_from_chance": 0.005043077400503249
+    }
+  },
+  "edgewise_learned": [
+    {
+      "family": "original",
+      "curriculum": "blocked",
+      "p_each_step": [
+        0.5008820522619761,
+        0.49317164073747666,
+        0.9808087092461154,
+        0.9812409100178752
+      ],
+      "w_each_step": [
+        1.0,
+        0.11649063134378848,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "family": "original",
+      "curriculum": "interleaved",
+      "p_each_step": [
+        0.500833162888463,
+        0.49599702733137796,
+        0.5132021021178275,
+        0.5095096981650501
+      ],
+      "w_each_step": [
+        0.106133003077995,
+        0.1485329656592344,
+        0.13475739181331287,
+        0.11540559594597766
+      ]
+    },
+    {
+      "family": "original",
+      "curriculum": "early",
+      "p_each_step": [
+        0.5008820522619761,
+        0.49316349042164875,
+        0.9808110366415054,
+        0.9812426462351171
+      ],
+      "w_each_step": [
+        1.0,
+        0.10172790492005727,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "family": "original",
+      "curriculum": "middle",
+      "p_each_step": [
+        0.5008333215250211,
+        0.4977475857802829,
+        0.5147912350804977,
+        0.5095453520322806
+      ],
+      "w_each_step": [
+        0.10613300309749055,
+        0.14592678305896517,
+        0.1327083378356799,
+        0.11555646891004509
+      ]
+    },
+    {
+      "family": "original",
+      "curriculum": "late",
+      "p_each_step": [
+        0.5008334024169515,
+        0.49589611775938813,
+        0.5129831933809095,
+        0.5095018865344283
+      ],
+      "w_each_step": [
+        0.10613300309955928,
+        0.14026022916827346,
+        0.12449218793157087,
+        0.11547636135899983
+      ]
+    },
+    {
+      "family": "relocated",
+      "curriculum": "blocked",
+      "p_each_step": [
+        0.5008820522619761,
+        0.9813377010559702,
+        0.49315641290896534,
+        0.9810697248474316
+      ],
+      "w_each_step": [
+        1.0,
+        1.0,
+        0.11649063134378848,
+        1.0
+      ]
+    },
+    {
+      "family": "relocated",
+      "curriculum": "interleaved",
+      "p_each_step": [
+        0.5008268958470914,
+        0.9815079790064237,
+        0.4959739682346635,
+        0.5007544293226311
+      ],
+      "w_each_step": [
+        0.05896641202194427,
+        1.0,
+        0.13105614492917753,
+        0.11300669045802914
+      ]
+    },
+    {
+      "family": "relocated",
+      "curriculum": "early",
+      "p_each_step": [
+        0.5008820522619761,
+        0.9813377010559702,
+        0.49314804260564993,
+        0.9810716924519
+      ],
+      "w_each_step": [
+        1.0,
+        1.0,
+        0.10172790492005727,
+        1.0
+      ]
+    },
+    {
+      "family": "relocated",
+      "curriculum": "middle",
+      "p_each_step": [
+        0.5008268958470914,
+        0.9815079790064237,
+        0.49772593307113044,
+        0.5024681767347657
+      ],
+      "w_each_step": [
+        0.05896641202194427,
+        1.0,
+        0.12491183923619283,
+        0.11009017924098281
+      ]
+    },
+    {
+      "family": "relocated",
+      "curriculum": "late",
+      "p_each_step": [
+        0.5008268958470914,
+        0.9815079790064237,
+        0.49587230048082526,
+        0.5007227917699618
+      ],
+      "w_each_step": [
+        0.05896641202194427,
+        1.0,
+        0.11813751853334606,
+        0.1016774372457617
+      ]
+    },
+    {
+      "family": "deterministic",
+      "curriculum": "blocked",
+      "p_each_step": [
+        0.5008820522619761,
+        0.9813377010559702,
+        0.9815080282402407,
+        0.981550524860516
+      ],
+      "w_each_step": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "family": "deterministic",
+      "curriculum": "interleaved",
+      "p_each_step": [
+        0.5008268958470914,
+        0.9815079790064237,
+        0.981593092816303,
+        0.5008281881907508
+      ],
+      "w_each_step": [
+        0.05896641202194427,
+        1.0,
+        1.0,
+        0.05896641202194427
+      ]
+    },
+    {
+      "family": "deterministic",
+      "curriculum": "early",
+      "p_each_step": [
+        0.5008820522619761,
+        0.9813377010559702,
+        0.9815080282402407,
+        0.981550524860516
+      ],
+      "w_each_step": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "family": "deterministic",
+      "curriculum": "middle",
+      "p_each_step": [
+        0.5008268958470914,
+        0.9815079790064237,
+        0.981593092816303,
+        0.5008281881907508
+      ],
+      "w_each_step": [
+        0.05896641202194427,
+        1.0,
+        1.0,
+        0.05896641202194427
+      ]
+    },
+    {
+      "family": "deterministic",
+      "curriculum": "late",
+      "p_each_step": [
+        0.5008268958470914,
+        0.9815079790064237,
+        0.981593092816303,
+        0.5008281881907508
+      ],
+      "w_each_step": [
+        0.05896641202194427,
+        1.0,
+        1.0,
+        0.05896641202194427
+      ]
+    }
+  ],
+  "runtime_seconds": 39.8146736669587,
+  "max_rss_bytes_macos": 134234112,
+  "independence_scope": "Separate mathematical/scoring implementation within same investigator; no independent scientist review."
+}

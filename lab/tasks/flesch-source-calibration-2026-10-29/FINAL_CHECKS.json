@@ -1,0 +1,53 @@
+{
+  "passed": 17,
+  "checks": [
+    "pre-response frozen bytes sources/flesch_source_calibration_2026-10-29/masked_mat.py",
+    "pre-response frozen bytes sources/flesch_source_calibration_2026-10-29/READER_SYNTHETIC.json",
+    "pre-response frozen bytes sources/flesch_source_calibration_2026-10-29/input_masks.py",
+    "pre-response frozen bytes sources/flesch_source_calibration_2026-10-29/check_timeout.js",
+    "pre-response frozen bytes sources/flesch_source_calibration_2026-10-29/TIMEOUT_SYNTHETIC.json",
+    "pre-response frozen bytes sources/flesch_source_calibration_2026-10-29/inputs_only.npz",
+    "pre-response frozen bytes sources/flesch_source_calibration_2026-10-29/extract_source.py",
+    "pre-response frozen bytes lab/tasks/flesch-source-calibration-2026-10-29/DESIGN.md",
+    "pre-response frozen bytes lab/tasks/flesch-source-calibration-2026-10-29/PI_PROTOCOL.md",
+    "pre-response frozen bytes lab/tasks/flesch-source-calibration-2026-10-29/PI_TIMEOUT_AMENDMENT.md",
+    "pre-response frozen bytes lab/tasks/flesch-source-calibration-2026-10-29/MASKS.json",
+    "saved three-point fit objective replay sgd_oja",
+    "saved three-point fit objective replay context_value",
+    "saved three-point fit objective replay exposure_growth",
+    "stable extreme-logit likelihood",
+    "structural zero timing gives negative infinity",
+    "failure offsets reconstructed without numeric payload conversion"
+  ],
+  "objective_replays": {
+    "sgd_oja": {
+      "saved": 20789.61374721876,
+      "replayed": 20789.613747218755,
+      "difference": -3.637978807091713e-12,
+      "calls": 600
+    },
+    "context_value": {
+      "saved": 18230.32051460762,
+      "replayed": 18230.32051460762,
+      "difference": 0.0,
+      "calls": 462
+    },
+    "exposure_growth": {
+      "saved": 18415.052900802948,
+      "replayed": 18415.052900802955,
+      "difference": 7.275957614183426e-12,
+      "calls": 477
+    }
+  },
+  "partial_reader_accounting": {
+    "first_type_failure_inflated_bytes": 600,
+    "first_type_failure_occurrences": 2,
+    "exemplar_class_failure_inflated_bytes": 1268296,
+    "metadata_only_reconstruction_inflated_bytes": 1268296,
+    "partial_attempt_numeric_input_values_decoded": 950400,
+    "partial_attempt_response_payload_bytes_inflated": 0,
+    "reconstruction_numeric_values_decoded": 0
+  },
+  "max_rss_bytes": 181616640,
+  "target_responses": 0
+}

@@ -1,0 +1,1328 @@
+{
+  "summary": [
+    {
+      "family": "original",
+      "curriculum": "blocked",
+      "roles": {
+        "no_oracle": {
+          "all_probability": 0.5290649840078163,
+          "signal_probability": 0.5397963160788477,
+          "test_signal_probability": 0.4972569496232187,
+          "test_signal_nll": 0.7073346631507249,
+          "first_block_signal_probability": 0.9518651415806791,
+          "second_block_signal_probability": 0.22399531554646496,
+          "return_block_signal_probability": 0.6690562566290964,
+          "return_first5_signal_probability": 0.5253092594689076,
+          "first_block_last5_signal_probability": 0.9803190430351773,
+          "test_signal_modal_accuracy": 0.4925,
+          "n_schemas": 2.0,
+          "signal_w_last40": 1.0,
+          "noise_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9812407637599657,
+          "min_probability": 0.01873972508380412,
+          "test_context_purity": 0.5675000000000001,
+          "test_noise_error_from_chance": 0.01147201745707907,
+          "test_signal_probability_ci": [
+            0.4934820930980306,
+            0.5009605430991048
+          ]
+        },
+        "oracle": {
+          "all_probability": 0.7965301403904145,
+          "signal_probability": 0.9285945502236979,
+          "test_signal_probability": 0.9313495026439226,
+          "test_signal_nll": 0.09157699664841609,
+          "first_block_signal_probability": 0.9518651415806791,
+          "second_block_signal_probability": 0.8901287745878008,
+          "return_block_signal_probability": 0.9493676909595404,
+          "return_first5_signal_probability": 0.9329790928280659,
+          "first_block_last5_signal_probability": 0.9803190430351773,
+          "test_signal_modal_accuracy": 0.936875,
+          "n_schemas": 2.0,
+          "signal_w_last40": 1.0,
+          "noise_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9817174613127737,
+          "min_probability": 0.01828446704062818,
+          "test_context_purity": 0.9550000000000001,
+          "test_noise_error_from_chance": 0.0,
+          "test_signal_probability_ci": [
+            0.8833293045489389,
+            0.9703365319355153
+          ]
+        },
+        "learned": {
+          "all_probability": 0.7433470754349345,
+          "signal_probability": 0.9666801722910592,
+          "test_signal_probability": 0.9810248096319955,
+          "test_signal_nll": 0.019157559302538357,
+          "first_block_signal_probability": 0.9502205555201011,
+          "second_block_signal_probability": 0.9412425819424077,
+          "return_block_signal_probability": 0.9804646285316048,
+          "return_first5_signal_probability": 0.9798748304797659,
+          "first_block_last5_signal_probability": 0.9799919670329651,
+          "test_signal_modal_accuracy": 1.0,
+          "n_schemas": 2.0,
+          "signal_w_last40": 1.0,
+          "noise_w_last40": 0.11649063134378848,
+          "signal_w_40to80": 0.9999964547669734,
+          "max_probability": 0.9813813006419656,
+          "min_probability": 0.019512700152089335,
+          "test_context_purity": 1.0,
+          "test_noise_error_from_chance": 0.011420609463242946,
+          "test_signal_probability_ci": [
+            0.9810178010722024,
+            0.9810311944711707
+          ]
+        }
+      },
+      "learned_gain": 0.4837678600087768,
+      "learned_gain_ci": [
+        0.4800696951855393,
+        0.48753753597507804
+      ],
+      "learned_minus_oracle": 0.04967530698807281,
+      "learned_minus_oracle_ci": [
+        0.01068857810936426,
+        0.09769235719806102
+      ]
+    },
+    {
+      "family": "original",
+      "curriculum": "interleaved",
+      "roles": {
+        "no_oracle": {
+          "all_probability": 0.4904851615373878,
+          "signal_probability": 0.48872310281728143,
+          "test_signal_probability": 0.4986472966561166,
+          "test_signal_nll": 0.7072445188174444,
+          "first_block_signal_probability": 0.46123275493438987,
+          "second_block_signal_probability": 0.49070480092159857,
+          "return_block_signal_probability": 0.49885233224032677,
+          "return_first5_signal_probability": 0.5041735810042405,
+          "first_block_last5_signal_probability": 0.48738960818408483,
+          "test_signal_modal_accuracy": 0.49468749999999995,
+          "n_schemas": 1.0,
+          "signal_w_last40": 1.0,
+          "noise_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9030733793297028,
+          "min_probability": 0.04061403751049573,
+          "test_context_purity": 0.5675000000000001,
+          "test_noise_error_from_chance": 0.01312536530485699,
+          "test_signal_probability_ci": [
+            0.49429233045910664,
+            0.5032080976743095
+          ]
+        },
+        "oracle": {
+          "all_probability": 0.535035912200042,
+          "signal_probability": 0.6569155329778604,
+          "test_signal_probability": 0.6790701221328114,
+          "test_signal_nll": 0.5514736855866392,
+          "first_block_signal_probability": 0.6193115700959941,
+          "second_block_signal_probability": 0.6576551609930523,
+          "return_block_signal_probability": 0.6591274045145823,
+          "return_first5_signal_probability": 0.6687033149291672,
+          "first_block_last5_signal_probability": 0.619911382597641,
+          "test_signal_modal_accuracy": 0.68375,
+          "n_schemas": 2.0,
+          "signal_w_last40": 1.0,
+          "noise_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9648367265139329,
+          "min_probability": 0.026476475463942644,
+          "test_context_purity": 0.7625,
+          "test_noise_error_from_chance": 0.0,
+          "test_signal_probability_ci": [
+            0.5835882946859596,
+            0.7772067004500542
+          ]
+        },
+        "learned": {
+          "all_probability": 0.49597015116818205,
+          "signal_probability": 0.4993592161184045,
+          "test_signal_probability": 0.511355900141439,
+          "test_signal_nll": 0.688515618592299,
+          "first_block_signal_probability": 0.4699145661549431,
+          "second_block_signal_probability": 0.5006236642604485,
+          "return_block_signal_probability": 0.5084770061895347,
+          "return_first5_signal_probability": 0.5154863226130031,
+          "first_block_last5_signal_probability": 0.5036392635415013,
+          "test_signal_modal_accuracy": 0.5084375,
+          "n_schemas": 1.05,
+          "signal_w_last40": 0.12508149387964526,
+          "noise_w_last40": 0.14853296565923438,
+          "signal_w_40to80": 0.1741334043520357,
+          "max_probability": 0.893629777776542,
+          "min_probability": 0.0533548082927766,
+          "test_context_purity": 0.57875,
+          "test_noise_error_from_chance": 0.01307621029116277,
+          "test_signal_probability_ci": [
+            0.4957481863096531,
+            0.538054234304069
+          ]
+        }
+      },
+      "learned_gain": 0.012708603485322174,
+      "learned_gain_ci": [
+        -3.2675453685294255e-06,
+        0.03812116511091647
+      ],
+      "learned_minus_oracle": -0.16771422199137254,
+      "learned_minus_oracle_ci": [
+        -0.26394059941325204,
+        -0.0795734240292649
+      ]
+    },
+    {
+      "family": "original",
+      "curriculum": "early",
+      "roles": {
+        "no_oracle": {
+          "all_probability": 0.5231508681513354,
+          "signal_probability": 0.532359143282856,
+          "test_signal_probability": 0.49726911000159346,
+          "test_signal_nll": 0.7052848362153883,
+          "first_block_signal_probability": 0.9518651415806791,
+          "second_block_signal_probability": 0.22399531554646496,
+          "return_block_signal_probability": 0.4968952493655176,
+          "return_first5_signal_probability": 0.5016857944165194,
+          "first_block_last5_signal_probability": 0.9803190430351773,
+          "test_signal_modal_accuracy": 0.48218750000000005,
+          "n_schemas": 2.0,
+          "signal_w_last40": 1.0,
+          "noise_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9812407637599657,
+          "min_probability": 0.01873972508380412,
+          "test_context_purity": 0.5675000000000001,
+          "test_noise_error_from_chance": 0.010279945094727868,
+          "test_signal_probability_ci": [
+            0.49374591100968795,
+            0.5009945663105816
+          ]
+        },
+        "oracle": {
+          "all_probability": 0.7116766896827753,
+          "signal_probability": 0.9281313591174973,
+          "test_signal_probability": 0.9331187131219197,
+          "test_signal_nll": 0.08736752726368768,
+          "first_block_signal_probability": 0.9518651415806791,
+          "second_block_signal_probability": 0.8901287745878008,
+          "return_block_signal_probability": 0.9340586778078925,
+          "return_first5_signal_probability": 0.9296158510286572,
+          "first_block_last5_signal_probability": 0.9803190430351773,
+          "test_signal_modal_accuracy": 0.945,
+          "n_schemas": 2.0,
+          "signal_w_last40": 1.0,
+          "noise_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9817174613127737,
+          "min_probability": 0.01828446704062818,
+          "test_context_purity": 0.9550000000000001,
+          "test_noise_error_from_chance": 0.0,
+          "test_signal_probability_ci": [
+            0.8871023223909189,
+            0.9710252064661274
+          ]
+        },
+        "learned": {
+          "all_probability": 0.7405913188388674,
+          "signal_probability": 0.96667708673764,
+          "test_signal_probability": 0.9810268414383112,
+          "test_signal_nll": 0.019155487088297046,
+          "first_block_signal_probability": 0.9502205555201011,
+          "second_block_signal_probability": 0.9412425819424077,
+          "return_block_signal_probability": 0.9801761799692794,
+          "return_first5_signal_probability": 0.9798158808475833,
+          "first_block_last5_signal_probability": 0.9799919670329651,
+          "test_signal_modal_accuracy": 1.0,
+          "n_schemas": 2.0,
+          "signal_w_last40": 1.0,
+          "noise_w_last40": 0.10172790492005727,
+          "signal_w_40to80": 0.9999964547669734,
+          "max_probability": 0.9813741983084251,
+          "min_probability": 0.019512700152089335,
+          "test_context_purity": 1.0,
+          "test_noise_error_from_chance": 0.010232289520484581,
+          "test_signal_probability_ci": [
+            0.9810221685577172,
+            0.9810315464338489
+          ]
+        }
+      },
+      "learned_gain": 0.4837577314367179,
+      "learned_gain_ci": [
+        0.4800371491304395,
+        0.48727630208423256
+      ],
+      "learned_minus_oracle": 0.047908128316391616,
+      "learned_minus_oracle_ci": [
+        0.009999483909342305,
+        0.09392646188017852
+      ]
+    },
+    {
+      "family": "original",
+      "curriculum": "middle",
+      "roles": {
+        "no_oracle": {
+          "all_probability": 0.5004638641442254,
+          "signal_probability": 0.5019625426720156,
+          "test_signal_probability": 0.49953120189236583,
+          "test_signal_nll": 0.7043721618616117,
+          "first_block_signal_probability": 0.46123275493438987,
+          "second_block_signal_probability": 0.743231203895787,
+          "return_block_signal_probability": 0.3113001381761513,
+          "return_first5_signal_probability": 0.13988748887923935,
+          "first_block_last5_signal_probability": 0.48738960818408483,
+          "test_signal_modal_accuracy": 0.4996875,
+          "n_schemas": 1.0,
+          "signal_w_last40": 1.0,
+          "noise_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9372339771640588,
+          "min_probability": 0.04061403751049573,
+          "test_context_purity": 0.5675000000000001,
+          "test_noise_error_from_chance": 0.011435416541758517,
+          "test_signal_probability_ci": [
+            0.4955193086316703,
+            0.5038282170697506
+          ]
+        },
+        "oracle": {
+          "all_probability": 0.5830601985433062,
+          "signal_probability": 0.6641910405497935,
+          "test_signal_probability": 0.6792917886046708,
+          "test_signal_nll": 0.5495652192053005,
+          "first_block_signal_probability": 0.6193115700959941,
+          "second_block_signal_probability": 0.7982608448792022,
+          "return_block_signal_probability": 0.5556737890828842,
+          "return_first5_signal_probability": 0.4702116958136104,
+          "first_block_last5_signal_probability": 0.619911382597641,
+          "test_signal_modal_accuracy": 0.6834374999999999,
+          "n_schemas": 2.0,
+          "signal_w_last40": 1.0,
+          "noise_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9648367265139329,
+          "min_probability": 0.026476475463942644,
+          "test_context_purity": 0.7625,
+          "test_noise_error_from_chance": 0.0,
+          "test_signal_probability_ci": [
+            0.5839757797169265,
+            0.7770544741931767
+          ]
+        },
+        "learned": {
+          "all_probability": 0.5058600124787636,
+          "signal_probability": 0.5124699132368715,
+          "test_signal_probability": 0.5121682935563892,
+          "test_signal_nll": 0.6860384566709112,
+          "first_block_signal_probability": 0.4699145661549431,
+          "second_block_signal_probability": 0.7453853394786003,
+          "return_block_signal_probability": 0.3281310790739841,
+          "return_first5_signal_probability": 0.16075727420794145,
+          "first_block_last5_signal_probability": 0.5036392635415013,
+          "test_signal_modal_accuracy": 0.5134375,
+          "n_schemas": 1.05,
+          "signal_w_last40": 0.12413240337286251,
+          "noise_w_last40": 0.14592678305896517,
+          "signal_w_40to80": 0.4961488058787921,
+          "max_probability": 0.9291198968389531,
+          "min_probability": 0.053000283911852186,
+          "test_context_purity": 0.57875,
+          "test_noise_error_from_chance": 0.011389346789421903,
+          "test_signal_probability_ci": [
+            0.4968248403988887,
+            0.5385999898550187
+          ]
+        }
+      },
+      "learned_gain": 0.012637091664023303,
+      "learned_gain_ci": [
+        -4.7017740803109725e-06,
+        0.03791004288301593
+      ],
+      "learned_minus_oracle": -0.16712349504828158,
+      "learned_minus_oracle_ci": [
+        -0.263077754169047,
+        -0.07874601847681595
+      ]
+    },
+    {
+      "family": "original",
+      "curriculum": "late",
+      "roles": {
+        "no_oracle": {
+          "all_probability": 0.4950807369701976,
+          "signal_probability": 0.49495707889400187,
+          "test_signal_probability": 0.49863986540133204,
+          "test_signal_nll": 0.7054642943360436,
+          "first_block_signal_probability": 0.46123275493438987,
+          "second_block_signal_probability": 0.49070480092159857,
+          "return_block_signal_probability": 0.6682359655442115,
+          "return_first5_signal_probability": 0.5290873211925692,
+          "first_block_last5_signal_probability": 0.48738960818408483,
+          "test_signal_modal_accuracy": 0.49968749999999995,
+          "n_schemas": 1.0,
+          "signal_w_last40": 1.0,
+          "noise_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9195941825990932,
+          "min_probability": 0.04061403751049573,
+          "test_context_purity": 0.5675000000000001,
+          "test_noise_error_from_chance": 0.013399267932668638,
+          "test_signal_probability_ci": [
+            0.494118674552836,
+            0.503076534732438
+          ]
+        },
+        "oracle": {
+          "all_probability": 0.5798534077580351,
+          "signal_probability": 0.659966885553015,
+          "test_signal_probability": 0.6795405303753691,
+          "test_signal_nll": 0.5477414306179339,
+          "first_block_signal_probability": 0.6193115700959941,
+          "second_block_signal_probability": 0.6576551609930523,
+          "return_block_signal_probability": 0.7520796265625171,
+          "return_first5_signal_probability": 0.6876816087613755,
+          "first_block_last5_signal_probability": 0.619911382597641,
+          "test_signal_modal_accuracy": 0.689375,
+          "n_schemas": 2.0,
+          "signal_w_last40": 1.0,
+          "noise_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9648367265139329,
+          "min_probability": 0.026476475463942644,
+          "test_context_purity": 0.7625,
+          "test_noise_error_from_chance": 0.0,
+          "test_signal_probability_ci": [
+            0.5839937671243971,
+            0.7774088509729796
+          ]
+        },
+        "learned": {
+          "all_probability": 0.5006146925544319,
+          "signal_probability": 0.5056899060065791,
+          "test_signal_probability": 0.511242539957669,
+          "test_signal_nll": 0.6872755229711889,
+          "first_block_signal_probability": 0.4699145661549431,
+          "second_block_signal_probability": 0.5006236642604485,
+          "return_block_signal_probability": 0.6720114084074946,
+          "return_first5_signal_probability": 0.535759195308825,
+          "first_block_last5_signal_probability": 0.5036392635415013,
+          "test_signal_modal_accuracy": 0.5143749999999999,
+          "n_schemas": 1.05,
+          "signal_w_last40": 0.11998427464528535,
+          "noise_w_last40": 0.14026022916827346,
+          "signal_w_40to80": 0.1741334043520357,
+          "max_probability": 0.9108551942497198,
+          "min_probability": 0.0533548082927766,
+          "test_context_purity": 0.57875,
+          "test_noise_error_from_chance": 0.013348894990759483,
+          "test_signal_probability_ci": [
+            0.49555187301544795,
+            0.5380544657776354
+          ]
+        }
+      },
+      "learned_gain": 0.01260267455633697,
+      "learned_gain_ci": [
+        -3.643726578243592e-06,
+        0.0378039970941665
+      ],
+      "learned_minus_oracle": -0.16829799041770022,
+      "learned_minus_oracle_ci": [
+        -0.2648684473587743,
+        -0.07984405976508151
+      ]
+    },
+    {
+      "family": "relocated",
+      "curriculum": "blocked",
+      "roles": {
+        "no_oracle": {
+          "all_probability": 0.6380020801373109,
+          "signal_probability": 0.7576705083378367,
+          "test_signal_probability": 0.7398005975176418,
+          "test_signal_nll": 0.36267414955577315,
+          "first_block_signal_probability": 0.9591329041802288,
+          "second_block_signal_probability": 0.5954938126684051,
+          "return_block_signal_probability": 0.8237025598393138,
+          "return_first5_signal_probability": 0.7509228758105827,
+          "first_block_last5_signal_probability": 0.9807581847394925,
+          "test_signal_modal_accuracy": 0.7478125,
+          "n_schemas": 2.0,
+          "signal_w_last40": 1.0,
+          "noise_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9817189826983433,
+          "min_probability": 0.01873972508380412,
+          "test_context_purity": 0.5675000000000001,
+          "test_noise_error_from_chance": 0.01147201745707907,
+          "test_signal_probability_ci": [
+            0.7374563478970338,
+            0.742076493061572
+          ]
+        },
+        "oracle": {
+          "all_probability": 0.5933659434145049,
+          "signal_probability": 0.6309917690370649,
+          "test_signal_probability": 0.6146249425166196,
+          "test_signal_nll": 0.7485857451769673,
+          "first_block_signal_probability": 0.9591329041802288,
+          "second_block_signal_probability": 0.33167026336201294,
+          "return_block_signal_probability": 0.8730126932046692,
+          "return_first5_signal_probability": 0.8148242120157825,
+          "first_block_last5_signal_probability": 0.9807581847394925,
+          "test_signal_modal_accuracy": 0.623125,
+          "n_schemas": 2.0,
+          "signal_w_last40": 1.0,
+          "noise_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.981714094337654,
+          "min_probability": 0.018286540258730284,
+          "test_context_purity": 0.685,
+          "test_noise_error_from_chance": 0.0,
+          "test_signal_probability_ci": [
+            0.5971191546484902,
+            0.6325566198062984
+          ]
+        },
+        "learned": {
+          "all_probability": 0.7449106877082146,
+          "signal_probability": 0.9698179063520161,
+          "test_signal_probability": 0.9812037129517008,
+          "test_signal_nll": 0.018975194907430628,
+          "first_block_signal_probability": 0.95734226041028,
+          "second_block_signal_probability": 0.9490613408958207,
+          "return_block_signal_probability": 0.9807458095447746,
+          "return_first5_signal_probability": 0.9802683423238155,
+          "first_block_last5_signal_probability": 0.9804393167216185,
+          "test_signal_modal_accuracy": 1.0,
+          "n_schemas": 2.0,
+          "signal_w_last40": 1.0,
+          "noise_w_last40": 0.11649063134378848,
+          "signal_w_40to80": 0.9734151840946088,
+          "max_probability": 0.9814202110328457,
+          "min_probability": 0.019512700152089335,
+          "test_context_purity": 1.0,
+          "test_noise_error_from_chance": 0.011446196093519828,
+          "test_signal_probability_ci": [
+            0.9811999722273893,
+            0.9812072484619476
+          ]
+        }
+      },
+      "learned_gain": 0.24140311543405915,
+      "learned_gain_ci": [
+        0.2391304884149107,
+        0.2437447123276794
+      ],
+      "learned_minus_oracle": 0.36657877043508125,
+      "learned_minus_oracle_ci": [
+        0.3486456660430035,
+        0.384086774093649
+      ]
+    },
+    {
+      "family": "relocated",
+      "curriculum": "interleaved",
+      "roles": {
+        "no_oracle": {
+          "all_probability": 0.6128856917547781,
+          "signal_probability": 0.7335241632520624,
+          "test_signal_probability": 0.7412160115589195,
+          "test_signal_nll": 0.3625476278076292,
+          "first_block_signal_probability": 0.7118252531949621,
+          "second_block_signal_probability": 0.7364795978989339,
+          "return_block_signal_probability": 0.7381803365541049,
+          "return_first5_signal_probability": 0.7442546615294987,
+          "first_block_last5_signal_probability": 0.7421409550623255,
+          "test_signal_modal_accuracy": 0.75,
+          "n_schemas": 1.0,
+          "signal_w_last40": 1.0,
+          "noise_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9817189826983433,
+          "min_probability": 0.04061403751049573,
+          "test_context_purity": 0.5675000000000001,
+          "test_noise_error_from_chance": 0.01312536530485699,
+          "test_signal_probability_ci": [
+            0.7383124068990187,
+            0.7441771765400865
+          ]
+        },
+        "oracle": {
+          "all_probability": 0.6141900473781783,
+          "signal_probability": 0.7335241632520624,
+          "test_signal_probability": 0.7412160115589195,
+          "test_signal_nll": 0.3625476278076292,
+          "first_block_signal_probability": 0.7118252531949621,
+          "second_block_signal_probability": 0.7364795978989339,
+          "return_block_signal_probability": 0.7381803365541049,
+          "return_first5_signal_probability": 0.7442546615294987,
+          "first_block_last5_signal_probability": 0.7421409550623255,
+          "test_signal_modal_accuracy": 0.75,
+          "n_schemas": 2.0,
+          "signal_w_last40": 1.0,
+          "noise_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9817189826983433,
+          "min_probability": 0.03421886322961464,
+          "test_context_purity": 0.5675000000000001,
+          "test_noise_error_from_chance": 0.0,
+          "test_signal_probability_ci": [
+            0.7383124068990187,
+            0.7441771765400865
+          ]
+        },
+        "learned": {
+          "all_probability": 0.6128914648347272,
+          "signal_probability": 0.7332343467351883,
+          "test_signal_probability": 0.7411312041645275,
+          "test_signal_nll": 0.36261578158012997,
+          "first_block_signal_probability": 0.7109689558497971,
+          "second_block_signal_probability": 0.7362276311100283,
+          "return_block_signal_probability": 0.7380317792658232,
+          "return_first5_signal_probability": 0.7440610748431455,
+          "first_block_last5_signal_probability": 0.7417208425161451,
+          "test_signal_modal_accuracy": 0.75,
+          "n_schemas": 1.0,
+          "signal_w_last40": 0.5565033452290146,
+          "noise_w_last40": 0.13105614492917753,
+          "signal_w_40to80": 0.5853871076918782,
+          "max_probability": 0.9815659527719225,
+          "min_probability": 0.04948114912771713,
+          "test_context_purity": 0.5675000000000001,
+          "test_noise_error_from_chance": 0.01311021964759273,
+          "test_signal_probability_ci": [
+            0.7382309855384533,
+            0.7440887352455114
+          ]
+        }
+      },
+      "learned_gain": -8.480739439195028e-05,
+      "learned_gain_ci": [
+        -8.808662888177929e-05,
+        -8.161999943547007e-05
+      ],
+      "learned_minus_oracle": -8.480739439195028e-05,
+      "learned_minus_oracle_ci": [
+        -8.808662888177929e-05,
+        -8.161999943547007e-05
+      ]
+    },
+    {
+      "family": "relocated",
+      "curriculum": "early",
+      "roles": {
+        "no_oracle": {
+          "all_probability": 0.6337904202151924,
+          "signal_probability": 0.7536382474105697,
+          "test_signal_probability": 0.7398059474735431,
+          "test_signal_nll": 0.36066671440524356,
+          "first_block_signal_probability": 0.9591329041802288,
+          "second_block_signal_probability": 0.5954938126684051,
+          "return_block_signal_probability": 0.7362457980886349,
+          "return_first5_signal_probability": 0.7418384484283035,
+          "first_block_last5_signal_probability": 0.9807581847394925,
+          "test_signal_modal_accuracy": 0.7375,
+          "n_schemas": 2.0,
+          "signal_w_last40": 1.0,
+          "noise_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9817189826983433,
+          "min_probability": 0.01873972508380412,
+          "test_context_purity": 0.5675000000000001,
+          "test_noise_error_from_chance": 0.010279945094727868,
+          "test_signal_probability_ci": [
+            0.7378397261503484,
+            0.741811649489002
+          ]
+        },
+        "oracle": {
+          "all_probability": 0.5604690411042929,
+          "signal_probability": 0.6269403627547615,
+          "test_signal_probability": 0.6146541112368956,
+          "test_signal_nll": 0.7470432154759653,
+          "first_block_signal_probability": 0.9591329041802288,
+          "second_block_signal_probability": 0.33167026336201294,
+          "return_block_signal_probability": 0.6156853793769412,
+          "return_first5_signal_probability": 0.6590204038180484,
+          "first_block_last5_signal_probability": 0.9807581847394925,
+          "test_signal_modal_accuracy": 0.619375,
+          "n_schemas": 2.0,
+          "signal_w_last40": 1.0,
+          "noise_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.981714094337654,
+          "min_probability": 0.018286540258730284,
+          "test_context_purity": 0.685,
+          "test_noise_error_from_chance": 0.0,
+          "test_signal_probability_ci": [
+            0.5973900233505609,
+            0.6323178190470415
+          ]
+        },
+        "learned": {
+          "all_probability": 0.7421542169223029,
+          "signal_probability": 0.9698151710335537,
+          "test_signal_probability": 0.9812046967539351,
+          "test_signal_nll": 0.018974191638494335,
+          "first_block_signal_probability": 0.95734226041028,
+          "second_block_signal_probability": 0.9490613408958207,
+          "return_block_signal_probability": 0.9805116299355706,
+          "return_first5_signal_probability": 0.9802144672852698,
+          "first_block_last5_signal_probability": 0.9804393167216185,
+          "test_signal_modal_accuracy": 1.0,
+          "n_schemas": 2.0,
+          "signal_w_last40": 1.0,
+          "noise_w_last40": 0.10172790492005727,
+          "signal_w_40to80": 0.9734151840946088,
+          "max_probability": 0.9814202110328457,
+          "min_probability": 0.019512700152089335,
+          "test_context_purity": 1.0,
+          "test_noise_error_from_chance": 0.010256005301964776,
+          "test_signal_probability_ci": [
+            0.9812019755928697,
+            0.9812075273157166
+          ]
+        }
+      },
+      "learned_gain": 0.241398749280392,
+      "learned_gain_ci": [
+        0.2393952788871605,
+        0.24336316083603865
+      ],
+      "learned_minus_oracle": 0.36655058551703945,
+      "learned_minus_oracle_ci": [
+        0.34888672476330285,
+        0.3838140070131877
+      ]
+    },
+    {
+      "family": "relocated",
+      "curriculum": "middle",
+      "roles": {
+        "no_oracle": {
+          "all_probability": 0.6193885426416059,
+          "signal_probability": 0.7398118996667763,
+          "test_signal_probability": 0.7420738417388762,
+          "test_signal_nll": 0.35972426084084336,
+          "first_block_signal_probability": 0.7118252531949621,
+          "second_block_signal_probability": 0.860342059722214,
+          "return_block_signal_probability": 0.6445554415671798,
+          "return_first5_signal_probability": 0.5595495885991222,
+          "first_block_last5_signal_probability": 0.7421409550623255,
+          "test_signal_modal_accuracy": 0.7549999999999999,
+          "n_schemas": 1.0,
+          "signal_w_last40": 1.0,
+          "noise_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9817189826983433,
+          "min_probability": 0.04061403751049573,
+          "test_context_purity": 0.5675000000000001,
+          "test_noise_error_from_chance": 0.011435416541758517,
+          "test_signal_probability_ci": [
+            0.7394740112773616,
+            0.7450552078820553
+          ]
+        },
+        "oracle": {
+          "all_probability": 0.6212652182902513,
+          "signal_probability": 0.7398118996667763,
+          "test_signal_probability": 0.7420738417388762,
+          "test_signal_nll": 0.35972426084084336,
+          "first_block_signal_probability": 0.7118252531949621,
+          "second_block_signal_probability": 0.860342059722214,
+          "return_block_signal_probability": 0.6445554415671798,
+          "return_first5_signal_probability": 0.5595495885991222,
+          "first_block_last5_signal_probability": 0.7421409550623255,
+          "test_signal_modal_accuracy": 0.7549999999999999,
+          "n_schemas": 2.0,
+          "signal_w_last40": 1.0,
+          "noise_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9817189826983433,
+          "min_probability": 0.03421886322961464,
+          "test_context_purity": 0.5675000000000001,
+          "test_noise_error_from_chance": 0.0,
+          "test_signal_probability_ci": [
+            0.7394740112773616,
+            0.7450552078820553
+          ]
+        },
+        "learned": {
+          "all_probability": 0.6193599860840723,
+          "signal_probability": 0.7395169540094901,
+          "test_signal_probability": 0.7419880778705947,
+          "test_signal_nll": 0.3597970038226056,
+          "first_block_signal_probability": 0.7109689558497971,
+          "second_block_signal_probability": 0.8598916695244997,
+          "return_block_signal_probability": 0.6445811899738317,
+          "return_first5_signal_probability": 0.559695832076051,
+          "first_block_last5_signal_probability": 0.7417208425161451,
+          "test_signal_modal_accuracy": 0.7549999999999999,
+          "n_schemas": 1.0,
+          "signal_w_last40": 0.5550450896204914,
+          "noise_w_last40": 0.12491183923619284,
+          "signal_w_40to80": 0.7460372949327078,
+          "max_probability": 0.9815659527719225,
+          "min_probability": 0.04946975281733947,
+          "test_context_purity": 0.5675000000000001,
+          "test_noise_error_from_chance": 0.011422025558711644,
+          "test_signal_probability_ci": [
+            0.7393911390749079,
+            0.744965819904189
+          ]
+        }
+      },
+      "learned_gain": -8.576386828147986e-05,
+      "learned_gain_ci": [
+        -8.896358015314258e-05,
+        -8.293599569544132e-05
+      ],
+      "learned_minus_oracle": -8.576386828147986e-05,
+      "learned_minus_oracle_ci": [
+        -8.896358015314258e-05,
+        -8.293599569544132e-05
+      ]
+    },
+    {
+      "family": "relocated",
+      "curriculum": "late",
+      "roles": {
+        "no_oracle": {
+          "all_probability": 0.6157679456160813,
+          "signal_probability": 0.7363314961857694,
+          "test_signal_probability": 0.7412005054702191,
+          "test_signal_nll": 0.3608044686144612,
+          "first_block_signal_probability": 0.7118252531949621,
+          "second_block_signal_probability": 0.7364795978989339,
+          "return_block_signal_probability": 0.8225893349696587,
+          "return_first5_signal_probability": 0.7547045734360158,
+          "first_block_last5_signal_probability": 0.7421409550623255,
+          "test_signal_modal_accuracy": 0.7550000000000001,
+          "n_schemas": 1.0,
+          "signal_w_last40": 1.0,
+          "noise_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9817189826983433,
+          "min_probability": 0.04061403751049573,
+          "test_context_purity": 0.5675000000000001,
+          "test_noise_error_from_chance": 0.013399267932668638,
+          "test_signal_probability_ci": [
+            0.7381377967182302,
+            0.7441057774985579
+          ]
+        },
+        "oracle": {
+          "all_probability": 0.617485937587533,
+          "signal_probability": 0.7363314961857694,
+          "test_signal_probability": 0.7412005054702191,
+          "test_signal_nll": 0.3608044686144612,
+          "first_block_signal_probability": 0.7118252531949621,
+          "second_block_signal_probability": 0.7364795978989339,
+          "return_block_signal_probability": 0.8225893349696587,
+          "return_first5_signal_probability": 0.7547045734360158,
+          "first_block_last5_signal_probability": 0.7421409550623255,
+          "test_signal_modal_accuracy": 0.7550000000000001,
+          "n_schemas": 2.0,
+          "signal_w_last40": 1.0,
+          "noise_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9817189826983433,
+          "min_probability": 0.03421886322961464,
+          "test_context_purity": 0.5675000000000001,
+          "test_noise_error_from_chance": 0.0,
+          "test_signal_probability_ci": [
+            0.7381377967182302,
+            0.7441057774985579
+          ]
+        },
+        "learned": {
+          "all_probability": 0.6157610327824925,
+          "signal_probability": 0.7360384967168514,
+          "test_signal_probability": 0.7411153853881929,
+          "test_signal_nll": 0.36087750350457276,
+          "first_block_signal_probability": 0.7109689558497971,
+          "second_block_signal_probability": 0.7362276311100283,
+          "return_block_signal_probability": 0.8223269231025354,
+          "return_first5_signal_probability": 0.7544869017920641,
+          "first_block_last5_signal_probability": 0.7417208425161451,
+          "test_signal_modal_accuracy": 0.7550000000000001,
+          "n_schemas": 1.0,
+          "signal_w_last40": 0.5508387186228808,
+          "noise_w_last40": 0.11813751853334606,
+          "signal_w_40to80": 0.5853871076918782,
+          "max_probability": 0.9815659527719225,
+          "min_probability": 0.04948114912771713,
+          "test_context_purity": 0.5675000000000001,
+          "test_noise_error_from_chance": 0.013383764878598145,
+          "test_signal_probability_ci": [
+            0.7380563250523617,
+            0.7440172696784882
+          ]
+        }
+      },
+      "learned_gain": -8.512008202620768e-05,
+      "learned_gain_ci": [
+        -8.85202708565913e-05,
+        -8.15116496103692e-05
+      ],
+      "learned_minus_oracle": -8.512008202620768e-05,
+      "learned_minus_oracle_ci": [
+        -8.85202708565913e-05,
+        -8.15116496103692e-05
+      ]
+    },
+    {
+      "family": "deterministic",
+      "curriculum": "blocked",
+      "roles": {
+        "no_oracle": {
+          "all_probability": 0.7587662096339751,
+          "signal_probability": 0.8313032489242322,
+          "test_signal_probability": 0.8213951477627031,
+          "test_signal_nll": 0.24317086997716575,
+          "first_block_signal_probability": 0.9664006667797775,
+          "second_block_signal_probability": 0.7179793363415643,
+          "return_block_signal_probability": 0.8779804717186195,
+          "return_first5_signal_probability": 0.8288413968729633,
+          "first_block_last5_signal_probability": 0.9811973264438079,
+          "test_signal_modal_accuracy": 0.8325000000000001,
+          "n_schemas": 2.0,
+          "signal_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9817189826983433,
+          "min_probability": 0.01873972508380412,
+          "test_context_purity": 0.5675000000000001,
+          "test_signal_probability_ci": [
+            0.8207309991209009,
+            0.8222015152396656
+          ]
+        },
+        "oracle": {
+          "all_probability": 0.7587662096339751,
+          "signal_probability": 0.8313032489242322,
+          "test_signal_probability": 0.8213951477627031,
+          "test_signal_nll": 0.24317086997716575,
+          "first_block_signal_probability": 0.9664006667797775,
+          "second_block_signal_probability": 0.7179793363415643,
+          "return_block_signal_probability": 0.8779804717186195,
+          "return_first5_signal_probability": 0.8288413968729633,
+          "first_block_last5_signal_probability": 0.9811973264438079,
+          "test_signal_modal_accuracy": 0.8325000000000001,
+          "n_schemas": 2.0,
+          "signal_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9817189826983433,
+          "min_probability": 0.01873972508380412,
+          "test_context_purity": 0.5675000000000001,
+          "test_signal_probability_ci": [
+            0.8207309991209009,
+            0.8222015152396656
+          ]
+        },
+        "learned": {
+          "all_probability": 0.8664042833137595,
+          "signal_probability": 0.9737103937456336,
+          "test_signal_probability": 0.9814654180522423,
+          "test_signal_nll": 0.018708504840943146,
+          "first_block_signal_probability": 0.964777885399308,
+          "second_block_signal_probability": 0.9600013479951389,
+          "return_block_signal_probability": 0.9811541649740105,
+          "return_first5_signal_probability": 0.9808354042121644,
+          "first_block_last5_signal_probability": 0.9809520441016376,
+          "test_signal_modal_accuracy": 1.0,
+          "n_schemas": 2.0,
+          "signal_w_last40": 1.0,
+          "signal_w_40to80": 0.964555942312914,
+          "max_probability": 0.9816068846064374,
+          "min_probability": 0.019512700152089335,
+          "test_context_purity": 1.0,
+          "test_signal_probability_ci": [
+            0.9814644517378639,
+            0.9814665906103096
+          ]
+        }
+      },
+      "learned_gain": 0.1600702702895393,
+      "learned_gain_ci": [
+        0.15926503222952276,
+        0.16073346989767523
+      ],
+      "learned_minus_oracle": 0.1600702702895393,
+      "learned_minus_oracle_ci": [
+        0.15926503222952276,
+        0.16073346989767523
+      ]
+    },
+    {
+      "family": "deterministic",
+      "curriculum": "interleaved",
+      "roles": {
+        "no_oracle": {
+          "all_probability": 0.7316234646827592,
+          "signal_probability": 0.8129127111817415,
+          "test_signal_probability": 0.8213951477627031,
+          "test_signal_nll": 0.24317086997716575,
+          "first_block_signal_probability": 0.786295460133233,
+          "second_block_signal_probability": 0.8177655251292603,
+          "return_block_signal_probability": 0.8192497776590884,
+          "return_first5_signal_probability": 0.8192323562761098,
+          "first_block_last5_signal_probability": 0.8148744178936124,
+          "test_signal_modal_accuracy": 0.8325000000000001,
+          "n_schemas": 1.0,
+          "signal_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9817189826983433,
+          "min_probability": 0.05668120912656147,
+          "test_context_purity": 0.5675000000000001,
+          "test_signal_probability_ci": [
+            0.8207309991209009,
+            0.8222015152396656
+          ]
+        },
+        "oracle": {
+          "all_probability": 0.7316234646827592,
+          "signal_probability": 0.8129127111817415,
+          "test_signal_probability": 0.8213951477627031,
+          "test_signal_nll": 0.24317086997716575,
+          "first_block_signal_probability": 0.786295460133233,
+          "second_block_signal_probability": 0.8177655251292603,
+          "return_block_signal_probability": 0.8192497776590884,
+          "return_first5_signal_probability": 0.8192323562761098,
+          "first_block_last5_signal_probability": 0.8148744178936124,
+          "test_signal_modal_accuracy": 0.8325000000000001,
+          "n_schemas": 1.0,
+          "signal_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9817189826983433,
+          "min_probability": 0.05668120912656147,
+          "test_context_purity": 0.5675000000000001,
+          "test_signal_probability_ci": [
+            0.8207309991209009,
+            0.8222015152396656
+          ]
+        },
+        "learned": {
+          "all_probability": 0.7315079066585335,
+          "signal_probability": 0.8125748884878785,
+          "test_signal_probability": 0.8213097533378259,
+          "test_signal_nll": 0.2432575997418621,
+          "first_block_signal_probability": 0.7852258720742656,
+          "second_block_signal_probability": 0.8174962212529048,
+          "return_block_signal_probability": 0.8190945072932768,
+          "return_first5_signal_probability": 0.8190455240414843,
+          "first_block_last5_signal_probability": 0.8144551718807543,
+          "test_signal_modal_accuracy": 0.8325000000000001,
+          "n_schemas": 1.0,
+          "signal_w_last40": 0.6863221373406481,
+          "signal_w_40to80": 0.6983046951748637,
+          "max_probability": 0.981642383859994,
+          "min_probability": 0.10175931355260277,
+          "test_context_purity": 0.5675000000000001,
+          "test_signal_probability_ci": [
+            0.820645973683605,
+            0.8221156937637846
+          ]
+        }
+      },
+      "learned_gain": -8.539442487727756e-05,
+      "learned_gain_ci": [
+        -8.582018791039023e-05,
+        -8.504315184987094e-05
+      ],
+      "learned_minus_oracle": -8.539442487727756e-05,
+      "learned_minus_oracle_ci": [
+        -8.582018791039023e-05,
+        -8.504315184987094e-05
+      ]
+    },
+    {
+      "family": "deterministic",
+      "curriculum": "early",
+      "roles": {
+        "no_oracle": {
+          "all_probability": 0.7551289352634329,
+          "signal_probability": 0.8289765147535112,
+          "test_signal_probability": 0.8213951477627031,
+          "test_signal_nll": 0.24317086997716575,
+          "first_block_signal_probability": 0.9664006667797775,
+          "second_block_signal_probability": 0.7179793363415643,
+          "return_block_signal_probability": 0.8192497776590884,
+          "return_first5_signal_probability": 0.8192323562761098,
+          "first_block_last5_signal_probability": 0.9811973264438079,
+          "test_signal_modal_accuracy": 0.8325000000000001,
+          "n_schemas": 2.0,
+          "signal_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9817189826983433,
+          "min_probability": 0.01873972508380412,
+          "test_context_purity": 0.5675000000000001,
+          "test_signal_probability_ci": [
+            0.8207309991209009,
+            0.8222015152396656
+          ]
+        },
+        "oracle": {
+          "all_probability": 0.7551289352634329,
+          "signal_probability": 0.8289765147535112,
+          "test_signal_probability": 0.8213951477627031,
+          "test_signal_nll": 0.24317086997716575,
+          "first_block_signal_probability": 0.9664006667797775,
+          "second_block_signal_probability": 0.7179793363415643,
+          "return_block_signal_probability": 0.8192497776590884,
+          "return_first5_signal_probability": 0.8192323562761098,
+          "first_block_last5_signal_probability": 0.9811973264438079,
+          "test_signal_modal_accuracy": 0.8325000000000001,
+          "n_schemas": 2.0,
+          "signal_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9817189826983433,
+          "min_probability": 0.01873972508380412,
+          "test_context_purity": 0.5675000000000001,
+          "test_signal_probability_ci": [
+            0.8207309991209009,
+            0.8222015152396656
+          ]
+        },
+        "learned": {
+          "all_probability": 0.8639503294936446,
+          "signal_probability": 0.973708718459393,
+          "test_signal_probability": 0.9814654180522423,
+          "test_signal_nll": 0.018708504840943146,
+          "first_block_signal_probability": 0.964777885399308,
+          "second_block_signal_probability": 0.9600013479951389,
+          "return_block_signal_probability": 0.9809988421371981,
+          "return_first5_signal_probability": 0.9807945424131678,
+          "first_block_last5_signal_probability": 0.9809520441016376,
+          "test_signal_modal_accuracy": 1.0,
+          "n_schemas": 2.0,
+          "signal_w_last40": 1.0,
+          "signal_w_40to80": 0.964555942312914,
+          "max_probability": 0.9816068846064374,
+          "min_probability": 0.019512700152089335,
+          "test_context_purity": 1.0,
+          "test_signal_probability_ci": [
+            0.9814644517378639,
+            0.9814665906103096
+          ]
+        }
+      },
+      "learned_gain": 0.1600702702895393,
+      "learned_gain_ci": [
+        0.15926503222952276,
+        0.16073346989767523
+      ],
+      "learned_minus_oracle": 0.1600702702895393,
+      "learned_minus_oracle_ci": [
+        0.15926503222952276,
+        0.16073346989767523
+      ]
+    },
+    {
+      "family": "deterministic",
+      "curriculum": "middle",
+      "roles": {
+        "no_oracle": {
+          "all_probability": 0.738867393621408,
+          "signal_probability": 0.8177419971408408,
+          "test_signal_probability": 0.8213951477627031,
+          "test_signal_nll": 0.24317086997716575,
+          "first_block_signal_probability": 0.786295460133233,
+          "second_block_signal_probability": 0.9052444511584772,
+          "return_block_signal_probability": 0.7559172814253674,
+          "return_first5_signal_probability": 0.6993474799814603,
+          "first_block_last5_signal_probability": 0.8148744178936124,
+          "test_signal_modal_accuracy": 0.8325000000000001,
+          "n_schemas": 1.0,
+          "signal_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9817189826983433,
+          "min_probability": 0.05668120912656147,
+          "test_context_purity": 0.5675000000000001,
+          "test_signal_probability_ci": [
+            0.8207309991209009,
+            0.8222015152396656
+          ]
+        },
+        "oracle": {
+          "all_probability": 0.738867393621408,
+          "signal_probability": 0.8177419971408408,
+          "test_signal_probability": 0.8213951477627031,
+          "test_signal_nll": 0.24317086997716575,
+          "first_block_signal_probability": 0.786295460133233,
+          "second_block_signal_probability": 0.9052444511584772,
+          "return_block_signal_probability": 0.7559172814253674,
+          "return_first5_signal_probability": 0.6993474799814603,
+          "first_block_last5_signal_probability": 0.8148744178936124,
+          "test_signal_modal_accuracy": 0.8325000000000001,
+          "n_schemas": 1.0,
+          "signal_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9817189826983433,
+          "min_probability": 0.05668120912656147,
+          "test_context_purity": 0.5675000000000001,
+          "test_signal_probability_ci": [
+            0.8207309991209009,
+            0.8222015152396656
+          ]
+        },
+        "learned": {
+          "all_probability": 0.7387158357093319,
+          "signal_probability": 0.8174003332405038,
+          "test_signal_probability": 0.8213097533378259,
+          "test_signal_nll": 0.2432575997418621,
+          "first_block_signal_probability": 0.7852258720742656,
+          "second_block_signal_probability": 0.9049256894873647,
+          "return_block_signal_probability": 0.7557922628219421,
+          "return_first5_signal_probability": 0.6991622268794676,
+          "first_block_last5_signal_probability": 0.8144551718807543,
+          "test_signal_modal_accuracy": 0.8325000000000001,
+          "n_schemas": 1.0,
+          "signal_w_last40": 0.6863221373406481,
+          "signal_w_40to80": 0.8735834951512251,
+          "max_probability": 0.981642383859994,
+          "min_probability": 0.10175931355260277,
+          "test_context_purity": 0.5675000000000001,
+          "test_signal_probability_ci": [
+            0.820645973683605,
+            0.8221156937637846
+          ]
+        }
+      },
+      "learned_gain": -8.539442487727756e-05,
+      "learned_gain_ci": [
+        -8.582018791039023e-05,
+        -8.504315184987094e-05
+      ],
+      "learned_minus_oracle": -8.539442487727756e-05,
+      "learned_minus_oracle_ci": [
+        -8.582018791039023e-05,
+        -8.504315184987094e-05
+      ]
+    },
+    {
+      "family": "deterministic",
+      "curriculum": "late",
+      "roles": {
+        "no_oracle": {
+          "all_probability": 0.7351135659388406,
+          "signal_probability": 0.8152394453524625,
+          "test_signal_probability": 0.8213951477627031,
+          "test_signal_nll": 0.24317086997716575,
+          "first_block_signal_probability": 0.786295460133233,
+          "second_block_signal_probability": 0.8177655251292603,
+          "return_block_signal_probability": 0.8779804717186195,
+          "return_first5_signal_probability": 0.8288413968729633,
+          "first_block_last5_signal_probability": 0.8148744178936124,
+          "test_signal_modal_accuracy": 0.8325000000000001,
+          "n_schemas": 1.0,
+          "signal_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9817189826983433,
+          "min_probability": 0.05668120912656147,
+          "test_context_purity": 0.5675000000000001,
+          "test_signal_probability_ci": [
+            0.8207309991209009,
+            0.8222015152396656
+          ]
+        },
+        "oracle": {
+          "all_probability": 0.7351135659388406,
+          "signal_probability": 0.8152394453524625,
+          "test_signal_probability": 0.8213951477627031,
+          "test_signal_nll": 0.24317086997716575,
+          "first_block_signal_probability": 0.786295460133233,
+          "second_block_signal_probability": 0.8177655251292603,
+          "return_block_signal_probability": 0.8779804717186195,
+          "return_first5_signal_probability": 0.8288413968729633,
+          "first_block_last5_signal_probability": 0.8148744178936124,
+          "test_signal_modal_accuracy": 0.8325000000000001,
+          "n_schemas": 1.0,
+          "signal_w_last40": 1.0,
+          "signal_w_40to80": 1.0,
+          "max_probability": 0.9817189826983433,
+          "min_probability": 0.05668120912656147,
+          "test_context_purity": 0.5675000000000001,
+          "test_signal_probability_ci": [
+            0.8207309991209009,
+            0.8222015152396656
+          ]
+        },
+        "learned": {
+          "all_probability": 0.7349853744529741,
+          "signal_probability": 0.8149000662100272,
+          "test_signal_probability": 0.8213097533378259,
+          "test_signal_nll": 0.2432575997418621,
+          "first_block_signal_probability": 0.7852258720742656,
+          "second_block_signal_probability": 0.8174962212529048,
+          "return_block_signal_probability": 0.8777925266576492,
+          "return_first5_signal_probability": 0.828642875802519,
+          "first_block_last5_signal_probability": 0.8144551718807543,
+          "test_signal_modal_accuracy": 0.8325000000000001,
+          "n_schemas": 1.0,
+          "signal_w_last40": 0.6863221373406481,
+          "signal_w_40to80": 0.6983046951748637,
+          "max_probability": 0.981642383859994,
+          "min_probability": 0.10175931355260277,
+          "test_context_purity": 0.5675000000000001,
+          "test_signal_probability_ci": [
+            0.820645973683605,
+            0.8221156937637846
+          ]
+        }
+      },
+      "learned_gain": -8.539442487727756e-05,
+      "learned_gain_ci": [
+        -8.582018791039023e-05,
+        -8.504315184987094e-05
+      ],
+      "learned_minus_oracle": -8.539442487727756e-05,
+      "learned_minus_oracle_ci": [
+        -8.582018791039023e-05,
+        -8.504315184987094e-05
+      ]
+    }
+  ],
+  "scientific_controls": {
+    "original_blocked_gain_ge_10pp": true,
+    "original_signal_weight_ge_75pct": true,
+    "original_noise_weight_le_25pct": true,
+    "relocated_blocked_drop_le_5pp": true,
+    "relocated_noise_weight_le_25pct": true,
+    "deterministic_context_signal_weight_ge_75pct": true,
+    "permutation_equal": true
+  },
+  "all_scientific_controls_pass": true,
+  "mixed_contrasts": {
+    "original": {
+      "early_minus_late": 0.46978430148064226,
+      "ci": [
+        0.44297155045202347,
+        0.4854732312489142
+      ]
+    },
+    "relocated": {
+      "early_minus_late": 0.2400893113657423,
+      "ci": [
+        0.23718759907735787,
+        0.2431464271550006
+      ]
+    },
+    "deterministic": {
+      "early_minus_late": 0.1601556647144166,
+      "ci": [
+        0.15935085370540356,
+        0.16081849533497108
+      ]
+    }
+  },
+  "bootstrap_note": "20 paired invented seeds, 10000 resamples, seed77201; generator Monte Carlo uncertainty only."
+}

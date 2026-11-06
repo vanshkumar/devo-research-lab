@@ -1,0 +1,618 @@
+{
+  "actual_scientific_start_utc": "2026-10-31T18:10:39.346665+00:00",
+  "deadline_utc": "2026-10-31T19:30:39.346665+00:00",
+  "review_cap_bytes": 250000000,
+  "author_spent_bytes": 413641303,
+  "lineage_cap_bytes": 750000000,
+  "new_requests": 2,
+  "new_acquisition_bytes": 4000000,
+  "inherited_acquisition_bytes": 191385005,
+  "inherited_requests": 28,
+  "charged_bytes": 181976586,
+  "context_reservation_bytes": 2000000,
+  "context_note": "Conservative 2MB ordinary context/code/JSON reads reservation, not raw outcome exposure.",
+  "reads": [
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/EVALUATION_FREEZE.json",
+      "reserved_at_utc": "2026-10-31T18:10:39.346951+00:00",
+      "bytes": 29092,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/EVALUATION_FORECASTS.npz",
+      "reserved_at_utc": "2026-10-31T18:10:39.347216+00:00",
+      "bytes": 124981,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/EVALUATION_FORECASTS.npz",
+      "reserved_at_utc": "2026-10-31T18:10:39.347431+00:00",
+      "bytes": 208692,
+      "kind": "expanded NPZ decode"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/EVALUATION_TRUTH.npz",
+      "reserved_at_utc": "2026-10-31T18:10:39.349036+00:00",
+      "bytes": 20672,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/EVALUATION_TRUTH.npz",
+      "reserved_at_utc": "2026-10-31T18:10:39.349169+00:00",
+      "bytes": 23904,
+      "kind": "conservative expanded NPZ decoding charge, bytes already in memory"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/EVALUATION_RESULT.json",
+      "reserved_at_utc": "2026-10-31T18:10:39.349482+00:00",
+      "bytes": 13780,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/FORECAST_SAVED.json",
+      "reserved_at_utc": "2026-10-31T18:10:39.349654+00:00",
+      "bytes": 826,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/EVALUATION_OUTCOME_ACCESS.json",
+      "reserved_at_utc": "2026-10-31T18:10:39.349766+00:00",
+      "bytes": 1984,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/forecast.py",
+      "reserved_at_utc": "2026-10-31T18:10:39.349964+00:00",
+      "bytes": 7907,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/prepare.py",
+      "reserved_at_utc": "2026-10-31T18:10:39.350094+00:00",
+      "bytes": 4648,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/prefix_reader.py",
+      "reserved_at_utc": "2026-10-31T18:10:39.350224+00:00",
+      "bytes": 5862,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/evaluation.py",
+      "reserved_at_utc": "2026-10-31T18:10:39.350346+00:00",
+      "bytes": 7511,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/freeze.py",
+      "reserved_at_utc": "2026-10-31T18:10:39.350463+00:00",
+      "bytes": 3044,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/SPLIT.json",
+      "reserved_at_utc": "2026-10-31T18:10:39.350586+00:00",
+      "bytes": 9524,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/PROTOCOL.md",
+      "reserved_at_utc": "2026-10-31T18:10:39.350724+00:00",
+      "bytes": 2725,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/ANALYSIS_PLAN.md",
+      "reserved_at_utc": "2026-10-31T18:10:39.350961+00:00",
+      "bytes": 4527,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/DEVELOPMENT_RESULT.json",
+      "reserved_at_utc": "2026-10-31T18:10:39.351131+00:00",
+      "bytes": 22981,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/DEVELOPMENT_REVISION.json",
+      "reserved_at_utc": "2026-10-31T18:10:39.351314+00:00",
+      "bytes": 17435,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/ADVERSARIAL_DEVELOPMENT.json",
+      "reserved_at_utc": "2026-10-31T18:10:39.351495+00:00",
+      "bytes": 5785,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/PREFIX_READER_CONTROL.json",
+      "reserved_at_utc": "2026-10-31T18:10:39.351653+00:00",
+      "bytes": 732,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/KNOWN_ANSWER_CONTROLS.json",
+      "reserved_at_utc": "2026-10-31T18:10:39.351816+00:00",
+      "bytes": 80821,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/CONTRARY_PLAN.md",
+      "reserved_at_utc": "2026-10-31T18:13:54.761037+00:00",
+      "bytes": 3596,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/EVALUATION_FREEZE.json",
+      "reserved_at_utc": "2026-10-31T18:13:54.761578+00:00",
+      "bytes": 29092,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/SPLIT.json",
+      "reserved_at_utc": "2026-10-31T18:13:54.761943+00:00",
+      "bytes": 9524,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/SOURCE_MANIFEST.json",
+      "reserved_at_utc": "2026-10-31T18:13:54.762175+00:00",
+      "bytes": 11599,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/atanas_kim_2023-2023-01-16-22.json",
+      "reserved_at_utc": "2026-10-31T18:13:54.762418+00:00",
+      "bytes": 9160851,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/atanas_kim_2023-2023-01-18-01.json",
+      "reserved_at_utc": "2026-10-31T18:13:54.820842+00:00",
+      "bytes": 8149397,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/atanas_kim_2023-2023-01-16-15.json",
+      "reserved_at_utc": "2026-10-31T18:13:54.875210+00:00",
+      "bytes": 8382840,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/atanas_kim_2023-2023-01-06-08.json",
+      "reserved_at_utc": "2026-10-31T18:13:54.926717+00:00",
+      "bytes": 8069985,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/atanas_kim_2023-2023-01-17-14.json",
+      "reserved_at_utc": "2026-10-31T18:13:54.979905+00:00",
+      "bytes": 9253507,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/atanas_kim_2023-2022-12-21-06.json",
+      "reserved_at_utc": "2026-10-31T18:13:55.042309+00:00",
+      "bytes": 8104121,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/atanas_kim_2023-2023-01-13-07.json",
+      "reserved_at_utc": "2026-10-31T18:13:55.094876+00:00",
+      "bytes": 7791653,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/atanas_kim_2023-2023-01-16-01.json",
+      "reserved_at_utc": "2026-10-31T18:13:55.145287+00:00",
+      "bytes": 8963642,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/atanas_kim_2023-2023-01-06-01.json",
+      "reserved_at_utc": "2026-10-31T18:13:55.204038+00:00",
+      "bytes": 8402661,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/atanas_kim_2023-2023-01-09-15.json",
+      "reserved_at_utc": "2026-10-31T18:13:55.259372+00:00",
+      "bytes": 9469688,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/atanas_kim_2023-2023-01-06-15.json",
+      "reserved_at_utc": "2026-10-31T18:13:55.321351+00:00",
+      "bytes": 7831928,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/atanas_kim_2023-2023-01-09-22.json",
+      "reserved_at_utc": "2026-10-31T18:13:55.371747+00:00",
+      "bytes": 9387583,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/atanas_kim_2023-2023-01-10-07.json",
+      "reserved_at_utc": "2026-10-31T18:13:55.434318+00:00",
+      "bytes": 9252336,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/prefix_2023-01-10-07.npz",
+      "reserved_at_utc": "2026-10-31T18:13:55.493419+00:00",
+      "bytes": 466146,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/prefix_2023-01-10-07.npz",
+      "reserved_at_utc": "2026-10-31T18:13:55.493870+00:00",
+      "bytes": 505204,
+      "kind": "conservative expanded NPZ decoding charge, bytes already in memory"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/atanas_kim_2023-2023-01-05-18.json",
+      "reserved_at_utc": "2026-10-31T18:13:55.497821+00:00",
+      "bytes": 8312399,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/prefix_2023-01-05-18.npz",
+      "reserved_at_utc": "2026-10-31T18:13:55.547273+00:00",
+      "bytes": 504290,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/prefix_2023-01-05-18.npz",
+      "reserved_at_utc": "2026-10-31T18:13:55.547666+00:00",
+      "bytes": 542952,
+      "kind": "conservative expanded NPZ decoding charge, bytes already in memory"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/atanas_kim_2023-2023-01-17-07.json",
+      "reserved_at_utc": "2026-10-31T18:13:55.551309+00:00",
+      "bytes": 9261483,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/prefix_2023-01-17-07.npz",
+      "reserved_at_utc": "2026-10-31T18:13:55.611035+00:00",
+      "bytes": 503890,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/prefix_2023-01-17-07.npz",
+      "reserved_at_utc": "2026-10-31T18:13:55.611579+00:00",
+      "bytes": 543304,
+      "kind": "conservative expanded NPZ decoding charge, bytes already in memory"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/atanas_kim_2023-2023-01-16-08.json",
+      "reserved_at_utc": "2026-10-31T18:13:55.615731+00:00",
+      "bytes": 9291117,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/prefix_2023-01-16-08.npz",
+      "reserved_at_utc": "2026-10-31T18:13:55.670869+00:00",
+      "bytes": 467368,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/prefix_2023-01-16-08.npz",
+      "reserved_at_utc": "2026-10-31T18:13:55.671248+00:00",
+      "bytes": 505724,
+      "kind": "conservative expanded NPZ decoding charge, bytes already in memory"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/atanas_kim_2023-2023-01-05-01.json",
+      "reserved_at_utc": "2026-10-31T18:13:55.674865+00:00",
+      "bytes": 9413072,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/prefix_2023-01-05-01.npz",
+      "reserved_at_utc": "2026-10-31T18:13:55.730752+00:00",
+      "bytes": 491322,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/prefix_2023-01-05-01.npz",
+      "reserved_at_utc": "2026-10-31T18:13:55.731295+00:00",
+      "bytes": 530524,
+      "kind": "conservative expanded NPZ decoding charge, bytes already in memory"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/atanas_kim_2023-2023-01-10-14.json",
+      "reserved_at_utc": "2026-10-31T18:13:55.735008+00:00",
+      "bytes": 9136439,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/prefix_2023-01-10-14.npz",
+      "reserved_at_utc": "2026-10-31T18:13:55.793095+00:00",
+      "bytes": 529287,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/prefix_2023-01-10-14.npz",
+      "reserved_at_utc": "2026-10-31T18:13:55.793591+00:00",
+      "bytes": 569384,
+      "kind": "conservative expanded NPZ decoding charge, bytes already in memory"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/atanas_kim_2023-2023-01-09-08.json",
+      "reserved_at_utc": "2026-10-31T18:13:55.798344+00:00",
+      "bytes": 8428601,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/prefix_2023-01-09-08.npz",
+      "reserved_at_utc": "2026-10-31T18:13:55.851428+00:00",
+      "bytes": 285694,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/heat_state_forecast_2026-10-31/prefix_2023-01-09-08.npz",
+      "reserved_at_utc": "2026-10-31T18:13:55.851795+00:00",
+      "bytes": 314496,
+      "kind": "conservative expanded NPZ decoding charge, bytes already in memory"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/DEVELOPMENT_CV.npz",
+      "reserved_at_utc": "2026-10-31T18:13:56.271349+00:00",
+      "bytes": 338562,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/DEVELOPMENT_CV.npz",
+      "reserved_at_utc": "2026-10-31T18:13:56.271948+00:00",
+      "bytes": 422272,
+      "kind": "conservative expanded NPZ decoding charge, bytes already in memory"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/EVALUATION_TRUTH.npz",
+      "reserved_at_utc": "2026-10-31T18:13:56.274639+00:00",
+      "bytes": 20672,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/EVALUATION_TRUTH.npz",
+      "reserved_at_utc": "2026-10-31T18:13:56.274955+00:00",
+      "bytes": 23904,
+      "kind": "conservative expanded NPZ decoding charge, bytes already in memory"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/EVALUATION_FORECASTS.npz",
+      "reserved_at_utc": "2026-10-31T18:13:56.275440+00:00",
+      "bytes": 124981,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/EVALUATION_FORECASTS.npz",
+      "reserved_at_utc": "2026-10-31T18:13:56.275802+00:00",
+      "bytes": 208692,
+      "kind": "conservative expanded NPZ decoding charge, bytes already in memory"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/CONTRARY_RESULT.json",
+      "reserved_at_utc": "2026-10-31T18:15:12.080801+00:00",
+      "bytes": 49318,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/INFLUENCE_AND_BEHAVIOR.json",
+      "reserved_at_utc": "2026-10-31T18:15:12.081474+00:00",
+      "bytes": 11741,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/FINAL_CHECK_PLAN.md",
+      "reserved_at_utc": "2026-10-31T18:16:30.964022+00:00",
+      "bytes": 1206,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/EARLY_INDEPENDENT_CHECK.json",
+      "reserved_at_utc": "2026-10-31T18:16:30.964723+00:00",
+      "bytes": 6663,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/CONTRARY_RESULT.json",
+      "reserved_at_utc": "2026-10-31T18:16:30.965152+00:00",
+      "bytes": 49318,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/looper_repo/atanas-data/DATASET.md",
+      "reserved_at_utc": "2026-10-31T18:16:30.973586+00:00",
+      "bytes": 11974,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "sources/looper_repo/atanas-data/DATASET.md",
+      "reserved_at_utc": "2026-10-31T18:17:20.844635+00:00",
+      "bytes": 11974,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/SOURCE_DOCUMENT_RESPONSE.json",
+      "reserved_at_utc": "2026-10-31T18:18:06.355815+00:00",
+      "bytes": 2000000,
+      "kind": "conservative connector text response reservation before one public request"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/SOURCE_DOCUMENT_RESPONSE.json",
+      "reserved_at_utc": "2026-10-31T18:18:58.464526+00:00",
+      "bytes": 2000000,
+      "kind": "conservative connector text response reservation before one public request"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/SOURCE_DOCUMENT_EXACT_RESPONSE.json",
+      "reserved_at_utc": "2026-10-31T18:20:18.396029+00:00",
+      "bytes": 16922,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/SOURCE_DOCUMENT_EXACT_RESPONSE.json",
+      "reserved_at_utc": "2026-10-31T18:20:18.396686+00:00",
+      "bytes": 11973,
+      "kind": "decoded exact public documentation bytes"
+    },
+    {
+      "path": "sources/looper_repo/atanas-data/DATASET.md",
+      "reserved_at_utc": "2026-10-31T18:20:18.398547+00:00",
+      "bytes": 11974,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/INDEPENDENT_INPUTS.npz",
+      "reserved_at_utc": "2026-10-31T18:21:56.724501+00:00",
+      "bytes": 119254,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/INDEPENDENT_INPUTS.npz",
+      "reserved_at_utc": "2026-10-31T18:21:56.725192+00:00",
+      "bytes": 132944,
+      "kind": "conservative expanded NPZ decoding charge, bytes already in memory"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/RECONSTRUCTED_FORECASTS.npz",
+      "reserved_at_utc": "2026-10-31T18:21:56.726993+00:00",
+      "bytes": 124723,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/RECONSTRUCTED_FORECASTS.npz",
+      "reserved_at_utc": "2026-10-31T18:21:56.727407+00:00",
+      "bytes": 208200,
+      "kind": "conservative expanded NPZ decoding charge, bytes already in memory"
+    },
+    {
+      "path": "lab/tasks/heat-state-forecast-2026-10-31/EVALUATION_FREEZE.json",
+      "reserved_at_utc": "2026-10-31T18:21:56.729134+00:00",
+      "bytes": 29092,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/EARLY_INDEPENDENT_CHECK.json",
+      "reserved_at_utc": "2026-10-31T18:21:56.739715+00:00",
+      "bytes": 6663,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/INDEPENDENT_RECONSTRUCTION.json",
+      "reserved_at_utc": "2026-10-31T18:21:56.740061+00:00",
+      "bytes": 13330,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/CONTRARY_RESULT.json",
+      "reserved_at_utc": "2026-10-31T18:21:56.740391+00:00",
+      "bytes": 49318,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/CONTRARY_FORECASTS.npz",
+      "reserved_at_utc": "2026-10-31T18:21:56.740712+00:00",
+      "bytes": 160809,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/INDEPENDENT_INPUTS.npz",
+      "reserved_at_utc": "2026-10-31T18:21:56.741069+00:00",
+      "bytes": 119254,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/RECONSTRUCTED_FORECASTS.npz",
+      "reserved_at_utc": "2026-10-31T18:21:56.741410+00:00",
+      "bytes": 124723,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/INFLUENCE_AND_BEHAVIOR.json",
+      "reserved_at_utc": "2026-10-31T18:21:56.741750+00:00",
+      "bytes": 11741,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/JOINT_BEHAVIOR_CHECK.json",
+      "reserved_at_utc": "2026-10-31T18:21:56.742341+00:00",
+      "bytes": 2548,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/EXACT_BOOTSTRAP_CHECK.json",
+      "reserved_at_utc": "2026-10-31T18:21:56.742657+00:00",
+      "bytes": 2136,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/SOURCE_DOCUMENT_VERIFICATION.json",
+      "reserved_at_utc": "2026-10-31T18:21:56.742969+00:00",
+      "bytes": 907,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/SOURCE_DOCUMENT_EXACT_RESPONSE.json",
+      "reserved_at_utc": "2026-10-31T18:21:56.743285+00:00",
+      "bytes": 16922,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/PINNED_DATASET.md",
+      "reserved_at_utc": "2026-10-31T18:21:56.743601+00:00",
+      "bytes": 11973,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/CONTRARY_PLAN.md",
+      "reserved_at_utc": "2026-10-31T18:21:56.743916+00:00",
+      "bytes": 3596,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/FINAL_CHECK_PLAN.md",
+      "reserved_at_utc": "2026-10-31T18:21:56.744229+00:00",
+      "bytes": 1206,
+      "kind": "file read/hash in same pass"
+    },
+    {
+      "path": "lab/reviews/heat-state-forecast-2026-10-31/review.py",
+      "reserved_at_utc": "2026-10-31T18:21:56.744546+00:00",
+      "bytes": 40969,
+      "kind": "file read/hash in same pass"
+    }
+  ],
+  "request_reservation": {
+    "at_utc": "2026-10-31T18:18:58.463817+00:00",
+    "bytes": 2000000,
+    "purpose": "Retrieve exact base64 bytes of same pinned documentation to separate connector text normalization from true source-pin mismatch.",
+    "url": "https://api.github.com/repos/vanshkumar/LOOPER-freely-moving-worms/contents/atanas-data/DATASET.md?ref=513782b42ad77e75f35adfbc70064b7418ff674a"
+  },
+  "request_reservations": [
+    {
+      "at_utc": "2026-10-31T18:18:06.355108+00:00",
+      "bytes": 2000000,
+      "purpose": "Resolve named cached-vs-pinned documentation mismatch, exact commit contents API text only.",
+      "url": "https://api.github.com/repos/vanshkumar/LOOPER-freely-moving-worms/contents/atanas-data/DATASET.md?ref=513782b42ad77e75f35adfbc70064b7418ff674a"
+    },
+    {
+      "at_utc": "2026-10-31T18:18:58.463817+00:00",
+      "bytes": 2000000,
+      "purpose": "Retrieve exact base64 bytes of same pinned documentation to separate connector text normalization from true source-pin mismatch.",
+      "url": "https://api.github.com/repos/vanshkumar/LOOPER-freely-moving-worms/contents/atanas-data/DATASET.md?ref=513782b42ad77e75f35adfbc70064b7418ff674a"
+    }
+  ],
+  "scientific_complete_utc": "2026-10-31T18:21:56.744983+00:00",
+  "jobs": 0,
+  "combined_scientific_read_bytes": 595617889,
+  "combined_acquisition_bytes_reserved": 195385005,
+  "combined_requests": 30,
+  "status": "complete; finite assignment ended; no continuation or new acquisition authorized"
+}

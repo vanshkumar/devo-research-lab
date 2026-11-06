@@ -1,0 +1,143 @@
+{
+  "source": {
+    "source_mean_reproduction_max_error": 1.1102230246251565e-16,
+    "n_syllable_rows": 25,
+    "n_source_columns": 600,
+    "all_endpoints_positive": true,
+    "endpoint_mean": 0.1761313344816487,
+    "endpoint_median": 0.1609797170093201,
+    "endpoint_min": 0.01076170683662651,
+    "endpoint_max": 0.4484132393754879,
+    "endpoint_shuffle_mean": 0.004417827454957468,
+    "endpoint_shuffle_envelope": [
+      -0.02725389495460138,
+      0.03608954986451631
+    ],
+    "endpoint_leave_one_syllable_out_mean_range": [
+      0.16478625511107206,
+      0.18302173563352464
+    ],
+    "number_source_columns_above_upper_envelope": 598,
+    "history_current_coefficient": 0.3336528700969675,
+    "history_negative_count": 11,
+    "history_count": 11,
+    "source_ppe_negative_history_count": 11,
+    "limit": "descriptive published aggregates; no bird IDs or per-rendition values in Fig3 e/f; no independent-bird uncertainty or raw-pipeline reproduction"
+  },
+  "control": {
+    "summaries": [
+      {
+        "model": "common_teacher",
+        "clamp": false,
+        "n": 50,
+        "alignment_median": 0.019383303197121095,
+        "shuffle_alignment_median": -5.9432360388894464e-05,
+        "final_error_median": 0.0006265787482177974
+      },
+      {
+        "model": "common_teacher",
+        "clamp": true,
+        "n": 50,
+        "alignment_median": 0.0,
+        "shuffle_alignment_median": 0.0,
+        "final_error_median": 0.0006265787482177974
+      },
+      {
+        "model": "causal",
+        "clamp": false,
+        "n": 50,
+        "alignment_median": 0.04987520546661407,
+        "shuffle_alignment_median": 0.00040907190561282735,
+        "final_error_median": 0.007923662208627578
+      },
+      {
+        "model": "causal",
+        "clamp": true,
+        "n": 50,
+        "alignment_median": 0.0,
+        "shuffle_alignment_median": 0.0,
+        "final_error_median": 1.0
+      },
+      {
+        "model": "independent_signal",
+        "clamp": false,
+        "n": 50,
+        "alignment_median": -8.271893270193812e-05,
+        "shuffle_alignment_median": 0.00013498978767208865,
+        "final_error_median": 0.0006265787482177974
+      }
+    ],
+    "common_teacher_clamp_max_path_change": 0,
+    "known_covariance_estimate": [
+      0.03741182985000213,
+      -0.049832917088302384,
+      0.025202233529575492
+    ],
+    "known_covariance_exact": [
+      0.0375,
+      -0.05,
+      0.025
+    ],
+    "known_covariance_max_error": 0.00020223352957549068,
+    "claim": "A latent target-driven updater without dopamine input can produce the future-alignment signature. These model distributions are not asserted identical; causal intervention predictions differ.",
+    "config": {
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "dimension": 23,
+      "renditions_per_block": 150,
+      "steps": 35,
+      "sigma": 0.25,
+      "eta": 0.1
+    }
+  }
+}

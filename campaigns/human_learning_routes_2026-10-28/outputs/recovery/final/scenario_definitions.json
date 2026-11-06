@@ -1,0 +1,134 @@
+{
+  "nuisance_null": {
+    "target": 0.0,
+    "shape": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "shared_law": false,
+    "scale": 0.0,
+    "expected_effect": 0.0,
+    "nominal_scale": 0.0,
+    "heterogeneity_refinement": []
+  },
+  "carryover_null": {
+    "target": 0.0,
+    "shape": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "shared_law": true,
+    "scale": 0.0,
+    "expected_effect": 0.0,
+    "nominal_scale": 0.0,
+    "heterogeneity_refinement": []
+  },
+  "slow_05": {
+    "target": 0.05,
+    "shape": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "shared_law": true,
+    "scale": 1.9841320510425955,
+    "expected_effect": 0.04999685321426922,
+    "nominal_scale": 1.7758526084007287,
+    "heterogeneity_refinement": [
+      {
+        "step": 0,
+        "scale": 1.7758526084007287,
+        "mean_effect": 0.04484287260111904
+      },
+      {
+        "step": 1,
+        "scale": 1.9800834618659253,
+        "mean_effect": 0.04989797581328968
+      },
+      {
+        "step": 2,
+        "scale": 1.9841320510425955,
+        "mean_effect": 0.04999685321426922
+      }
+    ]
+  },
+  "slow_10": {
+    "target": 0.1,
+    "shape": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "shared_law": true,
+    "scale": 4.076293040051012,
+    "expected_effect": 0.09995652747463056,
+    "nominal_scale": 3.6536973555469396,
+    "heterogeneity_refinement": [
+      {
+        "step": 0,
+        "scale": 3.6536973555469396,
+        "mean_effect": 0.09023977923981893
+      },
+      {
+        "step": 1,
+        "scale": 4.048876655423732,
+        "mean_effect": 0.09932741870228895
+      },
+      {
+        "step": 2,
+        "scale": 4.076293040051012,
+        "mean_effect": 0.09995652747463056
+      }
+    ]
+  },
+  "shape_05": {
+    "target": 0.05,
+    "shape": [
+      -1.0,
+      0.0,
+      1.0
+    ],
+    "shared_law": true,
+    "scale": 0.41651951288520506,
+    "expected_effect": 0.04997563631886478,
+    "nominal_scale": 0.37066677658814984,
+    "heterogeneity_refinement": [
+      {
+        "step": 0,
+        "scale": 0.37066677658814984,
+        "mean_effect": 0.044495727705595824
+      },
+      {
+        "step": 1,
+        "scale": 0.41651951288520506,
+        "mean_effect": 0.04997563631886478
+      }
+    ]
+  },
+  "slow_minus05": {
+    "target": -0.05,
+    "shape": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "shared_law": true,
+    "scale": 1.952759971752738,
+    "expected_effect": -0.04995724431119087,
+    "nominal_scale": 1.7758526084007287,
+    "heterogeneity_refinement": [
+      {
+        "step": 0,
+        "scale": 1.7758526084007287,
+        "mean_effect": -0.04547032492700005
+      },
+      {
+        "step": 1,
+        "scale": 1.952759971752738,
+        "mean_effect": -0.04995724431119087
+      }
+    ]
+  }
+}

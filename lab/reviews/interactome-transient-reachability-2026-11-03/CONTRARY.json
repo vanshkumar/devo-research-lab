@@ -1,0 +1,123 @@
+{
+  "status": "ONE_FROZEN_MAINTAINED_BACKGROUND_CONTRARY_COMPLETE",
+  "finished_utc": "2026-11-03T06:48:53.099825+00:00",
+  "background_nonzero_masks": {
+    "ASKL": 0.24,
+    "ASKR": 0.24,
+    "PLMR": 0.2,
+    "PLML": 0.2
+  },
+  "changed_model_parameters": false,
+  "new_postvalidation_experiment": true,
+  "background_bistability_in_2019_assumed": false,
+  "material_scale_rms": 5.638259640019669,
+  "material_cutoff_rms": 0.5638259640019669,
+  "seeds": {
+    "0": {
+      "late_motor_rms": 3.8912008656919967,
+      "challenge_motor_rms": 19.016505619442466,
+      "drive_vs_sham_late_motor_rms": 277.2213355182772,
+      "late_full_voltage_rms": 18.850977357919444,
+      "late_full_gate_rms": 0.04420836184058628,
+      "preceding_second_motor_rms": 3.726972432256645,
+      "last_second_motor_rms": 4.049561257748603,
+      "last_over_preceding_second": 1.0865551949619958,
+      "material_candidate": true,
+      "late_states": {
+        "finite": {
+          "motor_temporal_rms": 3.46370780283816e-11,
+          "voltage_derivative_maxabs": 1.1217101321866116e-09,
+          "gate_derivative_maxabs": 2.871536342041736e-12,
+          "local_largest_eigenvalue_real": -1.369516056756918,
+          "nearsteady": true
+        },
+        "sham": {
+          "motor_temporal_rms": 0.5116334618900941,
+          "voltage_derivative_maxabs": 97.90152828888192,
+          "gate_derivative_maxabs": 0.14319406332676132,
+          "local_largest_eigenvalue_real": -1.1370623075521087,
+          "nearsteady": false
+        },
+        "drive": {
+          "motor_temporal_rms": 5.79559809317745,
+          "voltage_derivative_maxabs": 75.290690453888,
+          "gate_derivative_maxabs": 0.24543590517528122,
+          "local_largest_eigenvalue_real": 0.5111731663480134,
+          "nearsteady": false
+        }
+      },
+      "single_time_shift": {
+        "lag_s": -0.9800000000000004,
+        "motor_rms_residual": 3.6552152129056594,
+        "fraction_raw_separation_removed": 0.0606459704681348,
+        "full_voltage_rms_residual": 19.166633996942195,
+        "full_gate_rms_residual": 0.04477214606044916,
+        "sufficient_at_declared_resolution": false
+      }
+    },
+    "1": {
+      "late_motor_rms": 3.891235975425643,
+      "challenge_motor_rms": 19.01504694301467,
+      "drive_vs_sham_late_motor_rms": 277.22176818813153,
+      "late_full_voltage_rms": 18.851261602997504,
+      "late_full_gate_rms": 0.04420883114579882,
+      "preceding_second_motor_rms": 3.7264679501909295,
+      "last_second_motor_rms": 4.0500749253667685,
+      "last_over_preceding_second": 1.0868401337409217,
+      "material_candidate": true,
+      "late_states": {
+        "finite": {
+          "motor_temporal_rms": 3.4603886948395094e-11,
+          "voltage_derivative_maxabs": 1.1520266222457092e-09,
+          "gate_derivative_maxabs": 2.871758386646661e-12,
+          "local_largest_eigenvalue_real": -1.3695160567568099,
+          "nearsteady": true
+        },
+        "sham": {
+          "motor_temporal_rms": 0.5118613580204687,
+          "voltage_derivative_maxabs": 98.08543359310231,
+          "gate_derivative_maxabs": 0.1433159435040168,
+          "local_largest_eigenvalue_real": -1.132059225296562,
+          "nearsteady": false
+        },
+        "drive": {
+          "motor_temporal_rms": 5.796034250399497,
+          "voltage_derivative_maxabs": 75.42752963272505,
+          "gate_derivative_maxabs": 0.24567384320588698,
+          "local_largest_eigenvalue_real": 0.5060610113788172,
+          "nearsteady": false
+        }
+      },
+      "single_time_shift": {
+        "lag_s": -0.9800000000000004,
+        "motor_rms_residual": 3.6552141114845367,
+        "fraction_raw_separation_removed": 0.06065472909678493,
+        "full_voltage_rms_residual": 19.16714711957797,
+        "full_gate_rms_residual": 0.04477274681998824,
+        "sufficient_at_declared_resolution": false
+      }
+    }
+  },
+  "numerical_BDF_Radau": {
+    "baseline_full_maxabs": 5.835687261424027e-06,
+    "finite": {
+      "motor_maxabs": 1.404315071340534e-06,
+      "full_maxabs": 5.874883754586335e-06,
+      "literal_source_rhs_maxabs": 4.547473508864641e-08
+    },
+    "sham": {
+      "motor_maxabs": 7.091655334079405e-07,
+      "full_maxabs": 1.2157647688582074e-05,
+      "literal_source_rhs_maxabs": 4.551839083433151e-08
+    }
+  },
+  "both_initializations_material_candidate": true,
+  "input_threshold_restoration": "bitwise identical common background mask after22.3; same linear threshold law; identical challenge",
+  "process_elapsed_s": 118.71542825,
+  "rss_bytes_macos": 398589952,
+  "independent_units": "one deterministic connectome, two initialization controls",
+  "new_conditions_searched": 0,
+  "scientific_protocol_revisions": 0,
+  "all_new_trajectories": "consumed development forever; no empirical/protected data",
+  "asymptotic_behavior_biological_memory_priority": "UNESTABLISHED"
+}

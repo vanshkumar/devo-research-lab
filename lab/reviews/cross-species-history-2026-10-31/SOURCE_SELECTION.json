@@ -1,0 +1,109 @@
+{
+  "authority_pins": [
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/protocols/SPLIT.json",
+      "bytes": 41561,
+      "sha256": "4707198a2b0a1fe867612ddacc5fd7e34203674bf29372e21bbdad320759fe83"
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/protocols/EXPOSURE.jsonl",
+      "bytes": 1051427,
+      "sha256": "bb24c5aa6cad6e8e965919674250690368b5eb880b201040d9f64f0ec56d56f1"
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/protocols/VALIDATION_STATUS.json",
+      "bytes": 2558,
+      "sha256": "2a1ec2a339f46d0cf17250e55ddbe1319ee547a92487b5f45f66a12953a7a266"
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/data/INDEX.json",
+      "bytes": 4496044,
+      "sha256": "7c108018f5e9bd870a999720133bc996fb310ea2f8359ff8f3502ca42f9b8dfa"
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/data/ROW_COUNTS.json",
+      "bytes": 797557,
+      "sha256": "36d18cf5a525634872724712e761e30dbdb3337877d173856375aabf132b334d"
+    },
+    {
+      "path": "campaigns/human_learning_routes_2026-10-28/protocol/split_manifest.csv",
+      "bytes": 14977,
+      "sha256": "5f9ed20b892a7197d8b47f75d7f8b2b64e093b2841f14f36c239bb96da12a051"
+    },
+    {
+      "path": "campaigns/human_learning_routes_2026-10-28/protocol/VALIDATION_OPENED.json",
+      "bytes": 225,
+      "sha256": "4841d2f0d0b22a49c06d2076bc7a9e59b566e53aefee2852ce27c82ea26323b7"
+    },
+    {
+      "path": "campaigns/human_learning_routes_2026-10-28/acquisition/MANIFEST.json",
+      "bytes": 744,
+      "sha256": "91040bb56b1ad809962265544dd51031cf1e1cb7a0063f7f2bdd10142c45e65b"
+    }
+  ],
+  "human_samples": [
+    {
+      "species": "human",
+      "subject": "006",
+      "session": "22121620",
+      "schedule": "S01",
+      "condition": "0",
+      "old_partition": "development",
+      "path": "campaigns/human_learning_routes_2026-10-28/inputs/development_numeric.csv",
+      "allowed_rows": [
+        0,
+        600
+      ],
+      "derivative_linkage": "old frozen extraction, split manifest; independently reconstructed prior campaign",
+      "source_path": "campaigns/human_learning_routes_2026-10-28/inputs/processed_data_2026.csv",
+      "source_sha256": "45dcce14e30edba5e38eaeaf8c40edb8cd1a0555928070b44779d0d47458bbe9"
+    },
+    {
+      "species": "human",
+      "subject": "007",
+      "session": "25150636",
+      "schedule": "S02",
+      "condition": "0",
+      "old_partition": "validation_unseen_schedule",
+      "path": "campaigns/human_learning_routes_2026-10-28/inputs/validation_numeric.csv",
+      "allowed_rows": [
+        0,
+        600
+      ],
+      "derivative_linkage": "old frozen extraction, split manifest; independently reconstructed prior campaign",
+      "source_path": "campaigns/human_learning_routes_2026-10-28/inputs/processed_data_2026.csv",
+      "source_sha256": "45dcce14e30edba5e38eaeaf8c40edb8cd1a0555928070b44779d0d47458bbe9"
+    }
+  ],
+  "mouse_sample": {
+    "subject": "IBL-T1",
+    "species": "mouse",
+    "old_split": "dev",
+    "lab": "angelakilab",
+    "path": "campaigns/learning_rule_transport_2026-10-28/data/processed/dev/IBL-T1.npz",
+    "expected_sha256": "20fc40f30afd952c946ea49af4981a40afffe6b6cd5c5aea0663b538d2e6837c",
+    "compressed_bytes": 25374,
+    "allowed_rows": [
+      0,
+      402
+    ],
+    "indexed_total_rows": 402,
+    "full_payload_previously_consumed": true,
+    "source_rows": [
+      {
+        "path": "campaigns/learning_rule_transport_2026-10-28/data/raw/dev/IBL-T1/2019-08-05_001_5308b252-913c-4454-9365-ee43401289de_table.pqt",
+        "eid": "5308b252-913c-4454-9365-ee43401289de",
+        "dataset_id": "9d3fcc4d-c02f-4c6a-81fd-9c306d4b04b6",
+        "date": "2019-08-05",
+        "number": 1,
+        "protocol": "_iblrig_tasks_trainingChoiceWorld5.2.5",
+        "rows": [
+          0,
+          402
+        ],
+        "global_start": 0,
+        "full_rows": 402
+      }
+    ]
+  }
+}

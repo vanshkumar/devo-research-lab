@@ -1,0 +1,55 @@
+{
+  "prefit": {
+    "utc": "2026-11-05 22:41:25 UTC",
+    "ordinary": true,
+    "windows": {
+      "codex": {
+        "limitId": "codex",
+        "limitName": null,
+        "normalModelSlug": null,
+        "primary": {
+          "usedPercent": 59,
+          "windowDurationMins": 10080,
+          "resetsAt": 1794445923
+        },
+        "secondary": null,
+        "credits": {
+          "hasCredits": false,
+          "unlimited": false,
+          "balance": "0"
+        },
+        "individualLimit": null,
+        "spendControlReached": false,
+        "planType": "prolite",
+        "rateLimitReachedType": null
+      }
+    },
+    "observed_hashes_and_inputs": "efc099b5dd60d1284b0b1dd07d75a5b7a721e2b8f899c6423093f8f245e27da3  lab/tasks/human-association-source-development-2026-11-05/brown_forecast.py\n8274bedb8ea9680d4cd081de2b05af4486d60f56813dfc89cb0c75f11d01436d  lab/tasks/human-association-source-development-2026-11-05/brown_develop.py\n57dab307d0ce5c3f0f75fa34b30560688394c7b4fe84c241dc6f27c6c4204659  lab/tasks/human-association-source-development-2026-11-05/audit_expe3.py\nf72ef274d1113bdf215eec7e6ae62105eb1c47a2f62f0d5b2cfaa0ab8e829f03  lab/tasks/human-association-source-development-2026-11-05/audit_expe3_amended.py\n-rw-r--r--@ 1 vanshkumar  staff  3405264 Nov  5 17:25 lab/tasks/human-association-source-development-2026-11-05/BROWN_BEHAVIOR.npy\n-rw-r--r--@ 1 vanshkumar  staff      663 Nov  5 17:41 lab/tasks/human-association-source-development-2026-11-05/FORECAST_CONTROLS.json\n"
+  },
+  "source_gate": "STAGE_A_DECISION.md",
+  "frozen_design": "DEVELOPMENT_FREEZE.md",
+  "account_amendment": "STAGE_B_ALLOWANCE_AMENDMENT.md",
+  "control_report": "FORECAST_CONTROLS.json",
+  "runtime_constants": {
+    "particles": 512,
+    "person_folds": 5,
+    "fit_people_per_fold": 24,
+    "calibration_people_per_fold": 8,
+    "test_people_per_fold": 8,
+    "seed_rule": "20261105 + 1000*person + block",
+    "choice_ridge": 1.5,
+    "alpha": [
+      0.16,
+      0.35,
+      0.65
+    ],
+    "wm_tau_scheduled_opportunities": [
+      2,
+      4,
+      7
+    ],
+    "nominal_actor_count": 3,
+    "timing_scenarios": 3
+  },
+  "gate": "One fixed Brown-only fit; no Berkeley access."
+}

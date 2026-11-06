@@ -1,0 +1,53 @@
+# Independent motor teaching-error transfer review
+
+The reported source comparison reproduces. It supports a difference in **next-trial endpoint response** between the consumed TsayA and Figure3 archives, conditional on the endpoint model. A stronger stationary-endpoint test reduces the gap and its precision. These records do not establish that the difference is a lasting learning coefficient, identify its biological cause, or justify opening Figure4 outcomes. Bank the finite source result with this narrower interpretation and reallocate.
+
+Reviewer `01a19471-8ed1-7ca3-85c7-810e0e3fa0bb` is distinct from the author. All numerical extraction and fitting here use independent code; no author analysis helper was imported or executed. These source observations were already consumed. A method freeze within this review does not restore an untouched test.
+
+## What independently reproduces
+
+Original CSV SHA256 and Git-blob pins pass for the three consumed sources and the input-only Figure4 file. Each Tsay source contains20 people with824 consecutive trials; Figure3 contains18 with904. Person identity includes the file name. Tsay has100 baseline trials followed by four180-trial randomized portions, each followed by a deterministic zero-clamp/no-jump terminal trial. Contrasts exclude both terminal/cross-portion and cross-person differences. Figure3 exposures are104–903; trial904 supplies the final endpoint. Retained transitions are14,318/14,320/13,204, respectively.
+
+Both source definitions use target-distance endpoint position. Figure3 analysis explicitly sets `reachAngle=HandError`; its jump-to sign equals the clamp and0.01 is flicker. Figure4 reverses the exported jump-to sign, verified here using only its inputs. Neither source supplies the acquisition/export code needed to independently establish the underlying angle transform or exact jump timing. In particular, Figure3 has no `HandAngle` column permitting an independent coordinate subtraction check. The paper specifies reaching through the initial target and target-distance crossing, but gives inconsistent manipulation timing descriptions. Matching4-degree geometry does not equate protocols, perception or histories.
+
+The independently fitted saturated model uses a different reference cell from the author's implementation. Its coefficient contrasts and decisive scalars agree within3.20e-14. The equal-person ratio is the ratio of mean signed responses, rather than a mean of individual ratios.
+
+| Endpoint estimand | TsayA ratio | Figure3 ratio | Figure3 minus TsayA |
+|---|---:|---:|---:|
+| Current-cell response |0.864|0.371|−0.493|
+| Current plus next additive control |0.890|0.343|−0.547|
+| Next stationary endpoint level, previous-two-cell/time adjustment |0.934|0.557|−0.377|
+
+For the additive control, stationary-calibrated Tsay forecast MSE is1.147598degree² versus0.422165 for the Figure3 leave-person-out comparator, gain0.725434. All18 forecasts and losses independently reproduce. The residual mean is−0.900427degrees. The review's participant-bootstrap shift interval is[−0.7889,−0.2559], conditional on these archives/choices and without calibrated population coverage.
+
+All348 coefficients from the author's six-column source regressions and174 leave-person-out losses also match exactly. Raw means/medians, Tsay masks/transformed-angle differences and the Figure3 literal/intended outlier-mask medians reconstruct. The literal R smooth uses a cumulative-looking index because of operator precedence; it is an exclusion operation, not subtraction from the retained response. A single-person deletion leaves the primary ratio shift between−0.5814 and−0.4522. Robust aggregation narrows it: ratios of medians are0.8403/0.5822, and medians of individual ratios0.8907/0.5616. All primary individual stationary denominators are positive.
+
+Missingness is consequential and retained in chronology. In the randomized Figure3 rows, the primary mask rejects673 endpoint rows:567 false starts,106 finite angles outside90degrees and one nonfinite value, with overlap in these categories. TsayA has one outside-bound endpoint and TsayB none. No missing row is dropped before constructing adjacency. This audit cannot certify that this selection is independent of latent responses.
+
+## Contrary evidence and observation assumptions
+
+With `H_t = x_t + E(input_t)` and unit-retention updating, the current and next coefficients have odd contrasts `U−E` and `E`. Their sum cancels arbitrary additive current-cell expression. For fixed retention `a`, the corresponding contrast is `C+a*N`. The predeclared sweep a={0,.25,.5,.75,.9,.95,1}, both with and without previous-two-input/time controls, leaves shifts in[−0.5790,−0.5470]. Every design is full rank. This rules out those specific conditional alternatives as an explanation of the main numerical gap; it does not certify general observation invariance.
+
+The more demanding frozen test uses only final endpoints with stationary targets and signed4-degree clamps, and directly fits `H_next`, avoiding subtraction of the potentially distorted current endpoint. It controls current cells, final clamp sign, previous two cells and fixed time terms. This retains3,140 TsayA and3,259 Figure3 transitions, all38 people, full design rank and observed support for every fitted current cell. Its stationary/jump means are1.6756/1.5658degrees in TsayA and1.0301/0.5742 in Figure3. The ratio gap is−0.3770 with a conditional bootstrap interval[−0.7582,+0.0525]; corresponding forecast-MSE gain is0.1075degree². It therefore materially weakens the apparent precision and predictive advantage. Changing the readout/conditioning also changes the estimand; these are not interchangeable estimates of a known invariant update.
+
+After that result, the timestamped sequential amendment predeclared stationary final endpoints h={1,2,3,5}, controlling every intervening cell as well as the prior cells/time. This addresses a concrete rival left by the additive control: `H_t=x_t+V(input_(t−1))` gives `DeltaH=U(input_t)+V(input_t)−V(input_(t−1))`. Even a previous-input adjustment leaves `U+V` at the first next endpoint. On an actual Figure3 schedule, a synthetic0.5degree transient expression term reproduces the first-readout effect and vanishes at later controlled endpoints to1.0e-15. This is a generator counterexample, not a fitted biological explanation.
+
+Actual later Figure3 stationary responses are0.2415[−0.5125,+0.7171],0.2152[−0.1733,+0.5351] and0.0925[−0.4338,+0.4800]degrees at h=2/3/5. Their bootstrap denominator crosses zero in23.7%/12.5%/30.7% of resamples. Later normalized ratios consequently fail as precise durable-response diagnostics. Do not read their extreme point ratios as amplification, reversals of learning, equivalence or proof of a transient process. These finite regressions neither eliminate the history-dependent expression rival nor identify a persistent update difference.
+
+## Published prescription and support
+
+The original pinned `SPEdisruptTElinear` equation is reproduced with **inherited saved nonlinear coefficients**, not an independent nonlinear refit. Reconstructed source SSE is0.0946476283. An independent linear calibration at the saved sigma agrees with its gain/slope. Supplying Figure3's stationary amplitude yields predicted jump ratio0.887054 versus observed0.343082. This is a new consumed-subset calibration of a published functional form, not reconstruction of the publication's original broad-geometry fit or proof of a unique parameter/mechanism. Broad source-bootstrap parameter ranges and boundary estimates remain limitations.
+
+Only±4degrees and zero occur in these consumed source clamps. Figure4 uses±1.75,3.5,5.25,7,8.75,10.5, with no exact magnitude overlap. Independently constructed odd monotone saturating laws agree on all source clamps and disagree by1.350568 normalized source-response units at10.5degrees. The signed stationary enlarged-hit feature is identically zero in the source design: its rank stays4. It increases the Figure4 input design rank2→3 and is present on12,096 Hit exposures. Both size extensions reproduce source predictions exactly while giving different unscored target predictions; all108 witness rows reproduce to floating precision.
+
+This proves nonunique absolute predictions from this subset without added shape/size assumptions. It does not prove every normalized transport test impossible, prove all public motor data insufficient, or estimate an unidentified coefficient as zero. TsayB's success column is identically zero and its coefficient is explicitly unidentified. A source-specific multiplicative normalized test could still be defined, but would require a separately motivated invariance claim; this review does not select that claim using the known published answer.
+
+Kim2019 already treats outcome-dependent update/retention; Tsay2022 supplies the attenuation/task-error prescription; Al-Fawakhiri2023 already reports size/jump discrepancies. The present contribution is the independently verified matched-source comparison and explicit limits from observation/support witnesses. It is not a newly discovered task-success mechanism or publication refutation.
+
+## Reliability, access and decision
+
+All13 author freeze pins,36 stable author artifact pins and the published-function pin pass. Saved first/final warning-era coefficients, forecasts and losses agree; all three independent review runs emit no numerical warnings and use explicit contractions for predictions. Historical stderr behavior is inherited evidence, not independently witnessed. A manually entered amendment clock label is corrected in TIMING.md while frozen bytes are preserved.
+
+No Figure4 outcome value was numerically converted or scored. Its42 input-only identities,40,656 chronological input rows and36,288 exposure rows were checked; previously exposed paper summaries remain exposed. Optional210-person geometry and all other protected branches stayed closed. Review reads are conservatively charged220MB, additive to the author's400MB and all earlier motor lineage; no ingress/requests. Successful peak RSS117,129,216bytes; jobs0.
+
+**Decision:** accept the arithmetic and source-support witness, narrow the scientific interpretation to a conditional next-trial endpoint discrepancy, and retain the failed-readiness decision. Keep Figure4 individual outcomes closed. The review does not recommend another repair or new collection from this branch. A future change in allocation would need independent evidence or a separately justified consequential prediction with an observation model that can distinguish the surviving alternatives.

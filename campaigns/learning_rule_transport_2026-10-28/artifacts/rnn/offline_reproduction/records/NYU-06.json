@@ -1,0 +1,134 @@
+{
+  "subject": "NYU-06",
+  "split": "animal_holdout",
+  "particles": 512,
+  "prefix_n": 1000,
+  "horizon": 1978,
+  "model_sha256": "c7f675d18f4143891ed7d2c76d91f74be74da9565fbae5407952768e2c146940",
+  "forecast_path": "artifacts/forecasts/rnn_source_animals/NYU-06__rnnglm32.npz",
+  "forecast_sha256": "400926775f9117e69edfb3c92b060989b4c8dfa8ef02abf0c2cf316ba06a29c4",
+  "metadata_sha256": "edac69a359f64f72a5d82af11e968693496158fb7769d9ef03ae09ec2cba666b",
+  "seed": 111941818,
+  "exact": true,
+  "max_abs_difference": 0.0,
+  "arrays": {
+    "samples": {
+      "exact": true,
+      "shape": [
+        512,
+        3,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "c1d1160c93d34f7092431a00ae78adc4b3c2524168fd0bd6fbb334ee86592152",
+      "saved_array_sha256": "c1d1160c93d34f7092431a00ae78adc4b3c2524168fd0bd6fbb334ee86592152"
+    },
+    "samples_primary": {
+      "exact": true,
+      "shape": [
+        512,
+        3,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "c1d1160c93d34f7092431a00ae78adc4b3c2524168fd0bd6fbb334ee86592152",
+      "saved_array_sha256": "c1d1160c93d34f7092431a00ae78adc4b3c2524168fd0bd6fbb334ee86592152"
+    },
+    "weights": {
+      "exact": true,
+      "shape": [
+        512,
+        3,
+        3
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "b1db4fec6e754e26ff40dad5c0c29905f21e98c974add6be3d1d7812afbad7e0",
+      "saved_array_sha256": "b1db4fec6e754e26ff40dad5c0c29905f21e98c974add6be3d1d7812afbad7e0"
+    },
+    "hidden_final": {
+      "exact": true,
+      "shape": [
+        512,
+        32
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "1c4877675e5905cb87505c13974067749d807ddb9adac85e1a76e275ea2ebc90",
+      "saved_array_sha256": "1c4877675e5905cb87505c13974067749d807ddb9adac85e1a76e275ea2ebc90"
+    },
+    "counts": {
+      "exact": true,
+      "shape": [
+        512,
+        3,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "55622c158572075979f5232a86802cec37f2a7337d983ce9b02984432c584034",
+      "saved_array_sha256": "55622c158572075979f5232a86802cec37f2a7337d983ce9b02984432c584034"
+    },
+    "pool_fraction": {
+      "exact": true,
+      "shape": [
+        3,
+        6
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "a221c27f6ff33af2cf03396cca0a23e46e793b26c26f0adb4ee7e3b23818611d",
+      "saved_array_sha256": "a221c27f6ff33af2cf03396cca0a23e46e793b26c26f0adb4ee7e3b23818611d"
+    },
+    "session_start": {
+      "exact": true,
+      "shape": [
+        1978
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "9eecbcc432d608fe8a19b2c159ad42e35b14076aa3127aaff544b99746985910",
+      "saved_array_sha256": "9eecbcc432d608fe8a19b2c159ad42e35b14076aa3127aaff544b99746985910"
+    },
+    "seed": {
+      "exact": true,
+      "shape": [],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "6b904de6d3dd7508b14b40170f8a31e3306553630ec7957d9054e77dabb9123b",
+      "saved_array_sha256": "6b904de6d3dd7508b14b40170f8a31e3306553630ec7957d9054e77dabb9123b"
+    }
+  },
+  "original_prefix_objects": [
+    {
+      "path": "data/sealed/animal_holdout/NYU-06/2019-06-11_001_7ddc9265-48e8-4be5-bd95-f6c021b099d7_table.pqt",
+      "bytes": 69956,
+      "sha256": "4db3b16dd070cb081ba532d21d45d945d930d376aa72b4816d5e2354bd424520",
+      "md5": "b65fad1d88a32fa871bd76c718978685",
+      "published_md5": "b65fad1d88a32fa871bd76c718978685"
+    },
+    {
+      "path": "data/sealed/animal_holdout/NYU-06/2019-06-11_001_7ddc9265-48e8-4be5-bd95-f6c021b099d7_repNum.npy",
+      "bytes": 7352,
+      "sha256": "8619d424b5b9312596fa640ac51bcba62dec18e4e46f3f6a9b336a6501db9df9",
+      "md5": "e60fcef3a089ca47ff6aebb2b1579ebb",
+      "published_md5": "e60fcef3a089ca47ff6aebb2b1579ebb"
+    },
+    {
+      "path": "data/sealed/animal_holdout/NYU-06/2019-06-12_001_b2e5187e-c8c0-4eee-a725-e062263c42e5_table.pqt",
+      "bytes": 108275,
+      "sha256": "1b75979b115881743272c3658787ce0887d30a338ba24efed1fb7b9ba7dd5bdb",
+      "md5": "de38b05902b0014638afffa09bd5e97f",
+      "published_md5": "de38b05902b0014638afffa09bd5e97f"
+    },
+    {
+      "path": "data/sealed/animal_holdout/NYU-06/2019-06-12_001_b2e5187e-c8c0-4eee-a725-e062263c42e5_repNum.npy",
+      "bytes": 11824,
+      "sha256": "719e3e18d27cf59e7c23ce884163eeedae553b93667b3cf32f657881439c36c6",
+      "md5": "7422eaf19eccbcafa02ce402d6552fc9",
+      "published_md5": "7422eaf19eccbcafa02ce402d6552fc9"
+    }
+  ],
+  "prefix_rows_per_session": [
+    903,
+    97
+  ],
+  "opportunity_source": "pinned footer counts only",
+  "future_outcomes_read": false,
+  "external_outcomes_read": false,
+  "seconds": 1.8493445419881027
+}

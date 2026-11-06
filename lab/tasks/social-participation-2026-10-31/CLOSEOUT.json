@@ -1,0 +1,215 @@
+{
+  "completed_utc": "2026-10-31T20:54:05.805274+00:00",
+  "decisions": [
+    {
+      "baseline": "expression",
+      "meaningful_joint_and_choice_lead": false
+    },
+    {
+      "baseline": "cancellation",
+      "meaningful_joint_and_choice_lead": false
+    }
+  ],
+  "selected_comparisons": [
+    {
+      "baseline": "expression",
+      "model": "primacy",
+      "metric": "joint",
+      "gain_nat": 0.011406435663865714,
+      "date_bootstrap_95": [
+        -0.0009352776504141088,
+        0.024617279241967712
+      ],
+      "equal_date_gain": 0.014463342628016445,
+      "n": 462,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "expression",
+      "model": "primacy",
+      "metric": "eligible_choice",
+      "gain_nat": 0.02691019745769428,
+      "date_bootstrap_95": [
+        0.00036690271307337894,
+        0.05540758753170697
+      ],
+      "equal_date_gain": 0.03257938264786937,
+      "n": 205,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "expression",
+      "model": "primacy",
+      "metric": "T_eligible_choice",
+      "gain_nat": 0.02766678464082514,
+      "date_bootstrap_95": [
+        -0.04128108139564845,
+        0.08537416217413304
+      ],
+      "equal_date_gain": -0.001179894116857921,
+      "n": 64,
+      "dates_with_observations": 14
+    },
+    {
+      "baseline": "cancellation",
+      "model": "primacy",
+      "metric": "joint",
+      "gain_nat": 0.005289077419391623,
+      "date_bootstrap_95": [
+        -0.003935565879930509,
+        0.016082585198626324
+      ],
+      "equal_date_gain": 0.009085174575831108,
+      "n": 462,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "cancellation",
+      "model": "primacy",
+      "metric": "eligible_choice",
+      "gain_nat": 0.011608294447458378,
+      "date_bootstrap_95": [
+        -0.009132910411731655,
+        0.03346025451040634
+      ],
+      "equal_date_gain": 0.014562897205517686,
+      "n": 205,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "cancellation",
+      "model": "primacy",
+      "metric": "T_eligible_choice",
+      "gain_nat": 0.03373692716654677,
+      "date_bootstrap_95": [
+        -0.035750699135094266,
+        0.0929158828356853
+      ],
+      "equal_date_gain": 0.004365707095029221,
+      "n": 64,
+      "dates_with_observations": 14
+    }
+  ],
+  "common_R_witness_summary": [
+    {
+      "R": 1.0,
+      "all_six_feasible": true,
+      "mean_T_latent_reference_preference": 0.6064201529933703,
+      "max_cell_error": 2.7755575615628914e-17
+    },
+    {
+      "R": 1.25,
+      "all_six_feasible": true,
+      "mean_T_latent_reference_preference": 0.5524691505934994,
+      "max_cell_error": 5.551115123125783e-17
+    },
+    {
+      "R": 1.5,
+      "all_six_feasible": true,
+      "mean_T_latent_reference_preference": 0.5073964636596731,
+      "max_cell_error": 8.326672684688674e-17
+    },
+    {
+      "R": 1.5453637704557104,
+      "all_six_feasible": true,
+      "mean_T_latent_reference_preference": 0.5000000000000001,
+      "max_cell_error": 5.551115123125783e-17
+    },
+    {
+      "R": 1.6666666666666667,
+      "all_six_feasible": true,
+      "mean_T_latent_reference_preference": 0.48124787805271396,
+      "max_cell_error": 2.7755575615628914e-17
+    },
+    {
+      "R": 1.9317047130696379,
+      "all_six_feasible": true,
+      "mean_T_latent_reference_preference": 0.4448239322397782,
+      "max_cell_error": 5.551115123125783e-17
+    },
+    {
+      "R": 2.0,
+      "all_six_feasible": true,
+      "mean_T_latent_reference_preference": 0.4363191043790261,
+      "max_cell_error": 2.7755575615628914e-17
+    },
+    {
+      "R": 2.5,
+      "all_six_feasible": true,
+      "mean_T_latent_reference_preference": 0.38277876354857127,
+      "max_cell_error": 2.7755575615628914e-17
+    },
+    {
+      "R": 3.0,
+      "all_six_feasible": true,
+      "mean_T_latent_reference_preference": 0.3409793145836747,
+      "max_cell_error": 5.551115123125783e-17
+    }
+  ],
+  "first_courter_independent_compatibility_interval": [
+    0.4181818181818182,
+    0.7391304347826086
+  ],
+  "theta_cases": [
+    {
+      "theta": 0.5,
+      "feasible": true,
+      "max_cell_error": 2.7755575615628914e-17
+    },
+    {
+      "theta": 0.45,
+      "feasible": true,
+      "max_cell_error": 8.326672684688674e-17
+    },
+    {
+      "theta": 0.375,
+      "feasible": false,
+      "max_cell_error": null
+    }
+  ],
+  "first_courter_diagnostic": {
+    "counts_nk_reference_then_opposite_first": [
+      29,
+      23,
+      35,
+      17
+    ],
+    "copy_reference_first": 0.7931034482758621,
+    "copy_opposite_first": 0.4857142857142857,
+    "difference": 0.3073891625615764,
+    "date_bootstrap_95": [
+      0.1389934577434577,
+      0.46562042788129726
+    ],
+    "bootstrap_resamples": 5000,
+    "undefined_resamples": 0,
+    "seed": 20261031,
+    "accept_first_wait_point_inequality_feasible": false,
+    "restricted_model_required_inequality": "q_reference_first <= theta <= q_opposite_first",
+    "interpretation": "A descriptive violation under independent W/first-courter, preferential accept-matched-first, and equal completion after waiting. Not a randomized/causal test or calibrated population interval."
+  },
+  "positive_null_controls": [
+    {
+      "true_g": 1.0,
+      "fitted_g": 1.0234854826209048,
+      "joint_gain": 0.06804406578244837,
+      "eligible_gain": 0.107864334021754
+    },
+    {
+      "true_g": 0.0,
+      "fitted_g": 0.0,
+      "joint_gain": -1.4285848060069384e-09,
+      "eligible_gain": 2.5600785935608883e-09
+    }
+  ],
+  "original_pins_intact": true,
+  "independent_review_status": "not yet performed",
+  "recommendation": "Bank bounded result; fresh independent audit. No archive model repair or new acquisition by this worker.",
+  "resources": {
+    "elapsed_wall_seconds_from_START": 1092.592274,
+    "charged_new_ingress_bytes": 6100505,
+    "read_decode_charge_bytes": 315000000,
+    "recorded_peak_successful_scientific_RSS_bytes": 75579392,
+    "jobs": 0
+  }
+}

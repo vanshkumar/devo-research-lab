@@ -1,0 +1,164 @@
+{
+  "subject": "SWC_019",
+  "split": "lab_holdout",
+  "particles": 512,
+  "prefix_n": 1000,
+  "horizon": 5000,
+  "model_sha256": "c7f675d18f4143891ed7d2c76d91f74be74da9565fbae5407952768e2c146940",
+  "forecast_path": "artifacts/forecasts/rnn_source_labs/SWC_019__rnnglm32.npz",
+  "forecast_sha256": "82fde6a19b2d5bde28d73155f5a2446f8d71a4686aa8c8702d85e5d1966662e2",
+  "metadata_sha256": "0c895539b0997f80a19b6339da6531c782736d9eaceda275114bc6eedcb90b01",
+  "seed": 138794650,
+  "exact": true,
+  "max_abs_difference": 0.0,
+  "arrays": {
+    "samples": {
+      "exact": true,
+      "shape": [
+        512,
+        10,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "7f68babf3d067cbe02ff4083d0a44cc2ed406225f2252216557d5567b6a59729",
+      "saved_array_sha256": "7f68babf3d067cbe02ff4083d0a44cc2ed406225f2252216557d5567b6a59729"
+    },
+    "samples_primary": {
+      "exact": true,
+      "shape": [
+        512,
+        10,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "7f68babf3d067cbe02ff4083d0a44cc2ed406225f2252216557d5567b6a59729",
+      "saved_array_sha256": "7f68babf3d067cbe02ff4083d0a44cc2ed406225f2252216557d5567b6a59729"
+    },
+    "weights": {
+      "exact": true,
+      "shape": [
+        512,
+        10,
+        3
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "a1ddef73d5b7a5ea84ccdf5b73565d64b3f3ecf5c5114651c7a1b005590ad724",
+      "saved_array_sha256": "a1ddef73d5b7a5ea84ccdf5b73565d64b3f3ecf5c5114651c7a1b005590ad724"
+    },
+    "hidden_final": {
+      "exact": true,
+      "shape": [
+        512,
+        32
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "748cbd32e0fa521a3620258f5a15b77abbf771582d466394a151a48e182d2b7a",
+      "saved_array_sha256": "748cbd32e0fa521a3620258f5a15b77abbf771582d466394a151a48e182d2b7a"
+    },
+    "counts": {
+      "exact": true,
+      "shape": [
+        512,
+        10,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "d28ff20f69bf0f5a9d868c6205274874361f4a3d67fd5059b337900a70d3a7eb",
+      "saved_array_sha256": "d28ff20f69bf0f5a9d868c6205274874361f4a3d67fd5059b337900a70d3a7eb"
+    },
+    "pool_fraction": {
+      "exact": true,
+      "shape": [
+        10,
+        6
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "465e60e0fef43bd2f4e204b1be6a8f599f38ebca5b57827753f84e54097206ba",
+      "saved_array_sha256": "465e60e0fef43bd2f4e204b1be6a8f599f38ebca5b57827753f84e54097206ba"
+    },
+    "session_start": {
+      "exact": true,
+      "shape": [
+        5000
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "5f3f58d2fd25df1dd36ea2cb5cd1af3e432da8d42149752d98db03a8a68bde0c",
+      "saved_array_sha256": "5f3f58d2fd25df1dd36ea2cb5cd1af3e432da8d42149752d98db03a8a68bde0c"
+    },
+    "seed": {
+      "exact": true,
+      "shape": [],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "7899ef1e77ce6c97e394ae1882c62c258f77e67424f2044f1533dc4034d1d7e7",
+      "saved_array_sha256": "7899ef1e77ce6c97e394ae1882c62c258f77e67424f2044f1533dc4034d1d7e7"
+    }
+  },
+  "original_prefix_objects": [
+    {
+      "path": "data/sealed/lab_holdout/SWC_019/2019-08-27_001_2c357db5-1a40-4148-9974-6435d4e4fad4_table.pqt",
+      "bytes": 29685,
+      "sha256": "2b3261ac6b575c677ef388a575703f8a9601d87bec2c01d33ed155d9963eaec3",
+      "md5": "5479d3ce72246c6939231b920ea69db5",
+      "published_md5": "5479d3ce72246c6939231b920ea69db5"
+    },
+    {
+      "path": "data/sealed/lab_holdout/SWC_019/2019-08-27_001_2c357db5-1a40-4148-9974-6435d4e4fad4_repNum.npy",
+      "bytes": 2920,
+      "sha256": "edf6a3868ca600d2c99ef49927331b2ecfea21041f639302a373ad7f7870a43e",
+      "md5": "c21ce6742843c2003c7090b9d1ee599e",
+      "published_md5": "c21ce6742843c2003c7090b9d1ee599e"
+    },
+    {
+      "path": "data/sealed/lab_holdout/SWC_019/2019-08-28_001_98203818-5d50-47fc-9ccf-71ee1154089e_table.pqt",
+      "bytes": 35390,
+      "sha256": "20d70ec00c7ea93025e853f1e27e742f7494dbd7b30b5b8c92987b3c186706be",
+      "md5": "8040ae061448d3184e34896e0dc30a06",
+      "published_md5": "8040ae061448d3184e34896e0dc30a06"
+    },
+    {
+      "path": "data/sealed/lab_holdout/SWC_019/2019-08-28_001_98203818-5d50-47fc-9ccf-71ee1154089e_repNum.npy",
+      "bytes": 3696,
+      "sha256": "af56fe028c479f8ca0f9be1c45902ede3b3fca4590378e7dd5fa79913fed49eb",
+      "md5": "92b9011e07e488f0ca63f71913d31947",
+      "published_md5": "92b9011e07e488f0ca63f71913d31947"
+    },
+    {
+      "path": "data/sealed/lab_holdout/SWC_019/2019-08-29_001_4a2e02bd-1123-4b69-b62a-4842a5261e67_table.pqt",
+      "bytes": 17907,
+      "sha256": "2c9c55ca612c6719dabb1e2c0f820a7ab0a5fe52b8c944b0b66d4406a5c41b67",
+      "md5": "6d8397c153b3f8f0021ce0bb9de3e46e",
+      "published_md5": "6d8397c153b3f8f0021ce0bb9de3e46e"
+    },
+    {
+      "path": "data/sealed/lab_holdout/SWC_019/2019-08-29_001_4a2e02bd-1123-4b69-b62a-4842a5261e67_repNum.npy",
+      "bytes": 1232,
+      "sha256": "1a753c3979127223d3f518cb112d3a5ee2b2f8f1e5b10afe67206fc36eddfddb",
+      "md5": "d5c8b306804fd6c3de0b03a25450f0b9",
+      "published_md5": "d5c8b306804fd6c3de0b03a25450f0b9"
+    },
+    {
+      "path": "data/sealed/lab_holdout/SWC_019/2019-08-30_001_350ff31c-f127-4464-9d54-eb182ed4cc14_table.pqt",
+      "bytes": 23403,
+      "sha256": "4491548168428feb927d15298f4f6c4fce32eed25a4c4bd06a297f315d14da6c",
+      "md5": "55c8c60979e179dcb8a124184a7a71b5",
+      "published_md5": "55c8c60979e179dcb8a124184a7a71b5"
+    },
+    {
+      "path": "data/sealed/lab_holdout/SWC_019/2019-08-30_001_350ff31c-f127-4464-9d54-eb182ed4cc14_repNum.npy",
+      "bytes": 2056,
+      "sha256": "b404658e3f89797b64931cb7804c292680cbd7d62737f79003eff2d0818c3231",
+      "md5": "38edb2cfeaf51c4a9916bcd44b3980f6",
+      "published_md5": "38edb2cfeaf51c4a9916bcd44b3980f6"
+    }
+  ],
+  "prefix_rows_per_session": [
+    349,
+    446,
+    138,
+    67
+  ],
+  "opportunity_source": "pinned footer counts only",
+  "future_outcomes_read": false,
+  "external_outcomes_read": false,
+  "seconds": 4.396550000004936
+}

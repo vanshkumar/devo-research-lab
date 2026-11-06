@@ -1,0 +1,85 @@
+{
+  "results": [
+    {
+      "plant": 100,
+      "mode": "oracle",
+      "rounds": 20,
+      "queries": 321,
+      "initial_loss": 7.812979913896775,
+      "final_loss": 7.249972902934237,
+      "improvement": 0.07206047080207245,
+      "final_order": 4,
+      "final_cost": 7.249972902934237,
+      "feedback": {
+        "logical_feedback_slots": 321,
+        "source_simulations": 0
+      }
+    },
+    {
+      "plant": 100,
+      "mode": "clocked",
+      "rounds": 20,
+      "queries": 321,
+      "initial_loss": 7.812979913896775,
+      "final_loss": 0.03477751290576687,
+      "improvement": 0.9955487517836941,
+      "final_order": 0,
+      "final_cost": 1.4540659164941272,
+      "feedback": {
+        "logical_feedback_slots": 321,
+        "source_simulations": 550,
+        "cache_hits": 46
+      }
+    },
+    {
+      "plant": 100,
+      "mode": "unregistered",
+      "rounds": 20,
+      "queries": 321,
+      "initial_loss": 7.812979913896775,
+      "final_loss": 0.12970240667474423,
+      "improvement": 0.9833991117212466,
+      "final_order": 0,
+      "final_cost": 1.827764100268307,
+      "feedback": {
+        "logical_feedback_slots": 321,
+        "source_simulations": 564,
+        "cache_hits": 39
+      }
+    },
+    {
+      "plant": 100,
+      "mode": "onset_reset",
+      "rounds": 20,
+      "queries": 321,
+      "initial_loss": 7.812979913896775,
+      "final_loss": 0.03477751290576687,
+      "improvement": 0.9955487517836941,
+      "final_order": 0,
+      "final_cost": 1.4540686572955874,
+      "feedback": {
+        "logical_feedback_slots": 321,
+        "source_simulations": 550,
+        "cache_hits": 46
+      }
+    },
+    {
+      "plant": 100,
+      "mode": "no_clock",
+      "rounds": 20,
+      "queries": 321,
+      "initial_loss": 7.812979913896775,
+      "final_loss": 0.002263736115898468,
+      "improvement": 0.9997102595756234,
+      "final_order": 0,
+      "final_cost": 1.4928271246086027,
+      "feedback": {
+        "logical_feedback_slots": 321,
+        "source_simulations": 568,
+        "cache_hits": 37
+      }
+    }
+  ],
+  "seconds": 338.05281033401843,
+  "reference": 1.491712606353157
+}

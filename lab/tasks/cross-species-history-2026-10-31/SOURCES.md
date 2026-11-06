@@ -1,0 +1,20 @@
+# Source and literature record
+
+All empirical observations are local consumed development. No new raw data acquired. The historical manifests and frozen studies remain authoritative; this task does not change their exposure.
+
+## Empirical lineage
+
+- Human Hoxha et al. release: [Zenodo23072548](https://zenodo.org/records/23072548). Source CSV SHA256 `45dcce14e30edba5e38eaeaf8c40edb8cd1a0555928070b44779d0d47458bbe9`, inherited from the prior pinned campaign. This task reads only its two previously extracted numeric files. Current numeric hashes and per-subject trial/session joins are saved in SUPPORT.json and ALLOWED_MANIFEST.json; a new original-CSV reconstruction was planned but unrun. Prior source/identity audits are at `campaigns/human_learning_routes_2026-10-28/experiments/source_audit/` and the prior REPORT. Upstream release/exclusions and instruction/practice/date confounding remain.
+- Mouse IBL standard-training histories: `campaigns/learning_rule_transport_2026-10-28/protocols/{SPLIT.json,EXPOSURE.jsonl,VALIDATION_STATUS.json,DATA.md}` and `data/{INDEX.json,ROW_COUNTS.json}` certify 74development/48fully consumed source animals. Every admitted NPZ hash matches the old processed-outcome ledger. Session metadata link date/number/eid/datasetID to the pinned original index. This task reads prefixes only, never external fip/Pan objects. Original-object hashes/licenses remain in the historical manifest; no claim of a new original-Parquet reconstruction is made.
+- Mouse trainer code/methods are reused from pinned `sources/trainer/` and `protocols/TRAINER.md` in that campaign. They document adaptive correction and anti-bias behavior, wheel/choice convention, omission handling and uncertain operator settings. These are not human probability blocks. Source/publication licenses are retained with those original archives; this task adds no redistributed raw source.
+
+## New bounded literature verification
+
+Eight logical operations, including failures; tool records in PUBLIC_REQUESTS.json and PUBLIC_REQUESTS_EXTRA.json. Full20MB ingress cap reserved conservatively because server transport bytes were not exposed. No more requests after resource stop.
+
+1. [Fernandez/Fengler/Urai author repository](https://github.com/kiante-fernandez/2023_choicehistory_HSSM): primary author README inspected. It describes a common human/mouse history-dependent evidence-accumulation strategy, with mouse HSSM analysis and code. Thus generic cross-species history dependence and such a model comparison are prior work. No source code execution or new paper-data download here. Its MIT code license is displayed. The [2025 preprint](https://doi.org/10.1101/2025.08.22.671879) abstract was found in search; a full primary fetch returned403. This task does not replicate or refute its drift/starting-point comparison.
+2. [IBL2021 standardized behavior](https://doi.org/10.7554/eLife.63711): search excerpts and saved prior primary/method audit cover adaptive training, across-lab learning and past-success/failure/prior effects. New publisher fetch returned404 and PMC returned a browser challenge. No bypass was attempted; do not claim a new complete primary full-text inspection. [IBL project summary](https://www.internationalbrainlab.com/standardized-behavior).
+3. [Weilnhammer et al.2023, PLOS Biology](https://doi.org/10.1371/journal.pbio.3002410): primary page inspected. It analyzes humans/mice and proposes changing sensory/history weighting. It is relevant prior work and a measurement/strategy alternative, not evidence that the specific baseline control here identifies the same latent modes. Article is CC BY.
+4. Earlier human-campaign source audit already inspected [Urai et al.2019](https://doi.org/10.7554/eLife.46331), instruction task code and the human authors' analysis. This is inherited context, not new complete novelty verification.
+
+The contribution is new to this investigation: a common-support, source-fixed predictive restriction whose apparent transfer penalty changes under a predeclared stimulus-history baseline. Priority and biological explanation remain unestablished.

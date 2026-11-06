@@ -1,0 +1,6 @@
+# Proposed project learning for PI integration
+
+**2026-10-30 — Spaced-selection complete-history readiness**
+- Observation: The actual public 572,563,931-byte archive was received; its scanned December–May daily files omit February 14–29. A fixed one-in-eight learner projection, post-gap installations, first-21-day horizon, stable German/B policy/context and item-counter completeness retain only 6 random fit/2 source validation/10 difficulty/4 SELECT people. Only 32.28%/29.56% of difficulty/SELECT repeats have populated source joint support. A source-only audit finds count increments of one across all prior/current correctness combinations, with 229 continuity violations in the ten predeclared excluded source learners. No target correct/reply was analysed.
+- Action: Reuse the saved archive/projections and exact exposure record. Treat this as a failed readiness test of this restrictive design, not an impossibility result for conditional memory or the whole archive. A different horizon/projection or missing-history model needs an explicit new design; do not drop count discontinuities or count rows as independent learners to force the current comparison. The 18 field-audited source people, including the two proposed validation people, are consumed development evidence.
+- Confidence: high

@@ -1,0 +1,311 @@
+{
+  "status": "pass",
+  "plants": [
+    {
+      "plant_id": 0,
+      "seed": 31000,
+      "target_reachability_loss": 0.0,
+      "target_feature_energy": 4.0,
+      "arms": {
+        "learned35_joint": {
+          "rounds": 8,
+          "queries": 81,
+          "accepted_updates": 8,
+          "reward_improvements_with_target_deterioration": 0,
+          "loss_max_error": 1.7763568394002505e-15,
+          "initial_true_loss": 5.808191411178267,
+          "final_true_loss": 1.2690625939012496,
+          "final_action": [
+            0.7745181379995778,
+            -0.026451689322887773,
+            -0.6019131221905829,
+            -0.1684802968693606,
+            0.6
+          ]
+        },
+        "oracle_joint": {
+          "rounds": 32,
+          "queries": 321,
+          "accepted_updates": 28,
+          "reward_improvements_with_target_deterioration": 0,
+          "loss_max_error": 1.7763568394002505e-15,
+          "initial_true_loss": 5.808191411178267,
+          "final_true_loss": 0.003547338579884425,
+          "final_action": [
+            0.9245181379995777,
+            -0.45145168932288776,
+            -0.801913122190583,
+            0.10651970313063941,
+            1.0
+          ]
+        }
+      },
+      "dynamics": [
+        {
+          "arm": "learned35_joint",
+          "location": "initial",
+          "independent_cost": 3.7505488686308954,
+          "saved_cost": 3.750548868630896,
+          "independent_source_context_max_error": 8.881784197001252e-16,
+          "independent_saved_cost_error": 4.440892098500626e-16,
+          "matrices": {
+            "W": {
+              "shape": [
+                600,
+                15
+              ],
+              "sparse": true,
+              "nonzero": 450,
+              "minimum": 0.0,
+              "maximum": 0.06666666666666667
+            },
+            "JEE": {
+              "shape": [
+                600,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 180000,
+              "minimum": 0.0,
+              "maximum": 0.008785810211621725
+            },
+            "JEI": {
+              "shape": [
+                600,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.2376622115240877
+            },
+            "JIE": {
+              "shape": [
+                150,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.14453481846936475
+            },
+            "JII": {
+              "shape": [
+                150,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 11250,
+              "minimum": 0.0,
+              "maximum": 0.02495799399132274
+            }
+          }
+        },
+        {
+          "arm": "learned35_joint",
+          "location": "final",
+          "independent_cost": 1.8134077004140658,
+          "saved_cost": 1.813407700414066,
+          "independent_source_context_max_error": 4.440892098500626e-16,
+          "independent_saved_cost_error": 2.220446049250313e-16,
+          "matrices": {
+            "W": {
+              "shape": [
+                600,
+                15
+              ],
+              "sparse": true,
+              "nonzero": 450,
+              "minimum": 0.0,
+              "maximum": 0.06666666666666667
+            },
+            "JEE": {
+              "shape": [
+                600,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 180000,
+              "minimum": 0.0,
+              "maximum": 0.008785810211621725
+            },
+            "JEI": {
+              "shape": [
+                600,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.2376622115240877
+            },
+            "JIE": {
+              "shape": [
+                150,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.14453481846936475
+            },
+            "JII": {
+              "shape": [
+                150,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 11250,
+              "minimum": 0.0,
+              "maximum": 0.02495799399132274
+            }
+          }
+        },
+        {
+          "arm": "learned35_exact_target",
+          "location": "target",
+          "independent_cost": 1.420300103177171,
+          "independent_saved_context_max_error": 4.440892098500626e-16,
+          "matrices": {
+            "W": {
+              "shape": [
+                600,
+                15
+              ],
+              "sparse": true,
+              "nonzero": 450,
+              "minimum": 0.0,
+              "maximum": 0.06666666666666667
+            },
+            "JEE": {
+              "shape": [
+                600,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 180000,
+              "minimum": 0.0,
+              "maximum": 0.008785810211621725
+            },
+            "JEI": {
+              "shape": [
+                600,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.2376622115240877
+            },
+            "JIE": {
+              "shape": [
+                150,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.14453481846936475
+            },
+            "JII": {
+              "shape": [
+                150,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 11250,
+              "minimum": 0.0,
+              "maximum": 0.02495799399132274
+            }
+          }
+        }
+      ],
+      "burn_state_errors": {
+        "untutored": 2.6645352591003757e-15,
+        "learned35": 2.6645352591003757e-15,
+        "learned140": 3.9968028886505635e-15,
+        "shuffled35": 2.6645352591003757e-15
+      }
+    },
+    {
+      "plant_id": 1,
+      "seed": 31001,
+      "target_reachability_loss": 0.0,
+      "target_feature_energy": 3.999999999999999,
+      "arms": {
+        "learned35_joint": {
+          "rounds": 8,
+          "queries": 81,
+          "accepted_updates": 3,
+          "reward_improvements_with_target_deterioration": 0,
+          "loss_max_error": 3.552713678800501e-15,
+          "initial_true_loss": 9.196659169582565,
+          "final_true_loss": 3.999999999999999,
+          "final_action": [
+            -0.8532332237562861,
+            -0.14136978794019717,
+            -0.5163487695310511,
+            -0.386785616038789,
+            0.0
+          ]
+        },
+        "oracle_joint": {
+          "rounds": 32,
+          "queries": 321,
+          "accepted_updates": 3,
+          "reward_improvements_with_target_deterioration": 0,
+          "loss_max_error": 3.552713678800501e-15,
+          "initial_true_loss": 9.196659169582565,
+          "final_true_loss": 3.999999999999999,
+          "final_action": [
+            -0.8532332237562861,
+            -0.14136978794019717,
+            -0.5163487695310511,
+            -0.386785616038789,
+            0.0
+          ]
+        }
+      },
+      "dynamics": []
+    }
+  ],
+  "plants_checked": 2,
+  "arms_checked": 4,
+  "full_query_losses_and_optimizer_replay": true,
+  "seeded_plant_target_and_blind_initialization_reconstruction": true,
+  "source_files_unchanged": true,
+  "evidence_unchanged": true,
+  "independent_dynamics_probes": 3,
+  "verification_code_sha256": "21a793d0aec6c9ded73ecbd228279db31fc371f5ef6854d611b44c61658b8528",
+  "production_code_sha256": "19e6bef08bbd7d9a11e937c64e178fb707284926982d6a92ade08da67174ec23",
+  "evidence_sha256": {
+    "results/plant_000/inputs.npz": "83dcc76398bf222bf3203aa44039b5d5f0ee4b834d3f79220a6e15a3065a9086",
+    "results/plant_000/learned35_joint.json": "c85521e11f1d70832c7314f45452e93d7d3c04ccce71d082f42a2cea39b19db8",
+    "results/plant_000/learned35_joint_checkpoint.pkl": "cca6e3d09beb077ba5006d3f242e1318cfb7dc89b7871ec3ecce3e9641c9bfec",
+    "results/plant_000/learned35_joint_queries.npz": "0db43951e03a67a4fdd517a50d87f1c2bad2cf1798667192589da320ab0e093d",
+    "results/plant_000/learned35_joint_trajectory.npz": "5a4473d698f5cceff3f0f2ed91647fee6187bbff05cf1d14f973863a929e6ad7",
+    "results/plant_000/oracle_joint.json": "0f51d9684b3e908caa5854207d3402a11fcffc7b385489aee617b42d0a8d62da",
+    "results/plant_000/oracle_joint_checkpoint.pkl": "098707b7478fd0d7501e1d6e404551e692dffe88251b89ab21033da5d4f24cfc",
+    "results/plant_000/oracle_joint_queries.npz": "1e75f7e9fbcdaaaa81f7817bf3c090c1ac1678d05a15ed2f480d363e1db212c7",
+    "results/plant_000/oracle_joint_trajectory.npz": "0889d97f077047201f14f5ed6bb4a0ef5cd861785cf065504763f0d6d04cbc11",
+    "results/plant_000/preparation.json": "81c303897502aac34070fa591eed9187e88040a3eeef1c6b34627dd8be378df9",
+    "results/plant_000/state.pkl": "f4dddd5e48e7012f62579e8f7a3c24efab4a52ef41e472a9849dd41a59b00895",
+    "results/plant_001/inputs.npz": "a3ee3b379ed0d2585ae027fda1f77598239bea3791771e056e477d09bba0a3b5",
+    "results/plant_001/learned35_joint.json": "a310a2bb04afb78bdaa67c8090d1cc19324c87831bf23bf48b7557ac79fe10d3",
+    "results/plant_001/learned35_joint_checkpoint.pkl": "a7751c87a198321f8cdbbe99273c1ba3a21382142a15315f6dcc6e0982e22598",
+    "results/plant_001/learned35_joint_queries.npz": "a41f02d22d053cf8d3365118fa11af6f2ec0ad84e6b95f5d730d7d2d30265ea5",
+    "results/plant_001/learned35_joint_trajectory.npz": "3da79eccc1fe7be01a5ba7e4895487ab6365fe098635996d2afd178cf62c8ea1",
+    "results/plant_001/oracle_joint.json": "43a29ed4a111438facfcdeadbb0290af73a394f5a05fa0446ae7ff0f295ae119",
+    "results/plant_001/oracle_joint_checkpoint.pkl": "6759e77ece350d80115986c37864d5669ddbf89cd4a4eb901ced2378f4cf5d5c",
+    "results/plant_001/oracle_joint_queries.npz": "92ef9596b058c34e72fca22b2afee33357f106ec89bca9e54ca206b439285788",
+    "results/plant_001/oracle_joint_trajectory.npz": "fc2df6892ed8ac2f5873199ac565a13d49a119e1809455c9b5616558d1a98f63",
+    "results/plant_001/preparation.json": "c4af7e6621b53bfae2c4f571d69856a38d29a3e0f46ca1e5d11d2364b12809c6",
+    "results/plant_001/state.pkl": "aeae1f5d5693a3217726f7bf8117dd7945632254886cc8092f75cd73dd401e8b"
+  },
+  "limitations": [
+    "Same simulated plants, not an independent empirical replication.",
+    "Training plasticity is source code; it is not independently reimplemented.",
+    "Frozen dynamics is independently checked only for declared selected plants/probes.",
+    "Target-blindness combines seeded input reconstruction, optimizer replay and code inspection; no sandbox separation is claimed."
+  ]
+}

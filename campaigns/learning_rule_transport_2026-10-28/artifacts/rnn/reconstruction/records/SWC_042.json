@@ -1,0 +1,699 @@
+{
+  "subject": "SWC_042",
+  "split": "lab_holdout",
+  "lab": "hoferlab",
+  "rows_read": 6000,
+  "original_provenance": [
+    {
+      "path": "data/sealed/lab_holdout/SWC_042/2020-02-29_001_7e26f9a4-e2fe-4831-ab79-12f58f960b2b_table.pqt",
+      "dataset_id": "6e8d2aa2-3ad0-485c-ac76-256c7d7afc26",
+      "session_uuid": "7e26f9a4-e2fe-4831-ab79-12f58f960b2b",
+      "date": "2020-02-29",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.3.1",
+      "md5": "9faa7a9ec7ede89584850623affc1c0d",
+      "sha256": "53a712de5fb3aebe26e48bea1cf82a48a5b068879c36d0de4814095ab285f5cd",
+      "bytes": 30569,
+      "cache_md5": "9faa7a9ec7ede89584850623affc1c0d",
+      "bounded_rows": 311,
+      "footer_rows": 311,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/lab_holdout/SWC_042/2020-02-29_001_7e26f9a4-e2fe-4831-ab79-12f58f960b2b_table.pqt') LIMIT 311"
+    },
+    {
+      "path": "data/sealed/lab_holdout/SWC_042/2020-03-02_001_631520f8-5c97-4476-b090-d0f0b0a80122_table.pqt",
+      "dataset_id": "13f417d8-6ff9-4bba-8d52-3495b718db4a",
+      "session_uuid": "631520f8-5c97-4476-b090-d0f0b0a80122",
+      "date": "2020-03-02",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.3.1",
+      "md5": "a401c591b947e70abc8ebbd12825ece1",
+      "sha256": "e4716e3e3e11e3cec2460d4af990d9428fe745f4a81860fbc603e742be11f772",
+      "bytes": 18862,
+      "cache_md5": "a401c591b947e70abc8ebbd12825ece1",
+      "bounded_rows": 134,
+      "footer_rows": 134,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/lab_holdout/SWC_042/2020-03-02_001_631520f8-5c97-4476-b090-d0f0b0a80122_table.pqt') LIMIT 134"
+    },
+    {
+      "path": "data/sealed/lab_holdout/SWC_042/2020-03-03_001_1c6a7eb6-36d8-4bf7-b771-02ca64dc44f6_table.pqt",
+      "dataset_id": "0592c555-be96-4eec-abfa-a9009ec5a1d3",
+      "session_uuid": "1c6a7eb6-36d8-4bf7-b771-02ca64dc44f6",
+      "date": "2020-03-03",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.3.1",
+      "md5": "38fed69b1b39fe7da4c18e924e2177d8",
+      "sha256": "451f8c6518a69e3143e927b1b233fddee63bd9eeda1554aeef7c61022b8b1876",
+      "bytes": 34072,
+      "cache_md5": "38fed69b1b39fe7da4c18e924e2177d8",
+      "bounded_rows": 364,
+      "footer_rows": 364,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/lab_holdout/SWC_042/2020-03-03_001_1c6a7eb6-36d8-4bf7-b771-02ca64dc44f6_table.pqt') LIMIT 364"
+    },
+    {
+      "path": "data/sealed/lab_holdout/SWC_042/2020-03-04_001_213f7f9f-e32f-4900-827b-3306d333244e_table.pqt",
+      "dataset_id": "7f1adbec-2049-44b4-8ebb-431678f79479",
+      "session_uuid": "213f7f9f-e32f-4900-827b-3306d333244e",
+      "date": "2020-03-04",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.3.1",
+      "md5": "aec84a6518299a902fd0c98b1964f012",
+      "sha256": "363a74cec7e97bbd5f383d08edd5ea815805e6e93559e998e67f9bad9fd13c2d",
+      "bytes": 21851,
+      "cache_md5": "aec84a6518299a902fd0c98b1964f012",
+      "bounded_rows": 179,
+      "footer_rows": 179,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/lab_holdout/SWC_042/2020-03-04_001_213f7f9f-e32f-4900-827b-3306d333244e_table.pqt') LIMIT 179"
+    },
+    {
+      "path": "data/sealed/lab_holdout/SWC_042/2020-03-05_002_d63f8d92-a6ce-4997-b8d9-342357833c88_table.pqt",
+      "dataset_id": "0103dd62-17af-4666-9219-caf2d328d309",
+      "session_uuid": "d63f8d92-a6ce-4997-b8d9-342357833c88",
+      "date": "2020-03-05",
+      "number": 2,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.3.1",
+      "md5": "82ccaf36c747a1c5282930ceae2d38d6",
+      "sha256": "0848517252cf9d96ae5008e54ab77d72224975c237cca168714add377929cdf5",
+      "bytes": 30788,
+      "cache_md5": "82ccaf36c747a1c5282930ceae2d38d6",
+      "bounded_rows": 314,
+      "footer_rows": 314,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/lab_holdout/SWC_042/2020-03-05_002_d63f8d92-a6ce-4997-b8d9-342357833c88_table.pqt') LIMIT 314"
+    },
+    {
+      "path": "data/sealed/lab_holdout/SWC_042/2020-03-06_001_b2a85508-5f26-4bfa-aeb4-07e03815a479_table.pqt",
+      "dataset_id": "f89bf8b9-33b0-4630-843b-d3d69edcd1e6",
+      "session_uuid": "b2a85508-5f26-4bfa-aeb4-07e03815a479",
+      "date": "2020-03-06",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.3.1",
+      "md5": "4fc12bd0f1635e59131c06e8f7ad17bd",
+      "sha256": "71ab3c81abe3bcba00ec9afd5f4820fec0a344dc3d97826e623764fa59068369",
+      "bytes": 28417,
+      "cache_md5": "4fc12bd0f1635e59131c06e8f7ad17bd",
+      "bounded_rows": 278,
+      "footer_rows": 278,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/lab_holdout/SWC_042/2020-03-06_001_b2a85508-5f26-4bfa-aeb4-07e03815a479_table.pqt') LIMIT 278"
+    },
+    {
+      "path": "data/sealed/lab_holdout/SWC_042/2020-03-07_001_ceadc5c5-7974-4932-a72f-cac071d21206_table.pqt",
+      "dataset_id": "3f624fc7-6704-4293-9dd3-507d745d9174",
+      "session_uuid": "ceadc5c5-7974-4932-a72f-cac071d21206",
+      "date": "2020-03-07",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.3.1",
+      "md5": "f785309b7d5f1cdef2a596d10a8ec69b",
+      "sha256": "4877d98153a320ac59beb8f79a61dd8218da32b363e83f0dfca3efd1021304c4",
+      "bytes": 48400,
+      "cache_md5": "f785309b7d5f1cdef2a596d10a8ec69b",
+      "bounded_rows": 575,
+      "footer_rows": 575,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/lab_holdout/SWC_042/2020-03-07_001_ceadc5c5-7974-4932-a72f-cac071d21206_table.pqt') LIMIT 575"
+    },
+    {
+      "path": "data/sealed/lab_holdout/SWC_042/2020-03-09_001_d1e715c6-67b9-44b8-826e-ae99e1a93d66_table.pqt",
+      "dataset_id": "60919d18-4627-4ccb-89ed-d1267432ef89",
+      "session_uuid": "d1e715c6-67b9-44b8-826e-ae99e1a93d66",
+      "date": "2020-03-09",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.4.0",
+      "md5": "2f17ebc7cef1a1ce389a9c5df31eb3ea",
+      "sha256": "057a0d1e4e08f89e55e538894c994298fd30775b87405272a760478302711088",
+      "bytes": 59208,
+      "cache_md5": "2f17ebc7cef1a1ce389a9c5df31eb3ea",
+      "bounded_rows": 740,
+      "footer_rows": 740,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/lab_holdout/SWC_042/2020-03-09_001_d1e715c6-67b9-44b8-826e-ae99e1a93d66_table.pqt') LIMIT 740"
+    },
+    {
+      "path": "data/sealed/lab_holdout/SWC_042/2020-03-10_001_075e064a-d0ac-46e9-af67-113db0f16835_table.pqt",
+      "dataset_id": "b93ff2e0-0094-4c3b-ad7a-67905eb7dc17",
+      "session_uuid": "075e064a-d0ac-46e9-af67-113db0f16835",
+      "date": "2020-03-10",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.4.0",
+      "md5": "f0fb37357cd385504993c37c0690ac09",
+      "sha256": "e17edd4945159f6b40bdf73e38a3d61ffa744981acc668b95a829e5d39c9daa8",
+      "bytes": 51834,
+      "cache_md5": "f0fb37357cd385504993c37c0690ac09",
+      "bounded_rows": 627,
+      "footer_rows": 627,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/lab_holdout/SWC_042/2020-03-10_001_075e064a-d0ac-46e9-af67-113db0f16835_table.pqt') LIMIT 627"
+    },
+    {
+      "path": "data/sealed/lab_holdout/SWC_042/2020-03-11_001_61b94427-cdc0-4006-91de-78afab9b2f2a_table.pqt",
+      "dataset_id": "5881109b-8d6b-4f6c-b8eb-dbe6d32b34e6",
+      "session_uuid": "61b94427-cdc0-4006-91de-78afab9b2f2a",
+      "date": "2020-03-11",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.4.0",
+      "md5": "bc3890fb9e57920cacd499a89be69cae",
+      "sha256": "57af1869ee67c3f445e3d6442ada1b62e1ef92705a311d6f6e260c61c9ad8009",
+      "bytes": 50131,
+      "cache_md5": "bc3890fb9e57920cacd499a89be69cae",
+      "bounded_rows": 601,
+      "footer_rows": 601,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/lab_holdout/SWC_042/2020-03-11_001_61b94427-cdc0-4006-91de-78afab9b2f2a_table.pqt') LIMIT 601"
+    },
+    {
+      "path": "data/sealed/lab_holdout/SWC_042/2020-03-12_001_774791df-1b87-43a7-8030-b7d3b239f982_table.pqt",
+      "dataset_id": "8c0887e6-bd31-48ba-a647-4aa8044d3a74",
+      "session_uuid": "774791df-1b87-43a7-8030-b7d3b239f982",
+      "date": "2020-03-12",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.4.0",
+      "md5": "d9da59bc51ec4c751997e1d8ed7aa2c9",
+      "sha256": "f673b19c1e6385f89e177d23c666630665b1782b7f8d1e99e6148a8e6655b774",
+      "bytes": 63249,
+      "cache_md5": "d9da59bc51ec4c751997e1d8ed7aa2c9",
+      "bounded_rows": 800,
+      "footer_rows": 800,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/lab_holdout/SWC_042/2020-03-12_001_774791df-1b87-43a7-8030-b7d3b239f982_table.pqt') LIMIT 800"
+    },
+    {
+      "path": "data/sealed/lab_holdout/SWC_042/2020-03-13_001_0b9ace9e-b385-43f8-a6cb-cf2cc0c1cd14_table.pqt",
+      "dataset_id": "75dc01a7-7144-4264-a6e4-327b36fe59d1",
+      "session_uuid": "0b9ace9e-b385-43f8-a6cb-cf2cc0c1cd14",
+      "date": "2020-03-13",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.4.0",
+      "md5": "d72e09516cbde7fa89257d960e71849b",
+      "sha256": "526c4d477e768e41aa644a3f300829039aa4f355d5b0318d0bedd6add9e7c019",
+      "bytes": 61879,
+      "cache_md5": "d72e09516cbde7fa89257d960e71849b",
+      "bounded_rows": 782,
+      "footer_rows": 782,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/lab_holdout/SWC_042/2020-03-13_001_0b9ace9e-b385-43f8-a6cb-cf2cc0c1cd14_table.pqt') LIMIT 782"
+    },
+    {
+      "path": "data/sealed/lab_holdout/SWC_042/2020-03-16_001_cb9887ec-1696-4abe-9222-a8a7ff1e18a5_table.pqt",
+      "dataset_id": "7cdab631-7286-4ba0-9053-e9b0fac0a6a9",
+      "session_uuid": "cb9887ec-1696-4abe-9222-a8a7ff1e18a5",
+      "date": "2020-03-16",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.4.0",
+      "md5": "c53867f3a944dd14f0509d6d28afe68c",
+      "sha256": "0716eb3a80eb210d61b584d494790d1cbe13e1d86edb594e77fb541f6d0393f0",
+      "bytes": 71211,
+      "cache_md5": "c53867f3a944dd14f0509d6d28afe68c",
+      "bounded_rows": 295,
+      "footer_rows": 922,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/lab_holdout/SWC_042/2020-03-16_001_cb9887ec-1696-4abe-9222-a8a7ff1e18a5_table.pqt') LIMIT 295"
+    }
+  ],
+  "targets_and_counts_equal": true,
+  "prefix_weight_endpoint_max_abs_difference": 8.881784197001252e-16,
+  "prefix_hidden_endpoint_max_abs_difference": 2.220446049250313e-16,
+  "conditional_probability_max_abs_difference": 4.440892098500626e-16,
+  "conditional_weights_max_abs_difference": 2.6645352591003757e-15,
+  "conditional_hidden_final_max_abs_difference": 2.220446049250313e-16,
+  "same_trial_perturbation_probability_difference": 0.0,
+  "omission_weight_hidden_hold_difference": 0.0,
+  "forecast_path": "artifacts/forecasts/rnn_source_labs/SWC_042__rnnglm32.npz",
+  "forecast_sha256": "b580c8f93650a9488d22c548bda874e8318de7b55103b55ce6f4627939fac9a3",
+  "conditional_path": "artifacts/forecasts/rnn_source_labs/SWC_042__rnnglm32__conditional.npz",
+  "conditional_sha256": "ba20b5381fac01395e9f203da73f0bfea792305b9d654842616994fdf2876f29",
+  "scores": [
+    {
+      "subject": "SWC_042",
+      "split": "lab_holdout",
+      "lab": "hoferlab",
+      "model": "rnnglm32",
+      "arm": "autonomous",
+      "horizon": 1000,
+      "actual_horizon": 1000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.08468694356730705,
+      "crps_by_metric": [
+        0.13442106220254477,
+        0.09433545717431548,
+        0.1090328858855186,
+        0.000958369006849315
+      ],
+      "mae": 0.10730845997828446,
+      "mae_by_metric": [
+        0.18434263742396967,
+        0.10339315561416854,
+        0.13877734374999964,
+        0.002720703125000002
+      ],
+      "high_accuracy_mae": 0.14386789651906912,
+      "coverage": {
+        "0.5": 0.625,
+        "0.8": 0.625,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.5,
+        "0.8": 0.5,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.1729684601499781,
+        "0.8": 0.34155184587428955,
+        "0.95": 0.4937485066922698
+      },
+      "energy": 0.2977038755125222,
+      "n_cells": 8,
+      "high_width80": 0.4698036917485791
+    },
+    {
+      "subject": "SWC_042",
+      "split": "lab_holdout",
+      "lab": "hoferlab",
+      "model": "rnnglm32",
+      "arm": "raw_autonomous",
+      "horizon": 1000,
+      "actual_horizon": 1000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.08468694356730705,
+      "crps_by_metric": [
+        0.13442106220254477,
+        0.09433545717431548,
+        0.1090328858855186,
+        0.000958369006849315
+      ],
+      "mae": 0.10730845997828446,
+      "mae_by_metric": [
+        0.18434263742396967,
+        0.10339315561416854,
+        0.13877734374999964,
+        0.002720703125000002
+      ],
+      "high_accuracy_mae": 0.14386789651906912,
+      "coverage": {
+        "0.5": 0.625,
+        "0.8": 0.625,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.5,
+        "0.8": 0.5,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.1729684601499781,
+        "0.8": 0.34155184587428955,
+        "0.95": 0.4937485066922698
+      },
+      "energy": 0.2977038755125222,
+      "n_cells": 8,
+      "high_width80": 0.4698036917485791
+    },
+    {
+      "subject": "SWC_042",
+      "split": "lab_holdout",
+      "lab": "hoferlab",
+      "model": "rnnglm32",
+      "arm": "conditional_diagnostic",
+      "horizon": 1000,
+      "actual_horizon": 1000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.010728824594793117,
+      "crps_by_metric": [
+        0.014398397447735434,
+        0.013481477130067164,
+        0.014077054794520559,
+        0.000958369006849315
+      ],
+      "mae": 0.01778887213805052,
+      "mae_by_metric": [
+        0.022717098313934925,
+        0.022680577738267704,
+        0.023037109374999448,
+        0.002720703125000002
+      ],
+      "high_accuracy_mae": 0.022698838026101315,
+      "coverage": {
+        "0.5": 0.625,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.75,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.030032264083912262,
+        "0.8": 0.0551730110691818,
+        "0.95": 0.08466187563716565
+      },
+      "energy": 0.03861116359263741,
+      "n_cells": 8,
+      "high_width80": 0.07789602213836355,
+      "binary_nll": 0.6649145248200927,
+      "static_prefix_binary_nll": 0.697275219568095,
+      "conditional_nll_gain_over_static": 0.032360694748002294
+    },
+    {
+      "subject": "SWC_042",
+      "split": "lab_holdout",
+      "lab": "hoferlab",
+      "model": "rnnglm32",
+      "arm": "autonomous",
+      "horizon": 3000,
+      "actual_horizon": 3000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.08605249586325175,
+      "crps_by_metric": [
+        0.14253010989695522,
+        0.10118395817363174,
+        0.09894340906311154,
+        0.0015525063193085455
+      ],
+      "mae": 0.11031861572037727,
+      "mae_by_metric": [
+        0.1913007943431948,
+        0.10481872062164777,
+        0.14284700520833318,
+        0.002307942708333335
+      ],
+      "high_accuracy_mae": 0.14805975748242128,
+      "coverage": {
+        "0.5": 0.625,
+        "0.8": 0.875,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.5833333333333334,
+        "0.8": 0.8333333333333334,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.24178301777646385,
+        "0.8": 0.469360101264687,
+        "0.95": 0.6074312079822
+      },
+      "energy": 0.5497590891954949,
+      "n_cells": 24,
+      "high_width80": 0.6449368691960405
+    },
+    {
+      "subject": "SWC_042",
+      "split": "lab_holdout",
+      "lab": "hoferlab",
+      "model": "rnnglm32",
+      "arm": "raw_autonomous",
+      "horizon": 3000,
+      "actual_horizon": 3000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.08605249586325175,
+      "crps_by_metric": [
+        0.14253010989695522,
+        0.10118395817363174,
+        0.09894340906311154,
+        0.0015525063193085455
+      ],
+      "mae": 0.11031861572037727,
+      "mae_by_metric": [
+        0.1913007943431948,
+        0.10481872062164777,
+        0.14284700520833318,
+        0.002307942708333335
+      ],
+      "high_accuracy_mae": 0.14805975748242128,
+      "coverage": {
+        "0.5": 0.625,
+        "0.8": 0.875,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.5833333333333334,
+        "0.8": 0.8333333333333334,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.24178301777646385,
+        "0.8": 0.469360101264687,
+        "0.95": 0.6074312079822
+      },
+      "energy": 0.5497590891954949,
+      "n_cells": 24,
+      "high_width80": 0.6449368691960405
+    },
+    {
+      "subject": "SWC_042",
+      "split": "lab_holdout",
+      "lab": "hoferlab",
+      "model": "rnnglm32",
+      "arm": "conditional_diagnostic",
+      "horizon": 3000,
+      "actual_horizon": 3000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.012406834309285214,
+      "crps_by_metric": [
+        0.021361171639509863,
+        0.010838977791857995,
+        0.015874681486464457,
+        0.0015525063193085455
+      ],
+      "mae": 0.01872476850345088,
+      "mae_by_metric": [
+        0.03182953074266905,
+        0.015703006812801203,
+        0.025058593749999945,
+        0.002307942708333335
+      ],
+      "high_accuracy_mae": 0.023766268777735126,
+      "coverage": {
+        "0.5": 0.5,
+        "0.8": 0.875,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.5833333333333334,
+        "0.8": 0.8333333333333334,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.02838523446612347,
+        "0.8": 0.05332474880586662,
+        "0.95": 0.08260649087916766
+      },
+      "energy": 0.08094696644010893,
+      "n_cells": 24,
+      "high_width80": 0.0755161642783999,
+      "binary_nll": 0.6114276863893703,
+      "static_prefix_binary_nll": 0.6890908188900307,
+      "conditional_nll_gain_over_static": 0.07766313250066037
+    },
+    {
+      "subject": "SWC_042",
+      "split": "lab_holdout",
+      "lab": "hoferlab",
+      "model": "rnnglm32",
+      "arm": "autonomous",
+      "horizon": 5000,
+      "actual_horizon": 5000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.0789659084540966,
+      "crps_by_metric": [
+        0.13025322744123263,
+        0.10345888056791304,
+        0.08073737463307241,
+        0.0014141511741682976
+      ],
+      "mae": 0.09071773940428927,
+      "mae_by_metric": [
+        0.1548481534015081,
+        0.09562827296564894,
+        0.10927656250000004,
+        0.003117968749999994
+      ],
+      "high_accuracy_mae": 0.12523821318357853,
+      "coverage": {
+        "0.5": 0.775,
+        "0.8": 0.925,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.75,
+        "0.8": 0.9,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.24918219891799245,
+        "0.8": 0.5017205614065198,
+        "0.95": 0.6439743655897314
+      },
+      "energy": 0.6291283144966576,
+      "n_cells": 40,
+      "high_width80": 0.6937411228130395
+    },
+    {
+      "subject": "SWC_042",
+      "split": "lab_holdout",
+      "lab": "hoferlab",
+      "model": "rnnglm32",
+      "arm": "raw_autonomous",
+      "horizon": 5000,
+      "actual_horizon": 5000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.0789659084540966,
+      "crps_by_metric": [
+        0.13025322744123263,
+        0.10345888056791304,
+        0.08073737463307241,
+        0.0014141511741682976
+      ],
+      "mae": 0.09071773940428927,
+      "mae_by_metric": [
+        0.1548481534015081,
+        0.09562827296564894,
+        0.10927656250000004,
+        0.003117968749999994
+      ],
+      "high_accuracy_mae": 0.12523821318357853,
+      "coverage": {
+        "0.5": 0.775,
+        "0.8": 0.925,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.75,
+        "0.8": 0.9,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.24918219891799245,
+        "0.8": 0.5017205614065198,
+        "0.95": 0.6439743655897314
+      },
+      "energy": 0.6291283144966576,
+      "n_cells": 40,
+      "high_width80": 0.6937411228130395
+    },
+    {
+      "subject": "SWC_042",
+      "split": "lab_holdout",
+      "lab": "hoferlab",
+      "model": "rnnglm32",
+      "arm": "conditional_diagnostic",
+      "horizon": 5000,
+      "actual_horizon": 5000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.010146998644028871,
+      "crps_by_metric": [
+        0.016855523019820608,
+        0.010143367776940663,
+        0.012174952605185913,
+        0.0014141511741682976
+      ],
+      "mae": 0.014815890924129833,
+      "mae_by_metric": [
+        0.024925738853416434,
+        0.013703059218103006,
+        0.0175167968749999,
+        0.003117968749999994
+      ],
+      "high_accuracy_mae": 0.01931439903575972,
+      "coverage": {
+        "0.5": 0.675,
+        "0.8": 0.925,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.75,
+        "0.8": 0.9,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.028575020223444037,
+        "0.8": 0.05399029994734035,
+        "0.95": 0.08520773395903272
+      },
+      "energy": 0.08815920992416096,
+      "n_cells": 40,
+      "high_width80": 0.07572059989468069,
+      "binary_nll": 0.6229591470638723,
+      "static_prefix_binary_nll": 0.7048015829296799,
+      "conditional_nll_gain_over_static": 0.08184243586580753
+    }
+  ],
+  "numerical_differences": [
+    {
+      "arm": "autonomous",
+      "horizon": 1000,
+      "crps": 0.0,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "raw_autonomous",
+      "horizon": 1000,
+      "crps": 0.0,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "conditional_diagnostic",
+      "horizon": 1000,
+      "crps": 3.122502256758253e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0,
+      "binary_nll": 0.0
+    },
+    {
+      "arm": "autonomous",
+      "horizon": 3000,
+      "crps": 2.7755575615628914e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "raw_autonomous",
+      "horizon": 3000,
+      "crps": 2.7755575615628914e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "conditional_diagnostic",
+      "horizon": 3000,
+      "crps": 6.938893903907228e-18,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0,
+      "binary_nll": 0.0
+    },
+    {
+      "arm": "autonomous",
+      "horizon": 5000,
+      "crps": 1.3877787807814457e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "raw_autonomous",
+      "horizon": 5000,
+      "crps": 1.3877787807814457e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "conditional_diagnostic",
+      "horizon": 5000,
+      "crps": 2.0816681711721685e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0,
+      "binary_nll": 0.0
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "frozen_utc": "2026-10-29T21:31:35.114792+00:00",
+  "phase": "sole revision; before opaque notebook acquisition",
+  "selected_path": "humanData_analysis_sandbox.ipynb",
+  "selected_git_blob": "647cd439916dafd9d332c55c11f051f8153113ff",
+  "expected_bytes": 14953,
+  "commit": "eb0edbe51042ffaf065bd90839f4f999de5f3ffb",
+  "body_cap": 14953,
+  "code_source_total_bytes_cap": 65536,
+  "cell_count_cap": 512,
+  "depth_cap": 64,
+  "projection": "Only direct cells[*].source strings/array-of-strings where direct cell_type matches code; structural labels matched incrementally without materializing arbitrary keys/types; source decode deferred until whole structure and type validate. No excluded JSON scalar/container decoding.",
+  "output_and_attachment_policy": "Opaque acquired bytes only; no rendered output, excluded strings/numbers/arrays, notebook JSON decode, imports or execution. Nested source keys ignored. Stop before rendering/using code if literal triage flags possible participant data; report any embedded-data exposure.",
+  "real_header_projection": "NONE unless source establishes a separate safe expected profile and freeze within the single remaining request and original conditions",
+  "reader_sha256": "627b0ab8f17bb9300122388b6e794861ed3ccb32a2c74f5caf1243096ad7dbed",
+  "tests_sha256": "75c7e28ed9ec7132312315b7fe9a5492ad66a1a08dbdf7a0a66d7f2fd7b11532",
+  "preserved_first_block_sha256": {
+    "RESULT.md": "09ee97e15cb50ec0acef1ff2aefc85c0ae2fefdf945424632f6ce4cd07950e55",
+    "CERTIFICATION.md": "5abb28848ea95aed6233781e2881149a3f88599026027993d2761ef1059e49aa",
+    "HEADER_READER_FREEZE.json": "bba67180de79cc38dd7ad2b1da60984706bbe652687efef0a3624211f554568c",
+    "bounded_reader.py": "cd22d2e7f07e4104151f089835a47818748dabd64e086d0ac7b3b07ab34a6f95",
+    "reader_checks.py": "1176d4fa5d43c73e47f82cdfb35050cbe7568aa9d0f282e2ecad69574ac794d6",
+    "SOURCE_CHECKS.json": "0d26ea4fc41acab8b5503960e122df5c3cd903727b2f469dd9c33cc596f77149",
+    "EXPOSURE.json": "08fd4604cc83a69804a2191da45fcd5abdfc6daedbccd2290248bde737fd1d5c",
+    "ACQUISITION.json": "6d9fba45e3fcbd384c6dfb99e7976cf688901da605a97ddd1e8fdd009138654e",
+    "PROPOSED_LEARNING.md": "38331105348ba3ee9e6a483e9aea76f64c72592f41903ed0b46e6b4eee9614de",
+    "sources/SOURCE_PINS.json": "a5d29fe56414f5dac6e7c4cffba13ce0a61ef856131a5e781d74b6036c5c5d8c"
+  },
+  "checks": [
+    {
+      "name": "only_direct_code_cell_source",
+      "passed": true
+    },
+    {
+      "name": "exact_selected_string_decoder_calls",
+      "passed": true
+    },
+    {
+      "name": "excluded_sentinels_never_decoded",
+      "passed": true
+    },
+    {
+      "name": "excluded_nested_source_keys_ignored",
+      "passed": true
+    },
+    {
+      "name": "source_before_cell_type_supported",
+      "passed": true
+    },
+    {
+      "name": "array_and_scalar_sources_supported",
+      "passed": true
+    },
+    {
+      "name": "unicode_and_quote_escaping_preserved",
+      "passed": true
+    },
+    {
+      "name": "all_notebook_cell_structure_counted",
+      "passed": true
+    },
+    {
+      "name": "literal_triage_accepts_plain_code",
+      "passed": true
+    },
+    {
+      "name": "escaped_structural_keys_and_code_type",
+      "passed": true
+    },
+    {
+      "name": "empty_source_array",
+      "passed": true
+    },
+    {
+      "name": "whitespace_order_root_metadata",
+      "passed": true
+    },
+    {
+      "name": "every_truncated_prefix_rejected_before_decoding",
+      "passed": true
+    },
+    {
+      "name": "root_array_rejects",
+      "passed": true
+    },
+    {
+      "name": "missing_cells_rejects",
+      "passed": true
+    },
+    {
+      "name": "duplicate_cells_rejects",
+      "passed": true
+    },
+    {
+      "name": "cell_missing_type_rejects",
+      "passed": true
+    },
+    {
+      "name": "cell_missing_source_rejects",
+      "passed": true
+    },
+    {
+      "name": "duplicate_cell_type_rejects",
+      "passed": true
+    },
+    {
+      "name": "duplicate_source_rejects",
+      "passed": true
+    },
+    {
+      "name": "numeric_code_source_rejects",
+      "passed": true
+    },
+    {
+      "name": "numeric_source_array_item_rejects",
+      "passed": true
+    },
+    {
+      "name": "source_object_rejects",
+      "passed": true
+    },
+    {
+      "name": "invalid_escape_in_excluded_value_rejects",
+      "passed": true
+    },
+    {
+      "name": "invalid_unicode_in_excluded_value_rejects",
+      "passed": true
+    },
+    {
+      "name": "invalid_number_in_excluded_value_rejects",
+      "passed": true
+    },
+    {
+      "name": "trailing_comma_rejects",
+      "passed": true
+    },
+    {
+      "name": "nonJSON_NaN_rejects",
+      "passed": true
+    },
+    {
+      "name": "trailing_garbage_rejects",
+      "passed": true
+    },
+    {
+      "name": "opaque_body_cap_enforced",
+      "passed": true
+    },
+    {
+      "name": "decoded_source_cap_enforced",
+      "passed": true
+    },
+    {
+      "name": "cell_count_cap_enforced",
+      "passed": true
+    },
+    {
+      "name": "nested_depth_cap_enforced",
+      "passed": true
+    },
+    {
+      "name": "participant_sequence_literal_stops_before_render",
+      "passed": true
+    },
+    {
+      "name": "response_literal_stops_before_render",
+      "passed": true
+    },
+    {
+      "name": "long_numeric_literal_stops_before_render",
+      "passed": true
+    },
+    {
+      "name": "embedded_table_string_stops_before_render",
+      "passed": true
+    },
+    {
+      "name": "personal_literal_stops_before_render",
+      "passed": true
+    },
+    {
+      "name": "possible_data_comment_stops_before_render",
+      "passed": true
+    },
+    {
+      "name": "non_Python_source_stops_before_render",
+      "passed": true
+    },
+    {
+      "name": "known_plot_magic_allowed_without_execution",
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}

@@ -1,0 +1,549 @@
+{
+  "subject": "NYU-06",
+  "split": "animal_holdout",
+  "lab": "angelakilab",
+  "rows_read": 2978,
+  "original_provenance": [
+    {
+      "path": "data/sealed/animal_holdout/NYU-06/2019-06-11_001_7ddc9265-48e8-4be5-bd95-f6c021b099d7_table.pqt",
+      "dataset_id": "a8a67161-889b-496f-b05c-57907613c814",
+      "session_uuid": "7ddc9265-48e8-4be5-bd95-f6c021b099d7",
+      "date": "2019-06-11",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld4.1.3",
+      "md5": "b65fad1d88a32fa871bd76c718978685",
+      "sha256": "4db3b16dd070cb081ba532d21d45d945d930d376aa72b4816d5e2354bd424520",
+      "bytes": 69956,
+      "cache_md5": "b65fad1d88a32fa871bd76c718978685",
+      "bounded_rows": 903,
+      "footer_rows": 903,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/NYU-06/2019-06-11_001_7ddc9265-48e8-4be5-bd95-f6c021b099d7_table.pqt') LIMIT 903"
+    },
+    {
+      "path": "data/sealed/animal_holdout/NYU-06/2019-06-12_001_b2e5187e-c8c0-4eee-a725-e062263c42e5_table.pqt",
+      "dataset_id": "eb7a5a06-8a36-4b77-b110-39320cfd0951",
+      "session_uuid": "b2e5187e-c8c0-4eee-a725-e062263c42e5",
+      "date": "2019-06-12",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld4.1.3",
+      "md5": "de38b05902b0014638afffa09bd5e97f",
+      "sha256": "1b75979b115881743272c3658787ce0887d30a338ba24efed1fb7b9ba7dd5bdb",
+      "bytes": 108275,
+      "cache_md5": "de38b05902b0014638afffa09bd5e97f",
+      "bounded_rows": 1462,
+      "footer_rows": 1462,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/NYU-06/2019-06-12_001_b2e5187e-c8c0-4eee-a725-e062263c42e5_table.pqt') LIMIT 1462"
+    },
+    {
+      "path": "data/sealed/animal_holdout/NYU-06/2019-08-07_001_23937e8b-2169-450a-824e-d95d5af4971c_table.pqt",
+      "dataset_id": "c9fb7012-401a-497e-83fa-ca9700ac7a67",
+      "session_uuid": "23937e8b-2169-450a-824e-d95d5af4971c",
+      "date": "2019-08-07",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld5.2.7",
+      "md5": "58c72455dd10e7f35808d99618d0d36c",
+      "sha256": "5f49d29bb191ea777f85bd601e4f3a26435eccf02cb26b46dbf35b5dc30b4b45",
+      "bytes": 48273,
+      "cache_md5": "58c72455dd10e7f35808d99618d0d36c",
+      "bounded_rows": 613,
+      "footer_rows": 613,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/NYU-06/2019-08-07_001_23937e8b-2169-450a-824e-d95d5af4971c_table.pqt') LIMIT 613"
+    }
+  ],
+  "targets_and_counts_equal": true,
+  "prefix_weight_endpoint_max_abs_difference": 4.440892098500626e-16,
+  "prefix_hidden_endpoint_max_abs_difference": 2.220446049250313e-16,
+  "conditional_probability_max_abs_difference": 4.440892098500626e-16,
+  "conditional_weights_max_abs_difference": 3.552713678800501e-15,
+  "conditional_hidden_final_max_abs_difference": 3.3306690738754696e-16,
+  "same_trial_perturbation_probability_difference": 0.0,
+  "omission_weight_hidden_hold_difference": 0.0,
+  "forecast_path": "artifacts/forecasts/rnn_source_animals/NYU-06__rnnglm32.npz",
+  "forecast_sha256": "400926775f9117e69edfb3c92b060989b4c8dfa8ef02abf0c2cf316ba06a29c4",
+  "conditional_path": "artifacts/forecasts/rnn_source_animals/NYU-06__rnnglm32__conditional.npz",
+  "conditional_sha256": "c061f1afa1cb090697e828ab14331641be013b47edbebd8b7ae3ed89b864bd06",
+  "scores": [
+    {
+      "subject": "NYU-06",
+      "split": "animal_holdout",
+      "lab": "angelakilab",
+      "model": "rnnglm32",
+      "arm": "autonomous",
+      "horizon": 1000,
+      "actual_horizon": 1000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.013071120508689572,
+      "crps_by_metric": [
+        0.009029777357042554,
+        0.017624277207069945,
+        0.025287701810176123,
+        0.0003427256604696671
+      ],
+      "mae": 0.02309461148237575,
+      "mae_by_metric": [
+        0.013077333569654626,
+        0.03653939360984798,
+        0.0410351562500004,
+        0.001726562500000001
+      ],
+      "high_accuracy_mae": 0.024808363589751303,
+      "coverage": {
+        "0.5": 0.625,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.75,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.04169186941805546,
+        "0.8": 0.08086196183176322,
+        "0.95": 0.13428173416205047
+      },
+      "energy": 0.05344622847188943,
+      "n_cells": 8,
+      "high_width80": 0.09582392366352638
+    },
+    {
+      "subject": "NYU-06",
+      "split": "animal_holdout",
+      "lab": "angelakilab",
+      "model": "rnnglm32",
+      "arm": "raw_autonomous",
+      "horizon": 1000,
+      "actual_horizon": 1000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.013071120508689572,
+      "crps_by_metric": [
+        0.009029777357042554,
+        0.017624277207069945,
+        0.025287701810176123,
+        0.0003427256604696671
+      ],
+      "mae": 0.02309461148237575,
+      "mae_by_metric": [
+        0.013077333569654626,
+        0.03653939360984798,
+        0.0410351562500004,
+        0.001726562500000001
+      ],
+      "high_accuracy_mae": 0.024808363589751303,
+      "coverage": {
+        "0.5": 0.625,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.75,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.04169186941805546,
+        "0.8": 0.08086196183176322,
+        "0.95": 0.13428173416205047
+      },
+      "energy": 0.05344622847188943,
+      "n_cells": 8,
+      "high_width80": 0.09582392366352638
+    },
+    {
+      "subject": "NYU-06",
+      "split": "animal_holdout",
+      "lab": "angelakilab",
+      "model": "rnnglm32",
+      "arm": "conditional_diagnostic",
+      "horizon": 1000,
+      "actual_horizon": 1000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.010140062198796825,
+      "crps_by_metric": [
+        0.01046402353020778,
+        0.013263368427895383,
+        0.016490131176614464,
+        0.0003427256604696671
+      ],
+      "mae": 0.016672630973723353,
+      "mae_by_metric": [
+        0.01757642884281141,
+        0.023457845052080872,
+        0.02392968750000113,
+        0.001726562500000001
+      ],
+      "high_accuracy_mae": 0.02051713694744614,
+      "coverage": {
+        "0.5": 0.75,
+        "0.8": 0.75,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 1.0,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.023783902106117062,
+        "0.8": 0.03740147372655146,
+        "0.95": 0.054039364289753485
+      },
+      "energy": 0.03828804246040028,
+      "n_cells": 8,
+      "high_width80": 0.053802947453102934,
+      "binary_nll": 0.3567353703706392,
+      "static_prefix_binary_nll": 0.39864829842008304,
+      "conditional_nll_gain_over_static": 0.041912928049443854
+    },
+    {
+      "subject": "NYU-06",
+      "split": "animal_holdout",
+      "lab": "angelakilab",
+      "model": "rnnglm32",
+      "arm": "autonomous",
+      "horizon": 3000,
+      "actual_horizon": 1500,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.017480500667098806,
+      "crps_by_metric": [
+        0.0167201275914504,
+        0.016687784038132047,
+        0.03493207762557078,
+        0.0015820134132420094
+      ],
+      "mae": 0.02563968474877726,
+      "mae_by_metric": [
+        0.02073865425358627,
+        0.026001074324855506,
+        0.053110677083333925,
+        0.0027083333333333334
+      ],
+      "high_accuracy_mae": 0.023369864289220887,
+      "coverage": {
+        "0.5": 0.5,
+        "0.8": 0.75,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.6666666666666666,
+        "0.8": 0.8333333333333334,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.03999897652231623,
+        "0.8": 0.08110371390287975,
+        "0.95": 0.13931822168865185
+      },
+      "energy": 0.0838960020085538,
+      "n_cells": 12,
+      "high_width80": 0.09630742780575945
+    },
+    {
+      "subject": "NYU-06",
+      "split": "animal_holdout",
+      "lab": "angelakilab",
+      "model": "rnnglm32",
+      "arm": "raw_autonomous",
+      "horizon": 3000,
+      "actual_horizon": 1500,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.017480500667098806,
+      "crps_by_metric": [
+        0.0167201275914504,
+        0.016687784038132047,
+        0.03493207762557078,
+        0.0015820134132420094
+      ],
+      "mae": 0.02563968474877726,
+      "mae_by_metric": [
+        0.02073865425358627,
+        0.026001074324855506,
+        0.053110677083333925,
+        0.0027083333333333334
+      ],
+      "high_accuracy_mae": 0.023369864289220887,
+      "coverage": {
+        "0.5": 0.5,
+        "0.8": 0.75,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.6666666666666666,
+        "0.8": 0.8333333333333334,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.03999897652231623,
+        "0.8": 0.08110371390287975,
+        "0.95": 0.13931822168865185
+      },
+      "energy": 0.0838960020085538,
+      "n_cells": 12,
+      "high_width80": 0.09630742780575945
+    },
+    {
+      "subject": "NYU-06",
+      "split": "animal_holdout",
+      "lab": "angelakilab",
+      "model": "rnnglm32",
+      "arm": "conditional_diagnostic",
+      "horizon": 3000,
+      "actual_horizon": 1500,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.012612704358346128,
+      "crps_by_metric": [
+        0.010883245728453039,
+        0.019397806538590964,
+        0.018587751753098496,
+        0.0015820134132420094
+      ],
+      "mae": 0.019152162864764136,
+      "mae_by_metric": [
+        0.01791503509392371,
+        0.02984726219846523,
+        0.026138020833334257,
+        0.0027083333333333334
+      ],
+      "high_accuracy_mae": 0.02388114864619447,
+      "coverage": {
+        "0.5": 0.5833333333333334,
+        "0.8": 0.5833333333333334,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.8333333333333334,
+        "0.8": 0.8333333333333334,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.022356384579966474,
+        "0.8": 0.037461306371007315,
+        "0.95": 0.055424516589030436
+      },
+      "energy": 0.05603103053041643,
+      "n_cells": 12,
+      "high_width80": 0.05425594607534797,
+      "binary_nll": 0.3554451416736275,
+      "static_prefix_binary_nll": 0.4132553659858073,
+      "conditional_nll_gain_over_static": 0.0578102243121798
+    },
+    {
+      "subject": "NYU-06",
+      "split": "animal_holdout",
+      "lab": "angelakilab",
+      "model": "rnnglm32",
+      "arm": "autonomous",
+      "horizon": 5000,
+      "actual_horizon": 1500,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.017480500667098806,
+      "crps_by_metric": [
+        0.0167201275914504,
+        0.016687784038132047,
+        0.03493207762557078,
+        0.0015820134132420094
+      ],
+      "mae": 0.02563968474877726,
+      "mae_by_metric": [
+        0.02073865425358627,
+        0.026001074324855506,
+        0.053110677083333925,
+        0.0027083333333333334
+      ],
+      "high_accuracy_mae": 0.023369864289220887,
+      "coverage": {
+        "0.5": 0.5,
+        "0.8": 0.75,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.6666666666666666,
+        "0.8": 0.8333333333333334,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.03999897652231623,
+        "0.8": 0.08110371390287975,
+        "0.95": 0.13931822168865185
+      },
+      "energy": 0.0838960020085538,
+      "n_cells": 12,
+      "high_width80": 0.09630742780575945
+    },
+    {
+      "subject": "NYU-06",
+      "split": "animal_holdout",
+      "lab": "angelakilab",
+      "model": "rnnglm32",
+      "arm": "raw_autonomous",
+      "horizon": 5000,
+      "actual_horizon": 1500,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.017480500667098806,
+      "crps_by_metric": [
+        0.0167201275914504,
+        0.016687784038132047,
+        0.03493207762557078,
+        0.0015820134132420094
+      ],
+      "mae": 0.02563968474877726,
+      "mae_by_metric": [
+        0.02073865425358627,
+        0.026001074324855506,
+        0.053110677083333925,
+        0.0027083333333333334
+      ],
+      "high_accuracy_mae": 0.023369864289220887,
+      "coverage": {
+        "0.5": 0.5,
+        "0.8": 0.75,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.6666666666666666,
+        "0.8": 0.8333333333333334,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.03999897652231623,
+        "0.8": 0.08110371390287975,
+        "0.95": 0.13931822168865185
+      },
+      "energy": 0.0838960020085538,
+      "n_cells": 12,
+      "high_width80": 0.09630742780575945
+    },
+    {
+      "subject": "NYU-06",
+      "split": "animal_holdout",
+      "lab": "angelakilab",
+      "model": "rnnglm32",
+      "arm": "conditional_diagnostic",
+      "horizon": 5000,
+      "actual_horizon": 1500,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.012612704358346128,
+      "crps_by_metric": [
+        0.010883245728453039,
+        0.019397806538590964,
+        0.018587751753098496,
+        0.0015820134132420094
+      ],
+      "mae": 0.019152162864764136,
+      "mae_by_metric": [
+        0.01791503509392371,
+        0.02984726219846523,
+        0.026138020833334257,
+        0.0027083333333333334
+      ],
+      "high_accuracy_mae": 0.02388114864619447,
+      "coverage": {
+        "0.5": 0.5833333333333334,
+        "0.8": 0.5833333333333334,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.8333333333333334,
+        "0.8": 0.8333333333333334,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.022356384579966474,
+        "0.8": 0.037461306371007315,
+        "0.95": 0.055424516589030436
+      },
+      "energy": 0.05603103053041643,
+      "n_cells": 12,
+      "high_width80": 0.05425594607534797,
+      "binary_nll": 0.3554451416736275,
+      "static_prefix_binary_nll": 0.4132553659858073,
+      "conditional_nll_gain_over_static": 0.0578102243121798
+    }
+  ],
+  "numerical_differences": [
+    {
+      "arm": "autonomous",
+      "horizon": 1000,
+      "crps": 5.377642775528102e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "raw_autonomous",
+      "horizon": 1000,
+      "crps": 5.377642775528102e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "conditional_diagnostic",
+      "horizon": 1000,
+      "crps": 8.673617379884035e-18,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0,
+      "binary_nll": 0.0
+    },
+    {
+      "arm": "autonomous",
+      "horizon": 3000,
+      "crps": 7.632783294297951e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "raw_autonomous",
+      "horizon": 3000,
+      "crps": 7.632783294297951e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "conditional_diagnostic",
+      "horizon": 3000,
+      "crps": 1.9081958235744878e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0,
+      "binary_nll": 0.0
+    },
+    {
+      "arm": "autonomous",
+      "horizon": 5000,
+      "crps": 7.632783294297951e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "raw_autonomous",
+      "horizon": 5000,
+      "crps": 7.632783294297951e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "conditional_diagnostic",
+      "horizon": 5000,
+      "crps": 1.9081958235744878e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0,
+      "binary_nll": 0.0
+    }
+  ]
+}

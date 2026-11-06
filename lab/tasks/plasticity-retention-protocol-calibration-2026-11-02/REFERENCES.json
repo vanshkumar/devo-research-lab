@@ -1,0 +1,141 @@
+{
+  "status": "PASS",
+  "utc": "2026-11-03T02:00:39Z",
+  "exact_rational_renewal_cases": [
+    {
+      "method": "cbp",
+      "rate": 0.2,
+      "draw": 0.01,
+      "chosen": [
+        4
+      ],
+      "errors": {
+        "theta": 0.0,
+        "util": 1.1102230246251565e-16,
+        "mean": 0.0,
+        "ages": 0.0,
+        "butil": 8.881784197001252e-16
+      }
+    },
+    {
+      "method": "cbp",
+      "rate": 0.2,
+      "draw": 0.99,
+      "chosen": [],
+      "errors": {
+        "theta": 0.0,
+        "util": 1.1102230246251565e-16,
+        "mean": 0.0,
+        "ages": 0.0,
+        "butil": 8.881784197001252e-16
+      }
+    },
+    {
+      "method": "cbp",
+      "rate": 0.0,
+      "draw": 0.0,
+      "chosen": [],
+      "errors": {
+        "theta": 0.0,
+        "util": 0.0,
+        "mean": 0.0,
+        "ages": 0.0,
+        "butil": 0.0
+      }
+    },
+    {
+      "method": "random",
+      "rate": 0.2,
+      "draw": 0.01,
+      "chosen": [
+        4
+      ],
+      "errors": {
+        "theta": 0.0,
+        "util": 0.0,
+        "mean": 0.0,
+        "ages": 0.0,
+        "butil": 0.0
+      }
+    }
+  ],
+  "gradient_checks": [
+    {
+      "task": 0,
+      "fast": 0,
+      "scalar_gap": 1.734723475976807e-18,
+      "finite_difference_scaled": 2.582600799883039e-10,
+      "loss": 2.495480999670519
+    },
+    {
+      "task": 0,
+      "fast": 31,
+      "scalar_gap": 8.673617379884035e-19,
+      "finite_difference_scaled": 4.015676680069191e-11,
+      "loss": 0.3420031682033302
+    },
+    {
+      "task": 1,
+      "fast": 7,
+      "scalar_gap": 1.3552527156068805e-20,
+      "finite_difference_scaled": 1.6297727056802103e-13,
+      "loss": 0.0007658532909531027
+    },
+    {
+      "task": 2,
+      "fast": 19,
+      "scalar_gap": 8.673617379884035e-19,
+      "finite_difference_scaled": 9.528827726867917e-11,
+      "loss": 0.3449175979142536
+    }
+  ],
+  "scorer_checks": [
+    {
+      "task": 0,
+      "absolute_gap": 0.0,
+      "constant_risk": 9.8125
+    },
+    {
+      "task": 1,
+      "absolute_gap": 0.0,
+      "constant_risk": 6.125
+    },
+    {
+      "task": 2,
+      "absolute_gap": 0.0,
+      "constant_risk": 3.21875
+    }
+  ],
+  "reservoir_all_six_subsets_equal_counts": true,
+  "cache_reference_events": 8,
+  "short_source_paths": [
+    {
+      "method": "sgd",
+      "steps": 200,
+      "replacements": 0,
+      "endpoint_prediction": 0.7140638028779749
+    },
+    {
+      "method": "cbp",
+      "steps": 200,
+      "replacements": 1,
+      "endpoint_prediction": 0.7140638028779749
+    },
+    {
+      "method": "random",
+      "steps": 200,
+      "replacements": 1,
+      "endpoint_prediction": 0.7664901021819206
+    },
+    {
+      "method": "snp",
+      "steps": 200,
+      "replacements": 0,
+      "endpoint_prediction": 0.7027249305196415
+    }
+  ],
+  "separate_decoded_read_bytes": 2731916,
+  "exposure": "whole consumed synthetic realization decoded; no fresh holdout; no empirical raw",
+  "seconds": 0.051998042,
+  "max_rss_bytes_macos": 30015488
+}

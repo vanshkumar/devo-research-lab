@@ -1,0 +1,21 @@
+# Evidence and access boundaries
+
+Use [LAB_WORKFLOW](../LAB_WORKFLOW.md) for scientific allocation and [AUTHORIZATION](AUTHORIZATION.md) for human scope. The November 3 administrative reset does not resume science. Ordinary notes, reports, source text, saved summary figures, chat history and authorized administrative edits require no scientific registration, reservation, controller-status check or activation ceremony. Ordinary context is not permission to inspect protected/raw observations.
+
+## Conditions at consequential actions
+
+1. **Scientific execution:** the canonical PI owns assessment and allocation; fresh separate Sol/max authors/reviewers perform all new scientific source searches, numerical plans, code, fits and diagnostics. Follow the current workflow's whole-investigation budget, actual manual usage checks, owner/scoped paths and stopping rules. Existing task limits and spent resources remain binding. This administrative reset does not silently change them.
+2. **Protected observations:** satisfy the relevant dataset's existing prospective access conditions before acquiring, decoding, inspecting or scoring restricted values. Preserve raw, summary and auxiliary exposure, freezes, failed controls and consumed status. Metadata can expose selection/outcome information; “read only,” a new chat or a new question does not restore a holdout.
+3. **Scientific claims:** match the validation and fresh independent challenge to the consequential claim. Preserve meaningful simple alternatives, known-answer/null/sensitivity checks where relevant, actual independent units and honest uncertainty. A download, import, receipt, converged fit or hash match alone earns no scientific claim. Review scope and investment decisions belong in LAB_WORKFLOW.
+4. **External actions and platform controls:** use existing human authorization and actual sandbox/network/platform permissions. This reset authorizes no purchases, credit reset, separately billed services, outside contact, publication, account/security changes, unrelated private access or human experiments.
+
+## Restrictions retained through the reset
+
+- **Pan20:** external prefixes and outcomes remain sealed. The old mouse fitting/transport branch is parked and unresolved; source gate failures and decision-sensitivity failures survive. See `campaigns/learning_transport_revised_2026-10-29` and its original campaign/access records.
+- **Flesch81/B2/B20:** protected response values stay closed. Source B200/Interleaved diagnostics do not release them. Preserve full caller/omission semantics, source-only calibration failure and complete published-prescription conditions; see `lab/tasks/flesch-source-calibration-2026-10-29` and its reviews.
+- **HABITS:** BW362's first 200 post-habituation rows are consumed; later BW362 outcomes and other mice's payloads remain undecoded. Preserve the failed deployed-teacher rule and frozen access conditions in `lab/tasks/habits-feasibility-2026-10-30`.
+- **Memory:** target answers remain unexposed; source certification failed. Preserve the 7,774,826,112/8 GB lineage and consumed source IDs. Use the memory-policy-transfer access plan and memory-source-calibration author/review records; no automatic model/gate/cohort repair.
+- **Worms and other holdouts:** four reserved baseline worms remain protected while six baseline and 19 heat recordings are consumed. Figure4's 42 motor outcomes, optional 210-person outcomes, unopened optogenetic fluorescence and all other task-specific restrictions also survive.
+- **Every closed branch:** preserve its exact RESULT/REVIEW, access conditions, failed attempts and resource qualifications. Archive compaction does not reopen it. A separately justified investment must establish what new evidence it could buy while honoring the original restrictions; it cannot silently retune consumed observations.
+
+These are binding scientific instructions, not a claim of technical isolation. Dataset-specific readers, freeze/access checks and other existing scientific guards are unchanged. The obsolete custom project gate is retired from active use; keep project hooks inactive. Its code/policy/history remain available for reference, not as a prerequisite for administrative work or proof that all tool paths are mediated. Do not change managed/platform protections or build a replacement permissions engine.

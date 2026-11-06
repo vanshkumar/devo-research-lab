@@ -1,0 +1,13 @@
+# Hippocampal offline forecast — CLOSED failed source gate
+
+START registered: 2026-11-01T05:43:59.076Z. First linked actual calculation due 06:03:59.076Z; source gate 06:08:59.076Z; overall 07:13:59.076Z. Owner 01a195a2-c136-73c3-b396-28f1834aec0a. Scoped task files only. One process/thread. No jobs currently running.
+
+Initial targeted query deliberately names hc-3 and Grosmark/hc-11: these exhaust the TWO empirical-family allowance. Other hits were incidental summary exposure and were not pursued. FINAL15 public operations;5,006,449known local ingress/23,006,449charged ingress/200MBcharged additional read-decode-hash/largest measured localRSS79,446,016bytes/provider and first failed-pass peaks UNKNOWN. No active jobs. All consumed exposure/failures retained in RESOURCES.json; all old protected data untouched.
+
+hc-11 primary/DANDI descriptions certify PRE/MAZE/POST only; later task performance after learned-experience POST sleep is not certified. hc-3 acquired5MBZIPprefix supplies all current tables:7736cells/1538sessions/104196spike-count joins. Only30/1095sleep sessions have listed payloads. The one metadata-ordered Tmaze/sleep/Tmaze example yields actual exported counts/rates but no performance; its task archives total1.632GB. Nine Mwheel pairs' minimum combined task archives728.609MB exceed total80MBingresscap. No small original performance object was certified. See RESULT.md/FIRST_DATA_CHECK.json/SOURCES.md/README.md.
+
+First partial calculation05:47:47Z/expanded support05:48:56Z are NOT the required actual neural-performance milestone. Source gate failed early: no main freeze, fit, prediction, scoring, baseline/null/recovery/contrary check or independent review. Do not start a third family, repair acquisition/endpoints or substitute replay/count summaries. No evidence against neural information/consolidation follows. Recommend PI reallocate; lab/heartbeat ownership unchanged. LEARNING_PROPOSAL.md is for PI integration only.
+
+Local PDF skill read was denied by the project hook because its path escapes the repository; source PDF text remains accessible through the web tool. No security/hook changes or workaround.
+
+Closeout saved by05:51:56Z; RESOURCES.json syntax check via stdlib json.tool exited0 (format-only/no science or network rerun). ONE terminal report successfully accepted by send_message_to_thread to CURRENT verified registry PI01a1959e-b7e2-7540-bd8b-130771739acb, no model/thinking overrides. No retries or acknowledgement wait. Owner finished/jobs0; scientific work remains closed. PI owns any subsequent investment decision and the continuing heartbeat.

@@ -1,0 +1,155 @@
+{
+  "mode": "verify_cached_networks_and_rerun_analyses",
+  "inputs_verified": 108,
+  "cached_models_verified_before": 82,
+  "stages": [
+    {
+      "stage": "extract_tanaka",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/song_target_memory_2026-10-28/experiments/extract_tanaka.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.027707166999999977
+    },
+    {
+      "stage": "table",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/song_target_memory_2026-10-28/audits/zhao_source/transcribe_table.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.022693833000000052
+    },
+    {
+      "stage": "digitize",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/song_target_memory_2026-10-28/audits/zhao_source/digitize.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.181091416
+    },
+    {
+      "stage": "support_audit",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/song_target_memory_2026-10-28/audits/zhao_source/audit_support_bound.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.01884945800000004
+    },
+    {
+      "stage": "roberts_vector",
+      "command": [
+        "/Users/vanshkumar/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/song_target_memory_2026-10-28/audits/roberts/extract_figure6.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.14038929200000005
+    },
+    {
+      "stage": "stimulus_design",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/song_target_memory_2026-10-28/experiments/intervention_design.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.04267299999999996
+    },
+    {
+      "stage": "empirical",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/song_target_memory_2026-10-28/experiments/empirical_summary.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.06159912499999998
+    },
+    {
+      "stage": "empirical_independent",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/song_target_memory_2026-10-28/audits/model_audit/check_empirical_bounds.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.11098891700000002
+    },
+    {
+      "stage": "mechanisms_and_recovery",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/song_target_memory_2026-10-28/audits/model_audit/run_audit.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.673533542
+    },
+    {
+      "stage": "hvc_kernel",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/song_target_memory_2026-10-28/experiments/hvc_model.py",
+        "--verify"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.20179458300000008
+    },
+    {
+      "stage": "hvc_independent",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/song_target_memory_2026-10-28/audits/model_audit/check_hvc_kernel.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.2228126669999999
+    },
+    {
+      "stage": "hvc_second_independent",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/song_target_memory_2026-10-28/audits/zhao_source/audit_hvc_kernel.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.20659141700000028
+    },
+    {
+      "stage": "cooling_calibration",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/song_target_memory_2026-10-28/audits/prior_work/calibrate_cooling.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.017692417000000127
+    },
+    {
+      "stage": "recovery_summary",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/song_target_memory_2026-10-28/experiments/recovery_summary.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.01634183300000025
+    },
+    {
+      "stage": "hvc_summary",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/song_target_memory_2026-10-28/experiments/summarize_hvc.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.14034195900000013
+    },
+    {
+      "stage": "figure",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/song_target_memory_2026-10-28/experiments/figure.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.6031649589999999
+    }
+  ],
+  "cached_models_verified_after": 82,
+  "scientific_invariants_pass": true,
+  "success": true
+}

@@ -1,0 +1,1320 @@
+{
+  "utc": "2026-11-01T12:39:55.744025+00:00",
+  "pins": {
+    "lab/reviews/learning-forecast-information-audit-2026-11-01/RESOURCE_PLAN.json": "c052624279bffa45b3b45b952fc6cf052d7b6d82c44fb6aa8e385cd89024be91",
+    "campaigns/population_learning_transport_2026-10-28/protocols/FREEZE.json": "625535ac5c20fe7301b7dcdec22549fd0a708271cc51dd79df8dee6f5c37a64c",
+    "experiments/matched_history_diagnostic_2026-10-29/SOURCE_PINS.json": "06548ee20be406b74df8f1dcf0438e066f9f89e5f30c0fe9f5822823331cfe6a",
+    "lab/tasks/learning-forecast-information-audit-2026-11-01/MATCHED_PREDICTIONS.npz": "a989675845dabefd099580319ca38a915a3aa357531fcbce735424281ef7df39",
+    "campaigns/learning_rule_transport_2026-10-28/artifacts/rnn/rnnglm32_nested_best.npz": "c7f675d18f4143891ed7d2c76d91f74be74da9565fbae5407952768e2c146940",
+    "campaigns/learning_rule_transport_2026-10-28/artifacts/baselines/nested_growth_bank.npz": "036f3cfedd56e915b051fb29a80a2622cf5a747366ea31aa46b9249a922eea01",
+    "lab/tasks/learning-forecast-information-audit-2026-11-01/PREDICTION_MANIFEST.json": "f1aa815a78b7592cb48b3e985d3e2f0c00dace2c990c8dce11c83b04934e03e3",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/CSHL056__rnn.json": "baf09e3237119de7d56695e209616e80de8d278c02efd36773ee8cc22d8babe8",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/CSHL056__prefix.npz": "afe8ae6ed391df9bf81cf04958b2dd6b6a6758f4fa14edce47b38a9295012578",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/CSHL056__rnn.npz": "33fcf801238100fe16abde0419ee7578006cd8f49f94e9dddad8c2c81d99214e",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/CSHL056__observed.npz": "fa45785a3c0d0a5170e73bd7f5e0b29f763ccaf3a6e7311a49a61908a959ca1c",
+    "experiments/matched_history_diagnostic_2026-10-29/CSHL056__conditional.npz": "bb1b5c59b62e6de526127184e2d76cb4cc2afd28ab7a275d73ba0a1e5938248e",
+    "lab/tasks/learning-forecast-information-audit-2026-11-01/predictions/CSHL056.npz": "a97a4576cf2b06b4f7142e5c73f02ceaa9ff61d25926163f47953983583e2a9f",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/CSHL_012__rnn.json": "fb64876667e44e404aba90864a19413385ce9f87d8a3c495b757691541cb32e8",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/CSHL_012__prefix.npz": "b5c9582c02cbd282c5c1e504410efe8d09b02b5facc0ade31524bdfa5093497c",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/CSHL_012__rnn.npz": "afc30dda21a4966c088e6f52053e8fa7222fe568451af3d647f407ad25721114",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/CSHL_012__observed.npz": "fcd5cb808e5e4746788898a0509127c66204563c97921d0b65a91834e5567cba",
+    "experiments/matched_history_diagnostic_2026-10-29/CSHL_012__conditional.npz": "461152f5d9b7ea4a6150b795859271b61ec76108a8442e87caee8f1cee9059b6",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/IBL_001__rnn.json": "d44188ecab51e4b35d684c8fb09ef9f34bbdf9dfea39beb9228139af59349fe9",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/IBL_001__prefix.npz": "2f1b59caebe3da856e48f88ed1d4e9050df7479d2a1d613754cfa6d44ccb19a9",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/IBL_001__rnn.npz": "a00cc46da4caa7623afd1beb4287288719abd0fd40344f1679c18c4faff05148",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/IBL_001__observed.npz": "aeaa13cf2331537fd6dff432aecdfde94079f14271e601b7f3836647d8319782",
+    "experiments/matched_history_diagnostic_2026-10-29/IBL_001__conditional.npz": "f6618c24ef0f0b9c637a20e4f1f5b2ca0f837c86a51f0c3b490db09830ce146e",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/KS018__rnn.json": "6c1c5644087481cbec7ac7226bbf376077a7e27d51d1494101f6709d58db74cf",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/KS018__prefix.npz": "51ee0f0e62fe5c169d48fc3fb4e845e769d610ec17e489613e64ed23e54382ba",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/KS018__rnn.npz": "57abae303820b7c44d90ef71e75ad3cfb91a29696d59db08f39d566be12d481e",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/KS018__observed.npz": "80999d05e6d42656ca23ea428cbc271fd473875e39666341a6e952d246fc2514",
+    "experiments/matched_history_diagnostic_2026-10-29/KS018__conditional.npz": "73e5d899dba134edbe56e3667dcd271dec1d70cf25e546b7f591980a97a0fa94",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-09__rnn.json": "bfd85ecea80f14c65e0a5a2188f16a0b55dc4e040b7ce5eea087037cf749fc6a",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-09__prefix.npz": "1c15176b4382f04b37d34d37717452f56818a7b7b9e67f6514cdaec685988a1c",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-09__rnn.npz": "1d43ca2af63d1b920680ca57a1ed97c5b91e05bf0f878d40f85b1b66bb5747ea",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-09__observed.npz": "aa9cbfa84978f850b95fe28a12ef13b0854599f0d6b2f6a6f2c12c970bc51b71",
+    "experiments/matched_history_diagnostic_2026-10-29/NYU-09__conditional.npz": "bfbafdd79e3bd6fd3f1eca7e72e198fba8848d76d80194fddeb3f18d60ee4c9e",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-11__rnn.json": "df6e2be805b19986658d2d898b088ca76f85573b3d987b322e584a277c8ebff3",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-11__prefix.npz": "1949bdd12319dd925ee1c0addc71da52e4e25b2b7383da753dcf7db7b390e5af",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-11__rnn.npz": "b36ddf10bfa7cb684261577721393142faffc3a9c6c88e3e5320de4f36a0092c",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-11__observed.npz": "ea1fc760ec232dbcff3f457200ef49ca5924e5e529e2eef96b0618ce5f826b57",
+    "experiments/matched_history_diagnostic_2026-10-29/NYU-11__conditional.npz": "827eac11692b2d80e2fbe58ef555b659954131e7618c947f17cbe206b376e802",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-12__rnn.json": "508ed402da50b785514bc33732b5c9e262721a3ee11e2e23872c69c8c0ba8574",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-12__prefix.npz": "2abf75a4233eec38be3ae5631133e36ce9fda43a509cc37629430c23dfcee4f4",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-12__rnn.npz": "61887e49e61cebdd843db9e8621dc2ca4b07917eb7b1bc294944ea5a572d999c",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-12__observed.npz": "c468ea3429acef2c186e094951a9ead44923869beec8667648302e116db1c195",
+    "experiments/matched_history_diagnostic_2026-10-29/NYU-12__conditional.npz": "bd8899e5338c0d1fe1bbf04e534ad758e47e3fb371d527fcfe8682036cacdd8f",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-13__rnn.json": "f6e9724476fa1e1c87a7f9a3171ae27bb861bd0c14aa7e90dfe9a1059c994515",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-13__prefix.npz": "c8d155244428cacd9cdc396746b9df1dc9d13278efdd3165b818016e4234f074",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-13__rnn.npz": "e055794cf43c1f44a58908114ec0743493e0a04526879c90e36f56d929875640",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-13__observed.npz": "fb80b71295ef1ccad0ea7db32df919443968079aa0f523408187d1442eb114af",
+    "experiments/matched_history_diagnostic_2026-10-29/NYU-13__conditional.npz": "6df57c717071d6eec6e0fdfb73909f49db62c4f17d530c78cfbf737e95cffba7",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-14__rnn.json": "b3c29a0575a59592fefa30f4b8acd8e13ee485bf106dcff290d8d201923b1af0",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-14__prefix.npz": "e748764b64484ee17674e3ce68eca1e957e2b9d2fc3f55bfd636bf013055615c",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-14__rnn.npz": "c46a39b793578534dc31ce7e38974678431550ea715340b95d036d76f91b8218",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-14__observed.npz": "8e2ad8e8978f66d05f757f836cf2dd044bb5de3b554b1297212f3729cdccadb3",
+    "experiments/matched_history_diagnostic_2026-10-29/NYU-14__conditional.npz": "8f7cba258c283883f24ddfab53453c41d936e4033ac23bb33351464cbc023e78",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_001__rnn.json": "31271d5a5f734abc1e339e1dfce845266b6ee3a280283e4aeb26d48ca1c10c5f",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_001__prefix.npz": "916ec6e7e9874b27550a0fb02b8fa83ebce280c4a0e1de3c0f42712890183e3d",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_001__rnn.npz": "04086da098fd8fcbc6287c1f450f7ce9239ce5db954956f60db1b244d3c449dc",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_001__observed.npz": "0bf82cb25a003b86e91b28ca1c50b98822fda295bfac501ddb9f1e0c3fddc7dd",
+    "experiments/matched_history_diagnostic_2026-10-29/SWC_001__conditional.npz": "900ffaf241784db9793cb5571305191230e83de8cf80ee0bbe81e1737266f8d6",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_002__rnn.json": "17395823fc0d7a9544145005c8a432599aaa8bca27d9ed4c20bcc0eccfab480d",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_002__prefix.npz": "e4d0501d9f6128d7125bbd2d468b21bf63c723eace14440e3c77fb27337ab525",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_002__rnn.npz": "850eb7624e585459c9d09bab09522d0ceb77ff4c76f6450a917637bcb282a158",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_002__observed.npz": "9b2007652d72bb6ea4fd9727690857f1c8be1a8a93e1dba976abb795b11f88d7",
+    "experiments/matched_history_diagnostic_2026-10-29/SWC_002__conditional.npz": "2292f5ed39b48ffed78356713aa83c571d816d3f509ea2e366ac91a86f4bd7ca",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_003__rnn.json": "7275a036bc93fb441b266cb1b4db8efec00ef1b4cf6128b26deaa319a03d4bf5",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_003__prefix.npz": "0cbc9fac359b88862a9eafa900dee52fd6ba35a4c5c95735bf22f3d074e2bfe4",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_003__rnn.npz": "99cac825173dd7e5f3eb6b059de286c9d7cfdcf74dfc9096d3b7ce252dba0513",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_003__observed.npz": "7b67613d03cd3137ff091c4475a3013ba78cd3fe0bc981dc2c8ec0db93034c49",
+    "experiments/matched_history_diagnostic_2026-10-29/SWC_003__conditional.npz": "9fc903f7eb69f3fb3a77f3598149449601e293225be7ce0efb4ca822aa6195ec",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_011__rnn.json": "91063d97c26d780129b1fead921e15a031658de2d004e1027a3903aaeced4a35",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_011__prefix.npz": "f59b5ed2ea38782cd51995021701322096f320ff85f02a7b970f991bfb5f526e",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_011__rnn.npz": "3562e34b9407cbabd3062ba4bf92cd96fe08b6873a8db3d7cb5d60f51fd45732",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_011__observed.npz": "321b1506a216d8f08d18d4f8c385e71e51204faaf650c6c26057a169732d7f7d",
+    "experiments/matched_history_diagnostic_2026-10-29/SWC_011__conditional.npz": "846566e0abfc4bc980ec2791137b2bf3ba929220c9b21a04d4347c8cd23973cb",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_014__rnn.json": "f5380de40220fc028ab4e79472354a35dd64fc076ba2352e378d083c52472719",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_014__prefix.npz": "a264af1745c14b49396b467a06d3f486b2564f6fda1fbee59173f202484745a5",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_014__rnn.npz": "916e56c57202928df3867f71ca9faa93d651620720a2008a75b3ede319618117",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_014__observed.npz": "5b17e8a4a3715086fa84d68d7d7d230b265bd17522e10989f75fbc9b222bc409",
+    "experiments/matched_history_diagnostic_2026-10-29/SWC_014__conditional.npz": "e264819b344244ca4f97922958ba4605b07080670c35e8f74829ac44bddea81d",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_015__rnn.json": "1d5db9c5983ac68cd78c64576051b916e9d8be245e05c06df6c4c864445b2a2d",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_015__prefix.npz": "a815913c87da48ceee247a78d44612247f72770abe3142b4b7ad4535849ddbf2",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_015__rnn.npz": "744054bf4f08607b0605fbd93314fc8d0ab7c3fdfbb66f9851267aa5966e2d2b",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_015__observed.npz": "4102844dd4c1ee858db23d03f7b9252b624b43b247f6311024035a534deafac5",
+    "experiments/matched_history_diagnostic_2026-10-29/SWC_015__conditional.npz": "d3fafa5776fda072dce6e494f90dd99e5834a2b0607fd412d93652afe3717b49",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_017__rnn.json": "8a0da3dbd6584c8d772acf99f8fa4ec2335834ea6fd21d4f8edea5afa29fff96",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_017__prefix.npz": "7369876f15708375e4a8e250c90c8a6ea24802afbf04f4a82725085fdd0cea64",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_017__rnn.npz": "61364cee009ff76d432e301280b1cc9e598eaa8d228864e5fdd2b00a5b38a8a7",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_017__observed.npz": "c70e1cad05d8b63f2a4bf3b499c094357a038aab1b6956784d436c524712ef47",
+    "experiments/matched_history_diagnostic_2026-10-29/SWC_017__conditional.npz": "b4ca663b6f6217a54ac0f65708aa2ab233209419fb126433c1e8f8232d6451cd",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_018__rnn.json": "08b6caeb2fdaed41ab84113d18de235633f4a4fd5cf39fa81de67c6239a90cc6",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_018__prefix.npz": "e59e250c39f680ddaea75e4defb586d669b484efbb46e0ba0bd2a8da83be03d7",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_018__rnn.npz": "3e88af5af97e7b3bdc115602322ef4a5f260a5ea6c41af408fd18b8f527064ce",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_018__observed.npz": "35f7a59b3af9df182d0aa488eafc7895cefbcca1b95444dd7fd2d71dc6c5222d",
+    "experiments/matched_history_diagnostic_2026-10-29/SWC_018__conditional.npz": "ac9f5bf837617beb3c064a5953b8bbbf067c2ec328a5965ae5fdf62b54dea469",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_020__rnn.json": "40d417878730c382a21375792990f66039f0a94cffff103c20fbadf768338d2d",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_020__prefix.npz": "22bd5453d6fbb8c4eff9b740bd290224991616185151c328d331bd0fe70a8695",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_020__rnn.npz": "854e7eddc2ee28adb7f71d383a2a43827ac1e5ff7d4463f255a3ebd3752b9378",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_020__observed.npz": "b1c88746ce448abe5a89115742f1f7ef7376fb97e40a81b1d96853b3234028cb",
+    "experiments/matched_history_diagnostic_2026-10-29/SWC_020__conditional.npz": "c8154319d15f10a1ffb3bc30d0a0baf57c49e4a8ec25ebedb2b695f47e96de9e",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_021__rnn.json": "b653072c88214e205e7628e98e89fb47b75680d83b4c98dcb8c1c0ce43d648ce",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_021__prefix.npz": "2c76161fcffc7745dca0546b139bfcc670dd4fc65a861421807b6379d3ee3792",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_021__rnn.npz": "0de91765bfd540d6210e8bb7cd2ce339de8ea5ae73c23f44a6c9f58af301cf01",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_021__observed.npz": "3eeb190c4ae7afd4c262d929df0119fb9496e2ae29d8287b09f217f4aea8786c",
+    "experiments/matched_history_diagnostic_2026-10-29/SWC_021__conditional.npz": "dab8ab8ab5a2ba86a0f08d03cf93fb72b250c50a605a76dc6e9ea6fb542fb322",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_022__rnn.json": "19bcaec176b686553fbd8b1899345b6d917cc4fd68e286e1cade4db34dacc4a7",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_022__prefix.npz": "a49837a48a2a703c5e0836440eed278acc07e6a0826260ea12a4cc167b4432ab",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_022__rnn.npz": "226738acadad6d7ddef92f873eee7c07df7ec16967c084be4fd880087fdb260e",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_022__observed.npz": "5ba47a527787aebb6db44cae96222cc05323eba4d65eb6a84980ce65ad2cb5f9",
+    "experiments/matched_history_diagnostic_2026-10-29/SWC_022__conditional.npz": "4d9956be9ae796ab0029d6bf10dc38e95dfa62b96a7535b16c17a6c0fe21233f",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_027__rnn.json": "ef37f2f053fea680fca1a4861fedc2fa4fb1d6a04b247b810997b850455ac35e",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_027__prefix.npz": "1d8b172c6270befa9fa5bc5bd152ee31377bd77155623461c339cab576e62abd",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_027__rnn.npz": "02018c0c2b558f9b8886cafa8397a916ae60842fbc0919b5a354e6b5543aa8a9",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_027__observed.npz": "cd5481c8db3c61cb0835a829cbab9fa3d8cd7579991c62dd03b70f2412c42090",
+    "experiments/matched_history_diagnostic_2026-10-29/SWC_027__conditional.npz": "9ea52768025f8fb64b3c4f149be49449aa738fac2b8afd5b2e315d7075ccd0e9",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_028__rnn.json": "77aa755ea548abfff19fd69a81403938e8fb647f41c1b7b8e167114e8cf5f933",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_028__prefix.npz": "5d727f28948d6d416c34fbe313b4fa2484279d9a6fa44416d0150044c027ad61",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_028__rnn.npz": "8e9265b211dbaf6b177273462d313ccc1fb4ecd307e8c24b73445637d21192b6",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_028__observed.npz": "5857308475c9be5945770b176f1cfeafa4694737576eaa04ac2e7d8ff9607124",
+    "experiments/matched_history_diagnostic_2026-10-29/SWC_028__conditional.npz": "c4af88ffe895b7020d7ed10c57a6178acb226e96a4670a629263dc2dc424b6b1",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_029__rnn.json": "428e9559e89057501fd7b65b4d21c875e23ba925bba548e8bb290b2042bd4dd3",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_029__prefix.npz": "ef4dcfd5c6bd341b170214f170459c2c4bb4d13bca8487869727ac6cb5c3c2ef",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_029__rnn.npz": "81e97d15d689f8c864c6bbf5a83e81cbfc11be9223ce21ec360e30a6ba3b0a22",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_029__observed.npz": "fcdf3f26494c65af3ca9ea409aa964cdba49433bbc845ae3c3b0d862dc6bba42",
+    "experiments/matched_history_diagnostic_2026-10-29/SWC_029__conditional.npz": "6143a2c7ea2b2f64c978d93ca0d7eed07d2772b4edbd0efd599ad27d59f586b5",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_030__rnn.json": "24a58189615e4cf9e2f38fb5ae37daf5ac8f9d41b89ea06f732aec630d8a85d5",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_030__prefix.npz": "a507210223a3c1e59a13ae7face29f1220d0a7399d42fde301a6191bc4d84d64",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_030__rnn.npz": "193e1628c68a7df05de7558d3206ad348cc67261b3a1722d215334f4d08180e6",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_030__observed.npz": "4cf49cadd363b0fce915fe32f1bb8d7308e794e4cead7d39791a2ebd403aa13a",
+    "experiments/matched_history_diagnostic_2026-10-29/SWC_030__conditional.npz": "5a36161126248f7bd31fda09b084a6f6ee7dab4ee60a8df7e3b687eda082834f",
+    "lab/tasks/learning-forecast-information-audit-2026-11-01/predictions/SWC_030.npz": "91324f88cc32d5ad6b4dc6dad75792a49fd7056c34a24d2ece43960621e1cb58",
+    "lab/tasks/learning-forecast-information-audit-2026-11-01/UNCERTAINTY_DRAWS.npz": "1e8dfd7b0e738308da770d22b505b37d49c5acf0e6ddbef4109db5364c593410"
+  },
+  "reads": [
+    {
+      "path": "lab/reviews/learning-forecast-information-audit-2026-11-01/RESOURCE_PLAN.json",
+      "file_bytes": 406453,
+      "decoded_bytes": 406453
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/protocols/FREEZE.json",
+      "file_bytes": 11157,
+      "decoded_bytes": 11157
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/artifacts/baselines/nested_growth_bank.npz",
+      "file_bytes": 15742,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/artifacts/rnn/rnnglm32_nested_best.npz",
+      "file_bytes": 56254,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/baselines.py",
+      "file_bytes": 5494,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/data_io.py",
+      "file_bytes": 14512,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/evaluation.py",
+      "file_bytes": 3179,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/learning_models.py",
+      "file_bytes": 6955,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/rnn_learning.py",
+      "file_bytes": 4953,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/rnn_rollout.py",
+      "file_bytes": 15314,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/rollout.py",
+      "file_bytes": 8403,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/run_forecasts.py",
+      "file_bytes": 11003,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/trainer.py",
+      "file_bytes": 19415,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/protocols/EXPOSURE.jsonl",
+      "file_bytes": 1051427,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/protocols/FREEZE.json",
+      "file_bytes": 10124,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/protocols/RNN_FREEZE.json",
+      "file_bytes": 3525,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/protocols/SPLIT.json",
+      "file_bytes": 41561,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/protocols/VALIDATION_STATUS.json",
+      "file_bytes": 2558,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/coverage/BYTE_MANIFEST.json",
+      "file_bytes": 4323787,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/coverage/FILE_METADATA.json",
+      "file_bytes": 5619024,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/coverage/INDEX.json",
+      "file_bytes": 3865459,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/coverage/READER_FIXTURE_TEST.json",
+      "file_bytes": 397,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/coverage/RESULT.json",
+      "file_bytes": 55052,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/coverage/SESSIONS.json",
+      "file_bytes": 1046602,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/learner_controls/RESULT.json",
+      "file_bytes": 11947,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/method_audit/CONSUMED_SOURCE_EXACT100.npz",
+      "file_bytes": 443747,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/method_audit/CONTROLS.json",
+      "file_bytes": 33848,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/method_audit/METHOD_AUDIT.md",
+      "file_bytes": 6295,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/method_audit/PRIOR_WORK.md",
+      "file_bytes": 2975,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/method_audit/SOURCE_PRECISION.json",
+      "file_bytes": 11593,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/policy_audit/PINS.json",
+      "file_bytes": 436,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/policy_audit/POLICY_AUDIT.md",
+      "file_bytes": 9278,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/policy_audit/PREFIX_TRAINER_CHECK.json",
+      "file_bytes": 3366,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/policy_audit/RESULT.json",
+      "file_bytes": 421614,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/code/campaign.py",
+      "file_bytes": 9936,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/code/gate_audit.py",
+      "file_bytes": 15450,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/code/learner_controls.py",
+      "file_bytes": 4208,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/code/mixed_reader.py",
+      "file_bytes": 16183,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/code/policy_audit.py",
+      "file_bytes": 18585,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/code/production_replay.py",
+      "file_bytes": 8783,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/code/reconstruct_scores.py",
+      "file_bytes": 16402,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/code/score_campaign.py",
+      "file_bytes": 9614,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/protocols/ENDPOINT_FIXTURE.json",
+      "file_bytes": 190,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/protocols/GATE_CONFIG.json",
+      "file_bytes": 722,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/protocols/PROTOCOL.md",
+      "file_bytes": 9542,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/protocols/SOFTWARE.json",
+      "file_bytes": 155,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "experiments/matched_history_diagnostic_2026-10-29/SOURCE_PINS.json",
+      "file_bytes": 31698,
+      "decoded_bytes": 31698
+    },
+    {
+      "path": "lab/tasks/learning-forecast-information-audit-2026-11-01/MATCHED_PREDICTIONS.npz",
+      "file_bytes": 1832234,
+      "decoded_bytes": 3546560
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/artifacts/rnn/rnnglm32_nested_best.npz",
+      "file_bytes": 56254,
+      "decoded_bytes": 54808
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/artifacts/baselines/nested_growth_bank.npz",
+      "file_bytes": 15742,
+      "decoded_bytes": 24596
+    },
+    {
+      "path": "lab/tasks/learning-forecast-information-audit-2026-11-01/PREDICTION_MANIFEST.json",
+      "file_bytes": 11050,
+      "decoded_bytes": 11050
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/CSHL056__rnn.json",
+      "file_bytes": 78504,
+      "decoded_bytes": 78504
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/CSHL056__prefix.npz",
+      "file_bytes": 52580,
+      "decoded_bytes": 119976
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/CSHL056__rnn.npz",
+      "file_bytes": 272906,
+      "decoded_bytes": 430304
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/CSHL056__observed.npz",
+      "file_bytes": 600,
+      "decoded_bytes": 640
+    },
+    {
+      "path": "experiments/matched_history_diagnostic_2026-10-29/CSHL056__conditional.npz",
+      "file_bytes": 26703,
+      "decoded_bytes": 74320
+    },
+    {
+      "path": "lab/tasks/learning-forecast-information-audit-2026-11-01/predictions/CSHL056.npz",
+      "file_bytes": 12065860,
+      "decoded_bytes": 14331712
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/CSHL_012__rnn.json",
+      "file_bytes": 86897,
+      "decoded_bytes": 86897
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/CSHL_012__prefix.npz",
+      "file_bytes": 56260,
+      "decoded_bytes": 120000
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/CSHL_012__rnn.npz",
+      "file_bytes": 272339,
+      "decoded_bytes": 430304
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/CSHL_012__observed.npz",
+      "file_bytes": 594,
+      "decoded_bytes": 640
+    },
+    {
+      "path": "experiments/matched_history_diagnostic_2026-10-29/CSHL_012__conditional.npz",
+      "file_bytes": 26839,
+      "decoded_bytes": 74320
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/IBL_001__rnn.json",
+      "file_bytes": 85840,
+      "decoded_bytes": 85840
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/IBL_001__prefix.npz",
+      "file_bytes": 52138,
+      "decoded_bytes": 119968
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/IBL_001__rnn.npz",
+      "file_bytes": 256103,
+      "decoded_bytes": 430304
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/IBL_001__observed.npz",
+      "file_bytes": 564,
+      "decoded_bytes": 640
+    },
+    {
+      "path": "experiments/matched_history_diagnostic_2026-10-29/IBL_001__conditional.npz",
+      "file_bytes": 27953,
+      "decoded_bytes": 74320
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/KS018__rnn.json",
+      "file_bytes": 80550,
+      "decoded_bytes": 80550
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/KS018__prefix.npz",
+      "file_bytes": 53405,
+      "decoded_bytes": 119992
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/KS018__rnn.npz",
+      "file_bytes": 272899,
+      "decoded_bytes": 430304
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/KS018__observed.npz",
+      "file_bytes": 594,
+      "decoded_bytes": 640
+    },
+    {
+      "path": "experiments/matched_history_diagnostic_2026-10-29/KS018__conditional.npz",
+      "file_bytes": 26794,
+      "decoded_bytes": 74320
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-09__rnn.json",
+      "file_bytes": 78594,
+      "decoded_bytes": 78594
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-09__prefix.npz",
+      "file_bytes": 55052,
+      "decoded_bytes": 119976
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-09__rnn.npz",
+      "file_bytes": 262964,
+      "decoded_bytes": 430304
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-09__observed.npz",
+      "file_bytes": 597,
+      "decoded_bytes": 640
+    },
+    {
+      "path": "experiments/matched_history_diagnostic_2026-10-29/NYU-09__conditional.npz",
+      "file_bytes": 27887,
+      "decoded_bytes": 74320
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-11__rnn.json",
+      "file_bytes": 79494,
+      "decoded_bytes": 79494
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-11__prefix.npz",
+      "file_bytes": 54916,
+      "decoded_bytes": 119992
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-11__rnn.npz",
+      "file_bytes": 274552,
+      "decoded_bytes": 430304
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-11__observed.npz",
+      "file_bytes": 623,
+      "decoded_bytes": 640
+    },
+    {
+      "path": "experiments/matched_history_diagnostic_2026-10-29/NYU-11__conditional.npz",
+      "file_bytes": 25559,
+      "decoded_bytes": 74320
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-12__rnn.json",
+      "file_bytes": 78985,
+      "decoded_bytes": 78985
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-12__prefix.npz",
+      "file_bytes": 50342,
+      "decoded_bytes": 119976
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-12__rnn.npz",
+      "file_bytes": 271046,
+      "decoded_bytes": 430304
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-12__observed.npz",
+      "file_bytes": 585,
+      "decoded_bytes": 640
+    },
+    {
+      "path": "experiments/matched_history_diagnostic_2026-10-29/NYU-12__conditional.npz",
+      "file_bytes": 27040,
+      "decoded_bytes": 74320
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-13__rnn.json",
+      "file_bytes": 79039,
+      "decoded_bytes": 79039
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-13__prefix.npz",
+      "file_bytes": 47408,
+      "decoded_bytes": 119984
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-13__rnn.npz",
+      "file_bytes": 272768,
+      "decoded_bytes": 430304
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-13__observed.npz",
+      "file_bytes": 619,
+      "decoded_bytes": 640
+    },
+    {
+      "path": "experiments/matched_history_diagnostic_2026-10-29/NYU-13__conditional.npz",
+      "file_bytes": 26817,
+      "decoded_bytes": 74320
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-14__rnn.json",
+      "file_bytes": 79295,
+      "decoded_bytes": 79295
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-14__prefix.npz",
+      "file_bytes": 46908,
+      "decoded_bytes": 119992
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-14__rnn.npz",
+      "file_bytes": 273589,
+      "decoded_bytes": 430304
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-14__observed.npz",
+      "file_bytes": 569,
+      "decoded_bytes": 640
+    },
+    {
+      "path": "experiments/matched_history_diagnostic_2026-10-29/NYU-14__conditional.npz",
+      "file_bytes": 27027,
+      "decoded_bytes": 74320
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_001__rnn.json",
+      "file_bytes": 86769,
+      "decoded_bytes": 86769
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_001__prefix.npz",
+      "file_bytes": 54264,
+      "decoded_bytes": 119976
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_001__rnn.npz",
+      "file_bytes": 272057,
+      "decoded_bytes": 430304
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_001__observed.npz",
+      "file_bytes": 617,
+      "decoded_bytes": 640
+    },
+    {
+      "path": "experiments/matched_history_diagnostic_2026-10-29/SWC_001__conditional.npz",
+      "file_bytes": 26753,
+      "decoded_bytes": 74320
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_002__rnn.json",
+      "file_bytes": 79360,
+      "decoded_bytes": 79360
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_002__prefix.npz",
+      "file_bytes": 46838,
+      "decoded_bytes": 119976
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_002__rnn.npz",
+      "file_bytes": 272849,
+      "decoded_bytes": 430304
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_002__observed.npz",
+      "file_bytes": 625,
+      "decoded_bytes": 640
+    },
+    {
+      "path": "experiments/matched_history_diagnostic_2026-10-29/SWC_002__conditional.npz",
+      "file_bytes": 26799,
+      "decoded_bytes": 74320
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_003__rnn.json",
+      "file_bytes": 87588,
+      "decoded_bytes": 87588
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_003__prefix.npz",
+      "file_bytes": 56343,
+      "decoded_bytes": 119976
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_003__rnn.npz",
+      "file_bytes": 272643,
+      "decoded_bytes": 430304
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_003__observed.npz",
+      "file_bytes": 617,
+      "decoded_bytes": 640
+    },
+    {
+      "path": "experiments/matched_history_diagnostic_2026-10-29/SWC_003__conditional.npz",
+      "file_bytes": 26910,
+      "decoded_bytes": 74320
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_011__rnn.json",
+      "file_bytes": 79261,
+      "decoded_bytes": 79261
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_011__prefix.npz",
+      "file_bytes": 51262,
+      "decoded_bytes": 119992
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_011__rnn.npz",
+      "file_bytes": 272982,
+      "decoded_bytes": 430304
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_011__observed.npz",
+      "file_bytes": 603,
+      "decoded_bytes": 640
+    },
+    {
+      "path": "experiments/matched_history_diagnostic_2026-10-29/SWC_011__conditional.npz",
+      "file_bytes": 26826,
+      "decoded_bytes": 74320
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_014__rnn.json",
+      "file_bytes": 78931,
+      "decoded_bytes": 78931
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_014__prefix.npz",
+      "file_bytes": 47182,
+      "decoded_bytes": 119984
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_014__rnn.npz",
+      "file_bytes": 271924,
+      "decoded_bytes": 430304
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_014__observed.npz",
+      "file_bytes": 589,
+      "decoded_bytes": 640
+    },
+    {
+      "path": "experiments/matched_history_diagnostic_2026-10-29/SWC_014__conditional.npz",
+      "file_bytes": 26605,
+      "decoded_bytes": 74320
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_015__rnn.json",
+      "file_bytes": 79844,
+      "decoded_bytes": 79844
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_015__prefix.npz",
+      "file_bytes": 44854,
+      "decoded_bytes": 119976
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_015__rnn.npz",
+      "file_bytes": 271930,
+      "decoded_bytes": 430304
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_015__observed.npz",
+      "file_bytes": 606,
+      "decoded_bytes": 640
+    },
+    {
+      "path": "experiments/matched_history_diagnostic_2026-10-29/SWC_015__conditional.npz",
+      "file_bytes": 26925,
+      "decoded_bytes": 74320
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_017__rnn.json",
+      "file_bytes": 79420,
+      "decoded_bytes": 79420
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_017__prefix.npz",
+      "file_bytes": 46604,
+      "decoded_bytes": 119992
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_017__rnn.npz",
+      "file_bytes": 273069,
+      "decoded_bytes": 430304
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_017__observed.npz",
+      "file_bytes": 599,
+      "decoded_bytes": 640
+    },
+    {
+      "path": "experiments/matched_history_diagnostic_2026-10-29/SWC_017__conditional.npz",
+      "file_bytes": 26937,
+      "decoded_bytes": 74320
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_018__rnn.json",
+      "file_bytes": 80312,
+      "decoded_bytes": 80312
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_018__prefix.npz",
+      "file_bytes": 49290,
+      "decoded_bytes": 119976
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_018__rnn.npz",
+      "file_bytes": 271022,
+      "decoded_bytes": 430304
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_018__observed.npz",
+      "file_bytes": 594,
+      "decoded_bytes": 640
+    },
+    {
+      "path": "experiments/matched_history_diagnostic_2026-10-29/SWC_018__conditional.npz",
+      "file_bytes": 26995,
+      "decoded_bytes": 74320
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_020__rnn.json",
+      "file_bytes": 79091,
+      "decoded_bytes": 79091
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_020__prefix.npz",
+      "file_bytes": 49071,
+      "decoded_bytes": 119968
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_020__rnn.npz",
+      "file_bytes": 272289,
+      "decoded_bytes": 430304
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_020__observed.npz",
+      "file_bytes": 586,
+      "decoded_bytes": 640
+    },
+    {
+      "path": "experiments/matched_history_diagnostic_2026-10-29/SWC_020__conditional.npz",
+      "file_bytes": 26951,
+      "decoded_bytes": 74320
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_021__rnn.json",
+      "file_bytes": 79005,
+      "decoded_bytes": 79005
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_021__prefix.npz",
+      "file_bytes": 48446,
+      "decoded_bytes": 119976
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_021__rnn.npz",
+      "file_bytes": 272269,
+      "decoded_bytes": 430304
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_021__observed.npz",
+      "file_bytes": 593,
+      "decoded_bytes": 640
+    },
+    {
+      "path": "experiments/matched_history_diagnostic_2026-10-29/SWC_021__conditional.npz",
+      "file_bytes": 26801,
+      "decoded_bytes": 74320
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_022__rnn.json",
+      "file_bytes": 79074,
+      "decoded_bytes": 79074
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_022__prefix.npz",
+      "file_bytes": 49618,
+      "decoded_bytes": 119968
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_022__rnn.npz",
+      "file_bytes": 272439,
+      "decoded_bytes": 430304
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_022__observed.npz",
+      "file_bytes": 583,
+      "decoded_bytes": 640
+    },
+    {
+      "path": "experiments/matched_history_diagnostic_2026-10-29/SWC_022__conditional.npz",
+      "file_bytes": 27096,
+      "decoded_bytes": 74320
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_027__rnn.json",
+      "file_bytes": 79180,
+      "decoded_bytes": 79180
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_027__prefix.npz",
+      "file_bytes": 49092,
+      "decoded_bytes": 119976
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_027__rnn.npz",
+      "file_bytes": 272441,
+      "decoded_bytes": 430304
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_027__observed.npz",
+      "file_bytes": 597,
+      "decoded_bytes": 640
+    },
+    {
+      "path": "experiments/matched_history_diagnostic_2026-10-29/SWC_027__conditional.npz",
+      "file_bytes": 26969,
+      "decoded_bytes": 74320
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_028__rnn.json",
+      "file_bytes": 78470,
+      "decoded_bytes": 78470
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_028__prefix.npz",
+      "file_bytes": 47915,
+      "decoded_bytes": 119984
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_028__rnn.npz",
+      "file_bytes": 272176,
+      "decoded_bytes": 430304
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_028__observed.npz",
+      "file_bytes": 591,
+      "decoded_bytes": 640
+    },
+    {
+      "path": "experiments/matched_history_diagnostic_2026-10-29/SWC_028__conditional.npz",
+      "file_bytes": 26918,
+      "decoded_bytes": 74320
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_029__rnn.json",
+      "file_bytes": 80372,
+      "decoded_bytes": 80372
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_029__prefix.npz",
+      "file_bytes": 39691,
+      "decoded_bytes": 119968
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_029__rnn.npz",
+      "file_bytes": 272403,
+      "decoded_bytes": 430304
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_029__observed.npz",
+      "file_bytes": 576,
+      "decoded_bytes": 640
+    },
+    {
+      "path": "experiments/matched_history_diagnostic_2026-10-29/SWC_029__conditional.npz",
+      "file_bytes": 26877,
+      "decoded_bytes": 74320
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_030__rnn.json",
+      "file_bytes": 80305,
+      "decoded_bytes": 80305
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_030__prefix.npz",
+      "file_bytes": 37570,
+      "decoded_bytes": 119984
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_030__rnn.npz",
+      "file_bytes": 272195,
+      "decoded_bytes": 430304
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_030__observed.npz",
+      "file_bytes": 621,
+      "decoded_bytes": 640
+    },
+    {
+      "path": "experiments/matched_history_diagnostic_2026-10-29/SWC_030__conditional.npz",
+      "file_bytes": 26661,
+      "decoded_bytes": 74320
+    },
+    {
+      "path": "lab/tasks/learning-forecast-information-audit-2026-11-01/predictions/SWC_030.npz",
+      "file_bytes": 11989109,
+      "decoded_bytes": 14331712
+    },
+    {
+      "path": "lab/tasks/learning-forecast-information-audit-2026-11-01/UNCERTAINTY_DRAWS.npz",
+      "file_bytes": 396820,
+      "decoded_bytes": 448512
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/protocols/FREEZE.json",
+      "file_bytes": 11157,
+      "decoded_bytes": 11157
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/artifacts/baselines/nested_growth_bank.npz",
+      "file_bytes": 15742,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/artifacts/rnn/rnnglm32_nested_best.npz",
+      "file_bytes": 56254,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/baselines.py",
+      "file_bytes": 5494,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/data_io.py",
+      "file_bytes": 14512,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/evaluation.py",
+      "file_bytes": 3179,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/learning_models.py",
+      "file_bytes": 6955,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/rnn_learning.py",
+      "file_bytes": 4953,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/rnn_rollout.py",
+      "file_bytes": 15314,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/rollout.py",
+      "file_bytes": 8403,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/run_forecasts.py",
+      "file_bytes": 11003,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/trainer.py",
+      "file_bytes": 19415,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/protocols/EXPOSURE.jsonl",
+      "file_bytes": 1051427,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/protocols/FREEZE.json",
+      "file_bytes": 10124,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/protocols/RNN_FREEZE.json",
+      "file_bytes": 3525,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/protocols/SPLIT.json",
+      "file_bytes": 41561,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/protocols/VALIDATION_STATUS.json",
+      "file_bytes": 2558,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/coverage/BYTE_MANIFEST.json",
+      "file_bytes": 4323787,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/coverage/FILE_METADATA.json",
+      "file_bytes": 5619024,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/coverage/INDEX.json",
+      "file_bytes": 3865459,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/coverage/READER_FIXTURE_TEST.json",
+      "file_bytes": 397,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/coverage/RESULT.json",
+      "file_bytes": 55052,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/coverage/SESSIONS.json",
+      "file_bytes": 1046602,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/learner_controls/RESULT.json",
+      "file_bytes": 11947,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/method_audit/CONSUMED_SOURCE_EXACT100.npz",
+      "file_bytes": 443747,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/method_audit/CONTROLS.json",
+      "file_bytes": 33848,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/method_audit/METHOD_AUDIT.md",
+      "file_bytes": 6295,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/method_audit/PRIOR_WORK.md",
+      "file_bytes": 2975,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/method_audit/SOURCE_PRECISION.json",
+      "file_bytes": 11593,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/policy_audit/PINS.json",
+      "file_bytes": 436,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/policy_audit/POLICY_AUDIT.md",
+      "file_bytes": 9278,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/policy_audit/PREFIX_TRAINER_CHECK.json",
+      "file_bytes": 3366,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/policy_audit/RESULT.json",
+      "file_bytes": 421614,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/code/campaign.py",
+      "file_bytes": 9936,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/code/gate_audit.py",
+      "file_bytes": 15450,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/code/learner_controls.py",
+      "file_bytes": 4208,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/code/mixed_reader.py",
+      "file_bytes": 16183,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/code/policy_audit.py",
+      "file_bytes": 18585,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/code/production_replay.py",
+      "file_bytes": 8783,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/code/reconstruct_scores.py",
+      "file_bytes": 16402,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/code/score_campaign.py",
+      "file_bytes": 9614,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/protocols/ENDPOINT_FIXTURE.json",
+      "file_bytes": 190,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/protocols/GATE_CONFIG.json",
+      "file_bytes": 722,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/protocols/PROTOCOL.md",
+      "file_bytes": 9542,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/protocols/SOFTWARE.json",
+      "file_bytes": 155,
+      "decoded_bytes": 0,
+      "strict_freeze": true
+    }
+  ]
+}

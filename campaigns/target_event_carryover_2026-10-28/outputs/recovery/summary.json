@@ -1,0 +1,1112 @@
+{
+  "scope": "Validation INPUT schedules only; empirical validation outcomes never read",
+  "seed": 819281,
+  "replicates": 300,
+  "analysis_sha256": "a6f84d68f26796910b66d34a92e7d3efd819420b3169fda07d5fb09a41428ba4",
+  "noise_calibration": {
+    "source": "development_Hand_raw_change_all.json",
+    "sha256": "449f0519cb1c02b75255a6e75bf882be14e62dec28ee2422f655e7e1e0128289",
+    "development_residual_sd": {
+      "tsay_TE_SPE.csv": [
+        2.8937409003577983,
+        2.9552446394744414,
+        3.0067518947588336,
+        3.0098529160049345,
+        3.0628668915304713
+      ],
+      "tsay_controljump.csv": [
+        2.7935976540933325,
+        2.9054884166734634,
+        3.0328559290376407,
+        2.9661178573266476,
+        3.0860871494021116
+      ]
+    },
+    "simulation_endpoint_noise_sd": 3.0,
+    "rationale": "Conservative: 3 degrees at each endpoint before pre-window subtraction, compared with development differenced residual SD 2.79\u20133.09 degrees."
+  },
+  "omissions": {
+    "rate": 0.03,
+    "mask_seed": 194192,
+    "rule": "Independent fixed outcome mask; all chronological state updates retained. Conditional-on-mask recovery."
+  },
+  "inference": "Welch\u2013Satterthwaite df from independent set-level variances and 9 person-cluster degrees each.",
+  "operator_verification": {
+    "max_error": 1.1102230246251565e-16,
+    "normal": {
+      "estimate": 0.03181804071623589,
+      "se": 0.06513144650279985,
+      "low": -0.10602278822512701,
+      "high": 0.1696588696575988,
+      "people": 20,
+      "df": 16.33782475948466,
+      "curve": [
+        0.16107593929957148,
+        0.044608269787878144,
+        -0.024348703454735783,
+        -0.01084526275131617,
+        -0.011400039300218243
+      ]
+    },
+    "operator": {
+      "estimate": 0.03181804071623595,
+      "se": 0.06513144650279983,
+      "df": 16.337824759484665,
+      "set_variances": [
+        0.0027975915089684597,
+        0.0014445138145786152
+      ],
+      "low": -0.1060227882251269,
+      "high": 0.1696588696575988,
+      "curve": [
+        0.16107593929957187,
+        0.044608269787878164,
+        -0.024348703454735818,
+        -0.010845262751315515,
+        -0.011400039300218254
+      ]
+    }
+  },
+  "scenarios": {
+    "two_timescale_null": {
+      "replicates": 300,
+      "mean_estimate": -0.019293768512406332,
+      "mean_physical_truth": 0.0,
+      "mean_noiseless_projection": -0.0076661979909838016,
+      "bias_to_physical": -0.019293768512406332,
+      "mean_projection_bias": -0.0076661979909838016,
+      "rmse": 0.23270122936558646,
+      "empirical_sd": 0.23228747465396266,
+      "mean_se": 0.22753027423716854,
+      "coverage_physical": {
+        "rate": 0.95,
+        "n": 285,
+        "total": 300,
+        "binomial95": [
+          0.9188726428292358,
+          0.9717487980315225
+        ]
+      },
+      "coverage_noiseless_projection": {
+        "rate": 0.95,
+        "n": 285,
+        "total": 300,
+        "binomial95": [
+          0.9188726428292358,
+          0.9717487980315225
+        ]
+      },
+      "reject_zero": {
+        "rate": 0.05,
+        "n": 15,
+        "total": 300,
+        "binomial95": [
+          0.0282512019684775,
+          0.08112735717076412
+        ]
+      },
+      "correct_sign_detection": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "intervals_inside_02": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "falsely_inside_02_at_or_beyond_margin": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "mean_curve": [
+        -0.0026378568658515763,
+        -0.008727585011621136,
+        -0.01942060730506602,
+        -0.026833351928001525,
+        -0.03884944145149148
+      ],
+      "physical_curve": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "gain_only_null": {
+      "replicates": 300,
+      "mean_estimate": -0.016079355312128795,
+      "mean_physical_truth": 0.0,
+      "mean_noiseless_projection": -0.00862928016469821,
+      "bias_to_physical": -0.016079355312128795,
+      "mean_projection_bias": -0.00862928016469821,
+      "rmse": 0.2223790760291559,
+      "empirical_sd": 0.22216758518744545,
+      "mean_se": 0.229879980463618,
+      "coverage_physical": {
+        "rate": 0.97,
+        "n": 291,
+        "total": 300,
+        "binomial95": [
+          0.9438164517583034,
+          0.986192180444474
+        ]
+      },
+      "coverage_noiseless_projection": {
+        "rate": 0.9633333333333334,
+        "n": 289,
+        "total": 300,
+        "binomial95": [
+          0.9353414818036319,
+          0.9815565391875403
+        ]
+      },
+      "reject_zero": {
+        "rate": 0.03,
+        "n": 9,
+        "total": 300,
+        "binomial95": [
+          0.013807819555525978,
+          0.05618354824169668
+        ]
+      },
+      "correct_sign_detection": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "intervals_inside_02": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "falsely_inside_02_at_or_beyond_margin": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "mean_curve": [
+        -0.021466071172975325,
+        0.00037980248285405643,
+        0.007594012597053895,
+        -0.03400353299891707,
+        -0.03290098746865936
+      ],
+      "physical_curve": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "online_null": {
+      "replicates": 300,
+      "mean_estimate": -0.01853321266198898,
+      "mean_physical_truth": 0.0,
+      "mean_noiseless_projection": -0.006012349975021968,
+      "bias_to_physical": -0.01853321266198898,
+      "mean_projection_bias": -0.006012349975021968,
+      "rmse": 0.2234393110503825,
+      "empirical_sd": 0.22304141017594167,
+      "mean_se": 0.22824348382187296,
+      "coverage_physical": {
+        "rate": 0.9366666666666666,
+        "n": 281,
+        "total": 300,
+        "binomial95": [
+          0.9028618033928502,
+          0.9614419801716234
+        ]
+      },
+      "coverage_noiseless_projection": {
+        "rate": 0.93,
+        "n": 279,
+        "total": 300,
+        "binomial95": [
+          0.8949860004499501,
+          0.9561496552445706
+        ]
+      },
+      "reject_zero": {
+        "rate": 0.06333333333333334,
+        "n": 19,
+        "total": 300,
+        "binomial95": [
+          0.038558019828376595,
+          0.09713819660714972
+        ]
+      },
+      "correct_sign_detection": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "intervals_inside_02": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "falsely_inside_02_at_or_beyond_margin": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "mean_curve": [
+        -0.03407216059559042,
+        -0.022628596330954428,
+        -0.048794958535959936,
+        -0.0011742213882361859,
+        0.014003873540796267
+      ],
+      "physical_curve": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "expression_current_positive": {
+      "replicates": 300,
+      "mean_estimate": 0.023032750379395093,
+      "mean_physical_truth": 0.0,
+      "mean_noiseless_projection": 0.016291018650405133,
+      "bias_to_physical": 0.023032750379395093,
+      "mean_projection_bias": 0.016291018650405133,
+      "rmse": 0.23763112775396536,
+      "empirical_sd": 0.23690742717586022,
+      "mean_se": 0.2335094525480562,
+      "coverage_physical": {
+        "rate": 0.9333333333333333,
+        "n": 280,
+        "total": 300,
+        "binomial95": [
+          0.8989143547885917,
+          0.9588059837861064
+        ]
+      },
+      "coverage_noiseless_projection": {
+        "rate": 0.95,
+        "n": 285,
+        "total": 300,
+        "binomial95": [
+          0.9188726428292358,
+          0.9717487980315225
+        ]
+      },
+      "reject_zero": {
+        "rate": 0.06666666666666667,
+        "n": 20,
+        "total": 300,
+        "binomial95": [
+          0.041194016213893576,
+          0.10108564521140824
+        ]
+      },
+      "correct_sign_detection": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "intervals_inside_02": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "falsely_inside_02_at_or_beyond_margin": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "mean_curve": [
+        0.03212975964994887,
+        0.027255513305781617,
+        0.01413808462165648,
+        0.04638492495850197,
+        -0.0047445306389133635
+      ],
+      "physical_curve": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "retention_negative": {
+      "replicates": 300,
+      "mean_estimate": -0.21273610797204204,
+      "mean_physical_truth": -0.15836135361817186,
+      "mean_noiseless_projection": -0.19186700303145907,
+      "bias_to_physical": -0.05437475435387017,
+      "mean_projection_bias": -0.03350564941328723,
+      "rmse": 0.23186568381657563,
+      "empirical_sd": 0.2257200251808083,
+      "mean_se": 0.2326145445246456,
+      "coverage_physical": {
+        "rate": 0.95,
+        "n": 285,
+        "total": 300,
+        "binomial95": [
+          0.9188726428292358,
+          0.9717487980315225
+        ]
+      },
+      "coverage_noiseless_projection": {
+        "rate": 0.9633333333333334,
+        "n": 289,
+        "total": 300,
+        "binomial95": [
+          0.9353414818036319,
+          0.9815565391875403
+        ]
+      },
+      "reject_zero": {
+        "rate": 0.13,
+        "n": 39,
+        "total": 300,
+        "binomial95": [
+          0.09410119063157005,
+          0.17340483944723317
+        ]
+      },
+      "correct_sign_detection": {
+        "rate": 0.12333333333333334,
+        "n": 37,
+        "total": 300,
+        "binomial95": [
+          0.08834419456105248,
+          0.16597270217334192
+        ]
+      },
+      "intervals_inside_02": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "falsely_inside_02_at_or_beyond_margin": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "mean_curve": [
+        -0.4364711131999702,
+        -0.26274797065170724,
+        -0.17584989404249507,
+        -0.10305374655607945,
+        -0.08555781540995784
+      ],
+      "physical_curve": [
+        -0.3965941965757891,
+        -0.20570540082404323,
+        -0.10644546119373487,
+        -0.05469612859479434,
+        -0.028365580902497845
+      ]
+    },
+    "retention_positive": {
+      "replicates": 300,
+      "mean_estimate": 0.282145595131499,
+      "mean_physical_truth": 0.2565127486059262,
+      "mean_noiseless_projection": 0.2616422589387142,
+      "bias_to_physical": 0.025632846525572815,
+      "mean_projection_bias": 0.005129510332787955,
+      "rmse": 0.2324013198527379,
+      "empirical_sd": 0.23276906249038978,
+      "mean_se": 0.2298475217681939,
+      "coverage_physical": {
+        "rate": 0.95,
+        "n": 285,
+        "total": 300,
+        "binomial95": [
+          0.9188726428292358,
+          0.9717487980315225
+        ]
+      },
+      "coverage_noiseless_projection": {
+        "rate": 0.9566666666666667,
+        "n": 287,
+        "total": 300,
+        "binomial95": [
+          0.927038535779718,
+          0.9767281589953141
+        ]
+      },
+      "reject_zero": {
+        "rate": 0.22666666666666666,
+        "n": 68,
+        "total": 300,
+        "binomial95": [
+          0.18053081663426895,
+          0.2782908451121019
+        ]
+      },
+      "correct_sign_detection": {
+        "rate": 0.22333333333333333,
+        "n": 67,
+        "total": 300,
+        "binomial95": [
+          0.17747768109334136,
+          0.27474548818918293
+        ]
+      },
+      "intervals_inside_02": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "falsely_inside_02_at_or_beyond_margin": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "mean_curve": [
+        0.40097822802957805,
+        0.34005426863036436,
+        0.3006883457370974,
+        0.19946117992658982,
+        0.1695459533338658
+      ],
+      "physical_curve": [
+        0.39619493350208806,
+        0.3095500454603199,
+        0.24153842799923217,
+        0.18813446433603104,
+        0.1471458717319598
+      ]
+    },
+    "expression_next_positive": {
+      "replicates": 300,
+      "mean_estimate": 0.11439488304829307,
+      "mean_physical_truth": 0.07948103319345122,
+      "mean_noiseless_projection": 0.09928357678331831,
+      "bias_to_physical": 0.03491384985484185,
+      "mean_projection_bias": 0.019802543589867074,
+      "rmse": 0.2500027457970855,
+      "empirical_sd": 0.24768282495470947,
+      "mean_se": 0.22917941135643408,
+      "coverage_physical": {
+        "rate": 0.94,
+        "n": 282,
+        "total": 300,
+        "binomial95": [
+          0.9068297039280113,
+          0.9640561255848612
+        ]
+      },
+      "coverage_noiseless_projection": {
+        "rate": 0.94,
+        "n": 282,
+        "total": 300,
+        "binomial95": [
+          0.9068297039280113,
+          0.9640561255848612
+        ]
+      },
+      "reject_zero": {
+        "rate": 0.08333333333333333,
+        "n": 25,
+        "total": 300,
+        "binomial95": [
+          0.05465427587846629,
+          0.12055873687593321
+        ]
+      },
+      "correct_sign_detection": {
+        "rate": 0.07666666666666666,
+        "n": 23,
+        "total": 300,
+        "binomial95": [
+          0.0492187838756741,
+          0.11281811536051899
+        ]
+      },
+      "intervals_inside_02": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "falsely_inside_02_at_or_beyond_margin": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "mean_curve": [
+        0.4104983959748477,
+        0.01859677076175595,
+        0.04992285018065605,
+        0.024505333833027623,
+        0.06845106449117792
+      ],
+      "physical_curve": [
+        0.39740516596725645,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "rebound_positive": {
+      "replicates": 300,
+      "mean_estimate": -0.00571014309611105,
+      "mean_physical_truth": 0.0,
+      "mean_noiseless_projection": 0.004793044935363599,
+      "bias_to_physical": -0.00571014309611105,
+      "mean_projection_bias": 0.004793044935363599,
+      "rmse": 0.23288327850165447,
+      "empirical_sd": 0.2332022583850495,
+      "mean_se": 0.2316801856185981,
+      "coverage_physical": {
+        "rate": 0.9533333333333334,
+        "n": 286,
+        "total": 300,
+        "binomial95": [
+          0.9229401618936413,
+          0.9742553505327689
+        ]
+      },
+      "coverage_noiseless_projection": {
+        "rate": 0.9466666666666667,
+        "n": 284,
+        "total": 300,
+        "binomial95": [
+          0.9148332350904811,
+          0.9692116802265222
+        ]
+      },
+      "reject_zero": {
+        "rate": 0.04666666666666667,
+        "n": 14,
+        "total": 300,
+        "binomial95": [
+          0.025744649467231068,
+          0.07705983810635882
+        ]
+      },
+      "correct_sign_detection": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "intervals_inside_02": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "falsely_inside_02_at_or_beyond_margin": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "mean_curve": [
+        0.4098835958028969,
+        -0.36859096714306716,
+        -0.022774085474434123,
+        -0.06164847956141997,
+        0.014579220895468963
+      ],
+      "physical_curve": [
+        0.39435237241066784,
+        -0.39435237241066784,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "actual_margin_negative": {
+      "replicates": 300,
+      "mean_estimate": -0.22104771776044904,
+      "mean_physical_truth": -0.20031158334957203,
+      "mean_noiseless_projection": -0.24053156458832595,
+      "bias_to_physical": -0.020736134410877047,
+      "mean_projection_bias": -0.04021998123875391,
+      "rmse": 0.25474028523616654,
+      "empirical_sd": 0.25546765155127094,
+      "mean_se": 0.23486345342189283,
+      "coverage_physical": {
+        "rate": 0.9433333333333334,
+        "n": 283,
+        "total": 300,
+        "binomial95": [
+          0.9108195955658341,
+          0.9666466884833183
+        ]
+      },
+      "coverage_noiseless_projection": {
+        "rate": 0.9333333333333333,
+        "n": 280,
+        "total": 300,
+        "binomial95": [
+          0.8989143547885917,
+          0.9588059837861064
+        ]
+      },
+      "reject_zero": {
+        "rate": 0.17666666666666667,
+        "n": 53,
+        "total": 300,
+        "binomial95": [
+          0.13522561708140543,
+          0.22462688674139336
+        ]
+      },
+      "correct_sign_detection": {
+        "rate": 0.17666666666666667,
+        "n": 53,
+        "total": 300,
+        "binomial95": [
+          0.13522561708140543,
+          0.22462688674139336
+        ]
+      },
+      "intervals_inside_02": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "falsely_inside_02_at_or_beyond_margin": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "mean_curve": [
+        -0.46877572662727934,
+        -0.2756636767851372,
+        -0.18211500211566936,
+        -0.09153425002240298,
+        -0.08714993325175607
+      ],
+      "physical_curve": [
+        -0.48943825026922033,
+        -0.26083580347421,
+        -0.1387863588063039,
+        -0.07339811369148351,
+        -0.0390993905066422
+      ],
+      "isolated_reference_effect": -0.24684887163760752,
+      "gains": [
+        0.9,
+        0.2
+      ],
+      "physical_reference_target": -0.2
+    },
+    "actual_margin_positive": {
+      "replicates": 300,
+      "mean_estimate": 0.21864209588434014,
+      "mean_physical_truth": 0.20034508609844048,
+      "mean_noiseless_projection": 0.20959963622866004,
+      "bias_to_physical": 0.01829700978589963,
+      "mean_projection_bias": 0.00925455013021953,
+      "rmse": 0.21516168752682038,
+      "empirical_sd": 0.2145340898732297,
+      "mean_se": 0.23073515694654576,
+      "coverage_physical": {
+        "rate": 0.9666666666666667,
+        "n": 290,
+        "total": 300,
+        "binomial95": [
+          0.9395546777987344,
+          0.9839018324373834
+        ]
+      },
+      "coverage_noiseless_projection": {
+        "rate": 0.97,
+        "n": 291,
+        "total": 300,
+        "binomial95": [
+          0.9438164517583034,
+          0.986192180444474
+        ]
+      },
+      "reject_zero": {
+        "rate": 0.11,
+        "n": 33,
+        "total": 300,
+        "binomial95": [
+          0.07693896352728632,
+          0.15100322157472484
+        ]
+      },
+      "correct_sign_detection": {
+        "rate": 0.11,
+        "n": 33,
+        "total": 300,
+        "binomial95": [
+          0.07693896352728632,
+          0.15100322157472484
+        ]
+      },
+      "intervals_inside_02": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "falsely_inside_02_at_or_beyond_margin": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "mean_curve": [
+        0.33508169208009625,
+        0.288577915400818,
+        0.22686123943448214,
+        0.126773598477812,
+        0.11591603402849204
+      ],
+      "physical_curve": [
+        0.3404009658192004,
+        0.24897278086790242,
+        0.18197895948235185,
+        0.1329961040161007,
+        0.09737662030664734
+      ],
+      "isolated_reference_effect": 0.17164966095840714,
+      "gains": [
+        0.9,
+        0.2
+      ],
+      "physical_reference_target": 0.2
+    },
+    "specified_linear_0.0": {
+      "replicates": 300,
+      "mean_estimate": -0.002136463140970446,
+      "mean_physical_truth": 0.0,
+      "mean_noiseless_projection": 0.0,
+      "bias_to_physical": -0.002136463140970446,
+      "mean_projection_bias": 0.0,
+      "rmse": 0.23446853843694207,
+      "empirical_sd": 0.23485054888098955,
+      "mean_se": 0.231110650676929,
+      "coverage_physical": {
+        "rate": 0.95,
+        "n": 285,
+        "total": 300,
+        "binomial95": [
+          0.9188726428292358,
+          0.9717487980315225
+        ]
+      },
+      "coverage_noiseless_projection": {
+        "rate": 0.95,
+        "n": 285,
+        "total": 300,
+        "binomial95": [
+          0.9188726428292358,
+          0.9717487980315225
+        ]
+      },
+      "reject_zero": {
+        "rate": 0.05,
+        "n": 15,
+        "total": 300,
+        "binomial95": [
+          0.0282512019684775,
+          0.08112735717076412
+        ]
+      },
+      "correct_sign_detection": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "intervals_inside_02": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "falsely_inside_02_at_or_beyond_margin": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "mean_curve": [
+        0.0012824259466997726,
+        -0.007098831488725807,
+        -0.004877330940503937,
+        -0.0013471994491166205,
+        0.0013586202267943793
+      ],
+      "physical_curve": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "specified_linear_-0.2": {
+      "replicates": 300,
+      "mean_estimate": -0.21407462318093223,
+      "mean_physical_truth": -0.19999999999999998,
+      "mean_noiseless_projection": -0.19999999999999998,
+      "bias_to_physical": -0.014074623180932217,
+      "mean_projection_bias": 0.0,
+      "rmse": 0.22147347916995108,
+      "empirical_sd": 0.22139510594050069,
+      "mean_se": 0.22772401561281053,
+      "coverage_physical": {
+        "rate": 0.9566666666666667,
+        "n": 287,
+        "total": 300,
+        "binomial95": [
+          0.927038535779718,
+          0.9767281589953141
+        ]
+      },
+      "coverage_noiseless_projection": {
+        "rate": 0.9566666666666667,
+        "n": 287,
+        "total": 300,
+        "binomial95": [
+          0.927038535779718,
+          0.9767281589953141
+        ]
+      },
+      "reject_zero": {
+        "rate": 0.12666666666666668,
+        "n": 38,
+        "total": 300,
+        "binomial95": [
+          0.09121842374575373,
+          0.16969290735849543
+        ]
+      },
+      "correct_sign_detection": {
+        "rate": 0.12666666666666668,
+        "n": 38,
+        "total": 300,
+        "binomial95": [
+          0.09121842374575373,
+          0.16969290735849543
+        ]
+      },
+      "intervals_inside_02": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "falsely_inside_02_at_or_beyond_margin": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "mean_curve": [
+        -0.21332027076246732,
+        -0.21414929010653092,
+        -0.20774288509850755,
+        -0.22203777511508505,
+        -0.2131228948220702
+      ],
+      "physical_curve": [
+        -0.20000000000000104,
+        -0.20000000000000104,
+        -0.20000000000000104,
+        -0.20000000000000104,
+        -0.20000000000000104
+      ]
+    },
+    "specified_linear_0.2": {
+      "replicates": 300,
+      "mean_estimate": 0.22725858245025146,
+      "mean_physical_truth": 0.19999999999999998,
+      "mean_noiseless_projection": 0.19999999999999998,
+      "bias_to_physical": 0.027258582450251433,
+      "mean_projection_bias": 0.0,
+      "rmse": 0.22657079078687423,
+      "empirical_sd": 0.22530089784365315,
+      "mean_se": 0.22695149592316544,
+      "coverage_physical": {
+        "rate": 0.9533333333333334,
+        "n": 286,
+        "total": 300,
+        "binomial95": [
+          0.9229401618936413,
+          0.9742553505327689
+        ]
+      },
+      "coverage_noiseless_projection": {
+        "rate": 0.9533333333333334,
+        "n": 286,
+        "total": 300,
+        "binomial95": [
+          0.9229401618936413,
+          0.9742553505327689
+        ]
+      },
+      "reject_zero": {
+        "rate": 0.17333333333333334,
+        "n": 52,
+        "total": 300,
+        "binomial95": [
+          0.1322464819037041,
+          0.22100885244724885
+        ]
+      },
+      "correct_sign_detection": {
+        "rate": 0.17,
+        "n": 51,
+        "total": 300,
+        "binomial95": [
+          0.1292731282931007,
+          0.2173851596706235
+        ]
+      },
+      "intervals_inside_02": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "falsely_inside_02_at_or_beyond_margin": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "mean_curve": [
+        0.23557319770077462,
+        0.23116705536255647,
+        0.23007921843793147,
+        0.22118824154272895,
+        0.21828519920726605
+      ],
+      "physical_curve": [
+        0.20000000000000104,
+        0.20000000000000104,
+        0.20000000000000104,
+        0.20000000000000104,
+        0.20000000000000104
+      ]
+    }
+  },
+  "seconds": 115.29849696159363
+}

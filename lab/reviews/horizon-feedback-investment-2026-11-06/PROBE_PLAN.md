@@ -1,0 +1,13 @@
+# Fixed-recipe source challenge on 160-game support
+
+Use the first 160 games of each of the 25 released Wilson development participants. Verify the game count, 80 H6 origins and the forced counts per person. Reuse each saved five-fold fit on its original evaluation people with the original game-ordinal encoding. All model choice probabilities at origin use the same first-choice law. The fitting participants supplied all 320 games and the evaluation participants supplied no fitting rows. This probes a common support window on consumed data. The announcement of a 160-game session, repeat experience and cohort differences remain potential transport changes.
+
+At each H6 origin, pair history and lookahead through donor, reward and choice randomness in two independent banks of 256 paths. Retain the authors' joint energy outcome, 5 pp terminal-policy perturbation, final switch and less-sampled choice, reward and feedback–choice association. Add one same-fit contrary by setting the realized value-of-information predictor to zero while preserving every other logit term, including at the terminal decision. This isolates the effect of using that term in the saved prescription. It leaves open what a refit would learn.
+
+Measure the exact feedback-resolved choice path log likelihood as a supplemental discriminator. Average the **product** of the six sequential choice probabilities over the one donor drawn per game. The common conditional reward kernel cancels in the ratio. Evaluate it on the observed and separately generated paths. Record each known-law direction and its fixed-roster within-origin sampling variation. This diagnostic tests the exact laws, including choice response to feedback. It gives no unique-mechanism or new primary success claim.
+
+Reduce by equal games within person, then equal people. Report observed paired dispersion and same-window working Student half-widths at six and 30 people. Compare actual separation and endpoint shifts with the measured terminal perturbation. Known-law separation, forecast calibration and person-level precision answer distinct questions. Use the predeclared early window without selecting a stratum based on later outcomes. One program, no refit. Stop after this calculation.
+
+## Schedule-only correction after the support stop
+
+The first execution failed the 80-H6-per-person assertion before simulation, fitting or reduction. The analysis window stays at games 1–160 for every participant. Keep all H6 origins in that window and report the actual per-person counts and forced-information support. Use each person's actual denominator in the fixed-roster sampling variance. The 80-H6 design is a cost reference pending a verified replication schedule. [Stopped run](PROBE_SUPPORT_STOP.log)

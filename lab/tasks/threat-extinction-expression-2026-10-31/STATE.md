@@ -1,0 +1,15 @@
+# Threat-extinction investigation — acquisition blocked, finished
+
+Owner: `01a194d8-d4ae-79e0-98cb-2338d60d54a3`. PI START received; single owner. START 2026-11-01T02:03:26.875Z; source deadline 02:23:26.875Z; final deadline 03:18:26.875Z. Finished source screening before deadlines; jobs: 0. No process or pending download remains. ONE terminal report was accepted by the app for current registry PI `01a194d5-b47a-7780-a5b9-d32abf3183f2`, without model/thinking overrides. No retry or acknowledgement restart. See DELIVERY.json.
+
+Question: Does declining physiology require cue-specific updating beyond common response habituation, and how does this compare with explicit outcome expectation? Prediction can constrain these accounts but does not identify biological latent storage.
+
+No old raw/protected data accessed. Final charge: 11 public operations, two candidate deposits, 7,023,489 ingress bytes (including conservative failed/connector allowances), 20,000,000 additional scientific read/decode/hash bytes. Largest measured local Python peak 21,381,120 bytes; provider-side peak unmeasured. See RESOURCES.json. The stop is the defining-data blocker under the two-candidate-deposit bound, not exhausted wall time or a claim that all public threat data are unavailable.
+
+Candidate deposit 1: Mertens et al. OSF c3dtn, paper DOI 10.1016/j.jbtep.2018.09.007. Its complete root file listing contains only the Experiment 1 registration PDF and Experiment 1 ZIP, no child nodes. Experiment 1 lacks a safety cue. CORRECTION: the paper's Experiment 2 adds a safety cue and cites a separate deposit dxpb3. That deposit was not inspected because the two-deposit bound was already consumed. No Mertens participant payload was downloaded. Public paper/group summaries of both experiments are exposed.
+
+Candidate deposit 2: Ehlers et al. Zenodo concept 22098433, versions 22098434 and 22127185. Both are embargoed through 2031-08-25 and expose no files. The complete linked manaehlers/ART-fear-conditioning GitHub tree c3d700523f20dd9e997566f62e1837c2eb26ce95 contains eight code/license/README files, no data. No embargoed-access attempt was made.
+
+Executed offline source checks are saved in FIRST_DATA_CHECK.json with the exact command, counts, pins and measured resources. This artifact explicitly states zero participant rows/units and BLOCKED_BEFORE_PARTICIPANT_DATA_CHECK. It is not empirical execution verification, an experiment or evidence for either explanation. No split/model/main freeze/control/development revision was run; see PROTOCOL_STATUS.md. No participant outcomes acquired/decoded; published aggregate outcomes are summary-exposed.
+
+Recommendation: close this bounded pass. If PI chooses a separately bounded new allocation, inspect the directly cited Experiment 2 dxpb3 lead first. Paired records, chronology, scoring, units, license and usable source-defined participants remain unverified there. Do not restart this finished worker or increase its caps. RESULT.md, README.md, SOURCE_MANIFEST.json and PROPOSED_LEARNING.md are saved for collection; PI owns shared records and heartbeat decisions.

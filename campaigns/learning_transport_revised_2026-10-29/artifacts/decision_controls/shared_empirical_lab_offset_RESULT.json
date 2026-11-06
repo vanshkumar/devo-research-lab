@@ -1,0 +1,415 @@
+{
+  "absolute_MAE_interval_warning": "Descriptive percentile intervals have a nonregular zero boundary; poor coverage is reported and no absolute-MAE equivalence claim follows.",
+  "bootstrap_einsum_check_max_abs": 0.0,
+  "cases": {
+    "null_baselines_correct_candidate_minus10pp": {
+      "decision_rate": {
+        "count": 138,
+        "interval95_ClopperPearson": [
+          0.05828040513292325,
+          0.08100287591066666
+        ],
+        "rate": 0.069,
+        "repetitions": 2000
+      },
+      "false_material_among_all_cohorts": {
+        "count": 25,
+        "interval95_ClopperPearson": [
+          0.008105230838877514,
+          0.018397493413938003
+        ],
+        "rate": 0.0125,
+        "repetitions": 2000
+      },
+      "joint_gain_interval95_coverage": {
+        "count": 1856,
+        "interval95_ClopperPearson": [
+          0.9157818065813662,
+          0.9389445445343899
+        ],
+        "rate": 0.928,
+        "repetitions": 2000
+      },
+      "mean_point_gain": [
+        -0.045658828256029224,
+        -0.045658828256029224
+      ],
+      "true_gain_range": [
+        -0.1,
+        0.05991715963276649
+      ],
+      "true_material_cohorts": 225
+    },
+    "null_baselines_correct_candidate_plus10pp": {
+      "decision_rate": {
+        "count": 214,
+        "interval95_ClopperPearson": [
+          0.09378631633013434,
+          0.12137786469711423
+        ],
+        "rate": 0.107,
+        "repetitions": 2000
+      },
+      "false_material_among_all_cohorts": {
+        "count": 82,
+        "interval95_ClopperPearson": [
+          0.03273891410988624,
+          0.05063840339803218
+        ],
+        "rate": 0.041,
+        "repetitions": 2000
+      },
+      "joint_gain_interval95_coverage": {
+        "count": 1904,
+        "interval95_ClopperPearson": [
+          0.9416975076588543,
+          0.9609496629444231
+        ],
+        "rate": 0.952,
+        "repetitions": 2000
+      },
+      "mean_point_gain": [
+        -0.0474203675718775,
+        -0.0474203675718775
+      ],
+      "true_gain_range": [
+        -0.1,
+        0.068369925939586
+      ],
+      "true_material_cohorts": 231
+    },
+    "null_equal_error_candidate_minus5_baselines_plus5": {
+      "decision_rate": {
+        "count": 612,
+        "interval95_ClopperPearson": [
+          0.2858501614748163,
+          0.3267200838976675
+        ],
+        "rate": 0.306,
+        "repetitions": 2000
+      },
+      "false_material_among_all_cohorts": {
+        "count": 15,
+        "interval95_ClopperPearson": [
+          0.004203591756889188,
+          0.01233998373578594
+        ],
+        "rate": 0.0075,
+        "repetitions": 2000
+      },
+      "joint_gain_interval95_coverage": {
+        "count": 1829,
+        "interval95_ClopperPearson": [
+          0.9013787558092895,
+          0.9263903521633325
+        ],
+        "rate": 0.9145,
+        "repetitions": 2000
+      },
+      "mean_point_gain": [
+        0.004512659934152987,
+        0.004512659934152987
+      ],
+      "true_gain_range": [
+        -0.09750401008261289,
+        0.09239955777327213
+      ],
+      "true_material_cohorts": 877
+    },
+    "null_equal_error_candidate_plus5_baselines_minus5": {
+      "decision_rate": {
+        "count": 573,
+        "interval95_ClopperPearson": [
+          0.26675987128202544,
+          0.3068678849400498
+        ],
+        "rate": 0.2865,
+        "repetitions": 2000
+      },
+      "false_material_among_all_cohorts": {
+        "count": 28,
+        "interval95_ClopperPearson": [
+          0.009322520088783646,
+          0.020170751231794837
+        ],
+        "rate": 0.014,
+        "repetitions": 2000
+      },
+      "joint_gain_interval95_coverage": {
+        "count": 1829,
+        "interval95_ClopperPearson": [
+          0.9013787558092895,
+          0.9263903521633325
+        ],
+        "rate": 0.9145,
+        "repetitions": 2000
+      },
+      "mean_point_gain": [
+        -0.004512659934152987,
+        -0.004512659934152987
+      ],
+      "true_gain_range": [
+        -0.09239955777327213,
+        0.09750401008261289
+      ],
+      "true_material_cohorts": 672
+    },
+    "null_identical_correct_forecasts": {
+      "decision_rate": {
+        "count": 0,
+        "interval95_ClopperPearson": [
+          0.0,
+          0.0018427397934059364
+        ],
+        "rate": 0.0,
+        "repetitions": 2000
+      },
+      "false_material_among_all_cohorts": {
+        "count": 0,
+        "interval95_ClopperPearson": [
+          0.0,
+          0.0018427397934059364
+        ],
+        "rate": 0.0,
+        "repetitions": 2000
+      },
+      "joint_gain_interval95_coverage": {
+        "count": 2000,
+        "interval95_ClopperPearson": [
+          0.998157260206594,
+          1.0
+        ],
+        "rate": 1.0,
+        "repetitions": 2000
+      },
+      "mean_point_gain": [
+        0.0,
+        0.0
+      ],
+      "true_gain_range": [
+        0.0,
+        0.0
+      ],
+      "true_material_cohorts": 0
+    },
+    "signal_baselines_minus10pp": {
+      "decision_rate": {
+        "count": 1066,
+        "interval95_ClopperPearson": [
+          0.5108498318010471,
+          0.5550532856780656
+        ],
+        "rate": 0.533,
+        "repetitions": 2000
+      },
+      "false_material_among_all_cohorts": {
+        "count": 22,
+        "interval95_ClopperPearson": [
+          0.006906122788328853,
+          0.01660701640128506
+        ],
+        "rate": 0.011,
+        "repetitions": 2000
+      },
+      "joint_gain_interval95_coverage": {
+        "count": 1856,
+        "interval95_ClopperPearson": [
+          0.9157818065813662,
+          0.9389445445343899
+        ],
+        "rate": 0.928,
+        "repetitions": 2000
+      },
+      "mean_point_gain": [
+        0.045658828256029224,
+        0.045658828256029224
+      ],
+      "true_gain_range": [
+        -0.05991715963276649,
+        0.1
+      ],
+      "true_material_cohorts": 1123
+    },
+    "signal_baselines_plus10pp": {
+      "decision_rate": {
+        "count": 1114,
+        "interval95_ClopperPearson": [
+          0.5349095549903554,
+          0.578923091697003
+        ],
+        "rate": 0.557,
+        "repetitions": 2000
+      },
+      "false_material_among_all_cohorts": {
+        "count": 23,
+        "interval95_ClopperPearson": [
+          0.0073035940421758835,
+          0.01720594810634058
+        ],
+        "rate": 0.0115,
+        "repetitions": 2000
+      },
+      "joint_gain_interval95_coverage": {
+        "count": 1904,
+        "interval95_ClopperPearson": [
+          0.9416975076588543,
+          0.9609496629444231
+        ],
+        "rate": 0.952,
+        "repetitions": 2000
+      },
+      "mean_point_gain": [
+        0.0474203675718775,
+        0.0474203675718775
+      ],
+      "true_gain_range": [
+        -0.068369925939586,
+        0.1
+      ],
+      "true_material_cohorts": 1328
+    }
+  },
+  "coverage": {
+    "bias90": {
+      "count": 1754,
+      "interval95_ClopperPearson": [
+        0.8618011694538267,
+        0.89108358275971
+      ],
+      "rate": 0.877,
+      "repetitions": 2000
+    },
+    "bias95": {
+      "count": 1854,
+      "interval95_ClopperPearson": [
+        0.9147113085259793,
+        0.9380182412811677
+      ],
+      "rate": 0.927,
+      "repetitions": 2000
+    },
+    "mae90": {
+      "count": 1678,
+      "interval95_ClopperPearson": [
+        0.8221479668833003,
+        0.8548515532479549
+      ],
+      "rate": 0.839,
+      "repetitions": 2000
+    },
+    "mae95": {
+      "count": 1801,
+      "interval95_ClopperPearson": [
+        0.8865384674608994,
+        0.9132742288144409
+      ],
+      "rate": 0.9005,
+      "repetitions": 2000
+    },
+    "unconditional_bias90": {
+      "count": 670,
+      "interval95_ClopperPearson": [
+        0.3143189516002053,
+        0.35616586823043467
+      ],
+      "rate": 0.335,
+      "repetitions": 2000
+    },
+    "unconditional_bias95": {
+      "count": 801,
+      "interval95_ClopperPearson": [
+        0.37893437144355296,
+        0.4223578223524118
+      ],
+      "rate": 0.4005,
+      "repetitions": 2000
+    }
+  },
+  "environment_counts": [
+    227,
+    202,
+    242,
+    231,
+    225,
+    227,
+    223,
+    209,
+    214
+  ],
+  "known_finite_population_mean_by_environment": [
+    [
+      0.46393738795272776,
+      0.4800159713132083,
+      0.4757978050620935,
+      0.4019592935298711,
+      0.4471347496461058,
+      0.4397922187186413
+    ],
+    [
+      0.4810638678664667,
+      0.46591372810222587,
+      0.4581101949859316,
+      0.4653200444206,
+      0.46032902149369115,
+      0.46377773408968204
+    ],
+    [
+      0.47939881796852774,
+      0.47162781197586034,
+      0.5009369252936872,
+      0.49503794810205637,
+      0.5124178751648264,
+      0.5430154833324863
+    ],
+    [
+      0.598089341443447,
+      0.6417633445656835,
+      0.6186213647953428,
+      0.5711334860372521,
+      0.5933749200902201,
+      0.5425120302478387
+    ],
+    [
+      0.4728013266801836,
+      0.4343467652634587,
+      0.4131004291580582,
+      0.39399861251035556,
+      0.36778007636107,
+      0.37162306242803284
+    ],
+    [
+      0.5238610504588758,
+      0.5638772962900938,
+      0.5490591765910525,
+      0.641972413457466,
+      0.6137518502778571,
+      0.6311725118823274
+    ],
+    [
+      0.505689157252734,
+      0.45387931789848124,
+      0.44891037756800606,
+      0.411318688374933,
+      0.3829769962406061,
+      0.40715112790353336
+    ],
+    [
+      0.49778729375536773,
+      0.48304403639352744,
+      0.49873031868066664,
+      0.5416694255989782,
+      0.5406027280599164,
+      0.5415810688130014
+    ],
+    [
+      0.47737175662166975,
+      0.5055317281974611,
+      0.536219816447333,
+      0.5765919714739899,
+      0.5816317826657071,
+      0.5593747625844571
+    ]
+  ],
+  "name": "shared_empirical_lab_offset",
+  "repetitions": 2000
+}

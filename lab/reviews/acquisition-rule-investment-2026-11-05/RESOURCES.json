@@ -1,0 +1,135 @@
+{
+  "reviewer_thread_id": "01a1abaf-a596-7841-926f-c03378fd66d9",
+  "assignment": "Independent acquisition-rule investment review, including PI steering on early calibration versus future updater utility",
+  "limits": {
+    "elapsed_seconds": 7200,
+    "scientific_cpu_seconds": 1200,
+    "new_primary_ingress_bytes": 30000000,
+    "total_reads_decoding_bytes": 500000000,
+    "reserve_remaining_percent": 25
+  },
+  "checkpoint": {
+    "current_time": "2026-11-05 13:15:37 UTC"
+  },
+  "latest_native_goal": {
+    "goal": {
+      "threadId": "01a1abaf-a596-7841-926f-c03378fd66d9",
+      "objective": "Independently decide whether a fair real-data comparison of learned nonlinear update dynamics against strong ordinary adaptive state, history and engagement accounts can materially change acquisition-prediction beliefs beyond primary prior and the lab benchmark; verify primary prior, derive an independent decision-driving design/reference check without author code or raw records, assess actual pilot summaries, and save an evidence-backed funding or continuation recommendation within the assigned access and resource limits.",
+      "status": "active",
+      "tokensUsed": 231818,
+      "timeUsedSeconds": 2665,
+      "createdAt": 1793881795,
+      "updatedAt": 1793884461
+    },
+    "remainingTokens": null,
+    "completionBudgetReport": null
+  },
+  "account": {
+    "start_remaining_percent": 89,
+    "close_remaining_percent": 86,
+    "applicable_window_minutes": 10080,
+    "secondary_individual_windows": "unavailable, not zero",
+    "credits_purchased_or_resets_used": 0,
+    "actual_start_receipt": "GOAL_START.json",
+    "actual_close_receipt": "CLOSE_NATIVE.json"
+  },
+  "successful_scientific_runs": [
+    {
+      "script": "independent_checks.py",
+      "runs": 1,
+      "explicit_read_bytes_per_run": 1278394,
+      "ndarray_decoded_bytes_per_run": 0
+    },
+    {
+      "script": "historical_precision.py",
+      "runs": 1,
+      "explicit_read_bytes_per_run": 1319929,
+      "ndarray_decoded_bytes_per_run": 0
+    },
+    {
+      "script": "pilot_summary_check.py",
+      "runs": 1,
+      "explicit_read_bytes_per_run": 910710,
+      "ndarray_decoded_bytes_per_run": 0
+    },
+    {
+      "script": "archived_reference_check.py",
+      "runs": 2,
+      "explicit_read_bytes_per_run": 1687253,
+      "ndarray_decoded_bytes_per_run": 1182960,
+      "note": "Second run added directly relevant paired current-GRU-minus-archived-growth uncertainty."
+    },
+    {
+      "script": "common_summary_check.py",
+      "runs": 2,
+      "explicit_read_bytes_per_run": 1284324,
+      "ndarray_decoded_bytes_per_run": 0,
+      "note": "Second run added PI-requested horizon/interaction planning sensitivity."
+    },
+    {
+      "script": "retained_summary_check.py",
+      "runs": 1,
+      "explicit_read_bytes_per_run": 1372252,
+      "ndarray_decoded_bytes_per_run": 0
+    }
+  ],
+  "measured_numerical_io": {
+    "cumulative_explicit_file_read_bytes": 10824439,
+    "cumulative_ndarray_decoded_bytes": 2365920,
+    "total_explicit_plus_array_decode_bytes": 13190359,
+    "JSON_decoding_object_allocation": "not separately byte-metered; process RSS measured"
+  },
+  "measured_numerical_cpu": "Successful script-body timers sum to approximately 0.11 CPU seconds; interpreter/import startup, failed processes and manual JSON/text inspection CPU unmetered. Native model time/tokens reported separately.",
+  "measured_peak_process_rss_bytes": 40484864,
+  "other_reads": {
+    "context_summary_schema_log_metadata_reads": "Repeated manual text/JSON, source-index metadata, registry search, one native active-author read and compact native waits. Not separately metered.",
+    "conservative_extra_read_charge_bytes": 100000000,
+    "charge_kind": "Conservative accounting allowance, not measured I/O; includes JSON decoding/inspection margin.",
+    "physical_io_runtime_imports_provider_internal_reads": "unknown; do not infer exact compliance from successful outputs"
+  },
+  "primary_source_access": {
+    "calls": 3,
+    "receipt_file": "PRIOR_RECEIPTS.json",
+    "receipt_file_bytes": 100653,
+    "wire_ingress": "unreported by search provider; physical 30MB ingress compliance not independently certified",
+    "archive_or_PDF_downloads": 0,
+    "notes": "Primary neural HTML and indexed primary generated-decision paper only. Direct PMC recaptcha was retained, not bypassed. Search returned some irrelevant snippets; none were used as scientific evidence."
+  },
+  "exposure": {
+    "new_original_empirical_trial_rows": 0,
+    "new_protected_observations": 0,
+    "new_dataset_archives": 0,
+    "prior_observed_summary": "PAIRED_ENDPOINTS.npz observed_N/observed_K for 24 consumed animals, six 500-opportunity future bins/two sides decoded as previously saved bin-level summaries; first four bins used for cumulative target. No original trial array read.",
+    "prior_simulated_summary": "Same archive's frozen RNN/growth N/K particles (two models/24 animals/512 particles/six bins/two sides), model/animal/site labels.",
+    "current_author_summary": "Capped preparation and fitting/selection/exposure metadata, conditional per-animal/site summaries, teacher audit aggregates and selected already-saved mismatch examples, generated and common-state score summaries, retained-growth corrected score summaries, freezes/checkpoints/logs.",
+    "author_code_imports": 0,
+    "final_model_fits": 0,
+    "raw_forecast_regenerations": 0,
+    "shared_file_writes": 0,
+    "source_family_qualifications": "All old freezes, failures, reference/model use, raw/summary/auxiliary exposure, consumed status and source-resource uncertainty survive. The PI's <=6000 fitting-only amendment did not release evaluation/protected data."
+  },
+  "failures": [
+    {
+      "kind": "schema inspection",
+      "detail": "Manual tracker-start schema inspection called .items() on a list. Failed without a scientific calculation; corrected by inspecting source manifest metadata."
+    },
+    {
+      "kind": "syntax",
+      "detail": "First independent_checks.py parse had an unmatched brace; failed before execution. Failed source preserved as independent_checks.failed-syntax.py.txt; corrected run passed."
+    },
+    {
+      "kind": "metadata search",
+      "detail": "One rg --files call named a nonexistent old tables directory; existing directory results were still returned. No original payload opened."
+    },
+    {
+      "kind": "oversized administrative output",
+      "detail": "An overly broad registry text search and a native active-author read returned more history than needed. No further history reconstruction was performed; provider/internal read volume remains uncertain."
+    }
+  ],
+  "disposition": {
+    "reviewer_scientific_jobs_running": 0,
+    "author_development": "Separate active assignment, not terminated or completed by reviewer",
+    "new_main_test_run": false,
+    "publication_or_external_contact": false
+  }
+}

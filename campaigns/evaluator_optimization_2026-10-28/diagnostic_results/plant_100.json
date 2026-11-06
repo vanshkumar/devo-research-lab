@@ -1,0 +1,131 @@
+{
+  "plant_id": 100,
+  "diagnostic_config": {
+    "finite_difference": 0.025,
+    "downhill_step_norm": 0.05,
+    "evaluators": [
+      "learned35",
+      "learned140"
+    ],
+    "query_order": "center, then +/- each coordinate0..4, then normalized downhill step",
+    "queries_per_evaluator": 12,
+    "memoization": false,
+    "initialization": "exact target action and gain1, diagnostic only",
+    "purpose": "target-local reward bias and finite-tutoring comparison",
+    "gain_note": "nonnegative gain scales signed post-normalization auditory drive; not sound pressure",
+    "inference": "diagnostic target drift; no predictive correlation or actor repair"
+  },
+  "source_directory": "/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/evaluator_optimization_2026-10-28/mixed_results/plant_100",
+  "source_state_sha256": "618f438386fde6fab1c37c83ca91a72dba8806468f3d69789389289d6d89d08e",
+  "script_sha256": "39ab8e307abd05c7a8f1c86cf137159f933467cd1a23941e3b7c098acfed3db4",
+  "source_hashes": {
+    "experiments/sensory_evaluator_preflight_2026-10-28/preflight.py": "5a0eac99870bf409592f8cf8e2831e0ed7ef61f4acdc0f430f5e0d3a95341df6",
+    "sources/sensory_evaluator_feasibility_2026-10-28/upstream/README.md": "489b9d6ac4eb66659297ca8ad641a31485564c761e3eaacc1efca64373dd9476",
+    "sources/sensory_evaluator_feasibility_2026-10-28/upstream/further_analysis/RL_syl_generation.ipynb": "a6aee1c2c0ca6517de14a8c6ad6c7ce1011225a92bfec115cebf8e9252147761",
+    "sources/sensory_evaluator_feasibility_2026-10-28/upstream/simulations/train_models.py": "fb16eca6f7b7251e53272203feae82a0bb7072e5d8540913dfe13ccd6bce2489",
+    "sources/sensory_evaluator_feasibility_2026-10-28/upstream/src/RL.py": "d1bed56de3ea26aa8d62ea302e0c4d29f5187fd2d6f4be98cc67863ecc44dfe0",
+    "sources/sensory_evaluator_feasibility_2026-10-28/upstream/src/models.py": "159730b6cdd10ff18ec8dabebbc68ad75d844242b194bd3313dea77ed956f39f",
+    "sources/sensory_evaluator_feasibility_2026-10-28/upstream/src/train_funcs.py": "01e7b7324ff5683fae4d9f8f6416f922ece5de51a5e4f9957da27dbe8912dce1",
+    "sources/sensory_evaluator_feasibility_2026-10-28/upstream/src/utils.py": "fc8ac6299b699854ea0e85bc3de986a902d0386ec16a6f97569d09d916fd92dc"
+  },
+  "target_feature_mean_per_context": [
+    1.6431300764452317e-16,
+    -4.107825191113079e-17,
+    -3.1086244689504386e-17,
+    -6.439293542825907e-17,
+    1.6653345369377347e-17,
+    -2.020605904817785e-16
+  ],
+  "target_feature_sd_per_context": [
+    2.0,
+    2.0,
+    2.0000000000000004,
+    2.0000000000000004,
+    2.0,
+    1.9999999999999998
+  ],
+  "target_feature_l2_per_context": [
+    20.000000000000004,
+    20.0,
+    20.000000000000007,
+    20.000000000000007,
+    20.0,
+    20.0
+  ],
+  "target_feature_mean_square": 4.000000000000001,
+  "target_true_mse": 0.0,
+  "evaluators": {
+    "learned35": {
+      "feedback_queries": 12,
+      "real_source_calls": 12,
+      "cache_hits": 0,
+      "gradient": [
+        -0.05201520250091907,
+        -0.015008122075048647,
+        0.053168887863761505,
+        -0.08115291585150786,
+        0.15456609310241287
+      ],
+      "gradient_norm": 0.19035290526873,
+      "gradient_gain_component": 0.15456609310241287,
+      "target_program": [
+        0.664621674423755,
+        -0.7035277160351492,
+        0.8536834168475094,
+        -0.802891446000948,
+        1.0
+      ],
+      "target_cost": 1.491712606353157,
+      "target_true_mse": 0.0,
+      "next_program": [
+        0.6782845083131266,
+        -0.6995855324225951,
+        0.8397175444094973,
+        -0.7815750085825276,
+        0.9594001223978681
+      ],
+      "actual_program_step_norm": 0.05,
+      "next_cost": 1.4853045585426436,
+      "cost_change": -0.006408047810513295,
+      "next_true_mse": 0.008369299455157873,
+      "true_mse_change": 0.008369299455157873
+    },
+    "learned140": {
+      "feedback_queries": 12,
+      "real_source_calls": 12,
+      "cache_hits": 0,
+      "gradient": [
+        1.4159831896344954,
+        1.57719705715186,
+        -0.8082562257082149,
+        0.4309356856376034,
+        0.8270132528907137
+      ],
+      "gradient_norm": 2.4526503139308073,
+      "gradient_gain_component": 0.8270132528907137,
+      "target_program": [
+        0.664621674423755,
+        -0.7035277160351492,
+        0.8536834168475094,
+        -0.802891446000948,
+        1.0
+      ],
+      "target_cost": 2.217199158854672,
+      "target_true_mse": 0.0,
+      "next_program": [
+        0.6357552848371136,
+        -0.7356806293182524,
+        0.8701606174724293,
+        -0.8116765484509371,
+        0.9831404165487154
+      ],
+      "actual_program_step_norm": 0.050000000000000065,
+      "next_cost": 2.1504018579475916,
+      "cost_change": -0.06679730090708036,
+      "next_true_mse": 0.006337927861413008,
+      "true_mse_change": 0.006337927861413008
+    }
+  },
+  "feedback_queries_total": 24,
+  "source_and_actor_files_modified": false
+}

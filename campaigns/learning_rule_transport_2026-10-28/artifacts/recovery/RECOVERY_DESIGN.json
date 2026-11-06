@@ -1,0 +1,30 @@
+{
+  "prefix": 1000,
+  "horizons": [
+    1000,
+    3000,
+    5000
+  ],
+  "primary_horizon": 3000,
+  "n_train": 24,
+  "n_test": 24,
+  "trials": 6000,
+  "groups": [
+    "learn_train",
+    "learn_same",
+    "learn_external",
+    "learn_hidden",
+    "learn_reset",
+    "learn_no_correction",
+    "learn_censored",
+    "fixed_train",
+    "fixed_test",
+    "growth_train",
+    "growth_test",
+    "engagement_train",
+    "engagement_test"
+  ],
+  "purpose": "Known-learning positive control, exposure-only/fixed/engagement negative-generator controls, and localized assumption challenges. All synthetic data independent of real holdout/external outcomes.",
+  "calibration": "Prefix-only inference at forecast; known training initialization separately isolates fit recovery.",
+  "seed_family": "8101-8402; independent forecast seeds recorded in score artifacts"
+}

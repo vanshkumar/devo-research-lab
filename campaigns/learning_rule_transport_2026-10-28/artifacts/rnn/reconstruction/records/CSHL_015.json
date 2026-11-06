@@ -1,0 +1,684 @@
+{
+  "subject": "CSHL_015",
+  "split": "animal_holdout",
+  "lab": "churchlandlab",
+  "rows_read": 6000,
+  "original_provenance": [
+    {
+      "path": "data/sealed/animal_holdout/CSHL_015/2019-06-18_001_978fae1e-24bd-4bc5-a6cf-207638a5b861_table.pqt",
+      "dataset_id": "07e66a80-2932-4c59-aac2-7e6fb8f9e98a",
+      "session_uuid": "978fae1e-24bd-4bc5-a6cf-207638a5b861",
+      "date": "2019-06-18",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld4.1.3",
+      "md5": "13a8275e1d207179f279c0714fbc416d",
+      "sha256": "f485654029d559c8e8b7d1a0786eedc1a46c3830390318c351f4f6bb4f3659e1",
+      "bytes": 27259,
+      "cache_md5": "13a8275e1d207179f279c0714fbc416d",
+      "bounded_rows": 260,
+      "footer_rows": 260,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/CSHL_015/2019-06-18_001_978fae1e-24bd-4bc5-a6cf-207638a5b861_table.pqt') LIMIT 260"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSHL_015/2019-06-19_002_dda84628-536f-4c9f-8cf7-90acf8f9a928_table.pqt",
+      "dataset_id": "664ca02e-a412-40b1-8544-c28c45a3d835",
+      "session_uuid": "dda84628-536f-4c9f-8cf7-90acf8f9a928",
+      "date": "2019-06-19",
+      "number": 2,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld4.1.3",
+      "md5": "e5e1cd0f0d0521409e503c5b3b534560",
+      "sha256": "1b2f91441b85b4659e9c249423346ec83670e7c95874f0a5718070406883a8d4",
+      "bytes": 28288,
+      "cache_md5": "e5e1cd0f0d0521409e503c5b3b534560",
+      "bounded_rows": 275,
+      "footer_rows": 275,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/CSHL_015/2019-06-19_002_dda84628-536f-4c9f-8cf7-90acf8f9a928_table.pqt') LIMIT 275"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSHL_015/2019-06-20_002_4c484ce4-abf5-4491-aa95-d8c98aea02d7_table.pqt",
+      "dataset_id": "dc4ecb8d-d92b-406e-8494-0dae17f64885",
+      "session_uuid": "4c484ce4-abf5-4491-aa95-d8c98aea02d7",
+      "date": "2019-06-20",
+      "number": 2,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld4.1.3",
+      "md5": "6ca517a077bb179ce12c6aa606dc44cb",
+      "sha256": "6f40de42404b8800ab320dbaecda4f9aa19e9a5555bd3068946a576873014f9e",
+      "bytes": 61294,
+      "cache_md5": "6ca517a077bb179ce12c6aa606dc44cb",
+      "bounded_rows": 769,
+      "footer_rows": 769,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/CSHL_015/2019-06-20_002_4c484ce4-abf5-4491-aa95-d8c98aea02d7_table.pqt') LIMIT 769"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSHL_015/2019-06-21_001_8246fead-7684-4957-a42a-0d5460c71a90_table.pqt",
+      "dataset_id": "49c3f3f6-e266-45fd-ae79-7cf9391bf48b",
+      "session_uuid": "8246fead-7684-4957-a42a-0d5460c71a90",
+      "date": "2019-06-21",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld4.1.3",
+      "md5": "fa38fe67ed8d3911b72672064903ed82",
+      "sha256": "bc54c6551050e412691f8ed77cc943fcc07b7879033dbe6f3a3f61504cf4f73a",
+      "bytes": 45584,
+      "cache_md5": "fa38fe67ed8d3911b72672064903ed82",
+      "bounded_rows": 535,
+      "footer_rows": 535,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/CSHL_015/2019-06-21_001_8246fead-7684-4957-a42a-0d5460c71a90_table.pqt') LIMIT 535"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSHL_015/2019-06-24_003_d0a4f831-b44c-4b4d-ad57-97720c83692a_table.pqt",
+      "dataset_id": "5d009fa5-6508-4886-94aa-02513b636a1c",
+      "session_uuid": "d0a4f831-b44c-4b4d-ad57-97720c83692a",
+      "date": "2019-06-24",
+      "number": 3,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld4.1.3",
+      "md5": "94a5f8e91990cac52cded527d74ba735",
+      "sha256": "f290462a654c1f949728faf4b316c760fa4b6b82f67a881448041c5d7c4f71b4",
+      "bytes": 44174,
+      "cache_md5": "94a5f8e91990cac52cded527d74ba735",
+      "bounded_rows": 514,
+      "footer_rows": 514,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/CSHL_015/2019-06-24_003_d0a4f831-b44c-4b4d-ad57-97720c83692a_table.pqt') LIMIT 514"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSHL_015/2019-06-25_001_022cd97c-3811-4fc0-a5d1-6cb545ae7d1c_table.pqt",
+      "dataset_id": "f65b9797-7eb0-4506-9bc3-4584dde11b88",
+      "session_uuid": "022cd97c-3811-4fc0-a5d1-6cb545ae7d1c",
+      "date": "2019-06-25",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld4.1.3",
+      "md5": "b1e401aee4fa0f1789f139dcdb31a4d0",
+      "sha256": "0547d0ef591b03825a85702eb55c5987aedd7827ea26ac7193e918645a278640",
+      "bytes": 34100,
+      "cache_md5": "b1e401aee4fa0f1789f139dcdb31a4d0",
+      "bounded_rows": 366,
+      "footer_rows": 366,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/CSHL_015/2019-06-25_001_022cd97c-3811-4fc0-a5d1-6cb545ae7d1c_table.pqt') LIMIT 366"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSHL_015/2019-06-26_001_7ccdcac8-7c20-4659-ac01-0b0b8e791807_table.pqt",
+      "dataset_id": "92757862-1d96-43ef-9614-da9b7b2f1e19",
+      "session_uuid": "7ccdcac8-7c20-4659-ac01-0b0b8e791807",
+      "date": "2019-06-26",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld4.1.3",
+      "md5": "73e7beba282afe2686ea62e1f42395b0",
+      "sha256": "c234961efd93587efaff5ba31fa8ed12b8945eb19acfbfdf113eaaf83d2f263a",
+      "bytes": 46708,
+      "cache_md5": "73e7beba282afe2686ea62e1f42395b0",
+      "bounded_rows": 551,
+      "footer_rows": 551,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/CSHL_015/2019-06-26_001_7ccdcac8-7c20-4659-ac01-0b0b8e791807_table.pqt') LIMIT 551"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSHL_015/2019-06-27_001_a3a4dfa8-2f27-4862-8b1c-e2eaa6f268e6_table.pqt",
+      "dataset_id": "6810a133-23e2-454e-ad2e-19fbe69057b3",
+      "session_uuid": "a3a4dfa8-2f27-4862-8b1c-e2eaa6f268e6",
+      "date": "2019-06-27",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld4.1.3",
+      "md5": "9a9d098176a1fd23b79093e77bdb0fbe",
+      "sha256": "692253641cfb1530fc845254be9e4db0db4bbcb7db55229630d704737bdcca4f",
+      "bytes": 49460,
+      "cache_md5": "9a9d098176a1fd23b79093e77bdb0fbe",
+      "bounded_rows": 596,
+      "footer_rows": 596,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/CSHL_015/2019-06-27_001_a3a4dfa8-2f27-4862-8b1c-e2eaa6f268e6_table.pqt') LIMIT 596"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSHL_015/2019-06-28_001_78896106-d4a2-44e4-b34d-d88298b49b96_table.pqt",
+      "dataset_id": "1c4b876b-6a4e-456e-a197-39f1a41e9c98",
+      "session_uuid": "78896106-d4a2-44e4-b34d-d88298b49b96",
+      "date": "2019-06-28",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld4.1.3",
+      "md5": "0c527219b430f8f5a3b5dd6475467fd4",
+      "sha256": "3fabb986b099f8a90df04aea5638dc800c56c745b7a9112f428945ba7ea6aedd",
+      "bytes": 58024,
+      "cache_md5": "0c527219b430f8f5a3b5dd6475467fd4",
+      "bounded_rows": 725,
+      "footer_rows": 725,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/CSHL_015/2019-06-28_001_78896106-d4a2-44e4-b34d-d88298b49b96_table.pqt') LIMIT 725"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSHL_015/2019-07-01_001_77709713-fafb-4d5d-ad9a-27e69522cecd_table.pqt",
+      "dataset_id": "701f8710-410c-4bd2-8c6e-f9f3f96ffe52",
+      "session_uuid": "77709713-fafb-4d5d-ad9a-27e69522cecd",
+      "date": "2019-07-01",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld4.1.3",
+      "md5": "d86b416a664995afbfc61f7f70d0cd5e",
+      "sha256": "bd6718dda023afc77adb2be73555f3b3e6f1acbe0e686b7fb273228ada3520b5",
+      "bytes": 42454,
+      "cache_md5": "d86b416a664995afbfc61f7f70d0cd5e",
+      "bounded_rows": 494,
+      "footer_rows": 494,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/CSHL_015/2019-07-01_001_77709713-fafb-4d5d-ad9a-27e69522cecd_table.pqt') LIMIT 494"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSHL_015/2019-07-02_001_f7f846e2-8e3a-4199-b88c-bc95f01d4eda_table.pqt",
+      "dataset_id": "ed45a72e-b8a0-4c0f-a642-0d0efd987e4a",
+      "session_uuid": "f7f846e2-8e3a-4199-b88c-bc95f01d4eda",
+      "date": "2019-07-02",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld4.1.3",
+      "md5": "bfedaab56585eca483d6135ff0014753",
+      "sha256": "d8bf238bb0fdfbc729108108c8a1a81b85898babb2f6a696c263cc5973eac10d",
+      "bytes": 64270,
+      "cache_md5": "bfedaab56585eca483d6135ff0014753",
+      "bounded_rows": 815,
+      "footer_rows": 815,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/CSHL_015/2019-07-02_001_f7f846e2-8e3a-4199-b88c-bc95f01d4eda_table.pqt') LIMIT 815"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSHL_015/2019-07-03_002_1723b03a-7c7f-4afe-8176-3ed01f88f0a3_table.pqt",
+      "dataset_id": "1b8c6e0d-4554-42d5-8216-f3d375dba6eb",
+      "session_uuid": "1723b03a-7c7f-4afe-8176-3ed01f88f0a3",
+      "date": "2019-07-03",
+      "number": 2,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld4.1.3",
+      "md5": "ab578c21fa09528e1d719e88ad824337",
+      "sha256": "2528cb9a2c3493be2b438138bda9cd88a7c0e83c04eb37db5b481f16c01e2414",
+      "bytes": 41661,
+      "cache_md5": "ab578c21fa09528e1d719e88ad824337",
+      "bounded_rows": 100,
+      "footer_rows": 481,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/CSHL_015/2019-07-03_002_1723b03a-7c7f-4afe-8176-3ed01f88f0a3_table.pqt') LIMIT 100"
+    }
+  ],
+  "targets_and_counts_equal": true,
+  "prefix_weight_endpoint_max_abs_difference": 4.440892098500626e-16,
+  "prefix_hidden_endpoint_max_abs_difference": 2.220446049250313e-16,
+  "conditional_probability_max_abs_difference": 3.885780586188048e-16,
+  "conditional_weights_max_abs_difference": 1.7763568394002505e-15,
+  "conditional_hidden_final_max_abs_difference": 2.220446049250313e-16,
+  "same_trial_perturbation_probability_difference": 0.0,
+  "omission_weight_hidden_hold_difference": 0.0,
+  "forecast_path": "artifacts/forecasts/rnn_source_animals/CSHL_015__rnnglm32.npz",
+  "forecast_sha256": "4af2f09e6dbbbcaba6b9e9b12450f788e09b9b25f72b5b8027ef839a79f277f9",
+  "conditional_path": "artifacts/forecasts/rnn_source_animals/CSHL_015__rnnglm32__conditional.npz",
+  "conditional_sha256": "0cb58d719de50b13ca52267ba596862fd462943ec19f2c2318e997e3316e8c3a",
+  "scores": [
+    {
+      "subject": "CSHL_015",
+      "split": "animal_holdout",
+      "lab": "churchlandlab",
+      "model": "rnnglm32",
+      "arm": "autonomous",
+      "horizon": 1000,
+      "actual_horizon": 1000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.08132423098311749,
+      "crps_by_metric": [
+        0.10223215650122172,
+        0.1120550438500349,
+        0.11040212970890412,
+        0.0006075938723091978
+      ],
+      "mae": 0.1390927824063916,
+      "mae_by_metric": [
+        0.17998526776759788,
+        0.19190929935796852,
+        0.1835839843750001,
+        0.0008925781249999999
+      ],
+      "high_accuracy_mae": 0.1859472835627832,
+      "coverage": {
+        "0.5": 0.25,
+        "0.8": 0.75,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.0,
+        "0.8": 0.75,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.18162802332782058,
+        "0.8": 0.33394983941270295,
+        "0.95": 0.480202400931279
+      },
+      "energy": 0.27836465962195106,
+      "n_cells": 8,
+      "high_width80": 0.4610496788254058
+    },
+    {
+      "subject": "CSHL_015",
+      "split": "animal_holdout",
+      "lab": "churchlandlab",
+      "model": "rnnglm32",
+      "arm": "raw_autonomous",
+      "horizon": 1000,
+      "actual_horizon": 1000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.08132423098311749,
+      "crps_by_metric": [
+        0.10223215650122172,
+        0.1120550438500349,
+        0.11040212970890412,
+        0.0006075938723091978
+      ],
+      "mae": 0.1390927824063916,
+      "mae_by_metric": [
+        0.17998526776759788,
+        0.19190929935796852,
+        0.1835839843750001,
+        0.0008925781249999999
+      ],
+      "high_accuracy_mae": 0.1859472835627832,
+      "coverage": {
+        "0.5": 0.25,
+        "0.8": 0.75,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.0,
+        "0.8": 0.75,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.18162802332782058,
+        "0.8": 0.33394983941270295,
+        "0.95": 0.480202400931279
+      },
+      "energy": 0.27836465962195106,
+      "n_cells": 8,
+      "high_width80": 0.4610496788254058
+    },
+    {
+      "subject": "CSHL_015",
+      "split": "animal_holdout",
+      "lab": "churchlandlab",
+      "model": "rnnglm32",
+      "arm": "conditional_diagnostic",
+      "horizon": 1000,
+      "actual_horizon": 1000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.011484729452276713,
+      "crps_by_metric": [
+        0.02326744653340789,
+        0.011079487114740052,
+        0.010984390288649712,
+        0.0006075938723091978
+      ],
+      "mae": 0.017793274625191587,
+      "mae_by_metric": [
+        0.036743861607145045,
+        0.0170854868936213,
+        0.016451171875000004,
+        0.0008925781249999999
+      ],
+      "high_accuracy_mae": 0.026914674250383172,
+      "coverage": {
+        "0.5": 0.625,
+        "0.8": 0.75,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.5,
+        "0.8": 0.75,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.02363302139037432,
+        "0.8": 0.04515811476105595,
+        "0.95": 0.07088348718275189
+      },
+      "energy": 0.04522929550063302,
+      "n_cells": 8,
+      "high_width80": 0.06731622952211189,
+      "binary_nll": 0.41574799074936647,
+      "static_prefix_binary_nll": 0.639373368831838,
+      "conditional_nll_gain_over_static": 0.22362537808247157
+    },
+    {
+      "subject": "CSHL_015",
+      "split": "animal_holdout",
+      "lab": "churchlandlab",
+      "model": "rnnglm32",
+      "arm": "autonomous",
+      "horizon": 3000,
+      "actual_horizon": 3000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.0850911064108028,
+      "crps_by_metric": [
+        0.12120381440490928,
+        0.11282294102466846,
+        0.10506927796803654,
+        0.0012683922455968691
+      ],
+      "mae": 0.1369766045851301,
+      "mae_by_metric": [
+        0.2261009936248439,
+        0.15218367992400983,
+        0.16776757812499996,
+        0.0018541666666666665
+      ],
+      "high_accuracy_mae": 0.18914233677442688,
+      "coverage": {
+        "0.5": 0.375,
+        "0.8": 0.8333333333333334,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.25,
+        "0.8": 0.75,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.2466557269045432,
+        "0.8": 0.44923916895725075,
+        "0.95": 0.5942568528112757
+      },
+      "energy": 0.5507836993862039,
+      "n_cells": 24,
+      "high_width80": 0.6229616712478346
+    },
+    {
+      "subject": "CSHL_015",
+      "split": "animal_holdout",
+      "lab": "churchlandlab",
+      "model": "rnnglm32",
+      "arm": "raw_autonomous",
+      "horizon": 3000,
+      "actual_horizon": 3000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.0850911064108028,
+      "crps_by_metric": [
+        0.12120381440490928,
+        0.11282294102466846,
+        0.10506927796803654,
+        0.0012683922455968691
+      ],
+      "mae": 0.1369766045851301,
+      "mae_by_metric": [
+        0.2261009936248439,
+        0.15218367992400983,
+        0.16776757812499996,
+        0.0018541666666666665
+      ],
+      "high_accuracy_mae": 0.18914233677442688,
+      "coverage": {
+        "0.5": 0.375,
+        "0.8": 0.8333333333333334,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.25,
+        "0.8": 0.75,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.2466557269045432,
+        "0.8": 0.44923916895725075,
+        "0.95": 0.5942568528112757
+      },
+      "energy": 0.5507836993862039,
+      "n_cells": 24,
+      "high_width80": 0.6229616712478346
+    },
+    {
+      "subject": "CSHL_015",
+      "split": "animal_holdout",
+      "lab": "churchlandlab",
+      "model": "rnnglm32",
+      "arm": "conditional_diagnostic",
+      "horizon": 3000,
+      "actual_horizon": 3000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.01630501030212754,
+      "crps_by_metric": [
+        0.03423561759247588,
+        0.016791034937789,
+        0.012924996432648406,
+        0.0012683922455968691
+      ],
+      "mae": 0.023291472581888926,
+      "mae_by_metric": [
+        0.047428804627032584,
+        0.0249226325755233,
+        0.018960286458333152,
+        0.0018541666666666665
+      ],
+      "high_accuracy_mae": 0.03617571860127794,
+      "coverage": {
+        "0.5": 0.375,
+        "0.8": 0.625,
+        "0.95": 0.875
+      },
+      "high_coverage": {
+        "0.5": 0.25,
+        "0.8": 0.5,
+        "0.95": 0.75
+      },
+      "width": {
+        "0.5": 0.022873711590222112,
+        "0.8": 0.04476596435346073,
+        "0.95": 0.06903500174503968
+      },
+      "energy": 0.11117756861194317,
+      "n_cells": 24,
+      "high_width80": 0.06519859537358812,
+      "binary_nll": 0.4428760660467955,
+      "static_prefix_binary_nll": 0.7009716951280612,
+      "conditional_nll_gain_over_static": 0.2580956290812657
+    },
+    {
+      "subject": "CSHL_015",
+      "split": "animal_holdout",
+      "lab": "churchlandlab",
+      "model": "rnnglm32",
+      "arm": "autonomous",
+      "horizon": 5000,
+      "actual_horizon": 5000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.07962001439312844,
+      "crps_by_metric": [
+        0.1241695780157642,
+        0.10374547527592759,
+        0.08933981623043052,
+        0.0012251880503913897
+      ],
+      "mae": 0.12558806825880345,
+      "mae_by_metric": [
+        0.2449353245301995,
+        0.11891655788001428,
+        0.13649609375,
+        0.002004296875
+      ],
+      "high_accuracy_mae": 0.18192594120510688,
+      "coverage": {
+        "0.5": 0.45,
+        "0.8": 0.875,
+        "0.95": 0.975
+      },
+      "high_coverage": {
+        "0.5": 0.35,
+        "0.8": 0.8,
+        "0.95": 0.95
+      },
+      "width": {
+        "0.5": 0.2573736014173565,
+        "0.8": 0.48659597556050666,
+        "0.95": 0.6325965181858207
+      },
+      "energy": 0.7042577707242559,
+      "n_cells": 40,
+      "high_width80": 0.6793819511210131
+    },
+    {
+      "subject": "CSHL_015",
+      "split": "animal_holdout",
+      "lab": "churchlandlab",
+      "model": "rnnglm32",
+      "arm": "raw_autonomous",
+      "horizon": 5000,
+      "actual_horizon": 5000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.07962001439312844,
+      "crps_by_metric": [
+        0.1241695780157642,
+        0.10374547527592759,
+        0.08933981623043052,
+        0.0012251880503913897
+      ],
+      "mae": 0.12558806825880345,
+      "mae_by_metric": [
+        0.2449353245301995,
+        0.11891655788001428,
+        0.13649609375,
+        0.002004296875
+      ],
+      "high_accuracy_mae": 0.18192594120510688,
+      "coverage": {
+        "0.5": 0.45,
+        "0.8": 0.875,
+        "0.95": 0.975
+      },
+      "high_coverage": {
+        "0.5": 0.35,
+        "0.8": 0.8,
+        "0.95": 0.95
+      },
+      "width": {
+        "0.5": 0.2573736014173565,
+        "0.8": 0.48659597556050666,
+        "0.95": 0.6325965181858207
+      },
+      "energy": 0.7042577707242559,
+      "n_cells": 40,
+      "high_width80": 0.6793819511210131
+    },
+    {
+      "subject": "CSHL_015",
+      "split": "animal_holdout",
+      "lab": "churchlandlab",
+      "model": "rnnglm32",
+      "arm": "conditional_diagnostic",
+      "horizon": 5000,
+      "actual_horizon": 5000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.01678231816906627,
+      "crps_by_metric": [
+        0.030247762813621924,
+        0.020944858382701857,
+        0.014711463429549904,
+        0.0012251880503913897
+      ],
+      "mae": 0.023511370550835253,
+      "mae_by_metric": [
+        0.04181359900488539,
+        0.028904148823455898,
+        0.021323437499999726,
+        0.002004296875
+      ],
+      "high_accuracy_mae": 0.03535887391417064,
+      "coverage": {
+        "0.5": 0.4,
+        "0.8": 0.6,
+        "0.95": 0.825
+      },
+      "high_coverage": {
+        "0.5": 0.3,
+        "0.8": 0.5,
+        "0.95": 0.7
+      },
+      "width": {
+        "0.5": 0.02228495561173095,
+        "0.8": 0.04357474303135096,
+        "0.95": 0.06712842035046947
+      },
+      "energy": 0.1483307934210993,
+      "n_cells": 40,
+      "high_width80": 0.06315948606270191,
+      "binary_nll": 0.43893817287188003,
+      "static_prefix_binary_nll": 0.748173643650384,
+      "conditional_nll_gain_over_static": 0.30923547077850394
+    }
+  ],
+  "numerical_differences": [
+    {
+      "arm": "autonomous",
+      "horizon": 1000,
+      "crps": 5.551115123125783e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "raw_autonomous",
+      "horizon": 1000,
+      "crps": 5.551115123125783e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "conditional_diagnostic",
+      "horizon": 1000,
+      "crps": 1.9081958235744878e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0,
+      "binary_nll": 0.0
+    },
+    {
+      "arm": "autonomous",
+      "horizon": 3000,
+      "crps": 1.3877787807814457e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "raw_autonomous",
+      "horizon": 3000,
+      "crps": 1.3877787807814457e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "conditional_diagnostic",
+      "horizon": 3000,
+      "crps": 1.0408340855860843e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0,
+      "binary_nll": 0.0
+    },
+    {
+      "arm": "autonomous",
+      "horizon": 5000,
+      "crps": 0.0,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "raw_autonomous",
+      "horizon": 5000,
+      "crps": 0.0,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "conditional_diagnostic",
+      "horizon": 5000,
+      "crps": 1.3877787807814457e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0,
+      "binary_nll": 0.0
+    }
+  ]
+}

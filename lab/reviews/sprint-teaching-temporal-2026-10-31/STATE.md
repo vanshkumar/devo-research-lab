@@ -1,0 +1,32 @@
+# Temporal-teaching independent review — completed; historical startup preserved
+
+## Current closeout — 2026-10-31
+
+- Resumed scientific execution is complete. Start 05:57:25Z; deadline 06:57:25Z. FINAL_SCIENTIFIC_SUMMARY.json is timestamped 06:18:42.573110Z and incorporates all simulation/actor outputs; the exact simulation-finish clock was not separately saved. PI-authorized documentation closeout began after 11:14:11Z. No new model execution, scientific source acquisition, numerical block or successor occurred during closeout.
+- Earned checks: 18 saved 64-policy checks, 152 reconstruction/dynamics checks, 30 additional six-policy arithmetic checks, nine readout-control Booleans across three plants, and three final summary controls pass. The latter overlap the actor evidence. Seventeen original actors replay from saved scalar feedback; all 20,502 query gold values are independently rebuilt, not all circuit feedback values freshly resimulated. Seven failed scientific hypothesis records remain explicitly false.
+- Main audit: 168 independent integrations, 38.019145 seconds, peak RSS 237,666,304 bytes. Readout control: 104 integrations including resets, 22.477850 seconds, peak RSS 152,289,280 bytes. Total 272 independent integrations plus 32 selected source-reference calls. The raw readout counters 39/31/31 omit one reset per plant; FINAL_SCIENTIFIC_SUMMARY explicitly adds these. These are process measurements, not whole-task elapsed time or continuous resource monitoring.
+- Result: equal-exposure wrong-order preferences survive candidate-conditioned repeated cycling. Exposure normalization reverses selected duration pairs but full 25-query actors still select wrong durations that score below the target. Reversed tutoring changes plant 102's order preference. The source publication's explicit premotor/syllable-index assumptions remain distinct from this temporal-action extension.
+- All four failed-start copies match FAILED_START_MANIFEST.json. Reconstruction plan/code and readout amendment/code match their existing freeze hashes. No large scientific input was rehashed/reread at closeout. Failed input-scope code/freeze/error and its charged read remain preserved.
+- RESUMED_READS.json remains unchanged: review 150,553,678 / combined 652,291,860 bytes. EXPOSURE adds a conservative 5,000,000-byte closeout document reserve: review 155,553,678 / combined 657,291,860, within 300 MB / 1 GB caps. The failed-start 10 MB and original resumed-context reserve remain included.
+- No known jobs remain, based on completed numerical command receipts and no detached jobs launched. Independent OS verification is unavailable: the project hook blocked pgrep and ps returned operation not permitted. Do not call this a passed process-list audit. No automatic continuation or successor is launched.
+- Shared records, scientific sources, original numerical outputs and protected data remain unchanged. A separate direct-human administrative Gmail request was handled outside this scientific assignment; CORRESPONDENCE_LEARNING_PROPOSAL.md contributes no scientific evidence and no correspondence work continues here.
+- REVIEW/TECHNICAL_REVIEW/README/CHECKS/EXPOSURE and PROPOSED_LEARNING provide the durable return. The PI already collected numerical outputs and advanced another investigator. This reviewer stops after documentation closeout.
+
+## Historical failed startup and initial resumed checkpoint
+
+- Assigned reviewer:01a18981-8b76-78b1-973a-b815d77e0ae3, Sol/max, review directory only.
+- Status: numerical review NOT STARTED. Ordinary note/source reads work, but the local execution gate has not recognized a unique active assignment for this session.
+- Exact blocker on three ordinary clock commands: `Lab gate denied: Session has no unique active durable task contract.` Actual start/deadline clock could not be established. No numerical process or job was launched.
+- Requested scope remains one60minute block,2CPU/2GBRAM,<=300MBadditional cached reads within the1GBlineage cap; pilot charge501,738,182bytes carried forward. PI reported61%allowance and20%reserve. No reset/spend.
+- Context inspected: current LEARNINGS sections, sprint/workflow text, assigned BRIEF, pilot file inventory, saved RESULT/TEACHING_FOLLOWUP. These are ordinary context reads only. Some combined outputs were truncated; full source/scope inspection and numerical review remain incomplete.
+- No source scores or ground truth independently reconstructed; no64-policy reranking, duration replay,102reverse-preference check or contrary computation performed. Author-reported findings remain provisional, not independently endorsed.
+- No numerical/binary payload, protected biological/memory data, network, source modification, actor, guard/configuration/permission change or successor. No jobs remain.
+- Need: PI reconcile the ordinary active task registration; no infrastructure change or new permission is requested. This is a startup blocker, not a scientific finding. No automatic continuation is launched.
+
+## Authorized resumed numerical block —2026-10-31
+
+- Dated BRIEF amendment read; PI reconciled the ordinary active assignment. No hook/controller/permission change. This is the sole startup continuation, continuations_used1; no further continuation.
+- Actual resumed execution start:2026-10-31T05:57:25Z (01:57:25 America/New_York); hard deadline06:57:25Z.2CPU/2GBRAM, one scientific process at a time.
+- Failed-start STATE/REVIEW/EXPOSURE/CHECKS preserved byte-exact under failed_start/, with FAILED_START_MANIFEST.json. Original10MBcharge remains in RESUMED_READS; resumed context initially reserves another5MB. Review cap300MB, pilot lineage501,738,182bytes unchanged.
+- Numerical table_audit.py actually executed:18saved-table rank/permutation checks pass across all3plants; ranks5/2/17and1/1/1reproduce. This is saved arithmetic, not yet independent source-dynamics or ground-truth signoff. Admitted small input arrays were read; no biological/memory data.
+- Main contrary check selected: candidate-specific frozen repeated cycling under the original1100ms tutoring episode, challenging quiet-reset/testing mismatch. Use the same consumed exact-content target/best-wrong policies and learned-content duration.7/1pairs; no new plants, mechanisms or fits. Compare later-cycle ranks and convergence. Duration input-exposure normalization is secondary arithmetic on the same deterministic traces.

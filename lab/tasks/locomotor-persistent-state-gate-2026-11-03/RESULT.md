@@ -1,0 +1,15 @@
+# Original premotor persistent-state gate: CLOSE
+
+The source/prior gate closed at 2026-11-03T05:46:56Z, before its original 20-minute deadline. **No original circuit, numerical reference or persistence contrast was run. No main protocol is earned.**
+
+The saved lead is accurate: Morrison–Young2025 explicitly says its heat-inspired perturbations increase reversals but do not leave a state beyond perturbation offset, and already explains that many relevant pathways are omitted. The model drives a 15-neuron recurrent core with ongoing recorded signal-neuron activity and treats GCaMP z-score as its state. Its limitation does not newly identify a missing biological memory mechanism.
+
+The release and source pins are real. The active simulation notebook redefines the ODE with `tau=.2`, `gamma=1.4`, `beta=10`; importing its older helper alone would not reproduce that equation. Its heat experiment adds short/long triangular perturbations to two recorded backgrounds. The paper's eight-neuron reversal readout also differs from six-neuron `8:13` notebook blocks; the consequence remains untested. Atanas/Kim2023 already documents a brief physical stimulus followed by minutes of behavioral change, but does not locate that persistence inside this modeled core rather than its inputs.
+
+The available runtime has no Julia or h5py, and we did not acquire the JLD2 weights or the closed recorded inputs. A faithful source-equation port, binary/label verification and original protocol were not earned. A generic slow state, selected initial/background condition or parameter search would manufacture a different experiment. CLOSE this allocation rather than assert a memory finding or automatically repair the source chain. This is not proof of model incapacity, biological absence, settled novelty or global unaffordability.
+
+Details and exact constraints are in [SOURCE_GATE.md](SOURCE_GATE.md), [MODEL_REFERENCE_STATUS.json](MODEL_REFERENCE_STATUS.json), [SOURCE_PIN_CHECK.json](SOURCE_PIN_CHECK.json), [FAILURES.md](FAILURES.md) and [RESOURCES.json](RESOURCES.json). Six source-pin checks passed; source acquisition/XML inspection/pin-check processes exited 0. Their success is not circuit execution. Three initial DNS failures, one empty notebook connector result and the failed web schema are preserved. New charge:19 conservative operations/TWO programs/full50MB ingress UNCERTIFIED/full600MB SEPARATE read/60s conservative process booking/78,249,984-byte largest measured local RSS/zero substantive revisions. All inherited charges, observations and unknowns survive.
+
+No empirical recording file, model-weight binary, old fit or reserved worm was acquired/decoded. Whole source notebooks and their opaque embedded outputs were acquired/JSON-decoded; only code/markdown were interpreted. This is source/summary exposure, not an untouched validation set. Jobs0. The scientific mission remains unfinished; study closure does not stop the lab or alter its heartbeat.
+
+Terminal report text is saved in [TERMINAL_REPORT.md](TERMINAL_REPORT.md); delivery is recorded in [STATE.md](STATE.md).

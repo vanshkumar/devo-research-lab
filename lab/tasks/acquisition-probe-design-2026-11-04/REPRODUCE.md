@@ -1,0 +1,7 @@
+# Reproduce the frozen development outputs
+
+From repository root, check PILOT_FREEZE.sha256, SCREEN_FREEZE.sha256 and SIGNED_FREEZE.sha256 with shasum -a 256 -c. The pilot opens only whitelisted checkpoint/source summaries and simulated archives, asserts original pins, and writes only this task's results. The command writes the existing output names, so use a clean sibling copy of the task directory if re-running.
+
+Set OPENBLAS_NUM_THREADS=1, OMP_NUM_THREADS=1, MKL_NUM_THREADS=1, VECLIB_MAXIMUM_THREADS=1, NUMBA_NUM_THREADS=1, PYTHONDONTWRITEBYTECODE=1 and NUMBA_CACHE_DIR=/private/tmp/acquisition-probe-design-numba. With campaigns/learning_rule_transport_2026-10-28/.modelenv/bin/python, run pilot.py, screen.py and signed_check.py from this task directory in order (pass their repository-relative script paths to Python when running from root). Peak RSS is captured by each process. Use the native command receipt for exit status; a platform timing wrapper is unnecessary.
+
+Read REFERENCE.json, SCREEN.json, and SIGNED_CHECK.json. Generated arrays are indexed by subject, start, engagement, model, arm, particle and probe, except that training inserts the three measures (correct, omit, hard share) ahead of arm and terminal omission omits the model/probe axes. The valid mask excludes all unsupported fitted reward-history contexts. Omission responses and forecasts are neither original raw observations nor new validation evidence. All legacy exposure and protected boundaries remain in force.

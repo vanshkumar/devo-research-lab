@@ -1,0 +1,1451 @@
+{
+  "rho": 0.6,
+  "objective_equal_lab_curve_mae": 0.07510177916626103,
+  "labs": [
+    {
+      "lab": "angelakilab",
+      "n": 2,
+      "observed_curve": [
+        0.5936582073764277,
+        0.6811947717231221,
+        0.7180686334053816,
+        0.763664494569009,
+        0.8110665478312538,
+        0.8508749712841963
+      ],
+      "predicted_curve": [
+        0.57530963717997,
+        0.5862292929854087,
+        0.5783635317054516,
+        0.5723135688551986,
+        0.5694437541873603,
+        0.5893672057097452
+      ],
+      "curve_mae": 0.15791677259437603,
+      "bias_observed_minus_predicted": 0.15791677259437603
+    },
+    {
+      "lab": "churchlandlab",
+      "n": 8,
+      "observed_curve": [
+        0.523042520301201,
+        0.5165568756045561,
+        0.5125998323944596,
+        0.5708959983570532,
+        0.5930582440622668,
+        0.5998468222910017
+      ],
+      "predicted_curve": [
+        0.5007711139884045,
+        0.5149260806498641,
+        0.5223908653643932,
+        0.5250200489940539,
+        0.5353298913333339,
+        0.5337089145440368
+      ],
+      "curve_mae": 0.03390590734605322,
+      "bias_observed_minus_predicted": 0.0306422296894087
+    },
+    {
+      "lab": "cortexlab",
+      "n": 6,
+      "observed_curve": [
+        0.5319793551141262,
+        0.5228945508065062,
+        0.5263053795880248,
+        0.570619397645776,
+        0.5932776977317807,
+        0.6298366104437289
+      ],
+      "predicted_curve": [
+        0.5118205913273206,
+        0.5275970974343099,
+        0.532907749003051,
+        0.5375014215982388,
+        0.5511026145137129,
+        0.5493439463282817
+      ],
+      "curve_mae": 0.03120823386844797,
+      "bias_observed_minus_predicted": 0.02743992852083797
+    },
+    {
+      "lab": "danlab",
+      "n": 5,
+      "observed_curve": [
+        0.6446335004677289,
+        0.746368921896301,
+        0.7094572417407718,
+        0.7442962663159307,
+        0.7299505108907525,
+        0.7987225983651742
+      ],
+      "predicted_curve": [
+        0.6336953819168689,
+        0.5860975276937881,
+        0.5790862914877409,
+        0.5702250297941556,
+        0.5703196712774631,
+        0.564869926210157
+      ],
+      "curve_mae": 0.14485586854941426,
+      "bias_observed_minus_predicted": 0.14485586854941426
+    },
+    {
+      "lab": "mainenlab",
+      "n": 9,
+      "observed_curve": [
+        0.5565374264688363,
+        0.6020524656590316,
+        0.6503850768148434,
+        0.6922875590315596,
+        0.6903711891973336,
+        0.739081609542656
+      ],
+      "predicted_curve": [
+        0.5439565550992262,
+        0.5466026099518867,
+        0.5495948090550363,
+        0.55427027956753,
+        0.5511164688656983,
+        0.5644517733532628
+      ],
+      "curve_mae": 0.10345380513693668,
+      "bias_observed_minus_predicted": 0.10345380513693668
+    },
+    {
+      "lab": "mrsicflogellab",
+      "n": 5,
+      "observed_curve": [
+        0.49367173642033063,
+        0.5264131132714444,
+        0.5528658019026644,
+        0.5152794767167496,
+        0.5345083068756535,
+        0.553578849803548
+      ],
+      "predicted_curve": [
+        0.49739803835079577,
+        0.5169005521786345,
+        0.5267702048827572,
+        0.518766093774065,
+        0.5238409967936949,
+        0.5328071525655749
+      ],
+      "curve_mae": 0.012376680736738246,
+      "bias_observed_minus_predicted": 0.009972374407478049
+    },
+    {
+      "lab": "zadorlab",
+      "n": 11,
+      "observed_curve": [
+        0.4827723145376743,
+        0.5391933245228809,
+        0.556493078730584,
+        0.5819802455421257,
+        0.5714229212050527,
+        0.6146070093686303
+      ],
+      "predicted_curve": [
+        0.5040660840466173,
+        0.514145084828062,
+        0.5229453217245971,
+        0.528214614765284,
+        0.530394784744772,
+        0.5373194272243377
+      ],
+      "curve_mae": 0.04199518593186066,
+      "bias_observed_minus_predicted": 0.03489726276221297
+    }
+  ],
+  "n_animals": 46,
+  "records": [
+    {
+      "subject": "NYU-07",
+      "lab": "angelakilab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.6633625907990315,
+        0.7232142857142857,
+        0.6086417713152676,
+        0.6048866176940275,
+        0.7136363636363636,
+        0.761846993706877
+      ],
+      "predicted": [
+        0.6061736073802737,
+        0.6229436601646324,
+        0.6022457512860958,
+        0.6052828855155202,
+        0.5998623382256381,
+        0.6259525048887297
+      ],
+      "seconds": 1.529224084020825,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/NYU-07.npz",
+      "forecast_sha256": "fe9f1df86e6cb65dd3ec6607589ec976eee186295a03c6d51b08c10528b9df2d",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "NYU-20",
+      "lab": "angelakilab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.523953823953824,
+        0.6391752577319587,
+        0.8274954954954955,
+        0.9224423714439904,
+        0.9084967320261439,
+        0.9399029488615155
+      ],
+      "predicted": [
+        0.5444456669796663,
+        0.5495149258061849,
+        0.5544813121248073,
+        0.5393442521948769,
+        0.5390251701490826,
+        0.5527819065307608
+      ],
+      "seconds": 1.4930025410139933,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/NYU-20.npz",
+      "forecast_sha256": "05051c17fb9ca494a7f938429aa93143137e130617799f7357c07e32e0907363",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "CSHL034",
+      "lab": "churchlandlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.46877608949741195,
+        0.4703185328185328,
+        0.4649032919175099,
+        0.4736842105263158,
+        0.5394327894327895,
+        0.5680851063829787
+      ],
+      "predicted": [
+        0.40388463397087687,
+        0.44776616262248115,
+        0.45848190733447186,
+        0.46601057883216107,
+        0.4935836340387861,
+        0.5042852670614408
+      ],
+      "seconds": 1.5005776660109404,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/CSHL034.npz",
+      "forecast_sha256": "278e3499c433e8f9abfb073912d0c1330ff59c24fb43d0cce0fb3a0bd0eb4102",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "CSHL045",
+      "lab": "churchlandlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.521889400921659,
+        0.41148195175040814,
+        0.41859838274932615,
+        0.481547619047619,
+        0.5550574712643678,
+        0.5918252290345314
+      ],
+      "predicted": [
+        0.48688310772168797,
+        0.5109120734710875,
+        0.5262162541807819,
+        0.531687869428882,
+        0.5350924322281044,
+        0.5305049675222817
+      ],
+      "seconds": 1.4970490410050843,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/CSHL045.npz",
+      "forecast_sha256": "d4013f1a01f7c2e90ad8c53af7eb8ad931b21f0d3373b7cf220c051feca2a609",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "CSHL051",
+      "lab": "churchlandlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.6209090909090909,
+        0.6199781999377141,
+        0.6417229307326832,
+        0.794874923733984,
+        0.7253787878787878,
+        0.8007507507507508
+      ],
+      "predicted": [
+        0.5116355400094192,
+        0.5237417737693596,
+        0.5491888878830099,
+        0.5491802912408659,
+        0.541072777440584,
+        0.5362482661640908
+      ],
+      "seconds": 1.5042728330008686,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/CSHL051.npz",
+      "forecast_sha256": "4296b79821d9adc39e1ffa2e4eb70278fc79e7c58b600f6f62f3cc44a9cceb3c",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "CSHL052",
+      "lab": "churchlandlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.4843928798474253,
+        0.5152224824355972,
+        0.40319392426134,
+        0.4217232614221469,
+        0.4619501178318932,
+        0.3986722571628232
+      ],
+      "predicted": [
+        0.5208086123468708,
+        0.5215811102259947,
+        0.5455623680223451,
+        0.5341957327476635,
+        0.5293075621960904,
+        0.5478718109501022
+      ],
+      "seconds": 1.518050291982945,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/CSHL052.npz",
+      "forecast_sha256": "66d7b553349000effe73fea1992de2e0519334593f19149e13abcb52c152900b",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "CSHL054",
+      "lab": "churchlandlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.5367834156563389,
+        0.6089484735906961,
+        0.6426675276223275,
+        0.7501172607879925,
+        0.7859175928435891,
+        0.7061381074168798
+      ],
+      "predicted": [
+        0.5143446478309964,
+        0.5170778135588421,
+        0.524209271868139,
+        0.5278567712415428,
+        0.5334092328845151,
+        0.532811714583238
+      ],
+      "seconds": 1.5118314580176957,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/CSHL054.npz",
+      "forecast_sha256": "479388219f2712797d392eab32e3eb25ec1287b82bf5e36e440354c3e14c1122",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "CSHL055",
+      "lab": "churchlandlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.5054850647634153,
+        0.44154944586530265,
+        0.4962962962962963,
+        0.45661222173172733,
+        0.48156064338501664,
+        0.5105052350502424
+      ],
+      "predicted": [
+        0.5043775382337382,
+        0.5277106871305421,
+        0.5420017243856234,
+        0.5371352937998983,
+        0.5419605265722188,
+        0.5341225462818641
+      ],
+      "seconds": 1.5236713749764021,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/CSHL055.npz",
+      "forecast_sha256": "d8bcc231de25821fd41a65bcaf86350d0a23c4e7961f7d1715015a68fe48ca64",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "CSHL057",
+      "lab": "churchlandlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.5390600684718332,
+        0.5800555114988104,
+        0.6640597227159616,
+        0.6744955863808323,
+        0.6915584415584415,
+        0.7062233068944479
+      ],
+      "predicted": [
+        0.5514756352267867,
+        0.5402254954146879,
+        0.5447929147475045,
+        0.5480544943125019,
+        0.5673872584215321,
+        0.550489959944986
+      ],
+      "seconds": 1.5110041669977363,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/CSHL057.npz",
+      "forecast_sha256": "7fe566ae50d1680cac59cfe7e13393e1f802bf566c4b14c86f955e8232feaef5",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "CSHL_011",
+      "lab": "churchlandlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.5070441523424335,
+        0.4849004069393874,
+        0.36935658286023254,
+        0.5141129032258065,
+        0.5036101083032491,
+        0.5165745856353591
+      ],
+      "predicted": [
+        0.5127591965668599,
+        0.5303935290059177,
+        0.48867359449326936,
+        0.5060393603489154,
+        0.5408257068848402,
+        0.5333367838442907
+      ],
+      "seconds": 1.5062698330148123,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/CSHL_011.npz",
+      "forecast_sha256": "b46af1539b3fdc566716371ca5fdb6ab7f90b392b8475714386cf03e588f4146",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "KS014",
+      "lab": "cortexlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.4919751640112465,
+        0.5340360122968819,
+        0.49773630231913524,
+        0.4826254826254826,
+        0.535,
+        0.6138528138528139
+      ],
+      "predicted": [
+        0.4729141588850994,
+        0.526995837073703,
+        0.527277296726642,
+        0.5414678663320597,
+        0.5544420840618657,
+        0.5664817920362527
+      ],
+      "seconds": 1.5024354580091313,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/KS014.npz",
+      "forecast_sha256": "f9dad018df932beb5ba61e3dcde2cc670b13a9211d5626085af0256f986146a5",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "KS016",
+      "lab": "cortexlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.4753623188405797,
+        0.477990746860542,
+        0.4358974358974359,
+        0.4909842922204666,
+        0.4677765843179377,
+        0.5066371681415929
+      ],
+      "predicted": [
+        0.47119373070938003,
+        0.5048585912235689,
+        0.5211439589426587,
+        0.5338666083066118,
+        0.5557682214222855,
+        0.5575843028443542
+      ],
+      "seconds": 1.4981233749713283,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/KS016.npz",
+      "forecast_sha256": "7edbe7af9c6b3678f65ea6f61b8a4f671ba6c03bab111c4cd2f1a4be02ee2364",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "KS017",
+      "lab": "cortexlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.45627240143369174,
+        0.5130890052356021,
+        0.4758928571428571,
+        0.529220468675275,
+        0.6240219092331768,
+        0.5492600422832981
+      ],
+      "predicted": [
+        0.4987286571069296,
+        0.5369203478068089,
+        0.553848484785427,
+        0.5553380543824677,
+        0.5783747025252197,
+        0.564271194233161
+      ],
+      "seconds": 1.5168812080228236,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/KS017.npz",
+      "forecast_sha256": "66791e4d21e490bad551f89ba18f6d3bb98befab1ffaf8d00e09f34e054ae6eb",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "KS019",
+      "lab": "cortexlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.5057026307026307,
+        0.40380544088070286,
+        0.5208593801408172,
+        0.5675402059470092,
+        0.5257352941176471,
+        0.5750079088895919
+      ],
+      "predicted": [
+        0.4618675708458592,
+        0.4784091422206883,
+        0.4861983903136971,
+        0.5104808001985395,
+        0.5203709344140308,
+        0.5325616319140617
+      ],
+      "seconds": 1.486543042003177,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/KS019.npz",
+      "forecast_sha256": "733412e81670d6978336b4b1fbec3085d66e7a6476c5dc36ccf0faf90cb85417",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "KS021",
+      "lab": "cortexlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.5259803921568628,
+        0.5188235294117647,
+        0.5213694852941176,
+        0.5202714022449322,
+        0.5644615037254459,
+        0.6171809841534612
+      ],
+      "predicted": [
+        0.5259020410872293,
+        0.5055145320370036,
+        0.5133659936051354,
+        0.5212356942168818,
+        0.5316082295976968,
+        0.51769732273074
+      ],
+      "seconds": 1.5003964999923483,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/KS021.npz",
+      "forecast_sha256": "22b11b3436c2238f3349aa706eea152f988b4c4119a34ae0db7ff1ab0106b7ae",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "KS024",
+      "lab": "cortexlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.7365832235397453,
+        0.6896225701535437,
+        0.7060768167337861,
+        0.8330745341614907,
+        0.8426708949964764,
+        0.9170807453416149
+      ],
+      "predicted": [
+        0.640317389329426,
+        0.6128841342440868,
+        0.5956123696447465,
+        0.5626195061528725,
+        0.5660515150611787,
+        0.5574674342111204
+      ],
+      "seconds": 1.5283427500107791,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/KS024.npz",
+      "forecast_sha256": "1df2113aa8eb2986be8ea200bca3e137c668fc83abc339acab6ea4cdbc441df8",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "DY_006",
+      "lab": "danlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.6348025711662075,
+        0.6720032840722496,
+        0.5271020059752454,
+        0.7084760273972602,
+        0.6174603174603175,
+        0.660824345146379
+      ],
+      "predicted": [
+        0.80872233056607,
+        0.7467634328501432,
+        0.7611250557330307,
+        0.7324983842787016,
+        0.7313908975257556,
+        0.7338447790282885
+      ],
+      "seconds": 1.5549023339990526,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/DY_006.npz",
+      "forecast_sha256": "bf94ccb6db86cfed9334c9031f86e266fd196979ac5420ddede188849bd7ebad",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "DY_008",
+      "lab": "danlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.8933509730283373,
+        0.8747616020343294,
+        0.8565266509191742,
+        0.967165071770335,
+        0.8723958333333333,
+        0.913356504468719
+      ],
+      "predicted": [
+        0.6222003890982577,
+        0.5747086103975962,
+        0.5551098680573517,
+        0.5377474325055721,
+        0.5376893005752118,
+        0.5288737481377955
+      ],
+      "seconds": 1.5000349170004483,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/DY_008.npz",
+      "forecast_sha256": "1b65e09d8e4d53e70e57a9241cf15a32069501a8238b6dc9b90021ce4af633c9",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "DY_012",
+      "lab": "danlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.4350656702898551,
+        0.5544871794871795,
+        0.568650365575932,
+        0.596086739780658,
+        0.6229079008882655,
+        0.6960704291044777
+      ],
+      "predicted": [
+        0.49047520909681,
+        0.5105474176552245,
+        0.5177233076487046,
+        0.5213277353504543,
+        0.5380063034102884,
+        0.5352576334921775
+      ],
+      "seconds": 1.5075178749975748,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/DY_012.npz",
+      "forecast_sha256": "b3dc902f799ec7a4043c239fec78b73eb54fb0ab2939bb38cfd72438a1685d64",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "DY_013",
+      "lab": "danlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.7311367632444004,
+        0.8799679487179488,
+        0.8519862490450726,
+        0.6559065934065934,
+        0.7478213507625273,
+        0.956140350877193
+      ],
+      "predicted": [
+        0.6938720820587846,
+        0.5872617893158435,
+        0.5577364892102743,
+        0.5380593083424905,
+        0.532826339666686,
+        0.5217814744842588
+      ],
+      "seconds": 1.528520916996058,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/DY_013.npz",
+      "forecast_sha256": "e6e79ee237dc5f26558bdaca12ac837937fdd1e7e888d6307cfc6993db040777",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "DY_014",
+      "lab": "danlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.5288115246098439,
+        0.7506245951697974,
+        0.7430209371884346,
+        0.7938468992248062,
+        0.7891671520093186,
+        0.7672213622291022
+      ],
+      "predicted": [
+        0.5532068987644224,
+        0.5112063882501326,
+        0.5037367367893433,
+        0.5214922884935594,
+        0.5116855152093731,
+        0.5045919959082642
+      ],
+      "seconds": 1.5610672080074437,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/DY_014.npz",
+      "forecast_sha256": "b5863534d5d1f5b6b99c15a9f98272d9ec0df285681cc95b09055335ae273218",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "ZM_1897",
+      "lab": "mainenlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.5933075933075933,
+        0.6556820213336512,
+        0.8454228927897867,
+        0.9298595456910005,
+        0.9327401454267126,
+        0.9026984950700571
+      ],
+      "predicted": [
+        0.5966696793002579,
+        0.570829393841593,
+        0.5559174183082825,
+        0.5650468629580581,
+        0.5684203064151115,
+        0.5641492363329947
+      ],
+      "seconds": 1.5723436250118539,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/ZM_1897.npz",
+      "forecast_sha256": "8b1943c5f449bd2d3f9fb025dcb532a3bc0395dd810d4d8d46dfef7452f256c6",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "ZM_1898",
+      "lab": "mainenlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.5725735617039964,
+        0.47567613062507014,
+        0.5321152703505645,
+        0.5166197183098591,
+        0.5230998509687035,
+        0.5568887634105025
+      ],
+      "predicted": [
+        0.5218190272601121,
+        0.5256437699957903,
+        0.5283363619625052,
+        0.5557082090759814,
+        0.5468893395779004,
+        0.5610837869757196
+      ],
+      "seconds": 1.5065950829884969,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/ZM_1898.npz",
+      "forecast_sha256": "96b3888615c1d0647f0003167c9caeade8bfe31c65b80e59cea5082386f4e8b4",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "ZM_1928",
+      "lab": "mainenlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.648989898989899,
+        0.6992424242424242,
+        0.699924480074358,
+        0.8062015503875969,
+        0.8252483252483253,
+        0.8485733244857332
+      ],
+      "predicted": [
+        0.6119137039708447,
+        0.575376787988562,
+        0.563307901800448,
+        0.5525884169082713,
+        0.5781235658557403,
+        0.5571006982110838
+      ],
+      "seconds": 1.516011667001294,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/ZM_1928.npz",
+      "forecast_sha256": "a0c9e986a772d9d3d25fd79521e2a9a7b164cae50eaf1dbc70901d5879e39fec",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "ZM_2106",
+      "lab": "mainenlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.4638888888888889,
+        0.5153432458082885,
+        0.5189125295508275,
+        0.5798771121351767,
+        0.5034337390358333,
+        0.6051158153090965
+      ],
+      "predicted": [
+        0.5238890258160875,
+        0.5385122750782707,
+        0.5499866084863739,
+        0.5492285700161953,
+        0.5429977139946589,
+        0.5788777709592934
+      ],
+      "seconds": 1.5308707079966553,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/ZM_2106.npz",
+      "forecast_sha256": "bf66f71da561853b1565db0d199a30007acd886ee88b7d5ec1d5d3ae9df579c1",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "ZM_2107",
+      "lab": "mainenlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.4487657864523536,
+        0.5637707078313253,
+        0.5235434956105347,
+        0.6305901759530792,
+        0.6242224880382775,
+        0.7318196004993758
+      ],
+      "predicted": [
+        0.5189484747249916,
+        0.5400938879953469,
+        0.5621611956613878,
+        0.5579854534127252,
+        0.5422733068504504,
+        0.5755940195983188
+      ],
+      "seconds": 1.5152872919861693,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/ZM_2107.npz",
+      "forecast_sha256": "3a2d710053cd1f87e1169374f1f149f8488be10ed70ba9165eee58ca8bfffda0",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "ZM_2245",
+      "lab": "mainenlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.4915697674418605,
+        0.5324622844827587,
+        0.5932959657791872,
+        0.6251761804087386,
+        0.6063852813852814,
+        0.7434582218257508
+      ],
+      "predicted": [
+        0.4824623260068662,
+        0.5244209444273065,
+        0.5168255256907478,
+        0.5558185942276141,
+        0.541072322804903,
+        0.5683606577920012
+      ],
+      "seconds": 1.5171454579976853,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/ZM_2245.npz",
+      "forecast_sha256": "8ab4dad8316f289414fe70afdf3954fc42b094bb0a464923bd0ad9cbf42e44ae",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "ZM_3002",
+      "lab": "mainenlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.671152741889176,
+        0.7831896551724138,
+        0.8232405891980361,
+        0.9176050753370342,
+        0.8484640359640359,
+        0.9196260078915766
+      ],
+      "predicted": [
+        0.5827004313275509,
+        0.588645548766027,
+        0.5991388323043024,
+        0.57125789577914,
+        0.5612828239139123,
+        0.5630928531880646
+      ],
+      "seconds": 1.5246792499965522,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/ZM_3002.npz",
+      "forecast_sha256": "04ad06668af0e9760f4790382f4a1b499de9a8ad39b054abf2d6cac9a334b79f",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "ZM_3003",
+      "lab": "mainenlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.6746284501061571,
+        0.7891394864677308,
+        0.809375,
+        0.7357697841726618,
+        0.811195671561924,
+        0.9141583054626533
+      ],
+      "predicted": [
+        0.5491176649983123,
+        0.5388463826248557,
+        0.5284045194871653,
+        0.5304545170048305,
+        0.5320532691653705,
+        0.5298517140775709
+      ],
+      "seconds": 1.5215073329745792,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/ZM_3003.npz",
+      "forecast_sha256": "564888dd299ae980b410abf540a58c5a96024c6112357d278a46aaa2e5338076",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "ZM_3005",
+      "lab": "mainenlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.4439601494396015,
+        0.4039662349676226,
+        0.5076354679802956,
+        0.4888888888888889,
+        0.5385511651469098,
+        0.4293959519291588
+      ],
+      "predicted": [
+        0.5080886624880125,
+        0.5170544988492282,
+        0.542274917794114,
+        0.5503439967249546,
+        0.5469355712132382,
+        0.5819552230443179
+      ],
+      "seconds": 1.5060633750108536,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/ZM_3005.npz",
+      "forecast_sha256": "1aa0c88a1b0584e6dd2fd7e51397d7589bcd06a429a7cc01febda89098a368ac",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "SWC_016",
+      "lab": "mrsicflogellab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.4792529252925292,
+        0.5073691967575534,
+        0.5263181214000886,
+        0.4049508692365835,
+        0.4780067758328628,
+        0.46593001841620624
+      ],
+      "predicted": [
+        0.4591528765783116,
+        0.49010780926508596,
+        0.5305726103696777,
+        0.5124608185169272,
+        0.5244356421471447,
+        0.5367904257168314
+      ],
+      "seconds": 1.5966792500112206,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/SWC_016.npz",
+      "forecast_sha256": "bdc5cb1fca962f24ac18bb14163a447f6e68bedbea7dfa24369860d16e41031e",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "SWC_036",
+      "lab": "mrsicflogellab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.49624851915229695,
+        0.4866600412812476,
+        0.4353068254802359,
+        0.4810574916197584,
+        0.491097612065354,
+        0.5639402018663112
+      ],
+      "predicted": [
+        0.4927734688179651,
+        0.5046722271512644,
+        0.5181495888287734,
+        0.5175945200336588,
+        0.5192691164354186,
+        0.5295341640707527
+      ],
+      "seconds": 1.6953305829956662,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/SWC_036.npz",
+      "forecast_sha256": "ac5c04b7aaa77ff3a81cfce7e25d3368ec904c9595a79b5c72ef4f4a7e2c6956",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "SWC_038",
+      "lab": "mrsicflogellab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.5092201306185171,
+        0.5587544065804935,
+        0.5882102272727272,
+        0.5878576868675879,
+        0.547327264239029,
+        0.575675168792198
+      ],
+      "predicted": [
+        0.5226575074680286,
+        0.5466805381873271,
+        0.5430502144249928,
+        0.5508832481808733,
+        0.5483073642894877,
+        0.5467728087206525
+      ],
+      "seconds": 1.619017332996009,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/SWC_038.npz",
+      "forecast_sha256": "7f0cde36d39b6410bcecda34605c10ece034be732e9c619a7e3ca032502262b3",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "SWC_039",
+      "lab": "mrsicflogellab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.44275,
+        0.4870430987452264,
+        0.5670881749829119,
+        0.5292507381889764,
+        0.6648586925492435,
+        0.5911225402504472
+      ],
+      "predicted": [
+        0.5025654063033488,
+        0.5324866294542027,
+        0.5270514492025974,
+        0.5211957877433689,
+        0.5215283115675936,
+        0.5437378500434895
+      ],
+      "seconds": 1.7551601250015665,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/SWC_039.npz",
+      "forecast_sha256": "c1c2a61b3f12d3f77a13fb156f7f109484dee78eda3a1739ac0ee6dd82f02ffe",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "SWC_040",
+      "lab": "mrsicflogellab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.5408871070383098,
+        0.5922388229927007,
+        0.6474056603773585,
+        0.5732805976708416,
+        0.4912511896917783,
+        0.5712263196925773
+      ],
+      "predicted": [
+        0.5098409325863247,
+        0.5105555568352927,
+        0.5150271615877441,
+        0.49169609439549716,
+        0.5056645495288301,
+        0.5072005142761485
+      ],
+      "seconds": 1.6793956249894109,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/SWC_040.npz",
+      "forecast_sha256": "1f13e23f75f52325b02cf23f5e8a7dee0d6ce6b9c96a271525e91670e21cffe4",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "CSH_ZAD_001",
+      "lab": "zadorlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.4860294117647059,
+        0.5144444444444445,
+        0.482996632996633,
+        0.5192144502363922,
+        0.4747822931785196,
+        0.5635989010989011
+      ],
+      "predicted": [
+        0.48800824822236627,
+        0.5111268987539626,
+        0.5127066403996982,
+        0.529097606276796,
+        0.5385640484024191,
+        0.5366421059908438
+      ],
+      "seconds": 1.6528441660047974,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/CSH_ZAD_001.npz",
+      "forecast_sha256": "47c50290ac087471b2ba419652b7763d520f003254227baef11ea7a9fb5648a7",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "CSH_ZAD_002",
+      "lab": "zadorlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.6805929919137466,
+        0.8751128770092107,
+        0.8918918918918919,
+        0.8873239436619718,
+        0.8641304347826086,
+        0.9326923076923077
+      ],
+      "predicted": [
+        0.6126448277925284,
+        0.5726647069602565,
+        0.5531895401435976,
+        0.5456999978412249,
+        0.534868285336162,
+        0.5417461137385421
+      ],
+      "seconds": 1.6408522499841638,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/CSH_ZAD_002.npz",
+      "forecast_sha256": "a0e96e2dea9fa0e0637a91b1ebb3823722743566295523459563a6850ba038a4",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "CSH_ZAD_003",
+      "lab": "zadorlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.5924295774647887,
+        0.7724358974358974,
+        0.8812903225806452,
+        0.9918032786885246,
+        0.953125,
+        0.9484848484848485
+      ],
+      "predicted": [
+        0.5837102414716645,
+        0.5822055909643651,
+        0.5637314382766622,
+        0.5832597607434267,
+        0.5764537909309884,
+        0.5689319268836496
+      ],
+      "seconds": 1.69074391698814,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/CSH_ZAD_003.npz",
+      "forecast_sha256": "c5e7ebad720a0f11b6b8b1ae94069ef966e356502a11986bae08aefee2c8176f",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "CSH_ZAD_009",
+      "lab": "zadorlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.4468356918238994,
+        0.4303495762711864,
+        0.4942786069651741,
+        0.5333925516515331,
+        0.528699402786994,
+        0.6246961594555178
+      ],
+      "predicted": [
+        0.438086407581306,
+        0.4688517564833709,
+        0.5021495469836889,
+        0.5209295947767033,
+        0.5189422979786614,
+        0.5289020929349773
+      ],
+      "seconds": 1.5976728750101756,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/CSH_ZAD_009.npz",
+      "forecast_sha256": "8b006737fc63c37678a6e17b344ab2a1f679ec490d7756e41abeb9ec2f915bde",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "CSH_ZAD_011",
+      "lab": "zadorlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.4532165358682436,
+        0.5274126599792459,
+        0.4653316356059729,
+        0.47000789265982634,
+        0.414738929279577,
+        0.5350579150579151
+      ],
+      "predicted": [
+        0.5118620061491228,
+        0.5017183811564967,
+        0.5065209625397943,
+        0.49722032756069406,
+        0.49106656189879505,
+        0.5127324767676771
+      ],
+      "seconds": 1.627224041003501,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/CSH_ZAD_011.npz",
+      "forecast_sha256": "92e283437d2ac82c0e1b6b1ef27d284f8bc9a4808e89bb2159b4459cc4c723ea",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "CSH_ZAD_015",
+      "lab": "zadorlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.4405381944444444,
+        0.4153593020586209,
+        0.435322299651568,
+        0.4649839743589744,
+        0.4579945799457995,
+        0.5144609991235758
+      ],
+      "predicted": [
+        0.48673694368244996,
+        0.501920323211731,
+        0.526696958321203,
+        0.5305176351083754,
+        0.5357466650375408,
+        0.5360498650329696
+      ],
+      "seconds": 1.6365545840235427,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/CSH_ZAD_015.npz",
+      "forecast_sha256": "25ac0fefb40efe8c7543e60b94e11576aa2b878b73686375d92929cd90187014",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "CSH_ZAD_016",
+      "lab": "zadorlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.40255172413793106,
+        0.48242926653451074,
+        0.41964285714285715,
+        0.4806230487308266,
+        0.4786531690140845,
+        0.4996378311258278
+      ],
+      "predicted": [
+        0.4448654716401885,
+        0.49047721348262785,
+        0.4946073968118431,
+        0.5234674757329442,
+        0.5121990236849433,
+        0.5274993283391847
+      ],
+      "seconds": 1.5883280839771032,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/CSH_ZAD_016.npz",
+      "forecast_sha256": "5331dd864bbab3517c27a4425bbac2096ba12ee17246e3e98519954bb155c582",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "CSH_ZAD_017",
+      "lab": "zadorlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.47921662669864107,
+        0.5307236654296318,
+        0.584873949579832,
+        0.6295584045584045,
+        0.6843325214111731,
+        0.7396264130135097
+      ],
+      "predicted": [
+        0.47999518802268143,
+        0.49964335261067594,
+        0.5053424645282344,
+        0.5059768335370359,
+        0.5237432815065186,
+        0.5330884215300091
+      ],
+      "seconds": 1.6705230840016156,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/CSH_ZAD_017.npz",
+      "forecast_sha256": "63a35a3b996132af26538069f873dc4d7e83517b0e53ce9a70b7fa6312b500a8",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "CSH_ZAD_021",
+      "lab": "zadorlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.4168859649122807,
+        0.45717319490325625,
+        0.44743956128832935,
+        0.5079365079365079,
+        0.4143895033615268,
+        0.4497559893522627
+      ],
+      "predicted": [
+        0.5121089686526351,
+        0.5165318694098486,
+        0.5200284458725778,
+        0.5180224938448185,
+        0.5243259245921759,
+        0.5289822775474922
+      ],
+      "seconds": 1.6018528749991674,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/CSH_ZAD_021.npz",
+      "forecast_sha256": "d96d8d3f929d024661e0f8aa96c4905619fe44dc3d05c6c665e1bf43045ae2b8",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "CSH_ZAD_023",
+      "lab": "zadorlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.4630331371442393,
+        0.5071142571142571,
+        0.5481638006412124,
+        0.4666666666666667,
+        0.5146198830409356,
+        0.4815470171890799
+      ],
+      "predicted": [
+        0.4961883606283437,
+        0.5075647166175702,
+        0.5346272232506063,
+        0.5254805126872867,
+        0.5342384726985199,
+        0.5632552426086295
+      ],
+      "seconds": 1.6387326669937465,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/CSH_ZAD_023.npz",
+      "forecast_sha256": "beb73f5723fd630751de7d54828747147725adbd403c1fd1d5015cb7bd8c9b95",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    },
+    {
+      "subject": "CSH_ZAD_024",
+      "lab": "zadorlab",
+      "rho": 0.6,
+      "particles": 256,
+      "observed": [
+        0.4491656037414966,
+        0.4185714285714286,
+        0.4701923076923077,
+        0.4502719818137534,
+        0.500186416454359,
+        0.4711187214611872
+      ],
+      "predicted": [
+        0.49052026066950405,
+        0.5028911234577769,
+        0.5327979218426621,
+        0.530688524308818,
+        0.544194280125768,
+        0.5326838480937375
+      ],
+      "seconds": 1.6468648749869317,
+      "forecast_path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/CSH_ZAD_024.npz",
+      "forecast_sha256": "508e659740dbc10eda67b0138a43b361323157b211e61fe69ed97834989f55db",
+      "freeze_sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39",
+      "own_actions_rewards": true,
+      "source_data_status": "consumed fit development"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+For canonical PI integration into LEARNINGS.md; this worker does not edit shared memory.
+
+**2026-11-01 — Source-estimation stability of the surprise-history forecast**
+- Observation: Independent original-MAT reconstruction verifies all 39 people/18,408 within-block updates, both complete feature maps and the safe-law grid; frozen evaluation forecasts agree within 3.91e−14 radians. A predeclared 200-source-person bootstrap repeats B/H source-only ridge selection with duplicate identities kept in original folds: source-only gain percentiles −.108%/1.363%/2.914%, 0/200 reach 5% or pass the full original joint rule, and 54/200 improve both contexts. Adding paired evaluation resampling yields [−1.094%,3.519%] empirical percentiles with 1/200 point gains≥5%. See lab/reviews/surprise-history-forecast-2026-11-01/REVIEW.md and CONTRARY.json.
+- Action: Bank the independently reconstructed failed utility test and close further tuning of this fixed recipe on these consumed people. Carry source-estimation diagnostics as finite empirical perturbations, not calibrated confidence/equivalence bounds or a replacement evaluation; retain duplicate-person fold grouping, source-conditioned original interval, strong baseline information and large-signal control limits.
+- Confidence: high

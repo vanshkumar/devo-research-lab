@@ -1,0 +1,85 @@
+{
+  "calculated_at": "2026-11-02T23:07:19.670890+00:00",
+  "archive_sha256": "b85f43a7648b6c250d9539b8b4e9a66c5487a57c082ca8d418354d043b4600d7",
+  "csv_sha256": "13cb346a5f77c48a069891fd27897150efb23080060256598a047827efc06407",
+  "csv_record_one_based": 1,
+  "before": "Electronic communication enriches interpersonal relationships and allows people to maintain important and make connections despite time and spatial differences.",
+  "after": "Electronic communication enriches interpersonal relationships and allows people to maintain and make important connections despite time and spatial differences.",
+  "word_counts": [
+    19,
+    19
+  ],
+  "bag_of_words_unchanged": true,
+  "sequence_matcher_changes": [
+    {
+      "operation": "delete",
+      "before_positions_zero_based": [
+        10,
+        11
+      ],
+      "after_positions_zero_based": [
+        10,
+        10
+      ],
+      "before_tokens": [
+        "important"
+      ],
+      "after_tokens": []
+    },
+    {
+      "operation": "insert",
+      "before_positions_zero_based": [
+        13,
+        13
+      ],
+      "after_positions_zero_based": [
+        12,
+        13
+      ],
+      "before_tokens": [],
+      "after_tokens": [
+        "important"
+      ]
+    }
+  ],
+  "seven_labels": [
+    "Better",
+    "Better",
+    "Better",
+    "Better",
+    "Better",
+    "Better",
+    "Better"
+  ],
+  "better_votes": 7,
+  "majority": "Better",
+  "fields": [
+    "S1",
+    "S2",
+    "Label1",
+    "Comment1",
+    "Label2",
+    "Comment2",
+    "Label3",
+    "Comment3",
+    "Label4",
+    "Comment4",
+    "Label5",
+    "Comment5",
+    "Label6",
+    "Comment6",
+    "Label7",
+    "Comment7"
+  ],
+  "identifiers": {
+    "learner": null,
+    "draft_pair": null,
+    "assignment": null,
+    "rater_identity": null,
+    "only_location": "CSV data record 1"
+  },
+  "meaning": "Observed original/revised sentence pair and seven posthoc evaluation slots; this record is NOT proof of distinct rater identities, original learner/draft join, feedback received, or causal learning.",
+  "required_milestone": "PARTIAL: actual edit/quality votes reconstructed, but original learner/draft/assignment linkage absent from this CSV and remains uncertified.",
+  "exposure": "Whole CSV inflated and UTF8 decoded; only header/first CSV record tokenized, labels/comments interpreted. Buffering may touch additional characters; all decoded bytes remain exposed.",
+  "rss_bytes_macos": 18956288
+}

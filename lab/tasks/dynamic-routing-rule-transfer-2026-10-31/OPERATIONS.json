@@ -1,0 +1,28 @@
+{
+  "counting_rule": "One public query or attempted public acquisition per entry, including DNS/connector failures; two search queries in one tool call count twice. Pre-execution hook denials made no public request and are listed separately.",
+  "operations": [
+    {"n":1,"kind":"web search","query":"Allen dynamic routing task cross modal mice Gale behavioral data github Zenodo","result":"Allen project/tutorial and public capsule identified","ingress_bytes":null,"ingress_charge_bytes":500000},
+    {"n":2,"kind":"GitHub connector fetch","url":"https://api.github.com/repos/samgale/DynamicRoutingTask/git/trees/main?recursive=1","result":"complete source tree e2055ff029da29455e2eacb6342fb95fbaa43745; no trial payload listed","saved":"task_tree.json","ingress_bytes":null,"ingress_charge_bytes":500000},
+    {"n":3,"kind":"web search","query":"Gale dynamic routing data mice context inference data availability","result":"did not identify the needed compact primary behavioral deposit","ingress_bytes":null,"ingress_charge_bytes":500000},
+    {"n":4,"kind":"GitHub connector fetch","url":"https://raw.githubusercontent.com/AllenNeuralDynamics/conect-dev-capsule/main/REMOTE.md","result":"anonymous S3 access documented","saved":"REMOTE.md","ingress_bytes":null,"ingress_charge_bytes":500000},
+    {"n":5,"kind":"GitHub connector fetch","url":"https://raw.githubusercontent.com/AllenNeuralDynamics/conect-dev-capsule/main/code/remote/dynamic_routing_tutorial_remote.ipynb","result":"HTTPError 400; too large or unsupported; provider ingress/peak unknown","ingress_bytes":null,"ingress_charge_bytes":3000000},
+    {"n":6,"kind":"local bounded HTTP attempt","url":"https://raw.githubusercontent.com/AllenNeuralDynamics/conect-dev-capsule/main/code/remote/dynamic_routing_tutorial_remote.ipynb","result":"DNS failure in restricted shell","ingress_bytes":0,"ingress_charge_bytes":0},
+    {"n":7,"kind":"bounded HTTP acquisition with platform network permission","saved":"remote_tutorial.ipynb","result":"HTTP200","ingress_bytes":1916677,"ingress_charge_bytes":1916677},
+    {"n":8,"kind":"bounded HTTP acquisition","saved":"zarr.json","result":"HTTP200; five distinct subject/session path pairs","ingress_bytes":668,"ingress_charge_bytes":668},
+    {"n":9,"kind":"web search","query":"Sam Gale mice task switching behavior dataset","result":"no compact primary behavior table certified","ingress_bytes":null,"ingress_charge_bytes":500000},
+    {"n":10,"kind":"web search","query":"DynamicRoutingTask data zenodo","result":"no compact primary behavior table certified; shared tool response with operation9","ingress_bytes":null,"ingress_charge_bytes":500000},
+    {"n":11,"kind":"bounded HTTP acquisition","saved":"nwb_metadata.json","result":"HTTP200; NWB2.7/Zarr2, 49 trial columns with 538 rows","ingress_bytes":454267,"ingress_charge_bytes":454267},
+    {"n":12,"kind":"bounded HTTP acquisition","saved":"reward_time.blosc","result":"HTTP200; one actual trial-level reward-time vector","ingress_bytes":3304,"ingress_charge_bytes":3304}
+  ],
+  "preexecution_failures": [
+    "Three shell acquisition commands to GitHub rejected by process-control path string guard; no network execution.",
+    "One initial awk CURRENT STATE context read rejected for missing contract; ordinary sed reads succeeded; no science.",
+    "rg -A policy read rejected as unsupported ordinary-read option; no science.",
+    "Relative cat zarr.json context lookup failed; absolute scoped path succeeded.",
+    "Ordinary ls of local codec-package directory rejected; scoped scientific find_spec check succeeded without package payload reads."
+  ],
+  "public_operations_used":12,
+  "public_operations_limit":12,
+  "source_families":["samgale/DynamicRoutingTask task source tree","AllenNeuralDynamics/conect-dev-capsule and linked aind-open-data NWB-Zarr assets"],
+  "unknown_bytes_note":"Tool/provider search and failed-fetch ingress is not measured. The explicit charges are accounting reserves, not claims to measure or upper-bound the provider's internal transfers. Direct local HTTP response-body bytes are exact."
+}

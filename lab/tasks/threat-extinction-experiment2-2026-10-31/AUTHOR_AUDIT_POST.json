@@ -1,0 +1,70 @@
+{
+  "stage": "post",
+  "utc": "2026-11-01T02:30:29.620388+00:00",
+  "groups": {
+    "development": {
+      "raw_to_sav_rating_checks": 1320,
+      "supplied_scoring_checks": 3067,
+      "published_sqrt_max_abs_error": 0.0,
+      "functional_checks": {
+        "physiology": {
+          "future_suffix_bit_exact": true,
+          "alpha0_nesting_max_abs_error": 0.0,
+          "initial_cue_discrimination_preserved": true,
+          "participants": 39,
+          "prefix_lengths": [
+            3
+          ]
+        },
+        "expectancy": {
+          "future_suffix_bit_exact": true,
+          "alpha0_nesting_max_abs_error": 0.0,
+          "initial_cue_discrimination_preserved": true,
+          "participants": 40,
+          "prefix_lengths": [
+            3
+          ]
+        }
+      }
+    },
+    "evaluation": {
+      "raw_to_sav_rating_checks": 660,
+      "supplied_scoring_checks": 1598,
+      "published_sqrt_max_abs_error": 0.0,
+      "functional_checks": {
+        "physiology": {
+          "future_suffix_bit_exact": true,
+          "alpha0_nesting_max_abs_error": 0.0,
+          "initial_cue_discrimination_preserved": true,
+          "participants": 20,
+          "prefix_lengths": [
+            3
+          ]
+        },
+        "expectancy": {
+          "future_suffix_bit_exact": true,
+          "alpha0_nesting_max_abs_error": 0.0,
+          "initial_cue_discrimination_preserved": true,
+          "participants": 20,
+          "prefix_lengths": [
+            3
+          ]
+        }
+      }
+    }
+  },
+  "distinct_independent_review": false,
+  "frozen_pins": {
+    "analysis.py": true,
+    "first_data_check.py": true,
+    "controls.py": true,
+    "audit.py": true,
+    "DEVELOPMENT_PLAN.md": true,
+    "PROTOCOL.md": true,
+    "SOURCE_CERTIFICATION.json": true,
+    "SELECTED_RECIPES.json": true,
+    "FROZEN_MODELS.json": true
+  },
+  "read_charge_bytes": 12000000,
+  "peak_rss_bytes": 33357824
+}

@@ -1,0 +1,19 @@
+# Result — CLOSE the current corruption-transport gate
+
+**Decision: do not fund main training from this allocation. Recovery transport remains untested.** The corruption mismatch is real in the inspected descriptions, but this run did not earn a material learning contrast, an exact executable comparison or a measured training-cost estimate. This is a source/release closure, not a finding that the transformations have different recovery effects, that the model is irreversibly impaired or that the follow-up is incorrect.
+
+Decision recorded 2026-11-02 20:09:57 America/New_York (2026-11-03T01:09:57Z), before the source-release gate at 01:20:31Z. The original fixed native start was 01:05:31Z; orientation is included. No deadline or exposure reset; no substantive pre-main revision.
+
+The original specifies bilinear downsampling32→8 followed by upsampling8→32. The follow-up instead specifies an extrapolation of CIFAR-C pixelate to severity9, beyond its stated standard1–5 range. Its text already connects corruption severity/type with performance loss and already reports substantial learning-rate-restart rescue. Merely demonstrating different images would add no learning conclusion. See [source gate](PRIOR_GATE.md) and [source log](SOURCES.md).
+
+The inspected follow-up text does not supply the numerical severity9 extrapolation rule or a verified linked implementation/checkpoint. Targeted title/owner release queries did not locate one. A secondary index's apparent original-paper Code link resolved to **uw-mad-dash/Accordion**, whose README identifies another experiment. It is not a certified original-model release. This finite search does not establish that releases do not exist. The original ResNet variant/preprocessing details and both complete deployed training procedures also remain uncertified.
+
+A valid source-faithful transport comparison would need to retain the same model, task, initial states, training information and recovery intervention while changing the specified deprivation procedure. Without the exact follow-up mapping and an executable original baseline, a guessed implementation could test our choices rather than transport the reported recovery. A generic bilinear-plus-restart replication would repeat the already closed generic intervention premise; this run found no separately earned consequence warranting that substitution.
+
+The sole successful executable output is [ENVIRONMENT.json](ENVIRONMENT.json): the existing project Python is arm64 Python3.9.6 and has no discoverable torch or torchvision. It reports11,993,088bytes peakRSS and0.000256s inventory time. **Those are inventory measurements, not model/task execution or training throughput.** No dependency was installed and no task data or weights were acquired. Do not convert missing packages into a proof of unaffordability.
+
+UNRUN: original-model/task learning or recovery calculation; independent numerical reference; baseline reproduction; image/operator comparison; training throughput/epoch cost; main training; effect/uncertainty; independent adversarial review. No toy, arbitrary architecture, guessed severity9 or substitute data were used to fill the numerical milestone. [Milestones](MILESTONES.json) and [UNRUN](UNRUN.md) record this explicitly.
+
+Recommendation: bank this narrow release/provenance stop and close automatic source repair/training on this allocation. Reopening would need a separately justified exact affordable original/follow-up executable object and a contribution beyond the known recovery/severity results. No scientific goal completion or lab shutdown is claimed. Jobs0; the operator heartbeat is outside this worker's scope.
+
+Inspect [README](README.md), [resources/failures/exposure](RESOURCES.json), [raw tool receipts](SOURCE_BROWSE_RECEIPTS.json), [task state](STATE.md), [artifact pins](ARTIFACT_PINS.json) and [proposed learning](PROPOSED_LEARNING.md).

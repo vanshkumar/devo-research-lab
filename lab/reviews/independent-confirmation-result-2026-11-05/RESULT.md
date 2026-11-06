@@ -1,0 +1,18 @@
+# Independent confirmation review complete
+
+November 5, 2026. Fresh Sol/max reviewer `01a1ad51-1d94-7db3-bb83-14bb7964da90`. **Inconclusive at the frozen 10% primary margin.** All three paired D bands cross zero. GRU975 reduces the recent100 point risk by 8.87%, with D −.001535 [−.008889, +.005819]. All frozen integration criteria pass. The 2 pp secondary MAE upper bounds are scoped to the fixed prescriptions and mixture. Source draw 14 puts the early recent100 point gain at 13.23%, with its D band across zero. The old 32-draw uncertainty remains relevant. [Independent review](REVIEW.md) · [Actual outputs](REVIEW_CALCULATION.json)
+
+**The advantage survives breaking the animal match.** The exact mean gap grows from .012098 observed to .023984 under reassignment in the 12 fixed registered lab/project blocks. Actual pairing lowers risk by .025057 for recent100 and .013171 for GRU. This favors common-stratum distributional alignment over a GRU advantage in individual matching on these outputs. The reassignment also breaks allocation and other case-specific information inside coarse blocks, so causal and updater-specific interpretations remain open. [Reassignment and independent reductions](REVIEW_REDUCTIONS.npz)
+
+The independent joins and counts cover all 192 units and all 1,537 main sessions, with an 802-object/eight-field local projection. The actual measurement amendment is post-acquisition and pre-forecast. The 82 negative values change 33 unit-contrast target side assignments in one session and affect neither legal prefix. I exercised the pinned input boundary with fresh poison at both origins. The unchanged saved forecasts give a maximum literal-sensitivity endpoint shift of .00000870. Exact delivered-stimulus and historical extractor provenance remain unresolved. [Chronology and anomaly evidence](CHRONOLOGY_REVIEW.json)
+
+Bank the conditional comparison and its calibration contrary. The numerical revision has no trigger. The next candidate is a prospectively calibrated growth rival using the same prefix and allocation, with separately allowed source development and a confirmed independent test footprint before main funding. The PI's larger contribution about learning dynamics remains unresolved. [Decision and reproduction](REVIEW.md) · [Reproduction commands](REPRODUCE.md)
+
+All three review jobs are terminal. The first chronology attempt decoded the one previously acquired NYU-02 object and stopped on a metadata key lookup. Its charges remain in the ledger. The corrected chronology and the one saved-count score pass both completed. Measured scientific CPU was 4.646 seconds and recorded explicit/nominal/decoded reads totaled 1,806,293,806 bytes before the context and closeout allowance. Public ingress was zero. The review used its own assignment only. The shared-account checkpoint was 54% weekly remaining, with other windows unavailable. [Resources and scope](RESOURCES.json) · [Native completion](GOAL_FINAL.json)
+
+## Proposed memory for PI integration
+
+**2026-11-05 — Preserve pairing in early acquisition score claims**
+- Observation: In the independent 192-animal saved forecasts, exact reassignment within the fixed registered lab/project blocks increased the recent100-minus-GRU proper-risk gap from .012098 to .023984. Actual pairing reduced both risks and helped recent100 by .011886 more.
+- Action: Treat the lower GRU point risk as compatible with common-stratum forecast alignment. Preserve intact two-sign laws, animal weights and schedule scope when auditing matching. Require an independent calibration-matched comparator before attributing an operational advantage to a richer individual updater.
+- Confidence: high for the finite decomposition. Transport and attribution remain unresolved.

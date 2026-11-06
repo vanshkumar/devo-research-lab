@@ -1,0 +1,86 @@
+{
+  "prepared_utc": "2026-11-01T04:24:41.856282+00:00",
+  "authorized_start_utc": "2026-11-01T04:10:34.816Z",
+  "source_gate_utc": "2026-11-01T04:30:34.816Z",
+  "total_deadline_utc": "2026-11-01T05:25:34.816Z",
+  "limits": {
+    "logical_public_operations": 30,
+    "ingress_bytes": 50000000,
+    "additional_scientific_read_decoded_hash_bytes": 500000000,
+    "peak_rss_bytes": 1000000000,
+    "scientific_processes": 1,
+    "numerical_threads": 1
+  },
+  "public_operations": {
+    "count": 27,
+    "source_search_connector_calls": 1,
+    "script_urlopen_attempts_including_failures": 26,
+    "definition": "one initiated public lookup/fetch; automatic redirect hops and provider-internal operations were not separately measured"
+  },
+  "ingress": {
+    "measured_application_response_body_bytes": 12613306,
+    "search_connector_unknown_provider_transfer_reserve": 1000000,
+    "failed_dns_unknown_transfer_reserve": 1000000,
+    "failed_identifier_timeout_unknown_transfer_reserve": 1000000,
+    "charged_total_bytes": 15613306,
+    "provider_actual_bytes": "unknown; application read caps do not measure remote buffering/transport"
+  },
+  "additional_scientific_read_decoded_hash": {
+    "charged_bytes": 200000000,
+    "basis": "conservative whole-task charge including acquisitions SHA256+MD5, all code ZIP scans/inflation, text/metadata reads, full first-table parsing and decoded values, repeated inspections and closeout hashes; exact cross-pass byte total not instrumented",
+    "first_data_pass_known_source_read_bytes": 10220937,
+    "first_data_pass_known_float64_value_charge": 4097680,
+    "closeout_source_hash_read_bytes": 12613306,
+    "code_zip_total_uncompressed_member_bytes": 6109093
+  },
+  "rss": {
+    "maximum_measured_local_bytes": 37978112,
+    "provider_and_tool_host_peaks": "unknown",
+    "failed_local_acquisition_peaks": "recorded in ACQUISITION.json"
+  },
+  "execution": {
+    "active_jobs": 0,
+    "numerical_models_or_threaded_libraries_used": false,
+    "one_owner": true,
+    "note": "standard-library processes were run sequentially; code ZIP and raw100 acquisition calls both yielded, but the retained ledger includes code before raw100, establishing the first acquisition ledger write before the second loaded it; no parallel numerical work",
+    "python": "3.9.6",
+    "os": "Darwin"
+  },
+  "failures": [
+    {
+      "kind": "DNS denial in sandbox",
+      "source": "osf_files.json initial attempt",
+      "body_bytes": 0,
+      "provider_transfer_unknown": true
+    },
+    {
+      "kind": "identifier fetch timeout",
+      "source": "2_ds_name.txt first attempt",
+      "body_bytes": 0,
+      "provider_transfer_unknown": true,
+      "retry": "one same-object retry succeeded"
+    },
+    {
+      "kind": "pre-tool hook denial",
+      "source": "GitHub codeload URL",
+      "public_fetch_executed": false
+    },
+    {
+      "kind": "pre-tool hook denials",
+      "source": "inline inspection, raw head, symlinked venv path, ordinary read composition/path checks",
+      "public_fetch_executed": false
+    }
+  ],
+  "exposure": {
+    "record0": "entire 4454x114 GCaMP table including unlabeled columns and all five matching metadata vectors consumed/development-exposed",
+    "records1_and2": "complete five-field metadata only; no GCaMP acquisition/decoding/scoring",
+    "source_context": "whole paper HTML/text, complete v1.1 code ZIP, top-level OSF listing/node/wiki and first100 raw-folder metadata items exposed",
+    "new_sealed_protected_data_access": false,
+    "main_evaluation_scoring": false
+  },
+  "terminal_report": {
+    "status": "delivered successfully in ONE send_message_to_thread call; no model/thinking overrides, no retry or acknowledgement wait; see STATE",
+    "target": "current registry PI verified 01a1954a-36b7-7191-80de-cc1cba0165c0"
+  },
+  "unrun_stages_file": "UNRUN.json"
+}

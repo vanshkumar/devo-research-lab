@@ -1,0 +1,648 @@
+{
+  "completed_utc": "2026-11-01T05:02:59.840054+00:00",
+  "model": "two deterministic skill traces, pre-update certificate 1[x>=1/2]",
+  "source_observation": {
+    "tasks": "AABB",
+    "labels": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "block_ends_retained": true
+  },
+  "parameter_grid": {
+    "alpha_A": [
+      "1/4",
+      "1/2"
+    ],
+    "alpha_B": [
+      "1/4",
+      "1/2"
+    ],
+    "rho": [
+      "1/2",
+      "1"
+    ]
+  },
+  "target": "mean pre-update calibrated skill on fresh-state AB repeated 6 times",
+  "recording": "unknown subsequence selector, may depend on outcomes; realized compatibility only",
+  "results": [
+    {
+      "max_missing": 0,
+      "worlds": 2,
+      "types": 2,
+      "target_values": [
+        {
+          "rational": "531/2048",
+          "float": 0.25927734375
+        },
+        {
+          "rational": "43/64",
+          "float": 0.671875
+        }
+      ],
+      "lower": {
+        "rational": "531/2048",
+        "float": 0.25927734375
+      },
+      "upper": {
+        "rational": "43/64",
+        "float": 0.671875
+      },
+      "diameter": {
+        "rational": "845/2048",
+        "float": 0.41259765625
+      },
+      "lower_witness": {
+        "a": {
+          "rational": "1/2",
+          "float": 0.5
+        },
+        "b": {
+          "rational": "1/2",
+          "float": 0.5
+        },
+        "rho": {
+          "rational": "1/2",
+          "float": 0.5
+        },
+        "na": 2,
+        "nb": 2,
+        "logged_A": [
+          1,
+          2
+        ],
+        "logged_B": [
+          1,
+          2
+        ],
+        "source_A": [
+          0,
+          1
+        ],
+        "source_B": [
+          0,
+          1
+        ],
+        "target": {
+          "rational": "531/2048",
+          "float": 0.25927734375
+        }
+      },
+      "upper_witness": {
+        "a": {
+          "rational": "1/2",
+          "float": 0.5
+        },
+        "b": {
+          "rational": "1/2",
+          "float": 0.5
+        },
+        "rho": {
+          "rational": "1",
+          "float": 1.0
+        },
+        "na": 2,
+        "nb": 2,
+        "logged_A": [
+          1,
+          2
+        ],
+        "logged_B": [
+          1,
+          2
+        ],
+        "source_A": [
+          0,
+          1
+        ],
+        "source_B": [
+          0,
+          1
+        ],
+        "target": {
+          "rational": "43/64",
+          "float": 0.671875
+        }
+      }
+    },
+    {
+      "max_missing": 1,
+      "worlds": 6,
+      "types": 2,
+      "target_values": [
+        {
+          "rational": "531/2048",
+          "float": 0.25927734375
+        },
+        {
+          "rational": "43/64",
+          "float": 0.671875
+        }
+      ],
+      "lower": {
+        "rational": "531/2048",
+        "float": 0.25927734375
+      },
+      "upper": {
+        "rational": "43/64",
+        "float": 0.671875
+      },
+      "diameter": {
+        "rational": "845/2048",
+        "float": 0.41259765625
+      },
+      "lower_witness": {
+        "a": {
+          "rational": "1/2",
+          "float": 0.5
+        },
+        "b": {
+          "rational": "1/2",
+          "float": 0.5
+        },
+        "rho": {
+          "rational": "1/2",
+          "float": 0.5
+        },
+        "na": 2,
+        "nb": 2,
+        "logged_A": [
+          1,
+          2
+        ],
+        "logged_B": [
+          1,
+          2
+        ],
+        "source_A": [
+          0,
+          1
+        ],
+        "source_B": [
+          0,
+          1
+        ],
+        "target": {
+          "rational": "531/2048",
+          "float": 0.25927734375
+        }
+      },
+      "upper_witness": {
+        "a": {
+          "rational": "1/2",
+          "float": 0.5
+        },
+        "b": {
+          "rational": "1/2",
+          "float": 0.5
+        },
+        "rho": {
+          "rational": "1",
+          "float": 1.0
+        },
+        "na": 2,
+        "nb": 2,
+        "logged_A": [
+          1,
+          2
+        ],
+        "logged_B": [
+          1,
+          2
+        ],
+        "source_A": [
+          0,
+          1
+        ],
+        "source_B": [
+          0,
+          1
+        ],
+        "target": {
+          "rational": "43/64",
+          "float": 0.671875
+        }
+      }
+    },
+    {
+      "max_missing": 2,
+      "worlds": 24,
+      "types": 6,
+      "target_values": [
+        {
+          "rational": "79841/393216",
+          "float": 0.2030461629231771
+        },
+        {
+          "rational": "531/2048",
+          "float": 0.25927734375
+        },
+        {
+          "rational": "6905/12288",
+          "float": 0.5619303385416666
+        },
+        {
+          "rational": "43/64",
+          "float": 0.671875
+        }
+      ],
+      "lower": {
+        "rational": "79841/393216",
+        "float": 0.2030461629231771
+      },
+      "upper": {
+        "rational": "43/64",
+        "float": 0.671875
+      },
+      "diameter": {
+        "rational": "184351/393216",
+        "float": 0.46882883707682294
+      },
+      "lower_witness": {
+        "a": {
+          "rational": "1/4",
+          "float": 0.25
+        },
+        "b": {
+          "rational": "1/2",
+          "float": 0.5
+        },
+        "rho": {
+          "rational": "1/2",
+          "float": 0.5
+        },
+        "na": 4,
+        "nb": 2,
+        "logged_A": [
+          1,
+          4
+        ],
+        "logged_B": [
+          1,
+          2
+        ],
+        "source_A": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "source_B": [
+          0,
+          1
+        ],
+        "target": {
+          "rational": "79841/393216",
+          "float": 0.2030461629231771
+        }
+      },
+      "upper_witness": {
+        "a": {
+          "rational": "1/2",
+          "float": 0.5
+        },
+        "b": {
+          "rational": "1/2",
+          "float": 0.5
+        },
+        "rho": {
+          "rational": "1",
+          "float": 1.0
+        },
+        "na": 2,
+        "nb": 2,
+        "logged_A": [
+          1,
+          2
+        ],
+        "logged_B": [
+          1,
+          2
+        ],
+        "source_A": [
+          0,
+          1
+        ],
+        "source_B": [
+          0,
+          1
+        ],
+        "target": {
+          "rational": "43/64",
+          "float": 0.671875
+        }
+      }
+    },
+    {
+      "max_missing": 3,
+      "worlds": 56,
+      "types": 6,
+      "target_values": [
+        {
+          "rational": "79841/393216",
+          "float": 0.2030461629231771
+        },
+        {
+          "rational": "531/2048",
+          "float": 0.25927734375
+        },
+        {
+          "rational": "6905/12288",
+          "float": 0.5619303385416666
+        },
+        {
+          "rational": "43/64",
+          "float": 0.671875
+        }
+      ],
+      "lower": {
+        "rational": "79841/393216",
+        "float": 0.2030461629231771
+      },
+      "upper": {
+        "rational": "43/64",
+        "float": 0.671875
+      },
+      "diameter": {
+        "rational": "184351/393216",
+        "float": 0.46882883707682294
+      },
+      "lower_witness": {
+        "a": {
+          "rational": "1/4",
+          "float": 0.25
+        },
+        "b": {
+          "rational": "1/2",
+          "float": 0.5
+        },
+        "rho": {
+          "rational": "1/2",
+          "float": 0.5
+        },
+        "na": 4,
+        "nb": 2,
+        "logged_A": [
+          1,
+          4
+        ],
+        "logged_B": [
+          1,
+          2
+        ],
+        "source_A": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "source_B": [
+          0,
+          1
+        ],
+        "target": {
+          "rational": "79841/393216",
+          "float": 0.2030461629231771
+        }
+      },
+      "upper_witness": {
+        "a": {
+          "rational": "1/2",
+          "float": 0.5
+        },
+        "b": {
+          "rational": "1/2",
+          "float": 0.5
+        },
+        "rho": {
+          "rational": "1",
+          "float": 1.0
+        },
+        "na": 2,
+        "nb": 2,
+        "logged_A": [
+          1,
+          2
+        ],
+        "logged_B": [
+          1,
+          2
+        ],
+        "source_A": [
+          0,
+          1
+        ],
+        "source_B": [
+          0,
+          1
+        ],
+        "target": {
+          "rational": "43/64",
+          "float": 0.671875
+        }
+      }
+    },
+    {
+      "max_missing": 4,
+      "worlds": 120,
+      "types": 8,
+      "target_values": [
+        {
+          "rational": "28865/196608",
+          "float": 0.14681498209635416
+        },
+        {
+          "rational": "79841/393216",
+          "float": 0.2030461629231771
+        },
+        {
+          "rational": "531/2048",
+          "float": 0.25927734375
+        },
+        {
+          "rational": "2777/6144",
+          "float": 0.4519856770833333
+        },
+        {
+          "rational": "6905/12288",
+          "float": 0.5619303385416666
+        },
+        {
+          "rational": "43/64",
+          "float": 0.671875
+        }
+      ],
+      "lower": {
+        "rational": "28865/196608",
+        "float": 0.14681498209635416
+      },
+      "upper": {
+        "rational": "43/64",
+        "float": 0.671875
+      },
+      "diameter": {
+        "rational": "103231/196608",
+        "float": 0.5250600179036459
+      },
+      "lower_witness": {
+        "a": {
+          "rational": "1/4",
+          "float": 0.25
+        },
+        "b": {
+          "rational": "1/4",
+          "float": 0.25
+        },
+        "rho": {
+          "rational": "1/2",
+          "float": 0.5
+        },
+        "na": 4,
+        "nb": 4,
+        "logged_A": [
+          1,
+          4
+        ],
+        "logged_B": [
+          1,
+          4
+        ],
+        "source_A": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "source_B": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "target": {
+          "rational": "28865/196608",
+          "float": 0.14681498209635416
+        }
+      },
+      "upper_witness": {
+        "a": {
+          "rational": "1/2",
+          "float": 0.5
+        },
+        "b": {
+          "rational": "1/2",
+          "float": 0.5
+        },
+        "rho": {
+          "rational": "1",
+          "float": 1.0
+        },
+        "na": 2,
+        "nb": 2,
+        "logged_A": [
+          1,
+          2
+        ],
+        "logged_B": [
+          1,
+          2
+        ],
+        "source_A": [
+          0,
+          1
+        ],
+        "source_B": [
+          0,
+          1
+        ],
+        "target": {
+          "rational": "43/64",
+          "float": 0.671875
+        }
+      }
+    }
+  ],
+  "known_rho1_controls": [
+    {
+      "a": {
+        "rational": "1/4",
+        "float": 0.25
+      },
+      "b": {
+        "rational": "1/4",
+        "float": 0.25
+      },
+      "actual": {
+        "rational": "2777/6144",
+        "float": 0.4519856770833333
+      },
+      "closed_form": {
+        "rational": "2777/6144",
+        "float": 0.4519856770833333
+      }
+    },
+    {
+      "a": {
+        "rational": "1/4",
+        "float": 0.25
+      },
+      "b": {
+        "rational": "1/2",
+        "float": 0.5
+      },
+      "actual": {
+        "rational": "6905/12288",
+        "float": 0.5619303385416666
+      },
+      "closed_form": {
+        "rational": "6905/12288",
+        "float": 0.5619303385416666
+      }
+    },
+    {
+      "a": {
+        "rational": "1/2",
+        "float": 0.5
+      },
+      "b": {
+        "rational": "1/4",
+        "float": 0.25
+      },
+      "actual": {
+        "rational": "6905/12288",
+        "float": 0.5619303385416666
+      },
+      "closed_form": {
+        "rational": "6905/12288",
+        "float": 0.5619303385416666
+      }
+    },
+    {
+      "a": {
+        "rational": "1/2",
+        "float": 0.5
+      },
+      "b": {
+        "rational": "1/2",
+        "float": 0.5
+      },
+      "actual": {
+        "rational": "43/64",
+        "float": 0.671875
+      },
+      "closed_form": {
+        "rational": "43/64",
+        "float": 0.671875
+      }
+    }
+  ],
+  "resources": {
+    "peak_rss_native": 13107200,
+    "platform": "darwin",
+    "one_process": true,
+    "numerical_threads": 1
+  },
+  "scope": "Exact finite class, no empirical or population uncertainty; not a likelihood analysis."
+}

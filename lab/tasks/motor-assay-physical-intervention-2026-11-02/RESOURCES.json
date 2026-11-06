@@ -1,0 +1,50 @@
+{
+  "task": "motor-assay-physical-intervention-2026-11-02",
+  "scientist_thread_id": "01a19ecc-6e78-7891-9c44-94eef6851b9b",
+  "canonical_pi_verified_by_bounded_registry_head": "01a19e9f-9955-70d0-9e45-4cfcdca12c11",
+  "ownership": "This task path only; shared records untouched",
+  "start_utc": "2026-11-03T00:26:00.000Z",
+  "deadlines_utc": {
+    "reference": "2026-11-03T00:41:00Z",
+    "contribution": "2026-11-03T00:51:00Z",
+    "freeze_or_close": "2026-11-03T01:01:00Z",
+    "hard": "2026-11-03T01:41:00Z"
+  },
+  "clock_policy": "Orientation included; no reset or extension",
+  "reference_native_exit": 0,
+  "reference_completed_utc": "2026-11-03T00:32:41.716752+00:00",
+  "contrary_native_exit": 0,
+  "contrary_completed_utc": "2026-11-03T00:33:56.540664+00:00",
+  "closure_saved_before_actual_clock_readback_utc": "2026-11-03T00:36:52Z",
+  "main_test": "UNRUN: closed at source/practical gate",
+  "substantive_pre_main_revisions": 0,
+  "editorial_correction": "Replaced provisional closure minute with actual clock readback upper bound; no changed science",
+  "public_operations": {"used": 6, "cap": 12, "details": "SOURCES.md", "provider_internal_requests": "UNKNOWN"},
+  "intentional_primary_method_programs": ["Brudner endpoint delay", "Honda delay habituation / perturbation-probe"],
+  "primary_method_program_cap": 2,
+  "primary_paper_exposure": "Brudner2016 and HondaFrontiers2012 primary text; HondaPLOS2012 companion summary; incidental search-result summaries not followed",
+  "new_ingress": {"charged_allowance_bytes": 10000000, "cap_bytes": 10000000, "actual_provider_traffic_bytes": null, "compliance": "UNCERTIFIED: hidden provider retrieval/redirect traffic unavailable"},
+  "separate_additional_read_hash_decode": {
+    "charged_full_allowance_bytes": 300000000,
+    "cap_bytes": 300000000,
+    "includes": "All orientation, repeated/truncated context reads, source/tool excerpts, code, imports, local input reads, output/audit hashing and failed-pass allowances",
+    "physical_io_bytes": null,
+    "actual_runtime_import_and_toolhost_reads": "UNKNOWN; charge is conservative allowance, not measured physical I/O"
+  },
+  "scientific_processes": {"maximum_concurrent": 1, "numerical_threads": 1, "standard_library_only": true, "seeds": "None; exact rational arithmetic"},
+  "rss": {"cap_bytes": 500000000, "reference_peak_bytes": 13565952, "contrary_peak_bytes": 13467648, "final_audit_peak": "Recorded in FINAL_AUDIT.json", "units": "macOS ru_maxrss bytes", "provider_toolhost_context_peak_bytes": null},
+  "failures": [
+    {"operation": "Open PMC3581262", "outcome": "recaptcha page; primary text unavailable by that route; no bypass"},
+    {"operation": "Reopen PMC4808111 near methods", "outcome": "recaptcha page; first search/open supplied primary text; no bypass"},
+    {"operation": "Combined initial Brudner open and Honda search output", "outcome": "Direct tool output truncated; do not claim a saved full Brudner article or complete digest"},
+    {"operation": "Initial combined AGENTS/LEARNINGS/tool-schema output", "outcome": "Truncated; LEARNINGS subsequently read fully in bounded numeric excerpts"},
+    {"operation": "rg pi/thread_id in large registry", "outcome": "PreToolUse read-size denial before execution; safe bounded head then verified current PI; no scope expansion"}
+  ],
+  "failed_local_scientific_commands": 0,
+  "empirical_exposure": {"new_raw_acquired": 0, "old_raw_decoded_or_hashed": 0, "old_fits_accessed": 0, "protected_targets_accessed": 0, "new_humans": 0, "published_text_aggregate_interpretations": "Exposed as described in SOURCES.md"},
+  "prior_pair_resources": "Additive and unchanged: author31ops/25MB ingress UNCERTIFIED/50MB read/14155776RSS; review10ops/5MB ingress UNCERTIFIED/50MB read/15319040maxRSS; all prior failures/exposure survive",
+  "independent_review": "NOT PERFORMED; standard reference closure only, no substantive claim accepted",
+  "jobs": 0,
+  "active_process_or_session_ids": [],
+  "native_goal_or_heartbeat_mutations": 0
+}

@@ -1,0 +1,59 @@
+{
+  "subject": "NYU-06",
+  "lab": "angelakilab",
+  "indexed_sessions": 3,
+  "table_sessions": 3,
+  "first_indexed_date": "2019-06-11",
+  "last_indexed_date": "2019-08-07",
+  "split": "animal_holdout",
+  "hash_mod_5": 0,
+  "rows_read": 2978,
+  "total_indexed_rows": 2978,
+  "provenance": [
+    {
+      "path": "data/sealed/animal_holdout/NYU-06/2019-06-11_001_7ddc9265-48e8-4be5-bd95-f6c021b099d7_table.pqt",
+      "dataset_id": "a8a67161-889b-496f-b05c-57907613c814",
+      "session_uuid": "7ddc9265-48e8-4be5-bd95-f6c021b099d7",
+      "date": "2019-06-11",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld4.1.3",
+      "md5": "b65fad1d88a32fa871bd76c718978685",
+      "sha256": "4db3b16dd070cb081ba532d21d45d945d930d376aa72b4816d5e2354bd424520",
+      "bytes": 69956,
+      "cache_md5": "b65fad1d88a32fa871bd76c718978685",
+      "bounded_rows": 903,
+      "footer_rows": 903,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/NYU-06/2019-06-11_001_7ddc9265-48e8-4be5-bd95-f6c021b099d7_table.pqt') LIMIT 903"
+    },
+    {
+      "path": "data/sealed/animal_holdout/NYU-06/2019-06-12_001_b2e5187e-c8c0-4eee-a725-e062263c42e5_table.pqt",
+      "dataset_id": "eb7a5a06-8a36-4b77-b110-39320cfd0951",
+      "session_uuid": "b2e5187e-c8c0-4eee-a725-e062263c42e5",
+      "date": "2019-06-12",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld4.1.3",
+      "md5": "de38b05902b0014638afffa09bd5e97f",
+      "sha256": "1b75979b115881743272c3658787ce0887d30a338ba24efed1fb7b9ba7dd5bdb",
+      "bytes": 108275,
+      "cache_md5": "de38b05902b0014638afffa09bd5e97f",
+      "bounded_rows": 1462,
+      "footer_rows": 1462,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/NYU-06/2019-06-12_001_b2e5187e-c8c0-4eee-a725-e062263c42e5_table.pqt') LIMIT 1462"
+    },
+    {
+      "path": "data/sealed/animal_holdout/NYU-06/2019-08-07_001_23937e8b-2169-450a-824e-d95d5af4971c_table.pqt",
+      "dataset_id": "c9fb7012-401a-497e-83fa-ca9700ac7a67",
+      "session_uuid": "23937e8b-2169-450a-824e-d95d5af4971c",
+      "date": "2019-08-07",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld5.2.7",
+      "md5": "58c72455dd10e7f35808d99618d0d36c",
+      "sha256": "5f49d29bb191ea777f85bd601e4f3a26435eccf02cb26b46dbf35b5dc30b4b45",
+      "bytes": 48273,
+      "cache_md5": "58c72455dd10e7f35808d99618d0d36c",
+      "bounded_rows": 613,
+      "footer_rows": 613,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/NYU-06/2019-08-07_001_23937e8b-2169-450a-824e-d95d5af4971c_table.pqt') LIMIT 613"
+    }
+  ]
+}

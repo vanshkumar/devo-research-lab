@@ -1,0 +1,5 @@
+# Failures retained
+
+- Before START science, an ordinary combined `rg` that included the whole registry was rejected by the context-size guard. Subsequent bounded numeric `sed`/`tail` reads succeeded. No scientific payload or write occurred in that rejection.
+- First native `first_calculation.py` command exited 1 with `SyntaxError: '(' was never closed` at line 125. No imports, parameter reads or science executed. Corrected the missing closing parenthesis in `branches.append`. The failed command's peak RSS and interpreter physical I/O were not measured; preserve them as unknown and include a conservative runtime allowance in RESOURCES.json. This is a syntax repair before any main experiment, not a change of scientific protocol.
+- A final record-only Python heredoc was rejected before execution by the existing worker hook (`Worker shell composition and inline code are blocked`). No file change or scientific payload read occurred. The same record-only work was saved as owned `closeout.py` and run as a normal scoped script, without changing permissions or the scientific decision.

@@ -1,0 +1,877 @@
+{
+  "purpose": "Composite full-absence null: exactly one quantity at its material boundary and the other three permissive for absence",
+  "cases": [
+    {
+      "name": "one_active_A200",
+      "true_mean_range": [
+        [
+          0.02,
+          -0.01,
+          0.0,
+          -0.01
+        ],
+        [
+          0.02,
+          -0.01,
+          0.0,
+          -0.01
+        ]
+      ],
+      "sample_mean": [
+        0.02000062499998638,
+        -0.009999500000015737,
+        1.5625000000000015e-07,
+        -0.009999874999997794
+      ],
+      "nominal_any_band_noncoverage": {
+        "events": 103,
+        "cohorts": 2000,
+        "rate": 0.0515,
+        "clopper_pearson_95": [
+          0.042227512111792424,
+          0.062113386044627183
+        ],
+        "one_sided95_upper": 0.06038108465981983
+      },
+      "any_false_endpoint_absence": {
+        "events": 35,
+        "cohorts": 2000,
+        "rate": 0.0175,
+        "clopper_pearson_95": [
+          0.012218892300887312,
+          0.02425488947719145
+        ],
+        "one_sided95_upper": 0.023135769382354676
+      },
+      "any_false_endpoint_positive": {
+        "events": 44,
+        "cohorts": 2000,
+        "rate": 0.022,
+        "clopper_pearson_95": [
+          0.016029647169849056,
+          0.029422409482737995
+        ],
+        "one_sided95_upper": 0.028197128834057877
+      },
+      "all_four_absent": {
+        "events": 35,
+        "cohorts": 2000,
+        "rate": 0.0175,
+        "clopper_pearson_95": [
+          0.012218892300887312,
+          0.02425488947719145
+        ],
+        "one_sided95_upper": 0.023135769382354676
+      },
+      "false_all_four_absence": {
+        "events": 35,
+        "cohorts": 2000,
+        "rate": 0.0175,
+        "clopper_pearson_95": [
+          0.012218892300887312,
+          0.02425488947719145
+        ],
+        "one_sided95_upper": 0.023135769382354676
+      },
+      "per_column_absence": [
+        {
+          "events": 35,
+          "cohorts": 2000,
+          "rate": 0.0175,
+          "clopper_pearson_95": [
+            0.012218892300887312,
+            0.02425488947719145
+          ],
+          "one_sided95_upper": 0.023135769382354676
+        },
+        {
+          "events": 2000,
+          "cohorts": 2000,
+          "rate": 1.0,
+          "clopper_pearson_95": [
+            0.998157260206594,
+            1.0
+          ],
+          "one_sided95_upper": 1.0
+        },
+        {
+          "events": 2000,
+          "cohorts": 2000,
+          "rate": 1.0,
+          "clopper_pearson_95": [
+            0.998157260206594,
+            1.0
+          ],
+          "one_sided95_upper": 1.0
+        },
+        {
+          "events": 2000,
+          "cohorts": 2000,
+          "rate": 1.0,
+          "clopper_pearson_95": [
+            0.998157260206594,
+            1.0
+          ],
+          "one_sided95_upper": 1.0
+        }
+      ],
+      "per_column_positive": [
+        {
+          "events": 44,
+          "cohorts": 2000,
+          "rate": 0.022,
+          "clopper_pearson_95": [
+            0.016029647169849056,
+            0.029422409482737995
+          ],
+          "one_sided95_upper": 0.028197128834057877
+        },
+        {
+          "events": 0,
+          "cohorts": 2000,
+          "rate": 0.0,
+          "clopper_pearson_95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "one_sided95_upper": 0.0014967448951882837
+        },
+        {
+          "events": 0,
+          "cohorts": 2000,
+          "rate": 0.0,
+          "clopper_pearson_95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "one_sided95_upper": 0.0014967448951882837
+        },
+        {
+          "events": 0,
+          "cohorts": 2000,
+          "rate": 0.0,
+          "clopper_pearson_95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "one_sided95_upper": 0.0014967448951882837
+        }
+      ],
+      "bonferroni_any_noncoverage": {
+        "events": 17,
+        "cohorts": 2000,
+        "rate": 0.0085,
+        "clopper_pearson_95": [
+          0.004959135021781256,
+          0.013574546199731806
+        ],
+        "one_sided95_upper": 0.01272250976343753
+      },
+      "bonferroni_false_all_four_absence": {
+        "events": 8,
+        "cohorts": 2000,
+        "rate": 0.004,
+        "clopper_pearson_95": [
+          0.0017284495734761452,
+          0.007866303828537383
+        ],
+        "one_sided95_upper": 0.007205716652398641
+      },
+      "mean_maxT_critical": 1.9768324635002557,
+      "active_boundary": "A200",
+      "exact_truth": [
+        0.02,
+        -0.01,
+        0.0,
+        -0.01
+      ],
+      "other_endpoint_true_absence_headroom": [
+        0.0,
+        0.01,
+        0.02,
+        0.01
+      ],
+      "within_animal_correlation": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "one_active_D200",
+      "true_mean_range": [
+        [
+          0.006,
+          0.0,
+          0.0,
+          -0.01
+        ],
+        [
+          0.006,
+          0.0,
+          0.0,
+          -0.01
+        ]
+      ],
+      "sample_mean": [
+        0.0059983750000096835,
+        -1.3000000000000009e-06,
+        -8.125000000000007e-07,
+        -0.01000064999999783
+      ],
+      "nominal_any_band_noncoverage": {
+        "events": 131,
+        "cohorts": 2000,
+        "rate": 0.0655,
+        "clopper_pearson_95": [
+          0.05505053790353319,
+          0.07724405539806718
+        ],
+        "one_sided95_upper": 0.07533246165778087
+      },
+      "any_false_endpoint_absence": {
+        "events": 54,
+        "cohorts": 2000,
+        "rate": 0.027,
+        "clopper_pearson_95": [
+          0.02034685784883318,
+          0.0350836405814257
+        ],
+        "one_sided95_upper": 0.0337532120001753
+      },
+      "any_false_endpoint_positive": {
+        "events": 44,
+        "cohorts": 2000,
+        "rate": 0.022,
+        "clopper_pearson_95": [
+          0.016029647169849056,
+          0.029422409482737995
+        ],
+        "one_sided95_upper": 0.028197128834057877
+      },
+      "all_four_absent": {
+        "events": 54,
+        "cohorts": 2000,
+        "rate": 0.027,
+        "clopper_pearson_95": [
+          0.02034685784883318,
+          0.0350836405814257
+        ],
+        "one_sided95_upper": 0.0337532120001753
+      },
+      "false_all_four_absence": {
+        "events": 54,
+        "cohorts": 2000,
+        "rate": 0.027,
+        "clopper_pearson_95": [
+          0.02034685784883318,
+          0.0350836405814257
+        ],
+        "one_sided95_upper": 0.0337532120001753
+      },
+      "per_column_absence": [
+        {
+          "events": 2000,
+          "cohorts": 2000,
+          "rate": 1.0,
+          "clopper_pearson_95": [
+            0.998157260206594,
+            1.0
+          ],
+          "one_sided95_upper": 1.0
+        },
+        {
+          "events": 54,
+          "cohorts": 2000,
+          "rate": 0.027,
+          "clopper_pearson_95": [
+            0.02034685784883318,
+            0.0350836405814257
+          ],
+          "one_sided95_upper": 0.0337532120001753
+        },
+        {
+          "events": 2000,
+          "cohorts": 2000,
+          "rate": 1.0,
+          "clopper_pearson_95": [
+            0.998157260206594,
+            1.0
+          ],
+          "one_sided95_upper": 1.0
+        },
+        {
+          "events": 2000,
+          "cohorts": 2000,
+          "rate": 1.0,
+          "clopper_pearson_95": [
+            0.998157260206594,
+            1.0
+          ],
+          "one_sided95_upper": 1.0
+        }
+      ],
+      "per_column_positive": [
+        {
+          "events": 0,
+          "cohorts": 2000,
+          "rate": 0.0,
+          "clopper_pearson_95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "one_sided95_upper": 0.0014967448951882837
+        },
+        {
+          "events": 44,
+          "cohorts": 2000,
+          "rate": 0.022,
+          "clopper_pearson_95": [
+            0.016029647169849056,
+            0.029422409482737995
+          ],
+          "one_sided95_upper": 0.028197128834057877
+        },
+        {
+          "events": 0,
+          "cohorts": 2000,
+          "rate": 0.0,
+          "clopper_pearson_95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "one_sided95_upper": 0.0014967448951882837
+        },
+        {
+          "events": 0,
+          "cohorts": 2000,
+          "rate": 0.0,
+          "clopper_pearson_95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "one_sided95_upper": 0.0014967448951882837
+        }
+      ],
+      "bonferroni_any_noncoverage": {
+        "events": 15,
+        "cohorts": 2000,
+        "rate": 0.0075,
+        "clopper_pearson_95": [
+          0.004203591756889188,
+          0.01233998373578594
+        ],
+        "one_sided95_upper": 0.011525178568058531
+      },
+      "bonferroni_false_all_four_absence": {
+        "events": 8,
+        "cohorts": 2000,
+        "rate": 0.004,
+        "clopper_pearson_95": [
+          0.0017284495734761452,
+          0.007866303828537383
+        ],
+        "one_sided95_upper": 0.007205716652398641
+      },
+      "mean_maxT_critical": 1.9764443323328404,
+      "active_boundary": "D200",
+      "exact_truth": [
+        0.006,
+        0.0,
+        0.0,
+        -0.01
+      ],
+      "other_endpoint_true_absence_headroom": [
+        0.014,
+        0.0,
+        0.02,
+        0.01
+      ],
+      "within_animal_correlation": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          0.9999999999999999
+        ]
+      ]
+    },
+    {
+      "name": "one_active_A1000",
+      "true_mean_range": [
+        [
+          0.0,
+          -0.01,
+          0.02,
+          -0.01
+        ],
+        [
+          0.0,
+          -0.01,
+          0.02,
+          -0.01
+        ]
+      ],
+      "sample_mean": [
+        -2.0937500000000018e-06,
+        -0.010001674999997882,
+        0.019991624999986638,
+        -0.010006700000015795
+      ],
+      "nominal_any_band_noncoverage": {
+        "events": 112,
+        "cohorts": 2000,
+        "rate": 0.056,
+        "clopper_pearson_95": [
+          0.04633060857321739,
+          0.0669951871365162
+        ],
+        "one_sided95_upper": 0.06520231566169779
+      },
+      "any_false_endpoint_absence": {
+        "events": 42,
+        "cohorts": 2000,
+        "rate": 0.021,
+        "clopper_pearson_95": [
+          0.015175849561206559,
+          0.028280800750618208
+        ],
+        "one_sided95_upper": 0.027078040863635834
+      },
+      "any_false_endpoint_positive": {
+        "events": 46,
+        "cohorts": 2000,
+        "rate": 0.023,
+        "clopper_pearson_95": [
+          0.016886932427212203,
+          0.030560637865280068
+        ],
+        "one_sided95_upper": 0.02931337462267476
+      },
+      "all_four_absent": {
+        "events": 42,
+        "cohorts": 2000,
+        "rate": 0.021,
+        "clopper_pearson_95": [
+          0.015175849561206559,
+          0.028280800750618208
+        ],
+        "one_sided95_upper": 0.027078040863635834
+      },
+      "false_all_four_absence": {
+        "events": 42,
+        "cohorts": 2000,
+        "rate": 0.021,
+        "clopper_pearson_95": [
+          0.015175849561206559,
+          0.028280800750618208
+        ],
+        "one_sided95_upper": 0.027078040863635834
+      },
+      "per_column_absence": [
+        {
+          "events": 2000,
+          "cohorts": 2000,
+          "rate": 1.0,
+          "clopper_pearson_95": [
+            0.998157260206594,
+            1.0
+          ],
+          "one_sided95_upper": 1.0
+        },
+        {
+          "events": 2000,
+          "cohorts": 2000,
+          "rate": 1.0,
+          "clopper_pearson_95": [
+            0.998157260206594,
+            1.0
+          ],
+          "one_sided95_upper": 1.0
+        },
+        {
+          "events": 42,
+          "cohorts": 2000,
+          "rate": 0.021,
+          "clopper_pearson_95": [
+            0.015175849561206559,
+            0.028280800750618208
+          ],
+          "one_sided95_upper": 0.027078040863635834
+        },
+        {
+          "events": 2000,
+          "cohorts": 2000,
+          "rate": 1.0,
+          "clopper_pearson_95": [
+            0.998157260206594,
+            1.0
+          ],
+          "one_sided95_upper": 1.0
+        }
+      ],
+      "per_column_positive": [
+        {
+          "events": 0,
+          "cohorts": 2000,
+          "rate": 0.0,
+          "clopper_pearson_95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "one_sided95_upper": 0.0014967448951882837
+        },
+        {
+          "events": 0,
+          "cohorts": 2000,
+          "rate": 0.0,
+          "clopper_pearson_95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "one_sided95_upper": 0.0014967448951882837
+        },
+        {
+          "events": 46,
+          "cohorts": 2000,
+          "rate": 0.023,
+          "clopper_pearson_95": [
+            0.016886932427212203,
+            0.030560637865280068
+          ],
+          "one_sided95_upper": 0.02931337462267476
+        },
+        {
+          "events": 0,
+          "cohorts": 2000,
+          "rate": 0.0,
+          "clopper_pearson_95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "one_sided95_upper": 0.0014967448951882837
+        }
+      ],
+      "bonferroni_any_noncoverage": {
+        "events": 9,
+        "cohorts": 2000,
+        "rate": 0.0045,
+        "clopper_pearson_95": [
+          0.0020596885284903574,
+          0.00852514124099515
+        ],
+        "one_sided95_upper": 0.007839446211579703
+      },
+      "bonferroni_false_all_four_absence": {
+        "events": 4,
+        "cohorts": 2000,
+        "rate": 0.002,
+        "clopper_pearson_95": [
+          0.0005451931252109994,
+          0.005112808605346209
+        ],
+        "one_sided95_upper": 0.004570865405067662
+      },
+      "mean_maxT_critical": 1.976322225901958,
+      "active_boundary": "A1000",
+      "exact_truth": [
+        0.0,
+        -0.01,
+        0.02,
+        -0.01
+      ],
+      "other_endpoint_true_absence_headroom": [
+        0.02,
+        0.01,
+        0.0,
+        0.01
+      ],
+      "within_animal_correlation": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          0.9999999999999994
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.9999999999999994,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "name": "one_active_D1000",
+      "true_mean_range": [
+        [
+          0.0,
+          -0.01,
+          0.006,
+          0.0
+        ],
+        [
+          0.0,
+          -0.01,
+          0.006,
+          0.0
+        ]
+      ],
+      "sample_mean": [
+        2.203125000000002e-06,
+        -0.009998237499997767,
+        0.006004406250009681,
+        3.5249999999999874e-06
+      ],
+      "nominal_any_band_noncoverage": {
+        "events": 140,
+        "cohorts": 2000,
+        "rate": 0.07,
+        "clopper_pearson_95": [
+          0.05920476602270823,
+          0.08207529807675225
+        ],
+        "one_sided95_upper": 0.0801112274776233
+      },
+      "any_false_endpoint_absence": {
+        "events": 45,
+        "cohorts": 2000,
+        "rate": 0.0225,
+        "clopper_pearson_95": [
+          0.016457868212595234,
+          0.029991932577308516
+        ],
+        "one_sided95_upper": 0.02875559552029033
+      },
+      "any_false_endpoint_positive": {
+        "events": 56,
+        "cohorts": 2000,
+        "rate": 0.028,
+        "clopper_pearson_95": [
+          0.02121868081908879,
+          0.036207729105889284
+        ],
+        "one_sided95_upper": 0.03485757114850106
+      },
+      "all_four_absent": {
+        "events": 45,
+        "cohorts": 2000,
+        "rate": 0.0225,
+        "clopper_pearson_95": [
+          0.016457868212595234,
+          0.029991932577308516
+        ],
+        "one_sided95_upper": 0.02875559552029033
+      },
+      "false_all_four_absence": {
+        "events": 45,
+        "cohorts": 2000,
+        "rate": 0.0225,
+        "clopper_pearson_95": [
+          0.016457868212595234,
+          0.029991932577308516
+        ],
+        "one_sided95_upper": 0.02875559552029033
+      },
+      "per_column_absence": [
+        {
+          "events": 2000,
+          "cohorts": 2000,
+          "rate": 1.0,
+          "clopper_pearson_95": [
+            0.998157260206594,
+            1.0
+          ],
+          "one_sided95_upper": 1.0
+        },
+        {
+          "events": 2000,
+          "cohorts": 2000,
+          "rate": 1.0,
+          "clopper_pearson_95": [
+            0.998157260206594,
+            1.0
+          ],
+          "one_sided95_upper": 1.0
+        },
+        {
+          "events": 2000,
+          "cohorts": 2000,
+          "rate": 1.0,
+          "clopper_pearson_95": [
+            0.998157260206594,
+            1.0
+          ],
+          "one_sided95_upper": 1.0
+        },
+        {
+          "events": 45,
+          "cohorts": 2000,
+          "rate": 0.0225,
+          "clopper_pearson_95": [
+            0.016457868212595234,
+            0.029991932577308516
+          ],
+          "one_sided95_upper": 0.02875559552029033
+        }
+      ],
+      "per_column_positive": [
+        {
+          "events": 0,
+          "cohorts": 2000,
+          "rate": 0.0,
+          "clopper_pearson_95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "one_sided95_upper": 0.0014967448951882837
+        },
+        {
+          "events": 0,
+          "cohorts": 2000,
+          "rate": 0.0,
+          "clopper_pearson_95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "one_sided95_upper": 0.0014967448951882837
+        },
+        {
+          "events": 0,
+          "cohorts": 2000,
+          "rate": 0.0,
+          "clopper_pearson_95": [
+            0.0,
+            0.0018427397934059364
+          ],
+          "one_sided95_upper": 0.0014967448951882837
+        },
+        {
+          "events": 56,
+          "cohorts": 2000,
+          "rate": 0.028,
+          "clopper_pearson_95": [
+            0.02121868081908879,
+            0.036207729105889284
+          ],
+          "one_sided95_upper": 0.03485757114850106
+        }
+      ],
+      "bonferroni_any_noncoverage": {
+        "events": 23,
+        "cohorts": 2000,
+        "rate": 0.0115,
+        "clopper_pearson_95": [
+          0.0073035940421758835,
+          0.01720594810634058
+        ],
+        "one_sided95_upper": 0.016253606871647706
+      },
+      "bonferroni_false_all_four_absence": {
+        "events": 10,
+        "cohorts": 2000,
+        "rate": 0.005,
+        "clopper_pearson_95": [
+          0.002400219755665772,
+          0.009175895070019778
+        ],
+        "one_sided95_upper": 0.00846634820551852
+      },
+      "mean_maxT_critical": 1.9754934087605824,
+      "active_boundary": "D1000",
+      "exact_truth": [
+        0.0,
+        -0.01,
+        0.006,
+        0.0
+      ],
+      "other_endpoint_true_absence_headroom": [
+        0.02,
+        0.01,
+        0.014,
+        0.0
+      ],
+      "within_animal_correlation": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          0.9999999999999998
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.9999999999999998,
+          1.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "cohorts_per_case": 2000,
+  "bootstrap_replicates": 20000,
+  "law": "Observed K600/N1000 at both origins; finite integer point forecasts; a shared Rademacher animal innovation correlates all four contrasts. No biological learning or empirical outcome data.",
+  "interpretation": "Conditional known-law decision check. Zero/all-four-at-boundary error in other controls does not calibrate this composite null. Rates are not empirical-study failure probabilities."
+}

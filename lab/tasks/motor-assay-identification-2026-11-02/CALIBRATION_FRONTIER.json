@@ -1,0 +1,186 @@
+{
+  "created_utc": "2026-11-02T23:59:46.489222+00:00",
+  "kind": "exact closure test, not empirical recovery or calibrated simulation power",
+  "synthetic_reference": {
+    "precursor_heading_deg": 1.5,
+    "gain": 0.2,
+    "probe_retention": 0.97,
+    "five_probe_average_multiplier": 0.941773162
+  },
+  "exact_max_residual_deg": 0.0,
+  "signed_witnesses": [
+    {
+      "direction": -1,
+      "observable_five_probe_curve_deg": [
+        -0.21236536362457947,
+        -0.2059944027158421,
+        -0.19981457063436683,
+        -0.19382013351533584,
+        -0.18800552950987576
+      ],
+      "observable_theta_deg": -0.2,
+      "null_transition_contribution_deg": 0.0,
+      "changed_transition_contribution_deg": -0.2,
+      "report_as_true_estimate_deg": -0.1,
+      "minimum_symmetric_cell_bias_for_this_affine_pair_deg": 0.26545670453072434,
+      "cells": [
+        {
+          "J": 0,
+          "null_intrinsic_a": 0.85,
+          "changed_intrinsic_a": 0.9207884545415265,
+          "fitted_observable_alpha": 0.7,
+          "fitted_cursor_gain": 0.2,
+          "fitted_report_cursor_scale": 1.0,
+          "fitted_report_state_loading": -0.9269711363538162,
+          "report_as_true_intrinsic_a": 0.8853942272707632,
+          "max_abs_report_bias_deg": 0.26545670453072434,
+          "max_abs_report_bias_fraction": "125000000/470886581"
+        },
+        {
+          "J": 1,
+          "null_intrinsic_a": 0.85,
+          "changed_intrinsic_a": 0.7792115454584735,
+          "fitted_observable_alpha": 0.558423090916947,
+          "fitted_cursor_gain": 0.2,
+          "fitted_report_cursor_scale": 1.0,
+          "fitted_report_state_loading": -1.2809134090614487,
+          "report_as_true_intrinsic_a": 0.8146057727292367,
+          "max_abs_report_bias_deg": 0.26545670453072434,
+          "max_abs_report_bias_fraction": "125000000/470886581"
+        }
+      ]
+    },
+    {
+      "direction": 1,
+      "observable_five_probe_curve_deg": [
+        0.21236536362457947,
+        0.2059944027158421,
+        0.19981457063436683,
+        0.19382013351533584,
+        0.18800552950987576
+      ],
+      "observable_theta_deg": 0.2,
+      "null_transition_contribution_deg": 0.0,
+      "changed_transition_contribution_deg": 0.2,
+      "report_as_true_estimate_deg": 0.1,
+      "minimum_symmetric_cell_bias_for_this_affine_pair_deg": 0.26545670453072434,
+      "cells": [
+        {
+          "J": 0,
+          "null_intrinsic_a": 0.85,
+          "changed_intrinsic_a": 0.7792115454584735,
+          "fitted_observable_alpha": 0.7,
+          "fitted_cursor_gain": 0.2,
+          "fitted_report_cursor_scale": 1.0,
+          "fitted_report_state_loading": -0.5730288636461838,
+          "report_as_true_intrinsic_a": 0.8146057727292367,
+          "max_abs_report_bias_deg": 0.26545670453072434,
+          "max_abs_report_bias_fraction": "125000000/470886581"
+        },
+        {
+          "J": 1,
+          "null_intrinsic_a": 0.85,
+          "changed_intrinsic_a": 0.9207884545415265,
+          "fitted_observable_alpha": 0.8415769090830529,
+          "fitted_cursor_gain": 0.2,
+          "fitted_report_cursor_scale": 1.0,
+          "fitted_report_state_loading": -0.2190865909385513,
+          "report_as_true_intrinsic_a": 0.8853942272707632,
+          "max_abs_report_bias_deg": 0.26545670453072434,
+          "max_abs_report_bias_fraction": "125000000/470886581"
+        }
+      ]
+    }
+  ],
+  "continuous_2afc_quantized_branch_heterogeneous_noise_check": {
+    "coupled_episodes": 288,
+    "max_float_discrepancy": 5.551115123125783e-16,
+    "shared_quantizer_mismatches": 0,
+    "shared_2afc_response_mismatches": 0,
+    "seed": 483291,
+    "noise_note": "supplied correlated channel/process/report noise and report-branch effect; not empirical variances; equality of laws follows analytically"
+  },
+  "systematic_error_frontier": [
+    {
+      "cell_bias_bound_deg": 0.0,
+      "theta_systematic_half_width_deg": 0.0,
+      "two_target_uncertainty_overlap_at_point2": false
+    },
+    {
+      "cell_bias_bound_deg": 0.1,
+      "theta_systematic_half_width_deg": 0.03767092648,
+      "two_target_uncertainty_overlap_at_point2": false
+    },
+    {
+      "cell_bias_bound_deg": 0.2,
+      "theta_systematic_half_width_deg": 0.07534185296,
+      "two_target_uncertainty_overlap_at_point2": false
+    },
+    {
+      "cell_bias_bound_deg": 0.26545670453072434,
+      "theta_systematic_half_width_deg": 0.1,
+      "two_target_uncertainty_overlap_at_point2": true
+    },
+    {
+      "cell_bias_bound_deg": 0.5,
+      "theta_systematic_half_width_deg": 0.1883546324,
+      "two_target_uncertainty_overlap_at_point2": true
+    },
+    {
+      "cell_bias_bound_deg": 1.0,
+      "theta_systematic_half_width_deg": 0.3767092648,
+      "two_target_uncertainty_overlap_at_point2": true
+    }
+  ],
+  "critical_cell_bias_deg": 0.26545670453072434,
+  "critical_differential_report_bias_deg": 0.5309134090614487,
+  "known_storage_anchor_reference_only": [
+    {
+      "hypothetical_known_expression_loading": 0.0,
+      "required_scalar_bias_bound_strictly_below_deg": 0.1,
+      "inverse_noise_amplification": 1.0,
+      "identification_at_kappa": true
+    },
+    {
+      "hypothetical_known_expression_loading": 0.5,
+      "required_scalar_bias_bound_strictly_below_deg": 0.05,
+      "inverse_noise_amplification": 2.0,
+      "identification_at_kappa": true
+    },
+    {
+      "hypothetical_known_expression_loading": 0.9,
+      "required_scalar_bias_bound_strictly_below_deg": 0.01,
+      "inverse_noise_amplification": 10.0,
+      "identification_at_kappa": true
+    },
+    {
+      "hypothetical_known_expression_loading": 1.0,
+      "required_scalar_bias_bound_strictly_below_deg": 0.0,
+      "inverse_noise_amplification": null,
+      "identification_at_kappa": false
+    }
+  ],
+  "collection_decision": {
+    "new_people": 0,
+    "new_episodes": 0,
+    "new_reaches": 0,
+    "new_reports": 0,
+    "reason": "do not commission this mechanistic assay without independently justified signal/criterion and expression anchors; no separating N exists for the exhibited pair",
+    "conditional_hand_report_extra_seconds_per_report": 0.842,
+    "goal_report_active_passive_setup_and_reacquisition_times": "not certified; not priced as zero"
+  },
+  "checks": {
+    "both_signed_boundaries": true,
+    "gain_and_report_scale_fitted_from_crossed_table": true,
+    "zero_residual_fitted_rivals": true,
+    "independent_scalar_lower_bound": true,
+    "full_feasible_recovery_or_coverage": "UNRUN; separation not earned"
+  },
+  "resources": {
+    "ru_maxrss_native_bytes_macos": 14155776,
+    "public_empirical_raw_bytes": 0,
+    "old_empirical_raw_bytes": 0,
+    "source_hash_sha256": "2b33342da9b2cbc3c85c38b13d24b0c382504cf43385f89a968883e7df95c0de",
+    "unmeasured": "physical IO, complete context/import/provider/toolhost/runtime bytes and failed/acquisition peaks"
+  }
+}

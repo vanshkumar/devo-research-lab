@@ -1,0 +1,141 @@
+{
+  "status": "PASS",
+  "utc": "2026-11-03T02:21:52Z",
+  "source_checks": [
+    {
+      "path": "lop/slowly_changing_regression/expr.py",
+      "bytes": 4889,
+      "git_blob": "1255397de1ceb63e3f7051d887d0afebc5217382",
+      "sha256": "48d021352f9f43308ad315a9d4f42904247e03c8b0516f5b5eca2e0988ca4812"
+    },
+    {
+      "path": "lop/algos/cbp.py",
+      "bytes": 2625,
+      "git_blob": "07591331e3a17efce0f27b85920c14626770bd32",
+      "sha256": "34c7a1017d65d414aeb6930d74d6401b7e2f552134919c95632ab94166480a3d"
+    },
+    {
+      "path": "lop/algos/gnt.py",
+      "bytes": 11200,
+      "git_blob": "c9992096bb82eabe9c5cdf18e062d589d2c2c91c",
+      "sha256": "9d77709ad7dd26430d84401567d28a82446c4deaeb4a8475a7d7c829468df5cd"
+    }
+  ],
+  "exact_two_order_cases": [
+    {
+      "method": "cbp",
+      "compensate": false,
+      "rate": 0.2,
+      "draw": 0.01,
+      "chosen": [
+        4
+      ],
+      "maximum_error": 8.881784197001252e-16,
+      "bias_change": 0.0
+    },
+    {
+      "method": "cbp",
+      "compensate": true,
+      "rate": 0.2,
+      "draw": 0.01,
+      "chosen": [
+        4
+      ],
+      "maximum_error": 8.881784197001252e-16,
+      "bias_change": 0.08799059126865572
+    },
+    {
+      "method": "cbp",
+      "compensate": false,
+      "rate": 0.2,
+      "draw": 0.99,
+      "chosen": [],
+      "maximum_error": 8.881784197001252e-16,
+      "bias_change": 0.0
+    },
+    {
+      "method": "cbp",
+      "compensate": true,
+      "rate": 0.2,
+      "draw": 0.99,
+      "chosen": [],
+      "maximum_error": 8.881784197001252e-16,
+      "bias_change": 0.0
+    },
+    {
+      "method": "cbp",
+      "compensate": false,
+      "rate": 0.0,
+      "draw": 0.0,
+      "chosen": [],
+      "maximum_error": 0.0,
+      "bias_change": 0.0
+    },
+    {
+      "method": "cbp",
+      "compensate": true,
+      "rate": 0.0,
+      "draw": 0.0,
+      "chosen": [],
+      "maximum_error": 0.0,
+      "bias_change": 0.0
+    },
+    {
+      "method": "random",
+      "compensate": false,
+      "rate": 0.2,
+      "draw": 0.01,
+      "chosen": [
+        4
+      ],
+      "maximum_error": 0.0,
+      "bias_change": 0.0
+    },
+    {
+      "method": "random",
+      "compensate": true,
+      "rate": 0.2,
+      "draw": 0.01,
+      "chosen": [
+        4
+      ],
+      "maximum_error": 5.551115123125783e-17,
+      "bias_change": 0.08799059126865572
+    }
+  ],
+  "literal_prior_exact_agreement": true,
+  "constant_feature_discrimination": [
+    {
+      "activity": 0.0,
+      "compensate": false,
+      "removed_output": 0.0,
+      "prediction_change": 0.0,
+      "squared_change": 0.0
+    },
+    {
+      "activity": 0.0,
+      "compensate": true,
+      "removed_output": 0.0,
+      "prediction_change": 0.0,
+      "squared_change": 0.0
+    },
+    {
+      "activity": 1.5,
+      "compensate": false,
+      "removed_output": 0.3,
+      "prediction_change": -0.3,
+      "squared_change": 0.09
+    },
+    {
+      "activity": 1.5,
+      "compensate": true,
+      "removed_output": 0.3,
+      "prediction_change": 0.0,
+      "squared_change": 0.0
+    }
+  ],
+  "separate_explicit_read_bytes": 21936,
+  "seconds": 0.0021952080000000006,
+  "max_rss_bytes_macos": 14876672,
+  "exposure": "constructed states only; no new teacher generated; no empirical/protected raw"
+}

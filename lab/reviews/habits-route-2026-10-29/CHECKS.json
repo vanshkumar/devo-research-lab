@@ -1,0 +1,111 @@
+{
+  "directory": {
+    "entries": 1095,
+    "directory_bytes": 217903,
+    "directory_offset": 1815960334,
+    "archive_end": 1816178259,
+    "cohort": {
+      "MT/trained": 7,
+      "Random/trained": 5,
+      "Random/failed": 3
+    },
+    "compressed_total": 257833447,
+    "compressed_over_10MB": 14,
+    "expanded_range": [
+      31585841,
+      102688112
+    ],
+    "other_working_memory_files": [],
+    "metadata_sha256": {
+      "habits_zip_eocd.bin": "9dc468396b0bddcbd86b037c3af4bc9a0b911e3cf530c0e35b18077d55becc69",
+      "habits_zip_central.bin": "da1ccee00e6bb04569b7cf963127042479986019e3a08b4a0e0a26a1663e9333"
+    }
+  },
+  "synthetic_codec": {
+    "synthetic_zip_bytes": 20152,
+    "payload_bytes": 20023,
+    "python_zipfile": "NotImplementedError: That compression method is not supported",
+    "bsdtar_exit": 1,
+    "bsdtar_stderr": "synthetic.txt: Unsupported ZIP compression method (9: deflation-64-bit): Inappropriate file type or format\nbsdtar: Error exit delayed from previous errors.\n",
+    "bsdtar_output_bytes": 0,
+    "bsdtar_output_matches": false,
+    "limitation": "Method-9 stored-block subset only; no biological codec validation and no streaming output-cap proof."
+  },
+  "teacher": {
+    "extracted_functions_sha256": "32b496d492da7bc00bd0647272bfb81127034ab8b9f871ac03aaa8ffe56c099b",
+    "exact_source_functions": true,
+    "numeric_type": "C++ source float; Apple clang, -O0; not a Teensy hardware match",
+    "witnesses": {
+      "initial_file_witness": null,
+      "cache_restart_witness": null,
+      "admissible_state_cache_witness": {
+        "initial_theta": [
+          -2,
+          2,
+          -2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "prior_t": 100,
+        "trial_indices": [
+          0,
+          1
+        ],
+        "choice_right": 0,
+        "cached_next": [
+          3,
+          1
+        ],
+        "reset_next": [
+          2,
+          0
+        ]
+      }
+    },
+    "independent_double_reduction": {
+      "cached": {
+        "next_pair": [
+          3,
+          1
+        ],
+        "best_score": -0.2988154138962399,
+        "runner_up_margin": 5.966623078151878e-05
+      },
+      "reset": {
+        "next_pair": [
+          2,
+          0
+        ],
+        "best_score": -0.29875574766545837,
+        "runner_up_margin": 0.00010574766545839998
+      },
+      "reset_theta_same_encoding": {
+        "next_pair": [
+          3,
+          1
+        ],
+        "best_score": -0.2988154138962399,
+        "runner_up_margin": 5.966623078151878e-05
+      }
+    },
+    "scope": "Conditional hidden-state/initialization witnesses only; no claim both occurred in the deployed mice."
+  },
+  "original_input_sha256": {
+    "sources/intervention_evidence_2026-10-29/habits_zip_eocd.bin": "9dc468396b0bddcbd86b037c3af4bc9a0b911e3cf530c0e35b18077d55becc69",
+    "sources/intervention_evidence_2026-10-29/habits_zip_central.bin": "da1ccee00e6bb04569b7cf963127042479986019e3a08b4a0e0a26a1663e9333",
+    "sources/intervention_evidence_2026-10-29/HABITS_WM_INDEX.json": "6de30e904c863b589027d1e6b9a1eb7f81801c9b7232b14e82dafb19e2505069",
+    "sources/intervention_evidence_2026-10-29/HABITS_ZIP_INDEX.json": "bc0df7e3af8d6431b3690198f2c0c51f147e18c4f7acc25953e4e3e2d5a6d2c4",
+    "sources/intervention_evidence_2026-10-29/habits_paper.xml": "40f35c411f099168fa18c0d7437eb2a8498aad332373bbadb6f5afeb31c5efcb",
+    "sources/intervention_evidence_2026-10-29/habits_wm_MT_MT_Contrast.ino": "8d44a0808ea2405969abbd5845261aeae479cee5fb2f0ca952f64baa3df8c1b4",
+    "sources/intervention_evidence_2026-10-29/habits_wm_MT_modelparam.txt": "2e7c2a1b90b6a8c7c5b5952889b6e90795813f44ceb5b117fbfb07511670aced",
+    "sources/intervention_evidence_2026-10-29/habits_wm_MT_paraS.txt": "4621379e57a0fd6c6a10c01e7299de4347a3852a6dac921ec38f6d0e210864bd",
+    "sources/intervention_evidence_2026-10-29/habits_wm_Random_RandomContrast.ino": "e3013735a8604eb30f380811902542157e2a61e5d26bcba6f0d98f5804baa0e4",
+    "sources/intervention_evidence_2026-10-29/habits_wm_Random_modelparam.txt": "2e7c2a1b90b6a8c7c5b5952889b6e90795813f44ceb5b117fbfb07511670aced",
+    "sources/intervention_evidence_2026-10-29/habits_wm_Random_paraS.txt": "4621379e57a0fd6c6a10c01e7299de4347a3852a6dac921ec38f6d0e210864bd"
+  },
+  "new_biological_payload_bytes": 0,
+  "new_biological_rows": 0,
+  "original_inputs_unchanged": true
+}

@@ -1,0 +1,9 @@
+# Additional contrary check; main protocol remains frozen
+
+Recorded after main BOUNDS.json completed2026-11-01T05:08:41.303758Z, before computing this additional test. This is a postvalidation sensitivity check, not a second development revision, a replacement main criterion or a new empirical question.
+
+Main counts-plus-return point identification assumes the same cross-task retention in both directions. Source A-then-B practice and one A return probe directly measure only loss of A during B. Permit two direction-specific retentions rho_A (A lost on B) and rho_B (B lost on A), both in[1/2,1], with all other dynamics/information unchanged. For the frozen reference counts(3,3), endpoints(.75,.75), return81/256, rho_A=.75 is identified while rho_B may be unconstrained. Compute exact attainable target extremes at rho_B=.5,1, preserving the same complete source/return observations. Retain the original .10 target-diameter criterion.
+
+If ambiguity survives, test one explicit extra intervention: after the source endpoint/A-return observation, administer ONE known A teaching event and a compulsory nonlearning B score probe. Its ratio to the pre-event B endpoint is rho_B. The event/score are additional observations/intervention, not retroactive source support. Verify both parameter recovery and target reconstruction. Do not claim this identifies more general state-dependent interference or validates any biological model.
+
+Also independently check the frozen calculation with an event-by-event implementation, high-precision roots and a dense observation grid, and record the generic K=0 envelope's50,000-box limit. Analytically K=0 has only one count pair, so a calibrated return score identifies rho and its diameter is exactly zero. No rerun or silent replacement of the saved main output is required.

@@ -1,0 +1,192 @@
+{
+  "utc": "2026-11-02T21:20:02.786207+00:00",
+  "generated_task_handlers": [
+    {
+      "line": 3696,
+      "handler": "practice",
+      "parameters": {
+        "nReps": "instructions",
+        "method": "'random'",
+        "extraInfo": "expInfo",
+        "originPath": "-1",
+        "trialList": "data.importConditions('pregen_sequence_' + str(int(expInfo['participant'][-1])) + '.xlsx', selection='36:41')",
+        "seed": "None",
+        "name": "'practice'"
+      }
+    },
+    {
+      "line": 4556,
+      "handler": "trials",
+      "parameters": {
+        "nReps": "1.0",
+        "method": "'sequential'",
+        "extraInfo": "expInfo",
+        "originPath": "-1",
+        "trialList": "data.importConditions('pregen_sequence_' + str(int(expInfo['participant'][-1])) + '.xlsx', selection='0:600')",
+        "seed": "None",
+        "name": "'trials'"
+      }
+    }
+  ],
+  "builder_loops": [
+    {
+      "loopType": "TrialHandler",
+      "name": "practice",
+      "params": {
+        "Selected rows": "36:41",
+        "conditionsFile": "$'pregen_sequence_' + str(int(expInfo['participant'][-1])) + '.xlsx'",
+        "endPoints": "[0, 1]",
+        "isTrials": "True",
+        "loopType": "random",
+        "nReps": "instructions",
+        "name": "practice",
+        "random seed": ""
+      },
+      "inline_conditions_characters": 528174,
+      "inline_conditions_sha256": "d84e24cbd08282ea7cd7e8106bf9359ff868417d3a43ecdf29ad96d2144401cf"
+    },
+    {
+      "loopType": "TrialHandler",
+      "name": "trials",
+      "params": {
+        "Selected rows": "0:600",
+        "conditionsFile": "$'pregen_sequence_' + str(int(expInfo['participant'][-1])) + '.xlsx'",
+        "endPoints": "[0, 1]",
+        "isTrials": "True",
+        "loopType": "sequential",
+        "nReps": "1",
+        "name": "trials",
+        "random seed": ""
+      },
+      "inline_conditions_characters": 95713,
+      "inline_conditions_sha256": "9c7a4bd0414ca0d2deb1a0e193d8c04260983a9a58f64384fecc077ec4cd3a37"
+    }
+  ],
+  "generated_main_target_and_contrast_statements": [
+    {
+      "line": 4597,
+      "text": "if eccentricity == -15:"
+    },
+    {
+      "line": 4598,
+      "text": "leftCont = baseContrast+contrastDelta"
+    },
+    {
+      "line": 4600,
+      "text": "elif eccentricity == 15:"
+    },
+    {
+      "line": 4602,
+      "text": "rightCont = baseContrast+contrastDelta"
+    },
+    {
+      "line": 4776,
+      "text": "trialConditionVariablesForEyeLinkLogging = [eccentricity,q,baseContrast,contrastDelta,bias]"
+    },
+    {
+      "line": 4777,
+      "text": "trialConditionVariableNamesForEyeLinkLogging = ['eccentricity', 'q', 'baseContrast', 'contrastDelta', 'bias']"
+    },
+    {
+      "line": 4897,
+      "text": "if eccentricity > 0:"
+    },
+    {
+      "line": 4912,
+      "text": "elif eccentricity < 0:"
+    }
+  ],
+  "first_two_visible_source_keys": [
+    {
+      "source": 0,
+      "first_two_visible_signed_contrasts": [
+        1.0,
+        0.25
+      ]
+    },
+    {
+      "source": 1,
+      "first_two_visible_signed_contrasts": [
+        -1.0,
+        0.5
+      ]
+    },
+    {
+      "source": 2,
+      "first_two_visible_signed_contrasts": [
+        -0.5,
+        1.0
+      ]
+    },
+    {
+      "source": 3,
+      "first_two_visible_signed_contrasts": [
+        -1.0,
+        0.25
+      ]
+    },
+    {
+      "source": 4,
+      "first_two_visible_signed_contrasts": [
+        0.5,
+        0.25
+      ]
+    },
+    {
+      "source": 5,
+      "first_two_visible_signed_contrasts": [
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "source": 6,
+      "first_two_visible_signed_contrasts": [
+        -0.25,
+        1.0
+      ]
+    },
+    {
+      "source": 7,
+      "first_two_visible_signed_contrasts": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "source": 8,
+      "first_two_visible_signed_contrasts": [
+        -1.0,
+        -0.25
+      ]
+    },
+    {
+      "source": 9,
+      "first_two_visible_signed_contrasts": [
+        -0.25,
+        0.25
+      ]
+    }
+  ],
+  "unique_keys": 10,
+  "pins": [
+    {
+      "path": "campaigns/human_learning_routes_2026-10-28/experiments/source_audit/sources/WIN_cursor_ibl_lastrun.py",
+      "bytes": 329800,
+      "sha256": "d1a65a366e62dcc349e4164c3ca258c71f159d5d0b774a1e46c5c353dbf59e35"
+    },
+    {
+      "path": "sources/human_learning_feasibility_2026-10-28/WIN_cursor_ibl.psyexp",
+      "bytes": 1045711,
+      "sha256": "0fd15069a4b9c94d09fe9ed806afad3767207f2503feb2a4e61e208b01a729ef"
+    }
+  ],
+  "rss_bytes_darwin": 62636032,
+  "scope": "Static source plus finite planned-input audit; not a reconstructed stochastic teacher or hardware deployment certificate.",
+  "record_only_projection_utc": "2026-11-02T21:25:01.852732+00:00",
+  "full_original_archive": {
+    "path": "SOURCE_LAW_FULL.json",
+    "bytes": 628281,
+    "sha256": "6beeddab21a81882376e872c4fc90125d2fd39ac3cb10f2508bc969757aa91fc"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "utc": "2026-11-05T14:10:27.949837+00:00",
+  "process_wall_seconds": 118.2890945840627,
+  "scientific_process_cpu_seconds": 118.07483599999999,
+  "timings": {
+    "source_banks_and_exact_reference": {
+      "wall_seconds": 0.5701860419940203,
+      "cpu_seconds": 0.569712
+    },
+    "input_and_engagement_fits": {
+      "wall_seconds": 0.7917489160317928,
+      "cpu_seconds": 0.79109
+    },
+    "selection_pretrial_checks": {
+      "wall_seconds": 1.812640708987601,
+      "cpu_seconds": 1.8110620000000002
+    },
+    "original_source_recency_selection": {
+      "wall_seconds": 15.69936104095541,
+      "cpu_seconds": 15.683637000000001
+    },
+    "three_condition_source_forecasts": {
+      "wall_seconds": 70.0517096669646,
+      "cpu_seconds": 69.984864
+    },
+    "source_reduction": {
+      "wall_seconds": 0.046320582972839475,
+      "cpu_seconds": 0.04593700000000922
+    },
+    "source_chronology_and_nonlinear_cost": {
+      "wall_seconds": 8.802747749956325,
+      "cpu_seconds": 8.795598999999996
+    },
+    "one_source_draw_with_reselection_and_dependent_forecasts": {
+      "wall_seconds": 20.14383162499871,
+      "cpu_seconds": 20.127358
+    }
+  },
+  "io": {
+    "explicit_read_bytes": 1606045,
+    "decoded_array_bytes": 20345804,
+    "model_decoded_array_bytes": 50736
+  },
+  "explicit_read_decode_bytes": 22002585,
+  "peak_rss_bytes": 270336000,
+  "pins": {
+    "lab/tasks/acquisition-rule-vs-tracker-2026-11-05/SOURCE_FIT6000_MANIFEST.json": "33365f4725bd3f398f6f8a9e0b9de8ff85bbdd1bd192dbf1daa0ece1748cb585",
+    "campaigns/learning_rule_transport_2026-10-28/artifacts/models/DEVELOPMENT_MODEL_SPLIT.json": "1ebd21840771d2b101a80ee9912615075f7a99d55520e5cfe35bc4d95fbc6d10",
+    "lab/tasks/acquisition-rule-vs-tracker-2026-11-05/TRAIN6000_ROWS.npz": "71b837ea55cd6363db65d2c4ca15b7ceec1309b5dc5d972b8b85407851592049",
+    "campaigns/learning_rule_transport_2026-10-28/artifacts/baselines/nested_growth_bank.npz": "036f3cfedd56e915b051fb29a80a2622cf5a747366ea31aa46b9249a922eea01",
+    "campaigns/learning_rule_transport_2026-10-28/artifacts/rnn/rnnglm32_nested_best.npz": "c7f675d18f4143891ed7d2c76d91f74be74da9565fbae5407952768e2c146940"
+  },
+  "no_evaluation_cache_reads": true,
+  "no_all64_main": true,
+  "no_archive_ingress": true,
+  "estimated_additional_context_read_charge_bytes": 15000000,
+  "resource_unknowns": [
+    "Physical I/O",
+    "runtime/import/provider reads",
+    "earlier-lineage unknowns unchanged"
+  ],
+  "historical_accounting": "acquisition-rule-vs-tracker/ACCOUNTING.json; counted-plus-conservative1,061,983,723bytes and590.689978serial science wall seconds, plus older original lineage; not refunded",
+  "job_disposition": "All scientific operations in this process finished"
+}

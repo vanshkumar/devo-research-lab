@@ -1,0 +1,75 @@
+{
+  "start": "2026-11-01T06:28:34.197Z",
+  "finished_at": "2026-11-01T06:33:19.431357+00:00",
+  "deadline": "2026-11-01T07:08:34.197000+00:00",
+  "public_operations": 0,
+  "new_ingress_bytes": 0,
+  "read_cap_bytes": 240000000,
+  "initial_calculation_payload_allowance": 16763156,
+  "later_payload_allowances": [
+    {
+      "path": "main/observations.npz",
+      "members": 832,
+      "conservative_bytes": 4532988
+    },
+    {
+      "path": "main/predictions.npz",
+      "members": 3,
+      "conservative_bytes": 154141858
+    },
+    {
+      "path": "contrary_decoupled/observations.npz",
+      "members": 768,
+      "conservative_bytes": 3329564
+    },
+    {
+      "path": "contrary_decoupled/predictions.npz",
+      "members": 1,
+      "conservative_bytes": 3362045
+    },
+    {
+      "path": "contrary_noiseless/observations.npz",
+      "members": 768,
+      "conservative_bytes": 3329525
+    },
+    {
+      "path": "contrary_noiseless/predictions.npz",
+      "members": 1,
+      "conservative_bytes": 6705035
+    },
+    {
+      "path": "contrary_resolution/observations.npz",
+      "members": 768,
+      "conservative_bytes": 3329569
+    },
+    {
+      "path": "contrary_resolution/predictions.npz",
+      "members": 1,
+      "conservative_bytes": 3332027
+    }
+  ],
+  "pin_hash_read_bytes": 17380666,
+  "text_json_directory_failed_read_and_closeout_allowance": 10000000,
+  "conservative_total_read_decode_hash_allowance": 226206433,
+  "allowance_below_cap": true,
+  "method": "Preselected NPZ members read once per script, via ZipFile.read then BytesIO np.load; charge compressed + twice decoded +256 bytes/member. Total includes FIRST payloads, four prediction hash reads, eight code pins and 10MB text/JSON/metadata/closeout allowance. Not kernel IO telemetry or provider internals.",
+  "peak_scientific_rss_bytes": 218136576,
+  "rss_cap_bytes": 500000000,
+  "scientific_processes": 1,
+  "numerical_threads": 1,
+  "warnings": [],
+  "scientific_jobs_remaining": 0,
+  "author_compliance": "Unchanged UNCERTIFIED: author conservative allowance421697685/400MB; actual IO unknown/unrun full observation hash and second reproduction remain unrun by author. Reviewer allocation separate.",
+  "exposure": "Saved synthetic cases, all model/plant hidden parameters/queries/summaries consumed; own changed-plant outputs consumed. No empirical/protected payloads opened. No shared coordination files edited.",
+  "dependencies": {
+    "python": "3.9.6 (default, Oct 19 2026, 19:18:13) \n[Clang 21.0.0 (clang-2100.4.1.1)]",
+    "numpy": "2.0.2"
+  },
+  "unrun": [
+    "Author second full evaluation reproduction",
+    "Author historical observation archive SHA",
+    "Independent n3/all n query-cost replay",
+    "Independent hull/nearest query-distance implementation",
+    "New biological data or unknown rank/noise/nonlinear plant inference"
+  ]
+}

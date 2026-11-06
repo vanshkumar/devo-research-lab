@@ -1,0 +1,1593 @@
+{
+  "campaign": "learning_rule_transport_2026-10-28",
+  "date": "2026-10-28",
+  "frozen_before_outcome_reads": true,
+  "source_manifest_sha256": "1a86a52c6d4f8d031ce1feae40c60efab523fb54164ddcb8b366e07393a7f1f1",
+  "allocation": "All indexed training sessions must have trial tables; hold out hoferlab and wittenlab entirely; SHA256(campaign+colon+subject) modulo5=0 hold out animals in other labs; no outcome selection.",
+  "standard": [
+    {
+      "subject": "IBL-T1",
+      "lab": "angelakilab",
+      "indexed_sessions": 1,
+      "table_sessions": 1,
+      "first_indexed_date": "2019-08-05",
+      "last_indexed_date": "2019-08-05",
+      "split": "dev",
+      "hash_mod_5": 2
+    },
+    {
+      "subject": "IBL-T2",
+      "lab": "angelakilab",
+      "indexed_sessions": 1,
+      "table_sessions": 1,
+      "first_indexed_date": "2019-07-02",
+      "last_indexed_date": "2019-07-02",
+      "split": "dev",
+      "hash_mod_5": 2
+    },
+    {
+      "subject": "IBL-T3",
+      "lab": "angelakilab",
+      "indexed_sessions": 2,
+      "table_sessions": 2,
+      "first_indexed_date": "2019-07-03",
+      "last_indexed_date": "2019-07-18",
+      "split": "dev",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "NYU-04",
+      "lab": "angelakilab",
+      "indexed_sessions": 1,
+      "table_sessions": 1,
+      "first_indexed_date": "2019-06-20",
+      "last_indexed_date": "2019-06-20",
+      "split": "animal_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "NYU-06",
+      "lab": "angelakilab",
+      "indexed_sessions": 3,
+      "table_sessions": 3,
+      "first_indexed_date": "2019-06-11",
+      "last_indexed_date": "2019-08-07",
+      "split": "animal_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "NYU-07",
+      "lab": "angelakilab",
+      "indexed_sessions": 46,
+      "table_sessions": 46,
+      "first_indexed_date": "2019-06-11",
+      "last_indexed_date": "2019-10-16",
+      "split": "dev",
+      "hash_mod_5": 2
+    },
+    {
+      "subject": "NYU-09",
+      "lab": "angelakilab",
+      "indexed_sessions": 27,
+      "table_sessions": 6,
+      "first_indexed_date": "2019-10-14",
+      "last_indexed_date": "2019-12-05",
+      "split": "excluded_incomplete_tables",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "NYU-11",
+      "lab": "angelakilab",
+      "indexed_sessions": 40,
+      "table_sessions": 16,
+      "first_indexed_date": "2019-10-14",
+      "last_indexed_date": "2020-01-13",
+      "split": "excluded_incomplete_tables",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "NYU-12",
+      "lab": "angelakilab",
+      "indexed_sessions": 23,
+      "table_sessions": 1,
+      "first_indexed_date": "2019-10-30",
+      "last_indexed_date": "2019-12-05",
+      "split": "excluded_incomplete_tables",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "NYU-13",
+      "lab": "angelakilab",
+      "indexed_sessions": 25,
+      "table_sessions": 0,
+      "first_indexed_date": "2019-10-30",
+      "last_indexed_date": "2019-12-05",
+      "split": "excluded_incomplete_tables",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "NYU-14",
+      "lab": "angelakilab",
+      "indexed_sessions": 33,
+      "table_sessions": 7,
+      "first_indexed_date": "2019-10-30",
+      "last_indexed_date": "2020-01-07",
+      "split": "excluded_incomplete_tables",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "NYU-20",
+      "lab": "angelakilab",
+      "indexed_sessions": 11,
+      "table_sessions": 11,
+      "first_indexed_date": "2020-01-09",
+      "last_indexed_date": "2020-01-27",
+      "split": "dev",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "NYU-21",
+      "lab": "angelakilab",
+      "indexed_sessions": 12,
+      "table_sessions": 11,
+      "first_indexed_date": "2020-03-04",
+      "last_indexed_date": "2020-03-20",
+      "split": "excluded_incomplete_tables",
+      "hash_mod_5": 3
+    },
+    {
+      "subject": "NYU-23",
+      "lab": "angelakilab",
+      "indexed_sessions": 7,
+      "table_sessions": 7,
+      "first_indexed_date": "2020-03-13",
+      "last_indexed_date": "2020-03-23",
+      "split": "dev",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "NYU-24",
+      "lab": "angelakilab",
+      "indexed_sessions": 7,
+      "table_sessions": 7,
+      "first_indexed_date": "2020-03-13",
+      "last_indexed_date": "2020-03-23",
+      "split": "dev",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "NYU-25",
+      "lab": "angelakilab",
+      "indexed_sessions": 7,
+      "table_sessions": 7,
+      "first_indexed_date": "2020-03-13",
+      "last_indexed_date": "2020-03-23",
+      "split": "dev",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "NYU-26",
+      "lab": "angelakilab",
+      "indexed_sessions": 8,
+      "table_sessions": 8,
+      "first_indexed_date": "2020-03-13",
+      "last_indexed_date": "2020-03-23",
+      "split": "dev",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "CSHL034",
+      "lab": "churchlandlab",
+      "indexed_sessions": 19,
+      "table_sessions": 19,
+      "first_indexed_date": "2019-10-01",
+      "last_indexed_date": "2019-10-28",
+      "split": "dev",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "CSHL045",
+      "lab": "churchlandlab",
+      "indexed_sessions": 48,
+      "table_sessions": 48,
+      "first_indexed_date": "2019-11-04",
+      "last_indexed_date": "2020-01-21",
+      "split": "dev",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "CSHL046",
+      "lab": "churchlandlab",
+      "indexed_sessions": 61,
+      "table_sessions": 61,
+      "first_indexed_date": "2019-11-04",
+      "last_indexed_date": "2020-02-07",
+      "split": "animal_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "CSHL047",
+      "lab": "churchlandlab",
+      "indexed_sessions": 30,
+      "table_sessions": 30,
+      "first_indexed_date": "2019-11-04",
+      "last_indexed_date": "2019-12-18",
+      "split": "animal_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "CSHL049",
+      "lab": "churchlandlab",
+      "indexed_sessions": 21,
+      "table_sessions": 21,
+      "first_indexed_date": "2019-11-04",
+      "last_indexed_date": "2019-12-05",
+      "split": "animal_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "CSHL051",
+      "lab": "churchlandlab",
+      "indexed_sessions": 23,
+      "table_sessions": 23,
+      "first_indexed_date": "2019-11-12",
+      "last_indexed_date": "2019-12-13",
+      "split": "dev",
+      "hash_mod_5": 2
+    },
+    {
+      "subject": "CSHL052",
+      "lab": "churchlandlab",
+      "indexed_sessions": 48,
+      "table_sessions": 48,
+      "first_indexed_date": "2019-11-12",
+      "last_indexed_date": "2020-01-24",
+      "split": "dev",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "CSHL053",
+      "lab": "churchlandlab",
+      "indexed_sessions": 30,
+      "table_sessions": 30,
+      "first_indexed_date": "2019-11-12",
+      "last_indexed_date": "2019-12-27",
+      "split": "dev",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "CSHL054",
+      "lab": "churchlandlab",
+      "indexed_sessions": 24,
+      "table_sessions": 24,
+      "first_indexed_date": "2019-11-12",
+      "last_indexed_date": "2019-12-17",
+      "split": "dev",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "CSHL055",
+      "lab": "churchlandlab",
+      "indexed_sessions": 36,
+      "table_sessions": 36,
+      "first_indexed_date": "2019-11-12",
+      "last_indexed_date": "2020-01-16",
+      "split": "dev",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "CSHL056",
+      "lab": "churchlandlab",
+      "indexed_sessions": 8,
+      "table_sessions": 7,
+      "first_indexed_date": "2020-01-20",
+      "last_indexed_date": "2020-01-29",
+      "split": "excluded_incomplete_tables",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "CSHL057",
+      "lab": "churchlandlab",
+      "indexed_sessions": 9,
+      "table_sessions": 9,
+      "first_indexed_date": "2020-01-20",
+      "last_indexed_date": "2020-01-30",
+      "split": "dev",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "CSHL058",
+      "lab": "churchlandlab",
+      "indexed_sessions": 40,
+      "table_sessions": 40,
+      "first_indexed_date": "2020-01-20",
+      "last_indexed_date": "2020-03-12",
+      "split": "dev",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "CSHL059",
+      "lab": "churchlandlab",
+      "indexed_sessions": 17,
+      "table_sessions": 17,
+      "first_indexed_date": "2020-01-20",
+      "last_indexed_date": "2020-02-12",
+      "split": "dev",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "CSHL060",
+      "lab": "churchlandlab",
+      "indexed_sessions": 19,
+      "table_sessions": 19,
+      "first_indexed_date": "2020-01-20",
+      "last_indexed_date": "2020-02-13",
+      "split": "animal_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "CSHL_011",
+      "lab": "churchlandlab",
+      "indexed_sessions": 45,
+      "table_sessions": 45,
+      "first_indexed_date": "2019-06-18",
+      "last_indexed_date": "2019-09-12",
+      "split": "dev",
+      "hash_mod_5": 3
+    },
+    {
+      "subject": "CSHL_012",
+      "lab": "churchlandlab",
+      "indexed_sessions": 31,
+      "table_sessions": 30,
+      "first_indexed_date": "2019-06-18",
+      "last_indexed_date": "2019-08-02",
+      "split": "excluded_incomplete_tables",
+      "hash_mod_5": 3
+    },
+    {
+      "subject": "CSHL_013",
+      "lab": "churchlandlab",
+      "indexed_sessions": 42,
+      "table_sessions": 42,
+      "first_indexed_date": "2019-06-18",
+      "last_indexed_date": "2019-08-19",
+      "split": "animal_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "CSHL_014",
+      "lab": "churchlandlab",
+      "indexed_sessions": 16,
+      "table_sessions": 16,
+      "first_indexed_date": "2019-06-18",
+      "last_indexed_date": "2019-08-19",
+      "split": "animal_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "CSHL_015",
+      "lab": "churchlandlab",
+      "indexed_sessions": 17,
+      "table_sessions": 17,
+      "first_indexed_date": "2019-06-18",
+      "last_indexed_date": "2019-07-12",
+      "split": "animal_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "KS002",
+      "lab": "cortexlab",
+      "indexed_sessions": 9,
+      "table_sessions": 9,
+      "first_indexed_date": "2019-06-11",
+      "last_indexed_date": "2019-08-12",
+      "split": "dev",
+      "hash_mod_5": 3
+    },
+    {
+      "subject": "KS004",
+      "lab": "cortexlab",
+      "indexed_sessions": 8,
+      "table_sessions": 8,
+      "first_indexed_date": "2019-06-11",
+      "last_indexed_date": "2019-07-25",
+      "split": "dev",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "KS005",
+      "lab": "cortexlab",
+      "indexed_sessions": 3,
+      "table_sessions": 3,
+      "first_indexed_date": "2019-07-23",
+      "last_indexed_date": "2019-07-25",
+      "split": "animal_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "KS014",
+      "lab": "cortexlab",
+      "indexed_sessions": 15,
+      "table_sessions": 15,
+      "first_indexed_date": "2019-08-06",
+      "last_indexed_date": "2019-08-23",
+      "split": "dev",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "KS015",
+      "lab": "cortexlab",
+      "indexed_sessions": 6,
+      "table_sessions": 6,
+      "first_indexed_date": "2019-08-06",
+      "last_indexed_date": "2019-08-12",
+      "split": "animal_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "KS016",
+      "lab": "cortexlab",
+      "indexed_sessions": 20,
+      "table_sessions": 20,
+      "first_indexed_date": "2019-08-06",
+      "last_indexed_date": "2019-08-31",
+      "split": "dev",
+      "hash_mod_5": 3
+    },
+    {
+      "subject": "KS017",
+      "lab": "cortexlab",
+      "indexed_sessions": 24,
+      "table_sessions": 24,
+      "first_indexed_date": "2019-08-10",
+      "last_indexed_date": "2019-09-18",
+      "split": "dev",
+      "hash_mod_5": 2
+    },
+    {
+      "subject": "KS018",
+      "lab": "cortexlab",
+      "indexed_sessions": 74,
+      "table_sessions": 73,
+      "first_indexed_date": "2019-08-10",
+      "last_indexed_date": "2020-01-09",
+      "split": "excluded_incomplete_tables",
+      "hash_mod_5": 3
+    },
+    {
+      "subject": "KS019",
+      "lab": "cortexlab",
+      "indexed_sessions": 29,
+      "table_sessions": 29,
+      "first_indexed_date": "2019-08-10",
+      "last_indexed_date": "2019-09-24",
+      "split": "dev",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "KS021",
+      "lab": "cortexlab",
+      "indexed_sessions": 27,
+      "table_sessions": 27,
+      "first_indexed_date": "2019-09-23",
+      "last_indexed_date": "2019-11-05",
+      "split": "dev",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "KS022",
+      "lab": "cortexlab",
+      "indexed_sessions": 19,
+      "table_sessions": 19,
+      "first_indexed_date": "2019-09-23",
+      "last_indexed_date": "2019-10-22",
+      "split": "animal_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "KS023",
+      "lab": "cortexlab",
+      "indexed_sessions": 8,
+      "table_sessions": 8,
+      "first_indexed_date": "2019-10-01",
+      "last_indexed_date": "2019-10-15",
+      "split": "dev",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "KS024",
+      "lab": "cortexlab",
+      "indexed_sessions": 15,
+      "table_sessions": 15,
+      "first_indexed_date": "2019-10-01",
+      "last_indexed_date": "2019-10-22",
+      "split": "dev",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "KS025",
+      "lab": "cortexlab",
+      "indexed_sessions": 13,
+      "table_sessions": 13,
+      "first_indexed_date": "2019-10-01",
+      "last_indexed_date": "2019-10-22",
+      "split": "animal_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "DY_005",
+      "lab": "danlab",
+      "indexed_sessions": 2,
+      "table_sessions": 2,
+      "first_indexed_date": "2019-06-11",
+      "last_indexed_date": "2019-06-12",
+      "split": "dev",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "DY_006",
+      "lab": "danlab",
+      "indexed_sessions": 9,
+      "table_sessions": 9,
+      "first_indexed_date": "2019-11-22",
+      "last_indexed_date": "2019-12-05",
+      "split": "dev",
+      "hash_mod_5": 3
+    },
+    {
+      "subject": "DY_007",
+      "lab": "danlab",
+      "indexed_sessions": 9,
+      "table_sessions": 9,
+      "first_indexed_date": "2019-11-22",
+      "last_indexed_date": "2019-12-05",
+      "split": "dev",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "DY_008",
+      "lab": "danlab",
+      "indexed_sessions": 58,
+      "table_sessions": 58,
+      "first_indexed_date": "2019-11-21",
+      "last_indexed_date": "2020-02-12",
+      "split": "dev",
+      "hash_mod_5": 3
+    },
+    {
+      "subject": "DY_009",
+      "lab": "danlab",
+      "indexed_sessions": 58,
+      "table_sessions": 58,
+      "first_indexed_date": "2019-11-21",
+      "last_indexed_date": "2020-02-12",
+      "split": "animal_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "DY_010",
+      "lab": "danlab",
+      "indexed_sessions": 8,
+      "table_sessions": 8,
+      "first_indexed_date": "2019-11-21",
+      "last_indexed_date": "2019-12-03",
+      "split": "dev",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "DY_011",
+      "lab": "danlab",
+      "indexed_sessions": 9,
+      "table_sessions": 9,
+      "first_indexed_date": "2019-11-21",
+      "last_indexed_date": "2019-12-04",
+      "split": "dev",
+      "hash_mod_5": 3
+    },
+    {
+      "subject": "DY_012",
+      "lab": "danlab",
+      "indexed_sessions": 32,
+      "table_sessions": 32,
+      "first_indexed_date": "2020-01-28",
+      "last_indexed_date": "2020-03-13",
+      "split": "dev",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "DY_013",
+      "lab": "danlab",
+      "indexed_sessions": 13,
+      "table_sessions": 13,
+      "first_indexed_date": "2020-01-28",
+      "last_indexed_date": "2020-02-13",
+      "split": "dev",
+      "hash_mod_5": 2
+    },
+    {
+      "subject": "DY_014",
+      "lab": "danlab",
+      "indexed_sessions": 28,
+      "table_sessions": 28,
+      "first_indexed_date": "2020-01-28",
+      "last_indexed_date": "2020-03-06",
+      "split": "dev",
+      "hash_mod_5": 2
+    },
+    {
+      "subject": "DY_015",
+      "lab": "danlab",
+      "indexed_sessions": 31,
+      "table_sessions": 31,
+      "first_indexed_date": "2020-01-28",
+      "last_indexed_date": "2020-03-13",
+      "split": "dev",
+      "hash_mod_5": 2
+    },
+    {
+      "subject": "SWC_001",
+      "lab": "hoferlab",
+      "indexed_sessions": 27,
+      "table_sessions": 26,
+      "first_indexed_date": "2019-06-11",
+      "last_indexed_date": "2019-07-17",
+      "split": "excluded_incomplete_tables",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "SWC_002",
+      "lab": "hoferlab",
+      "indexed_sessions": 52,
+      "table_sessions": 46,
+      "first_indexed_date": "2019-06-11",
+      "last_indexed_date": "2019-08-22",
+      "split": "excluded_incomplete_tables",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "SWC_003",
+      "lab": "hoferlab",
+      "indexed_sessions": 53,
+      "table_sessions": 52,
+      "first_indexed_date": "2019-06-11",
+      "last_indexed_date": "2019-08-22",
+      "split": "excluded_incomplete_tables",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "SWC_006",
+      "lab": "hoferlab",
+      "indexed_sessions": 20,
+      "table_sessions": 20,
+      "first_indexed_date": "2019-06-17",
+      "last_indexed_date": "2019-07-15",
+      "split": "lab_holdout",
+      "hash_mod_5": 2
+    },
+    {
+      "subject": "SWC_007",
+      "lab": "hoferlab",
+      "indexed_sessions": 3,
+      "table_sessions": 2,
+      "first_indexed_date": "2019-06-19",
+      "last_indexed_date": "2019-06-20",
+      "split": "excluded_incomplete_tables",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "SWC_010",
+      "lab": "hoferlab",
+      "indexed_sessions": 12,
+      "table_sessions": 12,
+      "first_indexed_date": "2019-07-29",
+      "last_indexed_date": "2019-08-13",
+      "split": "lab_holdout",
+      "hash_mod_5": 3
+    },
+    {
+      "subject": "SWC_011",
+      "lab": "hoferlab",
+      "indexed_sessions": 49,
+      "table_sessions": 42,
+      "first_indexed_date": "2019-07-29",
+      "last_indexed_date": "2019-10-30",
+      "split": "excluded_incomplete_tables",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "SWC_013",
+      "lab": "hoferlab",
+      "indexed_sessions": 22,
+      "table_sessions": 22,
+      "first_indexed_date": "2019-08-12",
+      "last_indexed_date": "2019-10-04",
+      "split": "lab_holdout",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "SWC_014",
+      "lab": "hoferlab",
+      "indexed_sessions": 22,
+      "table_sessions": 21,
+      "first_indexed_date": "2019-08-12",
+      "last_indexed_date": "2019-09-20",
+      "split": "excluded_incomplete_tables",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "SWC_015",
+      "lab": "hoferlab",
+      "indexed_sessions": 51,
+      "table_sessions": 34,
+      "first_indexed_date": "2019-08-09",
+      "last_indexed_date": "2019-11-18",
+      "split": "excluded_incomplete_tables",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "SWC_019",
+      "lab": "hoferlab",
+      "indexed_sessions": 22,
+      "table_sessions": 22,
+      "first_indexed_date": "2019-08-27",
+      "last_indexed_date": "2019-10-04",
+      "split": "lab_holdout",
+      "hash_mod_5": 2
+    },
+    {
+      "subject": "SWC_020",
+      "lab": "hoferlab",
+      "indexed_sessions": 27,
+      "table_sessions": 21,
+      "first_indexed_date": "2019-08-27",
+      "last_indexed_date": "2019-10-30",
+      "split": "excluded_incomplete_tables",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "SWC_021",
+      "lab": "hoferlab",
+      "indexed_sessions": 24,
+      "table_sessions": 22,
+      "first_indexed_date": "2019-08-27",
+      "last_indexed_date": "2019-10-08",
+      "split": "excluded_incomplete_tables",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "SWC_027",
+      "lab": "hoferlab",
+      "indexed_sessions": 30,
+      "table_sessions": 9,
+      "first_indexed_date": "2019-11-08",
+      "last_indexed_date": "2019-12-18",
+      "split": "excluded_incomplete_tables",
+      "hash_mod_5": 3
+    },
+    {
+      "subject": "SWC_028",
+      "lab": "hoferlab",
+      "indexed_sessions": 40,
+      "table_sessions": 19,
+      "first_indexed_date": "2019-11-08",
+      "last_indexed_date": "2020-01-22",
+      "split": "excluded_incomplete_tables",
+      "hash_mod_5": 2
+    },
+    {
+      "subject": "SWC_032",
+      "lab": "hoferlab",
+      "indexed_sessions": 52,
+      "table_sessions": 52,
+      "first_indexed_date": "2020-01-13",
+      "last_indexed_date": "2020-03-23",
+      "split": "lab_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "SWC_033",
+      "lab": "hoferlab",
+      "indexed_sessions": 53,
+      "table_sessions": 53,
+      "first_indexed_date": "2020-01-13",
+      "last_indexed_date": "2020-03-23",
+      "split": "lab_holdout",
+      "hash_mod_5": 3
+    },
+    {
+      "subject": "SWC_034",
+      "lab": "hoferlab",
+      "indexed_sessions": 8,
+      "table_sessions": 8,
+      "first_indexed_date": "2020-01-13",
+      "last_indexed_date": "2020-01-22",
+      "split": "lab_holdout",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "SWC_041",
+      "lab": "hoferlab",
+      "indexed_sessions": 18,
+      "table_sessions": 18,
+      "first_indexed_date": "2020-02-28",
+      "last_indexed_date": "2020-03-23",
+      "split": "lab_holdout",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "SWC_042",
+      "lab": "hoferlab",
+      "indexed_sessions": 18,
+      "table_sessions": 18,
+      "first_indexed_date": "2020-02-29",
+      "last_indexed_date": "2020-03-23",
+      "split": "lab_holdout",
+      "hash_mod_5": 3
+    },
+    {
+      "subject": "SWC_043",
+      "lab": "hoferlab",
+      "indexed_sessions": 17,
+      "table_sessions": 17,
+      "first_indexed_date": "2020-03-02",
+      "last_indexed_date": "2020-03-23",
+      "split": "lab_holdout",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "ZM_1367",
+      "lab": "mainenlab",
+      "indexed_sessions": 4,
+      "table_sessions": 4,
+      "first_indexed_date": "2019-07-22",
+      "last_indexed_date": "2019-07-26",
+      "split": "animal_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "ZM_1369",
+      "lab": "mainenlab",
+      "indexed_sessions": 1,
+      "table_sessions": 1,
+      "first_indexed_date": "2019-07-22",
+      "last_indexed_date": "2019-07-22",
+      "split": "dev",
+      "hash_mod_5": 2
+    },
+    {
+      "subject": "ZM_1371",
+      "lab": "mainenlab",
+      "indexed_sessions": 3,
+      "table_sessions": 3,
+      "first_indexed_date": "2019-07-18",
+      "last_indexed_date": "2019-07-22",
+      "split": "dev",
+      "hash_mod_5": 3
+    },
+    {
+      "subject": "ZM_1372",
+      "lab": "mainenlab",
+      "indexed_sessions": 4,
+      "table_sessions": 4,
+      "first_indexed_date": "2019-07-18",
+      "last_indexed_date": "2019-07-23",
+      "split": "animal_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "ZM_1743",
+      "lab": "mainenlab",
+      "indexed_sessions": 4,
+      "table_sessions": 4,
+      "first_indexed_date": "2019-06-11",
+      "last_indexed_date": "2019-06-14",
+      "split": "dev",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "ZM_1745",
+      "lab": "mainenlab",
+      "indexed_sessions": 6,
+      "table_sessions": 6,
+      "first_indexed_date": "2019-06-11",
+      "last_indexed_date": "2019-06-18",
+      "split": "dev",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "ZM_1746",
+      "lab": "mainenlab",
+      "indexed_sessions": 1,
+      "table_sessions": 1,
+      "first_indexed_date": "2019-07-17",
+      "last_indexed_date": "2019-07-17",
+      "split": "dev",
+      "hash_mod_5": 3
+    },
+    {
+      "subject": "ZM_1897",
+      "lab": "mainenlab",
+      "indexed_sessions": 13,
+      "table_sessions": 13,
+      "first_indexed_date": "2019-09-17",
+      "last_indexed_date": "2019-10-09",
+      "split": "dev",
+      "hash_mod_5": 3
+    },
+    {
+      "subject": "ZM_1898",
+      "lab": "mainenlab",
+      "indexed_sessions": 33,
+      "table_sessions": 33,
+      "first_indexed_date": "2019-09-17",
+      "last_indexed_date": "2019-11-20",
+      "split": "dev",
+      "hash_mod_5": 3
+    },
+    {
+      "subject": "ZM_1928",
+      "lab": "mainenlab",
+      "indexed_sessions": 46,
+      "table_sessions": 46,
+      "first_indexed_date": "2019-09-17",
+      "last_indexed_date": "2019-12-06",
+      "split": "dev",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "ZM_2106",
+      "lab": "mainenlab",
+      "indexed_sessions": 34,
+      "table_sessions": 34,
+      "first_indexed_date": "2019-09-17",
+      "last_indexed_date": "2019-11-21",
+      "split": "dev",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "ZM_2107",
+      "lab": "mainenlab",
+      "indexed_sessions": 14,
+      "table_sessions": 14,
+      "first_indexed_date": "2019-09-17",
+      "last_indexed_date": "2019-10-09",
+      "split": "dev",
+      "hash_mod_5": 3
+    },
+    {
+      "subject": "ZM_2240",
+      "lab": "mainenlab",
+      "indexed_sessions": 13,
+      "table_sessions": 13,
+      "first_indexed_date": "2019-11-19",
+      "last_indexed_date": "2019-12-05",
+      "split": "dev",
+      "hash_mod_5": 2
+    },
+    {
+      "subject": "ZM_2241",
+      "lab": "mainenlab",
+      "indexed_sessions": 22,
+      "table_sessions": 22,
+      "first_indexed_date": "2019-11-19",
+      "last_indexed_date": "2019-12-18",
+      "split": "dev",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "ZM_2245",
+      "lab": "mainenlab",
+      "indexed_sessions": 18,
+      "table_sessions": 18,
+      "first_indexed_date": "2019-11-19",
+      "last_indexed_date": "2019-12-12",
+      "split": "dev",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "ZM_3001",
+      "lab": "mainenlab",
+      "indexed_sessions": 20,
+      "table_sessions": 20,
+      "first_indexed_date": "2020-02-11",
+      "last_indexed_date": "2020-03-13",
+      "split": "animal_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "ZM_3002",
+      "lab": "mainenlab",
+      "indexed_sessions": 21,
+      "table_sessions": 21,
+      "first_indexed_date": "2020-02-11",
+      "last_indexed_date": "2020-03-13",
+      "split": "dev",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "ZM_3003",
+      "lab": "mainenlab",
+      "indexed_sessions": 20,
+      "table_sessions": 20,
+      "first_indexed_date": "2020-02-11",
+      "last_indexed_date": "2020-03-12",
+      "split": "dev",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "ZM_3004",
+      "lab": "mainenlab",
+      "indexed_sessions": 17,
+      "table_sessions": 17,
+      "first_indexed_date": "2020-02-11",
+      "last_indexed_date": "2020-03-04",
+      "split": "animal_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "ZM_3005",
+      "lab": "mainenlab",
+      "indexed_sessions": 17,
+      "table_sessions": 17,
+      "first_indexed_date": "2020-02-11",
+      "last_indexed_date": "2020-03-09",
+      "split": "dev",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "ZM_3006",
+      "lab": "mainenlab",
+      "indexed_sessions": 18,
+      "table_sessions": 18,
+      "first_indexed_date": "2020-02-11",
+      "last_indexed_date": "2020-03-09",
+      "split": "animal_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "IBL_001",
+      "lab": "mrsicflogellab",
+      "indexed_sessions": 13,
+      "table_sessions": 12,
+      "first_indexed_date": "2019-06-11",
+      "last_indexed_date": "2019-06-27",
+      "split": "excluded_incomplete_tables",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "SWC_004",
+      "lab": "mrsicflogellab",
+      "indexed_sessions": 18,
+      "table_sessions": 18,
+      "first_indexed_date": "2019-06-11",
+      "last_indexed_date": "2019-07-04",
+      "split": "animal_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "SWC_016",
+      "lab": "mrsicflogellab",
+      "indexed_sessions": 32,
+      "table_sessions": 32,
+      "first_indexed_date": "2019-08-09",
+      "last_indexed_date": "2019-10-04",
+      "split": "dev",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "SWC_017",
+      "lab": "mrsicflogellab",
+      "indexed_sessions": 54,
+      "table_sessions": 31,
+      "first_indexed_date": "2019-08-12",
+      "last_indexed_date": "2019-11-21",
+      "split": "excluded_incomplete_tables",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "SWC_018",
+      "lab": "mrsicflogellab",
+      "indexed_sessions": 66,
+      "table_sessions": 40,
+      "first_indexed_date": "2019-08-12",
+      "last_indexed_date": "2020-01-24",
+      "split": "excluded_incomplete_tables",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "SWC_022",
+      "lab": "mrsicflogellab",
+      "indexed_sessions": 26,
+      "table_sessions": 22,
+      "first_indexed_date": "2019-08-27",
+      "last_indexed_date": "2019-10-10",
+      "split": "excluded_incomplete_tables",
+      "hash_mod_5": 3
+    },
+    {
+      "subject": "SWC_023",
+      "lab": "mrsicflogellab",
+      "indexed_sessions": 12,
+      "table_sessions": 12,
+      "first_indexed_date": "2019-08-27",
+      "last_indexed_date": "2019-09-20",
+      "split": "animal_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "SWC_029",
+      "lab": "mrsicflogellab",
+      "indexed_sessions": 68,
+      "table_sessions": 55,
+      "first_indexed_date": "2019-11-18",
+      "last_indexed_date": "2020-03-16",
+      "split": "excluded_incomplete_tables",
+      "hash_mod_5": 3
+    },
+    {
+      "subject": "SWC_030",
+      "lab": "mrsicflogellab",
+      "indexed_sessions": 66,
+      "table_sessions": 50,
+      "first_indexed_date": "2019-11-18",
+      "last_indexed_date": "2020-03-09",
+      "split": "excluded_incomplete_tables",
+      "hash_mod_5": 3
+    },
+    {
+      "subject": "SWC_035",
+      "lab": "mrsicflogellab",
+      "indexed_sessions": 41,
+      "table_sessions": 41,
+      "first_indexed_date": "2020-01-27",
+      "last_indexed_date": "2020-03-23",
+      "split": "animal_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "SWC_036",
+      "lab": "mrsicflogellab",
+      "indexed_sessions": 42,
+      "table_sessions": 42,
+      "first_indexed_date": "2020-01-27",
+      "last_indexed_date": "2020-03-23",
+      "split": "dev",
+      "hash_mod_5": 3
+    },
+    {
+      "subject": "SWC_038",
+      "lab": "mrsicflogellab",
+      "indexed_sessions": 28,
+      "table_sessions": 28,
+      "first_indexed_date": "2020-02-17",
+      "last_indexed_date": "2020-03-23",
+      "split": "dev",
+      "hash_mod_5": 2
+    },
+    {
+      "subject": "SWC_039",
+      "lab": "mrsicflogellab",
+      "indexed_sessions": 28,
+      "table_sessions": 28,
+      "first_indexed_date": "2020-02-17",
+      "last_indexed_date": "2020-03-23",
+      "split": "dev",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "SWC_040",
+      "lab": "mrsicflogellab",
+      "indexed_sessions": 27,
+      "table_sessions": 27,
+      "first_indexed_date": "2020-02-17",
+      "last_indexed_date": "2020-03-23",
+      "split": "dev",
+      "hash_mod_5": 2
+    },
+    {
+      "subject": "ibl_witten_05",
+      "lab": "wittenlab",
+      "indexed_sessions": 3,
+      "table_sessions": 3,
+      "first_indexed_date": "2019-08-23",
+      "last_indexed_date": "2019-08-27",
+      "split": "lab_holdout",
+      "hash_mod_5": 2
+    },
+    {
+      "subject": "ibl_witten_06",
+      "lab": "wittenlab",
+      "indexed_sessions": 1,
+      "table_sessions": 1,
+      "first_indexed_date": "2019-08-22",
+      "last_indexed_date": "2019-08-22",
+      "split": "lab_holdout",
+      "hash_mod_5": 2
+    },
+    {
+      "subject": "ibl_witten_07",
+      "lab": "wittenlab",
+      "indexed_sessions": 1,
+      "table_sessions": 1,
+      "first_indexed_date": "2019-07-12",
+      "last_indexed_date": "2019-07-12",
+      "split": "lab_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "ibl_witten_11",
+      "lab": "wittenlab",
+      "indexed_sessions": 38,
+      "table_sessions": 38,
+      "first_indexed_date": "2019-07-08",
+      "last_indexed_date": "2019-08-26",
+      "split": "lab_holdout",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "ibl_witten_12",
+      "lab": "wittenlab",
+      "indexed_sessions": 8,
+      "table_sessions": 8,
+      "first_indexed_date": "2019-07-08",
+      "last_indexed_date": "2019-07-17",
+      "split": "lab_holdout",
+      "hash_mod_5": 2
+    },
+    {
+      "subject": "ibl_witten_13",
+      "lab": "wittenlab",
+      "indexed_sessions": 15,
+      "table_sessions": 15,
+      "first_indexed_date": "2019-08-08",
+      "last_indexed_date": "2019-08-28",
+      "split": "lab_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "ibl_witten_14",
+      "lab": "wittenlab",
+      "indexed_sessions": 7,
+      "table_sessions": 7,
+      "first_indexed_date": "2019-08-08",
+      "last_indexed_date": "2019-08-16",
+      "split": "lab_holdout",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "ibl_witten_15",
+      "lab": "wittenlab",
+      "indexed_sessions": 25,
+      "table_sessions": 25,
+      "first_indexed_date": "2019-08-08",
+      "last_indexed_date": "2019-09-18",
+      "split": "lab_holdout",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "ibl_witten_16",
+      "lab": "wittenlab",
+      "indexed_sessions": 15,
+      "table_sessions": 15,
+      "first_indexed_date": "2019-08-08",
+      "last_indexed_date": "2019-08-28",
+      "split": "lab_holdout",
+      "hash_mod_5": 2
+    },
+    {
+      "subject": "ibl_witten_17",
+      "lab": "wittenlab",
+      "indexed_sessions": 16,
+      "table_sessions": 16,
+      "first_indexed_date": "2020-02-20",
+      "last_indexed_date": "2020-03-10",
+      "split": "lab_holdout",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "ibl_witten_18",
+      "lab": "wittenlab",
+      "indexed_sessions": 21,
+      "table_sessions": 21,
+      "first_indexed_date": "2020-02-20",
+      "last_indexed_date": "2020-03-20",
+      "split": "lab_holdout",
+      "hash_mod_5": 2
+    },
+    {
+      "subject": "ibl_witten_19",
+      "lab": "wittenlab",
+      "indexed_sessions": 12,
+      "table_sessions": 12,
+      "first_indexed_date": "2020-02-20",
+      "last_indexed_date": "2020-03-06",
+      "split": "lab_holdout",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "ibl_witten_20",
+      "lab": "wittenlab",
+      "indexed_sessions": 22,
+      "table_sessions": 22,
+      "first_indexed_date": "2020-02-20",
+      "last_indexed_date": "2020-03-20",
+      "split": "lab_holdout",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "ibl_witten_21",
+      "lab": "wittenlab",
+      "indexed_sessions": 4,
+      "table_sessions": 4,
+      "first_indexed_date": "2020-03-12",
+      "last_indexed_date": "2020-03-16",
+      "split": "lab_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "ibl_witten_22",
+      "lab": "wittenlab",
+      "indexed_sessions": 3,
+      "table_sessions": 3,
+      "first_indexed_date": "2020-03-12",
+      "last_indexed_date": "2020-03-16",
+      "split": "lab_holdout",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "ibl_witten_23",
+      "lab": "wittenlab",
+      "indexed_sessions": 3,
+      "table_sessions": 3,
+      "first_indexed_date": "2020-03-12",
+      "last_indexed_date": "2020-03-16",
+      "split": "lab_holdout",
+      "hash_mod_5": 2
+    },
+    {
+      "subject": "ibl_witten_24",
+      "lab": "wittenlab",
+      "indexed_sessions": 3,
+      "table_sessions": 3,
+      "first_indexed_date": "2020-03-12",
+      "last_indexed_date": "2020-03-16",
+      "split": "lab_holdout",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "CSH_ZAD_001",
+      "lab": "zadorlab",
+      "indexed_sessions": 20,
+      "table_sessions": 20,
+      "first_indexed_date": "2019-08-09",
+      "last_indexed_date": "2019-09-05",
+      "split": "dev",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "CSH_ZAD_002",
+      "lab": "zadorlab",
+      "indexed_sessions": 15,
+      "table_sessions": 15,
+      "first_indexed_date": "2019-08-09",
+      "last_indexed_date": "2019-08-30",
+      "split": "dev",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "CSH_ZAD_003",
+      "lab": "zadorlab",
+      "indexed_sessions": 16,
+      "table_sessions": 16,
+      "first_indexed_date": "2019-08-09",
+      "last_indexed_date": "2019-08-30",
+      "split": "dev",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "CSH_ZAD_004",
+      "lab": "zadorlab",
+      "indexed_sessions": 17,
+      "table_sessions": 17,
+      "first_indexed_date": "2019-08-09",
+      "last_indexed_date": "2019-08-30",
+      "split": "animal_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "CSH_ZAD_005",
+      "lab": "zadorlab",
+      "indexed_sessions": 18,
+      "table_sessions": 18,
+      "first_indexed_date": "2019-08-09",
+      "last_indexed_date": "2019-09-05",
+      "split": "dev",
+      "hash_mod_5": 2
+    },
+    {
+      "subject": "CSH_ZAD_006",
+      "lab": "zadorlab",
+      "indexed_sessions": 10,
+      "table_sessions": 10,
+      "first_indexed_date": "2019-08-19",
+      "last_indexed_date": "2019-09-06",
+      "split": "animal_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "CSH_ZAD_007",
+      "lab": "zadorlab",
+      "indexed_sessions": 9,
+      "table_sessions": 9,
+      "first_indexed_date": "2019-08-19",
+      "last_indexed_date": "2019-09-03",
+      "split": "dev",
+      "hash_mod_5": 2
+    },
+    {
+      "subject": "CSH_ZAD_009",
+      "lab": "zadorlab",
+      "indexed_sessions": 22,
+      "table_sessions": 22,
+      "first_indexed_date": "2019-08-19",
+      "last_indexed_date": "2019-10-02",
+      "split": "dev",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "CSH_ZAD_010",
+      "lab": "zadorlab",
+      "indexed_sessions": 6,
+      "table_sessions": 6,
+      "first_indexed_date": "2019-08-19",
+      "last_indexed_date": "2019-08-30",
+      "split": "dev",
+      "hash_mod_5": 2
+    },
+    {
+      "subject": "CSH_ZAD_011",
+      "lab": "zadorlab",
+      "indexed_sessions": 28,
+      "table_sessions": 28,
+      "first_indexed_date": "2020-01-10",
+      "last_indexed_date": "2020-02-18",
+      "split": "dev",
+      "hash_mod_5": 2
+    },
+    {
+      "subject": "CSH_ZAD_015",
+      "lab": "zadorlab",
+      "indexed_sessions": 24,
+      "table_sessions": 24,
+      "first_indexed_date": "2020-02-20",
+      "last_indexed_date": "2020-03-22",
+      "split": "dev",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "CSH_ZAD_016",
+      "lab": "zadorlab",
+      "indexed_sessions": 22,
+      "table_sessions": 22,
+      "first_indexed_date": "2020-02-20",
+      "last_indexed_date": "2020-03-22",
+      "split": "dev",
+      "hash_mod_5": 2
+    },
+    {
+      "subject": "CSH_ZAD_017",
+      "lab": "zadorlab",
+      "indexed_sessions": 23,
+      "table_sessions": 23,
+      "first_indexed_date": "2020-02-20",
+      "last_indexed_date": "2020-03-22",
+      "split": "dev",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "CSH_ZAD_018",
+      "lab": "zadorlab",
+      "indexed_sessions": 23,
+      "table_sessions": 23,
+      "first_indexed_date": "2020-02-20",
+      "last_indexed_date": "2020-03-22",
+      "split": "animal_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "CSH_ZAD_019",
+      "lab": "zadorlab",
+      "indexed_sessions": 24,
+      "table_sessions": 24,
+      "first_indexed_date": "2020-02-20",
+      "last_indexed_date": "2020-03-22",
+      "split": "animal_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "CSH_ZAD_021",
+      "lab": "zadorlab",
+      "indexed_sessions": 22,
+      "table_sessions": 22,
+      "first_indexed_date": "2020-02-25",
+      "last_indexed_date": "2020-03-22",
+      "split": "dev",
+      "hash_mod_5": 1
+    },
+    {
+      "subject": "CSH_ZAD_022",
+      "lab": "zadorlab",
+      "indexed_sessions": 18,
+      "table_sessions": 18,
+      "first_indexed_date": "2020-02-25",
+      "last_indexed_date": "2020-03-17",
+      "split": "animal_holdout",
+      "hash_mod_5": 0
+    },
+    {
+      "subject": "CSH_ZAD_023",
+      "lab": "zadorlab",
+      "indexed_sessions": 22,
+      "table_sessions": 22,
+      "first_indexed_date": "2020-02-25",
+      "last_indexed_date": "2020-03-22",
+      "split": "dev",
+      "hash_mod_5": 4
+    },
+    {
+      "subject": "CSH_ZAD_024",
+      "lab": "zadorlab",
+      "indexed_sessions": 20,
+      "table_sessions": 20,
+      "first_indexed_date": "2020-02-25",
+      "last_indexed_date": "2020-03-22",
+      "split": "dev",
+      "hash_mod_5": 4
+    }
+  ],
+  "external_strict_prefix": [
+    "fip_13",
+    "fip_14",
+    "fip_15",
+    "fip_26",
+    "fip_27",
+    "fip_28",
+    "fip_29",
+    "fip_30",
+    "fip_31",
+    "fip_32",
+    "fip_33",
+    "fip_34",
+    "fip_35",
+    "fip_36",
+    "fip_37",
+    "fip_39",
+    "fip_40",
+    "fip_41",
+    "fip_42",
+    "fip_43"
+  ],
+  "external_prefix_gap_excluded": [
+    "fip_16",
+    "fip_38"
+  ],
+  "external_status": "sealed; only metadata and prior sample schema/rowcount known",
+  "prior_exposure": [
+    {
+      "subject": "CSHL034",
+      "date": "2019-10-01",
+      "session": 1,
+      "role": "source feasibility",
+      "scope": "schema,rowcount,bytes,hash only; no outcomes"
+    },
+    {
+      "subject": "fip_13",
+      "date": "2021-03-05",
+      "session": 1,
+      "role": "external feasibility",
+      "scope": "schema,rowcount,bytes,hash only; no outcomes"
+    }
+  ],
+  "limitation": "Complete indexed tables do not certify biological first exposure; short and discontinued histories are included with prespecified exposure/censoring treatment."
+}

@@ -1,0 +1,315 @@
+{
+  "utc": "2026-11-05T14:18:38.512995+00:00",
+  "source_reference": [
+    {
+      "subject": "CSH_ZAD_007",
+      "cutoff": 200,
+      "model": "growth",
+      "particles": 16,
+      "max_count_error": 0
+    },
+    {
+      "subject": "CSH_ZAD_007",
+      "cutoff": 200,
+      "model": "recent_growth",
+      "particles": 16,
+      "max_count_error": 0
+    },
+    {
+      "subject": "CSH_ZAD_007",
+      "cutoff": 200,
+      "model": "gru",
+      "particles": 16,
+      "max_count_error": 0
+    },
+    {
+      "subject": "CSH_ZAD_007",
+      "cutoff": 1000,
+      "model": "growth",
+      "particles": 16,
+      "max_count_error": 0
+    },
+    {
+      "subject": "CSH_ZAD_007",
+      "cutoff": 1000,
+      "model": "recent_growth",
+      "particles": 16,
+      "max_count_error": 0
+    },
+    {
+      "subject": "CSH_ZAD_007",
+      "cutoff": 1000,
+      "model": "gru",
+      "particles": 16,
+      "max_count_error": 0
+    }
+  ],
+  "conditional_engagement_equal_site": {
+    "200": {
+      "primary_offset": {
+        "log_loss": 0.08823567966814214,
+        "brier": 0.015284359241592892,
+        "predicted_rate": 0.0034185484695775418,
+        "observed_rate": 0.015416666666666667
+      },
+      "source_calibrated_engagement": {
+        "log_loss": 0.07502753271941397,
+        "brier": 0.014461068832914006,
+        "predicted_rate": 0.009300409293064091,
+        "observed_rate": 0.015416666666666667
+      }
+    },
+    "1000": {
+      "primary_offset": {
+        "log_loss": 0.05834622122660728,
+        "brier": 0.01286215163250771,
+        "predicted_rate": 0.007610009504851566,
+        "observed_rate": 0.013433333333333334
+      },
+      "source_calibrated_engagement": {
+        "log_loss": 0.06166969149977212,
+        "brier": 0.014181086653301905,
+        "predicted_rate": 0.011691990648127462,
+        "observed_rate": 0.013433333333333334
+      }
+    }
+  },
+  "one_source_perturbation": {
+    "200": {
+      "growth": {
+        "equal_animal_score_shift": -0.005242136268294434,
+        "equal_animal_accuracy_mae_shift": -0.0044349149232312535,
+        "per_animal": [
+          {
+            "subject": "CSHL053",
+            "mixed_score_shift": -0.040694721616814256,
+            "accuracy_mae_shift": -0.04632824685123449
+          },
+          {
+            "subject": "CSHL058",
+            "mixed_score_shift": 0.010236638742119872,
+            "accuracy_mae_shift": -0.017660199825841216
+          },
+          {
+            "subject": "CSHL059",
+            "mixed_score_shift": -0.06156812573235736,
+            "accuracy_mae_shift": -0.0813457832117675
+          },
+          {
+            "subject": "KS002",
+            "mixed_score_shift": 0.0030724623957926883,
+            "accuracy_mae_shift": -0.020421538988494914
+          },
+          {
+            "subject": "DY_015",
+            "mixed_score_shift": 0.07920571421944969,
+            "accuracy_mae_shift": 0.1633582998747094
+          },
+          {
+            "subject": "ZM_1743",
+            "mixed_score_shift": -0.012821349235180635,
+            "accuracy_mae_shift": -0.031049110004512936
+          },
+          {
+            "subject": "ZM_2240",
+            "mixed_score_shift": -0.0058429409164889035,
+            "accuracy_mae_shift": 0.004693730573975374
+          },
+          {
+            "subject": "ZM_2241",
+            "mixed_score_shift": 0.02006279103121597,
+            "accuracy_mae_shift": 0.029804908017805887
+          },
+          {
+            "subject": "CSH_ZAD_005",
+            "mixed_score_shift": -0.04631645594760021,
+            "accuracy_mae_shift": -0.040251992585523866
+          },
+          {
+            "subject": "CSH_ZAD_007",
+            "mixed_score_shift": 0.0022446243769188023,
+            "accuracy_mae_shift": -0.0051492162314282774
+          }
+        ]
+      },
+      "recent_growth": {
+        "equal_animal_score_shift": -0.002385823154217834,
+        "equal_animal_accuracy_mae_shift": -0.0019988920852745144,
+        "per_animal": [
+          {
+            "subject": "CSHL053",
+            "mixed_score_shift": -0.009994624031574362,
+            "accuracy_mae_shift": -0.013788445946403438
+          },
+          {
+            "subject": "CSHL058",
+            "mixed_score_shift": -0.005832397737911568,
+            "accuracy_mae_shift": -0.013710523482791781
+          },
+          {
+            "subject": "CSHL059",
+            "mixed_score_shift": -0.030801064199729417,
+            "accuracy_mae_shift": -0.03404199213988279
+          },
+          {
+            "subject": "KS002",
+            "mixed_score_shift": -0.00025094202401480803,
+            "accuracy_mae_shift": -0.020117317464014184
+          },
+          {
+            "subject": "DY_015",
+            "mixed_score_shift": 0.04593436412926741,
+            "accuracy_mae_shift": 0.08589817996161364
+          },
+          {
+            "subject": "ZM_1743",
+            "mixed_score_shift": 0.005261793736287823,
+            "accuracy_mae_shift": -0.00757055692140135
+          },
+          {
+            "subject": "ZM_2240",
+            "mixed_score_shift": -0.011951354677796622,
+            "accuracy_mae_shift": -0.015382031323557172
+          },
+          {
+            "subject": "ZM_2241",
+            "mixed_score_shift": -0.003817093431218707,
+            "accuracy_mae_shift": 0.014587668386941477
+          },
+          {
+            "subject": "CSH_ZAD_005",
+            "mixed_score_shift": -0.03388893724729379,
+            "accuracy_mae_shift": -0.032264548813760174
+          },
+          {
+            "subject": "CSH_ZAD_007",
+            "mixed_score_shift": 0.021482023941805706,
+            "accuracy_mae_shift": 0.01640064689051063
+          }
+        ]
+      }
+    },
+    "1000": {
+      "growth": {
+        "equal_animal_score_shift": -0.0011035905047071947,
+        "equal_animal_accuracy_mae_shift": 0.0040008097012331914,
+        "per_animal": [
+          {
+            "subject": "CSHL053",
+            "mixed_score_shift": -0.0052479233832014825,
+            "accuracy_mae_shift": 0.0018080771852502578
+          },
+          {
+            "subject": "CSHL058",
+            "mixed_score_shift": 0.0013594271158619275,
+            "accuracy_mae_shift": 0.023724918100238607
+          },
+          {
+            "subject": "CSHL059",
+            "mixed_score_shift": -0.013473679093931323,
+            "accuracy_mae_shift": 0.01032606838509706
+          },
+          {
+            "subject": "KS002",
+            "mixed_score_shift": 0.008501353660455027,
+            "accuracy_mae_shift": 0.009058616211669257
+          },
+          {
+            "subject": "DY_015",
+            "mixed_score_shift": -0.0014568170708560702,
+            "accuracy_mae_shift": 0.0018868034407481526
+          },
+          {
+            "subject": "ZM_1743",
+            "mixed_score_shift": 0.008594697335147686,
+            "accuracy_mae_shift": 0.024799574286165027
+          },
+          {
+            "subject": "ZM_2240",
+            "mixed_score_shift": 0.003964892370863504,
+            "accuracy_mae_shift": -0.002484760315804857
+          },
+          {
+            "subject": "ZM_2241",
+            "mixed_score_shift": -0.004003170221337678,
+            "accuracy_mae_shift": -0.013081309240928263
+          },
+          {
+            "subject": "CSH_ZAD_005",
+            "mixed_score_shift": -0.012494445145910443,
+            "accuracy_mae_shift": -0.02356946589511788
+          },
+          {
+            "subject": "CSH_ZAD_007",
+            "mixed_score_shift": 0.0032197593858369067,
+            "accuracy_mae_shift": 0.0075395748550145525
+          }
+        ]
+      },
+      "recent_growth": {
+        "equal_animal_score_shift": -0.0020253229954899977,
+        "equal_animal_accuracy_mae_shift": -0.0035195414191594348,
+        "per_animal": [
+          {
+            "subject": "CSHL053",
+            "mixed_score_shift": -0.01902762433504951,
+            "accuracy_mae_shift": -0.02662326606102021
+          },
+          {
+            "subject": "CSHL058",
+            "mixed_score_shift": 0.016481118614979653,
+            "accuracy_mae_shift": 0.02326957542248126
+          },
+          {
+            "subject": "CSHL059",
+            "mixed_score_shift": -0.013293093650787229,
+            "accuracy_mae_shift": 0.022394871249333814
+          },
+          {
+            "subject": "KS002",
+            "mixed_score_shift": 0.008293203948095601,
+            "accuracy_mae_shift": 0.016842739970043097
+          },
+          {
+            "subject": "DY_015",
+            "mixed_score_shift": -0.004989660073241975,
+            "accuracy_mae_shift": -0.003580876321109039
+          },
+          {
+            "subject": "ZM_1743",
+            "mixed_score_shift": 0.0072948437285694084,
+            "accuracy_mae_shift": 0.0008885538231184764
+          },
+          {
+            "subject": "ZM_2240",
+            "mixed_score_shift": -0.004582791465397779,
+            "accuracy_mae_shift": -0.018411126511454823
+          },
+          {
+            "subject": "ZM_2241",
+            "mixed_score_shift": -0.02194998275699149,
+            "accuracy_mae_shift": -0.0509863879347536
+          },
+          {
+            "subject": "CSH_ZAD_005",
+            "mixed_score_shift": -0.0003593403507090309,
+            "accuracy_mae_shift": -0.017281469153841378
+          },
+          {
+            "subject": "CSH_ZAD_007",
+            "mixed_score_shift": 0.011880096385632373,
+            "accuracy_mae_shift": 0.01829197132560806
+          }
+        ]
+      }
+    }
+  },
+  "interpretation": "Reference agreement is implementation fidelity, not independent scientific/biological validation; one perturbation is not a source confidence interval.",
+  "process_wall_seconds": 3.9202504589920864,
+  "scientific_cpu_seconds": 3.916935,
+  "io": {
+    "explicit_read_bytes": 1652095,
+    "decoded_array_bytes": 1979576
+  },
+  "peak_rss_bytes": 218775552
+}

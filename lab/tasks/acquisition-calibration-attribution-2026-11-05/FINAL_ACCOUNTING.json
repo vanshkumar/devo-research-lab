@@ -1,0 +1,123 @@
+{
+  "disposition": "HOLD; old-64 development complete; conditional tranches unfunded",
+  "closeReadbackUtc": "2026-11-05 23:30:39 UTC",
+  "elapsedSecondsSinceFirstTurn": 1115,
+  "firstTurn": {
+    "threadId": "01a1adfb-d352-72c2-b020-b5440f78f6b7",
+    "turnId": "01a1adfb-d3de-7652-bf3e-8206e5846b2e",
+    "hostId": "local",
+    "startedAt": 1793920324,
+    "startedUtc": "2026-11-05T23:12:04.000Z",
+    "source": "native read_thread turns[0].startedAt"
+  },
+  "deadline": {
+    "unix": 1793926324,
+    "utc": "2026-11-06T00:52:04.000Z",
+    "elapsedMinutes": 100
+  },
+  "scientificStopReadback": {
+    "utc": "2026-11-05 23:27:03 UTC",
+    "remaining": 35,
+    "secondary": null,
+    "individual": null,
+    "ordinaryUsageAllowed": true
+  },
+  "allowanceCheckpoints": {
+    "start": {
+      "source": "native get_usage_limits before create_goal",
+      "recordedNoLaterThanUtc": "2026-11-05 23:12:21 UTC",
+      "ordinaryUsageAllowed": true,
+      "weeklyUsedPercent": 63,
+      "weeklyRemainingPercent": 37,
+      "weeklyResetsAt": 1794445923,
+      "secondary": null,
+      "individual": null,
+      "unavailableMeans": "unknown",
+      "scientificStopRemainingPercent": 35,
+      "humanReservePercent": 25
+    },
+    "provenanceCheck": {
+      "utc": "2026-11-05 23:15:37 UTC",
+      "remaining": 37,
+      "secondary": null,
+      "individual": null,
+      "ordinaryUsageAllowed": true
+    },
+    "methodFreeze": {
+      "utc": "2026-11-05 23:19:11 UTC",
+      "remaining": 37,
+      "secondary": null,
+      "individual": null,
+      "ordinaryUsageAllowed": true
+    },
+    "prelaunch": {
+      "utc": "2026-11-05 23:25:08 UTC",
+      "weeklyUsedPercent": 64,
+      "weeklyRemainingPercent": 36,
+      "weeklyResetsAt": 1794445923,
+      "secondary": null,
+      "individual": null,
+      "ordinaryUsageAllowed": true
+    },
+    "postBatch": {
+      "utc": "2026-11-05 23:25:28 UTC",
+      "remaining": 36,
+      "secondary": null,
+      "individual": null,
+      "ordinaryUsageAllowed": true
+    },
+    "scientificStop": {
+      "utc": "2026-11-05 23:27:03 UTC",
+      "remaining": 35,
+      "secondary": null,
+      "individual": null,
+      "ordinaryUsageAllowed": true
+    }
+  },
+  "measurement": {
+    "timedCommandExitCode": 1,
+    "runAccountingStatus": "complete",
+    "wrapperMessage": "time: sysctl kern.clockrate: Operation not permitted",
+    "elapsedWallSecondsOuter": 2.24,
+    "outerUserCpuSeconds": 1.74,
+    "outerSystemCpuSeconds": 0.16,
+    "peakRssBytes": 263602176,
+    "exactCompressedBodyBytes": 27260751,
+    "exactSelectedMemberUncompressedBytesBooked": 58746624,
+    "exactReadPlusDecodeBytes": 86007375,
+    "contextMetadataOutputHashAndInspectionBytesBookedEstimate": 2000000,
+    "totalReadPlusDecodeBytesBooked": 88007375,
+    "scienceCpuSecondsBooked": 5,
+    "ownedFileBytesBeforeAccountingAndNativeClose": 220761,
+    "ownedStorageBookedBytes": 250000,
+    "httpBodyIngressBytes": 0,
+    "caseLevel192BytesRead": 0,
+    "oldOrNewRawTrialAuxiliaryBytesRead": 0,
+    "maximumSimultaneousScientificProcesses": 1,
+    "terminalJobs": true,
+    "pendingScientificJobs": [],
+    "reruns": 0
+  },
+  "limitations": [
+    "Process CPU from wrapper is rounded to .01s. In-process CPU in RUN_ACCOUNTING excludes import startup.",
+    "The nonzero timing wrapper exit and complete in-process receipt are both retained.",
+    "Physical I/O, some runtime and provider/model costs and attribution of shared allowance movement are unknown.",
+    "Two selected samples members inflated their full multidimensional tensors; only the specified primary early two-actor endpoint slice entered the comparison."
+  ],
+  "artifactSha256AtClose": {
+    "BRIEF.md": "3c322c92c7a07f63408d2bbc35faae4eba35d8840f9e5e277f60db90fadfbde3",
+    "DEVELOPMENT_FREEZE.md": "8d4b4f43c9199de4c54314e62491c0dd410afaf9ce9b042f23e4578562461e74",
+    "calibrate.py": "dd622942a3c73559c9c70648f2f00958d5cf718fc4886fc64c99d17b59855fca",
+    "assess.py": "def2b6a70cb19d0bee256f1ed2cc6b4855b307267fc8334d2a5383c27f7a47d4",
+    "develop.py": "639c31e87ff1a87b6f45256be45306e8e8837af563792869f900948311357815",
+    "START_RECEIPT.json": "a0a470cae7a2cf5c29957b48f2030555a26f12d1d7b59b080f4a3bc9a224a2e3",
+    "PRELAUNCH_SEAL.json": "a7e6e602a1be12a217266e7981ccb188e0dc6cacced34a975f4c1907d042ca5d",
+    "CONTROLS.json": "157fbc0e12cc9d6a45de2137944dbcb130f11b4d9fded3c7993f1926c12d53e1",
+    "DEVELOPMENT.json": "f9aa6ee85e822688f8e7cb91dbca4377160db4f0b5198fd227f2cdc6d4d7c1d5",
+    "TRANSPORT_PLANNING.json": "71563a297740088d8acd781368ffa03f606f3c00b48a9417ca81a72cd3d871a4",
+    "RUN_ACCOUNTING.json": "a4262d23fc28f55cf5d6047e857f0a7bd05cb35e246e7cb1f3f0de3bae50a132",
+    "EXECUTION.log": "ba5c8f5dbabddd4b349a113c159b1426c3f7c9ae2109fe70f1b0ec35b0e15682",
+    "RESULT.md": "b799db89324e1cb6cd674f55380eaac350aaa470513c1c8d3017fe6ecbc6cb2d",
+    "CONDITIONAL_192.md": "4c35c2e522c67d638229547e6f75c6154f278770036b8dfb01e29f56e4bf84b0"
+  }
+}

@@ -1,0 +1,29 @@
+# Frozen finite pilot protocol
+
+2026-10-31, after source-code/structural inspection, before new receptor expression values. This is a reused-atlas pilot, not untouched confirmation. Target choice is biological and fixed here; it was not chosen from the downloaded GPCR values. All preceding all-gene atlas summaries, selected human cells, OXT/AVP results and published mapping remain exposed/consumed.
+
+## Primary question and exclusion
+
+Can a human–mouse correspondence inferred without neuropeptide/hormone receptor genes predict those genes beyond broad cell identity and gene abundance? Strongest alternative: identity/abundance or using these same genes in correspondence construction explains agreement.
+
+Fixed target set (54 symbols, actual count checked by code): OXTR, AVPR1A, AVPR1B, AVPR2, MC3R, MC4R, LEPR, GHSR, HCRTR1, HCRTR2, NPY1R, NPY2R, NPY4R, NPY5R, CRHR1, CRHR2, GNRHR, KISS1R, GALR1, GALR2, GALR3, SSTR1, SSTR2, SSTR3, SSTR4, SSTR5, NTSR1, NTSR2, TACR1, TACR2, TACR3, TRHR, PRLHR, QRFPR, NMUR1, NMUR2, RXFP1, RXFP2, SCTR, CALCR, CALCRL, GLP1R, GIPR, GCGR, PTH1R, PTH2R, OPRM1, OPRD1, OPRK1, NPBWR1, NPBWR2, UTS2R, PROKR1, PROKR2. This includes the non-GPCR LEPR deliberately as a hormone-signaling receptor. It is a scoped panel, not an exhaustive ontology. Ortholog identity must be source-linked, not inferred merely from capitalization.
+
+Before any prediction claim, inspect exact published cross-species feature membership, normalization, ortholog conversion and inherited clustering. Count direct target overlap and document dependencies. Matching must be recomputed with all54 targets excluded from feature selection, input expression, latent construction and model selection; evaluation must not select genes for human/mouse specificity. Reused clusters allow only conditional cluster-level prediction, never validation of independent type discovery. Donor/cohort replication requires actual donor-resolved observations; clusters/genes are not donor replicates.
+
+## Feasible primary assay
+
+Use existing assets and inspect public object metadata before extraction. If compatible all-feature human and mouse cluster/donor observations fit the original finite allocation, construct a simple rank/correlation match using non-target ortholog features, fixed within broad neurotransmitter class. No architecture/parameter sweep. Predict receptor log1p expression from the selected mouse correspondence. Primary loss is equal-gene/equal-cluster squared error after training-only species gene-abundance calibration. Baselines: class-specific mean per gene, overall abundance per gene, and class-preserving shuffled correspondence. Report donor-resolved paired differences where actual independent donors exist; otherwise explicitly conditional finite-table differences without biological confidence intervals.
+
+Positive control: identical known correspondence/target-blind duplicated expression should select self and beat random matching. Negative control: shuffle correspondence within class, preserving each mouse expression vector and gene abundances. One prespecified consequential sensitivity: compare raw log-expression agreement with class/gene-centered agreement; retain the original outcome and label postvalidation diagnostics.
+
+## Exact blocker fallback, within the same question
+
+If compatible non-target matching inputs/donor-resolved outputs are unavailable within the20-request/100MB/1GB limits, stop the independent-prediction claim. Perform a finite obstruction test using all four small, published GPCR expression tables at the pinned commit (three POMC subtypes, one AGRP), if their actual schema supports it. These tables were selected by the original author from either species' top markers and manual additions. They are therefore explicitly selected, consumed, conditional observations, never held genes or evidence of general conservation.
+
+For all three POMC subtypes, take only receptors present in all three author tables, without imputing missing entries as zero. Use source-supplied human/mouse ortholog pairs. Compare the author pairing with all six subtype permutations, leaving whole gene-expression vectors intact. Compute log1p-expression squared error for each permutation, and separately remove each gene's within-species mean across the three POMC subtypes to test subtype identity beyond gene abundance. Baseline predicts each human gene's three-subtype mean; identity score improvement over it is descriptive and uses the observed human table, so it is a deliberately strong conditional obstacle check, not a deployable forecast. Display every pair/permutation and per-gene contribution; no biological p-value or confidence interval. Positive control uses the human matrix as both species; negative control enumerates all permutations. Report target-feature overlap among this common panel. AGRP is a broad-class comparator only where gene panels intersect; do not infer absent expression from absent selected rows.
+
+Interpretation: direct feature overlap or loss of advantage after within-gene centering can falsify an independent held-gene interpretation for this assay. Neither can establish that conserved biology is absent or that the original atlas authors claimed held-gene prediction. Lack of compatible full observations is an operational blocker, not structural impossibility in future data. If common POMC panel is too small or source tables are not comparable, report that exact limitation and quantify the feature/selection obstacle; do not shift to peptide coexpression or a species classifier.
+
+## Resources and stop
+
+Deadline20:48:30UTC; original limits unchanged. Preserve every failed pass. One process/one numerical thread,2GB RSS; no full H5AD and no storage-size traversal. No protected/other-branch data. Save exact source pins, numerical outputs and accounting. A fresh independent reviewer belongs to the PI; this worker does not dispatch it.

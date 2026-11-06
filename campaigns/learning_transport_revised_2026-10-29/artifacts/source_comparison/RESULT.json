@@ -1,0 +1,1770 @@
+{
+  "date": "2026-10-29",
+  "scope": "finite consumed-source development comparison; no new confirmation",
+  "n_animals": 64,
+  "n_labs": 9,
+  "n_particles": 512,
+  "target": "equal-side exact100 correct share, omissions failures,1000prefix+3000future,6x500bins",
+  "observed_curve": [
+    0.5298504558064546,
+    0.5606604760148841,
+    0.5890770893287934,
+    0.6019019512833269,
+    0.6272590761243166,
+    0.657989820188227
+  ],
+  "minimum_side_denominator": 27,
+  "metrics": {
+    "existing": {
+      "equal_lab_curve_mae": 0.056438913161716536,
+      "by_lab_curve_mae": {
+        "angelakilab": 0.03513426336553813,
+        "churchlandlab": 0.02347017916243274,
+        "cortexlab": 0.0252989469225773,
+        "danlab": 0.09615354618221832,
+        "hoferlab": 0.07900499463843176,
+        "mainenlab": 0.10087358668702638,
+        "mrsicflogellab": 0.05275418511879389,
+        "wittenlab": 0.033807488912427734,
+        "zadorlab": 0.061453027466002626
+      },
+      "pooled_population_curve_mae": 0.020802299626324083,
+      "individual_equal_side_mae": 0.09463782749301862,
+      "individual_accuracy_marginal_crps": 0.06215405667255204,
+      "mean_curve": [
+        0.5467119052325277,
+        0.5796151479654517,
+        0.6054995522790676,
+        0.6306132184351939,
+        0.6538779004285267,
+        0.6752349421631799
+      ],
+      "mean_accuracy": 0.6152587777506578,
+      "scalar_bias_observed_minus_forecast": -0.02080229962632409,
+      "conditional_simulation_scalar_se": 0.0004863891637188791
+    },
+    "session": {
+      "equal_lab_curve_mae": 0.0637931697304422,
+      "by_lab_curve_mae": {
+        "angelakilab": 0.023291096923524993,
+        "churchlandlab": 0.012749386043506299,
+        "cortexlab": 0.052051992892218464,
+        "danlab": 0.15254161626652146,
+        "hoferlab": 0.05119273648119607,
+        "mainenlab": 0.12248030949802587,
+        "mrsicflogellab": 0.027757048034250758,
+        "wittenlab": 0.04861849387274295,
+        "zadorlab": 0.08345584756199302
+      },
+      "pooled_population_curve_mae": 0.00908364887444567,
+      "individual_equal_side_mae": 0.08969071430355176,
+      "individual_accuracy_marginal_crps": 0.06069077449760713,
+      "mean_curve": [
+        0.5395867633674947,
+        0.5652238444987607,
+        0.5835994829460227,
+        0.6016753899788274,
+        0.6177623701848944,
+        0.6329884766131626
+      ],
+      "mean_accuracy": 0.5901393879315271,
+      "scalar_bias_observed_minus_forecast": 0.004317090192806779,
+      "conditional_simulation_scalar_se": 0.0004381551423248417
+    },
+    "growth": {
+      "equal_lab_curve_mae": 0.06276064685458278,
+      "by_lab_curve_mae": {
+        "angelakilab": 0.0500122727664242,
+        "churchlandlab": 0.022703244778626896,
+        "cortexlab": 0.044081307305716376,
+        "danlab": 0.1250882744977053,
+        "hoferlab": 0.03719526941766919,
+        "mainenlab": 0.12153110085453239,
+        "mrsicflogellab": 0.022269521972326307,
+        "wittenlab": 0.042603552851770254,
+        "zadorlab": 0.0993612772464742
+      },
+      "pooled_population_curve_mae": 0.017395627905732288,
+      "individual_equal_side_mae": 0.08482030453117957,
+      "individual_accuracy_marginal_crps": 0.06191321343552794,
+      "mean_curve": [
+        0.5237110293559193,
+        0.5541720222316969,
+        0.5726851712025445,
+        0.5871760039784346,
+        0.6007987227251508,
+        0.623822151817863
+      ],
+      "mean_accuracy": 0.5770608502186015,
+      "scalar_bias_observed_minus_forecast": 0.01739562790573229,
+      "conditional_simulation_scalar_se": 0.0004053878206213194
+    },
+    "persistence": {
+      "equal_lab_curve_mae": 0.1440799848134022,
+      "by_lab_curve_mae": {
+        "angelakilab": 0.13707966308392,
+        "churchlandlab": 0.12464515689638261,
+        "cortexlab": 0.1514951502092187,
+        "danlab": 0.20580149412835677,
+        "hoferlab": 0.04697005812674634,
+        "mainenlab": 0.22580673920679717,
+        "mrsicflogellab": 0.08343388976217954,
+        "wittenlab": 0.1466507645116865,
+        "zadorlab": 0.17483694739533248
+      },
+      "pooled_population_curve_mae": 0.11138969350351206,
+      "individual_equal_side_mae": 0.12235037982076502,
+      "individual_accuracy_marginal_crps": 0.10714711183904096,
+      "mean_curve": [
+        0.4819527166747197,
+        0.483541030361735,
+        0.4828312601825574,
+        0.4833865512569465,
+        0.4838739922575446,
+        0.4828151569914277
+      ],
+      "mean_accuracy": 0.4830667846208218,
+      "scalar_bias_observed_minus_forecast": 0.11138969350351206,
+      "conditional_simulation_scalar_se": 0.0001100212008748754
+    }
+  },
+  "selected_approach": "existing",
+  "selection_rule": "equal-lab curve MAE; existing wins within.001",
+  "selected_session_rho": 0.9,
+  "growth_comparison": {
+    "existing": {
+      "gain": 0.0063217336928662465,
+      "lower": -0.011202699128445402,
+      "upper": 0.02163702953398856,
+      "labs": 9,
+      "by_lab": {
+        "angelakilab": 0.014878009400886065,
+        "churchlandlab": -0.0007669343838058451,
+        "cortexlab": 0.018782360383139077,
+        "danlab": 0.028934728315486977,
+        "hoferlab": -0.041809725220762574,
+        "mainenlab": 0.02065751416750601,
+        "mrsicflogellab": -0.030484663146467587,
+        "wittenlab": 0.00879606393934252,
+        "zadorlab": 0.037908249780471574
+      },
+      "scope": "paired lab-resampling development robustness only; few labs"
+    },
+    "session": {
+      "gain": -0.0010325228758594207,
+      "lower": -0.010921316793942815,
+      "upper": 0.009138174136831058,
+      "labs": 9,
+      "by_lab": {
+        "angelakilab": 0.026721175842899205,
+        "churchlandlab": 0.009953858735120598,
+        "cortexlab": -0.007970685586502088,
+        "danlab": -0.02745334176881617,
+        "hoferlab": -0.013997467063526885,
+        "mainenlab": -0.0009492086434934738,
+        "mrsicflogellab": -0.005487526061924451,
+        "wittenlab": -0.006014941020972699,
+        "zadorlab": 0.01590542968448118
+      },
+      "scope": "paired lab-resampling development robustness only; few labs"
+    }
+  },
+  "strata": {
+    "historical40": {
+      "n": 40,
+      "equal_lab_curve_mae": {
+        "existing": 0.05939287650727059,
+        "session": 0.07138930851216932,
+        "growth": 0.06764310008618268,
+        "persistence": 0.15771968040612455
+      },
+      "pooled_population_curve_mae": {
+        "existing": 0.011365936742917757,
+        "session": 0.033088160882603586,
+        "growth": 0.0415016375534065,
+        "persistence": 0.13989707003262353
+      },
+      "selected_growth_advantage": 0.008250223578912093
+    },
+    "later24": {
+      "n": 24,
+      "equal_lab_curve_mae": {
+        "existing": 0.06204367312624903,
+        "session": 0.04399597529346726,
+        "growth": 0.04164307048078408,
+        "persistence": 0.07099582770383932
+      },
+      "pooled_population_curve_mae": {
+        "existing": 0.06969990518046285,
+        "session": 0.042766814384080976,
+        "growth": 0.0227810548403914,
+        "persistence": 0.06387739928832624
+      },
+      "selected_growth_advantage": -0.02040060264546495
+    }
+  },
+  "readiness_criteria": {
+    "macro_growth_gain_at_least2pp": false,
+    "macro_persistence_gain_positive": true,
+    "growth_gain_positive_historical40": true,
+    "growth_gain_positive_later24": false,
+    "paired_lab_bootstrap_lower_positive": false
+  },
+  "source_readiness_passed": false,
+  "selected_macro_growth_advantage": 0.0063217336928662465,
+  "selected_macro_persistence_advantage": 0.08764107165168566,
+  "leave_one_lab_out_growth_advantage": {
+    "angelakilab": 0.00525219922936377,
+    "churchlandlab": 0.007207817202450263,
+    "cortexlab": 0.004764155356582145,
+    "danlab": 0.0034951093650386483,
+    "hoferlab": 0.012338166057069853,
+    "mainenlab": 0.004529761133536286,
+    "mrsicflogellab": 0.010922533297782984,
+    "wittenlab": 0.006012442412056715,
+    "zadorlab": 0.0023734191819155884
+  },
+  "bootstrap_repetitions": 20000,
+  "bootstrap_seed": 202610291,
+  "forecast_records": [
+    {
+      "subject": "CSHL046",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL046/existing.npz",
+      "sha256": "32b684706dae640f7e36d31a76c9c2c0c288ea3c63fd1994c8122d241670baed"
+    },
+    {
+      "subject": "CSHL046",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL046/session.npz",
+      "sha256": "d6c9e7d85bc4417f337ea49bfab94a89c8931910f5762775b82808d8c34c8c99"
+    },
+    {
+      "subject": "CSHL046",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL046/growth.npz",
+      "sha256": "58106ff5e9ebbecc5ef6f3435304190b836797c86a74cc98176f74000f347172"
+    },
+    {
+      "subject": "CSHL046",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL046/persistence.npz",
+      "sha256": "f944f98ac4a45e7132a9f97f8dae0f2d90cbeed312776693a566bf929fa10514"
+    },
+    {
+      "subject": "CSHL047",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL047/existing.npz",
+      "sha256": "92ef38b6e0e7382b18bafd87aeb50e5ef522e1a1d509f2a5b81f88929c5f4596"
+    },
+    {
+      "subject": "CSHL047",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL047/session.npz",
+      "sha256": "10deac3247836362561126dc8ce0acba0a8d173955ec37cda3c3c346b7cb9c0d"
+    },
+    {
+      "subject": "CSHL047",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL047/growth.npz",
+      "sha256": "a102c7f3a114335d08ccf7b11f20c128c6ca7cfc6d710807c89ed8aef1d13eb5"
+    },
+    {
+      "subject": "CSHL047",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL047/persistence.npz",
+      "sha256": "d7505b7a78a1e8d0c31120c484ca1a37b394abbbbeb9f41672d64eb2ac432276"
+    },
+    {
+      "subject": "CSHL049",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL049/existing.npz",
+      "sha256": "e96196bcfcff8dc7aaab5fe383702360f7726a403f57a1915f950efe9b592a99"
+    },
+    {
+      "subject": "CSHL049",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL049/session.npz",
+      "sha256": "02ac708608f530a1ea9bdd309a1aac87e3267111a5648dbd8d06990177bf68f8"
+    },
+    {
+      "subject": "CSHL049",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL049/growth.npz",
+      "sha256": "40a72bfd91a3de9792aca3b77691597665a71e64ae0e8041fab650c8d058dd46"
+    },
+    {
+      "subject": "CSHL049",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL049/persistence.npz",
+      "sha256": "7d7e4caae2b5ae34fa0998f26064dceb7cd0452ec2f3eedab04f949d4e867d33"
+    },
+    {
+      "subject": "CSHL060",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL060/existing.npz",
+      "sha256": "c4e1f34e6002bef63752718fbbb58e41db56112060e91db0256acc9c258169a3"
+    },
+    {
+      "subject": "CSHL060",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL060/session.npz",
+      "sha256": "621589d7e2ec968d570a514c4ff761831f0686ccf28e29e698780948b70b004c"
+    },
+    {
+      "subject": "CSHL060",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL060/growth.npz",
+      "sha256": "0820d2c965889f627a391869636f3b63ff1bff9fc3f5ef4f287de5509f09041e"
+    },
+    {
+      "subject": "CSHL060",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL060/persistence.npz",
+      "sha256": "d92b7037ff3fc40960a1d5e5167795159bd8ed3de2c1839d8a5781a359308418"
+    },
+    {
+      "subject": "CSHL_013",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL_013/existing.npz",
+      "sha256": "a5da80abdc97c92280afd25586d1412948106737916d63073ae6ad059b6b2866"
+    },
+    {
+      "subject": "CSHL_013",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL_013/session.npz",
+      "sha256": "2107b2df2015e65bf74adb06a29e067cb39fb9adfcd762415bc3aa3586214243"
+    },
+    {
+      "subject": "CSHL_013",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL_013/growth.npz",
+      "sha256": "1c7d53fa84a83e2c86ab4ac7bfeba2ceb931b2c5263204eae27a23c6d4a5dafc"
+    },
+    {
+      "subject": "CSHL_013",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL_013/persistence.npz",
+      "sha256": "86de97eeb16518c5c693732db62d76f8fd9dc91d43ee7107ba6a1d8340b6c981"
+    },
+    {
+      "subject": "CSHL_014",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL_014/existing.npz",
+      "sha256": "b60e841af222d16faeca25d67ea2fa2164c8950ee3fd064d8da1cc6ed99792c9"
+    },
+    {
+      "subject": "CSHL_014",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL_014/session.npz",
+      "sha256": "0fe626a8704098422981ebce2b05c5d10dd6876d7a8cd804e9dc2897a16a9a03"
+    },
+    {
+      "subject": "CSHL_014",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL_014/growth.npz",
+      "sha256": "824bddaf8bde2179b432e73d3e691f3ab6291e41d993f2e88d7ebc938942eb27"
+    },
+    {
+      "subject": "CSHL_014",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL_014/persistence.npz",
+      "sha256": "34812977a2f8b1e9122f8e73dfab9ca231bcff80947275464cb034c0b394dc64"
+    },
+    {
+      "subject": "CSHL_015",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL_015/existing.npz",
+      "sha256": "74fc39f4931c5a7570ac92961dc369895c8e95ed6dc987346f5d1a463eb3d740"
+    },
+    {
+      "subject": "CSHL_015",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL_015/session.npz",
+      "sha256": "093f7d64c5c8683620ff27dac96cd7538711ec99e23187ab5313a6ed1b2d7820"
+    },
+    {
+      "subject": "CSHL_015",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL_015/growth.npz",
+      "sha256": "6053a4f26665ead60fa2cae9692319d0f6952a9eeb0e66f7db2b56bac9d73693"
+    },
+    {
+      "subject": "CSHL_015",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL_015/persistence.npz",
+      "sha256": "b118b1f4f1d322b8049a2b6db177499f6c4272895a70584ce52c250ba4d5fd97"
+    },
+    {
+      "subject": "CSH_ZAD_004",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSH_ZAD_004/existing.npz",
+      "sha256": "57e521337fa244915853591a49a6e4fc20933e1a4cd3f33522cc3259535daebe"
+    },
+    {
+      "subject": "CSH_ZAD_004",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSH_ZAD_004/session.npz",
+      "sha256": "e641dc6d4628726623eeb9e488a314f002e2f42b0922528de662f6611e9d287b"
+    },
+    {
+      "subject": "CSH_ZAD_004",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSH_ZAD_004/growth.npz",
+      "sha256": "c962663e2050bd716d28b13fa68e4641fc711618d4befdfbbadf3338db556786"
+    },
+    {
+      "subject": "CSH_ZAD_004",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSH_ZAD_004/persistence.npz",
+      "sha256": "25703400de42ef674615118755348d48a062fbe76fcab15ad2541d66d145c156"
+    },
+    {
+      "subject": "CSH_ZAD_006",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSH_ZAD_006/existing.npz",
+      "sha256": "5817e6613e661a52a635f10aef1830b96c98341102dd5a98af897a93ae1e567c"
+    },
+    {
+      "subject": "CSH_ZAD_006",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSH_ZAD_006/session.npz",
+      "sha256": "a832a96d48f75d562ed3fa396939063787da9772ab046ae4f6aa9de7df1a540b"
+    },
+    {
+      "subject": "CSH_ZAD_006",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSH_ZAD_006/growth.npz",
+      "sha256": "199e1528fbbd0abd154b2f80f08bee9dd0db0ddc18cee03d8240bc5e58048912"
+    },
+    {
+      "subject": "CSH_ZAD_006",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSH_ZAD_006/persistence.npz",
+      "sha256": "fd93b8a48dc71b0604c7b73b22d653a92eb55d9dff29632f29bd2c4542ffb21f"
+    },
+    {
+      "subject": "CSH_ZAD_018",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSH_ZAD_018/existing.npz",
+      "sha256": "28c4863b4d609273137a759c0be24412ec9917487f88e33e1dbc87d56a31bc1b"
+    },
+    {
+      "subject": "CSH_ZAD_018",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSH_ZAD_018/session.npz",
+      "sha256": "21392bca67cf0d5adbb5ac89b95ded5d2654b651bfcb5cce3c631aeebe39f278"
+    },
+    {
+      "subject": "CSH_ZAD_018",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSH_ZAD_018/growth.npz",
+      "sha256": "e229aca233b5b751ac65796610949a8cc687a185ffb85d5784182e3a1cb70bc9"
+    },
+    {
+      "subject": "CSH_ZAD_018",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSH_ZAD_018/persistence.npz",
+      "sha256": "7ca35566c928fe49a496b138e58282d6e1de15846d57beae3c90635dd268e258"
+    },
+    {
+      "subject": "CSH_ZAD_019",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSH_ZAD_019/existing.npz",
+      "sha256": "196850a55ea6866ac0fffa473e8bd866abee788036b8385374d20608b21fac35"
+    },
+    {
+      "subject": "CSH_ZAD_019",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSH_ZAD_019/session.npz",
+      "sha256": "21d906da97c7f70de37ea48d49e67293abc5db2ab682f8140fbf953634f22fb7"
+    },
+    {
+      "subject": "CSH_ZAD_019",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSH_ZAD_019/growth.npz",
+      "sha256": "383313317e4720744f0cb127a8ae04bb87b989628abb96bef7ff5e77c62962b5"
+    },
+    {
+      "subject": "CSH_ZAD_019",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSH_ZAD_019/persistence.npz",
+      "sha256": "576ca84ad9e257379a46d175f6c605ab3cdf25701f5dcf26b943ca7e3f136a37"
+    },
+    {
+      "subject": "CSH_ZAD_022",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSH_ZAD_022/existing.npz",
+      "sha256": "7b22823db991b1ae94ba5aa6362d9df64c4e44cd4dac88d9a880ad8269821e31"
+    },
+    {
+      "subject": "CSH_ZAD_022",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSH_ZAD_022/session.npz",
+      "sha256": "97d6c86de4e61c3236390ee55f72f5102c80add3f05b63cbb34fa210f3cb5b4f"
+    },
+    {
+      "subject": "CSH_ZAD_022",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSH_ZAD_022/growth.npz",
+      "sha256": "51fce46e44c113949847afd4189efa3f7e5df84ade9102341e89f258dcde74f9"
+    },
+    {
+      "subject": "CSH_ZAD_022",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSH_ZAD_022/persistence.npz",
+      "sha256": "bcc076edb3934b10e3ef11da5080ccbf682a14f8c8c774fe7c4372d3edba5eea"
+    },
+    {
+      "subject": "DY_009",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/DY_009/existing.npz",
+      "sha256": "41d074d32288a3231eb18bd6c4766f5c38de0e0d91c168b60c180e67d43bf60d"
+    },
+    {
+      "subject": "DY_009",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/DY_009/session.npz",
+      "sha256": "b8d0619a0ead299635b57e476170fac534b04f89adf5692415493c07a600fb9d"
+    },
+    {
+      "subject": "DY_009",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/DY_009/growth.npz",
+      "sha256": "5e1d9e1f3efdf3e7d433a24617e4f8235cc88f214f642358128ea57574fc70bb"
+    },
+    {
+      "subject": "DY_009",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/DY_009/persistence.npz",
+      "sha256": "0bfa578d8bf72649608091d0ff11ef8978f48648b2a223e674d46a5ef86a2622"
+    },
+    {
+      "subject": "KS022",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/KS022/existing.npz",
+      "sha256": "9283dfa425afcc9f985e7b30f9e92efc588d1d2d11a7b1282bd17307ec5363f0"
+    },
+    {
+      "subject": "KS022",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/KS022/session.npz",
+      "sha256": "0803587781fb60e6efe0815a2efbd2b11053dfc7d5afd5466cbee72c4daa9866"
+    },
+    {
+      "subject": "KS022",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/KS022/growth.npz",
+      "sha256": "0fc246f1563a50b96905332092e6314fedac6bb5b8a5b8f4a11260b490f2c2cb"
+    },
+    {
+      "subject": "KS022",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/KS022/persistence.npz",
+      "sha256": "8cbb983b4bb8e73d7bf781a6333a5760a7d65bc2b73e65a5114bcf63ea0fd6eb"
+    },
+    {
+      "subject": "KS025",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/KS025/existing.npz",
+      "sha256": "eede5231690eaf6888b52596c8f5fc274e4213aed7c56b985a78c8850690ff0b"
+    },
+    {
+      "subject": "KS025",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/KS025/session.npz",
+      "sha256": "784354b2eb89967e76c9d363f2eee4a9386534b477ffa07854f92f82a7428f49"
+    },
+    {
+      "subject": "KS025",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/KS025/growth.npz",
+      "sha256": "30aef7f0da3e6bb6f20cc85a7677e59fd968680f7b280a822e2079addc7ff1d6"
+    },
+    {
+      "subject": "KS025",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/KS025/persistence.npz",
+      "sha256": "2a8ada1a72806fac67eef2b3fe64cf2282069218df9058441e61b1edd06fa259"
+    },
+    {
+      "subject": "SWC_004",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_004/existing.npz",
+      "sha256": "35fff590ee95a55a5148e9d513d949336c5e79dfa6dc40c76a2ed59c8209d784"
+    },
+    {
+      "subject": "SWC_004",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_004/session.npz",
+      "sha256": "b1efaadce4e19df104a647ae4487f6c7aecfa38e8cdabaf1043c7a3fe78d44dc"
+    },
+    {
+      "subject": "SWC_004",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_004/growth.npz",
+      "sha256": "085451411ffde6c78e41814192fa09e2931aa2d82d97afb44849b840b82200a5"
+    },
+    {
+      "subject": "SWC_004",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_004/persistence.npz",
+      "sha256": "8ad9a983d7206a5a8a7f9d9bef23c0688bbc92599f66b8830db5efb619594b02"
+    },
+    {
+      "subject": "SWC_023",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_023/existing.npz",
+      "sha256": "29971e666bb2603e6ed6bad474eb8699fe860693e147bdd7a909362b2c5ca981"
+    },
+    {
+      "subject": "SWC_023",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_023/session.npz",
+      "sha256": "7d98575650af1fe5510531b70dc059491fb23ba17228759cad84e258193ba53e"
+    },
+    {
+      "subject": "SWC_023",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_023/growth.npz",
+      "sha256": "b5cefb74e8c95bf674f2f769125ea65708045593c2c58507aade3c3187d14817"
+    },
+    {
+      "subject": "SWC_023",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_023/persistence.npz",
+      "sha256": "235bbba163ebf915b0c3cddc5a480e374dc86cc1536b43f5da145edbc9519cfe"
+    },
+    {
+      "subject": "SWC_035",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_035/existing.npz",
+      "sha256": "16f7f9fa53f841f639091b1634a9c59436cdb446e9dd1cca219f087b6af70ff7"
+    },
+    {
+      "subject": "SWC_035",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_035/session.npz",
+      "sha256": "017b5fdc38ce9ec20245166894b63df1b63feade4945f33f4dcffd221074e46a"
+    },
+    {
+      "subject": "SWC_035",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_035/growth.npz",
+      "sha256": "646516cfc5cc5961da3cbad7f0e32aa9845d056e38f1615c01a500dd95fffe2d"
+    },
+    {
+      "subject": "SWC_035",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_035/persistence.npz",
+      "sha256": "b998376019ef6c582f5bfd84d19f59afcbdc465a86c16a03abe98ef583f729ed"
+    },
+    {
+      "subject": "ZM_3001",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ZM_3001/existing.npz",
+      "sha256": "aafb0a76831e46a0545e2a502c31a90b0d28392d87ba1cb1fd6c5ce5b7cca2ab"
+    },
+    {
+      "subject": "ZM_3001",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ZM_3001/session.npz",
+      "sha256": "54e206537d8233e8912b30f94726a5cd96c6b3f8ebdd42091c01446d71fd35a0"
+    },
+    {
+      "subject": "ZM_3001",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ZM_3001/growth.npz",
+      "sha256": "4b9a3ab1eac3645ce371af48865ebf4dd2c8749ce0eb6cf1072fffc41d3f2f94"
+    },
+    {
+      "subject": "ZM_3001",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ZM_3001/persistence.npz",
+      "sha256": "91063a8bbf8e7c56c5f5d59405f31e4d15f61533899746f50fa12bf13b18449f"
+    },
+    {
+      "subject": "ZM_3004",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ZM_3004/existing.npz",
+      "sha256": "b2849ca5daaf1b02a655c8f25b9278a40c221bcd35660dfd925a1d0692b9f698"
+    },
+    {
+      "subject": "ZM_3004",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ZM_3004/session.npz",
+      "sha256": "76807e24d1fbcafb2fbce5d28807aee1515f2ee321c5e22e59fc4191572e6590"
+    },
+    {
+      "subject": "ZM_3004",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ZM_3004/growth.npz",
+      "sha256": "adbf18462ba7306182094d9d11175395e1071037d75c8c8ac6e33a169cdfc95e"
+    },
+    {
+      "subject": "ZM_3004",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ZM_3004/persistence.npz",
+      "sha256": "97d3dfe2e107d23a5cbcc19b59e3c46021ce13d18b0ea46cb2864f10ec0b625c"
+    },
+    {
+      "subject": "ZM_3006",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ZM_3006/existing.npz",
+      "sha256": "a92c0ee30ee303a737b37ce5e9cff371a3611188de3f5255c74eecb04cfda8a1"
+    },
+    {
+      "subject": "ZM_3006",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ZM_3006/session.npz",
+      "sha256": "9c10b4d4fa2ff24e891b0803a79ec9519a9529080c2976d51e5ffefaecfff596"
+    },
+    {
+      "subject": "ZM_3006",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ZM_3006/growth.npz",
+      "sha256": "3ae0907f1d3dc67050e6471a660e2f51975947a01267d8a7a4c10511073a9395"
+    },
+    {
+      "subject": "ZM_3006",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ZM_3006/persistence.npz",
+      "sha256": "fd9c97852a49db3264e54876c90d7f1f7b494d805e9f3999b8eeaf11a9d19ec5"
+    },
+    {
+      "subject": "SWC_006",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_006/existing.npz",
+      "sha256": "e0155c6c0309e8cf2cd5404c3af7ca75f6d76e8650a797a09896f746e6a0c5aa"
+    },
+    {
+      "subject": "SWC_006",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_006/session.npz",
+      "sha256": "514bbf0b00db9e471cd063b357df4fd270a8dc19bebf36ee0ba3f9e20714c46b"
+    },
+    {
+      "subject": "SWC_006",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_006/growth.npz",
+      "sha256": "d7d538408f9477d189c35df511e3212b15decf11e23790bb1126558b72a24de6"
+    },
+    {
+      "subject": "SWC_006",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_006/persistence.npz",
+      "sha256": "0c4b7647cbfb81c69feeade254dd6c317e276cb06e1902c3b0c91bcd313af9a8"
+    },
+    {
+      "subject": "SWC_013",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_013/existing.npz",
+      "sha256": "37f43622db882e6906db346c93884ecd40d07fe4f89f160a165c1b5b5d4d1716"
+    },
+    {
+      "subject": "SWC_013",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_013/session.npz",
+      "sha256": "56dde8ff5f9ddf3294ec47c008eea74e7ea868ad4193920832da155afbfc66c0"
+    },
+    {
+      "subject": "SWC_013",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_013/growth.npz",
+      "sha256": "1a1c5a9e0e0523272ef9dd32b309a22b5504de3df463e783fff7cdf2df53d90f"
+    },
+    {
+      "subject": "SWC_013",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_013/persistence.npz",
+      "sha256": "3e7a1fc2f57d404136fc638b273d70b5ed3645b6a4a4e116c596b610a647cd8c"
+    },
+    {
+      "subject": "SWC_019",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_019/existing.npz",
+      "sha256": "1a108cb06a39646a492d70469b5bbe2c106b86c20778a899338408bca1e6b8d6"
+    },
+    {
+      "subject": "SWC_019",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_019/session.npz",
+      "sha256": "1a2a4f35a3f808ffcdb8fed68a08451f6f4f97840898b8a86e4eed50288f682e"
+    },
+    {
+      "subject": "SWC_019",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_019/growth.npz",
+      "sha256": "a6f4c33fe260f9ec0e23e7131d0c5def52274ace5cd83431300643d136304418"
+    },
+    {
+      "subject": "SWC_019",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_019/persistence.npz",
+      "sha256": "1849165eaa766aff0bd83015b2f2e9b1d96dbc0e25ae92658ca1b57d5319062f"
+    },
+    {
+      "subject": "SWC_032",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_032/existing.npz",
+      "sha256": "82077112589512c74acde15f75656471a2f362ab37b5157abfef6bdef5c68183"
+    },
+    {
+      "subject": "SWC_032",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_032/session.npz",
+      "sha256": "9b659b57d4fec92aa8f9d84306b76189a2570417280eecdb5b39da606af1c956"
+    },
+    {
+      "subject": "SWC_032",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_032/growth.npz",
+      "sha256": "5d23ab50340edc4747e7c607b873fae5a29bedaab10482c88ee31c694baebf64"
+    },
+    {
+      "subject": "SWC_032",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_032/persistence.npz",
+      "sha256": "52a398f0b23e434473f07f534f734142fa399a7e4bfc0feba9038cc2c89935cf"
+    },
+    {
+      "subject": "SWC_033",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_033/existing.npz",
+      "sha256": "d8aae841c1dd35a7ba13741ae48413130326067debd8e8e0a4c1faa0a167ecc5"
+    },
+    {
+      "subject": "SWC_033",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_033/session.npz",
+      "sha256": "6816f22f7508b4dd5aeeae120b71c81fea30b6d5367d26d0164104a863889a3b"
+    },
+    {
+      "subject": "SWC_033",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_033/growth.npz",
+      "sha256": "39ba637647d010c50aa7a7543f760fe198728738c951188f2346f4caa0e5eb3a"
+    },
+    {
+      "subject": "SWC_033",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_033/persistence.npz",
+      "sha256": "8d4d8388cfbfa0ff40233af5f9d781271b04d6cfe39e29182f4a419a5a97c84f"
+    },
+    {
+      "subject": "SWC_034",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_034/existing.npz",
+      "sha256": "4fd6c0b32b2fa1fd15124c2ab44f27b5803df0990b1446bfa006151f0f9cbe3a"
+    },
+    {
+      "subject": "SWC_034",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_034/session.npz",
+      "sha256": "279d835b51ae04dd764ecb334c13431a0c6aab4010d2c8f70611b9d7e0480a24"
+    },
+    {
+      "subject": "SWC_034",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_034/growth.npz",
+      "sha256": "aef8297a71a15edba3a3e75e7b9764f08d00e384efb5b6b7740f0fe1e2168961"
+    },
+    {
+      "subject": "SWC_034",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_034/persistence.npz",
+      "sha256": "0c21ae3a9ae375804a2a61487e2ae53a47aa5aaca8c0dab4806949cb2221c0c8"
+    },
+    {
+      "subject": "SWC_041",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_041/existing.npz",
+      "sha256": "49663ee290a81ca4aa06fdd7da34ca596d4651fc834a4c7722070341d99845ba"
+    },
+    {
+      "subject": "SWC_041",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_041/session.npz",
+      "sha256": "d5d042cc77d2ecf14ba5e8939072c9056727dac06b88964e269eeec0c40a7e41"
+    },
+    {
+      "subject": "SWC_041",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_041/growth.npz",
+      "sha256": "842dba865de5ed8e6ae7a690305d4f45051ab86ae76560e69b68a5fda6f0785d"
+    },
+    {
+      "subject": "SWC_041",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_041/persistence.npz",
+      "sha256": "422afb2e7b4a2300e551ac7c5735984b616d83c1a18cf6e0823d6dfe19b66a52"
+    },
+    {
+      "subject": "SWC_042",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_042/existing.npz",
+      "sha256": "320e257b6232a1aa1b3c352588c0f9220810cc616b1eb7c37676f6459d4eb80a"
+    },
+    {
+      "subject": "SWC_042",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_042/session.npz",
+      "sha256": "319dc469b68ba0370a0698ddc6232d848506a483f2d0cf4fe210ccea3c00b7d1"
+    },
+    {
+      "subject": "SWC_042",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_042/growth.npz",
+      "sha256": "f6d57c6d7cc94e4e6e8027555078a49cc8f54068b6f2fc7d2ef106f5436887d6"
+    },
+    {
+      "subject": "SWC_042",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_042/persistence.npz",
+      "sha256": "628d44ef448a5e059f9369e52e51bee09ea2ca0bfc4ff86e88503d3162066177"
+    },
+    {
+      "subject": "SWC_043",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_043/existing.npz",
+      "sha256": "1ed29713d8bfd58fa62943679839e3c1f7b45835a29e9e238f6c97e31486d2db"
+    },
+    {
+      "subject": "SWC_043",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_043/session.npz",
+      "sha256": "a05c4a87f06b76ad98541ae56a569694c29260e677d9879c6b60c51931b99a59"
+    },
+    {
+      "subject": "SWC_043",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_043/growth.npz",
+      "sha256": "95dac9a098e2efd752d46e6d7076f6b15f9cfbfde28bfb986c6cbdeacba6f410"
+    },
+    {
+      "subject": "SWC_043",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_043/persistence.npz",
+      "sha256": "e23c79d69f60efe35345af34081a4f31d43909bbe4a67c420c3772dcc5eb2673"
+    },
+    {
+      "subject": "ibl_witten_11",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_11/existing.npz",
+      "sha256": "526444178e8735be7cdf573c0e75c78a15df72eb2db1cca1d1b7acb55671b9f7"
+    },
+    {
+      "subject": "ibl_witten_11",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_11/session.npz",
+      "sha256": "d7a532441b8cf663398931669d1cf2c1b5a43f977a591ce37b786f33156abcf0"
+    },
+    {
+      "subject": "ibl_witten_11",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_11/growth.npz",
+      "sha256": "039267151ddc660c895f77d9455d6697647359cff4b8bb7f7b083dae34d9a40d"
+    },
+    {
+      "subject": "ibl_witten_11",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_11/persistence.npz",
+      "sha256": "ececa078ae5f9715794022a740b99814f72c6c5f246fcef0d2cecd8b154e755a"
+    },
+    {
+      "subject": "ibl_witten_12",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_12/existing.npz",
+      "sha256": "10f86400e2855da46fa944053e4fd70dd644c4256dc84a429bc15bfd895a64fa"
+    },
+    {
+      "subject": "ibl_witten_12",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_12/session.npz",
+      "sha256": "27be739d00b4a77218f69435277d06d2460e9b1f5e1ac6dbfafa4f69cde39a88"
+    },
+    {
+      "subject": "ibl_witten_12",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_12/growth.npz",
+      "sha256": "46e0861d3936a2b27f140265d7160fa89719639d3f918168c4fd461c3c9dc7bb"
+    },
+    {
+      "subject": "ibl_witten_12",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_12/persistence.npz",
+      "sha256": "fec93582524260abbc721037485e667891e9f7997066fb8ec464eb991f891005"
+    },
+    {
+      "subject": "ibl_witten_13",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_13/existing.npz",
+      "sha256": "21a0acb6ba3e47c03e340d639212432fcd568d2e7f6ad416b1eeeeafaf41aada"
+    },
+    {
+      "subject": "ibl_witten_13",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_13/session.npz",
+      "sha256": "01ecf512ec4edfa78b53cbbbfab57e4bfa60cb9a4a9cd9904975823a34c0aa9c"
+    },
+    {
+      "subject": "ibl_witten_13",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_13/growth.npz",
+      "sha256": "4127acd67c7adc2ef679bc73a2375bf74bff90896704b423a3b563a387372b34"
+    },
+    {
+      "subject": "ibl_witten_13",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_13/persistence.npz",
+      "sha256": "c7301752d4144bcbd772106bb4ba854a0b57a960846b96133eed8b4f520df1de"
+    },
+    {
+      "subject": "ibl_witten_14",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_14/existing.npz",
+      "sha256": "0ae545e9d6878d54dea5b0708b36b5a97cb19bd34d97ad34e45fca9b2f78210f"
+    },
+    {
+      "subject": "ibl_witten_14",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_14/session.npz",
+      "sha256": "74d2aa25fc78a5a20838acc852995fba1d113135701e56d0374ff65b13b9a4d3"
+    },
+    {
+      "subject": "ibl_witten_14",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_14/growth.npz",
+      "sha256": "74d5a974207823353c121c5aeb40a41f689504ac61b23ba1f7b3c799ec9f33f8"
+    },
+    {
+      "subject": "ibl_witten_14",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_14/persistence.npz",
+      "sha256": "70c6407423ccddda25aeb3eeb068b3daab111efacfead31c0ee4897a00c2ee65"
+    },
+    {
+      "subject": "ibl_witten_15",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_15/existing.npz",
+      "sha256": "d5fe260717baea106b968c7be79b8ceb24dd8e738f3ed96f5575a852f1903dc8"
+    },
+    {
+      "subject": "ibl_witten_15",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_15/session.npz",
+      "sha256": "b8813cc4ead68d6f797cffb83b93e4229caf7d4203cda6124ac07d0bcd3da800"
+    },
+    {
+      "subject": "ibl_witten_15",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_15/growth.npz",
+      "sha256": "49838c9ab74008458641b2000e2f6ebd74c2b4d4ce2eb15e142b1db98573fc4d"
+    },
+    {
+      "subject": "ibl_witten_15",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_15/persistence.npz",
+      "sha256": "03374140cf39a0641a1bc4a58934101af0da267f3d0649ff7024b9c01c73220e"
+    },
+    {
+      "subject": "ibl_witten_16",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_16/existing.npz",
+      "sha256": "18b6aa0c5f9d93a75c0baec92af8c670aa490250e64f6dd9c35ba80de8d93fae"
+    },
+    {
+      "subject": "ibl_witten_16",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_16/session.npz",
+      "sha256": "ec578e4b1aa1ddfee7eecb9e96800309a4e5f8580b650ee241dc89eef002247c"
+    },
+    {
+      "subject": "ibl_witten_16",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_16/growth.npz",
+      "sha256": "e86f781324e45893c6873ef74d5bbf8a51fc1434fa2aeb19e2dce6e6f5f0f116"
+    },
+    {
+      "subject": "ibl_witten_16",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_16/persistence.npz",
+      "sha256": "f5858effac73e7f5e26d0f4a0ff5f9382278bf097a04ce3b087b51eba09aab9f"
+    },
+    {
+      "subject": "ibl_witten_17",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_17/existing.npz",
+      "sha256": "e619f3dac32d56400e4b1a972f9fcdeab37fb5a718ad3e65c9ad66bff8674cb7"
+    },
+    {
+      "subject": "ibl_witten_17",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_17/session.npz",
+      "sha256": "9c17dc6cfca144196b7dc921d5cc7b17b04e1719964ed8d04ee46bf06fe78851"
+    },
+    {
+      "subject": "ibl_witten_17",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_17/growth.npz",
+      "sha256": "bcd558126967886c0a38c465f47a1add5b09fa64e23e92653023f0e3bbd64b63"
+    },
+    {
+      "subject": "ibl_witten_17",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_17/persistence.npz",
+      "sha256": "ae522b9ad014485c2e1604aa78fb1a37e2a2bd71b7cadef51f4ab06c32fdf604"
+    },
+    {
+      "subject": "ibl_witten_18",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_18/existing.npz",
+      "sha256": "ae8278a4f04c8f09dd0824faa449eb0c1c9b5a3a0df8ec62693abff8c1662b64"
+    },
+    {
+      "subject": "ibl_witten_18",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_18/session.npz",
+      "sha256": "1f0730ecbadb750502722c3c593ca410f27451b5cc4739911e3f6f1a5a62a273"
+    },
+    {
+      "subject": "ibl_witten_18",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_18/growth.npz",
+      "sha256": "5159308fd8b16921d25c95c171ab7fbdcc4e7497f8756af61e706f5a7e208fc3"
+    },
+    {
+      "subject": "ibl_witten_18",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_18/persistence.npz",
+      "sha256": "88ae35d7d03c8a4b7638215c9c26a2784aa649288cd97081384f6fdb81e22f11"
+    },
+    {
+      "subject": "ibl_witten_19",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_19/existing.npz",
+      "sha256": "2ba94c002afdd9307690405536e35c38c199e04bce8ff34d3ca701d22891eefd"
+    },
+    {
+      "subject": "ibl_witten_19",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_19/session.npz",
+      "sha256": "79b547bbbf24546e103dcefd3540180863de7c02b1f52582c22904b05921111c"
+    },
+    {
+      "subject": "ibl_witten_19",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_19/growth.npz",
+      "sha256": "4964b9377b34d5a3b5aabc529f0a6ae141513c8cf2f7c0e76a80b191bbd2769c"
+    },
+    {
+      "subject": "ibl_witten_19",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_19/persistence.npz",
+      "sha256": "198547dd281236f7d3eb6dce06468c5244ee08137b939899d2b314638b76c9ec"
+    },
+    {
+      "subject": "ibl_witten_20",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_20/existing.npz",
+      "sha256": "100a2701de3a5fdd6ef1d03e7f4bce656de195f8fba57c0a95285f3268a6b385"
+    },
+    {
+      "subject": "ibl_witten_20",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_20/session.npz",
+      "sha256": "80ddde089d5091ee5e576fe6a5c4f2d05a5fa83c97381d37c3b73991a93f7668"
+    },
+    {
+      "subject": "ibl_witten_20",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_20/growth.npz",
+      "sha256": "3fa72410fbe37a1af0470e003e6b719b1f2289eaee84df32da0e25cab8af5787"
+    },
+    {
+      "subject": "ibl_witten_20",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/ibl_witten_20/persistence.npz",
+      "sha256": "c6df2a075b6034912fc2c4c14cec50f71e76ca896d2366f269faf0343ec21610"
+    },
+    {
+      "subject": "CSHL056",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL056/existing.npz",
+      "sha256": "6b9942ed39270823408541180826f0f9f1f5bec0f79621daca6b8f07b495cd8b"
+    },
+    {
+      "subject": "CSHL056",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL056/session.npz",
+      "sha256": "1e1545b94332a194aaf3a4f5e85cf628a231a280b99d9f63f1f50ccc93c4115f"
+    },
+    {
+      "subject": "CSHL056",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL056/growth.npz",
+      "sha256": "01ad342e018c4c06adff1d303aba6d1ad455a1b2be6f76f3837672db42257d2c"
+    },
+    {
+      "subject": "CSHL056",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL056/persistence.npz",
+      "sha256": "529337dd36194419bee38cd28a4e8b217c11d8616f33a6dce27a98efa4b09d6a"
+    },
+    {
+      "subject": "CSHL_012",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL_012/existing.npz",
+      "sha256": "4eaeed832c5d5b6e6d15437422e8250956d9241c3258cd8c7568da64835930da"
+    },
+    {
+      "subject": "CSHL_012",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL_012/session.npz",
+      "sha256": "499a11daae2e5e468011f1df395fe030806cef7587d139b5648b5b94a4954068"
+    },
+    {
+      "subject": "CSHL_012",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL_012/growth.npz",
+      "sha256": "f956ec7b7a1b3170a61379e67c0a7e50c51ae964c56664b32711949c5bb0c024"
+    },
+    {
+      "subject": "CSHL_012",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/CSHL_012/persistence.npz",
+      "sha256": "e798c40332c8eb020504329d14c6c4cb315e58827da632db417b6f5144eb6862"
+    },
+    {
+      "subject": "IBL_001",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/IBL_001/existing.npz",
+      "sha256": "82bd02c834374f4c8a11bb824b912224bca19a250e6465cb25dac61dadd029ae"
+    },
+    {
+      "subject": "IBL_001",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/IBL_001/session.npz",
+      "sha256": "9451fd21edbb07fe914f143695ea48f25357b7a889ef75e195ac88ee81e225f8"
+    },
+    {
+      "subject": "IBL_001",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/IBL_001/growth.npz",
+      "sha256": "d72e6106567466bfc848456fc83b4285a5398175902b5462a9e38af8f75f9619"
+    },
+    {
+      "subject": "IBL_001",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/IBL_001/persistence.npz",
+      "sha256": "b2436c5a30d31b1bf95ab5c7e8e595e10aebab994f9eb7613a18e93feeab8f3b"
+    },
+    {
+      "subject": "KS018",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/KS018/existing.npz",
+      "sha256": "fcacc21b93aad5892a6fdd81a5a0999864031cacaa11567c6089cf4f98076913"
+    },
+    {
+      "subject": "KS018",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/KS018/session.npz",
+      "sha256": "304792653b12bb7f54ffdedefa53a491aad87aa797214d9f8972b599b75b427d"
+    },
+    {
+      "subject": "KS018",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/KS018/growth.npz",
+      "sha256": "ffa8b1475bfa92cf826624b8a9a88ff9ae6a2e741d5db155cd99e09dd0ca4043"
+    },
+    {
+      "subject": "KS018",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/KS018/persistence.npz",
+      "sha256": "b5ba5760c1defb60a8b9d0638af6f407b7f8c183b048d5682e3e926e047405c7"
+    },
+    {
+      "subject": "NYU-09",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/NYU-09/existing.npz",
+      "sha256": "e937223bf8e842626a86ad75746d2067f1a60fb9bcd018bfb17de7d2001858fa"
+    },
+    {
+      "subject": "NYU-09",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/NYU-09/session.npz",
+      "sha256": "171f7e313d85efe4a05b3f5b5d37aedc9b3971132e90b651737b03203b63e3d1"
+    },
+    {
+      "subject": "NYU-09",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/NYU-09/growth.npz",
+      "sha256": "680ddc52e8a7f5f5aa7f402c9b205fce790db1e8c14ee4a6ba7b79b66dfae67b"
+    },
+    {
+      "subject": "NYU-09",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/NYU-09/persistence.npz",
+      "sha256": "d534c6f33972c8ebeda1a80af9027fb3cc915f770d28b5138ade6c8d1b81c052"
+    },
+    {
+      "subject": "NYU-11",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/NYU-11/existing.npz",
+      "sha256": "795429eb8dc55451a2dcb0850349eb890be82026bf50d3f1183daf908a5c6e5d"
+    },
+    {
+      "subject": "NYU-11",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/NYU-11/session.npz",
+      "sha256": "8b521621cbf60fdc7411f9dcca43a5484d1b737bd077891249bb7ffd241d4155"
+    },
+    {
+      "subject": "NYU-11",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/NYU-11/growth.npz",
+      "sha256": "6ea67f30f6bf37b69564e94917c394f46091e627123d72f347e2f9a4176a9f5a"
+    },
+    {
+      "subject": "NYU-11",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/NYU-11/persistence.npz",
+      "sha256": "0461a28101e865a9f155036539504a1f0bc9cfaae2a42dc3d709a1e85e5ff2ad"
+    },
+    {
+      "subject": "NYU-12",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/NYU-12/existing.npz",
+      "sha256": "5d553a2a69fb8eb6d2929572d504059f0a419f6095f7314d2585e1c88ab40639"
+    },
+    {
+      "subject": "NYU-12",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/NYU-12/session.npz",
+      "sha256": "286aaddae5e8db8c72b30df396bd7fcad026caca3f8af239c838933dac9ae628"
+    },
+    {
+      "subject": "NYU-12",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/NYU-12/growth.npz",
+      "sha256": "2c328d3eb2bab7e05ca2fbd4a8771d0b67e1ab945930669b1270302c65fd78a6"
+    },
+    {
+      "subject": "NYU-12",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/NYU-12/persistence.npz",
+      "sha256": "0e6bb21aeafbebe655a649a86130ef31598c3e8dc16d192d9417711aa0fd8af3"
+    },
+    {
+      "subject": "NYU-13",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/NYU-13/existing.npz",
+      "sha256": "29087211fa80cc7afa6cbb73df0d1ab515a545dcf81c9ae96588d7371ff5dd57"
+    },
+    {
+      "subject": "NYU-13",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/NYU-13/session.npz",
+      "sha256": "515390cd684b5054f2ee5084a276ed90466ea5b18f6ec5c80d17f403d6b0a8e8"
+    },
+    {
+      "subject": "NYU-13",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/NYU-13/growth.npz",
+      "sha256": "31df10e17f03a5bf6eca864fe5c47c9276cabd92554d5d5c8f5928f066706c2b"
+    },
+    {
+      "subject": "NYU-13",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/NYU-13/persistence.npz",
+      "sha256": "bc75d1f8b3f6a4c6016208131d7d0b4f07c156ff74520d8dbe901c0d5085a3fa"
+    },
+    {
+      "subject": "NYU-14",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/NYU-14/existing.npz",
+      "sha256": "a597bc088e7e1b3579ef543256837c208864f9d9bfd18d65437e52041988fb1d"
+    },
+    {
+      "subject": "NYU-14",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/NYU-14/session.npz",
+      "sha256": "1db66ebd1f8e5e8b4791abd6814fa360070cb76d9612af1e8c5d9a832c7b1a71"
+    },
+    {
+      "subject": "NYU-14",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/NYU-14/growth.npz",
+      "sha256": "b2ed52b5c1d843c43352275dd04c230b583c27cf19f7d7c43120122b3ad13df5"
+    },
+    {
+      "subject": "NYU-14",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/NYU-14/persistence.npz",
+      "sha256": "0be7f6df770e548b07fcef9be971604c15b65db219541d3e5c7f8e8ea6261bd4"
+    },
+    {
+      "subject": "SWC_001",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_001/existing.npz",
+      "sha256": "a9461d32109a0cb4a30a1fa679d4d0face42ce5a065dc8b92d55d21ef5db1252"
+    },
+    {
+      "subject": "SWC_001",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_001/session.npz",
+      "sha256": "aad7eb03faf4f1504421ecead2fd61029c8651c086af22d77c2be6d5dfe829cd"
+    },
+    {
+      "subject": "SWC_001",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_001/growth.npz",
+      "sha256": "d48414a9b96030ea7c51aa436a4e3d33ad2fecfdee164311187bde6ab242c4a7"
+    },
+    {
+      "subject": "SWC_001",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_001/persistence.npz",
+      "sha256": "a32f92a77f6f26e8fcf6d8abd26c873f7627d0abc697b3d89cdae4996ac829e8"
+    },
+    {
+      "subject": "SWC_002",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_002/existing.npz",
+      "sha256": "132501a7a2bd52a4f2a628bb949880e334725caad58f27fb7bed11fdc4e18826"
+    },
+    {
+      "subject": "SWC_002",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_002/session.npz",
+      "sha256": "760c2bd8007034183b2e1bd5aeced91ecf7738029ca99ef54d3c09439813be85"
+    },
+    {
+      "subject": "SWC_002",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_002/growth.npz",
+      "sha256": "01a5b6e49c4cc82ff50ff0cd616152faa4e5d533157f4691f83d2cc84c07f3d2"
+    },
+    {
+      "subject": "SWC_002",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_002/persistence.npz",
+      "sha256": "28b930bb588b8f4c9db1db187bf5be09133ed81b7e3afdb317d3dd23ffecf79a"
+    },
+    {
+      "subject": "SWC_003",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_003/existing.npz",
+      "sha256": "c1a02cc91e267e63a2e9de9dece0095979530d516fdeb489e43702fe5fd3c677"
+    },
+    {
+      "subject": "SWC_003",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_003/session.npz",
+      "sha256": "0b5f2eb0747362f7b8bd1c6ec49740b6291299a64a9c3998589cb408e57ae26d"
+    },
+    {
+      "subject": "SWC_003",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_003/growth.npz",
+      "sha256": "aafa170d820f31005ed8d86b719f7919967c6f92f672086d08c9344dc36ab158"
+    },
+    {
+      "subject": "SWC_003",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_003/persistence.npz",
+      "sha256": "9408b4b34000f9fcfe055e9985a43479bcc948cc750a22b51ed06fdd20f8ced8"
+    },
+    {
+      "subject": "SWC_011",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_011/existing.npz",
+      "sha256": "61b823bc4af728cdfeb6f43ce4d4d0a25ae75a724e7d7f7c435ea267bb669f2f"
+    },
+    {
+      "subject": "SWC_011",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_011/session.npz",
+      "sha256": "82ec01c76866272010433ddfadcb4c50e7f26d88e502b0d7e7472ca1b7b3fbec"
+    },
+    {
+      "subject": "SWC_011",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_011/growth.npz",
+      "sha256": "aaf5cb7dc9295423825a5f29f8d88b14be097ebb6942f9a71d642e14c9d0cfd4"
+    },
+    {
+      "subject": "SWC_011",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_011/persistence.npz",
+      "sha256": "d897b62e3f98a16588fa5c5e5f16fe3e84df1b132a412636656d3b84fa810e8a"
+    },
+    {
+      "subject": "SWC_014",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_014/existing.npz",
+      "sha256": "38cfac284f28e5d44d7ddaf3afb216cfb69d1e1ed21ea15ffe6af59fe602e23a"
+    },
+    {
+      "subject": "SWC_014",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_014/session.npz",
+      "sha256": "53fb9c1b31bad64e04cc64b3a87ee2aa715529e43d0678330f9cfd31dd3fdfd1"
+    },
+    {
+      "subject": "SWC_014",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_014/growth.npz",
+      "sha256": "395478c3761753786125ba334caca120e72f0784d77a4d1dc6f211f21906ca3c"
+    },
+    {
+      "subject": "SWC_014",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_014/persistence.npz",
+      "sha256": "c7af32641b797049a78a8af6b1865d8232ec8edf3d3628df89dd448d02fa2f2d"
+    },
+    {
+      "subject": "SWC_015",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_015/existing.npz",
+      "sha256": "52666dd757822499315bd4b023b99cb81f5f932c391e9865b29361bff9f6779b"
+    },
+    {
+      "subject": "SWC_015",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_015/session.npz",
+      "sha256": "181337711de25f17c6f88cbfead4e26d91f6461d2047cfb152a456838ec0f3b6"
+    },
+    {
+      "subject": "SWC_015",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_015/growth.npz",
+      "sha256": "2c069fd2cc83d2aa5923b42ce5a1c7ee2df960661dad2246822045953754965c"
+    },
+    {
+      "subject": "SWC_015",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_015/persistence.npz",
+      "sha256": "8ec40197e78f0102e37fc838552e6a3e737f00b23a35ab179903985d8df51434"
+    },
+    {
+      "subject": "SWC_017",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_017/existing.npz",
+      "sha256": "32cf3798d309a8eb410fddbcd4e26ceee4da8c32c8ac6b5b2b9007e2d2d3a123"
+    },
+    {
+      "subject": "SWC_017",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_017/session.npz",
+      "sha256": "20167780eefaf18996442c6110fce8e9f348b95da9f09d8bd1007ca799ea4659"
+    },
+    {
+      "subject": "SWC_017",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_017/growth.npz",
+      "sha256": "308a1d0860a5baae179280c13ffecba8f7f66883e1ea28978570f46e9f6af92e"
+    },
+    {
+      "subject": "SWC_017",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_017/persistence.npz",
+      "sha256": "5a63541c89537c00f048e107d8a5f4cbcbc70ea0d141dfd740c5d49a6c82dcac"
+    },
+    {
+      "subject": "SWC_018",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_018/existing.npz",
+      "sha256": "ce5ae97bf7623f38c4015cff32562f52f64f9b82ea88586dee34bf1e775be727"
+    },
+    {
+      "subject": "SWC_018",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_018/session.npz",
+      "sha256": "e2cc3e70210ef500a87d83992bfd248fd5558976b7115f109dcc1c895adde2d2"
+    },
+    {
+      "subject": "SWC_018",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_018/growth.npz",
+      "sha256": "5b3aa6ad7d9ad7bf9f89f8f9827ead1e18eb0f47f61bcd70abee111260d51b3b"
+    },
+    {
+      "subject": "SWC_018",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_018/persistence.npz",
+      "sha256": "6955fd1bc1f52145755489eddb5c4d943f9d9530353a6793b901ad396f2e83fc"
+    },
+    {
+      "subject": "SWC_020",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_020/existing.npz",
+      "sha256": "8323a29d9aed6185a48f3239479071a1a61d9bbc6c5f247f1ceee1f8f506056a"
+    },
+    {
+      "subject": "SWC_020",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_020/session.npz",
+      "sha256": "ce3d809fbc0577b245d0af30124f2590069b9980006b3839d204fee313c3bb73"
+    },
+    {
+      "subject": "SWC_020",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_020/growth.npz",
+      "sha256": "e6b3b5c221d7376a58edf23ab8b40dc1134f59ff0733101adeeaf419d0d26685"
+    },
+    {
+      "subject": "SWC_020",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_020/persistence.npz",
+      "sha256": "455314ac23a706a128e6dc3ebeef1e4cfbf1d44c3867bc91a7c9f136a3e2ff65"
+    },
+    {
+      "subject": "SWC_021",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_021/existing.npz",
+      "sha256": "d47cd6a760cf1fe47f7ec039e449a65c86c94b4adcd9cbf794d28c1258090496"
+    },
+    {
+      "subject": "SWC_021",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_021/session.npz",
+      "sha256": "536cf3ed9059e9e7d824b27a73ddca7af702eca5e06a0b8bd3cd278212236573"
+    },
+    {
+      "subject": "SWC_021",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_021/growth.npz",
+      "sha256": "aa37944cad2ded080d92f12dbff40a371453af2f5125734755cf4b68128d2f07"
+    },
+    {
+      "subject": "SWC_021",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_021/persistence.npz",
+      "sha256": "11b91f72f7cf9567e0282d535075203f2ad65bca56b41b1f8305817614d3addc"
+    },
+    {
+      "subject": "SWC_022",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_022/existing.npz",
+      "sha256": "c28685e09db05735adc78ec225b5c652d2aea47ac3a9e9144dfc9d013bd24706"
+    },
+    {
+      "subject": "SWC_022",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_022/session.npz",
+      "sha256": "3f410532b3d71c33dd1f778a2c52ffc7d55cead7d99f849a1d8a64e40da56ec1"
+    },
+    {
+      "subject": "SWC_022",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_022/growth.npz",
+      "sha256": "d88b34911939e4c680ca3c4715e4ce30aa69b8ac980b5dad0f00d3cb31007ee4"
+    },
+    {
+      "subject": "SWC_022",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_022/persistence.npz",
+      "sha256": "1e3d2a0cd2d33b6bdb074db1e079d7a20d027f7a7c40538d5345152ab44b437d"
+    },
+    {
+      "subject": "SWC_027",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_027/existing.npz",
+      "sha256": "0b0cfd170d745195b2d9c63a55ff87035661be9e0d217d2ced2192cfc3b4408a"
+    },
+    {
+      "subject": "SWC_027",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_027/session.npz",
+      "sha256": "368f3bbc80e8af21b7480af0032b110d953e56979094c0ee810045f2d0ad8a8b"
+    },
+    {
+      "subject": "SWC_027",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_027/growth.npz",
+      "sha256": "8038ec05e5ab9db344b8c2f4eedd946549da742cfe86f437819c9b0b67f8a63c"
+    },
+    {
+      "subject": "SWC_027",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_027/persistence.npz",
+      "sha256": "48c6855803ea024e1eb47a64f031c654787ffbce791ce5f3ba7a9fc977fc0aaa"
+    },
+    {
+      "subject": "SWC_028",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_028/existing.npz",
+      "sha256": "1668c41f7b0042a531dad5957b914a67db04eeb8a0ac6d4d1f16ee8edba3b051"
+    },
+    {
+      "subject": "SWC_028",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_028/session.npz",
+      "sha256": "2fcc4284bf1020324689bb1655fe8fec5b93d3cc76bbd8ceea68ec3b9bcc9b8f"
+    },
+    {
+      "subject": "SWC_028",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_028/growth.npz",
+      "sha256": "6031eb28f36e99b7b823027b9e6c90b3b5e47e66b46a1f3eed28e8ac67debd30"
+    },
+    {
+      "subject": "SWC_028",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_028/persistence.npz",
+      "sha256": "64253ed22de2b676d5edd56b6ce73da2ff2a15bf82241ad9905128ec30ee9e7c"
+    },
+    {
+      "subject": "SWC_029",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_029/existing.npz",
+      "sha256": "6e6b6e92693642786f4114e4f897d71aa2b91d60f8ce3a2edeeec3cd21e06941"
+    },
+    {
+      "subject": "SWC_029",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_029/session.npz",
+      "sha256": "8f2e9bed42eb315fe408a88fd79d871c646a96dcf5a9c2cfcf1da339b71abc52"
+    },
+    {
+      "subject": "SWC_029",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_029/growth.npz",
+      "sha256": "e618d884310c903f92db58a36ea2be190a06d9e7a3bd6cdc0c8a105beedfc61f"
+    },
+    {
+      "subject": "SWC_029",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_029/persistence.npz",
+      "sha256": "6b4117d56b35b1c84f6e6e35f2d393e17586aa9e3abdf5f2f2e5e9e38b271d8b"
+    },
+    {
+      "subject": "SWC_030",
+      "model": "existing",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_030/existing.npz",
+      "sha256": "ac82869e4528fc1a99c094d244644929377c5f5509ad461058e21e9ca94269df"
+    },
+    {
+      "subject": "SWC_030",
+      "model": "session",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_030/session.npz",
+      "sha256": "5359c603046e619d78eca9da02d4200a956792cdc230c50ae968f5589fd59933"
+    },
+    {
+      "subject": "SWC_030",
+      "model": "growth",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_030/growth.npz",
+      "sha256": "727db39a658dd8a7600f86a406ad05ca1891652fd41a66e0fe5291aaf6eb1e84"
+    },
+    {
+      "subject": "SWC_030",
+      "model": "persistence",
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/source_comparison/SWC_030/persistence.npz",
+      "sha256": "8a510185cb76249616d8e08170d836acfce59611e41efcb755c4be449de59174"
+    }
+  ],
+  "comparison_freeze_sha256": "35a0c994823b978c48e665688d43bf0fb146cdd83a3e04684474e74ab67d5078",
+  "protected_prefixes_opened": 0,
+  "protected_futures_opened": 0
+}

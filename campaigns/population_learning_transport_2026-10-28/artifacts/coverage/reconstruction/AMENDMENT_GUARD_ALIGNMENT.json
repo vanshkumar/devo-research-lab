@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-29T02:00:40.001105+00:00",
+  "event": "independent_reconstruction_guard_alignment",
+  "reason": "Frozen reconstructor predates recorded pre-scoring subgroup-finite wrapper; first attempt passed all numeric comparisons and stopped on missing guard key. Audit copy now independently evaluates identical all-subgroup/leave-lab finite rule. Original frozen file and primary scores unchanged.",
+  "prior_audit_copy_sha256": "f70fc4dab247cabde26bf973404ffbbdb949b0ab53b8fbc655621212b5e49cf4",
+  "audit_copy_sha256": "b55435570a32fd3ba93a42d8b99efd226f66e11598f92bfc5b63cd2a6d0015f5",
+  "already_recorded_guard_sha256": "75d3b73f782b439cbc5b6438bc8edc64f708c3cb9758d8e958d42178f7986e3c",
+  "diff": "--- \n+++ \n@@ -123,6 +123,7 @@\n        mean_curve_mae=bool(np.abs(curve).mean()<=config['curve_mae_max']),max_bin_error=bool(np.abs(curve).max()<=config['bin_error_max']),\n        each_lab_bias=bool(max(map(abs,subgroup.values()))<=config['lab_bias_max']),leave_one_lab_out=bool(max(map(abs,leaveout.values()))<=config['leave_one_lab_out_bias_max']))\n     if config.get('require_cluster90',False):checks['scalar_cluster90']=bool(min(intervals['cluster_90'])>-config['scalar_margin'] and max(intervals['cluster_90'])<config['scalar_margin'])\n+    checks['subgroup_estimates_finite']=bool(np.isfinite(list(subgroup.values())+list(leaveout.values())).all())\n     return dict(intervals=intervals,bias_curve=curve.tolist(),curve_mae=float(np.abs(curve).mean()),max_bin_error=float(np.abs(curve).max()),lab_scalar_bias=subgroup,leave_one_lab_out_bias=leaveout,bin_animals=counts.tolist(),checks=checks,pass_gate=all(checks.values()))\n \n def compare_numbers(found,expected,path=''):\n"
+}

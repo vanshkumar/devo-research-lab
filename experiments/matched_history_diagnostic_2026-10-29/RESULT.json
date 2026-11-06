@@ -1,0 +1,1684 @@
+{
+  "utc": "2026-10-29T12:24:55.683202+00:00",
+  "status": "completed_postvalidation_exploratory",
+  "subjects": [
+    "CSHL056",
+    "CSHL_012",
+    "IBL_001",
+    "KS018",
+    "NYU-09",
+    "NYU-11",
+    "NYU-12",
+    "NYU-13",
+    "NYU-14",
+    "SWC_001",
+    "SWC_002",
+    "SWC_003",
+    "SWC_011",
+    "SWC_014",
+    "SWC_015",
+    "SWC_017",
+    "SWC_018",
+    "SWC_020",
+    "SWC_021",
+    "SWC_022",
+    "SWC_027",
+    "SWC_028",
+    "SWC_029",
+    "SWC_030"
+  ],
+  "labs": [
+    "churchlandlab",
+    "churchlandlab",
+    "mrsicflogellab",
+    "cortexlab",
+    "angelakilab",
+    "angelakilab",
+    "angelakilab",
+    "angelakilab",
+    "angelakilab",
+    "hoferlab",
+    "hoferlab",
+    "hoferlab",
+    "hoferlab",
+    "hoferlab",
+    "hoferlab",
+    "mrsicflogellab",
+    "mrsicflogellab",
+    "hoferlab",
+    "hoferlab",
+    "mrsicflogellab",
+    "hoferlab",
+    "hoferlab",
+    "mrsicflogellab",
+    "mrsicflogellab"
+  ],
+  "n": 24,
+  "prefix_trials": 1000,
+  "future_trials": 3000,
+  "source_rows_returned": 96000,
+  "external_access": false,
+  "new_learner_fit": false,
+  "original_omission_prefix_recipe_replayed": true,
+  "new_autonomous_rollouts": false,
+  "information_regime": "actual future stimuli and prior choices/feedback/session starts; current response predicted before update",
+  "endpoint": "equal-side exact100 accuracy, omissions as failures; six500-trial bins",
+  "conditional_curve_method": "analytic expected probabilities; 512-particle mean prefix-derived omission probabilities",
+  "observed_curve": [
+    0.5154359639808129,
+    0.5304490615715898,
+    0.5576240702782908,
+    0.5334004006593515,
+    0.5557991964413608,
+    0.5871290723657142
+  ],
+  "metrics": {
+    "conditional_rnn": {
+      "population_curve_mae": 0.0062755701080831556,
+      "individual_curve_mae": 0.024965745198031148,
+      "individual_side_curve_mae": 0.03662846144703692,
+      "scalar_bias_observed_minus_prediction": 0.0004726354946142329,
+      "forecast_curve": [
+        0.5169842807950591,
+        0.532478677082646,
+        0.5522047315018676,
+        0.5472312721744556,
+        0.5518210190855096,
+        0.5762819716898961
+      ],
+      "individual_curve_mae_by_animal": [
+        0.007753662686525655,
+        0.021399568552378307,
+        0.019094586880836335,
+        0.014555399844630076,
+        0.04772282301692482,
+        0.04005160077273499,
+        0.02301529459815188,
+        0.03340896509510947,
+        0.01798415024787577,
+        0.03659215941245133,
+        0.010711108115570364,
+        0.019038795856321945,
+        0.02803919963700513,
+        0.012404292092340757,
+        0.03222426582613664,
+        0.044854050972409555,
+        0.032576511498720706,
+        0.013110297470931334,
+        0.03667681854770683,
+        0.03132668116529189,
+        0.02111229375571755,
+        0.01018555130522844,
+        0.01595294737451422,
+        0.029386860027233536
+      ],
+      "lab_curve_mae": {
+        "angelakilab": 0.018086769548616686,
+        "churchlandlab": 0.010404846673602608,
+        "cortexlab": 0.014555399844630076,
+        "hoferlab": 0.006664188416981308,
+        "mrsicflogellab": 0.010779975274930657
+      }
+    },
+    "autonomous_rnn": {
+      "population_curve_mae": 0.06969990518046282,
+      "individual_curve_mae": 0.09028950992906176,
+      "individual_side_curve_mae": 0.18039430657300373,
+      "scalar_bias_observed_minus_prediction": -0.06969990518046282,
+      "forecast_curve": [
+        0.5462514639332147,
+        0.5815445397019804,
+        0.6074173006401875,
+        0.6322015473943027,
+        0.6547688871673271,
+        0.6758534575428842
+      ],
+      "individual_curve_mae_by_animal": [
+        0.06581929492084344,
+        0.06757665304690504,
+        0.09563849845740262,
+        0.060158664011142476,
+        0.08327139915585262,
+        0.07630991948410663,
+        0.10918418935655361,
+        0.06595561791066656,
+        0.08606477730845762,
+        0.10209971744518481,
+        0.13524904843462673,
+        0.0698742108931136,
+        0.11493445491520622,
+        0.08995220539724019,
+        0.17462591821715376,
+        0.08172039442214432,
+        0.0736244740297627,
+        0.09441961616916612,
+        0.09066620826336674,
+        0.07551040802027477,
+        0.06911984750843292,
+        0.11168719178156077,
+        0.09463031035280672,
+        0.07885521879551147
+      ],
+      "lab_curve_mae": {
+        "angelakilab": 0.03513426336553802,
+        "churchlandlab": 0.06317097583384856,
+        "cortexlab": 0.060158664011142476,
+        "hoferlab": 0.10409224995349385,
+        "mrsicflogellab": 0.04766221246722246
+      }
+    },
+    "autonomous_growth": {
+      "population_curve_mae": 0.02278105484039143,
+      "individual_curve_mae": 0.06966767101175811,
+      "individual_side_curve_mae": 0.1787917728002359,
+      "scalar_bias_observed_minus_prediction": -0.022781054840391432,
+      "forecast_curve": [
+        0.5177291440718407,
+        0.5450623025083372,
+        0.5631186768318105,
+        0.5813804793568761,
+        0.5924526164142231,
+        0.6167808751563806
+      ],
+      "individual_curve_mae_by_animal": [
+        0.042811174040340745,
+        0.0311587620664432,
+        0.08258442510231491,
+        0.034313367994480044,
+        0.09708180733246924,
+        0.056552208093683214,
+        0.026940294751779687,
+        0.06359013471758598,
+        0.1010362618066436,
+        0.0851240691163709,
+        0.13591591898323882,
+        0.030376207151862334,
+        0.0721845183962671,
+        0.05448997076835684,
+        0.12421559808785786,
+        0.07642004403743495,
+        0.0719811314799934,
+        0.08402122221281227,
+        0.10647160656082784,
+        0.09795125098833317,
+        0.03369783286772119,
+        0.059016786315486375,
+        0.05953141436174662,
+        0.044558097048143876
+      ],
+      "lab_curve_mae": {
+        "angelakilab": 0.050012272766424316,
+        "churchlandlab": 0.029401828512366085,
+        "cortexlab": 0.034313367994480044,
+        "hoferlab": 0.06955859230821416,
+        "mrsicflogellab": 0.02492929082243593
+      }
+    },
+    "autonomous_persistence": {
+      "population_curve_mae": 0.06387739928832624,
+      "individual_curve_mae": 0.08522287583537669,
+      "individual_side_curve_mae": 0.18898365657148064,
+      "scalar_bias_observed_minus_prediction": 0.06387739928832625,
+      "forecast_curve": [
+        0.48145543745104863,
+        0.48287487783739574,
+        0.48260993224187804,
+        0.4829851194484323,
+        0.4837568150199985,
+        0.482891187568409
+      ],
+      "individual_curve_mae_by_animal": [
+        0.042286933259580516,
+        0.07084639700286287,
+        0.0652325634748946,
+        0.05933687308314003,
+        0.2665225038797896,
+        0.07864806520216512,
+        0.07007681649870294,
+        0.15093929384187424,
+        0.17082056434074286,
+        0.060113189726304694,
+        0.05820354664462459,
+        0.05254770595119946,
+        0.022096278498980177,
+        0.08096641289581387,
+        0.05747547196052391,
+        0.10209686559775584,
+        0.14583481868395717,
+        0.018536113947362903,
+        0.07898082652378642,
+        0.1926806519324021,
+        0.09439174977335592,
+        0.01963045792014408,
+        0.025608569770131085,
+        0.061476349638945514
+      ],
+      "lab_curve_mae": {
+        "angelakilab": 0.13707966308392003,
+        "churchlandlab": 0.05314400623207763,
+        "cortexlab": 0.05933687308314003,
+        "hoferlab": 0.019610343438682388,
+        "mrsicflogellab": 0.08580825268137644
+      }
+    }
+  },
+  "comparisons": {
+    "autonomous_rnn": {
+      "positive_means_conditional_better": true,
+      "population_curve_mae_gain": 0.06342433507237966,
+      "population_curve_mae_gain_interval95": [
+        0.036280322647318564,
+        0.08433616430871371
+      ],
+      "individual_curve_mae_gain": 0.06532376473103062,
+      "individual_curve_mae_gain_interval95": [
+        0.054827500221854765,
+        0.07708054944957064
+      ]
+    },
+    "autonomous_growth": {
+      "positive_means_conditional_better": true,
+      "population_curve_mae_gain": 0.016505484732308274,
+      "population_curve_mae_gain_interval95": [
+        0.0027755255162630567,
+        0.041935621042750136
+      ],
+      "individual_curve_mae_gain": 0.044701925813726964,
+      "individual_curve_mae_gain_interval95": [
+        0.03349880418774892,
+        0.056631390761709116
+      ]
+    },
+    "autonomous_persistence": {
+      "positive_means_conditional_better": true,
+      "population_curve_mae_gain": 0.057601829180243085,
+      "population_curve_mae_gain_interval95": [
+        0.028879436126243024,
+        0.08471827489116099
+      ],
+      "individual_curve_mae_gain": 0.06025713063734554,
+      "individual_curve_mae_gain_interval95": [
+        0.04027865793098195,
+        0.08312949372825286
+      ]
+    }
+  },
+  "binary_choice_nll": {
+    "conditional_rnn_nll": {
+      "equal_animal_mean": 0.5344706848528666,
+      "pooled_trial_mean": 0.5340178913584025,
+      "responding_trials": 71351
+    },
+    "frozen_prefix_static_nll": {
+      "equal_animal_mean": 0.6688195578088246,
+      "pooled_trial_mean": 0.6685053572309313,
+      "responding_trials": 71351
+    },
+    "conditional_gain_over_static": {
+      "mean": 0.13434887295595802,
+      "interval95": [
+        0.10878137009370457,
+        0.16124680470164587
+      ]
+    }
+  },
+  "bootstrap": "20000 paired animal resamples seed20261029; exploratory selected-mixture uncertainty, not lab-general inference",
+  "checks": {
+    "all_targets_and_counts_exact": true,
+    "all_prefix_values_exact": true,
+    "source_frozen_hashes_unchanged": true,
+    "original_primary_errors_reproduced": true,
+    "max_independent_probability_difference": 2.220446049250313e-16
+  },
+  "model_sha256": "c7f675d18f4143891ed7d2c76d91f74be74da9565fbae5407952768e2c146940",
+  "bank_sha256": "036f3cfedd56e915b051fb29a80a2622cf5a747366ea31aa46b9249a922eea01",
+  "predeclaration_sha256": "ea75e66e601a4c566bad927025ee6dc7f3b1a25dc1fed157b4af559690ad17d3",
+  "code_sha256": "6b4b670c4b9e40349b16cf3c6034cdf585a957c45f5f95ca6a285abb44a255a5",
+  "records": [
+    {
+      "subject": "CSHL056",
+      "lab": "churchlandlab",
+      "seed": 1723901038,
+      "raw_rows": 4000,
+      "scored_rows": 3000,
+      "saved_prefix_fields_exact": [
+        "contrastLeft",
+        "contrastRight",
+        "choice",
+        "feedbackType",
+        "rewardVolume",
+        "probabilityLeft",
+        "intervals_0",
+        "intervals_1",
+        "goCue_times",
+        "stimOn_times",
+        "firstMovement_times",
+        "response_times",
+        "feedback_times",
+        "repNum",
+        "rewardVolume_available",
+        "session",
+        "session_index",
+        "session_start",
+        "start_of_session",
+        "session_end",
+        "day"
+      ],
+      "targets_and_counts_exact": true,
+      "session_boundaries_exact": true,
+      "independent_recurrence": {
+        "trials": 32,
+        "max_probability_difference": 5.551115123125783e-17,
+        "prediction_before_current_outcome": true
+      },
+      "conditional_rnn_nll": {
+        "n_responding": 2998,
+        "mean": 0.26200894912352607,
+        "sum": 785.5028294723311
+      },
+      "frozen_prefix_static_nll": {
+        "n_responding": 2998,
+        "mean": 0.4001798611436491,
+        "sum": 1199.7392237086601
+      },
+      "omission_mean_by_bin": [
+        0.0036728619563548798,
+        0.0020181880458577358,
+        0.0030212595498333656,
+        0.002808724021950924,
+        0.002352024582287336,
+        0.00725862499174627
+      ],
+      "seconds": 1.2765984580037184
+    },
+    {
+      "subject": "CSHL_012",
+      "lab": "churchlandlab",
+      "seed": 36786418,
+      "raw_rows": 4000,
+      "scored_rows": 3000,
+      "saved_prefix_fields_exact": [
+        "contrastLeft",
+        "contrastRight",
+        "choice",
+        "feedbackType",
+        "rewardVolume",
+        "probabilityLeft",
+        "intervals_0",
+        "intervals_1",
+        "goCue_times",
+        "stimOn_times",
+        "firstMovement_times",
+        "response_times",
+        "feedback_times",
+        "repNum",
+        "rewardVolume_available",
+        "session",
+        "session_index",
+        "session_start",
+        "start_of_session",
+        "session_end",
+        "day"
+      ],
+      "targets_and_counts_exact": true,
+      "session_boundaries_exact": true,
+      "independent_recurrence": {
+        "trials": 32,
+        "max_probability_difference": 0.0,
+        "prediction_before_current_outcome": true
+      },
+      "conditional_rnn_nll": {
+        "n_responding": 2998,
+        "mean": 0.3857399109568129,
+        "sum": 1156.4482530485252
+      },
+      "frozen_prefix_static_nll": {
+        "n_responding": 2998,
+        "mean": 0.49898113576706504,
+        "sum": 1495.945445029661
+      },
+      "omission_mean_by_bin": [
+        0.0036127179521518614,
+        0.0022201210208600934,
+        0.002648997843011581,
+        0.0036137565742776537,
+        0.0024380163056306327,
+        0.007186201762325462
+      ],
+      "seconds": 0.07668979201116599
+    },
+    {
+      "subject": "IBL_001",
+      "lab": "mrsicflogellab",
+      "seed": 1405988904,
+      "raw_rows": 4000,
+      "scored_rows": 3000,
+      "saved_prefix_fields_exact": [
+        "contrastLeft",
+        "contrastRight",
+        "choice",
+        "feedbackType",
+        "rewardVolume",
+        "probabilityLeft",
+        "intervals_0",
+        "intervals_1",
+        "goCue_times",
+        "stimOn_times",
+        "firstMovement_times",
+        "response_times",
+        "feedback_times",
+        "repNum",
+        "rewardVolume_available",
+        "session",
+        "session_index",
+        "session_start",
+        "start_of_session",
+        "session_end",
+        "day"
+      ],
+      "targets_and_counts_exact": true,
+      "session_boundaries_exact": true,
+      "independent_recurrence": {
+        "trials": 32,
+        "max_probability_difference": 1.3877787807814457e-17,
+        "prediction_before_current_outcome": true
+      },
+      "conditional_rnn_nll": {
+        "n_responding": 3000,
+        "mean": 0.45868072932711235,
+        "sum": 1376.042187981337
+      },
+      "frozen_prefix_static_nll": {
+        "n_responding": 3000,
+        "mean": 0.5060298863377984,
+        "sum": 1518.0896590133952
+      },
+      "omission_mean_by_bin": [
+        0.0010037820157271663,
+        0.0014161260236072513,
+        0.0018780465888487096,
+        0.0012769568981062726,
+        0.0014542608967857422,
+        0.0011849219646992992
+      ],
+      "seconds": 0.05759816701174714
+    },
+    {
+      "subject": "KS018",
+      "lab": "cortexlab",
+      "seed": 2011629024,
+      "raw_rows": 4000,
+      "scored_rows": 3000,
+      "saved_prefix_fields_exact": [
+        "contrastLeft",
+        "contrastRight",
+        "choice",
+        "feedbackType",
+        "rewardVolume",
+        "probabilityLeft",
+        "intervals_0",
+        "intervals_1",
+        "goCue_times",
+        "stimOn_times",
+        "firstMovement_times",
+        "response_times",
+        "feedback_times",
+        "repNum",
+        "rewardVolume_available",
+        "session",
+        "session_index",
+        "session_start",
+        "start_of_session",
+        "session_end",
+        "day"
+      ],
+      "targets_and_counts_exact": true,
+      "session_boundaries_exact": true,
+      "independent_recurrence": {
+        "trials": 32,
+        "max_probability_difference": 1.1102230246251565e-16,
+        "prediction_before_current_outcome": true
+      },
+      "conditional_rnn_nll": {
+        "n_responding": 2986,
+        "mean": 0.3789828523620329,
+        "sum": 1131.6427971530302
+      },
+      "frozen_prefix_static_nll": {
+        "n_responding": 2986,
+        "mean": 0.532484876282443,
+        "sum": 1589.9998405793747
+      },
+      "omission_mean_by_bin": [
+        0.0029854874014554516,
+        0.0021371221067083,
+        0.0034869969732814997,
+        0.003556389354941192,
+        0.002387139237167834,
+        0.005096894775740183
+      ],
+      "seconds": 0.07640612497925758
+    },
+    {
+      "subject": "NYU-09",
+      "lab": "angelakilab",
+      "seed": 505890014,
+      "raw_rows": 4000,
+      "scored_rows": 3000,
+      "saved_prefix_fields_exact": [
+        "contrastLeft",
+        "contrastRight",
+        "choice",
+        "feedbackType",
+        "rewardVolume",
+        "probabilityLeft",
+        "intervals_0",
+        "intervals_1",
+        "goCue_times",
+        "stimOn_times",
+        "firstMovement_times",
+        "response_times",
+        "feedback_times",
+        "repNum",
+        "rewardVolume_available",
+        "session",
+        "session_index",
+        "session_start",
+        "start_of_session",
+        "session_end",
+        "day"
+      ],
+      "targets_and_counts_exact": true,
+      "session_boundaries_exact": true,
+      "independent_recurrence": {
+        "trials": 32,
+        "max_probability_difference": 2.220446049250313e-16,
+        "prediction_before_current_outcome": true
+      },
+      "conditional_rnn_nll": {
+        "n_responding": 2973,
+        "mean": 0.5040030296645818,
+        "sum": 1498.4010071928017
+      },
+      "frozen_prefix_static_nll": {
+        "n_responding": 2973,
+        "mean": 0.6503893703494457,
+        "sum": 1933.607598048902
+      },
+      "omission_mean_by_bin": [
+        0.03127938893135139,
+        0.019053976582356035,
+        0.02990420592658872,
+        0.014716976987537086,
+        0.01330370206478148,
+        0.015954367317174048
+      ],
+      "seconds": 0.06259208300616592
+    },
+    {
+      "subject": "NYU-11",
+      "lab": "angelakilab",
+      "seed": 1631918403,
+      "raw_rows": 4000,
+      "scored_rows": 3000,
+      "saved_prefix_fields_exact": [
+        "contrastLeft",
+        "contrastRight",
+        "choice",
+        "feedbackType",
+        "rewardVolume",
+        "probabilityLeft",
+        "intervals_0",
+        "intervals_1",
+        "goCue_times",
+        "stimOn_times",
+        "firstMovement_times",
+        "response_times",
+        "feedback_times",
+        "repNum",
+        "rewardVolume_available",
+        "session",
+        "session_index",
+        "session_start",
+        "start_of_session",
+        "session_end",
+        "day"
+      ],
+      "targets_and_counts_exact": true,
+      "session_boundaries_exact": true,
+      "independent_recurrence": {
+        "trials": 32,
+        "max_probability_difference": 1.6653345369377348e-16,
+        "prediction_before_current_outcome": true
+      },
+      "conditional_rnn_nll": {
+        "n_responding": 2693,
+        "mean": 0.5964898926766316,
+        "sum": 1606.3472809781688
+      },
+      "frozen_prefix_static_nll": {
+        "n_responding": 2693,
+        "mean": 0.7019071240364885,
+        "sum": 1890.2358850302635
+      },
+      "omission_mean_by_bin": [
+        0.07211080473267947,
+        0.04169574494122596,
+        0.022718474256392333,
+        0.0265624360567511,
+        0.022370616794375665,
+        0.014111346363850107
+      ],
+      "seconds": 0.07440204202430323
+    },
+    {
+      "subject": "NYU-12",
+      "lab": "angelakilab",
+      "seed": 728113312,
+      "raw_rows": 4000,
+      "scored_rows": 3000,
+      "saved_prefix_fields_exact": [
+        "contrastLeft",
+        "contrastRight",
+        "choice",
+        "feedbackType",
+        "rewardVolume",
+        "probabilityLeft",
+        "intervals_0",
+        "intervals_1",
+        "goCue_times",
+        "stimOn_times",
+        "firstMovement_times",
+        "response_times",
+        "feedback_times",
+        "repNum",
+        "rewardVolume_available",
+        "session",
+        "session_index",
+        "session_start",
+        "start_of_session",
+        "session_end",
+        "day"
+      ],
+      "targets_and_counts_exact": true,
+      "session_boundaries_exact": true,
+      "independent_recurrence": {
+        "trials": 32,
+        "max_probability_difference": 2.220446049250313e-16,
+        "prediction_before_current_outcome": true
+      },
+      "conditional_rnn_nll": {
+        "n_responding": 3000,
+        "mean": 0.6168705677927275,
+        "sum": 1850.6117033781825
+      },
+      "frozen_prefix_static_nll": {
+        "n_responding": 3000,
+        "mean": 0.691872942825634,
+        "sum": 2075.6188284769023
+      },
+      "omission_mean_by_bin": [
+        0.001190751581082109,
+        0.0010481560489660493,
+        0.0027323507778078617,
+        0.0017831238339003396,
+        0.0012248820109016373,
+        0.0018657996064567514
+      ],
+      "seconds": 0.04224245899240486
+    },
+    {
+      "subject": "NYU-13",
+      "lab": "angelakilab",
+      "seed": 1371139720,
+      "raw_rows": 4000,
+      "scored_rows": 3000,
+      "saved_prefix_fields_exact": [
+        "contrastLeft",
+        "contrastRight",
+        "choice",
+        "feedbackType",
+        "rewardVolume",
+        "probabilityLeft",
+        "intervals_0",
+        "intervals_1",
+        "goCue_times",
+        "stimOn_times",
+        "firstMovement_times",
+        "response_times",
+        "feedback_times",
+        "repNum",
+        "rewardVolume_available",
+        "session",
+        "session_index",
+        "session_start",
+        "start_of_session",
+        "session_end",
+        "day"
+      ],
+      "targets_and_counts_exact": true,
+      "session_boundaries_exact": true,
+      "independent_recurrence": {
+        "trials": 32,
+        "max_probability_difference": 2.220446049250313e-16,
+        "prediction_before_current_outcome": true
+      },
+      "conditional_rnn_nll": {
+        "n_responding": 2950,
+        "mean": 0.617162181424094,
+        "sum": 1820.628435201077
+      },
+      "frozen_prefix_static_nll": {
+        "n_responding": 2950,
+        "mean": 0.7296789964761469,
+        "sum": 2152.5530396046333
+      },
+      "omission_mean_by_bin": [
+        0.003640083682175594,
+        0.0024836419789271507,
+        0.007474370534701526,
+        0.0036487136772227636,
+        0.0034558466624248253,
+        0.006950215868050381
+      ],
+      "seconds": 0.050312083010794595
+    },
+    {
+      "subject": "NYU-14",
+      "lab": "angelakilab",
+      "seed": 1262216871,
+      "raw_rows": 4000,
+      "scored_rows": 3000,
+      "saved_prefix_fields_exact": [
+        "contrastLeft",
+        "contrastRight",
+        "choice",
+        "feedbackType",
+        "rewardVolume",
+        "probabilityLeft",
+        "intervals_0",
+        "intervals_1",
+        "goCue_times",
+        "stimOn_times",
+        "firstMovement_times",
+        "response_times",
+        "feedback_times",
+        "repNum",
+        "rewardVolume_available",
+        "session",
+        "session_index",
+        "session_start",
+        "start_of_session",
+        "session_end",
+        "day"
+      ],
+      "targets_and_counts_exact": true,
+      "session_boundaries_exact": true,
+      "independent_recurrence": {
+        "trials": 32,
+        "max_probability_difference": 1.1102230246251565e-16,
+        "prediction_before_current_outcome": true
+      },
+      "conditional_rnn_nll": {
+        "n_responding": 3000,
+        "mean": 0.48029921185917435,
+        "sum": 1440.897635577523
+      },
+      "frozen_prefix_static_nll": {
+        "n_responding": 3000,
+        "mean": 0.6107585455704443,
+        "sum": 1832.2756367113327
+      },
+      "omission_mean_by_bin": [
+        0.014945245230586622,
+        0.006235454000907163,
+        0.00868952545106713,
+        0.006740888288326906,
+        0.0038653005538287844,
+        0.002912706173379311
+      ],
+      "seconds": 0.04916912500630133
+    },
+    {
+      "subject": "SWC_001",
+      "lab": "hoferlab",
+      "seed": 315656898,
+      "raw_rows": 4000,
+      "scored_rows": 3000,
+      "saved_prefix_fields_exact": [
+        "contrastLeft",
+        "contrastRight",
+        "choice",
+        "feedbackType",
+        "rewardVolume",
+        "probabilityLeft",
+        "intervals_0",
+        "intervals_1",
+        "goCue_times",
+        "stimOn_times",
+        "firstMovement_times",
+        "response_times",
+        "feedback_times",
+        "repNum",
+        "rewardVolume_available",
+        "session",
+        "session_index",
+        "session_start",
+        "start_of_session",
+        "session_end",
+        "day"
+      ],
+      "targets_and_counts_exact": true,
+      "session_boundaries_exact": true,
+      "independent_recurrence": {
+        "trials": 32,
+        "max_probability_difference": 1.1102230246251565e-16,
+        "prediction_before_current_outcome": true
+      },
+      "conditional_rnn_nll": {
+        "n_responding": 2922,
+        "mean": 0.6019253491538112,
+        "sum": 1758.8258702274366
+      },
+      "frozen_prefix_static_nll": {
+        "n_responding": 2922,
+        "mean": 0.7058629409034315,
+        "sum": 2062.531513319827
+      },
+      "omission_mean_by_bin": [
+        0.011685861229149852,
+        0.006589616454230552,
+        0.00978126442779266,
+        0.0053662277435882295,
+        0.004694541962571732,
+        0.007041490070239506
+      ],
+      "seconds": 0.07077308397856541
+    },
+    {
+      "subject": "SWC_002",
+      "lab": "hoferlab",
+      "seed": 1543882219,
+      "raw_rows": 4000,
+      "scored_rows": 3000,
+      "saved_prefix_fields_exact": [
+        "contrastLeft",
+        "contrastRight",
+        "choice",
+        "feedbackType",
+        "rewardVolume",
+        "probabilityLeft",
+        "intervals_0",
+        "intervals_1",
+        "goCue_times",
+        "stimOn_times",
+        "firstMovement_times",
+        "response_times",
+        "feedback_times",
+        "repNum",
+        "rewardVolume_available",
+        "session",
+        "session_index",
+        "session_start",
+        "start_of_session",
+        "session_end",
+        "day"
+      ],
+      "targets_and_counts_exact": true,
+      "session_boundaries_exact": true,
+      "independent_recurrence": {
+        "trials": 32,
+        "max_probability_difference": 1.3877787807814457e-16,
+        "prediction_before_current_outcome": true
+      },
+      "conditional_rnn_nll": {
+        "n_responding": 2951,
+        "mean": 0.6232248049415675,
+        "sum": 1839.1363993825657
+      },
+      "frozen_prefix_static_nll": {
+        "n_responding": 2951,
+        "mean": 0.6847666944751007,
+        "sum": 2020.7465153960222
+      },
+      "omission_mean_by_bin": [
+        0.0031289449696450767,
+        0.0020756836223790533,
+        0.004853285014802467,
+        0.0033750680456150917,
+        0.00274161171346132,
+        0.005407962582499971
+      ],
+      "seconds": 0.051595875003840774
+    },
+    {
+      "subject": "SWC_003",
+      "lab": "hoferlab",
+      "seed": 1274413053,
+      "raw_rows": 4000,
+      "scored_rows": 3000,
+      "saved_prefix_fields_exact": [
+        "contrastLeft",
+        "contrastRight",
+        "choice",
+        "feedbackType",
+        "rewardVolume",
+        "probabilityLeft",
+        "intervals_0",
+        "intervals_1",
+        "goCue_times",
+        "stimOn_times",
+        "firstMovement_times",
+        "response_times",
+        "feedback_times",
+        "repNum",
+        "rewardVolume_available",
+        "session",
+        "session_index",
+        "session_start",
+        "start_of_session",
+        "session_end",
+        "day"
+      ],
+      "targets_and_counts_exact": true,
+      "session_boundaries_exact": true,
+      "independent_recurrence": {
+        "trials": 32,
+        "max_probability_difference": 8.326672684688674e-17,
+        "prediction_before_current_outcome": true
+      },
+      "conditional_rnn_nll": {
+        "n_responding": 2966,
+        "mean": 0.5695538275548154,
+        "sum": 1689.2966525275824
+      },
+      "frozen_prefix_static_nll": {
+        "n_responding": 2966,
+        "mean": 0.8608230634564163,
+        "sum": 2553.201206211731
+      },
+      "omission_mean_by_bin": [
+        0.009062445203818225,
+        0.004670444406335348,
+        0.0039965553299261825,
+        0.0054509403718912795,
+        0.0040115417214387356,
+        0.004277965998114453
+      ],
+      "seconds": 0.07799808302661404
+    },
+    {
+      "subject": "SWC_011",
+      "lab": "hoferlab",
+      "seed": 772968876,
+      "raw_rows": 4000,
+      "scored_rows": 3000,
+      "saved_prefix_fields_exact": [
+        "contrastLeft",
+        "contrastRight",
+        "choice",
+        "feedbackType",
+        "rewardVolume",
+        "probabilityLeft",
+        "intervals_0",
+        "intervals_1",
+        "goCue_times",
+        "stimOn_times",
+        "firstMovement_times",
+        "response_times",
+        "feedback_times",
+        "repNum",
+        "rewardVolume_available",
+        "session",
+        "session_index",
+        "session_start",
+        "start_of_session",
+        "session_end",
+        "day"
+      ],
+      "targets_and_counts_exact": true,
+      "session_boundaries_exact": true,
+      "independent_recurrence": {
+        "trials": 32,
+        "max_probability_difference": 2.220446049250313e-16,
+        "prediction_before_current_outcome": true
+      },
+      "conditional_rnn_nll": {
+        "n_responding": 2976,
+        "mean": 0.5996409668239385,
+        "sum": 1784.5315172680412
+      },
+      "frozen_prefix_static_nll": {
+        "n_responding": 2976,
+        "mean": 0.791019460934228,
+        "sum": 2354.0739157402627
+      },
+      "omission_mean_by_bin": [
+        0.005330058934830606,
+        0.002774345774572193,
+        0.008863695833270437,
+        0.0031198819885233627,
+        0.0038509466194279283,
+        0.011648930347947943
+      ],
+      "seconds": 0.0808122500020545
+    },
+    {
+      "subject": "SWC_014",
+      "lab": "hoferlab",
+      "seed": 1423766200,
+      "raw_rows": 4000,
+      "scored_rows": 3000,
+      "saved_prefix_fields_exact": [
+        "contrastLeft",
+        "contrastRight",
+        "choice",
+        "feedbackType",
+        "rewardVolume",
+        "probabilityLeft",
+        "intervals_0",
+        "intervals_1",
+        "goCue_times",
+        "stimOn_times",
+        "firstMovement_times",
+        "response_times",
+        "feedback_times",
+        "repNum",
+        "rewardVolume_available",
+        "session",
+        "session_index",
+        "session_start",
+        "start_of_session",
+        "session_end",
+        "day"
+      ],
+      "targets_and_counts_exact": true,
+      "session_boundaries_exact": true,
+      "independent_recurrence": {
+        "trials": 32,
+        "max_probability_difference": 1.1102230246251565e-16,
+        "prediction_before_current_outcome": true
+      },
+      "conditional_rnn_nll": {
+        "n_responding": 3000,
+        "mean": 0.45690410016404787,
+        "sum": 1370.7123004921436
+      },
+      "frozen_prefix_static_nll": {
+        "n_responding": 3000,
+        "mean": 0.7369511970795153,
+        "sum": 2210.853591238546
+      },
+      "omission_mean_by_bin": [
+        0.0012018196582667332,
+        0.0007899279725936683,
+        0.0015797721574970858,
+        0.0015114404244671005,
+        0.0010475855123184006,
+        0.0020947504484510825
+      ],
+      "seconds": 0.09479704199475236
+    },
+    {
+      "subject": "SWC_015",
+      "lab": "hoferlab",
+      "seed": 2143655685,
+      "raw_rows": 4000,
+      "scored_rows": 3000,
+      "saved_prefix_fields_exact": [
+        "contrastLeft",
+        "contrastRight",
+        "choice",
+        "feedbackType",
+        "rewardVolume",
+        "probabilityLeft",
+        "intervals_0",
+        "intervals_1",
+        "goCue_times",
+        "stimOn_times",
+        "firstMovement_times",
+        "response_times",
+        "feedback_times",
+        "repNum",
+        "rewardVolume_available",
+        "session",
+        "session_index",
+        "session_start",
+        "start_of_session",
+        "session_end",
+        "day"
+      ],
+      "targets_and_counts_exact": true,
+      "session_boundaries_exact": true,
+      "independent_recurrence": {
+        "trials": 32,
+        "max_probability_difference": 1.1102230246251565e-16,
+        "prediction_before_current_outcome": true
+      },
+      "conditional_rnn_nll": {
+        "n_responding": 2995,
+        "mean": 0.5241363301563104,
+        "sum": 1569.7883088181497
+      },
+      "frozen_prefix_static_nll": {
+        "n_responding": 2995,
+        "mean": 0.6836086071594558,
+        "sum": 2047.4077784425701
+      },
+      "omission_mean_by_bin": [
+        0.001755866821989987,
+        0.0015325702558914812,
+        0.001410834736826867,
+        0.0015978884773820965,
+        0.001541844220969305,
+        0.0008459150801139953
+      ],
+      "seconds": 0.06911445799050853
+    },
+    {
+      "subject": "SWC_017",
+      "lab": "mrsicflogellab",
+      "seed": 1139641367,
+      "raw_rows": 4000,
+      "scored_rows": 3000,
+      "saved_prefix_fields_exact": [
+        "contrastLeft",
+        "contrastRight",
+        "choice",
+        "feedbackType",
+        "rewardVolume",
+        "probabilityLeft",
+        "intervals_0",
+        "intervals_1",
+        "goCue_times",
+        "stimOn_times",
+        "firstMovement_times",
+        "response_times",
+        "feedback_times",
+        "repNum",
+        "rewardVolume_available",
+        "session",
+        "session_index",
+        "session_start",
+        "start_of_session",
+        "session_end",
+        "day"
+      ],
+      "targets_and_counts_exact": true,
+      "session_boundaries_exact": true,
+      "independent_recurrence": {
+        "trials": 32,
+        "max_probability_difference": 1.1102230246251565e-16,
+        "prediction_before_current_outcome": true
+      },
+      "conditional_rnn_nll": {
+        "n_responding": 2995,
+        "mean": 0.468796893495577,
+        "sum": 1404.0466960192532
+      },
+      "frozen_prefix_static_nll": {
+        "n_responding": 2995,
+        "mean": 0.6509891905330832,
+        "sum": 1949.7126256465845
+      },
+      "omission_mean_by_bin": [
+        0.0061622285925264,
+        0.002500940217762308,
+        0.003489840592542765,
+        0.0021219212580462204,
+        0.0035804082610814835,
+        0.012173763083143994
+      ],
+      "seconds": 0.06961479200981557
+    },
+    {
+      "subject": "SWC_018",
+      "lab": "mrsicflogellab",
+      "seed": 85522771,
+      "raw_rows": 4000,
+      "scored_rows": 3000,
+      "saved_prefix_fields_exact": [
+        "contrastLeft",
+        "contrastRight",
+        "choice",
+        "feedbackType",
+        "rewardVolume",
+        "probabilityLeft",
+        "intervals_0",
+        "intervals_1",
+        "goCue_times",
+        "stimOn_times",
+        "firstMovement_times",
+        "response_times",
+        "feedback_times",
+        "repNum",
+        "rewardVolume_available",
+        "session",
+        "session_index",
+        "session_start",
+        "start_of_session",
+        "session_end",
+        "day"
+      ],
+      "targets_and_counts_exact": true,
+      "session_boundaries_exact": true,
+      "independent_recurrence": {
+        "trials": 32,
+        "max_probability_difference": 2.220446049250313e-16,
+        "prediction_before_current_outcome": true
+      },
+      "conditional_rnn_nll": {
+        "n_responding": 2999,
+        "mean": 0.5229642732267817,
+        "sum": 1568.3698554071184
+      },
+      "frozen_prefix_static_nll": {
+        "n_responding": 2999,
+        "mean": 0.7515548458613178,
+        "sum": 2253.912982738092
+      },
+      "omission_mean_by_bin": [
+        0.005392465318073041,
+        0.0016320014160568904,
+        0.0027319359225118816,
+        0.001677340132588738,
+        0.0014410997615580934,
+        0.001084494872621199
+      ],
+      "seconds": 0.06528887499007396
+    },
+    {
+      "subject": "SWC_020",
+      "lab": "hoferlab",
+      "seed": 739719779,
+      "raw_rows": 4000,
+      "scored_rows": 3000,
+      "saved_prefix_fields_exact": [
+        "contrastLeft",
+        "contrastRight",
+        "choice",
+        "feedbackType",
+        "rewardVolume",
+        "probabilityLeft",
+        "intervals_0",
+        "intervals_1",
+        "goCue_times",
+        "stimOn_times",
+        "firstMovement_times",
+        "response_times",
+        "feedback_times",
+        "repNum",
+        "rewardVolume_available",
+        "session",
+        "session_index",
+        "session_start",
+        "start_of_session",
+        "session_end",
+        "day"
+      ],
+      "targets_and_counts_exact": true,
+      "session_boundaries_exact": true,
+      "independent_recurrence": {
+        "trials": 32,
+        "max_probability_difference": 2.220446049250313e-16,
+        "prediction_before_current_outcome": true
+      },
+      "conditional_rnn_nll": {
+        "n_responding": 3000,
+        "mean": 0.6296619967101839,
+        "sum": 1888.9859901305517
+      },
+      "frozen_prefix_static_nll": {
+        "n_responding": 3000,
+        "mean": 0.7424943087821742,
+        "sum": 2227.4829263465226
+      },
+      "omission_mean_by_bin": [
+        0.001266157528941343,
+        0.0012339869604573136,
+        0.002573811691902529,
+        0.0019135676575546216,
+        0.0012135352466276133,
+        0.0012143152283333944
+      ],
+      "seconds": 0.06097266697906889
+    },
+    {
+      "subject": "SWC_021",
+      "lab": "hoferlab",
+      "seed": 1307966139,
+      "raw_rows": 4000,
+      "scored_rows": 3000,
+      "saved_prefix_fields_exact": [
+        "contrastLeft",
+        "contrastRight",
+        "choice",
+        "feedbackType",
+        "rewardVolume",
+        "probabilityLeft",
+        "intervals_0",
+        "intervals_1",
+        "goCue_times",
+        "stimOn_times",
+        "firstMovement_times",
+        "response_times",
+        "feedback_times",
+        "repNum",
+        "rewardVolume_available",
+        "session",
+        "session_index",
+        "session_start",
+        "start_of_session",
+        "session_end",
+        "day"
+      ],
+      "targets_and_counts_exact": true,
+      "session_boundaries_exact": true,
+      "independent_recurrence": {
+        "trials": 32,
+        "max_probability_difference": 0.0,
+        "prediction_before_current_outcome": true
+      },
+      "conditional_rnn_nll": {
+        "n_responding": 2995,
+        "mean": 0.5678673461208311,
+        "sum": 1700.7627016318893
+      },
+      "frozen_prefix_static_nll": {
+        "n_responding": 2995,
+        "mean": 0.7014844848524588,
+        "sum": 2100.9460321331144
+      },
+      "omission_mean_by_bin": [
+        0.004274831601330492,
+        0.0014546547697778613,
+        0.00258753961679907,
+        0.001703058013560211,
+        0.0014075074477646362,
+        0.0011336286456452966
+      ],
+      "seconds": 0.061782667005900294
+    },
+    {
+      "subject": "SWC_022",
+      "lab": "mrsicflogellab",
+      "seed": 236932414,
+      "raw_rows": 4000,
+      "scored_rows": 3000,
+      "saved_prefix_fields_exact": [
+        "contrastLeft",
+        "contrastRight",
+        "choice",
+        "feedbackType",
+        "rewardVolume",
+        "probabilityLeft",
+        "intervals_0",
+        "intervals_1",
+        "goCue_times",
+        "stimOn_times",
+        "firstMovement_times",
+        "response_times",
+        "feedback_times",
+        "repNum",
+        "rewardVolume_available",
+        "session",
+        "session_index",
+        "session_start",
+        "start_of_session",
+        "session_end",
+        "day"
+      ],
+      "targets_and_counts_exact": true,
+      "session_boundaries_exact": true,
+      "independent_recurrence": {
+        "trials": 32,
+        "max_probability_difference": 1.1102230246251565e-16,
+        "prediction_before_current_outcome": true
+      },
+      "conditional_rnn_nll": {
+        "n_responding": 3000,
+        "mean": 0.5703813361985474,
+        "sum": 1711.1440085956422
+      },
+      "frozen_prefix_static_nll": {
+        "n_responding": 3000,
+        "mean": 0.683913283872982,
+        "sum": 2051.739851618946
+      },
+      "omission_mean_by_bin": [
+        0.0012457208186293397,
+        0.0009672174263869382,
+        0.001821487532893531,
+        0.00187945312726863,
+        0.0012237372766276647,
+        0.002090902058495214
+      ],
+      "seconds": 0.057213874999433756
+    },
+    {
+      "subject": "SWC_027",
+      "lab": "hoferlab",
+      "seed": 1805386467,
+      "raw_rows": 4000,
+      "scored_rows": 3000,
+      "saved_prefix_fields_exact": [
+        "contrastLeft",
+        "contrastRight",
+        "choice",
+        "feedbackType",
+        "rewardVolume",
+        "probabilityLeft",
+        "intervals_0",
+        "intervals_1",
+        "goCue_times",
+        "stimOn_times",
+        "firstMovement_times",
+        "response_times",
+        "feedback_times",
+        "repNum",
+        "rewardVolume_available",
+        "session",
+        "session_index",
+        "session_start",
+        "start_of_session",
+        "session_end",
+        "day"
+      ],
+      "targets_and_counts_exact": true,
+      "session_boundaries_exact": true,
+      "independent_recurrence": {
+        "trials": 32,
+        "max_probability_difference": 8.326672684688674e-17,
+        "prediction_before_current_outcome": true
+      },
+      "conditional_rnn_nll": {
+        "n_responding": 2993,
+        "mean": 0.6218123443693961,
+        "sum": 1861.0843466976025
+      },
+      "frozen_prefix_static_nll": {
+        "n_responding": 2993,
+        "mean": 0.6786287400866543,
+        "sum": 2031.1358190793562
+      },
+      "omission_mean_by_bin": [
+        0.001576212757071088,
+        0.0010344642714163262,
+        0.0031007684127553337,
+        0.0019567226117205385,
+        0.0014915274197610197,
+        0.0036556594860111796
+      ],
+      "seconds": 0.04362150002270937
+    },
+    {
+      "subject": "SWC_028",
+      "lab": "hoferlab",
+      "seed": 215273629,
+      "raw_rows": 4000,
+      "scored_rows": 3000,
+      "saved_prefix_fields_exact": [
+        "contrastLeft",
+        "contrastRight",
+        "choice",
+        "feedbackType",
+        "rewardVolume",
+        "probabilityLeft",
+        "intervals_0",
+        "intervals_1",
+        "goCue_times",
+        "stimOn_times",
+        "firstMovement_times",
+        "response_times",
+        "feedback_times",
+        "repNum",
+        "rewardVolume_available",
+        "session",
+        "session_index",
+        "session_start",
+        "start_of_session",
+        "session_end",
+        "day"
+      ],
+      "targets_and_counts_exact": true,
+      "session_boundaries_exact": true,
+      "independent_recurrence": {
+        "trials": 32,
+        "max_probability_difference": 2.220446049250313e-16,
+        "prediction_before_current_outcome": true
+      },
+      "conditional_rnn_nll": {
+        "n_responding": 2995,
+        "mean": 0.575214272185977,
+        "sum": 1722.7667451970012
+      },
+      "frozen_prefix_static_nll": {
+        "n_responding": 2995,
+        "mean": 0.7424864331245278,
+        "sum": 2223.746867207961
+      },
+      "omission_mean_by_bin": [
+        0.0014345014653957709,
+        0.0012084472108526254,
+        0.00245053017689382,
+        0.0012817630265371865,
+        0.0012419212900144877,
+        0.0011529956663228064
+      ],
+      "seconds": 0.05083891598042101
+    },
+    {
+      "subject": "SWC_029",
+      "lab": "mrsicflogellab",
+      "seed": 1801693792,
+      "raw_rows": 4000,
+      "scored_rows": 3000,
+      "saved_prefix_fields_exact": [
+        "contrastLeft",
+        "contrastRight",
+        "choice",
+        "feedbackType",
+        "rewardVolume",
+        "probabilityLeft",
+        "intervals_0",
+        "intervals_1",
+        "goCue_times",
+        "stimOn_times",
+        "firstMovement_times",
+        "response_times",
+        "feedback_times",
+        "repNum",
+        "rewardVolume_available",
+        "session",
+        "session_index",
+        "session_start",
+        "start_of_session",
+        "session_end",
+        "day"
+      ],
+      "targets_and_counts_exact": true,
+      "session_boundaries_exact": true,
+      "independent_recurrence": {
+        "trials": 32,
+        "max_probability_difference": 5.551115123125783e-17,
+        "prediction_before_current_outcome": true
+      },
+      "conditional_rnn_nll": {
+        "n_responding": 2996,
+        "mean": 0.6792496730719813,
+        "sum": 2035.0320205236558
+      },
+      "frozen_prefix_static_nll": {
+        "n_responding": 2996,
+        "mean": 0.6924181493292512,
+        "sum": 2074.4847753904364
+      },
+      "omission_mean_by_bin": [
+        0.0014245601199688925,
+        0.0011635912071729813,
+        0.002901484903862873,
+        0.0019496449877211964,
+        0.0014380021567480126,
+        0.002830683970780075
+      ],
+      "seconds": 0.04026333300862461
+    },
+    {
+      "subject": "SWC_030",
+      "lab": "mrsicflogellab",
+      "seed": 1231921391,
+      "raw_rows": 4000,
+      "scored_rows": 3000,
+      "saved_prefix_fields_exact": [
+        "contrastLeft",
+        "contrastRight",
+        "choice",
+        "feedbackType",
+        "rewardVolume",
+        "probabilityLeft",
+        "intervals_0",
+        "intervals_1",
+        "goCue_times",
+        "stimOn_times",
+        "firstMovement_times",
+        "response_times",
+        "feedback_times",
+        "repNum",
+        "rewardVolume_available",
+        "session",
+        "session_index",
+        "session_start",
+        "start_of_session",
+        "session_end",
+        "day"
+      ],
+      "targets_and_counts_exact": true,
+      "session_boundaries_exact": true,
+      "independent_recurrence": {
+        "trials": 32,
+        "max_probability_difference": 1.1102230246251565e-16,
+        "prediction_before_current_outcome": true
+      },
+      "conditional_rnn_nll": {
+        "n_responding": 2970,
+        "mean": 0.51572559710834,
+        "sum": 1531.7050234117696
+      },
+      "frozen_prefix_static_nll": {
+        "n_responding": 2970,
+        "mean": 0.6223852481720807,
+        "sum": 1848.4841870710798
+      },
+      "omission_mean_by_bin": [
+        0.0010868530979952643,
+        0.0010680841996324468,
+        0.0021319126084174715,
+        0.0016581770115826726,
+        0.0010684620949945412,
+        0.00107565669806636
+      ],
+      "seconds": 0.05058120799367316
+    }
+  ],
+  "seconds": 2.8045162089983933
+}

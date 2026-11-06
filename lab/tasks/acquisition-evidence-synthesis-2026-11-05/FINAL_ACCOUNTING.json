@@ -1,0 +1,126 @@
+{
+  "start_receipt": "GOAL_START.json",
+  "original_28_percent_stop_no_decode": {
+    "utc": "2026-11-06 00:06:10 UTC",
+    "ordinaryUsageAllowed": true,
+    "weekly": {
+      "usedPercent": 72,
+      "windowDurationMins": 10080,
+      "resetsAt": 1794445923
+    },
+    "secondary": null,
+    "individual": null,
+    "remaining": 28
+  },
+  "amendment": "BRIEF.md, PI amendment at 00:06:51 UTC Nov 6",
+  "amended_27_percent_stop": 27,
+  "human_reserve_percent": 25,
+  "amended_launch_usage": {
+    "utc": "2026-11-06 00:07:50 UTC",
+    "ordinaryUsageAllowed": true,
+    "weekly": {
+      "usedPercent": 72,
+      "windowDurationMins": 10080,
+      "resetsAt": 1794445923
+    },
+    "secondary": null,
+    "individual": null,
+    "remaining": 28
+  },
+  "amended_launch_same_goal_readback": {
+    "goal": {
+      "threadId": "01a1ae25-1819-7561-9aa4-21aa1fe6e5a9",
+      "objective": "Determine whether the frozen recent100/GRU975 acquisition forecasts exclude a 2 percentage-point improvement in sign-specific accuracy error after 200 and 1,000 opportunities across the consumed old64 and independent192 rosters, and what their 10% proper-score evidence warrants. Reproduce the released contrasts, challenge with cohort composition, shared owners and source uncertainty, and deliver an executable scoped research decision or explicit no-claim with exact exposure and resource records for independent review.",
+      "status": "active",
+      "tokensUsed": 113152,
+      "timeUsedSeconds": 608,
+      "createdAt": 1793923062,
+      "updatedAt": 1793923670
+    },
+    "remainingTokens": null,
+    "completionBudgetReport": null
+  },
+  "post_run_checkpoint": {
+    "utc": "2026-11-06 00:08:11 UTC",
+    "ordinaryUsageAllowed": true,
+    "weekly": {
+      "usedPercent": 73,
+      "windowDurationMins": 10080,
+      "resetsAt": 1794445923
+    },
+    "secondary": null,
+    "individual": null,
+    "remaining": 27
+  },
+  "closeout_usage": {
+    "utc": "2026-11-06 00:11:11 UTC",
+    "ordinaryUsageAllowed": true,
+    "weekly": {
+      "usedPercent": 74,
+      "windowDurationMins": 10080,
+      "resetsAt": 1794445923
+    },
+    "secondary": null,
+    "individual": null,
+    "remaining": 26
+  },
+  "jobs": [
+    {
+      "job": "compressed selected-member pinning",
+      "receipt": "PIN_RESOURCES.json",
+      "terminal": "exit 0",
+      "score_members_inflated": 0
+    },
+    {
+      "job": "single authorized synthesis",
+      "receipt": "RUN_RESOURCES.json",
+      "log": "RUN.log",
+      "pid": 2328,
+      "terminal": "exit 0",
+      "terminal_at_utc": "2026-11-06T00:07:51.658686+00:00",
+      "tool_chunk_id": "736b41",
+      "open_scientific_jobs": 0,
+      "scientific_reruns": 0
+    }
+  ],
+  "actual_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 .venv/bin/python -B lab/tasks/acquisition-evidence-synthesis-2026-11-05/synthesize.py >lab/tasks/acquisition-evidence-synthesis-2026-11-05/RUN.log 2>&1",
+  "measured": {
+    "logical_file_read_bytes": 10944468,
+    "selected_npy_inflate_bytes": 489664,
+    "read_plus_inflate_bytes": 11434132,
+    "in_process_cpu_seconds": 0.411039,
+    "peak_rss_bytes": 150224896,
+    "owned_file_bytes_at_snapshot_excluding_this_and_terminal_receipt": 137556,
+    "ingress_bytes": 0
+  },
+  "booking": {
+    "context_search_and_accounting_bytes_conservative": 3000000,
+    "total_read_decode_booking_bytes": 14434132,
+    "cap_bytes": 20000000
+  },
+  "inflated_unused_numeric_cells": {
+    "old_contributions": {
+      "inflated": 40448,
+      "used": 256,
+      "unused": 40192
+    },
+    "later_pooled": {
+      "inflated": 4608,
+      "used": 1536,
+      "unused": 3072
+    },
+    "later_primary_D": {
+      "inflated": 576,
+      "used": 192,
+      "unused": 384
+    },
+    "later_stream_scores": {
+      "inflated": 9216,
+      "used": 3072,
+      "unused": 6144
+    }
+  },
+  "exact_exposure": "RUN_RESOURCES.json records 12 compressed-whitelisted members with shapes, dtypes, hashes and inflated NPY byte sizes. The newer ZIP central directory also contains unreleased member names. Their compressed bodies and contents remained unopened. Frozen roster metadata and saved aggregate reports read; no original trial, forecast, target, literal or cross-score member, no new source and no ingress.",
+  "unknowns": "Physical I/O, filesystem caching, interpreter startup before the meter, shell/app/provider overhead, undocumented animal aliases and residual dependence across owners or training fits are unmeasured. The context-read booking is separate from directly metered reads. An initial git-status read returned no .git directory in this mount; it was context only. Both scientific-path jobs finished and there were no failed or retried scientific runs.",
+  "lineage": "Prior author, review and original-source costs and exposures remain separate. The original PI goal, heartbeat, other owners' paths and repository memory were outside this assignment."
+}

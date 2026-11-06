@@ -1,0 +1,88 @@
+{
+  "initial_native_utc": "2026-11-03T05:53:24Z",
+  "source_close_utc": "2026-11-03T06:01:37Z",
+  "elapsed_to_source_close_s": 493,
+  "gates_utc": {
+    "source": "2026-11-03T06:13:24Z",
+    "full_model_reference": "2026-11-03T06:28:24Z",
+    "protocol_or_close": "2026-11-03T06:38:24Z",
+    "hard": "2026-11-03T07:03:24Z"
+  },
+  "status": "CLOSED_SOURCE_GATE_JOBS0",
+  "public_operations": {
+    "new_conservative_top_level": 13,
+    "cap": 24,
+    "provider_internal_unknown": true
+  },
+  "programs": {
+    "deliberately_screened": 2,
+    "cap": 2
+  },
+  "ingress": {
+    "charged_new_allowance_bytes": 40000000,
+    "cap_bytes": 40000000,
+    "actual_complete_ingress_bytes": null,
+    "compliance": "UNCERTIFIED: containing provider allowances/traffic unknown; full allocation charged"
+  },
+  "reads": {
+    "charged_separate_new_bytes": 600000000,
+    "cap_bytes": 600000000,
+    "includes": "ordinary context/source saved-response repeated reads/hash/decode/import/interpreter booking",
+    "complete_physical_or_application_read_bytes": null,
+    "compliance": "Conservative full booking, not measured complete I/O"
+  },
+  "process": {
+    "local_source_audit_commands": 3,
+    "all_native_exit_codes": [
+      0,
+      0,
+      0
+    ],
+    "full_model_processes": 0,
+    "independent_reference_processes": 0,
+    "charged_conservative_s": 60,
+    "cap_s": 900,
+    "saved_self_cpu_s_sum": 0.096024,
+    "largest_measured_local_rss_bytes": 14155776,
+    "rss_cap_bytes": 1000000000,
+    "max_concurrent_scientific_processes": 1,
+    "numerical_threads_used": 0,
+    "numerical_thread_cap": 1,
+    "provider_or_total_complete_process_s": null,
+    "note": "Three short standard-library Python source/audit commands; source checker measured own elapsed excluding interpreter startup. Remote/provider and complete context/runtime peaks unknown. No numerical backend imported; no persistent job/session."
+  },
+  "revisions": {
+    "substantive_scientific": 0,
+    "cap": 1,
+    "source_encoding_correction": "One exact newline correction with prior mismatch preserved; not scientific retuning"
+  },
+  "inherited": {
+    "operations": 123,
+    "charged_ingress_bytes": 594594722,
+    "ingress_compliance": "UNCERTIFIED",
+    "separate_read_booking": "3.501GB",
+    "exposure": "ALL raw+summary+auxiliary observations/failures/native histories remain. Existing1.296M+11.28Mupdates+80kreplay/earlier9.13Msynthetic/full70000MNISTdecode256train64test preserved; student0. Earlier protected/consumed recordings unchanged.",
+    "history_reset": false
+  },
+  "additive_totals": {
+    "conservative_top_level_operations": 136,
+    "charged_ingress_bytes": 634594722,
+    "ingress_compliance": "UNCERTIFIED",
+    "separate_read_booking": "4.101GB (inherited rounded3.501GB plus new600MB; no invented exact prior-byte total)"
+  },
+  "usage_at_start": {
+    "remaining_percent": 15,
+    "floor_percent": 10,
+    "all_available_windows": "ordinary allowed per PI final actual telemetry",
+    "secondary": "unavailable",
+    "daily_caps": "suspended, counters preserved"
+  },
+  "protected": "All19heat/sixoldbaseline consumed recordings CLOSED; all reservedworms/Pan20/Flesch/HABITS/memory/Figure4_42/optional210/category retain restrictions. Zero new empirical/old raw/model binary access.",
+  "unknowns": [
+    "Provider-internal redirects/requests/ingress/cache/compute",
+    "Complete context/interpreter/resource and physical I/O",
+    "Full-model affordability/numerical stability",
+    "Original2017 exact code/connectivity identity and beta discrepancy",
+    "Broader prior completeness"
+  ]
+}

@@ -1,0 +1,5 @@
+**2026-11-02 — Action-contingent two-step teacher specification**
+- Observation: Kool2016's pinned wkool/tradeoffs Daw arm has an executable original-person150row check, but its task samples drift increments with replacement from one1000-entryGaussian bank shared across practice/main. The first person's496main increments yield410distinct values at both10and12decimal rounding;146interior increments yield134distinct. The task draws state after action1 and reward after action2. See this task's FIRST_DATA_CHECK.json, SOURCE_DESIGN_CHECK.json and SOURCE_TEXT_PINS.json.
+- Action: Preserve this bank law and future-realization distinction if a separately justified forecast uses this source; do not silently substitute fresh iidGaussian increments or supply logged later probability paths as preplanned inputs. A before-main bank-prior forecast remains possible; this finite source check establishes neither practical forecast error nor impossibility. Keep the allocation closed at its contribution gate, with other raw/auxiliary decoded exposure retained.
+- Confidence: high
+

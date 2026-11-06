@@ -1,0 +1,83 @@
+{
+  "completed_utc": "2026-11-03T00:33:56.540664+00:00",
+  "protocol_input_sha256": "ca2fb675aee9f7c57368d14b836d84c9183cdc2f500e87863782f7cb4f679e5c",
+  "status": "PASS: favorable invariant-loading model separates; relaxed loading reproduces it exactly",
+  "predeclaration": "CONTRARY_PREDECLARATION.md",
+  "supplied_not_empirical": true,
+  "observable_cells": [
+    {
+      "delay_ms": 60,
+      "X": "-3/2",
+      "U": "-10",
+      "Y": "-661/200"
+    },
+    {
+      "delay_ms": 60,
+      "X": "-3/2",
+      "U": "10",
+      "Y": "139/200"
+    },
+    {
+      "delay_ms": 60,
+      "X": "3/2",
+      "U": "-10",
+      "Y": "-139/200"
+    },
+    {
+      "delay_ms": 60,
+      "X": "3/2",
+      "U": "10",
+      "Y": "661/200"
+    },
+    {
+      "delay_ms": 360,
+      "X": "-3/2",
+      "U": "-10",
+      "Y": "-119/50"
+    },
+    {
+      "delay_ms": 360,
+      "X": "-3/2",
+      "U": "10",
+      "Y": "-19/50"
+    },
+    {
+      "delay_ms": 360,
+      "X": "3/2",
+      "U": "-10",
+      "Y": "19/50"
+    },
+    {
+      "delay_ms": 360,
+      "X": "3/2",
+      "U": "10",
+      "Y": "119/50"
+    }
+  ],
+  "recovered_from_observations": {
+    "a": "97/100",
+    "c": "1/2",
+    "b": [
+      "1/5",
+      "1/10"
+    ],
+    "k": [
+      "87/100",
+      "23/25"
+    ]
+  },
+  "distinct_relaxed_world": {
+    "a": "9/10",
+    "c_by_delay": [
+      "3/20",
+      "-1/5"
+    ],
+    "b_unchanged": true,
+    "max_exact_observation_gap": "0"
+  },
+  "restriction_needed": "Unit physical-input/error transfer, c invariant across delays, and a unaffected by delay",
+  "restriction_source_certified": false,
+  "empirical_records_accessed": 0,
+  "peak_rss_bytes_this_process": 13467648,
+  "platform_peak_units": "macOS bytes"
+}

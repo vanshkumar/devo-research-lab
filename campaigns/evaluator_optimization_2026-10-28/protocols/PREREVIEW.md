@@ -1,0 +1,31 @@
+# Independent pre-execution protocol review
+
+2026-10-28. Reviewed `ORIENTATION.md` before new development or held-out outcomes. This review owns only this file. It does not authorize protected empirical-data access or add a user approval step.
+
+**Assessment:** scientifically executable and appropriately bounded, with one material control gap to fix before development. The shared four-dimensional motor program is an explicit restricted plant family, and exact reachability plus a successful oracle make it a legitimate computational utility test. It does not by itself test a natural vocal plant, independent syllable acquisition, global optimization or biological reinforcement learning.
+
+## Material change
+
+**Add a shuffled-tutoring control.** Learned35 outperforming untutored does not identify target-specific information: tutoring may improve generic sensitivity or network gain without encoding the particular target. That alternative is especially concrete because the source distinguishes landscape sharpening from memory alignment. Train a control from the same initial circuit, with the same 35 sensory exposures and clock but a fixed nonidentity permutation of the six tutor/context pairings. This preserves the marginal sensory patterns and tutoring/query budget while disrupting the correct sensory-to-clock association. Freeze the permutation rule independent of target/plant outcomes. Compare the learned35 true-loss improvement with this arm using paired whole-plant uncertainty. Its wrongly associated target need not be reachable in the motor plant; its role is to test correct target association, not to be a competing successful teacher. Report that distinction. Another declared independently drawn wrong-tutor control would also be defensible, but changes the actual sensory samples.
+
+## Important implementation specifications
+
+1. **Match initialization.** Untutored, learned35 and shuffled35 should share the same initial network weights and reset/probe state for each plant. Learned140 should continue the learned35 tutoring trajectory through rendition140, or reproduce that exact first35 trajectory from the same initialization. Otherwise “longer tutoring” also varies circuit initialization.
+2. **Normalization edge cases.** Explicitly define behavior when a rectified feature vector has zero/near-zero SD, and how a zero initial true loss affects the normalized endpoint. Avoid outcome-based redraws. Record any such case; a naturally exact initial target contributes no possible improvement. A deterministic denominator floor can avoid undefined ratios but changes the endpoint near zero, so declare and report it.
+3. **Acceptance and budget.** Specify the deterministic tie rule and numerical improvement tolerance. Count the initial center query and all clipped/repeated proposals. Keep true-loss evaluation inaccessible to acceptance, step-size adaptation and tie breaking. Stored counterfactual diagnostic losses do not count as actor information if never read by its update.
+4. **No per-plant success filtering.** Hold out entire plant/circuit/target tuples. Include every frozen held-out draw in the endpoint even if its oracle struggles; report per-plant oracle outcomes. The development oracle gate calibrates the assay, not a later permission to omit difficult validation plants.
+5. **Fix the investment wording.** The document currently requires a point-estimated mean improvement at least half the oracle's, while demanding a lower confidence bound above zero only for the untutored contrast. That is a coherent pragmatic rule, but it must not become “established at least half-oracle performance” unless the uncertainty supports that threshold. Predeclare whether the ratio criterion is descriptive or requires its lower confidence bound to exceed .5; avoid choosing after validation.
+
+## Finite tutoring versus motor budget
+
+The 35-versus140 comparison directly challenges the most important source-specific alternative. A persistent gap at35 but recovery at140 means finite tutoring matters; it does not establish a structurally defective cancellation mechanism. A gap at both exposure counts is conditional on those counts and this learning rule.
+
+The 128-round continuation is a useful budget sensitivity. Coordinate search that has already reached the minimum step and a coordinate-local optimum may simply repeat queries, however. Its failure to improve cannot certify adequate global optimization. It supports a claim about the frozen algorithm and budget. Record step-size/acceptance histories and whether additional rounds make new accepted progress. Target-start drift independently shows a local teacher bias, but does not prove that ordinary starts reach that biased state or that its local derivative predicts distant failure. Use saved actual trajectories to distinguish circuit-cost decrease with true-loss deterioration from stalling.
+
+Fixed-gain search is a valid axis ablation, with the acknowledged repeated-center slots. It removes legitimate control over the primary true-loss objective and is not a generic task-preserving repair. An advantage over joint search could reflect both easier optimization and removal of a biased reward direction; exact-target gain/shape probes can help discriminate but cannot establish a whole basin.
+
+## Information budget and claims
+
+The stated target-information budget is valid: plants/initial actions are target-blind; the learned actor receives only scalar circuit feedback; timing and tutoring are explicit supports; the oracle is privileged. The independent feature-loss and dynamics reconstructions complement, rather than replace, scientific controls. Do not give the learned actor the true target norm, target action or a tutor-calibrated amplitude penalty. Treat all target-gradient/endpoint associations as exploratory unless frozen after development.
+
+After adding the shuffled control and the explicit implementation rules, proceed without a new approval flow. The result can establish useful target-specific complete optimization, or a quantitative utility limit for the frozen circuit/plant/search setting. Neither outcome earns a universal sufficiency/impossibility or physical-amplitude claim.

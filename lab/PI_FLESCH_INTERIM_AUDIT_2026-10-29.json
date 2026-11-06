@@ -1,0 +1,29 @@
+{
+  "checked_utc": "2026-10-29T18:30:55.933764+00:00",
+  "kind": "PI_interim_access_metadata_audit_not_model_validation",
+  "source_people": 95,
+  "target_people_value_blind": 81,
+  "response_decode_events": 380,
+  "response_decode_events_outside_source": 0,
+  "frozen_pins": {
+    "sources/flesch_source_calibration_2026-10-29/masked_mat.py": true,
+    "sources/flesch_source_calibration_2026-10-29/READER_SYNTHETIC.json": true,
+    "sources/flesch_source_calibration_2026-10-29/input_masks.py": true,
+    "sources/flesch_source_calibration_2026-10-29/check_timeout.js": true,
+    "sources/flesch_source_calibration_2026-10-29/TIMEOUT_SYNTHETIC.json": true,
+    "sources/flesch_source_calibration_2026-10-29/inputs_only.npz": true,
+    "sources/flesch_source_calibration_2026-10-29/extract_source.py": true,
+    "lab/tasks/flesch-source-calibration-2026-10-29/DESIGN.md": true,
+    "lab/tasks/flesch-source-calibration-2026-10-29/PI_PROTOCOL.md": true,
+    "lab/tasks/flesch-source-calibration-2026-10-29/PI_TIMEOUT_AMENDMENT.md": true,
+    "lab/tasks/flesch-source-calibration-2026-10-29/MASKS.json": true
+  },
+  "limitations": "Recorded events were checked against reader code and masks; this is not a separate operating-system trace or a scientific model/selection validation.",
+  "read_by_PI": [
+    "pinned timeout caller and response/show/parameter source",
+    "safe reader code and synthetic checks",
+    "frozen design and original-field source eligibility audit",
+    "source-only exposure log and anonymous input masks"
+  ],
+  "target_response_access": false
+}

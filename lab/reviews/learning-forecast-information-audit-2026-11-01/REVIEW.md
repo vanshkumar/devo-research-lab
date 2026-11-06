@@ -1,0 +1,62 @@
+# Independent review: verified reconstruction, consequential count sensitivity
+
+2026-11-01. Reviewer01a19715-364f-7091-a01c-3f6b0d1641ec, distinct from author01a19700-04e5-7cb0-a307-916da01ed33b. Sole PI01a196fa-cdbf-7783-9662-2028e1a839a4. Reservation19/samecycle12. All work is postvalidation on the same consumed observations.
+
+**Verdict: VERIFY the original numerical result; NARROW the interpretation.** Independent reconstruction reproduces the author's 512-particle comparison: population MAE 6.969991 pp autonomous versus 0.619495 pp conditional, a 6.350495 pp gap. The specific central-state/analytic versus joint-prefix-mixture/generated-response difference does not account for that original contrast. However, the predeclared contrary is consequential: pooling generated correct counts over generated endpoint opportunities, within each animal/bin/side, reduces autonomous population MAE to 1.052554 pp and the gap to 0.433059 pp. This changes the averaging estimand. It neither corrects an error in the frozen primary endpoint nor earns a successful autonomous forecast. It shows substantial sensitivity to generated count–accuracy coupling, so the result cannot close all averaging/count explanations or isolate a feedback mechanism.
+
+## What was independently reconstructed
+
+No author code was imported or executed. Original frozen model, reader, omission recipe, transition and trainer modules were used as objects under test, with separately written scalar recurrence, endpoint aggregation and uncertainty calculations. See [DESIGN.md](DESIGN.md), [review.py](review.py), [AUDIT.json](AUDIT.json), [FINAL_AUDIT.json](FINAL_AUDIT.json) and [CODE_AUDIT.md](CODE_AUDIT.md).
+
+- The original capped offline reader returned exactly4000rows for each of24frozen primary animals:1000prefix plus3000future,96000rows total. All eligible saved prefix fields, future session starts,288animal/bin/side targets and denominator cells matched. There were34378actual exact±100%opportunities. Omissions were incorrect responses, retained in denominators. No NYU-21, SWC_007, later rows or protected/external data were opened.
+- Saved w0, endpoint states, Fisher covariance, finite-difference Jacobians, common cap and hidden clipping reconstructed the original joint coefficient/memory draws. No RNN prefix optimizer or initial_state was called. The unavoidable original last500prefix ridge-one omission nuisance routine was replayed unchanged. Its six mean omission probabilities matched historical probabilities before future calculations.
+- The recovered particles and omission recipe reproduced **all24original autonomous512particle sample and count arrays exactly**, also passing saved coefficient and hidden-state checks. This links the match to the historical simulations rather than merely their advertised parameters.
+- A separately written conditional loop predicted and drew each current response before updating with actual choice/positive feedback. Actual omissions left both states unchanged; generated scoring responses never entered the state update. Original seed+101 consumed512response uniforms and then512omission uniforms on each opportunity. Every sampled endpoint particle matched the saved matched bundle exactly; analytic endpoints agreed below1e-12probability units.
+- Nested scalar sums independently checked all24central prefix recurrences and four fixed conditional particles over all3000future opportunities per animal:288000future probabilities. Maximum discrepancies were below1e-10, usually around1e-15. The two preselected whole trial files, CSHL056/SWC_030, additionally matched all1536000probabilities and scoring choices each, initial/final states, omissions and actual inputs. Their full hashes are now in this review; the other22whole trial hashes remainUNRUN. All24endpoint ensembles were independently regenerated.
+- Both complete original strict freeze passes succeeded. Final pins match the author's precomputation freeze, executed source, design and resource plan; review source/design/resource pins also match. The author manifest records all24predictions before scores, and its timestamp precedes RESULT. Source structure and saved identities support that ordering; they are not independent proof of historical nonaccess.
+
+## Original estimates and uncertainty
+
+Errors are percentage points. Each side has equal weight within an animal/bin; animals and bins then receive equal weight.
+
+| Calculation | Population curve MAE | Individual equal-side MAE | Individual side MAE |
+|---|---:|---:|---:|
+| Saved central conditional, analytic |0.627557|2.496575|3.662846|
+| Matched512conditional, sampled |0.619495|2.505536|3.672920|
+| Matched512conditional, analytic |0.628081|2.496008|3.662436|
+| Original512autonomous, mean of particle ratios |6.969991|9.028951|18.039431|
+| Contrary: autonomous ratio of summed counts |1.052554|5.888673|17.448593|
+
+The original20000paired-animal draws independently reproduce the6.350495pppopulation gap's95%percentiles[3.621973,8.428511] and the6.523415ppindividual gap's[5.482133,7.691014]. Every laboratory deletion retains a3.436059–7.386662pporiginal population gap. The saved2000paired-particle perturbations also reconstruct: numerical population-gap range[6.205423,6.506473]pp, with conditional cohort-bin standard errors.02568–.02892pp. See [UNCERTAINTY_AUDIT.json](UNCERTAINTY_AUDIT.json).
+
+These are distinct statements. Animal resampling conditions on this selected animal/laboratory mixture and fixed fitted recipe. Particle perturbations concern numerical integration over fixed histories/estimates. Neither establishes biological interval coverage, new-laboratory transport or an unseen population result. The original intervals cannot be transferred to the changed count-pooled estimand; its interval/recovery/coverage tests were not run.
+
+## The ONE contrary: what count weighting changes
+
+For each animal/bin/side let n_j be generated exact100opportunities and a_j its generated correct share. The original forecast is mean(a_j); the contrary is sum(n_j a_j)/sum(n_j). Their difference is exactly Cov(n_j,a_j)/mean(n_j), using the finite512particle population covariance. Actual histories have the same n for every conditional particle, so the contrary leaves the conditional forecast unchanged.
+
+All288autonomous animal/bin/side cells have negative count–accuracy covariance. Generated counts range21–314, and count weighting changes an individual cell by as much as13.496629pp. Cohort side predictions fall by2.407–8.938pp across the six bins. Integer correct-count reconstruction is accurate within1.422e-14counts; the covariance identity is accurate within1.591e-15probability units. A second scalar calculation using rounded integer correct counts reproduces the changed scores within4.108e-15pp. This is a real consequence of the saved simulations, not a floating-point or score-code error. See [CONTRARY.json](CONTRARY.json) and [FINAL_AUDIT.json](FINAL_AUDIT.json).
+
+The1.052554pppopulation error is **not** a repaired primary forecast. It describes a different weighting of generated opportunities, gives more weight to paths with more exact100trials, and was evaluated after the outcomes were consumed. Equal-particle averaging remains correct for the originally frozen expected animal-level ratio. The contrary's individual side error remains17.448593pp versus3.672920ppconditional; improved cohort agreement does not establish a good joint or individual forecast. No new gate, comparison against count-pooled growth, calibrated uncertainty or prospective validation was earned.
+
+The narrow interpretation is therefore two-part: matching the documented prefix-state and current-response averaging preserves the frozen6.350495ppcontrast, while a separately declared count-weighting change removes most of that **population summary** discrepancy. Actual adaptive stimuli, past choices, feedback and endpoint-count distributions still change together. The numerical covariance identity identifies the arithmetic of this changed estimand; it does not identify a unique biological or trainer cause.
+
+## Conditional mixture meaning
+
+The512prefix particles keep equal weights after observed responses are assimilated through the frozen recurrence. They are not reweighted by those later responses' likelihood. A fully Bayesian posterior over persistent uncertain quantities would generally require such likelihood updates. This calculation is best called an **equal-weight prefix ensemble evaluated on actual observed histories**. Its current prediction is before the current actual outcome, but its state and retrospective endpoint aggregation use the evolving actual history and actual stimulus/count schedule. It is a tracking diagnostic, not a prefix-only acquisition forecast, an autonomous joint trajectory distribution or a demonstrated optimal conditional posterior. No likelihood-weighted alternative was run.
+
+## Completion, failures and resources
+
+First independent numerical reconstruction saved12:30:05Z, before12:41:05Z. Design/resource/contrary plan preceded model execution, and its compiler amendment/revised budget were frozen12:38:00Z, before12:49:05Z. The successful main process saved results12:39:55Z and exited0; final scalar/pin audit saved12:42:06Z and exited0. Fixed hard stop13:29:05Z was respected; jobs0.
+
+The review's first main pass exited1 while Numba compiled float(bool) in the scalar reference. Its source/freeze/exception and40,610,718byteconservative failed-pass charge are preserved. Explicit1./0.indicators and coordinate-specific use of the frozen three-vector scale corrected the reference before a new comparison. This changed no scientific recipe, contrary or data scope. Main warnings are empty.
+
+Final separate review charge is347,704,984/350,000,000bytes; peakRSS393,756,672/800,000,000bytes. One scientific process/numerical thread at a time; ZEROpublicoperations/downloads/ingress. Whole containing assets, repeated metadata, decompression, hashes, failed pass and final scalar audit are charged. Physical I/O/internal Parquet decoding remain unknown. The author's220MB/369885184RSS and native main exit120remain separate. Inspection supports its closed-Tee shutdown explanation after saved science; this review did not restart the author, alter its executed source or recast that exit as clean.
+
+## Recommendation and precise wording
+
+Bank the verified implementation result and the consequential contrary together. Close the specific central-versus-mixture/current-response-sampling alternative for the original estimator. Keep the broader count/schedule issue explicit; do not report this review as closing all averaging explanations. Further fitting, a retention rescue, reopening protected observations, a new model tournament or another status-cleanup run is not justified by this allocation. PI should integrate the result into the same acquisition-forecast question and decide the next evidential investment.
+
+Suggested manuscript addition after the existing historical matched diagnostic, without rewriting its method: “A subsequent postvalidation calculation matched the original512joint prefix particles and generated scoring responses. Conditional population-curve MAE remained0.619pp versus6.970ppautonomous (difference6.350pp; descriptive paired-animal95%interval3.622–8.429); the analytic conditional mixture gave0.628pp. This excludes the documented central-state/mixture and final-response-sampling difference as an account of the original contrast. A separately predeclared count-weighting diagnostic, however, reduced autonomous population MAE to1.053pp and the gap to0.433pp by pooling generated correct counts over generated endpoint opportunities within animals and sides. That changes the averaging estimand and earns no prospective success; it exposes consequential count–accuracy coupling. Actual adaptive stimuli, choices, feedback and count distributions remain jointly different, and equal prefix weights are not a future-likelihood-conditioned posterior.”
+
+For E9, retain the original.628ppcentral-state diagnostic, append the matched.619/6.970ppresult and the1.053ppchanged-estimand contrary, and link both task and review. Keep E6/E7and the original failed gates intact. Do not relabel Figure3's existing central-state curve as the new particle calculation without changing its data/caption explicitly. Historical manuscript and campaign files were read-only in this review.

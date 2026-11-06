@@ -1,0 +1,100 @@
+{
+  "aggregate": {
+    "marginal": {
+      "eligible_choice": {
+        "n": 205,
+        "dates": 15,
+        "nll": 0.7079039803093844,
+        "equal_date_nll": 0.7080371061611928
+      },
+      "T_eligible_choice": {
+        "n": 64,
+        "dates": 14,
+        "nll": 0.7188048022807589,
+        "equal_date_nll": 0.7118180754077016
+      }
+    },
+    "primacy": {
+      "eligible_choice": {
+        "n": 205,
+        "dates": 15,
+        "nll": 0.6787630694879836,
+        "equal_date_nll": 0.6702767346246755
+      },
+      "T_eligible_choice": {
+        "n": 64,
+        "dates": 14,
+        "nll": 0.6880294608185041,
+        "equal_date_nll": 0.7118006072917479
+      }
+    },
+    "cancellation": {
+      "eligible_choice": {
+        "n": 205,
+        "dates": 15,
+        "nll": 0.6895871295395204,
+        "equal_date_nll": 0.684430962380893
+      },
+      "T_eligible_choice": {
+        "n": 64,
+        "dates": 14,
+        "nll": 0.7185990010685107,
+        "equal_date_nll": 0.7116477730729688
+      }
+    }
+  },
+  "contrasts": [
+    {
+      "baseline": "marginal",
+      "model": "primacy",
+      "metric": "eligible_choice",
+      "gain_nat": 0.029140910821400832,
+      "date_bootstrap_95": [
+        -0.0023078343625980687,
+        0.06481322184203317
+      ],
+      "equal_date_gain": 0.037760371536517214,
+      "n": 205,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "marginal",
+      "model": "primacy",
+      "metric": "T_eligible_choice",
+      "gain_nat": 0.030775341462254725,
+      "date_bootstrap_95": [
+        -0.05163007180192315,
+        0.10274142956351946
+      ],
+      "equal_date_gain": 1.7468115953699665e-05,
+      "n": 64,
+      "dates_with_observations": 14
+    },
+    {
+      "baseline": "cancellation",
+      "model": "primacy",
+      "metric": "eligible_choice",
+      "gain_nat": 0.010824060051536742,
+      "date_bootstrap_95": [
+        -0.013263081882163182,
+        0.03584639450452147
+      ],
+      "equal_date_gain": 0.014154227756217533,
+      "n": 205,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "cancellation",
+      "model": "primacy",
+      "metric": "T_eligible_choice",
+      "gain_nat": 0.030569540250006605,
+      "date_bootstrap_95": [
+        -0.05173021678187569,
+        0.10230654291549487
+      ],
+      "equal_date_gain": -0.0001528342187791104,
+      "n": 64,
+      "dates_with_observations": 14
+    }
+  ]
+}

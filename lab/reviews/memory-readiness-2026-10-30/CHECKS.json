@@ -1,0 +1,175 @@
+{
+  "checks": [
+    {
+      "name": "JSON_unapproved_values_not_decoded",
+      "passed": true
+    },
+    {
+      "name": "NPY_only_allowed_columns_materialized",
+      "passed": true
+    },
+    {
+      "name": "NPY_excluded_column_names_only",
+      "passed": true
+    },
+    {
+      "name": "cell_exact_edges",
+      "passed": true
+    },
+    {
+      "name": "cell_just_over_edges",
+      "passed": true
+    },
+    {
+      "name": "focal_survives_other_item_gap",
+      "passed": true
+    },
+    {
+      "name": "other_item_gap_detected_inside_interval",
+      "passed": true
+    },
+    {
+      "name": "gap_missing_event_lower_bound",
+      "passed": true
+    },
+    {
+      "name": "late_first_other_item_ambiguates_earlier_interval",
+      "passed": true
+    },
+    {
+      "name": "cached_prior_counter_one_step_resolves_prefix",
+      "passed": true
+    },
+    {
+      "name": "focal_gap_excludes_item",
+      "passed": true
+    },
+    {
+      "name": "known_pregap_item_reset_cannot_be_new_focal",
+      "passed": true
+    },
+    {
+      "name": "selected_hash_bucket0_mod8",
+      "passed": true
+    },
+    {
+      "name": "row_user_count_matches_manifest",
+      "passed": true
+    },
+    {
+      "name": "metadata_sorted_uid_time_ordinal",
+      "passed": true
+    },
+    {
+      "name": "complete_postgap_daily_manifest",
+      "passed": true
+    },
+    {
+      "name": "original_attrition_exact",
+      "passed": true,
+      "detail": {
+        "multiple_arms": 485,
+        "installation_outside_gap_free_window": 2572,
+        "multiple_installations": 121,
+        "item_counter_gap_or_left_truncation": 166,
+        "fewer_than_20_repeats_or_two_days": 765,
+        "multiple_language_or_set": 33,
+        "no_window_rows": 17,
+        "unrecognised_policy": 3
+      }
+    },
+    {
+      "name": "original_source_fit_identities",
+      "passed": true
+    },
+    {
+      "name": "original_source_fit_repeat_counts",
+      "passed": true
+    },
+    {
+      "name": "original_source_validation_identities",
+      "passed": true
+    },
+    {
+      "name": "original_source_validation_repeat_counts",
+      "passed": true
+    },
+    {
+      "name": "original_smart_identities",
+      "passed": true
+    },
+    {
+      "name": "original_smart_repeat_counts",
+      "passed": true
+    },
+    {
+      "name": "original_spaced_identities",
+      "passed": true
+    },
+    {
+      "name": "original_spaced_repeat_counts",
+      "passed": true
+    },
+    {
+      "name": "original_source_validation_joint_support",
+      "passed": true
+    },
+    {
+      "name": "original_smart_joint_support",
+      "passed": true
+    },
+    {
+      "name": "original_spaced_joint_support",
+      "passed": true
+    },
+    {
+      "name": "18_consumed_source_people",
+      "passed": true
+    },
+    {
+      "name": "9819_audited_source_rows_metadata_only",
+      "passed": true
+    },
+    {
+      "name": "229_source_continuity_violations",
+      "passed": true
+    },
+    {
+      "name": "source_first_count_histogram",
+      "passed": true
+    },
+    {
+      "name": "source_increment_counts_metadata_only",
+      "passed": true
+    },
+    {
+      "name": "original_validation_is_consumed",
+      "passed": true
+    },
+    {
+      "name": "candidate_validation_no_consumed_people",
+      "passed": true
+    },
+    {
+      "name": "candidate_target_groups_exclude_audited_source_people",
+      "passed": true
+    },
+    {
+      "name": "candidate_counts_sum",
+      "passed": true
+    },
+    {
+      "name": "original8_and_candidate_18_consumed_preserved",
+      "passed": true
+    },
+    {
+      "name": "gap_overlap_independent_brute_reconstruction",
+      "passed": true,
+      "detail": {
+        "intervals_checked": 1534
+      }
+    }
+  ],
+  "all_passed": true,
+  "check_count": 39
+}

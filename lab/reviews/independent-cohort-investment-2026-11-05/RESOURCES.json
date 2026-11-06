@@ -1,0 +1,520 @@
+{
+  "recorded_at": "2026-11-05T18:12:45.870749+00:00",
+  "review_scope": "Bounded independent investment review only",
+  "limits": {
+    "elapsed_seconds": 5400,
+    "scientific_cpu_seconds": 600,
+    "explicit_read_decode_bytes": 200000000,
+    "public_ingress_bytes": 5000000,
+    "reserve_percent": 25
+  },
+  "elapsed_from_conservative_dispatch_seconds": 1526.870749,
+  "deadline_utc": "2026-11-05T19:17:19+00:00",
+  "execution_receipts": [
+    {
+      "receipt": "INDEPENDENT_CHECK.json",
+      "repetitions": 1,
+      "accepted_result": true,
+      "recorded_cpu_seconds": 0.36199199999999987,
+      "explicit_read_bytes": 4778507,
+      "decoded_array_bytes": 410080,
+      "peak_rss_bytes": 113590272,
+      "first_unrecorded_failure_note": null
+    },
+    {
+      "receipt": "LEAN_SENSITIVITY.json",
+      "repetitions": 1,
+      "accepted_result": true,
+      "recorded_cpu_seconds": 0.22596300000000014,
+      "explicit_read_bytes": 621512,
+      "decoded_array_bytes": 399360,
+      "peak_rss_bytes": 99155968,
+      "first_unrecorded_failure_note": null
+    },
+    {
+      "receipt": "LEAN initial before additional controls; native execution output retained",
+      "repetitions": 1,
+      "accepted_result": true,
+      "recorded_cpu_seconds": 0.543526,
+      "explicit_read_bytes": 621512,
+      "decoded_array_bytes": 399360,
+      "peak_rss_bytes": 98533376,
+      "note": "Current file adds controls; initial code/results were not a failed or changed scientific decision. Both runs charged."
+    },
+    {
+      "receipt": "IDENTITY_CHECK.json",
+      "repetitions": 1,
+      "accepted_result": true,
+      "recorded_cpu_seconds": 0.008779000000000002,
+      "explicit_read_bytes": 3234281,
+      "decoded_array_bytes": 0,
+      "peak_rss_bytes": 23937024,
+      "first_unrecorded_failure_note": null
+    },
+    {
+      "receipt": "SOURCE_CONTRARY.json",
+      "repetitions": 1,
+      "accepted_result": true,
+      "recorded_cpu_seconds": 0.005504000000000009,
+      "explicit_read_bytes": 443939,
+      "decoded_array_bytes": 333824,
+      "peak_rss_bytes": 24363008,
+      "first_unrecorded_failure_note": null
+    },
+    {
+      "receipt": "FULL_IDENTITY_CHECK_ATTEMPT.json",
+      "repetitions": 2,
+      "accepted_result": false,
+      "recorded_cpu_seconds": 0.032442,
+      "explicit_read_bytes": 10827136,
+      "decoded_array_bytes": 0,
+      "peak_rss_bytes": 34717696,
+      "first_unrecorded_failure_note": "Failed first full identity pass had same inputs; second stored pass duplicated as a conservative read/CPU booking, not measurement of first."
+    },
+    {
+      "receipt": "FULL_IDENTITY_CHECK.json",
+      "repetitions": 1,
+      "accepted_result": true,
+      "recorded_cpu_seconds": 0.018643,
+      "explicit_read_bytes": 5413568,
+      "decoded_array_bytes": 0,
+      "peak_rss_bytes": 34783232,
+      "first_unrecorded_failure_note": null
+    }
+  ],
+  "recorded_or_conservatively_duplicated_scientific_cpu_seconds": 1.196849,
+  "separate_uninstrumented_helper_import_failed_process_closeout_cpu_booking_seconds": 60.0,
+  "recorded_plus_booked_scientific_cpu_seconds": 61.196849,
+  "peak_recorded_scientific_rss_bytes": 113590272,
+  "known_scientific_explicit_reads": 25940455,
+  "known_scientific_decoded_array_bytes": 1542624,
+  "context_full_file_charges": 32542716,
+  "context_UTF8_decode_nominal_charge": 32542716,
+  "context_charge_details": [
+    {
+      "path": "LEARNINGS.md",
+      "full_file_pass_booking": 4,
+      "bytes_each": 24086,
+      "charge_bytes": 96344
+    },
+    {
+      "path": "STATE.md",
+      "full_file_pass_booking": 1,
+      "bytes_each": 6112,
+      "charge_bytes": 6112
+    },
+    {
+      "path": "LAB_WORKFLOW.md",
+      "full_file_pass_booking": 2,
+      "bytes_each": 19128,
+      "charge_bytes": 38256
+    },
+    {
+      "path": "lab/AUTHORIZATION.md",
+      "full_file_pass_booking": 2,
+      "bytes_each": 7026,
+      "charge_bytes": 14052
+    },
+    {
+      "path": "lab/HARD_GATES.md",
+      "full_file_pass_booking": 2,
+      "bytes_each": 4365,
+      "charge_bytes": 8730
+    },
+    {
+      "path": "lab/tasks/research-run-2026-11-05/BRIEF.md",
+      "full_file_pass_booking": 1,
+      "bytes_each": 6354,
+      "charge_bytes": 6354
+    },
+    {
+      "path": "lab/reviews/independent-cohort-investment-2026-11-05/BRIEF.md",
+      "full_file_pass_booking": 1,
+      "bytes_each": 9049,
+      "charge_bytes": 9049
+    },
+    {
+      "path": "lab/tasks/calibration-frontier-main-2026-11-05/RESULT.md",
+      "full_file_pass_booking": 1,
+      "bytes_each": 11477,
+      "charge_bytes": 11477
+    },
+    {
+      "path": "lab/reviews/calibration-frontier-result-2026-11-05/REVIEW.md",
+      "full_file_pass_booking": 1,
+      "bytes_each": 15292,
+      "charge_bytes": 15292
+    },
+    {
+      "path": "lab/reviews/acquisition-rule-investment-2026-11-05/PRIOR_CHECK.md",
+      "full_file_pass_booking": 1,
+      "bytes_each": 1740,
+      "charge_bytes": 1740
+    },
+    {
+      "path": "lab/reviews/acquisition-rule-investment-2026-11-05/PRIOR_RECEIPTS.json",
+      "full_file_pass_booking": 2,
+      "bytes_each": 100653,
+      "charge_bytes": 201306
+    },
+    {
+      "path": "lab/reviews/calibration-frontier-main-design-2026-11-05/REVIEW.md",
+      "full_file_pass_booking": 2,
+      "bytes_each": 24387,
+      "charge_bytes": 48774
+    },
+    {
+      "path": "lab/tasks/acquisition-rule-vs-tracker-2026-11-05/PRIOR.md",
+      "full_file_pass_booking": 1,
+      "bytes_each": 1932,
+      "charge_bytes": 1932
+    },
+    {
+      "path": "lab/tasks/acquisition-rule-vs-tracker-2026-11-05/RESULT.md",
+      "full_file_pass_booking": 1,
+      "bytes_each": 15273,
+      "charge_bytes": 15273
+    },
+    {
+      "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/BRIEF.md",
+      "full_file_pass_booking": 1,
+      "bytes_each": 13675,
+      "charge_bytes": 13675
+    },
+    {
+      "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/FOCUSED_DESIGN.json",
+      "full_file_pass_booking": 6,
+      "bytes_each": 51039,
+      "charge_bytes": 306234
+    },
+    {
+      "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/DISCRIMINATION.json",
+      "full_file_pass_booking": 2,
+      "bytes_each": 44971,
+      "charge_bytes": 89942
+    },
+    {
+      "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/CRITERION_SOURCE_FIT.json",
+      "full_file_pass_booking": 5,
+      "bytes_each": 163020,
+      "charge_bytes": 815100
+    },
+    {
+      "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/AGGREGATE_CHRONOLOGY.json",
+      "full_file_pass_booking": 5,
+      "bytes_each": 2179287,
+      "charge_bytes": 10896435
+    },
+    {
+      "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/QUALIFIED_COHORT.json",
+      "full_file_pass_booking": 7,
+      "bytes_each": 1695142,
+      "charge_bytes": 11865994
+    },
+    {
+      "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/ORIGINAL_EXCLUSIONS.json",
+      "full_file_pass_booking": 5,
+      "bytes_each": 68507,
+      "charge_bytes": 342535
+    },
+    {
+      "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/ORIGINAL_SESSION_IDS.json",
+      "full_file_pass_booking": 2,
+      "bytes_each": 1470632,
+      "charge_bytes": 2941264
+    },
+    {
+      "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/FOOTER_QUALIFICATION.json",
+      "full_file_pass_booking": 1,
+      "bytes_each": 1825117,
+      "charge_bytes": 1825117
+    },
+    {
+      "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/SOURCE_ONLY_ACCESS_PLAN.json",
+      "full_file_pass_booking": 1,
+      "bytes_each": 2629,
+      "charge_bytes": 2629
+    },
+    {
+      "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/SOURCE_MEASUREMENT_PROBE.json",
+      "full_file_pass_booking": 1,
+      "bytes_each": 1098,
+      "charge_bytes": 1098
+    },
+    {
+      "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/AGGREGATE_ACCESS_PLAN.json",
+      "full_file_pass_booking": 1,
+      "bytes_each": 137352,
+      "charge_bytes": 137352
+    },
+    {
+      "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/IDENTITY_PATTERN_CHECK.json",
+      "full_file_pass_booking": 1,
+      "bytes_each": 417,
+      "charge_bytes": 417
+    },
+    {
+      "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/ACCESS_HISTORY.md",
+      "full_file_pass_booking": 1,
+      "bytes_each": 2802,
+      "charge_bytes": 2802
+    },
+    {
+      "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/LOCAL_FAILURES.md",
+      "full_file_pass_booking": 1,
+      "bytes_each": 2663,
+      "charge_bytes": 2663
+    },
+    {
+      "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/DESIGN.md",
+      "full_file_pass_booking": 2,
+      "bytes_each": 13198,
+      "charge_bytes": 26396
+    },
+    {
+      "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/MILESTONE_ASSESSMENT.md",
+      "full_file_pass_booking": 1,
+      "bytes_each": 7656,
+      "charge_bytes": 7656
+    },
+    {
+      "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/RESULT.md",
+      "full_file_pass_booking": 1,
+      "bytes_each": 13190,
+      "charge_bytes": 13190
+    },
+    {
+      "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/FINAL_ACCOUNTING.json",
+      "full_file_pass_booking": 2,
+      "bytes_each": 9720,
+      "charge_bytes": 19440
+    },
+    {
+      "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/GOAL_FINAL.json",
+      "full_file_pass_booking": 1,
+      "bytes_each": 6536,
+      "charge_bytes": 6536
+    },
+    {
+      "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/CRITERION_COUNT_COUNTEREXAMPLE.json",
+      "full_file_pass_booking": 1,
+      "bytes_each": 1355,
+      "charge_bytes": 1355
+    },
+    {
+      "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/focused_design.py",
+      "full_file_pass_booking": 1,
+      "bytes_each": 6484,
+      "charge_bytes": 6484
+    },
+    {
+      "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/plan_discrimination.py",
+      "full_file_pass_booking": 1,
+      "bytes_each": 9967,
+      "charge_bytes": 9967
+    },
+    {
+      "path": "lab/tasks/calibration-frontier-main-2026-11-05/MAIN_FAMILY_REFINED.json",
+      "full_file_pass_booking": 3,
+      "bytes_each": 137421,
+      "charge_bytes": 412263
+    },
+    {
+      "path": "lab/tasks/calibration-frontier-main-2026-11-05/MAIN_ANALYSIS.json",
+      "full_file_pass_booking": 3,
+      "bytes_each": 465530,
+      "charge_bytes": 1396590
+    },
+    {
+      "path": "lab/tasks/calibration-frontier-main-2026-11-05/MAIN_EXECUTION.json",
+      "full_file_pass_booking": 2,
+      "bytes_each": 4727,
+      "charge_bytes": 9454
+    },
+    {
+      "path": "lab/tasks/calibration-frontier-main-2026-11-05/FINAL_ACCOUNTING.json",
+      "full_file_pass_booking": 1,
+      "bytes_each": 7365,
+      "charge_bytes": 7365
+    },
+    {
+      "path": "lab/tasks/calibration-frontier-main-2026-11-05/MAIN_ACCESS.json",
+      "full_file_pass_booking": 1,
+      "bytes_each": 504951,
+      "charge_bytes": 504951
+    },
+    {
+      "path": "lab/tasks/calibration-frontier-main-2026-11-05/PREP_ACCESS.json",
+      "full_file_pass_booking": 1,
+      "bytes_each": 1802,
+      "charge_bytes": 1802
+    },
+    {
+      "path": "lab/tasks/calibration-frontier-main-2026-11-05/main_controls.py",
+      "full_file_pass_booking": 3,
+      "bytes_each": 7994,
+      "charge_bytes": 23982
+    },
+    {
+      "path": "lab/tasks/calibration-frontier-main-2026-11-05/seal_main.py",
+      "full_file_pass_booking": 3,
+      "bytes_each": 7713,
+      "charge_bytes": 23139
+    },
+    {
+      "path": "lab/tasks/calibration-frontier-main-2026-11-05/run_main.py",
+      "full_file_pass_booking": 3,
+      "bytes_each": 16908,
+      "charge_bytes": 50724
+    },
+    {
+      "path": "lab/tasks/calibration-frontier-main-2026-11-05/verify_main_reference.py",
+      "full_file_pass_booking": 3,
+      "bytes_each": 2740,
+      "charge_bytes": 8220
+    },
+    {
+      "path": "lab/tasks/calibration-frontier-main-2026-11-05/plot_main.py",
+      "full_file_pass_booking": 3,
+      "bytes_each": 6178,
+      "charge_bytes": 18534
+    },
+    {
+      "path": "lab/tasks/calibration-frontier-main-2026-11-05/check_stage1.py",
+      "full_file_pass_booking": 3,
+      "bytes_each": 4127,
+      "charge_bytes": 12381
+    },
+    {
+      "path": "lab/tasks/calibration-frontier-main-2026-11-05/seal_main_EXECUTED.py",
+      "full_file_pass_booking": 3,
+      "bytes_each": 7702,
+      "charge_bytes": 23106
+    },
+    {
+      "path": "lab/tasks/calibration-frontier-main-2026-11-05/refine_fixed.py",
+      "full_file_pass_booking": 3,
+      "bytes_each": 5077,
+      "charge_bytes": 15231
+    },
+    {
+      "path": "lab/tasks/calibration-frontier-main-2026-11-05/analyze_refinement.py",
+      "full_file_pass_booking": 3,
+      "bytes_each": 11593,
+      "charge_bytes": 34779
+    },
+    {
+      "path": "lab/tasks/calibration-frontier-main-2026-11-05/prepare_stage1.py",
+      "full_file_pass_booking": 3,
+      "bytes_each": 20937,
+      "charge_bytes": 62811
+    },
+    {
+      "path": "lab/tasks/calibration-frontier-main-2026-11-05/main_simulator.py",
+      "full_file_pass_booking": 3,
+      "bytes_each": 4201,
+      "charge_bytes": 12603
+    },
+    {
+      "path": "lab/tasks/calibration-frontier-main-2026-11-05/main_inference.py",
+      "full_file_pass_booking": 3,
+      "bytes_each": 4047,
+      "charge_bytes": 12141
+    },
+    {
+      "path": "lab/tasks/calibration-frontier-main-2026-11-05/analyze_main.py",
+      "full_file_pass_booking": 3,
+      "bytes_each": 16378,
+      "charge_bytes": 49134
+    },
+    {
+      "path": "lab/tasks/calibration-frontier-main-2026-11-05/source_models.py",
+      "full_file_pass_booking": 3,
+      "bytes_each": 14471,
+      "charge_bytes": 43413
+    },
+    {
+      "path": "lab/tasks/calibration-frontier-main-2026-11-05/main_scores.py",
+      "full_file_pass_booking": 3,
+      "bytes_each": 3707,
+      "charge_bytes": 11121
+    }
+  ],
+  "extra_saved_array_introspection_read_charge": 2612245,
+  "extra_saved_array_introspection_decoded_array_booking": 1500000,
+  "uninstrumented_context_metadata_failed_helper_own_artifact_and_closeout_booking_bytes": 20000000,
+  "total_recorded_nominal_and_estimated_read_decode_bytes": 116680756,
+  "public_ingress_bytes": 0,
+  "actual_usage_file": "ACCOUNT_CHECKPOINT.json",
+  "ordinary_usage_allowed": true,
+  "start_weekly_remaining_percent": 68,
+  "latest_weekly_remaining_percent": 66,
+  "unavailable_windows": "secondary and individual missing/null, not zero; no applicable unavailable value invented",
+  "source_assignment_actuals": {
+    "recorded_scientific_cpu_seconds": 23.204441,
+    "conservative_science_cpu_seconds": 153.360838,
+    "recorded_HTTP_body_bytes": 23593242,
+    "public_recorded_plus_estimated_bytes": 24593242,
+    "read_decode_recorded_nominal_plus_estimated_bytes": 1862357093,
+    "native_goal_completed": true,
+    "native_turn_completed": true,
+    "source_payloads_opened": "NYU-42 only,273rows/eightfields, whole subject excluded"
+  },
+  "previous_completed_study": {
+    "author_scientific_cpu_seconds": 4932.693987,
+    "author_recorded_estimated_read_bytes": 723451263,
+    "distinct_result_review_scientific_cpu_seconds": 29.043,
+    "distinct_result_review_counted_estimated_read_bytes": 405594971,
+    "earlier_lineage": "All earlier costs, failures, uncertainty and exposure retained by reference; no refund."
+  },
+  "recommended_new_investigation": {
+    "future_cpu_minutes": [
+      214.890395390625,
+      344.846553546875
+    ],
+    "future_scientist_elapsed_hours": [
+      6.5,
+      11.5
+    ],
+    "future_public_body_ceiling_bytes": 500000000,
+    "future_read_decode_bytes": [
+      5000000000,
+      8000000000
+    ],
+    "future_peak_RSS_bytes": [
+      1000000000,
+      3000000000
+    ],
+    "future_storage_bytes": [
+      2000000000,
+      4000000000
+    ],
+    "new_source_and_this_review_additional_spent_cpu_minutes": 3.57596145,
+    "scope": "Fixed trained prescriptions; no32draw default, repeated neural family or milestone main. Estimates and conservative bookings are not measured future usage."
+  },
+  "exposure": {
+    "new_evaluation_response_or_outcome_payloads": false,
+    "old_raw_outcomes_reopened": false,
+    "allowed_saved64_derived_scores": true,
+    "allowed_source_criterion_summaries": true,
+    "new_response_source_probe_not_reread": true,
+    "source_identity_protocol_chronology_auxiliary_metadata": true,
+    "protected_boundaries_unchanged": true,
+    "shared_records_edited": false,
+    "PI_goal_or_heartbeat_changed": false
+  },
+  "failures": [
+    "System python missing NumPy before array access; existing .venv used.",
+    "Guessed prose/code paths absent; metadata display attempted iterating an integer.",
+    "First full-aggregate identity check used all170metadata names instead of154consumed/protected names. Native assertion failed twice; ATTEMPT receipt is not an accepted check. Exact135overlaps were traced solely to metadata-only subjects and corrected by canonical154filter; costs retained.",
+    "Initial broad listings/JSON display were truncated; later checks inspect bounded named keys."
+  ],
+  "job_disposition": "All review scientific processes terminal, no main or uncollected review job; source native completion collected once.",
+  "unknowns": [
+    "Physical filesystem I/O",
+    "Runtime/import/provider and managed-tool reads/CPU",
+    "Exact CPU/RSS of failed/uninstrumented helpers",
+    "Per-worker attributable account consumption amid concurrent work"
+  ],
+  "qualification": "Explicit scientific bytes/arrays are recorded. Context UTF8/full-file and failure costs are retrospective conservative bookings, not exact measurements or physical-I/O certificates. Some already recorded reads are deliberately overcharged. No cap reset or unrun check is represented as passed."
+}

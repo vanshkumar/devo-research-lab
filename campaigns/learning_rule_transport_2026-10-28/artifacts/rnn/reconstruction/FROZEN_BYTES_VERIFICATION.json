@@ -1,0 +1,86 @@
+{
+  "rnn_freeze_sha256": "a4bcaac21b1302d0527daa31df119bd64b38c7389fcdd8d9323f7eecad5cd652",
+  "files": [
+    {
+      "path": "protocols/FREEZE.json",
+      "actual": "c0141244ac43d240f858956917e3b2b661c72a01a4bddbccdb3974a818b5741f",
+      "expected": "c0141244ac43d240f858956917e3b2b661c72a01a4bddbccdb3974a818b5741f",
+      "match": true
+    },
+    {
+      "path": "code/rnn_learning.py",
+      "actual": "9d08cb223a6e418c7d32575c5927864ccb642f89d4365b510fd9341dbc5d4023",
+      "expected": "9d08cb223a6e418c7d32575c5927864ccb642f89d4365b510fd9341dbc5d4023",
+      "match": true
+    },
+    {
+      "path": "code/rnn_rollout.py",
+      "actual": "80d4292afd97c8fe70eedfeee64c8bf397bbe8bfc2767cc13934fba4feaebf3b",
+      "expected": "80d4292afd97c8fe70eedfeee64c8bf397bbe8bfc2767cc13934fba4feaebf3b",
+      "match": true
+    },
+    {
+      "path": "code/fit_rnn.py",
+      "actual": "3c25a9af04defc13fedad0750c736b9cdd636825862d87c5024eeb482cff06a9",
+      "expected": "3c25a9af04defc13fedad0750c736b9cdd636825862d87c5024eeb482cff06a9",
+      "match": true
+    },
+    {
+      "path": "artifacts/rnn/rnnglm32_nested_best.npz",
+      "actual": "c7f675d18f4143891ed7d2c76d91f74be74da9565fbae5407952768e2c146940",
+      "expected": "c7f675d18f4143891ed7d2c76d91f74be74da9565fbae5407952768e2c146940",
+      "match": true
+    },
+    {
+      "path": "artifacts/rnn/RNN_SELECTION.json",
+      "actual": "93d57ec82790716ff4e0b5d1e022fcd7e4b345b56e85f84af86d9dc89d6d83f2",
+      "expected": "93d57ec82790716ff4e0b5d1e022fcd7e4b345b56e85f84af86d9dc89d6d83f2",
+      "match": true
+    },
+    {
+      "path": "artifacts/rnn/CHALLENGE_SPECIFICATION.json",
+      "actual": "87c02fc846203a0cf207ff852a465f2262d69eddf729f964715862544f326811",
+      "expected": "87c02fc846203a0cf207ff852a465f2262d69eddf729f964715862544f326811",
+      "match": true
+    },
+    {
+      "path": "artifacts/rnn/calibration/CONFIG.json",
+      "actual": "5f01d1864d2fa3740fce234b75103874a8225d4b9d2127c5406d8dd23bdf2914",
+      "expected": "5f01d1864d2fa3740fce234b75103874a8225d4b9d2127c5406d8dd23bdf2914",
+      "match": true
+    },
+    {
+      "path": "artifacts/rnn/calibration/rnnglm32_residuals.npz",
+      "actual": "761f11b69392c1e0f9e06ee4a8d357ce9d5cbd90cbe89129ec2da13fbd6a0847",
+      "expected": "761f11b69392c1e0f9e06ee4a8d357ce9d5cbd90cbe89129ec2da13fbd6a0847",
+      "match": true
+    },
+    {
+      "path": "artifacts/rnn/SOURCE_RECURRENCE_AUDIT.json",
+      "actual": "d2f58f2e45e104d3bd60400c96578e07651313bad12f48ddaf6484f8e8a23b8c",
+      "expected": "d2f58f2e45e104d3bd60400c96578e07651313bad12f48ddaf6484f8e8a23b8c",
+      "match": true
+    },
+    {
+      "path": "artifacts/rnn/FITTED_SOURCE_RECURRENCE_AUDIT.json",
+      "actual": "75e095bbf1f43493d78e04a14114ed4c7b3b735166ba38130e8a4976b66d0ca0",
+      "expected": "75e095bbf1f43493d78e04a14114ed4c7b3b735166ba38130e8a4976b66d0ca0",
+      "match": true
+    },
+    {
+      "path": "artifacts/rnn/CLOSED_LOOP_SOURCE_AUDIT.json",
+      "actual": "ff5b44343c07411101fc899317d59040da625c536a79e24913e5c51b8b75d1a8",
+      "expected": "ff5b44343c07411101fc899317d59040da625c536a79e24913e5c51b8b75d1a8",
+      "match": true
+    },
+    {
+      "path": "artifacts/rnn/PREFIX_LINEARIZATION_AUDIT.json",
+      "actual": "9ed3e15183c5f2688f4abe7a4717bf029876e73d4c227952f9eefaa62b6a48bc",
+      "expected": "9ed3e15183c5f2688f4abe7a4717bf029876e73d4c227952f9eefaa62b6a48bc",
+      "match": true
+    }
+  ],
+  "independent_helper_sha256": "891917dba291f0619cb90749f2432312b1c3ba42bc92662ed758fb61310eb913",
+  "scope": "postvalidation source-only recurrent architecture challenge",
+  "external_outcomes_read": false
+}

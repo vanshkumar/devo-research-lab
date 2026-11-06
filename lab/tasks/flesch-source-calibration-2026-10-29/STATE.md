@@ -1,0 +1,22 @@
+# Source calibration state
+
+- Investigator start: 2026-10-29 18:16:12 UTC (2026-10-29 14:16:12 America/New_York).
+- First-block hard stop: 2026-10-29 19:46:12 UTC (90 minutes).
+- Role: sole assigned investigator, GPT-6.1 Sol / max; sixth reserved lab cycle.
+- Status: reading governing instructions; no response fields decoded.
+- Ownership: this task directory and sources/flesch_source_calibration_2026-10-29/ only; preserve shared state and all other workers' edits.
+- Scope: conditional, summary-informed retrospective Flesch2018 final-success-selected cohort; implement source fitting and calibrated forecasts under the PI protocol.
+- Access boundary: B2/B20 numeric responses sealed; source responses may be decoded only after synthetic safe-reader tests and frozen masks/design. Pan and other protected historical targets remain sealed.
+- Resource boundaries: <=20 MB new data/code, <=5 targeted source lookups, <=4 processes / <=8 GB peak; benchmark before sweeps; no automatic continuation.
+
+Checkpoint18:26UTC: governing docs read; usage29%used/71%remaining. Reader27synthetic checks, mask9checks, fullcaller14checks pass. Two input-only reader assumptions failed safely (compact integer storage and ASCII cell exemplars); added synthetic coverage before proceeding. Pinned fullMAT opaquely acquired after approved retry (Git blob4f5fc111…); no response numeric conversion. Original combined-download auto-review rejection preserved in ACCESS_REJECTION.md. Full-feedback-on-timeout primary specifically approved by PI_TIMEOUT_AMENDMENT.md. Actual input-mask derivation running; source extraction still gated. Exactly2targeted source lookups (object and countdown), one failed zero-byte DNS attempt, no dependency installation.
+
+Completed scientific stop,18:52UTC: actual finite two-start source fits and autonomous source forecasts are complete. Value learner chosen by fixed source checkenergy; both first128 and final256 same-seed checks fail fixedB200≤10pp adequacy. Independent exact value curveMAE10.196733pp (3nodes),10.198495pp(9); Interleaved2.434314pp. Growth exact3node10.235191/2.709334pp, slightlybetter sourceenergy. No target-input forecast or target response score ran. Network bothstarts capped; value/growth converged onlyunder3node objective. Continuous-person likelihood underresolved at3/5/9nodes, a separate unearned numerical gate. Full-pipeline5pp/100-opportunity/null/envelopecalibration remains unfinished, with0fullreplicates; no empirical transportclaim or readiness.
+
+Exact access:1,302,989newnetworkbodybytes;1,056,000uniqueimmutableinputvalues(all176);228,000uniqueoriginalresponsevalues(95source);0targetresponsevalues. Two complete passes blindly inflate/discard2,430,000targetresponsebytes; failedpartialpasses reachnoresponsepayload. Complete/failure/reconstructioninflation accounting25,097,872bytes(totalrepeatedwork), ownedfiles~4.8MB<20MB. Source95histories consumeddevelopment; B2/B20 responses81sealed, Pan20sealed, noHABITS/otherprotectedaccess.
+
+Numerical QA: reader27+mask9+timeout14+numerical16+final17 checks pass; stablelog-sigmoid correction preserves allsaved3nodefitobjectives within7.3e−12. First-start failures, numerical GH9failure, approval rejection and timing-support/initializationdevelopmentawareness preserved. Independent reviewer separately reconstructs kernels/means and audits finalcorrection. Modelbudget used:600/462/477optimizercalls across exactly2starts/model; no3rdstart, architecturechange, continuation, subagent, spend or reset.
+
+Files ready: RESULT.md, DETAILS.md, EXPOSURE.json, REPRODUCE.md, LEARNING_PROPOSAL.md, SOURCE_STABILITY.json and sourcecode/NPZ/traces. PI owns shared scientific decisions and LEARNINGSintegration. Recommendation: close this bounded failed source-readiness block with the question unresolved; no automatic nextinvestment. Awaiting only independent audit's final durable return, then native task completion. Original90minute deadline19:46:12UTC remains a ceiling; unusedtime is not a continuation allocation.
+
+Final completion: 2026-10-29T18:54:55.858444+00:00, actual elapsed38.73minutes of90-minute ceiling. Status: completed at prescribed scientific source stop. All investigator jobs ended; no continuation allocated/used. PI collected RESULT/DETAILS/stability/exposure and independent38-check review; stopaccepted. No targetrelease or further work pending in this assignment. Native return is completion delivery.

@@ -1,0 +1,213 @@
+{
+  "executions": {
+    "PREPARATION.json": {
+      "recorded_wall_seconds": 1.1928549580043182,
+      "peak_rss_bytes": 219152384,
+      "io": {
+        "explicit_read_bytes": 12245716,
+        "decoded_eval_array_bytes": 13054496
+      },
+      "source_io": {
+        "explicit_file_reads": 29813612,
+        "duckdb_nominal_whole_file_per_query": 84062568,
+        "projected_array_bytes": 11529792
+      }
+    },
+    "PREPARATION6000.json": {
+      "recorded_wall_seconds": 0.9947702499339357,
+      "peak_rss_bytes": 248102912,
+      "io": {
+        "explicit_read_bytes": 11047888
+      },
+      "source_io": {
+        "explicit_file_reads": 32170552,
+        "duckdb_nominal_whole_file_per_query": 128682208,
+        "projected_array_bytes": 18083856
+      }
+    },
+    "CONDITIONAL.json": {
+      "recorded_wall_seconds": 4.426459499984048,
+      "peak_rss_bytes": 1020035072,
+      "io": {
+        "explicit_file_read_bytes": 1738157,
+        "decoded_array_bytes": 26505920
+      }
+    },
+    "TEACHER_AUDIT.json": {
+      "recorded_wall_seconds": 6.070764875039458,
+      "peak_rss_bytes": 144572416,
+      "io": {
+        "explicit_file_read_bytes": 1430355,
+        "decoded_array_bytes": 26505920
+      }
+    },
+    "PREFIX_TEACHER_AUDIT.json": {
+      "recorded_wall_seconds": 17.372966333059594,
+      "peak_rss_bytes": null,
+      "io": {
+        "explicit_file_read_bytes": 1093624,
+        "decoded_array_bytes": 33376728
+      }
+    },
+    "DEVELOPED_CONDITIONAL.json": {
+      "recorded_wall_seconds": 42.721708707977086,
+      "peak_rss_bytes": 1384300544,
+      "io": {
+        "explicit_file_read_bytes": 1883940,
+        "decoded_array_bytes": 33376728
+      }
+    },
+    "COMMON_FIT_V1.json": {
+      "recorded_wall_seconds": 11.92395929095801,
+      "peak_rss_bytes": null,
+      "io": {
+        "explicit_file_read_bytes": 1727694,
+        "decoded_array_bytes": 33376728
+      }
+    },
+    "COMMON_FIT.json": {
+      "recorded_wall_seconds": 5.8126622079871595,
+      "peak_rss_bytes": null,
+      "io": {
+        "explicit_file_read_bytes": 1884515,
+        "decoded_array_bytes": 33376728
+      }
+    },
+    "GENERATED_SCORES.json": {
+      "recorded_wall_seconds": 133.77000195905566,
+      "peak_rss_bytes": 252395520,
+      "io": {
+        "explicit_file_read_bytes": 1099692,
+        "decoded_array_bytes": 13084656
+      }
+    },
+    "COMMON_GENERATED_SCORES.json": {
+      "recorded_wall_seconds": 93.34020633297041,
+      "peak_rss_bytes": 277118976,
+      "io": {
+        "explicit_file_read_bytes": 1825162,
+        "decoded_array_bytes": 13087920
+      }
+    },
+    "RETAINED_GROWTH_SCORES.json": {
+      "recorded_wall_seconds": 108.64320987497922,
+      "peak_rss_bytes": 289996800,
+      "io": {
+        "explicit_file_read_bytes": 2670531,
+        "decoded_array_bytes": 13111492
+      }
+    },
+    "REDUCTION.json": {
+      "recorded_wall_seconds": 0.4919576670508832,
+      "peak_rss_bytes": null,
+      "io": {
+        "explicit_file_read_bytes": 3903858,
+        "decoded_array_bytes": 5178916
+      }
+    },
+    "OBSERVATION_TARGET_CORRECTION.json": {
+      "recorded_wall_seconds": 0.07917262508999556,
+      "peak_rss_bytes": null,
+      "io": {
+        "explicit_file_read_bytes": 8267347,
+        "decoded_array_bytes": 26870716
+      }
+    },
+    "RETAINED_REDUCTION.json": {
+      "recorded_wall_seconds": 0.4306643750751391,
+      "peak_rss_bytes": null,
+      "io": {
+        "explicit_file_read_bytes": 4566881,
+        "decoded_array_bytes": 5522876
+      }
+    },
+    "AUDIT.json": {
+      "recorded_wall_seconds": 2.8179131250362843,
+      "peak_rss_bytes": null,
+      "io": {
+        "explicit_file_read_bytes": 7399359,
+        "decoded_array_bytes": 26927712
+      }
+    },
+    "EARLY_SCORES.json": {
+      "recorded_wall_seconds": 157.52562358300202,
+      "peak_rss_bytes": 286457856,
+      "io": {
+        "explicit_file_read_bytes": 51227194,
+        "decoded_array_bytes": 38923176
+      }
+    },
+    "EARLY_REDUCTION.json": {
+      "recorded_wall_seconds": 0.6022159580606967,
+      "peak_rss_bytes": null,
+      "io": {
+        "explicit_file_read_bytes": 3706755,
+        "decoded_array_bytes": 5515708
+      }
+    },
+    "EARLY_AUDIT.json": {
+      "recorded_wall_seconds": 2.354770499980077,
+      "peak_rss_bytes": null,
+      "io": {
+        "explicit_file_read_bytes": 1204711,
+        "decoded_array_bytes": 13101640
+      }
+    },
+    "EARLY_FAMILY_PRECISION.json": {
+      "recorded_wall_seconds": 0.023241583025082946,
+      "peak_rss_bytes": null,
+      "io": {
+        "explicit_file_read_bytes": 672827
+      }
+    },
+    "MEAN_FUNCTIONALS.json": {
+      "recorded_wall_seconds": 0.010336040984839201,
+      "peak_rss_bytes": null,
+      "io": {
+        "explicit_file_read_bytes": 3011133,
+        "decoded_array_bytes": 5515708
+      }
+    },
+    "PLOT_EXECUTION.json": {
+      "recorded_wall_seconds": 0.08451837500000003,
+      "peak_rss_bytes": 66617344,
+      "io": {
+        "summary_read_bytes": 184572
+      }
+    }
+  },
+  "recorded_serial_science_wall_sum_seconds": 590.6899781222539,
+  "counted_read_and_decode_sums_by_type": {
+    "explicit_read_bytes": 23293604,
+    "decoded_eval_array_bytes": 13054496,
+    "explicit_file_reads": 61984164,
+    "duckdb_nominal_whole_file_per_query": 212744776,
+    "projected_array_bytes": 29613648,
+    "explicit_file_read_bytes": 99313735,
+    "decoded_array_bytes": 353359272,
+    "summary_read_bytes": 184572
+  },
+  "sum_counters_bytes": 793548267,
+  "peak_rss_of_recorded_executions_bytes": 1384300544,
+  "failed_stages": [
+    "prepare.py initial metadata-only stale KS016 cache_bytes mismatch; fixed from pinned preexisting original-object exception",
+    "pilot.py first teacher audit serialization failed after saved conditional; audit-only recovered",
+    "develop_v1.py first shared fit hit250 iterations; same objective solved with scaled coordinates/max1500",
+    "system-python numpy summary import failed before reading a source file",
+    "one context rg lookup missing SOURCE_AUDIT.md; metadata only",
+    "Plotting .modelenv import lacked Matplotlib before any figure/data read; root .venv Matplotlib used with writable temporary config directory",
+    "Initial root Matplotlib version import could not create default config directory and used platform temporary cache; no escalation or protected config change"
+  ],
+  "conservative_extra_read_decode_budget_charge_bytes": 268435456,
+  "conservative_unrecorded_failed_stage_compute_charge_seconds": 120,
+  "actual_cpu_seconds": "not instrumented for each historical process; serial elapsed is recorded, with one numerical thread configuration",
+  "physical_io_import_runtime_reads": "unknown; counters cover explicit and nominal selected-file queries/decoded arrays, not a physical I/O certification",
+  "external_ingress": "Primary text via search service only; local saved receipts size is measured below, provider/network transfer unavailable; no dataset/archive download",
+  "primary_receipt_saved_bytes": 99098,
+  "earlier_lineage_resources": "Original campaign and November4 records unchanged, not refunded; this file accounts this assignment only.",
+  "counted_plus_conservative_charge_bytes": 1061983723,
+  "continuation_recorded_science_wall_seconds": 160.6007060400527,
+  "updated_utc": "2026-11-05T13:48:12.619938+00:00",
+  "native_disposition": "All issued scientific subprocesses completed; numerical outputs inspected; no live scientific job or main execution.",
+  "context_and_final_hash_read_charge_note": "Additional administrative context/summary and artifact hashing are conservatively covered by the268435456byte non-measured read/decode charge; physical/runtime I/O remains unknown."
+}

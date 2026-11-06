@@ -1,0 +1,68 @@
+{
+  "kind": "offline_tests_and_simulated_hook_events",
+  "live_hook_trust_verified": false,
+  "live_pi_canary_verified": false,
+  "test_exit_code": 0,
+  "test_summary": [
+    "Ran 36 tests in 0.119s",
+    "",
+    "OK"
+  ],
+  "simulated_probes": [
+    {
+      "probe": "scientific_script",
+      "expected": "deny",
+      "actual": "deny",
+      "reason": "Lab gate denied: PI shell access is restricted to the lab controller"
+    },
+    {
+      "probe": "javascript_computation",
+      "expected": "deny",
+      "actual": "deny",
+      "reason": "Lab gate denied: PI wrapper must be exactly text(await tools.NAME(STRICT_JSON_OBJECT));"
+    },
+    {
+      "probe": "literal_status_wrapper",
+      "expected": "allow",
+      "actual": "allow",
+      "reason": "One literal tool wrapper; platform must hook its nested tool call"
+    },
+    {
+      "probe": "controller_status",
+      "expected": "allow",
+      "actual": "allow",
+      "reason": "Validated controller invocation"
+    },
+    {
+      "probe": "pi_search",
+      "expected": "deny",
+      "actual": "deny",
+      "reason": "Lab gate denied: PI performs coordination through the controller; arbitrary scripts, search, edits, native agents and unclassified mutations are blocked"
+    },
+    {
+      "probe": "native_agent",
+      "expected": "deny",
+      "actual": "deny",
+      "reason": "Lab gate denied: PI performs coordination through the controller; arbitrary scripts, search, edits, native agents and unclassified mutations are blocked"
+    },
+    {
+      "probe": "direct_patch",
+      "expected": "deny",
+      "actual": "deny",
+      "reason": "Lab gate denied: PI performs coordination through the controller; arbitrary scripts, search, edits, native agents and unclassified mutations are blocked"
+    },
+    {
+      "probe": "paused_dispatch",
+      "expected": "deny",
+      "actual": "deny",
+      "reason": "Lab gate denied: Research governance is paused"
+    }
+  ],
+  "sha256": {
+    "lab/control.py": "37ac51b78695e49cdbbc16118eb0e74c97f67d47c050aab8a3c8a0eba4a9a972",
+    "lab/policy.json": "f2f38cb50095cf64d6b2a3bffa6c30b31e20b7b52a8c7517bae3865fb58dd209",
+    "lab/tests/test_control.py": "7386259abfa4e3f6f6c2865c692d51e984cf4672d1f8752e5a4d713116d788eb",
+    ".codex/hooks.json": "9460cea9e9eb557a71bdaee7868dd523895c916dd7481bb3b44b10f404a60330",
+    ".codex/config.toml": "c5e173af4551176881c8dffe7df1454b82ef381724a609745c1d6814be6ee52f"
+  }
+}

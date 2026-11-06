@@ -1,0 +1,283 @@
+{
+  "started_utc": "2026-11-03T08:03:40.238786+00:00",
+  "all_independent_reconstruction_gates_pass": true,
+  "independence": "own edge-list RHS, sparse balance, analytic Jacobian, BDF orbit and endpoint-Jacobian trapezoidal full variational flow; zero lab helper imports",
+  "original_54step_FWD_motor_maxabs": 2.29342754209938e-06,
+  "author_raw_orbit_closure": {
+    "V_maxabs": 2.8837803256465122e-08,
+    "S_maxabs": 1.536075086572275e-11,
+    "scaled_rms": 3.665792909082501e-10
+  },
+  "own_BDF_orbit": {
+    "period_s": 2.6412419163998493,
+    "closure": {
+      "V_maxabs": 9.84018697636202e-08,
+      "S_maxabs": 2.2973514757218538e-10,
+      "scaled_rms": 1.1931459721275991e-09
+    },
+    "nfev": 1455,
+    "nlu": 105
+  },
+  "source_checks_on_independent_cycle": [
+    {
+      "phase_s": 0.0,
+      "rhs_maxabs": 2.425313283538344e-10,
+      "jac_maxabs": 9.094947017729282e-13,
+      "directional_jac_relative": 7.265162934984851e-11
+    },
+    {
+      "phase_s": 0.8804139721332831,
+      "rhs_maxabs": 6.063416435608815e-11,
+      "jac_maxabs": 9.094947017729282e-13,
+      "directional_jac_relative": 4.8758432595126033e-11
+    },
+    {
+      "phase_s": 1.7608279442665662,
+      "rhs_maxabs": 6.063299862191229e-11,
+      "jac_maxabs": 4.547473508864641e-13,
+      "directional_jac_relative": 9.748208527467808e-11
+    }
+  ],
+  "roots": {
+    "0": {
+      "V_residual_max": 2.425319204727809e-10,
+      "S_residual_max": 2.120525977034049e-14,
+      "max_real_eigenvalue": -1.3695160567700468,
+      "gate_min": 7.94320976421597e-05,
+      "gate_max": 0.16653661348238824,
+      "source_rhs_maxabs": 1.2126596023639047e-10
+    },
+    "1": {
+      "V_residual_max": 4.850638409455618e-10,
+      "S_residual_max": 2.120525977034049e-14,
+      "max_real_eigenvalue": -1.3695160567698077,
+      "gate_min": 7.943209764215751e-05,
+      "gate_max": 0.16653661348238824,
+      "source_rhs_maxabs": 6.063298011819523e-11
+    }
+  },
+  "full_variational_trapezoid": [
+    {
+      "steps": 1024,
+      "phase_real": 1.0000212574560774,
+      "phase_imag": 0.0,
+      "phase_error": 2.125745607739482e-05,
+      "largest_557_transverse_modulus": 0.0761209661663482,
+      "tangent_relative_error": 1.3706321466847029e-05,
+      "top12_moduli": [
+        1.0000212574560774,
+        0.0761209661663482,
+        0.0761209661663482,
+        0.027087996007621514,
+        0.027087996007621514,
+        0.01385723304099288,
+        0.01385723304099288,
+        0.004011107543883013,
+        0.0026982262885245517,
+        0.0020427751571945245,
+        0.0020427751571945245,
+        0.0015897190397874698
+      ]
+    },
+    {
+      "steps": 2048,
+      "phase_real": 1.0000053114862868,
+      "phase_imag": 0.0,
+      "phase_error": 5.311486286796452e-06,
+      "largest_557_transverse_modulus": 0.07612117121348416,
+      "tangent_relative_error": 3.421733146080376e-06,
+      "top12_moduli": [
+        1.0000053114862868,
+        0.07612117121348416,
+        0.07612117121348416,
+        0.027087677733536226,
+        0.027087677733536226,
+        0.01385726869343569,
+        0.01385726869343569,
+        0.004011170982579049,
+        0.0026982484010469156,
+        0.002042787061109636,
+        0.002042787061109636,
+        0.0015897535218197699
+      ]
+    }
+  ],
+  "dominant_modulus_refinement_change": 2.0504713596491975e-07,
+  "author_raw_full_monodromy_recomputed_spectra": [
+    {
+      "steps": 512,
+      "phase_error": 8.505436336347927e-05,
+      "largest_557_transverse_modulus": 0.07612014609297468,
+      "stored_spectrum_nearest_maxabs": 3.716009750395321e-16
+    },
+    {
+      "steps": 1024,
+      "phase_error": 2.1261099127922733e-05,
+      "largest_557_transverse_modulus": 0.0761209662124054,
+      "stored_spectrum_nearest_maxabs": 2.217413718344664e-16
+    },
+    {
+      "steps": 2048,
+      "phase_error": 5.315133198235955e-06,
+      "largest_557_transverse_modulus": 0.07612117125953732,
+      "stored_spectrum_nearest_maxabs": 3.711833236455195e-16
+    }
+  ],
+  "source_initialization_to_42s_accessibility": {
+    "0": {
+      "finite": {
+        "V_maxabs": 3.637978807091713e-12,
+        "S_maxabs": 3.0531133177191805e-15,
+        "scaled_rms": 4.140280186244824e-14
+      },
+      "sham": {
+        "V_maxabs": 1.2716947821900249e-05,
+        "S_maxabs": 1.893079386305896e-08,
+        "scaled_rms": 1.4475146440974008e-07
+      },
+      "finite_motor_maxabs": 7.105427357601002e-14,
+      "sham_motor_maxabs": 7.597731155328802e-07,
+      "segments": [
+        {
+          "span": [
+            20.0,
+            20.3
+          ],
+          "nfev": 1462,
+          "nlu": 106
+        },
+        {
+          "span": [
+            20.3,
+            22.0
+          ],
+          "nfev": 1409,
+          "nlu": 84
+        },
+        {
+          "span": [
+            22.0,
+            22.3
+          ],
+          "nfev": 1690,
+          "nlu": 114
+        },
+        {
+          "span": [
+            22.3,
+            42.0
+          ],
+          "nfev": 2791,
+          "nlu": 109
+        }
+      ]
+    },
+    "1": {
+      "finite": {
+        "V_maxabs": 2.7284841053187847e-12,
+        "S_maxabs": 2.6922908347160046e-15,
+        "scaled_rms": 3.581964708760011e-14
+      },
+      "sham": {
+        "V_maxabs": 1.380835601594299e-05,
+        "S_maxabs": 2.0506078432513952e-08,
+        "scaled_rms": 1.567429438606494e-07
+      },
+      "finite_motor_maxabs": 7.105427357601002e-14,
+      "sham_motor_maxabs": 8.236168724806703e-07,
+      "segments": [
+        {
+          "span": [
+            20.0,
+            20.3
+          ],
+          "nfev": 1461,
+          "nlu": 106
+        },
+        {
+          "span": [
+            20.3,
+            22.0
+          ],
+          "nfev": 1409,
+          "nlu": 84
+        },
+        {
+          "span": [
+            22.0,
+            22.3
+          ],
+          "nfev": 1690,
+          "nlu": 114
+        },
+        {
+          "span": [
+            22.3,
+            42.0
+          ],
+          "nfev": 2790,
+          "nlu": 109
+        }
+      ]
+    }
+  },
+  "author_raw_scores_crossings_gates_and_forks": {
+    "0": {
+      "late_motor_rms": 3.7738955803246603,
+      "sham_crossing_count": 98,
+      "last20_period_range": 1.1368683772161603e-13,
+      "last20_scaled_return_rms_max": 7.476867443386123e-14,
+      "finite_gate_min": 7.94320976420876e-05,
+      "finite_gate_max": 0.16653661348238832,
+      "sham_gate_min": 3.979283256580887e-05,
+      "sham_gate_max": 0.1666655429519857,
+      "forks_bitwise": true,
+      "challenge_motor_rms": 13.132807302811194
+    },
+    "1": {
+      "late_motor_rms": 3.7738577531948105,
+      "sham_crossing_count": 98,
+      "last20_period_range": 1.7053025658242404e-13,
+      "last20_scaled_return_rms_max": 1.0247182029382219e-13,
+      "finite_gate_min": 7.943209764208719e-05,
+      "finite_gate_max": 0.16653661348238832,
+      "sham_gate_min": 3.9792832598738395e-05,
+      "sham_gate_max": 0.16666554295198333,
+      "forks_bitwise": true,
+      "challenge_motor_rms": 13.132096054589168
+    }
+  },
+  "author_frozen_bytes_verified": {
+    "PROTOCOL.md": true,
+    "stability.py": true,
+    "reference.py": true,
+    "REFERENCE.json": true,
+    "INPUT_STATES.npz": true,
+    "SOURCE_REFERENCE.npz": true
+  },
+  "author_freeze_before_main": true,
+  "native_process_exit": 0,
+  "warnings": [
+    {
+      "category": "UserWarning",
+      "message": "Reading `.npy` or `.npz` file required additional header parsing as it was created on Python 2. Save the file again to speed up loading and avoid this warning.",
+      "filename": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/reviews/interactome-retained-state-stability-2026-11-03/model.py",
+      "lineno": 29
+    },
+    {
+      "category": "UserWarning",
+      "message": "Reading `.npy` or `.npz` file required additional header parsing as it was created on Python 2. Save the file again to speed up loading and avoid this warning.",
+      "filename": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/reviews/interactome-retained-state-stability-2026-11-03/model.py",
+      "lineno": 30
+    },
+    {
+      "category": "UserWarning",
+      "message": "Reading `.npy` or `.npz` file required additional header parsing as it was created on Python 2. Save the file again to speed up loading and avoid this warning.",
+      "filename": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/reviews/interactome-retained-state-stability-2026-11-03/model.py",
+      "lineno": 31
+    }
+  ],
+  "finished_utc": "2026-11-03T08:04:39.893061+00:00",
+  "self_elapsed_s": 59.654422208,
+  "rss_bytes_macos": 868696064
+}

@@ -1,0 +1,114 @@
+{
+  "status": "pass",
+  "scope": "Three completed development exact-target diagnostics; actor outputs excluded because they are still running.",
+  "plants": [
+    {
+      "plant_id": 0,
+      "evaluators": {
+        "learned35": {
+          "feedback_queries": 12,
+          "independent_true_loss_max_error": 3.642919299551295e-17,
+          "independent_dynamics_max_error": 4.440892098500626e-16,
+          "independent_dynamics_probes": 12,
+          "target_cost": 1.4203001031771711,
+          "next_cost": 1.4032632758792107,
+          "next_true_mse": 0.01030532239622563,
+          "gradient_norm": 0.38707079133057154,
+          "gradient_gain_component": -0.34202416121067003
+        },
+        "learned140": {
+          "feedback_queries": 12,
+          "independent_true_loss_max_error": 1.2576745200831851e-17,
+          "independent_dynamics_max_error": 4.440892098500626e-16,
+          "independent_dynamics_probes": 12,
+          "target_cost": 1.7061144169132911,
+          "next_cost": 1.6853076459464509,
+          "next_true_mse": 0.010841549604807262,
+          "gradient_norm": 0.43436958702587775,
+          "gradient_gain_component": -0.2296554934022632
+        }
+      },
+      "diagnostic_source_state_sha256": "f4dddd5e48e7012f62579e8f7a3c24efab4a52ef41e472a9849dd41a59b00895"
+    },
+    {
+      "plant_id": 1,
+      "evaluators": {
+        "learned35": {
+          "feedback_queries": 12,
+          "independent_true_loss_max_error": 1.0408340855860843e-17,
+          "independent_dynamics_max_error": 4.440892098500626e-16,
+          "independent_dynamics_probes": 12,
+          "target_cost": 1.4039703415527514,
+          "next_cost": 1.3992688177986254,
+          "next_true_mse": 0.010326102612833983,
+          "gradient_norm": 0.16631087403382466,
+          "gradient_gain_component": -0.09535744145764191
+        },
+        "learned140": {
+          "feedback_queries": 12,
+          "independent_true_loss_max_error": 1.734723475976807e-17,
+          "independent_dynamics_max_error": 2.4868995751603507e-14,
+          "independent_dynamics_probes": 12,
+          "target_cost": 24.700059992661256,
+          "next_cost": 2.43288213748284,
+          "next_true_mse": 0.01030917484971917,
+          "gradient_norm": 31.05781732827153,
+          "gradient_gain_component": 28.089866894295668
+        }
+      },
+      "diagnostic_source_state_sha256": "aeae1f5d5693a3217726f7bf8117dd7945632254886cc8092f75cd73dd401e8b"
+    },
+    {
+      "plant_id": 2,
+      "evaluators": {
+        "learned35": {
+          "feedback_queries": 12,
+          "independent_true_loss_max_error": 3.903127820947816e-18,
+          "independent_dynamics_max_error": 2.220446049250313e-16,
+          "independent_dynamics_probes": 12,
+          "target_cost": 1.502050495177296,
+          "next_cost": 1.4939040201531457,
+          "next_true_mse": 0.016136524280095432,
+          "gradient_norm": 0.2874230986757283,
+          "gradient_gain_component": -0.011349291641686854
+        },
+        "learned140": {
+          "feedback_queries": 12,
+          "independent_true_loss_max_error": 8.673617379884035e-18,
+          "independent_dynamics_max_error": 1.7763568394002505e-14,
+          "independent_dynamics_probes": 12,
+          "target_cost": 29.211002917030424,
+          "next_cost": 2.15087686600855,
+          "next_true_mse": 0.012542467214628962,
+          "gradient_norm": 42.35966652749059,
+          "gradient_gain_component": -1.3601795893040247
+        }
+      },
+      "diagnostic_source_state_sha256": "92e612a43b322fe2dbaa291a91ad16df02aed716291ab2467bc74dac7e025b03"
+    }
+  ],
+  "independent_dynamics_probes": 72,
+  "immutable_evidence_sha256": {
+    "diagnostic_results/plant_000.npz": "faa32ff5912bf66ac4d387a5c685f325e0c829fac9504f316f2ed124a4f38eb4",
+    "diagnostic_results/plant_000.json": "02a9420d779a6f5b82937ed445421e3ae3283a42d11831085db2d97f13d54d87",
+    "diagnostic_results/plant_001.npz": "7a89e4194e237e70b0ae4538af1d7818ddc3b3aeab569bd0902a6013fefe8ab5",
+    "diagnostic_results/plant_001.json": "dccd47e80f6737db87080dbfdd8f51510ccfdceb8131d3a590c5dd9f1cfd9641",
+    "diagnostic_results/plant_002.npz": "0567ed7170554904d39a860ffaeff45048a13938e3f76fa2051eee7e4904bc00",
+    "diagnostic_results/plant_002.json": "6cacc2b04842b1ce22de310321efea0f23dab9f74f54caa79903a32e9066f221",
+    "mixed_results/plant_000/inputs.npz": "83dcc76398bf222bf3203aa44039b5d5f0ee4b834d3f79220a6e15a3065a9086",
+    "mixed_results/plant_000/state.pkl": "f4dddd5e48e7012f62579e8f7a3c24efab4a52ef41e472a9849dd41a59b00895",
+    "mixed_results/plant_000/preparation.json": "81c303897502aac34070fa591eed9187e88040a3eeef1c6b34627dd8be378df9",
+    "mixed_results/plant_001/inputs.npz": "a3ee3b379ed0d2585ae027fda1f77598239bea3791771e056e477d09bba0a3b5",
+    "mixed_results/plant_001/state.pkl": "aeae1f5d5693a3217726f7bf8117dd7945632254886cc8092f75cd73dd401e8b",
+    "mixed_results/plant_001/preparation.json": "c4af7e6621b53bfae2c4f571d69856a38d29a3e0f46ca1e5d11d2364b12809c6",
+    "mixed_results/plant_002/inputs.npz": "ba3ec456dfe92b2df4057aa58018396e1f80193503161ca4c8e8802cb00398d4",
+    "mixed_results/plant_002/state.pkl": "92e612a43b322fe2dbaa291a91ad16df02aed716291ab2467bc74dac7e025b03",
+    "mixed_results/plant_002/preparation.json": "1b0cc6bbc9cec4e0a8f56728386de3de8b23894a84286ca0a905df1f6e7a2018"
+  },
+  "verification_code_sha256": "285a2630c150cdf22b44173a85a9e7fb85d68b3ebb8437cdf0327b11ead598d7",
+  "diagnostic_script_sha256": "39ab8e307abd05c7a8f1c86cf137159f933467cd1a23941e3b7c098acfed3db4",
+  "limitations": [
+    "Frozen dynamics independently reconstructed; source plasticity training not reimplemented.",
+    "Same generated development states, not independent empirical evidence."
+  ]
+}

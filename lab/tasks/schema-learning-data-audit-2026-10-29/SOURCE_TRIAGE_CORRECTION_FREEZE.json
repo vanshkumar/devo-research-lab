@@ -1,0 +1,65 @@
+{
+  "frozen_utc": "2026-10-29T21:34:34.451147+00:00",
+  "reason": "Post-acquisition code-only syntax diagnostic located three percent directives in cell0; no participant-data literal was flagged. The original Python-only triage classified a directive as a syntax failure. This is a documented screen correction, not a successful first pass or removal of a participant-literal stop.",
+  "original_NOTEBOOK_READER_FREEZE_unchanged": true,
+  "original_NOTEBOOK_PROJECTION_STOP_preserved": true,
+  "JSON_projection_reader_sha256_unchanged": "627b0ab8f17bb9300122388b6e794861ed3ccb32a2c74f5caf1243096ad7dbed",
+  "scope": "Same already-authorized code.source strings only; no new network/object/field/value access; recognize only the three canonical literal directive lines listed here and never execute them. All original participant-literal checks remain active.",
+  "known_directives": [
+    "%autoreload 2",
+    "%load_ext autoreload",
+    "%matplotlib inline"
+  ],
+  "correction_source_sha256": "79c2a34bf370c3a66e3163ff673f2e534a3735ccf117fe35b6e752832babac6a",
+  "checks": [
+    {
+      "name": "known_directives_do_not_trigger_Python_syntax_alarm",
+      "passed": true
+    },
+    {
+      "name": "response_literal_retained",
+      "passed": true
+    },
+    {
+      "name": "participant_literal_retained",
+      "passed": true
+    },
+    {
+      "name": "numeric_data_literal_retained",
+      "passed": true
+    },
+    {
+      "name": "personal_literal_retained",
+      "passed": true
+    },
+    {
+      "name": "comment_stop_retained",
+      "passed": true
+    },
+    {
+      "name": "unknown_directive_stops",
+      "passed": true
+    },
+    {
+      "name": "cell_magic_stops",
+      "passed": true
+    },
+    {
+      "name": "bang_stops",
+      "passed": true
+    },
+    {
+      "name": "changed_directive_arguments_stop",
+      "passed": true
+    },
+    {
+      "name": "syntax_error_still_stops",
+      "passed": true
+    },
+    {
+      "name": "original_JSON_projection_unchanged",
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}

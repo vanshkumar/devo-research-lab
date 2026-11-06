@@ -1,0 +1,10 @@
+# Initial commitments — before any raw outcome inspection
+
+- Scientific unit: person, keyed by source file and SN. Same-set participant holdout, ten development/ten validation per set, hash assignment in split.json.
+- First future readout t+1; lag window 1–5, equally weighted. Primary scalar: average jump-minus-stationary difference in the response attributable to a preceding signed +4° clamp at t−1 relative to the signed midpoint. Clamp sign convention will be documented from source geometry; response will be compensation-positive.
+- Scalar practical margin: ±0.2° averaged over the five reaches. This is 5% of the 4° programmed perturbation and a material fraction of ordinary single-trial implicit responses reported in source literature, small enough to matter for accumulation. It is a chosen scientific resolution, not a demonstrated perceptual/clinical threshold. Report relative ordinary response as well, with denominator uncertainty. Never widen the margin after recovery.
+- Include preceding five signed inputs and event interactions; nuisance must account for their own target conditions, longer input history, current/intervening input cells, participant differences and drift. No lagged hand angle as an error-free memory state; no conditioning on reaction/movement times produced by the event.
+- Zero-clamp index event is the primary intervention. Keep actual contiguous sequences, deterministic probes excluded and full five-trial windows within a randomized 180-trial portion. A stricter boundary exclusion may be needed for longer nuisance histories and will be frozen before validation.
+- Main effect is observable propagation, not neural retention or reward. Compare both signs. Later no-jump READOUT analysis is required. Current/readout clamp and intervening input cells must remain accounted for.
+- Endpoint selection, detailed nuisance basis and inference are provisional pending code/measurement audit and development-only recovery. Changes must record current exposure.
+- Independent-laboratory outcomes remain sealed until transfer eligibility/prediction/calibration is frozen. No exact zero-clamp replication exists there.

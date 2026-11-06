@@ -1,0 +1,699 @@
+{
+  "subject": "KS025",
+  "split": "animal_holdout",
+  "lab": "cortexlab",
+  "rows_read": 6000,
+  "original_provenance": [
+    {
+      "path": "data/sealed/animal_holdout/KS025/2019-10-01_001_4c23ce60-d7ef-4243-b1d4-091b794bbd7e_table.pqt",
+      "dataset_id": "ca25d630-3e9a-468a-8e93-e4ae1357ae63",
+      "session_uuid": "4c23ce60-d7ef-4243-b1d4-091b794bbd7e",
+      "date": "2019-10-01",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld5.3.1",
+      "md5": "9817a86a3a5180e09b20a22907b7786b",
+      "sha256": "b474f8ba85c0536fda9d82ac0b44d89bee90352dc8ae977427c32917e835b3a4",
+      "bytes": 31278,
+      "cache_md5": "9817a86a3a5180e09b20a22907b7786b",
+      "bounded_rows": 324,
+      "footer_rows": 324,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/KS025/2019-10-01_001_4c23ce60-d7ef-4243-b1d4-091b794bbd7e_table.pqt') LIMIT 324"
+    },
+    {
+      "path": "data/sealed/animal_holdout/KS025/2019-10-02_001_70f8c1f6-51f6-4301-90ef-f270dcc9cf91_table.pqt",
+      "dataset_id": "a5528f78-b1e7-4866-88a3-78adfa1fafe7",
+      "session_uuid": "70f8c1f6-51f6-4301-90ef-f270dcc9cf91",
+      "date": "2019-10-02",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.0.2",
+      "md5": "ac90d1af7c82a36689f46830b6eb6056",
+      "sha256": "9675a5bf26473d4d64d50ede31be4628348ff964e61d257ece2b7b3e6ad8e5f9",
+      "bytes": 37315,
+      "cache_md5": "ac90d1af7c82a36689f46830b6eb6056",
+      "bounded_rows": 416,
+      "footer_rows": 416,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/KS025/2019-10-02_001_70f8c1f6-51f6-4301-90ef-f270dcc9cf91_table.pqt') LIMIT 416"
+    },
+    {
+      "path": "data/sealed/animal_holdout/KS025/2019-10-04_001_a2ee5354-abf7-44e1-8192-43422040b4a5_table.pqt",
+      "dataset_id": "6427d847-4735-4d20-9907-d27e1cfb5cad",
+      "session_uuid": "a2ee5354-abf7-44e1-8192-43422040b4a5",
+      "date": "2019-10-04",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.0.3",
+      "md5": "e6546adf8a7c9b88b51c78a52d58ff71",
+      "sha256": "d304b1cd35887c91ec54e70f03ec93a580c0553c047d059fdee10543ad6eb1a7",
+      "bytes": 32811,
+      "cache_md5": "e6546adf8a7c9b88b51c78a52d58ff71",
+      "bounded_rows": 346,
+      "footer_rows": 346,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/KS025/2019-10-04_001_a2ee5354-abf7-44e1-8192-43422040b4a5_table.pqt') LIMIT 346"
+    },
+    {
+      "path": "data/sealed/animal_holdout/KS025/2019-10-07_001_0e2de9e1-cd5a-4b30-a852-9cb84322f442_table.pqt",
+      "dataset_id": "7d477a53-5a4b-479d-b506-ab57d5a47b8a",
+      "session_uuid": "0e2de9e1-cd5a-4b30-a852-9cb84322f442",
+      "date": "2019-10-07",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.0.3",
+      "md5": "e675c308cb19001c85684eb6e3cec3fb",
+      "sha256": "991c9db2a070ad909e2516cb2a2f5b3fef0d3e81e426a7c8c6981c905770673a",
+      "bytes": 48166,
+      "cache_md5": "e675c308cb19001c85684eb6e3cec3fb",
+      "bounded_rows": 575,
+      "footer_rows": 575,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/KS025/2019-10-07_001_0e2de9e1-cd5a-4b30-a852-9cb84322f442_table.pqt') LIMIT 575"
+    },
+    {
+      "path": "data/sealed/animal_holdout/KS025/2019-10-08_001_25fb9cf4-9b08-497b-84dc-272f96bff085_table.pqt",
+      "dataset_id": "256480b6-5b88-4a9f-823e-a300ed299c3f",
+      "session_uuid": "25fb9cf4-9b08-497b-84dc-272f96bff085",
+      "date": "2019-10-08",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.0.3",
+      "md5": "6e6c2dbc82a45278c4d9eac76379ec96",
+      "sha256": "cb021ee536597fa89ec0211a47803b50a2eed83b61867c42def325a33e1c6348",
+      "bytes": 48555,
+      "cache_md5": "6e6c2dbc82a45278c4d9eac76379ec96",
+      "bounded_rows": 578,
+      "footer_rows": 578,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/KS025/2019-10-08_001_25fb9cf4-9b08-497b-84dc-272f96bff085_table.pqt') LIMIT 578"
+    },
+    {
+      "path": "data/sealed/animal_holdout/KS025/2019-10-10_001_b43be2fc-329d-4328-b2c5-a5e30b2439f4_table.pqt",
+      "dataset_id": "b4f05710-e369-441c-b29f-49264a559a02",
+      "session_uuid": "b43be2fc-329d-4328-b2c5-a5e30b2439f4",
+      "date": "2019-10-10",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.0.3",
+      "md5": "de3de90924e93de89b06be96b4e3caee",
+      "sha256": "06770bed4ba5953c3835a8272bd529ca4d191c59bb14c16276c0a561f0f01c95",
+      "bytes": 37622,
+      "cache_md5": "de3de90924e93de89b06be96b4e3caee",
+      "bounded_rows": 421,
+      "footer_rows": 421,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/KS025/2019-10-10_001_b43be2fc-329d-4328-b2c5-a5e30b2439f4_table.pqt') LIMIT 421"
+    },
+    {
+      "path": "data/sealed/animal_holdout/KS025/2019-10-11_001_cc1caec3-8c79-4cae-82c7-9226c8b5c904_table.pqt",
+      "dataset_id": "77e5586f-1be3-447f-80be-2e8a99752da0",
+      "session_uuid": "cc1caec3-8c79-4cae-82c7-9226c8b5c904",
+      "date": "2019-10-11",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.0.5",
+      "md5": "f8dda14b8ef6225f9549272159b4efb2",
+      "sha256": "3352bf4b2e23375ffe166ad8feee1bf581d168bbf2ed8d451769ec476fe2ee88",
+      "bytes": 44353,
+      "cache_md5": "f8dda14b8ef6225f9549272159b4efb2",
+      "bounded_rows": 517,
+      "footer_rows": 517,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/KS025/2019-10-11_001_cc1caec3-8c79-4cae-82c7-9226c8b5c904_table.pqt') LIMIT 517"
+    },
+    {
+      "path": "data/sealed/animal_holdout/KS025/2019-10-14_001_3c32317a-8f9b-4c8f-8268-9678d38315c8_table.pqt",
+      "dataset_id": "eec4b9b4-d541-44ef-bd48-f58a0a2060fb",
+      "session_uuid": "3c32317a-8f9b-4c8f-8268-9678d38315c8",
+      "date": "2019-10-14",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.0.5",
+      "md5": "c7ab04e4d351eaf4cd65cacd89ff1c3c",
+      "sha256": "fc02668aaaa0de60d0fab06211c49012f2beff71a1bc5f5bdb4a6c79cde30880",
+      "bytes": 41214,
+      "cache_md5": "c7ab04e4d351eaf4cd65cacd89ff1c3c",
+      "bounded_rows": 475,
+      "footer_rows": 475,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/KS025/2019-10-14_001_3c32317a-8f9b-4c8f-8268-9678d38315c8_table.pqt') LIMIT 475"
+    },
+    {
+      "path": "data/sealed/animal_holdout/KS025/2019-10-15_001_9f4aea1b-fa24-481e-ad53-2c69aadeb845_table.pqt",
+      "dataset_id": "b2f2611b-8329-4b08-852b-5bbd6069b5ed",
+      "session_uuid": "9f4aea1b-fa24-481e-ad53-2c69aadeb845",
+      "date": "2019-10-15",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.0.5",
+      "md5": "71aea65ecba666637951b8e10be21c03",
+      "sha256": "f4d6c9c8957c9d4e178229966ae13389a645aa8c3d85d8da0f19c105cf91a39a",
+      "bytes": 36391,
+      "cache_md5": "71aea65ecba666637951b8e10be21c03",
+      "bounded_rows": 401,
+      "footer_rows": 401,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/KS025/2019-10-15_001_9f4aea1b-fa24-481e-ad53-2c69aadeb845_table.pqt') LIMIT 401"
+    },
+    {
+      "path": "data/sealed/animal_holdout/KS025/2019-10-17_001_638371a4-4357-4dde-8186-ae69bba680f5_table.pqt",
+      "dataset_id": "beb335a7-52e0-4983-83e2-19315d130194",
+      "session_uuid": "638371a4-4357-4dde-8186-ae69bba680f5",
+      "date": "2019-10-17",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.0.5",
+      "md5": "c6717547fe777dcb998f2f4333212b0c",
+      "sha256": "2279afc161a01f82c39d617ce247f42413b30dc755d330a8ead2a22d00d4058f",
+      "bytes": 42465,
+      "cache_md5": "c6717547fe777dcb998f2f4333212b0c",
+      "bounded_rows": 494,
+      "footer_rows": 494,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/KS025/2019-10-17_001_638371a4-4357-4dde-8186-ae69bba680f5_table.pqt') LIMIT 494"
+    },
+    {
+      "path": "data/sealed/animal_holdout/KS025/2019-10-18_002_1c914e03-2374-4e7a-a1d2-e41490796905_table.pqt",
+      "dataset_id": "47d13362-47b0-4daa-a4a1-11ab6ae551d6",
+      "session_uuid": "1c914e03-2374-4e7a-a1d2-e41490796905",
+      "date": "2019-10-18",
+      "number": 2,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.0.5",
+      "md5": "fbbe8aeb4999bf6be09cd96164e182bb",
+      "sha256": "f03b0cd2cd52e5620d030632079e88ee562a735c9b528c38d4bfe543706d9275",
+      "bytes": 39370,
+      "cache_md5": "fbbe8aeb4999bf6be09cd96164e182bb",
+      "bounded_rows": 446,
+      "footer_rows": 446,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/KS025/2019-10-18_002_1c914e03-2374-4e7a-a1d2-e41490796905_table.pqt') LIMIT 446"
+    },
+    {
+      "path": "data/sealed/animal_holdout/KS025/2019-10-21_001_223f6337-d85d-42bd-b0fa-8cf3dfb1cdde_table.pqt",
+      "dataset_id": "a8dbb0d3-80a0-424a-aa25-2e4af61a6882",
+      "session_uuid": "223f6337-d85d-42bd-b0fa-8cf3dfb1cdde",
+      "date": "2019-10-21",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.0.5",
+      "md5": "d9e2503e08954083b5cc2058a7c0ba26",
+      "sha256": "18a90c052c12d98f200efc5df9c5d4358ced99b3f334904b8b248ef25426b347",
+      "bytes": 40964,
+      "cache_md5": "d9e2503e08954083b5cc2058a7c0ba26",
+      "bounded_rows": 471,
+      "footer_rows": 471,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/KS025/2019-10-21_001_223f6337-d85d-42bd-b0fa-8cf3dfb1cdde_table.pqt') LIMIT 471"
+    },
+    {
+      "path": "data/sealed/animal_holdout/KS025/2019-10-22_001_c4ac2a71-1045-4d67-94f8-038f805e3d0b_table.pqt",
+      "dataset_id": "e96c91ff-c206-44d8-9ba5-69816895f8c9",
+      "session_uuid": "c4ac2a71-1045-4d67-94f8-038f805e3d0b",
+      "date": "2019-10-22",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld6.0.5",
+      "md5": "69a4d8666622cf87678112c4e82794d5",
+      "sha256": "3e2d6c8c6f167b200d46559f59dfd3d69b4b526bbf1cc0ae9fe6abc006965348",
+      "bytes": 52984,
+      "cache_md5": "69a4d8666622cf87678112c4e82794d5",
+      "bounded_rows": 536,
+      "footer_rows": 647,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/KS025/2019-10-22_001_c4ac2a71-1045-4d67-94f8-038f805e3d0b_table.pqt') LIMIT 536"
+    }
+  ],
+  "targets_and_counts_equal": true,
+  "prefix_weight_endpoint_max_abs_difference": 4.440892098500626e-16,
+  "prefix_hidden_endpoint_max_abs_difference": 1.6653345369377348e-16,
+  "conditional_probability_max_abs_difference": 4.996003610813204e-16,
+  "conditional_weights_max_abs_difference": 4.440892098500626e-15,
+  "conditional_hidden_final_max_abs_difference": 8.881784197001252e-16,
+  "same_trial_perturbation_probability_difference": 0.0,
+  "omission_weight_hidden_hold_difference": 0.0,
+  "forecast_path": "artifacts/forecasts/rnn_source_animals/KS025__rnnglm32.npz",
+  "forecast_sha256": "575e0b135c562aa7d308acc5d3761a276683398e520266611361e58b9ae30103",
+  "conditional_path": "artifacts/forecasts/rnn_source_animals/KS025__rnnglm32__conditional.npz",
+  "conditional_sha256": "e53407fbe095d8cc8b265284a5ccce917f58177f96dfa547883fce7742066a7f",
+  "scores": [
+    {
+      "subject": "KS025",
+      "split": "animal_holdout",
+      "lab": "cortexlab",
+      "model": "rnnglm32",
+      "arm": "autonomous",
+      "horizon": 1000,
+      "actual_horizon": 1000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.06141761776630521,
+      "crps_by_metric": [
+        0.10812051545500155,
+        0.06614799407646195,
+        0.0711104375611546,
+        0.0002915239726027396
+      ],
+      "mae": 0.0905981164293461,
+      "mae_by_metric": [
+        0.14892522647629988,
+        0.12122114549108459,
+        0.090146484375,
+        0.002099609375000001
+      ],
+      "high_accuracy_mae": 0.13507318598369222,
+      "coverage": {
+        "0.5": 0.625,
+        "0.8": 0.875,
+        "0.95": 0.875
+      },
+      "high_coverage": {
+        "0.5": 0.5,
+        "0.8": 0.75,
+        "0.95": 0.75
+      },
+      "width": {
+        "0.5": 0.1747150056134536,
+        "0.8": 0.3394094763901202,
+        "0.95": 0.48409889817096696
+      },
+      "energy": 0.24446777887139992,
+      "n_cells": 8,
+      "high_width80": 0.47846895278024043
+    },
+    {
+      "subject": "KS025",
+      "split": "animal_holdout",
+      "lab": "cortexlab",
+      "model": "rnnglm32",
+      "arm": "raw_autonomous",
+      "horizon": 1000,
+      "actual_horizon": 1000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.06141761776630521,
+      "crps_by_metric": [
+        0.10812051545500155,
+        0.06614799407646195,
+        0.0711104375611546,
+        0.0002915239726027396
+      ],
+      "mae": 0.0905981164293461,
+      "mae_by_metric": [
+        0.14892522647629988,
+        0.12122114549108459,
+        0.090146484375,
+        0.002099609375000001
+      ],
+      "high_accuracy_mae": 0.13507318598369222,
+      "coverage": {
+        "0.5": 0.625,
+        "0.8": 0.875,
+        "0.95": 0.875
+      },
+      "high_coverage": {
+        "0.5": 0.5,
+        "0.8": 0.75,
+        "0.95": 0.75
+      },
+      "width": {
+        "0.5": 0.1747150056134536,
+        "0.8": 0.3394094763901202,
+        "0.95": 0.48409889817096696
+      },
+      "energy": 0.24446777887139992,
+      "n_cells": 8,
+      "high_width80": 0.47846895278024043
+    },
+    {
+      "subject": "KS025",
+      "split": "animal_holdout",
+      "lab": "cortexlab",
+      "model": "rnnglm32",
+      "arm": "conditional_diagnostic",
+      "horizon": 1000,
+      "actual_horizon": 1000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.008652728146650567,
+      "crps_by_metric": [
+        0.00864976577960179,
+        0.02092157213723531,
+        0.0047480506971624295,
+        0.0002915239726027396
+      ],
+      "mae": 0.010933675518536292,
+      "mae_by_metric": [
+        0.01012212049339839,
+        0.026255159705747322,
+        0.005257812499999459,
+        0.002099609375000001
+      ],
+      "high_accuracy_mae": 0.018188640099572856,
+      "coverage": {
+        "0.5": 0.875,
+        "0.8": 0.875,
+        "0.95": 0.875
+      },
+      "high_coverage": {
+        "0.5": 0.75,
+        "0.8": 0.75,
+        "0.95": 0.75
+      },
+      "width": {
+        "0.5": 0.02164468115436896,
+        "0.8": 0.040104978665085445,
+        "0.95": 0.06489446018352649
+      },
+      "energy": 0.03591086306318416,
+      "n_cells": 8,
+      "high_width80": 0.055209957330170895,
+      "binary_nll": 0.461093036899403,
+      "static_prefix_binary_nll": 0.6392122020554257,
+      "conditional_nll_gain_over_static": 0.17811916515602272
+    },
+    {
+      "subject": "KS025",
+      "split": "animal_holdout",
+      "lab": "cortexlab",
+      "model": "rnnglm32",
+      "arm": "autonomous",
+      "horizon": 3000,
+      "actual_horizon": 3000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.04891778127993211,
+      "crps_by_metric": [
+        0.08944930451685451,
+        0.0518644280311192,
+        0.054027048169439006,
+        0.0003303444023157207
+      ],
+      "mae": 0.09751634804785403,
+      "mae_by_metric": [
+        0.18239152756588325,
+        0.11945836983386611,
+        0.08641536458333339,
+        0.0018001302083333346
+      ],
+      "high_accuracy_mae": 0.1509249486998747,
+      "coverage": {
+        "0.5": 0.6666666666666666,
+        "0.8": 0.875,
+        "0.95": 0.9583333333333334
+      },
+      "high_coverage": {
+        "0.5": 0.5,
+        "0.8": 0.75,
+        "0.95": 0.9166666666666666
+      },
+      "width": {
+        "0.5": 0.1813394103435074,
+        "0.8": 0.38767977876055965,
+        "0.95": 0.5717355908045225
+      },
+      "energy": 0.39313926726929016,
+      "n_cells": 24,
+      "high_width80": 0.5423428908544524
+    },
+    {
+      "subject": "KS025",
+      "split": "animal_holdout",
+      "lab": "cortexlab",
+      "model": "rnnglm32",
+      "arm": "raw_autonomous",
+      "horizon": 3000,
+      "actual_horizon": 3000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.04891778127993211,
+      "crps_by_metric": [
+        0.08944930451685451,
+        0.0518644280311192,
+        0.054027048169439006,
+        0.0003303444023157207
+      ],
+      "mae": 0.09751634804785403,
+      "mae_by_metric": [
+        0.18239152756588325,
+        0.11945836983386611,
+        0.08641536458333339,
+        0.0018001302083333346
+      ],
+      "high_accuracy_mae": 0.1509249486998747,
+      "coverage": {
+        "0.5": 0.6666666666666666,
+        "0.8": 0.875,
+        "0.95": 0.9583333333333334
+      },
+      "high_coverage": {
+        "0.5": 0.5,
+        "0.8": 0.75,
+        "0.95": 0.9166666666666666
+      },
+      "width": {
+        "0.5": 0.1813394103435074,
+        "0.8": 0.38767977876055965,
+        "0.95": 0.5717355908045225
+      },
+      "energy": 0.39313926726929016,
+      "n_cells": 24,
+      "high_width80": 0.5423428908544524
+    },
+    {
+      "subject": "KS025",
+      "split": "animal_holdout",
+      "lab": "cortexlab",
+      "model": "rnnglm32",
+      "arm": "conditional_diagnostic",
+      "horizon": 3000,
+      "actual_horizon": 3000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.012300821620749951,
+      "crps_by_metric": [
+        0.01608349623975547,
+        0.02774856653972183,
+        0.005040879301206783,
+        0.0003303444023157207
+      ],
+      "mae": 0.01705168232795212,
+      "mae_by_metric": [
+        0.021011656697566994,
+        0.03871330178090817,
+        0.006681640624999975,
+        0.0018001302083333346
+      ],
+      "high_accuracy_mae": 0.029862479239237582,
+      "coverage": {
+        "0.5": 0.7916666666666666,
+        "0.8": 0.8333333333333334,
+        "0.95": 0.875
+      },
+      "high_coverage": {
+        "0.5": 0.5833333333333334,
+        "0.8": 0.6666666666666666,
+        "0.95": 0.75
+      },
+      "width": {
+        "0.5": 0.024123470477451836,
+        "0.8": 0.042761535887503456,
+        "0.95": 0.06672453115548903
+      },
+      "energy": 0.09544363939204319,
+      "n_cells": 24,
+      "high_width80": 0.06287307177500691,
+      "binary_nll": 0.40632749228129283,
+      "static_prefix_binary_nll": 0.6514797819727041,
+      "conditional_nll_gain_over_static": 0.24515228969141123
+    },
+    {
+      "subject": "KS025",
+      "split": "animal_holdout",
+      "lab": "cortexlab",
+      "model": "rnnglm32",
+      "arm": "autonomous",
+      "horizon": 5000,
+      "actual_horizon": 5000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.04111501420338536,
+      "crps_by_metric": [
+        0.07132278699891219,
+        0.04208108249809307,
+        0.05073233702299412,
+        0.00032385029354207415
+      ],
+      "mae": 0.09145719863820602,
+      "mae_by_metric": [
+        0.17189327640391688,
+        0.10481090877390722,
+        0.08713554687499991,
+        0.001989062500000001
+      ],
+      "high_accuracy_mae": 0.13835209258891207,
+      "coverage": {
+        "0.5": 0.7,
+        "0.8": 0.9,
+        "0.95": 0.975
+      },
+      "high_coverage": {
+        "0.5": 0.55,
+        "0.8": 0.85,
+        "0.95": 0.95
+      },
+      "width": {
+        "0.5": 0.15070217829232363,
+        "0.8": 0.36457445899735685,
+        "0.95": 0.5559781860212443
+      },
+      "energy": 0.4509477948334055,
+      "n_cells": 40,
+      "high_width80": 0.5087289179947138
+    },
+    {
+      "subject": "KS025",
+      "split": "animal_holdout",
+      "lab": "cortexlab",
+      "model": "rnnglm32",
+      "arm": "raw_autonomous",
+      "horizon": 5000,
+      "actual_horizon": 5000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.04111501420338536,
+      "crps_by_metric": [
+        0.07132278699891219,
+        0.04208108249809307,
+        0.05073233702299412,
+        0.00032385029354207415
+      ],
+      "mae": 0.09145719863820602,
+      "mae_by_metric": [
+        0.17189327640391688,
+        0.10481090877390722,
+        0.08713554687499991,
+        0.001989062500000001
+      ],
+      "high_accuracy_mae": 0.13835209258891207,
+      "coverage": {
+        "0.5": 0.7,
+        "0.8": 0.9,
+        "0.95": 0.975
+      },
+      "high_coverage": {
+        "0.5": 0.55,
+        "0.8": 0.85,
+        "0.95": 0.95
+      },
+      "width": {
+        "0.5": 0.15070217829232363,
+        "0.8": 0.36457445899735685,
+        "0.95": 0.5559781860212443
+      },
+      "energy": 0.4509477948334055,
+      "n_cells": 40,
+      "high_width80": 0.5087289179947138
+    },
+    {
+      "subject": "KS025",
+      "split": "animal_holdout",
+      "lab": "cortexlab",
+      "model": "rnnglm32",
+      "arm": "conditional_diagnostic",
+      "horizon": 5000,
+      "actual_horizon": 5000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.011496297040831306,
+      "crps_by_metric": [
+        0.013082600765057234,
+        0.0251998216815361,
+        0.007378915423189819,
+        0.00032385029354207415
+      ],
+      "mae": 0.016447586454360584,
+      "mae_by_metric": [
+        0.01757439026523293,
+        0.035634705552209135,
+        0.010592187500000272,
+        0.001989062500000001
+      ],
+      "high_accuracy_mae": 0.026604547908721035,
+      "coverage": {
+        "0.5": 0.75,
+        "0.8": 0.825,
+        "0.95": 0.9
+      },
+      "high_coverage": {
+        "0.5": 0.65,
+        "0.8": 0.75,
+        "0.95": 0.8
+      },
+      "width": {
+        "0.5": 0.022290735432403806,
+        "0.8": 0.04092152590129057,
+        "0.95": 0.06446366851570691
+      },
+      "energy": 0.11864322967517442,
+      "n_cells": 40,
+      "high_width80": 0.05986305180258111,
+      "binary_nll": 0.3796991221512028,
+      "static_prefix_binary_nll": 0.6577391538138577,
+      "conditional_nll_gain_over_static": 0.27804003166265495
+    }
+  ],
+  "numerical_differences": [
+    {
+      "arm": "autonomous",
+      "horizon": 1000,
+      "crps": 9.020562075079397e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "raw_autonomous",
+      "horizon": 1000,
+      "crps": 9.020562075079397e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "conditional_diagnostic",
+      "horizon": 1000,
+      "crps": 3.8163916471489756e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0,
+      "binary_nll": 5.551115123125783e-17
+    },
+    {
+      "arm": "autonomous",
+      "horizon": 3000,
+      "crps": 6.938893903907228e-18,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "raw_autonomous",
+      "horizon": 3000,
+      "crps": 6.938893903907228e-18,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "conditional_diagnostic",
+      "horizon": 3000,
+      "crps": 1.0408340855860843e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0,
+      "binary_nll": 0.0
+    },
+    {
+      "arm": "autonomous",
+      "horizon": 5000,
+      "crps": 6.938893903907228e-18,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "raw_autonomous",
+      "horizon": 5000,
+      "crps": 6.938893903907228e-18,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "conditional_diagnostic",
+      "horizon": 5000,
+      "crps": 1.214306433183765e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0,
+      "binary_nll": 0.0
+    }
+  ]
+}

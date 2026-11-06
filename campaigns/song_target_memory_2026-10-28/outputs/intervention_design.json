@@ -1,0 +1,156 @@
+{
+  "status": "initial main-summary interpolation retained as diagnostic ONLY;323ms was later found inconsistent with plotted opto-only median. Use empirical_summary.json for corrected descriptive calibration.",
+  "source": "Zhao et al 2019 Fig3; source agent independently verified full main text/figure",
+  "source_conditions": [
+    {
+      "width_ms": 50,
+      "pulse_count": 4,
+      "onset_period_ms": 100,
+      "light_on_ms": 200,
+      "pooled_element_median_ms": 62.3,
+      "birds": 7,
+      "elements": 25
+    },
+    {
+      "width_ms": 300,
+      "pulse_count": 1,
+      "onset_period_ms": null,
+      "light_on_ms": 300,
+      "pooled_element_median_ms": 323.0,
+      "birds": 4,
+      "elements": 7
+    }
+  ],
+  "original_design_rank": 2,
+  "original_design_columns": 4,
+  "original_nullity": 2,
+  "width_affine": {
+    "intercept_ms": 10.159999999999997,
+    "slope": 1.0428
+  },
+  "total_light_affine": {
+    "intercept_ms": -459.09999999999997,
+    "slope": 2.6069999999999998
+  },
+  "pulse_count_affine": {
+    "intercept_ms": 409.9,
+    "slope_ms_per_pulse": -86.89999999999999
+  },
+  "identity_calibration_abs_error_ms": [
+    12.299999999999997,
+    23.0
+  ],
+  "proportional_calibration_slope": 1.0812432432432433,
+  "proportional_calibration_abs_error_ms": [
+    8.23783783783783,
+    1.3729729729730025
+  ],
+  "constant_calibration_mean_ms": 192.65,
+  "constant_calibration_abs_error_ms": [
+    130.35000000000002,
+    130.35
+  ],
+  "crossed_width_period_rank": 3,
+  "crossed_factor_gram": [
+    [
+      4.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      4.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      4.0
+    ]
+  ],
+  "crossed_design_limit": "fixed pulse count leaves total dose proportional to width; crossing width/period alone does not separate width from total illumination",
+  "full_width_period_count_factorial": {
+    "conditions": 8,
+    "rank": 5,
+    "columns": [
+      "intercept",
+      "width",
+      "period",
+      "count",
+      "width_x_count"
+    ],
+    "gram": [
+      [
+        8.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        8.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        8.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        8.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        8.0
+      ]
+    ],
+    "meaning": "three-factor design distinguishes linear width, period, count and total-dose components; biological onset mapping/salience confounds still need controls"
+  },
+  "counterfactual_design_predictions": [
+    {
+      "width_ms": 50,
+      "onset_period_ms": 200,
+      "count": 4,
+      "width_affine_endpoint_ms": 62.3,
+      "total_light_affine_endpoint_ms": 62.30000000000001,
+      "caution": "affine extrapolation may be physiologically invalid; source sequence model needed"
+    },
+    {
+      "width_ms": 50,
+      "onset_period_ms": 400,
+      "count": 4,
+      "width_affine_endpoint_ms": 62.3,
+      "total_light_affine_endpoint_ms": 62.30000000000001,
+      "caution": "affine extrapolation may be physiologically invalid; source sequence model needed"
+    },
+    {
+      "width_ms": 150,
+      "onset_period_ms": 200,
+      "count": 4,
+      "width_affine_endpoint_ms": 166.57999999999998,
+      "total_light_affine_endpoint_ms": 1105.1,
+      "caution": "affine extrapolation may be physiologically invalid; source sequence model needed"
+    },
+    {
+      "width_ms": 150,
+      "onset_period_ms": 400,
+      "count": 4,
+      "width_affine_endpoint_ms": 166.57999999999998,
+      "total_light_affine_endpoint_ms": 1105.1,
+      "caution": "affine extrapolation may be physiologically invalid; source sequence model needed"
+    }
+  ],
+  "interpretation": "Both main conditions can be interpolated exactly by mutually incompatible stimulus encodings. Zero residual with two affine parameters is not evidence for a representation. Width/period crossing separates those two encodings only; adding pulse count separates linear total-dose components. None identifies downstream evaluative versus motor use."
+}

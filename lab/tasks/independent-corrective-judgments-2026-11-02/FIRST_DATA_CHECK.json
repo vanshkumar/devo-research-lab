@@ -1,0 +1,106 @@
+{
+  "calculated_at_utc": "2026-11-02T22:42:13.766100+00:00",
+  "input_sha256": "fc953e012778aea5bba206ae5875fa0531b9ee0e21545c5f6da6c5db483761de",
+  "input_bytes": 4687263,
+  "columns": [
+    "aviary",
+    "cycle",
+    "time",
+    "date",
+    "individual",
+    "left",
+    "right",
+    "sound_id",
+    "ground_truth",
+    "decision",
+    "nPIT",
+    "choiceTot",
+    "acc_cycle",
+    "acc_day",
+    "device",
+    "sb_device_day",
+    "sb_id_device_day"
+  ],
+  "all_table_rows_tokenized": 26491,
+  "ground_truth_values": {
+    "probe": 26491
+  },
+  "selection": "Earliest timestamp, row-index tie-break, after source-defined aviary1/cycle1 exclusion; subject and first context fixed without response selection.",
+  "original_subject": "01101722a6",
+  "aviary_cycle": [
+    "1",
+    "2"
+  ],
+  "first_data_row_1based": 494,
+  "context_responses": 191,
+  "left": 139,
+  "right": 38,
+  "uninterpreted_NA": 14,
+  "responding": 177,
+  "right_fraction_of_recorded_sides": 0.21468926553672316,
+  "chronology_first": "2019-04-23 11:05:28",
+  "chronology_last": "2019-05-05 13:26:04",
+  "source_time_zone": "not specified in deposited table; native values retained",
+  "first_record": {
+    "aviary": "1",
+    "cycle": "2",
+    "time": "2019-04-23 11:05:28",
+    "date": "2019-04-23",
+    "individual": "01101722a6",
+    "left": "Orange302_3.wav",
+    "right": "M1273_3.wav",
+    "sound_id": "DBlue75_4.wav",
+    "ground_truth": "probe",
+    "decision": "Left",
+    "nPIT": "202",
+    "choiceTot": "183",
+    "acc_cycle": "0.800970873786408",
+    "acc_day": "0.817610062893082",
+    "device": "1",
+    "sb_device_day": "0.465116279069767",
+    "sb_id_device_day": "0.453551912568306"
+  },
+  "first_repeat_stimulus": {
+    "left": "Orange302_3.wav",
+    "right": "M1273_3.wav",
+    "probe": "White609_7.wav"
+  },
+  "repeat_responses": 3,
+  "repeat_left": 3,
+  "repeat_right": 0,
+  "repeat_uninterpreted_NA": 0,
+  "repeat_right_fraction_of_recorded_sides": 0.0,
+  "repeat_chronological_records": [
+    {
+      "data_row_1based": 495,
+      "time": "2019-04-23 11:16:15",
+      "decision": "Left"
+    },
+    {
+      "data_row_1based": 700,
+      "time": "2019-04-26 14:31:10",
+      "decision": "Left"
+    },
+    {
+      "data_row_1based": 989,
+      "time": "2019-05-02 11:54:24",
+      "decision": "Left"
+    }
+  ],
+  "reference": "Independent positional-reader sums and exact source-row identity checks passed.",
+  "semantics": {
+    "observation": "Probe playback followed by left/right perch choice in trained categorical-similarity task.",
+    "stimuli": "Deposited representative left/right training identities and actual probe sound_id, not a controlled scalar edit.",
+    "feedback": "Paper states either probe side rewarded. No delivered reward field in this table; intended protocol is not hardware verification.",
+    "NA": "Literal NA retained separately; no claim that it is a biological omission rather than unrecorded response.",
+    "correction": "No subject-produced song, revision direction, target acceptability or song-learning endpoint in these rows.",
+    "training_accuracy": "acc_cycle is supplied all-cycle summary, not reconstructed from this probe-only export."
+  },
+  "exposure": {
+    "all_rows": "Full CSV bytes acquired/hashed/decoded; all17 fields tokenized in both readers, all subject/context/time/probe status metadata scanned.",
+    "numeric_interpretation": "Only selected subject/context binary choice counts and repeated-probe choices; first five excluded-cycle rows already inspected during schema check.",
+    "not_holdout": "No acquired or tokenized row is pristine unacquired evaluation; no new scientific comparison yet."
+  },
+  "parser_correction": "Initial strict Left/Right assertion failed on literal NA. Follow-up also exposed mixed ISO and day/month timestamps; lexicographic earliest was wrong. Both failed passes preserved in failure record and diagnostic. No endpoint/model selection change.",
+  "process_peak_rss_bytes_macos": 120979456
+}

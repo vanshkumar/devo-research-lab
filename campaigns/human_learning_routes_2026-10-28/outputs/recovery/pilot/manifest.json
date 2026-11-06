@@ -1,0 +1,91 @@
+{
+  "scenarios": {
+    "nuisance_null": {
+      "target": 0.0,
+      "shape": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "shared_law": false,
+      "scale": 0.0,
+      "expected_effect": 0.0
+    },
+    "carryover_null": {
+      "target": 0.0,
+      "shape": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "shared_law": true,
+      "scale": 0.0,
+      "expected_effect": 0.0
+    },
+    "slow_05": {
+      "target": 0.05,
+      "shape": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "shared_law": true,
+      "scale": 1.7758526084007287,
+      "expected_effect": 0.05000000000000001
+    },
+    "slow_10": {
+      "target": 0.1,
+      "shape": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "shared_law": true,
+      "scale": 3.6536973555469396,
+      "expected_effect": 0.10000000000000002
+    },
+    "shape_05": {
+      "target": 0.05,
+      "shape": [
+        -1.0,
+        0.0,
+        1.0
+      ],
+      "shared_law": true,
+      "scale": 0.37066677658814984,
+      "expected_effect": 0.05000000000000571
+    }
+  },
+  "args": {
+    "reps": 10,
+    "bootstrap_outer": 0,
+    "effect_bootstraps": 0,
+    "label": "pilot",
+    "scenarios": [],
+    "random_sd": 0.7
+  },
+  "config": {
+    "taus": [
+      2.0,
+      8.0,
+      32.0
+    ],
+    "random_sd": 0.7,
+    "fixed_sd": 2.0,
+    "intercept_sd": 3.0,
+    "interaction_sd": 1.0,
+    "condition_history_sd": 1.0,
+    "fit_start": 200,
+    "fit_end": 600,
+    "gh_nodes": 20,
+    "maxiter": 1200,
+    "ftol": 1e-14,
+    "gtol": 1e-05,
+    "gradient_tolerance": 0.001
+  },
+  "elapsed_seconds": 49.236710417,
+  "source": "input-only trial_inputs.csv; all response and feedback values simulated",
+  "input_sha256": "a099ecde4dd8652e4facff4d9bc57162d88d72bdc71f1c4763982e0f6d6a79ce",
+  "split_sha256": "5f9ed20b892a7197d8b47f75d7f8b2b64e093b2841f14f36c239bb96da12a051",
+  "interpretation": "Detection rates use participant bootstrap conditional on fitted population. Effect intervals refit stratified development participant bootstrap; finite outer repetitions limit rate precision."
+}

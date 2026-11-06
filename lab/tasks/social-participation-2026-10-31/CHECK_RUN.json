@@ -1,0 +1,198 @@
+{
+  "completed_utc": "2026-10-31T20:47:09.168391+00:00",
+  "original_pins": {
+    "RUN.json": "4fa2108e0359d90ebb8fabf45c6fef8e5efb36ee6964dba65471920a09a54f6e",
+    "COMPARISON.json": "f2e304f416237a9ebd6f43f4e4e9c86a4f75d2e9f70ab844179cc5de3b80f551",
+    "PROTOCOL.md": "24c6c6c8185c8aef146d749e019cbbfb471904848053bdbf5b4c0d3e0487354c",
+    "FIRST_COURTER_CHECK_PLAN.md": "d73aadbf997bdd8f463b0b4e445dc17ad11fc9502275f6e9280efeb6723c9e6b"
+  },
+  "immutable_input_reads": [
+    {
+      "path": "data/social_learning/data_primacy.csv",
+      "bytes": 27854,
+      "sha256": "0f723df5825865d214e3064c1e16f0e489211f25e45f3eb34e7dfb5c4ebf568b"
+    },
+    {
+      "path": "lab/tasks/social-participation-2026-10-31/RUN.json",
+      "bytes": 699,
+      "sha256": "4fa2108e0359d90ebb8fabf45c6fef8e5efb36ee6964dba65471920a09a54f6e"
+    },
+    {
+      "path": "lab/tasks/social-participation-2026-10-31/COMPARISON.json",
+      "bytes": 20194,
+      "sha256": "f2e304f416237a9ebd6f43f4e4e9c86a4f75d2e9f70ab844179cc5de3b80f551"
+    },
+    {
+      "path": "lab/tasks/social-participation-2026-10-31/PROTOCOL.md",
+      "bytes": 7891,
+      "sha256": "24c6c6c8185c8aef146d749e019cbbfb471904848053bdbf5b4c0d3e0487354c"
+    },
+    {
+      "path": "lab/tasks/social-participation-2026-10-31/FIRST_COURTER_CHECK_PLAN.md",
+      "bytes": 2770,
+      "sha256": "d73aadbf997bdd8f463b0b4e445dc17ad11fc9502275f6e9280efeb6723c9e6b"
+    },
+    {
+      "path": "lab/tasks/social-participation-2026-10-31/CV_FITS.json",
+      "bytes": 199914,
+      "sha256": "b9b406039dd52a6f5df0435c15b202cc33b39cd91fa540e4c8b2df7613ad0fb0"
+    },
+    {
+      "path": "lab/tasks/social-participation-2026-10-31/ELIGIBLE_ONLY_FITS.json",
+      "bytes": 30065,
+      "sha256": "0165f3785ed2e1e7d4f71d3936b92a1ca0d25f160cf87e2cd31f39543949e750"
+    },
+    {
+      "path": "lab/tasks/social-participation-2026-10-31/FULL_FITS.json",
+      "bytes": 12132,
+      "sha256": "0a4c0c44552359ace90153b26330b988c7d14d5bcc2977fa5980d9c73ed84335"
+    }
+  ],
+  "read_bytes": 301519,
+  "elapsed_seconds": 2.493523120880127,
+  "peak_rss_bytes": 75579392,
+  "numerical_summary": {
+    "original_empirical_non_success_flags": [],
+    "synthetic_non_success_flags_reproduced": [
+      {
+        "true_g": 1.0,
+        "stage": "Y",
+        "model": "marginal",
+        "n": 2059,
+        "success": false,
+        "message": "ABNORMAL_TERMINATION_IN_LNSRCH",
+        "iterations": 6,
+        "objective": 1422.379530458063,
+        "projected_gradient_max": 9.523885316220504e-07,
+        "coefficient_names": [
+          "intercept",
+          "T",
+          "C2"
+        ],
+        "coefficients": [
+          0.0783911045229336,
+          0.1307822867933839,
+          -0.027603770269173065
+        ]
+      }
+    ],
+    "strict_refit_max_6context_probability_difference": 4.110002957968817e-07,
+    "strict_refit_max_held_row_nll_difference": 1.6700345280007411e-06,
+    "full_six_context_repeat_prediction_max_error": 3.446123734984763e-08,
+    "full_six_context_color_relabel_max_error": 3.477380608463143e-08,
+    "rechecked_empirical_fold_models": 105,
+    "strict_empirical_non_success_flags": [
+      {
+        "stage": "A",
+        "model": "marginal",
+        "n": 410,
+        "success": false,
+        "message": "ABNORMAL_TERMINATION_IN_LNSRCH",
+        "iterations": 12,
+        "objective": 167.76934746787336,
+        "projected_gradient_max": 6.420851041966102e-07,
+        "coefficient_names": [
+          "intercept",
+          "T",
+          "C2"
+        ],
+        "coefficients": [
+          1.426299764253703,
+          0.41583808637418285,
+          0.7580762886030328
+        ]
+      },
+      {
+        "stage": "A",
+        "model": "expression",
+        "n": 410,
+        "success": false,
+        "message": "ABNORMAL_TERMINATION_IN_LNSRCH",
+        "iterations": 12,
+        "objective": 167.76934746787336,
+        "projected_gradient_max": 6.420851041966102e-07,
+        "coefficient_names": [
+          "intercept",
+          "T",
+          "C2"
+        ],
+        "coefficients": [
+          1.426299764253703,
+          0.41583808637418285,
+          0.7580762886030328
+        ]
+      },
+      {
+        "stage": "A",
+        "model": "primacy",
+        "n": 410,
+        "success": false,
+        "message": "ABNORMAL_TERMINATION_IN_LNSRCH",
+        "iterations": 12,
+        "objective": 167.76934746787336,
+        "projected_gradient_max": 6.420851041966102e-07,
+        "coefficient_names": [
+          "intercept",
+          "T",
+          "C2"
+        ],
+        "coefficients": [
+          1.426299764253703,
+          0.41583808637418285,
+          0.7580762886030328
+        ]
+      },
+      {
+        "stage": "A",
+        "model": "cancellation",
+        "n": 410,
+        "success": false,
+        "message": "ABNORMAL_TERMINATION_IN_LNSRCH",
+        "iterations": 12,
+        "objective": 167.76934746787336,
+        "projected_gradient_max": 6.420851041966102e-07,
+        "coefficient_names": [
+          "intercept",
+          "T",
+          "C2"
+        ],
+        "coefficients": [
+          1.426299764253703,
+          0.41583808637418285,
+          0.7580762886030328
+        ]
+      },
+      {
+        "stage": "Y",
+        "model": "expression",
+        "n": 350,
+        "success": false,
+        "message": "ABNORMAL_TERMINATION_IN_LNSRCH",
+        "iterations": 22,
+        "objective": 145.0589053943313,
+        "projected_gradient_max": 9.147936187864358e-07,
+        "coefficient_names": [
+          "intercept",
+          "T",
+          "C2",
+          "one_green",
+          "one_pink",
+          "both_green_first",
+          "both_pink_first"
+        ],
+        "coefficients": [
+          0.1502075154607666,
+          0.11987655475367283,
+          -0.08556261059867269,
+          3.069005467604973,
+          -3.3142285222600822,
+          0.12052482415012049,
+          -0.23322468218937428
+        ]
+      }
+    ],
+    "original_scores_preserved": true
+  },
+  "new_requests": 0,
+  "jobs": 0
+}

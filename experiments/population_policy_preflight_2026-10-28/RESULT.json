@@ -1,0 +1,591 @@
+{
+  "scope": "Input/simulation only; four previously consumed source prefixes; no external access and no new learner fit",
+  "n_subjects": 4,
+  "n_particles": 64,
+  "horizon": 3000,
+  "records": [
+    {
+      "subject": "ibl_witten_11",
+      "split": "lab_holdout",
+      "seed": 21517516,
+      "seconds": 2.3127850419841707,
+      "source_metadata_sha256": "1e31d457c15e9b80d9ed5d0789cf35b273acfd059a0d1e997fc480f7f9e0bd95",
+      "prefix_n": 1000,
+      "future_opportunities": 3000,
+      "source_prefix_objects": [
+        "data/sealed/lab_holdout/ibl_witten_11/2019-07-08_002_dc9aee16-be93-4081-b22f-13cb71fcfe81_table.pqt",
+        "data/sealed/lab_holdout/ibl_witten_11/2019-07-09_001_910be2b9-434c-4576-8604-334430b9f2f0_table.pqt",
+        "data/sealed/lab_holdout/ibl_witten_11/2019-07-10_001_ca3e19e2-46b4-4c40-897b-fba6755919bf_table.pqt"
+      ],
+      "reused_saved_RNN_calibration": true,
+      "new_learner_fit": false,
+      "external_access": false
+    },
+    {
+      "subject": "CSHL_013",
+      "split": "animal_holdout",
+      "seed": 30073568,
+      "seconds": 1.3495907080068719,
+      "source_metadata_sha256": "399e963613cb570c8eda3caf3b99499c021c8a2f18c137ca553857180be7f2bc",
+      "prefix_n": 1000,
+      "future_opportunities": 3000,
+      "source_prefix_objects": [
+        "data/sealed/animal_holdout/CSHL_013/2019-06-18_001_1f9a7487-aff5-4da5-a074-c2dcf0c0bc64_table.pqt",
+        "data/sealed/animal_holdout/CSHL_013/2019-06-19_001_7ace6963-e18b-486c-aff5-442ff082100c_table.pqt",
+        "data/sealed/animal_holdout/CSHL_013/2019-06-20_001_266dac70-916e-4ec1-9965-822255494cba_table.pqt",
+        "data/sealed/animal_holdout/CSHL_013/2019-06-21_001_26cd5c4b-a6eb-4462-b3e4-e26d1c32c16b_table.pqt"
+      ],
+      "reused_saved_RNN_calibration": true,
+      "new_learner_fit": false,
+      "external_access": false
+    },
+    {
+      "subject": "ZM_3001",
+      "split": "animal_holdout",
+      "seed": 40696096,
+      "seconds": 1.358835834020283,
+      "source_metadata_sha256": "cc5ecfe85a7fd2b47ff292f4303d0dd921471b0f29c44469054e085590272129",
+      "prefix_n": 1000,
+      "future_opportunities": 3000,
+      "source_prefix_objects": [
+        "data/sealed/animal_holdout/ZM_3001/2020-02-11_001_2599b64e-247f-46e9-a753-5e64dac3e7f6_table.pqt",
+        "data/sealed/animal_holdout/ZM_3001/2020-02-12_001_a925b5da-0964-4f03-b063-9f26763a7f37_table.pqt",
+        "data/sealed/animal_holdout/ZM_3001/2020-02-13_001_72b9f74b-368a-4613-a78e-e404266391d6_table.pqt",
+        "data/sealed/animal_holdout/ZM_3001/2020-02-14_001_59ba3bf5-d937-4497-a9d6-b79f28ce9076_table.pqt",
+        "data/sealed/animal_holdout/ZM_3001/2020-02-17_001_20cf1e45-a496-4f06-a175-b1053799c9ce_table.pqt"
+      ],
+      "reused_saved_RNN_calibration": true,
+      "new_learner_fit": false,
+      "external_access": false
+    },
+    {
+      "subject": "ibl_witten_17",
+      "split": "lab_holdout",
+      "seed": 59499384,
+      "seconds": 1.3560047500068322,
+      "source_metadata_sha256": "7d1790b5f88c206413b8f3a5fda2196f8d7a48d0f7cbf0a3235ae85c0ebf2f51",
+      "prefix_n": 1000,
+      "future_opportunities": 3000,
+      "source_prefix_objects": [
+        "data/sealed/lab_holdout/ibl_witten_17/2020-02-20_001_7ae52e2d-19d2-4983-8560-ce56fdcfee1c_table.pqt",
+        "data/sealed/lab_holdout/ibl_witten_17/2020-02-21_001_88f02fc5-e29e-4c09-acc7-c256a54c014b_table.pqt",
+        "data/sealed/lab_holdout/ibl_witten_17/2020-02-24_001_11186de2-d47d-416f-92f5-0ce47dadc5b9_table.pqt"
+      ],
+      "reused_saved_RNN_calibration": true,
+      "new_learner_fit": false,
+      "external_access": false
+    }
+  ],
+  "model_sha256": "c7f675d18f4143891ed7d2c76d91f74be74da9565fbae5407952768e2c146940",
+  "bank_sha256": "036f3cfedd56e915b051fb29a80a2622cf5a747366ea31aa46b9249a922eea01",
+  "full_source_outcomes_read": false,
+  "external_prefixes_read": false,
+  "external_outcomes_read": false,
+  "frozen_growth_prefix_nuisance_calibration_replayed": true,
+  "metrics": {
+    "exact100": {
+      "rnn_standard": {
+        "mean": 0.5814394788957177,
+        "mean_curve": [
+          0.5293127878627408,
+          0.5491424525408641,
+          0.5713781516251829,
+          0.5925732010507312,
+          0.6159697961360395,
+          0.6302604841587479
+        ],
+        "conditional_MC_SE": 0.005103051544274492,
+        "prefix_means": [
+          0.6114158780201822,
+          0.5452591950508245,
+          0.5732529320186052,
+          0.5958299104932588
+        ],
+        "between_prefix_SD": 0.028761673078948325
+      },
+      "rnn_external": {
+        "mean": 0.8348342915512177,
+        "mean_curve": [
+          0.6242991343471139,
+          0.832658774940149,
+          0.8773847894511418,
+          0.8807828866988446,
+          0.8922595571824847,
+          0.9016206066875713
+        ],
+        "conditional_MC_SE": 0.0027980912643604285,
+        "prefix_means": [
+          0.8599359611081303,
+          0.7894898129587324,
+          0.8406971415081193,
+          0.8492142506298885
+        ],
+        "between_prefix_SD": 0.03123764708430185
+      },
+      "rnn_policy_fixed_minus_adaptive": {
+        "mean": 0.25339481265549996,
+        "mean_curve": [
+          0.0949863464843728,
+          0.28351632239928537,
+          0.3060066378259591,
+          0.2882096856481129,
+          0.2762897610464455,
+          0.271360122528824
+        ],
+        "conditional_MC_SE": 0.005679422282500302,
+        "prefix_means": [
+          0.24852008308794804,
+          0.24423061790790787,
+          0.2674442094895141,
+          0.2533843401366297
+        ],
+        "between_prefix_SD": 0.010085156002789726
+      },
+      "growth_standard": {
+        "mean": 0.5682091419345261,
+        "mean_curve": [
+          0.5176956390752109,
+          0.550904735711091,
+          0.5667494907529649,
+          0.5757367077944732,
+          0.590446275281884,
+          0.6077220029915325
+        ],
+        "conditional_MC_SE": 0.004653587101248472,
+        "prefix_means": [
+          0.6029421266255012,
+          0.5273253385282628,
+          0.55813247413576,
+          0.5844366284485806
+        ],
+        "between_prefix_SD": 0.03287722696637702
+      },
+      "growth_external": {
+        "mean": 0.5669036985610431,
+        "mean_curve": [
+          0.5141064849024083,
+          0.5474821284376629,
+          0.5678129923210622,
+          0.5742468805530273,
+          0.590557372067051,
+          0.6072163330850474
+        ],
+        "conditional_MC_SE": 0.004751977149368259,
+        "prefix_means": [
+          0.6007758336420953,
+          0.5269695526607499,
+          0.5560760285110613,
+          0.5837933794302659
+        ],
+        "between_prefix_SD": 0.03237569717298465
+      },
+      "growth_policy_fixed_minus_adaptive": {
+        "mean": -0.001305443373483039,
+        "mean_curve": [
+          -0.0035891541728026314,
+          -0.003422607273427981,
+          0.001063501568097399,
+          -0.001489827241446269,
+          0.00011109678516630131,
+          -0.0005056699064850496
+        ],
+        "conditional_MC_SE": 0.001172607439149268,
+        "prefix_means": [
+          -0.0021662929834058466,
+          -0.00035578586751296463,
+          -0.002056445624698687,
+          -0.0006432490183146576
+        ],
+        "between_prefix_SD": 0.0009390451133815655
+      },
+      "rnn_minus_growth_standard": {
+        "mean": 0.013230336961191577,
+        "mean_curve": [
+          0.011617148787530007,
+          -0.0017622831702265745,
+          0.0046286608722177665,
+          0.016836493256258044,
+          0.02552352085415548,
+          0.022538481167214745
+        ],
+        "conditional_MC_SE": 0.006843503562901239,
+        "prefix_means": [
+          0.008473751394681,
+          0.01793385652256173,
+          0.015120457882845216,
+          0.01139328204467836
+        ],
+        "between_prefix_SD": 0.004151125565453569
+      },
+      "rnn_minus_growth_external": {
+        "mean": 0.2679305929901746,
+        "mean_curve": [
+          0.11019264944470553,
+          0.2851766465024867,
+          0.3095717971300795,
+          0.3065360061458171,
+          0.30170218511543456,
+          0.2944042736025238
+        ],
+        "conditional_MC_SE": 0.005349698710774976,
+        "prefix_means": [
+          0.2591601274660349,
+          0.2625202602979826,
+          0.28462111299705806,
+          0.26542087119962265
+        ],
+        "between_prefix_SD": 0.011417310350464524
+      }
+    },
+    "probe100": {
+      "rnn_standard": {
+        "mean": 0.5966015195565606,
+        "mean_curve": [
+          0.546501619704313,
+          0.5641553346827567,
+          0.5861657856115261,
+          0.607784070811134,
+          0.6304468948275223,
+          0.6445554117021122
+        ],
+        "conditional_MC_SE": 0.004661763706370811,
+        "prefix_means": [
+          0.6267224696140716,
+          0.5572650624013926,
+          0.5903159476853775,
+          0.6121025985254009
+        ],
+        "between_prefix_SD": 0.030190618613698927
+      },
+      "rnn_external": {
+        "mean": 0.8357477245629622,
+        "mean_curve": [
+          0.6252664775666387,
+          0.8338119350193274,
+          0.8794914614614839,
+          0.8815360495638545,
+          0.8926259847243813,
+          0.9017544390420873
+        ],
+        "conditional_MC_SE": 0.0024401720843058197,
+        "prefix_means": [
+          0.8598615808951116,
+          0.7923331313302366,
+          0.8435838587547766,
+          0.8472123272717244
+        ],
+        "between_prefix_SD": 0.02977217429699774
+      },
+      "rnn_policy_fixed_minus_adaptive": {
+        "mean": 0.23914620500640157,
+        "mean_curve": [
+          0.07876485786232607,
+          0.2696566003365707,
+          0.2933256758499577,
+          0.27375197875272045,
+          0.2621790898968593,
+          0.2571990273399758
+        ],
+        "conditional_MC_SE": 0.005175370190844747,
+        "prefix_means": [
+          0.23313911128103992,
+          0.23506806892884397,
+          0.25326791106939894,
+          0.23510972874632344
+        ],
+        "between_prefix_SD": 0.009459247532093085
+      },
+      "growth_standard": {
+        "mean": 0.5679894808820264,
+        "mean_curve": [
+          0.5179347185609368,
+          0.5501664884668486,
+          0.5653646565400501,
+          0.574405305833911,
+          0.5919873165486713,
+          0.6080783993417408
+        ],
+        "conditional_MC_SE": 0.004583397620553807,
+        "prefix_means": [
+          0.6032421008814685,
+          0.5276942436004646,
+          0.5574560093339562,
+          0.5835655697122166
+        ],
+        "between_prefix_SD": 0.03276187789948562
+      },
+      "growth_external": {
+        "mean": 0.5679894808820264,
+        "mean_curve": [
+          0.5179347185609368,
+          0.5501664884668486,
+          0.5653646565400501,
+          0.574405305833911,
+          0.5919873165486713,
+          0.6080783993417408
+        ],
+        "conditional_MC_SE": 0.004583397620553807,
+        "prefix_means": [
+          0.6032421008814685,
+          0.5276942436004646,
+          0.5574560093339562,
+          0.5835655697122166
+        ],
+        "between_prefix_SD": 0.03276187789948562
+      },
+      "growth_policy_fixed_minus_adaptive": {
+        "mean": 0.0,
+        "mean_curve": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "conditional_MC_SE": 0.0,
+        "prefix_means": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "between_prefix_SD": 0.0
+      },
+      "rnn_minus_growth_standard": {
+        "mean": 0.028612038674534237,
+        "mean_curve": [
+          0.028566901143375862,
+          0.013988846215908329,
+          0.02080112907147639,
+          0.03337876497722293,
+          0.03845957827885127,
+          0.036477012360370625
+        ],
+        "conditional_MC_SE": 0.006547041472638501,
+        "prefix_means": [
+          0.023480368732603195,
+          0.029570818800928163,
+          0.032859938351421286,
+          0.028537028813184297
+        ],
+        "between_prefix_SD": 0.0038860251272083207
+      },
+      "rnn_minus_growth_external": {
+        "mean": 0.2677582436809358,
+        "mean_curve": [
+          0.10733175900570195,
+          0.28364544655247886,
+          0.3141268049214339,
+          0.30713074372994315,
+          0.30063866817571067,
+          0.293676039700346
+        ],
+        "conditional_MC_SE": 0.005204572460694598,
+        "prefix_means": [
+          0.2566194800136431,
+          0.2646388877297722,
+          0.28612784942082026,
+          0.2636467575595077
+        ],
+        "between_prefix_SD": 0.01275603348421642
+      }
+    },
+    "official_high": {
+      "rnn_standard": {
+        "mean": 0.5795787186974555,
+        "mean_curve": [
+          0.528144961892228,
+          0.5460854358951072,
+          0.5695046168931597,
+          0.5912728467309987,
+          0.6138624924385159,
+          0.6286019583347233
+        ],
+        "conditional_MC_SE": 0.005121384404582713,
+        "prefix_means": [
+          0.6089763213447608,
+          0.5451784576663192,
+          0.5702995702275298,
+          0.5938605255512125
+        ],
+        "between_prefix_SD": 0.02791456969489892
+      },
+      "rnn_external": {
+        "mean": 0.8348342915512177,
+        "mean_curve": [
+          0.6242991343471139,
+          0.832658774940149,
+          0.8773847894511418,
+          0.8807828866988446,
+          0.8922595571824847,
+          0.9016206066875713
+        ],
+        "conditional_MC_SE": 0.0027980912643604285,
+        "prefix_means": [
+          0.8599359611081303,
+          0.7894898129587324,
+          0.8406971415081193,
+          0.8492142506298885
+        ],
+        "between_prefix_SD": 0.03123764708430185
+      },
+      "rnn_policy_fixed_minus_adaptive": {
+        "mean": 0.2552555728537621,
+        "mean_curve": [
+          0.09615417245488522,
+          0.28657333904504184,
+          0.3078801725579827,
+          0.2895100399678454,
+          0.2783970647439685,
+          0.2730186483528486
+        ],
+        "conditional_MC_SE": 0.005698872275189282,
+        "prefix_means": [
+          0.25095963976336944,
+          0.2443113552924132,
+          0.2703975712805895,
+          0.25535372507867615
+        ],
+        "between_prefix_SD": 0.011068283356277778
+      },
+      "growth_standard": {
+        "mean": 0.5673422568746471,
+        "mean_curve": [
+          0.5172195860694833,
+          0.5502091789938851,
+          0.5656819582194541,
+          0.5747513737107385,
+          0.590321573216946,
+          0.6058698710373758
+        ],
+        "conditional_MC_SE": 0.004601709358120001,
+        "prefix_means": [
+          0.6014877508398442,
+          0.5277808846379463,
+          0.5570749677221591,
+          0.5830254242986388
+        ],
+        "between_prefix_SD": 0.03205409957331441
+      },
+      "growth_external": {
+        "mean": 0.5669036985610431,
+        "mean_curve": [
+          0.5141064849024083,
+          0.5474821284376629,
+          0.5678129923210622,
+          0.5742468805530273,
+          0.590557372067051,
+          0.6072163330850474
+        ],
+        "conditional_MC_SE": 0.004751977149368259,
+        "prefix_means": [
+          0.6007758336420953,
+          0.5269695526607499,
+          0.5560760285110613,
+          0.5837933794302659
+        ],
+        "between_prefix_SD": 0.03237569717298465
+      },
+      "growth_policy_fixed_minus_adaptive": {
+        "mean": -0.00043855831360404754,
+        "mean_curve": [
+          -0.003113101167075128,
+          -0.0027270505562223316,
+          0.002131034101608539,
+          -0.0005044931577116503,
+          0.00023579885010435253,
+          0.0013464620476719299
+        ],
+        "conditional_MC_SE": 0.0010736069691966918,
+        "prefix_means": [
+          -0.0007119171977488868,
+          -0.0008113319771964317,
+          -0.0009989392110978353,
+          0.0007679551316269624
+        ],
+        "between_prefix_SD": 0.0008130983391956441
+      },
+      "rnn_minus_growth_standard": {
+        "mean": 0.012236461822808416,
+        "mean_curve": [
+          0.010925375822745059,
+          -0.004123743098777628,
+          0.003822658673705458,
+          0.016521473020260132,
+          0.023540919221570287,
+          0.022732087297347204
+        ],
+        "conditional_MC_SE": 0.006776025943865814,
+        "prefix_means": [
+          0.0074885705049164975,
+          0.01739757302837293,
+          0.013224602505370702,
+          0.010835101252573538
+        ],
+        "between_prefix_SD": 0.004168124050419673
+      },
+      "rnn_minus_growth_external": {
+        "mean": 0.2679305929901746,
+        "mean_curve": [
+          0.11019264944470553,
+          0.2851766465024867,
+          0.3095717971300795,
+          0.3065360061458171,
+          0.30170218511543456,
+          0.2944042736025238
+        ],
+        "conditional_MC_SE": 0.005349698710774976,
+        "prefix_means": [
+          0.2591601274660349,
+          0.2625202602979826,
+          0.28462111299705806,
+          0.26542087119962265
+        ],
+        "between_prefix_SD": 0.011417310350464524
+      }
+    }
+  },
+  "source_analog_precision_context": {
+    "independent_animals": 20,
+    "scalar_mean_se": 0.02291903657255293,
+    "approximate95_halfwidth": 0.044920486242560065,
+    "approximate_effect_for80percent_two_sided_power": 0.0642096340750548,
+    "gaussian_power_for_current_source_model_gap": 0.3226506719465677,
+    "note": "Assumes independent animals and transport of centered source residual variance; no lab-shift or model-selection uncertainty included"
+  },
+  "fixed_policy_official_gap_exceeds_optimistic_source_scalar_threshold": true,
+  "seconds": 6.396205416007433,
+  "standard_saved_forecast_sanity": [
+    {
+      "subject": "ibl_witten_11",
+      "saved_512_standard_mean": 0.6262030387851264,
+      "saved_MC_SE": 0.0041089444939235
+    },
+    {
+      "subject": "CSHL_013",
+      "saved_512_standard_mean": 0.5694000884142678,
+      "saved_MC_SE": 0.003933650980490898
+    },
+    {
+      "subject": "ZM_3001",
+      "saved_512_standard_mean": 0.5852894113159203,
+      "saved_MC_SE": 0.0038505084473297478
+    },
+    {
+      "subject": "ibl_witten_17",
+      "saved_512_standard_mean": 0.5985522820552873,
+      "saved_MC_SE": 0.003793904012042553
+    }
+  ],
+  "saved_512_standard_mean_same_four": 0.5948612051426505,
+  "original_API_verification": {
+    "subject": "ibl_witten_11",
+    "n_particles": 64,
+    "metric": "original high-contrast curve",
+    "custom_vs_original_api_max_difference": 0.0,
+    "exact_equal": true,
+    "new_learner_fit": false,
+    "external_access": false
+  }
+}

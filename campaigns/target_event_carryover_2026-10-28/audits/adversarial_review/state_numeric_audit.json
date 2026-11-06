@@ -1,0 +1,117 @@
+{
+  "exposure": "Development-only numerical audit; reserved and external outcomes not accessed.",
+  "script_sha256": "6028f6b8b85a27605bda2ebed81ea3c6e8e434f20b88c19b69933d63c3c368f6",
+  "derivative_steps": {
+    "0.00025": {
+      "theta": 0.024465421947294584,
+      "cluster_profile_se": 0.03406443841285403,
+      "cluster_profile_ci95": [
+        -0.047101307502701244,
+        0.0960321513972904
+      ],
+      "profile_hessian_eigenvalues": [
+        20383.029033517436,
+        48446.16526133791,
+        4119791.5900250827
+      ],
+      "diagnostic_only": false
+    },
+    "0.0005": {
+      "theta": 0.024465421947294584,
+      "cluster_profile_se": 0.03406442868975484,
+      "cluster_profile_ci95": [
+        -0.047101287075227836,
+        0.096032130969817
+      ],
+      "profile_hessian_eigenvalues": [
+        20383.02121632116,
+        48446.14931246872,
+        4119641.099606651
+      ],
+      "diagnostic_only": false
+    },
+    "0.001": {
+      "theta": 0.024465421947294584,
+      "cluster_profile_se": 0.03406439026983816,
+      "cluster_profile_ci95": [
+        -0.047101206357978105,
+        0.09603205025256728
+      ],
+      "profile_hessian_eigenvalues": [
+        20382.989836434223,
+        48446.083923174985,
+        4119039.265279076
+      ],
+      "diagnostic_only": false
+    },
+    "0.002": {
+      "theta": 0.024465421947294584,
+      "cluster_profile_se": 0.03406423671387338,
+      "cluster_profile_ci95": [
+        -0.047100883748867305,
+        0.09603172764345647
+      ],
+      "profile_hessian_eigenvalues": [
+        20382.864622077417,
+        48445.82424666656,
+        4116633.9698977377
+      ],
+      "diagnostic_only": false
+    }
+  },
+  "fixed_slow_profiles": [
+    {
+      "a_slow": 0.98,
+      "parameters": [
+        0.7058828630609171,
+        0.98,
+        0.7376529993898672
+      ],
+      "sse": 98566.24224215049,
+      "theta": 0.020634286127130048,
+      "success": true
+    },
+    {
+      "a_slow": 0.985,
+      "parameters": [
+        0.7115363000084847,
+        0.985,
+        0.7456097740188341
+      ],
+      "sse": 98390.156726513,
+      "theta": 0.022642289437672828,
+      "success": true
+    },
+    {
+      "a_slow": 0.99,
+      "parameters": [
+        0.7193507986726527,
+        0.99,
+        0.754719816661964
+      ],
+      "sse": 98307.90041464759,
+      "theta": 0.024090745433644267,
+      "success": true
+    },
+    {
+      "a_slow": 0.995,
+      "parameters": [
+        0.7289765982628531,
+        0.995,
+        0.764768411190291
+      ],
+      "sse": 98322.83468308965,
+      "theta": 0.02501461366033519,
+      "success": true
+    }
+  ],
+  "filter_check": {
+    "max_history_difference": 1.7763568394002505e-15,
+    "max_initial_difference": 0.0
+  },
+  "boundary_distance_in_profile_SE": {
+    "a_fast_to_upper": 1.3677795174163072,
+    "a_slow_to_upper": 0.5038256869832033,
+    "a_event_to_upper": 7.156421253538057
+  }
+}

@@ -1,0 +1,557 @@
+{
+  "utc": "2026-11-01T02:49:29.344305+00:00",
+  "independent_freeze_pins": {
+    "CONTRARY_PLAN.md": true,
+    "review.py": true,
+    "independent_source.py": true
+  },
+  "author_main_pins": {
+    "analysis.py": true,
+    "first_data_check.py": true,
+    "controls.py": true,
+    "audit.py": true,
+    "DEVELOPMENT_PLAN.md": true,
+    "PROTOCOL.md": true,
+    "SOURCE_CERTIFICATION.json": true,
+    "SELECTED_RECIPES.json": true,
+    "FROZEN_MODELS.json": true
+  },
+  "author_contrary_pins": {
+    "contrary.py": true,
+    "CONTRARY_PLAN.md": true,
+    "CONTRARY_MODELS.json": true,
+    "FREEZE.json": true,
+    "EVALUATION.json": true
+  },
+  "independent_control_reconstruction": {
+    "replicates": 400,
+    "maximum_scalar_difference": 0.0
+  },
+  "channels": {
+    "physiology": {
+      "cells": {
+        "source_k_null": {
+          "generator": {
+            "w": 1.0,
+            "q": 0.5,
+            "k": 2.0,
+            "alpha": 0.0,
+            "allow_above1": true
+          },
+          "full_rule_count": 1,
+          "wilson95": [
+            0.0017674320641406505,
+            0.054486196178705315
+          ],
+          "exact_source_design_oracles": {
+            "development": {
+              "best_common_separation_mse": 0.0,
+              "same_qk_alpha0_separation_mse": 0.0,
+              "conditional_marginal_noise_mse": 0.07451323041742237,
+              "ideal_expected_fractional_gain": 0.0,
+              "oracle_common_parameters": {
+                "w": 1.0,
+                "q": 0.5,
+                "k": 2.0,
+                "alpha": 0.0,
+                "allow_above1": true
+              }
+            },
+            "actual_evaluation_prefix_design": {
+              "best_common_separation_mse": 0.0,
+              "same_qk_alpha0_separation_mse": 0.0,
+              "conditional_marginal_noise_mse": 0.10537488205907478,
+              "ideal_expected_fractional_gain": 0.0,
+              "oracle_common_parameters": {
+                "w": 1.0,
+                "q": 0.5,
+                "k": 2.0,
+                "alpha": 0.0,
+                "allow_above1": true
+              }
+            }
+          },
+          "mean_oracle_best_common_separation_mse": 0.0,
+          "mean_conditional_noise_mse": 0.0754679015611837,
+          "mean_ideal_expected_fractional_gain": 0.0
+        },
+        "source_k_alpha1": {
+          "generator": {
+            "w": 1.0,
+            "q": 0.5,
+            "k": 2.0,
+            "alpha": 1.0,
+            "allow_above1": true
+          },
+          "full_rule_count": 5,
+          "wilson95": [
+            0.02154367915436796,
+            0.11175046923191913
+          ],
+          "exact_source_design_oracles": {
+            "development": {
+              "best_common_separation_mse": 0.0002772862029560178,
+              "same_qk_alpha0_separation_mse": 0.0002772862029560178,
+              "conditional_marginal_noise_mse": 0.07206589320949641,
+              "ideal_expected_fractional_gain": 0.0038329280687971604,
+              "oracle_common_parameters": {
+                "w": 1.0,
+                "q": 0.5,
+                "k": 2.0,
+                "alpha": 0.0,
+                "allow_above1": true
+              }
+            },
+            "actual_evaluation_prefix_design": {
+              "best_common_separation_mse": 0.001034428356320382,
+              "same_qk_alpha0_separation_mse": 0.001034428356320382,
+              "conditional_marginal_noise_mse": 0.08519510739779378,
+              "ideal_expected_fractional_gain": 0.011996218549408435,
+              "oracle_common_parameters": {
+                "w": 1.0,
+                "q": 0.5,
+                "k": 2.0,
+                "alpha": 0.0,
+                "allow_above1": true
+              }
+            }
+          },
+          "mean_oracle_best_common_separation_mse": 0.00032971122618543876,
+          "mean_conditional_noise_mse": 0.07248671146604589,
+          "mean_ideal_expected_fractional_gain": 0.005049025741448288
+        },
+        "k0_null": {
+          "generator": {
+            "w": 1.0,
+            "q": 0.5,
+            "k": 0.0,
+            "alpha": 0.0,
+            "allow_above1": true
+          },
+          "full_rule_count": 0,
+          "wilson95": [
+            3.469446951953614e-18,
+            0.03699349820698568
+          ],
+          "exact_source_design_oracles": {
+            "development": {
+              "best_common_separation_mse": 2.633750351298784e-35,
+              "same_qk_alpha0_separation_mse": 0.0,
+              "conditional_marginal_noise_mse": 0.40266893685501887,
+              "ideal_expected_fractional_gain": 6.540733864075209e-35,
+              "oracle_common_parameters": {
+                "w": 1.0,
+                "q": 0.0,
+                "k": 0.0,
+                "alpha": 0.0,
+                "allow_above1": true
+              }
+            },
+            "actual_evaluation_prefix_design": {
+              "best_common_separation_mse": 0.0,
+              "same_qk_alpha0_separation_mse": 0.0,
+              "conditional_marginal_noise_mse": 0.6267900941277604,
+              "ideal_expected_fractional_gain": 0.0,
+              "oracle_common_parameters": {
+                "w": 1.0,
+                "q": 0.0,
+                "k": 0.0,
+                "alpha": 0.0,
+                "allow_above1": true
+              }
+            }
+          },
+          "mean_oracle_best_common_separation_mse": 2.413832196965336e-35,
+          "mean_conditional_noise_mse": 0.40205003344126683,
+          "mean_ideal_expected_fractional_gain": 6.570019104192829e-35
+        },
+        "k0_alpha1": {
+          "generator": {
+            "w": 1.0,
+            "q": 0.5,
+            "k": 0.0,
+            "alpha": 1.0,
+            "allow_above1": true
+          },
+          "full_rule_count": 9,
+          "wilson95": [
+            0.04807254000256516,
+            0.1622621285271631
+          ],
+          "exact_source_design_oracles": {
+            "development": {
+              "best_common_separation_mse": 0.01539799972061007,
+              "same_qk_alpha0_separation_mse": 0.028107325385911864,
+              "conditional_marginal_noise_mse": 0.31965822835372404,
+              "ideal_expected_fractional_gain": 0.0459564647077503,
+              "oracle_common_parameters": {
+                "w": 1.0,
+                "q": 1.0,
+                "k": 2.0,
+                "alpha": 0.0,
+                "allow_above1": true
+              }
+            },
+            "actual_evaluation_prefix_design": {
+              "best_common_separation_mse": 0.015390757711636057,
+              "same_qk_alpha0_separation_mse": 0.05767904416333053,
+              "conditional_marginal_noise_mse": 0.17923604284841957,
+              "ideal_expected_fractional_gain": 0.07907830610865413,
+              "oracle_common_parameters": {
+                "w": 1.0,
+                "q": 0.5,
+                "k": 2.0,
+                "alpha": 0.0,
+                "allow_above1": true
+              }
+            }
+          },
+          "mean_oracle_best_common_separation_mse": 0.014021889226939217,
+          "mean_conditional_noise_mse": 0.3239607352913091,
+          "mean_ideal_expected_fractional_gain": 0.045220652148157556
+        }
+      },
+      "paired_known_effect_detection": {
+        "source_only": 2,
+        "k0_only": 6,
+        "both": 3,
+        "neither": 89
+      },
+      "development_separation_ratio_k0_to_source": 55.53107062832279,
+      "actual_evaluation_prefix_design_separation_ratio_k0_to_source": 14.878514899169343
+    },
+    "expectancy": {
+      "cells": {
+        "source_k_null": {
+          "generator": {
+            "w": 1.0,
+            "q": 0.25,
+            "k": 1.0,
+            "alpha": 0.0,
+            "allow_above1": false
+          },
+          "full_rule_count": 1,
+          "wilson95": [
+            0.0017674320641406505,
+            0.054486196178705315
+          ],
+          "exact_source_design_oracles": {
+            "development": {
+              "best_common_separation_mse": 0.0,
+              "same_qk_alpha0_separation_mse": 0.0,
+              "conditional_marginal_noise_mse": 0.0209627834196282,
+              "ideal_expected_fractional_gain": 0.0,
+              "oracle_common_parameters": {
+                "w": 1.0,
+                "q": 0.25,
+                "k": 1.0,
+                "alpha": 0.0,
+                "allow_above1": false
+              }
+            },
+            "actual_evaluation_prefix_design": {
+              "best_common_separation_mse": 0.0,
+              "same_qk_alpha0_separation_mse": 0.0,
+              "conditional_marginal_noise_mse": 0.021358800661582522,
+              "ideal_expected_fractional_gain": 0.0,
+              "oracle_common_parameters": {
+                "w": 1.0,
+                "q": 0.25,
+                "k": 1.0,
+                "alpha": 0.0,
+                "allow_above1": false
+              }
+            }
+          },
+          "mean_oracle_best_common_separation_mse": 0.0,
+          "mean_conditional_noise_mse": 0.0210341663910246,
+          "mean_ideal_expected_fractional_gain": 0.0
+        },
+        "source_k_alpha1": {
+          "generator": {
+            "w": 1.0,
+            "q": 0.25,
+            "k": 1.0,
+            "alpha": 1.0,
+            "allow_above1": false
+          },
+          "full_rule_count": 57,
+          "wilson95": [
+            0.47215389549212305,
+            0.6626670147588988
+          ],
+          "exact_source_design_oracles": {
+            "development": {
+              "best_common_separation_mse": 0.0033146043892712898,
+              "same_qk_alpha0_separation_mse": 0.011189397597555134,
+              "conditional_marginal_noise_mse": 0.019114359730482356,
+              "ideal_expected_fractional_gain": 0.14778232162545796,
+              "oracle_common_parameters": {
+                "w": 1.0,
+                "q": 0.25,
+                "k": 2.0,
+                "alpha": 0.0,
+                "allow_above1": false
+              }
+            },
+            "actual_evaluation_prefix_design": {
+              "best_common_separation_mse": 0.0039521629665797645,
+              "same_qk_alpha0_separation_mse": 0.011358285906060903,
+              "conditional_marginal_noise_mse": 0.01962026756100784,
+              "ideal_expected_fractional_gain": 0.16766039301523938,
+              "oracle_common_parameters": {
+                "w": 1.0,
+                "q": 0.25,
+                "k": 2.0,
+                "alpha": 0.0,
+                "allow_above1": false
+              }
+            }
+          },
+          "mean_oracle_best_common_separation_mse": 0.003221440205855962,
+          "mean_conditional_noise_mse": 0.019208902887572706,
+          "mean_ideal_expected_fractional_gain": 0.1434184695860717
+        },
+        "k0_null": {
+          "generator": {
+            "w": 1.0,
+            "q": 0.25,
+            "k": 0.0,
+            "alpha": 0.0,
+            "allow_above1": false
+          },
+          "full_rule_count": 0,
+          "wilson95": [
+            3.469446951953614e-18,
+            0.03699349820698568
+          ],
+          "exact_source_design_oracles": {
+            "development": {
+              "best_common_separation_mse": 0.0,
+              "same_qk_alpha0_separation_mse": 0.0,
+              "conditional_marginal_noise_mse": 0.010921223958333334,
+              "ideal_expected_fractional_gain": 0.0,
+              "oracle_common_parameters": {
+                "w": 1.0,
+                "q": 0.0,
+                "k": 0.0,
+                "alpha": 0.0,
+                "allow_above1": false
+              }
+            },
+            "actual_evaluation_prefix_design": {
+              "best_common_separation_mse": 0.0,
+              "same_qk_alpha0_separation_mse": 0.0,
+              "conditional_marginal_noise_mse": 0.009830729166666666,
+              "ideal_expected_fractional_gain": 0.0,
+              "oracle_common_parameters": {
+                "w": 1.0,
+                "q": 0.0,
+                "k": 0.0,
+                "alpha": 0.0,
+                "allow_above1": false
+              }
+            }
+          },
+          "mean_oracle_best_common_separation_mse": 0.0,
+          "mean_conditional_noise_mse": 0.010989908854166666,
+          "mean_ideal_expected_fractional_gain": 0.0
+        },
+        "k0_alpha1": {
+          "generator": {
+            "w": 1.0,
+            "q": 0.25,
+            "k": 0.0,
+            "alpha": 1.0,
+            "allow_above1": false
+          },
+          "full_rule_count": 100,
+          "wilson95": [
+            0.9630065017930143,
+            1.0
+          ],
+          "exact_source_design_oracles": {
+            "development": {
+              "best_common_separation_mse": 0.05867774937020235,
+              "same_qk_alpha0_separation_mse": 0.27992380748966206,
+              "conditional_marginal_noise_mse": 0.01686828221184018,
+              "ideal_expected_fractional_gain": 0.776715178036568,
+              "oracle_common_parameters": {
+                "w": 1.0,
+                "q": 0.5,
+                "k": 2.0,
+                "alpha": 0.0,
+                "allow_above1": false
+              }
+            },
+            "actual_evaluation_prefix_design": {
+              "best_common_separation_mse": 0.07054740808164696,
+              "same_qk_alpha0_separation_mse": 0.27565254730839067,
+              "conditional_marginal_noise_mse": 0.01573592090359594,
+              "ideal_expected_fractional_gain": 0.8176250141404805,
+              "oracle_common_parameters": {
+                "w": 1.0,
+                "q": 0.5,
+                "k": 2.0,
+                "alpha": 0.0,
+                "allow_above1": false
+              }
+            }
+          },
+          "mean_oracle_best_common_separation_mse": 0.05643567602354672,
+          "mean_conditional_noise_mse": 0.017047259104807238,
+          "mean_ideal_expected_fractional_gain": 0.7632196401069165
+        }
+      },
+      "paired_known_effect_detection": {
+        "source_only": 0,
+        "k0_only": 43,
+        "both": 57,
+        "neither": 0
+      },
+      "development_separation_ratio_k0_to_source": 17.70279118682473,
+      "actual_evaluation_prefix_design_separation_ratio_k0_to_source": 17.850328713215813
+    }
+  },
+  "exact_source_syntax_matches": {
+    "Data package Secundary Extinction Experiment 2/syntax_SCR.sps": [
+      "*Rescale to microS*",
+      "COMPUTE CSplus1_6=GSR1CSplus1_6 / 1000.",
+      "(Lowest thru 0.02=0).",
+      "COMPUTE SCR_max=MAX(CSplus1_1, CSplus1_2, CSplus1_3, CSplus1_4, CSplus1_5, CSplus1_6, CSplus1_7, CSplus1_8, CSplus1_9, CSplus1_10, CSplus1_11, CSplus1_12, CSplus1_13, ",
+      "GLM SQRT_CSplus1_6 SQRT_CSplus1_7 SQRT_CSplus1_8 SQRT_CSplus1_9 SQRT_CSplus1_10 SQRT_CSplus1_11 "
+    ],
+    "Data package Secundary Extinction Experiment 2/Syntax_US_expectancy.sps": [
+      "GLM Ext_CSplus1_1 Ext_CSplus1_2 Ext_CSplus1_3 Ext_CSplus1_4 Ext_CSplus1_5 Ext_CSplus1_6 "
+    ]
+  },
+  "source_readme": {
+    "member": "Data package Secundary Extinction Experiment 2/READ ME.txt",
+    "sha256": "bdd80d96db9928059487be66d04b9af4ead4912dae0f09f6420ebac9d9504f5a",
+    "text": "This data packages provides the raw and final data for the second experiment associated with the following publication:\r\n\r\nMertens, G., Leer, A., van Dis, E. A. M., Vermeer, L., Steenhuizen, A., van der Veen, L., & Engerlhard, I. M. (submitted). Secondary extinction reduces reinstatement of threat expectancy and conditioned skin conductance responses in human fear conditioning. JBTEP\r\n\r\n\r\n\r\nThe final analyses for Experiment 2 reported in this article can be reproduced by running the syntax files Syntax_US_expectancy.sps and syntax_SCR.sps on the associated datafiles (USexpectancy_SE_exp2.sav and SCR_SE_exp2.sav) using SPSS.\r\n\r\nThe datafile demographics SE exp2.xlsx provides demographical information about the sample.\r\n\r\nThe following datasets provide the raw data for the US expectancy ratings and participants' answers to the questions posed at the end of the experiment (please see the associated paper):\r\nThese datafiles can be opened using Inquisit (which can be freely downloaded at https://www.millisecond.com/download/)\r\n\r\nSecondary extinction exp2.dat\r\nquestionnaire_CB1.dat\r\nquestionnaire_CB2.dat\r\nquestionnaire_CB3.dat\r\nquestionnaire_CB4.dat\r\nquestionnaire_CB5.dat\r\nquestionnaire_CB6.dat\r\nquestionnaire_condtrols_CB1.dat\r\nquestionnaire_condtrols_CB2.dat\r\nquestionnaire_condtrols_CB3.dat\r\nquestionnaire_condtrols_CB4.dat\r\nquestionnaire_condtrols_CB5.dat\r\nquestionnaire_condtrols_CB6.dat\r\n\r\n\r\nThe raw data files for the skin conductance responses (approximately 9 GB) can be obtained by contacting the first author (mertensgaetan@gmail.com).\r\n"
+  },
+  "source_archive_members": [
+    {
+      "name": "Data package Secundary Extinction Experiment 2/Copy of Proefpersoonoverzicht SE exp2.xlsx",
+      "bytes": 19040,
+      "compressed": 15694,
+      "crc32": 3342564015
+    },
+    {
+      "name": "Data package Secundary Extinction Experiment 2/questionnaire_CB1.dat",
+      "bytes": 400,
+      "compressed": 204,
+      "crc32": 213456030
+    },
+    {
+      "name": "Data package Secundary Extinction Experiment 2/questionnaire_CB2.dat",
+      "bytes": 390,
+      "compressed": 207,
+      "crc32": 2243148215
+    },
+    {
+      "name": "Data package Secundary Extinction Experiment 2/questionnaire_CB3.dat",
+      "bytes": 373,
+      "compressed": 203,
+      "crc32": 2140480094
+    },
+    {
+      "name": "Data package Secundary Extinction Experiment 2/questionnaire_CB4.dat",
+      "bytes": 395,
+      "compressed": 207,
+      "crc32": 496641910
+    },
+    {
+      "name": "Data package Secundary Extinction Experiment 2/questionnaire_CB5.dat",
+      "bytes": 391,
+      "compressed": 206,
+      "crc32": 1737073317
+    },
+    {
+      "name": "Data package Secundary Extinction Experiment 2/questionnaire_CB6.dat",
+      "bytes": 337,
+      "compressed": 186,
+      "crc32": 1220911037
+    },
+    {
+      "name": "Data package Secundary Extinction Experiment 2/questionnaire_controls_CB1.dat",
+      "bytes": 336,
+      "compressed": 186,
+      "crc32": 3516437427
+    },
+    {
+      "name": "Data package Secundary Extinction Experiment 2/questionnaire_controls_CB2.dat",
+      "bytes": 291,
+      "compressed": 178,
+      "crc32": 2731525496
+    },
+    {
+      "name": "Data package Secundary Extinction Experiment 2/questionnaire_controls_CB3.dat",
+      "bytes": 300,
+      "compressed": 170,
+      "crc32": 2426238259
+    },
+    {
+      "name": "Data package Secundary Extinction Experiment 2/questionnaire_controls_CB4.dat",
+      "bytes": 294,
+      "compressed": 169,
+      "crc32": 1844496985
+    },
+    {
+      "name": "Data package Secundary Extinction Experiment 2/questionnaire_controls_CB5.dat",
+      "bytes": 290,
+      "compressed": 176,
+      "crc32": 643968125
+    },
+    {
+      "name": "Data package Secundary Extinction Experiment 2/questionnaire_controls_CB6.dat",
+      "bytes": 293,
+      "compressed": 173,
+      "crc32": 2123000505
+    },
+    {
+      "name": "Data package Secundary Extinction Experiment 2/READ ME.txt",
+      "bytes": 1561,
+      "compressed": 686,
+      "crc32": 2834234282
+    },
+    {
+      "name": "Data package Secundary Extinction Experiment 2/SCR data_SE_exp2.sav",
+      "bytes": 89722,
+      "compressed": 53789,
+      "crc32": 2268509290
+    },
+    {
+      "name": "Data package Secundary Extinction Experiment 2/Secondary extinction exp2.dat",
+      "bytes": 194394,
+      "compressed": 23954,
+      "crc32": 1342084606
+    },
+    {
+      "name": "Data package Secundary Extinction Experiment 2/syntax_SCR.sps",
+      "bytes": 15084,
+      "compressed": 2146,
+      "crc32": 1920327751
+    },
+    {
+      "name": "Data package Secundary Extinction Experiment 2/Syntax_US_expectancy.sps",
+      "bytes": 2516,
+      "compressed": 618,
+      "crc32": 1703568083
+    },
+    {
+      "name": "Data package Secundary Extinction Experiment 2/US expectancy_SE_exp2.sav",
+      "bytes": 9004,
+      "compressed": 3049,
+      "crc32": 3633615867
+    }
+  ],
+  "resources": {
+    "saved_source_artifact_hash_bytes_read": 1677390,
+    "conservative_stage_charge_bytes": 5000000,
+    "peak_rss_bytes": 16465920,
+    "public_operations": 0,
+    "ingress_bytes": 0,
+    "jobs_after_command": 0
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "completed_utc": "2026-10-31T19:42:18.497695+00:00",
+  "feature_memberships": [
+    24,
+    18,
+    27
+  ],
+  "five_common_receptors": {
+    "published": {
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "raw_mse": 0.6083255769884564,
+      "centered_mse": 0.18469926640751047,
+      "global_corrected_mse": 0.5280445714901213
+    },
+    "class_baseline_mse": 0.19056608643878445,
+    "class_absolute_gain": 0.005866820031273978,
+    "class_fractional_gain": 0.030786275464383728,
+    "global_baseline_mse": 0.5295547112333217,
+    "global_absolute_gain": 0.001510139743200356,
+    "global_fractional_gain": 0.0028517161894061616,
+    "published_rank_out_of_six": 3,
+    "mouse_centered_variance": 0.03236347908568752,
+    "mean_permutation_centered_mse": 0.22292956552447193,
+    "published_reduction_from_mean_permutation": 0.17149048412228107,
+    "species_mean_offset": 0.423626310580946,
+    "global_species_mean_offset": 0.343345305082611,
+    "numerical_invariants_abs_residual": {
+      "raw_centered_offset_max_abs": 1.6653345369377348e-16,
+      "global_centered_offset_max_abs": 1.6653345369377348e-16,
+      "permutation_mean_variance_sum_abs": 3.469446951953614e-17,
+      "gene_gain_decomposition_max_abs": 6.938893903907228e-18
+    }
+  },
+  "four_fixed_targets": {
+    "published": {
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "raw_mse": 0.6629496919941645,
+      "centered_mse": 0.22434684824081874,
+      "global_corrected_mse": 0.6025825239389667
+    },
+    "class_baseline_mse": 0.23491265908404743,
+    "class_absolute_gain": 0.01056581084322869,
+    "class_fractional_gain": 0.04497761374132003,
+    "global_baseline_mse": 0.6019700929474483,
+    "global_absolute_gain": -0.0006124309915184201,
+    "global_fractional_gain": -0.00101737777124411,
+    "published_rank_out_of_six": 3,
+    "mouse_centered_variance": 0.03963134556072255,
+    "mean_permutation_centered_mse": 0.27454400464476997,
+    "published_reduction_from_mean_permutation": 0.18283829023657205,
+    "species_mean_offset": 0.4386028437533459,
+    "global_species_mean_offset": 0.3782356756981481,
+    "numerical_invariants_abs_residual": {
+      "raw_centered_offset_max_abs": 2.220446049250313e-16,
+      "global_centered_offset_max_abs": 1.6653345369377348e-16,
+      "permutation_mean_variance_sum_abs": 1.3877787807814457e-17,
+      "gene_gain_decomposition_max_abs": 6.938893903907228e-18
+    }
+  },
+  "per_gene": [
+    {
+      "gene": "CALCR",
+      "human_centered_variance": 0.4697485156477126,
+      "mouse_centered_variance": 0.020700880203566092,
+      "cross_species_covariance": -0.059615355943853865,
+      "published_centered_mse": 0.6096801077389864,
+      "class_baseline_minus_published_mse": -0.13993159209127382,
+      "gain_from_covariance_variance": -0.13993159209127382
+    },
+    {
+      "gene": "GLP1R",
+      "human_centered_variance": 0.0028686146372588124,
+      "mouse_centered_variance": 0.008940435088637908,
+      "cross_species_covariance": -0.0018961640096140447,
+      "published_centered_mse": 0.015601377745124814,
+      "class_baseline_minus_published_mse": -0.012732763107866002,
+      "gain_from_covariance_variance": -0.012732763107865997
+    },
+    {
+      "gene": "LEPR",
+      "human_centered_variance": 0.4148293588414955,
+      "mouse_centered_variance": 0.03766007526219734,
+      "cross_species_covariance": 0.11016152358792829,
+      "published_centered_mse": 0.23216638692783628,
+      "class_baseline_minus_published_mse": 0.18266297191365924,
+      "gain_from_covariance_variance": 0.18266297191365924
+    },
+    {
+      "gene": "NPY1R",
+      "human_centered_variance": 0.05220414720972286,
+      "mouse_centered_variance": 0.09122399168848887,
+      "cross_species_covariance": 0.0517443091734421,
+      "published_centered_mse": 0.03993952055132752,
+      "class_baseline_minus_published_mse": 0.012264626658395346,
+      "gain_from_covariance_variance": 0.012264626658395339
+    },
+    {
+      "gene": "PTGER3",
+      "human_centered_variance": 0.013179795857732442,
+      "mouse_centered_variance": 0.0032920131855474193,
+      "cross_species_covariance": -0.004818565015498748,
+      "published_centered_mse": 0.02610893907427736,
+      "class_baseline_minus_published_mse": -0.012929143216544918,
+      "gain_from_covariance_variance": -0.012929143216544915
+    }
+  ],
+  "all_five_deletions": [
+    {
+      "omitted": "CALCR",
+      "published": {
+        "permutation": [
+          0,
+          1,
+          2
+        ],
+        "raw_mse": 0.22169068361568534,
+        "centered_mse": 0.0784540560746415,
+        "global_corrected_mse": 0.1713558058892611
+      },
+      "class_baseline_mse": 0.12077047913655241,
+      "class_absolute_gain": 0.04231642306191091,
+      "class_fractional_gain": 0.35038714232527557,
+      "global_baseline_mse": 0.2598548021044704,
+      "global_absolute_gain": 0.08849899621520926,
+      "global_fractional_gain": 0.3405709476926645,
+      "published_rank_out_of_six": 1,
+      "mouse_centered_variance": 0.035279128806217884,
+      "mean_permutation_centered_mse": 0.15604960794277029,
+      "published_reduction_from_mean_permutation": 0.4972492586882129,
+      "species_mean_offset": 0.14323662754104383,
+      "global_species_mean_offset": 0.09290174981461963,
+      "numerical_invariants_abs_residual": {
+        "raw_centered_offset_max_abs": 2.7755575615628914e-17,
+        "global_centered_offset_max_abs": 8.326672684688674e-17,
+        "permutation_mean_variance_sum_abs": 6.938893903907228e-18,
+        "gene_gain_decomposition_max_abs": 6.938893903907228e-18
+      }
+    },
+    {
+      "omitted": "GLP1R",
+      "published": {
+        "permutation": [
+          0,
+          1,
+          2
+        ],
+        "raw_mse": 0.7543176394235931,
+        "centered_mse": 0.22697373857310688,
+        "global_corrected_mse": 0.6557713499032375
+      },
+      "class_baseline_mse": 0.23749045438916583,
+      "class_absolute_gain": 0.010516715816058952,
+      "class_fractional_gain": 0.04428268851103234,
+      "global_baseline_mse": 0.6609591964440543,
+      "global_absolute_gain": 0.005187846540816832,
+      "global_fractional_gain": 0.007848966424443993,
+      "published_rank_out_of_six": 3,
+      "mouse_centered_variance": 0.03821924008494993,
+      "mean_permutation_centered_mse": 0.27570969447411575,
+      "published_reduction_from_mean_permutation": 0.17676547788414565,
+      "species_mean_offset": 0.5273439008504863,
+      "global_species_mean_offset": 0.4287976113301307,
+      "numerical_invariants_abs_residual": {
+        "raw_centered_offset_max_abs": 1.1102230246251565e-16,
+        "global_centered_offset_max_abs": 1.6653345369377348e-16,
+        "permutation_mean_variance_sum_abs": 6.938893903907228e-18,
+        "gene_gain_decomposition_max_abs": 6.938893903907228e-18
+      }
+    },
+    {
+      "omitted": "LEPR",
+      "published": {
+        "permutation": [
+          0,
+          1,
+          2
+        ],
+        "raw_mse": 0.6629611716364797,
+        "centered_mse": 0.172832486277429,
+        "global_corrected_mse": 0.5959229186928826
+      },
+      "class_baseline_mse": 0.13450026833810666,
+      "class_absolute_gain": -0.038332217939322344,
+      "class_fractional_gain": -0.284997334302433,
+      "global_baseline_mse": 0.5237130292637889,
+      "global_absolute_gain": -0.07220988942909368,
+      "global_fractional_gain": -0.13788064339472883,
+      "published_rank_out_of_six": 4,
+      "mouse_centered_variance": 0.03103933004156007,
+      "mean_permutation_centered_mse": 0.16553959837966672,
+      "published_reduction_from_mean_permutation": -0.04405524701730856,
+      "species_mean_offset": 0.49012868535905074,
+      "global_species_mean_offset": 0.4230904324154538,
+      "numerical_invariants_abs_residual": {
+        "raw_centered_offset_max_abs": 1.1102230246251565e-16,
+        "global_centered_offset_max_abs": 1.6653345369377348e-16,
+        "permutation_mean_variance_sum_abs": 3.469446951953614e-18,
+        "gene_gain_decomposition_max_abs": 6.938893903907228e-18
+      }
+    },
+    {
+      "omitted": "NPY1R",
+      "published": {
+        "permutation": [
+          0,
+          1,
+          2
+        ],
+        "raw_mse": 0.7397086982723596,
+        "centered_mse": 0.22088920287155622,
+        "global_corrected_mse": 0.6145902590262589
+      },
+      "class_baseline_mse": 0.22515657124604982,
+      "class_absolute_gain": 0.004267368374493596,
+      "class_fractional_gain": 0.01895289287306756,
+      "global_baseline_mse": 0.6012764354068464,
+      "global_absolute_gain": -0.013313823619412468,
+      "global_fractional_gain": -0.022142600034547932,
+      "published_rank_out_of_six": 3,
+      "mouse_centered_variance": 0.01764835093498719,
+      "mean_permutation_centered_mse": 0.242804922181037,
+      "published_reduction_from_mean_permutation": 0.09026060556194271,
+      "species_mean_offset": 0.5188194954008034,
+      "global_species_mean_offset": 0.3937010561547028,
+      "numerical_invariants_abs_residual": {
+        "raw_centered_offset_max_abs": 2.220446049250313e-16,
+        "global_centered_offset_max_abs": 2.220446049250313e-16,
+        "permutation_mean_variance_sum_abs": 1.0408340855860843e-17,
+        "gene_gain_decomposition_max_abs": 5.204170427930421e-18
+      }
+    },
+    {
+      "omitted": "PTGER3",
+      "published": {
+        "permutation": [
+          0,
+          1,
+          2
+        ],
+        "raw_mse": 0.6629496919941645,
+        "centered_mse": 0.22434684824081874,
+        "global_corrected_mse": 0.6025825239389667
+      },
+      "class_baseline_mse": 0.23491265908404743,
+      "class_absolute_gain": 0.01056581084322869,
+      "class_fractional_gain": 0.04497761374132003,
+      "global_baseline_mse": 0.6019700929474483,
+      "global_absolute_gain": -0.0006124309915184201,
+      "global_fractional_gain": -0.00101737777124411,
+      "published_rank_out_of_six": 3,
+      "mouse_centered_variance": 0.03963134556072255,
+      "mean_permutation_centered_mse": 0.27454400464476997,
+      "published_reduction_from_mean_permutation": 0.18283829023657205,
+      "species_mean_offset": 0.4386028437533459,
+      "global_species_mean_offset": 0.3782356756981481,
+      "numerical_invariants_abs_residual": {
+        "raw_centered_offset_max_abs": 2.220446049250313e-16,
+        "global_centered_offset_max_abs": 1.6653345369377348e-16,
+        "permutation_mean_variance_sum_abs": 1.3877787807814457e-17,
+        "gene_gain_decomposition_max_abs": 6.938893903907228e-18
+      }
+    }
+  ],
+  "source_ratio_checks": {
+    "formula": "log2(H_cluster / leading_M_cluster), not global-adjusted and not percent detection",
+    "finite": 67,
+    "infinite": 3,
+    "max_finite_absolute_error": 1.0658141036401503e-14
+  },
+  "source_pin_count": 12,
+  "source_git_blob_checks": 11,
+  "frozen_artifact_count": 34,
+  "old_helper_git_blob_checks": 2,
+  "mapping_source_order": [
+    {
+      "human": "C4-373 Mid-2 GABA-GLU-3 POMC PRDM12",
+      "source_mouse_columns": [
+        "C465-122: Prdm12.Anxa2.Pomc.GLU-5",
+        "C465-123: Cartpt.Anxa2.Pomc.GLU-5"
+      ],
+      "edges_descending_similarity": [
+        {
+          "mouse": "C465-122: Prdm12.Anxa2.Pomc.GLU-5",
+          "similarity": 0.945262067945849
+        },
+        {
+          "mouse": "C465-123: Cartpt.Anxa2.Pomc.GLU-5",
+          "similarity": 0.892275405313051
+        }
+      ]
+    },
+    {
+      "human": "C4-374 Mid-2 GABA-GLU-3 POMC CALCR",
+      "source_mouse_columns": [
+        "C465-125: Tbx3.Ttr.Pomc.GLU-5"
+      ],
+      "edges_descending_similarity": [
+        {
+          "mouse": "C465-125: Tbx3.Ttr.Pomc.GLU-5",
+          "similarity": 0.873567776638787
+        }
+      ]
+    },
+    {
+      "human": "C4-375 Mid-2 GABA-GLU-3 POMC ANKRD30A",
+      "source_mouse_columns": [
+        "C465-124: Glipr1.Pomc.GLU-5"
+      ],
+      "edges_descending_similarity": [
+        {
+          "mouse": "C465-124: Glipr1.Pomc.GLU-5",
+          "similarity": 0.780550486301163
+        }
+      ]
+    }
+  ],
+  "controls": {
+    "human_self_centered_losses": [
+      0.0,
+      0.327632363200315,
+      0.5681042154386007,
+      0.5716982593163532,
+      0.5716982593163532,
+      0.24765993999379077
+    ],
+    "flat_mouse_centered_losses": [
+      0.19056608643878445,
+      0.19056608643878445,
+      0.19056608643878445,
+      0.19056608643878445,
+      0.19056608643878445,
+      0.19056608643878445
+    ],
+    "passed": true
+  },
+  "earlier_instrumented_read_decoded_bytes": 1223327,
+  "earlier_peak_rss_bytes": 15810560
+}

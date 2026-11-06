@@ -1,0 +1,129 @@
+{
+  "utc": "2026-11-05T12:40:42Z",
+  "status": "historical developmental planning sensitivity",
+  "results": [
+    {
+      "future_opportunities": 1000,
+      "metric": "crps",
+      "animals": 47,
+      "sites": 9,
+      "growth": 0.0668762723030518,
+      "RNN": 0.05990508832996808,
+      "gain_growth_minus_RNN": 0.006971183973083725,
+      "paired_animal_sd": 0.019750198529511983,
+      "animal_t95": [
+        0.0011723084440402945,
+        0.012770059502127156
+      ],
+      "equal_site_mean": 0.006543604570317584,
+      "paired_site_sd": 0.006047438620874931,
+      "site_t95": [
+        0.0018951317479405944,
+        0.011192077392694573
+      ],
+      "precision_margin": 0.006687627230305181,
+      "normal_independent_animals_for80pct_CI_inside_margin_at_zero": 92,
+      "normal_independent_sites_analogue": 9
+    },
+    {
+      "future_opportunities": 1000,
+      "metric": "high_accuracy_mae",
+      "animals": 47,
+      "sites": 9,
+      "growth": 0.1286050836623421,
+      "RNN": 0.11895465035346636,
+      "gain_growth_minus_RNN": 0.00965043330887574,
+      "paired_animal_sd": 0.04418662722499316,
+      "animal_t95": [
+        -0.0033232464717653544,
+        0.022624113089516833
+      ],
+      "equal_site_mean": 0.010965162459690422,
+      "paired_site_sd": 0.014253864018644343,
+      "site_t95": [
+        8.672669813180114e-06,
+        0.021921652249567665
+      ],
+      "precision_margin": 0.02,
+      "normal_independent_animals_for80pct_CI_inside_margin_at_zero": 52,
+      "normal_independent_sites_analogue": 6
+    },
+    {
+      "future_opportunities": 3000,
+      "metric": "crps",
+      "animals": 40,
+      "sites": 8,
+      "growth": 0.0809747895950672,
+      "RNN": 0.07533868289892964,
+      "gain_growth_minus_RNN": 0.005636106696137559,
+      "paired_animal_sd": 0.02310811421416594,
+      "animal_t95": [
+        -0.0017542267633343517,
+        0.01302644015560947
+      ],
+      "equal_site_mean": 0.005665889399386229,
+      "paired_site_sd": 0.00909255638641612,
+      "site_t95": [
+        -0.0019356779707554918,
+        0.01326745676952795
+      ],
+      "precision_margin": 0.00809747895950672,
+      "normal_independent_animals_for80pct_CI_inside_margin_at_zero": 86,
+      "normal_independent_sites_analogue": 14
+    },
+    {
+      "future_opportunities": 3000,
+      "metric": "high_accuracy_mae",
+      "animals": 40,
+      "sites": 8,
+      "growth": 0.16276119123811789,
+      "RNN": 0.1574805048521745,
+      "gain_growth_minus_RNN": 0.005280686385943385,
+      "paired_animal_sd": 0.04317545469249235,
+      "animal_t95": [
+        -0.008527493913175695,
+        0.019088866685062465
+      ],
+      "equal_site_mean": 0.007668115342756684,
+      "paired_site_sd": 0.01812823368531087,
+      "site_t95": [
+        -0.007487467290355685,
+        0.022823697975869053
+      ],
+      "precision_margin": 0.02,
+      "normal_independent_animals_for80pct_CI_inside_margin_at_zero": 49,
+      "normal_independent_sites_analogue": 9
+    }
+  ],
+  "limitations": [
+    "Not a new tracker result or new-horizon power calculation.",
+    "Scores preserve original expected-ratio/marginal target; no count-pooled replacement.",
+    "Selected site intervals are descriptive; source-fit and shared-training uncertainty are absent.",
+    "Historical score tables include other consumed summaries; only declared horizons/arm/full rows enter calculations."
+  ],
+  "resources": {
+    "inputs": [
+      {
+        "path": "campaigns/learning_rule_transport_2026-10-28/tables/rnn_challenge_individual.csv",
+        "bytes": 208014,
+        "sha256": "5ef08d0c2b89798c84814862bb780c5af2f90252e4cc69aa8f2220e20c607462"
+      },
+      {
+        "path": "campaigns/learning_rule_transport_2026-10-28/tables/individual_scores.csv",
+        "bytes": 1104540,
+        "sha256": "d3f40fe4008898d17b2bb67f8afecc126aff69a7b43a0d6b0b11981d384b8c71"
+      },
+      {
+        "path": "campaigns/learning_rule_transport_2026-10-28/tables/source_disposition.csv",
+        "bytes": 7375,
+        "sha256": "04cebc990c1a6134095f8de4cee1768e933edb58f1776b1f31d0f43ec6d502a6"
+      }
+    ],
+    "explicit_read_bytes": 1319929,
+    "cpu_seconds": 0.011019000000000001,
+    "wall_seconds": 0.011587875000000001,
+    "peak_rss_native_bytes_on_Mac": 26918912,
+    "original_row_reads": 0,
+    "physical_io_and_runtime_reads": "unknown"
+  }
+}

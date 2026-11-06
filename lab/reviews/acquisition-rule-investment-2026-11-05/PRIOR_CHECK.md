@@ -1,0 +1,8 @@
+# Early primary-prior check
+
+The primary [Liu/Geadah/Pillow v2](https://arxiv.org/html/2509.04661v2) evaluates neural update rules on 12 preprocessed IBL animals, including animal holdout and future trial holdout. Its method uses the animal's actual choices and rewards for updates. It compares with REINFORCE, history-augmented DNNGLM/REINFORCE and tinyRNN; PsyTrack supplies a trajectory reference. Thus conditional generalization and history dependence are prior findings, rather than a new tracking/forecast distinction.
+
+The indexed primary [Geadah/Pillow](https://pmc.ncbi.nlm.nih.gov/articles/PMC12621722/) describes stochastic policy-gradient models, PsyTrack comparisons, single-animal fits masking 10% of trials, and Figure 9's generated-decision prediction evaluation. Generated decisions therefore are already prior work. The accessible text does not certify a frozen prefix-only, independently held-animal, matched-training comparison against the proposed recursive engagement/history tracker. Direct PMC opening returned recaptcha; indexed primary text was used without bypass. Exact returned text is preserved in PRIOR_RECEIPTS.json; no novelty claim beyond this bounded comparison is earned.
+
+Investment implication: an isolated additional baseline win is insufficient. A consequential study must resolve where individual forecast benefit survives strong adaptive alternatives, with legitimate future inputs and precision to distinguish meaningful model use from uncertainty. The old benchmark already documents weak individual superiority and large conditional/autonomous gaps; repeating those findings alone has small payoff. Await actual new pilot, source eligibility and equal-training design before a funding verdict.
+

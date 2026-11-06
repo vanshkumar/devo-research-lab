@@ -1,0 +1,115 @@
+{
+  "frozen_utc": "2026-10-29T21:15:05.260712+00:00",
+  "phase": "synthetic header safety before any remote body acquisition",
+  "schema_policy": "single-line ASCII identifiers; no numeric/headerless/quoted/ambiguous headers; exact source-derived expected schema must be frozen separately before real header request",
+  "data_row_projection": "NONE authorized by this freeze; source certification and a separate tested freeze required before any row decoding",
+  "reader_sha256": "cd22d2e7f07e4104151f089835a47818748dabd64e086d0ac7b3b07ab34a6f95",
+  "test_sha256": "1176d4fa5d43c73e47f82cdfb35050cbe7568aa9d0f282e2ecad69574ac794d6",
+  "checks": [
+    {
+      "name": "one_block_cap",
+      "passed": true
+    },
+    {
+      "name": "only_header_retained",
+      "passed": true
+    },
+    {
+      "name": "blind_overread_exact",
+      "passed": true
+    },
+    {
+      "name": "blind_overread_under_4KiB",
+      "passed": true
+    },
+    {
+      "name": "no_rows_parsed",
+      "passed": true
+    },
+    {
+      "name": "no_excluded_value_materialized",
+      "passed": true
+    },
+    {
+      "name": "no_sentinel_in_results",
+      "passed": true
+    },
+    {
+      "name": "no_sentinel_in_retained",
+      "passed": true
+    },
+    {
+      "name": "pandas_index_explicit",
+      "passed": true
+    },
+    {
+      "name": "exact_expected_schema_passes",
+      "passed": true
+    },
+    {
+      "name": "headerless_numeric_rejected_without_payload",
+      "passed": true
+    },
+    {
+      "name": "headerless_mixed_rejected_without_payload",
+      "passed": true
+    },
+    {
+      "name": "duplicate_rejected_without_payload",
+      "passed": true
+    },
+    {
+      "name": "quoted_header_rejected_without_payload",
+      "passed": true
+    },
+    {
+      "name": "quoted_newline_rejected_without_payload",
+      "passed": true
+    },
+    {
+      "name": "empty_nonindex_rejected_without_payload",
+      "passed": true
+    },
+    {
+      "name": "all_empty_rejected_without_payload",
+      "passed": true
+    },
+    {
+      "name": "no_newline_rejected_without_payload",
+      "passed": true
+    },
+    {
+      "name": "oversized_header_rejected_without_payload",
+      "passed": true
+    },
+    {
+      "name": "nonascii_rejected_without_payload",
+      "passed": true
+    },
+    {
+      "name": "single_field_rejected_without_payload",
+      "passed": true
+    },
+    {
+      "name": "wrong_expected_schema_rejected_without_payload",
+      "passed": true
+    },
+    {
+      "name": "line_ending_bom_0a_",
+      "passed": true
+    },
+    {
+      "name": "line_ending_bom_0d0a_",
+      "passed": true
+    },
+    {
+      "name": "line_ending_bom_0a_efbbbf",
+      "passed": true
+    },
+    {
+      "name": "header_only_eof",
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}

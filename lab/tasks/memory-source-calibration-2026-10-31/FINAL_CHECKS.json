@@ -1,0 +1,240 @@
+{
+  "utc": "2026-10-31T18:51:32.681058+00:00",
+  "all_frozen_pins_match": true,
+  "pin_checks": [
+    {
+      "path": "lab/tasks/memory-source-calibration-2026-10-31/PROTOCOL.md",
+      "sha256": "fefae6c939734b8f392ce7ef2b408de673aeb1d8db5648bd851427ab27051411",
+      "unchanged": true
+    },
+    {
+      "path": "lab/tasks/memory-source-calibration-2026-10-31/calibrate.py",
+      "sha256": "3d253fbabb7e2de87fd1918437de28917ce7657de85f88b11a217a2cf4c74ec4",
+      "unchanged": true
+    },
+    {
+      "path": "lab/reviews/memory-readiness-2026-10-30/CANDIDATE_FREEZE.md",
+      "sha256": "9d02bcafd2fb95fb1199b6801ae567c8cf106f6075e646a8df5e037930bd1b16",
+      "unchanged": true
+    },
+    {
+      "path": "lab/reviews/memory-readiness-2026-10-30/CANDIDATE_READINESS.json",
+      "sha256": "33411d594c09d7615a96e71aa4a4255d34c4d299ab3aa25907e12e35f8b23323",
+      "unchanged": true
+    },
+    {
+      "path": "lab/reviews/memory-readiness-2026-10-30/FUTURE_COMPARISON.md",
+      "sha256": "4f24316d8e0889804135d4e6bf4efdab434d8aff26a750867a09f81e683a8c37",
+      "unchanged": true
+    },
+    {
+      "path": "lab/tasks/memory-source-calibration-2026-10-31/PROTOCOL.md",
+      "sha256": "fefae6c939734b8f392ce7ef2b408de673aeb1d8db5648bd851427ab27051411",
+      "unchanged": true
+    },
+    {
+      "path": "lab/tasks/memory-source-calibration-2026-10-31/calibrate.py",
+      "sha256": "3d253fbabb7e2de87fd1918437de28917ce7657de85f88b11a217a2cf4c74ec4",
+      "unchanged": true
+    },
+    {
+      "path": "lab/tasks/memory-source-calibration-2026-10-31/SOURCE_FIT.json",
+      "sha256": "c258bfc1aae8099199159e778a0a9752c6dfa429ce21feb30486e98542357ac5",
+      "unchanged": true
+    },
+    {
+      "path": "lab/tasks/memory-source-calibration-2026-10-31/safe_schedules.npz",
+      "sha256": "ffe4f7132216e64a028158814ce9a540963246a9515e234b6392fc812edcc9f1",
+      "unchanged": true
+    },
+    {
+      "path": "lab/tasks/memory-source-calibration-2026-10-31/fit_answers.npz",
+      "sha256": "b9139d0c16d8bbb2e39bbbc855758c839b2366b03dfc4e9548fb15bf13dbc609",
+      "unchanged": true
+    }
+  ],
+  "synthetic_checks_passed": 17,
+  "numerical_audit_passed": true,
+  "source_gate_failed_without_retuning": true,
+  "primary_gain": {
+    "mean": 0.007703009718543367,
+    "lower": -0.02115081997758438,
+    "upper": 0.03655683941467111,
+    "se": 0.012755006667938003,
+    "evaluation_cluster_variance": 0.00015714021010375666,
+    "source_estimation_variance": 5.549984995386267e-06,
+    "df": 9,
+    "people": 10,
+    "rows": 485,
+    "per_id": [
+      {
+        "uid": 1775,
+        "mean": 0.05937637134072494
+      },
+      {
+        "uid": 2210,
+        "mean": 0.007674922618507058
+      },
+      {
+        "uid": 2224,
+        "mean": 0.007137045656827938
+      },
+      {
+        "uid": 2359,
+        "mean": -0.08662043695570734
+      },
+      {
+        "uid": 2386,
+        "mean": 0.0027727777899279327
+      },
+      {
+        "uid": 2467,
+        "mean": 0.05697346429760048
+      },
+      {
+        "uid": 2824,
+        "mean": -0.00014428166470145998
+      },
+      {
+        "uid": 3389,
+        "mean": 0.01551371932487422
+      },
+      {
+        "uid": 3643,
+        "mean": 0.007501577598223758
+      },
+      {
+        "uid": 3653,
+        "mean": 0.006844937179156153
+      }
+    ]
+  },
+  "primary_calibration_summary": [
+    {
+      "bias": -0.027097392687101318,
+      "absolute_bias_upper95": 0.1450878571356592,
+      "ece": 0.031363397395604585,
+      "logloss": 0.5729867979304158,
+      "brier": 0.19419533887786034
+    },
+    {
+      "bias": -0.016782417867135413,
+      "absolute_bias_upper95": 0.12213928706939033,
+      "ece": 0.041596488129849035,
+      "logloss": 0.5652837882118724,
+      "brier": 0.19170199003052507
+    }
+  ],
+  "source_repeat_wide_gain": {
+    "mean": 0.007721226864007032,
+    "lower": -0.0015709104766257372,
+    "upper": 0.0170133642046398,
+    "se": 0.004332429603830456,
+    "evaluation_cluster_variance": 1.4653725154912926e-05,
+    "source_estimation_variance": 4.116221117233597e-06,
+    "df": 14,
+    "people": 15,
+    "rows": 4096,
+    "per_id": [
+      {
+        "uid": 918,
+        "mean": 0.01859754238232981
+      },
+      {
+        "uid": 1775,
+        "mean": 0.05444013037430088
+      },
+      {
+        "uid": 2028,
+        "mean": -0.0024072855498420533
+      },
+      {
+        "uid": 2210,
+        "mean": 0.00924053003461122
+      },
+      {
+        "uid": 2224,
+        "mean": 0.01098240790127933
+      },
+      {
+        "uid": 2284,
+        "mean": 0.012729206982648424
+      },
+      {
+        "uid": 2359,
+        "mean": -0.0034805677456909104
+      },
+      {
+        "uid": 2386,
+        "mean": -0.0017105803839618026
+      },
+      {
+        "uid": 2467,
+        "mean": 0.004279145564222228
+      },
+      {
+        "uid": 2591,
+        "mean": -0.009934757369188167
+      },
+      {
+        "uid": 2824,
+        "mean": 0.003384413255808717
+      },
+      {
+        "uid": 3312,
+        "mean": 0.005590337000249685
+      },
+      {
+        "uid": 3389,
+        "mean": -0.0008833399615589407
+      },
+      {
+        "uid": 3643,
+        "mean": 0.007170055031979677
+      },
+      {
+        "uid": 3653,
+        "mean": 0.007821165442917385
+      }
+    ]
+  },
+  "initialization_primary_gain": {
+    "initial_prior_0.25": 0.00474579346574943,
+    "initial_prior_0.75": 0.011471624088098428
+  },
+  "gap_diagnostics": {
+    "prefix": {
+      "people": 11,
+      "rows": 3420,
+      "equal_id_gain": 0.004306078424714238,
+      "counter_indicated_missing_lower_total": 3225
+    },
+    "internal": {
+      "people": 4,
+      "rows": 2063,
+      "equal_id_gain": 0.009134832980684793,
+      "counter_indicated_missing_lower_total": 3226
+    },
+    "no_detected_gap": {
+      "people": 10,
+      "rows": 532,
+      "equal_id_gain": 0.007843030408379952,
+      "counter_indicated_missing_lower_total": 0
+    },
+    "preperiod_install": {
+      "people": 6,
+      "rows": 3452,
+      "equal_id_gain": 0.01726375535422127,
+      "counter_indicated_missing_lower_total": 3226
+    },
+    "period_install": {
+      "people": 9,
+      "rows": 644,
+      "equal_id_gain": 0.001359541203864208,
+      "counter_indicated_missing_lower_total": 0
+    }
+  },
+  "counter_lower_bound_perturbed_repeat_gain": 0.007711051579732933,
+  "peak_RSS_limit_check": "All scientific guard checks passed under2GB; exact first-fit peak was overwritten by later per-process accounting. Final validation process recorded112246784bytes; do not call this the lineage peak.",
+  "resource_recording_correction": "Added exact decoded NPZ charges omitted by initial compressed-ingress accounting; no cap crossed."
+}

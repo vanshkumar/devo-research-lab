@@ -1,0 +1,86 @@
+{
+  "recorded_at": "2026-11-01T06:57:33.097803+00:00",
+  "bounds": {
+    "public_operations": 30,
+    "empirical_families": 2,
+    "primary_families": 3,
+    "new_ingress_bytes": 25000000,
+    "additional_scientific_read_decode_hash_bytes": 250000000,
+    "peak_rss_bytes": 500000000
+  },
+  "deliberate_top_level_public_operations": 14,
+  "provider_operations": 7,
+  "local_retrieval_attempts": 7,
+  "local_successes": 6,
+  "local_failed_attempts": 1,
+  "known_local_retrieved_body_bytes": 82005,
+  "provider_ingress_allowance_bytes": 4500000,
+  "failed_local_ingress_charge_bytes": 1000000,
+  "total_charged_ingress_bytes": 5582005,
+  "additional_scientific_read_decode_hash_charge_bytes": 20000000,
+  "read_charge_interpretation": "Conservative executed-work allowance including repeated small-source reads/decodes/hashes and provider-receipt handling; not measured physical OS I/O. Payload and receipt files each under 100KB, each routine runs a bounded number of reads; no archive/decompression or large matrix operations.",
+  "largest_measured_local_scientific_process_peak_rss_bytes": 20217856,
+  "unknowns": [
+    "Provider/backend transfer bytes and peaks",
+    "Exact redirected-download hop/request counts",
+    "Tool wrapper/hook OS reads and peaks",
+    "inspect_listing.py process RSS not recorded",
+    "Exact physical OS I/O; allowances are not measurements"
+  ],
+  "operation_interpretation": "14 deliberately requested top-level public operations, counting failed DNS and within-page finds; not 14 measured HTTP requests. Three successful object downloads redirected to public object storage; provider and redirect internals unknown.",
+  "scientific_execution": "Serial local Python standard-library commands only; no numerical pool/threads, fitting service, background job or paid compute",
+  "scientific_runs": [
+    {
+      "command": "inspect_listing.py data_code_listing.json",
+      "runs": 1
+    },
+    {
+      "command": "inspect_csv.py Study1_rawdata.csv",
+      "runs": 1
+    },
+    {
+      "command": "first_data_check.py",
+      "runs": 1,
+      "at": "2026-11-01T06:50:37.371535Z",
+      "peak_rss_bytes": 15450112
+    },
+    {
+      "command": "inspect_csv.py Study1_cleandata.csv",
+      "runs": 1
+    },
+    {
+      "command": "source_reconstruction.py",
+      "runs": 2,
+      "first_at": "2026-11-01T06:51:46.244771Z",
+      "last_at": "2026-11-01T06:52:24.479842Z",
+      "reason": "Second execution added excluded participants limit fields; original matching and factorial results unchanged",
+      "peak_rss_bytes": [
+        15876096,
+        15728640
+      ]
+    }
+  ],
+  "denied_commands": [
+    "Pre-START ordinary rg pipe denied; no public request",
+    "Inline Python listing inspection denied; replaced by scoped script",
+    "head on new CSV denied; replaced by scoped registered scientific reader"
+  ],
+  "exposure": {
+    "Study1_raw": "Full 47757-byte CSV acquired/hashed/decoded, all170records and auxiliary/coded-ID fields consumed",
+    "Study1_clean": "Full5957-byte CSV/all144rows/all15columns consumed",
+    "Study2_Study3": "Current file names/metadata/hashes and published summaries exposed; payloads not acquired",
+    "GDN_Rmd": "4826bytes/code inspected, not executed",
+    "Ferracci_2022": "Primary text/methods/results/access summaries only; no participant payloads",
+    "Van_Kleef_2004": "Primary abstract/institutional summary only; no original outcomes",
+    "old_empirical_payloads": "none; all protected targets/closed branches unchanged"
+  },
+  "stage_status": {
+    "original_response_calculation": "executed",
+    "realized_bargaining_outcomes": "not certified",
+    "source_design_gate": "failed/closed",
+    "main_freeze": "UNRUN",
+    "predictions_scoring_controls": "UNRUN",
+    "independent_review": "not earned"
+  },
+  "jobs_running": 0
+}

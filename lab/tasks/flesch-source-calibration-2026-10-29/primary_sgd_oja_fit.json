@@ -1,0 +1,87 @@
+{
+  "model": "sgd_oja",
+  "model_index": 0,
+  "theta": [
+    -1.557984980334786,
+    -6.462215413618436,
+    0.9141934792427104,
+    0.96103228348609,
+    -1.002100097360905,
+    0.10348346925979537,
+    0.10027566549667062,
+    -1.6604332208488486,
+    -5.044372415056096,
+    -15.639488167744524
+  ],
+  "negative_selected_log_likelihood": 20983.009607640655,
+  "fit_people": 71,
+  "check_people": 24,
+  "calls": 300,
+  "elapsed_s": 68.3315761089325,
+  "optimizer_success": false,
+  "optimizer_message": "Maximum number of function evaluations has been exceeded.",
+  "optimizer_final_value": 21036.241385185996,
+  "quadrature_points": 3,
+  "active_late": true,
+  "initial_timing_estimates": {
+    "late": 0.00010526315789473685,
+    "omit": 0.007596491228070175
+  },
+  "parameter_bounds": [
+    [
+      -5.809142990314028,
+      -1.2039728043259361
+    ],
+    [
+      -13.815510557964274,
+      -4.605170185988091
+    ],
+    [
+      0.05,
+      1
+    ],
+    [
+      0,
+      1.3862943611198906
+    ],
+    [
+      -1.6094379124341003,
+      2.0794415416798357
+    ],
+    [
+      -1.5,
+      1.5
+    ],
+    [
+      -1.5,
+      1.5
+    ],
+    [
+      -3.912023005428146,
+      0.22314355131420976
+    ],
+    [
+      -16,
+      -1.4
+    ],
+    [
+      -16,
+      -1.4
+    ]
+  ],
+  "call_budget": 300,
+  "starts": 1,
+  "source_columns_only": true,
+  "check_groups": {
+    "B200": {
+      "people": 12,
+      "mean_selected_log_likelihood": -307.5833825338047,
+      "mean_nll_per_opportunity": 0.5126389708896745
+    },
+    "Interleaved": {
+      "people": 12,
+      "mean_selected_log_likelihood": -308.9463124315902,
+      "mean_nll_per_opportunity": 0.514910520719317
+    }
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "scope": "static review; synthetic arrays and hash reads only; no new-source prefixes/outcomes opened",
+  "freeze_sha256": "625535ac5c20fe7301b7dcdec22549fd0a708271cc51dd79df8dee6f5c37a64c",
+  "frozen_file_count": 44,
+  "all_frozen_files_match": true,
+  "complete_endpoint_gate_constructions": 200,
+  "all_gate_decisions_match": true,
+  "max_CI_difference": 5.551115123125783e-17,
+  "missing_singleton_lab_control": {
+    "pass_gate": true,
+    "lab_scalar_bias": {
+      "angelaki": 0.0,
+      "churchland": 0.0,
+      "cortex": NaN,
+      "hofer": 0.0,
+      "mrsic": 0.0
+    },
+    "bin_animals": [
+      23,
+      23,
+      23,
+      23,
+      23,
+      23
+    ],
+    "issue": "Missing entire subgroup yields NaN; Python max can ignore a non-first NaN and subgroup safeguard can pass without an estimable bias."
+  },
+  "checks": [
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/artifacts/baselines/nested_growth_bank.npz",
+      "match": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/artifacts/rnn/rnnglm32_nested_best.npz",
+      "match": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/baselines.py",
+      "match": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/data_io.py",
+      "match": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/evaluation.py",
+      "match": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/learning_models.py",
+      "match": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/rnn_learning.py",
+      "match": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/rnn_rollout.py",
+      "match": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/rollout.py",
+      "match": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/run_forecasts.py",
+      "match": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/trainer.py",
+      "match": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/protocols/EXPOSURE.jsonl",
+      "match": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/protocols/FREEZE.json",
+      "match": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/protocols/RNN_FREEZE.json",
+      "match": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/protocols/SPLIT.json",
+      "match": true
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/protocols/VALIDATION_STATUS.json",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/coverage/BYTE_MANIFEST.json",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/coverage/FILE_METADATA.json",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/coverage/INDEX.json",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/coverage/READER_FIXTURE_TEST.json",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/coverage/RESULT.json",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/coverage/SESSIONS.json",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/learner_controls/RESULT.json",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/method_audit/CONSUMED_SOURCE_EXACT100.npz",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/method_audit/CONTROLS.json",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/method_audit/METHOD_AUDIT.md",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/method_audit/PRIOR_WORK.md",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/method_audit/SOURCE_PRECISION.json",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/policy_audit/PINS.json",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/policy_audit/POLICY_AUDIT.md",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/policy_audit/PREFIX_TRAINER_CHECK.json",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/policy_audit/RESULT.json",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/code/campaign.py",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/code/gate_audit.py",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/code/learner_controls.py",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/code/mixed_reader.py",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/code/policy_audit.py",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/code/production_replay.py",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/code/reconstruct_scores.py",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/code/score_campaign.py",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/protocols/ENDPOINT_FIXTURE.json",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/protocols/GATE_CONFIG.json",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/protocols/PROTOCOL.md",
+      "match": true
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/protocols/SOFTWARE.json",
+      "match": true
+    }
+  ]
+}

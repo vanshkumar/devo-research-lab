@@ -1,0 +1,217 @@
+{
+  "status": "source-based descriptive/partial-identification result; no independent-animal inferential test",
+  "table_short": {
+    "n": 26,
+    "median_ms": 60.75,
+    "mean_ms": 70.07307692307693,
+    "main_caption_n": 25,
+    "main_text_median_ms": 62.3,
+    "all_single_omission_median_range_ms": [
+      59.2,
+      62.3
+    ]
+  },
+  "table_long_pooled": {
+    "n": 11,
+    "median_ms": 323.5,
+    "meaning": "opto-only and natural+opto elements pooled; source table lacks condition and bird IDs"
+  },
+  "observed_support_gap_ms": 24.099999999999994,
+  "rounding_robust_support_gap_ms": 23.999999999999993,
+  "support_gap_assumptions": "all observed long-subset element means drawn from supplied11; short sample drawn from supplied26; aggregate using nonnegative weights summing to1. Bound is on observed summaries, not all renditions or bird population.",
+  "unlabeled_table_partitions": {
+    "count": 330,
+    "opto_only_median_range_ms": [
+      213.4,
+      434.3
+    ],
+    "conflict_median_range_ms": [
+      194.3,
+      621.1500000000001
+    ],
+    "conflict_minus_opto_median_range_ms": [
+      -240.0,
+      407.7500000000001
+    ]
+  },
+  "plot_opto_only": {
+    "plotted_element_count": 7,
+    "source_bird_count": 4,
+    "element_duration_median_ms": 249.58677685950465,
+    "element_duration_mean_ms": 425.265643447462,
+    "duration_values_ms": [
+      173.55371900826503,
+      191.73553719008305,
+      211.57024793388473,
+      249.58677685950465,
+      429.75206611570286,
+      566.9421487603308,
+      1153.719008264463
+    ],
+    "conservative_median_extraction_envelope_ms": [
+      236.36363636363689,
+      262.8099173553724
+    ],
+    "envelope_definition": "4 pixels covers 3-pixel symbol centers plus1-pixel axis calibration; not biological CI",
+    "bird_ids_available": false
+  },
+  "plot_conflict": {
+    "plotted_element_count": 4,
+    "source_bird_count": 3,
+    "element_duration_median_ms": 332.231404958678,
+    "element_duration_mean_ms": 383.05785123966973,
+    "duration_values_ms": [
+      193.3884297520665,
+      320.66115702479374,
+      343.8016528925623,
+      674.3801652892565
+    ],
+    "conservative_median_extraction_envelope_ms": [
+      319.00826446281025,
+      345.4545454545458
+    ],
+    "envelope_definition": "4 pixels covers 3-pixel symbol centers plus1-pixel axis calibration; not biological CI",
+    "bird_ids_available": false
+  },
+  "descriptive_complete_overwrite_comparison": {
+    "calibration": "EXPLORATORY REVISED calibration after source mismatch: main-text short62.3 and fig5 opto-only plotted median; 2 points/2 parameters, no fit degrees of freedom. Not untouched holdout.",
+    "slope": 0.7491471074380186,
+    "intercept_ms": 24.842644628099066,
+    "predictions_ms": {
+      "stored_reference": 249.58677685950465,
+      "motor_scaffold": 249.58677685950465,
+      "shared_representation": 249.58677685950465
+    },
+    "observed_conflict_median_ms": 332.231404958678,
+    "residual_ms": 82.64462809917336,
+    "residual_extraction_only_envelope_ms": [
+      56.198347107437826,
+      109.0909090909089
+    ],
+    "original_provisional_prediction_ms": 323.0,
+    "original_provisional_residual_ms": 9.231404958678013,
+    "original_prediction_status": "invalid as pure opto-only calibration because323 belongs to pooled long summary; retained to show consequential source-driven revision",
+    "interpretation": "All three have identical prediction and identical residual under common overwrite. Extraction precision does not determine sampling error; this is not a statistical rejection of overwrite or a clean withheld-bird validation."
+  },
+  "anonymous_bird_aggregation": {
+    "opto": {
+      "allocation_count": 315,
+      "equal_bird_mean_bounds_ms": [
+        328.1680440771354,
+        563.1542699724521
+      ],
+      "attaining_partitions": [
+        [
+          0,
+          1,
+          2,
+          2,
+          3,
+          3,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_elements_per_bird": 3,
+      "meaning": "all source-compatible nonempty anonymous assignments of plotted elements to stated bird count; no family independence assumed"
+    },
+    "conflict": {
+      "allocation_count": 6,
+      "equal_bird_mean_bounds_ms": [
+        341.0468319559232,
+        425.0688705234163
+      ],
+      "attaining_partitions": [
+        [
+          0,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          0,
+          1,
+          2
+        ]
+      ],
+      "max_elements_per_bird": 3,
+      "meaning": "all source-compatible nonempty anonymous assignments of plotted elements to stated bird count; no family independence assumed"
+    },
+    "conflict_minus_opto_equal_bird_mean_bounds_ms": [
+      -222.10743801652887,
+      96.90082644628092
+    ],
+    "with_conservative_4pixel_error_per_group_ms": [
+      -248.5537190082644,
+      123.34710743801645
+    ],
+    "unrestricted_opto_sensitivity": {
+      "allocation_count": 350,
+      "equal_bird_mean_bounds_ms": [
+        294.2148760330583,
+        589.2561983471078
+      ],
+      "attaining_partitions": [
+        [
+          0,
+          1,
+          2,
+          3,
+          3,
+          3,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "max_elements_per_bird": null,
+      "meaning": "all source-compatible nonempty anonymous assignments of plotted elements to stated bird count; no family independence assumed"
+    },
+    "maximum_two_elements_opto_sensitivity": {
+      "allocation_count": 105,
+      "equal_bird_mean_bounds_ms": [
+        393.8016528925624,
+        516.3223140495871
+      ],
+      "attaining_partitions": [
+        [
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2,
+          3
+        ]
+      ],
+      "max_elements_per_bird": 2,
+      "meaning": "all source-compatible nonempty anonymous assignments of plotted elements to stated bird count; no family independence assumed"
+    },
+    "interpretation": "Even the sign of a cohort difference in equal-bird means is not identified from plotted elements with missing identities. This does not question short-versus-long support separation."
+  }
+}

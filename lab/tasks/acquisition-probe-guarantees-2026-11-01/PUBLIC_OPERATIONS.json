@@ -1,0 +1,21 @@
+{
+  "counting": "Each targeted search query, PDF open and PDF find is charged separately, including cached extraction. Backend fan-out, redirects, transfers and physical I/O are not exposed.",
+  "operations": [
+    {"number": 1, "type": "search", "target": "Jiang Li 2016 sequential off-policy importance sampling", "family": 1, "status": "returned primary paper"},
+    {"number": 2, "type": "search", "target": "Gneiting Raftery 2007 logarithmic score KL", "family": 2, "status": "returned primary paper"},
+    {"number": 3, "type": "open_pdf", "target": "https://proceedings.mlr.press/v48/jiang16.pdf", "family": 1, "status": "returned extraction; 10 pages"},
+    {"number": 4, "type": "open_pdf", "target": "https://sites.stat.washington.edu/people/raftery/Research/PDF/Gneiting2007jasa.pdf", "family": 2, "status": "returned extraction; 20 pages"},
+    {"number": 5, "type": "find", "target": "per-step ratio in Jiang Li PDF", "family": 1, "status": "returned equations and history-state definition"},
+    {"number": 6, "type": "find", "target": "Kullback in Gneiting Raftery PDF", "family": 2, "status": "returned logarithmic score/divergence passages"}
+  ],
+  "charged_public_operations": 6,
+  "cap_public_operations": 16,
+  "cap_deliberately_targeted_families": 2,
+  "charged_ingress_allowance_bytes": 6000000,
+  "allowance_rule": "1,000,000-byte charge per logical provider operation; an accounting allowance, not measured provider traffic or a proved upper bound.",
+  "exact_provider_ingress_bytes": null,
+  "ingress_cap_bytes": 10000000,
+  "ingress_compliance": "Not independently certified because the provider does not expose transferred bytes; no direct download, empirical acquisition or observed breach.",
+  "public_failures": [],
+  "empirical_families_targeted": 0
+}

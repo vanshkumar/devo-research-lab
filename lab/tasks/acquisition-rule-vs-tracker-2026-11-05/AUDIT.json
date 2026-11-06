@@ -1,0 +1,64 @@
+{
+  "utc": "2026-11-05T13:07:15.936604+00:00",
+  "scalar_gru_max_error": 1.1102230246251565e-16,
+  "omission_update_error": 0.0,
+  "future_poison_max_count_difference": {
+    "frozen_growth": 0,
+    "common_hybrid": 0,
+    "gru": 0
+  },
+  "original_rollout_exact100_max_count_error": 0,
+  "structural": {
+    "GENERATED_COUNTS.npz": {
+      "count_support_valid": true,
+      "subjects": 64,
+      "shape": [
+        64,
+        5,
+        144,
+        4,
+        7
+      ]
+    },
+    "COMMON_GENERATED_COUNTS.npz": {
+      "count_support_valid": true,
+      "subjects": 64,
+      "shape": [
+        64,
+        3,
+        144,
+        4,
+        7
+      ]
+    },
+    "RETAINED_GROWTH_COUNTS.npz": {
+      "count_support_valid": true,
+      "subjects": 64,
+      "shape": [
+        64,
+        3,
+        256,
+        4,
+        7
+      ]
+    }
+  },
+  "seconds": 2.8179131250362843,
+  "io": {
+    "explicit_file_read_bytes": 7399359,
+    "decoded_array_bytes": 26927712
+  },
+  "pins": {
+    "lab/tasks/acquisition-rule-vs-tracker-2026-11-05/DEVELOPED_FIT.json": "f4c767183cb9637ed5d39ae005ec5aba205ad7b75874f20c2c32ad91989c14eb",
+    "lab/tasks/acquisition-rule-vs-tracker-2026-11-05/COMMON_FIT.json": "3c8d478316d3eebfe501e442d2fcb6d8e2dbb3fe300ac196aad5d1eb9dda466d",
+    "lab/tasks/acquisition-reactive-sequence-2026-11-04/CAPPED_ROWS.npz": "a417bbff6c989495b1fbba77777ce09b2939794b7e4016ca63105d828ea99b80",
+    "campaigns/learning_rule_transport_2026-10-28/artifacts/baselines/nested_growth_bank.npz": "036f3cfedd56e915b051fb29a80a2622cf5a747366ea31aa46b9249a922eea01",
+    "lab/tasks/acquisition-rule-vs-tracker-2026-11-05/COMMON_GROWTH_BANK.npz": "2ef901da3e5dc1e08fa549a1d7c92fc7e03bddbccbc014878723ee6d35cd8263",
+    "lab/tasks/acquisition-rule-vs-tracker-2026-11-05/COMMON_SOURCE_BOOTSTRAP.npz": "eaed4df872824e8e4d08d9777bfaf1a07d869d0b84fff78131ec4123d7443d9d",
+    "lab/tasks/acquisition-rule-vs-tracker-2026-11-05/SOURCE_BOOTSTRAP.npz": "0a559ce1703628750af44a70926f12d35fa42914ce66f2d5886e56076c0c4841",
+    "lab/tasks/acquisition-rule-vs-tracker-2026-11-05/GENERATED_COUNTS.npz": "0cbc2a1d6af6c48a53f4ee0b1bc627555cec067eeb4c9815209b79b83424e108",
+    "lab/tasks/acquisition-rule-vs-tracker-2026-11-05/COMMON_GENERATED_COUNTS.npz": "7226fe0a724486e5f2c7fa38116232c0debd2c4b81752020c1834b55b238401d",
+    "lab/tasks/acquisition-rule-vs-tracker-2026-11-05/RETAINED_GROWTH_COUNTS.npz": "e2582fe1ca8951e059cffa03b09f44a4dd8877926d6fdd657dbf0b6295be3097"
+  },
+  "note": "Numerical and information checks on consumed contexts. This is not independent biological validation or full reproduction of source fitting."
+}

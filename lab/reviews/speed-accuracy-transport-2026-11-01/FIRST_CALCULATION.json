@@ -1,0 +1,117 @@
+{
+  "at_utc": "2026-11-01T08:35:23.849576+00:00",
+  "native_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 .venv/bin/python lab/reviews/speed-accuracy-transport-2026-11-01/first_calculation.py",
+  "independence": "Original RData parsed with cached rdata library; independently authored equality/count/sum operations; no author scientific modules imported or executed.",
+  "pins": {
+    "bytes": 93156,
+    "sha256": "991429ecb0a6711dd32422ee4cff9eb7d3010c9de9434387aa36b8788e573f62",
+    "git_blob": "9800773f265db3b30e09ae81b52f612f43527454"
+  },
+  "rows": 31522,
+  "columns": [
+    "id",
+    "block",
+    "condition",
+    "stim",
+    "stim_cat",
+    "frequency",
+    "response",
+    "rt",
+    "censor"
+  ],
+  "levels": [
+    {
+      "field": "id",
+      "levels": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "field": "block",
+      "levels": [
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "2",
+        "20",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "field": "condition",
+      "levels": [
+        "accuracy",
+        "speed"
+      ]
+    },
+    {
+      "field": "stim_cat",
+      "levels": [
+        "nonword",
+        "word"
+      ]
+    },
+    {
+      "field": "frequency",
+      "levels": [
+        "high",
+        "low",
+        "nw_high",
+        "nw_low",
+        "nw_very_low",
+        "very_low"
+      ]
+    },
+    {
+      "field": "response",
+      "levels": [
+        "error",
+        "nonword",
+        "word"
+      ]
+    }
+  ],
+  "person10_block2": {
+    "nominal": 96,
+    "valid": 96,
+    "correct": 95,
+    "accuracy": 0.9895833333333334,
+    "sum_rt_s": 55.177,
+    "mean_rt_s": 0.5747604166666667
+  },
+  "largest_measured_process_rss_bytes_macos": 98779136,
+  "additional_scientific_read_decode_hash_charge_bytes": 30000000,
+  "public_operations": 0,
+  "new_ingress_bytes": 0,
+  "uncertainties": "Conservative charge includes imports/parser/raw/hash/frame; physical IO and some prior ordinary-read/toolhost peaks unmeasured. Full release again decoded in RAM, preserving original consumed/auxiliary exposure."
+}

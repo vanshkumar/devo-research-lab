@@ -1,0 +1,59 @@
+{
+  "at_utc": "2026-11-01T08:48:27.631331+00:00",
+  "commands": [
+    {
+      "script": "first_calculation.py",
+      "exit_code": 0,
+      "actual_output_file": "FIRST_CALCULATION.json",
+      "completed_at_utc": "2026-11-01T08:35:23.849576+00:00",
+      "key_output": "RData31522rows/17people;person10block2valid96/correct95/meanRT.5747604166666667s;actual pins match.",
+      "native_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 /Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python /Users/vanshkumar/Documents/repos/devo-research-lab/lab/reviews/speed-accuracy-transport-2026-11-01/first_calculation.py"
+    },
+    {
+      "script": "reconstruct.py",
+      "exit_code": 0,
+      "actual_output_files": [
+        "RECONSTRUCTION.json",
+        "RECONSTRUCTED_FORECASTS.json",
+        "RECONSTRUCTED_SCORES.json",
+        "NUMERICAL_AUDIT.json",
+        "CONTROL_AUDIT.json",
+        "PAPER_CUTOFF_AUDIT.json"
+      ],
+      "completed_at_utc": "2026-11-01T08:39:46.093781+00:00",
+      "key_output": "384forecastmaxdifference5.995204332975845e-15;757validtargets;RIDGEreference;PjointFAIL;signal18/null2;noise-removal100/18/100.",
+      "native_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 /Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python /Users/vanshkumar/Documents/repos/devo-research-lab/lab/reviews/speed-accuracy-transport-2026-11-01/reconstruct.py"
+    },
+    {
+      "script": "contrary.py",
+      "exit_code": 0,
+      "actual_output_files": [
+        "CONTRARY_SOURCE_FIT.json",
+        "CONTRARY.json"
+      ],
+      "completed_at_utc": "2026-11-01T08:40:37.180051+00:00",
+      "key_output": "BothSLSQPstartsconvergedfeasible;gain0;t0.1568150466452355;sourceNLLimprovement9.540427162776155;RTMAE.2266356073895331;jointFAIL.",
+      "native_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 /Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python /Users/vanshkumar/Documents/repos/devo-research-lab/lab/reviews/speed-accuracy-transport-2026-11-01/contrary.py"
+    },
+    {
+      "script": "final_checks.py",
+      "exit_code": 0,
+      "actual_output_file": "FINAL_CHECKS.json",
+      "completed_at_utc": "2026-11-01T08:42:43.753172+00:00",
+      "key_output": "Allnominalcounts/order/censor/baselineboxes/additiveinfeasibility/influence/cutoffsagree;currentPIverified.",
+      "native_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 /Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python /Users/vanshkumar/Documents/repos/devo-research-lab/lab/reviews/speed-accuracy-transport-2026-11-01/final_checks.py"
+    }
+  ],
+  "pretool_rejections": [
+    {
+      "action": "Ordinary rootSTATE nonnumeric sed range",
+      "effect": "Rejected before execution; used brief/authorSTATE/registry context; no full-history retry."
+    },
+    {
+      "action": "Inline saved-JSON summary heredoc",
+      "effect": "Rejected before execution; summary now uses this owned script. No scientific model/cap change."
+    }
+  ],
+  "jobs_active": 0,
+  "note": "Native tool results returned exit0 for each listed executed command; saved output is direct evidence. No failed scientific execution passes."
+}

@@ -1,0 +1,75 @@
+{
+  "frozen_utc": "2026-10-29T21:35:44.575971+00:00",
+  "selected_path": "data/human/blocked_thresh0.csv",
+  "commit": "eb0edbe51042ffaf065bd90839f4f999de5f3ffb",
+  "expected_manifest_git_blob": "540af0ca2ba73344c6b6181de9cab8a1b593ec4a",
+  "whole_blob_hash_will_not_be_verified_from_header": true,
+  "profile_basis": "Pinned notebook code cell4 directly references these four names. Full schema/order are not asserted; all additional fields must satisfy the original frozen ASCII-identifier header policy.",
+  "required_fields": [
+    "correct_response",
+    "false_tonode",
+    "true_rfc",
+    "true_tonode"
+  ],
+  "data_row_projection": "NONE for every column, including named input candidates/anonymous keys/counts",
+  "request_read_cap": 4096,
+  "blind_header_overread_cap": 4096,
+  "source_file_sha256": "670ca03266022932b494685c6420a1b3662c91d7d4a9acd03b2b710fd314bc9d",
+  "profile_and_acquisition_source_sha256": "f37f9aabec7582701a5b400fd6a504e4c78f024aaaa562425007936422839f22",
+  "original_reader_sha256": "cd22d2e7f07e4104151f089835a47818748dabd64e086d0ac7b3b07ab34a6f95",
+  "checks": [
+    {
+      "name": "required_source_fields_match",
+      "passed": true
+    },
+    {
+      "name": "uninterpreted_extra_identifiers_allowed_header_only",
+      "passed": true
+    },
+    {
+      "name": "only_header_retained",
+      "passed": true
+    },
+    {
+      "name": "no_response_sentinel_retained",
+      "passed": true
+    },
+    {
+      "name": "read_cap_4096_and_discard_exact",
+      "passed": true
+    },
+    {
+      "name": "no_rows_or_excluded_values_parsed",
+      "passed": true
+    },
+    {
+      "name": "source_profile_independent_of_column_order",
+      "passed": true
+    },
+    {
+      "name": "missing_required_field_rejected",
+      "passed": true
+    },
+    {
+      "name": "numeric_first_row_rejected",
+      "passed": true
+    },
+    {
+      "name": "ambiguous_quote_rejected",
+      "passed": true
+    },
+    {
+      "name": "duplicate_field_rejected",
+      "passed": true
+    },
+    {
+      "name": "truncated_header_rejected",
+      "passed": true
+    },
+    {
+      "name": "original_bounded_reader_unchanged",
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}

@@ -1,0 +1,5 @@
+# Postvalidation contrary check
+
+Declared after frozen real scoring and before calculating alternative held-out scores. The selected contextual fit improves source NLL, but its three optimization starts reached different solutions; zero lapse, zero forgetting and one encoding bound in the selected solution warrant caution. The highest-value finite contrary is whether this source-selection decision conceals a useful forecast already present among the OTHER TWO saved pre-evaluation source solutions.
+
+Score ALL three originally saved contextual solutions using the same frozen real observations, baselines and complete utility criterion. Do not refit, change the prescription, select a replacement, alter a bound or reinterpret evaluation as development. Compare source ranking with target loss/calibration ranking. This is a source-basin sensitivity diagnostic, not a new test or earned source-only model improvement. Preserve the original selected result even if an unselected solution performs better. Source resampling, global optimizer certification and a new perceptual representation remain UNRUN; further tuning on this release closes after reporting.

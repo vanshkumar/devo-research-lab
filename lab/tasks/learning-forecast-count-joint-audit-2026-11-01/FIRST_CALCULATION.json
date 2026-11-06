@@ -1,0 +1,451 @@
+{
+  "utc": "2026-11-01T13:05:20.317828+00:00",
+  "status": "executed_independent_endpoint_reconstruction",
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 NUMEXPR_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 campaigns/learning_rule_transport_2026-10-28/.modelenv/bin/python lab/tasks/learning-forecast-count-joint-audit-2026-11-01/first_calculation.py",
+  "owner": "01a19734-d25e-7bb3-8e81-85110583eb56",
+  "start": 21,
+  "cycle": 13,
+  "fixed_start_utc": "2026-11-01T12:56:15Z",
+  "first_numeric_deadline_utc": "2026-11-01T13:08:15Z",
+  "subjects": [
+    "CSHL056",
+    "CSHL_012",
+    "IBL_001",
+    "KS018",
+    "NYU-09",
+    "NYU-11",
+    "NYU-12",
+    "NYU-13",
+    "NYU-14",
+    "SWC_001",
+    "SWC_002",
+    "SWC_003",
+    "SWC_011",
+    "SWC_014",
+    "SWC_015",
+    "SWC_017",
+    "SWC_018",
+    "SWC_020",
+    "SWC_021",
+    "SWC_022",
+    "SWC_027",
+    "SWC_028",
+    "SWC_029",
+    "SWC_030"
+  ],
+  "labs": [
+    "churchlandlab",
+    "churchlandlab",
+    "mrsicflogellab",
+    "cortexlab",
+    "angelakilab",
+    "angelakilab",
+    "angelakilab",
+    "angelakilab",
+    "angelakilab",
+    "hoferlab",
+    "hoferlab",
+    "hoferlab",
+    "hoferlab",
+    "hoferlab",
+    "hoferlab",
+    "mrsicflogellab",
+    "mrsicflogellab",
+    "hoferlab",
+    "hoferlab",
+    "mrsicflogellab",
+    "hoferlab",
+    "hoferlab",
+    "mrsicflogellab",
+    "mrsicflogellab"
+  ],
+  "units": "accuracy errors percentage points; integer exact100 opportunities/successes with omissions incorrect",
+  "admitted_original_rows": 96000,
+  "new_raw_rows_read": 0,
+  "observed_opportunities": 34378,
+  "metrics": {
+    "rnn": {
+      "population_mae_pp": 6.969990518046282,
+      "individual_equal_side_mae_pp": 9.028950992906177,
+      "individual_side_mae_pp": 18.03943065730037
+    },
+    "growth": {
+      "population_mae_pp": 2.2781054840391435,
+      "individual_equal_side_mae_pp": 6.966767101175809,
+      "individual_side_mae_pp": 17.879177280023594
+    },
+    "rnn_count_pooled": {
+      "population_mae_pp": 1.0525539898087137,
+      "individual_equal_side_mae_pp": 5.888673417638666,
+      "individual_side_mae_pp": 17.448592960621678
+    },
+    "conditional_sampled": {
+      "population_mae_pp": 0.6194954029117415,
+      "individual_equal_side_mae_pp": 2.505535637674156,
+      "individual_side_mae_pp": 3.6729199386959603
+    }
+  },
+  "paired_output_identities": {
+    "rnn": {
+      "shape": [
+        24,
+        512,
+        6,
+        2
+      ],
+      "max_success_rounding_error_counts": 1.4210854715202004e-14,
+      "min_opportunities": 21,
+      "max_opportunities": 314,
+      "paired_count_success_cells": 147456
+    },
+    "growth": {
+      "shape": [
+        24,
+        512,
+        6,
+        2
+      ],
+      "max_success_rounding_error_counts": 1.4210854715202004e-14,
+      "min_opportunities": 19,
+      "max_opportunities": 315,
+      "paired_count_success_cells": 147456
+    }
+  },
+  "count_accuracy_covariance_identity_max_error": 1.5907414274707321e-15,
+  "negative_rnn_covariance_cells": 288,
+  "input_manifest": [
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/protocols/FREEZE.json",
+      "containing_file_bytes": 11157,
+      "decoded_bytes_charged": 0,
+      "sha256": "625535ac5c20fe7301b7dcdec22549fd0a708271cc51dd79df8dee6f5c37a64c"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/protocols/SOURCE_FORECASTS.json",
+      "containing_file_bytes": 39992,
+      "decoded_bytes_charged": 0,
+      "sha256": "256e0d3e595626a074acc28228cebf3eb56acf6d24ea4d5340339f77e98dc9d8"
+    },
+    {
+      "path": "experiments/matched_history_diagnostic_2026-10-29/CURVES.npz",
+      "containing_file_bytes": 12401,
+      "decoded_bytes_charged": 14528,
+      "sha256": "8e4c54483d8bab428b421c7aaced65edee1cb02615bdad46d5318841bc12307e"
+    },
+    {
+      "path": "lab/reviews/learning-forecast-information-audit-2026-11-01/RECONSTRUCTED_ENDPOINTS.npz",
+      "containing_file_bytes": 2054101,
+      "decoded_bytes_charged": 4726336,
+      "sha256": "25224f333767e6dc25d9f97c211890661123fcbee774ab35fdb7be60c5077816"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/results/SOURCE_ARRAYS.npz",
+      "containing_file_bytes": 8438,
+      "decoded_bytes_charged": 15680,
+      "sha256": "bf3d6eeb82d964ef9a7e0026d9183278040b9c66af9039b24a2c20832ad3971b"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/CSHL056__rnn.npz",
+      "containing_file_bytes": 272906,
+      "decoded_bytes_charged": 430304,
+      "sha256": "33fcf801238100fe16abde0419ee7578006cd8f49f94e9dddad8c2c81d99214e"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/CSHL_012__rnn.npz",
+      "containing_file_bytes": 272339,
+      "decoded_bytes_charged": 430304,
+      "sha256": "afc30dda21a4966c088e6f52053e8fa7222fe568451af3d647f407ad25721114"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/IBL_001__rnn.npz",
+      "containing_file_bytes": 256103,
+      "decoded_bytes_charged": 430304,
+      "sha256": "a00cc46da4caa7623afd1beb4287288719abd0fd40344f1679c18c4faff05148"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/KS018__rnn.npz",
+      "containing_file_bytes": 272899,
+      "decoded_bytes_charged": 430304,
+      "sha256": "57abae303820b7c44d90ef71e75ad3cfb91a29696d59db08f39d566be12d481e"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-09__rnn.npz",
+      "containing_file_bytes": 262964,
+      "decoded_bytes_charged": 430304,
+      "sha256": "1d43ca2af63d1b920680ca57a1ed97c5b91e05bf0f878d40f85b1b66bb5747ea"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-11__rnn.npz",
+      "containing_file_bytes": 274552,
+      "decoded_bytes_charged": 430304,
+      "sha256": "b36ddf10bfa7cb684261577721393142faffc3a9c6c88e3e5320de4f36a0092c"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-12__rnn.npz",
+      "containing_file_bytes": 271046,
+      "decoded_bytes_charged": 430304,
+      "sha256": "61887e49e61cebdd843db9e8621dc2ca4b07917eb7b1bc294944ea5a572d999c"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-13__rnn.npz",
+      "containing_file_bytes": 272768,
+      "decoded_bytes_charged": 430304,
+      "sha256": "e055794cf43c1f44a58908114ec0743493e0a04526879c90e36f56d929875640"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-14__rnn.npz",
+      "containing_file_bytes": 273589,
+      "decoded_bytes_charged": 430304,
+      "sha256": "c46a39b793578534dc31ce7e38974678431550ea715340b95d036d76f91b8218"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_001__rnn.npz",
+      "containing_file_bytes": 272057,
+      "decoded_bytes_charged": 430304,
+      "sha256": "04086da098fd8fcbc6287c1f450f7ce9239ce5db954956f60db1b244d3c449dc"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_002__rnn.npz",
+      "containing_file_bytes": 272849,
+      "decoded_bytes_charged": 430304,
+      "sha256": "850eb7624e585459c9d09bab09522d0ceb77ff4c76f6450a917637bcb282a158"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_003__rnn.npz",
+      "containing_file_bytes": 272643,
+      "decoded_bytes_charged": 430304,
+      "sha256": "99cac825173dd7e5f3eb6b059de286c9d7cfdcf74dfc9096d3b7ce252dba0513"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_011__rnn.npz",
+      "containing_file_bytes": 272982,
+      "decoded_bytes_charged": 430304,
+      "sha256": "3562e34b9407cbabd3062ba4bf92cd96fe08b6873a8db3d7cb5d60f51fd45732"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_014__rnn.npz",
+      "containing_file_bytes": 271924,
+      "decoded_bytes_charged": 430304,
+      "sha256": "916e56c57202928df3867f71ca9faa93d651620720a2008a75b3ede319618117"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_015__rnn.npz",
+      "containing_file_bytes": 271930,
+      "decoded_bytes_charged": 430304,
+      "sha256": "744054bf4f08607b0605fbd93314fc8d0ab7c3fdfbb66f9851267aa5966e2d2b"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_017__rnn.npz",
+      "containing_file_bytes": 273069,
+      "decoded_bytes_charged": 430304,
+      "sha256": "61364cee009ff76d432e301280b1cc9e598eaa8d228864e5fdd2b00a5b38a8a7"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_018__rnn.npz",
+      "containing_file_bytes": 271022,
+      "decoded_bytes_charged": 430304,
+      "sha256": "3e88af5af97e7b3bdc115602322ef4a5f260a5ea6c41af408fd18b8f527064ce"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_020__rnn.npz",
+      "containing_file_bytes": 272289,
+      "decoded_bytes_charged": 430304,
+      "sha256": "854e7eddc2ee28adb7f71d383a2a43827ac1e5ff7d4463f255a3ebd3752b9378"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_021__rnn.npz",
+      "containing_file_bytes": 272269,
+      "decoded_bytes_charged": 430304,
+      "sha256": "0de91765bfd540d6210e8bb7cd2ce339de8ea5ae73c23f44a6c9f58af301cf01"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_022__rnn.npz",
+      "containing_file_bytes": 272439,
+      "decoded_bytes_charged": 430304,
+      "sha256": "226738acadad6d7ddef92f873eee7c07df7ec16967c084be4fd880087fdb260e"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_027__rnn.npz",
+      "containing_file_bytes": 272441,
+      "decoded_bytes_charged": 430304,
+      "sha256": "02018c0c2b558f9b8886cafa8397a916ae60842fbc0919b5a354e6b5543aa8a9"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_028__rnn.npz",
+      "containing_file_bytes": 272176,
+      "decoded_bytes_charged": 430304,
+      "sha256": "8e9265b211dbaf6b177273462d313ccc1fb4ecd307e8c24b73445637d21192b6"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_029__rnn.npz",
+      "containing_file_bytes": 272403,
+      "decoded_bytes_charged": 430304,
+      "sha256": "81e97d15d689f8c864c6bbf5a83e81cbfc11be9223ce21ec360e30a6ba3b0a22"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_030__rnn.npz",
+      "containing_file_bytes": 272195,
+      "decoded_bytes_charged": 430304,
+      "sha256": "193e1628c68a7df05de7558d3206ad348cc67261b3a1722d215334f4d08180e6"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/CSHL056__growth.npz",
+      "containing_file_bytes": 271360,
+      "decoded_bytes_charged": 430304,
+      "sha256": "2ca89fccebc4d889d9200dd9d745f7fb0a29728a1273ca6724754f140c5b4a36"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/CSHL_012__growth.npz",
+      "containing_file_bytes": 270791,
+      "decoded_bytes_charged": 430304,
+      "sha256": "7767893bc964c9d07a805ed55f1f1e04c8ef1022b8d98a99cfc76ca1ba88ab98"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/IBL_001__growth.npz",
+      "containing_file_bytes": 259656,
+      "decoded_bytes_charged": 430304,
+      "sha256": "b4e5619d0e0905af5eab40a46586b27d00c80c515966cb4437ee39301ab98531"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/KS018__growth.npz",
+      "containing_file_bytes": 270938,
+      "decoded_bytes_charged": 430304,
+      "sha256": "869e0672898937af4c08d7e5672aacf1ffaab9a16a1103348c7be0ce8505c5b4"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-09__growth.npz",
+      "containing_file_bytes": 266595,
+      "decoded_bytes_charged": 430304,
+      "sha256": "917edf771d2d3c75f5c095b4320857914c4badbb66be7f696dbdcce7fa086db2"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-11__growth.npz",
+      "containing_file_bytes": 273309,
+      "decoded_bytes_charged": 430304,
+      "sha256": "0ac2af7b68f31f4c91c890390275391e19a45c0894926012914090648e79ea52"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-12__growth.npz",
+      "containing_file_bytes": 270227,
+      "decoded_bytes_charged": 430304,
+      "sha256": "244c5259101aea2b952a4f874df38564d67032e31dab5219a06bc0f49ff029f4"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-13__growth.npz",
+      "containing_file_bytes": 271755,
+      "decoded_bytes_charged": 430304,
+      "sha256": "efbed5b6cf3f0b3d2e0eb3ef910c9e88d0d84bfbea3030273e81ea4228a45f9f"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/NYU-14__growth.npz",
+      "containing_file_bytes": 271888,
+      "decoded_bytes_charged": 430304,
+      "sha256": "c040aadc68ec944aabe2b52bb97e649c1ee9f805b60bb99082643414c1fa9907"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_001__growth.npz",
+      "containing_file_bytes": 270134,
+      "decoded_bytes_charged": 430304,
+      "sha256": "75b429509498dab6e3efa065c824171ad5a700d8cd1fbbf76c6b2772ad9a8c38"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_002__growth.npz",
+      "containing_file_bytes": 270914,
+      "decoded_bytes_charged": 430304,
+      "sha256": "64a75bd1d7fb6bb2abf1ff4f2ba649ed067645ae41356fbc0758664e34b243a3"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_003__growth.npz",
+      "containing_file_bytes": 267129,
+      "decoded_bytes_charged": 430304,
+      "sha256": "47fd0a23b718f5d54e189c9336bd3e3f19e7a0be24ea1966586fc911dd76b51d"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_011__growth.npz",
+      "containing_file_bytes": 271667,
+      "decoded_bytes_charged": 430304,
+      "sha256": "ffafe008d621d6066b565913b03fddc4c16c41ba1c07efd445eadb9a86d89037"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_014__growth.npz",
+      "containing_file_bytes": 270224,
+      "decoded_bytes_charged": 430304,
+      "sha256": "f9321ff3bda0cd0663bb7571c0e505c4fd4a9fb35471e233d697aa1348da6281"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_015__growth.npz",
+      "containing_file_bytes": 269145,
+      "decoded_bytes_charged": 430304,
+      "sha256": "7e45b939e74ed7e1ef62dc6c4897d9e9361710a89ecf65a1f9ccaac761b8f243"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_017__growth.npz",
+      "containing_file_bytes": 271137,
+      "decoded_bytes_charged": 430304,
+      "sha256": "a11b37693028efa50271e45aae9feabed98500f7ab11a182c7d8f502acbe4473"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_018__growth.npz",
+      "containing_file_bytes": 268983,
+      "decoded_bytes_charged": 430304,
+      "sha256": "90dc77ede644c4f1a5883d1c2c44b07a759778bdd7bf9099ca91d0b4b5daf605"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_020__growth.npz",
+      "containing_file_bytes": 271099,
+      "decoded_bytes_charged": 430304,
+      "sha256": "9f4a077f0b251a137cf1c608c312adf1934f4d4fd2cc6ba07db4dc532a8d1433"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_021__growth.npz",
+      "containing_file_bytes": 270645,
+      "decoded_bytes_charged": 430304,
+      "sha256": "13e9f64d310d1b773a68e7c5876e1b4c69a69464c33fa83687b26864aab6e5e4"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_022__growth.npz",
+      "containing_file_bytes": 270507,
+      "decoded_bytes_charged": 430304,
+      "sha256": "85ceaeb19f765698f350b7cdb519eeaee6c7b94d96276bc3f66065560f8b9ed9"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_027__growth.npz",
+      "containing_file_bytes": 271133,
+      "decoded_bytes_charged": 430304,
+      "sha256": "15e076751258194a3885a995d651ba66863b15569eed8c141cbfdad11952b881"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_028__growth.npz",
+      "containing_file_bytes": 271474,
+      "decoded_bytes_charged": 430304,
+      "sha256": "30d5d086e34da29916ef402dff0dd1c3f9e033b2b68680b3a43a9d0ae3445117"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_029__growth.npz",
+      "containing_file_bytes": 271128,
+      "decoded_bytes_charged": 430304,
+      "sha256": "ff32b21282367306cc4731abb640bbd223206d6f6095a8efcad005cbebb7329c"
+    },
+    {
+      "path": "campaigns/population_learning_transport_2026-10-28/artifacts/forecasts/source/SWC_030__growth.npz",
+      "containing_file_bytes": 270784,
+      "decoded_bytes_charged": 430304,
+      "sha256": "ff430f069d4e13c580bd0026fabec03d423bc51d8870522fe1752c54c7b5e2e7"
+    }
+  ],
+  "resources": {
+    "cumulative_read_hash_decode_charge_bytes": 52533701,
+    "context_code_runtime_allowance_bytes": 12000000,
+    "failed_start_allowance_within_it_bytes": 5000000,
+    "peak_process_rss_bytes": 53870592,
+    "rss_units": "bytes on Darwin",
+    "scientific_processes": 1,
+    "numerical_threads": 1,
+    "public_operations": 0,
+    "downloads": 0,
+    "ingress_bytes": 0,
+    "physical_io_unknown": true,
+    "elapsed_seconds": 0.1908191250404343
+  },
+  "native_stdout": "{\n  \"utc\": \"2026-11-01T13:05:20.317828+00:00\",\n  \"status\": \"executed_independent_endpoint_reconstruction\",\n  \"observed_opportunities\": 34378,\n  \"metrics\": {\n    \"rnn\": {\n      \"population_mae_pp\": 6.969990518046282,\n      \"individual_equal_side_mae_pp\": 9.028950992906177,\n      \"individual_side_mae_pp\": 18.03943065730037\n    },\n    \"growth\": {\n      \"population_mae_pp\": 2.2781054840391435,\n      \"individual_equal_side_mae_pp\": 6.966767101175809,\n      \"individual_side_mae_pp\": 17.879177280023594\n    },\n    \"rnn_count_pooled\": {\n      \"population_mae_pp\": 1.0525539898087137,\n      \"individual_equal_side_mae_pp\": 5.888673417638666,\n      \"individual_side_mae_pp\": 17.448592960621678\n    },\n    \"conditional_sampled\": {\n      \"population_mae_pp\": 0.6194954029117415,\n      \"individual_equal_side_mae_pp\": 2.505535637674156,\n      \"individual_side_mae_pp\": 3.6729199386959603\n    }\n  },\n  \"paired_output_identities\": {\n    \"rnn\": {\n      \"shape\": [\n        24,\n        512,\n        6,\n        2\n      ],\n      \"max_success_rounding_error_counts\": 1.4210854715202004e-14,\n      \"min_opportunities\": 21,\n      \"max_opportunities\": 314,\n      \"paired_count_success_cells\": 147456\n    },\n    \"growth\": {\n      \"shape\": [\n        24,\n        512,\n        6,\n        2\n      ],\n      \"max_success_rounding_error_counts\": 1.4210854715202004e-14,\n      \"min_opportunities\": 19,\n      \"max_opportunities\": 315,\n      \"paired_count_success_cells\": 147456\n    }\n  },\n  \"negative_rnn_covariance_cells\": 288,\n  \"resources\": {\n    \"cumulative_read_hash_decode_charge_bytes\": 52533701,\n    \"context_code_runtime_allowance_bytes\": 12000000,\n    \"failed_start_allowance_within_it_bytes\": 5000000,\n    \"peak_process_rss_bytes\": 53870592,\n    \"rss_units\": \"bytes on Darwin\",\n    \"scientific_processes\": 1,\n    \"numerical_threads\": 1,\n    \"public_operations\": 0,\n    \"downloads\": 0,\n    \"ingress_bytes\": 0,\n    \"physical_io_unknown\": true,\n    \"elapsed_seconds\": 0.1908191250404343\n  }\n}"
+}

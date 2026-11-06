@@ -1,0 +1,40 @@
+{
+  "status": "COMPLETED_RESUMED_REVIEW",
+  "scientific_signoff": "Bounded finite counterexamples; no biological/general necessity or corrected-objective claim",
+  "numerical_checks": [
+    {"artifact": "TABLE_AUDIT.json", "checks": 18, "passed": true},
+    {"artifact": "DYNAMICS_RESULTS.json", "checks": 152, "passed": true},
+    {"artifact": "SCIENTIFIC_CHECKS.json", "arithmetic_checks": 30, "passed": true},
+    {"artifact": "READOUT_ACTOR_RESULTS.json", "boolean_checks": 9, "plant_records": 3, "passed": true},
+    {"artifact": "FINAL_SCIENTIFIC_SUMMARY.json", "checks": 3, "passed": true, "note": "Summary controls overlap actor evidence; not another independent experiment"}
+  ],
+  "all_listed_numerical_checks_passed": true,
+  "max_selected_source_trace_error": 2.220446049250313e-15,
+  "full_actor_circuit_feedback_surface_freshly_recomputed": false,
+  "scientific_hypotheses": {
+    "artifact": "SCIENTIFIC_CHECKS.json",
+    "failed_records": 7,
+    "quiet_reset_sufficient_explanation": {"plants": [100, 101, 102], "supported": false},
+    "exposure_normalized_objective_duration_faithful": {"plants": [100, 101, 102], "supported": false},
+    "all_order_information_absent_after_zero_HVC_tutoring": {"plant": 102, "supported": false},
+    "note": "Passing numerical checks do not make the rejected scientific explanations true."
+  },
+  "closeout_preservation": {
+    "failed_start_hashes_match_manifest": true,
+    "failed_start_files_checked": 4,
+    "reconstruction_plan_and_code_match_freeze": true,
+    "readout_amendment_and_code_match_freeze": true,
+    "resumed_read_ledger_preserved": true,
+    "large_scientific_inputs_rehashed_or_reread": false,
+    "new_numerical_execution": false
+  },
+  "limits": {
+    "consumed_plants": 3,
+    "new_plant_or_biological_replication": false,
+    "noise_robustness_measured": false,
+    "whole_latent_state_cycle_convergence_proved": false,
+    "independent_os_process_audit": "UNAVAILABLE: pgrep blocked by project hook; ps operation not permitted",
+    "known_jobs_remaining_from_command_receipts": 0
+  },
+  "failed_start_checks_preserved_at": "failed_start/CHECKS.json"
+}

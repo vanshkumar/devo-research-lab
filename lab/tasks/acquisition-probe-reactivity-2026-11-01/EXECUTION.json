@@ -1,0 +1,70 @@
+{
+  "task": "acquisition-probe-reactivity-2026-11-01",
+  "registered_investigator": "01a197b9-8580-7573-8a9f-d1a811d848b9",
+  "pi": "01a19791-e09a-7250-9c26-a7fac402581f",
+  "deadlines_utc": {
+    "start": "2026-11-01T15:28:30Z",
+    "first_calculation": "2026-11-01T15:43:30Z",
+    "feasibility_close_or_continue": "2026-11-01T15:53:30Z",
+    "claim_freeze_or_close": "2026-11-01T16:03:30Z",
+    "hard": "2026-11-01T16:58:30Z"
+  },
+  "commands": [
+    {
+      "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 NUMEXPR_NUM_THREADS=1 NUMBA_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 campaigns/learning_rule_transport_2026-10-28/.modelenv/bin/python lab/tasks/acquisition-probe-reactivity-2026-11-01/first_calculation.py",
+      "attempt": 1,
+      "native_exit": 1,
+      "stderr": "SyntaxError: '(' was never closed (line125 branches.append)",
+      "scientific_payload_reads": 0,
+      "peak_rss_bytes": "unknown"
+    },
+    {
+      "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 NUMEXPR_NUM_THREADS=1 NUMBA_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 campaigns/learning_rule_transport_2026-10-28/.modelenv/bin/python lab/tasks/acquisition-probe-reactivity-2026-11-01/first_calculation.py",
+      "attempt": 2,
+      "native_exit": 0,
+      "output_utc": "2026-11-01T15:31:43.590226+00:00",
+      "stdout": {
+        "max_scalar_reference_error": 2.220446049250313e-16,
+        "preprobe_accuracy": [
+          0.49749124811917816,
+          0.8781057877559241,
+          0.846573197887436
+        ],
+        "expected_probe_change": [
+          0.001883390229222015,
+          0.001022436297666407,
+          0.00590021192855239
+        ],
+        "zero_feedback_alias_verified": true,
+        "omission_identity_verified": true,
+        "explicit_read_hash_decode_bytes": 120306,
+        "peak_rss_bytes": 116342784
+      },
+      "stderr": "",
+      "wall_seconds_tool": 0.658257875
+    },
+    {
+      "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 NUMEXPR_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 campaigns/learning_rule_transport_2026-10-28/.modelenv/bin/python lab/tasks/acquisition-probe-reactivity-2026-11-01/design_screen.py",
+      "attempt": 1,
+      "native_exit": 0,
+      "output_utc": "2026-11-01T15:36:08.267318+00:00",
+      "stdout_artifact": "DESIGN_SCREEN.json",
+      "stderr": "",
+      "explicit_read_bytes": 8808,
+      "peak_rss_bytes": 18333696
+    }
+  ],
+  "scientific_status": "Closed at source/prior feasibility; no main claim or independent review earned",
+  "main_protocol_freeze": "not applicable: closed before main",
+  "pre_main_revisions": 0,
+  "implementation_repair": "One missing closing parenthesis corrected after syntax-only failure; not a scientific amendment",
+  "original_empirical_rows_read": 0,
+  "empirical_target_arrays_read": 0,
+  "saved_empirical_prefix_reads": 0,
+  "new_fits": 0,
+  "consumed_scoring": 0,
+  "jobs": 0,
+  "source_assets_modified": false,
+  "shared_records_modified": false,
+  "goal_created": false
+}

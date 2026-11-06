@@ -1,0 +1,4 @@
+**2026-10-31 — Memory calibration precision and coupled source inference**
+- Observation: Independent frozen-coefficient reconstruction agrees with the stopped memory source summaries within1.11e−16. Both primary nominal bias half-widths alone(.117990464/.105356869)exceed.10even after algebraic zero-centering; all ten single-ID deletions still fail joint certification. Coupling signed source influences reduces the paired source variance from about.00003643uncoupled to.00000555. See lab/reviews/memory-source-calibration-2026-10-31/{FROZEN_AUDIT,PRECISION_INFLUENCE}.json.
+- Action: For this fixed candidate preserve the failed gate and coupled covariance; do not treat small point-bias correction or deletion of one app ID as a calibrated rescue. Describe zero-centering/deletion as postvalidation finite diagnostics, not recovered coverage, true-bias bounds, absent information or a new cohort.
+- Confidence: high

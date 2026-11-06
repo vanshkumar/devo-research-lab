@@ -1,0 +1,45 @@
+{
+  "args": {
+    "reps": 2,
+    "workers": 2,
+    "label": "calibration_smoke",
+    "variants": [
+      "association",
+      "association_z",
+      "psychometric_z",
+      "oracle_skill",
+      "oracle_skill_wide3",
+      "independent_200",
+      "independent_800",
+      "independent_3200"
+    ],
+    "scenarios": [
+      "carryover_null",
+      "slow_05",
+      "slow_minus05"
+    ]
+  },
+  "scales": {
+    "carryover_null": 0.0,
+    "slow_05": 1.9841320510425955,
+    "slow_minus05": 1.952759971752738
+  },
+  "variants": [
+    "association",
+    "association_z",
+    "psychometric_z",
+    "oracle_skill",
+    "oracle_skill_wide3",
+    "independent_200",
+    "independent_800",
+    "independent_3200"
+  ],
+  "scope": "simulated choices only; no empirical outcome access",
+  "independent_measurement": "Idealized fully learned sensory-only logistic mixture, known lapse, estimated bias; no history, equal contrast allocation. Optimistic measurement-information diagnostic.",
+  "seed_rule": "302610280+10000*scenario_index+replicate",
+  "hashes": {
+    "experiments/model.py": "7c052b36833de38a338fbc86b2810b9d332f0282d4f5bb077a7a4f62bba2114c",
+    "experiments/recovery.py": "693dd3f9975b599dbfd035407e481b6eab1b4850e0c304bfeb44d38c9b8f9b9d",
+    "outputs/recovery/final/scenario_definitions.json": "04ef98901ec5c67dfc5186eaa742af415ffb532875abd353969dd7eb7fa05cf4"
+  }
+}

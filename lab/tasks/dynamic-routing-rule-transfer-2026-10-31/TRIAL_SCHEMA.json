@@ -1,0 +1,1430 @@
+{
+  ".zattrs": {
+    "namespace": "core",
+    "neurodata_type": "NWBFile",
+    "nwb_version": "2.7.0",
+    "object_id": "599fb53a-c228-4d43-9a68-0278f76ec675"
+  },
+  "general/subject/.zattrs": {
+    "namespace": "core",
+    "neurodata_type": "Subject",
+    "object_id": "fc975e4f-ae28-42a0-9850-3d4b16c351f6"
+  },
+  "intervals/trials/.zattrs": {
+    "colnames": [
+      "start_time",
+      "stop_time",
+      "quiescent_start_time",
+      "quiescent_stop_time",
+      "stim_start_time",
+      "stim_stop_time",
+      "response_window_start_time",
+      "response_window_stop_time",
+      "task_control_response_time",
+      "response_time",
+      "reward_time",
+      "post_response_window_start_time",
+      "post_response_window_stop_time",
+      "stim_name",
+      "grating_phase",
+      "block_index",
+      "rewarded_modality",
+      "trial_index",
+      "trial_index_in_block",
+      "repeat_index",
+      "is_response",
+      "is_correct",
+      "is_incorrect",
+      "is_hit",
+      "is_false_alarm",
+      "is_correct_reject",
+      "is_miss",
+      "is_go",
+      "is_nogo",
+      "is_rewarded",
+      "is_noncontingent_reward",
+      "is_contingent_reward",
+      "is_reward_scheduled",
+      "is_instruction",
+      "is_aud_stim",
+      "is_vis_stim",
+      "is_catch",
+      "is_target",
+      "is_aud_target",
+      "is_vis_target",
+      "is_nontarget",
+      "is_aud_nontarget",
+      "is_vis_nontarget",
+      "is_vis_rewarded",
+      "is_aud_rewarded",
+      "is_block_switch",
+      "is_repeat",
+      "is_opto",
+      "is_task_control_correct"
+    ],
+    "description": "visual-auditory task-switching behavior trials",
+    "namespace": "core",
+    "neurodata_type": "TimeIntervals",
+    "object_id": "75ebdc83-62fc-463e-b8ba-c7d3af387700"
+  },
+  "intervals/trials/.zgroup": {
+    "zarr_format": 2
+  },
+  "intervals/trials/block_index/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "<i8",
+    "fill_value": 0,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/block_index/.zattrs": {
+    "description": "0-indexed block number, increments with each block",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "b53ac89f-d286-4f95-a406-d71c30023191",
+    "zarr_dtype": "int"
+  },
+  "intervals/trials/grating_phase/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "<f8",
+    "fill_value": 0.0,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/grating_phase/.zattrs": {
+    "description": "the phase of the visual grating shown in units of cycles; randomized over trials; for visual stimuli, this will be 0 or 0.5; for auditory stimuli, this will be nan",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "df613706-cdb7-4409-b319-1bcc800ae10b",
+    "zarr_dtype": "float"
+  },
+  "intervals/trials/id/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "<i8",
+    "fill_value": 0,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/id/.zattrs": {
+    "namespace": "hdmf-common",
+    "neurodata_type": "ElementIdentifiers",
+    "object_id": "9af93acb-c642-45e0-8520-5c935d888b5b",
+    "zarr_dtype": "int64"
+  },
+  "intervals/trials/is_aud_nontarget/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_aud_nontarget/.zattrs": {
+    "description": "an auditory stimulus was presented that the subject should never respond to",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "aa62b1e9-62c6-402f-8e85-80db80281705",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_aud_rewarded/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_aud_rewarded/.zattrs": {
+    "description": "auditory target stimuli are rewarded",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "6a5fb649-a626-48e9-af16-dd14c7b68bb6",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_aud_stim/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_aud_stim/.zattrs": {
+    "description": "an auditory stimulus was presented; includes target and non-target stimuli; includes rewarded and non-rewarded trials; excludes catch trials (no stimulus)",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "3d556f3b-22c5-4892-82bd-9c964a9c2fd2",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_aud_target/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_aud_target/.zattrs": {
+    "description": "an auditory stimulus was presented that the subject should respond to only in a specific block (context)",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "565c8eb2-6cb5-4f0a-b559-486ece857d86",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_block_switch/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_block_switch/.zattrs": {
+    "description": "the first trial with a stimulus after a change in rewarded modality (context)",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "04fd3e61-574c-4709-b353-50d964a7564f",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_catch/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_catch/.zattrs": {
+    "description": "no stimulus was presented",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "89bdcaaf-4fa9-48e0-9176-24689d44e221",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_contingent_reward/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_contingent_reward/.zattrs": {
+    "description": "the subject received a reward for a correct response",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "da9fc23d-1210-4cd8-88db-80a75955d652",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_correct/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_correct/.zattrs": {
+    "description": "the subject acted correctly in the response window, according to its training; includes correct reject for catch trials",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "c085d726-efbf-42d7-b4b6-7a6f806ddb8f",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_correct_reject/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_correct_reject/.zattrs": {
+    "description": "the subject did not respond in a NOGO trial; excludes catch trials",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "b2240a3f-abcf-4727-8159-c1ad9bf6a8b6",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_false_alarm/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_false_alarm/.zattrs": {
+    "description": "the subject responded in a NOGO trial; excludes catch trials",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "4a698073-e0d0-48f9-bbfc-3159defeb835",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_go/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_go/.zattrs": {
+    "description": "condition in which the subject should respond; target stim presented in rewarded block",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "234a8c7b-471a-4eac-83ae-4d4152f259e0",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_hit/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_hit/.zattrs": {
+    "description": "the subject responded in a GO trial",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "3e953fb7-c064-486f-970f-ed48f2209e41",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_incorrect/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_incorrect/.zattrs": {
+    "description": "the subject acted incorrectly in the response window, according to its training; includes false alarm for catch trials",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "6c58ee7f-d0ce-47fa-8199-30c1f5d5f871",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_instruction/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_instruction/.zattrs": {
+    "description": "the stimulus presented was not random, but specifically chosen to inform the subject of a change in the rewarded stimulus modality (context)",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "3833b22e-1492-4a52-92bc-9cc629a17ac9",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_miss/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_miss/.zattrs": {
+    "description": "the subject did not respond in a GO trial",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "56952a6d-e125-48a2-a8bc-96de3c96a742",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_nogo/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_nogo/.zattrs": {
+    "description": "condition in which the subject should not respond; non-target stim presented in any block; target stim presented in non-rewarded block; excludes catch trials",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "d110e6c3-e4ae-415f-b9cf-356d2046f6e9",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_noncontingent_reward/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_noncontingent_reward/.zattrs": {
+    "description": "the subject received a reward that did not depend on its response",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "e218f2a7-9c3b-480d-803b-17304410a7a6",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_nontarget/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_nontarget/.zattrs": {
+    "description": "a stimulus was presented that the subject should never respond to",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "a8ed06da-287b-4947-9320-25dcf1f86e52",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_opto/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_opto/.zattrs": {
+    "description": "optogenetic inactivation was applied during the trial",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "ab39f15c-1339-489e-aa0b-34a09e3993dd",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_repeat/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_repeat/.zattrs": {
+    "description": "the trial is a repetition of the previous trial, due to a miss",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "0146f025-f9b5-49db-bb53-67d5f7e3c8af",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_response/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_response/.zattrs": {
+    "description": "the subject licked one or more times during the response window",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "a822ba09-2fe9-42e9-866b-333ff0c60e5e",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_reward_scheduled/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_reward_scheduled/.zattrs": {
+    "description": "a non-contingent reward was scheduled to occur, regardless of whether it was delivered; the subject may have responded correctly and received a contingent reward instead",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "40f8c1ba-5288-4f6f-a45e-2268c89b6092",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_rewarded/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_rewarded/.zattrs": {
+    "description": "the subject received a reward; includes non-contingent rewards",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "0b39df33-0db7-4c49-94b0-226988dafa51",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_target/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_target/.zattrs": {
+    "description": "a stimulus was presented that the subject should respond to only in a specific block (context)",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "16b08fd6-7508-4bc7-ad43-da697d23b535",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_task_control_correct/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_task_control_correct/.zattrs": {
+    "description": "the task control script interpreted the subject's response correctly; where `False`, other columns describing such as `is_hit` or `is_miss` reflect; may be incorrect due to latencies incurred by hardware or processing; may be incorrect due to bugs in the task control script",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "d8d778d2-66ae-49f1-94bb-d5d52e94dd75",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_vis_nontarget/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_vis_nontarget/.zattrs": {
+    "description": "a visual stimulus was presented that the subject should never respond to",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "ebd08868-2a02-4a6c-be98-4b6ffbf36a3e",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_vis_rewarded/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_vis_rewarded/.zattrs": {
+    "description": "visual target stimuli are rewarded",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "69a3a580-8d27-4857-9c10-20793a732c6f",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_vis_stim/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_vis_stim/.zattrs": {
+    "description": "a visual stimulus was presented; includes target and non-target stimuli; includes rewarded and non-rewarded trials; excludes catch trials (no stimulus)",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "76fc5d79-283d-478b-b95b-853cca588756",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/is_vis_target/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|b1",
+    "fill_value": false,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/is_vis_target/.zattrs": {
+    "description": "a visual stimulus was presented that the subject should respond to only in a specific block (context)",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "51f1de21-06f2-4549-8fa3-410f9b4849c3",
+    "zarr_dtype": "bool"
+  },
+  "intervals/trials/post_response_window_start_time/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "<f8",
+    "fill_value": 0.0,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/post_response_window_start_time/.zattrs": {
+    "description": "start of null interval in which the subject awaits a new trial; may receive a non-contingent reward if scheduled",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "81b0fbd1-918d-43c2-8bfa-3b994a8b02fd",
+    "zarr_dtype": "float"
+  },
+  "intervals/trials/post_response_window_stop_time/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "<f8",
+    "fill_value": 0.0,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/post_response_window_stop_time/.zattrs": {
+    "description": "end of null interval",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "65d25590-48e3-4bc4-9294-3eb29dd3e462",
+    "zarr_dtype": "float"
+  },
+  "intervals/trials/quiescent_start_time/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "<f8",
+    "fill_value": 0.0,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/quiescent_start_time/.zattrs": {
+    "description": "start of pre-stimulus interval in which the subject does not lick; a quiescent interval is enforced before each stimulus presentation; only the last quiescent interval (which was not violated) is included",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "ae33e824-27e2-4442-86c7-a02fb2b895f3",
+    "zarr_dtype": "float"
+  },
+  "intervals/trials/quiescent_stop_time/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "<f8",
+    "fill_value": 0.0,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/quiescent_stop_time/.zattrs": {
+    "description": "end of pre-stimulus interval in which the subject does not lick; not equal to `stim_start_time`, which factors in processing and stimulus device latency",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "a54c9b31-2ca8-41e4-96d6-8704ba13c386",
+    "zarr_dtype": "float"
+  },
+  "intervals/trials/repeat_index/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "<f8",
+    "fill_value": 0.0,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/repeat_index/.zattrs": {
+    "description": "number of times the trial has already been presented in immediately preceding trials; counts repeats due to misses; nan for catch trials",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "4309bfdd-6252-4fae-a9ad-e4c77c023628",
+    "zarr_dtype": "float"
+  },
+  "intervals/trials/response_time/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "<f8",
+    "fill_value": 0.0,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/response_time/.zattrs": {
+    "description": "time of first lick within the response window; nan if no lick occurred; may be nan even if `is_response` is True, for sessions prior to 2023-10-20 (see `task_control_response_time.description`)",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "4e0d94e5-3bc6-45b6-9362-02d8c2bc5609",
+    "zarr_dtype": "float"
+  },
+  "intervals/trials/response_window_start_time/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "<f8",
+    "fill_value": 0.0,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/response_window_start_time/.zattrs": {
+    "description": "start of interval in which the subject should lick if a GO trial, otherwise should not lick",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "5ad95eab-e933-4a4f-a023-2411fff64680",
+    "zarr_dtype": "float"
+  },
+  "intervals/trials/response_window_stop_time/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "<f8",
+    "fill_value": 0.0,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/response_window_stop_time/.zattrs": {
+    "description": "end of interval in which the subject should lick if a GO trial, otherwise should not lick",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "e0571308-b3ec-4efe-ad99-cdef52283e9b",
+    "zarr_dtype": "float"
+  },
+  "intervals/trials/reward_time/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "<f8",
+    "fill_value": 0.0,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/reward_time/.zattrs": {
+    "description": "delivery time of water reward, for contingent and non-contingent rewards",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "3df81f43-8721-49f5-9b7d-197c21397cfb",
+    "zarr_dtype": "float"
+  },
+  "intervals/trials/rewarded_modality/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|O",
+    "fill_value": 0,
+    "filters": [
+      {
+        "id": "vlen-utf8"
+      }
+    ],
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/rewarded_modality/.zattrs": {
+    "description": "indicates the name of the rewarded modality in each block; not an exact correspondence with the values in `stim_name`",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "f236b40b-872e-4298-b6da-7a3ed9742e17",
+    "zarr_dtype": "str"
+  },
+  "intervals/trials/start_time/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "<f8",
+    "fill_value": 0.0,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/start_time/.zattrs": {
+    "description": "Start time of epoch, in seconds",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "ee7109b2-9dd8-43d7-91c4-76a1d69d3c09",
+    "zarr_dtype": "float64"
+  },
+  "intervals/trials/stim_name/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "|O",
+    "fill_value": 0,
+    "filters": [
+      {
+        "id": "vlen-utf8"
+      }
+    ],
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/stim_name/.zattrs": {
+    "description": "the stimulus presented; corresponds to a unique stimulus definition, randomized over trials",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "2e72b075-c1cb-4884-9880-30f3fd5837f5",
+    "zarr_dtype": "str"
+  },
+  "intervals/trials/stim_start_time/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "<f8",
+    "fill_value": 0.0,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/stim_start_time/.zattrs": {
+    "description": "onset of visual or auditory stimulus",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "9cde9a31-61fa-45bb-8c81-a9c4ccc8d46d",
+    "zarr_dtype": "float"
+  },
+  "intervals/trials/stim_stop_time/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "<f8",
+    "fill_value": 0.0,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/stim_stop_time/.zattrs": {
+    "description": "offset of visual or auditory stimulus",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "ab646b49-1007-4ae2-9164-66ab7c0969f7",
+    "zarr_dtype": "float"
+  },
+  "intervals/trials/stop_time/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "<f8",
+    "fill_value": 0.0,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/stop_time/.zattrs": {
+    "description": "Stop time of epoch, in seconds",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "28cae155-7fec-45f4-9d97-2559633bf4ea",
+    "zarr_dtype": "float64"
+  },
+  "intervals/trials/task_control_response_time/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "<f8",
+    "fill_value": 0.0,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/task_control_response_time/.zattrs": {
+    "description": "time of first lick in trial, according to the task control script; a bug present until 2023-10-16 allowed a lick ocurring before `response_window_start_time` to be registered as a response, which then affected trial outcome; values in this column represent the time that the task control script registered as a response (regardless of whether the bug was present or not); nan if the task control script did not register a response",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "5a5ea24a-9d33-4e4c-a1c4-d5b2af4dbfa4",
+    "zarr_dtype": "float"
+  },
+  "intervals/trials/trial_index/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "<i8",
+    "fill_value": 0,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/trial_index/.zattrs": {
+    "description": "0-indexed trial number",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "9d33ef18-8ef6-41f5-98c9-fc36e6d5b539",
+    "zarr_dtype": "int"
+  },
+  "intervals/trials/trial_index_in_block/.zarray": {
+    "chunks": [
+      538
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "lz4",
+      "id": "blosc",
+      "shuffle": 1
+    },
+    "dtype": "<f8",
+    "fill_value": 0.0,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      538
+    ],
+    "zarr_format": 2
+  },
+  "intervals/trials/trial_index_in_block/.zattrs": {
+    "description": "",
+    "namespace": "hdmf-common",
+    "neurodata_type": "VectorData",
+    "object_id": "3e06073a-f3d8-4c38-a352-977ba9f8b045",
+    "zarr_dtype": "float"
+  }
+}

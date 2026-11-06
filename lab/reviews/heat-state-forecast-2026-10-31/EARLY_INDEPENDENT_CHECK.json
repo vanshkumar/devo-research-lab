@@ -1,0 +1,215 @@
+{
+  "at_utc": "2026-10-31T18:10:39.358399+00:00",
+  "method": "independent scalar fsum endpoint loss; author helper not imported",
+  "uids": [
+    "2023-01-10-07",
+    "2023-01-05-18",
+    "2023-01-17-07",
+    "2023-01-16-08",
+    "2023-01-05-01",
+    "2023-01-10-14",
+    "2023-01-09-08"
+  ],
+  "frozen_hashes_verified": {
+    "forecast.py": "3b25d61dfbf82c966b8d5f393e8cee7841fcc623b82c761cff5279cfddced8cd",
+    "prepare.py": "7b37085d94278cccbd3082a077604e7ed365bf50d5adae539b1d626e393b2ac4",
+    "prefix_reader.py": "d9e231701fdc30eecb290be8b694a62f8a33fb311621ffd2a96663d6845a6934",
+    "evaluation.py": "8b2dd26a726dfb09554d9d2d47fa4d8e1eaee328b307e1597d54938b45ce9a9f",
+    "freeze.py": "cb51225dd476be2f365ee0a52e3d94754b107f728ee23eb04a29ad2092067549",
+    "SPLIT.json": "c09603d8d819d6dce78a260d25a221769c800e36cec2fda10a0fd8d7fec7f08a",
+    "PROTOCOL.md": "f61890e48ae068f294f06f64166c3bcd1338f24656601f30c482535f5c0932ec",
+    "ANALYSIS_PLAN.md": "b2ed4df13390c055433b1b05b1166d4ebe678ee798da9dc35a4cd8713ddc5a42",
+    "DEVELOPMENT_RESULT.json": "a02b08de30063b07b5f7b796d82224fab44627a22ab92c440bcabe4d8e089156",
+    "DEVELOPMENT_REVISION.json": "443af67d8001601efdb5c55325e166c19cc1f807399ad67305ac5a52f11d0831",
+    "ADVERSARIAL_DEVELOPMENT.json": "f2e89b396005e294255264e3e47d182d482e1f73b89ca7bc533f15c373285f94",
+    "PREFIX_READER_CONTROL.json": "30f58c98ce01d378e574f136b194f4dd7ba7e72c528510c2fec70c6e86de8d08",
+    "KNOWN_ANSWER_CONTROLS.json": "722e36d4a9c1b9c47113ad2b40d78fcf6a9215fb500da4c3c65fc9af93c97ca4"
+  },
+  "forecast_hash_verified": true,
+  "freeze_hash_verified": true,
+  "recorded_forecast_precedes_all_recorded_numeric_access": true,
+  "chronology_limit": "Saved records and unchanged bytes checked; no external proof of absence of earlier access.",
+  "modalities": {
+    "neural": {
+      "simple_mse": 0.7875653197522389,
+      "state_mse": 0.6872496916029631,
+      "state_fraction_gain": 0.1273743594764104,
+      "paired_difference_bootstrap95": [
+        -0.03567681014680848,
+        0.23751714934256957
+      ],
+      "fraction_gain_bootstrap95": [
+        -0.05518665202889085,
+        0.2584689303899298
+      ],
+      "state_better_animals": 4,
+      "passes_investment_rule": false,
+      "simple_per_animal": [
+        0.781291199129377,
+        0.18894721300652167,
+        0.6039110562588272,
+        1.035069947049971,
+        1.0340539430840887,
+        0.4075853367963549,
+        1.4620985429405313
+      ],
+      "state_per_animal": [
+        0.7063212291759152,
+        0.20419689110541284,
+        0.7852419256767775,
+        0.6519697075784159,
+        0.7207130759375872,
+        0.45639920542960355,
+        1.28590580631703
+      ],
+      "without_named_uid": {
+        "simple_mse": 0.7464838825302639,
+        "state_mse": 0.6816724608805259,
+        "state_fraction_gain": 0.0868222652444346,
+        "paired_difference_bootstrap95": [
+          -0.07197723639374824,
+          0.2139984967037829
+        ],
+        "fraction_gain_bootstrap95": [
+          -0.13516532936245818,
+          0.24428132555875637
+        ],
+        "state_better_animals": 3,
+        "passes_investment_rule": false,
+        "simple_per_animal": [
+          0.781291199129377,
+          0.18894721300652167,
+          0.6039110562588272,
+          1.035069947049971,
+          0.4075853367963549,
+          1.4620985429405313
+        ],
+        "state_per_animal": [
+          0.7063212291759152,
+          0.20419689110541284,
+          0.7852419256767775,
+          0.6519697075784159,
+          0.45639920542960355,
+          1.28590580631703
+        ]
+      },
+      "coverage": [
+        29,
+        23,
+        29,
+        27,
+        27,
+        27,
+        19
+      ]
+    },
+    "behavior": {
+      "simple_mse": 0.03590115403285182,
+      "state_mse": 0.044851504427730074,
+      "state_fraction_gain": -0.24930536736195497,
+      "paired_difference_bootstrap95": [
+        -0.018669111544513308,
+        0.00038364449948339035
+      ],
+      "fraction_gain_bootstrap95": [
+        -0.5218333300127602,
+        0.011126474768612837
+      ],
+      "state_better_animals": 2,
+      "passes_investment_rule": false,
+      "simple_per_animal": [
+        0.018064155201054,
+        0.03242402907544573,
+        0.05413223944929237,
+        0.029701657218214588,
+        0.030415744110725864,
+        0.050220753172960306,
+        0.036349500002269865
+      ],
+      "state_per_animal": [
+        0.013293974057778301,
+        0.06205737747943133,
+        0.05910815713258081,
+        0.046813553243071515,
+        0.032496919011403495,
+        0.0712024897215522,
+        0.028988060348292856
+      ],
+      "without_named_uid": {
+        "simple_mse": 0.03681538901987281,
+        "state_mse": 0.046910601997117836,
+        "state_fraction_gain": -0.2742117697519282,
+        "paired_difference_bootstrap95": [
+          -0.020583679775860595,
+          0.0007608845668940683
+        ],
+        "fraction_gain_bootstrap95": [
+          -0.5779257230555976,
+          0.018033297841730023
+        ],
+        "state_better_animals": 2,
+        "passes_investment_rule": false,
+        "simple_per_animal": [
+          0.018064155201054,
+          0.03242402907544573,
+          0.05413223944929237,
+          0.029701657218214588,
+          0.050220753172960306,
+          0.036349500002269865
+        ],
+        "state_per_animal": [
+          0.013293974057778301,
+          0.06205737747943133,
+          0.05910815713258081,
+          0.046813553243071515,
+          0.0712024897215522,
+          0.028988060348292856
+        ]
+      },
+      "coverage": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    }
+  },
+  "fractional": {
+    "simple_mse": 0.033757530331060374,
+    "state_mse": 0.03291159430603159,
+    "state_fraction_gain": 0.025059179884685978,
+    "paired_difference_bootstrap95": [
+      0.0001932255031015562,
+      0.0015632712381860553
+    ],
+    "fraction_gain_bootstrap95": [
+      0.00619554107758713,
+      0.0463025127509783
+    ],
+    "state_better_animals": 5,
+    "passes_investment_rule": false,
+    "simple_per_animal": [
+      0.023403243144939388,
+      0.02143899298272261,
+      0.027454701685754212,
+      0.037036088961098765,
+      0.03503672966964773,
+      0.03230792751652896,
+      0.05962502835673097
+    ],
+    "state_per_animal": [
+      0.022260531245669932,
+      0.021509351387898477,
+      0.027637418300528006,
+      0.034530312086249,
+      0.03332928672217008,
+      0.03217610560466371,
+      0.058938154795041914
+    ]
+  },
+  "largest_per_animal_loss_disagreement": 2.220446049250313e-16,
+  "joint_rule_passes": false
+}

@@ -1,0 +1,549 @@
+{
+  "subject": "ibl_witten_05",
+  "split": "lab_holdout",
+  "lab": "wittenlab",
+  "rows_read": 2459,
+  "original_provenance": [
+    {
+      "path": "data/sealed/lab_holdout/ibl_witten_05/2019-08-23_002_27667bcd-3efc-4799-8775-3e760c7c819c_table.pqt",
+      "dataset_id": "b98e63f9-f77d-4722-9935-90ac8f0dde96",
+      "session_uuid": "27667bcd-3efc-4799-8775-3e760c7c819c",
+      "date": "2019-08-23",
+      "number": 2,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld5.2.9",
+      "md5": "0f53757bd5ec6646c167da3e30786198",
+      "sha256": "511612580918a46b47c69ae774352eabea74d28fb12de63cbf3288d910833266",
+      "bytes": 55470,
+      "cache_md5": "0f53757bd5ec6646c167da3e30786198",
+      "bounded_rows": 715,
+      "footer_rows": 715,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/lab_holdout/ibl_witten_05/2019-08-23_002_27667bcd-3efc-4799-8775-3e760c7c819c_table.pqt') LIMIT 715"
+    },
+    {
+      "path": "data/sealed/lab_holdout/ibl_witten_05/2019-08-26_001_9098e358-a029-423e-b1d7-edb1ae4340a5_table.pqt",
+      "dataset_id": "ff407d1b-b2e8-4df7-baf5-abc2f5684784",
+      "session_uuid": "9098e358-a029-423e-b1d7-edb1ae4340a5",
+      "date": "2019-08-26",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld5.2.9",
+      "md5": "34ac928ab11f964c98e3db7ab92c5aaf",
+      "sha256": "e0a7f10eddb6ea3c281e97ec608e29604445b2b2afd9668d095886bd293fcdce",
+      "bytes": 49912,
+      "cache_md5": "34ac928ab11f964c98e3db7ab92c5aaf",
+      "bounded_rows": 777,
+      "footer_rows": 777,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/lab_holdout/ibl_witten_05/2019-08-26_001_9098e358-a029-423e-b1d7-edb1ae4340a5_table.pqt') LIMIT 777"
+    },
+    {
+      "path": "data/sealed/lab_holdout/ibl_witten_05/2019-08-27_001_05cab74f-03f6-4e1d-9f66-6531e8e6a32e_table.pqt",
+      "dataset_id": "7d76324a-a2ad-447e-9513-42ae1297ff7d",
+      "session_uuid": "05cab74f-03f6-4e1d-9f66-6531e8e6a32e",
+      "date": "2019-08-27",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld5.2.9",
+      "md5": "336b18a193f6e37f3b41f45c0112da0d",
+      "sha256": "8dc910a10ad213ac5788a7554c301b4771148d187bb55aabc6cbd2377afca255",
+      "bytes": 71378,
+      "cache_md5": "336b18a193f6e37f3b41f45c0112da0d",
+      "bounded_rows": 967,
+      "footer_rows": 967,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/lab_holdout/ibl_witten_05/2019-08-27_001_05cab74f-03f6-4e1d-9f66-6531e8e6a32e_table.pqt') LIMIT 967"
+    }
+  ],
+  "targets_and_counts_equal": true,
+  "prefix_weight_endpoint_max_abs_difference": 2.220446049250313e-15,
+  "prefix_hidden_endpoint_max_abs_difference": 4.440892098500626e-16,
+  "conditional_probability_max_abs_difference": 2.220446049250313e-16,
+  "conditional_weights_max_abs_difference": 2.220446049250313e-15,
+  "conditional_hidden_final_max_abs_difference": 4.3021142204224816e-16,
+  "same_trial_perturbation_probability_difference": 0.0,
+  "omission_weight_hidden_hold_difference": 0.0,
+  "forecast_path": "artifacts/forecasts/rnn_source_labs/ibl_witten_05__rnnglm32.npz",
+  "forecast_sha256": "8e2766b363c9a96d19bc6dc822b0c9c7dbedb670a7cfaca5b6c7a75f576bf79a",
+  "conditional_path": "artifacts/forecasts/rnn_source_labs/ibl_witten_05__rnnglm32__conditional.npz",
+  "conditional_sha256": "7dd216366154e4c9b107a64546660a121a6868af8b9bb64d9a1c9ab9362502fc",
+  "scores": [
+    {
+      "subject": "ibl_witten_05",
+      "split": "lab_holdout",
+      "lab": "wittenlab",
+      "model": "rnnglm32",
+      "arm": "autonomous",
+      "horizon": 1000,
+      "actual_horizon": 1000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.10565424465747257,
+      "crps_by_metric": [
+        0.11073511191781918,
+        0.18267050112987934,
+        0.12899232509784736,
+        0.00021904048434442263
+      ],
+      "mae": 0.1606517882136474,
+      "mae_by_metric": [
+        0.18152900498523117,
+        0.29744338224435846,
+        0.16226562499999989,
+        0.001369140625000001
+      ],
+      "high_accuracy_mae": 0.2394861936147948,
+      "coverage": {
+        "0.5": 0.375,
+        "0.8": 0.5,
+        "0.95": 0.5
+      },
+      "high_coverage": {
+        "0.5": 0.0,
+        "0.8": 0.25,
+        "0.95": 0.25
+      },
+      "width": {
+        "0.5": 0.15410865584597372,
+        "0.8": 0.33102907994754727,
+        "0.95": 0.462920399058773
+      },
+      "energy": 0.4344273809332119,
+      "n_cells": 8,
+      "high_width80": 0.4658581598950944
+    },
+    {
+      "subject": "ibl_witten_05",
+      "split": "lab_holdout",
+      "lab": "wittenlab",
+      "model": "rnnglm32",
+      "arm": "raw_autonomous",
+      "horizon": 1000,
+      "actual_horizon": 1000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.10565424465747257,
+      "crps_by_metric": [
+        0.11073511191781918,
+        0.18267050112987934,
+        0.12899232509784736,
+        0.00021904048434442263
+      ],
+      "mae": 0.1606517882136474,
+      "mae_by_metric": [
+        0.18152900498523117,
+        0.29744338224435846,
+        0.16226562499999989,
+        0.001369140625000001
+      ],
+      "high_accuracy_mae": 0.2394861936147948,
+      "coverage": {
+        "0.5": 0.375,
+        "0.8": 0.5,
+        "0.95": 0.5
+      },
+      "high_coverage": {
+        "0.5": 0.0,
+        "0.8": 0.25,
+        "0.95": 0.25
+      },
+      "width": {
+        "0.5": 0.15410865584597372,
+        "0.8": 0.33102907994754727,
+        "0.95": 0.462920399058773
+      },
+      "energy": 0.4344273809332119,
+      "n_cells": 8,
+      "high_width80": 0.4658581598950944
+    },
+    {
+      "subject": "ibl_witten_05",
+      "split": "lab_holdout",
+      "lab": "wittenlab",
+      "model": "rnnglm32",
+      "arm": "conditional_diagnostic",
+      "horizon": 1000,
+      "actual_horizon": 1000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.03479018407965445,
+      "crps_by_metric": [
+        0.05271303862493497,
+        0.06423092757381982,
+        0.021997729635518597,
+        0.00021904048434442263
+      ],
+      "mae": 0.04227310855907865,
+      "mae_by_metric": [
+        0.06516548388210536,
+        0.07452265347920871,
+        0.028035156250000526,
+        0.001369140625000001
+      ],
+      "high_accuracy_mae": 0.06984406868065704,
+      "coverage": {
+        "0.5": 0.25,
+        "0.8": 0.375,
+        "0.95": 0.5
+      },
+      "high_coverage": {
+        "0.5": 0.0,
+        "0.8": 0.25,
+        "0.95": 0.25
+      },
+      "width": {
+        "0.5": 0.016551396724585672,
+        "0.8": 0.03387669316057106,
+        "0.95": 0.05130548085548253
+      },
+      "energy": 0.13894632297418769,
+      "n_cells": 8,
+      "high_width80": 0.05075338632114212,
+      "binary_nll": 0.17938358584663455,
+      "static_prefix_binary_nll": 0.5015719870139529,
+      "conditional_nll_gain_over_static": 0.32218840116731834
+    },
+    {
+      "subject": "ibl_witten_05",
+      "split": "lab_holdout",
+      "lab": "wittenlab",
+      "model": "rnnglm32",
+      "arm": "autonomous",
+      "horizon": 3000,
+      "actual_horizon": 1000,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.10565424465747257,
+      "crps_by_metric": [
+        0.11073511191781918,
+        0.18267050112987934,
+        0.12899232509784736,
+        0.00021904048434442263
+      ],
+      "mae": 0.1606517882136474,
+      "mae_by_metric": [
+        0.18152900498523117,
+        0.29744338224435846,
+        0.16226562499999989,
+        0.001369140625000001
+      ],
+      "high_accuracy_mae": 0.2394861936147948,
+      "coverage": {
+        "0.5": 0.375,
+        "0.8": 0.5,
+        "0.95": 0.5
+      },
+      "high_coverage": {
+        "0.5": 0.0,
+        "0.8": 0.25,
+        "0.95": 0.25
+      },
+      "width": {
+        "0.5": 0.15410865584597372,
+        "0.8": 0.33102907994754727,
+        "0.95": 0.462920399058773
+      },
+      "energy": 0.4344273809332119,
+      "n_cells": 8,
+      "high_width80": 0.4658581598950944
+    },
+    {
+      "subject": "ibl_witten_05",
+      "split": "lab_holdout",
+      "lab": "wittenlab",
+      "model": "rnnglm32",
+      "arm": "raw_autonomous",
+      "horizon": 3000,
+      "actual_horizon": 1000,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.10565424465747257,
+      "crps_by_metric": [
+        0.11073511191781918,
+        0.18267050112987934,
+        0.12899232509784736,
+        0.00021904048434442263
+      ],
+      "mae": 0.1606517882136474,
+      "mae_by_metric": [
+        0.18152900498523117,
+        0.29744338224435846,
+        0.16226562499999989,
+        0.001369140625000001
+      ],
+      "high_accuracy_mae": 0.2394861936147948,
+      "coverage": {
+        "0.5": 0.375,
+        "0.8": 0.5,
+        "0.95": 0.5
+      },
+      "high_coverage": {
+        "0.5": 0.0,
+        "0.8": 0.25,
+        "0.95": 0.25
+      },
+      "width": {
+        "0.5": 0.15410865584597372,
+        "0.8": 0.33102907994754727,
+        "0.95": 0.462920399058773
+      },
+      "energy": 0.4344273809332119,
+      "n_cells": 8,
+      "high_width80": 0.4658581598950944
+    },
+    {
+      "subject": "ibl_witten_05",
+      "split": "lab_holdout",
+      "lab": "wittenlab",
+      "model": "rnnglm32",
+      "arm": "conditional_diagnostic",
+      "horizon": 3000,
+      "actual_horizon": 1000,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.03479018407965445,
+      "crps_by_metric": [
+        0.05271303862493497,
+        0.06423092757381982,
+        0.021997729635518597,
+        0.00021904048434442263
+      ],
+      "mae": 0.04227310855907865,
+      "mae_by_metric": [
+        0.06516548388210536,
+        0.07452265347920871,
+        0.028035156250000526,
+        0.001369140625000001
+      ],
+      "high_accuracy_mae": 0.06984406868065704,
+      "coverage": {
+        "0.5": 0.25,
+        "0.8": 0.375,
+        "0.95": 0.5
+      },
+      "high_coverage": {
+        "0.5": 0.0,
+        "0.8": 0.25,
+        "0.95": 0.25
+      },
+      "width": {
+        "0.5": 0.016551396724585672,
+        "0.8": 0.03387669316057106,
+        "0.95": 0.05130548085548253
+      },
+      "energy": 0.13894632297418769,
+      "n_cells": 8,
+      "high_width80": 0.05075338632114212,
+      "binary_nll": 0.17938358584663455,
+      "static_prefix_binary_nll": 0.5015719870139529,
+      "conditional_nll_gain_over_static": 0.32218840116731834
+    },
+    {
+      "subject": "ibl_witten_05",
+      "split": "lab_holdout",
+      "lab": "wittenlab",
+      "model": "rnnglm32",
+      "arm": "autonomous",
+      "horizon": 5000,
+      "actual_horizon": 1000,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.10565424465747257,
+      "crps_by_metric": [
+        0.11073511191781918,
+        0.18267050112987934,
+        0.12899232509784736,
+        0.00021904048434442263
+      ],
+      "mae": 0.1606517882136474,
+      "mae_by_metric": [
+        0.18152900498523117,
+        0.29744338224435846,
+        0.16226562499999989,
+        0.001369140625000001
+      ],
+      "high_accuracy_mae": 0.2394861936147948,
+      "coverage": {
+        "0.5": 0.375,
+        "0.8": 0.5,
+        "0.95": 0.5
+      },
+      "high_coverage": {
+        "0.5": 0.0,
+        "0.8": 0.25,
+        "0.95": 0.25
+      },
+      "width": {
+        "0.5": 0.15410865584597372,
+        "0.8": 0.33102907994754727,
+        "0.95": 0.462920399058773
+      },
+      "energy": 0.4344273809332119,
+      "n_cells": 8,
+      "high_width80": 0.4658581598950944
+    },
+    {
+      "subject": "ibl_witten_05",
+      "split": "lab_holdout",
+      "lab": "wittenlab",
+      "model": "rnnglm32",
+      "arm": "raw_autonomous",
+      "horizon": 5000,
+      "actual_horizon": 1000,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.10565424465747257,
+      "crps_by_metric": [
+        0.11073511191781918,
+        0.18267050112987934,
+        0.12899232509784736,
+        0.00021904048434442263
+      ],
+      "mae": 0.1606517882136474,
+      "mae_by_metric": [
+        0.18152900498523117,
+        0.29744338224435846,
+        0.16226562499999989,
+        0.001369140625000001
+      ],
+      "high_accuracy_mae": 0.2394861936147948,
+      "coverage": {
+        "0.5": 0.375,
+        "0.8": 0.5,
+        "0.95": 0.5
+      },
+      "high_coverage": {
+        "0.5": 0.0,
+        "0.8": 0.25,
+        "0.95": 0.25
+      },
+      "width": {
+        "0.5": 0.15410865584597372,
+        "0.8": 0.33102907994754727,
+        "0.95": 0.462920399058773
+      },
+      "energy": 0.4344273809332119,
+      "n_cells": 8,
+      "high_width80": 0.4658581598950944
+    },
+    {
+      "subject": "ibl_witten_05",
+      "split": "lab_holdout",
+      "lab": "wittenlab",
+      "model": "rnnglm32",
+      "arm": "conditional_diagnostic",
+      "horizon": 5000,
+      "actual_horizon": 1000,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.03479018407965445,
+      "crps_by_metric": [
+        0.05271303862493497,
+        0.06423092757381982,
+        0.021997729635518597,
+        0.00021904048434442263
+      ],
+      "mae": 0.04227310855907865,
+      "mae_by_metric": [
+        0.06516548388210536,
+        0.07452265347920871,
+        0.028035156250000526,
+        0.001369140625000001
+      ],
+      "high_accuracy_mae": 0.06984406868065704,
+      "coverage": {
+        "0.5": 0.25,
+        "0.8": 0.375,
+        "0.95": 0.5
+      },
+      "high_coverage": {
+        "0.5": 0.0,
+        "0.8": 0.25,
+        "0.95": 0.25
+      },
+      "width": {
+        "0.5": 0.016551396724585672,
+        "0.8": 0.03387669316057106,
+        "0.95": 0.05130548085548253
+      },
+      "energy": 0.13894632297418769,
+      "n_cells": 8,
+      "high_width80": 0.05075338632114212,
+      "binary_nll": 0.17938358584663455,
+      "static_prefix_binary_nll": 0.5015719870139529,
+      "conditional_nll_gain_over_static": 0.32218840116731834
+    }
+  ],
+  "numerical_differences": [
+    {
+      "arm": "autonomous",
+      "horizon": 1000,
+      "crps": 0.0,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "raw_autonomous",
+      "horizon": 1000,
+      "crps": 0.0,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "conditional_diagnostic",
+      "horizon": 1000,
+      "crps": 2.7755575615628914e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0,
+      "binary_nll": 0.0
+    },
+    {
+      "arm": "autonomous",
+      "horizon": 3000,
+      "crps": 0.0,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "raw_autonomous",
+      "horizon": 3000,
+      "crps": 0.0,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "conditional_diagnostic",
+      "horizon": 3000,
+      "crps": 2.7755575615628914e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0,
+      "binary_nll": 0.0
+    },
+    {
+      "arm": "autonomous",
+      "horizon": 5000,
+      "crps": 0.0,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "raw_autonomous",
+      "horizon": 5000,
+      "crps": 0.0,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "conditional_diagnostic",
+      "horizon": 5000,
+      "crps": 2.7755575615628914e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0,
+      "binary_nll": 0.0
+    }
+  ]
+}

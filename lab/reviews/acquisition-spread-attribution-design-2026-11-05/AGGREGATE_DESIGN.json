@@ -1,0 +1,155 @@
+{
+  "input_sources": {
+    "old": "../acquisition-calibration-envelope-2026-11-05/CALCULATIONS.json, actual_matching aggregates",
+    "later": "../independent-confirmation-result-2026-11-05/REVIEW.md, rounded aggregates"
+  },
+  "old_aggregates": {
+    "recent100": {
+      "M": 0.031705649496248836,
+      "V": 0.02012864687544292,
+      "B": 0.019664138758065,
+      "S": 0.14730543963821832
+    },
+    "GRU975": {
+      "M": 0.03555914464527628,
+      "V": 0.005782112182309936,
+      "B": 0.0077047725031700485,
+      "S": 0.13681240009411277
+    }
+  },
+  "later_aggregates": {
+    "recent100": {
+      "B": 0.025057,
+      "S": 0.161386,
+      "bias": -0.04149
+    },
+    "GRU975": {
+      "B": 0.013171,
+      "S": 0.137402,
+      "bias": 0.00652
+    }
+  },
+  "material_gain": 0.006049,
+  "old_pooling": {
+    "recent100": {
+      "weight": 0.5115384834423377,
+      "full_pool_gain": 0.0004645081173779188,
+      "best_constant_weight_gain": 0.005267095637160288
+    },
+    "GRU975": {
+      "weight": 0.3337406591018427,
+      "full_pool_gain": -0.0019226603208601124,
+      "best_constant_weight_gain": 0.0006440280040060488
+    }
+  },
+  "later_recent100_V_gate_oracle": 0.02476888285244555,
+  "later_recent100_V_gate_old_weight": 0.024778680446441638,
+  "later_recent100_gain_at_old_V": 0.002508439576045898,
+  "later_V_ratio_gate_for_positive_equal_V_rich_case_term": 3.619267195599399,
+  "opposed_population_laws": {
+    "low_gain": {
+      "support": [
+        0.32950999999999997,
+        0.87551
+      ],
+      "target_variation": 0.1365,
+      "actors": {
+        "recent100": {
+          "V": 0.02173321593406593,
+          "M": 0.0031527840659340673,
+          "B": 0.02505700000000001,
+          "raw": 0.136329,
+          "probabilities_of_upper_atom": [
+            0.18395840664630783,
+            0.5722796885917873,
+            0.27574228943019063,
+            0.6640635713756702
+          ],
+          "source_weight_gain": 0.003730167036658988,
+          "oracle_gain": 0.0038984932411241257
+        },
+        "GRU975": {
+          "V": 0.0008241421245421105,
+          "M": 7.785787545787607e-05,
+          "B": 0.013170999999999995,
+          "raw": 0.124231,
+          "probabilities_of_upper_atom": [
+            0.4573635890888153,
+            0.5182737735485475,
+            0.5056090103342366,
+            0.5665191947939687
+          ],
+          "source_weight_gain": -0.003937394029478278,
+          "oracle_gain": -0.0
+        }
+      },
+      "matched_weight_residual": 0.004430438933862734,
+      "equal_variation_rich_case_advantage": 0.008291580787072612
+    },
+    "high_gain": {
+      "support": [
+        0.35251,
+        0.85251
+      ],
+      "target_variation": 0.125,
+      "actors": {
+        "recent100": {
+          "V": 0.032943159799999996,
+          "M": 0.0034428402000000044,
+          "B": 0.025056999999999996,
+          "raw": 0.136329,
+          "probabilities_of_upper_atom": [
+            0.11516226799461321,
+            0.6186497320053868,
+            0.2153902679946132,
+            0.7188777320053867
+          ],
+          "source_weight_gain": 0.012265478233981997,
+          "oracle_gain": 0.012650830620981783
+        },
+        "GRU975": {
+          "V": 0.012316979199999998,
+          "M": 8.502080000000068e-05,
+          "B": 0.013170999999999988,
+          "raw": 0.12423100000000004,
+          "probabilities_of_upper_atom": [
+            0.3319722508953343,
+            0.6414237491046659,
+            0.38465625089533423,
+            0.6941077491046659
+          ],
+          "source_weight_gain": 0.0024537553216535946,
+          "oracle_gain": 0.0026670381825466276
+        }
+      },
+      "matched_weight_residual": 0.002286277087671597,
+      "equal_variation_rich_case_advantage": -0.0021504035123260917
+    }
+  },
+  "equal_covariance_control": {
+    "ordinary": {
+      "V": 0.17,
+      "M": 0.0,
+      "B": 0.09999999999999999,
+      "raw": 0.32000000000000006,
+      "identity_gain": 0.0,
+      "full_pool_gain": 0.07000000000000002
+    },
+    "rich": {
+      "V": 0.010000000000000002,
+      "M": 0.0025000000000000044,
+      "B": 0.1,
+      "raw": 0.16249999999999998,
+      "identity_gain": -0.0,
+      "full_pool_gain": -0.09
+    }
+  },
+  "working_ICC_effective_n_uppers": {
+    "0.01": 132.05330276543916,
+    "0.05": 58.71933736858872
+  },
+  "process_usage": {
+    "cpu_seconds_at_report": 0.038806999999999994,
+    "peak_rss_bytes_at_report_on_darwin": 10747904
+  }
+}

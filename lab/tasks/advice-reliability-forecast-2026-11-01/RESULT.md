@@ -1,0 +1,31 @@
+# Adviser reliability: little extra forecast utility beyond simple histories
+
+The source-fixed precision-index forecast **fails the frozen joint utility rule**. On23held people/5,794observed primary revisions it improves circular MSE6.52%over current gap/confidence, but only0.36%over strong feedback/behavior histories. The latter95%conditional person-bootstrap interval is[−0.083%,0.760%], below the required5%point gain and spanning zero. This is a fixed-recipe utility failure, not absent/equal human reliability learning.
+
+**Author status:** comparison, controls and within-author numerical audit completed; distinct independent review PENDING. Process validation is PARTIAL: conservative read allowance330MBexceeds300MBcap; exact failed-prefix/physical I/O totals are unknown, so compliance is UNCERTIFIED. Repeated per-stage input hashing was omitted from initial accounting. Science stopped when closeout recognized this; no further repair/rerun. [RESOURCES](RESOURCES.json).
+
+| Source-fixed forecast | Equal-person MSE, degrees² | MAE, degrees |
+|---|---:|---:|
+| No revision N |909.938|15.393|
+| Common proportional weight F |589.819|13.616|
+| Current gap/confidence B |504.209|11.863|
+| Feedback and own-behavior histories H |473.066|11.397|
+| H plus nonlinear precision index P |471.347|11.385|
+
+P's adviser-directed residual is−0.978degrees,95%interval[−2.244,0.240], passing±3degree calibration. Its precision coefficient is positive. These do not rescue the failed increment over H. H already uses cumulative/recency adviser and own errors/accuracy/confidence plus prior expressed advice-use slopes. It has the same primitive feedback as P. Source-only selected penalties are.01/.1/.1for B/H/P; common source weight.40530047. [SCORES](SCORES.json), [SOURCE_FITS](SOURCE_FITS.json).
+
+The original-event gate joined participant3's378rows. Trial2's22.2448degree advice gap led to an8.6719degree revision toward advice after one earlier adviser error. Execution completed10:50:10Zbefore11:03Z; initial design passed10:54:34Zbefore11:13Z. The published-linked Experiment1workbook has47two-session completers,7advisers×54trials. All people, including the author's low-performance exclusion, were retained. First18trials/block inform histories;19–54are primary. Exact24source/23evaluation IDs were selected from metadata before source fitting. Adviser attributes are learned via post-choice feedback in this experiment. [FIRST_DATA_CHECK](FIRST_DATA_CHECK.json), [DESIGN_GATE](DESIGN_GATE.json), [PROTOCOL](PROTOCOL.md), [SOURCES](SOURCES.json).
+
+The important failed check was **our XLSX reader**, not demonstrated source corruption. A numeric-only reader misread shared-string indices4/12as4degrees/keep_flag12, creating a false contradiction and stopping first prediction generation. Correct decoding finds five missing initial judgments and one overlapping missing final judgment, all in13; two primary revisions are unavailable. Finite errors agree with accuracy flags. The ONE prescoring amendment retains every person/event, scores observable revisions and updates historical components from available preceding observations. No values were imputed. Every source feature/target agrees exactly, so source fits were reused unchanged. All evaluation numeric rows had been audited by then: this is a postfreeze, prescoring amendment, not pristine untouched acquisition. [AMENDMENT_1](AMENDMENT_1.md), [TYPED_MEASUREMENT_AUDIT](TYPED_MEASUREMENT_AUDIT.json), [SOURCE_FEATURE_EQUIVALENCE](SOURCE_FEATURE_EQUIVALENCE.json). MEASUREMENT_AUDIT.json, THRESHOLD_FIRST_MISMATCH.json and audited_original_rows.json retain INVALID earlier interpretations; do not cite them as source contradictions.
+
+Predictions were saved11:13:01.866Zbefore scores11:13:01.981Z. [Original freeze](FREEZE.json), [amended freeze](FREEZE_v2.json), [prediction pins](PREDICTIONS_PIN.json). Ordering/pins are consistent records, not independent proof of historical nonaccess.
+
+Contrary checks retain failure: all23person-deletion joint rules fail; all54trials leave onlyabout0.42%P-over-Hgain; equal-person linear scoring of wrapped revisions matches circular MSE here. In100source-person resamples, grouped duplicate identities repeat standardization/penalty selection: P-over-Hpercentiles[−0.234%,0.361%,0.612%], maximum1.172%,0/100reach5%. Paired source/evaluation percentiles[−0.588%,0.370%,0.915%]. These finite instability diagnostics are not coverage/equivalence certificates. [SOURCE_UNCERTAINTY](SOURCE_UNCERTAINTY.json), [FINAL_AUDIT](FINAL_AUDIT.json).
+
+The complete rule passes100/100large-signal controls and0/100nulls with source-label refitting/grouped selection. Nominal20%source scaling gives actual evaluation oracle-gain percentiles26.1/28.3/30.4%. Controls fix observed feature histories; they do not regenerate feedback/behavior or establish5%boundary power/coverage. [CONTROLS](CONTROLS.json).
+
+Augmented least squares reproduces all360source-selection folds/selected penalties, full coefficients within7.55e−14and every forecast within3.61e−15normalized units. Person scores/intervals match exactly. Two saved full control examples independently refit/predict within1.62e−13;198other independent control refits and100independent source-bootstrap replays are UNRUN. This is within-author verification, not distinct review. [FINAL_AUDIT](FINAL_AUDIT.json).
+
+Closest work already treats feedback learning/normative trial-level advice; the inspected Pescetelli/Yeung2019preprint compares post-advice confidence predictions. No first-learning/prediction novelty is claimed. Raw clicks/absolute stimulus angles/acquisition clocks and IDT practice are absent from this export; omission causes are uncertified. External-file licensing remains null/unverified despite articleCC-BY4. All47people's original numeric responses plus auxiliary audit exposure are consumed; protected/old payloads remain untouched.
+
+Recommendation: one fresh distinct review, especially typed-XLSX/missing-history/source-estimation reconstruction, then bank/close this precision recipe if confirmed. Do not tune on these evaluation people or infer absent learning/unique latent trust. Same continuing-lab authorization/heartbeat unaffected; no scientific jobs remain.

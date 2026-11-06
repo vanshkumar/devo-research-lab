@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "inspected": "Development outcomes only; no validation or raw CSV access",
+  "development_subjects": 41,
+  "model_sha256": "b4226924dfe4702620c303642cb4988057d76a41d006d908023675b9a1e91a9f",
+  "checks": [
+    "explicit lag sum matches all recursive histories",
+    "previous-choice extraction",
+    "prefix truncation invariance",
+    "current/future choice and feedback invariance",
+    "hidden label removal invariance",
+    "two-start convex MAP agreement",
+    "adaptive quadrature matches Gauss-Hermite"
+  ],
+  "numerical": {
+    "shared": {
+      "max_gradient": 5.046935855434337e-05,
+      "second_start_max_gradient": 0.0002982959990142989,
+      "objective_difference": 1.1186784831807017e-10,
+      "max_probability_difference": 1.710371843821612e-06,
+      "max_quadrature_error": 1.4665348213593887e-08,
+      "n_fixed": 63,
+      "n_random_per_person": 5
+    },
+    "condition": {
+      "max_gradient": 3.868279944229183e-05,
+      "second_start_max_gradient": 3.5098675040340366e-05,
+      "objective_difference": 3.637978807091713e-12,
+      "max_probability_difference": 1.0842268018951273e-06,
+      "max_quadrature_error": 5.868920743834494e-08,
+      "n_fixed": 66,
+      "n_random_per_person": 5
+    }
+  }
+}

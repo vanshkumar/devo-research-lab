@@ -1,0 +1,125 @@
+{
+  "timestamp_utc": "2026-11-01T10:24:47.927169+00:00",
+  "kind": "source-support inventory audit ONLY",
+  "native_source_pin_checks": [
+    {
+      "url": "https://s3.amazonaws.com/openneuro.org?prefix=ds001612/&max-keys=1000",
+      "final_url": "https://s3.amazonaws.com/openneuro.org?prefix=ds001612/&max-keys=1000",
+      "status": 200,
+      "bytes": 58649,
+      "sha256": "9238183472aabc875a56cd4a97d391d8de93c01259991265939270c61e74a7e8"
+    },
+    {
+      "url": "https://api.github.com/repos/OpenNeuroDatasets/ds001612/tags",
+      "final_url": "https://api.github.com/repos/OpenNeuroDatasets/ds001612/tags",
+      "status": 200,
+      "bytes": 1318,
+      "sha256": "cb5d4cadfc959f5fb370ce554fcd4252aa42066a2e6143f0dcaa56716cd96de1"
+    },
+    {
+      "url": "https://api.github.com/repos/OpenNeuroDatasets/ds001612/git/trees/0d6fddd94d2ae17e74e69766c64417a1e2b353f9?recursive=1",
+      "final_url": "https://api.github.com/repos/OpenNeuroDatasets/ds001612/git/trees/0d6fddd94d2ae17e74e69766c64417a1e2b353f9?recursive=1",
+      "status": 200,
+      "bytes": 60367,
+      "sha256": "b12605811a1ece40d129f29a6217c5c823be5b296498f3c761254a54e738ecf3"
+    },
+    {
+      "url": "https://api.github.com/repos/OpenNeuroDatasets/ds001612/git/trees/master?recursive=1",
+      "final_url": "https://api.github.com/repos/OpenNeuroDatasets/ds001612/git/trees/master?recursive=1",
+      "status": 200,
+      "bytes": 60368,
+      "sha256": "6b208240813b9cb04c2bff0b04e4c180fd52f1498e8bfdfe141d6cb53559f27a"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6941356/",
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6941356/",
+      "status": 200,
+      "bytes": 259303,
+      "sha256": "b2ff0cec91e574b7cc762c31551263d2660f3f96dc9b8df0b5f12bc6134a775e"
+    },
+    {
+      "url": "https://elifesciences.org/articles/32548",
+      "final_url": "https://elifesciences.org/articles/32548",
+      "status": 200,
+      "bytes": 417065,
+      "sha256": "3c34ab202274c3c27bf29dffd90da29c97ab78a32d796871a71f3d3681ec4b97"
+    },
+    {
+      "url": "https://api.github.com/repos/idamomen/predictive_representations/git/trees/master?recursive=1",
+      "final_url": "https://api.github.com/repos/idamomen/predictive_representations/git/trees/master?recursive=1",
+      "status": 200,
+      "bytes": 2939,
+      "sha256": "5061b7f1830d4149b8d8c8e5c01607052a21223932a979669bfbfa3f6645415d"
+    }
+  ],
+  "connector_original_blob_checks": [
+    {
+      "file": "original-2017-README.md",
+      "original_git_blob_sha": "b12bcbe890facffef6028315c0e11065d3058aad",
+      "sha256": "4bd189e13638e56d3412778abf1e973cddb3a13239c739b90b8b8bb4ba858ebd",
+      "bytes": 976
+    },
+    {
+      "file": "SRDyna_NatHumBeh_Exp1_learning.ipynb",
+      "original_git_blob_sha": "6c202470eb63a4d31fdbe8634a15835296164132",
+      "sha256": "c3eb5746018a012959610a6409788a97aeaacd35d3fcc63992203c6be0d6f0cf",
+      "bytes": 321616,
+      "cells": 17,
+      "code_cells": 10,
+      "external_data_read_tokens_present": false,
+      "source_type": "simulation notebook, not participant event record",
+      "outputs": "acquired and JSON-decoded auxiliary, not rendered/interpreted as measurements"
+    },
+    {
+      "file": "SRonly_learner_NatHumBeh_Exp1.ipynb",
+      "original_git_blob_sha": "af285d791c2b00d77862801665cdd43d79bb1275",
+      "sha256": "10f8f39734ceb457e5130c6de9b0abac78f8abdc55aa72a7da4472d80dd1ca38",
+      "bytes": 244794,
+      "cells": 12,
+      "code_cells": 8,
+      "external_data_read_tokens_present": false,
+      "source_type": "simulation notebook, not participant event record",
+      "outputs": "acquired and JSON-decoded auxiliary, not rendered/interpreted as measurements"
+    },
+    {
+      "file": "dataset_description.json",
+      "original_git_blob_sha": "0b651c53bb32e2be623c2763bc024ad71073103d",
+      "sha256": "4b249ff9def1297178cd510c518de5b1eb319ca3a1758ce516fc74f72fa2571a",
+      "bytes": 432
+    },
+    {
+      "file": "original-CHANGES.txt",
+      "original_git_blob_sha": "8fb94b5ad96abd90594a33750e5161995fa9498c",
+      "sha256": "c538c01cd31c6d9c85003d7e0c08340900c731f7389702d32960e768abf007e4",
+      "bytes": 136
+    }
+  ],
+  "versions": {
+    "1.0.0": "0d6fddd94d2ae17e74e69766c64417a1e2b353f9",
+    "1.0.2": "7947228155bc5550c0866b87825c6b5d78732c54",
+    "identical_path_sets": true
+  },
+  "openneuro_counts": {
+    "git_entries_each": 244,
+    "git_blobs_each": 171,
+    "imaging_links_each": 164,
+    "non_imaging_git_blobs_each": 7,
+    "s3_objects": 172,
+    "s3_imaging_objects": 164,
+    "s3_other_objects": 8,
+    "s3_listed_payload_bytes_NOT_acquired": 9762892403,
+    "event_tsv_csv_mat_files": 0
+  },
+  "family1_repository": {
+    "sha": "93eaa8e7a43052aa9866db6d7f5a5aff263ecebd",
+    "files": 11,
+    "notebook_data_read_tokens_absent": true
+  },
+  "original_participant_histories_acquired": 0,
+  "original_acquisition_change_first_probe_calculation": "UNRUN: no linked original behavioral event object certified",
+  "first_data_gate": "FAILED, not earned by inventory arithmetic",
+  "design_gate": "CLOSE source allocation: missing original event-linked choices/rewards/transition information",
+  "model_fit_predictions_scores_controls": "UNRUN",
+  "max_rss_bytes": 17694720,
+  "scientific_jobs_remaining": 0
+}

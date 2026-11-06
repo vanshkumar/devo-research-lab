@@ -1,0 +1,48 @@
+{
+  "utc": "2026-11-05T17:05:13.495178+00:00",
+  "source": "https://ibl-brain-wide-map-public.s3.amazonaws.com/caches/openalyx/cache.zip",
+  "archive_bytes": 16421204,
+  "etag": "\"542e4cdf90999932e8c39d8593a80077-2\"",
+  "entries": [
+    {
+      "name": "sessions.pqt",
+      "offset": 0,
+      "compressed_bytes": 437769,
+      "decoded_bytes": 559638,
+      "compression": 8,
+      "crc32": 1534484380,
+      "sha256": "7dfd141f23d107d8ca86d7a97eb149119d5da7cfc96b4bd7df6aa007635da459"
+    },
+    {
+      "name": "datasets.pqt",
+      "offset": 437811,
+      "compressed_bytes": 13482647,
+      "decoded_bytes": 17147008,
+      "compression": 8,
+      "crc32": 3238444090,
+      "sha256": "26fe0c2bcb4975176685a78f8256519ed644748665ae49a32dd7b3f68dd45185"
+    },
+    {
+      "name": "QC.json",
+      "offset": 13920500,
+      "compressed_bytes": 2500229,
+      "decoded_bytes": 22332958,
+      "compression": 8,
+      "crc32": 776864726
+    },
+    {
+      "name": "cache_info.json",
+      "offset": 16420766,
+      "compressed_bytes": 141,
+      "decoded_bytes": 217,
+      "compression": 8,
+      "crc32": 3400586128
+    }
+  ],
+  "excluded": "QC.json is not acquired in full or decoded; tail includes only an opaque end fragment from compressed cache_info.json plus central metadata. No trial data.",
+  "explicit_read_bytes": 13990140,
+  "decoded_metadata_bytes": 17706646,
+  "cpu_seconds": 0.046145000000000005,
+  "process_wall_seconds": 0.046742083,
+  "peak_rss_bytes": 60178432
+}

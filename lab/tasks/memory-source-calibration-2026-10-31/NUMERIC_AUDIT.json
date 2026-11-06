@@ -1,0 +1,67 @@
+{
+  "utc": "2026-10-31T18:47:50.424306+00:00",
+  "checks_passed": true,
+  "known_warning": "NumPy2.0.2 macOS finite matmul divide/overflow/invalid warnings",
+  "source_fit_refits_replay_max_abs_parameter_error": 0.0,
+  "models": [
+    {
+      "model": 0,
+      "Hgg_Hgj_Hjj_Schur_max_abs_errors": [
+        4.547473508864641e-13,
+        0.0,
+        0.0,
+        4.547473508864641e-13
+      ],
+      "finite_difference_direction_errors": [
+        7.2772416821959354e-09,
+        1.4431752489016056e-09,
+        3.4887521976423395e-09,
+        6.124125510311926e-09,
+        1.0757752559993833e-09
+      ],
+      "regular_vs_explicit_solve_max_abs_errors": [
+        3.3881317890172014e-21,
+        3.3881317890172014e-21,
+        6.776263578034403e-21,
+        1.6940658945086007e-21,
+        3.3881317890172014e-21
+      ],
+      "min_Schur_eigenvalue": 172.09594658429606,
+      "min_item_Hessian_diagonal": 64.00874854687144,
+      "all_values_finite": true
+    },
+    {
+      "model": 1,
+      "Hgg_Hgj_Hjj_Schur_max_abs_errors": [
+        1.8189894035458565e-12,
+        0.0,
+        0.0,
+        1.8189894035458565e-12
+      ],
+      "finite_difference_direction_errors": [
+        2.0281585713394917e-08,
+        1.8917357450215066e-08,
+        1.092041429533912e-09,
+        3.34305535679277e-09,
+        1.0150130295722565e-09
+      ],
+      "regular_vs_explicit_solve_max_abs_errors": [
+        1.3552527156068805e-20,
+        7.623296525288703e-21,
+        6.776263578034403e-21,
+        6.776263578034403e-21,
+        7.623296525288703e-21
+      ],
+      "min_Schur_eigenvalue": 124.42168212606002,
+      "min_item_Hessian_diagonal": 64.01036707127999,
+      "all_values_finite": true
+    }
+  ],
+  "new_raw_answer_reads": 0,
+  "frozen_science_or_threshold_changes": false,
+  "runtime_versions": {
+    "python": "3.9.6 (default, Oct 19 2026, 19:18:13) \n[Clang 21.0.0 (clang-2100.4.1.1)]",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1"
+  }
+}

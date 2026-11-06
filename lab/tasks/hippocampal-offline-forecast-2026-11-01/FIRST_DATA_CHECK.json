@@ -1,0 +1,169 @@
+{
+  "calculated_at": "2026-11-01T05:48:56.863833+00:00",
+  "status": "PARTIAL_SOURCE_SUPPORT_ONLY; required linked neural-performance milestone NOT earned",
+  "families_deliberately_targeted": [
+    "hc-3",
+    "hc-11/Grosmark"
+  ],
+  "cells": 7736,
+  "animals": 11,
+  "all_session_rows": 1538,
+  "listed_payload_sessions": 442,
+  "spike_count_rows": 104196,
+  "all_count_identity_joins_pass": true,
+  "behavior_support": {
+    "Mwheel": {
+      "all_sessions": 89,
+      "listed_payloads": 89
+    },
+    "Open": {
+      "all_sessions": 3,
+      "listed_payloads": 3
+    },
+    "Tmaze": {
+      "all_sessions": 6,
+      "listed_payloads": 6
+    },
+    "ZigZag": {
+      "all_sessions": 1,
+      "listed_payloads": 1
+    },
+    "bigSquare": {
+      "all_sessions": 112,
+      "listed_payloads": 91
+    },
+    "bigSquarePlus": {
+      "all_sessions": 2,
+      "listed_payloads": 2
+    },
+    "linear": {
+      "all_sessions": 127,
+      "listed_payloads": 119
+    },
+    "linearOne": {
+      "all_sessions": 8,
+      "listed_payloads": 8
+    },
+    "linearTwo": {
+      "all_sessions": 8,
+      "listed_payloads": 8
+    },
+    "midSquare": {
+      "all_sessions": 15,
+      "listed_payloads": 14
+    },
+    "plus": {
+      "all_sessions": 11,
+      "listed_payloads": 11
+    },
+    "sleep": {
+      "all_sessions": 1095,
+      "listed_payloads": 30
+    },
+    "wheel": {
+      "all_sessions": 58,
+      "listed_payloads": 58
+    },
+    "wheel_home": {
+      "all_sessions": 3,
+      "listed_payloads": 2
+    }
+  },
+  "Tmaze_sleep_Tmaze_metadata_candidates": 1,
+  "alternation_task_archive_support": {
+    "Tmaze": {
+      "unique_task_pairs": 1,
+      "both_task_payloads_listed": 1,
+      "smallest_listed_pair": {
+        "topdir": "pin01-11-04",
+        "before": "11-04_22-31-40",
+        "after": "11-05_0-06-51",
+        "both_task_payloads_listed": true,
+        "combined_task_archive_bytes": 1632417118
+      }
+    },
+    "Mwheel": {
+      "unique_task_pairs": 9,
+      "both_task_payloads_listed": 9,
+      "smallest_listed_pair": {
+        "topdir": "i01_maze02",
+        "before": "i01_maze02_MS.001",
+        "after": "i01_maze02_MS.003",
+        "both_task_payloads_listed": true,
+        "combined_task_archive_bytes": 728609221
+      }
+    }
+  },
+  "first_source_defined_metadata_order_example": {
+    "animal": "pin01",
+    "topdir": "pin01-11-04",
+    "cellId": 6369,
+    "cell_region": "CA1",
+    "source_class": "p",
+    "records": [
+      {
+        "session": "11-04_22-31-40",
+        "sessId": 1477,
+        "behavior_label": "Tmaze",
+        "duration_seconds": 1811.692,
+        "exported_spike_count": 36,
+        "rate_spikes_per_second": 0.01987092728786129,
+        "listed_payload": true,
+        "payload_compressed_bytes": 1340526279,
+        "familiarity_code": "10",
+        "problem": ""
+      },
+      {
+        "session": "11-04_23-32-46",
+        "sessId": 1478,
+        "behavior_label": "sleep",
+        "duration_seconds": 1662.459,
+        "exported_spike_count": 664,
+        "rate_spikes_per_second": 0.399408346311097,
+        "listed_payload": false,
+        "payload_compressed_bytes": null,
+        "familiarity_code": "10",
+        "problem": ""
+      },
+      {
+        "session": "11-05_0-06-51",
+        "sessId": 1479,
+        "behavior_label": "Tmaze",
+        "duration_seconds": 621.3458,
+        "exported_spike_count": 63,
+        "rate_spikes_per_second": 0.10139281540166521,
+        "listed_payload": true,
+        "payload_compressed_bytes": 291890839,
+        "familiarity_code": "10",
+        "problem": ""
+      }
+    ],
+    "interpretation": "exported session-total counts and task labels only",
+    "performance_scores_available_in_these_tables": false,
+    "exact_elapsed_linkage_certified": false,
+    "future_session_spike_sorting_privilege": true
+  },
+  "behavioral_choices_rewards_or_performance_values_read": 0,
+  "raw_spike_timestamps_read": 0,
+  "raw_or_continuous_LFP_read": 0,
+  "neural_vs_behavior_forecast_compared": false,
+  "inputs": {
+    "decoded_hc3-cell.csv": {
+      "bytes": 975829,
+      "sha256": "903026bc308e20796b30f78c6c9355e92ccc631f431e1e89f0db68d6977a8ce1"
+    },
+    "decoded_hc3-session_a.csv": {
+      "bytes": 68955,
+      "sha256": "adc98173de5527e1af206243e54fd533aff0f632e80bad16a668578f6571aacf"
+    },
+    "decoded_hc3-file.csv": {
+      "bytes": 17531,
+      "sha256": "4f901fb71084d507cfcbbe510354936e16c122524097bd2e027c385cb3228954"
+    },
+    "decoded_hc3-spike_count.csv": {
+      "bytes": 1329488,
+      "sha256": "4fb29b57019adb0a7828fa0670daebbb1abda7c3c809f5abd651197faec371b4"
+    }
+  },
+  "peak_rss_bytes": 79446016
+}

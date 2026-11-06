@@ -1,0 +1,187 @@
+{
+  "independent_model_checks": [
+    {
+      "group": "red_long",
+      "model": "biased",
+      "max_independent_error": 5.10702591327572e-15
+    },
+    {
+      "group": "red_long",
+      "model": "uniform",
+      "max_independent_error": 4.884981308350689e-15
+    },
+    {
+      "group": "yellow_long",
+      "model": "biased",
+      "max_independent_error": 5.10702591327572e-15
+    },
+    {
+      "group": "yellow_long",
+      "model": "uniform",
+      "max_independent_error": 4.551914400963142e-15
+    }
+  ],
+  "recovery": [
+    {
+      "endpoint": 645,
+      "time_steps": 100,
+      "n_discovery": 14,
+      "n_validation": 14,
+      "noise_sd": 0.03,
+      "n_seeds": 100,
+      "biased_wins": 100,
+      "mean_biased_minus_uniform_mse": -0.0007432115719433077
+    },
+    {
+      "endpoint": 645,
+      "time_steps": 100,
+      "n_discovery": 14,
+      "n_validation": 14,
+      "noise_sd": 0.15,
+      "n_seeds": 100,
+      "biased_wins": 83,
+      "mean_biased_minus_uniform_mse": -0.0007888258235502404
+    },
+    {
+      "endpoint": 645,
+      "time_steps": 100,
+      "n_discovery": 128,
+      "n_validation": 128,
+      "noise_sd": 0.03,
+      "n_seeds": 100,
+      "biased_wins": 100,
+      "mean_biased_minus_uniform_mse": -0.0007171591395405436
+    },
+    {
+      "endpoint": 645,
+      "time_steps": 100,
+      "n_discovery": 128,
+      "n_validation": 128,
+      "noise_sd": 0.15,
+      "n_seeds": 100,
+      "biased_wins": 100,
+      "mean_biased_minus_uniform_mse": -0.0006625663502738627
+    },
+    {
+      "endpoint": 645,
+      "time_steps": 300,
+      "n_discovery": 14,
+      "n_validation": 14,
+      "noise_sd": 0.03,
+      "n_seeds": 100,
+      "biased_wins": 91,
+      "mean_biased_minus_uniform_mse": -6.168989978336804e-05
+    },
+    {
+      "endpoint": 645,
+      "time_steps": 300,
+      "n_discovery": 14,
+      "n_validation": 14,
+      "noise_sd": 0.15,
+      "n_seeds": 100,
+      "biased_wins": 63,
+      "mean_biased_minus_uniform_mse": -7.338221699473208e-05
+    },
+    {
+      "endpoint": 645,
+      "time_steps": 300,
+      "n_discovery": 128,
+      "n_validation": 128,
+      "noise_sd": 0.03,
+      "n_seeds": 100,
+      "biased_wins": 100,
+      "mean_biased_minus_uniform_mse": -5.4453149775995577e-05
+    },
+    {
+      "endpoint": 645,
+      "time_steps": 300,
+      "n_discovery": 128,
+      "n_validation": 128,
+      "noise_sd": 0.15,
+      "n_seeds": 100,
+      "biased_wins": 72,
+      "mean_biased_minus_uniform_mse": -3.75505180770086e-05
+    },
+    {
+      "endpoint": 580,
+      "time_steps": 100,
+      "n_discovery": 14,
+      "n_validation": 14,
+      "noise_sd": 0.03,
+      "n_seeds": 100,
+      "biased_wins": 98,
+      "mean_biased_minus_uniform_mse": -9.924515186734746e-05
+    },
+    {
+      "endpoint": 580,
+      "time_steps": 100,
+      "n_discovery": 14,
+      "n_validation": 14,
+      "noise_sd": 0.15,
+      "n_seeds": 100,
+      "biased_wins": 64,
+      "mean_biased_minus_uniform_mse": -7.492447673026807e-05
+    },
+    {
+      "endpoint": 580,
+      "time_steps": 100,
+      "n_discovery": 128,
+      "n_validation": 128,
+      "noise_sd": 0.03,
+      "n_seeds": 100,
+      "biased_wins": 100,
+      "mean_biased_minus_uniform_mse": -0.00010664580933140614
+    },
+    {
+      "endpoint": 580,
+      "time_steps": 100,
+      "n_discovery": 128,
+      "n_validation": 128,
+      "noise_sd": 0.15,
+      "n_seeds": 100,
+      "biased_wins": 83,
+      "mean_biased_minus_uniform_mse": -0.00011067444597848224
+    },
+    {
+      "endpoint": 580,
+      "time_steps": 300,
+      "n_discovery": 14,
+      "n_validation": 14,
+      "noise_sd": 0.03,
+      "n_seeds": 100,
+      "biased_wins": 99,
+      "mean_biased_minus_uniform_mse": -0.00013287176450015357
+    },
+    {
+      "endpoint": 580,
+      "time_steps": 300,
+      "n_discovery": 14,
+      "n_validation": 14,
+      "noise_sd": 0.15,
+      "n_seeds": 100,
+      "biased_wins": 68,
+      "mean_biased_minus_uniform_mse": -0.00014097086833139385
+    },
+    {
+      "endpoint": 580,
+      "time_steps": 300,
+      "n_discovery": 128,
+      "n_validation": 128,
+      "noise_sd": 0.03,
+      "n_seeds": 100,
+      "biased_wins": 100,
+      "mean_biased_minus_uniform_mse": -0.00012639331095041812
+    },
+    {
+      "endpoint": 580,
+      "time_steps": 300,
+      "n_discovery": 128,
+      "n_validation": 128,
+      "noise_sd": 0.15,
+      "n_seeds": 100,
+      "biased_wins": 90,
+      "mean_biased_minus_uniform_mse": -0.00010924745282758917
+    }
+  ],
+  "interpretation": "Synthetic positive-control recoverability only. Low recovery at matched small n shows the comparison cannot support an absence-of-prior inference. Noise and clipping are specified, not fitted to biology."
+}

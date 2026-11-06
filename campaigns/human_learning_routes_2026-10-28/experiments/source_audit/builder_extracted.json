@@ -1,0 +1,546 @@
+[
+  {
+    "name": "Begin Experiment",
+    "value": "correct = 9&#10;"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "#reset mouse position&#10;mouse.setPos(newPos=(0, 0))&#10;&#10;#set thresholds for response recording for each stim side and corr/wrong&#10;r_lim_corr = 0.05&#10;l_lim_corr = -0.05&#10;r_lim_wrong = 1236&#10;l_lim_wrong = -1236&#10;&#10;#setup for later recording reactio time&#10;mouserec = mouse.getPos()&#10;moved = False&#10;&#10;#create empty list to later store dot coordinates&#10;dot_trajectory = []&#10;&#10;#setup for el on/offset triggers&#10;sound_trial_start.elOnsetDetected = False&#10;sound_trial_start.elOffsetDetected = False&#10;&#10;sound_no_resp.elOnsetDetected = False&#10;sound_no_resp.elOffsetDetected = False"
+  },
+  {
+    "name": "Each Frame",
+    "value": "if sound_trial_start.tStartRefresh is not None and not sound_trial_start.elOnsetDetected:&#10;    el_tracker.sendMessage('signed_contrast %.2f' % signed_contrast)&#10;    el_tracker.sendMessage('stimOn')&#10;    el_tracker.sendMessage('sound_trial_start_ONSET')&#10;    sound_trial_start.elOnsetDetected = True&#10;&#10;if sound_trial_start.tStopRefresh is not None and sound_trial_start.tStartRefresh is not None and not sound_trial_start.elOffsetDetected:&#10;    el_tracker.sendMessage('sound_trial_start_OFFSET')&#10;    sound_trial_start.elOffsetDetected = True &#10;&#10;x = mouse.getPos()[0]&#10;&#10;if moved == False:&#10;     mouseloc = mouse.getPos()&#10;     if mouseloc[0] != mouserec[0] or mouseloc[1] != mouserec[1]:&#10;          moved = True&#10;          thisExp.addData('reaction_time',round(t*1000))&#10;          el_tracker.sendMessage('moveInit')&#10;&#10;x_r = x + 618&#10;x_l = x - 618&#10;&#10;grating_r.pos = (x_r,0)&#10;grating_l.pos = (x_l,0)&#10;&#10;if grating_r.overlaps(dot):&#10;    dot.pos = grating_r.pos&#10;&#10;elif grating_l.overlaps(dot):&#10;    dot.pos = grating_l.pos&#10;&#10;dot_trajectory.append(dot.pos[0])&#10;&#10;if eccentricity > 0:&#10;    if grating_r.pos[0] <= r_lim_corr:&#10;        correct = 1&#10;        timeout=0&#10;        response=1&#10;        el_tracker.sendMessage('response %i' % response)&#10;        thisExp.addData(\"response_time\", round(t*1000))&#10;        continueRoutine=False&#10;    elif grating_r.pos[0] >= r_lim_wrong:&#10;        correct = 0&#10;        timeout=0&#10;        response=-1&#10;        el_tracker.sendMessage('response %i' % response)&#10;        thisExp.addData(\"response_time\", round(t*1000))&#10;        continueRoutine=False&#10;elif eccentricity < 0:&#10;    if grating_l.pos[0] >= l_lim_corr:&#10;        correct = 1&#10;        timeout=0&#10;        response=-1&#10;        el_tracker.sendMessage('response %i' % response)&#10;        thisExp.addData(\"response_time\", round(t*1000))&#10;        continueRoutine=False&#10;    elif grating_l.pos[0] <= l_lim_wrong:&#10;        correct = 0&#10;        timeout=0&#10;        response=1&#10;        el_tracker.sendMessage('response %i' % response)&#10;        thisExp.addData(\"response_time\", round(t*1000))&#10;        continueRoutine=False&#10;&#10;&#10;if sound_no_resp.status == STARTED:&#10;    correct = 'NaN'&#10;    timeout = 1&#10;&#10;&#10;if sound_no_resp.tStartRefresh is not None and not sound_no_resp.elOnsetDetected:&#10;    el_tracker.sendMessage('timeout')&#10;    el_tracker.sendMessage('sound_no_resp_ONSET')&#10;    sound_no_resp.elOnsetDetected = True&#10;&#10;if sound_no_resp.tStopRefresh is not None and sound_no_resp.tStartRefresh is not None and not sound_no_resp.elOffsetDetected:&#10;    el_tracker.sendMessage('sound_no_resp_OFFSET')&#10;    sound_no_resp.elOffsetDetected = True &#10;"
+  },
+  {
+    "name": "End Routine",
+    "value": "thisExp.addData(\"correct\", correct)&#10;thisExp.addData('timeout', timeout)&#10;thisExp.addData(\"dot_trajectory\", dot_trajectory)&#10;&#10;"
+  },
+  {
+    "name": "Begin Experiment",
+    "value": "bias_file = \"\"&#10;bias_yn = 0"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "if int(expInfo['participant'])%2 == 0:&#10;    bias_file = \"nobias_block.xlsx\"&#10;    bias_yn = 0&#10;    &#10;else:&#10;    bias_file = \"bias_block.xlsx\"&#10;    bias_yn = 1&#10;&#10;thisExp.addData(\"bias_file\", bias_file)&#10;thisExp.addData(\"bias_yn\", bias_yn)"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "win.Mousevisible = False"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "win.mouseVisible = False&#10;mouse.setPos(newPos=(0, 0))&#10;"
+  },
+  {
+    "name": "Each Frame",
+    "value": "mouse.setPos(newPos=(0, 0))"
+  },
+  {
+    "name": "Begin Experiment",
+    "value": "#iti = 0&#10;#maxDur = 0.7&#10;#minDur = 0.4"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "import random&#10;#iti = minDur + (maxDur - minDur) * random.random()&#10;&#10;#thisExp.addData(\"iti\", iti)"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "if eccentricity == -15:&#10;    leftCont = baseContrast+contrastDelta&#10;    rightCont = baseContrast&#10;elif eccentricity == 15:&#10;    leftCont = baseContrast&#10;    rightCont = baseContrast+contrastDelta&#10;&#10;signed_contrast=rightCont-leftCont&#10;&#10;# Save all these variables to the log&#10;thisExp.addData(\"signed_contrast\", signed_contrast)&#10;thisExp.addData(\"leftCont\", leftCont)&#10;thisExp.addData(\"rightCont\", rightCont)&#10;&#10;#setup for el time triggers&#10;fixation_2.elOnsetDetected = False&#10;fixation_2.elOffsetDetected = False"
+  },
+  {
+    "name": "Each Frame",
+    "value": "if fixation_2.tStartRefresh is not None and not fixation_2.elOnsetDetected:&#10;    el_tracker.sendMessage('fix_cross_ONSET')&#10;    fixation_2.elOnsetDetected = True&#10;&#10;if fixation_2.tStopRefresh is not None and fixation_2.tStartRefresh is not None and not fixation_2.elOffsetDetected:&#10;    el_tracker.sendMessage('fix_cross_OFFSET')&#10;    fixation_2.elOffsetDetected = True "
+  },
+  {
+    "name": "Begin Experiment",
+    "value": "fb_sound = 100&#10;fb_dur = 10&#10;fb_sound_dur = 5&#10;fb_volume = 0.1"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "mouse.setPos(newPos=(0, 0))&#10;&#10;el_tracker.sendMessage('feedbackType %s' % correct)&#10;&#10;if correct==1:&#10;    fb_sound = \"2000.wav\"&#10;    fb_sound_dur = 0.2&#10;    fb_dur = 1&#10;    fb_volume = 0.1&#10;    tot_points += 1&#10;    &#10;elif correct==0:&#10;    fb_sound = \"whitenoise.wav\"&#10;    fb_sound_dur = 0.5&#10;    fb_dur = 2&#10;    fb_volume = 0.1&#10;&#10;else:&#10;    fb_sound = 200&#10;    fb_sound_dur = 0.1&#10;    fb_dur = 1.5&#10;    fb_volume = 0&#10;&#10;&#10;#fixation_3.elOnsetDetected = False&#10;#fixation_3.elOffsetDetected = False&#10;&#10;feedback_sound.elOnsetDetected = False&#10;feedback_sound.elOffsetDetected = False"
+  },
+  {
+    "name": "Each Frame",
+    "value": "mouse.setPos(newPos=(0, 0))&#10;&#10;#if fixation_3.tStartRefresh is not None and not fixation_3.elOnsetDetected:&#10;    #el_tracker.sendMessage('%i %s_ONSET' % (int(round((globalClock.getTime()-fixation_3.tStartRefresh)*1000)),fixation_3.name))&#10;    #fixation_3.elOnsetDetected = True&#10;&#10;#if fixation_3.tStopRefresh is not None and fixation_3.tStartRefresh is not None and not fixation_3.elOffsetDetected:&#10;    #el_tracker.sendMessage('%i %s_OFFSET' % (int(round((globalClock.getTime()-fixation_3.tStopRefresh)*1000)),fixation_3.name))&#10;    #fixation_3.elOffsetDetected = True &#10;&#10;if feedback_sound.tStartRefresh is not None and not feedback_sound.elOnsetDetected:&#10;    el_tracker.sendMessage('feedback_sound_ONSET')&#10;    feedback_sound.elOnsetDetected = True&#10;&#10;if feedback_sound.tStopRefresh is not None and feedback_sound.tStartRefresh is not None and not feedback_sound.elOffsetDetected:&#10;    el_tracker.sendMessage('feedback_sound_OFFSET')&#10;    feedback_sound.elOffsetDetected = True "
+  },
+  {
+    "name": "text",
+    "value": "You will now be redirected to an online form, where you must fill in your details in order to receive payment or credits. If you do not fill in your details, you will not receive compensation.&#10;&#10;Click 'Continue' to close this window and open the online form."
+  },
+  {
+    "name": "text",
+    "value": "Continue"
+  },
+  {
+    "name": "Begin Experiment",
+    "value": "if int(expInfo['participant'])%2 == 0:&#10;    block_breaks = 0&#10;&#10;else:&#10;    block_breaks = 1&#10;&#10;thisExp.addData(\"block_breaks\", block_breaks)"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "if block_breaks == 0:&#10;    continueRoutine=False&#10;&#10;else:&#10;    el_tracker.sendMessage('block_break start')"
+  },
+  {
+    "name": "End Routine",
+    "value": "el_tracker.sendMessage('block_break end')"
+  },
+  {
+    "name": "text",
+    "value": "You can take a quick break to rest your eyes.&#10;&#10;The experiment will resume automatically in"
+  },
+  {
+    "name": "text",
+    "value": "$int(round(10 - t, 3))"
+  },
+  {
+    "name": "text",
+    "value": "Welcome to the experiment! &#10;&#10;Please keep your head on the chinrest in front of you.&#10;&#10;Make sure that you can comfortably reach the mouse; you will not need the keyboard for now.&#10;&#10;It is really important that you stay in the same position throughout the experiment.&#10;&#10;Click 'Continue' when you are ready."
+  },
+  {
+    "name": "text",
+    "value": "Continue"
+  },
+  {
+    "name": "text",
+    "value": "How old are you?&#10;&#10;Click on a number to select your age, then click 'Continue'. &#10;If you prefer not to say, click 'Continue'."
+  },
+  {
+    "name": "text",
+    "value": "Continue"
+  },
+  {
+    "name": "text",
+    "value": "What is your gender?"
+  },
+  {
+    "name": "text",
+    "value": "Woman"
+  },
+  {
+    "name": "text",
+    "value": "Man"
+  },
+  {
+    "name": "text",
+    "value": "Non-binary"
+  },
+  {
+    "name": "text",
+    "value": "Other/&#10;Prefer not to say"
+  },
+  {
+    "name": "text",
+    "value": "Are you:"
+  },
+  {
+    "name": "text",
+    "value": "Right-handed"
+  },
+  {
+    "name": "text",
+    "value": "Left-handed"
+  },
+  {
+    "name": "text",
+    "value": "Other/&#10;Prefer not to say"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "import webbrowser&#10;&#10;win.fullscr = False # exit full screen&#10;webbrowser.open('https://leidenuniv.eu.qualtrics.com/jfe/form/SV_7NZQQU7iwLDucU6') # open browser&#10;"
+  },
+  {
+    "name": "Each Frame",
+    "value": "#if mouse_8.isPressedIn(txt_for_link):&#10;#    webbrowser.open(\"https://www.google.com\")"
+  },
+  {
+    "name": "End Routine",
+    "value": "#win.fullscr = True #bring back to full screen&#10;&#10;endExpNow=True"
+  },
+  {
+    "name": "text",
+    "value": "Opening URL..."
+  },
+  {
+    "name": "Each Frame",
+    "value": "if mouse_3.isPressedIn(exit_txt):&#10;    endExpNow=True"
+  },
+  {
+    "name": "text",
+    "value": "If you agree with the statements below, and you want to take part in the experiment, click 'Continue'.&#10;If you do not agree, you can click 'Exit' and leave the room. &#10;&#10;&#10;\"I have read and I understand the information provided about this study.\"&#10;&#10;\"I have had the opportunity to ask questions, and those questions have been sufficiently answered.\"&#10;&#10;\"I understand that my data will not have identifying information on it, so people will not know my name or which data belongs to me.\"&#10;&#10;\"You can use my coded data for scientific research and share these data, either directly with other researchers or in a public online repository.\""
+  },
+  {
+    "name": "text",
+    "value": "Continue"
+  },
+  {
+    "name": "text",
+    "value": "Exit"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "win.mouseVisible = True"
+  },
+  {
+    "name": "text",
+    "value": "To participate in this study, you should be healthy and have no current psychiatric, neurological or psychological disorders. You should be able to focus on a computer game for around 30 minutes.&#10;&#10;Participating in this study is harmless. The only downside of participation is your time investment.&#10;&#10;At the beginning of the session, you will be given instructions and some examples of the task. You will then perform the visual decision-making task. Once you complete the task, you will be fully debriefed and receive your compensation."
+  },
+  {
+    "name": "text",
+    "value": "Continue"
+  },
+  {
+    "name": "text",
+    "value": "Participation in this study is completely voluntary. This means that you can stop at any time, without explanation, and without consequences for you.&#10;&#10;If you decide to end your participation before the experiment has been completed, you will be compensated for the time that you have spent up to that point (rounded to the nearest 15 minutes, by means of 1 credit per half an hour).&#10;&#10;All information you provide will be treated as strictly private.&#10;Your data will be processed and stored in a coded way, by assigning it a unique code rather than your name. &#10;The data you provide will be used for scientific research. We may share these coded data with other researchers, or via publicly accessible online repositories. &#10;If you do not agree to make your coded research data publicly accessible, you cannot participate in this study."
+  },
+  {
+    "name": "text",
+    "value": "Continue"
+  },
+  {
+    "name": "Begin Experiment",
+    "value": "tot_points = 0"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "win.mouseVisible = True"
+  },
+  {
+    "name": "text",
+    "value": "Thank you! The camera setup is done.&#10;&#10;We will now ask you some information about your age, gender, and handedness."
+  },
+  {
+    "name": "text",
+    "value": "Continue"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "if instructions == 0:&#10;    continueRoutine = False"
+  },
+  {
+    "name": "text",
+    "value": "On each trial, you must decide which of the two target images has the higher contrast (i.e., appears darker). &#10;To select the target with the higher contrast, simply move the mouse until the chosen target reaches the center of the screen.&#10;&#10;For example, in the image below, the right target has the higher contrast, so you would move your mouse to the left.&#10;&#10;Click 'Continue' to see more instructions and another example."
+  },
+  {
+    "name": "text",
+    "value": "Continue"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "if instructions == 0:&#10;    continueRoutine = False"
+  },
+  {
+    "name": "text",
+    "value": "In this example image, the left target has the higher contrast, so you would move your mouse to the right.&#10;&#10;To interact with the game, you will only need to move the mouse; clicking does not do anything.&#10;&#10;Click 'Continue' to see more instructions."
+  },
+  {
+    "name": "text",
+    "value": "Continue"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "if instructions == 0:&#10;    continueRoutine = False"
+  },
+  {
+    "name": "text",
+    "value": "You will hear a high beep if you answer correctly.&#10;If you answer incorrectly, you will hear a buzzing noise instead.&#10;If you take too long to answer, you will hear a low beep.&#10;&#10;Please try to be as accurate and fast as possible, and try not to let the trial time-out without a response.&#10;&#10;&#10;Click 'Continue' to practice a few example trials."
+  },
+  {
+    "name": "text",
+    "value": "Continue"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "if instructions == 0:&#10;    continueRoutine = False"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "win.mouseVisible = True"
+  },
+  {
+    "name": "End Routine",
+    "value": "thisExp.addData('session_start', data.getDateStr())"
+  },
+  {
+    "name": "text",
+    "value": "That is the end of the practice trials.&#10;&#10;Here is a last reminder of the instructions:&#10;&#10;In each trial, you will hear a beep and two targets will appear.&#10;You must decide which target has the higher contrast.&#10;To respond, move your mouse left or right to bring the chosen target into the middle of the screen. You don't need to click, simply drag the mouse.&#10;&#10;If you are correct, you will hear a high beep; if you are incorrect, you will hear a buzzing noise.&#10;&#10;Important: durig the game you will see a red cross i the middle of the screen. Please try to keep your eyes fixated on this cross throughout the experiment.&#10;&#10;If you have any questions, feel free to ask out loud, the experimenter can hear you and will help you out.&#10;&#10;You will now start the real experiment. Good luck!"
+  },
+  {
+    "name": "text",
+    "value": "Start experiment"
+  },
+  {
+    "name": "text",
+    "value": "That's the end of the task.&#10;&#10;Thank you for participating! Now that you are done, we can tell you a bit more about the experiment.&#10;&#10;&#10;In this project, we want to study how well people integrate past information into their decisions. &#10;&#10;You just participated in a decision-making task modelled after a similar task designed by the International Brain Laboratory consortium.&#10;&#10;Click 'Continue' to read more.&#10;"
+  },
+  {
+    "name": "text",
+    "value": "Continue"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "thisExp.addData('session_end', core.getTime())&#10;win.mouseVisible = True"
+  },
+  {
+    "name": "text",
+    "value": "When the visual stimulus was ambiguous, you should then have biased your responses toward the location with more frequent targets in the recent past. &#10;&#10;For example, if 3 out of 4 previous images were shown on the right, an expectation (\"I think the next image will appear on the right\") should guide your decisions (\"I'm not sure, so let's choose right\"). &#10;&#10;The more probable image location could change unexpectedly, so you should have continually tracked the statistics of the task and updated your expectations accordingly."
+  },
+  {
+    "name": "text",
+    "value": "Continue"
+  },
+  {
+    "name": "text",
+    "value": "You watched a pair of stimuli on the screen, and judged the location of the more visible stimulus, which varied in difficulty. &#10;&#10;To invite you to combine this visual information with your expectations about the most likely location, we varied the probability of whether the target stimulus would appear on the left or right side."
+  },
+  {
+    "name": "text",
+    "value": "Continue"
+  },
+  {
+    "name": "text",
+    "value": "If you have any questions or concerns about the experiment or your data, please let the experimenter know.&#10;&#10;If you are participating for SONA credits, you will receive your credits before the end of the day.&#10;&#10;If you are participating for money, you should receive compensation in approximately 2 weeks. Once you have closed the experiment, you can fill in your payment information in the other room.&#10;&#10;Click 'Finish' to save your data and exit the experiment."
+  },
+  {
+    "name": "text",
+    "value": "Finish"
+  },
+  {
+    "name": "text",
+    "value": "We will now set up the eye-tracking camera.&#10;This will take just a couple minutes.&#10;&#10;A dot will appear on the screen at different locations.&#10;Simply move your eyes to follow the dot on the screen.&#10;Please keep staring directly at the dot until it moves to a new location.&#10;&#10;Click 'Continue' to start the camera setup."
+  },
+  {
+    "name": "text",
+    "value": "Continue"
+  },
+  {
+    "name": "Begin Experiment",
+    "value": "correct = 9"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "mouse_20.setPos(newPos=(0, 0))&#10;&#10;r_lim_corr = 0.05&#10;l_lim_corr = -0.05&#10;r_lim_wrong = 1236&#10;l_lim_wrong = -1236&#10;&#10;mouserec = mouse_20.getPos()&#10;moved = False&#10;&#10;dot_trajectory = []"
+  },
+  {
+    "name": "Each Frame",
+    "value": "x = mouse_20.getPos()[0]&#10;#y = mouse.getPos()[1]&#10;&#10;if moved == False:&#10;     mouseloc = mouse_20.getPos()&#10;     if mouseloc[0] != mouserec[0] or mouseloc[1] != mouserec[1]:&#10;          moved = True&#10;          thisExp.addData('reaction_time',round(t*1000))&#10;&#10;x_r = x + 618&#10;x_l = x - 618&#10;&#10;grating_r_2.pos = (x_r,0)&#10;grating_l_2.pos = (x_l,0)&#10;&#10;if grating_r_2.overlaps(dot_2):&#10;    dot_2.pos = grating_r_2.pos&#10;&#10;elif grating_l_2.overlaps(dot_2):&#10;    dot_2.pos = grating_l_2.pos&#10;&#10;dot_trajectory.append(dot_2.pos[0])&#10;&#10;if eccentricity > 0:&#10;    if grating_r_2.pos[0] <= r_lim_corr:&#10;        correct = 1&#10;        timeout=0&#10;        thisExp.addData(\"response_time\", round(t*1000))&#10;        continueRoutine=False&#10;    elif grating_r_2.pos[0] >= r_lim_wrong:&#10;        correct = 0&#10;        timeout=0&#10;        thisExp.addData(\"response_time\", round(t*1000))&#10;        continueRoutine=False&#10;elif eccentricity < 0:&#10;    if grating_l_2.pos[0] >= l_lim_corr:&#10;        correct = 1&#10;        timeout=0&#10;        thisExp.addData(\"response_time\", round(t*1000))&#10;        continueRoutine=False&#10;    elif grating_l_2.pos[0] <= l_lim_wrong:&#10;        correct = 0&#10;        timeout=0&#10;        thisExp.addData(\"response_time\", round(t*1000))&#10;        continueRoutine=False&#10;&#10;&#10;if sound_no_resp_2.status == STARTED:&#10;    correct = 'NaN'&#10;    timeout = 1&#10;&#10;"
+  },
+  {
+    "name": "End Routine",
+    "value": "thisExp.addData(\"correct\", correct)&#10;thisExp.addData('timeout', timeout)&#10;thisExp.addData(\"dot_trajectory\", dot_trajectory)"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "if instructions == 0:&#10;    continueRoutine = False"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "win.mouseVisible = False&#10;mouse.setPos(newPos=(0, 0))"
+  },
+  {
+    "name": "Each Frame",
+    "value": "mouse.setPos(newPos=(0, 0))"
+  },
+  {
+    "name": "Begin Experiment",
+    "value": "import random"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "if eccentricity == -15:&#10;    leftCont = baseContrast+contrastDelta&#10;    rightCont = baseContrast&#10;elif eccentricity == 15:&#10;    leftCont = baseContrast&#10;    rightCont = baseContrast+contrastDelta&#10;&#10;signed_contrast=rightCont-leftCont&#10;&#10;&#10;# Save all these variables to the log&#10;thisExp.addData(\"signed_contrast\", signed_contrast)&#10;thisExp.addData(\"leftCont\", leftCont)&#10;thisExp.addData(\"rightCont\", rightCont)"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "if instructions == 0:&#10;    continueRoutine = False"
+  },
+  {
+    "name": "Begin Experiment",
+    "value": "correct = 9"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "mouse_21.setPos(newPos=(0, 0))&#10;&#10;r_lim_corr = 0.05&#10;l_lim_corr = -0.05&#10;r_lim_wrong = 1236&#10;l_lim_wrong = -1236&#10;&#10;mouserec = mouse_21.getPos()&#10;moved = False&#10;&#10;dot_trajectory = []"
+  },
+  {
+    "name": "Each Frame",
+    "value": "x = mouse_21.getPos()[0]&#10;#y = mouse.getPos()[1]&#10;&#10;if moved == False:&#10;     mouseloc = mouse_21.getPos()&#10;     if mouseloc[0] != mouserec[0] or mouseloc[1] != mouserec[1]:&#10;          moved = True&#10;          thisExp.addData('reaction_time',round(t*1000))&#10;&#10;x_r = x + 618&#10;x_l = x - 618&#10;&#10;grating_r_3.pos = (x_r,0)&#10;grating_l_3.pos = (x_l,0)&#10;&#10;if grating_r_3.overlaps(dot_3):&#10;    dot_3.pos = grating_r_3.pos&#10;&#10;elif grating_l_3.overlaps(dot_3):&#10;    dot_3.pos = grating_l_3.pos&#10;&#10;dot_trajectory.append(dot_3.pos[0])&#10;&#10;if eccentricity > 0:&#10;    if grating_r_3.pos[0] <= r_lim_corr:&#10;        correct = 1&#10;        timeout=0&#10;        thisExp.addData(\"response_time\", round(t*1000))&#10;        continueRoutine=False&#10;    elif grating_r_3.pos[0] >= r_lim_wrong:&#10;        correct = 0&#10;        timeout=0&#10;        thisExp.addData(\"response_time\", round(t*1000))&#10;        continueRoutine=False&#10;elif eccentricity < 0:&#10;    if grating_l_3.pos[0] >= l_lim_corr:&#10;        correct = 1&#10;        timeout=0&#10;        thisExp.addData(\"response_time\", round(t*1000))&#10;        continueRoutine=False&#10;    elif grating_l_3.pos[0] <= l_lim_wrong:&#10;        correct = 0&#10;        timeout=0&#10;        thisExp.addData(\"response_time\", round(t*1000))&#10;        continueRoutine=False&#10;&#10;&#10;if sound_no_resp_3.status == STARTED:&#10;    correct = 'NaN'&#10;    timeout = 1&#10;&#10;"
+  },
+  {
+    "name": "End Routine",
+    "value": "thisExp.addData(\"correct\", correct)&#10;thisExp.addData('timeout', timeout)&#10;thisExp.addData(\"dot_trajectory\", dot_trajectory)"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "if instructions == 0:&#10;    continueRoutine = False"
+  },
+  {
+    "name": "Begin Experiment",
+    "value": "fb_sound = 100&#10;fb_dur = 10&#10;fb_sound_dur = 5&#10;fb_volume = 0.1"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "mouse.setPos(newPos=(0, 0))&#10;&#10;if correct==1:&#10;    fb_sound = \"2000.wav\"&#10;    fb_sound_dur = 0.2&#10;    fb_dur = 1&#10;    fb_volume = 0.1&#10;    &#10;elif correct==0:&#10;    fb_sound = \"whitenoise.wav\"&#10;    fb_sound_dur = 0.5&#10;    fb_dur = 2&#10;    fb_volume = 0.1&#10;&#10;else:&#10;    fb_sound = 200&#10;    fb_sound_dur = 0.1&#10;    fb_dur = 1.5&#10;    fb_volume = 0"
+  },
+  {
+    "name": "Each Frame",
+    "value": "mouse.setPos(newPos=(0, 0))"
+  },
+  {
+    "name": "End Routine",
+    "value": "#feedback_sound.sound"
+  },
+  {
+    "name": "text",
+    "value": "wait..."
+  },
+  {
+    "name": "Begin Routine",
+    "value": "if instructions == 0:&#10;    continueRoutine = False"
+  },
+  {
+    "name": "text",
+    "value": "Thank you! We will now move on to the experiment.&#10;&#10;You will take part in a computer game.&#10;&#10;You will now see some written instructions, as well as two example images of what the stimuli look like.&#10;&#10;You will then practice the game in a few example trials.&#10;&#10;&#10;Click 'Continue' to see the instructions."
+  },
+  {
+    "name": "text",
+    "value": "Continue"
+  },
+  {
+    "name": "text",
+    "value": "We will use your choice data to investigate how well you integrated visual information from your recent history, and what strategies you took to combine these two. &#10;&#10;This behavioural experiment will form the basis for later studying how such decision-processes unfold in the human brain."
+  },
+  {
+    "name": "text",
+    "value": "Continue"
+  },
+  {
+    "name": "text",
+    "value": "Please, do not reveal the details of this study while we are still collecting the data.&#10;&#10;This might affect the behaviour of prospective participants.&#10;&#10;It is really important that people who will participate in this study do not yet know about its actual aim and design.&#10;&#10;&#10;You can decide to withdraw your data from the study at any time.&#10;&#10;Note that the coded data may be shared in a public repository, after which it cannot be removed."
+  },
+  {
+    "name": "text",
+    "value": "Continue"
+  },
+  {
+    "name": "Begin Experiment",
+    "value": "if int(expInfo['participant']) % 4 in [1, 2]:&#10;    instructions = 1&#10;else:&#10;    instructions = 0&#10;&#10;#instructions = 0&#10;thisExp.addData(\"instructions\", instructions)"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "if instructions == 1:&#10;    continueRoutine = False"
+  },
+  {
+    "name": "End Routine",
+    "value": "thisExp.addData('session_start', data.getDateStr())"
+  },
+  {
+    "name": "text",
+    "value": "Thank you! We will now move on to the experiment.&#10;&#10;You will take part in a computer game.&#10;However, you will not receive any instructions: the goal is to figure out the rules of the game by yourself.&#10;&#10;To interact with the game, you will only need to move the mouse; clicking does not do anything. &#10;&#10;Important: during the game, you will see a red cross in the middle of the screen. Please try to keep your eyes fixated on this cross throughout the experiment.&#10;&#10;If you have any questions, feel free to ask out loud, The experimenter can hear you and will help you out.&#10;&#10;When you are ready, click 'Start experiment'."
+  },
+  {
+    "name": "text",
+    "value": "Start experiment"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "if instructions == 0:&#10;    continueRoutine = False"
+  },
+  {
+    "name": "Begin Experiment",
+    "value": "thisExp.addData(\"win_size\", win.size)"
+  },
+  {
+    "name": "End Routine",
+    "value": "thisExp.addData('session_start', core.getTime())"
+  },
+  {
+    "name": "text",
+    "value": "The game consists of many trials. In each trial, you will see a red fixation point in the middle of the screen. &#10;&#10;At the beginning of each trial you will hear a sharp beep. &#10;You will then see two target images appear on each side of the screen. &#10;&#10;Click 'Continue' to see more instructions and examples."
+  },
+  {
+    "name": "text",
+    "value": "Continue"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "win.mouseVisible = True"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "thisExp.addData('session_end', data.getDateStr())&#10;&#10;thisExp.addData('total_points', tot_points)"
+  },
+  {
+    "name": "text",
+    "value": "That's the end of the game.&#10;Thank you for participating! &#10;&#10;Before we show you your final score, we will ask you a few questions about the game you just completed.&#10;&#10;You no longer need to sit still or keep your head on the chin rest. &#10;Please take the keyboard you see on the desk, and use it to type your answers. &#10;&#10;When answering questions, please do not press 'Enter' on the keyboard. Simply use punctuation to separate your sentences.&#10;&#10;Click 'Continue' to see the first question."
+  },
+  {
+    "name": "text",
+    "value": "Continue"
+  },
+  {
+    "name": "text",
+    "value": "Please describe how you think the game worked&#10;and what you think the rules were.&#10;&#10;Click 'Continue' to see the next question."
+  },
+  {
+    "name": "text",
+    "value": "Continue"
+  },
+  {
+    "name": "text",
+    "value": "How well do you think you did in the game?&#10;&#10;Click 'Continue' to see the next question."
+  },
+  {
+    "name": "text",
+    "value": "Continue"
+  },
+  {
+    "name": "text",
+    "value": "What strategies did you use during the game?&#10;&#10;Click 'Continue' to see the next question."
+  },
+  {
+    "name": "text",
+    "value": "Continue"
+  },
+  {
+    "name": "text",
+    "value": "Did you notice any patterns in the game?&#10;&#10;Click 'Continue' to see the next question."
+  },
+  {
+    "name": "text",
+    "value": "Continue"
+  },
+  {
+    "name": "text",
+    "value": "$f'You have reached the end of the experiment. \\n\\n You collected {str(tot_points)} points out of 600. \\n Thank you very much for participating! \\n\\n Once you have closed the experiment, you can leave the room. \\n The experimenter will then give you more information and answer any questions you may have. \\n\\n Click Finish to save your data and exit the experiment.'"
+  },
+  {
+    "name": "text",
+    "value": "Finish"
+  },
+  {
+    "name": "Begin Routine",
+    "value": "win.mouseVisible = True"
+  },
+  {
+    "name": "text",
+    "value": "Thank you! &#10;&#10;To get a baseline measure of your pupil, you will now see a dark screen and then a bright screen for 30 seconds.&#10;&#10;Simply keep your eyes on the screen. After 30 seconds, the task will continue automatically.&#10;&#10;Click 'Continue' to start."
+  },
+  {
+    "name": "text",
+    "value": "Continue"
+  },
+  {
+    "name": "text",
+    "value": "Is there anything else you would like to add?&#10;&#10;Click 'Continue' when you are done."
+  },
+  {
+    "name": "text",
+    "value": "Continue"
+  },
+  {
+    "name": "conditionsFile",
+    "value": "$'pregen_sequence_' + str(int(expInfo['participant'][-1])) + '.xlsx'"
+  },
+  {
+    "name": "conditionsFile",
+    "value": "$'pregen_sequence_' + str(int(expInfo['participant'][-1])) + '.xlsx'"
+  }
+]

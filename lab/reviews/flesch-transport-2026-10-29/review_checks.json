@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "checks": 28,
+  "check_names": [
+    "2023 Git blob: utils/choicemodel.py",
+    "2023 Git blob: hebbcl/parameters.py",
+    "2023 Git blob: utils/data.py",
+    "2023 Git blob: hebbcl/trainer.py",
+    "2023 Git blob: sluggish_runs.py",
+    "2023 Git blob: Readme.md",
+    "2023 Git blob: hebbcl/model.py",
+    "2018 original Git blob: flesch_parameters.js",
+    "2018 original Git blob: flesch_conditions.js",
+    "2018 original Git blob: flesch_response.js",
+    "2018 original Git blob: flesch_show.js",
+    "2018 original Git blob: flesch_run.js",
+    "2018 original Git blob: flesch_parser.m",
+    "2018 original Git blob: flesch_reshape.m",
+    "2018 original Git blob: flesch_rename.m",
+    "optimizer accepts scheduled target, no sampled choice",
+    "supervised plus distinct all-input/context-only Oja paths available",
+    "EMA alpha is current observation weight in both generators",
+    "supplied dataset generators smooth train context, not test context",
+    "strict threshold excludes exactly 88/160",
+    "dropping two NaN omissions changes threshold to 87/158",
+    "88 correct plus two omitted can change inclusion",
+    "enumerated history law sums to one",
+    "independent marginal Bernoullis give wrong selection probability",
+    "history-aware selected trajectory law normalizes",
+    "independent recursion equals exhaustive trajectory sum",
+    "ratio of integrals differs from averaging individually truncated laws",
+    "selection reweights latent types"
+  ],
+  "history_witness": {
+    "n": 4,
+    "strict_threshold": 3,
+    "history_selection_probability": 0.4545,
+    "independent_marginals_probability": 0.3125
+  },
+  "mixture_witness": {
+    "correct_selected_probability_110": 0.1794871794871795,
+    "wrong_mean_of_truncated_probabilities": 0.2077922077922078,
+    "selected_strong_type_probability": 0.717948717948718
+  },
+  "scope": "Original code text/hash checks and synthetic exact arithmetic only; no human numeric arrays, fits or forecasts."
+}

@@ -1,0 +1,95 @@
+{
+  "groups": [
+    {
+      "group": "red_both",
+      "n": 46,
+      "mean": 66.62135451514818,
+      "sem_subject": 4.496851837275398,
+      "ci95": [
+        57.565798508166324,
+        75.00905561480856
+      ],
+      "wilcoxon_vs50": 0.0007787093821320923,
+      "mean_occupancy_weighted": 71.16029267535991,
+      "target_fraction_all_frames_mean": 49.0878623378439
+    },
+    {
+      "group": "yellow_both",
+      "n": 40,
+      "mean": 48.07638955680646,
+      "sem_subject": 3.572878363992376,
+      "ci95": [
+        41.2742531109915,
+        55.098001288923236
+      ],
+      "wilcoxon_vs50": 0.5536995567435952,
+      "mean_occupancy_weighted": 43.85289544179109,
+      "target_fraction_all_frames_mean": 20.56281679864184
+    },
+    {
+      "group": "red_large_yellow_small",
+      "n": 58,
+      "mean": 84.98837935839914,
+      "sem_subject": 3.048042281775348,
+      "ci95": [
+        78.65553172368719,
+        90.53408302200326
+      ],
+      "wilcoxon_vs50": 4.392974648043065e-10,
+      "mean_occupancy_weighted": 89.42882408922996,
+      "target_fraction_all_frames_mean": 72.00359699827519
+    },
+    {
+      "group": "yellow_large_red_small",
+      "n": 53,
+      "mean": 28.526844337448107,
+      "sem_subject": 4.430044106729748,
+      "ci95": [
+        20.437792322100655,
+        37.372845805969895
+      ],
+      "wilcoxon_vs50": 0.00016311978360786662,
+      "mean_occupancy_weighted": 24.306037175863345,
+      "target_fraction_all_frames_mean": 13.733962264150941
+    }
+  ],
+  "red_minus_yellow": {
+    "estimate": 18.544964958341723,
+    "ci95": [
+      7.429263232098603,
+      29.790957979892532
+    ],
+    "mannwhitney_p": 0.0024994021635401736
+  },
+  "ratio_anomaly_rows": [
+    {
+      "group": "red_large_yellow_small",
+      "chickID": 46,
+      "target_side": "right",
+      "max_ratio_discrepancy": 50.0
+    },
+    {
+      "group": "red_large_yellow_small",
+      "chickID": 49,
+      "target_side": "left",
+      "max_ratio_discrepancy": 50.0
+    }
+  ],
+  "known_control_exact_p": 0.0625,
+  "stimulus_audit": {
+    "large_area_mm2": 12499.24,
+    "small_total_area_mm2": 12500,
+    "large_perimeter_mm": 447.2,
+    "small_total_perimeter_mm": 1000,
+    "red_srgb_relative_luminance": 0.2126,
+    "yellow_srgb_relative_luminance": 0.9278,
+    "white_background_michelson_red": 0.6493485073396008,
+    "white_background_michelson_yellow": 0.03745201784417473,
+    "caution": "Standard sRGB illustration only; actual monitor/chicken photoreceptor brightness not measured. Size differs in numerosity and total contour as well as individual extent."
+  },
+  "limitations": [
+    "Tables already omit nonapproachers, so population attraction denominators cannot be reconstructed from raw tables.",
+    "Minute mean scores impute50 when neither side occupied; occupancy-weighted sensitivity is a different summary.",
+    "No trained-imprinting manipulation or teaching signal in these naive birds."
+  ]
+}

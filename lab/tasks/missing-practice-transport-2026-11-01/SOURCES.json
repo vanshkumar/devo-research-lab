@@ -1,0 +1,60 @@
+{
+  "targeted_primary_source_families": [
+    "Manski: partial identification with missing outcomes",
+    "Kallus-Zhou: confounding-robust policy evaluation/improvement"
+  ],
+  "public_operations": [
+    {"id": 1, "kind": "search", "family": "Manski", "query": "Charles Manski 2005 partial identification missing data bounds outcomes primary paper", "result": "publisher abstract and incidental search summaries"},
+    {"id": 2, "kind": "search", "family": "Kallus-Zhou", "query": "Kallus Zhou 2018 Confounding Robust Policy Improvement NeurIPS sensitivity model partial identification", "result": "2018 and 2020 primary abstracts/PDF leads and incidental summaries"},
+    {"id": 3, "kind": "open", "family": "Manski", "url": "https://www.sciencedirect.com/science/article/pii/S0888613X04001124", "result": "403 Forbidden; failure retained, no source-repair attempts"},
+    {"id": 4, "kind": "open", "family": "Kallus-Zhou", "url": "https://proceedings.neurips.cc/paper/2020/hash/fd4f21f2556dad0ea8b7a5c04eabebda-Abstract.html", "result": "primary abstract"},
+    {"id": 5, "kind": "open", "family": "Kallus-Zhou", "url": "https://papers.neurips.cc/paper_files/paper/2020/file/fd4f21f2556dad0ea8b7a5c04eabebda-Paper.pdf", "result": "provider text extraction of 12-page PDF; displayed lines0-407, pages0-6, not full PDF bytes"}
+  ],
+  "primary_items": [
+    {
+      "title": "Partial identification with missing data: concepts and findings",
+      "author": "Charles F. Manski",
+      "year": 2005,
+      "doi": "10.1016/j.ijar.2004.10.006",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0888613X04001124",
+      "access": "search-returned publisher abstract only; direct primary open failed403",
+      "tool_reference": "turn434275search0 / turn135200view0",
+      "paraphrase": "Identifying regions combine observed evidence with the admissible ways missing data could have arisen; additional assumptions can narrow the region.",
+      "license": "not verified; do not infer an open license from discovery/access",
+      "use": "Established conceptual antecedent, not a verified full-text theorem or priority audit."
+    },
+    {
+      "title": "Confounding-Robust Policy Improvement",
+      "authors": ["Nathan Kallus", "Angela Zhou"],
+      "year": 2018,
+      "url": "https://proceedings.neurips.cc/paper/2018/hash/3a09a524440d44d7f19870070a5ad42f-Abstract.html",
+      "access": "deliberately targeted initial query; primary abstract returned, no separate open",
+      "tool_reference": "turn434275search1 / turn434275academia25",
+      "paraphrase": "Policy evaluation and improvement may use a sensitivity model for unobserved confounding rather than assume exact point identification.",
+      "license": "not verified",
+      "use": "Screened within the same Kallus-Zhou primary-source family."
+    },
+    {
+      "title": "Confounding-Robust Policy Evaluation in Infinite-Horizon Reinforcement Learning",
+      "authors": ["Nathan Kallus", "Angela Zhou"],
+      "year": 2020,
+      "url": "https://papers.neurips.cc/paper_files/paper/2020/file/fd4f21f2556dad0ea8b7a5c04eabebda-Paper.pdf",
+      "access": "primary abstract and provider-extracted first seven PDF pages; original binary unacquired",
+      "tool_reference": "turn135200view1 / turn733672view0",
+      "paraphrase": "The paper bounds sequential-policy value under structural and confounding-sensitivity assumptions. Its assumptions and stationary occupancy formulation differ from this finite deterministic hidden-event model; its compatibility and sharpness analysis illustrates why relaxed optimization alone is insufficient.",
+      "relevant_locations": ["sections2-3: problem, structural/sensitivity assumptions", "section4: compatibility and sharpness", "section5: optimization"],
+      "license": "not verified; original paper not redistributed",
+      "use": "Closest deliberately checked sequential policy antecedent; no novel general bounding claim."
+    }
+  ],
+  "tool_return_exposure_pin": {
+    "serialized_utf8_bytes": 65954,
+    "sha256": "5c203d77d26bb2a4617968583c599bb8cef6fe10fb45cb10d12010c04b0ff66c",
+    "scope": "Digest of all three serialized tool returns (two queries, two opens, PDF open), not an original-paper hash. Full transient snapshot removed after pinning; retain concise annotations and public identifiers instead of redistributing extracted papers.",
+    "provider_wire_bytes": "unknown",
+    "source_exposure": "All returned snippets and extracted text were exposed; removal of a local copy does not undo exposure. Incidental summaries included other Manski works, reviews, set-identification and experimental-grounding results; none was deliberately followed as a third source family."
+  },
+  "novelty": "No novelty or complete priority claim; this is an assumption-explicit worked measurement comparison with established partial-identification antecedents.",
+  "empirical_datasets": [],
+  "source_code": "All task code authored locally; no external implementation imported."
+}

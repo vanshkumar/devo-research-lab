@@ -1,0 +1,307 @@
+{
+  "hypotheses": [
+    {
+      "plant": 100,
+      "hypothesis": "quiet_reset_is_sufficient_explanation_of_wrong_order_preference",
+      "prediction_if_true": "wrong-minus-target score becomes nonnegative under candidate-conditioned repeated cycling",
+      "observed_gap_Hz": -0.0011532316475948434,
+      "supported": false,
+      "readout_mean_cycle4_to5_change_Hz": 0.0
+    },
+    {
+      "plant": 100,
+      "hypothesis": "silence_subtracted_active_exposure_score_is_duration_faithful",
+      "prediction_if_true": "unit-duration target is not dominated by the score-selected wrong duration",
+      "chosen_duration": 1.175,
+      "chosen_minus_target_Hz": -0.0019100248030475137,
+      "supported": false,
+      "full25query_actor_completed": true
+    },
+    {
+      "plant": 101,
+      "hypothesis": "quiet_reset_is_sufficient_explanation_of_wrong_order_preference",
+      "prediction_if_true": "wrong-minus-target score becomes nonnegative under candidate-conditioned repeated cycling",
+      "observed_gap_Hz": -0.00039645525970022355,
+      "supported": false,
+      "readout_mean_cycle4_to5_change_Hz": 0.0
+    },
+    {
+      "plant": 101,
+      "hypothesis": "silence_subtracted_active_exposure_score_is_duration_faithful",
+      "prediction_if_true": "unit-duration target is not dominated by the score-selected wrong duration",
+      "chosen_duration": 0.9250000000000002,
+      "chosen_minus_target_Hz": -0.0007128139124612798,
+      "supported": false,
+      "full25query_actor_completed": true
+    },
+    {
+      "plant": 102,
+      "hypothesis": "quiet_reset_is_sufficient_explanation_of_wrong_order_preference",
+      "prediction_if_true": "wrong-minus-target score becomes nonnegative under candidate-conditioned repeated cycling",
+      "observed_gap_Hz": -0.0017307301416060739,
+      "supported": false,
+      "readout_mean_cycle4_to5_change_Hz": 2.220446049250313e-16
+    },
+    {
+      "plant": 102,
+      "hypothesis": "silence_subtracted_active_exposure_score_is_duration_faithful",
+      "prediction_if_true": "unit-duration target is not dominated by the score-selected wrong duration",
+      "chosen_duration": 0.9250000000000002,
+      "chosen_minus_target_Hz": -0.0009985957217025498,
+      "supported": false,
+      "full25query_actor_completed": true
+    },
+    {
+      "plant": 102,
+      "hypothesis": "all_order_information_is_absent_after_zero_HVC_tutoring",
+      "prediction_if_true": "tutor reversal does not reverse the forward-versus-reverse pair preference",
+      "forward_critic_reverse_minus_forward_Hz": 0.00193533576442384,
+      "reverse_critic_reverse_minus_forward_Hz": -0.001632754439631956,
+      "supported": false
+    }
+  ],
+  "note": "False supported values preserve failed scientific explanations; numerical replay success does not make these hypotheses true.",
+  "additional6policy_arithmetic_checks": [
+    {
+      "plant": 100,
+      "variant": "no_clock_forward",
+      "content": "exact_tutor",
+      "preferred_order": 0,
+      "desired_rank": 1,
+      "passed": true
+    },
+    {
+      "plant": 100,
+      "variant": "no_clock_forward",
+      "content": "learned_content",
+      "preferred_order": 0,
+      "desired_rank": 1,
+      "passed": true
+    },
+    {
+      "plant": 100,
+      "variant": "no_clock_reverse",
+      "content": "exact_tutor",
+      "preferred_order": 4,
+      "desired_rank": 5,
+      "passed": true
+    },
+    {
+      "plant": 100,
+      "variant": "no_clock_reverse",
+      "content": "learned_content",
+      "preferred_order": 5,
+      "desired_rank": 5,
+      "passed": true
+    },
+    {
+      "plant": 100,
+      "variant": "tonic_forward",
+      "content": "exact_tutor",
+      "preferred_order": 0,
+      "desired_rank": 1,
+      "passed": true
+    },
+    {
+      "plant": 100,
+      "variant": "tonic_forward",
+      "content": "learned_content",
+      "preferred_order": 0,
+      "desired_rank": 1,
+      "passed": true
+    },
+    {
+      "plant": 100,
+      "variant": "untutored_no_clock",
+      "content": "exact_tutor",
+      "preferred_order": 5,
+      "desired_rank": 4,
+      "passed": true
+    },
+    {
+      "plant": 100,
+      "variant": "untutored_no_clock",
+      "content": "learned_content",
+      "preferred_order": 3,
+      "desired_rank": 5,
+      "passed": true
+    },
+    {
+      "plant": 100,
+      "variant": "onset_reset",
+      "content": "exact_tutor",
+      "preferred_order": 0,
+      "desired_rank": 1,
+      "passed": true
+    },
+    {
+      "plant": 100,
+      "variant": "onset_reset",
+      "content": "learned_content",
+      "preferred_order": 0,
+      "desired_rank": 1,
+      "passed": true
+    },
+    {
+      "plant": 101,
+      "variant": "no_clock_forward",
+      "content": "exact_tutor",
+      "preferred_order": 4,
+      "desired_rank": 2,
+      "passed": true
+    },
+    {
+      "plant": 101,
+      "variant": "no_clock_forward",
+      "content": "learned_content",
+      "preferred_order": 4,
+      "desired_rank": 2,
+      "passed": true
+    },
+    {
+      "plant": 101,
+      "variant": "no_clock_reverse",
+      "content": "exact_tutor",
+      "preferred_order": 3,
+      "desired_rank": 2,
+      "passed": true
+    },
+    {
+      "plant": 101,
+      "variant": "no_clock_reverse",
+      "content": "learned_content",
+      "preferred_order": 3,
+      "desired_rank": 2,
+      "passed": true
+    },
+    {
+      "plant": 101,
+      "variant": "tonic_forward",
+      "content": "exact_tutor",
+      "preferred_order": 1,
+      "desired_rank": 4,
+      "passed": true
+    },
+    {
+      "plant": 101,
+      "variant": "tonic_forward",
+      "content": "learned_content",
+      "preferred_order": 5,
+      "desired_rank": 4,
+      "passed": true
+    },
+    {
+      "plant": 101,
+      "variant": "untutored_no_clock",
+      "content": "exact_tutor",
+      "preferred_order": 1,
+      "desired_rank": 3,
+      "passed": true
+    },
+    {
+      "plant": 101,
+      "variant": "untutored_no_clock",
+      "content": "learned_content",
+      "preferred_order": 1,
+      "desired_rank": 2,
+      "passed": true
+    },
+    {
+      "plant": 101,
+      "variant": "onset_reset",
+      "content": "exact_tutor",
+      "preferred_order": 0,
+      "desired_rank": 1,
+      "passed": true
+    },
+    {
+      "plant": 101,
+      "variant": "onset_reset",
+      "content": "learned_content",
+      "preferred_order": 0,
+      "desired_rank": 1,
+      "passed": true
+    },
+    {
+      "plant": 102,
+      "variant": "no_clock_forward",
+      "content": "exact_tutor",
+      "preferred_order": 0,
+      "desired_rank": 1,
+      "passed": true
+    },
+    {
+      "plant": 102,
+      "variant": "no_clock_forward",
+      "content": "learned_content",
+      "preferred_order": 0,
+      "desired_rank": 1,
+      "passed": true
+    },
+    {
+      "plant": 102,
+      "variant": "no_clock_reverse",
+      "content": "exact_tutor",
+      "preferred_order": 2,
+      "desired_rank": 1,
+      "passed": true
+    },
+    {
+      "plant": 102,
+      "variant": "no_clock_reverse",
+      "content": "learned_content",
+      "preferred_order": 2,
+      "desired_rank": 1,
+      "passed": true
+    },
+    {
+      "plant": 102,
+      "variant": "tonic_forward",
+      "content": "exact_tutor",
+      "preferred_order": 5,
+      "desired_rank": 2,
+      "passed": true
+    },
+    {
+      "plant": 102,
+      "variant": "tonic_forward",
+      "content": "learned_content",
+      "preferred_order": 5,
+      "desired_rank": 2,
+      "passed": true
+    },
+    {
+      "plant": 102,
+      "variant": "untutored_no_clock",
+      "content": "exact_tutor",
+      "preferred_order": 5,
+      "desired_rank": 3,
+      "passed": true
+    },
+    {
+      "plant": 102,
+      "variant": "untutored_no_clock",
+      "content": "learned_content",
+      "preferred_order": 5,
+      "desired_rank": 3,
+      "passed": true
+    },
+    {
+      "plant": 102,
+      "variant": "onset_reset",
+      "content": "exact_tutor",
+      "preferred_order": 0,
+      "desired_rank": 1,
+      "passed": true
+    },
+    {
+      "plant": 102,
+      "variant": "onset_reset",
+      "content": "learned_content",
+      "preferred_order": 0,
+      "desired_rank": 1,
+      "passed": true
+    }
+  ],
+  "all_arithmetic_passed": true
+}

@@ -1,0 +1,85 @@
+{
+  "started_at": "2026-11-01T07:47:31.136153+00:00",
+  "ended_at": "2026-11-01T07:47:31.509013+00:00",
+  "author_code_imported": false,
+  "source_signal_sd_independent": 0.05333953324326175,
+  "signal_sd_difference": -1.3877787807814457e-16,
+  "examples": {
+    "null": {
+      "max_differences_radians": {
+        "mean": 0.0,
+        "y": 0.0,
+        "B": 5.342393194496253e-12,
+        "H": 5.836220395849523e-12
+      },
+      "selected_penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "score": {
+        "gain": -0.0012286783266632906,
+        "bootstrap95": [
+          -0.003768975152509796,
+          0.0011972907869300608
+        ],
+        "context_gains": [
+          0.000745688085614038,
+          -0.003163989767534625
+        ],
+        "passes": false
+      },
+      "gain_difference": -3.8312885849989264e-14,
+      "bootstrap_max_difference": 4.7431242961026854e-14
+    },
+    "positive": {
+      "max_differences_radians": {
+        "mean": 1.930666737592901e-10,
+        "y": 1.9306645171468517e-10,
+        "B": 8.986633659446852e-11,
+        "H": 1.456892384510411e-10
+      },
+      "selected_penalties": {
+        "B": 0.01,
+        "H": 0.001
+      },
+      "score": {
+        "gain": 0.24818258056537335,
+        "bootstrap95": [
+          0.2226313835164669,
+          0.2731750923109256
+        ],
+        "context_gains": [
+          0.2690354593865736,
+          0.22604232433019145
+        ],
+        "passes": true
+      },
+      "gain_difference": 8.104628079763643e-15,
+      "bootstrap_max_difference": 2.746414207166481e-13
+    }
+  },
+  "all_200_scores_from_saved_person_losses": {
+    "summary": {
+      "null": {
+        "n": 100,
+        "passes": 0,
+        "mean_gain": -0.004508607233562734
+      },
+      "positive": {
+        "n": 100,
+        "passes": 100,
+        "mean_gain": 0.24424078783608
+      }
+    },
+    "max_gain_difference": 1.1095453982673531e-16,
+    "max_bootstrap_interval_difference": 1.1102230246251565e-16
+  },
+  "analytic_marginal_oracle_expected_loss": 0.1219045690794387,
+  "analytic_positive_current_PE_expected_loss": 0.1784670934879624,
+  "analytic_positive_oracle_fraction_vs_current_PE": 0.31693531453370616,
+  "input_container_bytes": 21622460,
+  "decoded_array_bytes": 21620160,
+  "control_json_bytes": 380322,
+  "peak_rss_bytes": 129482752,
+  "scope": "Both rep0 synthetic target generators, source-only residual construction, all-penalty refits and forecasts independently reconstructed; other 198 target/refit runs NOT rerun, only saved person-loss score/interval summaries audited. Fixed real response histories do not regenerate with synthetic updates; large .35rad signal, not a 5% boundary-power, human trajectory or interval-coverage test."
+}

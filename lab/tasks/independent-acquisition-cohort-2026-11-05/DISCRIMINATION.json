@@ -1,0 +1,1669 @@
+{
+  "utc": "2026-11-05T17:13:10.045233+00:00",
+  "status": "complete",
+  "purpose": "Plan sufficient positive/negative discrimination without opening any new candidate outcomes",
+  "design": {
+    "primary_family": [
+      {
+        "kind": "fixed_refined",
+        "condition": "primary",
+        "neural": "linear1024",
+        "reference": "recent_selected",
+        "cutoff": 200,
+        "horizon": 2000,
+        "metric": "A"
+      },
+      {
+        "kind": "fixed_refined",
+        "condition": "primary",
+        "neural": "linear1024",
+        "reference": "recent_selected",
+        "cutoff": 200,
+        "horizon": 2000,
+        "metric": "D"
+      },
+      {
+        "kind": "fixed_refined",
+        "condition": "primary",
+        "neural": "linear1024",
+        "reference": "recent_selected",
+        "cutoff": 1000,
+        "horizon": 2000,
+        "metric": "A"
+      },
+      {
+        "kind": "fixed_refined",
+        "condition": "primary",
+        "neural": "linear1024",
+        "reference": "recent_selected",
+        "cutoff": 1000,
+        "horizon": 2000,
+        "metric": "D"
+      }
+    ],
+    "margins": [
+      0.02,
+      0.0,
+      0.02,
+      0.0
+    ],
+    "mean": [
+      -0.00747827419839751,
+      -0.014230456798804744,
+      -0.004699609105726553,
+      -0.010675397709169903
+    ],
+    "sd": [
+      0.06995281700892336,
+      0.05413604011991628,
+      0.04367607749201217,
+      0.026290961321673505
+    ],
+    "unstratified_se64": [
+      0.00874410212611542,
+      0.006767005014989535,
+      0.005459509686501521,
+      0.003286370165209188
+    ],
+    "correlation": [
+      [
+        1.0,
+        0.9284144110790895,
+        0.34152116235415103,
+        0.2816619173190524
+      ],
+      [
+        0.9284144110790896,
+        0.9999999999999999,
+        0.3210841933632305,
+        0.26603424709455564
+      ],
+      [
+        0.34152116235415103,
+        0.3210841933632305,
+        1.0,
+        0.9277057902243832
+      ],
+      [
+        0.28166191731905244,
+        0.26603424709455564,
+        0.9277057902243833,
+        1.0
+      ]
+    ],
+    "near_boundary_distance": [
+      0.01,
+      0.006382065044007665,
+      0.01,
+      0.004363478110907585
+    ],
+    "near_boundary_meaning": "Accuracy1pp versus3pp at2pp boundary; proper benefit5% versus15% at10% boundary, risk anchored to saved selected growth. Not a retuned gate.",
+    "normal_plus_student80_n_each": [
+      549,
+      806,
+      216,
+      408
+    ],
+    "source32_point_min": [
+      -0.0088702392820183,
+      -0.014559754653872398,
+      -0.008941110756553263,
+      -0.013179439801995785
+    ],
+    "source32_point_max": [
+      0.0060786010159865275,
+      -0.0016234257404730917,
+      0.005096803025260064,
+      -0.003081104271522783
+    ],
+    "source32_point_sd": [
+      0.004042183582181607,
+      0.0032546758414080095,
+      0.0032802628798417497,
+      0.0022665782837835925
+    ],
+    "source32_max_animal_sd": [
+      0.10736351493485592,
+      0.08460519926635988,
+      0.08156677592663945,
+      0.0493955183597304
+    ],
+    "source32_max_n_to_exclude_each": [
+      711,
+      34421,
+      583,
+      4955
+    ],
+    "source_interpretation": "Finite coupled donor/selection perturbations conditional on unchanged neural fit. Their point SD is a diagnostic, not a95% source-tail variance. Additional evaluation animals do not create new donor subjects or repeated neural fits.",
+    "site_means": [
+      [
+        -0.03335765621152633,
+        -0.024808511325956198,
+        -0.05060240439215086,
+        -0.03250314673612083
+      ],
+      [
+        -0.010271641696815012,
+        -0.019456038420279615,
+        -0.03929603574211709,
+        -0.034961507235982986
+      ],
+      [
+        -0.005360892831146029,
+        -0.015096281127807762,
+        -0.020813603337811126,
+        -0.0186251530663304
+      ],
+      [
+        0.0811306038776981,
+        0.0773710303616631,
+        0.07167302471185288,
+        0.039374352094638534
+      ],
+      [
+        -0.0018243922666233133,
+        -0.01146245284677579,
+        0.0041851010561669445,
+        -0.005049015533054126
+      ],
+      [
+        -0.038368611454730805,
+        -0.01616662744761641,
+        0.012626633952077174,
+        -0.004697361980132107
+      ],
+      [
+        -0.021437098491058088,
+        -0.019304965639926685,
+        -0.006543766443947805,
+        -0.01125087075543231
+      ],
+      [
+        -0.01056199193510859,
+        -0.026670423313384307,
+        0.019244206617724,
+        0.0021400420828084077
+      ],
+      [
+        0.03277973508958203,
+        0.012610178127065302,
+        0.009144831213955193,
+        6.514991223223465e-05
+      ]
+    ],
+    "equal_site_sd": [
+      0.03698711409054668,
+      0.03286076438517128,
+      0.03596652846240367,
+      0.022016804859389453
+    ],
+    "site_interpretation": "Nine observed-site means with singleton sites and unequal animals; no arbitrary-new-site power/coverage. New animals at same sites do not create independent sites.",
+    "original_growth_retained": true
+  },
+  "power_rows": [
+    {
+      "n": 14,
+      "bonferroni_critical": 2.896147808613051,
+      "expected_halfwidth": [
+        0.05414544324737855,
+        0.04190281411507447,
+        0.033806509533564386,
+        0.020349941789765343
+      ],
+      "positive_near_boundary_each": [
+        {
+          "events": 175,
+          "replicates": 20000,
+          "rate": 0.00875,
+          "exact_binomial95": [
+            0.007506099916175185,
+            0.010139685604444518
+          ]
+        },
+        {
+          "events": 175,
+          "replicates": 20000,
+          "rate": 0.00875,
+          "exact_binomial95": [
+            0.007506099916175185,
+            0.010139685604444518
+          ]
+        },
+        {
+          "events": 901,
+          "replicates": 20000,
+          "rate": 0.04505,
+          "exact_binomial95": [
+            0.042216762330407484,
+            0.048016417036412934
+          ]
+        },
+        {
+          "events": 561,
+          "replicates": 20000,
+          "rate": 0.02805,
+          "exact_binomial95": [
+            0.025805468222042972,
+            0.03043308689731158
+          ]
+        }
+      ],
+      "absence_near_boundary_all": {
+        "events": 26,
+        "replicates": 20000,
+        "rate": 0.0013,
+        "exact_binomial95": [
+          0.0008493734201450655,
+          0.0019042251302998263
+        ]
+      },
+      "absence_if_saved_means_repeat": {
+        "events": 323,
+        "replicates": 20000,
+        "rate": 0.01615,
+        "exact_binomial95": [
+          0.014448645346668502,
+          0.01799402319991836
+        ]
+      },
+      "predictive_claim": "Conditional trained-instance across independent animals only; borrowed residual law is uncertain"
+    },
+    {
+      "n": 34,
+      "bonferroni_critical": 2.64206907728927,
+      "expected_halfwidth": [
+        0.03169639846487787,
+        0.024529641154159586,
+        0.01979011589187476,
+        0.011912726630725306
+      ],
+      "positive_near_boundary_each": [
+        {
+          "events": 584,
+          "replicates": 20000,
+          "rate": 0.0292,
+          "exact_binomial95": [
+            0.026910241715595525,
+            0.03162793812123369
+          ]
+        },
+        {
+          "events": 616,
+          "replicates": 20000,
+          "rate": 0.0308,
+          "exact_binomial95": [
+            0.02844890469188935,
+            0.03328875688227817
+          ]
+        },
+        {
+          "events": 2567,
+          "replicates": 20000,
+          "rate": 0.12835,
+          "exact_binomial95": [
+            0.12374370299898584,
+            0.13306462377073783
+          ]
+        },
+        {
+          "events": 1366,
+          "replicates": 20000,
+          "rate": 0.0683,
+          "exact_binomial95": [
+            0.06484186155304283,
+            0.07188425770050506
+          ]
+        }
+      ],
+      "absence_near_boundary_all": {
+        "events": 101,
+        "replicates": 20000,
+        "rate": 0.00505,
+        "exact_binomial95": [
+          0.0041151344700909,
+          0.006132872307555832
+        ]
+      },
+      "absence_if_saved_means_repeat": {
+        "events": 1822,
+        "replicates": 20000,
+        "rate": 0.0911,
+        "exact_binomial95": [
+          0.08714668832276443,
+          0.09517263254320138
+        ]
+      },
+      "predictive_claim": "Conditional trained-instance across independent animals only; borrowed residual law is uncertain"
+    },
+    {
+      "n": 64,
+      "bonferroni_critical": 2.5714411855382133,
+      "expected_halfwidth": [
+        0.02248494433764545,
+        0.017400955398287725,
+        0.01403880806071483,
+        0.008450707593742928
+      ],
+      "positive_near_boundary_each": [
+        {
+          "events": 1504,
+          "replicates": 20000,
+          "rate": 0.0752,
+          "exact_binomial95": [
+            0.0715821242555522,
+            0.07894192892070852
+          ]
+        },
+        {
+          "events": 1281,
+          "replicates": 20000,
+          "rate": 0.06405,
+          "exact_binomial95": [
+            0.06069528391769874,
+            0.06753211293224164
+          ]
+        },
+        {
+          "events": 5178,
+          "replicates": 20000,
+          "rate": 0.2589,
+          "exact_binomial95": [
+            0.25283970735639516,
+            0.2650304498828939
+          ]
+        },
+        {
+          "events": 2592,
+          "replicates": 20000,
+          "rate": 0.1296,
+          "exact_binomial95": [
+            0.12497434545811083,
+            0.13433361382561249
+          ]
+        }
+      ],
+      "absence_near_boundary_all": {
+        "events": 257,
+        "replicates": 20000,
+        "rate": 0.01285,
+        "exact_binomial95": [
+          0.0113352243287757,
+          0.0145087306316027
+        ]
+      },
+      "absence_if_saved_means_repeat": {
+        "events": 5851,
+        "replicates": 20000,
+        "rate": 0.29255,
+        "exact_binomial95": [
+          0.28625057840396106,
+          0.2989097749474718
+        ]
+      },
+      "predictive_claim": "Conditional trained-instance across independent animals only; borrowed residual law is uncertain"
+    },
+    {
+      "n": 79,
+      "bonferroni_critical": 2.556946795152363,
+      "expected_halfwidth": [
+        0.020123955762532394,
+        0.015573801358033995,
+        0.01256468987114658,
+        0.007563357205819421
+      ],
+      "positive_near_boundary_each": [
+        {
+          "events": 1899,
+          "replicates": 20000,
+          "rate": 0.09495,
+          "exact_binomial95": [
+            0.09092136785352166,
+            0.09909681172431163
+          ]
+        },
+        {
+          "events": 1597,
+          "replicates": 20000,
+          "rate": 0.07985,
+          "exact_binomial95": [
+            0.07612962837638515,
+            0.08369303718199213
+          ]
+        },
+        {
+          "events": 6436,
+          "replicates": 20000,
+          "rate": 0.3218,
+          "exact_binomial95": [
+            0.3153268014785254,
+            0.328325035105304
+          ]
+        },
+        {
+          "events": 3235,
+          "replicates": 20000,
+          "rate": 0.16175,
+          "exact_binomial95": [
+            0.15667124324456042,
+            0.16692728441615412
+          ]
+        }
+      ],
+      "absence_near_boundary_all": {
+        "events": 401,
+        "replicates": 20000,
+        "rate": 0.02005,
+        "exact_binomial95": [
+          0.018152371348030064,
+          0.02208888580151161
+        ]
+      },
+      "absence_if_saved_means_repeat": {
+        "events": 7838,
+        "replicates": 20000,
+        "rate": 0.3919,
+        "exact_binomial95": [
+          0.3851254917059586,
+          0.39870594662401276
+        ]
+      },
+      "predictive_claim": "Conditional trained-instance across independent animals only; borrowed residual law is uncertain"
+    },
+    {
+      "n": 82,
+      "bonferroni_critical": 2.554705787907544,
+      "expected_halfwidth": [
+        0.019735092849942775,
+        0.0152728628235013,
+        0.012321897551548253,
+        0.007417207554790744
+      ],
+      "positive_near_boundary_each": [
+        {
+          "events": 1958,
+          "replicates": 20000,
+          "rate": 0.0979,
+          "exact_binomial95": [
+            0.0938150406989859,
+            0.10210226536070915
+          ]
+        },
+        {
+          "events": 1609,
+          "replicates": 20000,
+          "rate": 0.08045,
+          "exact_binomial95": [
+            0.0767166837109973,
+            0.08430580304293585
+          ]
+        },
+        {
+          "events": 6765,
+          "replicates": 20000,
+          "rate": 0.33825,
+          "exact_binomial95": [
+            0.3316919935683948,
+            0.3448550548734523
+          ]
+        },
+        {
+          "events": 3363,
+          "replicates": 20000,
+          "rate": 0.16815,
+          "exact_binomial95": [
+            0.16299023931617163,
+            0.17340641451628555
+          ]
+        }
+      ],
+      "absence_near_boundary_all": {
+        "events": 427,
+        "replicates": 20000,
+        "rate": 0.02135,
+        "exact_binomial95": [
+          0.01939151546356565,
+          0.023449288506701544
+        ]
+      },
+      "absence_if_saved_means_repeat": {
+        "events": 8353,
+        "replicates": 20000,
+        "rate": 0.41765,
+        "exact_binomial95": [
+          0.41080249765473487,
+          0.42452145071684977
+        ]
+      },
+      "predictive_claim": "Conditional trained-instance across independent animals only; borrowed residual law is uncertain"
+    },
+    {
+      "n": 90,
+      "bonferroni_critical": 2.5494826485476243,
+      "expected_halfwidth": [
+        0.018799054810784824,
+        0.014548468939046887,
+        0.011737468336517232,
+        0.007065408428817338
+      ],
+      "positive_near_boundary_each": [
+        {
+          "events": 2285,
+          "replicates": 20000,
+          "rate": 0.11425,
+          "exact_binomial95": [
+            0.10987253552852652,
+            0.11873994189195078
+          ]
+        },
+        {
+          "events": 1844,
+          "replicates": 20000,
+          "rate": 0.0922,
+          "exact_binomial95": [
+            0.0882249534647261,
+            0.09629404116438026
+          ]
+        },
+        {
+          "events": 7461,
+          "replicates": 20000,
+          "rate": 0.37305,
+          "exact_binomial95": [
+            0.36634141321956953,
+            0.37979550887903396
+          ]
+        },
+        {
+          "events": 3713,
+          "replicates": 20000,
+          "rate": 0.18565,
+          "exact_binomial95": [
+            0.1802822565723479,
+            0.1911092781662997
+          ]
+        }
+      ],
+      "absence_near_boundary_all": {
+        "events": 480,
+        "replicates": 20000,
+        "rate": 0.024,
+        "exact_binomial95": [
+          0.021923304049219695,
+          0.026216595454897126
+        ]
+      },
+      "absence_if_saved_means_repeat": {
+        "events": 9324,
+        "replicates": 20000,
+        "rate": 0.4662,
+        "exact_binomial95": [
+          0.4592666675562176,
+          0.47314316135185236
+        ]
+      },
+      "predictive_claim": "Conditional trained-instance across independent animals only; borrowed residual law is uncertain"
+    },
+    {
+      "n": 93,
+      "bonferroni_critical": 2.5477625390159204,
+      "expected_halfwidth": [
+        0.018480881472279692,
+        0.014302236616248448,
+        0.011538812099604435,
+        0.006945826640779281
+      ],
+      "positive_near_boundary_each": [
+        {
+          "events": 2345,
+          "replicates": 20000,
+          "rate": 0.11725,
+          "exact_binomial95": [
+            0.11282216403712796,
+            0.1217894293623246
+          ]
+        },
+        {
+          "events": 1896,
+          "replicates": 20000,
+          "rate": 0.0948,
+          "exact_binomial95": [
+            0.09077426351076277,
+            0.09894396050513053
+          ]
+        },
+        {
+          "events": 7809,
+          "replicates": 20000,
+          "rate": 0.39045,
+          "exact_binomial95": [
+            0.383680183280106,
+            0.3972516768507272
+          ]
+        },
+        {
+          "events": 3881,
+          "replicates": 20000,
+          "rate": 0.19405,
+          "exact_binomial95": [
+            0.18858896852657964,
+            0.19960011112671489
+          ]
+        }
+      ],
+      "absence_near_boundary_all": {
+        "events": 523,
+        "replicates": 20000,
+        "rate": 0.02615,
+        "exact_binomial95": [
+          0.02398245261844319,
+          0.028456728366306635
+        ]
+      },
+      "absence_if_saved_means_repeat": {
+        "events": 9723,
+        "replicates": 20000,
+        "rate": 0.48615,
+        "exact_binomial95": [
+          0.47920057623856094,
+          0.4931034512508904
+        ]
+      },
+      "predictive_claim": "Conditional trained-instance across independent animals only; borrowed residual law is uncertain"
+    },
+    {
+      "n": 127,
+      "bonferroni_critical": 2.534070450695106,
+      "expected_halfwidth": [
+        0.01572975768801648,
+        0.012173159419246779,
+        0.009821107213234094,
+        0.005911848423805208
+      ],
+      "positive_near_boundary_each": [
+        {
+          "events": 3386,
+          "replicates": 20000,
+          "rate": 0.1693,
+          "exact_binomial95": [
+            0.16412597511257168,
+            0.17457034212077913
+          ]
+        },
+        {
+          "events": 2576,
+          "replicates": 20000,
+          "rate": 0.1288,
+          "exact_binomial95": [
+            0.12418671771147549,
+            0.13352147675513368
+          ]
+        },
+        {
+          "events": 10772,
+          "replicates": 20000,
+          "rate": 0.5386,
+          "exact_binomial95": [
+            0.5316609691343597,
+            0.5455278060989814
+          ]
+        },
+        {
+          "events": 5556,
+          "replicates": 20000,
+          "rate": 0.2778,
+          "exact_binomial95": [
+            0.2715999941483243,
+            0.28406465569482703
+          ]
+        }
+      ],
+      "absence_near_boundary_all": {
+        "events": 949,
+        "replicates": 20000,
+        "rate": 0.04745,
+        "exact_binomial95": [
+          0.0445445459401877,
+          0.050487894355932435
+        ]
+      },
+      "absence_if_saved_means_repeat": {
+        "events": 13447,
+        "replicates": 20000,
+        "rate": 0.67235,
+        "exact_binomial95": [
+          0.6657954729617359,
+          0.6788543933479076
+        ]
+      },
+      "predictive_claim": "Conditional trained-instance across independent animals only; borrowed residual law is uncertain"
+    },
+    {
+      "n": 160,
+      "bonferroni_critical": 2.5264413292107237,
+      "expected_halfwidth": [
+        0.013971866719054057,
+        0.010812738780145874,
+        0.00872354194759058,
+        0.005251165331274214
+      ],
+      "positive_near_boundary_each": [
+        {
+          "events": 4711,
+          "replicates": 20000,
+          "rate": 0.23555,
+          "exact_binomial95": [
+            0.22968279495825458,
+            0.24149417028472128
+          ]
+        },
+        {
+          "events": 3343,
+          "replicates": 20000,
+          "rate": 0.16715,
+          "exact_binomial95": [
+            0.16200271414322967,
+            0.17239423240926105
+          ]
+        },
+        {
+          "events": 12966,
+          "replicates": 20000,
+          "rate": 0.6483,
+          "exact_binomial95": [
+            0.641636113021891,
+            0.6549207527428578
+          ]
+        },
+        {
+          "events": 7043,
+          "replicates": 20000,
+          "rate": 0.35215,
+          "exact_binomial95": [
+            0.34552724832872583,
+            0.35881575495803747
+          ]
+        }
+      ],
+      "absence_near_boundary_all": {
+        "events": 1433,
+        "replicates": 20000,
+        "rate": 0.07165,
+        "exact_binomial95": [
+          0.06811310764017563,
+          0.0753120073702788
+        ]
+      },
+      "absence_if_saved_means_repeat": {
+        "events": 15840,
+        "replicates": 20000,
+        "rate": 0.792,
+        "exact_binomial95": [
+          0.7863076845881687,
+          0.7976073104608346
+        ]
+      },
+      "predictive_claim": "Conditional trained-instance across independent animals only; borrowed residual law is uncertain"
+    },
+    {
+      "n": 240,
+      "bonferroni_critical": 2.5167535309870788,
+      "expected_halfwidth": [
+        0.011364236782873086,
+        0.00879471055942418,
+        0.007095429570806632,
+        0.004271117625909804
+      ],
+      "positive_near_boundary_each": [
+        {
+          "events": 7751,
+          "replicates": 20000,
+          "rate": 0.38755,
+          "exact_binomial95": [
+            0.38078975475860166,
+            0.3943429489869607
+          ]
+        },
+        {
+          "events": 5162,
+          "replicates": 20000,
+          "rate": 0.2581,
+          "exact_binomial95": [
+            0.25204593893498817,
+            0.2642244514789035
+          ]
+        },
+        {
+          "events": 16886,
+          "replicates": 20000,
+          "rate": 0.8443,
+          "exact_binomial95": [
+            0.8392001295334027,
+            0.8492995704816328
+          ]
+        },
+        {
+          "events": 10652,
+          "replicates": 20000,
+          "rate": 0.5326,
+          "exact_binomial95": [
+            0.5256559065369395,
+            0.5395346135175225
+          ]
+        }
+      ],
+      "absence_near_boundary_all": {
+        "events": 3284,
+        "replicates": 20000,
+        "rate": 0.1642,
+        "exact_binomial95": [
+          0.15908990535375428,
+          0.1694079048627051
+        ]
+      },
+      "absence_if_saved_means_repeat": {
+        "events": 18920,
+        "replicates": 20000,
+        "rate": 0.946,
+        "exact_binomial95": [
+          0.9427771905432156,
+          0.9490923715188072
+        ]
+      },
+      "predictive_claim": "Conditional trained-instance across independent animals only; borrowed residual law is uncertain"
+    },
+    {
+      "n": 320,
+      "bonferroni_critical": 2.5119508904185754,
+      "expected_halfwidth": [
+        0.009822937112209797,
+        0.007601908548360099,
+        0.006133096290565533,
+        0.003691837880515883
+      ],
+      "positive_near_boundary_each": [
+        {
+          "events": 10436,
+          "replicates": 20000,
+          "rate": 0.5218,
+          "exact_binomial95": [
+            0.5148493228603499,
+            0.5287443378250853
+          ]
+        },
+        {
+          "events": 6996,
+          "replicates": 20000,
+          "rate": 0.3498,
+          "exact_binomial95": [
+            0.3431877582847341,
+            0.35645592885106603
+          ]
+        },
+        {
+          "events": 18875,
+          "replicates": 20000,
+          "rate": 0.94375,
+          "exact_binomial95": [
+            0.9404667595661481,
+            0.9469034861969026
+          ]
+        },
+        {
+          "events": 13718,
+          "replicates": 20000,
+          "rate": 0.6859,
+          "exact_binomial95": [
+            0.6794155586190692,
+            0.6923303631642581
+          ]
+        }
+      ],
+      "absence_near_boundary_all": {
+        "events": 5494,
+        "replicates": 20000,
+        "rate": 0.2747,
+        "exact_binomial95": [
+          0.2685219417294505,
+          0.28094361127495765
+        ]
+      },
+      "absence_if_saved_means_repeat": {
+        "events": 19731,
+        "replicates": 20000,
+        "rate": 0.98655,
+        "exact_binomial95": [
+          0.9848558759767739,
+          0.9881004117283646
+        ]
+      },
+      "predictive_claim": "Conditional trained-instance across independent animals only; borrowed residual law is uncertain"
+    },
+    {
+      "n": 512,
+      "bonferroni_critical": 2.5065804498532467,
+      "expected_halfwidth": [
+        0.0077491108924391755,
+        0.005996987628293142,
+        0.004838272171214996,
+        0.0029124141594539174
+      ],
+      "positive_near_boundary_each": [
+        {
+          "events": 15508,
+          "replicates": 20000,
+          "rate": 0.7754,
+          "exact_binomial95": [
+            0.7695515571933003,
+            0.7811682831557096
+          ]
+        },
+        {
+          "events": 11408,
+          "replicates": 20000,
+          "rate": 0.5704,
+          "exact_binomial95": [
+            0.5635046902163874,
+            0.5772748369834972
+          ]
+        },
+        {
+          "events": 19924,
+          "replicates": 20000,
+          "rate": 0.9962,
+          "exact_binomial95": [
+            0.9952460088444768,
+            0.9970048990424005
+          ]
+        },
+        {
+          "events": 17908,
+          "replicates": 20000,
+          "rate": 0.8954,
+          "exact_binomial95": [
+            0.891075985199324,
+            0.8996086898579333
+          ]
+        }
+      ],
+      "absence_near_boundary_all": {
+        "events": 10715,
+        "replicates": 20000,
+        "rate": 0.53575,
+        "exact_binomial95": [
+          0.528808439042203,
+          0.5426811649838539
+        ]
+      },
+      "absence_if_saved_means_repeat": {
+        "events": 19998,
+        "replicates": 20000,
+        "rate": 0.9999,
+        "exact_binomial95": [
+          0.9996388127969551,
+          0.9999878893066346
+        ]
+      },
+      "predictive_claim": "Conditional trained-instance across independent animals only; borrowed residual law is uncertain"
+    },
+    {
+      "n": 768,
+      "bonferroni_critical": 2.503611649888546,
+      "expected_halfwidth": [
+        0.006319628689612563,
+        0.004890720444327467,
+        0.003945753783340165,
+        0.0023751597226563115
+      ],
+      "positive_near_boundary_each": [
+        {
+          "events": 18725,
+          "replicates": 20000,
+          "rate": 0.93625,
+          "exact_binomial95": [
+            0.9327752538003118,
+            0.9395972590009669
+          ]
+        },
+        {
+          "events": 15631,
+          "replicates": 20000,
+          "rate": 0.78155,
+          "exact_binomial95": [
+            0.7757578099655625,
+            0.7872602356826663
+          ]
+        },
+        {
+          "events": 19997,
+          "replicates": 20000,
+          "rate": 0.99985,
+          "exact_binomial95": [
+            0.9995616995466063,
+            0.9999690653255547
+          ]
+        },
+        {
+          "events": 19638,
+          "replicates": 20000,
+          "rate": 0.9819,
+          "exact_binomial95": [
+            0.9799557647509403,
+            0.9837022835582502
+          ]
+        }
+      ],
+      "absence_near_boundary_all": {
+        "events": 15545,
+        "replicates": 20000,
+        "rate": 0.77725,
+        "exact_binomial95": [
+          0.7714182867510786,
+          0.7830010137747333
+        ]
+      },
+      "absence_if_saved_means_repeat": {
+        "events": 20000,
+        "replicates": 20000,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.9998155730360381,
+          1.0
+        ]
+      },
+      "predictive_claim": "Conditional trained-instance across independent animals only; borrowed residual law is uncertain"
+    },
+    {
+      "n": 1024,
+      "bonferroni_critical": 2.502131187407726,
+      "expected_halfwidth": [
+        0.005469722658907899,
+        0.0042329835733374505,
+        0.0034151023636375083,
+        0.002055732320934048
+      ],
+      "positive_near_boundary_each": [
+        {
+          "events": 19698,
+          "replicates": 20000,
+          "rate": 0.9849,
+          "exact_binomial95": [
+            0.9831125857254005,
+            0.9865443480414146
+          ]
+        },
+        {
+          "events": 18013,
+          "replicates": 20000,
+          "rate": 0.90065,
+          "exact_binomial95": [
+            0.8964209015717087,
+            0.9047622214360812
+          ]
+        },
+        {
+          "events": 20000,
+          "replicates": 20000,
+          "rate": 1.0,
+          "exact_binomial95": [
+            0.9998155730360381,
+            1.0
+          ]
+        },
+        {
+          "events": 19945,
+          "replicates": 20000,
+          "rate": 0.99725,
+          "exact_binomial95": [
+            0.9964219821754969,
+            0.9979276722100205
+          ]
+        }
+      ],
+      "absence_near_boundary_all": {
+        "events": 18096,
+        "replicates": 20000,
+        "rate": 0.9048,
+        "exact_binomial95": [
+          0.9006484431128277,
+          0.9088334513679567
+        ]
+      },
+      "absence_if_saved_means_repeat": {
+        "events": 20000,
+        "replicates": 20000,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.9998155730360381,
+          1.0
+        ]
+      },
+      "predictive_claim": "Conditional trained-instance across independent animals only; borrowed residual law is uncertain"
+    },
+    {
+      "n": 1536,
+      "bonferroni_critical": 2.500653341520196,
+      "expected_halfwidth": [
+        0.004463372068547562,
+        0.0034541752527590375,
+        0.0027867724657421383,
+        0.0016775070316818377
+      ],
+      "positive_near_boundary_each": [
+        {
+          "events": 19981,
+          "replicates": 20000,
+          "rate": 0.99905,
+          "exact_binomial95": [
+            0.998516853105845,
+            0.9994279440956261
+          ]
+        },
+        {
+          "events": 19647,
+          "replicates": 20000,
+          "rate": 0.98235,
+          "exact_binomial95": [
+            0.9804283643809594,
+            0.9841295207025373
+          ]
+        },
+        {
+          "events": 20000,
+          "replicates": 20000,
+          "rate": 1.0,
+          "exact_binomial95": [
+            0.9998155730360381,
+            1.0
+          ]
+        },
+        {
+          "events": 19999,
+          "replicates": 20000,
+          "rate": 0.99995,
+          "exact_binomial95": [
+            0.9997214496678255,
+            0.9999987341104021
+          ]
+        }
+      ],
+      "absence_near_boundary_all": {
+        "events": 19695,
+        "replicates": 20000,
+        "rate": 0.98475,
+        "exact_binomial95": [
+          0.9829543751084697,
+          0.9864026160482257
+        ]
+      },
+      "absence_if_saved_means_repeat": {
+        "events": 20000,
+        "replicates": 20000,
+        "rate": 1.0,
+        "exact_binomial95": [
+          0.9998155730360381,
+          1.0
+        ]
+      },
+      "predictive_claim": "Conditional trained-instance across independent animals only; borrowed residual law is uncertain"
+    }
+  ],
+  "controls": [
+    {
+      "n": 82,
+      "all_boundary_any_false_material_positive": {
+        "events": 359,
+        "replicates": 20000,
+        "rate": 0.01795,
+        "exact_binomial95": [
+          0.016155270592632224,
+          0.01988673537213342
+        ]
+      },
+      "all_boundary_false_absence": {
+        "events": 0,
+        "replicates": 20000,
+        "rate": 0.0,
+        "exact_binomial95": [
+          0.0,
+          0.0001844269639618992
+        ]
+      },
+      "one_active_boundary_false_absence": [
+        {
+          "events": 178,
+          "replicates": 20000,
+          "rate": 0.0089,
+          "exact_binomial95": [
+            0.007645156095129432,
+            0.010300554992564022
+          ]
+        },
+        {
+          "events": 117,
+          "replicates": 20000,
+          "rate": 0.00585,
+          "exact_binomial95": [
+            0.004840440502526416,
+            0.00700699706315257
+          ]
+        },
+        {
+          "events": 99,
+          "replicates": 20000,
+          "rate": 0.00495,
+          "exact_binomial95": [
+            0.0040248824116047265,
+            0.0060232010778841025
+          ]
+        },
+        {
+          "events": 107,
+          "replicates": 20000,
+          "rate": 0.00535,
+          "exact_binomial95": [
+            0.004386464572245161,
+            0.00646132005554083
+          ]
+        }
+      ],
+      "any_band_noncoverage": {
+        "events": 710,
+        "replicates": 20000,
+        "rate": 0.0355,
+        "exact_binomial95": [
+          0.032978240328745696,
+          0.03815792026814462
+        ]
+      },
+      "interpretation": "Empirical shifted contribution laws, not autonomous plants, biological power or empirical-data95% guarantee. Composite absence null uses each one-active-boundary case."
+    },
+    {
+      "n": 127,
+      "all_boundary_any_false_material_positive": {
+        "events": 332,
+        "replicates": 20000,
+        "rate": 0.0166,
+        "exact_binomial95": [
+          0.014874809453001275,
+          0.01846769134823267
+        ]
+      },
+      "all_boundary_false_absence": {
+        "events": 1,
+        "replicates": 20000,
+        "rate": 5e-05,
+        "exact_binomial95": [
+          1.2658895979755804e-06,
+          0.0002785503321745113
+        ]
+      },
+      "one_active_boundary_false_absence": [
+        {
+          "events": 146,
+          "replicates": 20000,
+          "rate": 0.0073,
+          "exact_binomial95": [
+            0.006167282852591309,
+            0.00857926895610178
+          ]
+        },
+        {
+          "events": 110,
+          "replicates": 20000,
+          "rate": 0.0055,
+          "exact_binomial95": [
+            0.0045224359370529005,
+            0.006625241734307395
+          ]
+        },
+        {
+          "events": 103,
+          "replicates": 20000,
+          "rate": 0.00515,
+          "exact_binomial95": [
+            0.004205484038339292,
+            0.006242447401010122
+          ]
+        },
+        {
+          "events": 90,
+          "replicates": 20000,
+          "rate": 0.0045,
+          "exact_binomial95": [
+            0.00362003791674144,
+            0.005528409763180495
+          ]
+        }
+      ],
+      "any_band_noncoverage": {
+        "events": 642,
+        "replicates": 20000,
+        "rate": 0.0321,
+        "exact_binomial95": [
+          0.029700341926546803,
+          0.034636901525255094
+        ]
+      },
+      "interpretation": "Empirical shifted contribution laws, not autonomous plants, biological power or empirical-data95% guarantee. Composite absence null uses each one-active-boundary case."
+    },
+    {
+      "n": 512,
+      "all_boundary_any_false_material_positive": {
+        "events": 335,
+        "replicates": 20000,
+        "rate": 0.01675,
+        "exact_binomial95": [
+          0.015016939635142638,
+          0.018625505580469905
+        ]
+      },
+      "all_boundary_false_absence": {
+        "events": 2,
+        "replicates": 20000,
+        "rate": 0.0001,
+        "exact_binomial95": [
+          1.211069336541704e-05,
+          0.0003611872030449162
+        ]
+      },
+      "one_active_boundary_false_absence": [
+        {
+          "events": 150,
+          "replicates": 20000,
+          "rate": 0.0075,
+          "exact_binomial95": [
+            0.006351314344783233,
+            0.008795125962905822
+          ]
+        },
+        {
+          "events": 126,
+          "replicates": 20000,
+          "rate": 0.0063,
+          "exact_binomial95": [
+            0.005250702487843384,
+            0.007496443373064353
+          ]
+        },
+        {
+          "events": 109,
+          "replicates": 20000,
+          "rate": 0.00545,
+          "exact_binomial95": [
+            0.00447709029710652,
+            0.006570622739832516
+          ]
+        },
+        {
+          "events": 111,
+          "replicates": 20000,
+          "rate": 0.00555,
+          "exact_binomial95": [
+            0.004567803033445887,
+            0.006679839550368532
+          ]
+        }
+      ],
+      "any_band_noncoverage": {
+        "events": 667,
+        "replicates": 20000,
+        "rate": 0.03335,
+        "exact_binomial95": [
+          0.030904656803954836,
+          0.03593218685443276
+        ]
+      },
+      "interpretation": "Empirical shifted contribution laws, not autonomous plants, biological power or empirical-data95% guarantee. Composite absence null uses each one-active-boundary case."
+    },
+    {
+      "n": 1024,
+      "all_boundary_any_false_material_positive": {
+        "events": 364,
+        "replicates": 20000,
+        "rate": 0.0182,
+        "exact_binomial95": [
+          0.01639269865664193,
+          0.020149216924441094
+        ]
+      },
+      "all_boundary_false_absence": {
+        "events": 1,
+        "replicates": 20000,
+        "rate": 5e-05,
+        "exact_binomial95": [
+          1.2658895979755804e-06,
+          0.0002785503321745113
+        ]
+      },
+      "one_active_boundary_false_absence": [
+        {
+          "events": 137,
+          "replicates": 20000,
+          "rate": 0.00685,
+          "exact_binomial95": [
+            0.0057540494258870615,
+            0.008092761580246225
+          ]
+        },
+        {
+          "events": 109,
+          "replicates": 20000,
+          "rate": 0.00545,
+          "exact_binomial95": [
+            0.00447709029710652,
+            0.006570622739832516
+          ]
+        },
+        {
+          "events": 111,
+          "replicates": 20000,
+          "rate": 0.00555,
+          "exact_binomial95": [
+            0.004567803033445887,
+            0.006679839550368532
+          ]
+        },
+        {
+          "events": 112,
+          "replicates": 20000,
+          "rate": 0.0056,
+          "exact_binomial95": [
+            0.00461319129819659,
+            0.006734416469955204
+          ]
+        }
+      ],
+      "any_band_noncoverage": {
+        "events": 680,
+        "replicates": 20000,
+        "rate": 0.034,
+        "exact_binomial95": [
+          0.031531273603607454,
+          0.03660536296475938
+        ]
+      },
+      "interpretation": "Empirical shifted contribution laws, not autonomous plants, biological power or empirical-data95% guarantee. Composite absence null uses each one-active-boundary case."
+    }
+  ],
+  "source_finite_envelope": [
+    {
+      "n": 82,
+      "critical": 3.7007048226235435,
+      "max_source_upper": [
+        0.044936728390227665,
+        0.028985108872982127,
+        0.03843106285329167,
+        0.017105583563539688
+      ],
+      "all128_nominal_upper_below_margin": false,
+      "scope": "Expected-width finite-envelope projection only. No joint biological power and no source-tail guarantee."
+    },
+    {
+      "n": 93,
+      "critical": 3.681625621489507,
+      "max_source_upper": [
+        0.042047824389318304,
+        0.026708578537638465,
+        0.03623628946627353,
+        0.01577646434922371
+      ],
+      "all128_nominal_upper_below_margin": false,
+      "scope": "Expected-width finite-envelope projection only. No joint biological power and no source-tail guarantee."
+    },
+    {
+      "n": 127,
+      "critical": 3.644225739465983,
+      "max_source_upper": [
+        0.035778433974381914,
+        0.02176813833636395,
+        0.031473275108164826,
+        0.01289206000075198
+      ],
+      "all128_nominal_upper_below_margin": false,
+      "scope": "Expected-width finite-envelope projection only. No joint biological power and no source-tail guarantee."
+    },
+    {
+      "n": 320,
+      "critical": 3.5844344179217513,
+      "max_source_upper": [
+        0.02296035281157566,
+        0.012129290567057048,
+        0.021440825318651262,
+        0.0068165709043496395
+      ],
+      "all128_nominal_upper_below_margin": false,
+      "scope": "Expected-width finite-envelope projection only. No joint biological power and no source-tail guarantee."
+    },
+    {
+      "n": 512,
+      "critical": 3.570034532349201,
+      "max_source_upper": [
+        0.019371181471348725,
+        0.00920537272849744,
+        0.017965978803327128,
+        0.004712260136944641
+      ],
+      "all128_nominal_upper_below_margin": false,
+      "scope": "Expected-width finite-envelope projection only. No joint biological power and no source-tail guarantee."
+    },
+    {
+      "n": 1024,
+      "critical": 3.5581391957903836,
+      "max_source_upper": [
+        0.015446556463922833,
+        0.006008177615448267,
+        0.014166363728348418,
+        0.0024112747901065996
+      ],
+      "all128_nominal_upper_below_margin": false,
+      "scope": "Expected-width finite-envelope projection only. No joint biological power and no source-tail guarantee."
+    },
+    {
+      "n": 1536,
+      "critical": 3.5541950262432915,
+      "max_source_upper": [
+        0.01371902585953342,
+        0.004600845094367648,
+        0.01249385965101485,
+        0.0013984334105115927
+      ],
+      "all128_nominal_upper_below_margin": false,
+      "scope": "Expected-width finite-envelope projection only. No joint biological power and no source-tail guarantee."
+    }
+  ],
+  "whole_investigation_scaling": [
+    {
+      "n": 93,
+      "primary1024_measured_scaling_cpu_minutes": 31.692649953125,
+      "dependent32_at512_conservative_cpu_minutes": 112.23805217187497,
+      "author_main_with_controls_and25to75percent_overhead_cpu_minutes": [
+        189.91337765624996,
+        276.87872871875
+      ],
+      "independent_result_and_useful_revision_cpu_minutes": [
+        101.96535106249999,
+        233.93070212499998
+      ],
+      "neural_repeated_training_cost": "Not included; unavailable measured basis. A family-level claim needs a separately priced actual neural-refit pilot and source sample; no speculative certification."
+    },
+    {
+      "n": 127,
+      "primary1024_measured_scaling_cpu_minutes": 43.27921015104166,
+      "dependent32_at512_conservative_cpu_minutes": 153.27131855729164,
+      "author_main_with_controls_and25to75percent_overhead_cpu_minutes": [
+        255.68816088541664,
+        368.9634252395833
+      ],
+      "independent_result_and_useful_revision_cpu_minutes": [
+        128.27526435416667,
+        286.55052870833333
+      ],
+      "neural_repeated_training_cost": "Not included; unavailable measured basis. A family-level claim needs a separately priced actual neural-refit pilot and source sample; no speculative certification."
+    },
+    {
+      "n": 512,
+      "primary1024_measured_scaling_cpu_minutes": 174.47996533333333,
+      "dependent32_at512_conservative_cpu_minutes": 617.9127173333331,
+      "author_main_with_controls_and25to75percent_overhead_cpu_minutes": [
+        1000.4908533333331,
+        1411.6871946666663
+      ],
+      "independent_result_and_useful_revision_cpu_minutes": [
+        426.19634133333324,
+        882.3926826666665
+      ],
+      "neural_repeated_training_cost": "Not included; unavailable measured basis. A family-level claim needs a separately priced actual neural-refit pilot and source sample; no speculative certification."
+    },
+    {
+      "n": 1024,
+      "primary1024_measured_scaling_cpu_minutes": 348.95993066666665,
+      "dependent32_at512_conservative_cpu_minutes": 1235.8254346666663,
+      "author_main_with_controls_and25to75percent_overhead_cpu_minutes": [
+        1990.9817066666662,
+        2798.3743893333326
+      ],
+      "independent_result_and_useful_revision_cpu_minutes": [
+        822.3926826666665,
+        1674.785365333333
+      ],
+      "neural_repeated_training_cost": "Not included; unavailable measured basis. A family-level claim needs a separately priced actual neural-refit pilot and source sample; no speculative certification."
+    }
+  ],
+  "historical_author_cpu_seconds": 4932.693987,
+  "prior_charges": "All original failures, source/decode/exposure charges and unmeasured physical/provider/import/failed-process costs retained. This is additional planning, not a refund.",
+  "limitations": [
+    "Residual and site laws are consumed/postvalidation and may not transfer to new genotype/protocol mixtures.",
+    "At an exact material boundary80% rejection/absence is not attainable under valid5% error control.",
+    "Source perturbations are dependent forecasts, not new animals. Disjoint evaluation does not identify repeated neural-training procedure.",
+    "The new catalogue upper bound127 is before missing fields/chronology/horizon and source-only exclusions; it is not127 qualified evaluation units."
+  ],
+  "io": {
+    "explicit_read_bytes": 921561,
+    "decoded_array_bytes": 340768
+  },
+  "pins": {
+    "REFINED_CONTRASTS.npz": {
+      "bytes": 306518,
+      "sha256": "754a263ad51578db60cf0e25ab338143cd0f57ad1d27afe74737508141d4c05e"
+    },
+    "MAIN_FAMILY_REFINED.json": {
+      "bytes": 137421,
+      "sha256": "5580c2fb4b666966c2b2ebf74bbe06548b6a693e9ae1bba59efac6466aff5e44"
+    },
+    "MAIN_ANALYSIS.json": {
+      "bytes": 465530,
+      "sha256": "cecd76eb93178054e98a4d0fea80f1ac197496dbce3448ec728ff9462fa9e53f"
+    },
+    "MAIN_EXECUTION.json": {
+      "bytes": 4727,
+      "sha256": "38b98050023de6138d277764d50b35708459bab6e14d80ff315fbc8f35915dcf"
+    },
+    "FINAL_ACCOUNTING.json": {
+      "bytes": 7365,
+      "sha256": "796a63716c5be5fc940c48efb2881b725a26144a44dfa4bee21321b3c14053f9"
+    }
+  },
+  "cpu_seconds": 0.8774230000000003,
+  "process_wall_seconds": 0.88148875,
+  "peak_rss_bytes": 111476736
+}

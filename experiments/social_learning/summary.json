@@ -1,0 +1,267 @@
+{
+  "seed": 20261028,
+  "bootstrap_replicates": 5000,
+  "date_clusters": 15,
+  "counts": [
+    {
+      "treatment": "T",
+      "total": 142,
+      "matings": 120,
+      "double_court": 66,
+      "eligible": 64,
+      "n_dates": 14,
+      "first_choice_worst_case_lower": 0.28169014084507044,
+      "first_choice_worst_case_upper": 0.8309859154929577
+    },
+    {
+      "treatment": "C1",
+      "total": 168,
+      "matings": 128,
+      "double_court": 78,
+      "eligible": 74,
+      "n_dates": 15,
+      "first_choice_worst_case_lower": 0.27380952380952384,
+      "first_choice_worst_case_upper": 0.8333333333333334
+    },
+    {
+      "treatment": "C2",
+      "total": 152,
+      "matings": 129,
+      "double_court": 71,
+      "eligible": 67,
+      "n_dates": 14,
+      "first_choice_worst_case_lower": 0.27631578947368424,
+      "first_choice_worst_case_upper": 0.8355263157894737
+    }
+  ],
+  "eligible_rates": [
+    {
+      "treatment": "T",
+      "inclusion": "eligible",
+      "score": "copy_first",
+      "stratum": "all",
+      "n": 64,
+      "k": 40,
+      "estimate": 0.625,
+      "p_two_sided": 0.05994118956699923,
+      "agresti_coull95": [
+        0.5022992281987537,
+        0.7335447568530449
+      ]
+    },
+    {
+      "treatment": "T",
+      "inclusion": "eligible",
+      "score": "copy_last",
+      "stratum": "all",
+      "n": 64,
+      "k": 24,
+      "estimate": 0.375,
+      "p_two_sided": 0.05994118956699923,
+      "agresti_coull95": [
+        0.26645524314695507,
+        0.49770077180124633
+      ]
+    },
+    {
+      "treatment": "C1",
+      "inclusion": "eligible",
+      "score": "copy_first",
+      "stratum": "all",
+      "n": 74,
+      "k": 46,
+      "estimate": 0.6216216216216216,
+      "p_two_sided": 0.04739297550405176,
+      "agresti_coull95": [
+        0.5075560193742097,
+        0.7236832234753181
+      ]
+    },
+    {
+      "treatment": "C1",
+      "inclusion": "eligible",
+      "score": "copy_last",
+      "stratum": "all",
+      "n": 74,
+      "k": 46,
+      "estimate": 0.6216216216216216,
+      "p_two_sided": 0.04739297550405176,
+      "agresti_coull95": [
+        0.5075560193742097,
+        0.7236832234753181
+      ]
+    },
+    {
+      "treatment": "C2",
+      "inclusion": "eligible",
+      "score": "copy_first",
+      "stratum": "all",
+      "n": 67,
+      "k": 42,
+      "estimate": 0.6268656716417911,
+      "p_two_sided": 0.04980011429472864,
+      "agresti_coull95": [
+        0.5069558969425059,
+        0.7330165751522384
+      ]
+    },
+    {
+      "treatment": "C2",
+      "inclusion": "eligible",
+      "score": "copy_last",
+      "stratum": "all",
+      "n": 67,
+      "k": 42,
+      "estimate": 0.6268656716417911,
+      "p_two_sided": 0.04980011429472864,
+      "agresti_coull95": [
+        0.5069558969425059,
+        0.7330165751522384
+      ]
+    }
+  ],
+  "annotation_checks": [
+    {
+      "treatment": "T",
+      "inclusion": "eligible",
+      "n": 64,
+      "first_mismatch": 0,
+      "last_mismatch": 64
+    },
+    {
+      "treatment": "T",
+      "inclusion": "all",
+      "n": 140,
+      "first_mismatch": 25,
+      "last_mismatch": 95
+    },
+    {
+      "treatment": "C1",
+      "inclusion": "eligible",
+      "n": 74,
+      "first_mismatch": 0,
+      "last_mismatch": 0
+    },
+    {
+      "treatment": "C1",
+      "inclusion": "all",
+      "n": 164,
+      "first_mismatch": 23,
+      "last_mismatch": 23
+    },
+    {
+      "treatment": "C2",
+      "inclusion": "eligible",
+      "n": 67,
+      "first_mismatch": 0,
+      "last_mismatch": 0
+    },
+    {
+      "treatment": "C2",
+      "inclusion": "all",
+      "n": 148,
+      "first_mismatch": 22,
+      "last_mismatch": 22
+    }
+  ],
+  "independent_counts": {
+    "T": {
+      "n": 64,
+      "last_k": 24
+    },
+    "C1": {
+      "n": 74,
+      "last_k": 46
+    },
+    "C2": {
+      "n": 67,
+      "last_k": 42
+    }
+  },
+  "binomial_controls": [
+    {
+      "k": 0,
+      "n": 4,
+      "enumerated_p": 0.125,
+      "scipy_error": 0.0
+    },
+    {
+      "k": 2,
+      "n": 4,
+      "enumerated_p": 1.0,
+      "scipy_error": 0.0
+    },
+    {
+      "k": 40,
+      "n": 64,
+      "enumerated_p": 0.059941189566999245,
+      "scipy_error": 1.3877787807814457e-17
+    },
+    {
+      "k": 21,
+      "n": 30,
+      "enumerated_p": 0.04277394525706768,
+      "scipy_error": 1.3877787807814457e-17
+    }
+  ],
+  "bootstrap": {
+    "main_first": {
+      "ci95": [
+        0.4833189655172414,
+        0.7580784204671855
+      ],
+      "bootstrap_mean": 0.6226892617935427
+    },
+    "C1_single": {
+      "ci95": [
+        0.546875,
+        0.6949152542372882
+      ],
+      "bootstrap_mean": 0.620705101250306
+    },
+    "C2_single": {
+      "ci95": [
+        0.5245851659336266,
+        0.7457627118644068
+      ],
+      "bootstrap_mean": 0.6300103871534664
+    },
+    "main_balanced": {
+      "ci95": [
+        0.47278585750384533,
+        0.7585844155844154
+      ],
+      "bootstrap_mean": 0.6190926949598071
+    },
+    "C1_balanced": {
+      "ci95": [
+        0.5431565335753176,
+        0.7006026004854715
+      ],
+      "bootstrap_mean": 0.6204975900430757
+    },
+    "C2_balanced": {
+      "ci95": [
+        0.526774543772733,
+        0.7518146008403357
+      ],
+      "bootstrap_mean": 0.631236052421635
+    },
+    "main_minus_C1": {
+      "ci95": [
+        -0.15660279618740364,
+        0.151123469192499
+      ],
+      "bootstrap_mean": 0.001984160543236708
+    },
+    "main_minus_C2": {
+      "ci95": [
+        -0.1852783028564278,
+        0.15631840823727064
+      ],
+      "bootstrap_mean": -0.007321125359923687
+    }
+  },
+  "untouched_validation": false,
+  "warning": "Exploratory reanalysis of one experiment; eligibility is post-exposure and all-mating sensitivity has a different estimand."
+}

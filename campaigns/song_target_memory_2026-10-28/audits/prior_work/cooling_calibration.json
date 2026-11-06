@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-28",
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2723166/",
+  "source_location": "Dynamics in HVC, Figure1e/f; publisher proof PDF1-2 independently agrees",
+  "n_birds": 10,
+  "duration_fraction_per_C_cooling": 0.0283,
+  "sem": 0.0022,
+  "observed_bird_slope_range": [
+    0.0189,
+    0.0397
+  ],
+  "linear_calibration_validity_C": [
+    0,
+    6.5
+  ],
+  "mean_slope_approx_95_CI": [
+    0.023323254241720978,
+    0.03327674575827902
+  ],
+  "formula": "duration_ratio_if_shared_clock = 1 / (1 + slope * cooling_C)",
+  "assumptions": [
+    "Adult output duration gain is inverse of the same neural speed used for juvenile encoding.",
+    "Cooling spread, brain state, age, and measurement metric do not change gain.",
+    "No compensation or other plasticity changes extent between encoding and readout."
+  ],
+  "not_evidence": "These predicted values are not juvenile observations; adult SEM does not capture cross-age mapping uncertainty.",
+  "predictions": [
+    {
+      "cooling_C": 0,
+      "predicted_pupil_tutor_duration_ratio": 1.0,
+      "ratio_from_mean_slope_CI": [
+        1.0,
+        1.0
+      ],
+      "ratio_from_observed_bird_slope_range": [
+        1.0,
+        1.0
+      ],
+      "external_time_template_ratio": 1.0
+    },
+    {
+      "cooling_C": 1,
+      "predicted_pupil_tutor_duration_ratio": 0.9724788485850433,
+      "ratio_from_mean_slope_CI": [
+        0.9677949340340002,
+        0.9772083218620851
+      ],
+      "ratio_from_observed_bird_slope_range": [
+        0.9618159084351254,
+        0.9814505839630976
+      ],
+      "external_time_template_ratio": 1.0
+    },
+    {
+      "cooling_C": 2,
+      "predicted_pupil_tutor_duration_ratio": 0.9464319515426841,
+      "ratio_from_mean_slope_CI": [
+        0.9375994809018683,
+        0.9554324138041302
+      ],
+      "ratio_from_observed_bird_slope_range": [
+        0.9264406151565685,
+        0.9635767970707265
+      ],
+      "external_time_template_ratio": 1.0
+    },
+    {
+      "cooling_C": 3,
+      "predicted_pupil_tutor_duration_ratio": 0.9217439395335976,
+      "ratio_from_mean_slope_CI": [
+        0.9092312305195421,
+        0.9346058504055729
+      ],
+      "ratio_from_observed_bird_slope_range": [
+        0.8935751943526048,
+        0.9463423866754992
+      ],
+      "external_time_template_ratio": 1.0
+    },
+    {
+      "cooling_C": 4,
+      "predicted_pupil_tutor_duration_ratio": 0.8983111749910169,
+      "ratio_from_mean_slope_CI": [
+        0.8825292006613414,
+        0.9146678744681767
+      ],
+      "ratio_from_observed_bird_slope_range": [
+        0.8629616845012081,
+        0.9297136481963554
+      ],
+      "external_time_template_ratio": 1.0
+    },
+    {
+      "cooling_C": 5,
+      "predicted_pupil_tutor_duration_ratio": 0.8760402978537013,
+      "ratio_from_mean_slope_CI": [
+        0.8573507802926901,
+        0.8955628050427908
+      ],
+      "ratio_from_observed_bird_slope_range": [
+        0.8343763037129744,
+        0.9136592051164916
+      ],
+      "external_time_template_ratio": 1.0
+    },
+    {
+      "cooling_C": 6,
+      "predicted_pupil_tutor_duration_ratio": 0.8548469823901522,
+      "ratio_from_mean_slope_CI": [
+        0.8335691816264745,
+        0.8772395181270307
+      ],
+      "ratio_from_observed_bird_slope_range": [
+        0.8076239702794379,
+        0.8981498113885397
+      ],
+      "external_time_template_ratio": 1.0
+    },
+    {
+      "cooling_C": 6.5,
+      "predicted_pupil_tutor_duration_ratio": 0.8446302631023269,
+      "ratio_from_mean_slope_CI": [
+        0.8221663632370801,
+        0.8683561993380211
+      ],
+      "ratio_from_observed_bird_slope_range": [
+        0.7948809665752554,
+        0.890590907066839
+      ],
+      "external_time_template_ratio": 1.0
+    }
+  ]
+}

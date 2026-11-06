@@ -1,0 +1,24 @@
+# Human-authorized lab reset — 2026-11-03
+
+Administrative implementation COMPLETE and verified. Scientific lab, its PI native goal and existing heartbeat remain PAUSED; the scientific goal is unachieved. Latest human instruction explicitly authorized six fresh Astra/xhigh threads, dependency-aware execution and keeping/changing/removing the disabled lab hooks with minimal infrastructure. This superseded old model/registration/start restrictions for this administrative task only. No scientific data release or restart was authorized or performed. See [integrated result](RESULT.md) and [coordinator checks](CHECKS.json).
+
+Coordinator: `01a1a11b-4bb8-76e0-b89b-1d53244b5ec8`. Actual native administrative goal created/read back active at `1793732635`; no token budget. Scientific PI/operator ownership and prior native accounting are unchanged.
+
+Exact pre-reset snapshots of 14 coordination/configuration files are in `before/`, checked byte-identical and indexed by `before/MANIFEST.json`. This workspace has no Git repository. Preserve these files and all original scientific artifacts.
+
+## Workstreams and dependencies
+
+1. **Sustained primary question:** COMPLETE, thread `01a1a2d6-0b60-7290-849d-0be44abc96d4`, Astra/xhigh. Current STATE/agenda retain acquisition forecasting on investment HOLD, with no funded tranche and all three closed common-probe routes explicit. Native goal complete/final collected; [result](focus/RESULT.md).
+2. **Complete-investigation budget:** COMPLETE, thread `01a1a2df-7d64-7b03-bb81-a195f0663dbf`, sixth fresh Astra/xhigh thread, created after focus/review completion. Native goal complete/final collected; [result](budget/RESULT.md). LAB_WORKFLOW and shared records now use conditional whole-investigation budgeting. Current scientific allocation is zero; conditional requirements cannot manufacture a source or new generic gate.
+3. **Early scientific payoff:** COMPLETE, thread `01a1a2d1-3afe-79e2-9cd8-05cbc9f123ac`, Astra/xhigh. A 215-word Scientific investment section is implemented; workflow length did not grow. Four saved-case checks pass. Scoped native goal completed; [result](materiality/RESULT.md). LAB_WORKFLOW edit ownership passed to review worker.
+4. **Proportional independent review:** COMPLETE, thread `01a1a2d6-1b6d-71b1-973a-d278bbffe14c`, Astra/xhigh; native goal complete/final collected. Five saved-case checks; targeted preliminary checks and independent consequential challenge are distinguished. [Result](review/RESULT.md). LAB_WORKFLOW ownership passed to budget worker.
+5. **Lean administration/context:** COMPLETE, thread `01a1a2cc-ebf0-71e1-b1f4-88101d625ada`, `gpt-6-astra` / `xhigh`, native goal completed and native final collected. AGENTS is compact, active memory reduced from 200,580 to 11,367 bytes with exact archives, hooks=false and custom registrations empty. [Result](administration/RESULT.md), [checks](administration/CHECKS.json), [goal receipt](administration/NATIVE_GOAL_COMPLETE.json). No science or scientific ownership/status changed.
+6. **Scientific stop above reserve:** COMPLETE, thread `01a1a2d1-4b8a-71e1-abcb-d5cc116c4c82`, Astra/xhigh; native goal complete/final collected. PI_WAKEUP and live prompt/shared policy are integrated, with 12 worker scenario checks. Parent updated the SAME native automation; readback verifies exact prompt, PAUSED, same operator/cadence and all other fields preserved. [Result](stopping/RESULT.md), [native heartbeat verification](HEARTBEAT_VERIFICATION.json). The native scientific-objective addendum remains explicitly unapplied because the available tools lack a supported objective edit; policy integration is complete without changing that paused goal.
+
+Coordinator completed shared integration, registry/policy/control-state alignment and final verification. All six workers created/read back actual scoped native goals and completed them. Every creation explicitly requested Astra/xhigh. Disjoint work ran concurrently where justified; LAB_WORKFLOW ownership passed serially from materiality to review to budget. [Native completion snapshots](THREAD_COMPLETIONS.json) confirm all six finished; no report-message loops or scientific starts were needed.
+
+## Completion standard
+
+All six changes must be present in coherent active instructions and a concrete current investment record, with obsolete contradictory entry points reconciled. Preserve histories, protections and paused scientific status. Check substantive workflow scenarios, file/config consistency and archival identity. Add no scheduler, permission framework, automatic metering, dashboard or scientific experiment. Administrative completion must never be presented as scientific-goal completion.
+
+Actual account readback at task start: 90% seven-day usage / 10% remaining, ordinary usage allowed; this is explicit human-requested administrative work, not a scientific-start exception. No credit resets or purchases.

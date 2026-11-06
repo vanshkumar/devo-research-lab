@@ -1,0 +1,77 @@
+{
+  "model": "exposure_growth",
+  "model_index": 2,
+  "theta": [
+    -3.1961203196776244,
+    0.6665450323136497,
+    0.4665889256146337,
+    -0.034686906703941756,
+    0.15968496667408688,
+    -1.116061199847464,
+    -5.052625317260577,
+    -15.992123973843007
+  ],
+  "negative_selected_log_likelihood": 18415.058591058274,
+  "fit_people": 71,
+  "check_people": 24,
+  "calls": 224,
+  "elapsed_s": 6.107334852218628,
+  "optimizer_success": true,
+  "optimizer_message": "Optimization terminated successfully.",
+  "optimizer_final_value": 18415.062982303196,
+  "quadrature_points": 3,
+  "active_late": true,
+  "initial_timing_estimates": {
+    "late": 0.00010526315789473685,
+    "omit": 0.007596491228070175
+  },
+  "parameter_bounds": [
+    [
+      -6.907755278982137,
+      -1.6094379124341003
+    ],
+    [
+      0.05,
+      1
+    ],
+    [
+      -1.6094379124341003,
+      2.0794415416798357
+    ],
+    [
+      -1.5,
+      1.5
+    ],
+    [
+      -1.5,
+      1.5
+    ],
+    [
+      -3.912023005428146,
+      0.22314355131420976
+    ],
+    [
+      -16,
+      -1.4
+    ],
+    [
+      -16,
+      -1.4
+    ]
+  ],
+  "call_budget": 300,
+  "starts": 1,
+  "source_columns_only": true,
+  "check_groups": {
+    "B200": {
+      "people": 12,
+      "mean_selected_log_likelihood": -220.07412627980048,
+      "mean_nll_per_opportunity": 0.36679021046633414
+    },
+    "Interleaved": {
+      "people": 12,
+      "mean_selected_log_likelihood": -290.18400965993413,
+      "mean_nll_per_opportunity": 0.4836400160998902
+    }
+  }
+}

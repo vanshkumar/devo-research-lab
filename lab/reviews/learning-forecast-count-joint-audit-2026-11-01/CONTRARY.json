@@ -1,0 +1,109 @@
+{
+  "utc": "2026-11-01T13:34:02.623395+00:00",
+  "status": "ONE_predeclared_accuracy_marginal_energy_test",
+  "predeclared_in": "DESIGN.md",
+  "review_freeze_utc": "2026-11-01T13:33:56.341284+00:00",
+  "units": "accuracy-probability CRPS; positive growth-minus-RNN favors RNN",
+  "rnn": 0.12950274434082512,
+  "growth": 0.1289237645770744,
+  "growth_minus_rnn": -0.0005789797637506979,
+  "relative_gain_percent": -0.4490869202043559,
+  "animal_bootstrap95": [
+    -0.01315441013746349,
+    0.014286319342133392
+  ],
+  "animal_t95": [
+    -0.01549529877781139,
+    0.014337339250309993
+  ],
+  "cluster_cr1_se": 0.010638688028346494,
+  "lab_cr1_t95": [
+    -0.030116713065779684,
+    0.028958753538278287
+  ],
+  "improving_animals": 11,
+  "animal_differences": [
+    -0.035667090791156486,
+    -0.0321938017968776,
+    -0.03795214456244016,
+    -0.052441410598847715,
+    -0.029664547853330128,
+    -0.009571585422301451,
+    -0.029839260498975798,
+    -0.03167724213254705,
+    0.00040885937491000335,
+    0.013564244779843124,
+    -0.00877506343861885,
+    0.03123914466666397,
+    -0.014392941954546698,
+    0.12054858623536882,
+    0.02648236386943134,
+    0.029455105964335926,
+    0.017776000598631325,
+    0.0026505971706937553,
+    0.0022392769041739286,
+    -0.0006297633766829264,
+    0.019230288060716555,
+    -0.012505844852668202,
+    -0.01090493830735495,
+    0.028725653631562514
+  ],
+  "labs": [
+    {
+      "lab": "angelakilab",
+      "n": 5,
+      "contrast": -0.020068755306448884,
+      "leave_out_contrast": 0.004549908536959351
+    },
+    {
+      "lab": "churchlandlab",
+      "n": 2,
+      "contrast": -0.03393044629401704,
+      "leave_out_contrast": 0.002452971739000788
+    },
+    {
+      "lab": "cortexlab",
+      "n": 1,
+      "contrast": -0.052441410598847715,
+      "leave_out_contrast": 0.0016759085334274333
+    },
+    {
+      "lab": "hoferlab",
+      "n": 10,
+      "contrast": 0.018028065144105772,
+      "leave_out_contrast": -0.013869726126505322
+    },
+    {
+      "lab": "mrsicflogellab",
+      "n": 6,
+      "contrast": 0.004411652324675289,
+      "leave_out_contrast": -0.002242523793226026
+    }
+  ],
+  "paired_particle_U_jackknife_mcse": 0.0008928574359947186,
+  "fixed_eight_block_U_contrasts": [
+    0.0011757957819978064,
+    -0.0014802047350370867,
+    -0.0009846508462855452,
+    -0.0011838198811510495,
+    0.0007525943020441165,
+    -0.00013893482649047356,
+    0.0009392972785296239,
+    -0.0027080249409624103
+  ],
+  "U_growth_minus_rnn": -0.000542919643414633,
+  "V_to_U_contrast_change": 3.6060120336064874e-05,
+  "approximate_mc95": [
+    -0.0022929202179642815,
+    0.0012070809311350154
+  ],
+  "first_distance_terms": [
+    0.25526140191577845,
+    0.23625570066030022
+  ],
+  "V_spread_terms": [
+    0.1257586575749533,
+    0.10733193608322578
+  ],
+  "interpretation_limits": "Changed marginal accuracy score, not a repaired gate or conditional distribution given observed counts. Cannot subtract across metrics, prove counts explain all gain or identify a biological cause."
+}

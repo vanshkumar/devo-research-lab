@@ -1,0 +1,842 @@
+{
+  "utc": "2026-11-05T13:12:49Z",
+  "status": "independent reduction of actual recovered-reference pilot",
+  "results": [
+    {
+      "horizon": 200,
+      "summary": {
+        "frozen_growth": {
+          "ratio_crps": {
+            "equal_animal": 0.09246043701262736,
+            "equal_site": 0.0874322108766469
+          },
+          "equal_side_mae": {
+            "equal_animal": 0.13936745015955604,
+            "equal_site": 0.13732323868584392
+          },
+          "joint": {
+            "equal_animal": 0.05666663592552837,
+            "equal_site": 0.05442657975977718
+          },
+          "count": {
+            "equal_animal": 0.034010936617851255,
+            "equal_site": 0.03304325003372996
+          },
+          "omission_crps": {
+            "equal_animal": 0.004280426502227784,
+            "equal_site": 0.003547560882072623
+          }
+        },
+        "common_hybrid": {
+          "ratio_crps": {
+            "equal_animal": 0.10595032063366155,
+            "equal_site": 0.10589773390301664
+          },
+          "equal_side_mae": {
+            "equal_animal": 0.13528647701272045,
+            "equal_site": 0.1443174574060728
+          },
+          "joint": {
+            "equal_animal": 0.06350242292136236,
+            "equal_site": 0.061730566683129096
+          },
+          "count": {
+            "equal_animal": 0.036908420324325564,
+            "equal_site": 0.03552951005931951
+          },
+          "omission_crps": {
+            "equal_animal": 0.004280426502227784,
+            "equal_site": 0.003547560882072623
+          }
+        },
+        "gru": {
+          "ratio_crps": {
+            "equal_animal": 0.08090525470152239,
+            "equal_site": 0.07645735452760825
+          },
+          "equal_side_mae": {
+            "equal_animal": 0.115901928704466,
+            "equal_site": 0.11156175970890374
+          },
+          "joint": {
+            "equal_animal": 0.04935062571956597,
+            "equal_site": 0.0465532571651275
+          },
+          "count": {
+            "equal_animal": 0.02961689352989197,
+            "equal_site": 0.027719066912357957
+          },
+          "omission_crps": {
+            "equal_animal": 0.004280426502227784,
+            "equal_site": 0.003547560882072623
+          }
+        }
+      },
+      "GRU_advantage": {
+        "frozen_growth": {
+          "ratio_crps": {
+            "sign": "positive favors GRU",
+            "equal_animal": 0.011555182311104972,
+            "equal_site": 0.010974856349038642,
+            "animal_t95": [
+              -0.0013588338678325942,
+              0.02446919849004254
+            ],
+            "site_t95": [
+              -0.003383207731087849,
+              0.025332920429165132
+            ],
+            "site_sd": 0.018679147874366593,
+            "animal_sd": 0.05169896082935937,
+            "site_contrasts": {
+              "angelakilab": -0.025881744789546246,
+              "churchlandlab": 0.029260054399919386,
+              "cortexlab": 0.0077587778911467065,
+              "danlab": 0.011072278648681218,
+              "hoferlab": 0.016355303953795346,
+              "mainenlab": 0.04211690496654155,
+              "mrsicflogellab": 0.0030844316935461544,
+              "wittenlab": 0.006270282557416749,
+              "zadorlab": 0.008737417819846912
+            },
+            "planning_margin": 0.00874322108766469,
+            "normal_sites_for80pct_CI_inside_margin_at_zero": 48,
+            "normal_independent_animals_analogue": 368
+          },
+          "equal_side_mae": {
+            "sign": "positive favors GRU",
+            "equal_animal": 0.023465521455090038,
+            "equal_site": 0.025761478976940196,
+            "animal_t95": [
+              0.004531425265621725,
+              0.04239961764455835
+            ],
+            "site_t95": [
+              0.009309551014746516,
+              0.04221340693913388
+            ],
+            "site_sd": 0.021403163651400495,
+            "animal_sd": 0.0757992775969386,
+            "site_contrasts": {
+              "angelakilab": -0.003182394250675083,
+              "churchlandlab": 0.050059688082859974,
+              "cortexlab": 0.012324912159540522,
+              "danlab": 0.02868441472918959,
+              "hoferlab": 0.02152198079325001,
+              "mainenlab": 0.06413645524371399,
+              "mrsicflogellab": 0.006142992441356206,
+              "wittenlab": 0.01681375193687122,
+              "zadorlab": 0.03535150965635535
+            },
+            "planning_margin": 0.02,
+            "normal_sites_for80pct_CI_inside_margin_at_zero": 13,
+            "normal_independent_animals_analogue": 151
+          }
+        },
+        "common_hybrid": {
+          "ratio_crps": {
+            "sign": "positive favors GRU",
+            "equal_animal": 0.025045065932139152,
+            "equal_site": 0.029440379375408384,
+            "animal_t95": [
+              0.016800712522057927,
+              0.03328941934222038
+            ],
+            "site_t95": [
+              0.022184790646721093,
+              0.03669596810409568
+            ],
+            "site_sd": 0.009439170491398413,
+            "animal_sd": 0.03300479867032736,
+            "site_contrasts": {
+              "angelakilab": 0.038804354754865815,
+              "churchlandlab": 0.011545999001398126,
+              "cortexlab": 0.038818528182452815,
+              "danlab": 0.03344292444763776,
+              "hoferlab": 0.019975217147562285,
+              "mainenlab": 0.03936042120601523,
+              "mrsicflogellab": 0.026739579569736327,
+              "wittenlab": 0.02708027799612115,
+              "zadorlab": 0.02919611207288596
+            },
+            "planning_margin": 0.00874322108766469,
+            "normal_sites_for80pct_CI_inside_margin_at_zero": 13,
+            "normal_independent_animals_analogue": 150
+          },
+          "equal_side_mae": {
+            "sign": "positive favors GRU",
+            "equal_animal": 0.019384548308254444,
+            "equal_site": 0.032755697697169066,
+            "animal_t95": [
+              0.003962667665191998,
+              0.03480642895131689
+            ],
+            "site_t95": [
+              0.012603693671846713,
+              0.052907701722491415
+            ],
+            "site_sd": 0.026216783896016078,
+            "animal_sd": 0.061738748986632765,
+            "site_contrasts": {
+              "angelakilab": 0.046714596664621216,
+              "churchlandlab": 0.026031255174843233,
+              "cortexlab": 0.07168724408456902,
+              "danlab": 0.05721988468970668,
+              "hoferlab": 0.0036372770976496093,
+              "mainenlab": 0.05964215976570362,
+              "mrsicflogellab": 0.010101148694685268,
+              "wittenlab": 0.012538309393967972,
+              "zadorlab": 0.007229403708774981
+            },
+            "planning_margin": 0.02,
+            "normal_sites_for80pct_CI_inside_margin_at_zero": 19,
+            "normal_independent_animals_analogue": 101
+          }
+        }
+      }
+    },
+    {
+      "horizon": 500,
+      "summary": {
+        "frozen_growth": {
+          "ratio_crps": {
+            "equal_animal": 0.09319290236901467,
+            "equal_site": 0.09315507492575886
+          },
+          "equal_side_mae": {
+            "equal_animal": 0.13482719433897203,
+            "equal_site": 0.13955899086231568
+          },
+          "joint": {
+            "equal_animal": 0.054198403892600194,
+            "equal_site": 0.05313508618723338
+          },
+          "count": {
+            "equal_animal": 0.032306271076202396,
+            "equal_site": 0.031970952361802765
+          },
+          "omission_crps": {
+            "equal_animal": 0.00398738193511963,
+            "equal_site": 0.0038598846732989167
+          }
+        },
+        "common_hybrid": {
+          "ratio_crps": {
+            "equal_animal": 0.13440731167238915,
+            "equal_site": 0.1407608348697928
+          },
+          "equal_side_mae": {
+            "equal_animal": 0.1723862630421006,
+            "equal_site": 0.19658898681509487
+          },
+          "joint": {
+            "equal_animal": 0.07742384657293896,
+            "equal_site": 0.07754220251099282
+          },
+          "count": {
+            "equal_animal": 0.045016250371932985,
+            "equal_site": 0.04564884502666193
+          },
+          "omission_crps": {
+            "equal_animal": 0.00398738193511963,
+            "equal_site": 0.0038598846732989167
+          }
+        },
+        "gru": {
+          "ratio_crps": {
+            "equal_animal": 0.08379682642051221,
+            "equal_site": 0.08613610873707434
+          },
+          "equal_side_mae": {
+            "equal_animal": 0.11932103756572826,
+            "equal_site": 0.12700435878676034
+          },
+          "joint": {
+            "equal_animal": 0.04860757467596206,
+            "equal_site": 0.04878696146663489
+          },
+          "count": {
+            "equal_animal": 0.028993911981582646,
+            "equal_site": 0.029004499967598626
+          },
+          "omission_crps": {
+            "equal_animal": 0.00398738193511963,
+            "equal_site": 0.0038598846732989167
+          }
+        }
+      },
+      "GRU_advantage": {
+        "frozen_growth": {
+          "ratio_crps": {
+            "sign": "positive favors GRU",
+            "equal_animal": 0.009396075948502466,
+            "equal_site": 0.007018966188684529,
+            "animal_t95": [
+              -0.003594999332165283,
+              0.022387151229170215
+            ],
+            "site_t95": [
+              -0.012685478012278605,
+              0.02672341038964766
+            ],
+            "site_sd": 0.025634530181645014,
+            "animal_sd": 0.052007453201267026,
+            "site_contrasts": {
+              "angelakilab": -0.049071297055155096,
+              "churchlandlab": 0.028791225573882286,
+              "cortexlab": -0.013279650680329417,
+              "danlab": 0.011131657613437457,
+              "hoferlab": 0.012101778860975026,
+              "mainenlab": 0.03629677619105406,
+              "mrsicflogellab": -0.00019407295506960944,
+              "wittenlab": 0.01844854983193042,
+              "zadorlab": 0.018945728317435632
+            },
+            "planning_margin": 0.009315507492575887,
+            "normal_sites_for80pct_CI_inside_margin_at_zero": 80,
+            "normal_independent_animals_analogue": 328
+          },
+          "equal_side_mae": {
+            "sign": "positive favors GRU",
+            "equal_animal": 0.015506156773243785,
+            "equal_site": 0.012554632075555353,
+            "animal_t95": [
+              -0.003271354168928292,
+              0.03428366771541586
+            ],
+            "site_t95": [
+              -0.013178471332969826,
+              0.03828773548408053
+            ],
+            "site_sd": 0.03347752462670262,
+            "animal_sd": 0.07517241648307171,
+            "site_contrasts": {
+              "angelakilab": -0.057835559142101894,
+              "churchlandlab": 0.04269547691947078,
+              "cortexlab": -0.018713447964166352,
+              "danlab": 0.015483776926493109,
+              "hoferlab": 0.014271259688364587,
+              "mainenlab": 0.04658812214570345,
+              "mrsicflogellab": 0.0036404662596544657,
+              "wittenlab": 0.03199572756061056,
+              "zadorlab": 0.034865866285969466
+            },
+            "planning_margin": 0.02,
+            "normal_sites_for80pct_CI_inside_margin_at_zero": 30,
+            "normal_independent_animals_analogue": 149
+          }
+        },
+        "common_hybrid": {
+          "ratio_crps": {
+            "sign": "positive favors GRU",
+            "equal_animal": 0.050610485251876926,
+            "equal_site": 0.05462472613271846,
+            "animal_t95": [
+              0.04024629539791302,
+              0.06097467510584083
+            ],
+            "site_t95": [
+              0.04695905777320905,
+              0.06229039449222787
+            ],
+            "site_sd": 0.009972664284269439,
+            "animal_sd": 0.04149118584519266,
+            "site_contrasts": {
+              "angelakilab": 0.05527052483036565,
+              "churchlandlab": 0.04553042640348651,
+              "cortexlab": 0.06444587269720779,
+              "danlab": 0.0605125455634023,
+              "hoferlab": 0.04395232150921187,
+              "mainenlab": 0.07025813146333107,
+              "mrsicflogellab": 0.04748291634964637,
+              "wittenlab": 0.061006139716196325,
+              "zadorlab": 0.04316365666161828
+            },
+            "planning_margin": 0.009315507492575887,
+            "normal_sites_for80pct_CI_inside_margin_at_zero": 13,
+            "normal_independent_animals_analogue": 209
+          },
+          "equal_side_mae": {
+            "sign": "positive favors GRU",
+            "equal_animal": 0.05306522547637236,
+            "equal_site": 0.06958462802833454,
+            "animal_t95": [
+              0.030476897639594207,
+              0.07565355331315052
+            ],
+            "site_t95": [
+              0.04423014767029962,
+              0.09493910838636946
+            ],
+            "site_sd": 0.03298495432549186,
+            "animal_sd": 0.09042834234163051,
+            "site_contrasts": {
+              "angelakilab": 0.07047183249208044,
+              "churchlandlab": 0.0902218739655309,
+              "cortexlab": 0.11408319730619625,
+              "danlab": 0.097702366298129,
+              "hoferlab": 0.018705238793288472,
+              "mainenlab": 0.09957514449241474,
+              "mrsicflogellab": 0.045247718676965844,
+              "wittenlab": 0.05584812086529781,
+              "zadorlab": 0.03440615936510745
+            },
+            "planning_margin": 0.02,
+            "normal_sites_for80pct_CI_inside_margin_at_zero": 29,
+            "normal_independent_animals_analogue": 215
+          }
+        }
+      }
+    },
+    {
+      "horizon": 1000,
+      "summary": {
+        "frozen_growth": {
+          "ratio_crps": {
+            "equal_animal": 0.08931785769627207,
+            "equal_site": 0.08828121948733775
+          },
+          "equal_side_mae": {
+            "equal_animal": 0.1277092658692183,
+            "equal_site": 0.1317686283636584
+          },
+          "joint": {
+            "equal_animal": 0.049697125946458434,
+            "equal_site": 0.047298353643189676
+          },
+          "count": {
+            "equal_animal": 0.028901125311851503,
+            "equal_site": 0.027721337485112022
+          },
+          "omission_crps": {
+            "equal_animal": 0.0029644317626953136,
+            "equal_site": 0.0026883472950757522
+          }
+        },
+        "common_hybrid": {
+          "ratio_crps": {
+            "equal_animal": 0.1425988372160312,
+            "equal_site": 0.14715563335227314
+          },
+          "equal_side_mae": {
+            "equal_animal": 0.18447895162238157,
+            "equal_site": 0.2070082163510096
+          },
+          "joint": {
+            "equal_animal": 0.0812901890413641,
+            "equal_site": 0.07943277492696357
+          },
+          "count": {
+            "equal_animal": 0.04508630621433258,
+            "equal_site": 0.044512966077183656
+          },
+          "omission_crps": {
+            "equal_animal": 0.0029644317626953136,
+            "equal_site": 0.0026883472950757522
+          }
+        },
+        "gru": {
+          "ratio_crps": {
+            "equal_animal": 0.08245333602730838,
+            "equal_site": 0.08267535102207776
+          },
+          "equal_side_mae": {
+            "equal_animal": 0.11839143126732785,
+            "equal_site": 0.12319328927646568
+          },
+          "joint": {
+            "equal_animal": 0.04592628777280661,
+            "equal_site": 0.044882300705994436
+          },
+          "count": {
+            "equal_animal": 0.026393208742141724,
+            "equal_site": 0.025807313233710792
+          },
+          "omission_crps": {
+            "equal_animal": 0.0029644317626953136,
+            "equal_site": 0.0026883472950757522
+          }
+        }
+      },
+      "GRU_advantage": {
+        "frozen_growth": {
+          "ratio_crps": {
+            "sign": "positive favors GRU",
+            "equal_animal": 0.006864521668963688,
+            "equal_site": 0.005605868465259976,
+            "animal_t95": [
+              -0.002838432980971915,
+              0.016567476318899294
+            ],
+            "site_t95": [
+              -0.011437520528451758,
+              0.02264925745897171
+            ],
+            "site_sd": 0.022172625885863082,
+            "animal_sd": 0.03884404862324869,
+            "site_contrasts": {
+              "angelakilab": -0.047158788562566584,
+              "churchlandlab": 0.012364579960242417,
+              "cortexlab": -0.0054662867019520224,
+              "danlab": 0.021455399431726065,
+              "hoferlab": 0.008149413307136545,
+              "mainenlab": 0.022930202248475296,
+              "mrsicflogellab": 0.0037337746268905616,
+              "wittenlab": 0.025865906009696876,
+              "zadorlab": 0.008578615867690636
+            },
+            "planning_margin": 0.008828121948733775,
+            "normal_sites_for80pct_CI_inside_margin_at_zero": 67,
+            "normal_independent_animals_analogue": 204
+          },
+          "equal_side_mae": {
+            "sign": "positive favors GRU",
+            "equal_animal": 0.00931783460189043,
+            "equal_site": 0.008575339087192747,
+            "animal_t95": [
+              -0.006323991469295236,
+              0.024959660673076096
+            ],
+            "site_t95": [
+              -0.016315101743179777,
+              0.033465779917565275
+            ],
+            "site_sd": 0.032381261313092324,
+            "animal_sd": 0.0626192612854856,
+            "site_contrasts": {
+              "angelakilab": -0.06801195978036832,
+              "churchlandlab": 0.01613927655541911,
+              "cortexlab": -0.006236037420775904,
+              "danlab": 0.023540248515697193,
+              "hoferlab": 0.010658707027643747,
+              "mainenlab": 0.04252936588595493,
+              "mrsicflogellab": 0.0014798236670318114,
+              "wittenlab": 0.031500101462728934,
+              "zadorlab": 0.025578525871403225
+            },
+            "planning_margin": 0.02,
+            "normal_sites_for80pct_CI_inside_margin_at_zero": 28,
+            "normal_independent_animals_analogue": 104
+          }
+        },
+        "common_hybrid": {
+          "ratio_crps": {
+            "sign": "positive favors GRU",
+            "equal_animal": 0.06014550118872281,
+            "equal_site": 0.06448028233019536,
+            "animal_t95": [
+              0.048245376091972395,
+              0.07204562628547323
+            ],
+            "site_t95": [
+              0.05080903072163453,
+              0.07815153393875619
+            ],
+            "site_sd": 0.01778563802187253,
+            "animal_sd": 0.04764002868796084,
+            "site_contrasts": {
+              "angelakilab": 0.06140003411200791,
+              "churchlandlab": 0.07304839729980353,
+              "cortexlab": 0.08449731622118578,
+              "danlab": 0.0727144015414117,
+              "hoferlab": 0.05396941300397958,
+              "mainenlab": 0.08693820973817835,
+              "mrsicflogellab": 0.048596923470426615,
+              "wittenlab": 0.0678549928334418,
+              "zadorlab": 0.03130285275132296
+            },
+            "planning_margin": 0.008828121948733775,
+            "normal_sites_for80pct_CI_inside_margin_at_zero": 43,
+            "normal_independent_animals_analogue": 306
+          },
+          "equal_side_mae": {
+            "sign": "positive favors GRU",
+            "equal_animal": 0.06608752035505373,
+            "equal_site": 0.08381492707454392,
+            "animal_t95": [
+              0.04260314743315738,
+              0.08957189327695009
+            ],
+            "site_t95": [
+              0.04873425167078926,
+              0.11889560247829858
+            ],
+            "site_sd": 0.04563826430517057,
+            "animal_sd": 0.09401549904911706,
+            "site_contrasts": {
+              "angelakilab": 0.06134001490834313,
+              "churchlandlab": 0.12440799399514577,
+              "cortexlab": 0.1322972327880459,
+              "danlab": 0.1329221819755133,
+              "hoferlab": 0.0355489648596606,
+              "mainenlab": 0.13076215192027285,
+              "mrsicflogellab": 0.05345431142378415,
+              "wittenlab": 0.06132047039533693,
+              "zadorlab": 0.02228102140479264
+            },
+            "planning_margin": 0.02,
+            "normal_sites_for80pct_CI_inside_margin_at_zero": 55,
+            "normal_independent_animals_analogue": 233
+          }
+        }
+      }
+    },
+    {
+      "horizon": 2000,
+      "summary": {
+        "frozen_growth": {
+          "ratio_crps": {
+            "equal_animal": 0.09357555594124413,
+            "equal_site": 0.09295148075280138
+          },
+          "equal_side_mae": {
+            "equal_animal": 0.13060651799128986,
+            "equal_site": 0.13506317297573195
+          },
+          "joint": {
+            "equal_animal": 0.051009876012231496,
+            "equal_site": 0.04903262581909982
+          },
+          "count": {
+            "equal_animal": 0.029629966735839845,
+            "equal_site": 0.029282701635329735
+          },
+          "omission_crps": {
+            "equal_animal": 0.0027593914270401007,
+            "equal_site": 0.002801043604998871
+          }
+        },
+        "common_hybrid": {
+          "ratio_crps": {
+            "equal_animal": 0.16020378905885987,
+            "equal_site": 0.16677826738738388
+          },
+          "equal_side_mae": {
+            "equal_animal": 0.21139572449953703,
+            "equal_site": 0.23379004904637993
+          },
+          "joint": {
+            "equal_animal": 0.08709094889839866,
+            "equal_site": 0.08484055569350361
+          },
+          "count": {
+            "equal_animal": 0.04647222548723221,
+            "equal_site": 0.04585596659302789
+          },
+          "omission_crps": {
+            "equal_animal": 0.0027593914270401007,
+            "equal_site": 0.002801043604998871
+          }
+        },
+        "gru": {
+          "ratio_crps": {
+            "equal_animal": 0.09054470281474818,
+            "equal_site": 0.08947664203573277
+          },
+          "equal_side_mae": {
+            "equal_animal": 0.12956332475913607,
+            "equal_site": 0.13229896812480985
+          },
+          "joint": {
+            "equal_animal": 0.04868952406583014,
+            "equal_site": 0.04761701370247304
+          },
+          "count": {
+            "equal_animal": 0.027310616731643676,
+            "equal_site": 0.027394725749243228
+          },
+          "omission_crps": {
+            "equal_animal": 0.0027593914270401007,
+            "equal_site": 0.002801043604998871
+          }
+        }
+      },
+      "GRU_advantage": {
+        "frozen_growth": {
+          "ratio_crps": {
+            "sign": "positive favors GRU",
+            "equal_animal": 0.0030308531264959457,
+            "equal_site": 0.0034748387170685973,
+            "animal_t95": [
+              -0.005620894674627565,
+              0.011682600927619457
+            ],
+            "site_t95": [
+              -0.00943009441740655,
+              0.016379771851543743
+            ],
+            "site_sd": 0.016788694700236417,
+            "animal_sd": 0.03463572946464889,
+            "site_contrasts": {
+              "angelakilab": -0.030311681423478325,
+              "churchlandlab": -0.0021999074479127517,
+              "cortexlab": -0.008860744281956783,
+              "danlab": 0.02229971935518496,
+              "hoferlab": 0.005366746401063449,
+              "mainenlab": 0.022445771492851988,
+              "mrsicflogellab": 2.6061734297362945e-05,
+              "wittenlab": 0.017507344581951433,
+              "zadorlab": 0.005000238041616043
+            },
+            "planning_margin": 0.009295148075280138,
+            "normal_sites_for80pct_CI_inside_margin_at_zero": 35,
+            "normal_independent_animals_analogue": 146
+          },
+          "equal_side_mae": {
+            "sign": "positive favors GRU",
+            "equal_animal": 0.001043193232153807,
+            "equal_site": 0.0027642048509221185,
+            "animal_t95": [
+              -0.01268012188246526,
+              0.014766508346772875
+            ],
+            "site_t95": [
+              -0.01724142596745888,
+              0.022769835669303122
+            ],
+            "site_sd": 0.026026359423604983,
+            "animal_sd": 0.054938844796926324,
+            "site_contrasts": {
+              "angelakilab": -0.05442865718826107,
+              "churchlandlab": -0.002834596221381308,
+              "cortexlab": -0.0039894816083207345,
+              "danlab": 0.026478219157067384,
+              "hoferlab": 0.001178172012034009,
+              "mainenlab": 0.03301076979546616,
+              "mrsicflogellab": -0.006092022611934252,
+              "wittenlab": 0.02510853374673896,
+              "zadorlab": 0.006446906576889918
+            },
+            "planning_margin": 0.02,
+            "normal_sites_for80pct_CI_inside_margin_at_zero": 18,
+            "normal_independent_animals_analogue": 80
+          }
+        },
+        "common_hybrid": {
+          "ratio_crps": {
+            "sign": "positive favors GRU",
+            "equal_animal": 0.0696590862441117,
+            "equal_site": 0.0773016253516511,
+            "animal_t95": [
+              0.05542112739142092,
+              0.08389704509680247
+            ],
+            "site_t95": [
+              0.058954302413719954,
+              0.09564894828958223
+            ],
+            "site_sd": 0.02386898096733907,
+            "animal_sd": 0.05699912922641613,
+            "site_contrasts": {
+              "angelakilab": 0.06640260504544251,
+              "churchlandlab": 0.08406295575134141,
+              "cortexlab": 0.09899847291417334,
+              "danlab": 0.09075469004709523,
+              "hoferlab": 0.05975072966942882,
+              "mainenlab": 0.11925166304153349,
+              "mrsicflogellab": 0.05267235755469751,
+              "wittenlab": 0.07913518846049691,
+              "zadorlab": 0.04468596568065065
+            },
+            "planning_margin": 0.009295148075280138,
+            "normal_sites_for80pct_CI_inside_margin_at_zero": 70,
+            "normal_independent_animals_analogue": 396
+          },
+          "equal_side_mae": {
+            "sign": "positive favors GRU",
+            "equal_animal": 0.08183239974040098,
+            "equal_site": 0.1014910809215701,
+            "animal_t95": [
+              0.05777746227516939,
+              0.10588733720563256
+            ],
+            "site_t95": [
+              0.0602291249541469,
+              0.1427530368889933
+            ],
+            "site_sd": 0.053679811762917765,
+            "animal_sd": 0.09629965245018059,
+            "site_contrasts": {
+              "angelakilab": 0.06017318174765736,
+              "churchlandlab": 0.1355043149045905,
+              "cortexlab": 0.15551146784860406,
+              "danlab": 0.15825121367511358,
+              "hoferlab": 0.05050983223937096,
+              "mainenlab": 0.17038922772727297,
+              "mrsicflogellab": 0.06740932294347096,
+              "wittenlab": 0.08723779700475535,
+              "zadorlab": 0.028433370203295148
+            },
+            "planning_margin": 0.02,
+            "normal_sites_for80pct_CI_inside_margin_at_zero": 76,
+            "normal_independent_animals_analogue": 244
+          }
+        }
+      }
+    }
+  ],
+  "horizon_planning_sensitivity": {
+    "ratio_crps": {
+      "definition": "2000-minus500 horizon effect in GRU advantage over recovered frozen growth, same original1000 prefix",
+      "equal_site": -0.0035441274716159314,
+      "site_t95": [
+        -0.01499766923229985,
+        0.007909414289067987
+      ],
+      "equal_animal": -0.00636522282200652,
+      "site_sd": 0.014900504625075002,
+      "animal_sd": 0.04799702508711924,
+      "information_axis": "unmeasured; not a calibration-by-horizon interaction"
+    },
+    "equal_side_mae": {
+      "definition": "2000-minus500 horizon effect in GRU advantage over recovered frozen growth, same original1000 prefix",
+      "equal_site": -0.009790427224633235,
+      "site_t95": [
+        -0.024337256206372983,
+        0.004756401757106515
+      ],
+      "equal_animal": -0.014462963541089977,
+      "site_sd": 0.01892472189402881,
+      "animal_sd": 0.07038578029780918,
+      "information_axis": "unmeasured; not a calibration-by-horizon interaction"
+    }
+  },
+  "max_author_reduction_error": 2.7755575615628914e-17,
+  "reference_receipt": {
+    "subject": "CSHL046",
+    "reference_moment_max_integer_error": 0,
+    "scope": "unchanged original growth rollout; all-trial omission/right counts at500/1000/2000"
+  },
+  "target_correction": "All generated correct choices include zero-contrast feedback success; empirical auxiliary all-correct target must use feedbackType>0 as well. Exact100 K/N, omission/right counts and all other primary scores unchanged. Original scores/counts remain preserved.",
+  "limitations": [
+    "Consumed fixed 64 animals/nine sites; t intervals are descriptive and omit neural source-fit uncertainty.",
+    "Frozen growth is an end-to-end original prescription; common_hybrid retains neural prefix cost.",
+    "All actors here share original donor omission law; this differs from the earlier warmed-filter experiment.",
+    "Default-teacher and future-opportunity information qualifications remain; no additional-calibration test was run."
+  ],
+  "resources": {
+    "inputs": [
+      {
+        "path": "lab/tasks/acquisition-rule-vs-tracker-2026-11-05/RETAINED_GROWTH_SCORES_CORRECTED.json",
+        "bytes": 586522,
+        "sha256": "a0e80ca2cee12228891ab16a18aebbb53f31491956b4f6dd0262d7fd29721bb3"
+      },
+      {
+        "path": "lab/tasks/acquisition-rule-vs-tracker-2026-11-05/DEVELOPED_CONDITIONAL.json",
+        "bytes": 695622,
+        "sha256": "4f867f888446bc1fa0370e0f0fea9ee7f8ba9d6335e6ff0d417ff631b7eb9d8e"
+      },
+      {
+        "path": "lab/tasks/acquisition-rule-vs-tracker-2026-11-05/RETAINED_REDUCTION.json",
+        "bytes": 90108,
+        "sha256": "14d9440d109df00467ad72ce1bd982803324b3d66bbc211069bb698a5ac050d1"
+      }
+    ],
+    "explicit_read_bytes": 1372252,
+    "cpu_seconds": 0.019982,
+    "wall_seconds": 0.019993665999999997,
+    "peak_rss_native_bytes_on_Mac": 18481152,
+    "original_row_reads": 0,
+    "physical_io_and_runtime_reads": "unknown"
+  }
+}

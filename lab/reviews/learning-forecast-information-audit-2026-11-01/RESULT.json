@@ -1,0 +1,149 @@
+{
+  "utc": "2026-11-01T12:39:55.736222+00:00",
+  "status": "completed_independent_review",
+  "animals": 24,
+  "raw_rows": 96000,
+  "scored_exact100_opportunities": 34378,
+  "metrics": {
+    "autonomous": {
+      "population_mae_pp": 6.969990518046282,
+      "individual_mae_pp": 9.028950992906177,
+      "side_mae_pp": 18.03943065730037,
+      "lab_mae_pp": {
+        "angelakilab": 3.513426336553802,
+        "churchlandlab": 6.317097583384856,
+        "cortexlab": 6.0158664011142475,
+        "hoferlab": 10.409224995349385,
+        "mrsicflogellab": 4.766221246722246
+      }
+    },
+    "conditional_sampled": {
+      "population_mae_pp": 0.6194954029117419,
+      "individual_mae_pp": 2.5055356376741567,
+      "side_mae_pp": 3.67291993869596,
+      "lab_mae_pp": {
+        "angelakilab": 1.827490053658248,
+        "churchlandlab": 1.003053813700922,
+        "cortexlab": 1.4210983373256427,
+        "hoferlab": 0.6842026427567349,
+        "mrsicflogellab": 1.0861732052466504
+      }
+    },
+    "conditional_analytic": {
+      "population_mae_pp": 0.6280812391688424,
+      "individual_mae_pp": 2.496007573967623,
+      "side_mae_pp": 3.662435855745008,
+      "lab_mae_pp": {
+        "angelakilab": 1.8075394823938469,
+        "churchlandlab": 1.041693753096625,
+        "cortexlab": 1.4577685157812685,
+        "hoferlab": 0.6670122479884298,
+        "mrsicflogellab": 1.0788297116921066
+      }
+    }
+  },
+  "primary_gap_pp": 6.35049511513454,
+  "contrary_count_weighted_gap_pp": 0.43305858689697163,
+  "all24_autonomous_samples_and_counts_exact": true,
+  "all24_conditional_endpoint_samples_exact": true,
+  "all24_analytic_endpoint_max_error": 9.992007221626409e-16,
+  "scalar_probability_values": 288000,
+  "selected_saved_trial_files": [
+    {
+      "subject": "CSHL056",
+      "full_file_sha256": "a97a4576cf2b06b4f7142e5c73f02ceaa9ff61d25926163f47953983583e2a9f",
+      "complete_arrays_max_errors": {
+        "prob_right": 0.0,
+        "scoring_choice": 0.0,
+        "final_w": 0.0,
+        "final_h": 0.0,
+        "initial_w": 0.0,
+        "initial_h": 0.0,
+        "omission_by_particle_bin": 0.0,
+        "actual_signed_contrast": 0.0,
+        "actual_choice": 0.0,
+        "actual_feedback_positive": 0.0,
+        "actual_session_start": 0.0
+      },
+      "probability_values": 1536000,
+      "scoring_choices": 1536000
+    },
+    {
+      "subject": "SWC_030",
+      "full_file_sha256": "91324f88cc32d5ad6b4dc6dad75792a49fd7056c34a24d2ece43960621e1cb58",
+      "complete_arrays_max_errors": {
+        "prob_right": 0.0,
+        "scoring_choice": 0.0,
+        "final_w": 0.0,
+        "final_h": 0.0,
+        "initial_w": 0.0,
+        "initial_h": 0.0,
+        "omission_by_particle_bin": 0.0,
+        "actual_signed_contrast": 0.0,
+        "actual_choice": 0.0,
+        "actual_feedback_positive": 0.0,
+        "actual_session_start": 0.0
+      },
+      "probability_values": 1536000,
+      "scoring_choices": 1536000
+    }
+  ],
+  "uncertainty": {
+    "paired_animal": {
+      "sampled": {
+        "population95_pp": [
+          3.6219728716719213,
+          8.428510758862224
+        ],
+        "individual95_pp": [
+          5.482133094717225,
+          7.691014131704423
+        ],
+        "lab_deletion_gain_pp": {
+          "angelakilab": 7.386662140997588,
+          "churchlandlab": 6.398282031356249,
+          "cortexlab": 6.4028611876218875,
+          "hoferlab": 3.43605867271112,
+          "mrsicflogellab": 7.158805108005141
+        },
+        "saved_draw_max_error_pp": 5.950795411990839e-14
+      },
+      "analytic": {
+        "population95_pp": [
+          3.628460426518521,
+          8.433691296664337
+        ],
+        "individual95_pp": [
+          5.483452056168977,
+          7.708477191810805
+        ],
+        "lab_deletion_gain_pp": {
+          "angelakilab": 7.374794062882664,
+          "churchlandlab": 6.400801603059805,
+          "cortexlab": 6.396634901648662,
+          "hoferlab": 3.4528379244661025,
+          "mrsicflogellab": 7.167877212127899
+        }
+      }
+    },
+    "particle_sampled_gap95_pp": [
+      6.205422525396412,
+      6.506472728973366
+    ],
+    "particle_analytic_gap95_pp": [
+      6.195062224587739,
+      6.494085632457886
+    ],
+    "particle_saved_curve_max_error": 2.220446049250313e-16,
+    "numerical_conditional_curve_se_pp": [
+      0.028920649405216388,
+      0.025683019091078077,
+      0.028024817377518146,
+      0.02686362003769108,
+      0.025740391369070942,
+      0.027192401723032073
+    ],
+    "biological_coverage_established": false
+  },
+  "scope": "fixed equal-weight prefix mixture, actual past observations assimilated; not future-likelihood-weighted posterior"
+}

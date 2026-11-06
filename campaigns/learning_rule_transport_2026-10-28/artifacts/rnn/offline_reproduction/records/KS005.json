@@ -1,0 +1,128 @@
+{
+  "subject": "KS005",
+  "split": "animal_holdout",
+  "particles": 512,
+  "prefix_n": 1000,
+  "horizon": 708,
+  "model_sha256": "c7f675d18f4143891ed7d2c76d91f74be74da9565fbae5407952768e2c146940",
+  "forecast_path": "artifacts/forecasts/rnn_source_animals/KS005__rnnglm32.npz",
+  "forecast_sha256": "096331781918df7efc310ad99527bc0a6ff0f7a0d819bfa3cb17e26ace059fb5",
+  "metadata_sha256": "9b61d592f468c8aa486d782159e5761891cb6630e697de11c3c87de74e923e3c",
+  "seed": 89134899,
+  "exact": true,
+  "max_abs_difference": 0.0,
+  "arrays": {
+    "samples": {
+      "exact": true,
+      "shape": [
+        512,
+        1,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "b86e6132d1d993cbd963059ed799fa35cb85d2b4549e34dfed95137cd1b36c6b",
+      "saved_array_sha256": "b86e6132d1d993cbd963059ed799fa35cb85d2b4549e34dfed95137cd1b36c6b"
+    },
+    "samples_primary": {
+      "exact": true,
+      "shape": [
+        512,
+        1,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "b86e6132d1d993cbd963059ed799fa35cb85d2b4549e34dfed95137cd1b36c6b",
+      "saved_array_sha256": "b86e6132d1d993cbd963059ed799fa35cb85d2b4549e34dfed95137cd1b36c6b"
+    },
+    "weights": {
+      "exact": true,
+      "shape": [
+        512,
+        1,
+        3
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "1f43903763ca4bfe058ba747cb83f01e9c12d73142e99219bf25ca2f80663326",
+      "saved_array_sha256": "1f43903763ca4bfe058ba747cb83f01e9c12d73142e99219bf25ca2f80663326"
+    },
+    "hidden_final": {
+      "exact": true,
+      "shape": [
+        512,
+        32
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "d00a1da2e062096213fab37571be3d41780a058ddfd5a06e076d04302dca097f",
+      "saved_array_sha256": "d00a1da2e062096213fab37571be3d41780a058ddfd5a06e076d04302dca097f"
+    },
+    "counts": {
+      "exact": true,
+      "shape": [
+        512,
+        1,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "80464b292bb83b0260284654612df125b2b2dd523dde9a015290037cda87f9bc",
+      "saved_array_sha256": "80464b292bb83b0260284654612df125b2b2dd523dde9a015290037cda87f9bc"
+    },
+    "pool_fraction": {
+      "exact": true,
+      "shape": [
+        1,
+        6
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "cae80238469c717dda95deae9722d32561d7dbfa2bfd0087fd3b4aa70d5fbf3e",
+      "saved_array_sha256": "cae80238469c717dda95deae9722d32561d7dbfa2bfd0087fd3b4aa70d5fbf3e"
+    },
+    "session_start": {
+      "exact": true,
+      "shape": [
+        708
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "381f9f243e527541bf377599b978020b325370543c0dc89fdbf23ee764680773",
+      "saved_array_sha256": "381f9f243e527541bf377599b978020b325370543c0dc89fdbf23ee764680773"
+    },
+    "seed": {
+      "exact": true,
+      "shape": [],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "326e4d9e31d7e1c7144ddc110d6bf03a7bc91a12bb5ef2f66e24529b2ac15a90",
+      "saved_array_sha256": "326e4d9e31d7e1c7144ddc110d6bf03a7bc91a12bb5ef2f66e24529b2ac15a90"
+    }
+  },
+  "original_prefix_objects": [
+    {
+      "path": "data/sealed/animal_holdout/KS005/2019-07-23_001_3d22dcf6-98a0-49c2-a74c-bc9bd6f16264_table.pqt",
+      "bytes": 44836,
+      "sha256": "8f355d0ed9da411115ae58b5912d025e07af718086722d82a3ab92356bb1bcad",
+      "md5": "1e283c405568949b83c6522d2e596956",
+      "published_md5": "1e283c405568949b83c6522d2e596956"
+    },
+    {
+      "path": "data/sealed/animal_holdout/KS005/2019-07-24_001_23753c36-048f-49b3-b125-ba6891440a49_table.pqt",
+      "bytes": 40570,
+      "sha256": "bbcd13251fed10aeea0b4e787f3b00af99ad8c58c57ce443d421ff8f25939ac2",
+      "md5": "9794fcd4bb846d4455f927daaba4e913",
+      "published_md5": "9794fcd4bb846d4455f927daaba4e913"
+    },
+    {
+      "path": "data/sealed/animal_holdout/KS005/2019-07-25_001_42a7cf62-2688-402f-ad1d-20c13faf95ca_table.pqt",
+      "bytes": 57561,
+      "sha256": "bf617537d52640cd9f95a0371e7e0b247f7965b4d9d53980c909e2eb3f172a02",
+      "md5": "f0bea1ba8aed2f1779602f91f59c0c8c",
+      "published_md5": "f0bea1ba8aed2f1779602f91f59c0c8c"
+    }
+  ],
+  "prefix_rows_per_session": [
+    530,
+    464,
+    6
+  ],
+  "opportunity_source": "pinned footer counts only",
+  "future_outcomes_read": false,
+  "external_outcomes_read": false,
+  "seconds": 0.7350152079889085
+}

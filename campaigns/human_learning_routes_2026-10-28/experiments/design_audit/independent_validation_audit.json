@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "scope": "Independent original-byte reconstruction after validation was opened; no imports from primary implementation",
+  "participants": 39,
+  "validation_trials": 23400,
+  "primary_responses": 2867,
+  "maximum_probability_errors": {
+    "no_history": 5.551115123125783e-16,
+    "shared": 5.551115123125783e-16,
+    "condition": 5.551115123125783e-16
+  },
+  "maximum_participant_logscore_error": 9.020562075079397e-17,
+  "reconstructed_mean_delta_log": -0.0010516370056980623,
+  "checks": [
+    "full original MD5",
+    "all validation schedule hashes",
+    "feedback-side identity",
+    "raw choices match exported predictions",
+    "independent first200 calibration",
+    "independent causal history and design construction",
+    "independent Gaussian integration",
+    "independent switch and omission masks",
+    "all participant log/Brier/history scores",
+    "equal-person mean score"
+  ],
+  "hashes": {
+    "inputs/processed_data_2026.csv": "45dcce14e30edba5e38eaeaf8c40edb8cd1a0555928070b44779d0d47458bbe9",
+    "outputs/primary/trial_predictions.csv": "73cf19734d653d120646958b3a66cc89d4f6afd8a553264e96dc26ce0d98b104",
+    "outputs/primary/participant_scores.csv": "39efc85aac340f0b6439a192bd0b8c7f55fa57ee10fbe7512d4f54b99b72d69d",
+    "outputs/primary/summary.json": "e71326b3a4ad667fa5d43737d08117199cb08c9dfab8f693806f1cec0f9fd675"
+  }
+}

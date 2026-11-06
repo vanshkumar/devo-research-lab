@@ -1,0 +1,4 @@
+**2026-11-03 — Original premotor-memory source gate**
+- Observation: Morrison–Young2025 explicitly reports no post-perturbation persistence in its recorded-input heat simulation. Pinned simulations.ipynb redefines the helper ODE with tau and supplies ongoing recorded signal traces; state is already GCaMP z-score. Julia is absent, and the project .venv lacks h5py for the released JLD2 weights. Source inspection/pins succeeded, but original circuit/reference execution remained UNRUN. See this task's SOURCE_GATE.md and MODEL_REFERENCE_STATUS.json.
+- Action: Bank this source limitation without treating it as a new memory failure or automatically repairing the release. Any separately justified reopening must earn a material restored-input contrast, verified original parameters/protocol and actual model/reference execution; do not use a helper-only import, arbitrary background/initial-state search or closed recordings as a substitute.
+- Confidence: high

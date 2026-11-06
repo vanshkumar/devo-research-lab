@@ -1,0 +1,117 @@
+{
+  "seed": 20261028,
+  "NE": 600,
+  "NI": 150,
+  "NH": 15,
+  "channels": 100,
+  "actions_per_syllable": 8,
+  "syllables": 6,
+  "tutor_renditions": 35,
+  "training_seconds": 11.426723375014262,
+  "probe_seconds": 0.12317333300597966,
+  "total_seconds": 12.620883291994687,
+  "before_cost": 9.874781427075177,
+  "after_cost": 1.443146261569959,
+  "suppression_fraction": 0.8538553716629042,
+  "before_per_syllable": [
+    9.943965738182147,
+    10.504158352143035,
+    9.96457386585776,
+    9.945001977931017,
+    10.141220950435784,
+    8.749767677901335
+  ],
+  "after_per_syllable": [
+    1.377192037601007,
+    1.4610140486658043,
+    1.5371587466434684,
+    1.507474480232064,
+    1.5099221304095418,
+    1.266116125867869
+  ],
+  "silence_cost": 2.0591946042284377,
+  "perturbation_ordering": [
+    {
+      "scale": 0.0,
+      "circuit_cost": 1.443146261569959,
+      "per_syllable_cost": [
+        1.377192037601007,
+        1.4610140486658043,
+        1.5371587466434684,
+        1.507474480232064,
+        1.5099221304095418,
+        1.266116125867869
+      ],
+      "true_loss": 0.0,
+      "seconds": 0.12302458297926933
+    },
+    {
+      "scale": 0.25,
+      "circuit_cost": 1.4877003001331337,
+      "per_syllable_cost": [
+        1.420606447267995,
+        1.5446387239127244,
+        1.5705409539094177,
+        1.5445318439485685,
+        1.610931069812953,
+        1.2349527619471432
+      ],
+      "true_loss": 0.10649859434048978,
+      "seconds": 0.12246583300293423
+    },
+    {
+      "scale": 0.5,
+      "circuit_cost": 1.6097377237867014,
+      "per_syllable_cost": [
+        1.547804554785048,
+        1.7869514124739851,
+        1.662425587029451,
+        1.615506843477855,
+        1.785633191382956,
+        1.2601047535709133
+      ],
+      "true_loss": 0.3871326566777052,
+      "seconds": 0.12249966699164361
+    },
+    {
+      "scale": 1.0,
+      "circuit_cost": 2.0004322202080496,
+      "per_syllable_cost": [
+        2.145925667715386,
+        2.5326139919736317,
+        2.0139321289720837,
+        1.8028010593848016,
+        2.1615703846739054,
+        1.3457500885284894
+      ],
+      "true_loss": 1.2739657486039695,
+      "seconds": 0.12273775000358
+    },
+    {
+      "scale": 2.0,
+      "circuit_cost": 2.6698849518755097,
+      "per_syllable_cost": [
+        3.352553563349826,
+        3.347097248712968,
+        2.7717149324804566,
+        2.365394117813297,
+        2.5949709627296227,
+        1.5875788861668862
+      ],
+      "true_loss": 2.92045210536588,
+      "seconds": 0.12539491697680205
+    }
+  ],
+  "source_hashes": {
+    "README.md": "489b9d6ac4eb66659297ca8ad641a31485564c761e3eaacc1efca64373dd9476",
+    "further_analysis/RL_syl_generation.ipynb": "a6aee1c2c0ca6517de14a8c6ad6c7ce1011225a92bfec115cebf8e9252147761",
+    "simulations/train_models.py": "fb16eca6f7b7251e53272203feae82a0bb7072e5d8540913dfe13ccd6bce2489",
+    "src/models.py": "159730b6cdd10ff18ec8dabebbc68ad75d844242b194bd3313dea77ed956f39f",
+    "src/train_funcs.py": "01e7b7324ff5683fae4d9f8f6416f922ece5de51a5e4f9957da27dbe8912dce1",
+    "src/RL.py": "d1bed56de3ea26aa8d62ea302e0c4d29f5187fd2d6f4be98cc67863ecc44dfe0",
+    "src/utils.py": "fc8ac6299b699854ea0e85bc3de986a902d0386ec16a6f97569d09d916fd92dc",
+    "src/__pycache__/train_funcs.cpython-312.pyc": "4eaaf92eba8634f96c655882033d3cde2db43e0776e8f43284082ee21057e544",
+    "src/__pycache__/models.cpython-312.pyc": "2abc658dcb58bfcf18e86187bde61f3447e6f9c555b2b990784287feb903562f"
+  },
+  "note": "Synthetic feature plant; exact source circuit/plasticity; zero dynamical noise; fixed source clock; no actor yet."
+}

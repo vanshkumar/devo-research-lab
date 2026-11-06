@@ -1,0 +1,622 @@
+{
+  "scope": "known conditional synthetic learner; not empirical Pan or whole-animal fit recovery",
+  "freeze_sha256": "2342ea5aaef755d2570654fba4349a05f296b944a91cf8d06e128a9d4c7e2616",
+  "true_rho": 0.8,
+  "selected_control_rho": 0.8,
+  "exact_parameter_recovery": true,
+  "grid_results": [
+    {
+      "rho": 0.5,
+      "equal_lab_curve_mae": 0.028585245217586045
+    },
+    {
+      "rho": 0.6,
+      "equal_lab_curve_mae": 0.022522400625922166
+    },
+    {
+      "rho": 0.7,
+      "equal_lab_curve_mae": 0.013657603978885005
+    },
+    {
+      "rho": 0.8,
+      "equal_lab_curve_mae": 0.00430974404772808
+    },
+    {
+      "rho": 0.9,
+      "equal_lab_curve_mae": 0.012947869339680016
+    },
+    {
+      "rho": 1.0,
+      "equal_lab_curve_mae": 0.033879766921719505
+    }
+  ],
+  "selected_grid_predictive_recovery": true,
+  "policies": {
+    "standard": {
+      "equal_lab_curve_mae": 0.0037530931781464957,
+      "population_curve_mae": 0.0006547755003534533,
+      "mean_bias_observed_minus_forecast": 0.0002342445601802618,
+      "truth_population_curve": [
+        0.4982255754081088,
+        0.5266083212304942,
+        0.5413106676321866,
+        0.5554907574023309,
+        0.5715120586881758,
+        0.5868652398695241
+      ],
+      "forecast_population_curve": [
+        0.49818469679096516,
+        0.5255632190992839,
+        0.541411032319474,
+        0.5565480669808159,
+        0.5716159772429228,
+        0.5852841604362767
+      ],
+      "truth_scalar_conditional_mc_se": 0.0005915579381910877,
+      "forecast_scalar_conditional_mc_se": 0.0011361902534899185,
+      "predictive_expected_law_success": true,
+      "per_prefix": [
+        {
+          "subject": "NYU-07",
+          "lab": "angelakilab",
+          "truth_curve": [
+            0.6168647721325787,
+            0.6326495866485519,
+            0.6324054062939177,
+            0.6458873707540979,
+            0.6536106258703339,
+            0.6816465930649522
+          ],
+          "forecast_curve": [
+            0.6219949927821274,
+            0.6367243878841521,
+            0.6422247470676924,
+            0.6543307633742971,
+            0.6655607743982564,
+            0.6928017834364599
+          ],
+          "curve_mae": 0.008428849029758842,
+          "mean_signed_error_observed_minus_forecast": -0.008428849029758842
+        },
+        {
+          "subject": "CSHL034",
+          "lab": "churchlandlab",
+          "truth_curve": [
+            0.40984594843726285,
+            0.4555440902988112,
+            0.47389830939473004,
+            0.4905144376064799,
+            0.5126551172212209,
+            0.5349542545587742
+          ],
+          "forecast_curve": [
+            0.40915283952510473,
+            0.453770631138048,
+            0.4687786593087602,
+            0.49209686339609926,
+            0.5101670536956269,
+            0.5338684284609924
+          ],
+          "curve_mae": 0.0021237555953144047,
+          "mean_signed_error_observed_minus_forecast": 0.0015962803321079484
+        },
+        {
+          "subject": "KS017",
+          "lab": "cortexlab",
+          "truth_curve": [
+            0.5027198009645252,
+            0.5276696450395306,
+            0.5484127801418743,
+            0.5647357937731303,
+            0.588620474549357,
+            0.5968685217414557
+          ],
+          "forecast_curve": [
+            0.5011354735080439,
+            0.5257908041880442,
+            0.5488662483204914,
+            0.5657730391856931,
+            0.587475935946908,
+            0.5905137802013256
+          ],
+          "curve_mae": 0.0020755270069544216,
+          "mean_signed_error_observed_minus_forecast": 0.0015786224765611534
+        },
+        {
+          "subject": "DY_012",
+          "lab": "danlab",
+          "truth_curve": [
+            0.5082830787096047,
+            0.5280035927105164,
+            0.5378259852784855,
+            0.5501048682458063,
+            0.5701578206735439,
+            0.5803385946937732
+          ],
+          "forecast_curve": [
+            0.5108450364570601,
+            0.5292834798435335,
+            0.5425740525956283,
+            0.5494964850982277,
+            0.5737277256582853,
+            0.577834333865763
+          ],
+          "curve_mae": 0.0025454101929909454,
+          "mean_signed_error_observed_minus_forecast": -0.0015078622011279925
+        },
+        {
+          "subject": "ZM_2245",
+          "lab": "mainenlab",
+          "truth_curve": [
+            0.48505530008871156,
+            0.5241316816452607,
+            0.5397609735016907,
+            0.5711370184893476,
+            0.5775567097050395,
+            0.6013156653535658
+          ],
+          "forecast_curve": [
+            0.480479333622334,
+            0.5187307245795867,
+            0.5308747959000005,
+            0.5649650577428794,
+            0.570679664103167,
+            0.5957444398885854
+          ],
+          "curve_mae": 0.006247222157843818,
+          "mean_signed_error_observed_minus_forecast": 0.006247222157843818
+        },
+        {
+          "subject": "SWC_040",
+          "lab": "mrsicflogellab",
+          "truth_curve": [
+            0.524003872916918,
+            0.5315261210755252,
+            0.5466111730225726,
+            0.5368254024370319,
+            0.5492866712525336,
+            0.5497925380087051
+          ],
+          "forecast_curve": [
+            0.5244935433695976,
+            0.5316927943717527,
+            0.5433091860413399,
+            0.5361444805522103,
+            0.5444185278276558,
+            0.5430264467903047
+          ],
+          "curve_mae": 0.0027122478763732714,
+          "mean_signed_error_observed_minus_forecast": 0.002493466626737569
+        },
+        {
+          "subject": "CSH_ZAD_009",
+          "lab": "zadorlab",
+          "truth_curve": [
+            0.44080625460716044,
+            0.48673353119526286,
+            0.5102600457920358,
+            0.529230410510422,
+            0.5486969915452016,
+            0.563140511665443
+          ],
+          "forecast_curve": [
+            0.43919165827248813,
+            0.48294971168987133,
+            0.5132495370024054,
+            0.5330297795163049,
+            0.5492821590705607,
+            0.5631999104105061
+          ],
+          "curve_mae": 0.0021386403877897697,
+          "mean_signed_error_observed_minus_forecast": -0.00033916844110182254
+        }
+      ]
+    },
+    "external": {
+      "equal_lab_curve_mae": 0.0026333558220353777,
+      "population_curve_mae": 0.0016417097600857397,
+      "mean_bias_observed_minus_forecast": -0.0009600957115729402,
+      "truth_population_curve": [
+        0.589075154168928,
+        0.7352508437505821,
+        0.7729318419915171,
+        0.7762403035677545,
+        0.7845771173828178,
+        0.794966366245693
+      ],
+      "forecast_population_curve": [
+        0.5891989433159599,
+        0.737278307568298,
+        0.7745056560593496,
+        0.7779942366532693,
+        0.7869035336796986,
+        0.7929215241001544
+      ],
+      "truth_scalar_conditional_mc_se": 0.0003818198941678172,
+      "forecast_scalar_conditional_mc_se": 0.0007512101144955986,
+      "predictive_expected_law_success": true,
+      "per_prefix": [
+        {
+          "subject": "NYU-07",
+          "lab": "angelakilab",
+          "truth_curve": [
+            0.6621541221183751,
+            0.8292055071797236,
+            0.8374879687344059,
+            0.8242418221906088,
+            0.821570429905333,
+            0.8446943103912645
+          ],
+          "forecast_curve": [
+            0.6618681125639408,
+            0.8302397542807838,
+            0.8351127937334764,
+            0.8242926516045752,
+            0.8286757346653489,
+            0.8476119402393503
+          ],
+          "curve_mae": 0.002294865946415333,
+          "mean_signed_error_observed_minus_forecast": -0.001407804427960735,
+          "growth_curve": [
+            0.6223718013279297,
+            0.6653460346323564,
+            0.6952948785743625,
+            0.7006555859348192,
+            0.7158210319457683,
+            0.7335586573309887
+          ],
+          "growth_curve_mae": 0.11438436179558104
+        },
+        {
+          "subject": "CSHL034",
+          "lab": "churchlandlab",
+          "truth_curve": [
+            0.5077267963660246,
+            0.6172134722946194,
+            0.6655975734420138,
+            0.6912149543905338,
+            0.7199041826819919,
+            0.7471665228161486
+          ],
+          "forecast_curve": [
+            0.5084314839213284,
+            0.6167060061303671,
+            0.6690504695950419,
+            0.697933088991268,
+            0.7246641674778057,
+            0.7456085309080618
+          ],
+          "curve_mae": 0.0029501935295365342,
+          "mean_signed_error_observed_minus_forecast": -0.0022617075054234825,
+          "growth_curve": [
+            0.3872993559518879,
+            0.4273304497070953,
+            0.44579721275322304,
+            0.45523061594849834,
+            0.45756546516811125,
+            0.5213716045049336
+          ],
+          "growth_curve_mae": 0.20903813299293042
+        },
+        {
+          "subject": "KS017",
+          "lab": "cortexlab",
+          "truth_curve": [
+            0.5940221731640314,
+            0.700045950040409,
+            0.7449014708022862,
+            0.778306611506007,
+            0.7967882105036407,
+            0.7944254655927485
+          ],
+          "forecast_curve": [
+            0.5893446038307566,
+            0.6994794791554384,
+            0.7418645234434338,
+            0.7765556734199722,
+            0.7998961396889975,
+            0.7957262550908459
+          ],
+          "curve_mae": 0.002406774057764479,
+          "mean_signed_error_observed_minus_forecast": 0.0009372011632797217,
+          "growth_curve": [
+            0.49642514322696096,
+            0.4948603322030439,
+            0.5099251526246661,
+            0.5241160472263618,
+            0.530983342813399,
+            0.542024777964428
+          ],
+          "growth_curve_mae": 0.21835918092504383
+        },
+        {
+          "subject": "DY_012",
+          "lab": "danlab",
+          "truth_curve": [
+            0.6019045590957816,
+            0.7758072595687536,
+            0.7951064472255805,
+            0.7840659166547647,
+            0.795898665593353,
+            0.7953321657959027
+          ],
+          "forecast_curve": [
+            0.6050655976068929,
+            0.7837016747718661,
+            0.8027877376721333,
+            0.7880155213063464,
+            0.7946703863105121,
+            0.7926573977896078
+          ],
+          "curve_mae": 0.004431566016915707,
+          "mean_signed_error_observed_minus_forecast": -0.0031305502538704344,
+          "growth_curve": [
+            0.5253374088981562,
+            0.5430823659946059,
+            0.5436004835768532,
+            0.5686847007049883,
+            0.5727248764558153,
+            0.6197641559522132
+          ],
+          "growth_curve_mae": 0.19582017039191735
+        },
+        {
+          "subject": "ZM_2245",
+          "lab": "mainenlab",
+          "truth_curve": [
+            0.5929729159903224,
+            0.8032829862282944,
+            0.8310100767912374,
+            0.834638833167612,
+            0.8215304122270942,
+            0.8360043907802462
+          ],
+          "forecast_curve": [
+            0.5944427695070786,
+            0.8077983282005474,
+            0.8345879360901741,
+            0.8372952541644315,
+            0.8236768694014027,
+            0.83006046519077
+          ],
+          "curve_mae": 0.0033849764247583605,
+          "mean_signed_error_observed_minus_forecast": -0.0014036678949329584,
+          "growth_curve": [
+            0.46978469101476394,
+            0.4991099648640648,
+            0.5259474218082439,
+            0.5320334605811302,
+            0.5466572833014509,
+            0.5652022640881852
+          ],
+          "growth_curve_mae": 0.2634507549211613
+        },
+        {
+          "subject": "SWC_040",
+          "lab": "mrsicflogellab",
+          "truth_curve": [
+            0.6143851883508505,
+            0.7376309100056049,
+            0.794219856143145,
+            0.758590166651519,
+            0.759521182882487,
+            0.7589596848579515
+          ],
+          "forecast_curve": [
+            0.6159110594942155,
+            0.7390202316909485,
+            0.7960529573277721,
+            0.7583623337799794,
+            0.7607164856874888,
+            0.7549464270054389
+          ],
+          "curve_mae": 0.0016974479237316282,
+          "mean_signed_error_observed_minus_forecast": -0.00028375101571422495,
+          "growth_curve": [
+            0.5539257342127296,
+            0.5900247112571557,
+            0.6103624388215364,
+            0.6221676778626934,
+            0.6367306569186857,
+            0.6484804865835632
+          ],
+          "growth_curve_mae": 0.126935880539199
+        },
+        {
+          "subject": "CSH_ZAD_009",
+          "lab": "zadorlab",
+          "truth_curve": [
+            0.5503603240971112,
+            0.6835698209366701,
+            0.7421995008019507,
+            0.7626238204132364,
+            0.7768267378858246,
+            0.7881820234855883
+          ],
+          "forecast_curve": [
+            0.5493289762875062,
+            0.6840026787481359,
+            0.7420831745534155,
+            0.7635051333063128,
+            0.7760249525263347,
+            0.7838396524770069
+          ],
+          "curve_mae": 0.0012676668551256005,
+          "mean_signed_error_observed_minus_forecast": 0.000829609953611532,
+          "growth_curve": [
+            0.4435733819431702,
+            0.4827512390882374,
+            0.49251915627280485,
+            0.5040857748385832,
+            0.5241221462512293,
+            0.5598861552950122
+          ],
+          "growth_curve_mae": 0.21613739565522402
+        }
+      ],
+      "growth_population_curve": [
+        0.49981678808222835,
+        0.52892929967808,
+        0.5462066777759558,
+        0.5581391232995822,
+        0.5692292575506371,
+        0.5986125859599035
+      ],
+      "growth_population_curve_mae": 0.19201798246015098,
+      "population_curve_mae_advantage_over_growth": 0.19037627270006524,
+      "growth_equal_lab_curve_mae": 0.192017982460151,
+      "growth_scalar_conditional_mc_se": 0.001135160076594392
+    }
+  },
+  "truth_particles": 2048,
+  "forecast_particles": 512,
+  "truth_seed_offset": 910000,
+  "conditional_on_consumed_prefixes": true,
+  "truth_mean_fixed_minus_standard": 0.19550483447941203,
+  "expected_law_success_both_policies": true,
+  "elapsed_seconds": 175.1556981249887,
+  "manifest": [
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/NYU-07__standard__truth_rho0.8.npz",
+      "sha256": "e1292369d445eaef82cc2cf1a070dd2a453683d1c629dcf568c67509f31deac3"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/CSHL034__standard__truth_rho0.8.npz",
+      "sha256": "a29cc09da4592faffb1f98e66a4e52d2921b9036f8802807cb91d6742b282185"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/KS017__standard__truth_rho0.8.npz",
+      "sha256": "f477d7441515377276952487281c51f7b0390121f6ed258afd05c28a87d27cb0"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/DY_012__standard__truth_rho0.8.npz",
+      "sha256": "5469494b2719ffcd5b4c95d4fd329d49c7aeb9b83a6146fccd096d2f193e68a9"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/ZM_2245__standard__truth_rho0.8.npz",
+      "sha256": "10be329bdd224b00055b2df1d74a949a7478e6cd0b545407832b05ddcdd8d119"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/SWC_040__standard__truth_rho0.8.npz",
+      "sha256": "f1608e8817c3b79787c255175bebdecc669e35f1f389aca227a670adf22069a1"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/CSH_ZAD_009__standard__truth_rho0.8.npz",
+      "sha256": "e6c32b7f4d5787131a72613773f9767016ec1420d8b9e6082e09482c64e512a2"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/NYU-07__standard__selected_forecast.npz",
+      "sha256": "069d80aed5440015ffc49f2463379fc641a5c95f737d67dcfc3ae2b9b7b40c71"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/CSHL034__standard__selected_forecast.npz",
+      "sha256": "1c7a2de0cfd7852fc05d9aec952c8bd1a825ed740daaf6f7335c7d1ded403423"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/KS017__standard__selected_forecast.npz",
+      "sha256": "3126c9079d6ae373cc018bf481b2a89a49b49496cbe2521bed66a696c6bef1c4"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/DY_012__standard__selected_forecast.npz",
+      "sha256": "9b65e824c2c0a8f6123871f896ddbd416074a0644370ec33a186f8e5e780e05b"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/ZM_2245__standard__selected_forecast.npz",
+      "sha256": "b0727248bd7a05544705d9185fc7bbf1e0f9af1bad3fd6ece5f19a44805233ee"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/SWC_040__standard__selected_forecast.npz",
+      "sha256": "54c4247ce34dcd014349a8a24682c2f7f5a6c26ce89a0016e35a772c1713eae7"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/CSH_ZAD_009__standard__selected_forecast.npz",
+      "sha256": "3b1f150e8fda472227f51bc50498535a6c8669c1caf3ebb670433ecc5de2ca91"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/NYU-07__external__truth_rho0.8.npz",
+      "sha256": "520f11032eb8682bb6f2522f41e5672f8a62c40dfb79607a5cf961c23018e3a9"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/NYU-07__external__selected_forecast.npz",
+      "sha256": "f96d14234964affbdc4ff29a2fb3bee7612b7680ac988b025f2b6dfcff7bab29"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/NYU-07__external__growth_forecast.npz",
+      "sha256": "b856648e054ae89ed4211dfbb1e208772e80d918217ccb8883f63f45dcd7be67"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/CSHL034__external__truth_rho0.8.npz",
+      "sha256": "5ca2bb1095da091a314ff5be602540b0d23a45f7d0b7a534216c76c04237035b"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/CSHL034__external__selected_forecast.npz",
+      "sha256": "dade3b0418c32c8bb6459bffcd0a25965701f15a9a92b753cbaf81818d482801"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/CSHL034__external__growth_forecast.npz",
+      "sha256": "2251873dc8842f52b1422155599028b30f314a06f429955f79d042172a8bb47e"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/KS017__external__truth_rho0.8.npz",
+      "sha256": "89804d0464de27eeef03f8da51424df1055acbd3731b0b61e83b77b76e660d6f"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/KS017__external__selected_forecast.npz",
+      "sha256": "2ce7e60723d5c67ae7306be7a612f6d93a70887898a748b817e2d32e50ce7ca6"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/KS017__external__growth_forecast.npz",
+      "sha256": "4281890c644bbb13e4c2da2b797f1530e4e7fe0b6bc63025a556228c01d9c5fe"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/DY_012__external__truth_rho0.8.npz",
+      "sha256": "9ce082ceb80141211b891c031af348defd38f0232e564e93aded823494d1e073"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/DY_012__external__selected_forecast.npz",
+      "sha256": "e78f254c8a40194a265e18d40fe6d5feb53bfd10465725ac6b3e68975f2256f2"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/DY_012__external__growth_forecast.npz",
+      "sha256": "01a3f86311fc799d39c806718a595222ddc26a2842d1aeca50cbf339bb0838c7"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/ZM_2245__external__truth_rho0.8.npz",
+      "sha256": "c96819f14b4e788ec16a9f9d40562576308d7fd4aa828a18dee9954bb0fa406a"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/ZM_2245__external__selected_forecast.npz",
+      "sha256": "4a154cb2e988abc932446721cdbe929c81357e846fe1963716c721c598526b39"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/ZM_2245__external__growth_forecast.npz",
+      "sha256": "3cc5d4ce069d7679ff326ef02748401f8c7f2ee2256de2a7db4eb31c619b94c0"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/SWC_040__external__truth_rho0.8.npz",
+      "sha256": "28fc6fc0657674d46e5f9a743f3f7adb33a08e038bc52b8ddcd344cd3481a022"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/SWC_040__external__selected_forecast.npz",
+      "sha256": "073feae8f876b6051460169f94111640824fbb3ad1d54dbc82616065f446dccb"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/SWC_040__external__growth_forecast.npz",
+      "sha256": "1230bf145dee3abbf787b23d0a3ecdf7268e5647606f197c1a76c6a834f870a9"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/CSH_ZAD_009__external__truth_rho0.8.npz",
+      "sha256": "6a985b5b1777c5f6269533a19593c7821180ad9d12988653be42e5a1d015c63b"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/CSH_ZAD_009__external__selected_forecast.npz",
+      "sha256": "9c41d6eccbf691dd1736b1b7e9e4711039a4910cdaf28591a8d2349820fb84aa"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/CSH_ZAD_009__external__growth_forecast.npz",
+      "sha256": "04c9432e9f543d04a091214ad13550f571406ff9880340eb1fb906560850e982"
+    }
+  ],
+  "protected_pan_prefixes_opened": 0,
+  "protected_pan_outcomes_opened": 0
+}

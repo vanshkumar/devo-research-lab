@@ -1,0 +1,70 @@
+{
+  "task": "surprise-history-forecast-2026-11-01",
+  "closed_at": "2026-11-01T07:34:33.698984+00:00",
+  "bounds": {
+    "public_operations": 40,
+    "empirical_families": 2,
+    "primary_families": 3,
+    "ingress_bytes": 50000000,
+    "scientific_read_bytes": 500000000,
+    "peak_rss_bytes": 800000000,
+    "hard_deadline": "2026-11-01T08:38:00Z"
+  },
+  "actual_top_level_public_operations": 28,
+  "direct_attempted_GETs": 24,
+  "web_queries_or_opens": 4,
+  "targeted_empirical_families": 1,
+  "targeted_primary_work_families": 1,
+  "known_received_local_body_bytes": 1943144,
+  "charged_ingress_bytes": 10000000,
+  "ingress_charge_includes": "4MB web-provider allowance plus known bodies and reserve for failed/unknown response transfers. Not measured HTTP wire bytes.",
+  "additional_scientific_read_charge_bytes": 200000000,
+  "read_allowance_breakdown": {
+    "metadata_source_inspections_failures_and_decode": 40000000,
+    "original_zip_member_reads_redecodes_and_first_check_hashes": 40000000,
+    "feature_model_reads_for_control_contrary_and_verification": 80000000,
+    "freeze_final_hashes_report_reads_and_reserve": 40000000
+  },
+  "read_note": "Conservative task-local input/read-decode-hash allowance, including repeated and failed passes; physical I/O and internal provider processing are not metered. Arithmetic RAM traffic is not a file read count.",
+  "measured_process_peaks": {
+    "FIRST_DATA_CHECK.json": 48218112,
+    "DEVELOPMENT_SOURCE_CHECK.json": 50921472,
+    "INITIAL_DEVELOPMENT_FAILURE.json": 52953088,
+    "DEVELOPMENT.json": 180207616,
+    "SOURCE_VALIDATION.json": 53477376,
+    "PREDICTION_MANIFEST.json": 136478720,
+    "SCORES.json": 51724288,
+    "CONTROLS.json": 270073856,
+    "CONTRARY.json": 89604096,
+    "VERIFICATION.json": 272826368
+  },
+  "unknowns": [
+    "Search-provider HTTP fanout/traffic and underlying redirect counts",
+    "Failed first develop.py run peak RSS and ordinary toolhost/wrapper peaks",
+    "Actual physical file read/I/O bytes and provider processing",
+    "HTTPError response bodies were not captured; bytes_received0 is not a wire-transfer measurement"
+  ],
+  "scientific_processes_max_concurrent": 1,
+  "numerical_threads": 1,
+  "background_jobs_remaining": 0,
+  "software": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "platform": "macOS-27.0.1-arm64-arm-64bit"
+  },
+  "stages": {
+    "original_trial_arithmetic": "complete07:11:59Z",
+    "main_freeze": "complete07:25:22Z",
+    "predictions": "complete07:25:28Z before scoring",
+    "main_scoring": "complete07:25:34Z; frozen joint rule FAILS",
+    "controls": "complete100null/100positive",
+    "postvalidation": "one matched-penalty attribution check complete",
+    "author_verification": "complete;18pins/all8968targets",
+    "independent_review": "UNRUN",
+    "full_second_control_replay": "UNRUN",
+    "new_cohort_context_noise_or_neural_causal_tests": "UNRUN"
+  },
+  "largest_measured_scientific_RSS_bytes": 272826368,
+  "compliance": "No observed numerical process peak or charged local allowance exceeds the envelope; actual failed-run/toolhost/provider-wide compliance cannot be certified from these records."
+}

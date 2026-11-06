@@ -1,0 +1,83 @@
+{
+  "completed_utc": "2026-11-01T09:26:58.664889+00:00",
+  "freeze_pins": {
+    "PROTOCOL.md": true,
+    "AMENDMENT_1.md": true,
+    "analysis.py": true,
+    "BRIEF.md": true,
+    "source/highsim-trials.zip": true,
+    "source/Stim-struct.xlsx": true,
+    "source/exemplars_highsim.csv": true,
+    "source/highsim-trial-files.json": true
+  },
+  "prediction_pin_pass": true,
+  "raw_probability_reconstruction": [
+    {
+      "role": "source",
+      "model": "P",
+      "scalars": 1584,
+      "max_difference": 6.661338147750939e-16
+    },
+    {
+      "role": "source",
+      "model": "B",
+      "scalars": 1584,
+      "max_difference": 4.996003610813204e-16
+    },
+    {
+      "role": "source",
+      "model": "E",
+      "scalars": 1584,
+      "max_difference": 2.220446049250313e-16
+    },
+    {
+      "role": "evaluation",
+      "model": "P",
+      "scalars": 1512,
+      "max_difference": 7.216449660063518e-16
+    },
+    {
+      "role": "evaluation",
+      "model": "B",
+      "scalars": 1512,
+      "max_difference": 4.440892098500626e-16
+    },
+    {
+      "role": "evaluation",
+      "model": "E",
+      "scalars": 1512,
+      "max_difference": 2.220446049250313e-16
+    }
+  ],
+  "total_probability_scalars": 9288,
+  "source_objectives": {
+    "P": 1.0124432344780148,
+    "B": 1.040714429028702,
+    "E": 1.050586753064598
+  },
+  "E_gradient_maxabs": 5.184064975211067e-08,
+  "score_checks": {
+    "B": {
+      "gain": -0.04515108592034789,
+      "interval": [
+        -0.1210770158226481,
+        0.026730268669484056
+      ]
+    },
+    "E": {
+      "gain": -0.034189029217073674,
+      "interval": [
+        -0.09574403104124074,
+        0.027358079875065205
+      ]
+    }
+  },
+  "all200_control_decisions_match": true,
+  "max_control_gain_error": 6.661338147750939e-16,
+  "control_pass_counts": [
+    61,
+    0
+  ],
+  "scope": "Within-author second implementation using raw observations; no analysis imports. Not distinct independent scientific review; original nonlinear/global optimizer and source-estimation uncertainty not certified.",
+  "peak_rss_bytes_macos": 35504128
+}

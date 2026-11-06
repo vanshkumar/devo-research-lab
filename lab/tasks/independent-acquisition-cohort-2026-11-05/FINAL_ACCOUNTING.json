@@ -1,0 +1,184 @@
+{
+  "utc": "2026-11-05T18:07:47.394830+00:00",
+  "status": "bounded source/design closeout; all native processes terminal",
+  "limits": {
+    "elapsed_seconds": 14400,
+    "science_cpu_seconds": 2700,
+    "new_public_ingress_bytes": 80000000,
+    "explicit_read_decode_bytes": 2000000000,
+    "account_reserve_percent": 25,
+    "token_budget": null
+  },
+  "scientific_processes": [
+    {
+      "file": "SAVED_QUALIFICATION.json",
+      "read_decode_charge_bytes": 3056452,
+      "recorded_cpu_seconds": 0.041494,
+      "process_wall_seconds": 0.047864750027656555,
+      "basis": "Contains explicit reads, actual decoded arrays and clearly named conservative engine/logical/identity-row charges; not measured physical I/O."
+    },
+    {
+      "file": "CATALOGUE_EXTRACTION.json",
+      "read_decode_charge_bytes": 31696786,
+      "recorded_cpu_seconds": 0.046145000000000005,
+      "process_wall_seconds": 0.046742083,
+      "basis": "Contains explicit reads, actual decoded arrays and clearly named conservative engine/logical/identity-row charges; not measured physical I/O."
+    },
+    {
+      "file": "CATALOGUE_QUALIFICATION_INITIAL.json",
+      "read_decode_charge_bytes": 39746439,
+      "recorded_cpu_seconds": 0.128067,
+      "process_wall_seconds": 0.12856520805507898,
+      "basis": "Contains explicit reads, actual decoded arrays and clearly named conservative engine/logical/identity-row charges; not measured physical I/O."
+    },
+    {
+      "file": "CATALOGUE_QUALIFICATION.json",
+      "read_decode_charge_bytes": 39746439,
+      "recorded_cpu_seconds": 0.134511,
+      "process_wall_seconds": 0.13321574998553842,
+      "basis": "Contains explicit reads, actual decoded arrays and clearly named conservative engine/logical/identity-row charges; not measured physical I/O."
+    },
+    {
+      "file": "FOOTER_QUALIFICATION.json",
+      "read_decode_charge_bytes": 53925349,
+      "recorded_cpu_seconds": 9.1859,
+      "process_wall_seconds": 157.06648525001947,
+      "basis": "Contains explicit reads, actual decoded arrays and clearly named conservative engine/logical/identity-row charges; not measured physical I/O."
+    },
+    {
+      "file": "AGGREGATE_PROBE_SCHEMA.json",
+      "read_decode_charge_bytes": 5792990,
+      "recorded_cpu_seconds": 0.037551,
+      "process_wall_seconds": 0.6304214999545366,
+      "basis": "Contains explicit reads, actual decoded arrays and clearly named conservative engine/logical/identity-row charges; not measured physical I/O."
+    },
+    {
+      "file": "AGGREGATE_CHRONOLOGY.json",
+      "read_decode_charge_bytes": 1345962378,
+      "recorded_cpu_seconds": 9.048995999999999,
+      "process_wall_seconds": 89.26018858398311,
+      "basis": "Contains explicit reads, actual decoded arrays and clearly named conservative engine/logical/identity-row charges; not measured physical I/O."
+    },
+    {
+      "file": "SOURCE_MEASUREMENT_PROBE.json",
+      "read_decode_charge_bytes": 81889,
+      "recorded_cpu_seconds": 0.065927,
+      "process_wall_seconds": 0.7237670000176877,
+      "basis": "Contains explicit reads, actual decoded arrays and clearly named conservative engine/logical/identity-row charges; not measured physical I/O."
+    },
+    {
+      "file": "CRITERION_SOURCE_SCREEN.json",
+      "read_decode_charge_bytes": 21798798,
+      "recorded_cpu_seconds": 0.07993600000000001,
+      "process_wall_seconds": 0.080515791,
+      "basis": "Contains explicit reads, actual decoded arrays and clearly named conservative engine/logical/identity-row charges; not measured physical I/O."
+    },
+    {
+      "file": "CRITERION_SOURCE_FIT_INITIAL.json",
+      "read_decode_charge_bytes": 21866196,
+      "recorded_cpu_seconds": 2.208724,
+      "process_wall_seconds": 1.9833405000000002,
+      "basis": "Contains explicit reads, actual decoded arrays and clearly named conservative engine/logical/identity-row charges; not measured physical I/O."
+    },
+    {
+      "file": "CRITERION_COUNT_COUNTEREXAMPLE.json",
+      "read_decode_charge_bytes": 67398,
+      "recorded_cpu_seconds": 0.046433999999999975,
+      "process_wall_seconds": 0.04647283399999999,
+      "basis": "Contains explicit reads, actual decoded arrays and clearly named conservative engine/logical/identity-row charges; not measured physical I/O."
+    },
+    {
+      "file": "QUALIFIED_COHORT.json",
+      "read_decode_charge_bytes": 5702618,
+      "recorded_cpu_seconds": 0.054143000000000004,
+      "process_wall_seconds": 0.04777087492402643,
+      "basis": "Contains explicit reads, actual decoded arrays and clearly named conservative engine/logical/identity-row charges; not measured physical I/O."
+    },
+    {
+      "file": "DISCRIMINATION.json",
+      "read_decode_charge_bytes": 1262329,
+      "recorded_cpu_seconds": 0.8774230000000003,
+      "process_wall_seconds": 0.88148875,
+      "basis": "Contains explicit reads, actual decoded arrays and clearly named conservative engine/logical/identity-row charges; not measured physical I/O."
+    },
+    {
+      "file": "FOCUSED_DESIGN_INITIAL.json",
+      "read_decode_charge_bytes": 2950106,
+      "recorded_cpu_seconds": 0.528009,
+      "process_wall_seconds": 0.532460291,
+      "basis": "Contains explicit reads, actual decoded arrays and clearly named conservative engine/logical/identity-row charges; not measured physical I/O."
+    },
+    {
+      "file": "FOCUSED_DESIGN.json",
+      "read_decode_charge_bytes": 2950106,
+      "recorded_cpu_seconds": 0.6930870000000002,
+      "process_wall_seconds": 0.5312841669999999,
+      "basis": "Contains explicit reads, actual decoded arrays and clearly named conservative engine/logical/identity-row charges; not measured physical I/O."
+    },
+    {
+      "file": "CRITERION_SOURCE_CHRONOLOGY.json",
+      "read_decode_charge_bytes": 2887569,
+      "recorded_cpu_seconds": 0.028094,
+      "process_wall_seconds": 0.02890437503810972,
+      "basis": "Contains explicit reads, actual decoded arrays and clearly named conservative engine/logical/identity-row charges; not measured physical I/O."
+    }
+  ],
+  "recorded_scientific_process_cpu_seconds": 23.204441,
+  "HTTP_request_count": 2344,
+  "HTTP_response_body_bytes": 23593242,
+  "web_tool_result_ingress_estimated_booking_bytes": 1000000,
+  "public_ingress_recorded_plus_estimated_bytes": 24593242,
+  "HTTP_request_cpu_seconds": 10.106040999999985,
+  "HTTP_CPU_note": "Embedded request times overlap scientific processes; summing again is a conservative double charge, not another actual process.",
+  "read_decode_counted_and_nominal_bytes": 1579493842,
+  "closeout_json_read_bytes": 9649605,
+  "closeout_hash_read_bytes": 23213646,
+  "uninstrumented_context_inline_check_failed_process_and_request_log_read_booking_bytes": 250000000,
+  "read_decode_recorded_nominal_plus_estimated_bytes": 1862357093,
+  "closeout_recorded_parent_cpu_seconds": 0.050356,
+  "unmeasured_import_failed_process_inline_reduction_and_closeout_CPU_booking_seconds": 120.0,
+  "science_CPU_conservative_recorded_plus_booked_seconds": 153.360838,
+  "peak_recorded_scientific_rss_bytes": 151126016,
+  "native_elapsed": "Actual final native goal readback in GOAL_FINAL; no context/budget reset. Native model/token accounting is distinct from local scientific CPU.",
+  "prior_lineage": {
+    "author_science_CPU_seconds": 4932.693987,
+    "author_recorded_estimated_read_bytes": 723451263,
+    "distinct_result_reviewer_science_CPU_seconds": 29.043,
+    "reviewer_recorded_estimated_read_MB": 405.59,
+    "review_totals_basis": "Rounded whole-review totals carried in the current PI handoff; FINAL_RESOURCES.json alone is only its last0.2772CPU-second stage, not the whole reviewer.",
+    "authoritative_paths": [
+      "../calibration-frontier-main-2026-11-05/FINAL_ACCOUNTING.json",
+      "../../reviews/calibration-frontier-result-2026-11-05/REVIEW.md",
+      "../../reviews/calibration-frontier-result-2026-11-05/RESOURCES_FINAL.log"
+    ],
+    "preservation": "All earlier lineage, failures, caps and unknown physical/provider/runtime/import/child costs remain. No refunded budget or fresh holdout follows from this task."
+  },
+  "exposure": {
+    "new_source_only": {
+      "subject": "NYU-42",
+      "eid": "63cbe4a9-e50d-4045-ad46-3c68eb40aa81",
+      "rows": 273,
+      "fields": 8,
+      "whole_animal_excluded_from_evaluation": true
+    },
+    "prior_source_sample": "NYU-28 opaque/schema sample retained and excluded from primary",
+    "proposed_primary_evaluation_response_values_opened": false,
+    "aggregate_identity_protocol_and_future_availability_auxiliary_exposed": true,
+    "footer_statistics_not_queried": true,
+    "training_status_tables_not_acquired": true,
+    "source74_rows": "Existing prepared consumed source<=6000 only, original exposure retained",
+    "original64_evaluation": "No new payload read; only saved consumed contribution/summary arrays used",
+    "protected_payload_release": false
+  },
+  "failures": "ACCESS_HISTORY, FOOTER_INTERRUPT, LOCAL_FAILURES, INITIAL/EXECUTED outputs and PUBLIC_REQUESTS preserve failures/recoveries; old completed science was not restarted.",
+  "unknowns": [
+    "Physical filesystem I/O",
+    "TLS/header/provider/network transport beyond recorded response bodies",
+    "Web-provider upstream ingress",
+    "Runtime/library/import reads and managed tool execution overhead",
+    "Exact failed-process CPU/RSS/partial-interruption work beyond saved checkpoints",
+    "Account use attributable to this worker amid concurrent PI/reviewer activity"
+  ],
+  "qualification": "Nominal engine whole-file/identity64byte charges and extra bookings are conservative accounting bases, not instrumentation or certificates for unknown costs.",
+  "no_new_main_or_shared_goal_heartbeat_change": true
+}

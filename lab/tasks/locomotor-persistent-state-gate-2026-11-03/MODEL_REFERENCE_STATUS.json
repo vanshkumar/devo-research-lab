@@ -1,0 +1,38 @@
+{
+  "decision": "CLOSE_AT_SOURCE_PRIOR_PROTOCOL_GATE",
+  "decision_utc": "2026-11-03T05:46:56Z",
+  "original_model_execution": "UNRUN",
+  "independently_expressed_numerical_reference": "UNRUN",
+  "published_curve_reproduction": "UNRUN",
+  "persistent_state_contrast": "UNRUN",
+  "main_protocol": "NOT_EARNED",
+  "main_evaluation": "UNRUN",
+  "independent_review": "NOT_COMMISSIONED",
+  "substantive_revisions_used": 0,
+  "runtime_checks": [
+    {
+      "command": ".venv/bin/python inspect_sources.py",
+      "native_exit": 0,
+      "numpy": true,
+      "scipy": true,
+      "pandas": true,
+      "h5py": false,
+      "julia_on_path": false,
+      "seconds_inside_script": 0.002825583,
+      "peak_rss_bytes_macos": 14041088
+    },
+    {
+      "command": "python3 inspect_sources.py",
+      "native_exit": 0,
+      "numpy": false,
+      "scipy": false,
+      "pandas": false,
+      "h5py": false,
+      "julia_on_path": false,
+      "seconds_inside_script": 0.0019935,
+      "peak_rss_bytes_macos": 14008320
+    }
+  ],
+  "inspection_file_note": "SOURCE_INSPECTION.json was overwritten by the second runtime check; both actual runtime readbacks are preserved here and in native tool output. Its scientific section extraction was unchanged.",
+  "not_a_claim": "No unique-attractor, absent-memory, author-error, affordability, novelty or biological-mechanism conclusion was tested."
+}

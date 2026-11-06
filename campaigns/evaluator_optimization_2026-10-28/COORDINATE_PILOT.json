@@ -1,0 +1,1528 @@
+{
+  "analysis": {
+    "plant_ids": [
+      0,
+      1
+    ],
+    "rounds": 32,
+    "number_of_plants": 2,
+    "base_directory": "/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/evaluator_optimization_2026-10-28/results",
+    "seed": 20261028,
+    "bootstrap_repetitions": 20000,
+    "resampling_unit": "whole plant, paired across all arms",
+    "intervals": "ordinary percentile95; descriptive fixed generator ensemble; no secondary familywise guarantee",
+    "endpoint_selection": "exact trajectory index rounds; later entries ignored",
+    "normalization": "each plant terminal true MSE / same plant initial true MSE",
+    "zero_initial_policy": "retain plant; normalized endpoint undefined; no filtered ensemble means",
+    "reward_improvement_cost_tolerance": 1e-10,
+    "true_worsening_loss_tolerance": 1e-08,
+    "secondary_zero_gain_tolerance": 1e-12,
+    "secondary_target_fidelity_mse_threshold": 0.4,
+    "query_budget_per_arm": 321,
+    "analysis_sha256": "05e51c8be7c03179bf7cdeb7034b592c38f866baae234897beb96b85c26333d2"
+  },
+  "initial_loss": {
+    "n": 2,
+    "undefined_count": 0,
+    "mean": 7.502425290380417,
+    "sd": 2.3960085297996585,
+    "minimum": 5.808191411178268,
+    "maximum": 9.196659169582565
+  },
+  "plant_level": {
+    "oracle_joint": [
+      {
+        "plant_id": 0,
+        "arm": "oracle_joint",
+        "rounds": 32,
+        "queries": 321,
+        "trajectory_rounds_available": 32,
+        "trajectory_sha256": "0889d97f077047201f14f5ed6bb4a0ef5cd861785cf065504763f0d6d04cbc11",
+        "initial_action": [
+          0.7745181379995778,
+          0.37354831067711225,
+          0.19808687780941714,
+          -0.9684802968693607,
+          1.0
+        ],
+        "terminal_action": [
+          0.9245181379995777,
+          -0.45145168932288776,
+          -0.801913122190583,
+          0.10651970313063941,
+          1.0
+        ],
+        "final_gain": 1.0,
+        "zero_gain": false,
+        "terminal_true_mse_at_most_0_4": true,
+        "initial_true_mse": 5.808191411178268,
+        "terminal_true_mse": 0.003547338579884426,
+        "absolute_true_improvement": 5.804644072598384,
+        "normalized_final_true_loss": 0.0006107475337430041,
+        "fraction_true_improvement": 0.999389252466257,
+        "initial_cost": 5.808191411178268,
+        "terminal_cost": 0.003547338579884426,
+        "absolute_cost_reduction": 5.804644072598384,
+        "fractional_cost_reduction": 0.999389252466257,
+        "cost_units": "true_feature_MSE",
+        "accepted_steps": 28,
+        "reward_improving_steps": 28,
+        "reward_improves_while_true_worsens_steps": 0,
+        "reward_improves_while_true_worsens_rounds": [],
+        "any_reward_improves_while_true_worsens": false,
+        "terminal_true_loss_worse_than_initial": false,
+        "final_step": 0.025
+      },
+      {
+        "plant_id": 1,
+        "arm": "oracle_joint",
+        "rounds": 32,
+        "queries": 321,
+        "trajectory_rounds_available": 32,
+        "trajectory_sha256": "fc2df6892ed8ac2f5873199ac565a13d49a119e1809455c9b5616558d1a98f63",
+        "initial_action": [
+          -0.8532332237562861,
+          -0.14136978794019717,
+          -0.5163487695310511,
+          -0.386785616038789,
+          1.0
+        ],
+        "terminal_action": [
+          -0.8532332237562861,
+          -0.14136978794019717,
+          -0.5163487695310511,
+          -0.386785616038789,
+          0.0
+        ],
+        "final_gain": 0.0,
+        "zero_gain": true,
+        "terminal_true_mse_at_most_0_4": false,
+        "initial_true_mse": 9.196659169582565,
+        "terminal_true_mse": 4.0,
+        "absolute_true_improvement": 5.196659169582565,
+        "normalized_final_true_loss": 0.4349405502848008,
+        "fraction_true_improvement": 0.5650594497151993,
+        "initial_cost": 9.196659169582565,
+        "terminal_cost": 4.0,
+        "absolute_cost_reduction": 5.196659169582565,
+        "fractional_cost_reduction": 0.5650594497151992,
+        "cost_units": "true_feature_MSE",
+        "accepted_steps": 3,
+        "reward_improving_steps": 3,
+        "reward_improves_while_true_worsens_steps": 0,
+        "reward_improves_while_true_worsens_rounds": [],
+        "any_reward_improves_while_true_worsens": false,
+        "terminal_true_loss_worse_than_initial": false,
+        "final_step": 0.00625
+      }
+    ],
+    "learned35_joint": [
+      {
+        "plant_id": 0,
+        "arm": "learned35_joint",
+        "rounds": 32,
+        "queries": 321,
+        "trajectory_rounds_available": 32,
+        "trajectory_sha256": "b08b3109521b7c62f348e885060b163b93de10712b4de1227aa312f91a08a695",
+        "initial_action": [
+          0.7745181379995778,
+          0.37354831067711225,
+          0.19808687780941714,
+          -0.9684802968693607,
+          1.0
+        ],
+        "terminal_action": [
+          0.8495181379995778,
+          -0.4327016893228878,
+          -0.7581631221905828,
+          0.10651970313063941,
+          1.3
+        ],
+        "final_gain": 1.3,
+        "zero_gain": false,
+        "terminal_true_mse_at_most_0_4": true,
+        "initial_true_mse": 5.808191411178268,
+        "terminal_true_mse": 0.37026291780691156,
+        "absolute_true_improvement": 5.4379284933713565,
+        "normalized_final_true_loss": 0.06374840145493739,
+        "fraction_true_improvement": 0.9362515985450626,
+        "initial_cost": 3.750548868630896,
+        "terminal_cost": 1.359258159940798,
+        "absolute_cost_reduction": 2.391290708690098,
+        "fractional_cost_reduction": 0.6375842023258363,
+        "cost_units": "circuit_rate_Hz",
+        "accepted_steps": 25,
+        "reward_improving_steps": 25,
+        "reward_improves_while_true_worsens_steps": 5,
+        "reward_improves_while_true_worsens_rounds": [
+          14,
+          20,
+          23,
+          26,
+          30
+        ],
+        "any_reward_improves_while_true_worsens": true,
+        "terminal_true_loss_worse_than_initial": false,
+        "final_step": 0.00625
+      },
+      {
+        "plant_id": 1,
+        "arm": "learned35_joint",
+        "rounds": 32,
+        "queries": 321,
+        "trajectory_rounds_available": 32,
+        "trajectory_sha256": "3b6cd775814b9fbf879e6ab8a7ac7ceb799c2e9f3e2a55ef625a45a68abe36a4",
+        "initial_action": [
+          -0.8532332237562861,
+          -0.14136978794019717,
+          -0.5163487695310511,
+          -0.386785616038789,
+          1.0
+        ],
+        "terminal_action": [
+          -0.8532332237562861,
+          -0.14136978794019717,
+          -0.5163487695310511,
+          -0.386785616038789,
+          0.0
+        ],
+        "final_gain": 0.0,
+        "zero_gain": true,
+        "terminal_true_mse_at_most_0_4": false,
+        "initial_true_mse": 9.196659169582565,
+        "terminal_true_mse": 4.0,
+        "absolute_true_improvement": 5.196659169582565,
+        "normalized_final_true_loss": 0.4349405502848008,
+        "fraction_true_improvement": 0.5650594497151993,
+        "initial_cost": 4.518456914760194,
+        "terminal_cost": 1.9639950183625603,
+        "absolute_cost_reduction": 2.554461896397634,
+        "fractional_cost_reduction": 0.565339438792282,
+        "cost_units": "circuit_rate_Hz",
+        "accepted_steps": 3,
+        "reward_improving_steps": 3,
+        "reward_improves_while_true_worsens_steps": 0,
+        "reward_improves_while_true_worsens_rounds": [],
+        "any_reward_improves_while_true_worsens": false,
+        "terminal_true_loss_worse_than_initial": false,
+        "final_step": 0.00625
+      }
+    ],
+    "learned35_fixed": [
+      {
+        "plant_id": 0,
+        "arm": "learned35_fixed",
+        "rounds": 32,
+        "queries": 321,
+        "trajectory_rounds_available": 32,
+        "trajectory_sha256": "78a2fdbfd761da0b1cdca924e43a13caab021091ff0c36cb81c6f29f379ac7ba",
+        "initial_action": [
+          0.7745181379995778,
+          0.37354831067711225,
+          0.19808687780941714,
+          -0.9684802968693607,
+          1.0
+        ],
+        "terminal_action": [
+          0.8495181379995778,
+          -0.43270168932288783,
+          -0.7394131221905828,
+          0.11276970313063941,
+          1.0
+        ],
+        "final_gain": 1.0,
+        "zero_gain": false,
+        "terminal_true_mse_at_most_0_4": true,
+        "initial_true_mse": 5.808191411178268,
+        "terminal_true_mse": 0.010224949671991801,
+        "absolute_true_improvement": 5.7979664615062765,
+        "normalized_final_true_loss": 0.0017604360717715286,
+        "fraction_true_improvement": 0.9982395639282284,
+        "initial_cost": 3.750548868630896,
+        "terminal_cost": 1.4159867298967734,
+        "absolute_cost_reduction": 2.3345621387341224,
+        "fractional_cost_reduction": 0.6224587975003065,
+        "cost_units": "circuit_rate_Hz",
+        "accepted_steps": 20,
+        "reward_improving_steps": 20,
+        "reward_improves_while_true_worsens_steps": 4,
+        "reward_improves_while_true_worsens_rounds": [
+          19,
+          20,
+          23,
+          26
+        ],
+        "any_reward_improves_while_true_worsens": true,
+        "terminal_true_loss_worse_than_initial": false,
+        "final_step": 0.00625
+      },
+      {
+        "plant_id": 1,
+        "arm": "learned35_fixed",
+        "rounds": 32,
+        "queries": 321,
+        "trajectory_rounds_available": 32,
+        "trajectory_sha256": "17b734f23ce44719adefa3360bbeee87b26854de23acdf35a7db75d2cf49b81c",
+        "initial_action": [
+          -0.8532332237562861,
+          -0.14136978794019717,
+          -0.5163487695310511,
+          -0.386785616038789,
+          1.0
+        ],
+        "terminal_action": [
+          0.5342667762437141,
+          0.32738021205980283,
+          0.708651230468949,
+          -0.574285616038789,
+          1.0
+        ],
+        "final_gain": 1.0,
+        "zero_gain": false,
+        "terminal_true_mse_at_most_0_4": true,
+        "initial_true_mse": 9.196659169582565,
+        "terminal_true_mse": 0.02481313266913546,
+        "absolute_true_improvement": 9.17184603691343,
+        "normalized_final_true_loss": 0.002698059394350886,
+        "fraction_true_improvement": 0.9973019406056491,
+        "initial_cost": 4.518456914760194,
+        "terminal_cost": 1.3967021184312045,
+        "absolute_cost_reduction": 3.1217547963289896,
+        "fractional_cost_reduction": 0.6908895791683495,
+        "cost_units": "circuit_rate_Hz",
+        "accepted_steps": 16,
+        "reward_improving_steps": 16,
+        "reward_improves_while_true_worsens_steps": 4,
+        "reward_improves_while_true_worsens_rounds": [
+          16,
+          17,
+          19,
+          22
+        ],
+        "any_reward_improves_while_true_worsens": true,
+        "terminal_true_loss_worse_than_initial": false,
+        "final_step": 0.00625
+      }
+    ],
+    "learned140_joint": [
+      {
+        "plant_id": 0,
+        "arm": "learned140_joint",
+        "rounds": 32,
+        "queries": 321,
+        "trajectory_rounds_available": 32,
+        "trajectory_sha256": "cbed6f834d2092671e80214f6ef373ec69debac38a2460be1b4eb09707f5d8db",
+        "initial_action": [
+          0.7745181379995778,
+          0.37354831067711225,
+          0.19808687780941714,
+          -0.9684802968693607,
+          1.0
+        ],
+        "terminal_action": [
+          1.2245181379995778,
+          -0.7264516893228877,
+          -1.2519131221905828,
+          0.0315197031306394,
+          0.8
+        ],
+        "final_gain": 0.8,
+        "zero_gain": false,
+        "terminal_true_mse_at_most_0_4": true,
+        "initial_true_mse": 5.808191411178268,
+        "terminal_true_mse": 0.33919279245143363,
+        "absolute_true_improvement": 5.468998618726834,
+        "normalized_final_true_loss": 0.05839903826148593,
+        "fraction_true_improvement": 0.941600961738514,
+        "initial_cost": 4.133503593638076,
+        "terminal_cost": 1.7552518672420623,
+        "absolute_cost_reduction": 2.3782517263960132,
+        "fractional_cost_reduction": 0.5753597819671449,
+        "cost_units": "circuit_rate_Hz",
+        "accepted_steps": 29,
+        "reward_improving_steps": 29,
+        "reward_improves_while_true_worsens_steps": 7,
+        "reward_improves_while_true_worsens_rounds": [
+          3,
+          20,
+          21,
+          22,
+          27,
+          29,
+          32
+        ],
+        "any_reward_improves_while_true_worsens": true,
+        "terminal_true_loss_worse_than_initial": false,
+        "final_step": 0.05
+      },
+      {
+        "plant_id": 1,
+        "arm": "learned140_joint",
+        "rounds": 32,
+        "queries": 321,
+        "trajectory_rounds_available": 32,
+        "trajectory_sha256": "5e6cd785b633701b686b9d891b8b169ae307d8406a66d991edf44fddf2828a9d",
+        "initial_action": [
+          -0.8532332237562861,
+          -0.14136978794019717,
+          -0.5163487695310511,
+          -0.386785616038789,
+          1.0
+        ],
+        "terminal_action": [
+          -0.10323322375628603,
+          0.25863021205980286,
+          -0.41634876953105115,
+          -0.28678561603878905,
+          0.31875
+        ],
+        "final_gain": 0.31875,
+        "zero_gain": false,
+        "terminal_true_mse_at_most_0_4": false,
+        "initial_true_mse": 9.196659169582565,
+        "terminal_true_mse": 4.358478893452403,
+        "absolute_true_improvement": 4.838180276130163,
+        "normalized_final_true_loss": 0.4739198020807194,
+        "fraction_true_improvement": 0.5260801979192806,
+        "initial_cost": 32.9178562245067,
+        "terminal_cost": 20.677652461183484,
+        "absolute_cost_reduction": 12.240203763323215,
+        "fractional_cost_reduction": 0.3718408537859347,
+        "cost_units": "circuit_rate_Hz",
+        "accepted_steps": 15,
+        "reward_improving_steps": 15,
+        "reward_improves_while_true_worsens_steps": 4,
+        "reward_improves_while_true_worsens_rounds": [
+          8,
+          9,
+          14,
+          16
+        ],
+        "any_reward_improves_while_true_worsens": true,
+        "terminal_true_loss_worse_than_initial": false,
+        "final_step": 0.00625
+      }
+    ],
+    "untutored_joint": [
+      {
+        "plant_id": 0,
+        "arm": "untutored_joint",
+        "rounds": 32,
+        "queries": 321,
+        "trajectory_rounds_available": 32,
+        "trajectory_sha256": "dd48fd38928a9e21f06a78e047dea891cff132632d18ef322b16a471deae540f",
+        "initial_action": [
+          0.7745181379995778,
+          0.37354831067711225,
+          0.19808687780941714,
+          -0.9684802968693607,
+          1.0
+        ],
+        "terminal_action": [
+          0.3682681379995778,
+          0.5172983106771122,
+          -0.19566312219058288,
+          -0.043480296869360606,
+          0.19999999999999996
+        ],
+        "final_gain": 0.19999999999999996,
+        "zero_gain": false,
+        "terminal_true_mse_at_most_0_4": false,
+        "initial_true_mse": 5.808191411178268,
+        "terminal_true_mse": 3.6124452793743482,
+        "absolute_true_improvement": 2.19574613180392,
+        "normalized_final_true_loss": 0.6219569954981073,
+        "fraction_true_improvement": 0.37804300450189265,
+        "initial_cost": 8.425947046873768,
+        "terminal_cost": 6.881971449019706,
+        "absolute_cost_reduction": 1.543975597854062,
+        "fractional_cost_reduction": 0.18324060064285766,
+        "cost_units": "circuit_rate_Hz",
+        "accepted_steps": 22,
+        "reward_improving_steps": 22,
+        "reward_improves_while_true_worsens_steps": 8,
+        "reward_improves_while_true_worsens_rounds": [
+          4,
+          7,
+          11,
+          14,
+          17,
+          20,
+          24,
+          27
+        ],
+        "any_reward_improves_while_true_worsens": true,
+        "terminal_true_loss_worse_than_initial": false,
+        "final_step": 0.00625
+      },
+      {
+        "plant_id": 1,
+        "arm": "untutored_joint",
+        "rounds": 32,
+        "queries": 321,
+        "trajectory_rounds_available": 32,
+        "trajectory_sha256": "20665b602432dc57fba27185b192fddb5d22b25adbab78bdba9d049ef316bcf4",
+        "initial_action": [
+          -0.8532332237562861,
+          -0.14136978794019717,
+          -0.5163487695310511,
+          -0.386785616038789,
+          1.0
+        ],
+        "terminal_action": [
+          -0.8532332237562861,
+          -0.14136978794019717,
+          -0.5163487695310511,
+          -0.386785616038789,
+          0.0
+        ],
+        "final_gain": 0.0,
+        "zero_gain": true,
+        "terminal_true_mse_at_most_0_4": false,
+        "initial_true_mse": 9.196659169582565,
+        "terminal_true_mse": 4.0,
+        "absolute_true_improvement": 5.196659169582565,
+        "normalized_final_true_loss": 0.4349405502848008,
+        "fraction_true_improvement": 0.5650594497151993,
+        "initial_cost": 11.022603652707707,
+        "terminal_cost": 8.278048843530659,
+        "absolute_cost_reduction": 2.744554809177048,
+        "fractional_cost_reduction": 0.2489933318524836,
+        "cost_units": "circuit_rate_Hz",
+        "accepted_steps": 3,
+        "reward_improving_steps": 3,
+        "reward_improves_while_true_worsens_steps": 0,
+        "reward_improves_while_true_worsens_rounds": [],
+        "any_reward_improves_while_true_worsens": false,
+        "terminal_true_loss_worse_than_initial": false,
+        "final_step": 0.00625
+      }
+    ],
+    "shuffled35_joint": [
+      {
+        "plant_id": 0,
+        "arm": "shuffled35_joint",
+        "rounds": 32,
+        "queries": 321,
+        "trajectory_rounds_available": 32,
+        "trajectory_sha256": "a669b7d9a419c4c737d22114e08373a4af2cb5e78d560c2c6c6310925ebe3449",
+        "initial_action": [
+          0.7745181379995778,
+          0.37354831067711225,
+          0.19808687780941714,
+          -0.9684802968693607,
+          1.0
+        ],
+        "terminal_action": [
+          0.7745181379995778,
+          0.37354831067711225,
+          0.19808687780941714,
+          -0.9684802968693607,
+          0.0
+        ],
+        "final_gain": 0.0,
+        "zero_gain": true,
+        "terminal_true_mse_at_most_0_4": false,
+        "initial_true_mse": 5.808191411178268,
+        "terminal_true_mse": 4.0,
+        "absolute_true_improvement": 1.8081914111782682,
+        "normalized_final_true_loss": 0.688682537614329,
+        "fraction_true_improvement": 0.31131746238567104,
+        "initial_cost": 4.092811017228382,
+        "terminal_cost": 2.0913151229186817,
+        "absolute_cost_reduction": 2.0014958943097,
+        "fractional_cost_reduction": 0.4890271957059715,
+        "cost_units": "circuit_rate_Hz",
+        "accepted_steps": 3,
+        "reward_improving_steps": 3,
+        "reward_improves_while_true_worsens_steps": 1,
+        "reward_improves_while_true_worsens_rounds": [
+          3
+        ],
+        "any_reward_improves_while_true_worsens": true,
+        "terminal_true_loss_worse_than_initial": false,
+        "final_step": 0.00625
+      },
+      {
+        "plant_id": 1,
+        "arm": "shuffled35_joint",
+        "rounds": 32,
+        "queries": 321,
+        "trajectory_rounds_available": 32,
+        "trajectory_sha256": "03dc35432e28d9b434808c5b1d16f6d771f75287d7aca1a273f1ea3626b87393",
+        "initial_action": [
+          -0.8532332237562861,
+          -0.14136978794019717,
+          -0.5163487695310511,
+          -0.386785616038789,
+          1.0
+        ],
+        "terminal_action": [
+          -0.8532332237562861,
+          -0.14136978794019717,
+          -0.5163487695310511,
+          -0.386785616038789,
+          0.0
+        ],
+        "final_gain": 0.0,
+        "zero_gain": true,
+        "terminal_true_mse_at_most_0_4": false,
+        "initial_true_mse": 9.196659169582565,
+        "terminal_true_mse": 4.0,
+        "absolute_true_improvement": 5.196659169582565,
+        "normalized_final_true_loss": 0.4349405502848008,
+        "fraction_true_improvement": 0.5650594497151993,
+        "initial_cost": 4.383560048811346,
+        "terminal_cost": 1.9779231936197874,
+        "absolute_cost_reduction": 2.405636855191559,
+        "fractional_cost_reduction": 0.5487861072745828,
+        "cost_units": "circuit_rate_Hz",
+        "accepted_steps": 3,
+        "reward_improving_steps": 3,
+        "reward_improves_while_true_worsens_steps": 0,
+        "reward_improves_while_true_worsens_rounds": [],
+        "any_reward_improves_while_true_worsens": false,
+        "terminal_true_loss_worse_than_initial": false,
+        "final_step": 0.00625
+      }
+    ]
+  },
+  "arm_summaries": {
+    "oracle_joint": {
+      "initial_true_mse": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 7.502425290380417,
+        "sd": 2.3960085297996585,
+        "minimum": 5.808191411178268,
+        "maximum": 9.196659169582565,
+        "paired_plant_percentile_95_interval": [
+          5.808191411178268,
+          9.196659169582565
+        ]
+      },
+      "terminal_true_mse": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 2.001773669289942,
+        "sd": 2.8259187775811894,
+        "minimum": 0.003547338579884426,
+        "maximum": 4.0,
+        "paired_plant_percentile_95_interval": [
+          0.003547338579884426,
+          4.0
+        ]
+      },
+      "absolute_true_improvement": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 5.500651621090475,
+        "sd": 0.4299102477815308,
+        "minimum": 5.196659169582565,
+        "maximum": 5.804644072598384,
+        "paired_plant_percentile_95_interval": [
+          5.196659169582565,
+          5.804644072598384
+        ]
+      },
+      "normalized_final_true_loss": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.2177756489092719,
+        "sd": 0.30711754879668857,
+        "minimum": 0.0006107475337430041,
+        "maximum": 0.4349405502848008,
+        "paired_plant_percentile_95_interval": [
+          0.0006107475337430041,
+          0.4349405502848008
+        ]
+      },
+      "fraction_true_improvement": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.7822243510907281,
+        "sd": 0.3071175487966885,
+        "minimum": 0.5650594497151993,
+        "maximum": 0.999389252466257,
+        "paired_plant_percentile_95_interval": [
+          0.5650594497151993,
+          0.999389252466257
+        ]
+      },
+      "initial_cost": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 7.502425290380417,
+        "sd": 2.3960085297996585,
+        "minimum": 5.808191411178268,
+        "maximum": 9.196659169582565,
+        "paired_plant_percentile_95_interval": [
+          5.808191411178268,
+          9.196659169582565
+        ]
+      },
+      "terminal_cost": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 2.001773669289942,
+        "sd": 2.8259187775811894,
+        "minimum": 0.003547338579884426,
+        "maximum": 4.0,
+        "paired_plant_percentile_95_interval": [
+          0.003547338579884426,
+          4.0
+        ]
+      },
+      "absolute_cost_reduction": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 5.500651621090475,
+        "sd": 0.4299102477815308,
+        "minimum": 5.196659169582565,
+        "maximum": 5.804644072598384,
+        "paired_plant_percentile_95_interval": [
+          5.196659169582565,
+          5.804644072598384
+        ]
+      },
+      "fractional_cost_reduction": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.7822243510907281,
+        "sd": 0.3071175487966886,
+        "minimum": 0.5650594497151992,
+        "maximum": 0.999389252466257,
+        "paired_plant_percentile_95_interval": [
+          0.5650594497151992,
+          0.999389252466257
+        ]
+      },
+      "final_step": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.015625,
+        "sd": 0.013258252147247768,
+        "minimum": 0.00625,
+        "maximum": 0.025,
+        "paired_plant_percentile_95_interval": [
+          0.00625,
+          0.025
+        ]
+      },
+      "final_gain": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.5,
+        "sd": 0.7071067811865476,
+        "minimum": 0.0,
+        "maximum": 1.0,
+        "paired_plant_percentile_95_interval": [
+          0.0,
+          1.0
+        ]
+      },
+      "plants_with_reward_improves_while_true_worsens": 0,
+      "plants_with_terminal_true_loss_worse_than_initial": 0,
+      "reward_improves_while_true_worsens_steps_total": 0,
+      "accepted_steps_total": 31,
+      "reward_improving_steps_total": 31,
+      "plants_with_zero_final_gain": 1,
+      "plants_with_terminal_true_mse_at_most_0_4": 1
+    },
+    "learned35_joint": {
+      "initial_true_mse": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 7.502425290380417,
+        "sd": 2.3960085297996585,
+        "minimum": 5.808191411178268,
+        "maximum": 9.196659169582565,
+        "paired_plant_percentile_95_interval": [
+          5.808191411178268,
+          9.196659169582565
+        ]
+      },
+      "terminal_true_mse": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 2.185131458903456,
+        "sd": 2.5666117047430057,
+        "minimum": 0.37026291780691156,
+        "maximum": 4.0,
+        "paired_plant_percentile_95_interval": [
+          0.37026291780691156,
+          4.0
+        ]
+      },
+      "absolute_true_improvement": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 5.317293831476961,
+        "sd": 0.17060317494334712,
+        "minimum": 5.196659169582565,
+        "maximum": 5.4379284933713565,
+        "paired_plant_percentile_95_interval": [
+          5.196659169582565,
+          5.4379284933713565
+        ]
+      },
+      "normalized_final_true_loss": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.24934447586986908,
+        "sd": 0.2624724855608026,
+        "minimum": 0.06374840145493739,
+        "maximum": 0.4349405502848008,
+        "paired_plant_percentile_95_interval": [
+          0.06374840145493739,
+          0.4349405502848008
+        ]
+      },
+      "fraction_true_improvement": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.7506555241301309,
+        "sd": 0.26247248556080255,
+        "minimum": 0.5650594497151993,
+        "maximum": 0.9362515985450626,
+        "paired_plant_percentile_95_interval": [
+          0.5650594497151993,
+          0.9362515985450626
+        ]
+      },
+      "initial_cost": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 4.134502891695545,
+        "sd": 0.542992986745739,
+        "minimum": 3.750548868630896,
+        "maximum": 4.518456914760194,
+        "paired_plant_percentile_95_interval": [
+          3.750548868630896,
+          4.518456914760194
+        ]
+      },
+      "terminal_cost": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 1.661626589151679,
+        "sd": 0.42761353342347724,
+        "minimum": 1.359258159940798,
+        "maximum": 1.9639950183625603,
+        "paired_plant_percentile_95_interval": [
+          1.359258159940798,
+          1.9639950183625603
+        ]
+      },
+      "absolute_cost_reduction": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 2.472876302543866,
+        "sd": 0.11537945332226199,
+        "minimum": 2.391290708690098,
+        "maximum": 2.554461896397634,
+        "paired_plant_percentile_95_interval": [
+          2.391290708690098,
+          2.554461896397634
+        ]
+      },
+      "fractional_cost_reduction": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.6014618205590592,
+        "sd": 0.05108476219979489,
+        "minimum": 0.565339438792282,
+        "maximum": 0.6375842023258363,
+        "paired_plant_percentile_95_interval": [
+          0.565339438792282,
+          0.6375842023258363
+        ]
+      },
+      "final_step": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.00625,
+        "sd": 0.0,
+        "minimum": 0.00625,
+        "maximum": 0.00625,
+        "paired_plant_percentile_95_interval": [
+          0.00625,
+          0.00625
+        ]
+      },
+      "final_gain": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.65,
+        "sd": 0.9192388155425119,
+        "minimum": 0.0,
+        "maximum": 1.3,
+        "paired_plant_percentile_95_interval": [
+          0.0,
+          1.3
+        ]
+      },
+      "plants_with_reward_improves_while_true_worsens": 1,
+      "plants_with_terminal_true_loss_worse_than_initial": 0,
+      "reward_improves_while_true_worsens_steps_total": 5,
+      "accepted_steps_total": 28,
+      "reward_improving_steps_total": 28,
+      "plants_with_zero_final_gain": 1,
+      "plants_with_terminal_true_mse_at_most_0_4": 1
+    },
+    "learned35_fixed": {
+      "initial_true_mse": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 7.502425290380417,
+        "sd": 2.3960085297996585,
+        "minimum": 5.808191411178268,
+        "maximum": 9.196659169582565,
+        "paired_plant_percentile_95_interval": [
+          5.808191411178268,
+          9.196659169582565
+        ]
+      },
+      "terminal_true_mse": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.017519041170563632,
+        "sd": 0.010315403122470574,
+        "minimum": 0.010224949671991801,
+        "maximum": 0.02481313266913546,
+        "paired_plant_percentile_95_interval": [
+          0.010224949671991801,
+          0.02481313266913546
+        ]
+      },
+      "absolute_true_improvement": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 7.484906249209853,
+        "sd": 2.3856931266771872,
+        "minimum": 5.7979664615062765,
+        "maximum": 9.17184603691343,
+        "paired_plant_percentile_95_interval": [
+          5.7979664615062765,
+          9.17184603691343
+        ]
+      },
+      "normalized_final_true_loss": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.0022292477330612074,
+        "sd": 0.0006629998095945255,
+        "minimum": 0.0017604360717715286,
+        "maximum": 0.002698059394350886,
+        "paired_plant_percentile_95_interval": [
+          0.0017604360717715286,
+          0.002698059394350886
+        ]
+      },
+      "fraction_true_improvement": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.9977707522669388,
+        "sd": 0.0006629998095944814,
+        "minimum": 0.9973019406056491,
+        "maximum": 0.9982395639282284,
+        "paired_plant_percentile_95_interval": [
+          0.9973019406056491,
+          0.9982395639282284
+        ]
+      },
+      "initial_cost": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 4.134502891695545,
+        "sd": 0.542992986745739,
+        "minimum": 3.750548868630896,
+        "maximum": 4.518456914760194,
+        "paired_plant_percentile_95_interval": [
+          3.750548868630896,
+          4.518456914760194
+        ]
+      },
+      "terminal_cost": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 1.406344424163989,
+        "sd": 0.01363627953985163,
+        "minimum": 1.3967021184312045,
+        "maximum": 1.4159867298967734,
+        "paired_plant_percentile_95_interval": [
+          1.3967021184312045,
+          1.4159867298967734
+        ]
+      },
+      "absolute_cost_reduction": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 2.728158467531556,
+        "sd": 0.5566292662855905,
+        "minimum": 2.3345621387341224,
+        "maximum": 3.1217547963289896,
+        "paired_plant_percentile_95_interval": [
+          2.3345621387341224,
+          3.1217547963289896
+        ]
+      },
+      "fractional_cost_reduction": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.656674188334328,
+        "sd": 0.048387869759369255,
+        "minimum": 0.6224587975003065,
+        "maximum": 0.6908895791683495,
+        "paired_plant_percentile_95_interval": [
+          0.6224587975003065,
+          0.6908895791683495
+        ]
+      },
+      "final_step": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.00625,
+        "sd": 0.0,
+        "minimum": 0.00625,
+        "maximum": 0.00625,
+        "paired_plant_percentile_95_interval": [
+          0.00625,
+          0.00625
+        ]
+      },
+      "final_gain": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 1.0,
+        "sd": 0.0,
+        "minimum": 1.0,
+        "maximum": 1.0,
+        "paired_plant_percentile_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "plants_with_reward_improves_while_true_worsens": 2,
+      "plants_with_terminal_true_loss_worse_than_initial": 0,
+      "reward_improves_while_true_worsens_steps_total": 8,
+      "accepted_steps_total": 36,
+      "reward_improving_steps_total": 36,
+      "plants_with_zero_final_gain": 0,
+      "plants_with_terminal_true_mse_at_most_0_4": 2
+    },
+    "learned140_joint": {
+      "initial_true_mse": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 7.502425290380417,
+        "sd": 2.3960085297996585,
+        "minimum": 5.808191411178268,
+        "maximum": 9.196659169582565,
+        "paired_plant_percentile_95_interval": [
+          5.808191411178268,
+          9.196659169582565
+        ]
+      },
+      "terminal_true_mse": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 2.3488358429519183,
+        "sd": 2.842064457546624,
+        "minimum": 0.33919279245143363,
+        "maximum": 4.358478893452403,
+        "paired_plant_percentile_95_interval": [
+          0.33919279245143363,
+          4.358478893452403
+        ]
+      },
+      "absolute_true_improvement": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 5.153589447428498,
+        "sd": 0.44605592774696523,
+        "minimum": 4.838180276130163,
+        "maximum": 5.468998618726834,
+        "paired_plant_percentile_95_interval": [
+          4.838180276130163,
+          5.468998618726834
+        ]
+      },
+      "normalized_final_true_loss": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.26615942017110267,
+        "sd": 0.2938175498203938,
+        "minimum": 0.05839903826148593,
+        "maximum": 0.4739198020807194,
+        "paired_plant_percentile_95_interval": [
+          0.05839903826148593,
+          0.4739198020807194
+        ]
+      },
+      "fraction_true_improvement": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.7338405798288974,
+        "sd": 0.2938175498203938,
+        "minimum": 0.5260801979192806,
+        "maximum": 0.941600961738514,
+        "paired_plant_percentile_95_interval": [
+          0.5260801979192806,
+          0.941600961738514
+        ]
+      },
+      "initial_cost": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 18.525679909072387,
+        "sd": 20.353610937352045,
+        "minimum": 4.133503593638076,
+        "maximum": 32.9178562245067,
+        "paired_plant_percentile_95_interval": [
+          4.133503593638076,
+          32.9178562245067
+        ]
+      },
+      "terminal_cost": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 11.216452164212773,
+        "sd": 13.380157776304333,
+        "minimum": 1.7552518672420623,
+        "maximum": 20.677652461183484,
+        "paired_plant_percentile_95_interval": [
+          1.7552518672420623,
+          20.677652461183484
+        ]
+      },
+      "absolute_cost_reduction": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 7.309227744859614,
+        "sd": 6.9734531610477095,
+        "minimum": 2.3782517263960132,
+        "maximum": 12.240203763323215,
+        "paired_plant_percentile_95_interval": [
+          2.3782517263960132,
+          12.240203763323215
+        ]
+      },
+      "fractional_cost_reduction": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.4736003178765398,
+        "sd": 0.1439096142167517,
+        "minimum": 0.3718408537859347,
+        "maximum": 0.5753597819671449,
+        "paired_plant_percentile_95_interval": [
+          0.3718408537859347,
+          0.5753597819671449
+        ]
+      },
+      "final_step": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.028125,
+        "sd": 0.030935921676911456,
+        "minimum": 0.00625,
+        "maximum": 0.05,
+        "paired_plant_percentile_95_interval": [
+          0.00625,
+          0.05
+        ]
+      },
+      "final_gain": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.559375,
+        "sd": 0.34029513844602605,
+        "minimum": 0.31875,
+        "maximum": 0.8,
+        "paired_plant_percentile_95_interval": [
+          0.31875,
+          0.8
+        ]
+      },
+      "plants_with_reward_improves_while_true_worsens": 2,
+      "plants_with_terminal_true_loss_worse_than_initial": 0,
+      "reward_improves_while_true_worsens_steps_total": 11,
+      "accepted_steps_total": 44,
+      "reward_improving_steps_total": 44,
+      "plants_with_zero_final_gain": 0,
+      "plants_with_terminal_true_mse_at_most_0_4": 1
+    },
+    "untutored_joint": {
+      "initial_true_mse": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 7.502425290380417,
+        "sd": 2.3960085297996585,
+        "minimum": 5.808191411178268,
+        "maximum": 9.196659169582565,
+        "paired_plant_percentile_95_interval": [
+          5.808191411178268,
+          9.196659169582565
+        ]
+      },
+      "terminal_true_mse": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 3.8062226396871743,
+        "sd": 0.2740425710352563,
+        "minimum": 3.6124452793743482,
+        "maximum": 4.0,
+        "paired_plant_percentile_95_interval": [
+          3.6124452793743482,
+          4.0
+        ]
+      },
+      "absolute_true_improvement": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 3.696202650693243,
+        "sd": 2.121965958764402,
+        "minimum": 2.19574613180392,
+        "maximum": 5.196659169582565,
+        "paired_plant_percentile_95_interval": [
+          2.19574613180392,
+          5.196659169582565
+        ]
+      },
+      "normalized_final_true_loss": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.5284487728914541,
+        "sd": 0.13224059660373153,
+        "minimum": 0.4349405502848008,
+        "maximum": 0.6219569954981073,
+        "paired_plant_percentile_95_interval": [
+          0.4349405502848008,
+          0.6219569954981073
+        ]
+      },
+      "fraction_true_improvement": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.47155122710854597,
+        "sd": 0.13224059660373155,
+        "minimum": 0.37804300450189265,
+        "maximum": 0.5650594497151993,
+        "paired_plant_percentile_95_interval": [
+          0.37804300450189265,
+          0.5650594497151993
+        ]
+      },
+      "initial_cost": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 9.724275349790737,
+        "sd": 1.8361134943980222,
+        "minimum": 8.425947046873768,
+        "maximum": 11.022603652707707,
+        "paired_plant_percentile_95_interval": [
+          8.425947046873768,
+          11.022603652707707
+        ]
+      },
+      "terminal_cost": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 7.580010146275182,
+        "sd": 0.9871757927199417,
+        "minimum": 6.881971449019706,
+        "maximum": 8.278048843530659,
+        "paired_plant_percentile_95_interval": [
+          6.881971449019706,
+          8.278048843530659
+        ]
+      },
+      "absolute_cost_reduction": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 2.144265203515555,
+        "sd": 0.8489377016780805,
+        "minimum": 1.543975597854062,
+        "maximum": 2.744554809177048,
+        "paired_plant_percentile_95_interval": [
+          1.543975597854062,
+          2.744554809177048
+        ]
+      },
+      "fractional_cost_reduction": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.21611696624767063,
+        "sd": 0.04649420211986284,
+        "minimum": 0.18324060064285766,
+        "maximum": 0.2489933318524836,
+        "paired_plant_percentile_95_interval": [
+          0.18324060064285766,
+          0.2489933318524836
+        ]
+      },
+      "final_step": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.00625,
+        "sd": 0.0,
+        "minimum": 0.00625,
+        "maximum": 0.00625,
+        "paired_plant_percentile_95_interval": [
+          0.00625,
+          0.00625
+        ]
+      },
+      "final_gain": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.09999999999999998,
+        "sd": 0.14142135623730948,
+        "minimum": 0.0,
+        "maximum": 0.19999999999999996,
+        "paired_plant_percentile_95_interval": [
+          0.0,
+          0.19999999999999996
+        ]
+      },
+      "plants_with_reward_improves_while_true_worsens": 1,
+      "plants_with_terminal_true_loss_worse_than_initial": 0,
+      "reward_improves_while_true_worsens_steps_total": 8,
+      "accepted_steps_total": 25,
+      "reward_improving_steps_total": 25,
+      "plants_with_zero_final_gain": 1,
+      "plants_with_terminal_true_mse_at_most_0_4": 0
+    },
+    "shuffled35_joint": {
+      "initial_true_mse": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 7.502425290380417,
+        "sd": 2.3960085297996585,
+        "minimum": 5.808191411178268,
+        "maximum": 9.196659169582565,
+        "paired_plant_percentile_95_interval": [
+          5.808191411178268,
+          9.196659169582565
+        ]
+      },
+      "terminal_true_mse": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 4.0,
+        "sd": 0.0,
+        "minimum": 4.0,
+        "maximum": 4.0,
+        "paired_plant_percentile_95_interval": [
+          4.0,
+          4.0
+        ]
+      },
+      "absolute_true_improvement": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 3.5024252903804167,
+        "sd": 2.3960085297996585,
+        "minimum": 1.8081914111782682,
+        "maximum": 5.196659169582565,
+        "paired_plant_percentile_95_interval": [
+          1.8081914111782682,
+          5.196659169582565
+        ]
+      },
+      "normalized_final_true_loss": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.5618115439495649,
+        "sd": 0.17942267991246041,
+        "minimum": 0.4349405502848008,
+        "maximum": 0.688682537614329,
+        "paired_plant_percentile_95_interval": [
+          0.4349405502848008,
+          0.688682537614329
+        ]
+      },
+      "fraction_true_improvement": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.43818845605043516,
+        "sd": 0.17942267991246044,
+        "minimum": 0.31131746238567104,
+        "maximum": 0.5650594497151993,
+        "paired_plant_percentile_95_interval": [
+          0.31131746238567104,
+          0.5650594497151993
+        ]
+      },
+      "initial_cost": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 4.238185533019864,
+        "sd": 0.20559061185573593,
+        "minimum": 4.092811017228382,
+        "maximum": 4.383560048811346,
+        "paired_plant_percentile_95_interval": [
+          4.092811017228382,
+          4.383560048811346
+        ]
+      },
+      "terminal_cost": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 2.0346191582692343,
+        "sd": 0.08018020213907372,
+        "minimum": 1.9779231936197874,
+        "maximum": 2.0913151229186817,
+        "paired_plant_percentile_95_interval": [
+          1.9779231936197874,
+          2.0913151229186817
+        ]
+      },
+      "absolute_cost_reduction": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 2.203566374750629,
+        "sd": 0.2857708139948097,
+        "minimum": 2.0014958943097,
+        "maximum": 2.405636855191559,
+        "paired_plant_percentile_95_interval": [
+          2.0014958943097,
+          2.405636855191559
+        ]
+      },
+      "fractional_cost_reduction": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.5189066514902771,
+        "sd": 0.04225593160649227,
+        "minimum": 0.4890271957059715,
+        "maximum": 0.5487861072745828,
+        "paired_plant_percentile_95_interval": [
+          0.4890271957059715,
+          0.5487861072745828
+        ]
+      },
+      "final_step": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.00625,
+        "sd": 0.0,
+        "minimum": 0.00625,
+        "maximum": 0.00625,
+        "paired_plant_percentile_95_interval": [
+          0.00625,
+          0.00625
+        ]
+      },
+      "final_gain": {
+        "n": 2,
+        "undefined_count": 0,
+        "mean": 0.0,
+        "sd": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "paired_plant_percentile_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "plants_with_reward_improves_while_true_worsens": 1,
+      "plants_with_terminal_true_loss_worse_than_initial": 0,
+      "reward_improves_while_true_worsens_steps_total": 1,
+      "accepted_steps_total": 6,
+      "reward_improving_steps_total": 6,
+      "plants_with_zero_final_gain": 2,
+      "plants_with_terminal_true_mse_at_most_0_4": 0
+    }
+  },
+  "paired_contrasts": {
+    "learned35_minus_oracle_normalized_residual": {
+      "n": 2,
+      "undefined_count": 0,
+      "mean": 0.03156882696059719,
+      "sd": 0.04464506323588596,
+      "minimum": 0.0,
+      "maximum": 0.06313765392119439,
+      "paired_plant_percentile_95_interval": [
+        0.0,
+        0.06313765392119439
+      ]
+    },
+    "learned35_minus_half_oracle_improvement": {
+      "n": 2,
+      "undefined_count": 0,
+      "mean": 0.3595433485847669,
+      "sd": 0.10891371116245827,
+      "minimum": 0.28252972485759964,
+      "maximum": 0.4365569723119341,
+      "paired_plant_percentile_95_interval": [
+        0.28252972485759964,
+        0.4365569723119341
+      ]
+    },
+    "learned35_minus_untutored_improvement": {
+      "n": 2,
+      "undefined_count": 0,
+      "mean": 0.27910429702158496,
+      "sd": 0.3947130821645341,
+      "minimum": 0.0,
+      "maximum": 0.5582085940431699,
+      "paired_plant_percentile_95_interval": [
+        0.0,
+        0.5582085940431699
+      ]
+    },
+    "learned35_minus_shuffled35_improvement": {
+      "n": 2,
+      "undefined_count": 0,
+      "mean": 0.31246706807969576,
+      "sd": 0.44189516547326296,
+      "minimum": 0.0,
+      "maximum": 0.6249341361593915,
+      "paired_plant_percentile_95_interval": [
+        0.0,
+        0.6249341361593915
+      ]
+    },
+    "fixed_gain_minus_joint_learned35_improvement": {
+      "n": 2,
+      "undefined_count": 0,
+      "mean": 0.24711522813680786,
+      "sd": 0.26180948575120805,
+      "minimum": 0.061987965383165866,
+      "maximum": 0.43224249089044986,
+      "paired_plant_percentile_95_interval": [
+        0.061987965383165866,
+        0.43224249089044986
+      ]
+    },
+    "learned140_minus_learned35_improvement": {
+      "n": 2,
+      "undefined_count": 0,
+      "mean": -0.016814944301233592,
+      "sd": 0.03134506425959126,
+      "minimum": -0.03897925179591866,
+      "maximum": 0.005349363193451473,
+      "paired_plant_percentile_95_interval": [
+        -0.03897925179591866,
+        0.005349363193451473
+      ]
+    }
+  },
+  "learned35_to_oracle_ratio_of_mean_improvements": {
+    "estimate": 0.9596422344605128,
+    "paired_plant_percentile_95_interval": [
+      0.936823761346857,
+      1.0
+    ],
+    "undefined_bootstrap_denominators": 0,
+    "definition": "mean learned35 normalized improvement / mean oracle normalized improvement"
+  },
+  "investment_criteria": {
+    "oracle_mean_true_reduction_at_least_75_percent": true,
+    "learned35_point_improvement_at_least_half_oracle": true,
+    "learned35_minus_untutored_lower95_above_zero": false,
+    "learned35_minus_shuffled35_lower95_above_zero": false,
+    "interpretation": "Half-oracle is the declared point criterion with uncertainty reported separately; all primary target-specific conditions required."
+  }
+}

@@ -1,0 +1,884 @@
+{
+  "created_utc": "2026-11-01T03:51:16.977589+00:00",
+  "plan_sha256": "4b1924d76a4df345755d59ff09aa8af49b586a6114f8084a96a90df5c4135263",
+  "subjects": {
+    "742903": {
+      "definitions": {
+        "response_time": {
+          "description": "time of first lick within the response window; nan if no lick occurred; may be nan even if `is_response` is True, for sessions prior to 2023-10-20 (see `task_control_response_time.description`)",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "4e0d94e5-3bc6-45b6-9362-02d8c2bc5609",
+          "zarr_dtype": "float"
+        },
+        "is_response": {
+          "description": "the subject licked one or more times during the response window",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "a822ba09-2fe9-42e9-866b-333ff0c60e5e",
+          "zarr_dtype": "bool"
+        },
+        "task_control_response_time": {
+          "description": "time of first lick in trial, according to the task control script; a bug present until 2023-10-16 allowed a lick ocurring before `response_window_start_time` to be registered as a response, which then affected trial outcome; values in this column represent the time that the task control script registered as a response (regardless of whether the bug was present or not); nan if the task control script did not register a response",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "5a5ea24a-9d33-4e4c-a1c4-d5b2af4dbfa4",
+          "zarr_dtype": "float"
+        },
+        "response_window_start_time": {
+          "description": "start of interval in which the subject should lick if a GO trial, otherwise should not lick",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "5ad95eab-e933-4a4f-a023-2411fff64680",
+          "zarr_dtype": "float"
+        },
+        "response_window_stop_time": {
+          "description": "end of interval in which the subject should lick if a GO trial, otherwise should not lick",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "e0571308-b3ec-4efe-ad99-cdef52283e9b",
+          "zarr_dtype": "float"
+        },
+        "reward_time": {
+          "description": "delivery time of water reward, for contingent and non-contingent rewards",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "3df81f43-8721-49f5-9b7d-197c21397cfb",
+          "zarr_dtype": "float"
+        }
+      },
+      "first_encounters": [
+        {
+          "trial": 91,
+          "block": 1,
+          "stimulus": "aud+",
+          "new_target": "vis+",
+          "strict_immediate": true,
+          "new_block_rows_before": 5,
+          "instruction_rows_before": 5
+        },
+        {
+          "trial": 188,
+          "block": 2,
+          "stimulus": "vis+",
+          "new_target": "aud+",
+          "strict_immediate": false,
+          "new_block_rows_before": 11,
+          "instruction_rows_before": 5
+        },
+        {
+          "trial": 275,
+          "block": 3,
+          "stimulus": "aud+",
+          "new_target": "vis+",
+          "strict_immediate": false,
+          "new_block_rows_before": 6,
+          "instruction_rows_before": 5
+        },
+        {
+          "trial": 363,
+          "block": 4,
+          "stimulus": "vis+",
+          "new_target": "aud+",
+          "strict_immediate": true,
+          "new_block_rows_before": 5,
+          "instruction_rows_before": 5
+        },
+        {
+          "trial": 459,
+          "block": 5,
+          "stimulus": "aud+",
+          "new_target": "vis+",
+          "strict_immediate": false,
+          "new_block_rows_before": 10,
+          "instruction_rows_before": 5
+        }
+      ],
+      "excluded_blocks": [],
+      "discrepant_rows": [],
+      "hypothetical_physical_indicator_history_changes_at_endpoints": [
+        {
+          "trial": 91,
+          "changed_feature_names": [],
+          "max_absolute_feature_change": 0.0,
+          "context_match_change": 0.0
+        },
+        {
+          "trial": 188,
+          "changed_feature_names": [],
+          "max_absolute_feature_change": 0.0,
+          "context_match_change": 0.0
+        },
+        {
+          "trial": 275,
+          "changed_feature_names": [],
+          "max_absolute_feature_change": 0.0,
+          "context_match_change": 0.0
+        },
+        {
+          "trial": 363,
+          "changed_feature_names": [],
+          "max_absolute_feature_change": 0.0,
+          "context_match_change": 0.0
+        },
+        {
+          "trial": 459,
+          "changed_feature_names": [],
+          "max_absolute_feature_change": 0.0,
+          "context_match_change": 0.0
+        }
+      ],
+      "response_window_width_seconds_by_stimulus": {
+        "aud+": {
+          "min": 0.9170599999997648,
+          "max": 0.9341099999992366
+        },
+        "aud-": {
+          "min": 0.9171900000001187,
+          "max": 0.9342100000003484
+        },
+        "catch": {
+          "min": 0.9172200000002704,
+          "max": 0.9341800000001967
+        },
+        "vis+": {
+          "min": 0.9172600000001694,
+          "max": 0.9343099999996411
+        },
+        "vis-": {
+          "min": 0.917229999999563,
+          "max": 0.9342100000003484
+        }
+      },
+      "guard_checks": {
+        "equal_shapes": true,
+        "finite_strict_stimulus_order": true,
+        "stim_response_window_order": true,
+        "response_window_before_next_stimulus": true,
+        "response_flag_equals_finite_response": true,
+        "finite_responses_in_window": true,
+        "finite_rewards_equal_delivered_flags": true,
+        "delivered_flags_disjoint": true,
+        "contingent_reward_after_response": true,
+        "rewards_after_stimulus": true,
+        "past_rewards_before_next_stimulus": true,
+        "instruction_equals_scheduled": true
+      },
+      "physical_minus_controller_seconds_quantiles": {
+        "0": -0.016270000000076834,
+        "0.25": -0.012420000000020082,
+        "0.5": -0.00814500000001317,
+        "0.75": -0.004160000000410946,
+        "1": 0.00024000000030355295
+      },
+      "minimum_window_stop_minus_registered_seconds": 0.4003099999999904,
+      "all_contingent_rewards_follow_registered_times": true
+    },
+    "664851": {
+      "definitions": {
+        "response_time": {
+          "description": "time of first lick within the response window; nan if no lick occurred; may be nan even if `is_response` is True, for sessions prior to 2023-10-20 (see `task_control_response_time.description`)",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "a89c386b-870c-49b2-961b-32f098ec7d4a",
+          "zarr_dtype": "float"
+        },
+        "is_response": {
+          "description": "the subject licked one or more times during the response window",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "c5cfa2f9-f7e5-452e-b5dc-517fa26ec643",
+          "zarr_dtype": "bool"
+        },
+        "task_control_response_time": {
+          "description": "time of first lick in trial, according to the task control script; a bug present until 2023-10-16 allowed a lick ocurring before `response_window_start_time` to be registered as a response, which then affected trial outcome; values in this column represent the time that the task control script registered as a response (regardless of whether the bug was present or not); nan if the task control script did not register a response",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "8505a930-df37-40a3-85d7-0da67160a06a",
+          "zarr_dtype": "float"
+        },
+        "response_window_start_time": {
+          "description": "start of interval in which the subject should lick if a GO trial, otherwise should not lick",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "d091cb2a-0be7-46ba-acf8-1b5188dcd08a",
+          "zarr_dtype": "float"
+        },
+        "response_window_stop_time": {
+          "description": "end of interval in which the subject should lick if a GO trial, otherwise should not lick",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "916455c3-ad08-44b6-bc6e-6adcceb5ce81",
+          "zarr_dtype": "float"
+        },
+        "reward_time": {
+          "description": "delivery time of water reward, for contingent and non-contingent rewards",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "82f226fc-8c50-48a0-a9ba-1b98e9c62ac1",
+          "zarr_dtype": "float"
+        }
+      },
+      "first_encounters": [
+        {
+          "trial": 98,
+          "block": 1,
+          "stimulus": "aud+",
+          "new_target": "vis+",
+          "strict_immediate": false,
+          "new_block_rows_before": 7,
+          "instruction_rows_before": 5
+        },
+        {
+          "trial": 191,
+          "block": 2,
+          "stimulus": "vis+",
+          "new_target": "aud+",
+          "strict_immediate": false,
+          "new_block_rows_before": 10,
+          "instruction_rows_before": 5
+        },
+        {
+          "trial": 277,
+          "block": 3,
+          "stimulus": "aud+",
+          "new_target": "vis+",
+          "strict_immediate": false,
+          "new_block_rows_before": 9,
+          "instruction_rows_before": 5
+        },
+        {
+          "trial": 366,
+          "block": 4,
+          "stimulus": "vis+",
+          "new_target": "aud+",
+          "strict_immediate": false,
+          "new_block_rows_before": 6,
+          "instruction_rows_before": 5
+        },
+        {
+          "trial": 455,
+          "block": 5,
+          "stimulus": "aud+",
+          "new_target": "vis+",
+          "strict_immediate": false,
+          "new_block_rows_before": 7,
+          "instruction_rows_before": 5
+        }
+      ],
+      "excluded_blocks": [],
+      "discrepant_rows": [],
+      "hypothetical_physical_indicator_history_changes_at_endpoints": [
+        {
+          "trial": 98,
+          "changed_feature_names": [],
+          "max_absolute_feature_change": 0.0,
+          "context_match_change": 0.0
+        },
+        {
+          "trial": 191,
+          "changed_feature_names": [],
+          "max_absolute_feature_change": 0.0,
+          "context_match_change": 0.0
+        },
+        {
+          "trial": 277,
+          "changed_feature_names": [],
+          "max_absolute_feature_change": 0.0,
+          "context_match_change": 0.0
+        },
+        {
+          "trial": 366,
+          "changed_feature_names": [],
+          "max_absolute_feature_change": 0.0,
+          "context_match_change": 0.0
+        },
+        {
+          "trial": 455,
+          "changed_feature_names": [],
+          "max_absolute_feature_change": 0.0,
+          "context_match_change": 0.0
+        }
+      ],
+      "response_window_width_seconds_by_stimulus": {
+        "aud+": {
+          "min": 0.9171699999997145,
+          "max": 0.9341599999997925
+        },
+        "aud-": {
+          "min": 0.9172399999997651,
+          "max": 0.9342999999998938
+        },
+        "catch": {
+          "min": 0.9173099999998158,
+          "max": 0.9342699999997421
+        },
+        "vis+": {
+          "min": 0.9173000000000684,
+          "max": 0.9342400000005
+        },
+        "vis-": {
+          "min": 0.9173099999998158,
+          "max": 0.9342200000000958
+        }
+      },
+      "guard_checks": {
+        "equal_shapes": true,
+        "finite_strict_stimulus_order": true,
+        "stim_response_window_order": true,
+        "response_window_before_next_stimulus": true,
+        "response_flag_equals_finite_response": true,
+        "finite_responses_in_window": true,
+        "finite_rewards_equal_delivered_flags": true,
+        "delivered_flags_disjoint": true,
+        "contingent_reward_after_response": true,
+        "rewards_after_stimulus": true,
+        "past_rewards_before_next_stimulus": true,
+        "instruction_equals_scheduled": true
+      }
+    },
+    "713655": {
+      "definitions": {
+        "response_time": {
+          "description": "time of first lick within the response window; nan if no lick occurred; may be nan even if `is_response` is True, for sessions prior to 2023-10-20 (see `task_control_response_time.description`)",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "57ec71a3-42d4-499d-bdd0-b966ec836b6c",
+          "zarr_dtype": "float"
+        },
+        "is_response": {
+          "description": "the subject licked one or more times during the response window",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "e4dd3c58-06f3-4856-9f13-714f60d01112",
+          "zarr_dtype": "bool"
+        },
+        "task_control_response_time": {
+          "description": "time of first lick in trial, according to the task control script; a bug present until 2023-10-16 allowed a lick ocurring before `response_window_start_time` to be registered as a response, which then affected trial outcome; values in this column represent the time that the task control script registered as a response (regardless of whether the bug was present or not); nan if the task control script did not register a response",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "9ad726cd-18bf-49e2-b8fb-f954aa6d182f",
+          "zarr_dtype": "float"
+        },
+        "response_window_start_time": {
+          "description": "start of interval in which the subject should lick if a GO trial, otherwise should not lick",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "87038b63-8c13-440f-96c3-8a2218adf1ca",
+          "zarr_dtype": "float"
+        },
+        "response_window_stop_time": {
+          "description": "end of interval in which the subject should lick if a GO trial, otherwise should not lick",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "53756539-dc7c-4cea-83e9-8c4daed196ef",
+          "zarr_dtype": "float"
+        },
+        "reward_time": {
+          "description": "delivery time of water reward, for contingent and non-contingent rewards",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "9e608a8d-f898-4ca6-91f3-56918fe0e850",
+          "zarr_dtype": "float"
+        }
+      },
+      "first_encounters": [
+        {
+          "trial": 87,
+          "block": 1,
+          "stimulus": "aud+",
+          "new_target": "vis+",
+          "strict_immediate": false,
+          "new_block_rows_before": 10,
+          "instruction_rows_before": 5
+        },
+        {
+          "trial": 178,
+          "block": 2,
+          "stimulus": "vis+",
+          "new_target": "aud+",
+          "strict_immediate": false,
+          "new_block_rows_before": 9,
+          "instruction_rows_before": 5
+        },
+        {
+          "trial": 268,
+          "block": 3,
+          "stimulus": "aud+",
+          "new_target": "vis+",
+          "strict_immediate": false,
+          "new_block_rows_before": 8,
+          "instruction_rows_before": 5
+        },
+        {
+          "trial": 350,
+          "block": 4,
+          "stimulus": "vis+",
+          "new_target": "aud+",
+          "strict_immediate": false,
+          "new_block_rows_before": 10,
+          "instruction_rows_before": 5
+        },
+        {
+          "trial": 431,
+          "block": 5,
+          "stimulus": "aud+",
+          "new_target": "vis+",
+          "strict_immediate": true,
+          "new_block_rows_before": 5,
+          "instruction_rows_before": 5
+        }
+      ],
+      "excluded_blocks": [],
+      "discrepant_rows": [
+        {
+          "row": 54,
+          "source_row_field_values": {
+            "block_index": 0,
+            "is_contingent_reward": true,
+            "is_instruction": false,
+            "is_noncontingent_reward": false,
+            "is_opto": false,
+            "is_repeat": false,
+            "is_response": true,
+            "is_reward_scheduled": false,
+            "response_time": 2850.97689,
+            "response_window_start_time": 2850.76569,
+            "response_window_stop_time": 2851.6831,
+            "reward_time": 2850.78235,
+            "stim_name": "aud+",
+            "stim_start_time": 2850.69015,
+            "task_control_response_time": 2850.76569
+          },
+          "unique_half_open_window_owners": [
+            54
+          ],
+          "closed_interval_counts_as_response": true,
+          "stop_minus_physical_seconds": 0.7062100000002829,
+          "nominal_60Hz_frames_to_stop": 42.37260000001697,
+          "still_inside_if_stop_one_nominal_frame_earlier": true,
+          "neighbors": [
+            {
+              "row": 53,
+              "stimulus": "aud-",
+              "start": 2820.12334,
+              "stop": 2821.04074,
+              "physical": 2820.4786,
+              "flag": true
+            },
+            {
+              "row": 54,
+              "stimulus": "aud+",
+              "start": 2850.76569,
+              "stop": 2851.6831,
+              "physical": 2850.97689,
+              "flag": true
+            },
+            {
+              "row": 55,
+              "stimulus": "aud+",
+              "start": 2860.77405,
+              "stop": 2861.6914,
+              "physical": 2860.96,
+              "flag": true
+            }
+          ],
+          "selected_primary_outcome": false,
+          "later_primary_encounters": [
+            87,
+            178,
+            268,
+            350,
+            431
+          ],
+          "reward_minus_physical_seconds": -0.19453999999996086,
+          "reward_minus_controller_seconds": 0.0166599999997743
+        },
+        {
+          "row": 402,
+          "source_row_field_values": {
+            "block_index": 4,
+            "is_contingent_reward": false,
+            "is_instruction": false,
+            "is_noncontingent_reward": false,
+            "is_opto": false,
+            "is_repeat": false,
+            "is_response": false,
+            "is_reward_scheduled": false,
+            "response_time": 5435.55572,
+            "response_window_start_time": 5434.66394,
+            "response_window_stop_time": 5435.5814,
+            "reward_time": null,
+            "stim_name": "vis-",
+            "stim_start_time": 5434.60815,
+            "task_control_response_time": null
+          },
+          "unique_half_open_window_owners": [
+            402
+          ],
+          "closed_interval_counts_as_response": true,
+          "stop_minus_physical_seconds": 0.025679999999738357,
+          "nominal_60Hz_frames_to_stop": 1.5407999999843014,
+          "still_inside_if_stop_one_nominal_frame_earlier": true,
+          "neighbors": [
+            {
+              "row": 401,
+              "stimulus": "aud+",
+              "start": 5428.90917,
+              "stop": 5429.82654,
+              "physical": 5429.25467,
+              "flag": true
+            },
+            {
+              "row": 402,
+              "stimulus": "vis-",
+              "start": 5434.66394,
+              "stop": 5435.5814,
+              "physical": 5435.55572,
+              "flag": false
+            },
+            {
+              "row": 403,
+              "stimulus": "catch",
+              "start": 5440.35208,
+              "stop": 5441.28618,
+              "physical": null,
+              "flag": false
+            }
+          ],
+          "selected_primary_outcome": false,
+          "later_primary_encounters": [
+            431
+          ],
+          "reward_minus_physical_seconds": null,
+          "reward_minus_controller_seconds": null
+        }
+      ],
+      "hypothetical_physical_indicator_history_changes_at_endpoints": [
+        {
+          "trial": 87,
+          "changed_feature_names": [],
+          "max_absolute_feature_change": 0.0,
+          "context_match_change": 0.0
+        },
+        {
+          "trial": 178,
+          "changed_feature_names": [],
+          "max_absolute_feature_change": 0.0,
+          "context_match_change": 0.0
+        },
+        {
+          "trial": 268,
+          "changed_feature_names": [],
+          "max_absolute_feature_change": 0.0,
+          "context_match_change": 0.0
+        },
+        {
+          "trial": 350,
+          "changed_feature_names": [],
+          "max_absolute_feature_change": 0.0,
+          "context_match_change": 0.0
+        },
+        {
+          "trial": 431,
+          "changed_feature_names": [
+            "global_response_0.1",
+            "global_response_0.3"
+          ],
+          "max_absolute_feature_change": 0.005233476330273601,
+          "context_match_change": 0.0
+        }
+      ],
+      "response_window_width_seconds_by_stimulus": {
+        "aud+": {
+          "min": 0.917290000000321,
+          "max": 0.9341299999996409
+        },
+        "aud-": {
+          "min": 0.9173200000000179,
+          "max": 0.9341599999997925
+        },
+        "catch": {
+          "min": 0.9173399999999674,
+          "max": 0.9342200000000958
+        },
+        "vis+": {
+          "min": 0.9173200000004726,
+          "max": 0.9342299999998431
+        },
+        "vis-": {
+          "min": 0.9172199999998156,
+          "max": 0.9342200000000958
+        }
+      },
+      "guard_checks": {
+        "equal_shapes": true,
+        "finite_strict_stimulus_order": true,
+        "stim_response_window_order": true,
+        "response_window_before_next_stimulus": true,
+        "response_flag_equals_finite_response": false,
+        "finite_responses_in_window": true,
+        "finite_rewards_equal_delivered_flags": true,
+        "delivered_flags_disjoint": true,
+        "contingent_reward_after_response": false,
+        "rewards_after_stimulus": true,
+        "past_rewards_before_next_stimulus": true,
+        "instruction_equals_scheduled": true
+      },
+      "physical_minus_controller_seconds_quantiles": {
+        "0": -0.02642999999989115,
+        "0.25": -0.011827499999867541,
+        "0.5": -0.007475000000340515,
+        "0.75": -0.0033400000000938235,
+        "1": 0.21119999999973516
+      },
+      "minimum_window_stop_minus_registered_seconds": 0.10008000000016182,
+      "all_contingent_rewards_follow_registered_times": true
+    },
+    "759434": {
+      "definitions": {
+        "response_time": {
+          "description": "time of first lick within the response window; nan if no lick occurred; may be nan even if `is_response` is True, for sessions prior to 2023-10-20 (see `task_control_response_time.description`)",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "9fe75ebc-7d54-4c9e-a151-7fc8b8892188",
+          "zarr_dtype": "float"
+        },
+        "is_response": {
+          "description": "the subject licked one or more times during the response window",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "08091cd9-ad77-409b-97b1-3971e9cbec03",
+          "zarr_dtype": "bool"
+        },
+        "task_control_response_time": {
+          "description": "time of first lick in trial, according to the task control script; a bug present until 2023-10-16 allowed a lick ocurring before `response_window_start_time` to be registered as a response, which then affected trial outcome; values in this column represent the time that the task control script registered as a response (regardless of whether the bug was present or not); nan if the task control script did not register a response",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "807deaf0-56d3-4038-8801-a2004fdd9f74",
+          "zarr_dtype": "float"
+        },
+        "response_window_start_time": {
+          "description": "start of interval in which the subject should lick if a GO trial, otherwise should not lick",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "68234724-e38b-47d7-bc97-7e2f0f2bf6b6",
+          "zarr_dtype": "float"
+        },
+        "response_window_stop_time": {
+          "description": "end of interval in which the subject should lick if a GO trial, otherwise should not lick",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "65e18ba3-ec81-4ec9-b036-66792bdbe593",
+          "zarr_dtype": "float"
+        },
+        "reward_time": {
+          "description": "delivery time of water reward, for contingent and non-contingent rewards",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "b0bee239-77d7-4bc6-aa0f-946a0302b652",
+          "zarr_dtype": "float"
+        }
+      },
+      "first_encounters": [
+        {
+          "trial": 97,
+          "block": 1,
+          "stimulus": "vis+",
+          "new_target": "aud+",
+          "strict_immediate": true,
+          "new_block_rows_before": 5,
+          "instruction_rows_before": 5
+        },
+        {
+          "trial": 192,
+          "block": 2,
+          "stimulus": "aud+",
+          "new_target": "vis+",
+          "strict_immediate": false,
+          "new_block_rows_before": 11,
+          "instruction_rows_before": 5
+        },
+        {
+          "trial": 275,
+          "block": 3,
+          "stimulus": "vis+",
+          "new_target": "aud+",
+          "strict_immediate": true,
+          "new_block_rows_before": 5,
+          "instruction_rows_before": 5
+        },
+        {
+          "trial": 364,
+          "block": 4,
+          "stimulus": "aud+",
+          "new_target": "vis+",
+          "strict_immediate": true,
+          "new_block_rows_before": 5,
+          "instruction_rows_before": 5
+        },
+        {
+          "trial": 461,
+          "block": 5,
+          "stimulus": "vis+",
+          "new_target": "aud+",
+          "strict_immediate": false,
+          "new_block_rows_before": 9,
+          "instruction_rows_before": 5
+        }
+      ],
+      "excluded_blocks": [],
+      "discrepant_rows": [
+        {
+          "row": 367,
+          "source_row_field_values": {
+            "block_index": 4,
+            "is_contingent_reward": false,
+            "is_instruction": false,
+            "is_noncontingent_reward": false,
+            "is_opto": false,
+            "is_repeat": false,
+            "is_response": false,
+            "is_reward_scheduled": false,
+            "response_time": 4640.38652,
+            "response_window_start_time": 4639.48181,
+            "response_window_stop_time": 4640.41595,
+            "reward_time": null,
+            "stim_name": "vis-",
+            "stim_start_time": 4639.42596,
+            "task_control_response_time": null
+          },
+          "unique_half_open_window_owners": [
+            367
+          ],
+          "closed_interval_counts_as_response": true,
+          "stop_minus_physical_seconds": 0.029429999999592837,
+          "nominal_60Hz_frames_to_stop": 1.7657999999755702,
+          "still_inside_if_stop_one_nominal_frame_earlier": true,
+          "neighbors": [
+            {
+              "row": 366,
+              "stimulus": "vis-",
+              "start": 4632.92636,
+              "stop": 4633.84375,
+              "physical": null,
+              "flag": false
+            },
+            {
+              "row": 367,
+              "stimulus": "vis-",
+              "start": 4639.48181,
+              "stop": 4640.41595,
+              "physical": 4640.38652,
+              "flag": false
+            },
+            {
+              "row": 368,
+              "stimulus": "aud-",
+              "start": 4645.92049,
+              "stop": 4646.83792,
+              "physical": null,
+              "flag": false
+            }
+          ],
+          "selected_primary_outcome": false,
+          "later_primary_encounters": [
+            461
+          ],
+          "reward_minus_physical_seconds": null,
+          "reward_minus_controller_seconds": null
+        }
+      ],
+      "hypothetical_physical_indicator_history_changes_at_endpoints": [
+        {
+          "trial": 97,
+          "changed_feature_names": [],
+          "max_absolute_feature_change": 0.0,
+          "context_match_change": 0.0
+        },
+        {
+          "trial": 192,
+          "changed_feature_names": [],
+          "max_absolute_feature_change": 0.0,
+          "context_match_change": 0.0
+        },
+        {
+          "trial": 275,
+          "changed_feature_names": [],
+          "max_absolute_feature_change": 0.0,
+          "context_match_change": 0.0
+        },
+        {
+          "trial": 364,
+          "changed_feature_names": [],
+          "max_absolute_feature_change": 0.0,
+          "context_match_change": 0.0
+        },
+        {
+          "trial": 461,
+          "changed_feature_names": [
+            "global_response_0.1",
+            "global_response_0.3"
+          ],
+          "max_absolute_feature_change": 5.553328672414093e-06,
+          "context_match_change": 0.0
+        }
+      ],
+      "response_window_width_seconds_by_stimulus": {
+        "aud+": {
+          "min": 0.9173199999995632,
+          "max": 0.9341099999996914
+        },
+        "aud-": {
+          "min": 0.9173299999997653,
+          "max": 0.934179999999742
+        },
+        "catch": {
+          "min": 0.9173499999997148,
+          "max": 0.9342300000007526
+        },
+        "vis+": {
+          "min": 0.9172800000005736,
+          "max": 0.9342500000002474
+        },
+        "vis-": {
+          "min": 0.9172299999991083,
+          "max": 0.9342299999998431
+        }
+      },
+      "guard_checks": {
+        "equal_shapes": true,
+        "finite_strict_stimulus_order": true,
+        "stim_response_window_order": true,
+        "response_window_before_next_stimulus": true,
+        "response_flag_equals_finite_response": false,
+        "finite_responses_in_window": true,
+        "finite_rewards_equal_delivered_flags": true,
+        "delivered_flags_disjoint": true,
+        "contingent_reward_after_response": true,
+        "rewards_after_stimulus": true,
+        "past_rewards_before_next_stimulus": true,
+        "instruction_equals_scheduled": true
+      },
+      "physical_minus_controller_seconds_quantiles": {
+        "0": -0.01639999999997599,
+        "0.25": -0.012499999999818101,
+        "0.5": -0.007990000000063446,
+        "0.75": -0.0038600000004862522,
+        "1": 7.999999979801942e-05
+      },
+      "minimum_window_stop_minus_registered_seconds": 0.08339000000069063,
+      "all_contingent_rewards_follow_registered_times": true
+    }
+  },
+  "available_task_source_semantics": {
+    "path": "deployed_source.py.txt",
+    "sha256": "e10b00a9fb5d1c59e65376715caee68e64007dcc33ac6e320adf5155b093b6c1",
+    "source_is_development_commit_not_evaluation_commit": true,
+    "half_open_frame_admission": "self.trialPreStimFrames[-1] + self.responseWindow[0] <= self._trialFrame < self.trialPreStimFrames[-1] + self.responseWindow[1]",
+    "controller_response_records_session_frame": true,
+    "same_branch_can_issue_contingent_reward": true,
+    "TaskControl_input_sampling_and_raw_lick_converter_not_available": true,
+    "inferred_nominal_frame_length_is_not_measured_or_certified": true
+  }
+}

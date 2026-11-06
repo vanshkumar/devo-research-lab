@@ -1,0 +1,1138 @@
+{
+  "pin": "a433be296c3d3566754106f64d16dbf48182bc00",
+  "tree_bytes": 220547,
+  "tree_sha256": "4dcd44ffb7d718803f1a6e96e4d11271e12bb30110b03daec2557badbc13a6b5",
+  "entries": 668,
+  "blob_counts": {
+    "LICENSE.md": 1,
+    "README.md": 1,
+    "dataset": 2,
+    "dataset/annotations": 1,
+    "dataset/annotations/A/12": 21,
+    "dataset/annotations/A/23": 20,
+    "dataset/annotations/B/12": 22,
+    "dataset/annotations/B/23": 22,
+    "dataset/annotations/C/12": 22,
+    "dataset/annotations/C/23": 22,
+    "dataset/annotations/D/12": 22,
+    "dataset/annotations/D/23": 22,
+    "dataset/essays/Draft1": 86,
+    "dataset/essays/Draft2": 86,
+    "dataset/essays/Draft3": 86,
+    "dataset/meta-data/ExpertFeedback": 86,
+    "dataset/meta-data/RevisionVerification/ConditionB/ConfirmLogRev12": 22,
+    "dataset/meta-data/RevisionVerification/ConditionB/ConfirmLogRev23": 22,
+    "dataset/meta-data/RevisionVerification/ConditionC/ConfirmLogRev12": 21,
+    "dataset/meta-data/RevisionVerification/ConditionC/ConfirmLogRev23": 22,
+    "dataset/meta-data/RevisionVerification/ConditionD/ConfirmLogRev12": 22,
+    "dataset/meta-data/Scores": 1,
+    "dataset/meta-data/Surveys": 5
+  },
+  "unmatched_filenames": [
+    "dataset/annotations/A/12/~$Annotation_2018argrewrite_1_NEW.txt.xlsx"
+  ],
+  "matched_essay_counts": {
+    "1": 86,
+    "2": 86,
+    "3": 86
+  },
+  "matched_feedback_count": 86,
+  "all_three_drafts_and_feedback_key_intersection": 86,
+  "annotation_key_counts": {
+    "12": 86,
+    "23": 86
+  },
+  "annotation_anomalies": {
+    "12": {
+      "excess": [],
+      "missing": [],
+      "duplicate_or_ambiguous": {}
+    },
+    "23": {
+      "excess": [],
+      "missing": [],
+      "duplicate_or_ambiguous": {}
+    }
+  },
+  "cross_arm_mismatches": {},
+  "unique_both_annotations_matching_arm": {
+    "A": 20,
+    "B": 22,
+    "C": 22,
+    "D": 22
+  },
+  "dev_rule": {
+    "per_arm": 6,
+    "salt": "revision-forecast-feasibility-2026-11-04/Rev12-v1:",
+    "ordering": "sha256 ascending"
+  },
+  "development": [
+    {
+      "key": "72",
+      "arm": "A",
+      "objects": {
+        "draft1": {
+          "path": "dataset/essays/Draft1/draft1_2018argrewrite_72.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e276c5d6c819fede88981ca2cdce24a890aaf6d7",
+          "size": 2732,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/e276c5d6c819fede88981ca2cdce24a890aaf6d7"
+        },
+        "draft2": {
+          "path": "dataset/essays/Draft2/draft2_2018argrewrite_72.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d5c8158a395cf3248a2511119d96d25f4911e2ed",
+          "size": 3305,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/d5c8158a395cf3248a2511119d96d25f4911e2ed"
+        },
+        "feedback": {
+          "path": "dataset/meta-data/ExpertFeedback/feedback_72.docx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8844b03b7bf290847797073712fd0db1d7f34fd4",
+          "size": 17929,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/8844b03b7bf290847797073712fd0db1d7f34fd4"
+        },
+        "rev12": {
+          "path": "dataset/annotations/A/12/Annotation_2018argrewrite_72_NEW.txt.xlsx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "fe3243cb49e72533629431ddc344a7858e403de8",
+          "size": 7462,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/fe3243cb49e72533629431ddc344a7858e403de8"
+        }
+      }
+    },
+    {
+      "key": "6",
+      "arm": "A",
+      "objects": {
+        "draft1": {
+          "path": "dataset/essays/Draft1/draft1_2018argrewrite_6.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2ac40d1c15bd809db162abb842cb78c07d73d8a5",
+          "size": 2626,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/2ac40d1c15bd809db162abb842cb78c07d73d8a5"
+        },
+        "draft2": {
+          "path": "dataset/essays/Draft2/draft2_2018argrewrite_6.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "26ed3d892f6276b79a965aad3113e99d6eefd1e5",
+          "size": 4196,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/26ed3d892f6276b79a965aad3113e99d6eefd1e5"
+        },
+        "feedback": {
+          "path": "dataset/meta-data/ExpertFeedback/feedback_6.docx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f6cdaae66db0ce2117277f5b9f6c0acd341c4678",
+          "size": 66304,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/f6cdaae66db0ce2117277f5b9f6c0acd341c4678"
+        },
+        "rev12": {
+          "path": "dataset/annotations/A/12/Annotation_2018argrewrite_6_NEW.txt.xlsx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d18e81ce46d8a22c3abc90ea8c8947404a0d3463",
+          "size": 9791,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/d18e81ce46d8a22c3abc90ea8c8947404a0d3463"
+        }
+      }
+    },
+    {
+      "key": "11",
+      "arm": "A",
+      "objects": {
+        "draft1": {
+          "path": "dataset/essays/Draft1/draft1_2018argrewrite_11.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "208beb9e5645acb5ca529da8b3b749916928d4bb",
+          "size": 3149,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/208beb9e5645acb5ca529da8b3b749916928d4bb"
+        },
+        "draft2": {
+          "path": "dataset/essays/Draft2/draft2_2018argrewrite_11.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "537b4026a92c8d12ae77a637e7151a11f182647d",
+          "size": 3735,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/537b4026a92c8d12ae77a637e7151a11f182647d"
+        },
+        "feedback": {
+          "path": "dataset/meta-data/ExpertFeedback/feedback_11.docx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "92d16878c5be1b3926ae930ff8969c8ec04dfcfc",
+          "size": 66198,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/92d16878c5be1b3926ae930ff8969c8ec04dfcfc"
+        },
+        "rev12": {
+          "path": "dataset/annotations/A/12/Annotation_2018argrewrite_11_NEW.txt.xlsx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0d53946c880e4f3b9011f8bfc0e62f9e9c33a7a1",
+          "size": 8767,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/0d53946c880e4f3b9011f8bfc0e62f9e9c33a7a1"
+        }
+      }
+    },
+    {
+      "key": "1",
+      "arm": "A",
+      "objects": {
+        "draft1": {
+          "path": "dataset/essays/Draft1/draft1_2018argrewrite_1.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "79c345f8283ed2117bf1d64fc8f0d37976ceb745",
+          "size": 3152,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/79c345f8283ed2117bf1d64fc8f0d37976ceb745"
+        },
+        "draft2": {
+          "path": "dataset/essays/Draft2/draft2_2018argrewrite_1.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "787afe83f1852566fc5df90e6dca55ad2680c57a",
+          "size": 3411,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/787afe83f1852566fc5df90e6dca55ad2680c57a"
+        },
+        "feedback": {
+          "path": "dataset/meta-data/ExpertFeedback/feedback_1.docx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "37d2877e26450c1df3c71e6dff0e27126bd58067",
+          "size": 71618,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/37d2877e26450c1df3c71e6dff0e27126bd58067"
+        },
+        "rev12": {
+          "path": "dataset/annotations/A/12/Annotation_2018argrewrite_1_NEW.txt.xlsx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "edc6ebc2c1836c78658c00b68ebad092c3fefd20",
+          "size": 7862,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/edc6ebc2c1836c78658c00b68ebad092c3fefd20"
+        }
+      }
+    },
+    {
+      "key": "35",
+      "arm": "A",
+      "objects": {
+        "draft1": {
+          "path": "dataset/essays/Draft1/draft1_2018argrewrite_35.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ca034e3a122a5e551f03dc5dbb9520b4a74d2afe",
+          "size": 3706,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/ca034e3a122a5e551f03dc5dbb9520b4a74d2afe"
+        },
+        "draft2": {
+          "path": "dataset/essays/Draft2/draft2_2018argrewrite_35.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a84003b88cbcd93189384c981312a54321256db0",
+          "size": 4075,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/a84003b88cbcd93189384c981312a54321256db0"
+        },
+        "feedback": {
+          "path": "dataset/meta-data/ExpertFeedback/feedback_35.docx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6d32cf3b6b38eca42805c4d1e2667cc4269cbba7",
+          "size": 64597,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/6d32cf3b6b38eca42805c4d1e2667cc4269cbba7"
+        },
+        "rev12": {
+          "path": "dataset/annotations/A/12/Annotation_2018argrewrite_35_NEW.txt.xlsx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b373ac2bd40ce86c35cb56e9ee558009c40e46c6",
+          "size": 9083,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/b373ac2bd40ce86c35cb56e9ee558009c40e46c6"
+        }
+      }
+    },
+    {
+      "key": "84",
+      "arm": "A",
+      "objects": {
+        "draft1": {
+          "path": "dataset/essays/Draft1/draft1_2018argrewrite_84.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "5c013b1cecd561c5724c90da6665e94a2557b49a",
+          "size": 3749,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/5c013b1cecd561c5724c90da6665e94a2557b49a"
+        },
+        "draft2": {
+          "path": "dataset/essays/Draft2/draft2_2018argrewrite_84.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6557915d07e926a0559f328db1aabd0eb5126597",
+          "size": 3984,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/6557915d07e926a0559f328db1aabd0eb5126597"
+        },
+        "feedback": {
+          "path": "dataset/meta-data/ExpertFeedback/feedback_84.docx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "546a36749014a0909eddfa7a4cbd637e5dfcda37",
+          "size": 18367,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/546a36749014a0909eddfa7a4cbd637e5dfcda37"
+        },
+        "rev12": {
+          "path": "dataset/annotations/A/12/Annotation_2018argrewrite_84_NEW.txt.xlsx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6ac7283da9a7e90a162b11556cf99021dff64b0a",
+          "size": 7775,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/6ac7283da9a7e90a162b11556cf99021dff64b0a"
+        }
+      }
+    },
+    {
+      "key": "22",
+      "arm": "B",
+      "objects": {
+        "draft1": {
+          "path": "dataset/essays/Draft1/draft1_2018argrewrite_22.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "37895dbeeae7ed5d1f443e15e3b7ca8405ae744d",
+          "size": 3277,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/37895dbeeae7ed5d1f443e15e3b7ca8405ae744d"
+        },
+        "draft2": {
+          "path": "dataset/essays/Draft2/draft2_2018argrewrite_22.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "47a5975c5fbadf39014c2c4abccd9c05df057733",
+          "size": 3932,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/47a5975c5fbadf39014c2c4abccd9c05df057733"
+        },
+        "feedback": {
+          "path": "dataset/meta-data/ExpertFeedback/feedback_22.docx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7df4979ba74aa849f6052cdb059efa86bfb567e3",
+          "size": 68600,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/7df4979ba74aa849f6052cdb059efa86bfb567e3"
+        },
+        "rev12": {
+          "path": "dataset/annotations/B/12/Annotation_2018argrewrite_22_NEW.txt.xlsx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9b73f093cc6b4d0ec7c5b8a56515e3d573ec485c",
+          "size": 7740,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/9b73f093cc6b4d0ec7c5b8a56515e3d573ec485c"
+        }
+      }
+    },
+    {
+      "key": "69",
+      "arm": "B",
+      "objects": {
+        "draft1": {
+          "path": "dataset/essays/Draft1/draft1_2018argrewrite_69.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "61da6712d568f5cc8625e034c3f2dce4bb19119d",
+          "size": 3119,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/61da6712d568f5cc8625e034c3f2dce4bb19119d"
+        },
+        "draft2": {
+          "path": "dataset/essays/Draft2/draft2_2018argrewrite_69.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a8c212311a6dae53535c414ce66e63457eca1cf5",
+          "size": 3486,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/a8c212311a6dae53535c414ce66e63457eca1cf5"
+        },
+        "feedback": {
+          "path": "dataset/meta-data/ExpertFeedback/feedback_69.docx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "525ed6789d313eaa715e0af3da89a7a8985fca56",
+          "size": 18134,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/525ed6789d313eaa715e0af3da89a7a8985fca56"
+        },
+        "rev12": {
+          "path": "dataset/annotations/B/12/Annotation_2018argrewrite_69_NEW.txt.xlsx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "dc2f2e9d318442fd92ac700c1719082094f267d6",
+          "size": 7619,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/dc2f2e9d318442fd92ac700c1719082094f267d6"
+        }
+      }
+    },
+    {
+      "key": "9",
+      "arm": "B",
+      "objects": {
+        "draft1": {
+          "path": "dataset/essays/Draft1/draft1_2018argrewrite_9.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b6b9b68bd666dd45e04eebb914d89bad1c32d0b7",
+          "size": 2579,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/b6b9b68bd666dd45e04eebb914d89bad1c32d0b7"
+        },
+        "draft2": {
+          "path": "dataset/essays/Draft2/draft2_2018argrewrite_9.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "655f4284bbb01bad54a6128c8abbae9227a36001",
+          "size": 3494,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/655f4284bbb01bad54a6128c8abbae9227a36001"
+        },
+        "feedback": {
+          "path": "dataset/meta-data/ExpertFeedback/feedback_9.docx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9a4fa3453cbd3969e8382ab66e932cc3acad5c22",
+          "size": 61421,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/9a4fa3453cbd3969e8382ab66e932cc3acad5c22"
+        },
+        "rev12": {
+          "path": "dataset/annotations/B/12/Annotation_2018argrewrite_9_NEW_NEW_NEW_NEW_NEW.txt.xlsx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "97586e22d4a07c087b568ca7ff65ff7044d8aa19",
+          "size": 7304,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/97586e22d4a07c087b568ca7ff65ff7044d8aa19"
+        }
+      }
+    },
+    {
+      "key": "41",
+      "arm": "B",
+      "objects": {
+        "draft1": {
+          "path": "dataset/essays/Draft1/draft1_2018argrewrite_41.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "337ff0cd58aa2787e76528bc0fe3f94d9d395aeb",
+          "size": 3505,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/337ff0cd58aa2787e76528bc0fe3f94d9d395aeb"
+        },
+        "draft2": {
+          "path": "dataset/essays/Draft2/draft2_2018argrewrite_41.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c2221d3b6af9fc60ae664e2ad3ac99fdc0b07307",
+          "size": 3826,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/c2221d3b6af9fc60ae664e2ad3ac99fdc0b07307"
+        },
+        "feedback": {
+          "path": "dataset/meta-data/ExpertFeedback/feedback_41.docx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d00784d2d5e51372bb5491286d613f0005f38417",
+          "size": 17274,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/d00784d2d5e51372bb5491286d613f0005f38417"
+        },
+        "rev12": {
+          "path": "dataset/annotations/B/12/Annotation_2018argrewrite_41_NEW.txt.xlsx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f66d0504597e0cb2f57b2f89a1ee1bfb6290f89b",
+          "size": 7392,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/f66d0504597e0cb2f57b2f89a1ee1bfb6290f89b"
+        }
+      }
+    },
+    {
+      "key": "73",
+      "arm": "B",
+      "objects": {
+        "draft1": {
+          "path": "dataset/essays/Draft1/draft1_2018argrewrite_73.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ceb64bc4ba48f6241aab1eea154415eefccbd115",
+          "size": 4395,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/ceb64bc4ba48f6241aab1eea154415eefccbd115"
+        },
+        "draft2": {
+          "path": "dataset/essays/Draft2/draft2_2018argrewrite_73.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "32708da37f84afea1f78eb890f281816d5995a18",
+          "size": 2841,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/32708da37f84afea1f78eb890f281816d5995a18"
+        },
+        "feedback": {
+          "path": "dataset/meta-data/ExpertFeedback/feedback_73.docx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b4ba4b8c2a7c9fe93486a14ac5ad740accd5285b",
+          "size": 18236,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/b4ba4b8c2a7c9fe93486a14ac5ad740accd5285b"
+        },
+        "rev12": {
+          "path": "dataset/annotations/B/12/Annotation_2018argrewrite_73_NEW.txt.xlsx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "133494faca97bec4dbe2b4d9a92217c71acd4ec9",
+          "size": 7463,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/133494faca97bec4dbe2b4d9a92217c71acd4ec9"
+        }
+      }
+    },
+    {
+      "key": "45",
+      "arm": "B",
+      "objects": {
+        "draft1": {
+          "path": "dataset/essays/Draft1/draft1_2018argrewrite_45.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "5746896b8318311a51dfdde704439853831de09e",
+          "size": 2427,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/5746896b8318311a51dfdde704439853831de09e"
+        },
+        "draft2": {
+          "path": "dataset/essays/Draft2/draft2_2018argrewrite_45.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a1cd98f9ff1ea23fceddd9e7d9caac87b06c4492",
+          "size": 2786,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/a1cd98f9ff1ea23fceddd9e7d9caac87b06c4492"
+        },
+        "feedback": {
+          "path": "dataset/meta-data/ExpertFeedback/feedback_45.docx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e6dec38bef9f18ba7f83ee5b235a062c90d014d9",
+          "size": 17435,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/e6dec38bef9f18ba7f83ee5b235a062c90d014d9"
+        },
+        "rev12": {
+          "path": "dataset/annotations/B/12/Annotation_2018argrewrite_45_NEW.txt.xlsx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "676e8b5116462a86cefc50a4813a4a90071c48e7",
+          "size": 7297,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/676e8b5116462a86cefc50a4813a4a90071c48e7"
+        }
+      }
+    },
+    {
+      "key": "74",
+      "arm": "C",
+      "objects": {
+        "draft1": {
+          "path": "dataset/essays/Draft1/draft1_2018argrewrite_74.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a0f2ee2093f49eea6489fe02417b868fe05aabdb",
+          "size": 2529,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/a0f2ee2093f49eea6489fe02417b868fe05aabdb"
+        },
+        "draft2": {
+          "path": "dataset/essays/Draft2/draft2_2018argrewrite_74.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "09979ff18e6590328a2529d136a929574c13c7bf",
+          "size": 2739,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/09979ff18e6590328a2529d136a929574c13c7bf"
+        },
+        "feedback": {
+          "path": "dataset/meta-data/ExpertFeedback/feedback_74.docx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "188b3cd7f98b3a1286b88d86784f3e335c123ea1",
+          "size": 18118,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/188b3cd7f98b3a1286b88d86784f3e335c123ea1"
+        },
+        "rev12": {
+          "path": "dataset/annotations/C/12/Annotation_2018argrewrite_74_NEW.txt.xlsx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7940f17228a6f2dff3a47f66e771d7f4bb25fd03",
+          "size": 6529,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/7940f17228a6f2dff3a47f66e771d7f4bb25fd03"
+        }
+      }
+    },
+    {
+      "key": "54",
+      "arm": "C",
+      "objects": {
+        "draft1": {
+          "path": "dataset/essays/Draft1/draft1_2018argrewrite_54.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7ac7495eb70289a359f5c458ea3606b6993e0225",
+          "size": 2838,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/7ac7495eb70289a359f5c458ea3606b6993e0225"
+        },
+        "draft2": {
+          "path": "dataset/essays/Draft2/draft2_2018argrewrite_54.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "922d50acc3982a41ee4423e398b535f36a63270a",
+          "size": 2632,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/922d50acc3982a41ee4423e398b535f36a63270a"
+        },
+        "feedback": {
+          "path": "dataset/meta-data/ExpertFeedback/feedback_54.docx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8097c3b6eddd69b2910e5252d3862c64a13127fd",
+          "size": 17380,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/8097c3b6eddd69b2910e5252d3862c64a13127fd"
+        },
+        "rev12": {
+          "path": "dataset/annotations/C/12/Annotation_2018argrewrite_54_NEW_NEW.txt.xlsx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6114a4f5d5d2493a2f4bfc656be2db9ef3747b78",
+          "size": 8012,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/6114a4f5d5d2493a2f4bfc656be2db9ef3747b78"
+        }
+      }
+    },
+    {
+      "key": "58",
+      "arm": "C",
+      "objects": {
+        "draft1": {
+          "path": "dataset/essays/Draft1/draft1_2018argrewrite_58.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d3cc0e2f4703785f2d16f6f1dccb318925d797e7",
+          "size": 3784,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/d3cc0e2f4703785f2d16f6f1dccb318925d797e7"
+        },
+        "draft2": {
+          "path": "dataset/essays/Draft2/draft2_2018argrewrite_58.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ec9541bad8ee495be3ff771b69591ce66d2728ec",
+          "size": 3730,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/ec9541bad8ee495be3ff771b69591ce66d2728ec"
+        },
+        "feedback": {
+          "path": "dataset/meta-data/ExpertFeedback/feedback_58.docx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b2c53f10ed508e30d8d601a3ed7139fb924fdd4a",
+          "size": 17374,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/b2c53f10ed508e30d8d601a3ed7139fb924fdd4a"
+        },
+        "rev12": {
+          "path": "dataset/annotations/C/12/Annotation_2018argrewrite_58_NEW.txt.xlsx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d9aeb5ec82359d9e7e953535dd9b467d84879ca8",
+          "size": 8375,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/d9aeb5ec82359d9e7e953535dd9b467d84879ca8"
+        }
+      }
+    },
+    {
+      "key": "10",
+      "arm": "C",
+      "objects": {
+        "draft1": {
+          "path": "dataset/essays/Draft1/draft1_2018argrewrite_10.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4fc4dfc3aa8fa73299b9c06b3d6b21ca27ea6c50",
+          "size": 2891,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/4fc4dfc3aa8fa73299b9c06b3d6b21ca27ea6c50"
+        },
+        "draft2": {
+          "path": "dataset/essays/Draft2/draft2_2018argrewrite_10.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4b931124b62dfc9c4e80e097cf49fe4a51b7da0c",
+          "size": 3378,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/4b931124b62dfc9c4e80e097cf49fe4a51b7da0c"
+        },
+        "feedback": {
+          "path": "dataset/meta-data/ExpertFeedback/feedback_10.docx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "57d8583471e53a20e24a953e4c36ace057a09037",
+          "size": 66509,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/57d8583471e53a20e24a953e4c36ace057a09037"
+        },
+        "rev12": {
+          "path": "dataset/annotations/C/12/Annotation_2018argrewrite_10_NEW.txt.xlsx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e56d20d039788d5489c48ecebeda54c909912c8e",
+          "size": 6736,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/e56d20d039788d5489c48ecebeda54c909912c8e"
+        }
+      }
+    },
+    {
+      "key": "50",
+      "arm": "C",
+      "objects": {
+        "draft1": {
+          "path": "dataset/essays/Draft1/draft1_2018argrewrite_50.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d5a75c6b2029e0b95fa16876ddd2b8dc598544ca",
+          "size": 3605,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/d5a75c6b2029e0b95fa16876ddd2b8dc598544ca"
+        },
+        "draft2": {
+          "path": "dataset/essays/Draft2/draft2_2018argrewrite_50.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8e01d44ec8cfd05a8321e744fd4b3ac7fc6ff130",
+          "size": 3538,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/8e01d44ec8cfd05a8321e744fd4b3ac7fc6ff130"
+        },
+        "feedback": {
+          "path": "dataset/meta-data/ExpertFeedback/feedback_50.docx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d3de69666db35ff21a3fd2b7e9370cb60991af8c",
+          "size": 17557,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/d3de69666db35ff21a3fd2b7e9370cb60991af8c"
+        },
+        "rev12": {
+          "path": "dataset/annotations/C/12/Annotation_2018argrewrite_50_NEW.txt.xlsx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a3c705c08d26eb7e278e6056c802d5fcf8850a8e",
+          "size": 9007,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/a3c705c08d26eb7e278e6056c802d5fcf8850a8e"
+        }
+      }
+    },
+    {
+      "key": "20",
+      "arm": "C",
+      "objects": {
+        "draft1": {
+          "path": "dataset/essays/Draft1/draft1_2018argrewrite_20.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2e20168ca9d74b08c697820c1d9236e3f61f42bb",
+          "size": 2793,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/2e20168ca9d74b08c697820c1d9236e3f61f42bb"
+        },
+        "draft2": {
+          "path": "dataset/essays/Draft2/draft2_2018argrewrite_20.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "75d94e2a123ac840bfb1d4857e99d2cda71b511b",
+          "size": 3750,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/75d94e2a123ac840bfb1d4857e99d2cda71b511b"
+        },
+        "feedback": {
+          "path": "dataset/meta-data/ExpertFeedback/feedback_20.docx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9e6a4f6737a595c716bd9697737cecae2fa68b40",
+          "size": 61526,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/9e6a4f6737a595c716bd9697737cecae2fa68b40"
+        },
+        "rev12": {
+          "path": "dataset/annotations/C/12/Annotation_2018argrewrite_20_NEW.txt.xlsx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "fd5257332c8ecddf23c8ae29548c0e9f52c26aef",
+          "size": 7242,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/fd5257332c8ecddf23c8ae29548c0e9f52c26aef"
+        }
+      }
+    },
+    {
+      "key": "59",
+      "arm": "D",
+      "objects": {
+        "draft1": {
+          "path": "dataset/essays/Draft1/draft1_2018argrewrite_59.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f20f1fbcf6823deced3d77e93adda6f3b7f17b6d",
+          "size": 2904,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/f20f1fbcf6823deced3d77e93adda6f3b7f17b6d"
+        },
+        "draft2": {
+          "path": "dataset/essays/Draft2/draft2_2018argrewrite_59.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8cc3caf4492316c096fcf7639414ac8450f5fb19",
+          "size": 2961,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/8cc3caf4492316c096fcf7639414ac8450f5fb19"
+        },
+        "feedback": {
+          "path": "dataset/meta-data/ExpertFeedback/feedback_59.docx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a5729e2999b2f459d0eafff9e268de0d8d42ec4f",
+          "size": 17833,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/a5729e2999b2f459d0eafff9e268de0d8d42ec4f"
+        },
+        "rev12": {
+          "path": "dataset/annotations/D/12/Annotation_2018argrewrite_59_NEW.txt.xlsx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "239861392b8d060ab6f3a0050139f4f5db2d45b8",
+          "size": 7011,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/239861392b8d060ab6f3a0050139f4f5db2d45b8"
+        }
+      }
+    },
+    {
+      "key": "63",
+      "arm": "D",
+      "objects": {
+        "draft1": {
+          "path": "dataset/essays/Draft1/draft1_2018argrewrite_63.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "baa4ec522eb11a017717d8b13ad1bff993dcc778",
+          "size": 2726,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/baa4ec522eb11a017717d8b13ad1bff993dcc778"
+        },
+        "draft2": {
+          "path": "dataset/essays/Draft2/draft2_2018argrewrite_63.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6847447de1ad6c76231fe1de0b1e2d2e1b4a0214",
+          "size": 3197,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/6847447de1ad6c76231fe1de0b1e2d2e1b4a0214"
+        },
+        "feedback": {
+          "path": "dataset/meta-data/ExpertFeedback/feedback_63.docx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "870942bf46a9407d40e28b6e111ed938aeb2a91c",
+          "size": 17730,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/870942bf46a9407d40e28b6e111ed938aeb2a91c"
+        },
+        "rev12": {
+          "path": "dataset/annotations/D/12/Annotation_2018argrewrite_63_NEW.txt.xlsx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8b853015d51e32f13f51a2eb2d1f19c4eeb41bce",
+          "size": 8437,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/8b853015d51e32f13f51a2eb2d1f19c4eeb41bce"
+        }
+      }
+    },
+    {
+      "key": "39",
+      "arm": "D",
+      "objects": {
+        "draft1": {
+          "path": "dataset/essays/Draft1/draft1_2018argrewrite_39.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ef8d9d57ce643cd1f70339642a91ad9d14b1f77b",
+          "size": 2477,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/ef8d9d57ce643cd1f70339642a91ad9d14b1f77b"
+        },
+        "draft2": {
+          "path": "dataset/essays/Draft2/draft2_2018argrewrite_39.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e528533106968b811f14df7fe7705cc4279e14d2",
+          "size": 3162,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/e528533106968b811f14df7fe7705cc4279e14d2"
+        },
+        "feedback": {
+          "path": "dataset/meta-data/ExpertFeedback/feedback_39.docx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2499ab1c6adc7c1cad82af26f9dc02c4d535a92a",
+          "size": 17435,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/2499ab1c6adc7c1cad82af26f9dc02c4d535a92a"
+        },
+        "rev12": {
+          "path": "dataset/annotations/D/12/Annotation_2018argrewrite_39_NEW.txt.xlsx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "764214e1553d84dfaed3d70c576e617af08a98f0",
+          "size": 7219,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/764214e1553d84dfaed3d70c576e617af08a98f0"
+        }
+      }
+    },
+    {
+      "key": "79",
+      "arm": "D",
+      "objects": {
+        "draft1": {
+          "path": "dataset/essays/Draft1/draft1_2018argrewrite_79.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0dbfb1bd904b7e1d50e2186126c2db7b375d70da",
+          "size": 3768,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/0dbfb1bd904b7e1d50e2186126c2db7b375d70da"
+        },
+        "draft2": {
+          "path": "dataset/essays/Draft2/draft2_2018argrewrite_79.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d3b565d731bf52b20f8a7ecf640c552446bfc7b0",
+          "size": 3911,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/d3b565d731bf52b20f8a7ecf640c552446bfc7b0"
+        },
+        "feedback": {
+          "path": "dataset/meta-data/ExpertFeedback/feedback_79.docx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "14c0f4787675cbc69b00a2e1957867f4d8491575",
+          "size": 18109,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/14c0f4787675cbc69b00a2e1957867f4d8491575"
+        },
+        "rev12": {
+          "path": "dataset/annotations/D/12/Annotation_2018argrewrite_79_NEW.txt.xlsx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0d9fc08a31aad869974156891e9a401cf6277d16",
+          "size": 7694,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/0d9fc08a31aad869974156891e9a401cf6277d16"
+        }
+      }
+    },
+    {
+      "key": "75",
+      "arm": "D",
+      "objects": {
+        "draft1": {
+          "path": "dataset/essays/Draft1/draft1_2018argrewrite_75.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e1e5f29bf4bc967972d0cf3bd2a4159cc36f46df",
+          "size": 3067,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/e1e5f29bf4bc967972d0cf3bd2a4159cc36f46df"
+        },
+        "draft2": {
+          "path": "dataset/essays/Draft2/draft2_2018argrewrite_75.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a2afc36c6d9a5a2035fc8cb4d2d71022b05533b6",
+          "size": 3830,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/a2afc36c6d9a5a2035fc8cb4d2d71022b05533b6"
+        },
+        "feedback": {
+          "path": "dataset/meta-data/ExpertFeedback/feedback_75.docx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "333f813b123c2e35edf8f51d6ac4d2f77365753b",
+          "size": 18158,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/333f813b123c2e35edf8f51d6ac4d2f77365753b"
+        },
+        "rev12": {
+          "path": "dataset/annotations/D/12/Annotation_2018argrewrite_75_NEW.txt.xlsx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "bbbde9691a5fcdf5547f20deec6ebbf62e4404eb",
+          "size": 7955,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/bbbde9691a5fcdf5547f20deec6ebbf62e4404eb"
+        }
+      }
+    },
+    {
+      "key": "55",
+      "arm": "D",
+      "objects": {
+        "draft1": {
+          "path": "dataset/essays/Draft1/draft1_2018argrewrite_55.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9d033c6c09ff54517b1619e288ade9751f5b0c89",
+          "size": 2539,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/9d033c6c09ff54517b1619e288ade9751f5b0c89"
+        },
+        "draft2": {
+          "path": "dataset/essays/Draft2/draft2_2018argrewrite_55.txt",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "dfeb470b2ee9efb8117287716de6817ad97af0d0",
+          "size": 2592,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/dfeb470b2ee9efb8117287716de6817ad97af0d0"
+        },
+        "feedback": {
+          "path": "dataset/meta-data/ExpertFeedback/feedback_55.docx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "75ad1f117a5eadcfe0e00dc5ea18f4ecab6564a0",
+          "size": 17598,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/75ad1f117a5eadcfe0e00dc5ea18f4ecab6564a0"
+        },
+        "rev12": {
+          "path": "dataset/annotations/D/12/Annotation_2018argrewrite_55_NEW.txt.xlsx",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "7019184798e72bef5ac2f16c62c898f75b5d11ab",
+          "size": 6931,
+          "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/7019184798e72bef5ac2f16c62c898f75b5d11ab"
+        }
+      }
+    }
+  ],
+  "dev_payload_bytes_planned": 1154971,
+  "scores_layout": {
+    "blob": {
+      "path": "dataset/meta-data/Scores/scores.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e449a146deda7018ef288814b3091d424d94457b",
+      "size": 221580,
+      "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/e449a146deda7018ef288814b3091d424d94457b"
+    },
+    "sha256": "f4b6ff0b0fb6dacb7cf7dacdf188070b9455796d66c7318f97f08e0d7a5c65a9",
+    "archive_parts": [
+      {
+        "name": "[Content_Types].xml",
+        "bytes": 2248,
+        "compressed_bytes": 393
+      },
+      {
+        "name": "_rels/.rels",
+        "bytes": 588,
+        "compressed_bytes": 244
+      },
+      {
+        "name": "xl/workbook.xml",
+        "bytes": 2931,
+        "compressed_bytes": 1145
+      },
+      {
+        "name": "xl/_rels/workbook.xml.rels",
+        "bytes": 1821,
+        "compressed_bytes": 314
+      },
+      {
+        "name": "xl/worksheets/sheet1.xml",
+        "bytes": 401503,
+        "compressed_bytes": 54467
+      },
+      {
+        "name": "xl/worksheets/sheet2.xml",
+        "bytes": 476488,
+        "compressed_bytes": 87455
+      },
+      {
+        "name": "xl/worksheets/sheet3.xml",
+        "bytes": 88687,
+        "compressed_bytes": 12577
+      },
+      {
+        "name": "xl/worksheets/sheet4.xml",
+        "bytes": 84470,
+        "compressed_bytes": 12042
+      },
+      {
+        "name": "xl/worksheets/sheet5.xml",
+        "bytes": 97069,
+        "compressed_bytes": 13806
+      },
+      {
+        "name": "xl/worksheets/sheet6.xml",
+        "bytes": 78434,
+        "compressed_bytes": 11822
+      },
+      {
+        "name": "xl/worksheets/sheet7.xml",
+        "bytes": 5077,
+        "compressed_bytes": 1416
+      },
+      {
+        "name": "xl/worksheets/sheet8.xml",
+        "bytes": 16469,
+        "compressed_bytes": 2075
+      },
+      {
+        "name": "xl/theme/theme1.xml",
+        "bytes": 6788,
+        "compressed_bytes": 1664
+      },
+      {
+        "name": "xl/styles.xml",
+        "bytes": 3438,
+        "compressed_bytes": 915
+      },
+      {
+        "name": "xl/sharedStrings.xml",
+        "bytes": 2760,
+        "compressed_bytes": 667
+      },
+      {
+        "name": "xl/calcChain.xml",
+        "bytes": 118929,
+        "compressed_bytes": 15743
+      },
+      {
+        "name": "docProps/core.xml",
+        "bytes": 823,
+        "compressed_bytes": 430
+      },
+      {
+        "name": "docProps/app.xml",
+        "bytes": 1047,
+        "compressed_bytes": 455
+      }
+    ],
+    "part_bytes_inflated": {
+      "xl/workbook.xml": 2931,
+      "xl/_rels/workbook.xml.rels": 1821,
+      "docProps/core.xml": 823
+    },
+    "sheets": [
+      {
+        "name": "all",
+        "state": "visible",
+        "part": "worksheets/sheet1.xml"
+      },
+      {
+        "name": "Scores",
+        "state": "visible",
+        "part": "worksheets/sheet2.xml"
+      },
+      {
+        "name": "Condition D",
+        "state": "visible",
+        "part": "worksheets/sheet3.xml"
+      },
+      {
+        "name": "Condition B",
+        "state": "visible",
+        "part": "worksheets/sheet4.xml"
+      },
+      {
+        "name": "Condition C",
+        "state": "visible",
+        "part": "worksheets/sheet5.xml"
+      },
+      {
+        "name": "Condition A",
+        "state": "visible",
+        "part": "worksheets/sheet6.xml"
+      },
+      {
+        "name": "Kappas ",
+        "state": "visible",
+        "part": "worksheets/sheet7.xml"
+      },
+      {
+        "name": "differences",
+        "state": "visible",
+        "part": "worksheets/sheet8.xml"
+      }
+    ],
+    "document_dates": {
+      "created": "2019-06-04T15:13:13Z",
+      "modified": "2022-01-14T02:07:33Z"
+    }
+  }
+}

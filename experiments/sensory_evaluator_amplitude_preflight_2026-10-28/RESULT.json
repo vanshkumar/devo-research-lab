@@ -1,0 +1,1009 @@
+{
+  "plan": {
+    "date": "2026-10-28",
+    "scope": "One consumed synthetic plant and its already-trained pinned circuit; development only",
+    "auditory_drive_gains": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1,
+      1.25,
+      1.5,
+      2
+    ],
+    "motor_offset_scales": [
+      0,
+      0.25,
+      1,
+      2
+    ],
+    "operation": "Multiply the signed centered auditory drive AFTER original feature normalization; do not renormalize. Keep HVC, weights, initial state and scoring windows fixed.",
+    "target": "Original unperturbed target at gain1",
+    "cost": "Mean E rate over six equal120ms context windows; lower is better",
+    "true_loss": "Mean squared error of gain-scaled100-channel feature patterns relative to original target",
+    "checks": [
+      "Repeat all32 probes exactly",
+      "Independently reconstruct feature map and quadratic loss",
+      "Reconstruct frozen network dynamics separately for gain0.5 and1 exact-target probes",
+      "Verify source/generated-state hashes unchanged"
+    ],
+    "interpretation_boundary": "Gain is a dimensionless model-input control, not calibrated sound-pressure or raw sensory-neuron firing. A lower gain can honestly reduce squared error for an incorrect shape; compare with true-loss-optimal gain before calling it exploitation.",
+    "stop": "Complete this finite32-cell grid and verification; no fitting, refinement sweep, new plants or actor training"
+  },
+  "source_commit": "8309db5b1e2abb0d937fec7a1f9d434b06a9bd7c",
+  "predeclaration_sha256": "4cd6be7fd9e55d92b4988dc59040735f18adc139d7aac2b3ff57a1df5e0fc844",
+  "source_hashes": {
+    "experiments/sensory_evaluator_preflight_2026-10-28/state.pkl": "df9150f543ca79d5ed693ef9d1185bb5f2f02e0f33e7afe17721cca7d16eaa03",
+    "experiments/sensory_evaluator_preflight_2026-10-28/inputs.npz": "1969e925ebca5edb0dfc6dcadaecb91166d2366dedfba23e06af4739448ba75f",
+    "experiments/sensory_evaluator_preflight_2026-10-28/preflight.py": "5a0eac99870bf409592f8cf8e2831e0ed7ef61f4acdc0f430f5e0d3a95341df6",
+    "sources/sensory_evaluator_feasibility_2026-10-28/upstream/src/models.py": "159730b6cdd10ff18ec8dabebbc68ad75d844242b194bd3313dea77ed956f39f",
+    "sources/sensory_evaluator_feasibility_2026-10-28/upstream/src/train_funcs.py": "01e7b7324ff5683fae4d9f8f6416f922ece5de51a5e4f9957da27dbe8912dce1"
+  },
+  "result_rows": [
+    {
+      "offset_scale": 0,
+      "gain": 0,
+      "circuit_cost": 2.0591946042284377,
+      "true_loss": 4.0,
+      "quadratic_true_loss": 4.0,
+      "per_context_cost": [
+        2.285749258355504,
+        2.000363896982629,
+        1.927589983180448,
+        2.1422782265109457,
+        2.083421860689953,
+        1.9157643996511458
+      ],
+      "per_context_loss": [
+        3.9999999999999996,
+        4.0,
+        3.9999999999999987,
+        3.9999999999999996,
+        4.0,
+        4.000000000000001
+      ],
+      "continuous_true_optimal_gain": 1.0,
+      "auditory_active_mean": 0.0,
+      "auditory_active_std": 0.0,
+      "auditory_min": -0.0,
+      "auditory_max": 0.0
+    },
+    {
+      "offset_scale": 0,
+      "gain": 0.25,
+      "circuit_cost": 1.8623933800840053,
+      "true_loss": 2.25,
+      "quadratic_true_loss": 2.25,
+      "per_context_cost": [
+        2.088650171022362,
+        1.854110627701613,
+        1.7634818308790534,
+        1.9245161253352643,
+        1.8863519996623763,
+        1.657249525903364
+      ],
+      "per_context_loss": [
+        2.25,
+        2.25,
+        2.2499999999999996,
+        2.2500000000000004,
+        2.2500000000000004,
+        2.25
+      ],
+      "continuous_true_optimal_gain": 1.0,
+      "auditory_active_mean": 2.590520390792032e-18,
+      "auditory_active_std": 0.5,
+      "auditory_min": -0.28728428301870745,
+      "auditory_max": 2.882037805067111
+    },
+    {
+      "offset_scale": 0,
+      "gain": 0.5,
+      "circuit_cost": 1.6929598217217305,
+      "true_loss": 1.0,
+      "quadratic_true_loss": 1.0,
+      "per_context_cost": [
+        1.8644440702651994,
+        1.7269708627960472,
+        1.6408381443815796,
+        1.7408118166099928,
+        1.721503433753577,
+        1.463190602523987
+      ],
+      "per_context_loss": [
+        0.9999999999999999,
+        1.0,
+        0.9999999999999997,
+        0.9999999999999999,
+        1.0,
+        1.0000000000000002
+      ],
+      "continuous_true_optimal_gain": 1.0,
+      "auditory_active_mean": 5.181040781584064e-18,
+      "auditory_active_std": 1.0,
+      "auditory_min": -0.5745685660374149,
+      "auditory_max": 5.764075610134222
+    },
+    {
+      "offset_scale": 0,
+      "gain": 0.75,
+      "circuit_cost": 1.5463240175496678,
+      "true_loss": 0.24999999999999992,
+      "quadratic_true_loss": 0.25,
+      "per_context_cost": [
+        1.595301266958882,
+        1.5934594333764156,
+        1.565154830857919,
+        1.5906635895594194,
+        1.5983005712459852,
+        1.3350644132993847
+      ],
+      "per_context_loss": [
+        0.2499999999999999,
+        0.25,
+        0.2499999999999999,
+        0.24999999999999992,
+        0.25,
+        0.25000000000000006
+      ],
+      "continuous_true_optimal_gain": 1.0,
+      "auditory_active_mean": -2.1464311809419693e-17,
+      "auditory_active_std": 1.5,
+      "auditory_min": -0.8618528490561224,
+      "auditory_max": 8.646113415201334
+    },
+    {
+      "offset_scale": 0,
+      "gain": 1,
+      "circuit_cost": 1.443146261569959,
+      "true_loss": 0.0,
+      "quadratic_true_loss": 0.0,
+      "per_context_cost": [
+        1.377192037601007,
+        1.4610140486658043,
+        1.5371587466434684,
+        1.507474480232064,
+        1.5099221304095418,
+        1.266116125867869
+      ],
+      "per_context_loss": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "continuous_true_optimal_gain": 1.0,
+      "auditory_active_mean": 1.0362081563168128e-17,
+      "auditory_active_std": 2.0,
+      "auditory_min": -1.1491371320748298,
+      "auditory_max": 11.528151220268445
+    },
+    {
+      "offset_scale": 0,
+      "gain": 1.25,
+      "circuit_cost": 1.4706877709103188,
+      "true_loss": 0.24999999999999994,
+      "quadratic_true_loss": 0.25,
+      "per_context_cost": [
+        1.57388060981565,
+        1.4006676925940795,
+        1.5391391586488692,
+        1.5325181602619158,
+        1.4973811637283274,
+        1.280539840413071
+      ],
+      "per_context_loss": [
+        0.2499999999999999,
+        0.25,
+        0.2499999999999999,
+        0.24999999999999992,
+        0.25,
+        0.25
+      ],
+      "continuous_true_optimal_gain": 1.0,
+      "auditory_active_mean": -5.773159728050814e-17,
+      "auditory_active_std": 2.5,
+      "auditory_min": -1.4364214150935373,
+      "auditory_max": 14.410189025335555
+    },
+    {
+      "offset_scale": 0,
+      "gain": 1.5,
+      "circuit_cost": 1.6145437304767567,
+      "true_loss": 1.0,
+      "quadratic_true_loss": 1.0,
+      "per_context_cost": [
+        1.9078632700793314,
+        1.5087101988292504,
+        1.537543862179137,
+        1.653365252497536,
+        1.6768979161699968,
+        1.4028818831052885
+      ],
+      "per_context_loss": [
+        1.0000000000000002,
+        1.0000000000000002,
+        0.9999999999999999,
+        1.0,
+        0.9999999999999997,
+        1.0000000000000004
+      ],
+      "continuous_true_optimal_gain": 1.0,
+      "auditory_active_mean": -4.2928623618839385e-17,
+      "auditory_active_std": 3.0,
+      "auditory_min": -1.7237056981122447,
+      "auditory_max": 17.29222683040267
+    },
+    {
+      "offset_scale": 0,
+      "gain": 2,
+      "circuit_cost": 2.087562877773142,
+      "true_loss": 4.0,
+      "quadratic_true_loss": 4.0,
+      "per_context_cost": [
+        2.4566035663290045,
+        2.0657385905706382,
+        1.7890348408031052,
+        1.8210070184048406,
+        2.570831411450813,
+        1.8221618390804486
+      ],
+      "per_context_loss": [
+        3.9999999999999996,
+        4.0,
+        3.9999999999999987,
+        3.9999999999999996,
+        4.0,
+        4.000000000000001
+      ],
+      "continuous_true_optimal_gain": 1.0,
+      "auditory_active_mean": 2.0724163126336256e-17,
+      "auditory_active_std": 4.0,
+      "auditory_min": -2.2982742641496596,
+      "auditory_max": 23.05630244053689
+    },
+    {
+      "offset_scale": 0.25,
+      "gain": 0,
+      "circuit_cost": 2.0591946042284377,
+      "true_loss": 4.0,
+      "quadratic_true_loss": 4.0,
+      "per_context_cost": [
+        2.285749258355504,
+        2.000363896982629,
+        1.927589983180448,
+        2.1422782265109457,
+        2.083421860689953,
+        1.9157643996511458
+      ],
+      "per_context_loss": [
+        3.9999999999999996,
+        4.0,
+        3.9999999999999987,
+        3.9999999999999996,
+        4.0,
+        4.000000000000001
+      ],
+      "continuous_true_optimal_gain": 0.9866876757074388,
+      "auditory_active_mean": 0.0,
+      "auditory_active_std": 0.0,
+      "auditory_min": -0.0,
+      "auditory_max": 0.0
+    },
+    {
+      "offset_scale": 0.25,
+      "gain": 0.25,
+      "circuit_cost": 1.8703299445768549,
+      "true_loss": 2.276624648585122,
+      "quadratic_true_loss": 2.2766246485851225,
+      "per_context_cost": [
+        2.103876354797486,
+        1.8659554407780305,
+        1.7745901074896802,
+        1.927806432596992,
+        1.8988975108945763,
+        1.650853820904365
+      ],
+      "per_context_loss": [
+        2.276974550639717,
+        2.314726996477074,
+        2.2654985851346905,
+        2.2638932432860903,
+        2.275588513902648,
+        2.263066002070514
+      ],
+      "continuous_true_optimal_gain": 0.9866876757074388,
+      "auditory_active_mean": -1.2027416100105863e-17,
+      "auditory_active_std": 0.5,
+      "auditory_min": -0.29232523118533915,
+      "auditory_max": 2.9980430731706913
+    },
+    {
+      "offset_scale": 0.25,
+      "gain": 0.5,
+      "circuit_cost": 1.7110263569892439,
+      "true_loss": 1.0532492971702447,
+      "quadratic_true_loss": 1.053249297170245,
+      "per_context_cost": [
+        1.8888584986062116,
+        1.7565897719207304,
+        1.6638776357047218,
+        1.749330432665162,
+        1.7535289082254737,
+        1.453972894813163
+      ],
+      "per_context_loss": [
+        1.0539491012794355,
+        1.129453992954146,
+        1.0309971702693834,
+        1.0277864865721797,
+        1.051177027805296,
+        1.0261320041410276
+      ],
+      "continuous_true_optimal_gain": 0.9866876757074388,
+      "auditory_active_mean": -2.4054832200211726e-17,
+      "auditory_active_std": 1.0,
+      "auditory_min": -0.5846504623706783,
+      "auditory_max": 5.996086146341383
+    },
+    {
+      "offset_scale": 0.25,
+      "gain": 0.75,
+      "circuit_cost": 1.5762932946898942,
+      "true_loss": 0.3298739457553673,
+      "quadratic_true_loss": 0.32987394575536744,
+      "per_context_cost": [
+        1.6205097807644584,
+        1.649133122733233,
+        1.6010461140942371,
+        1.6054702616340895,
+        1.6607102253909778,
+        1.3208902635223696
+      ],
+      "per_context_loss": [
+        0.3309236519191536,
+        0.44418098943121875,
+        0.2964957554040761,
+        0.2916797298582698,
+        0.32676554170794453,
+        0.2891980062115409
+      ],
+      "continuous_true_optimal_gain": 0.9866876757074388,
+      "auditory_active_mean": -2.7385501274087195e-17,
+      "auditory_active_std": 1.5,
+      "auditory_min": -0.8769756935560175,
+      "auditory_max": 8.994129219512073
+    },
+    {
+      "offset_scale": 0.25,
+      "gain": 1,
+      "circuit_cost": 1.4877003001331337,
+      "true_loss": 0.10649859434048978,
+      "quadratic_true_loss": 0.10649859434048992,
+      "per_context_cost": [
+        1.420606447267995,
+        1.5446387239127244,
+        1.5705409539094177,
+        1.5445318439485685,
+        1.610931069812953,
+        1.2349527619471432
+      ],
+      "per_context_loss": [
+        0.10789820255887161,
+        0.25890798590829117,
+        0.06199434053876909,
+        0.0555729731443596,
+        0.10235405561059283,
+        0.052264008282054276
+      ],
+      "continuous_true_optimal_gain": 0.9866876757074388,
+      "auditory_active_mean": -4.810966440042345e-17,
+      "auditory_active_std": 2.0,
+      "auditory_min": -1.1693009247413566,
+      "auditory_max": 11.992172292682765
+    },
+    {
+      "offset_scale": 0.25,
+      "gain": 1.25,
+      "circuit_cost": 1.5494222745327397,
+      "true_loss": 0.38312324292561223,
+      "quadratic_true_loss": 0.3831232429256133,
+      "per_context_cost": [
+        1.678816074177094,
+        1.5990962534616933,
+        1.5569231560801136,
+        1.6025905700372436,
+        1.6190034055421145,
+        1.2401041878981798
+      ],
+      "per_context_loss": [
+        0.3848727531985894,
+        0.5736349823853633,
+        0.3274929256734621,
+        0.3194662164304496,
+        0.37794256951324146,
+        0.3153300103525677
+      ],
+      "continuous_true_optimal_gain": 0.9866876757074388,
+      "auditory_active_mean": -4.884981308350689e-17,
+      "auditory_active_std": 2.5,
+      "auditory_min": -1.4616261559266959,
+      "auditory_max": 14.990215365853457
+    },
+    {
+      "offset_scale": 0.25,
+      "gain": 1.5,
+      "circuit_cost": 1.7034810211382647,
+      "true_loss": 1.1597478915107349,
+      "quadratic_true_loss": 1.1597478915107349,
+      "per_context_cost": [
+        1.9979126208011504,
+        1.8482490073364881,
+        1.5054529040524298,
+        1.711452676216749,
+        1.8023579524089575,
+        1.3554609660138153
+      ],
+      "per_context_loss": [
+        1.1618473038383073,
+        1.388361978862435,
+        1.0929915108081552,
+        1.08335945971654,
+        1.1535310834158903,
+        1.0783960124230811
+      ],
+      "continuous_true_optimal_gain": 0.9866876757074388,
+      "auditory_active_mean": -5.477100254817439e-17,
+      "auditory_active_std": 3.0,
+      "auditory_min": -1.753951387112035,
+      "auditory_max": 17.988258439024147
+    },
+    {
+      "offset_scale": 0.25,
+      "gain": 2,
+      "circuit_cost": 2.253562308102247,
+      "true_loss": 4.21299718868098,
+      "quadratic_true_loss": 4.21299718868098,
+      "per_context_cost": [
+        2.4744473997075667,
+        2.726923325426255,
+        1.7967402020003913,
+        1.7969713863085146,
+        2.7102257989895224,
+        2.0160657361812295
+      ],
+      "per_context_loss": [
+        4.215796405117743,
+        4.517815971816578,
+        4.123988681077543,
+        4.111145946288721,
+        4.204708111221187,
+        4.104528016564108
+      ],
+      "continuous_true_optimal_gain": 0.9866876757074388,
+      "auditory_active_mean": -9.62193288008469e-17,
+      "auditory_active_std": 4.0,
+      "auditory_min": -2.338601849482713,
+      "auditory_max": 23.98434458536553
+    },
+    {
+      "offset_scale": 1,
+      "gain": 0,
+      "circuit_cost": 2.0591946042284377,
+      "true_loss": 4.0,
+      "quadratic_true_loss": 4.0,
+      "per_context_cost": [
+        2.285749258355504,
+        2.000363896982629,
+        1.927589983180448,
+        2.1422782265109457,
+        2.083421860689953,
+        1.9157643996511458
+      ],
+      "per_context_loss": [
+        3.9999999999999996,
+        4.0,
+        3.9999999999999987,
+        3.9999999999999996,
+        4.0,
+        4.000000000000001
+      ],
+      "continuous_true_optimal_gain": 0.8407542814245037,
+      "auditory_active_mean": 0.0,
+      "auditory_active_std": 0.0,
+      "auditory_min": -0.0,
+      "auditory_max": 0.0
+    },
+    {
+      "offset_scale": 1,
+      "gain": 0.25,
+      "circuit_cost": 1.9304288978046074,
+      "true_loss": 2.568491437150992,
+      "quadratic_true_loss": 2.5684914371509926,
+      "per_context_cost": [
+        2.1933362720101406,
+        1.9800352480195693,
+        1.8466882280278345,
+        1.9621338128907535,
+        1.946689844839937,
+        1.6536899810394095
+      ],
+      "per_context_loss": [
+        2.557526493579184,
+        3.021017691216395,
+        2.475302099845203,
+        2.485073991644477,
+        2.4782471561205437,
+        2.3937811905001487
+      ],
+      "continuous_true_optimal_gain": 0.8407542814245037,
+      "auditory_active_mean": 6.661338147750939e-18,
+      "auditory_active_std": 0.5,
+      "auditory_min": -0.31565423674338594,
+      "auditory_max": 2.9357637542713113
+    },
+    {
+      "offset_scale": 1,
+      "gain": 0.5,
+      "circuit_cost": 1.8730163331440537,
+      "true_loss": 1.6369828743019847,
+      "quadratic_true_loss": 1.6369828743019852,
+      "per_context_cost": [
+        2.135888424149966,
+        2.046397955903516,
+        1.8379804730152132,
+        1.8467899347834964,
+        1.8987956124797851,
+        1.4722455985323464
+      ],
+      "per_context_loss": [
+        1.6150529871583705,
+        2.5420353824327906,
+        1.4506041996904075,
+        1.470147983288954,
+        1.4564943122410887,
+        1.287562381000297
+      ],
+      "continuous_true_optimal_gain": 0.8407542814245037,
+      "auditory_active_mean": 1.3322676295501878e-17,
+      "auditory_active_std": 1.0,
+      "auditory_min": -0.6313084734867719,
+      "auditory_max": 5.871527508542623
+    },
+    {
+      "offset_scale": 1,
+      "gain": 0.75,
+      "circuit_cost": 1.8923212228324704,
+      "true_loss": 1.2054743114529771,
+      "quadratic_true_loss": 1.2054743114529778,
+      "per_context_cost": [
+        2.1025073923722584,
+        2.231976438721267,
+        1.8966830988820462,
+        1.7855978997746795,
+        1.9734211172673155,
+        1.3637413899772557
+      ],
+      "per_context_loss": [
+        1.1725794807375565,
+        2.5630530736491846,
+        0.9259062995356127,
+        0.9552219749334308,
+        0.9347414683616333,
+        0.6813435715004446
+      ],
+      "continuous_true_optimal_gain": 0.8407542814245037,
+      "auditory_active_mean": 3.552713678800501e-17,
+      "auditory_active_std": 1.5,
+      "auditory_min": -0.9469627102301579,
+      "auditory_max": 8.807291262813933
+    },
+    {
+      "offset_scale": 1,
+      "gain": 1,
+      "circuit_cost": 2.0004322202080496,
+      "true_loss": 1.2739657486039695,
+      "quadratic_true_loss": 1.2739657486039704,
+      "per_context_cost": [
+        2.145925667715386,
+        2.5326139919736317,
+        2.0139321289720837,
+        1.8028010593848016,
+        2.1615703846739054,
+        1.3457500885284894
+      ],
+      "per_context_loss": [
+        1.230105974316742,
+        3.08407076486558,
+        0.9012083993808169,
+        0.9402959665779075,
+        0.9129886244821774,
+        0.5751247620005921
+      ],
+      "continuous_true_optimal_gain": 0.8407542814245037,
+      "auditory_active_mean": 2.6645352591003756e-17,
+      "auditory_active_std": 2.0,
+      "auditory_min": -1.2626169469735438,
+      "auditory_max": 11.743055017085245
+    },
+    {
+      "offset_scale": 1,
+      "gain": 1.25,
+      "circuit_cost": 2.191164341292705,
+      "true_loss": 1.8424571857549616,
+      "quadratic_true_loss": 1.842457185754963,
+      "per_context_cost": [
+        2.444981999697718,
+        2.75185136334857,
+        2.190883796835521,
+        1.9376334693389763,
+        2.383730966737505,
+        1.4379044517979374
+      ],
+      "per_context_loss": [
+        1.787632467895928,
+        4.105088456081975,
+        1.376510499226022,
+        1.4253699582223849,
+        1.3912357806027216,
+        0.9689059525007395
+      ],
+      "continuous_true_optimal_gain": 0.8407542814245037,
+      "auditory_active_mean": 5.921189464667501e-17,
+      "auditory_active_std": 2.5,
+      "auditory_min": -1.5782711837169296,
+      "auditory_max": 14.678818771356557
+    },
+    {
+      "offset_scale": 1,
+      "gain": 1.5,
+      "circuit_cost": 2.4934548208413294,
+      "true_loss": 2.910948622905954,
+      "quadratic_true_loss": 2.9109486229059556,
+      "per_context_cost": [
+        2.8935926997828223,
+        3.2585986224391,
+        2.383474606325125,
+        2.111990758096067,
+        2.6581244108768542,
+        1.6549478275280065
+      ],
+      "per_context_loss": [
+        2.8451589614751125,
+        5.626106147298372,
+        2.351812599071226,
+        2.4104439498668615,
+        2.3694829367232653,
+        1.8626871430008873
+      ],
+      "continuous_true_optimal_gain": 0.8407542814245037,
+      "auditory_active_mean": 7.105427357601002e-17,
+      "auditory_active_std": 3.0,
+      "auditory_min": -1.8939254204603158,
+      "auditory_max": 17.614582525627867
+    },
+    {
+      "offset_scale": 1,
+      "gain": 2,
+      "circuit_cost": 3.2936850991795286,
+      "true_loss": 6.547931497207939,
+      "quadratic_true_loss": 6.547931497207941,
+      "per_context_cost": [
+        3.734248258061728,
+        4.437136855950901,
+        3.058863290919353,
+        2.4222265887892944,
+        3.548252913173527,
+        2.561382688182366
+      ],
+      "per_context_loss": [
+        6.460211948633483,
+        10.168141529731162,
+        5.802416798761636,
+        5.880591933155816,
+        5.825977248964353,
+        5.150249524001181
+      ],
+      "continuous_true_optimal_gain": 0.8407542814245037,
+      "auditory_active_mean": 5.329070518200751e-17,
+      "auditory_active_std": 4.0,
+      "auditory_min": -2.5252338939470875,
+      "auditory_max": 23.48611003417049
+    },
+    {
+      "offset_scale": 2,
+      "gain": 0,
+      "circuit_cost": 2.0591946042284377,
+      "true_loss": 4.0,
+      "quadratic_true_loss": 4.0,
+      "per_context_cost": [
+        2.285749258355504,
+        2.000363896982629,
+        1.927589983180448,
+        2.1422782265109457,
+        2.083421860689953,
+        1.9157643996511458
+      ],
+      "per_context_loss": [
+        3.9999999999999996,
+        4.0,
+        3.9999999999999987,
+        3.9999999999999996,
+        4.0,
+        4.000000000000001
+      ],
+      "continuous_true_optimal_gain": 0.634943486829265,
+      "auditory_active_mean": 0.0,
+      "auditory_active_std": 0.0,
+      "auditory_min": -0.0,
+      "auditory_max": 0.0
+    },
+    {
+      "offset_scale": 2,
+      "gain": 0.25,
+      "circuit_cost": 2.0030106124392186,
+      "true_loss": 2.9801130263414697,
+      "quadratic_true_loss": 2.9801130263414697,
+      "per_context_cost": [
+        2.3067094290457866,
+        2.0785491248920374,
+        1.9353561425737131,
+        2.0128068796686147,
+        2.00887101326028,
+        1.6757710851948795
+      ],
+      "per_context_loss": [
+        2.9734024071134093,
+        3.634232868307946,
+        2.8959019356404907,
+        2.9819705832990877,
+        2.7839321226257607,
+        2.6112382410621224
+      ],
+      "continuous_true_optimal_gain": 0.634943486829265,
+      "auditory_active_mean": 5.181040781584064e-18,
+      "auditory_active_std": 0.5,
+      "auditory_min": -0.353735825736231,
+      "auditory_max": 2.4787358381336446
+    },
+    {
+      "offset_scale": 2,
+      "gain": 0.5,
+      "circuit_cost": 2.080616088961743,
+      "true_loss": 2.46022605268294,
+      "quadratic_true_loss": 2.46022605268294,
+      "per_context_cost": [
+        2.4779663520731368,
+        2.3073502495606415,
+        2.079018085865752,
+        2.0103408849199633,
+        2.069608755365112,
+        1.5394122059858513
+      ],
+      "per_context_loss": [
+        2.4468048142268195,
+        3.7684657366158945,
+        2.2918038712809827,
+        2.4639411665981736,
+        2.067864245251523,
+        1.7224764821242458
+      ],
+      "continuous_true_optimal_gain": 0.634943486829265,
+      "auditory_active_mean": 1.0362081563168128e-17,
+      "auditory_active_std": 1.0,
+      "auditory_min": -0.707471651472462,
+      "auditory_max": 4.957471676267289
+    },
+    {
+      "offset_scale": 2,
+      "gain": 0.75,
+      "circuit_cost": 2.29380448876273,
+      "true_loss": 2.44033907902441,
+      "quadratic_true_loss": 2.44033907902441,
+      "per_context_cost": [
+        2.799433888179503,
+        2.693368888289862,
+        2.393657026670194,
+        2.0952801688706093,
+        2.2752910291991992,
+        1.5057959313670126
+      ],
+      "per_context_loss": [
+        2.4202072213402293,
+        4.402698604923842,
+        2.1877058069214765,
+        2.4459117498972605,
+        1.8517963678772842,
+        1.3337147231863675
+      ],
+      "continuous_true_optimal_gain": 0.634943486829265,
+      "auditory_active_mean": 1.1842378929335004e-17,
+      "auditory_active_std": 1.5,
+      "auditory_min": -1.061207477208693,
+      "auditory_max": 7.436207514400934
+    },
+    {
+      "offset_scale": 2,
+      "gain": 1,
+      "circuit_cost": 2.6698849518755097,
+      "true_loss": 2.92045210536588,
+      "quadratic_true_loss": 2.9204521053658796,
+      "per_context_cost": [
+        3.352553563349826,
+        3.347097248712968,
+        2.7717149324804566,
+        2.365394117813297,
+        2.5949709627296227,
+        1.5875788861668862
+      ],
+      "per_context_loss": [
+        2.893609628453641,
+        5.536931473231789,
+        2.5836077425619686,
+        2.9278823331963464,
+        2.1357284905030447,
+        1.4449529642484904
+      ],
+      "continuous_true_optimal_gain": 0.634943486829265,
+      "auditory_active_mean": 2.0724163126336256e-17,
+      "auditory_active_std": 2.0,
+      "auditory_min": -1.414943302944924,
+      "auditory_max": 9.914943352534578
+    },
+    {
+      "offset_scale": 2,
+      "gain": 1.25,
+      "circuit_cost": 3.155509229276511,
+      "true_loss": 3.90056513170735,
+      "quadratic_true_loss": 3.9005651317073493,
+      "per_context_cost": [
+        4.083706244216564,
+        4.1697594199637384,
+        3.1607322771733366,
+        2.7723278119125694,
+        2.9799637125204326,
+        1.7665659098724273
+      ],
+      "per_context_loss": [
+        3.867012035567049,
+        7.171164341539735,
+        3.4795096782024633,
+        3.909852916495432,
+        2.9196606131288068,
+        2.056191205310613
+      ],
+      "continuous_true_optimal_gain": 0.634943486829265,
+      "auditory_active_mean": 3.552713678800501e-17,
+      "auditory_active_std": 2.5,
+      "auditory_min": -1.7686791286811552,
+      "auditory_max": 12.393679190668223
+    },
+    {
+      "offset_scale": 2,
+      "gain": 1.5,
+      "circuit_cost": 3.641496562034965,
+      "true_loss": 5.380678158048821,
+      "quadratic_true_loss": 5.38067815804882,
+      "per_context_cost": [
+        4.810333775296594,
+        4.833183813538861,
+        3.5752661391624168,
+        3.203510275595357,
+        3.2582853784982784,
+        2.168399990118284
+      ],
+      "per_context_loss": [
+        5.3404144426804585,
+        9.305397209847682,
+        4.875411613842954,
+        5.391823499794521,
+        4.20359273575457,
+        3.167429446372735
+      ],
+      "continuous_true_optimal_gain": 0.634943486829265,
+      "auditory_active_mean": 2.3684757858670008e-17,
+      "auditory_active_std": 3.0,
+      "auditory_min": -2.122414954417386,
+      "auditory_max": 14.872415028801868
+    },
+    {
+      "offset_scale": 2,
+      "gain": 2,
+      "circuit_cost": 4.690005681289751,
+      "true_loss": 9.84090421073176,
+      "quadratic_true_loss": 9.84090421073176,
+      "per_context_cost": [
+        5.892238383855875,
+        6.114373736885464,
+        4.3758176691047845,
+        4.209361983464365,
+        4.04073196287027,
+        3.507510351557749
+      ],
+      "per_context_loss": [
+        9.787219256907282,
+        15.073862946463578,
+        9.16721548512394,
+        9.855764666392693,
+        8.271456981006091,
+        6.8899059284969795
+      ],
+      "continuous_true_optimal_gain": 0.634943486829265,
+      "auditory_active_mean": 4.144832625267251e-17,
+      "auditory_active_std": 4.0,
+      "auditory_min": -2.829886605889848,
+      "auditory_max": 19.829886705069157
+    }
+  ],
+  "summaries": [
+    {
+      "offset_scale": 0,
+      "circuit_best_gain": 1,
+      "true_grid_best_gain": 1,
+      "continuous_true_best_gain": 1.0,
+      "circuit_best_cost": 1.443146261569959,
+      "circuit_best_true_loss": 0.0,
+      "true_grid_best_loss": 0.0,
+      "true_loss_excess_over_grid_optimum": 0.0,
+      "cost_at_gain1": 1.443146261569959,
+      "loss_at_gain1": 0.0,
+      "cost_improvement_from_gain1": 0.0,
+      "true_loss_change_from_gain1": 0.0
+    },
+    {
+      "offset_scale": 0.25,
+      "circuit_best_gain": 1,
+      "true_grid_best_gain": 1,
+      "continuous_true_best_gain": 0.9866876757074388,
+      "circuit_best_cost": 1.4877003001331337,
+      "circuit_best_true_loss": 0.10649859434048978,
+      "true_grid_best_loss": 0.10649859434048978,
+      "true_loss_excess_over_grid_optimum": 0.0,
+      "cost_at_gain1": 1.4877003001331337,
+      "loss_at_gain1": 0.10649859434048978,
+      "cost_improvement_from_gain1": 0.0,
+      "true_loss_change_from_gain1": 0.0
+    },
+    {
+      "offset_scale": 1,
+      "circuit_best_gain": 0.5,
+      "true_grid_best_gain": 0.75,
+      "continuous_true_best_gain": 0.8407542814245037,
+      "circuit_best_cost": 1.8730163331440537,
+      "circuit_best_true_loss": 1.6369828743019847,
+      "true_grid_best_loss": 1.2054743114529771,
+      "true_loss_excess_over_grid_optimum": 0.4315085628490076,
+      "cost_at_gain1": 2.0004322202080496,
+      "loss_at_gain1": 1.2739657486039695,
+      "cost_improvement_from_gain1": 0.12741588706399587,
+      "true_loss_change_from_gain1": 0.36301712569801525
+    },
+    {
+      "offset_scale": 2,
+      "circuit_best_gain": 0.25,
+      "true_grid_best_gain": 0.75,
+      "continuous_true_best_gain": 0.634943486829265,
+      "circuit_best_cost": 2.0030106124392186,
+      "circuit_best_true_loss": 2.9801130263414697,
+      "true_grid_best_loss": 2.44033907902441,
+      "true_loss_excess_over_grid_optimum": 0.5397739473170597,
+      "cost_at_gain1": 2.6698849518755097,
+      "loss_at_gain1": 2.92045210536588,
+      "cost_improvement_from_gain1": 0.666874339436291,
+      "true_loss_change_from_gain1": 0.059660920975589615
+    }
+  ],
+  "verification": {
+    "exact_repeat_max_error": 0.0,
+    "independent_feature_max_error": 3.552713678800501e-15,
+    "independent_quadratic_loss_max_error": 1.7763568394002505e-15,
+    "independent_dynamics_max_error": 4.440892098500626e-16,
+    "exact_gain1_original_reproduction": true,
+    "exact_silence_original_reproduction": true,
+    "read_source_files_unchanged": true
+  },
+  "total_seconds": 8.171978500002297
+}

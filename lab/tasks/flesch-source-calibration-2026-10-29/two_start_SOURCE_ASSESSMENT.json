@@ -1,0 +1,621 @@
+{
+  "source_primary": "context_value",
+  "source_adequacy_passed": false,
+  "selection_rule": "Smallest equal-group whole-person source-check energy among the two learners; growth stays comparator",
+  "predictive_utility_comparison": "context_value versus exposure_growth",
+  "other_learner_comparison": "Separate discrimination; tie does not negate predictive utility",
+  "eligible_draws_per_schedule": 128,
+  "models": {
+    "sgd_oja": {
+      "groups": {
+        "B200": {
+          "people": 12,
+          "energy_score": 0.5584537910044268,
+          "population_curve_mae_pp": 21.592826435822936,
+          "forecast_mean_curve": [
+            0.5244933300880804,
+            0.6979094289331513,
+            0.8129177648163565,
+            0.8483493603996891,
+            0.5656558463533969,
+            0.7488952576024528,
+            0.8178851887786669,
+            0.8424946964855923
+          ],
+          "observed_mean_curve": [
+            0.9169023216428583,
+            0.9777941965441964,
+            0.9751830881404051,
+            0.9446308273811482,
+            0.899362200505773,
+            0.9519866787308647,
+            0.9715706120504882,
+            0.9485970633274871
+          ],
+          "mean_individual_mae_pp": 22.38268356562652
+        },
+        "Interleaved": {
+          "people": 12,
+          "energy_score": 0.3599078266739138,
+          "population_curve_mae_pp": 13.22078885987481,
+          "forecast_mean_curve": [
+            0.5197855044165829,
+            0.5588916399063357,
+            0.6272599094049215,
+            0.6994770911167604,
+            0.7373494118521445,
+            0.7878987483180575,
+            0.813552802860887,
+            0.8210915924139468
+          ],
+          "observed_mean_curve": [
+            0.7351188479866534,
+            0.7753065401091717,
+            0.8109951097996669,
+            0.8382652603689188,
+            0.8404263698101578,
+            0.8828094663690017,
+            0.8785450698480224,
+            0.8615031447880285
+          ],
+          "mean_individual_mae_pp": 15.0207974800075
+        }
+      },
+      "equal_group_energy": 0.45918080883917034,
+      "rows": [
+        {
+          "column": 87,
+          "energy_score": 0.4910130263673043,
+          "mean_curve_mae_pp": 20.162500220837003,
+          "proposal_count": 256
+        },
+        {
+          "column": 76,
+          "energy_score": 0.6005386792850589,
+          "mean_curve_mae_pp": 24.7640515698267,
+          "proposal_count": 256
+        },
+        {
+          "column": 25,
+          "energy_score": 0.5262306892697797,
+          "mean_curve_mae_pp": 21.941348037022657,
+          "proposal_count": 256
+        },
+        {
+          "column": 41,
+          "energy_score": 0.48410187947499894,
+          "mean_curve_mae_pp": 18.965976442098313,
+          "proposal_count": 256
+        },
+        {
+          "column": 30,
+          "energy_score": 0.5890193706310054,
+          "mean_curve_mae_pp": 23.09604340993611,
+          "proposal_count": 256
+        },
+        {
+          "column": 37,
+          "energy_score": 0.5777918310821348,
+          "mean_curve_mae_pp": 23.745474265973332,
+          "proposal_count": 256
+        },
+        {
+          "column": 44,
+          "energy_score": 0.6633863630904786,
+          "mean_curve_mae_pp": 26.404011674042493,
+          "proposal_count": 256
+        },
+        {
+          "column": 84,
+          "energy_score": 0.5689578154139295,
+          "mean_curve_mae_pp": 22.5885417217704,
+          "proposal_count": 256
+        },
+        {
+          "column": 64,
+          "energy_score": 0.526131443477327,
+          "mean_curve_mae_pp": 21.415774821596116,
+          "proposal_count": 256
+        },
+        {
+          "column": 68,
+          "energy_score": 0.47978872554397445,
+          "mean_curve_mae_pp": 18.188960044301382,
+          "proposal_count": 256
+        },
+        {
+          "column": 14,
+          "energy_score": 0.6040599406865956,
+          "mean_curve_mae_pp": 24.056619976791954,
+          "proposal_count": 256
+        },
+        {
+          "column": 45,
+          "energy_score": 0.5904257277305345,
+          "mean_curve_mae_pp": 23.262900603321796,
+          "proposal_count": 256
+        },
+        {
+          "column": 49,
+          "energy_score": 0.5615986276474811,
+          "mean_curve_mae_pp": 23.62270321373789,
+          "proposal_count": 256
+        },
+        {
+          "column": 23,
+          "energy_score": 0.4182633696742482,
+          "mean_curve_mae_pp": 19.000019134485406,
+          "proposal_count": 256
+        },
+        {
+          "column": 33,
+          "energy_score": 0.29892881733474336,
+          "mean_curve_mae_pp": 9.352005239924061,
+          "proposal_count": 256
+        },
+        {
+          "column": 79,
+          "energy_score": 0.2761526871111003,
+          "mean_curve_mae_pp": 12.156356152580894,
+          "proposal_count": 256
+        },
+        {
+          "column": 59,
+          "energy_score": 0.5307376002208362,
+          "mean_curve_mae_pp": 22.580291541838278,
+          "proposal_count": 256
+        },
+        {
+          "column": 15,
+          "energy_score": 0.2874125127205003,
+          "mean_curve_mae_pp": 12.18372774243055,
+          "proposal_count": 256
+        },
+        {
+          "column": 89,
+          "energy_score": 0.32000476958872426,
+          "mean_curve_mae_pp": 14.442357607372852,
+          "proposal_count": 256
+        },
+        {
+          "column": 29,
+          "energy_score": 0.3535408081901601,
+          "mean_curve_mae_pp": 14.19819617100287,
+          "proposal_count": 256
+        },
+        {
+          "column": 0,
+          "energy_score": 0.49888724487531894,
+          "mean_curve_mae_pp": 21.585488362153544,
+          "proposal_count": 256
+        },
+        {
+          "column": 27,
+          "energy_score": 0.17948339911168443,
+          "mean_curve_mae_pp": 7.161974384770558,
+          "proposal_count": 256
+        },
+        {
+          "column": 85,
+          "energy_score": 0.3052158467217518,
+          "mean_curve_mae_pp": 12.871106592405173,
+          "proposal_count": 256
+        },
+        {
+          "column": 88,
+          "energy_score": 0.2886682368904172,
+          "mean_curve_mae_pp": 11.095343617387913,
+          "proposal_count": 256
+        }
+      ]
+    },
+    "context_value": {
+      "groups": {
+        "B200": {
+          "people": 12,
+          "energy_score": 0.24867762538331764,
+          "population_curve_mae_pp": 10.34362746063226,
+          "forecast_mean_curve": [
+            0.7419665089923435,
+            0.8655878098391927,
+            0.8843753016268576,
+            0.8849181379643324,
+            0.7425662926969708,
+            0.8707411629370848,
+            0.8843193655786385,
+            0.88406221183722
+          ],
+          "observed_mean_curve": [
+            0.9169023216428583,
+            0.9777941965441964,
+            0.9751830881404051,
+            0.9446308273811482,
+            0.899362200505773,
+            0.9519866787308647,
+            0.9715706120504882,
+            0.9485970633274871
+          ],
+          "mean_individual_mae_pp": 11.827045649090437
+        },
+        "Interleaved": {
+          "people": 12,
+          "energy_score": 0.1805997964877978,
+          "population_curve_mae_pp": 2.4454562163229263,
+          "forecast_mean_curve": [
+            0.6497826107409147,
+            0.7757541153123539,
+            0.8140830409315529,
+            0.8400217543295884,
+            0.8331721415601455,
+            0.8465526253124911,
+            0.8408607094783304,
+            0.8376903146998859
+          ],
+          "observed_mean_curve": [
+            0.7351188479866534,
+            0.7753065401091717,
+            0.8109951097996669,
+            0.8382652603689188,
+            0.8404263698101578,
+            0.8828094663690017,
+            0.8785450698480224,
+            0.8615031447880285
+          ],
+          "mean_individual_mae_pp": 7.7902774873118465
+        }
+      },
+      "equal_group_energy": 0.21463871093555772,
+      "rows": [
+        {
+          "column": 87,
+          "energy_score": 0.19248478640036465,
+          "mean_curve_mae_pp": 10.429493368689545,
+          "proposal_count": 256
+        },
+        {
+          "column": 76,
+          "energy_score": 0.25436533055706645,
+          "mean_curve_mae_pp": 12.001106696368524,
+          "proposal_count": 256
+        },
+        {
+          "column": 25,
+          "energy_score": 0.24594829466142337,
+          "mean_curve_mae_pp": 12.231445840446092,
+          "proposal_count": 256
+        },
+        {
+          "column": 41,
+          "energy_score": 0.13379134729936015,
+          "mean_curve_mae_pp": 4.868556894864533,
+          "proposal_count": 256
+        },
+        {
+          "column": 30,
+          "energy_score": 0.25724723036387676,
+          "mean_curve_mae_pp": 12.522492452368839,
+          "proposal_count": 256
+        },
+        {
+          "column": 37,
+          "energy_score": 0.2662877589291988,
+          "mean_curve_mae_pp": 14.015280535107664,
+          "proposal_count": 256
+        },
+        {
+          "column": 44,
+          "energy_score": 0.27954862209464776,
+          "mean_curve_mae_pp": 13.341088325678363,
+          "proposal_count": 256
+        },
+        {
+          "column": 84,
+          "energy_score": 0.25996005120236754,
+          "mean_curve_mae_pp": 12.5436174197231,
+          "proposal_count": 256
+        },
+        {
+          "column": 64,
+          "energy_score": 0.20351081954739828,
+          "mean_curve_mae_pp": 11.020149006703447,
+          "proposal_count": 256
+        },
+        {
+          "column": 68,
+          "energy_score": 0.3414198165845001,
+          "mean_curve_mae_pp": 13.758721914517997,
+          "proposal_count": 256
+        },
+        {
+          "column": 14,
+          "energy_score": 0.2764871637346925,
+          "mean_curve_mae_pp": 13.161224140704459,
+          "proposal_count": 256
+        },
+        {
+          "column": 45,
+          "energy_score": 0.2730802832249152,
+          "mean_curve_mae_pp": 12.031371193912692,
+          "proposal_count": 256
+        },
+        {
+          "column": 49,
+          "energy_score": 0.2664305696400451,
+          "mean_curve_mae_pp": 13.422722353505524,
+          "proposal_count": 256
+        },
+        {
+          "column": 23,
+          "energy_score": 0.13775180419860134,
+          "mean_curve_mae_pp": 6.812401169463647,
+          "proposal_count": 256
+        },
+        {
+          "column": 33,
+          "energy_score": 0.24015001804066924,
+          "mean_curve_mae_pp": 9.727755675075061,
+          "proposal_count": 256
+        },
+        {
+          "column": 79,
+          "energy_score": 0.2527116165969365,
+          "mean_curve_mae_pp": 9.014629245321762,
+          "proposal_count": 256
+        },
+        {
+          "column": 59,
+          "energy_score": 0.18131264567977318,
+          "mean_curve_mae_pp": 8.28939474808327,
+          "proposal_count": 256
+        },
+        {
+          "column": 15,
+          "energy_score": 0.12231861190955581,
+          "mean_curve_mae_pp": 4.968383773564536,
+          "proposal_count": 256
+        },
+        {
+          "column": 89,
+          "energy_score": 0.17341939102852094,
+          "mean_curve_mae_pp": 7.465252413089689,
+          "proposal_count": 256
+        },
+        {
+          "column": 29,
+          "energy_score": 0.1229389906201721,
+          "mean_curve_mae_pp": 4.270980482695233,
+          "proposal_count": 256
+        },
+        {
+          "column": 0,
+          "energy_score": 0.1676458067988818,
+          "mean_curve_mae_pp": 8.59592681941808,
+          "proposal_count": 256
+        },
+        {
+          "column": 27,
+          "energy_score": 0.16669099226780104,
+          "mean_curve_mae_pp": 6.3038698190333085,
+          "proposal_count": 256
+        },
+        {
+          "column": 85,
+          "energy_score": 0.10767045422206409,
+          "mean_curve_mae_pp": 4.638441508260947,
+          "proposal_count": 256
+        },
+        {
+          "column": 88,
+          "energy_score": 0.2281566568505529,
+          "mean_curve_mae_pp": 9.97357184023109,
+          "proposal_count": 256
+        }
+      ]
+    },
+    "exposure_growth": {
+      "groups": {
+        "B200": {
+          "people": 12,
+          "energy_score": 0.24520874060427508,
+          "population_curve_mae_pp": 10.372053552929659,
+          "forecast_mean_curve": [
+            0.7539067966199805,
+            0.8629775198634771,
+            0.8798155137849687,
+            0.878636995903657,
+            0.7535239824524913,
+            0.8666665136489885,
+            0.8820306552602318,
+            0.8787047265550535
+          ],
+          "observed_mean_curve": [
+            0.9169023216428583,
+            0.9777941965441964,
+            0.9751830881404051,
+            0.9446308273811482,
+            0.899362200505773,
+            0.9519866787308647,
+            0.9715706120504882,
+            0.9485970633274871
+          ],
+          "mean_individual_mae_pp": 11.79939171054665
+        },
+        "Interleaved": {
+          "people": 12,
+          "energy_score": 0.1808655687920401,
+          "population_curve_mae_pp": 2.7666208783663118,
+          "forecast_mean_curve": [
+            0.6607997296333575,
+            0.78678758490629,
+            0.8162052506105894,
+            0.8371603185520416,
+            0.8250879026914916,
+            0.8425187596514917,
+            0.8357005194865755,
+            0.8307624444945604
+          ],
+          "observed_mean_curve": [
+            0.7351188479866534,
+            0.7753065401091717,
+            0.8109951097996669,
+            0.8382652603689188,
+            0.8404263698101578,
+            0.8828094663690017,
+            0.8785450698480224,
+            0.8615031447880285
+          ],
+          "mean_individual_mae_pp": 7.84541234569096
+        }
+      },
+      "equal_group_energy": 0.2130371546981576,
+      "rows": [
+        {
+          "column": 87,
+          "energy_score": 0.20145496268490296,
+          "mean_curve_mae_pp": 10.947222856916568,
+          "proposal_count": 256
+        },
+        {
+          "column": 76,
+          "energy_score": 0.25396510962058605,
+          "mean_curve_mae_pp": 11.995320590606365,
+          "proposal_count": 256
+        },
+        {
+          "column": 25,
+          "energy_score": 0.24268046864811765,
+          "mean_curve_mae_pp": 12.221904260152382,
+          "proposal_count": 256
+        },
+        {
+          "column": 41,
+          "energy_score": 0.13901656459514014,
+          "mean_curve_mae_pp": 5.223843340983211,
+          "proposal_count": 256
+        },
+        {
+          "column": 30,
+          "energy_score": 0.2560957728293461,
+          "mean_curve_mae_pp": 12.735604702323952,
+          "proposal_count": 256
+        },
+        {
+          "column": 37,
+          "energy_score": 0.28899138566415317,
+          "mean_curve_mae_pp": 14.354743196933745,
+          "proposal_count": 256
+        },
+        {
+          "column": 44,
+          "energy_score": 0.27950928616277315,
+          "mean_curve_mae_pp": 13.482337580032718,
+          "proposal_count": 256
+        },
+        {
+          "column": 84,
+          "energy_score": 0.24708236872910982,
+          "mean_curve_mae_pp": 12.487517628385824,
+          "proposal_count": 256
+        },
+        {
+          "column": 64,
+          "energy_score": 0.19593466377799665,
+          "mean_curve_mae_pp": 10.863816557711898,
+          "proposal_count": 256
+        },
+        {
+          "column": 68,
+          "energy_score": 0.3232239843147736,
+          "mean_curve_mae_pp": 12.653016436523368,
+          "proposal_count": 256
+        },
+        {
+          "column": 14,
+          "energy_score": 0.2653062736316828,
+          "mean_curve_mae_pp": 12.92227962376115,
+          "proposal_count": 256
+        },
+        {
+          "column": 45,
+          "energy_score": 0.2492440465927184,
+          "mean_curve_mae_pp": 11.705093752228604,
+          "proposal_count": 256
+        },
+        {
+          "column": 49,
+          "energy_score": 0.2525996485798306,
+          "mean_curve_mae_pp": 13.213720349772192,
+          "proposal_count": 256
+        },
+        {
+          "column": 23,
+          "energy_score": 0.14246685980213974,
+          "mean_curve_mae_pp": 7.068298840790913,
+          "proposal_count": 256
+        },
+        {
+          "column": 33,
+          "energy_score": 0.2428492876010488,
+          "mean_curve_mae_pp": 9.655396003404846,
+          "proposal_count": 256
+        },
+        {
+          "column": 79,
+          "energy_score": 0.23987905455350952,
+          "mean_curve_mae_pp": 8.308411875190448,
+          "proposal_count": 256
+        },
+        {
+          "column": 59,
+          "energy_score": 0.18577347226639568,
+          "mean_curve_mae_pp": 8.53265646821085,
+          "proposal_count": 256
+        },
+        {
+          "column": 15,
+          "energy_score": 0.12043937804402,
+          "mean_curve_mae_pp": 4.82282922848938,
+          "proposal_count": 256
+        },
+        {
+          "column": 89,
+          "energy_score": 0.18843801228266943,
+          "mean_curve_mae_pp": 8.347813736652347,
+          "proposal_count": 256
+        },
+        {
+          "column": 29,
+          "energy_score": 0.12315340579939255,
+          "mean_curve_mae_pp": 4.456562359748569,
+          "proposal_count": 256
+        },
+        {
+          "column": 0,
+          "energy_score": 0.17376990830855016,
+          "mean_curve_mae_pp": 8.628955433642094,
+          "proposal_count": 256
+        },
+        {
+          "column": 27,
+          "energy_score": 0.17420356586055236,
+          "mean_curve_mae_pp": 6.712204466170244,
+          "proposal_count": 256
+        },
+        {
+          "column": 85,
+          "energy_score": 0.10388855193873608,
+          "mean_curve_mae_pp": 4.644266579408511,
+          "proposal_count": 256
+        },
+        {
+          "column": 88,
+          "energy_score": 0.2229256804676365,
+          "mean_curve_mae_pp": 9.753832806811129,
+          "proposal_count": 256
+        }
+      ]
+    }
+  },
+  "target_responses_used": false,
+  "quadrature_points": 3
+}

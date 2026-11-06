@@ -1,0 +1,511 @@
+{
+  "utc": "2026-11-05T17:52:44.173225+00:00",
+  "status": "complete",
+  "new_evaluation_payloads_read": false,
+  "score_reconstruction_max_abs_error": 0.0,
+  "reconstructed_D_mean": [
+    -0.014230456798804744,
+    -0.010866940873024462
+  ],
+  "reconstructed_D_sd": [
+    0.05413604011991628,
+    0.0591407370287308
+  ],
+  "reference_mean_risks": [
+    0.12764130088015332,
+    0.13137854079768696
+  ],
+  "paired_reference_correlation": [
+    [
+      1.0,
+      0.9689754112059958
+    ],
+    [
+      0.968975411205996,
+      1.0
+    ]
+  ],
+  "n192_critical": 2.259210357431868,
+  "n192_expected_score_halfwidth": [
+    0.008826581617496693,
+    0.009642569739986525
+  ],
+  "n192_halfwidth_as_relative_recent_percentage": 6.915145455767693,
+  "independent_bootstrap_rates": [
+    {
+      "relative_GRU_gain_against_recent": 0.0,
+      "author_equal_relative_scenario": {
+        "positive_both": {
+          "k": 0,
+          "n": 50000,
+          "rate": 0.0
+        },
+        "negative_recent": {
+          "k": 42480,
+          "n": 50000,
+          "rate": 0.8496
+        },
+        "negative_both": {
+          "k": 39610,
+          "n": 50000,
+          "rate": 0.7922
+        }
+      },
+      "common_GRU_risk_scenario": {
+        "gru_risk": 0.12764130088015332,
+        "truth": [
+          -0.01276413008801533,
+          -0.00940061416223506
+        ],
+        "positive_both": {
+          "k": 0,
+          "n": 50000,
+          "rate": 0.0
+        },
+        "negative_recent": {
+          "k": 42480,
+          "n": 50000,
+          "rate": 0.8496
+        },
+        "negative_both": {
+          "k": 24539,
+          "n": 50000,
+          "rate": 0.49078
+        }
+      }
+    },
+    {
+      "relative_GRU_gain_against_recent": 0.05,
+      "author_equal_relative_scenario": {
+        "positive_both": {
+          "k": 1,
+          "n": 50000,
+          "rate": 2e-05
+        },
+        "negative_recent": {
+          "k": 13753,
+          "n": 50000,
+          "rate": 0.27506
+        },
+        "negative_both": {
+          "k": 11231,
+          "n": 50000,
+          "rate": 0.22462
+        }
+      },
+      "common_GRU_risk_scenario": {
+        "gru_risk": 0.12125923583614565,
+        "truth": [
+          -0.006382065044007651,
+          -0.0030185491182273816
+        ],
+        "positive_both": {
+          "k": 1,
+          "n": 50000,
+          "rate": 2e-05
+        },
+        "negative_recent": {
+          "k": 13753,
+          "n": 50000,
+          "rate": 0.27506
+        },
+        "negative_both": {
+          "k": 3098,
+          "n": 50000,
+          "rate": 0.06196
+        }
+      }
+    },
+    {
+      "relative_GRU_gain_against_recent": 0.1,
+      "author_equal_relative_scenario": {
+        "positive_both": {
+          "k": 519,
+          "n": 50000,
+          "rate": 0.01038
+        },
+        "negative_recent": {
+          "k": 586,
+          "n": 50000,
+          "rate": 0.01172
+        },
+        "negative_both": {
+          "k": 448,
+          "n": 50000,
+          "rate": 0.00896
+        }
+      },
+      "common_GRU_risk_scenario": {
+        "gru_risk": 0.114877170792138,
+        "truth": [
+          0.0,
+          0.0033635159257802694
+        ],
+        "positive_both": {
+          "k": 681,
+          "n": 50000,
+          "rate": 0.01362
+        },
+        "negative_recent": {
+          "k": 586,
+          "n": 50000,
+          "rate": 0.01172
+        },
+        "negative_both": {
+          "k": 55,
+          "n": 50000,
+          "rate": 0.0011
+        }
+      }
+    },
+    {
+      "relative_GRU_gain_against_recent": 0.15,
+      "author_equal_relative_scenario": {
+        "positive_both": {
+          "k": 11572,
+          "n": 50000,
+          "rate": 0.23144
+        },
+        "negative_recent": {
+          "k": 4,
+          "n": 50000,
+          "rate": 8e-05
+        },
+        "negative_both": {
+          "k": 3,
+          "n": 50000,
+          "rate": 6e-05
+        }
+      },
+      "common_GRU_risk_scenario": {
+        "gru_risk": 0.10849510574813032,
+        "truth": [
+          0.006382065044007679,
+          0.009745580969787948
+        ],
+        "positive_both": {
+          "k": 14008,
+          "n": 50000,
+          "rate": 0.28016
+        },
+        "negative_recent": {
+          "k": 4,
+          "n": 50000,
+          "rate": 8e-05
+        },
+        "negative_both": {
+          "k": 0,
+          "n": 50000,
+          "rate": 0.0
+        }
+      }
+    },
+    {
+      "relative_GRU_gain_against_recent": 0.2,
+      "author_equal_relative_scenario": {
+        "positive_both": {
+          "k": 39294,
+          "n": 50000,
+          "rate": 0.78588
+        },
+        "negative_recent": {
+          "k": 0,
+          "n": 50000,
+          "rate": 0.0
+        },
+        "negative_both": {
+          "k": 0,
+          "n": 50000,
+          "rate": 0.0
+        }
+      },
+      "common_GRU_risk_scenario": {
+        "gru_risk": 0.10211304070412267,
+        "truth": [
+          0.01276413008801533,
+          0.0161276460137956
+        ],
+        "positive_both": {
+          "k": 42054,
+          "n": 50000,
+          "rate": 0.84108
+        },
+        "negative_recent": {
+          "k": 0,
+          "n": 50000,
+          "rate": 0.0
+        },
+        "negative_both": {
+          "k": 0,
+          "n": 50000,
+          "rate": 0.0
+        }
+      }
+    }
+  ],
+  "parametric_noncentral_t_check": [
+    {
+      "sd_multiplier": 1.0,
+      "benefit": 0.0,
+      "positive_recent": 2.0418648660758265e-08,
+      "negative_recent": 0.8423382333690999,
+      "power_positive_both_cannot_exceed_recent": 2.0418648660758265e-08
+    },
+    {
+      "sd_multiplier": 1.0,
+      "benefit": 0.05,
+      "positive_recent": 5.571247414052214e-05,
+      "negative_recent": 0.26808659717766314,
+      "power_positive_both_cannot_exceed_recent": 5.571247414052214e-05
+    },
+    {
+      "sd_multiplier": 1.0,
+      "benefit": 0.15,
+      "positive_recent": 0.2680865971776629,
+      "negative_recent": 5.571247414050417e-05,
+      "power_positive_both_cannot_exceed_recent": 0.2680865971776629
+    },
+    {
+      "sd_multiplier": 1.0,
+      "benefit": 0.2,
+      "positive_recent": 0.8423382333690999,
+      "negative_recent": 2.0418648660758265e-08,
+      "power_positive_both_cannot_exceed_recent": 0.8423382333690999
+    },
+    {
+      "sd_multiplier": 1.5,
+      "benefit": 0.0,
+      "positive_recent": 5.283534988853589e-06,
+      "negative_recent": 0.46903555001613717,
+      "power_positive_both_cannot_exceed_recent": 5.283534988853589e-06
+    },
+    {
+      "sd_multiplier": 1.5,
+      "benefit": 0.05,
+      "positive_recent": 0.0004447923407186073,
+      "negative_recent": 0.12311940236650554,
+      "power_positive_both_cannot_exceed_recent": 0.0004447923407186073
+    },
+    {
+      "sd_multiplier": 1.5,
+      "benefit": 0.15,
+      "positive_recent": 0.12311940236650543,
+      "negative_recent": 0.00044479234071860216,
+      "power_positive_both_cannot_exceed_recent": 0.12311940236650543
+    },
+    {
+      "sd_multiplier": 1.5,
+      "benefit": 0.2,
+      "positive_recent": 0.46903555001613717,
+      "negative_recent": 5.283534988853589e-06,
+      "power_positive_both_cannot_exceed_recent": 0.46903555001613717
+    }
+  ],
+  "old_means_repeat": {
+    "recent": {
+      "k": 46052,
+      "n": 50000,
+      "rate": 0.92104
+    },
+    "both": {
+      "k": 31323,
+      "n": 50000,
+      "rate": 0.62646
+    }
+  },
+  "source_criterion_selection": [
+    {
+      "horizon": 3000,
+      "all_observed_events": 8,
+      "complete_at_h": 62,
+      "events_in_complete": 6,
+      "observed_early_events_discarded": 2,
+      "discarded_fraction": 0.25,
+      "excluded_observed_event_subjects": [
+        "ZM_1371",
+        "CSH_ZAD_010"
+      ],
+      "event_free_observed_through_h": 56,
+      "right_censored_without_event": 10,
+      "note": "Selection illustration on old source only. Not the new cohort's event rate."
+    },
+    {
+      "horizon": 4000,
+      "all_observed_events": 10,
+      "complete_at_h": 56,
+      "events_in_complete": 4,
+      "observed_early_events_discarded": 6,
+      "discarded_fraction": 0.6,
+      "excluded_observed_event_subjects": [
+        "KS023",
+        "DY_010",
+        "DY_011",
+        "ZM_1371",
+        "ZM_1745",
+        "CSH_ZAD_010"
+      ],
+      "event_free_observed_through_h": 52,
+      "right_censored_without_event": 12,
+      "note": "Selection illustration on old source only. Not the new cohort's event rate."
+    },
+    {
+      "horizon": 6000,
+      "all_observed_events": 17,
+      "complete_at_h": 49,
+      "events_in_complete": 7,
+      "observed_early_events_discarded": 10,
+      "discarded_fraction": 0.5882352941176471,
+      "excluded_observed_event_subjects": [
+        "NYU-20",
+        "KS023",
+        "DY_010",
+        "DY_011",
+        "DY_013",
+        "ZM_1371",
+        "ZM_1745",
+        "CSH_ZAD_010",
+        "ZM_1743",
+        "CSH_ZAD_007"
+      ],
+      "event_free_observed_through_h": 42,
+      "right_censored_without_event": 15,
+      "note": "Selection illustration on old source only. Not the new cohort's event rate."
+    }
+  ],
+  "future_switch_exclusions": [
+    {
+      "subject": "NYU-48",
+      "training_opportunities": 2705,
+      "intervening_other_tasks": [
+        "52041369-b2ad-44ee-befa-46fac33f1dda"
+      ]
+    },
+    {
+      "subject": "ZM_1084",
+      "training_opportunities": 1056,
+      "intervening_other_tasks": [
+        "6a04b5bb-a47f-4f07-bf93-cb7b01fb53df"
+      ]
+    }
+  ],
+  "qualified_unit_counts": {
+    "n": 192,
+    "by_lab": {
+      "angelakilab": 85,
+      "churchlandlab": 9,
+      "churchlandlab_ucla": 22,
+      "cortexlab": 14,
+      "danlab": 6,
+      "hausserlab": 11,
+      "hoferlab": 3,
+      "mainenlab": 24,
+      "mrsicflogellab": 7,
+      "steinmetzlab": 7,
+      "wittenlab": 4
+    },
+    "cohorts": {
+      "public_subject_aggregate": 116,
+      "ASD_project": 76
+    }
+  },
+  "name_overlap": [],
+  "identity_note": "Independent canonical-name check only; source stable-session/alias receipts still govern. No universal animal-UUID claim.",
+  "illustrative_same_lab_correlation": [
+    {
+      "icc": 0.0,
+      "design_effect": 1.0,
+      "effective_n": 192.0,
+      "normal_positive_recent_at20": 0.8432334971657793
+    },
+    {
+      "icc": 0.01,
+      "design_effect": 1.4505208333333335,
+      "effective_n": 132.36624775583482,
+      "normal_positive_recent_at20": 0.6748830090441502
+    },
+    {
+      "icc": 0.05,
+      "design_effect": 3.252604166666667,
+      "effective_n": 59.02962369895916,
+      "normal_positive_recent_at20": 0.32718323846132075
+    },
+    {
+      "icc": 0.1,
+      "design_effect": 5.505208333333334,
+      "effective_n": 34.87606433301797,
+      "normal_positive_recent_at20": 0.19302687839754407
+    }
+  ],
+  "near_threshold_required_n_recent_15_or5": 687,
+  "at20_required_n_recent": 174,
+  "independent_price": {
+    "primary_cpu_minutes": 65.429987,
+    "dependent_cpu_minutes": 231.71726899999993,
+    "proposed_whole_future_cpu_minutes": [
+      496.4340699999999,
+      805.0076979999999
+    ],
+    "proposed_whole_future_elapsed_scientist_hours": [
+      11.0,
+      20.5
+    ],
+    "source_development_and_this_review_actuals_additional": true
+  },
+  "resources": {
+    "scientific_cpu_seconds": 0.36199199999999987,
+    "wall_seconds": 0.25964400000000004,
+    "peak_rss_bytes": 113590272,
+    "explicit_reads": 4778507,
+    "decoded_saved_array_bytes": 410080,
+    "read_receipts": [
+      {
+        "path": "lab/tasks/calibration-frontier-main-2026-11-05/REFINED_SCORES.npz",
+        "bytes": 172846,
+        "sha256": "01bdd2c893afcf1865134e04155046a953ac715d08c591fbed828097a64d62e8"
+      },
+      {
+        "path": "lab/tasks/calibration-frontier-main-2026-11-05/REFINED_CONTRASTS.npz",
+        "bytes": 306518,
+        "sha256": "754a263ad51578db60cf0e25ab338143cd0f57ad1d27afe74737508141d4c05e"
+      },
+      {
+        "path": "lab/tasks/calibration-frontier-main-2026-11-05/MAIN_FAMILY_REFINED.json",
+        "bytes": 137421,
+        "sha256": "5580c2fb4b666966c2b2ebf74bbe06548b6a693e9ae1bba59efac6466aff5e44"
+      },
+      {
+        "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/FOCUSED_DESIGN.json",
+        "bytes": 51039,
+        "sha256": "7507eea96617de7675248d6dcf828e44560250683e04071cee180923f0d7812e"
+      },
+      {
+        "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/QUALIFIED_COHORT.json",
+        "bytes": 1695142,
+        "sha256": "5b534113d96320b86c390fbf50bbc870d3114c99f4252e7c4da0c316d68ee25f"
+      },
+      {
+        "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/AGGREGATE_CHRONOLOGY.json",
+        "bytes": 2179287,
+        "sha256": "f8065f11a2cfd90aeccf88ed196849ff1fc0ab0c583a01d381b63f359d02346a"
+      },
+      {
+        "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/CRITERION_SOURCE_FIT.json",
+        "bytes": 163020,
+        "sha256": "d6641f9ddc0e5b0d9c13635f05077a596c036e9d5947bc057f1155dbd69d6d58"
+      },
+      {
+        "path": "lab/tasks/calibration-frontier-main-2026-11-05/MAIN_EXECUTION.json",
+        "bytes": 4727,
+        "sha256": "38b98050023de6138d277764d50b35708459bab6e14d80ff315fbc8f35915dcf"
+      },
+      {
+        "path": "lab/tasks/independent-acquisition-cohort-2026-11-05/ORIGINAL_EXCLUSIONS.json",
+        "bytes": 68507,
+        "sha256": "ff2841ebfe39b7b8d26d2b965ee353d5ead1b61ecc4b9d248deecc570ea52b3a"
+      }
+    ],
+    "physical_io_and_import_cpu": "unmeasured; process_time starts after imports",
+    "public_ingress_bytes": 0
+  },
+  "scope": "Planning, derived consumed-data scores, public/source metadata and criterion summaries only; conditional trained prescription, no source-tail or arbitrary-site guarantee."
+}

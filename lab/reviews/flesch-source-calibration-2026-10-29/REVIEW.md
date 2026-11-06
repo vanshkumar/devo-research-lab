@@ -1,0 +1,15 @@
+# Independent implemented-source review
+
+**Recommendation: stop this block before target responses.** The saved shared prescription fails the frozen source criterion. This is a bounded computational/source result; cross-curriculum learning remains unresolved.
+
+Independent reconstruction supports the implemented primary law. Thirty-eight explicit checks cover rational history/count enumeration, mixture normalization, SGD before all-input Oja, causal emissions, test handling, timing boundaries, source masks/split/chronology, original response coding and autonomous sampling. A separate vector implementation reproduces the final value fit objective exactly. All three models share their prescription across curricula; no current target history enters them. The repaired stable log kernel passes logits from −1000 to +1000 and retains impossible events as −∞. The absent-late forecast flag was repaired; actual saved fits retain positive late mass.
+
+The decisive source result survives removal of Monte Carlo error. Exact forward/backward selected-curve calculation gives value-learner B200/Interleaved errors **10.1967/2.4343 pp** at three quadrature points; nine points give **10.1985/2.4323 pp**. The B200 ≤10 pp criterion still fails. Independent reconstruction of the 256-draw energy comparison gives learner-minus-growth improvement **−0.001959 [−0.005647,+0.001599]**, with whole-person stratified bootstrap uncertainty. Useful prediction over growth is unestablished; a tie between useful learners would not itself fail utility.
+
+**Material numerical boundary:** fixed-parameter value NLL changes **18230.32→18155.08→18134.09** at 3/5/9 person quadrature points; growth changes **18415.05→18341.55→18312.24**. Smooth mean forecasts are stable, but the continuous-Gaussian trajectory integral is unresolved. Powell success at three points is therefore insufficient evidence of converged population fitting. The network also exhausts both call caps; this is no global model-class or biological refutation.
+
+High early B200 averages reflect acquisition, not demonstrated initial rule knowledge: across 48 source people the first nonboundary trial is **47.9%** correct with balanced truth, versus **70.4%** over ten and **86.3%** over forty. Inspected instructions do not certify practice or prior rule feedback. No primary measurement/coding mismatch was found; representation, rapid learning and person-state assumptions remain competing explanations.
+
+All source checks are development: timing support used all 95 people, and first-start timing initialization included checks. Full refit known-effect/null calibration and the 16-case envelope remain unfinished. No target-release readiness is earned. Reopening needs independently supported information addressing the acquisition gap plus a numerically converged, calibrated shared comparison; no automatic fourth model or further fit is recommended.
+
+Evidence: `independent_results.json`, `kernel_boundary_results.json`, `exact_source_results.json`, `source_descriptive_results.json`; exact access and limitations in `EXPOSURE.md`.

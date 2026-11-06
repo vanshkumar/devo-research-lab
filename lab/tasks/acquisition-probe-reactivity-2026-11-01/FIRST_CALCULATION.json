@@ -1,0 +1,288 @@
+{
+  "utc": "2026-11-01T15:31:43.590226+00:00",
+  "purpose": "Source-mechanism and scalar-reference feasibility calculation, not a new main claim",
+  "pins": {
+    "code/rnn_learning.py": {
+      "bytes": 4953,
+      "sha256": "9d08cb223a6e418c7d32575c5927864ccb642f89d4365b510fd9341dbc5d4023"
+    },
+    "code/learning_models.py": {
+      "bytes": 6955,
+      "sha256": "46090bda22320171eaca91b979476b7aefc947d0cff4b3fe3c14ae67fa818017"
+    },
+    "artifacts/rnn/rnnglm32_nested_best.npz": {
+      "bytes": 56254,
+      "sha256": "c7f675d18f4143891ed7d2c76d91f74be74da9565fbae5407952768e2c146940"
+    }
+  },
+  "parameter_keys": [
+    "A",
+    "B",
+    "C",
+    "Whh",
+    "Wih",
+    "a",
+    "b",
+    "bhh",
+    "bih",
+    "cc",
+    "scale"
+  ],
+  "decoded_parameter_bytes": 52144,
+  "imported_local_modules": [
+    "rnn_learning",
+    "learning_models"
+  ],
+  "import_semantics": "Inspected source has no top-level data loading. Only parameter artifact is loaded; no reader, prefix, bank, target array or optimizer called.",
+  "constructed_cases": [
+    {
+      "initial_w": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "initial_h": "exact zero, privileged constructed initial condition",
+      "constructed_history": [
+        {
+          "s": -1.0,
+          "choice": 1,
+          "feedback": 1,
+          "before": 0.5,
+          "after": 0.5002030644629278
+        },
+        {
+          "s": 1.0,
+          "choice": -1,
+          "feedback": 1,
+          "before": 0.5002030644629278,
+          "after": 0.5001794596062797
+        },
+        {
+          "s": -0.25,
+          "choice": -1,
+          "feedback": -1,
+          "before": 0.5001794596062797,
+          "after": 0.4968635615681596
+        },
+        {
+          "s": 0.25,
+          "choice": -1,
+          "feedback": 1,
+          "before": 0.4968635615681596,
+          "after": 0.49749124811917816
+        }
+      ],
+      "preprobe_accuracy": 0.49749124811917816,
+      "expected_after_one_full_feedback_probe": 0.4993746383484002,
+      "expected_change": 0.001883390229222015,
+      "zero_equals_negative_feedback": true,
+      "omission_is_state_identity": true,
+      "branches": [
+        {
+          "s": -1.0,
+          "choice": -1,
+          "feedback": -1,
+          "probability": 0.3202768712728331,
+          "common_accuracy_after": 0.4964810057976295,
+          "zero_feedback_parameter_change": 0.12771820545317547
+        },
+        {
+          "s": -1.0,
+          "choice": 1,
+          "feedback": 1,
+          "probability": 0.1797231287271669,
+          "common_accuracy_after": 0.5039861908215012,
+          "zero_feedback_parameter_change": 0.2629824859396433
+        },
+        {
+          "s": 1.0,
+          "choice": -1,
+          "feedback": 1,
+          "probability": 0.3177681193920113,
+          "common_accuracy_after": 0.499918439677441,
+          "zero_feedback_parameter_change": 0.13388243820685897
+        },
+        {
+          "s": 1.0,
+          "choice": 1,
+          "feedback": -1,
+          "probability": 0.18223188060798873,
+          "common_accuracy_after": 0.49896394300692837,
+          "zero_feedback_parameter_change": 0.2503348971465619
+        }
+      ]
+    },
+    {
+      "initial_w": [
+        2.0,
+        2.0,
+        0.0
+      ],
+      "initial_h": "exact zero, privileged constructed initial condition",
+      "constructed_history": [
+        {
+          "s": -1.0,
+          "choice": 1,
+          "feedback": 1,
+          "before": 0.8807970779778823,
+          "after": 0.8782777837720226
+        },
+        {
+          "s": 1.0,
+          "choice": -1,
+          "feedback": 1,
+          "before": 0.8782777837720226,
+          "after": 0.8804266228355382
+        },
+        {
+          "s": -0.25,
+          "choice": -1,
+          "feedback": -1,
+          "before": 0.8804266228355382,
+          "after": 0.8799234433396153
+        },
+        {
+          "s": 0.25,
+          "choice": -1,
+          "feedback": 1,
+          "before": 0.8799234433396153,
+          "after": 0.8781057877559241
+        }
+      ],
+      "preprobe_accuracy": 0.8781057877559241,
+      "expected_after_one_full_feedback_probe": 0.8791282240535905,
+      "expected_change": 0.001022436297666407,
+      "zero_equals_negative_feedback": true,
+      "omission_is_state_identity": true,
+      "branches": [
+        {
+          "s": -1.0,
+          "choice": -1,
+          "feedback": -1,
+          "probability": 0.07412527223378508,
+          "common_accuracy_after": 0.8703639274806019,
+          "zero_feedback_parameter_change": 0.21301371625633467
+        },
+        {
+          "s": -1.0,
+          "choice": 1,
+          "feedback": 1,
+          "probability": 0.42587472776621493,
+          "common_accuracy_after": 0.8821086966208895,
+          "zero_feedback_parameter_change": 0.21216065523587777
+        },
+        {
+          "s": 1.0,
+          "choice": -1,
+          "feedback": 1,
+          "probability": 0.4522310599897092,
+          "common_accuracy_after": 0.8777085369416251,
+          "zero_feedback_parameter_change": 0.07006920025372823
+        },
+        {
+          "s": 1.0,
+          "choice": 1,
+          "feedback": -1,
+          "probability": 0.047768940010290806,
+          "common_accuracy_after": 0.8795966148885195,
+          "zero_feedback_parameter_change": 0.33949855673934975
+        }
+      ]
+    },
+    {
+      "initial_w": [
+        2.0,
+        2.0,
+        1.0
+      ],
+      "initial_h": "exact zero, privileged constructed initial condition",
+      "constructed_history": [
+        {
+          "s": -1.0,
+          "choice": 1,
+          "feedback": 1,
+          "before": 0.8418163527262191,
+          "after": 0.8612152839187428
+        },
+        {
+          "s": 1.0,
+          "choice": -1,
+          "feedback": 1,
+          "before": 0.8612152839187428,
+          "after": 0.8643207782335989
+        },
+        {
+          "s": -0.25,
+          "choice": -1,
+          "feedback": -1,
+          "before": 0.8643207782335989,
+          "after": 0.8528660227567582
+        },
+        {
+          "s": 0.25,
+          "choice": -1,
+          "feedback": 1,
+          "before": 0.8528660227567582,
+          "after": 0.846573197887436
+        }
+      ],
+      "preprobe_accuracy": 0.846573197887436,
+      "expected_after_one_full_feedback_probe": 0.8524734098159884,
+      "expected_change": 0.00590021192855239,
+      "zero_equals_negative_feedback": true,
+      "omission_is_state_identity": true,
+      "branches": [
+        {
+          "s": -1.0,
+          "choice": -1,
+          "feedback": -1,
+          "probability": 0.1290294260669686,
+          "common_accuracy_after": 0.8304364287122915,
+          "zero_feedback_parameter_change": 0.1827206987196206
+        },
+        {
+          "s": -1.0,
+          "choice": 1,
+          "feedback": 1,
+          "probability": 0.3709705739330314,
+          "common_accuracy_after": 0.8666583963720824,
+          "zero_feedback_parameter_change": 0.25730972238907346
+        },
+        {
+          "s": 1.0,
+          "choice": -1,
+          "feedback": 1,
+          "probability": 0.47560262395440456,
+          "common_accuracy_after": 0.8464814122318192,
+          "zero_feedback_parameter_change": 0.02921099377803582
+        },
+        {
+          "s": 1.0,
+          "choice": 1,
+          "feedback": -1,
+          "probability": 0.024397376045595442,
+          "common_accuracy_after": 0.8701399077650288,
+          "zero_feedback_parameter_change": 0.39068722465782924
+        }
+      ]
+    }
+  ],
+  "max_scalar_reference_error": 2.220446049250313e-16,
+  "feedback_semantics": "API maps feedback to feedback>0: 0 and -1 are indistinguishable; omissions skip the entire update, but an observed binary response is not an omission.",
+  "estimand": "Balanced +/-100 first-response accuracy conditional on responding at a fixed constructed state",
+  "assumptions": [
+    "Zero omission probability imposed for this reference",
+    "Full correct/incorrect feedback protocol only",
+    "No biological validity or unknown-state calibration earned",
+    "No elapsed-time state or separate feedback-withheld input is supplied by this code"
+  ],
+  "native_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 NUMEXPR_NUM_THREADS=1 NUMBA_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 campaigns/learning_rule_transport_2026-10-28/.modelenv/bin/python lab/tasks/acquisition-probe-reactivity-2026-11-01/first_calculation.py",
+  "resources": {
+    "explicit_read_hash_decode_bytes": 120306,
+    "peak_scientific_process_rss_bytes": 116342784,
+    "wall_seconds": 0.7396256659994833,
+    "public_operations": 0,
+    "empirical_rows": 0,
+    "physical_io_and_runtime_library_reads": "unknown; charged separately in cumulative resource record"
+  }
+}

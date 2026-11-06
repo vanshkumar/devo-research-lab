@@ -1,0 +1,66 @@
+{
+  "n_syllables": 25,
+  "closer_mean": 0.17862405269119708,
+  "farther_mean": -0.21280629430776962,
+  "paired_difference_mean": 0.3914303469989667,
+  "paired_difference_median": 0.3533043886125201,
+  "paired_difference_range": [
+    0.05106469628193507,
+    0.966570083591955
+  ],
+  "positive_differences": 25,
+  "leave_one_syllable_difference_range": [
+    0.3674661913075922,
+    0.40561224911217636
+  ],
+  "reference_paired_t_statistic": 9.142759782971504,
+  "reference_paired_t_pvalue": 2.7460583839955274e-09,
+  "warning_reference_test": "reproduces source syllable-level calculation; syllables within six birds are not25 independent animals. Do not use as fresh bird-level inference.",
+  "bird_grouping_sign_constraint": "All25 paired differences are positive, so every nonempty group mean remains positive under any grouping into birds; this does not supply missing bird-level variances or prove a population effect.",
+  "decile_response": {
+    "half_open": [
+      0.17776743163803474,
+      0.1138375747440832,
+      0.061582895399829626,
+      0.04588036581265904,
+      0.01673236794352124,
+      0.005764927683010671,
+      -0.030384669007521847,
+      -0.051044696416589805,
+      -0.11854588116732823,
+      -0.21189233194373325
+    ],
+    "inclusive": [
+      0.17775623255391224,
+      0.11382740391751511,
+      0.06158813379862965,
+      0.04587763809885636,
+      0.016734633591940443,
+      0.005766337505748708,
+      -0.030378900772035086,
+      -0.05104164367075423,
+      -0.11854525199856655,
+      -0.21188662049117518
+    ],
+    "max_time_grid_difference": 1.1199084122504033e-05,
+    "endpoint_aggregate_match_error": 0.0009139623640363748,
+    "spearman_in_source_column_order": -0.9999999999999999,
+    "strictly_decreasing_in_source_column_order": true,
+    "quality_direction": "not independently labeled in worksheet; first/last columns numerically reconcile with closer/farther g as a post-inspection consistency check",
+    "time_axis": "display-grid convention based on stated -1..+1sec plotting span, not raw acquisition timestamps; g scalar panel is definitive"
+  },
+  "analytical_constraint": {
+    "gaussian_covariance": "Cov(epsilon, -||mu+epsilon-theta||^2)=2*sigma^2*(theta-mu)",
+    "derivation": "Expand squared norm; centered Gaussian cubic moments vanish and E[epsilon_i*epsilon_j]=sigma^2 delta_ij. This covariance exists even when the song-update equation contains only the latent target, without dopamine.",
+    "known_single_feature_case": {
+      "sigma": 0.25,
+      "theta_minus_mu": 0.4,
+      "exact_covariance": 0.05
+    }
+  },
+  "claims": [
+    "Definitive g pairs support the relative-quality contrast. The unlabeled decile columns are strictly ordered in source order; direction relative to quality is not independently established by worksheet labels.",
+    "These data do not manipulate tutor identity or identify how a tutor template is acquired.",
+    "Other causal studies establish pathway roles; this descriptive source-data audit does not overturn them."
+  ]
+}

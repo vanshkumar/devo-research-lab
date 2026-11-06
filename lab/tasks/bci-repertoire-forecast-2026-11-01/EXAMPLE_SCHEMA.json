@@ -1,0 +1,848 @@
+{
+  "timestamp_utc": "2026-11-01T04:41:41.240337+00:00",
+  "source": {
+    "url": "https://raw.githubusercontent.com/mattgolub/bci_learning/3e6f00c959096189dd77df57ceb9eb540da83f76/exampleData.mat",
+    "timestamp_utc": "2026-11-01T04:41:40.878199+00:00",
+    "public_operations": 1,
+    "status": 200,
+    "headers": {
+      "Connection": "close",
+      "Content-Length": "252829",
+      "Cache-Control": "max-age=300",
+      "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+      "Content-Type": "application/octet-stream",
+      "ETag": "\"c16fd326bce597975c596fbad681f2df4172fe5bae14ca24281e198c9382ac60\"",
+      "Strict-Transport-Security": "max-age=31536000",
+      "X-Content-Type-Options": "nosniff",
+      "X-Frame-Options": "deny",
+      "X-XSS-Protection": "1; mode=block",
+      "X-GitHub-Request-Id": "2552:1C60:8A199C:B3DE18:6AE6C304",
+      "x-github-edge-region": "iad",
+      "Accept-Ranges": "bytes",
+      "Date": "Sun, 01 Nov 2026 04:41:41 GMT",
+      "Via": "1.1 varnish",
+      "X-Served-By": "cache-iad-kiad7000174-IAD",
+      "X-Cache": "MISS",
+      "X-Cache-Hits": "0",
+      "X-Timer": "S1793508101.949401,VS0,VE106",
+      "Vary": "Authorization,Accept-Encoding",
+      "Access-Control-Allow-Origin": "*",
+      "Cross-Origin-Resource-Policy": "cross-origin",
+      "X-Fastly-Request-ID": "d3effa1ca2c4a148b6d3168ac35ba80bf0b0aa3a",
+      "Expires": "Sun, 01 Nov 2026 04:46:41 GMT",
+      "Source-Age": "0"
+    },
+    "response_body_bytes": 252829,
+    "file_bytes": 252829,
+    "sha256": "f28fab9442dd0564aab00597796785665f1c3d4b4437e3802c4c99c9696512b1",
+    "git_blob_sha1": "8fef1e48e8515665b5a162f6ad6aeb7d2c5ada76"
+  },
+  "schema": {
+    "expParams": {
+      "monkName": "Jeffy",
+      "expDate": "20120305",
+      "intuitiveMapping": {
+        "M1": {
+          "shape": [
+            2,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "M2": {
+          "shape": [
+            2,
+            86
+          ],
+          "dtype": "float64"
+        },
+        "m0": {
+          "shape": [
+            2
+          ],
+          "dtype": "float64"
+        },
+        "mu_u": {
+          "shape": [
+            86
+          ],
+          "dtype": "float64"
+        },
+        "Sigma_u": {
+          "shape": [
+            86,
+            86
+          ],
+          "dtype": "float64"
+        },
+        "beta": {
+          "shape": [
+            10,
+            86
+          ],
+          "dtype": "float64"
+        },
+        "L": {
+          "shape": [
+            86,
+            10
+          ],
+          "dtype": "float64"
+        },
+        "Ph": {
+          "shape": [
+            86
+          ],
+          "dtype": "float64"
+        },
+        "mu": {
+          "shape": [
+            10
+          ],
+          "dtype": "float64"
+        },
+        "Sigma_z": {
+          "shape": [
+            10,
+            10
+          ],
+          "dtype": "float64"
+        },
+        "U": {
+          "shape": [
+            86,
+            10
+          ],
+          "dtype": "float64"
+        },
+        "D": {
+          "shape": [
+            10,
+            10
+          ],
+          "dtype": "float64"
+        },
+        "V": {
+          "shape": [
+            10,
+            10
+          ],
+          "dtype": "float64"
+        },
+        "A": {
+          "shape": [
+            2,
+            2
+          ],
+          "dtype": "uint8"
+        },
+        "b": {
+          "shape": [
+            2
+          ],
+          "dtype": "uint8"
+        },
+        "Q": {
+          "shape": [
+            2,
+            2
+          ],
+          "dtype": "uint16"
+        },
+        "C": {
+          "shape": [
+            10,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "d": {
+          "shape": [
+            10
+          ],
+          "dtype": "float64"
+        },
+        "R": {
+          "shape": [
+            10,
+            10
+          ],
+          "dtype": "float64"
+        },
+        "K": {
+          "shape": [
+            2,
+            10
+          ],
+          "dtype": "float64"
+        },
+        "eta": {
+          "shape": [
+            10,
+            10
+          ],
+          "dtype": "uint8"
+        },
+        "CURSOR_RADIUS": 0,
+        "TARGET_RADIUS": 20,
+        "dt": 0.045
+      },
+      "perturbedMapping": {
+        "M1": {
+          "shape": [
+            2,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "M2": {
+          "shape": [
+            2,
+            86
+          ],
+          "dtype": "float64"
+        },
+        "m0": {
+          "shape": [
+            2
+          ],
+          "dtype": "float64"
+        },
+        "mu_u": {
+          "shape": [
+            86
+          ],
+          "dtype": "float64"
+        },
+        "Sigma_u": {
+          "shape": [
+            86,
+            86
+          ],
+          "dtype": "float64"
+        },
+        "beta": {
+          "shape": [
+            10,
+            86
+          ],
+          "dtype": "float64"
+        },
+        "L": {
+          "shape": [
+            86,
+            10
+          ],
+          "dtype": "float64"
+        },
+        "Ph": {
+          "shape": [
+            86
+          ],
+          "dtype": "float64"
+        },
+        "mu": {
+          "shape": [
+            10
+          ],
+          "dtype": "float64"
+        },
+        "Sigma_z": {
+          "shape": [
+            10,
+            10
+          ],
+          "dtype": "float64"
+        },
+        "U": {
+          "shape": [
+            86,
+            10
+          ],
+          "dtype": "float64"
+        },
+        "D": {
+          "shape": [
+            10,
+            10
+          ],
+          "dtype": "float64"
+        },
+        "V": {
+          "shape": [
+            10,
+            10
+          ],
+          "dtype": "float64"
+        },
+        "A": {
+          "shape": [
+            2,
+            2
+          ],
+          "dtype": "uint8"
+        },
+        "b": {
+          "shape": [
+            2
+          ],
+          "dtype": "uint8"
+        },
+        "Q": {
+          "shape": [
+            2,
+            2
+          ],
+          "dtype": "uint16"
+        },
+        "C": {
+          "shape": [
+            10,
+            2
+          ],
+          "dtype": "float64"
+        },
+        "d": {
+          "shape": [
+            10
+          ],
+          "dtype": "float64"
+        },
+        "R": {
+          "shape": [
+            10,
+            10
+          ],
+          "dtype": "float64"
+        },
+        "K": {
+          "shape": [
+            2,
+            10
+          ],
+          "dtype": "float64"
+        },
+        "eta": {
+          "shape": [
+            10,
+            10
+          ],
+          "dtype": "uint8"
+        },
+        "CURSOR_RADIUS": 0,
+        "TARGET_RADIUS": 20,
+        "dt": 0.045
+      },
+      "lambda": 0.4942362188454683
+    },
+    "beforeLearning": {
+      "name": "Data",
+      "clouds": {
+        "factorActivity": {
+          "shape": [
+            8
+          ],
+          "dtype": "object",
+          "members": [
+            {
+              "shape": [
+                10,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                10,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                10,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                10,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                10,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                10,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                10,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                10,
+                69
+              ],
+              "dtype": "float64"
+            }
+          ]
+        },
+        "cursorToTargetDirection": {
+          "shape": [
+            8
+          ],
+          "dtype": "object",
+          "members": [
+            {
+              "shape": [
+                2,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                2,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                2,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                2,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                2,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                2,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                2,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                2,
+                69
+              ],
+              "dtype": "float64"
+            }
+          ]
+        },
+        "spikes": {
+          "shape": [
+            8
+          ],
+          "dtype": "object",
+          "members": [
+            {
+              "shape": [
+                86,
+                69
+              ],
+              "dtype": "uint8"
+            },
+            {
+              "shape": [
+                86,
+                69
+              ],
+              "dtype": "uint8"
+            },
+            {
+              "shape": [
+                86,
+                69
+              ],
+              "dtype": "uint8"
+            },
+            {
+              "shape": [
+                86,
+                69
+              ],
+              "dtype": "uint8"
+            },
+            {
+              "shape": [
+                86,
+                69
+              ],
+              "dtype": "uint8"
+            },
+            {
+              "shape": [
+                86,
+                69
+              ],
+              "dtype": "uint8"
+            },
+            {
+              "shape": [
+                86,
+                69
+              ],
+              "dtype": "uint8"
+            },
+            {
+              "shape": [
+                86,
+                69
+              ],
+              "dtype": "uint8"
+            }
+          ]
+        },
+        "cursorProgress": {
+          "shape": [
+            8
+          ],
+          "dtype": "object",
+          "members": [
+            {
+              "shape": [
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                69
+              ],
+              "dtype": "float64"
+            }
+          ]
+        },
+        "intuitiveProgress": {
+          "shape": [
+            8
+          ],
+          "dtype": "object",
+          "members": [
+            {
+              "shape": [
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                69
+              ],
+              "dtype": "float64"
+            }
+          ]
+        },
+        "perturbedProgress": {
+          "shape": [
+            8
+          ],
+          "dtype": "object",
+          "members": [
+            {
+              "shape": [
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                69
+              ],
+              "dtype": "float64"
+            }
+          ]
+        },
+        "vraw_intuitive": {
+          "shape": [
+            8
+          ],
+          "dtype": "object",
+          "members": [
+            {
+              "shape": [
+                2,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                2,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                2,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                2,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                2,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                2,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                2,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                2,
+                69
+              ],
+              "dtype": "float64"
+            }
+          ]
+        },
+        "vraw_perturbed": {
+          "shape": [
+            8
+          ],
+          "dtype": "object",
+          "members": [
+            {
+              "shape": [
+                2,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                2,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                2,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                2,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                2,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                2,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                2,
+                69
+              ],
+              "dtype": "float64"
+            },
+            {
+              "shape": [
+                2,
+                69
+              ],
+              "dtype": "float64"
+            }
+          ]
+        },
+        "angles": {
+          "shape": [
+            8
+          ],
+          "dtype": "uint16"
+        },
+        "windowIdx": {
+          "shape": [
+            50
+          ],
+          "dtype": "uint16"
+        }
+      }
+    }
+  },
+  "numpy_version": "2.0.2",
+  "peak_rss_bytes": 52953088,
+  "status": "SCHEMA_ONLY; decoder arithmetic not yet performed",
+  "exposure": "beforeLearning and expParams decoded; afterLearning not requested"
+}

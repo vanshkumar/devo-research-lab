@@ -1,0 +1,164 @@
+{
+  "subject": "CSHL_014",
+  "split": "animal_holdout",
+  "particles": 512,
+  "prefix_n": 1000,
+  "horizon": 5000,
+  "model_sha256": "c7f675d18f4143891ed7d2c76d91f74be74da9565fbae5407952768e2c146940",
+  "forecast_path": "artifacts/forecasts/rnn_source_animals/CSHL_014__rnnglm32.npz",
+  "forecast_sha256": "502a4fe280b8e705dececb26b0f0570d7c78d0551a4c3fc315ee77a443f6b83a",
+  "metadata_sha256": "2fa69729ffd5f987e8454c38487ea58d913685f0c9b8188ca8f373483b885aa2",
+  "seed": 228369400,
+  "exact": true,
+  "max_abs_difference": 0.0,
+  "arrays": {
+    "samples": {
+      "exact": true,
+      "shape": [
+        512,
+        10,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "2de667ac0cadd7985beebc5d63884f3a09cfed4b615a69101935c550a438cf06",
+      "saved_array_sha256": "2de667ac0cadd7985beebc5d63884f3a09cfed4b615a69101935c550a438cf06"
+    },
+    "samples_primary": {
+      "exact": true,
+      "shape": [
+        512,
+        10,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "2de667ac0cadd7985beebc5d63884f3a09cfed4b615a69101935c550a438cf06",
+      "saved_array_sha256": "2de667ac0cadd7985beebc5d63884f3a09cfed4b615a69101935c550a438cf06"
+    },
+    "weights": {
+      "exact": true,
+      "shape": [
+        512,
+        10,
+        3
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "68e1a76f90555ba3c257cb9299f23ffd46b63ea0da71cc2f8045370f03471847",
+      "saved_array_sha256": "68e1a76f90555ba3c257cb9299f23ffd46b63ea0da71cc2f8045370f03471847"
+    },
+    "hidden_final": {
+      "exact": true,
+      "shape": [
+        512,
+        32
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "f716f1edc62832d268f5fc7a6eb53f3ee7e12062c8f49aa7470ce4e1edcf22ac",
+      "saved_array_sha256": "f716f1edc62832d268f5fc7a6eb53f3ee7e12062c8f49aa7470ce4e1edcf22ac"
+    },
+    "counts": {
+      "exact": true,
+      "shape": [
+        512,
+        10,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "23046aad3e7931a560a5090e4dd991d0a1b0c6998ec582267a2a8a0a11c28cb5",
+      "saved_array_sha256": "23046aad3e7931a560a5090e4dd991d0a1b0c6998ec582267a2a8a0a11c28cb5"
+    },
+    "pool_fraction": {
+      "exact": true,
+      "shape": [
+        10,
+        6
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "0d673bd80a3249da9e15e5f4b09b2a32e54cc5e6cd8b8203b159ad8b688d8639",
+      "saved_array_sha256": "0d673bd80a3249da9e15e5f4b09b2a32e54cc5e6cd8b8203b159ad8b688d8639"
+    },
+    "session_start": {
+      "exact": true,
+      "shape": [
+        5000
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "8566e00f59749dc4b6650e1cadd3689e70f0ef9d7789c1b80789b8abc0103170",
+      "saved_array_sha256": "8566e00f59749dc4b6650e1cadd3689e70f0ef9d7789c1b80789b8abc0103170"
+    },
+    "seed": {
+      "exact": true,
+      "shape": [],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "f0fd141234695ab24a71a5e6494cf1a06f1e1f71bfad86978429cf7afcba3680",
+      "saved_array_sha256": "f0fd141234695ab24a71a5e6494cf1a06f1e1f71bfad86978429cf7afcba3680"
+    }
+  },
+  "original_prefix_objects": [
+    {
+      "path": "data/sealed/animal_holdout/CSHL_014/2019-06-18_001_0d6902bc-b72b-4ed9-bcee-892a56cc5fad_table.pqt",
+      "bytes": 22407,
+      "sha256": "2e7c3d4c375da37a836018cb33928320a97a961cff9ad4ac822298c544a61c12",
+      "md5": "175cb432c1ab0541a4c40492877c1c21",
+      "published_md5": "175cb432c1ab0541a4c40492877c1c21"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSHL_014/2019-06-18_001_0d6902bc-b72b-4ed9-bcee-892a56cc5fad_repNum.npy",
+      "bytes": 1640,
+      "sha256": "755080b5023b2c0cbc716654c980016fd9fd796f52b63abd12187352960dd87b",
+      "md5": "f68d261c28143795d049139b23c0cc29",
+      "published_md5": "f68d261c28143795d049139b23c0cc29"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSHL_014/2019-06-19_001_d3d1c372-0883-4ee0-b977-bd9650ea1fbe_table.pqt",
+      "bytes": 22798,
+      "sha256": "297100fc412ab0d4aa3b68c095725dc4483623f421e748a0b811b96efb7d7a7c",
+      "md5": "546bd114eb4017a5753dff8be0f9661e",
+      "published_md5": "546bd114eb4017a5753dff8be0f9661e"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSHL_014/2019-06-19_001_d3d1c372-0883-4ee0-b977-bd9650ea1fbe_repNum.npy",
+      "bytes": 1680,
+      "sha256": "1d822a2813326d710ac2b5fce9baa7b8bc91b7ac43c605d5a198d59d7b9b4d5a",
+      "md5": "9e19a19b3efea6d2a8b8391d29845697",
+      "published_md5": "9e19a19b3efea6d2a8b8391d29845697"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSHL_014/2019-06-20_002_fb7b3e22-2406-415e-9f9c-f247b2380c36_table.pqt",
+      "bytes": 31968,
+      "sha256": "8e560fbf66292bcc751952910d6a54aa94ddb4167ffbeb7aaf0ebb3f1d5e6ae9",
+      "md5": "018490c76bb2fb33d2a8cf09e7bab395",
+      "published_md5": "018490c76bb2fb33d2a8cf09e7bab395"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSHL_014/2019-06-20_002_fb7b3e22-2406-415e-9f9c-f247b2380c36_repNum.npy",
+      "bytes": 2784,
+      "sha256": "4dffd66ca9dadbeb47b3e815618bb4b1e38c5e47c130ca8da088c781c59396ff",
+      "md5": "86c55197558cabebb7ddd066b501b6e6",
+      "published_md5": "86c55197558cabebb7ddd066b501b6e6"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSHL_014/2019-06-21_001_9efa6061-1a95-405b-b0ff-fad733d1e439_table.pqt",
+      "bytes": 38764,
+      "sha256": "74f918e53e98288aa0ea16ea5ed2430261752c954f2a1a1c0b5fa0959d715a4a",
+      "md5": "c51312f9a11dbdbea75b03aecfbacd82",
+      "published_md5": "c51312f9a11dbdbea75b03aecfbacd82"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSHL_014/2019-06-21_001_9efa6061-1a95-405b-b0ff-fad733d1e439_repNum.npy",
+      "bytes": 3616,
+      "sha256": "e481db1f1671cb94dc1ed1df761e92b91012a8eeb755ad94a012c977bc1d2ba2",
+      "md5": "bbf9910f3db172449baebeb60ec90260",
+      "published_md5": "bbf9910f3db172449baebeb60ec90260"
+    }
+  ],
+  "prefix_rows_per_session": [
+    189,
+    194,
+    332,
+    285
+  ],
+  "opportunity_source": "pinned footer counts only",
+  "future_outcomes_read": false,
+  "external_outcomes_read": false,
+  "seconds": 4.431643707997864
+}

@@ -1,0 +1,31 @@
+{
+  "recorded_utc": "2026-10-29T21:37:33.951866+00:00",
+  "original_failed_acquisition_entry": {
+    "cumulative_number": 8,
+    "utc": "2026-10-29T21:35:47.233434+00:00",
+    "url": "https://raw.githubusercontent.com/PrincetonCompMemLab/blocked_training_facilitates_learning/eb0edbe51042ffaf065bd90839f4f999de5f3ffb/data/human/blocked_thresh0.csv",
+    "kind": "capped_header_only",
+    "body_bytes": 0,
+    "status": "failed_STOP",
+    "http_status": 206,
+    "etag": "\"b1a1672a15004cf26821476f704c19d975279cd60f81c429d04529afff44901c\"",
+    "content_range": "bytes 0-4095/2081832",
+    "content_length": "4096",
+    "error_type": "Reject",
+    "error": "not an unambiguous identifier header"
+  },
+  "read_body_bytes": 4096,
+  "retained_header_bytes": 0,
+  "all_unretained_body_bytes_discarded": 4096,
+  "candidate_header_length": null,
+  "post_header_overread_bytes": null,
+  "post_header_overread_upper_bound": 4095,
+  "reason_split_unknown": "Original bounded reader found a newline then rejected a candidate header token; its exception path did not return the header-end counter. No received bytes were retained, so no exact candidate-header/overread split is reconstructed or invented.",
+  "why_total_read_is_known": "HTTP206 Content-Range0-4095, Content-Length4096; header_only calls read(4096) before finding the first newline and reaching the exact lexical Reject. No network/body-read error occurred.",
+  "candidate_header_or_body_values_rendered": false,
+  "row_values_decoded": 0,
+  "excluded_row_bytes_parsed_or_logged": false,
+  "actual_column_names": "not retained or rendered",
+  "whole_export_git_blob_verified": false,
+  "expected_profile_passed": false
+}

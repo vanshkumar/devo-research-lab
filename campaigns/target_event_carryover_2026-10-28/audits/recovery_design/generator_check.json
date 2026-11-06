@@ -1,0 +1,1073 @@
+{
+  "scope": "All empirical outcomes discarded at ingestion; only c/j/SN/TN used.",
+  "impulses": {
+    "-0.2": {
+      "gain_only": {
+        "curve": [
+          -2.7755575615628914e-17,
+          0.0,
+          -2.0816681711721685e-17,
+          -3.469446951953614e-18,
+          6.938893903907228e-18
+        ],
+        "theta": -9.020562075079397e-18
+      },
+      "two_timescale": {
+        "curve": [
+          8.326672684688674e-17,
+          0.0,
+          6.938893903907228e-18,
+          -3.469446951953614e-18,
+          6.938893903907228e-18
+        ],
+        "theta": 1.8735013540549518e-17
+      },
+      "retention": {
+        "curve": [
+          -0.39594061880569464,
+          -0.2573614022237016,
+          -0.16728491144540605,
+          -0.1087351924395139,
+          -0.07067787508568407
+        ],
+        "theta": -0.20000000000000004
+      },
+      "perceived_error": {
+        "curve": [
+          -0.39594061880569464,
+          -0.2573614022237016,
+          -0.16728491144540605,
+          -0.1087351924395139,
+          -0.07067787508568407
+        ],
+        "theta": -0.20000000000000004
+      },
+      "expression_current": {
+        "curve": [
+          8.326672684688674e-17,
+          0.0,
+          6.938893903907228e-18,
+          -3.469446951953614e-18,
+          6.938893903907228e-18
+        ],
+        "theta": 1.8735013540549518e-17
+      },
+      "expression_next": {
+        "curve": [
+          -0.39594061880569464,
+          0.0,
+          6.938893903907228e-18,
+          -3.469446951953614e-18,
+          6.938893903907228e-18
+        ],
+        "theta": -0.07918812376113893
+      },
+      "rebound": {
+        "curve": [
+          -0.39594061880569464,
+          0.39594061880569464,
+          6.938893903907228e-18,
+          -3.469446951953614e-18,
+          6.938893903907228e-18
+        ],
+        "theta": 2.0816681711721684e-18
+      },
+      "online": {
+        "curve": [
+          8.326672684688674e-17,
+          0.0,
+          6.938893903907228e-18,
+          -3.469446951953614e-18,
+          6.938893903907228e-18
+        ],
+        "theta": 1.8735013540549518e-17
+      },
+      "expression_storage_equivalent": {
+        "curve": [
+          -0.39594061880569464,
+          -0.2573614022237016,
+          -0.16728491144540603,
+          -0.1087351924395139,
+          -0.07067787508568404
+        ],
+        "theta": -0.20000000000000004
+      }
+    },
+    "0.2": {
+      "gain_only": {
+        "curve": [
+          -2.7755575615628914e-17,
+          0.0,
+          -2.0816681711721685e-17,
+          -3.469446951953614e-18,
+          6.938893903907228e-18
+        ],
+        "theta": -9.020562075079397e-18
+      },
+      "two_timescale": {
+        "curve": [
+          8.326672684688674e-17,
+          0.0,
+          6.938893903907228e-18,
+          -3.469446951953614e-18,
+          6.938893903907228e-18
+        ],
+        "theta": 1.8735013540549518e-17
+      },
+      "retention": {
+        "curve": [
+          0.39594061880569476,
+          0.25736140222370163,
+          0.16728491144540603,
+          0.10873519243951396,
+          0.07067787508568402
+        ],
+        "theta": 0.2000000000000001
+      },
+      "perceived_error": {
+        "curve": [
+          0.39594061880569476,
+          0.25736140222370163,
+          0.16728491144540603,
+          0.10873519243951396,
+          0.07067787508568402
+        ],
+        "theta": 0.2000000000000001
+      },
+      "expression_current": {
+        "curve": [
+          8.326672684688674e-17,
+          0.0,
+          6.938893903907228e-18,
+          -3.469446951953614e-18,
+          6.938893903907228e-18
+        ],
+        "theta": 1.8735013540549518e-17
+      },
+      "expression_next": {
+        "curve": [
+          0.39594061880569476,
+          0.0,
+          6.938893903907228e-18,
+          -3.469446951953614e-18,
+          6.938893903907228e-18
+        ],
+        "theta": 0.07918812376113896
+      },
+      "rebound": {
+        "curve": [
+          0.39594061880569476,
+          -0.3959406188056947,
+          6.938893903907228e-18,
+          -3.469446951953614e-18,
+          6.938893903907228e-18
+        ],
+        "theta": 1.3183898417423733e-17
+      },
+      "online": {
+        "curve": [
+          8.326672684688674e-17,
+          0.0,
+          6.938893903907228e-18,
+          -3.469446951953614e-18,
+          6.938893903907228e-18
+        ],
+        "theta": 1.8735013540549518e-17
+      },
+      "expression_storage_equivalent": {
+        "curve": [
+          0.39594061880569476,
+          0.25736140222370163,
+          0.16728491144540603,
+          0.1087351924395139,
+          0.07067787508568402
+        ],
+        "theta": 0.2000000000000001
+      }
+    }
+  },
+  "schedules": [
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "1",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.9680268813094612,
+      "peak_abs_state": 1.8291457288570907,
+      "omissions": 21
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "2",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.7157217696614655,
+      "omissions": 25
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "3",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.5910238829841064,
+      "omissions": 25
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "4",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.718164537809292,
+      "omissions": 29
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "5",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.9680268813094612,
+      "peak_abs_state": 1.673094686855168,
+      "omissions": 20
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "6",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.9680268813094612,
+      "peak_abs_state": 1.783483690217124,
+      "omissions": 21
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "7",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.7686072061605556,
+      "omissions": 28
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "8",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.7622947894694816,
+      "omissions": 17
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "9",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.683995703708089,
+      "omissions": 22
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "10",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 4.440892098500626e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.6567657223221126,
+      "omissions": 28
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "11",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 4.440892098500626e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.636846147049052,
+      "omissions": 28
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "12",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.7481964002000687,
+      "omissions": 29
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "13",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.6418386916921,
+      "omissions": 28
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "14",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.6389284929906378,
+      "omissions": 26
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "15",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 4.440892098500626e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.7270765325780237,
+      "omissions": 24
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "16",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.9680268813094612,
+      "peak_abs_state": 1.7721235520172076,
+      "omissions": 22
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "17",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.8171714229998073,
+      "omissions": 22
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "18",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.6789475249117167,
+      "omissions": 28
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "19",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.9680268813094612,
+      "peak_abs_state": 1.7056568488109831,
+      "omissions": 21
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "20",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.6304061453454952,
+      "omissions": 26
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "1",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.9680268813094612,
+      "peak_abs_state": 1.590363828483945,
+      "omissions": 21
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "2",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 4.440892098500626e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.7560581592679643,
+      "omissions": 25
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "3",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.9680268813094612,
+      "peak_abs_state": 1.6077049401345456,
+      "omissions": 25
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "4",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 4.440892098500626e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.727324883184937,
+      "omissions": 29
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "5",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.9680268813094612,
+      "peak_abs_state": 1.6483812819388894,
+      "omissions": 20
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "6",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.9680268813094612,
+      "peak_abs_state": 1.6819714111367432,
+      "omissions": 21
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "7",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.8298198305632476,
+      "omissions": 28
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "8",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.484165409393505,
+      "omissions": 17
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "9",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.6670887493102722,
+      "omissions": 22
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "10",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.9680268813094612,
+      "peak_abs_state": 1.826932106104505,
+      "omissions": 28
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "11",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 1.7763568394002505e-15,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.6257368688381257,
+      "omissions": 28
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "12",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.8945124580039567,
+      "omissions": 29
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "13",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.5519715900434934,
+      "omissions": 28
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "14",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.5316240513468995,
+      "omissions": 26
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "15",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.6517939762805613,
+      "omissions": 24
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "16",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.623958225171325,
+      "omissions": 22
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "17",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 4.440892098500626e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.540697863865957,
+      "omissions": 22
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "18",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 4.440892098500626e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.9680268813094612,
+      "peak_abs_state": 1.7543692425977597,
+      "omissions": 28
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "19",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 4.440892098500626e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.6185303783125826,
+      "omissions": 21
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "20",
+      "effect": -0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.968026881309461,
+      "peak_abs_state": 1.7335581568863088,
+      "omissions": 26
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "1",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 1.1102230246251565e-15,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.3023923532613221,
+      "peak_abs_state": 3.373601429742065,
+      "omissions": 21
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "2",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 1.7763568394002505e-15,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.3023923532613221,
+      "peak_abs_state": 3.012488717213513,
+      "omissions": 25
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "3",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 1.7763568394002505e-15,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.3023923532613221,
+      "peak_abs_state": 2.679143686093044,
+      "omissions": 25
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "4",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.30239235326132213,
+      "peak_abs_state": 2.5456441403448706,
+      "omissions": 29
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "5",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 1.7763568394002505e-15,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.3023923532613221,
+      "peak_abs_state": 2.816145831443938,
+      "omissions": 20
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "6",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 1.7763568394002505e-15,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.3023923532613221,
+      "peak_abs_state": 2.9827845774418233,
+      "omissions": 21
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "7",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 1.7763568394002505e-15,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.30239235326132213,
+      "peak_abs_state": 3.1455988958146546,
+      "omissions": 28
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "8",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.3023923532613221,
+      "peak_abs_state": 2.29915132493031,
+      "omissions": 17
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "9",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 1.7763568394002505e-15,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.3023923532613221,
+      "peak_abs_state": 2.9264101942253653,
+      "omissions": 22
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "10",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 1.7763568394002505e-15,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.3023923532613221,
+      "peak_abs_state": 4.0031522835794435,
+      "omissions": 28
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "11",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 1.7763568394002505e-15,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.30239235326132213,
+      "peak_abs_state": 2.46825289332743,
+      "omissions": 28
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "12",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.30239235326132213,
+      "peak_abs_state": 3.9686253421181665,
+      "omissions": 29
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "13",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 2.6645352591003757e-15,
+      "expression_equivalence_max_discrepancy": 3.552713678800501e-15,
+      "min_log_transition": -0.30239235326132213,
+      "peak_abs_state": 4.113760431773379,
+      "omissions": 28
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "14",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.3023923532613221,
+      "peak_abs_state": 2.6472740976941536,
+      "omissions": 26
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "15",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 4.440892098500626e-16,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.3023923532613221,
+      "peak_abs_state": 2.4698582942247005,
+      "omissions": 24
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "16",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.3023923532613221,
+      "peak_abs_state": 2.8482286097283183,
+      "omissions": 22
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "17",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 1.7763568394002505e-15,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.3023923532613221,
+      "peak_abs_state": 3.7756423082935813,
+      "omissions": 22
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "18",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.30239235326132213,
+      "peak_abs_state": 2.7890819686000903,
+      "omissions": 28
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "19",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.30239235326132213,
+      "peak_abs_state": 2.9992360323903697,
+      "omissions": 21
+    },
+    {
+      "file": "tsay_TE_SPE.csv",
+      "person": "20",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 1.7763568394002505e-15,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.3023923532613221,
+      "peak_abs_state": 2.488790699826803,
+      "omissions": 26
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "1",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 1.7763568394002505e-15,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.3023923532613221,
+      "peak_abs_state": 2.751380029696757,
+      "omissions": 21
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "2",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 1.7763568394002505e-15,
+      "expression_equivalence_max_discrepancy": 3.552713678800501e-15,
+      "min_log_transition": -0.3023923532613221,
+      "peak_abs_state": 4.455959310737738,
+      "omissions": 25
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "3",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.30239235326132213,
+      "peak_abs_state": 2.4111673654249457,
+      "omissions": 25
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "4",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.30239235326132213,
+      "peak_abs_state": 2.5282741869452265,
+      "omissions": 29
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "5",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.3023923532613221,
+      "peak_abs_state": 2.8605489330285754,
+      "omissions": 20
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "6",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.3023923532613221,
+      "peak_abs_state": 2.7101889234232615,
+      "omissions": 21
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "7",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.3023923532613221,
+      "peak_abs_state": 2.473148065636644,
+      "omissions": 28
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "8",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 1.7763568394002505e-15,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.30239235326132213,
+      "peak_abs_state": 2.8143695027894733,
+      "omissions": 17
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "9",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 1.7763568394002505e-15,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.30239235326132213,
+      "peak_abs_state": 3.1279849252368392,
+      "omissions": 22
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "10",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.30239235326132213,
+      "peak_abs_state": 2.566726096268649,
+      "omissions": 28
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "11",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 1.7763568394002505e-15,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.3023923532613221,
+      "peak_abs_state": 3.491154509455246,
+      "omissions": 28
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "12",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 1.7763568394002505e-15,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.3023923532613221,
+      "peak_abs_state": 2.607281924652902,
+      "omissions": 29
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "13",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 3.552713678800501e-15,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.3023923532613221,
+      "peak_abs_state": 5.259920612138589,
+      "omissions": 28
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "14",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 1.7763568394002505e-15,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.30239235326132213,
+      "peak_abs_state": 4.179809005859271,
+      "omissions": 26
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "15",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 1.7763568394002505e-15,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.30239235326132213,
+      "peak_abs_state": 2.265512632702355,
+      "omissions": 24
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "16",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 1.7763568394002505e-15,
+      "expression_equivalence_max_discrepancy": 6.217248937900877e-15,
+      "min_log_transition": -0.30239235326132213,
+      "peak_abs_state": 6.235055357310036,
+      "omissions": 22
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "17",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.3023923532613221,
+      "peak_abs_state": 2.6742161776229487,
+      "omissions": 22
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "18",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 8.881784197001252e-16,
+      "expression_equivalence_max_discrepancy": 8.881784197001252e-16,
+      "min_log_transition": -0.3023923532613221,
+      "peak_abs_state": 2.705658367114744,
+      "omissions": 28
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "19",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 1.7763568394002505e-15,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.3023923532613221,
+      "peak_abs_state": 2.7988522379792657,
+      "omissions": 21
+    },
+    {
+      "file": "tsay_controljump.csv",
+      "person": "20",
+      "effect": 0.2,
+      "rows": 824,
+      "perceived_error_max_discrepancy": 1.7763568394002505e-15,
+      "expression_equivalence_max_discrepancy": 1.7763568394002505e-15,
+      "min_log_transition": -0.3023923532613221,
+      "peak_abs_state": 2.7372757961736167,
+      "omissions": 26
+    }
+  ],
+  "max_perceived_error_discrepancy": 3.552713678800501e-15,
+  "max_expression_equivalence_discrepancy": 6.217248937900877e-15
+}

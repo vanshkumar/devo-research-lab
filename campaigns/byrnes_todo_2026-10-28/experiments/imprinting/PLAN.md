@@ -1,0 +1,18 @@
+# Filial grounding pilot — pre-computation protocol
+
+2026-10-28. Source outcome summaries are already known from reading Freeland et al. (2024 online/2025 issue), DOI10.3758/s13420-024-00638-z; this is exploratory reanalysis and stimulus audit, not a blinded replication. Main subject-level outcomes have not been inspected at protocol save time.
+
+Question: do the proposed visual predispositions supply a specifically adult/conspecific teaching signal, or only an approach bias compatible with simpler stimulus salience? Resolving this changes whether an imprinting model can use an existing sensory detector as its grounding input.
+
+Raw material: publisher's four supplementary tables (<150KB total); dark-hatched chicks at first visual experience, subject/time-bin choice measures and natural-feature measurements if available. No learned attachment intervention is assumed. One substantive pilot: empirical preference/engagement reconstruction plus stimulus-confound audit. Do not inflate controls into extra pilots.
+
+Tests and expected interpretation:
+1. Inspect schemas and determine the independent subject identifier. Reproduce first-choice counts and subject-average large-object preference for red/yellow and crossed size/color groups. Use subjects as units; do not treat minute bins as independent chicks. Confirm paper's positive control: red group initial large preference if source rows contain the needed variables. Failures to match definitions must be investigated before inference.
+2. Report approach probability separately from conditional preference and latency. Nonapproachers lack an observed two-stimulus preference; neither code them as choosing the small object nor ignore their existence when assessing generality. All-subject occupancy and choice-conditional preference are different estimands, not corrections.
+3. Compare hue/size groups with bootstrap intervals and permutation/Mann–Whitney where appropriate. Preserve within-subject bins; report all primary conditions, including non-significant ones. Seed20261028, bootstrap5000. Repeated source summary counts are not independent validation.
+4. Quantify the published monitor stimuli's geometric and luminance confounds with known formulas. One large111.8mm square vs5 small50mm squares approximates equal area, not equal total contour or numerosity. Compute standard-sRGB relative luminance and white-background contrast for RGB255,0,0 versus255,255,0 as a display-space illustration; chicken cone excitation, ultraviolet sensitivity, actual monitor spectra and adaptation are unmeasured. Do not claim this computes perceived chicken brightness.
+5. Recompute a decisive statistic from independent standard-library arithmetic and check bootstrap identity on a known synthetic effect. Stimulus measurements and nonlearner patterns should challenge a semantic 'adult detector' interpretation even if behavioral preference replicates.
+
+Decision criterion: keep a candidate sensory gating input if a reproducible approach bias survives controls; revise a claim of innate adult recognition or of a teaching signal if source interventions/measurements do not distinguish it. No absence of a learning effect is inferred from this untrained experiment. If suitably small paired training/generalization data from linked Wang et al.2024 are accessible, record a second protocol before using outcomes and execute it; otherwise stop without claiming that pilot.
+
+Boundaries: no contact, accounts, uploads, payments or full imaging downloads. Data<50MB. Existing root .venv dependencies. Own paths only; root owns aggregate docs/learnings.

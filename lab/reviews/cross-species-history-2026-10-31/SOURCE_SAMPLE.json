@@ -1,0 +1,53 @@
+{
+  "utc": "2026-11-01T01:11:25.919865+00:00",
+  "human": {
+    "subject": "006",
+    "session": "22121620",
+    "rows": 600,
+    "source_path": "campaigns/human_learning_routes_2026-10-28/inputs/processed_data_2026.csv",
+    "source_bytes": 134562545,
+    "whole_source_sha256": "45dcce14e30edba5e38eaeaf8c40edb8cd1a0555928070b44779d0d47458bbe9",
+    "expected_hash_matches": true,
+    "full_source_numeric_reconstruction": false,
+    "sampled_raw_bytes": 1581056,
+    "errors_to_cache": {
+      "contrast": 0.0,
+      "choice": 0.0,
+      "feedback": 0.0,
+      "probabilityLeft": 0.0,
+      "trial": 0.0
+    },
+    "scope": "Fresh original CSV check of one admitted 600-row session; other 79 human sessions retain inherited original-source extraction."
+  },
+  "mouse": {
+    "subject": "IBL-T1",
+    "rows": 402,
+    "npz_path": "campaigns/learning_rule_transport_2026-10-28/data/processed/dev/IBL-T1.npz",
+    "npz_sha256": "20fc40f30afd952c946ea49af4981a40afffe6b6cd5c5aea0663b538d2e6837c",
+    "old_exposure_pin_matches": true,
+    "raw_parquet_path": "campaigns/learning_rule_transport_2026-10-28/data/raw/dev/IBL-T1/2019-08-05_001_5308b252-913c-4454-9365-ee43401289de_table.pqt",
+    "raw_parquet_sha256": "c3ee31ffe913bdcd0ff219de97a7515ce125d030690076579c29b43be8ed2fc2",
+    "parquet_decoder_libraries": {
+      "pyarrow": false,
+      "fastparquet": false,
+      "duckdb": false
+    },
+    "raw_to_npz_equal": null,
+    "errors_from_pinned_npz_to_cache": {
+      "contrast": 0.0,
+      "choice": 0.0,
+      "feedback": 0.0,
+      "probabilityLeft": 0.0,
+      "trial": 0.0
+    },
+    "session_link_matches": true,
+    "scope": "One full 402-row admitted first session; pinned NPZ decoded and compared. Parquet numeric comparison only if raw_to_npz_equal is non-null. No new/later rows or other mouse originals."
+  },
+  "resource": {
+    "read_file_bytes": 155527076,
+    "decoded_array_bytes": 104358,
+    "peak_rss_bytes": 31227904
+  },
+  "protected_reads": 0,
+  "new_subjects": 0
+}

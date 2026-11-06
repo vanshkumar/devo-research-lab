@@ -1,0 +1,70 @@
+# Quantitative HYPOMAP research handoff
+
+Dispatched 2026-10-28. User explicitly asked for a new GPT-6 Astra thread at xhigh to execute the reviewed atlas study, with subagents and continuation chats as necessary, and emphasized ambition toward a real scientific result.
+
+New local thread: `01a183d5-3107-7300-b11e-ec1883eacba4`, host `local`, project `devo-research-lab`. Creation accepted the requested `gpt-6-astra` model and `xhigh` reasoning settings. The new thread owns execution under `campaigns/hypomap_quantitative_2026-10-28/`; this handoff is not a completed research result.
+
+## Dispatched prompt
+
+Start and execute a focused, ambitious empirical computational neuroscience campaign in /Users/vanshkumar/Documents/repos/devo-research-lab. The user explicitly requested this new GPT-6 Astra thread at xhigh and authorized subagents and additional research chats when necessary for context management. They want the precise next study recommended in RESEARCH_REVIEW_2026-10-28.md, carried through to an actual scientific result. You own execution, scientific judgment, resource allocation, continuation and completion.
+
+Be ambitious. You have a concrete empirical lead, verified public data and a strong starting analysis. You've got this. Use that runway to produce a real, inspectable scientific result—not another plan, feasibility report or generic identification discussion. Be ambitious about the work and conservative about what the evidence proves. A rigorous negative result can be consequential; uncertainty is not permission to stop before performing the informative measurements.
+
+Create and pursue a persistent goal with this objective; no token budget was requested:
+Determine whether the apparent OXT/AVP co-detection in human HYPOMAP cluster C4-313 is predominantly trace secondary expression within otherwise dominant peptide programs, or a substantial mixed transcriptional pattern reproducible across donors and the two source studies. Quantify actual joint per-cell abundance, challenge competing technical explanations, and, if substantial overlap survives, test whether it has a reproducible expression signature in other genes. Deliver a reproducible empirical result that changes whether this population deserves orthogonal biological validation.
+
+Read first, without repeating a broad portfolio review:
+1. LEARNINGS.md in full and applicable workspace instructions. Apply its source-specific and numerical cautions. Append specific nonduplicate observations on completion.
+2. RESEARCH_LAB_CHARTER.md in full for research standards and authorization boundaries. This is a focused follow-through, not a request for another 6–8-pilot portfolio.
+3. RESEARCH_REVIEW_2026-10-28.md, the exact study proposal the user approved.
+4. campaigns/byrnes_todo_2026-10-28/experiments/atlas/{NOTEBOOK.md,SOURCES.md,PLAN.md,FOLLOWUP_PLAN.md}, the independent audit at experiments/audit_atlas/AUDIT.md under that same campaign, and actual local summaries when relevant.
+5. sources/research_review_2026-10-28/HYPOMAP_METADATA_MANIFEST.json and its preserved HDF5 ranges.
+
+Preserve previous campaign evidence and reports. Write new work under campaigns/hypomap_quantitative_2026-10-28/ with a compact STATE.md, REPORT.md, SOURCES.md, a frozen analysis protocol, inputs/provenance, runnable experiments, logs and substantive outputs. Keep root indexes accurate when needed, without rewriting historical results. This launching thread will save HYPOMAP_QUANTITATIVE_HANDOFF.md and its dispatch metadata; do not overwrite that file.
+
+Starting evidence and why this project matters:
+- The previous pinned tables, commit 29599fcb13a74a908c986ad69d68fc3e4a3cf6d0, imply 303 OXT-positive and 205 AVP-positive observations among 309 C4-313 nuclei, forcing 199–205 joint detections across at least three donors. Those are marginal-table bounds, not inspected joint counts or a biological coexpression conclusion.
+- The six contributing donors have 74, 69, 66, 53, 46 and 1 nuclei. Only five support useful within-donor distributions. Eleven is the whole-atlas donor count, not the candidate's replication count. Resolve actual identities and any changes in the current object before analysis.
+- Siletti contributes 186 and Tadross 123 of the old 309. Do not apply is_primary_data=True globally and silently discard the Siletti component. Analyze the two source studies separately as well as jointly.
+- C4-313 is Mid-3 GLU-4 OXT, distinct from the paper's already-discussed C4-296 Mid-3 GLU-3 AVP TFPI2 population. Historical quantitative OXT/AVP co-detection literature also exists. Merely finding more double-positive barcodes is not the intended scientific advance.
+- The old tables have a 415-versus-413 cluster scope discrepancy. Treat version reconciliation honestly; do not force modern cells into the old count.
+
+Verified public acquisition lead:
+- Collection: https://cellxgene.cziscience.com/collections/d0941303-7ce3-4422-9249-cf31eb98c480
+- API: https://api.cellxgene.cziscience.com/curation/v1/collections/d0941303-7ce3-4422-9249-cf31eb98c480
+- Collection version: 4cd099c6-014b-4032-a30b-a26ae8b74905.
+- Dataset ID: a2c833f7-b7f1-4f4d-ad31-cae478b601b7; dataset version: af06d70d-a2bc-43c1-8378-bc545bc8ee2c.
+- Asset: https://datasets.cellxgene.cziscience.com/af06d70d-a2bc-43c1-8378-bc545bc8ee2c.h5ad
+- Whole asset is 5,231,283,640 bytes; 433,369 cells. Server advertised byte ranges. The review acquired only 272,352 bytes of HDF5 metadata, preserved with inclusive offsets and SHA256 hashes in the manifest. No whole-file digest or full count acquisition is claimed.
+- Metadata inspection confirmed raw/X, raw/var and 31 obs fields including C4_named, Dataset, Sample_ID, donor_id, nCount_RNA, nFeature_RNA, percent_mt, region and barcode index. No exported doublet score or CellBender contamination estimate appeared in this obs listing.
+- Exact category values, numeric count values/integer status, barcode correspondence and raw.X processing relative to CellBender are NOT yet verified. AnnData raw.X does not mean acquisition-raw.
+- Author code and public objects: https://github.com/lsteuernagel/HYPOMAP and https://doi.org/10.17863/CAM.111988 . Public processed objects are available; do not seek controlled EGA reads without appropriate new authorization.
+
+Execute the following scientific arc, adapting methods when evidence warrants while preserving the question:
+1. Acquire the actual quantitative observations. Verify count provenance, gene identifiers, cell/cluster identity, donor and study metadata. Prefer range/subset reads and sparse streaming. Inspect available disk, memory and access constraints before a full 5.23 GB download; a reasonably sized necessary full acquisition may be justified under the charter and environment permissions. Do not turn subset engineering into the entire campaign. Use legitimate public alternatives for source failures, preserve failures and version changes, and never bypass access controls.
+2. Before opening the main joint-abundance outcomes, freeze the primary estimands, candidate/comparison populations, donor evaluation scheme, abundance summaries and a reasonable sensitivity grid. Source reconciliation and tiny format checks may precede freezing; disclose all inspected outcomes and later exploratory choices. Selection of this cluster already used all-donor summaries, so do not label this an untouched independent-cohort replication.
+3. Produce donor-resolved joint OXT/AVP count distributions, minor/major expression ratios, depth-adjusted summaries, and overlap-versus-minor-count curves. Include neighboring relevant peptide populations such as C4-296/312/315 as prespecified comparisons when justified, plus donor/depth-matched background populations. Do not bury the individual donors in a pooled p-value or inflate nuclei into independent biological replicates.
+4. Test serious technical alternatives. Examine library-size dependence, quality outliers, correction provenance, and doublet-like profiles. Compare dominant-program-plus-background explanations with a mixed-expression component using transparent, appropriately regularized models. Other cell types provide empirical nuisance/sensitivity controls, not a validated unconditional ambient-RNA upper bound. Agreement across source studies is robustness, not proof against common pipeline artifacts. Preserve favorable cases for the artifact explanation.
+5. If substantial mixed abundance survives, pursue the stronger biological characterization: ask whether these cells show a reproducible non-peptide transcriptional signature. Exclude OXT and AVP from the signature features and prevent feature-selection/label leakage; make the distinction between grouping by peptide abundance and independently predicting that grouping explicit. Evaluate on held-out donors with preprocessing and feature selection restricted to training donors. Examine whether apparent signatures are merely depth, source study, quality, integration or synthetic-doublet effects. With few donors, report every result and uncertainty; no inflated population claim.
+6. Validate the scientific comparison, not merely code. Use known-effect recovery or injected-signal controls at observed count depth/noise to establish where the models can discriminate trace leakage from substantial mixing. Include realistic false-positive/null and doublet sensitivity controls. Independently reproduce at least one decisive extraction/statistic, and delegate an adversarial reviewer to challenge the strongest conclusion. Model or agent agreement is not independent empirical validation.
+7. Check the closest primary prior work before framing novelty. Distinguish quantitative confirmation, a new candidate characterization, a useful negative result and any truly new claim. Public independent or orthogonal evidence may be sought if it directly strengthens the chosen question and is feasible; do not substitute open-ended literature review.
+
+Concrete deliverables and decision standard:
+- An inspectable per-cell quantitative subset with provenance, donor/source labels and the necessary comparison populations; protected original inputs.
+- A primary donor-resolved abundance figure/table, explicit nuisance sensitivities, and donor-held-out model/signature results if warranted.
+- A critically tested scientific conclusion: predominantly trace secondary abundance; a reproducible substantial mixed transcriptional candidate; or a precisely quantified residual ambiguity showing which additional measurement would discriminate.
+- If overlap is mostly tiny secondary counts or the stronger tail depends on one donor, one study, a convenient threshold or obvious quality outliers, quantify the finding and deprioritize the candidate. This does not prove zero biological low-level transcription.
+- Promote only when the evidence supports substantial expression in multiple adequately sampled donors from each source study under the declared sensitivity protocol. A reproducible pattern in other genes strengthens the result. Promotion nominates a molecular state for joint single-cell in-situ validation; it does not prove dual peptide production/co-release, a new functional cell type, connectivity or a social algorithm. Multicell Visium spots cannot confirm same-cell coexpression.
+- If plausible technical explanations still span both outcomes after substantive measurement and controls, report the exact limitation and a concrete discriminating measurement. Do not manufacture certainty. An access check, a failed first download, an analysis pipeline alone, a repeated binary overlap calculation or a generic request for future data does not complete this goal.
+- Complete the bounded campaign after serious empirical follow-through, the strongest informative follow-up and an adversarial check. If an indispensable data/measurement obstacle prevents that, preserve explicitly partial work and exact restart steps; do not silently redefine the objective around what was easy. Do not run an endless sequence of cosmetic analyses.
+
+Coordination and context management:
+Use native subagents proactively for bounded independent work such as acquisition/provenance, count analysis, biological/technical alternatives and numerical review. Give explicit file ownership, tell each agent it shares the workspace, and prevent duplicate downloads or competing mutations. Retain responsibility for synthesis.
+The user explicitly permits new research chat threads as necessary for context continuity. Prefer native subagents for ordinary tasks. A continuation chat must inherit the same concrete goal, current scientific results, inspected outcomes, frozen decisions, resource status and exact restart commands. Confirm it starts and coordinate ownership so work is not duplicated. Do not restart the broad portfolio or downgrade to planning after context changes. Keep STATE.md sufficient to resume. Do not message unrelated chats or outside parties.
+
+Resources and boundaries:
+Reuse ordinary scientific packages in an isolated project environment, installing additional ordinary dependencies when needed within permissions. Inspect actual versions; the root .venv was Python 3.9.6 with NumPy/SciPy/pandas and the review did not find h5py there. Read LEARNINGS for the known Mac matrix warning issue rather than dismissing new errors.
+Use existing model allowance and modest local resources. No money, paid model APIs, rented compute, accounts, external messages/author contact, publication, permission changes, controlled/private data or private uploads without new explicit authorization. Scientific ambition does not require inventing access or results.
+Finish with a self-contained account of the empirical finding, strongest evidence and objection, what changed scientifically, reproducible commands and a clear next research decision. Own that decision rather than assigning the user a preliminary audit.
+
+Start now: establish the goal and focused state, delegate useful parallel work, and get to actual quantitative data. You have a tractable way to produce a real result here. Be ambitious—you've got this.

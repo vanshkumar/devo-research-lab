@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-05",
+  "scientificAccessEnded": "2026-11-05 21:20:24 UTC",
+  "bookkeepingSnapshot": "2026-11-05 21:22:30 UTC",
+  "nativeGoalCreatedAtUnix": 1793912544,
+  "preparationTimeReference": "BRIEF.md mtime 2026-11-05T20:56:35.310830Z precedes assignment orientation. Native start/readback is exact; turn-start clock was not separately surfaced.",
+  "allowance": {
+    "atStartRemainingPercent": {
+      "weekly": 50,
+      "secondary": null,
+      "individual": null
+    },
+    "closeoutRemainingPercent": {
+      "weekly": 49,
+      "secondary": null,
+      "individual": null
+    },
+    "actualCloseoutReadback": {
+      "time": "2026-11-05 21:20:24 UTC",
+      "purpose": "source work ended and closeout",
+      "ordinaryUsageAllowed": true,
+      "rateLimitsByLimitId": {
+        "codex": {
+          "limitId": "codex",
+          "limitName": null,
+          "normalModelSlug": null,
+          "primary": {
+            "usedPercent": 51,
+            "windowDurationMins": 10080,
+            "resetsAt": 1794445923
+          },
+          "secondary": null,
+          "credits": {
+            "hasCredits": false,
+            "unlimited": false,
+            "balance": "0"
+          },
+          "individualLimit": null,
+          "spendControlReached": false,
+          "planType": "prolite",
+          "rateLimitReachedType": null
+        }
+      }
+    },
+    "checkpointsFile": "SOURCE_ACCESS.json",
+    "trancheStopPercent": 45,
+    "humanReservePercent": 25
+  },
+  "ceilings": {
+    "elapsedMinutes": 60,
+    "scientificCpuSeconds": 600,
+    "localExplicitNominalDecodedReadBytes": 200000000,
+    "httpBodyIngressBytes": 20000000,
+    "peakRssBytes": 1000000000,
+    "storageBytes": 400000000,
+    "concurrentScientificJobs": 1
+  },
+  "directHttp": {
+    "requests": 27,
+    "getRequests": 26,
+    "headRequests": 1,
+    "preRequestBodyCapTotalBytes": 2296210,
+    "observedBodyBytes": 118907,
+    "savedHeadersBytes": 23372,
+    "userPlusSysRoundedSeconds": 0.05
+  },
+  "webConnector": {
+    "completedCalls": 19,
+    "returnedUtf8TextBytes": 308974,
+    "returnedSerializedEnvelopeBytes": 313333,
+    "upstreamBodyBytes": null,
+    "upstreamDecodeBytes": null,
+    "scope": "Short responses except one medium. The interface supplies response-length categories, not a hard upstream byte cap. Failure and incidental public aggregate exposure are retained."
+  },
+  "totals": {
+    "visibleBodyPlusConnectorEnvelopeBytes": 432240,
+    "cappedDirectPlusObservedConnectorEnvelopeBytes": 2609543,
+    "bookedLocalReadDecodeBytes": 4000000,
+    "bookedLocalCpuSeconds": 30,
+    "accountingBasis": "Conservative local charge for orientation, compact context, repeated sub-megabyte source reads/digests, text/code inspection, two metadata calculations, and closeout. Curl timing rounded by request. No instrumented exact cumulative explicit/nominal/decode or kernel-I/O measurement.",
+    "localBodyAndArtifactBytesBeforeFinalAccountingAndReceipt": 221772,
+    "measuredVerificationPeakRssBytes": 11862016,
+    "peakRssOtherJobsBytes": null,
+    "modelAndProviderCosts": null,
+    "physicalKernelIoBytes": null
+  },
+  "exposure": {
+    "originalEvaluationBodyBytes": 0,
+    "brownSourceBodyBytes": 0,
+    "derivativeMatBodyBytes": 0,
+    "sourceOnlyProbeRows": 0,
+    "rawOrDecodedTrialRows": 0,
+    "personLevelSummaryValues": 0,
+    "protectedFamiliesOpened": 0,
+    "fitOrSimulationRuns": 0
+  },
+  "jobs": {
+    "liveSessions": 0,
+    "direct": "All 27 requests in nine serial command batches terminal, HTTP 200 and batch exit 0. One HEAD transferred no body.",
+    "connector": "All 19 calls terminal. Content failures and substitutions recorded in SOURCE_ACCESS.json.",
+    "local": "Metadata/code reads ended. Both offline checks printed results and returned exit 0. Closeout JSON/file-scope checks printed pass. Subsequent optional git status reported no repository in its execution context; no Git change was attempted.",
+    "processScope": "One sequential scientific job at a time. Shell/time wrappers and formatting pipelines use transient helpers; literal OS process counts and peaks were not instrumented.",
+    "pendingApprovals": 0,
+    "terminalNativeReceipt": "GOAL_FINAL.json"
+  }
+}

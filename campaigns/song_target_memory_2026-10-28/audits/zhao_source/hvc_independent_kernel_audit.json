@@ -1,0 +1,57 @@
+{
+  "independent_scalar_cases": [
+    {
+      "n": 12,
+      "seed": 3,
+      "eta": 0.0,
+      "gamma": 0.01,
+      "steps": 350,
+      "weight_max_abs_error": 0.0,
+      "activity_exact": true
+    },
+    {
+      "n": 12,
+      "seed": 7,
+      "eta": 0.025,
+      "gamma": 0.01,
+      "steps": 350,
+      "weight_max_abs_error": 1.3877787807814457e-16,
+      "activity_exact": true
+    },
+    {
+      "n": 20,
+      "seed": 11,
+      "eta": 0.05,
+      "gamma": 0.02,
+      "steps": 350,
+      "weight_max_abs_error": 1.1102230246251565e-15,
+      "activity_exact": true
+    },
+    {
+      "n": 20,
+      "seed": 23,
+      "eta": 0.0125,
+      "gamma": 0.0,
+      "steps": 350,
+      "weight_max_abs_error": 5.551115123125783e-16,
+      "activity_exact": true
+    },
+    {
+      "n": 9,
+      "seed": 37,
+      "eta": 0.1,
+      "gamma": 0.1,
+      "steps": 350,
+      "weight_max_abs_error": 0.0,
+      "activity_exact": true
+    }
+  ],
+  "verdict": "PASS for kernel arithmetic; not biological model validation",
+  "source_cpp_sha256": "26a6553e7edb08a4a5cf5702b854e95a5995d861e197c4e13547006a1bd60fd2",
+  "limitations": [
+    "Independent Python scalar source implementation; no MATLAB runtime/PRNG replay.",
+    "Core uses10ms impulse irrespective of50/300ms biological light width.",
+    "Sequence length is not vocal element duration; no acoustic decoder validated.",
+    "Frozen-weight probes differ from original online training readout, both legitimately reported separately."
+  ]
+}

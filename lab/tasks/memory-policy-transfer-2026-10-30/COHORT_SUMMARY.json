@@ -1,0 +1,92 @@
+{
+  "selection": "SHA256 bucket 0 mod 8; stable arm/install/context; install March 1 through May 10; first 21 days; strictly increasing times; every item count equals local exposure number starting at 1; >=20 repeat events on >=2 UTC days",
+  "source_context": [
+    "de",
+    "B"
+  ],
+  "exclusions": {
+    "multiple_arms": 485,
+    "installation_outside_gap_free_window": 2572,
+    "multiple_installations": 121,
+    "item_counter_gap_or_left_truncation": 166,
+    "fewer_than_20_repeats_or_two_days": 765,
+    "multiple_language_or_set": 33,
+    "no_window_rows": 17,
+    "unrecognised_policy": 3
+  },
+  "all_candidate_counts": {
+    "random": 8,
+    "smart": 10,
+    "spaced": 4
+  },
+  "context_counts": [
+    {
+      "arm": "random",
+      "context": [
+        "de",
+        "B"
+      ],
+      "people": 8
+    },
+    {
+      "arm": "spaced",
+      "context": [
+        "de",
+        "B"
+      ],
+      "people": 4
+    },
+    {
+      "arm": "smart",
+      "context": [
+        "de",
+        "B"
+      ],
+      "people": 10
+    },
+    {
+      "arm": "random",
+      "context": [
+        "de",
+        "A1"
+      ],
+      "people": 1
+    },
+    {
+      "arm": "smart",
+      "context": [
+        "de",
+        "B+"
+      ],
+      "people": 1
+    },
+    {
+      "arm": "smart",
+      "context": [
+        "de",
+        "A2"
+      ],
+      "people": 1
+    },
+    {
+      "arm": "spaced",
+      "context": [
+        "de",
+        "A"
+      ],
+      "people": 2
+    }
+  ],
+  "selected": {
+    "source_fit": 6,
+    "source_validation": 2,
+    "smart": 10,
+    "spaced": 4
+  },
+  "repeat_events": {
+    "source_fit": 222,
+    "source_validation": 83,
+    "smart": 663,
+    "spaced": 433
+  }
+}

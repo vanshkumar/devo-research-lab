@@ -1,0 +1,1147 @@
+{
+  "scope": "Reserved input sequences only. Known parameters and Gaussian covariance; no empirical outcome access.",
+  "noise_sd": 3.0,
+  "motor_phi": 0.7,
+  "observation_phi": 0.25,
+  "process_noise": 0.0,
+  "drift": "Known absent for oracle; projected block drift nuisance in secondary calculation.",
+  "meaning": "An upper-bound information check for stipulated model pairs, not power of the fitted empirical analysis. High discrimination rejects universal information impossibility; it does not validate a correct mechanistic model.",
+  "scenarios": {
+    "fixed_vs_negative": {
+      "people": 20,
+      "oracle_D2": 57.835780241767864,
+      "oracle_accuracy": 0.9999283760399016,
+      "oracle_monte_carlo_accuracy": 0.9999,
+      "nuisance_projected_D2": 50.48552198399909,
+      "nuisance_projected_accuracy": 0.9998093202061006,
+      "note": "Projection allows free current-cell learning gains at both fixed timescales, current endpoint cells and participant/block drift; fixed covariance and time constants remain known."
+    },
+    "fixed_vs_positive": {
+      "people": 20,
+      "oracle_D2": 143.04505518817132,
+      "oracle_accuracy": 0.9999999988848065,
+      "oracle_monte_carlo_accuracy": 1.0,
+      "nuisance_projected_D2": 111.84651475203262,
+      "nuisance_projected_accuracy": 0.9999999381274681,
+      "note": "Projection allows free current-cell learning gains at both fixed timescales, current endpoint cells and participant/block drift; fixed covariance and time constants remain known."
+    },
+    "negative_retention_vs_transient": {
+      "people": 20,
+      "oracle_D2": 22.317309324977117,
+      "oracle_accuracy": 0.9909131491253019,
+      "oracle_monte_carlo_accuracy": 0.99073,
+      "nuisance_projected_D2": 20.070726042561063,
+      "nuisance_projected_accuracy": 0.9874551291427086,
+      "note": "Projection allows free current-cell learning gains at both fixed timescales, current endpoint cells and participant/block drift; fixed covariance and time constants remain known."
+    },
+    "positive_retention_vs_transient": {
+      "people": 20,
+      "oracle_D2": 90.39242331469586,
+      "oracle_accuracy": 0.999999001593111,
+      "oracle_monte_carlo_accuracy": 1.0,
+      "nuisance_projected_D2": 70.21638220888926,
+      "nuisance_projected_accuracy": 0.999986037566613,
+      "note": "Projection allows free current-cell learning gains at both fixed timescales, current endpoint cells and participant/block drift; fixed covariance and time constants remain known."
+    },
+    "positive_retention_vs_rebound": {
+      "people": 20,
+      "oracle_D2": 235.5998837572068,
+      "oracle_accuracy": 0.9999999999999917,
+      "oracle_monte_carlo_accuracy": 1.0,
+      "nuisance_projected_D2": 201.32172625483088,
+      "nuisance_projected_accuracy": 0.9999999999993504,
+      "note": "Projection allows free current-cell learning gains at both fixed timescales, current endpoint cells and participant/block drift; fixed covariance and time constants remain known."
+    },
+    "retention_vs_perceived_error": {
+      "people": 20,
+      "oracle_D2": 9.220881250576514e-30,
+      "oracle_accuracy": 0.5000000000000006,
+      "oracle_monte_carlo_accuracy": 0.5,
+      "nuisance_projected_D2": 8.250141540826803e-30,
+      "nuisance_projected_accuracy": 0.5000000000000006,
+      "note": "Projection allows free current-cell learning gains at both fixed timescales, current endpoint cells and participant/block drift; fixed covariance and time constants remain known."
+    }
+  },
+  "people": [
+    {
+      "person": "tsay_TE_SPE.csv:1",
+      "pair": "fixed_vs_negative",
+      "readouts": 703,
+      "max_mean_difference": 0.8718384123635028,
+      "oracle_D2": 3.0558456669379375,
+      "nuisance_projected_D2": 2.716843789167381,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:1",
+      "pair": "fixed_vs_positive",
+      "readouts": 703,
+      "max_mean_difference": 3.100999924117163,
+      "oracle_D2": 8.21625132567206,
+      "nuisance_projected_D2": 6.180854578693456,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:1",
+      "pair": "negative_retention_vs_transient",
+      "readouts": 703,
+      "max_mean_difference": 0.5666949680362772,
+      "oracle_D2": 1.2352041594858583,
+      "nuisance_projected_D2": 1.1159431441837955,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:1",
+      "pair": "positive_retention_vs_transient",
+      "readouts": 703,
+      "max_mean_difference": 2.676332144386784,
+      "oracle_D2": 5.393922078676919,
+      "nuisance_projected_D2": 3.9640011402691244,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:1",
+      "pair": "positive_retention_vs_rebound",
+      "readouts": 703,
+      "max_mean_difference": 3.235953434195487,
+      "oracle_D2": 13.423540264902833,
+      "nuisance_projected_D2": 11.225770096051441,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:1",
+      "pair": "retention_vs_perceived_error",
+      "readouts": 703,
+      "max_mean_difference": 4.440892098500626e-16,
+      "oracle_D2": 2.757308378721981e-31,
+      "nuisance_projected_D2": 2.453280518282108e-31,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:2",
+      "pair": "fixed_vs_negative",
+      "readouts": 698,
+      "max_mean_difference": 0.9525185076544315,
+      "oracle_D2": 3.116466594930675,
+      "nuisance_projected_D2": 2.841190191669704,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:2",
+      "pair": "fixed_vs_positive",
+      "readouts": 698,
+      "max_mean_difference": 3.019818578321864,
+      "oracle_D2": 7.390716700903939,
+      "nuisance_projected_D2": 6.429317993174738,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:2",
+      "pair": "negative_retention_vs_transient",
+      "readouts": 698,
+      "max_mean_difference": 0.6191370299753804,
+      "oracle_D2": 1.173165142325351,
+      "nuisance_projected_D2": 1.0830872531773834,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:2",
+      "pair": "positive_retention_vs_transient",
+      "readouts": 698,
+      "max_mean_difference": 2.897532864985083,
+      "oracle_D2": 4.736699361884804,
+      "nuisance_projected_D2": 4.084425351644562,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:2",
+      "pair": "positive_retention_vs_rebound",
+      "readouts": 698,
+      "max_mean_difference": 3.179378487587396,
+      "oracle_D2": 12.54229119993214,
+      "nuisance_projected_D2": 11.409754629002862,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:2",
+      "pair": "retention_vs_perceived_error",
+      "readouts": 698,
+      "max_mean_difference": 8.881784197001252e-16,
+      "oracle_D2": 4.2803408976924e-31,
+      "nuisance_projected_D2": 3.942735363103697e-31,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:5",
+      "pair": "fixed_vs_negative",
+      "readouts": 697,
+      "max_mean_difference": 1.032438971536277,
+      "oracle_D2": 2.858185048608628,
+      "nuisance_projected_D2": 2.5380532361430177,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:5",
+      "pair": "fixed_vs_positive",
+      "readouts": 697,
+      "max_mean_difference": 2.371774455025825,
+      "oracle_D2": 5.621222353302129,
+      "nuisance_projected_D2": 4.617120572269656,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:5",
+      "pair": "negative_retention_vs_transient",
+      "readouts": 697,
+      "max_mean_difference": 0.6710853314985803,
+      "oracle_D2": 1.0651167372593648,
+      "nuisance_projected_D2": 0.9619748526224701,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:5",
+      "pair": "positive_retention_vs_transient",
+      "readouts": 697,
+      "max_mean_difference": 1.9481964305409798,
+      "oracle_D2": 3.510882884304374,
+      "nuisance_projected_D2": 2.903923880368911,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:5",
+      "pair": "positive_retention_vs_rebound",
+      "readouts": 697,
+      "max_mean_difference": 2.506141173818092,
+      "oracle_D2": 9.906971143260524,
+      "nuisance_projected_D2": 8.774643649055207,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:5",
+      "pair": "retention_vs_perceived_error",
+      "readouts": 697,
+      "max_mean_difference": 8.881784197001252e-16,
+      "oracle_D2": 4.887198115646818e-31,
+      "nuisance_projected_D2": 4.283265830358264e-31,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:7",
+      "pair": "fixed_vs_negative",
+      "readouts": 696,
+      "max_mean_difference": 1.0188537982757415,
+      "oracle_D2": 3.469569562313361,
+      "nuisance_projected_D2": 3.00042600707763,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:7",
+      "pair": "fixed_vs_positive",
+      "readouts": 696,
+      "max_mean_difference": 2.9610365752889978,
+      "oracle_D2": 8.94104075828536,
+      "nuisance_projected_D2": 7.054796550814181,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:7",
+      "pair": "negative_retention_vs_transient",
+      "readouts": 696,
+      "max_mean_difference": 0.6622549688792319,
+      "oracle_D2": 1.3160083359450514,
+      "nuisance_projected_D2": 1.1523013450099706,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:7",
+      "pair": "positive_retention_vs_transient",
+      "readouts": 696,
+      "max_mean_difference": 2.666154067255232,
+      "oracle_D2": 5.5314085376791,
+      "nuisance_projected_D2": 4.270695965931509,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:7",
+      "pair": "positive_retention_vs_rebound",
+      "readouts": 696,
+      "max_mean_difference": 3.0261057082999145,
+      "oracle_D2": 14.000788336014104,
+      "nuisance_projected_D2": 11.766321924333365,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:7",
+      "pair": "retention_vs_perceived_error",
+      "readouts": 696,
+      "max_mean_difference": 8.881784197001252e-16,
+      "oracle_D2": 7.1624197465300475e-31,
+      "nuisance_projected_D2": 6.604730078041488e-31,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:10",
+      "pair": "fixed_vs_negative",
+      "readouts": 694,
+      "max_mean_difference": 0.9011815075495851,
+      "oracle_D2": 2.808173364494418,
+      "nuisance_projected_D2": 2.5053651054518404,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:10",
+      "pair": "fixed_vs_positive",
+      "readouts": 694,
+      "max_mean_difference": 3.594682351653411,
+      "oracle_D2": 8.027574835643971,
+      "nuisance_projected_D2": 6.484525854986474,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:10",
+      "pair": "negative_retention_vs_transient",
+      "readouts": 694,
+      "max_mean_difference": 0.5857679799072304,
+      "oracle_D2": 1.086641347980979,
+      "nuisance_projected_D2": 0.999411087623873,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:10",
+      "pair": "positive_retention_vs_transient",
+      "readouts": 694,
+      "max_mean_difference": 3.3317361324443953,
+      "oracle_D2": 5.223110479361876,
+      "nuisance_projected_D2": 4.282027292683919,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:10",
+      "pair": "positive_retention_vs_rebound",
+      "readouts": 694,
+      "max_mean_difference": 3.829982533311685,
+      "oracle_D2": 12.538376156525715,
+      "nuisance_projected_D2": 11.056079084218165,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:10",
+      "pair": "retention_vs_perceived_error",
+      "readouts": 694,
+      "max_mean_difference": 8.881784197001252e-16,
+      "oracle_D2": 5.47862374882439e-31,
+      "nuisance_projected_D2": 4.754809056775793e-31,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:12",
+      "pair": "fixed_vs_negative",
+      "readouts": 702,
+      "max_mean_difference": 0.8896173005096283,
+      "oracle_D2": 3.2702705071215274,
+      "nuisance_projected_D2": 2.7473964132071567,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:12",
+      "pair": "fixed_vs_positive",
+      "readouts": 702,
+      "max_mean_difference": 3.6519235575197118,
+      "oracle_D2": 8.762633784844923,
+      "nuisance_projected_D2": 6.747705092845035,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:12",
+      "pair": "negative_retention_vs_transient",
+      "readouts": 702,
+      "max_mean_difference": 0.5782512453312585,
+      "oracle_D2": 1.3693183326584353,
+      "nuisance_projected_D2": 1.2197585613168473,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:12",
+      "pair": "positive_retention_vs_transient",
+      "readouts": 702,
+      "max_mean_difference": 3.3583277956925537,
+      "oracle_D2": 5.515078849199416,
+      "nuisance_projected_D2": 4.1794096106294365,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:12",
+      "pair": "positive_retention_vs_rebound",
+      "readouts": 702,
+      "max_mean_difference": 3.7162998271886085,
+      "oracle_D2": 13.989071074942096,
+      "nuisance_projected_D2": 11.833021632726624,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:12",
+      "pair": "retention_vs_perceived_error",
+      "readouts": 702,
+      "max_mean_difference": 8.881784197001252e-16,
+      "oracle_D2": 8.434371032640988e-31,
+      "nuisance_projected_D2": 6.969042360310521e-31,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:15",
+      "pair": "fixed_vs_negative",
+      "readouts": 700,
+      "max_mean_difference": 0.894615465068201,
+      "oracle_D2": 2.9730743818571463,
+      "nuisance_projected_D2": 2.616923962002442,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:15",
+      "pair": "fixed_vs_positive",
+      "readouts": 700,
+      "max_mean_difference": 2.091490383412947,
+      "oracle_D2": 6.627931750397096,
+      "nuisance_projected_D2": 5.25006371800839,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:15",
+      "pair": "negative_retention_vs_transient",
+      "readouts": 700,
+      "max_mean_difference": 0.5815000522943305,
+      "oracle_D2": 1.1340009921063021,
+      "nuisance_projected_D2": 1.0079986531374503,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:15",
+      "pair": "positive_retention_vs_transient",
+      "readouts": 700,
+      "max_mean_difference": 1.7438675041232106,
+      "oracle_D2": 3.9388716077005443,
+      "nuisance_projected_D2": 3.0846288173823364,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:15",
+      "pair": "positive_retention_vs_rebound",
+      "readouts": 700,
+      "max_mean_difference": 2.1849581778693863,
+      "oracle_D2": 10.996840565433015,
+      "nuisance_projected_D2": 9.451920602769896,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:15",
+      "pair": "retention_vs_perceived_error",
+      "readouts": 700,
+      "max_mean_difference": 8.881784197001252e-16,
+      "oracle_D2": 4.279189847040159e-31,
+      "nuisance_projected_D2": 3.8885735827342307e-31,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:17",
+      "pair": "fixed_vs_negative",
+      "readouts": 711,
+      "max_mean_difference": 1.085708069674947,
+      "oracle_D2": 3.6406608444615864,
+      "nuisance_projected_D2": 3.056785519243216,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:17",
+      "pair": "fixed_vs_positive",
+      "readouts": 711,
+      "max_mean_difference": 3.218341683004669,
+      "oracle_D2": 11.535981418301816,
+      "nuisance_projected_D2": 7.909110454668811,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:17",
+      "pair": "negative_retention_vs_transient",
+      "readouts": 711,
+      "max_mean_difference": 0.7057102452887156,
+      "oracle_D2": 1.307523798133474,
+      "nuisance_projected_D2": 1.1430169648164061,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:17",
+      "pair": "positive_retention_vs_transient",
+      "readouts": 711,
+      "max_mean_difference": 2.9848976211571276,
+      "oracle_D2": 8.030382889474794,
+      "nuisance_projected_D2": 5.574222548709174,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:17",
+      "pair": "positive_retention_vs_rebound",
+      "readouts": 711,
+      "max_mean_difference": 3.4716061230864477,
+      "oracle_D2": 17.827162420897594,
+      "nuisance_projected_D2": 14.054095139450954,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:17",
+      "pair": "retention_vs_perceived_error",
+      "readouts": 711,
+      "max_mean_difference": 8.881784197001252e-16,
+      "oracle_D2": 5.743305228920546e-31,
+      "nuisance_projected_D2": 5.113626404461351e-31,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:18",
+      "pair": "fixed_vs_negative",
+      "readouts": 710,
+      "max_mean_difference": 0.95912123243119,
+      "oracle_D2": 3.528059380866047,
+      "nuisance_projected_D2": 3.0672374684098567,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:18",
+      "pair": "fixed_vs_positive",
+      "readouts": 710,
+      "max_mean_difference": 2.7479773164081163,
+      "oracle_D2": 7.306881162170908,
+      "nuisance_projected_D2": 6.028452151119196,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:18",
+      "pair": "negative_retention_vs_transient",
+      "readouts": 710,
+      "max_mean_difference": 0.6234288010802738,
+      "oracle_D2": 1.3995687846736329,
+      "nuisance_projected_D2": 1.2382393056803176,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:18",
+      "pair": "positive_retention_vs_transient",
+      "readouts": 710,
+      "max_mean_difference": 2.363532805071118,
+      "oracle_D2": 4.466540204153218,
+      "nuisance_projected_D2": 3.670041222821939,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:18",
+      "pair": "positive_retention_vs_rebound",
+      "readouts": 710,
+      "max_mean_difference": 2.8612721435053885,
+      "oracle_D2": 13.414320181717887,
+      "nuisance_projected_D2": 11.939021612865368,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:18",
+      "pair": "retention_vs_perceived_error",
+      "readouts": 710,
+      "max_mean_difference": 8.881784197001252e-16,
+      "oracle_D2": 3.939522145151115e-31,
+      "nuisance_projected_D2": 3.720266382976237e-31,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:19",
+      "pair": "fixed_vs_negative",
+      "readouts": 710,
+      "max_mean_difference": 0.8981549689235292,
+      "oracle_D2": 3.2945338676161233,
+      "nuisance_projected_D2": 2.9088660124590717,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:19",
+      "pair": "fixed_vs_positive",
+      "readouts": 710,
+      "max_mean_difference": 2.120301226608874,
+      "oracle_D2": 9.467266384125688,
+      "nuisance_projected_D2": 7.3872557298768,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:19",
+      "pair": "negative_retention_vs_transient",
+      "readouts": 710,
+      "max_mean_difference": 0.5943387374895526,
+      "oracle_D2": 1.2853140573483874,
+      "nuisance_projected_D2": 1.172559607983528,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:19",
+      "pair": "positive_retention_vs_transient",
+      "readouts": 710,
+      "max_mean_difference": 1.9270654546341102,
+      "oracle_D2": 6.057360468065948,
+      "nuisance_projected_D2": 4.651976805045511,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:19",
+      "pair": "positive_retention_vs_rebound",
+      "readouts": 710,
+      "max_mean_difference": 2.0722086300274403,
+      "oracle_D2": 15.110571845933144,
+      "nuisance_projected_D2": 12.782142075356106,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_TE_SPE.csv:19",
+      "pair": "retention_vs_perceived_error",
+      "readouts": 710,
+      "max_mean_difference": 8.881784197001252e-16,
+      "oracle_D2": 6.293332648164104e-31,
+      "nuisance_projected_D2": 5.640882535577133e-31,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:2",
+      "pair": "fixed_vs_negative",
+      "readouts": 701,
+      "max_mean_difference": 1.0301888821479857,
+      "oracle_D2": 2.724096702198729,
+      "nuisance_projected_D2": 2.3810039008041666,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:2",
+      "pair": "fixed_vs_positive",
+      "readouts": 701,
+      "max_mean_difference": 4.032965516853194,
+      "oracle_D2": 8.43042043847517,
+      "nuisance_projected_D2": 6.796675447467437,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:2",
+      "pair": "negative_retention_vs_transient",
+      "readouts": 701,
+      "max_mean_difference": 0.6696227733961906,
+      "oracle_D2": 0.9904109801836003,
+      "nuisance_projected_D2": 0.8830170702562088,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:2",
+      "pair": "positive_retention_vs_transient",
+      "readouts": 701,
+      "max_mean_difference": 3.8804341294351334,
+      "oracle_D2": 5.762725993239364,
+      "nuisance_projected_D2": 4.6997278101339255,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:2",
+      "pair": "positive_retention_vs_rebound",
+      "readouts": 701,
+      "max_mean_difference": 4.3025253142466795,
+      "oracle_D2": 13.17197647485974,
+      "nuisance_projected_D2": 11.366033297563721,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:2",
+      "pair": "retention_vs_perceived_error",
+      "readouts": 701,
+      "max_mean_difference": 8.881784197001252e-16,
+      "oracle_D2": 8.060569102645527e-31,
+      "nuisance_projected_D2": 6.8688709529002615e-31,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:3",
+      "pair": "fixed_vs_negative",
+      "readouts": 695,
+      "max_mean_difference": 0.9667899635440584,
+      "oracle_D2": 2.6687522487593798,
+      "nuisance_projected_D2": 2.3354516746351197,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:3",
+      "pair": "fixed_vs_positive",
+      "readouts": 695,
+      "max_mean_difference": 1.3163707289653155,
+      "oracle_D2": 4.806536510170687,
+      "nuisance_projected_D2": 3.7229075863180343,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:3",
+      "pair": "negative_retention_vs_transient",
+      "readouts": 695,
+      "max_mean_difference": 0.628413476303638,
+      "oracle_D2": 1.0362508173502918,
+      "nuisance_projected_D2": 0.9320600059231599,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:3",
+      "pair": "positive_retention_vs_transient",
+      "readouts": 695,
+      "max_mean_difference": 1.1929422125615972,
+      "oracle_D2": 2.6831968837591837,
+      "nuisance_projected_D2": 2.05486632809806,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:3",
+      "pair": "positive_retention_vs_rebound",
+      "readouts": 695,
+      "max_mean_difference": 1.593194580665008,
+      "oracle_D2": 8.95100675484789,
+      "nuisance_projected_D2": 7.66122896991114,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:3",
+      "pair": "retention_vs_perceived_error",
+      "readouts": 695,
+      "max_mean_difference": 4.440892098500626e-16,
+      "oracle_D2": 2.4709039613750337e-31,
+      "nuisance_projected_D2": 2.262717772137193e-31,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:4",
+      "pair": "fixed_vs_negative",
+      "readouts": 693,
+      "max_mean_difference": 0.8511937127591188,
+      "oracle_D2": 2.3892298793303457,
+      "nuisance_projected_D2": 2.068715553892931,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:4",
+      "pair": "fixed_vs_positive",
+      "readouts": 693,
+      "max_mean_difference": 2.0901252324589668,
+      "oracle_D2": 4.3477793009830075,
+      "nuisance_projected_D2": 3.3230213089741776,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:4",
+      "pair": "negative_retention_vs_transient",
+      "readouts": 693,
+      "max_mean_difference": 0.5532759132934271,
+      "oracle_D2": 0.987339471992103,
+      "nuisance_projected_D2": 0.8859823017451561,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:4",
+      "pair": "positive_retention_vs_transient",
+      "readouts": 693,
+      "max_mean_difference": 1.942128023478426,
+      "oracle_D2": 2.696859809003647,
+      "nuisance_projected_D2": 2.085704038798825,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:4",
+      "pair": "positive_retention_vs_rebound",
+      "readouts": 693,
+      "max_mean_difference": 1.9823885254339588,
+      "oracle_D2": 7.923734287512733,
+      "nuisance_projected_D2": 6.829207638698228,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:4",
+      "pair": "retention_vs_perceived_error",
+      "readouts": 693,
+      "max_mean_difference": 4.440892098500626e-16,
+      "oracle_D2": 2.112653084216451e-31,
+      "nuisance_projected_D2": 2.026504207197155e-31,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:7",
+      "pair": "fixed_vs_negative",
+      "readouts": 702,
+      "max_mean_difference": 1.0473237553077377,
+      "oracle_D2": 2.8710242333691323,
+      "nuisance_projected_D2": 2.5076852545417543,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:7",
+      "pair": "fixed_vs_positive",
+      "readouts": 702,
+      "max_mean_difference": 1.7449180255856316,
+      "oracle_D2": 5.95383221655786,
+      "nuisance_projected_D2": 4.792190596249609,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:7",
+      "pair": "negative_retention_vs_transient",
+      "readouts": 702,
+      "max_mean_difference": 0.6807604409500295,
+      "oracle_D2": 1.1402477584115491,
+      "nuisance_projected_D2": 1.0219346019032567,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:7",
+      "pair": "positive_retention_vs_transient",
+      "readouts": 702,
+      "max_mean_difference": 1.320645091825376,
+      "oracle_D2": 3.304824868306895,
+      "nuisance_projected_D2": 2.600978951372576,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:7",
+      "pair": "positive_retention_vs_rebound",
+      "readouts": 702,
+      "max_mean_difference": 1.787939507600238,
+      "oracle_D2": 10.421693605076106,
+      "nuisance_projected_D2": 9.077776889580864,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:7",
+      "pair": "retention_vs_perceived_error",
+      "readouts": 702,
+      "max_mean_difference": 4.440892098500626e-16,
+      "oracle_D2": 2.929152273421831e-31,
+      "nuisance_projected_D2": 2.6910081977543386e-31,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:8",
+      "pair": "fixed_vs_negative",
+      "readouts": 696,
+      "max_mean_difference": 0.8935154164798468,
+      "oracle_D2": 2.1362718570243984,
+      "nuisance_projected_D2": 1.8129407939516844,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:8",
+      "pair": "fixed_vs_positive",
+      "readouts": 696,
+      "max_mean_difference": 2.092300576598472,
+      "oracle_D2": 6.63851987975669,
+      "nuisance_projected_D2": 4.7072955811874575,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:8",
+      "pair": "negative_retention_vs_transient",
+      "readouts": 696,
+      "max_mean_difference": 0.5807850207119003,
+      "oracle_D2": 0.7107680222859212,
+      "nuisance_projected_D2": 0.6314608791689623,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:8",
+      "pair": "positive_retention_vs_transient",
+      "readouts": 696,
+      "max_mean_difference": 2.043927457494871,
+      "oracle_D2": 4.646737736768085,
+      "nuisance_projected_D2": 3.3567988083212876,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:8",
+      "pair": "positive_retention_vs_rebound",
+      "readouts": 696,
+      "max_mean_difference": 2.359904447672944,
+      "oracle_D2": 10.3663240343717,
+      "nuisance_projected_D2": 8.250676180849096,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:8",
+      "pair": "retention_vs_perceived_error",
+      "readouts": 696,
+      "max_mean_difference": 8.881784197001252e-16,
+      "oracle_D2": 5.128258180640509e-31,
+      "nuisance_projected_D2": 4.638832702038766e-31,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:10",
+      "pair": "fixed_vs_negative",
+      "readouts": 704,
+      "max_mean_difference": 0.9579334953444119,
+      "oracle_D2": 2.443535597359194,
+      "nuisance_projected_D2": 2.1262192935677575,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:10",
+      "pair": "fixed_vs_positive",
+      "readouts": 704,
+      "max_mean_difference": 1.987507895840349,
+      "oracle_D2": 5.1800956115485075,
+      "nuisance_projected_D2": 4.108863921872951,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:10",
+      "pair": "negative_retention_vs_transient",
+      "readouts": 704,
+      "max_mean_difference": 0.6226567719738676,
+      "oracle_D2": 0.9439462601007206,
+      "nuisance_projected_D2": 0.8574624988877468,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:10",
+      "pair": "positive_retention_vs_transient",
+      "readouts": 704,
+      "max_mean_difference": 1.6271805818682978,
+      "oracle_D2": 3.054237901634711,
+      "nuisance_projected_D2": 2.428619610811336,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:10",
+      "pair": "positive_retention_vs_rebound",
+      "readouts": 704,
+      "max_mean_difference": 2.1244270795124014,
+      "oracle_D2": 8.82210414634913,
+      "nuisance_projected_D2": 7.715136616010396,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:10",
+      "pair": "retention_vs_perceived_error",
+      "readouts": 704,
+      "max_mean_difference": 8.881784197001252e-16,
+      "oracle_D2": 5.201567372028945e-31,
+      "nuisance_projected_D2": 4.7896193753222415e-31,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:14",
+      "pair": "fixed_vs_negative",
+      "readouts": 701,
+      "max_mean_difference": 0.9478777307618818,
+      "oracle_D2": 2.2196170649179097,
+      "nuisance_projected_D2": 1.8766853003074866,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:14",
+      "pair": "fixed_vs_positive",
+      "readouts": 701,
+      "max_mean_difference": 2.139031793675695,
+      "oracle_D2": 5.740900169818996,
+      "nuisance_projected_D2": 4.064664744366915,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:14",
+      "pair": "negative_retention_vs_transient",
+      "readouts": 701,
+      "max_mean_difference": 0.6161205249952232,
+      "oracle_D2": 0.8156568671836807,
+      "nuisance_projected_D2": 0.7286900941192382,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:14",
+      "pair": "positive_retention_vs_transient",
+      "readouts": 701,
+      "max_mean_difference": 1.7523656659670286,
+      "oracle_D2": 3.86910148043016,
+      "nuisance_projected_D2": 2.7566987690004865,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:14",
+      "pair": "positive_retention_vs_rebound",
+      "readouts": 701,
+      "max_mean_difference": 2.1598091198119858,
+      "oracle_D2": 9.334520072275499,
+      "nuisance_projected_D2": 7.56636744208003,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:14",
+      "pair": "retention_vs_perceived_error",
+      "readouts": 701,
+      "max_mean_difference": 8.881784197001252e-16,
+      "oracle_D2": 2.5125090873871593e-31,
+      "nuisance_projected_D2": 2.2275544962180194e-31,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:17",
+      "pair": "fixed_vs_negative",
+      "readouts": 703,
+      "max_mean_difference": 0.9170067715673071,
+      "oracle_D2": 2.5843269214253053,
+      "nuisance_projected_D2": 2.258738892655267,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:17",
+      "pair": "fixed_vs_positive",
+      "readouts": 703,
+      "max_mean_difference": 2.6596881307248257,
+      "oracle_D2": 7.349639101253716,
+      "nuisance_projected_D2": 5.81287327919474,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:17",
+      "pair": "negative_retention_vs_transient",
+      "readouts": 703,
+      "max_mean_difference": 0.5960544015187498,
+      "oracle_D2": 1.0032199108291815,
+      "nuisance_projected_D2": 0.9062445805834818,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:17",
+      "pair": "positive_retention_vs_transient",
+      "readouts": 703,
+      "max_mean_difference": 2.2371075599595227,
+      "oracle_D2": 4.681197690836424,
+      "nuisance_projected_D2": 3.629974293004211,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:17",
+      "pair": "positive_retention_vs_rebound",
+      "readouts": 703,
+      "max_mean_difference": 2.6998040031223822,
+      "oracle_D2": 11.443264960265708,
+      "nuisance_projected_D2": 9.579791630551837,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:17",
+      "pair": "retention_vs_perceived_error",
+      "readouts": 703,
+      "max_mean_difference": 4.440892098500626e-16,
+      "oracle_D2": 3.2123214318776023e-31,
+      "nuisance_projected_D2": 2.9786086536826954e-31,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:18",
+      "pair": "fixed_vs_negative",
+      "readouts": 705,
+      "max_mean_difference": 0.9496126418650751,
+      "oracle_D2": 2.5986987533883803,
+      "nuisance_projected_D2": 2.271281853781299,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:18",
+      "pair": "fixed_vs_positive",
+      "readouts": 705,
+      "max_mean_difference": 1.680030613271936,
+      "oracle_D2": 4.881568180341311,
+      "nuisance_projected_D2": 3.8926932572077426,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:18",
+      "pair": "negative_retention_vs_transient",
+      "readouts": 705,
+      "max_mean_difference": 0.6172482172122987,
+      "oracle_D2": 1.0379429406016782,
+      "nuisance_projected_D2": 0.9429298611498238,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:18",
+      "pair": "positive_retention_vs_transient",
+      "readouts": 705,
+      "max_mean_difference": 1.1675483442528352,
+      "oracle_D2": 2.671883072816337,
+      "nuisance_projected_D2": 2.1155470731436097,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:18",
+      "pair": "positive_retention_vs_rebound",
+      "readouts": 705,
+      "max_mean_difference": 1.7741852926895008,
+      "oracle_D2": 8.856552262400335,
+      "nuisance_projected_D2": 7.79607841894246,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:18",
+      "pair": "retention_vs_perceived_error",
+      "readouts": 705,
+      "max_mean_difference": 8.881784197001252e-16,
+      "oracle_D2": 2.659603479884285e-31,
+      "nuisance_projected_D2": 2.5201868604123195e-31,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:19",
+      "pair": "fixed_vs_negative",
+      "readouts": 705,
+      "max_mean_difference": 0.890489882852362,
+      "oracle_D2": 3.1853877647876327,
+      "nuisance_projected_D2": 2.8477117610303178,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:19",
+      "pair": "fixed_vs_positive",
+      "readouts": 705,
+      "max_mean_difference": 2.5050005901548245,
+      "oracle_D2": 7.818263305617471,
+      "nuisance_projected_D2": 6.536126332736801,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:19",
+      "pair": "negative_retention_vs_transient",
+      "readouts": 705,
+      "max_mean_difference": 0.5788184238540353,
+      "oracle_D2": 1.2796646081215575,
+      "nuisance_projected_D2": 1.186653373271986,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:19",
+      "pair": "positive_retention_vs_transient",
+      "readouts": 705,
+      "max_mean_difference": 1.9335944419296682,
+      "oracle_D2": 4.617400517400055,
+      "nuisance_projected_D2": 3.8221138907185197,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:19",
+      "pair": "positive_retention_vs_rebound",
+      "readouts": 705,
+      "max_mean_difference": 2.3467334110123215,
+      "oracle_D2": 12.558773969688936,
+      "nuisance_projected_D2": 11.186658724813114,
+      "nuisance_rank": 33
+    },
+    {
+      "person": "tsay_controljump.csv:19",
+      "pair": "retention_vs_perceived_error",
+      "readouts": 705,
+      "max_mean_difference": 8.881784197001252e-16,
+      "oracle_D2": 4.665662742955248e-31,
+      "nuisance_projected_D2": 4.126300077984222e-31,
+      "nuisance_rank": 33
+    }
+  ]
+}

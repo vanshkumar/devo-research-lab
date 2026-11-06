@@ -1,0 +1,24 @@
+{
+  "all_inputs_finite": true,
+  "matmul_result_finite": true,
+  "einsum_result_finite": true,
+  "matmul_vs_explicit_contractions_max_abs": 5.551115123125783e-17,
+  "current_original_expression_warnings": [
+    "divide by zero encountered in matmul",
+    "overflow encountered in matmul",
+    "invalid value encountered in matmul",
+    "divide by zero encountered in matmul",
+    "overflow encountered in matmul",
+    "invalid value encountered in matmul",
+    "divide by zero encountered in matmul",
+    "overflow encountered in matmul",
+    "invalid value encountered in matmul"
+  ],
+  "first_pass_warnings_observed_in_tool_output": [
+    "divide by zero encountered in matmul",
+    "overflow encountered in matmul",
+    "invalid value encountered in matmul"
+  ],
+  "first_pass_saved": "FIRST_DATA_CHECK_INITIAL.json and first_data_check_initial.py",
+  "action": "Use explicit einsum contractions for decoder and factor reconstruction; preserve the initial warning record."
+}

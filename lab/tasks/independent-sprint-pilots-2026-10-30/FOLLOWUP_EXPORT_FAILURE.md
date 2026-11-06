@@ -1,0 +1,5 @@
+# Preserved follow-up export failure
+
+Plant100 completed all declared follow-up calculations, including both seeded current-noise strengths and both critics, but JSON export failed with `TypeError: Object of type int64 is not JSON serializable`. The finite order-policy lists contained NumPy integer scalars. No follow-up JSON result existed from this failed attempt. The source-noise NPZ had already been written; preserve its exact bytes as `outputs/teaching_source_noise_100_failed_serialization.npz` and the code as `teaching_followup_failed_serialization.py`.
+
+Fix only list serialization with explicit Python integer conversion. Do not change numerical configuration, sources, cached trained states, stochastic seeds, comparisons or metrics. Rerun plant100 to produce a complete saved result. The verifier will compare the retained failed-at-export noise arrays with the rerun arrays. This is an export repair, not a new scientific gate or result selection. No protected observations are involved.

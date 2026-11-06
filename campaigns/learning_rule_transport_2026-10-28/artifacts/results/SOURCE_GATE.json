@@ -1,0 +1,68 @@
+{
+  "freeze_sha256": "c0141244ac43d240f858956917e3b2b661c72a01a4bddbccdb3974a818b5741f",
+  "source_gate_earned": false,
+  "candidates": [
+    {
+      "model": "dnnglm32",
+      "earned": false,
+      "reasons": [
+        "overall absoluteCRPSgain<.002 vsgrowth",
+        "overall relativeCRPSgain<10% vsgrowth",
+        "family-screen lower scoregain<=0 vsgrowth",
+        "highcontrastMAEimprovement<10% vsgrowth",
+        "heldlabCRPSgain<5% vsgrowth",
+        "hoferlabmeanCRPSgain<=0 vsgrowth",
+        "highcontrastMAE>15pp"
+      ]
+    },
+    {
+      "model": "dnnglm",
+      "earned": false,
+      "reasons": [
+        "overall absoluteCRPSgain<.002 vsgrowth",
+        "overall relativeCRPSgain<10% vsgrowth",
+        "family-screen lower scoregain<=0 vsgrowth",
+        "highcontrastMAEimprovement<10% vsgrowth",
+        "highcontrastMAE>15pp"
+      ]
+    },
+    {
+      "model": "reinforce",
+      "earned": false,
+      "reasons": [
+        "overall absoluteCRPSgain<.002 vsgrowth",
+        "overall relativeCRPSgain<10% vsgrowth",
+        "family-screen lower scoregain<=0 vsgrowth",
+        "highcontrastMAEimprovement<10% vsgrowth",
+        "heldlabCRPSgain<5% vsgrowth",
+        "hoferlabmeanCRPSgain<=0 vsgrowth",
+        "family-screen lower scoregain<=0 vspersistence",
+        "highcontrastMAE>15pp"
+      ]
+    },
+    {
+      "model": "reinforce_pure",
+      "earned": false,
+      "reasons": [
+        "overall absoluteCRPSgain<.002 vsgrowth",
+        "overall relativeCRPSgain<10% vsgrowth",
+        "family-screen lower scoregain<=0 vsgrowth",
+        "highcontrastMAEimprovement<10% vsgrowth",
+        "heldlabCRPSgain<5% vsgrowth",
+        "heldlabhighMAEworsens vsgrowth",
+        "hoferlabmeanCRPSgain<=0 vsgrowth",
+        "wittenlabmeanCRPSgain<=0 vsgrowth",
+        "overall absoluteCRPSgain<.002 vspersistence",
+        "overall relativeCRPSgain<10% vspersistence",
+        "family-screen lower scoregain<=0 vspersistence",
+        "highcontrastMAEimprovement<10% vspersistence",
+        "highcontrastMAE>15pp",
+        "highcontrast80%coverageoutside70\u201395%"
+      ]
+    }
+  ],
+  "external_status": "sealed; no new prefixes/outcomes accessed",
+  "interpretation": "Failure to earn practical gate is not equivalence or proof that no model can predict acquisition.",
+  "subject_order": "SUBJECT_ORDER.json",
+  "n_primary": 40
+}

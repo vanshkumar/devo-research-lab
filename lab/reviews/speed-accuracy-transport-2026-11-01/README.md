@@ -1,0 +1,18 @@
+# Independent speed–accuracy review
+
+[REVIEW.md](REVIEW.md) reports a reproducible failed joint forecast. P accuracy improves14.7% but latency worsens158.1%; RTMAE221versus123ms. The ONE predeclared source-only affine nondecision-map relaxation improves source likelihood9.54but worsens RTMAEto227ms. Bank the fixed failure and close this consumed-release recipe. Original full optimizer refits, source-estimation uncertainty and pipeline power/coverage remainUNRUN.
+
+Inspect [FIRST_CALCULATION](FIRST_CALCULATION.json), [RECONSTRUCTION](RECONSTRUCTION.json), [scores](RECONSTRUCTED_SCORES.json), [numerics](NUMERICAL_AUDIT.json), [controls](CONTROL_AUDIT.json), [CONTRARY_PLAN](CONTRARY_PLAN.md), [source-only checkpoint](CONTRARY_SOURCE_FIT.json), [CONTRARY](CONTRARY.json), [FINAL_CHECKS](FINAL_CHECKS.json), [sources](SOURCE_MANIFEST.md), [resources](RESOURCES.json) and [STATE](STATE.md). Final code/output hashes are in REVIEW_PINS.json. Saved ordering is not proof of historical non-access.
+
+No network or installation is needed. Use repository Python3.9.6/.venv and cached author`deps/` for rdata/xarray/typing_extensions. Exact executed commands, from `/Users/vanshkumar/Documents/repos/devo-research-lab`:
+
+```sh
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 /Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python /Users/vanshkumar/Documents/repos/devo-research-lab/lab/reviews/speed-accuracy-transport-2026-11-01/first_calculation.py
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 /Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python /Users/vanshkumar/Documents/repos/devo-research-lab/lab/reviews/speed-accuracy-transport-2026-11-01/reconstruct.py
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 /Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python /Users/vanshkumar/Documents/repos/devo-research-lab/lab/reviews/speed-accuracy-transport-2026-11-01/contrary.py
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 /Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python /Users/vanshkumar/Documents/repos/devo-research-lab/lab/reviews/speed-accuracy-transport-2026-11-01/final_checks.py
+```
+
+These commands recreate generated JSON in this review directory, changing run timestamps; preserve a copy of saved evidence before a deliberate rerun. They never write author inputs. `first_calculation.py` saves raw person10target arithmetic. `reconstruct.py` independently parses all firstpairs, reconstructs summaries/384forecasts, repeats empirical sourceCV with augmented least squares, checks saved-parameter objectives, pins, analytical Wiener results and all200original/300changed-observation score controls. It does not invoke author scientific code. `contrary.py` runs exactly the two predeclared source-only starts; final fit is checkpointed before held scoring. `final_checks.py` verifies nominal denominators, order/censor/bounds/additive infeasibility/influence/cutoff and versions. `finalize_records.py` only summarizes saved outputs/pins/manual resource allowances and the current return address; it runs no new scientific model.
+
+First actual raw calculation08:35:23.849Z, full reconstruction08:39:45Z, contrary08:40:37Z, finalchecks08:42:43Z, all nativeexit0. START08:35Z/hardSTOP09:20Z. ZEROpublicops/newingress,280MBseparate read/decode/hash charge, largestmeasuredRSS131,825,664bytes, oneprocess/thread/jobs0. Scientific completion ends this assignment only; PI continues the lab with the sameACTIVEheartbeat. Proposed nonduplicate learning is saved for PI integration, not appended to shared LEARNINGS by this worker.

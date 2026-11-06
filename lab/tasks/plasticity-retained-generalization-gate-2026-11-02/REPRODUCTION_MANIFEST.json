@@ -1,0 +1,348 @@
+{
+  "upstream": {
+    "repository": "shibhansh/loss-of-plasticity",
+    "commit": "3138c5556859e0e2918d40f113b40699b6575cfa",
+    "root_tree": "803541478812c901d267bd5acd069be20fb824f9",
+    "code_license": "MIT; inherited previously verified inventory pin, no new license payload read",
+    "license_pin": {
+      "path": "LICENSE",
+      "bytes": 1073,
+      "git_blob_sha1": "d5de4889d7c7466c41355d126165954ae505302f",
+      "sha256": "eed4ca91042d3b727df8667cc8335e4c6b4d3e2c41cd48dd7fc8f1880c3fa313"
+    },
+    "license_existing_path": "lab/tasks/plasticity-retention-source-benchmark-2026-11-02/vendor/LICENSE",
+    "provider_reconstructed_files": [
+      {
+        "path": "lop/nets/deep_ffnn.py",
+        "bytes": 2632,
+        "sha256": "6fef6f9c63f7273af1a90c177076c8e03a897918363d9a95dcb97f67a031ee4b",
+        "expected_git_blob": "60526531446f6c07f34177409469bc34d1a35e94",
+        "git_blob": "2cc6642c7c0907e0d7bc5a45b3378b46386412b7",
+        "byte_certified": false
+      },
+      {
+        "path": "lop/permuted_mnist/README.md",
+        "bytes": 1407,
+        "sha256": "3ebb764c2fa50251f7db58fb988a40f31de57576a66bf7d534f83a9f4afbc1e1",
+        "expected_git_blob": "5f71bd82fcc02a75da33b09b59af263de0a90a7e",
+        "git_blob": "a93ec3a1ad22feea8a934ed997443a44a1602426",
+        "byte_certified": false
+      },
+      {
+        "path": "lop/permuted_mnist/cfg/bp/std_net.json",
+        "bytes": 422,
+        "sha256": "c8c5064a6a1114ad1e1c8d2879a69a6212904e5b9d8da731a29d5c2ce311e247",
+        "expected_git_blob": "43665558e925c920adb626cbdbb877fe9bd37e0a",
+        "git_blob": "43665558e925c920adb626cbdbb877fe9bd37e0a",
+        "byte_certified": true
+      },
+      {
+        "path": "lop/permuted_mnist/cfg/cbp.json",
+        "bytes": 520,
+        "sha256": "ddf3e65808feb2f731b0cc07e2d6bf3c3759e5bdb89b68925c2049393b4d48ee",
+        "expected_git_blob": "214839037ccb11454af4f7c51c44fa6825d622a6",
+        "git_blob": "e57ff7907e2b01a488ca0eb84c0e138905e66b9f",
+        "byte_certified": false
+      },
+      {
+        "path": "lop/permuted_mnist/load_mnist.py",
+        "bytes": 1471,
+        "sha256": "15ec880871bc2196b02858ac4547cd3dd821ab4a77d586cbd0d9c8799df6e1cb",
+        "expected_git_blob": "8b6af7865a8f1d4deabc24aa03c57a270d28ce01",
+        "git_blob": "9a0e1657f9664d0ee66f99e03268aea9125217cb",
+        "byte_certified": false
+      },
+      {
+        "path": "lop/permuted_mnist/online_expr.py",
+        "bytes": 8223,
+        "sha256": "ae5bb043c530804291548d7a7720485f66b6a3a9b76b462e70ef30914415880c",
+        "expected_git_blob": "fd955418a2b2ad826cada7d6e835785d5e621252",
+        "git_blob": "af61cf810351b7a5f84aa436211e56dbec57a0a9",
+        "byte_certified": false
+      }
+    ],
+    "prior_bp_source_path": "lab/tasks/plasticity-retention-source-benchmark-2026-11-02/vendor/lop/algos/bp.py",
+    "prior_requirements_path": "lab/tasks/plasticity-retention-protocol-calibration-2026-11-02/vendor/requirements.txt",
+    "source_tree_path": "lab/tasks/plasticity-retention-source-benchmark-2026-11-02/SOURCE_TREE.json"
+  },
+  "runtime": {
+    "python": "3.9.6 (default, Oct 19 2026, 19:18:13) \n[Clang 21.0.0 (clang-2100.4.1.1)]",
+    "executable": "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+    "numpy": "2.0.2",
+    "numpy_path": "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/lib/python3.9/site-packages/numpy/__init__.py",
+    "numpy_license": "BSD-style identity from existing package conventions; full bundled license not reverified in this gate",
+    "upstream_numpy_requirement": "1.24.1",
+    "actual_numpy": "2.0.2; independent source-equation implementation",
+    "upstream_torch_requirement": "2.1.0",
+    "actual_torch": "absent; author execution UNRUN",
+    "installations": 0,
+    "thread_limits": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "BLIS_NUM_THREADS": "1"
+    },
+    "runtime_native_thread_count": "UNCERTIFIED; no threadpoolctl enumeration"
+  },
+  "data": {
+    "objects": [
+      {
+        "url": "https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz",
+        "expected_size": 9912422,
+        "expected_canonical_md5": "f68b3c2dcbeaaa9fbdd348bbdeb94873",
+        "status": 200,
+        "headers": {
+          "x-amz-id-2": "lE5CZUVgc7csI9SKXo961+PAcC0dxV6ByR9h+d0j5x2wIIQawj7/IgvPdTuwbio2fN7e0oPGu3E=",
+          "x-amz-request-id": "F9N30S5ZBNHWC3MP",
+          "Server": "AmazonS3",
+          "Date": "Tue, 03 Nov 2026 03:35:10 GMT",
+          "Last-Modified": "Wed, 04 Mar 2020 15:46:30 GMT",
+          "ETag": "\"f68b3c2dcbeaaa9fbdd348bbdeb94873\"",
+          "x-amz-version-id": "null",
+          "Accept-Ranges": "bytes",
+          "Content-Type": "application/x-gzip",
+          "Content-Length": "9912422",
+          "Connection": "close"
+        },
+        "final_url": "https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz",
+        "bytes": 9912422,
+        "md5": "f68b3c2dcbeaaa9fbdd348bbdeb94873",
+        "sha256": "440fcabf73cc546fa21475e81ea370265605f56be210a4024d2ca8f203523609",
+        "ok": true
+      },
+      {
+        "url": "https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz",
+        "expected_size": 28881,
+        "expected_canonical_md5": "d53e105ee54ea40749a09fcbcd1e9432",
+        "status": 200,
+        "headers": {
+          "x-amz-id-2": "TKqs+Pr7+I1ZlH1hGfy2a484zA8sBYuRe+tAOTDheKii1SmFc0BPkDrur1g7u6JPtW+oYQIc/8ljLxeY33eBeRKbDKk4Wsgk",
+          "x-amz-request-id": "Q8ZP4AR3E26N8Z03",
+          "Server": "AmazonS3",
+          "Date": "Tue, 03 Nov 2026 03:35:13 GMT",
+          "Last-Modified": "Wed, 04 Mar 2020 15:46:20 GMT",
+          "ETag": "\"d53e105ee54ea40749a09fcbcd1e9432\"",
+          "x-amz-version-id": "null",
+          "Accept-Ranges": "bytes",
+          "Content-Type": "application/x-gzip",
+          "Content-Length": "28881",
+          "Connection": "close"
+        },
+        "final_url": "https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz",
+        "bytes": 28881,
+        "md5": "d53e105ee54ea40749a09fcbcd1e9432",
+        "sha256": "3552534a0a558bbed6aed32b30c495cca23d567ec52cac8be1a0730e8010255c",
+        "ok": true
+      },
+      {
+        "url": "https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz",
+        "expected_size": 1648877,
+        "expected_canonical_md5": "9fb629c4189551a2d022fa330f9573f3",
+        "status": 200,
+        "headers": {
+          "x-amz-id-2": "Pg0nxCC1Z8wfiVt2932516cOwB4MiYPo8pyrUD6uSPubHznw96McgXUE7pOB6lwQIWuL3Dzdeml1FfxVnhmOTsQygW/bxgcu",
+          "x-amz-request-id": "7M88J81Y6PEN8PTS",
+          "Server": "AmazonS3",
+          "Date": "Tue, 03 Nov 2026 03:35:14 GMT",
+          "Last-Modified": "Wed, 04 Mar 2020 15:45:52 GMT",
+          "ETag": "\"9fb629c4189551a2d022fa330f9573f3\"",
+          "x-amz-version-id": "null",
+          "Accept-Ranges": "bytes",
+          "Content-Type": "application/x-gzip",
+          "Content-Length": "1648877",
+          "Connection": "close"
+        },
+        "final_url": "https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz",
+        "bytes": 1648877,
+        "md5": "9fb629c4189551a2d022fa330f9573f3",
+        "sha256": "8d422c7b0a1c1c79245a5bcf07fe86e33eeafee792b84584aec276f5a2dbc4e6",
+        "ok": true
+      },
+      {
+        "url": "https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz",
+        "expected_size": 4542,
+        "expected_canonical_md5": "ec29112dd5afa0611ce80d1b7f02629c",
+        "status": 200,
+        "headers": {
+          "x-amz-request-id": "GGZXG3EV92BWPHDG",
+          "x-amz-id-2": "8kQW/a3oDzEo/HPqdUVcvnBHh8SQbjrzm8a8tCIzhKnNXICphaVKOvy11VNel3LIoF/hlmuAmQuwWLrWZmWzdYPVEkBV7LeD",
+          "Content-Length": "4542",
+          "Accept-Ranges": "bytes",
+          "Date": "Tue, 03 Nov 2026 03:35:16 GMT",
+          "Server": "AmazonS3",
+          "Last-Modified": "Wed, 04 Mar 2020 15:45:40 GMT",
+          "ETag": "\"ec29112dd5afa0611ce80d1b7f02629c\"",
+          "x-amz-version-id": "null",
+          "Content-Type": "application/x-gzip",
+          "Connection": "close"
+        },
+        "final_url": "https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz",
+        "bytes": 4542,
+        "md5": "ec29112dd5afa0611ce80d1b7f02629c",
+        "sha256": "f7ae60f92e00ec6debd23a6088c31dbd2371eca3ffa0defaefb259924204aec6",
+        "ok": true
+      }
+    ],
+    "compressed_bytes": 11594722,
+    "license": "UNVERIFIED in bounded gate; code MIT and public mirror do not certify external data license",
+    "provenance": "canonical MNIST IDX objects on public OSSCI mirror; sizes/MD5 match HEAD ETags and declared canonical checksums; original loader selects torchvision MNIST"
+  },
+  "large_generated_checkpoint": {
+    "bytes": 76763606,
+    "sha256": "645d527ab5423276e515886435e823a5ff593ba806be05425f76fde049f9585c",
+    "scope": "256-update feasibility only; no published long-history continuation"
+  },
+  "files": [
+    {
+      "path": "BRIEF.md",
+      "bytes": 8128,
+      "sha256": "73fde602de04d911b76c953bcdbfa2911f0cebc81528f0e642e57cd1dcdf75e9"
+    },
+    {
+      "path": "CLOSE.md",
+      "bytes": 3017,
+      "sha256": "d2e6d3d98dd62975f00176c95b5233205b66e931d85b40e65fb3822606755265"
+    },
+    {
+      "path": "DATA_GET.json",
+      "bytes": 4399,
+      "sha256": "b91d0c60c01cae5286c1c144f46c171bebf954f9f0907b442f21c5c5e61f8632"
+    },
+    {
+      "path": "DATA_HEAD.json",
+      "bytes": 3711,
+      "sha256": "adf127665700b74608150952b44f20d3d89977b6e9ecd8d52c19226d4e04e10c"
+    },
+    {
+      "path": "FEASIBILITY.json",
+      "bytes": 755247,
+      "sha256": "8d9af3da95f78e3d1864098fcd0a3dfaf9a9f5dbdd531d9823bef89fa7931b47"
+    },
+    {
+      "path": "FEASIBILITY_PLAN.md",
+      "bytes": 3705,
+      "sha256": "0a2e055922cf0eba885f189da9e67049b47f616f048846aea2d54f085bfe197e"
+    },
+    {
+      "path": "FEASIBILITY_SUMMARY.json",
+      "bytes": 4797,
+      "sha256": "facbf7a1056aa2f852b2adad6464d370599223dc1c4c9bce4196af9a53a29876"
+    },
+    {
+      "path": "INVENTORY_39.json",
+      "bytes": 9571,
+      "sha256": "a92e3a8b72e30f042a415dee9b52319b5fc7b2979a3d4843bd7d94e537b3d6a4"
+    },
+    {
+      "path": "PRIOR_GATE.md",
+      "bytes": 5266,
+      "sha256": "549f542286980641a63b8f2568221dc68f8db7a743ca7cc932b6d2d4783e11b6"
+    },
+    {
+      "path": "PROPOSED_LEARNING.md",
+      "bytes": 1177,
+      "sha256": "816930c320fa337eb1238bcf544857f5c0d1b21ca38e3f5f8778b2f73e531a51"
+    },
+    {
+      "path": "PUBLIC1_PROVIDER.txt",
+      "bytes": 12467,
+      "sha256": "a8616db8b5ea9023803121995c5537f2789e78a8751d24056f13ea40c8a79293"
+    },
+    {
+      "path": "PUBLIC2_PROVIDER.txt",
+      "bytes": 6445,
+      "sha256": "f60c41f1e015ee55e3959bd5cec4f4eab149eaef788e9eb72f17a11d96ae452c"
+    },
+    {
+      "path": "PUBLIC3_PROVIDER.txt",
+      "bytes": 28912,
+      "sha256": "d531883f45250c791d923ef17eed0cd06d4ce407c1ffc3171c2aed93f727c8c0"
+    },
+    {
+      "path": "PUBLIC4_PROVIDER.txt",
+      "bytes": 28864,
+      "sha256": "ab483f886806f46601dbac09004e4f0377ce0bd9661b8447ab62e3559891ac2c"
+    },
+    {
+      "path": "PUBLIC5_PROVIDER.txt",
+      "bytes": 433,
+      "sha256": "f64ef647ba5d9dd63d1589baea2463f3b2dbbccf46eb43e2d0d6c74ba64359b6"
+    },
+    {
+      "path": "PUBLIC_OPERATIONS.json",
+      "bytes": 4065,
+      "sha256": "09b4c1b74db32af9ab9e6226a850f40cf1b50fea057041676fa30fdad5076440"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2925,
+      "sha256": "b91b5a00768898ba2ca0bff288268acfddb18fc593d6d33d9c76254b57936825"
+    },
+    {
+      "path": "REFERENCE.json",
+      "bytes": 3166,
+      "sha256": "563d5643412d2a60e51d000064f0dba9f0d9713b11be8cedc0fb6bf2a8bc5166"
+    },
+    {
+      "path": "RESULT.md",
+      "bytes": 6061,
+      "sha256": "62120bbde74f9d1fb00f32eea2d4f38797cb71315df82cf773ab152551b769be"
+    },
+    {
+      "path": "acquire_mnist.py",
+      "bytes": 2447,
+      "sha256": "6de03d39d42d1daf7ac4eedb391b24e984beb23583a4d2f161d438d2064c54d0"
+    },
+    {
+      "path": "feasibility.py",
+      "bytes": 10735,
+      "sha256": "200ad7ae3610207f34639af4a2ebc583dc09f5e1fc63525d5cd9d9b6c7feea3c"
+    },
+    {
+      "path": "finalize.py",
+      "bytes": 11401,
+      "sha256": "999a97c62375ed31abe2347ca1276a9aa8c8f4be8b06e85054880db974ac9a4e"
+    },
+    {
+      "path": "orient.py",
+      "bytes": 1064,
+      "sha256": "1932421a87d089a89b6f17ee54805cf5dabc18a4e7e22a51a5e3ea93f9808406"
+    },
+    {
+      "path": "vendor/lop/nets/deep_ffnn.py",
+      "bytes": 2632,
+      "sha256": "6fef6f9c63f7273af1a90c177076c8e03a897918363d9a95dcb97f67a031ee4b"
+    },
+    {
+      "path": "vendor/lop/permuted_mnist/README.md",
+      "bytes": 1407,
+      "sha256": "3ebb764c2fa50251f7db58fb988a40f31de57576a66bf7d534f83a9f4afbc1e1"
+    },
+    {
+      "path": "vendor/lop/permuted_mnist/cfg/bp/std_net.json",
+      "bytes": 422,
+      "sha256": "c8c5064a6a1114ad1e1c8d2879a69a6212904e5b9d8da731a29d5c2ce311e247"
+    },
+    {
+      "path": "vendor/lop/permuted_mnist/cfg/cbp.json",
+      "bytes": 520,
+      "sha256": "ddf3e65808feb2f731b0cc07e2d6bf3c3759e5bdb89b68925c2049393b4d48ee"
+    },
+    {
+      "path": "vendor/lop/permuted_mnist/load_mnist.py",
+      "bytes": 1471,
+      "sha256": "15ec880871bc2196b02858ac4547cd3dd821ab4a77d586cbd0d9c8799df6e1cb"
+    },
+    {
+      "path": "vendor/lop/permuted_mnist/online_expr.py",
+      "bytes": 8223,
+      "sha256": "ae5bb043c530804291548d7a7720485f66b6a3a9b76b462e70ef30914415880c"
+    },
+    {
+      "path": "verify_reference.py",
+      "bytes": 6274,
+      "sha256": "06a9cce6a6cdb82d1ece82f00f0320220ff2b47ad1bf4a93ff3d691a49001fdd"
+    }
+  ]
+}

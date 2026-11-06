@@ -1,0 +1,514 @@
+{
+  "utc": "2026-11-01T02:25:30.703792+00:00",
+  "grid": {
+    "q": [
+      0.0,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "k": [
+      0.0,
+      0.05,
+      0.15,
+      0.4,
+      1.0,
+      2.0
+    ],
+    "alpha": [
+      0.0,
+      0.05,
+      0.15,
+      0.4,
+      1.0,
+      2.0
+    ],
+    "w": [
+      1.0,
+      0.75,
+      0.5,
+      0.25,
+      0.0
+    ]
+  },
+  "channels": {
+    "physiology": {
+      "n": 39,
+      "candidates": {
+        "False": {
+          "common": {
+            "parameters": {
+              "w": 1.0,
+              "q": 0.5,
+              "k": 2.0,
+              "alpha": 0.0,
+              "allow_above1": true
+            },
+            "training_mse": 0.016229890251445115,
+            "prior": {
+              "means": [
+                0.08650299548673006,
+                0.08663533052874374,
+                0.14359737564246364
+              ],
+              "us_mean": 0.41775206500996415,
+              "slope": 0.23301824465188814,
+              "uses_acquisition_US": true
+            },
+            "augmented": false,
+            "shrink_family": false
+          },
+          "update": {
+            "parameters": {
+              "w": 1.0,
+              "q": 0.5,
+              "k": 2.0,
+              "alpha": 0.0,
+              "allow_above1": true
+            },
+            "training_mse": 0.016229890251445115,
+            "prior": {
+              "means": [
+                0.08650299548673006,
+                0.08663533052874374,
+                0.14359737564246364
+              ],
+              "us_mean": 0.41775206500996415,
+              "slope": 0.23301824465188814,
+              "uses_acquisition_US": true
+            },
+            "augmented": true,
+            "shrink_family": false
+          },
+          "validation": {
+            "n_participants": 20,
+            "mse": {
+              "common": 0.03149539218276364,
+              "update": 0.03149539218276364,
+              "constant": 0.07130715751905833,
+              "source_curve": 0.03602201151090079
+            },
+            "gain_mse": 0.0,
+            "gain_mse_bootstrap95": [
+              0.0,
+              0.0
+            ],
+            "fractional_reduction": 0.0,
+            "fractional_reduction_bootstrap95": [
+              0.0,
+              0.0
+            ],
+            "participants_improving": 0,
+            "beats_both_simple_baselines": true,
+            "passes_five_percent_positive_lower_and_baselines": false,
+            "bootstrap_seed": 20261031,
+            "bootstrap_replicates": 2000,
+            "uncertainty_scope": "conditional participant bootstrap; no population coverage or exploration correction certified"
+          },
+          "fit_ids": [
+            133,
+            116,
+            212,
+            1,
+            114,
+            117,
+            142,
+            131,
+            137,
+            208,
+            153,
+            135,
+            210,
+            148,
+            113,
+            145,
+            109,
+            144,
+            138
+          ],
+          "development_validation_ids": [
+            124,
+            123,
+            151,
+            149,
+            213,
+            154,
+            111,
+            216,
+            209,
+            214,
+            139,
+            211,
+            134,
+            206,
+            128,
+            110,
+            152,
+            127,
+            150,
+            126
+          ]
+        },
+        "True": {
+          "common": {
+            "parameters": {
+              "w": 1.0,
+              "q": 0.5,
+              "k": 2.0,
+              "alpha": 0.0,
+              "allow_above1": true
+            },
+            "training_mse": 0.016229890251445115,
+            "prior": {
+              "means": [
+                0.08650299548673006,
+                0.08663533052874374,
+                0.14359737564246364
+              ],
+              "us_mean": 0.41775206500996415,
+              "slope": 0.23301824465188814,
+              "uses_acquisition_US": true
+            },
+            "augmented": false,
+            "shrink_family": true
+          },
+          "update": {
+            "parameters": {
+              "w": 1.0,
+              "q": 0.5,
+              "k": 2.0,
+              "alpha": 0.0,
+              "allow_above1": true
+            },
+            "training_mse": 0.016229890251445115,
+            "prior": {
+              "means": [
+                0.08650299548673006,
+                0.08663533052874374,
+                0.14359737564246364
+              ],
+              "us_mean": 0.41775206500996415,
+              "slope": 0.23301824465188814,
+              "uses_acquisition_US": true
+            },
+            "augmented": true,
+            "shrink_family": true
+          },
+          "validation": {
+            "n_participants": 20,
+            "mse": {
+              "common": 0.03149539218276364,
+              "update": 0.03149539218276364,
+              "constant": 0.07130715751905833,
+              "source_curve": 0.03602201151090079
+            },
+            "gain_mse": 0.0,
+            "gain_mse_bootstrap95": [
+              0.0,
+              0.0
+            ],
+            "fractional_reduction": 0.0,
+            "fractional_reduction_bootstrap95": [
+              0.0,
+              0.0
+            ],
+            "participants_improving": 0,
+            "beats_both_simple_baselines": true,
+            "passes_five_percent_positive_lower_and_baselines": false,
+            "bootstrap_seed": 20261031,
+            "bootstrap_replicates": 2000,
+            "uncertainty_scope": "conditional participant bootstrap; no population coverage or exploration correction certified"
+          },
+          "fit_ids": [
+            133,
+            116,
+            212,
+            1,
+            114,
+            117,
+            142,
+            131,
+            137,
+            208,
+            153,
+            135,
+            210,
+            148,
+            113,
+            145,
+            109,
+            144,
+            138
+          ],
+          "development_validation_ids": [
+            124,
+            123,
+            151,
+            149,
+            213,
+            154,
+            111,
+            216,
+            209,
+            214,
+            139,
+            211,
+            134,
+            206,
+            128,
+            110,
+            152,
+            127,
+            150,
+            126
+          ]
+        }
+      },
+      "decision": {
+        "shrink_family": false,
+        "revision_common_mse_reduction": 0.0
+      }
+    },
+    "expectancy": {
+      "n": 40,
+      "candidates": {
+        "False": {
+          "common": {
+            "parameters": {
+              "w": 1.0,
+              "q": 0.25,
+              "k": 1.0,
+              "alpha": 0.0,
+              "allow_above1": false
+            },
+            "training_mse": 0.055392283135214236,
+            "prior": {
+              "means": [
+                0.86875,
+                0.9125,
+                0.25
+              ],
+              "us_mean": 0.0,
+              "slope": 0.0,
+              "uses_acquisition_US": false
+            },
+            "augmented": false,
+            "shrink_family": false
+          },
+          "update": {
+            "parameters": {
+              "w": 1.0,
+              "q": 0.25,
+              "k": 1.0,
+              "alpha": 0.0,
+              "allow_above1": false
+            },
+            "training_mse": 0.055392283135214236,
+            "prior": {
+              "means": [
+                0.86875,
+                0.9125,
+                0.25
+              ],
+              "us_mean": 0.0,
+              "slope": 0.0,
+              "uses_acquisition_US": false
+            },
+            "augmented": true,
+            "shrink_family": false
+          },
+          "validation": {
+            "n_participants": 20,
+            "mse": {
+              "common": 0.06256991435917154,
+              "update": 0.06256991435917154,
+              "constant": 0.271875,
+              "source_curve": 0.06294270833333335
+            },
+            "gain_mse": 0.0,
+            "gain_mse_bootstrap95": [
+              0.0,
+              0.0
+            ],
+            "fractional_reduction": 0.0,
+            "fractional_reduction_bootstrap95": [
+              0.0,
+              0.0
+            ],
+            "participants_improving": 0,
+            "beats_both_simple_baselines": true,
+            "passes_five_percent_positive_lower_and_baselines": false,
+            "bootstrap_seed": 20261031,
+            "bootstrap_replicates": 2000,
+            "uncertainty_scope": "conditional participant bootstrap; no population coverage or exploration correction certified"
+          },
+          "fit_ids": [
+            133,
+            116,
+            212,
+            1,
+            114,
+            117,
+            142,
+            131,
+            120,
+            137,
+            208,
+            153,
+            135,
+            210,
+            148,
+            113,
+            145,
+            109,
+            144,
+            138
+          ],
+          "development_validation_ids": [
+            124,
+            123,
+            151,
+            149,
+            213,
+            154,
+            111,
+            216,
+            209,
+            214,
+            139,
+            211,
+            134,
+            206,
+            128,
+            110,
+            152,
+            127,
+            150,
+            126
+          ]
+        },
+        "True": {
+          "common": {
+            "parameters": {
+              "w": 0.0,
+              "q": 0.25,
+              "k": 1.0,
+              "alpha": 0.0,
+              "allow_above1": false
+            },
+            "training_mse": 0.04655791837177596,
+            "prior": {
+              "means": [
+                0.86875,
+                0.9125,
+                0.25
+              ],
+              "us_mean": 0.0,
+              "slope": 0.0,
+              "uses_acquisition_US": false
+            },
+            "augmented": false,
+            "shrink_family": true
+          },
+          "update": {
+            "parameters": {
+              "w": 0.0,
+              "q": 0.25,
+              "k": 1.0,
+              "alpha": 0.05,
+              "allow_above1": false
+            },
+            "training_mse": 0.0464654367720858,
+            "prior": {
+              "means": [
+                0.86875,
+                0.9125,
+                0.25
+              ],
+              "us_mean": 0.0,
+              "slope": 0.0,
+              "uses_acquisition_US": false
+            },
+            "augmented": true,
+            "shrink_family": true
+          },
+          "validation": {
+            "n_participants": 20,
+            "mse": {
+              "common": 0.06136693232768002,
+              "update": 0.06211033746566587,
+              "constant": 0.271875,
+              "source_curve": 0.06294270833333335
+            },
+            "gain_mse": -0.0007434051379858434,
+            "gain_mse_bootstrap95": [
+              -0.0016150702347640712,
+              0.0001686600061697071
+            ],
+            "fractional_reduction": -0.012114099724201544,
+            "fractional_reduction_bootstrap95": [
+              -0.025099610638924536,
+              0.002937335081728896
+            ],
+            "participants_improving": 6,
+            "beats_both_simple_baselines": true,
+            "passes_five_percent_positive_lower_and_baselines": false,
+            "bootstrap_seed": 20261031,
+            "bootstrap_replicates": 2000,
+            "uncertainty_scope": "conditional participant bootstrap; no population coverage or exploration correction certified"
+          },
+          "fit_ids": [
+            133,
+            116,
+            212,
+            1,
+            114,
+            117,
+            142,
+            131,
+            120,
+            137,
+            208,
+            153,
+            135,
+            210,
+            148,
+            113,
+            145,
+            109,
+            144,
+            138
+          ],
+          "development_validation_ids": [
+            124,
+            123,
+            151,
+            149,
+            213,
+            154,
+            111,
+            216,
+            209,
+            214,
+            139,
+            211,
+            134,
+            206,
+            128,
+            110,
+            152,
+            127,
+            150,
+            126
+          ]
+        }
+      },
+      "decision": {
+        "shrink_family": false,
+        "revision_common_mse_reduction": 0.019226205498476756
+      }
+    }
+  },
+  "read_charge_bytes": 8000000,
+  "peak_rss_bytes": 32669696
+}

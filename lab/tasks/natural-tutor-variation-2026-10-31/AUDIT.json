@@ -1,0 +1,418 @@
+{
+  "timestamp": "2026-11-01T01:36:51.311666+00:00",
+  "scope": "self-audit, not external independent review",
+  "frozen_pins_checked": 47,
+  "source_wav_csv_pairs": 39,
+  "source_annotation_rows": 2693,
+  "abc_renditions_all39": 201,
+  "source_csv_bytes": 65913,
+  "max_32000Hz_grid_residual_samples": 0.46050165370252216,
+  "checks": {
+    "MAIN_source_features": 0.0,
+    "MAIN_source_training": 0.0,
+    "MAIN_all_scalar_costs": 6.217248937900877e-15,
+    "REVISION_source_features": 0.0,
+    "REVISION_source_training": 0.0,
+    "REVISION_all_scalar_costs": 6.661338147750939e-15
+  },
+  "scalar_costs_reconstructed": 16750,
+  "sequence_control": {
+    "original_accepts": 103,
+    "altered_rejects": 206,
+    "altered_total": 206,
+    "bag_gate_altered_accepts": 206,
+    "scope": "executed symbolic equality control; not acoustic recognition, main-summary booleans were declarative"
+  },
+  "timing_support": {
+    "duration_b": {
+      "teaching_mean_ms": 37.745484805764484,
+      "pooled_teaching_5_50_95_ms": [
+        30.11718750000025,
+        39.21875000000007,
+        44.6234375000004
+      ],
+      "teaching_range_ms": [
+        28.68749999999976,
+        46.43750000000102
+      ],
+      "teaching_log_sd_equal_recording": 0.13116814280158728
+    },
+    "duration_c": {
+      "teaching_mean_ms": 55.69596647869674,
+      "pooled_teaching_5_50_95_ms": [
+        52.593750000000156,
+        55.59374999999855,
+        59.41250000000023
+      ],
+      "teaching_range_ms": [
+        50.81250000000015,
+        60.53125000000037
+      ],
+      "teaching_log_sd_equal_recording": 0.036286360702397595
+    }
+  },
+  "postvalidation_score_separation": {
+    "MAIN": {
+      "prototype": {
+        "0.8": {
+          "weighted_score_AUC": 0.6780015873015801,
+          "frozen_rejection": 0.5071428571428571
+        },
+        "1.2": {
+          "weighted_score_AUC": 0.7133138321995388,
+          "frozen_rejection": 0.4871428571428572
+        }
+      },
+      "nearest": {
+        "0.8": {
+          "weighted_score_AUC": 0.7539702947845687,
+          "frozen_rejection": 0.4895238095238095
+        },
+        "1.2": {
+          "weighted_score_AUC": 0.7797149659863808,
+          "frozen_rejection": 0.5838095238095238
+        }
+      },
+      "covariance": {
+        "0.8": {
+          "weighted_score_AUC": 0.6946959183673401,
+          "frozen_rejection": 0.27095238095238094
+        },
+        "1.2": {
+          "weighted_score_AUC": 0.7610789115646139,
+          "frozen_rejection": 0.30619047619047624
+        }
+      }
+    },
+    "REVISION": {
+      "prototype": {
+        "0.8": {
+          "weighted_score_AUC": 0.6926292375283404,
+          "frozen_rejection": 0.34476190476190477
+        },
+        "1.2": {
+          "weighted_score_AUC": 0.7634367205215415,
+          "frozen_rejection": 0.4867857142857144
+        }
+      },
+      "nearest": {
+        "0.8": {
+          "weighted_score_AUC": 0.7415753684807231,
+          "frozen_rejection": 0.40488095238095234
+        },
+        "1.2": {
+          "weighted_score_AUC": 0.8070653061224484,
+          "frozen_rejection": 0.5451190476190476
+        }
+      },
+      "covariance": {
+        "0.8": {
+          "weighted_score_AUC": 0.6964880952380909,
+          "frozen_rejection": 0.17357142857142854
+        },
+        "1.2": {
+          "weighted_score_AUC": 0.8394654903628098,
+          "frozen_rejection": 0.22142857142857145
+        }
+      }
+    }
+  },
+  "b_edit_decrease_witnesses": [
+    {
+      "phase": "MAIN",
+      "key": "gy6or6_baseline_260312_0909.3745.wav.csv:34",
+      "factor": 0.8,
+      "cross": -2.0059845540219277,
+      "positive": 0.8907998310531191,
+      "delta_squared_cost": -1.1151847229688088
+    },
+    {
+      "phase": "MAIN",
+      "key": "gy6or6_baseline_260312_0909.3745.wav.csv:46",
+      "factor": 0.8,
+      "cross": -1.3006074696234335,
+      "positive": 0.8907998310531191,
+      "delta_squared_cost": -0.40980763857031477
+    },
+    {
+      "phase": "MAIN",
+      "key": "gy6or6_baseline_260312_0909.3745.wav.csv:58",
+      "factor": 0.8,
+      "cross": -1.3281212359556378,
+      "positive": 0.8907998310531191,
+      "delta_squared_cost": -0.4373214049025186
+    },
+    {
+      "phase": "MAIN",
+      "key": "gy6or6_baseline_260312_0913.3758.wav.csv:61",
+      "factor": 0.8,
+      "cross": -1.439954284865632,
+      "positive": 0.8907998310531191,
+      "delta_squared_cost": -0.5491544538125129
+    },
+    {
+      "phase": "MAIN",
+      "key": "gy6or6_baseline_260312_0913.3758.wav.csv:73",
+      "factor": 0.8,
+      "cross": -1.2472613109522883,
+      "positive": 0.8907998310531191,
+      "delta_squared_cost": -0.3564614798991695
+    },
+    {
+      "phase": "MAIN",
+      "key": "gy6or6_baseline_260312_0925.3839.wav.csv:12",
+      "factor": 0.8,
+      "cross": -0.9749163120646653,
+      "positive": 0.8907998310531191,
+      "delta_squared_cost": -0.08411648101154645
+    },
+    {
+      "phase": "MAIN",
+      "key": "gy6or6_baseline_260312_0925.3839.wav.csv:37",
+      "factor": 0.8,
+      "cross": -1.2587217029500155,
+      "positive": 0.8907998310531191,
+      "delta_squared_cost": -0.3679218718968963
+    },
+    {
+      "phase": "MAIN",
+      "key": "gy6or6_baseline_260312_0925.3839.wav.csv:61",
+      "factor": 0.8,
+      "cross": -0.9376234713272071,
+      "positive": 0.8907998310531191,
+      "delta_squared_cost": -0.046823640274088696
+    },
+    {
+      "phase": "MAIN",
+      "key": "gy6or6_baseline_260312_0925.3840.wav.csv:47",
+      "factor": 0.8,
+      "cross": -1.1559197242728403,
+      "positive": 0.8907998310531191,
+      "delta_squared_cost": -0.26511989321972096
+    },
+    {
+      "phase": "MAIN",
+      "key": "gy6or6_baseline_260312_0925.3840.wav.csv:59",
+      "factor": 0.8,
+      "cross": -0.9338627058781037,
+      "positive": 0.8907998310531191,
+      "delta_squared_cost": -0.04306287482498472
+    },
+    {
+      "phase": "MAIN",
+      "key": "gy6or6_baseline_260312_0930.3874.wav.csv:22",
+      "factor": 0.8,
+      "cross": -1.4288957969445104,
+      "positive": 0.8907998310531191,
+      "delta_squared_cost": -0.5380959658913919
+    },
+    {
+      "phase": "MAIN",
+      "key": "gy6or6_baseline_260312_0951.3992.wav.csv:8",
+      "factor": 0.8,
+      "cross": -0.9602383715807548,
+      "positive": 0.8907998310531191,
+      "delta_squared_cost": -0.06943854052763598
+    },
+    {
+      "phase": "MAIN",
+      "key": "gy6or6_baseline_260312_0951.3992.wav.csv:20",
+      "factor": 0.8,
+      "cross": -1.1733172891762962,
+      "positive": 0.8907998310531191,
+      "delta_squared_cost": -0.28251745812317675
+    },
+    {
+      "phase": "MAIN",
+      "key": "gy6or6_baseline_260312_0913.3758.wav.csv:22",
+      "factor": 1.2,
+      "cross": -0.6537064763506247,
+      "positive": 0.5946856869143278,
+      "delta_squared_cost": -0.05902078943629749
+    },
+    {
+      "phase": "MAIN",
+      "key": "gy6or6_baseline_260312_0913.3758.wav.csv:49",
+      "factor": 1.2,
+      "cross": -1.6807263398558796,
+      "positive": 0.5946856869143278,
+      "delta_squared_cost": -1.0860406529415414
+    },
+    {
+      "phase": "MAIN",
+      "key": "gy6or6_baseline_260312_0922.3821.wav.csv:8",
+      "factor": 1.2,
+      "cross": -0.6051280442117896,
+      "positive": 0.5946856869143278,
+      "delta_squared_cost": -0.010442357297462124
+    },
+    {
+      "phase": "MAIN",
+      "key": "gy6or6_baseline_260312_0922.3821.wav.csv:20",
+      "factor": 1.2,
+      "cross": -0.6566997027165811,
+      "positive": 0.5946856869143278,
+      "delta_squared_cost": -0.06201401580225391
+    },
+    {
+      "phase": "MAIN",
+      "key": "gy6or6_baseline_260312_0925.3840.wav.csv:11",
+      "factor": 1.2,
+      "cross": -1.022328006804901,
+      "positive": 0.5946856869143278,
+      "delta_squared_cost": -0.42764231989057355
+    },
+    {
+      "phase": "REVISION",
+      "key": "gy6or6_baseline_260312_0958.4033.wav.csv:22",
+      "factor": 0.8,
+      "cross": -1.4960887033751105,
+      "positive": 0.8907998310531191,
+      "delta_squared_cost": -0.6052888723219919
+    },
+    {
+      "phase": "REVISION",
+      "key": "gy6or6_baseline_260312_0958.4033.wav.csv:46",
+      "factor": 0.8,
+      "cross": -0.9714495838624269,
+      "positive": 0.8907998310531191,
+      "delta_squared_cost": -0.08064975280930775
+    },
+    {
+      "phase": "REVISION",
+      "key": "gy6or6_baseline_260312_0958.4041.wav.csv:33",
+      "factor": 0.8,
+      "cross": -1.062870002766338,
+      "positive": 0.8907998310531191,
+      "delta_squared_cost": -0.17207017171321892
+    },
+    {
+      "phase": "REVISION",
+      "key": "gy6or6_baseline_260312_0958.4041.wav.csv:45",
+      "factor": 0.8,
+      "cross": -1.6636483442179593,
+      "positive": 0.8907998310531191,
+      "delta_squared_cost": -0.7728485131648404
+    },
+    {
+      "phase": "REVISION",
+      "key": "gy6or6_baseline_260312_1001.4063.wav.csv:22",
+      "factor": 0.8,
+      "cross": -0.9218764124915457,
+      "positive": 0.8907998310531191,
+      "delta_squared_cost": -0.031076581438426953
+    },
+    {
+      "phase": "REVISION",
+      "key": "gy6or6_baseline_260312_1001.4063.wav.csv:46",
+      "factor": 0.8,
+      "cross": -0.9188559009679921,
+      "positive": 0.8907998310531191,
+      "delta_squared_cost": -0.028056069914873083
+    },
+    {
+      "phase": "REVISION",
+      "key": "gy6or6_baseline_260312_1001.4063.wav.csv:82",
+      "factor": 0.8,
+      "cross": -1.1375417114214081,
+      "positive": 0.8907998310531191,
+      "delta_squared_cost": -0.24674188036828948
+    },
+    {
+      "phase": "REVISION",
+      "key": "gy6or6_baseline_260312_1003.4070.wav.csv:23",
+      "factor": 0.8,
+      "cross": -1.3259467089513006,
+      "positive": 0.8907998310531191,
+      "delta_squared_cost": -0.4351468778981813
+    },
+    {
+      "phase": "REVISION",
+      "key": "gy6or6_baseline_260312_1014.4150.wav.csv:32",
+      "factor": 0.8,
+      "cross": -1.1955915492564801,
+      "positive": 0.8907998310531191,
+      "delta_squared_cost": -0.30479171820336115
+    },
+    {
+      "phase": "REVISION",
+      "key": "gy6or6_baseline_260312_1020.4180.wav.csv:57",
+      "factor": 0.8,
+      "cross": -0.9529267628162221,
+      "positive": 0.8907998310531191,
+      "delta_squared_cost": -0.062126931763103466
+    },
+    {
+      "phase": "REVISION",
+      "key": "gy6or6_baseline_260312_1025.4208.wav.csv:34",
+      "factor": 0.8,
+      "cross": -0.9028828870493395,
+      "positive": 0.8907998310531191,
+      "delta_squared_cost": -0.012083055996220643
+    },
+    {
+      "phase": "REVISION",
+      "key": "gy6or6_baseline_260312_0956.4024.wav.csv:10",
+      "factor": 1.2,
+      "cross": -1.4784552854032489,
+      "positive": 0.5946856869143278,
+      "delta_squared_cost": -0.8837695984889212
+    },
+    {
+      "phase": "REVISION",
+      "key": "gy6or6_baseline_260312_0956.4024.wav.csv:85",
+      "factor": 1.2,
+      "cross": -1.410569013249428,
+      "positive": 0.5946856869143278,
+      "delta_squared_cost": -0.8158833263351001
+    },
+    {
+      "phase": "REVISION",
+      "key": "gy6or6_baseline_260312_1009.4110.wav.csv:6",
+      "factor": 1.2,
+      "cross": -1.1792946221488219,
+      "positive": 0.5946856869143278,
+      "delta_squared_cost": -0.5846089352344941
+    },
+    {
+      "phase": "REVISION",
+      "key": "gy6or6_baseline_260312_1014.4150.wav.csv:8",
+      "factor": 1.2,
+      "cross": -1.259498576617473,
+      "positive": 0.5946856869143278,
+      "delta_squared_cost": -0.6648128897031451
+    },
+    {
+      "phase": "REVISION",
+      "key": "gy6or6_baseline_260312_1025.4208.wav.csv:10",
+      "factor": 1.2,
+      "cross": -0.648243601709078,
+      "positive": 0.5946856869143278,
+      "delta_squared_cost": -0.053557914794750916
+    },
+    {
+      "phase": "REVISION",
+      "key": "gy6or6_baseline_260312_1025.4208.wav.csv:22",
+      "factor": 1.2,
+      "cross": -0.6692631092450596,
+      "positive": 0.5946856869143278,
+      "delta_squared_cost": -0.07457742233073222
+    },
+    {
+      "phase": "REVISION",
+      "key": "gy6or6_baseline_260312_1025.4214.wav.csv:8",
+      "factor": 1.2,
+      "cross": -1.3181483661238538,
+      "positive": 0.5946856869143278,
+      "delta_squared_cost": -0.7234626792095258
+    }
+  ],
+  "decrease_witness_count": 36,
+  "peak_rss_bytes": 29458432,
+  "environment": {
+    "python": "3.9.6 (default, Oct 19 2026, 19:18:13) \n[Clang 21.0.0 (clang-2100.4.1.1)]",
+    "numpy": "2.0.2",
+    "platform": "macOS-27.0.1-arm64-arm-64bit"
+  },
+  "scientific_read_decoded_hash_bytes_this_pass": 676881
+}

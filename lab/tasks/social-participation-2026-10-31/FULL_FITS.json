@@ -1,0 +1,486 @@
+{
+  "marginal": {
+    "A": {
+      "stage": "A",
+      "model": "marginal",
+      "n": 462,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 8,
+      "objective": 190.78026346164054,
+      "projected_gradient_max": 1.8133033563572099e-07,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2"
+      ],
+      "coefficients": [
+        1.4484037305506339,
+        0.4529914973448386,
+        0.5854529157382584
+      ]
+    },
+    "F": {
+      "stage": "F",
+      "model": "marginal",
+      "n": 394,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 7,
+      "objective": 269.3759705689936,
+      "projected_gradient_max": 2.982982955090918e-08,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2"
+      ],
+      "coefficients": [
+        -0.0034596293480686395,
+        0.48067999500867403,
+        -0.09744241414529682
+      ]
+    },
+    "D": {
+      "stage": "D",
+      "model": "marginal",
+      "n": 394,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 6,
+      "objective": 271.0559629098895,
+      "projected_gradient_max": 3.6536696002009705e-07,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2"
+      ],
+      "coefficients": [
+        0.3026990033688237,
+        -0.1680429028069963,
+        -0.19316257335790346
+      ]
+    },
+    "B": {
+      "stage": "B",
+      "model": "marginal",
+      "n": 462,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 7,
+      "objective": 218.30207824198968,
+      "projected_gradient_max": 1.1010345630779739e-06,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2"
+      ],
+      "coefficients": [
+        1.1955421211568924,
+        0.47555076724891765,
+        0.503224116397366
+      ]
+    },
+    "Y": {
+      "stage": "Y",
+      "model": "marginal",
+      "n": 377,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 6,
+      "objective": 259.39148097812665,
+      "projected_gradient_max": 1.1721585035928683e-08,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2"
+      ],
+      "coefficients": [
+        0.005592458879492951,
+        0.3199209663341985,
+        -0.1409627493756162
+      ]
+    }
+  },
+  "expression": {
+    "A": {
+      "stage": "A",
+      "model": "expression",
+      "n": 462,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 8,
+      "objective": 190.78026346164054,
+      "projected_gradient_max": 1.8133033563572099e-07,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2"
+      ],
+      "coefficients": [
+        1.4484037305506339,
+        0.4529914973448386,
+        0.5854529157382584
+      ]
+    },
+    "F": {
+      "stage": "F",
+      "model": "expression",
+      "n": 394,
+      "success": true,
+      "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+      "iterations": 10,
+      "objective": 269.08858455406755,
+      "projected_gradient_max": 2.9839208603998912e-09,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2",
+        "reference_green_sign"
+      ],
+      "coefficients": [
+        -0.001783621944498827,
+        0.4821219746121246,
+        -0.09976690457454465,
+        -0.07675274998314316
+      ]
+    },
+    "D": {
+      "stage": "D",
+      "model": "expression",
+      "n": 394,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 11,
+      "objective": 266.3116542810475,
+      "projected_gradient_max": 6.988254589723741e-07,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2",
+        "first_green_sign",
+        "first_matches_reference_sign"
+      ],
+      "coefficients": [
+        0.3044920245000444,
+        -0.13836956124805924,
+        -0.18410716539213737,
+        0.027122766000206452,
+        0.31137446365298616
+      ]
+    },
+    "B": {
+      "stage": "B",
+      "model": "expression",
+      "n": 462,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 16,
+      "objective": 128.4475343151486,
+      "projected_gradient_max": 8.838382154874314e-06,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2",
+        "one_green",
+        "one_pink",
+        "both_green_first",
+        "both_pink_first",
+        "first_matches_reference_sign"
+      ],
+      "coefficients": [
+        -1.2745392144780407,
+        0.3510164638727999,
+        0.25666144802827373,
+        3.1677128350765003,
+        3.582899273294128,
+        3.4878736741075813,
+        3.6002293006981394,
+        0.015090104522173001
+      ]
+    },
+    "Y": {
+      "stage": "Y",
+      "model": "expression",
+      "n": 377,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 21,
+      "objective": 160.34192684927586,
+      "projected_gradient_max": 9.40693852236052e-06,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2",
+        "one_green",
+        "one_pink",
+        "both_green_first",
+        "both_pink_first"
+      ],
+      "coefficients": [
+        0.16928509123752872,
+        0.05643391123466591,
+        -0.11796846906891911,
+        3.125183908350648,
+        -3.3151592477680394,
+        0.04725117506520891,
+        -0.21664363194570083
+      ]
+    }
+  },
+  "primacy": {
+    "A": {
+      "stage": "A",
+      "model": "primacy",
+      "n": 462,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 8,
+      "objective": 190.78026346164054,
+      "projected_gradient_max": 1.8133033563572099e-07,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2"
+      ],
+      "coefficients": [
+        1.4484037305506339,
+        0.4529914973448386,
+        0.5854529157382584
+      ]
+    },
+    "F": {
+      "stage": "F",
+      "model": "primacy",
+      "n": 394,
+      "success": true,
+      "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+      "iterations": 10,
+      "objective": 269.08858455406755,
+      "projected_gradient_max": 2.9839208603998912e-09,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2",
+        "reference_green_sign"
+      ],
+      "coefficients": [
+        -0.001783621944498827,
+        0.4821219746121246,
+        -0.09976690457454465,
+        -0.07675274998314316
+      ]
+    },
+    "D": {
+      "stage": "D",
+      "model": "primacy",
+      "n": 394,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 11,
+      "objective": 266.3116542810475,
+      "projected_gradient_max": 6.988254589723741e-07,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2",
+        "first_green_sign",
+        "first_matches_reference_sign"
+      ],
+      "coefficients": [
+        0.3044920245000444,
+        -0.13836956124805924,
+        -0.18410716539213737,
+        0.027122766000206452,
+        0.31137446365298616
+      ]
+    },
+    "B": {
+      "stage": "B",
+      "model": "primacy",
+      "n": 462,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 16,
+      "objective": 128.4475343151486,
+      "projected_gradient_max": 8.838382154874314e-06,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2",
+        "one_green",
+        "one_pink",
+        "both_green_first",
+        "both_pink_first",
+        "first_matches_reference_sign"
+      ],
+      "coefficients": [
+        -1.2745392144780407,
+        0.3510164638727999,
+        0.25666144802827373,
+        3.1677128350765003,
+        3.582899273294128,
+        3.4878736741075813,
+        3.6002293006981394,
+        0.015090104522173001
+      ]
+    },
+    "Y": {
+      "stage": "Y",
+      "model": "primacy",
+      "n": 377,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 23,
+      "objective": 155.38467722903556,
+      "projected_gradient_max": 8.511645510370092e-06,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2",
+        "one_green",
+        "one_pink",
+        "both_green_first",
+        "both_pink_first",
+        "shared_nonnegative_copy_gain"
+      ],
+      "coefficients": [
+        0.08639626712503937,
+        0.08495052710318828,
+        -0.11691086994383333,
+        3.3108302502702474,
+        -3.365343849028237,
+        0.06789397710269525,
+        -0.12204247723604637,
+        0.4196319130924762
+      ]
+    }
+  },
+  "cancellation": {
+    "A": {
+      "stage": "A",
+      "model": "cancellation",
+      "n": 462,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 8,
+      "objective": 190.78026346164054,
+      "projected_gradient_max": 1.8133033563572099e-07,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2"
+      ],
+      "coefficients": [
+        1.4484037305506339,
+        0.4529914973448386,
+        0.5854529157382584
+      ]
+    },
+    "F": {
+      "stage": "F",
+      "model": "cancellation",
+      "n": 394,
+      "success": true,
+      "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+      "iterations": 10,
+      "objective": 269.08858455406755,
+      "projected_gradient_max": 2.9839208603998912e-09,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2",
+        "reference_green_sign"
+      ],
+      "coefficients": [
+        -0.001783621944498827,
+        0.4821219746121246,
+        -0.09976690457454465,
+        -0.07675274998314316
+      ]
+    },
+    "D": {
+      "stage": "D",
+      "model": "cancellation",
+      "n": 394,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 11,
+      "objective": 266.3116542810475,
+      "projected_gradient_max": 6.988254589723741e-07,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2",
+        "first_green_sign",
+        "first_matches_reference_sign"
+      ],
+      "coefficients": [
+        0.3044920245000444,
+        -0.13836956124805924,
+        -0.18410716539213737,
+        0.027122766000206452,
+        0.31137446365298616
+      ]
+    },
+    "B": {
+      "stage": "B",
+      "model": "cancellation",
+      "n": 462,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 16,
+      "objective": 128.4475343151486,
+      "projected_gradient_max": 8.838382154874314e-06,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2",
+        "one_green",
+        "one_pink",
+        "both_green_first",
+        "both_pink_first",
+        "first_matches_reference_sign"
+      ],
+      "coefficients": [
+        -1.2745392144780407,
+        0.3510164638727999,
+        0.25666144802827373,
+        3.1677128350765003,
+        3.582899273294128,
+        3.4878736741075813,
+        3.6002293006981394,
+        0.015090104522173001
+      ]
+    },
+    "Y": {
+      "stage": "Y",
+      "model": "cancellation",
+      "n": 377,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 21,
+      "objective": 157.29972040534943,
+      "projected_gradient_max": 2.414000558115248e-06,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2",
+        "one_green",
+        "one_pink",
+        "both_green_first",
+        "both_pink_first",
+        "shared_nonnegative_copy_gain"
+      ],
+      "coefficients": [
+        0.1124730580394416,
+        0.08649733625252422,
+        -0.1164230126813087,
+        3.2532452161409604,
+        -3.348464064580839,
+        0.030770845259071516,
+        -0.13717126307561228,
+        0.395798879142962
+      ]
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "utc": "2026-11-05T12:47:38Z",
+  "status": "postvalidation independent reduction of actual saved pilot summaries",
+  "evaluation_interval": [
+    1000,
+    3000
+  ],
+  "equal_site_tracker_minus_GRU_loss": 0.010919860960896338,
+  "descriptive_site_t95": [
+    0.002244328203740986,
+    0.01959539371805169
+  ],
+  "animal_mean_tracker_minus_GRU_loss": 0.014291348988010663,
+  "animals_favoring_GRU": 56,
+  "sites_favoring_GRU": 8,
+  "site_differences": {
+    "angelakilab": 0.006955298952047884,
+    "churchlandlab": 0.0011541630014344465,
+    "cortexlab": 0.013621853154371607,
+    "danlab": -0.013810382096644647,
+    "hoferlab": 0.018854263001466667,
+    "mainenlab": 0.015753628709665568,
+    "mrsicflogellab": 0.014423525573480651,
+    "wittenlab": 0.02009831820272985,
+    "zadorlab": 0.021228080149515015
+  },
+  "observation_diagnostics": {
+    "growth_track": {
+      "6": [
+        1.006500841349742,
+        1.3933366756356702,
+        1.0974069222447125
+      ],
+      "50": [
+        0.9241510110209704,
+        1.5535150987213224,
+        0.6618080439798348
+      ],
+      "200": [
+        1.2345554405096348,
+        1.4291414910733036,
+        0.42206422583457825
+      ]
+    },
+    "gru": {
+      "6": [
+        1.029506351155204,
+        1.3933366756356702,
+        1.062414104077307
+      ],
+      "50": [
+        1.115886278515776,
+        1.5535150987213224,
+        1.1997527365269518
+      ],
+      "200": [
+        1.2378924094817367,
+        1.4291414910733036,
+        1.4546763757907177
+      ]
+    }
+  },
+  "teacher_site_disposition": {
+    "churchlandlab": {
+      "animals": 9,
+      "contrast_failures": 0,
+      "parameter_mismatch": 0,
+      "animals_any_failure": 0
+    },
+    "zadorlab": {
+      "animals": 5,
+      "contrast_failures": 16,
+      "parameter_mismatch": 37,
+      "animals_any_failure": 2
+    },
+    "danlab": {
+      "animals": 1,
+      "contrast_failures": 400,
+      "parameter_mismatch": 156,
+      "animals_any_failure": 1
+    },
+    "cortexlab": {
+      "animals": 3,
+      "contrast_failures": 62,
+      "parameter_mismatch": 70,
+      "animals_any_failure": 1
+    },
+    "mrsicflogellab": {
+      "animals": 9,
+      "contrast_failures": 154,
+      "parameter_mismatch": 225,
+      "animals_any_failure": 1
+    },
+    "mainenlab": {
+      "animals": 3,
+      "contrast_failures": 34,
+      "parameter_mismatch": 62,
+      "animals_any_failure": 2
+    },
+    "hoferlab": {
+      "animals": 19,
+      "contrast_failures": 0,
+      "parameter_mismatch": 0,
+      "animals_any_failure": 0
+    },
+    "wittenlab": {
+      "animals": 10,
+      "contrast_failures": 24,
+      "parameter_mismatch": 51,
+      "animals_any_failure": 3
+    },
+    "angelakilab": {
+      "animals": 5,
+      "contrast_failures": 274,
+      "parameter_mismatch": 122,
+      "animals_any_failure": 1
+    }
+  },
+  "teacher_pass_animals": 53,
+  "teacher_pass_sites": 8,
+  "teacher_pass_definition": "no observed future contrast-support or probabilityLeft mismatch",
+  "limitations": [
+    "Fitting/selection window was expanded by PI amendment; this summary reduction does not independently reread its source payloads.",
+    "Teacher-pass filtering uses future inputs, drops one complete site, and is a developmental sensitivity rather than a prospective eligibility rule.",
+    "Conditional residual summaries do not certify long-horizon generated-history calibration.",
+    "Selected-site t interval is descriptive and omits source-fit uncertainty."
+  ],
+  "resources": {
+    "inputs": [
+      {
+        "path": "lab/tasks/acquisition-rule-vs-tracker-2026-11-05/DEVELOPED_CONDITIONAL.json",
+        "bytes": 695622,
+        "sha256": "4f867f888446bc1fa0370e0f0fea9ee7f8ba9d6335e6ff0d417ff631b7eb9d8e"
+      },
+      {
+        "path": "lab/tasks/acquisition-rule-vs-tracker-2026-11-05/PREFIX_TEACHER_AUDIT.json",
+        "bytes": 215088,
+        "sha256": "c8e12ca2c563a1e34124ce0c22d7b485760cb36eb48f0c3f4c2f556330362139"
+      }
+    ],
+    "explicit_read_bytes": 910710,
+    "cpu_seconds": 0.0037479999999999944,
+    "wall_seconds": 0.0037530420000000016,
+    "peak_rss_native_bytes_on_Mac": 17547264,
+    "original_row_reads": 0,
+    "physical_io_and_runtime_reads": "unknown"
+  }
+}

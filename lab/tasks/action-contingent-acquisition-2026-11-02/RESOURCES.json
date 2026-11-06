@@ -1,0 +1,117 @@
+{
+  "task_id": "action-contingent-acquisition-2026-11-02",
+  "status": "closed_at_contribution_design_gate",
+  "separate_booking": true,
+  "utc": {
+    "native_turn_origin": "2026-11-02T21:29:25Z",
+    "first_calculation_deadline": "2026-11-02T21:49:25Z",
+    "source_design_deadline": "2026-11-02T22:04:25Z",
+    "main_freeze_or_close_deadline": "2026-11-02T22:19:25Z",
+    "hard_stop": "2026-11-02T23:29:25Z",
+    "first_actual_original_calculation": "2026-11-02T21:35:43.310129Z",
+    "source_design_check": "2026-11-02T21:43:29.426209Z",
+    "source_pin_correction": "2026-11-02T21:44:13.264689Z",
+    "close_decision": "2026-11-02T21:44:20Z",
+    "no_extension": true
+  },
+  "public_operations": {
+    "cap": 30,
+    "charged_requested_suboperations": 28,
+    "breakdown": {
+      "daw_discovery_query": 1,
+      "tutorial_and_daw_queries": 2,
+      "gijsen_article_open_and_wilson_tree": 2,
+      "daw_queries_and_gijsen_find": 4,
+      "original_daw_queries_and_blocked_pmc": 3,
+      "kool_tree": 1,
+      "kool_five_text_files_and_paper": 6,
+      "kool_license_finds": 2,
+      "failed_raw_acquisition": 1,
+      "successful_raw_acquisition": 1,
+      "kool_rl_and_options_files": 2,
+      "gijsen_find_and_failed_tree": 2,
+      "gijsen_methods_open": 1
+    },
+    "internal_redirect_and_provider_request_counts": "UNKNOWN"
+  },
+  "source_families": {
+    "empirical_cap": 2,
+    "empirical_charged": 2,
+    "empirical": [
+      "Original Daw2011 sought; no original participant record recovered",
+      "Kool2016 Daw arm selected"
+    ],
+    "additional_methods": "WilsonCollins2019 simulation tutorial",
+    "reanalysis": "Gijsen2022 reanalyses the selected Kool data; counted within that empirical source chain, no further independent empirical data pursued",
+    "other_discovery_datasets": "Incidental summaries only, no deliberately followed empirical acquisition chains"
+  },
+  "ingress": {
+    "cap_bytes": 25000000,
+    "raw_actual_application_bytes": 1894663,
+    "provider_allowance_bytes": 10000000,
+    "charged_bytes": 11894663,
+    "failed_dns_payload_bytes": 0,
+    "provider_actual_bytes": "UNCERTIFIED",
+    "tls_redirect_and_host_physical_io": "UNKNOWN"
+  },
+  "read_hash_decode": {
+    "cap_bytes": 500000000,
+    "booked_bytes": 350000000,
+    "measured_uncompressed_mat_variable_bytes": 36091248,
+    "components": {
+      "four_inflate_allowances_and_two_typed_decode_allowances": 216547488,
+      "raw_hash_read_library_allowance": 25000000,
+      "imports_sources_context_outputs_allowance": 60000000,
+      "failed_provider_runtime_closeout_allowance": 48452512
+    },
+    "mat_loadmat_passes": 2,
+    "whosmat_passes": 1,
+    "separate_zlib_accounting_passes": 1,
+    "physical_io_and_all_runtime_reads": "UNKNOWN; booked allowance is not complete I/O certification"
+  },
+  "rss": {
+    "cap_bytes": 800000000,
+    "first_failed_python_bytes": 19775488,
+    "first_successful_science_bytes": 256540672,
+    "source_design_science_bytes": 254197760,
+    "source_pin_record_only_bytes": 11403264,
+    "largest_measured_scientific_bytes": 256540672,
+    "tool_runtime_host_peaks": "UNKNOWN"
+  },
+  "parallelism": {
+    "scientific_processes_at_once": 1,
+    "numerical_threads": 1,
+    "all_scientific_jobs_finished": true,
+    "current_science_jobs": 0,
+    "live_exec_sessions": 0
+  },
+  "exposure": {
+    "raw_object": "source/kool2016_daw_data.mat",
+    "raw_sha256": "47083627c365cc3130cc8f75dd2b989e51112a95b043eaf78013750381eac7d6",
+    "raw_git_blob": "8f6ffab4ce1e9cd2a88680078ba7c086b23a0d82",
+    "whole_typed_variable_shape": [
+      30900,
+      20
+    ],
+    "identity_tokens": "All scanned for equality to first identity",
+    "numerically_interpreted": "Only first person's 150 rows x 18 fields, including practice/main and actual teacher probabilities",
+    "other_people_numeric_outcome_interpretation": "NONE, but acquired/hash/decompressed/typed raw and auxiliary exposure is retained, not pristine unacquired evaluation",
+    "extra_raw_column_20": "Typed decoded; not interpreted",
+    "novel_paradigm_data_and_fitted_results": "NOT OPENED",
+    "protected_and_old_raw_datasets": "NOT OPENED; all inherited protections/exposure unchanged"
+  },
+  "license": {
+    "article": "PLOS CC-BY verified",
+    "external_data_code": "Separate license UNCERTIFIED; no LICENSE in complete selected repository tree",
+    "publication_or_contact": false
+  },
+  "main": {
+    "freeze": false,
+    "fit": false,
+    "forecast": false,
+    "score": false,
+    "independent_consequential_review": false,
+    "goal_complete": false
+  }
+}
+

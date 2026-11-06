@@ -1,0 +1,69 @@
+{
+  "created_utc": "2026-11-01T03:39:02Z",
+  "checks": {
+    "current_and_past_invariant_to_current_future_response_reward_change": true,
+    "all_features_identical_after_removing_block_instruction_scheduled_flags": true,
+    "max_future_invariance_error": 0.0,
+    "gradient_max_abs_error": 3.657062430661995e-10,
+    "gradient_pass": true,
+    "all_cv_and_final_fits_converged": true,
+    "first_encounters": 5,
+    "first_responses": [
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "endpoint_exclusions": [],
+    "maximum_recorded_optimizer_gradient": 8.647974766140543e-05
+  },
+  "primary_development_scores": {
+    "L": {
+      "primary_first_encounter_log_loss": 0.6607074319521802,
+      "probabilities": [
+        0.9589162901348489,
+        0.9433045846189723,
+        0.9582762732546855,
+        0.9450952249023831,
+        0.9551365058754664
+      ],
+      "selected_ridge": 10.0
+    },
+    "G": {
+      "primary_first_encounter_log_loss": 0.6216725438556663,
+      "probabilities": [
+        0.9726778370953112,
+        0.9347166364156543,
+        0.955733180601496,
+        0.9647325911200942,
+        0.9467079267470844
+      ],
+      "selected_ridge": 10.0
+    },
+    "C": {
+      "primary_first_encounter_log_loss": 0.4536775118749411,
+      "probabilities": [
+        0.9087442816400091,
+        0.7869221622069222,
+        0.8571318190234692,
+        0.8776283334235014,
+        0.807637647627035
+      ],
+      "selected_ridge": 10.0
+    },
+    "R": {
+      "primary_first_encounter_log_loss": 0.4517362485787034,
+      "probabilities": [
+        0.9042380338828289,
+        0.7769679551496133,
+        0.8501201426264936,
+        0.871333856194645,
+        0.799221859996746
+      ],
+      "selected_ridge": 10.0
+    }
+  },
+  "revision_used": false,
+  "rss_bytes": 91455488
+}

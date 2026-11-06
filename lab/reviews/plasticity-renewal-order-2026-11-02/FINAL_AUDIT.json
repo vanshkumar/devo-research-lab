@@ -1,0 +1,260 @@
+{
+  "status": "PASS",
+  "utc": "2026-11-03T03:13:24Z",
+  "material_comparison_interval_max_gap": 7.632783294297951e-17,
+  "all7_frozen_comparison_gates": [
+    {
+      "name": "current_only_order",
+      "joint_pass": false,
+      "teacher_successes": 0
+    },
+    {
+      "name": "replay_order",
+      "joint_pass": false,
+      "teacher_successes": 0
+    },
+    {
+      "name": "random_order",
+      "joint_pass": false,
+      "teacher_successes": 0
+    },
+    {
+      "name": "replay_mean_vs_sgd_replay",
+      "joint_pass": false,
+      "teacher_successes": 1
+    },
+    {
+      "name": "replay_mean_vs_random_literal_replay",
+      "joint_pass": false,
+      "teacher_successes": 2
+    },
+    {
+      "name": "replay_mean_vs_random_mean_replay",
+      "joint_pass": false,
+      "teacher_successes": 2
+    },
+    {
+      "name": "replay_mean_vs_cache",
+      "joint_pass": false,
+      "teacher_successes": 0
+    }
+  ],
+  "author_output_pins": [
+    {
+      "seed": 240001,
+      "output_sha256": "9159a92c50cff64df758fea425f03f6d37a0a9a068140dc47a290ae3afccbc17",
+      "output_bytes": 2639928
+    },
+    {
+      "seed": 240002,
+      "output_sha256": "c1c69e146f90f259bdf08fc84d97967979d59da71c911c7b110b9bfbe7592387",
+      "output_bytes": 2626095
+    },
+    {
+      "seed": 240003,
+      "output_sha256": "4ab8630cf182b5c802d74b7c71d8512a407b5dc39ebf7f8ba610f5cb23965ab4",
+      "output_bytes": 2621727
+    },
+    {
+      "seed": 240004,
+      "output_sha256": "d44f753d9525ac4e680ca26d7fd7b47111fe7eeadc9f0d91fb0de794375eba03",
+      "output_bytes": 2620237
+    },
+    {
+      "seed": 240005,
+      "output_sha256": "8fdb64469abf0a9fcebda1522edc905703bf0683d1699fbe683dc3daf666822e",
+      "output_bytes": 2642710
+    },
+    {
+      "seed": 240006,
+      "output_sha256": "eef7c2e23353a51bd385b7763f74b6fbdfeddfa5185de5ccca26f4c512b061ed",
+      "output_bytes": 2620442
+    },
+    {
+      "seed": 240007,
+      "output_sha256": "eed3813e78768306f2d4fc47165bb94e84a94b561793f80762097e00af6600ab",
+      "output_bytes": 2627541
+    },
+    {
+      "seed": 240008,
+      "output_sha256": "3cb06a740608ab3c6d060a5cddf49b35f5884f65f86018a77cffd638fddfad95",
+      "output_bytes": 2638460
+    }
+  ],
+  "all_56_pairwise_gates_computed": true,
+  "aggregate": {
+    "cbp_literal": {
+      "acquisition_first1000_all_tasks": 0.9761412024797435,
+      "time_average_all_old_risk": 5.774241218407852,
+      "final_all_old_risk": 4.965725132840631,
+      "mean_initial_competence": 0.3905253596518531,
+      "final_old_change_from_initial": 4.575107819773278
+    },
+    "cbp_mean": {
+      "acquisition_first1000_all_tasks": 0.9708163390309202,
+      "time_average_all_old_risk": 5.727033735024767,
+      "final_all_old_risk": 5.012741998087865,
+      "mean_initial_competence": 0.38912463466569047,
+      "final_old_change_from_initial": 4.623407558130543
+    },
+    "cbp_literal_replay": {
+      "acquisition_first1000_all_tasks": 1.033474217172964,
+      "time_average_all_old_risk": 1.7417949417478846,
+      "final_all_old_risk": 2.077605729165893,
+      "mean_initial_competence": 0.6069304294901892,
+      "final_old_change_from_initial": 1.4703328061491086
+    },
+    "cbp_mean_replay": {
+      "acquisition_first1000_all_tasks": 1.0337797106551783,
+      "time_average_all_old_risk": 1.7308478417451405,
+      "final_all_old_risk": 2.111393414702732,
+      "mean_initial_competence": 0.6121095772533952,
+      "final_old_change_from_initial": 1.4987776938608288
+    },
+    "random_literal_replay": {
+      "acquisition_first1000_all_tasks": 1.0691197333751568,
+      "time_average_all_old_risk": 1.9361699984038632,
+      "final_all_old_risk": 2.252522527810586,
+      "mean_initial_competence": 0.7989236193891834,
+      "final_old_change_from_initial": 1.4532860130224021
+    },
+    "random_mean_replay": {
+      "acquisition_first1000_all_tasks": 1.073019535888842,
+      "time_average_all_old_risk": 1.949717203026489,
+      "final_all_old_risk": 2.299752771975725,
+      "mean_initial_competence": 0.8020694267698579,
+      "final_old_change_from_initial": 1.498180839381244
+    },
+    "sgd_replay": {
+      "acquisition_first1000_all_tasks": 1.19402005798362,
+      "time_average_all_old_risk": 1.7283871452930684,
+      "final_all_old_risk": 2.1113758464775554,
+      "mean_initial_competence": 0.832638083405716,
+      "final_old_change_from_initial": 1.2784044234167782
+    },
+    "cache": {
+      "acquisition_first1000_all_tasks": 0.09044290935461892,
+      "time_average_all_old_risk": 1.3313144237985859,
+      "final_all_old_risk": 2.235631356169328,
+      "mean_initial_competence": 0.0,
+      "final_old_change_from_initial": 2.235631356169328
+    }
+  },
+  "source_excerpts": [
+    {
+      "path": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/tasks/plasticity-retention-protocol-calibration-2026-11-02/PRIOR_PROVIDER_EXCERPTS.txt",
+      "bytes": 21466,
+      "sha256": "b7893be2038954365b07e703fe456ed0a0bcb3b1ea262f58cf972c9bf93387ff",
+      "exposure": "full hash/UTF8 decode; bounded relevant primary excerpts interpreted"
+    },
+    {
+      "path": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/tasks/plasticity-retention-protocol-calibration-2026-11-02/PRIOR_PROVIDER_EXPERIMENTS.txt",
+      "bytes": 22114,
+      "sha256": "44329583974559ae800d618c887a924c87ed12094e6467f25c0dea375a65b6b6",
+      "exposure": "full hash/UTF8 decode; bounded relevant primary excerpts interpreted"
+    }
+  ],
+  "final_scope": [
+    "all neural boundary predictions independently reconstructed",
+    "first task all7 neural arms independently trained, later99 neural histories inherited",
+    "all eight1M cache streams and all boundary risks/hits independently replayed",
+    "ONE frozen fixed-state old-input oracle contrary completed",
+    "original Torch/historical deployment/paper Algorithm1 directly unverified by reviewer",
+    "total deployed storage matching unearned"
+  ],
+  "explicit_read_bytes": 1384847,
+  "reads": [
+    {
+      "path": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/reviews/plasticity-renewal-order-2026-11-02/RECONSTRUCTION.json",
+      "bytes": 421168,
+      "sha256": "7ee91f9bf849d3e4a7ca0b7fa2c45e945d2141853b48e35edf78869b542af44d"
+    },
+    {
+      "path": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/reviews/plasticity-renewal-order-2026-11-02/CONTRARY.json",
+      "bytes": 255588,
+      "sha256": "e3deed25b24d2037e2c98d5d2b933079d9ef9831754d4f54e19b09fd23168c08"
+    },
+    {
+      "path": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/reviews/plasticity-renewal-order-2026-11-02/VERIFICATION.json",
+      "bytes": 21714,
+      "sha256": "d0c5e72c2e06039bc63eca953f76d588de3e6ad5cba93e040da650cb7a4b08b0"
+    },
+    {
+      "path": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/reviews/plasticity-renewal-order-2026-11-02/RECONSTRUCTION_FAILURE_RESOURCES.json",
+      "bytes": 4920,
+      "sha256": "d275239e88bc7baf0780d9caaa928acf8f58662a95d5c827b729068fe156ed0e"
+    },
+    {
+      "path": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/tasks/plasticity-renewal-order-consequence-2026-11-02/AUDIT.json",
+      "bytes": 333777,
+      "sha256": "6c86c1bdc6ca32b0bcc7ba264a5612e4dc2bec28902fd46861295782e12f4746"
+    },
+    {
+      "path": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/reviews/plasticity-renewal-order-2026-11-02/reconstruct.py",
+      "bytes": 13112,
+      "sha256": "da84775f8c84e743987fd66facaf514c99d4531eb165499cd8ecdab525cfc5fb"
+    },
+    {
+      "path": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/reviews/plasticity-renewal-order-2026-11-02/contrary.py",
+      "bytes": 9475,
+      "sha256": "5458405aec078aa855c0960e0939229cc834759370315a7bb7bc8fe104e782aa"
+    },
+    {
+      "path": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/reviews/plasticity-renewal-order-2026-11-02/CONTRARY_FREEZE.md",
+      "bytes": 4735,
+      "sha256": "4f5df2c856500c6948feed9002ccc8d402b92582a4c7c97fa523b0353446f2ee"
+    },
+    {
+      "path": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/tasks/plasticity-renewal-order-consequence-2026-11-02/SUMMARY_240001.json",
+      "bytes": 34584,
+      "sha256": "772fe10102175b3bca49806f7b07c039aad8edfa46bdeb7b158ce29411784394"
+    },
+    {
+      "path": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/tasks/plasticity-renewal-order-consequence-2026-11-02/SUMMARY_240002.json",
+      "bytes": 34643,
+      "sha256": "614c714179e3fe2938b425a5143049cbc5d5ef1fcb4b9340ab887cb6faf11ab4"
+    },
+    {
+      "path": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/tasks/plasticity-renewal-order-consequence-2026-11-02/SUMMARY_240003.json",
+      "bytes": 34562,
+      "sha256": "32202deb40fa5dfa3560641bce13ffd883b529fb2cb4bbd5a5f4bf73a9b6104a"
+    },
+    {
+      "path": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/tasks/plasticity-renewal-order-consequence-2026-11-02/SUMMARY_240004.json",
+      "bytes": 34582,
+      "sha256": "bd4b0c5bf946ced398b0c40ac55eda1ac526194c484f643bcde085f18732d2b3"
+    },
+    {
+      "path": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/tasks/plasticity-renewal-order-consequence-2026-11-02/SUMMARY_240005.json",
+      "bytes": 34490,
+      "sha256": "621ea368ced2d655e80d7546351e206fed819acf1bdb550e96f45143a449d815"
+    },
+    {
+      "path": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/tasks/plasticity-renewal-order-consequence-2026-11-02/SUMMARY_240006.json",
+      "bytes": 34611,
+      "sha256": "7f4dee753e271aa4f74bb099939a4140ed8b1463adf80b05fd64964d7a282eaf"
+    },
+    {
+      "path": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/tasks/plasticity-renewal-order-consequence-2026-11-02/SUMMARY_240007.json",
+      "bytes": 34690,
+      "sha256": "600e881ed7b74fa35a63575c380102ebdda6d885780ff733e0151104998e5691"
+    },
+    {
+      "path": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/tasks/plasticity-renewal-order-consequence-2026-11-02/SUMMARY_240008.json",
+      "bytes": 34616,
+      "sha256": "a8fac40b3d7aff1491542a60743255334d8716a801abd6ef0ad4e094a37a9b49"
+    },
+    {
+      "path": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/tasks/plasticity-retention-protocol-calibration-2026-11-02/PRIOR_PROVIDER_EXCERPTS.txt",
+      "bytes": 21466,
+      "sha256": "b7893be2038954365b07e703fe456ed0a0bcb3b1ea262f58cf972c9bf93387ff"
+    },
+    {
+      "path": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/tasks/plasticity-retention-protocol-calibration-2026-11-02/PRIOR_PROVIDER_EXPERIMENTS.txt",
+      "bytes": 22114,
+      "sha256": "44329583974559ae800d618c887a924c87ed12094e6467f25c0dea375a65b6b6"
+    }
+  ],
+  "seconds": 0.005377916999999999,
+  "peak_rss_bytes_macos": 14794752
+}

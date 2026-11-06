@@ -1,0 +1,57 @@
+{
+  "status": "SOURCE_PIN_CALL_GRAPH_ONLY_NOT_STUDENT_LEARNING",
+  "commit": "ec41eea6aa45f68c183b839a3279db4c66857705",
+  "pins": {
+    "addition_rnn_model.py": {
+      "bytes": 7052,
+      "git_blob_sha1": "c3f313303379eb0725c2c64580ee736a577374b0",
+      "expected": "c3f313303379eb0725c2c64580ee736a577374b0",
+      "sha256": "4ffd4b2d0e8bb44cf8742272f5d30cd912d3da1788475ce92981f6b2231ce4b0",
+      "matches": true
+    },
+    "addition_rnn_teacher.py": {
+      "bytes": 12120,
+      "git_blob_sha1": "a9cf303da4ca70e66f2639934e5334eb9ed262bd",
+      "expected": "a9cf303da4ca70e66f2639934e5334eb9ed262bd",
+      "sha256": "61c8a35ae425150c381a947d78ebfd4b91f2af03f1ea0649ce98fbeca2c0a3fb",
+      "matches": true
+    },
+    "addition_rnn_curriculum.py": {
+      "bytes": 3513,
+      "git_blob_sha1": "d06ef30e52395bf754bd58fbdce2ed0431046a65",
+      "expected": "d06ef30e52395bf754bd58fbdce2ed0431046a65",
+      "sha256": "95e1ab9869f2c648d643fa80b7981480cc97cf093a77e257ffeb4c3d47064600",
+      "matches": true
+    },
+    "readme.txt": {
+      "bytes": 3371,
+      "git_blob_sha1": "59e35534ed9c1a1cef87f08043c066c693f19df4",
+      "expected": "59e35534ed9c1a1cef87f08043c066c693f19df4",
+      "sha256": "d4c4dff5f5eeb82b0e2a84383b3fbd9495e52ee682cd107777d00fd07ed9b1c9",
+      "matches": true
+    }
+  },
+  "teacher_step_call_sites": {
+    "CurriculumTeacher": 1,
+    "NaiveSlopeBanditTeacher": 1,
+    "OnlineSlopeBanditTeacher": 1,
+    "WindowedSlopeBanditTeacher": 1,
+    "SamplingTeacher": 1
+  },
+  "default_step": {
+    "training_examples": 40960,
+    "batch_size": 4096,
+    "optimizer_updates": 10,
+    "validation_examples_in_fit": 4096,
+    "validation_examples_in_predict": 4096,
+    "total_validation_forward_examples": 8192,
+    "generated_validation_examples_once": 4096,
+    "validation_updates": 0,
+    "new_assessment_labels_per_step": 0,
+    "scope": "Source defaults and nonempty validation; not a measured runtime"
+  },
+  "elapsed_seconds": 0.002643165999999999,
+  "peak_rss_bytes": 13467648,
+  "actual_student_examples": 0,
+  "actual_student_updates": 0
+}

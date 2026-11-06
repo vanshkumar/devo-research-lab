@@ -1,0 +1,947 @@
+{
+  "utc": "2026-11-05T14:45:14.650307+00:00",
+  "missingness_checks": [
+    {
+      "observed_N": 0,
+      "observed_K": 0,
+      "fast": 0.4905696889543476,
+      "independent_direct": 0.4905696889543475,
+      "error": 1.1102230246251565e-16
+    },
+    {
+      "observed_N": 100,
+      "observed_K": 20,
+      "fast": 0.1806606055596467,
+      "independent_direct": 0.18066060555964675,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "observed_N": 100,
+      "observed_K": 80,
+      "fast": 0.1806606055596468,
+      "independent_direct": 0.18066060555964675,
+      "error": 5.551115123125783e-17
+    }
+  ],
+  "finite_law_expected_scores": {
+    "truth": 0.24264242223858684,
+    "deleted_missing_mass": 0.27330302779823357,
+    "all_missing": 0.7332121111929344
+  },
+  "controls": [
+    {
+      "kind": "identical_forecasts_no_acquisition_or_state_noise",
+      "true_contrasts": [
+        0.0,
+        -0.001235751302471166,
+        0.0,
+        -0.001235751302471166
+      ],
+      "material_margins": [
+        0.02,
+        0.0,
+        0.02,
+        0.0
+      ],
+      "any_false_absence": {
+        "rate": 0.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      },
+      "any_false_material_positive": {
+        "rate": 0.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      },
+      "any_band_miss": {
+        "rate": 0.064,
+        "monte_carlo_se": 0.005472842040475863,
+        "cohorts": 2000
+      },
+      "per_column_absence": [
+        {
+          "rate": 1.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 1.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 1.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 1.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        }
+      ],
+      "per_column_material_positive": [
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        }
+      ],
+      "all4_absent": {
+        "rate": 1.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      },
+      "finite_source_envelope_all4_absent": {
+        "rate": 1.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      },
+      "per_column_finite_source_envelope_absence": [
+        {
+          "rate": 1.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 1.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 1.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 1.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        }
+      ],
+      "finite_source_shift": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_critical": 2.196562750414444
+    },
+    {
+      "kind": "accuracy_margin_0.015",
+      "true_contrasts": [
+        0.015,
+        0.0135,
+        0.015,
+        0.0135
+      ],
+      "material_margins": [
+        0.02,
+        0.0,
+        0.02,
+        0.0
+      ],
+      "any_false_absence": {
+        "rate": 0.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      },
+      "any_false_material_positive": {
+        "rate": 0.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      },
+      "any_band_miss": {
+        "rate": 0.0595,
+        "monte_carlo_se": 0.005289600646551685,
+        "cohorts": 2000
+      },
+      "per_column_absence": [
+        {
+          "rate": 0.9755,
+          "monte_carlo_se": 0.0034568591235397466,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.9685,
+          "monte_carlo_se": 0.0039056209493497944,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        }
+      ],
+      "per_column_material_positive": [
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 1.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 1.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        }
+      ],
+      "all4_absent": {
+        "rate": 0.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      },
+      "finite_source_envelope_all4_absent": {
+        "rate": 0.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      },
+      "per_column_finite_source_envelope_absence": [
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        }
+      ],
+      "finite_source_shift": [
+        0.01,
+        0.009000000000000001,
+        0.01,
+        0.009000000000000001
+      ],
+      "mean_critical": 2.2286117214779724
+    },
+    {
+      "kind": "accuracy_margin_0.02",
+      "true_contrasts": [
+        0.02,
+        0.018000000000000002,
+        0.02,
+        0.018000000000000002
+      ],
+      "material_margins": [
+        0.02,
+        0.0,
+        0.02,
+        0.0
+      ],
+      "any_false_absence": {
+        "rate": 0.037,
+        "monte_carlo_se": 0.0042208411483968455,
+        "cohorts": 2000
+      },
+      "any_false_material_positive": {
+        "rate": 0.034,
+        "monte_carlo_se": 0.0040524066923249445,
+        "cohorts": 2000
+      },
+      "any_band_miss": {
+        "rate": 0.0705,
+        "monte_carlo_se": 0.0057240610583745525,
+        "cohorts": 2000
+      },
+      "per_column_absence": [
+        {
+          "rate": 0.02,
+          "monte_carlo_se": 0.0031304951684997056,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.017,
+          "monte_carlo_se": 0.002890588175441116,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        }
+      ],
+      "per_column_material_positive": [
+        {
+          "rate": 0.018,
+          "monte_carlo_se": 0.0029728773940409987,
+          "cohorts": 2000
+        },
+        {
+          "rate": 1.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0165,
+          "monte_carlo_se": 0.0028484864401994267,
+          "cohorts": 2000
+        },
+        {
+          "rate": 1.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        }
+      ],
+      "all4_absent": {
+        "rate": 0.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      },
+      "finite_source_envelope_all4_absent": {
+        "rate": 0.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      },
+      "per_column_finite_source_envelope_absence": [
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        }
+      ],
+      "finite_source_shift": [
+        0.01,
+        0.009000000000000001,
+        0.01,
+        0.009000000000000001
+      ],
+      "mean_critical": 2.2287856131795296
+    },
+    {
+      "kind": "accuracy_margin_0.025",
+      "true_contrasts": [
+        0.025,
+        0.022500000000000003,
+        0.025,
+        0.022500000000000003
+      ],
+      "material_margins": [
+        0.02,
+        0.0,
+        0.02,
+        0.0
+      ],
+      "any_false_absence": {
+        "rate": 0.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      },
+      "any_false_material_positive": {
+        "rate": 0.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      },
+      "any_band_miss": {
+        "rate": 0.0635,
+        "monte_carlo_se": 0.005452877680637995,
+        "cohorts": 2000
+      },
+      "per_column_absence": [
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        }
+      ],
+      "per_column_material_positive": [
+        {
+          "rate": 0.966,
+          "monte_carlo_se": 0.004052406692324946,
+          "cohorts": 2000
+        },
+        {
+          "rate": 1.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.9635,
+          "monte_carlo_se": 0.004193313129257102,
+          "cohorts": 2000
+        },
+        {
+          "rate": 1.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        }
+      ],
+      "all4_absent": {
+        "rate": 0.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      },
+      "finite_source_envelope_all4_absent": {
+        "rate": 0.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      },
+      "per_column_finite_source_envelope_absence": [
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        }
+      ],
+      "finite_source_shift": [
+        0.01,
+        0.009000000000000001,
+        0.01,
+        0.009000000000000001
+      ],
+      "mean_critical": 2.228500508429467
+    },
+    {
+      "kind": "proper_score_relative_gain_0.05",
+      "true_contrasts": [
+        0.003,
+        -0.003,
+        0.003,
+        -0.003
+      ],
+      "material_margins": [
+        0.02,
+        0.0,
+        0.02,
+        0.0
+      ],
+      "any_false_absence": {
+        "rate": 0.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      },
+      "any_false_material_positive": {
+        "rate": 0.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      },
+      "any_band_miss": {
+        "rate": 0.0705,
+        "monte_carlo_se": 0.0057240610583745525,
+        "cohorts": 2000
+      },
+      "per_column_absence": [
+        {
+          "rate": 1.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.9855,
+          "monte_carlo_se": 0.00267298989897081,
+          "cohorts": 2000
+        },
+        {
+          "rate": 1.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.986,
+          "monte_carlo_se": 0.0026271657732240663,
+          "cohorts": 2000
+        }
+      ],
+      "per_column_material_positive": [
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        }
+      ],
+      "all4_absent": {
+        "rate": 0.9715,
+        "monte_carlo_se": 0.003720735814324901,
+        "cohorts": 2000
+      },
+      "finite_source_envelope_all4_absent": {
+        "rate": 0.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      },
+      "per_column_finite_source_envelope_absence": [
+        {
+          "rate": 1.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 1.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        }
+      ],
+      "finite_source_shift": [
+        0.006,
+        0.0054,
+        0.006,
+        0.0054
+      ],
+      "mean_critical": 2.2161043044310214
+    },
+    {
+      "kind": "proper_score_relative_gain_0.1",
+      "true_contrasts": [
+        0.006,
+        0.0,
+        0.006,
+        0.0
+      ],
+      "material_margins": [
+        0.02,
+        0.0,
+        0.02,
+        0.0
+      ],
+      "any_false_absence": {
+        "rate": 0.0315,
+        "monte_carlo_se": 0.0039056209493497957,
+        "cohorts": 2000
+      },
+      "any_false_material_positive": {
+        "rate": 0.029,
+        "monte_carlo_se": 0.003752265982043384,
+        "cohorts": 2000
+      },
+      "any_band_miss": {
+        "rate": 0.0635,
+        "monte_carlo_se": 0.005452877680637995,
+        "cohorts": 2000
+      },
+      "per_column_absence": [
+        {
+          "rate": 1.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.012,
+          "monte_carlo_se": 0.002434748446965312,
+          "cohorts": 2000
+        },
+        {
+          "rate": 1.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0195,
+          "monte_carlo_se": 0.0030919047527373806,
+          "cohorts": 2000
+        }
+      ],
+      "per_column_material_positive": [
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0135,
+          "monte_carlo_se": 0.0025804796065847916,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0155,
+          "monte_carlo_se": 0.0027622228367747597,
+          "cohorts": 2000
+        }
+      ],
+      "all4_absent": {
+        "rate": 0.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      },
+      "finite_source_envelope_all4_absent": {
+        "rate": 0.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      },
+      "per_column_finite_source_envelope_absence": [
+        {
+          "rate": 1.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 1.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        }
+      ],
+      "finite_source_shift": [
+        0.006,
+        0.0054,
+        0.006,
+        0.0054
+      ],
+      "mean_critical": 2.2162298587631484
+    },
+    {
+      "kind": "proper_score_relative_gain_0.15",
+      "true_contrasts": [
+        0.009,
+        0.002999999999999999,
+        0.009,
+        0.002999999999999999
+      ],
+      "material_margins": [
+        0.02,
+        0.0,
+        0.02,
+        0.0
+      ],
+      "any_false_absence": {
+        "rate": 0.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      },
+      "any_false_material_positive": {
+        "rate": 0.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      },
+      "any_band_miss": {
+        "rate": 0.0615,
+        "monte_carlo_se": 0.005372045699731156,
+        "cohorts": 2000
+      },
+      "per_column_absence": [
+        {
+          "rate": 1.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 1.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        }
+      ],
+      "per_column_material_positive": [
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.9875,
+          "monte_carlo_se": 0.0024843258642939696,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.987,
+          "monte_carlo_se": 0.0025328837320335107,
+          "cohorts": 2000
+        }
+      ],
+      "all4_absent": {
+        "rate": 0.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      },
+      "finite_source_envelope_all4_absent": {
+        "rate": 0.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      },
+      "per_column_finite_source_envelope_absence": [
+        {
+          "rate": 1.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 1.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        },
+        {
+          "rate": 0.0,
+          "monte_carlo_se": 0.0,
+          "cohorts": 2000
+        }
+      ],
+      "finite_source_shift": [
+        0.006,
+        0.0054,
+        0.006,
+        0.0054
+      ],
+      "mean_critical": 2.2160696961067297
+    }
+  ],
+  "source_heterogeneity_demonstration": {
+    "kind": "unmodeled_shared_source_offset_marginal_target",
+    "true_contrasts": [
+      0.02,
+      0.018,
+      0.02,
+      0.018
+    ],
+    "material_margins": [
+      0.02,
+      0.0,
+      0.02,
+      0.0
+    ],
+    "any_false_absence": {
+      "rate": 0.496,
+      "monte_carlo_se": 0.011179982110898032,
+      "cohorts": 2000
+    },
+    "any_false_material_positive": {
+      "rate": 0.504,
+      "monte_carlo_se": 0.011179982110898032,
+      "cohorts": 2000
+    },
+    "any_band_miss": {
+      "rate": 1.0,
+      "monte_carlo_se": 0.0,
+      "cohorts": 2000
+    },
+    "per_column_absence": [
+      {
+        "rate": 0.496,
+        "monte_carlo_se": 0.011179982110898032,
+        "cohorts": 2000
+      },
+      {
+        "rate": 0.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      },
+      {
+        "rate": 0.496,
+        "monte_carlo_se": 0.011179982110898032,
+        "cohorts": 2000
+      },
+      {
+        "rate": 0.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      }
+    ],
+    "per_column_material_positive": [
+      {
+        "rate": 0.504,
+        "monte_carlo_se": 0.011179982110898032,
+        "cohorts": 2000
+      },
+      {
+        "rate": 1.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      },
+      {
+        "rate": 0.504,
+        "monte_carlo_se": 0.011179982110898032,
+        "cohorts": 2000
+      },
+      {
+        "rate": 1.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      }
+    ],
+    "all4_absent": {
+      "rate": 0.0,
+      "monte_carlo_se": 0.0,
+      "cohorts": 2000
+    },
+    "finite_source_envelope_all4_absent": {
+      "rate": 0.0,
+      "monte_carlo_se": 0.0,
+      "cohorts": 2000
+    },
+    "per_column_finite_source_envelope_absence": [
+      {
+        "rate": 0.011,
+        "monte_carlo_se": 0.002332273568859365,
+        "cohorts": 2000
+      },
+      {
+        "rate": 0.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      },
+      {
+        "rate": 0.0065,
+        "monte_carlo_se": 0.0017969070649312946,
+        "cohorts": 2000
+      },
+      {
+        "rate": 0.0,
+        "monte_carlo_se": 0.0,
+        "cohorts": 2000
+      }
+    ],
+    "finite_source_shift": [
+      0.01,
+      0.009000000000000001,
+      0.01,
+      0.009000000000000001
+    ],
+    "mean_critical": 2.2290253194816962,
+    "interpretation": "The four-animal band is conditional on fitted source; comparing it to a marginal source-average target is a deliberately misspecified use. A finite source envelope prevents treating that as source-tail certification."
+  },
+  "replicated_cohorts_per_case": 2000,
+  "bootstrap_replicates": 20000,
+  "null_truth_note": "No-acquisition null proper risk independently enumerated under Binomial1000,.6; A is exactly0. NegativeD is safely separated from the materiality boundary.",
+  "scope": "Finite known-law/analysis checks, not biological power or model-family validation",
+  "scientific_cpu_seconds": 8.118568,
+  "process_wall_seconds": 8.146593666053377,
+  "peak_rss_bytes": 193314816,
+  "explicit_read_decode_bytes": 0,
+  "io_note": "No empirical dataset/artifact reads; interpreter/import bytes unknown"
+}

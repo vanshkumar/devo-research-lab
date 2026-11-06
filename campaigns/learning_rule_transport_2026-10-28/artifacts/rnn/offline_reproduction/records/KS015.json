@@ -1,0 +1,120 @@
+{
+  "subject": "KS015",
+  "split": "animal_holdout",
+  "particles": 512,
+  "prefix_n": 1000,
+  "horizon": 2298,
+  "model_sha256": "c7f675d18f4143891ed7d2c76d91f74be74da9565fbae5407952768e2c146940",
+  "forecast_path": "artifacts/forecasts/rnn_source_animals/KS015__rnnglm32.npz",
+  "forecast_sha256": "21c6fa5e14150c21f64cc3ea1797f597626d481fdbb253253103a39d89940398",
+  "metadata_sha256": "06f861d1a280cdade22bcbe55074379dcf4e7ccd149dd0c7a3d289346fe3a9c2",
+  "seed": 67099311,
+  "exact": true,
+  "max_abs_difference": 0.0,
+  "arrays": {
+    "samples": {
+      "exact": true,
+      "shape": [
+        512,
+        4,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "763b0c3b602defa089fd13b03c36a4dba92534722e7736873f7fbc1f00bafa7c",
+      "saved_array_sha256": "763b0c3b602defa089fd13b03c36a4dba92534722e7736873f7fbc1f00bafa7c"
+    },
+    "samples_primary": {
+      "exact": true,
+      "shape": [
+        512,
+        4,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "763b0c3b602defa089fd13b03c36a4dba92534722e7736873f7fbc1f00bafa7c",
+      "saved_array_sha256": "763b0c3b602defa089fd13b03c36a4dba92534722e7736873f7fbc1f00bafa7c"
+    },
+    "weights": {
+      "exact": true,
+      "shape": [
+        512,
+        4,
+        3
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "9b368a7306e455b54fe1e8b40fac027f7aaaaa585499b7c1e49211321e315949",
+      "saved_array_sha256": "9b368a7306e455b54fe1e8b40fac027f7aaaaa585499b7c1e49211321e315949"
+    },
+    "hidden_final": {
+      "exact": true,
+      "shape": [
+        512,
+        32
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "6a43bd0a464b3da139c27da9a5d668a22125677d32ab2a099138e2ff884d3735",
+      "saved_array_sha256": "6a43bd0a464b3da139c27da9a5d668a22125677d32ab2a099138e2ff884d3735"
+    },
+    "counts": {
+      "exact": true,
+      "shape": [
+        512,
+        4,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "27b4fc3d4e1194c051c35700e4582e3abc9660debd5b00c9c8a99c011e5f53ab",
+      "saved_array_sha256": "27b4fc3d4e1194c051c35700e4582e3abc9660debd5b00c9c8a99c011e5f53ab"
+    },
+    "pool_fraction": {
+      "exact": true,
+      "shape": [
+        4,
+        6
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "47b0f2c7c6c8204d400ed3986812777a2c902613eb56834222a985482a845dc6",
+      "saved_array_sha256": "47b0f2c7c6c8204d400ed3986812777a2c902613eb56834222a985482a845dc6"
+    },
+    "session_start": {
+      "exact": true,
+      "shape": [
+        2298
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "0fd1093178d12722b629dfcee541f045ced381c789e40056677e2df08a7ef0e5",
+      "saved_array_sha256": "0fd1093178d12722b629dfcee541f045ced381c789e40056677e2df08a7ef0e5"
+    },
+    "seed": {
+      "exact": true,
+      "shape": [],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "c4d380d501b30d85aa46690a2473fae7c6caf31043b6adbf20d4b50ababf4f61",
+      "saved_array_sha256": "c4d380d501b30d85aa46690a2473fae7c6caf31043b6adbf20d4b50ababf4f61"
+    }
+  },
+  "original_prefix_objects": [
+    {
+      "path": "data/sealed/animal_holdout/KS015/2019-08-06_001_7f525239-e117-4fb2-a5b8-c4ccd48a6444_table.pqt",
+      "bytes": 41499,
+      "sha256": "8fd4bc1712474992f97d036a821f8c000a528e364b06218392cdf174ca7d0d68",
+      "md5": "0f7d572d6d4811c12bd4e061a86a94f8",
+      "published_md5": "0f7d572d6d4811c12bd4e061a86a94f8"
+    },
+    {
+      "path": "data/sealed/animal_holdout/KS015/2019-08-07_001_7822429b-bd49-42d4-994a-a250d51f7ce4_table.pqt",
+      "bytes": 49116,
+      "sha256": "7ec73c849c863cb3dec690ebd3eea362d892cd12da4d27c842b869a6a8d28e8d",
+      "md5": "43b2950b92e39c29b333f07c9f24228b",
+      "published_md5": "43b2950b92e39c29b333f07c9f24228b"
+    }
+  ],
+  "prefix_rows_per_session": [
+    481,
+    519
+  ],
+  "opportunity_source": "pinned footer counts only",
+  "future_outcomes_read": false,
+  "external_outcomes_read": false,
+  "seconds": 2.1674831669952255
+}

@@ -1,0 +1,19 @@
+# Independent review plan
+
+Reviewer 01a195cb-5f1b-7770-adf6-49b1fd8da238; registered START 2026-11-01T06:28:34.197Z, first actual calculation due 06:40:34.197Z, hard stop 07:08:34.197Z. Owned review directory only; author artifacts immutable. No author numerical module will be imported or executed.
+
+Protocol-first reconstruction: recover saved source vectors and actual motor endpoints; independently calculate Euclidean distance to the supplied rank-two radius-two disk, main binary acquisition comparisons, Wilson interval, paired whole-task uncertainty and zero-win directional upper bound. Inspect source for information flow/chronology, hash the eight frozen files, and verify saved prediction hashes only within a precomputed read allowance. Hashes do not establish past execution order. Load each selected NPZ member once and retain needed arrays. Do not repeat the author's full numerical audit or retroactively certify its resources.
+
+## One contrary, frozen before numerical results
+
+The selected contrary tests the favorable *actuator scaling*, which could make covariance's residual penalty so strong that its known density-versus-support mismatch is practically inactive. On all 64 saved main cases, keep exactly the same 32 tutors, hidden center/plane, coupling C, goal actions, noise and harmless disk. Replace the plant's perpendicular component VQ by **0.1 VQ**, keeping UC unchanged and resetting offset to mu+U zstar - plant*a_star. No factor search or outcome-selected case/subgroup. This is a controlled changed plant class on consumed cases, not fresh validation or a refutation of the original generator.
+
+Independently implement the same 641-slot/80-round coordinate actor with +/- axes, clipped action box, step .5, strict 1e-12 improvement and stable argmin. Compare the frozen n32 Gaussian, learned disk and privileged true-error feedback, with mean as the reference actuator account. Do not give hidden plant/gold/goal to an evaluator or action selection beyond querying its ordinary feature output. Radius/noise/rank and Euclidean coordinates retain the author's supplied semantics. Record actual errors, initial errors and >=95% removal acquisitions; normalized thresholds may change because the plant changed. The intervention's definition is fixed at alpha=.1 regardless of outcomes.
+
+Use Gaussian-versus-disk paired acquisitions and whole-case bootstrap B10000/seed 68317 to assess whether the old >=10pp investment threshold becomes met under this specified change. Report whether the true-error actor reaches >=95% acquisition and all failures. A failed oracle weakens estimator interpretation; no actor repair, scale sweep, model tuning or replacement main criterion. Independently solve mean/Gaussian box quadratics and the infinite-tutor mean account as checks where affordable. The test can establish a limitation of the original generalization, not biological relevance or a new architecture.
+
+## Resources and exposure
+
+40 minutes; 0 public operations/ingress; 240,000,000 separate additional scientific read/decode/hash bytes; 500,000,000 peak RSS; one scientific process and one numerical thread at a time. Reserve an initial 10,000,000 byte allowance for scientific text/JSON orientation, failed ordinary reads and metadata. Before payload work, inspect ZIP directories and budget chosen compressed/decompressed members and pins conservatively. No metering framework/service or cap raise. All generated cases remain consumed; protected empirical data untouched. The author's 421,697,685 conservative read allowance/400MB cap/actual IO unknown/compliance uncertified and unrun full SHA remain historical facts.
+
+Save FIRST_CALCULATION, reproducible independent code, REVIEW, STATE, contrary results, resource ledger and proposed learning. Send one <=400 word report to current registry PI without model/thinking overrides, then finish with zero jobs. The same active lab heartbeat persists.

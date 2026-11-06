@@ -1,0 +1,100 @@
+{
+  "id": "research-run-2026-11-04",
+  "status": "completed_no_successor_allocated",
+  "owner_thread_id": "01a19fe3-50b9-7380-aebc-612c7b2beb39",
+  "scientific_owner_thread_id": "01a19fe3-50b9-7380-aebc-612c7b2beb39",
+  "scientific_reservation": false,
+  "budget_reserved": false,
+  "dispatched": false,
+  "start_requirements_satisfied": false,
+  "observed_remaining_percent": 91,
+  "native_scientific_goal_status": "complete_native_readback_verified",
+  "next_checkpoint": "None for the completed run. Biological transport stays on investment hold absent new original assignment, acquisition and common probe evidence.",
+  "selection": "lab/tasks/research-run-2026-11-04/PI_STATE.md",
+  "first_scientific_allocation": {
+    "brief": "lab/tasks/revision-forecast-feasibility-2026-11-04/BRIEF.md",
+    "model": "gpt-6.1-sol",
+    "reasoning": "max",
+    "main_funded": false,
+    "review_before_main": true,
+    "assignment_limits": {
+      "feasibility": {
+        "wall_minutes": 180,
+        "compute_minutes": 30,
+        "ingress_MB": 100,
+        "read_decode_MB": 1000
+      },
+      "investment_review": {
+        "wall_minutes": 90,
+        "compute_minutes": 10,
+        "ingress_MB": 25,
+        "read_decode_MB": 100
+      }
+    }
+  },
+  "first_allocation_outcome": "CLOSE ArgRewrite Draft 3 prognosis without opening scores, after actual development linkage and independent payoff/design review.",
+  "current_allocation": {
+    "brief": "lab/tasks/acquisition-probe-design-2026-11-04/BRIEF.md",
+    "model": "gpt-6.1-sol",
+    "reasoning": "max",
+    "main_funded": false,
+    "wall_minutes": 180,
+    "compute_minutes": 45,
+    "ingress_MB": 50,
+    "read_decode_MB": 2000,
+    "whole_investigation": "Conditional later stage ranges in brief; price from measured pilot, no later booking."
+  },
+  "current_investment_review": {
+    "brief": "lab/reviews/acquisition-probe-investment-2026-11-04/BRIEF.md",
+    "status": "completed_no_main",
+    "thread_id": "01a1a9cc-9c0d-7db3-85ec-a5a02fd98d2a",
+    "model": "gpt-6.1-sol",
+    "reasoning": "max",
+    "wall_minutes": 90,
+    "compute_minutes": 15,
+    "ingress_MB": 30,
+    "read_decode_MB": 300,
+    "main_funded": false
+  },
+  "terminal_probe_design_outcome": "CLOSE the two named one-response designs at 240 independent learners: matching baseline accuracy and changing stimulus allocation do not robustly discriminate the credible fitted alternatives. No biological inference.",
+  "current_sequence_allocation": {
+    "brief": "lab/tasks/acquisition-reactive-sequence-2026-11-04/BRIEF.md",
+    "model": "gpt-6.1-sol",
+    "reasoning": "max",
+    "main_funded": false,
+    "wall_minutes": 240,
+    "compute_minutes": 90,
+    "ingress_MB": 30,
+    "read_decode_MB": 4000,
+    "whole_investigation": "Conditional future ranges in brief; no later booking."
+  },
+  "current_sequence_review": {
+    "brief": "lab/reviews/acquisition-reactive-sequence-2026-11-04/BRIEF.md",
+    "status": "completed_independent_methodological_challenge",
+    "thread_id": "01a1a9e3-e6db-79b1-b95e-c0c06671a897",
+    "model": "gpt-6.1-sol",
+    "reasoning": "max",
+    "wall_minutes": 120,
+    "compute_minutes": 25,
+    "ingress_MB": 30,
+    "read_decode_MB": 750,
+    "main_funded": false
+  },
+  "current_run_result": "lab/tasks/research-run-2026-11-04/RESULT.md",
+  "scientific_finding_earned": "Source-anchored counterexample: near-perfect joint path discrimination does not establish arm-specific discrimination for this expensive curriculum; independent contrast-preserving calibration confirms the scope.",
+  "run_brief": "lab/tasks/research-run-2026-11-04/BRIEF.md",
+  "native_resume_receipt": "lab/tasks/research-run-2026-11-04/GOAL_RESUME_RECEIPT.json",
+  "state_checkpoint": "STATE.md",
+  "prior_stop_native_receipt": "lab/registry.json.pi.native_goal_receipt.reserve_stop",
+  "prior_stop_operator_verification": {
+    "observed_at_utc": "2026-11-03 08:47:54 UTC",
+    "pi_native_goal": "paused_exact_objective_unchanged_unfinished",
+    "heartbeat_native_status": "PAUSED",
+    "both_governance_records": "paused",
+    "controller_active_workers": 0,
+    "independent_native_goal_receipt": "lab/history/PI-GOAL-2026-11-03-reserve-stop-independent.json",
+    "scientific_goal_complete": false
+  },
+  "scientific_goal_complete": true,
+  "biological_transport_earned": false
+}

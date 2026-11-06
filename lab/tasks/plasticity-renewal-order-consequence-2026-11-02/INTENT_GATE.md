@@ -1,0 +1,11 @@
+# Source and intent gate
+
+Inspected 2026-11-02 local (November 3 UTC), after registered START. The source is shibhansh/loss-of-plasticity commit `3138c5556859e0e2918d40f113b40699b6575cfa`, MIT; reuse the Git-verified prior vendor files read-only. New config/Adam/grid-driver transcriptions failed byte identity in calibration and are not promoted here.
+
+Pinned `lop/algos/gnt.py` resets `mean_feature_act` in `test_features`, before `gen_new_features` reads that mean to update the next-layer bias. With finite state and a mature replaced unit, the term is zero. Its adjacent comment explicitly describes compensation for removed features. This is direct evidence for an internally motivated alternative: retain the old updated, bias-corrected activity mean until after using it, leaving every other operation unchanged.
+
+The [primary Nature article](https://pmc.ncbi.nlm.nih.gov/articles/PMC11338828/) describes low-utility replacement to limit disruption; Algorithm 1 resets incoming/outgoing weights, utility and age but does not specify bias compensation. Consequently the article does NOT certify that the tested alternative was the authors' intended/published implementation. The source comment and the literal execution differ, but author intent, historical deployment and published-curve consequences remain uncertified. The test will call this a **retained-mean mechanistic alternative**, not an author correction.
+
+Only four NEW public operations: open the article, find bias, open methods around line390, open Algorithm1 around line255. All remain in ONE existing CBP program. No further source search planned. Charge the full 10MB NEW ingress allowance conservatively; actual provider transfer/redirect bytes are unknown, hence compliance UNCERTIFIED. Only source text/metadata summaries exposed, no empirical/model payload.
+
+Reference finish line: independently expressed exact rational update on constructed states must reproduce both orders, preserve zero-rate/no-event/maturity/dead-unit limits and exhibit a nonzero controlled consequence when the removed feature is constant. A source discrepancy or that identity alone is insufficient; any substantive claim requires the frozen original-repository-task test on independent whole teachers.

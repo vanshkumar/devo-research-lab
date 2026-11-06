@@ -1,0 +1,143 @@
+{
+  "method": "Exhaust all labelled assignments with Python product; use standard-library means; divide count by k!; no root analysis imported",
+  "figure_sha256": "beef1fe42706b54f7afa7a0ba5801928fc9d55b89ca3f1708398e64b27b61850",
+  "opto_bounds_by_capacity": {
+    "2": {
+      "maximum_elements_per_bird": 2,
+      "labelled_assignments": 2520,
+      "unlabelled_partitions": 105,
+      "lower_ms": 393.8016528925624,
+      "upper_ms": 516.3223140495871,
+      "lower_attaining_labels": [
+        0,
+        1,
+        1,
+        2,
+        2,
+        3,
+        3
+      ],
+      "upper_attaining_labels": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        3
+      ]
+    },
+    "3": {
+      "maximum_elements_per_bird": 3,
+      "labelled_assignments": 7560,
+      "unlabelled_partitions": 315,
+      "lower_ms": 328.1680440771354,
+      "upper_ms": 563.1542699724521,
+      "lower_attaining_labels": [
+        0,
+        1,
+        2,
+        2,
+        3,
+        3,
+        3
+      ],
+      "upper_attaining_labels": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        3
+      ]
+    },
+    "4": {
+      "maximum_elements_per_bird": 4,
+      "labelled_assignments": 8400,
+      "unlabelled_partitions": 350,
+      "lower_ms": 294.2148760330583,
+      "upper_ms": 589.2561983471078,
+      "lower_attaining_labels": [
+        0,
+        1,
+        2,
+        3,
+        3,
+        3,
+        3
+      ],
+      "upper_attaining_labels": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "conflict_bounds": {
+    "maximum_elements_per_bird": 2,
+    "labelled_assignments": 36,
+    "unlabelled_partitions": 6,
+    "lower_ms": 341.0468319559232,
+    "upper_ms": 425.0688705234163,
+    "lower_attaining_labels": [
+      0,
+      1,
+      2,
+      2
+    ],
+    "upper_attaining_labels": [
+      0,
+      0,
+      1,
+      2
+    ]
+  },
+  "unrestricted_opto_analytic_bounds": [
+    294.2148760330583,
+    589.2561983471077
+  ],
+  "conflict_minus_opto_bounds_by_capacity": {
+    "2": [
+      -175.27548209366392,
+      31.267217630853906
+    ],
+    "3": [
+      -222.10743801652887,
+      96.90082644628092
+    ],
+    "4": [
+      -248.20936639118457,
+      130.853994490358
+    ]
+  },
+  "source_consistent_opto_maximum_elements": 3,
+  "source_constraint": "Zhao main P10:300ms opto-tutored birds produced1\u20133song elements; confirmed by source agent and original cached text",
+  "source_consistent_bounds_plus_extraction_error_ms": [
+    -248.5537190082644,
+    123.34710743801645
+  ],
+  "table_partition_count": 330,
+  "table_partition_median_ranges_ms": [
+    [
+      213.4,
+      434.3
+    ],
+    [
+      194.3,
+      621.1500000000001
+    ],
+    [
+      -240.0,
+      407.7500000000001
+    ]
+  ],
+  "support_separation_ms": 24.099999999999994,
+  "main_text_calibration_prediction_ms": 323.0,
+  "main_text_calibration_conflict_median_residual_ms": 9.231404958678013,
+  "limits": "Finite observed summaries only. Unknown memberships are bounded; no population CI, family independence, or raw-rendition inference."
+}

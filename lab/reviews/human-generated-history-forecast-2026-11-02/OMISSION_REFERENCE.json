@@ -1,0 +1,219 @@
+{
+  "utc": "2026-11-02T21:00:19.798631+00:00",
+  "person": "007",
+  "steps": 4,
+  "models": [
+    "shared",
+    "no_history"
+  ],
+  "scope": "Constructed Beta(.5,.5) omission prior, original prefix/fit/first-four source inputs; a numerical law check, not empirical engagement validation or an additional contrary",
+  "exact_probabilities": [
+    [
+      0.6166061163806866,
+      0.6919266824886904
+    ],
+    [
+      0.3669693367524416,
+      0.4204934912996216
+    ],
+    [
+      0.14554437043713986,
+      0.18055153856254258
+    ],
+    [
+      0.3625663046375374,
+      0.40892556564242477
+    ]
+  ],
+  "repetition_probabilities": [
+    [
+      [
+        0.6166061163806866,
+        0.6919266824886905
+      ],
+      [
+        0.36733024811588366,
+        0.42051000882573863
+      ],
+      [
+        0.14558633467171453,
+        0.18055623782108232
+      ],
+      [
+        0.3629018731587855,
+        0.4089557463219736
+      ]
+    ],
+    [
+      [
+        0.6166061163806867,
+        0.6919266824886907
+      ],
+      [
+        0.36687782192748736,
+        0.42049031633090433
+      ],
+      [
+        0.1453620115197303,
+        0.18054366622060075
+      ],
+      [
+        0.3625744314987065,
+        0.4089306156496835
+      ]
+    ],
+    [
+      [
+        0.6166061163806865,
+        0.6919266824886904
+      ],
+      [
+        0.3669105807673101,
+        0.4204757582252533
+      ],
+      [
+        0.14558493506223544,
+        0.18055752992853444
+      ],
+      [
+        0.3621576461851919,
+        0.40889170005921815
+      ]
+    ],
+    [
+      [
+        0.6166061163806866,
+        0.6919266824886905
+      ],
+      [
+        0.36649939297663725,
+        0.4204707472969047
+      ],
+      [
+        0.1456580580397123,
+        0.18055437496473148
+      ],
+      [
+        0.36261392800497433,
+        0.40892798349033277
+      ]
+    ]
+  ],
+  "difference": [
+    [
+      0.0,
+      1.1102230246251565e-16
+    ],
+    [
+      -6.482580561195661e-05,
+      -6.783629921403023e-06
+    ],
+    [
+      3.464386208296144e-06,
+      1.4136711946610703e-06
+    ],
+    [
+      -4.3349256228508715e-06,
+      9.457378772892433e-07
+    ]
+  ],
+  "standard_error": [
+    [
+      4.5324665183683945e-17,
+      7.166458808248763e-17
+    ],
+    [
+      0.0001698337062543466,
+      8.806201138406734e-06
+    ],
+    [
+      6.425089081278502e-05,
+      3.1623379709673333e-06
+    ],
+    [
+      0.00015326089624230417,
+      1.3183076352040005e-05
+    ]
+  ],
+  "max_abs_difference": 6.482580561195661e-05,
+  "mass_and_response_probability_checks": [
+    [
+      {
+        "states": 3,
+        "total_mass": 1.0,
+        "current_response_probability": 0.5
+      },
+      {
+        "states": 9,
+        "total_mass": 1.0,
+        "current_response_probability": 0.5
+      },
+      {
+        "states": 27,
+        "total_mass": 1.0,
+        "current_response_probability": 0.5
+      },
+      {
+        "states": 81,
+        "total_mass": 0.9999999999999998,
+        "current_response_probability": 0.5
+      }
+    ],
+    [
+      {
+        "states": 3,
+        "total_mass": 1.0,
+        "current_response_probability": 0.5
+      },
+      {
+        "states": 9,
+        "total_mass": 0.9999999999999999,
+        "current_response_probability": 0.5
+      },
+      {
+        "states": 27,
+        "total_mass": 1.0000000000000002,
+        "current_response_probability": 0.5
+      },
+      {
+        "states": 81,
+        "total_mass": 0.9999999999999999,
+        "current_response_probability": 0.5
+      }
+    ]
+  ],
+  "within_six_simulation_standard_errors": true,
+  "exact_terminal_paths_per_model": 81,
+  "repetitions": 4,
+  "trajectories_per_repetition": 65536,
+  "elapsed_seconds": 0.170477583,
+  "reads": [
+    {
+      "path": "campaigns/human_learning_routes_2026-10-28/inputs/validation_numeric.csv",
+      "bytes": 1872445,
+      "sha256": "c6a7f8d84f80f86aa1e6287187a20ceb6e206a01d47dcc77a124dc658da001e9",
+      "read_hash_decode_allowance": 5617335
+    },
+    {
+      "path": "lab/tasks/human-generated-history-forecast-2026-11-01/FORECAST_INPUTS.json",
+      "bytes": 1085903,
+      "sha256": "5d396ba483a7c33962d19aa986bc8f15c39baf80d8792b48d67e1f119e98fcba",
+      "read_hash_decode_allowance": 3257709
+    },
+    {
+      "path": "campaigns/human_learning_routes_2026-10-28/outputs/primary/shared_fit.json",
+      "bytes": 12947,
+      "sha256": "b3b75d5df78c1d89d1808e7202f5cb25a6faf0eea79774d8bb3f5ae551361062",
+      "read_hash_decode_allowance": 38841
+    },
+    {
+      "path": "campaigns/human_learning_routes_2026-10-28/outputs/primary/no_history_fit.json",
+      "bytes": 8663,
+      "sha256": "a2ee182d45aa6ec8acc1855abc157c2dbee19527378d3187f73695f2d24d50c4",
+      "read_hash_decode_allowance": 25989
+    }
+  ],
+  "explicit_read_hash_decode_allowance": 8939874,
+  "observed_process_peak_rss_bytes": 101662720,
+  "measurement": "Darwin ru_maxrss; runtime/import/host/physical I/O unknown"
+}

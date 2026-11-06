@@ -1,0 +1,173 @@
+{
+  "bootstrap": "Generate20000 ordered iid20-index resamples using seed202610291, aggregate to integer multinomial counts; reuse this fixed common-random count matrix for every simulated cohort/case. Each resample retains all6bins peranimal. Exact procedure matches production statistics.",
+  "bootstrap_replicates": 20000,
+  "bootstrap_seed": 202610291,
+  "cases_candidate_growth_persistence_shift_from_template_point5": {
+    "null_baselines_correct_candidate_minus10pp": [
+      -0.1,
+      0.0,
+      0.0
+    ],
+    "null_baselines_correct_candidate_plus10pp": [
+      0.1,
+      0.0,
+      0.0
+    ],
+    "null_equal_error_candidate_minus5_baselines_plus5": [
+      -0.05,
+      0.05,
+      0.05
+    ],
+    "null_equal_error_candidate_plus5_baselines_minus5": [
+      0.05,
+      -0.05,
+      -0.05
+    ],
+    "null_identical_correct_forecasts": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "signal_baselines_minus10pp": [
+      0.0,
+      -0.1,
+      -0.1
+    ],
+    "signal_baselines_plus10pp": [
+      0.0,
+      0.1,
+      0.1
+    ]
+  },
+  "cohort_n": 20,
+  "coverage": "Report90/95 percentile scalar-bias and descriptive absolute-MAE interval coverage against known finite-population truth. At zero MAE the absolute loss is nonregular; percentile-MAE intervals are not valid equivalence bounds. Also show gain interval coverage as a diagnostic, not a decision requirement.",
+  "date": "2026-10-29",
+  "decision": "Both growth and persistence gains >=.05 and paired percentile95% lower gain >0; no omnibus accuracy gate.",
+  "double_variability": "Multiply residual pool by2, clip to+/- .49, center each finite-pool bin, common shrink only if recentering leaves bounds. Report realized variance ratio; do not call clipping exact variance doubling.",
+  "external_prefix_or_outcome_access": false,
+  "lab_offset": "Draw one empirical equally weighted zero-mean lab offset per entire20-animal cohort; add to each animal's primary pool residual and bound outcomes to[0,1]. Forecasts remain at unconditional .5+case shift. Recompute each environment's true finite-pool mean and loss; nominal signal/null labels are unconditional and may change conditional truth.",
+  "material_gain": 0.05,
+  "pins": {
+    "campaigns/learning_transport_revised_2026-10-29/code/calibrate_decision.py": "a887b3f724b9cd39d54ee658f9f9e74eb7f3174991112e4dc608e5f0c4ebed34",
+    "campaigns/learning_transport_revised_2026-10-29/code/comparison_statistics.py": "1cff6c3777adf09a068894ec6bbf753be7ead4c1262b82761a4577d4d5bc220b",
+    "campaigns/learning_transport_revised_2026-10-29/protocols/DESIGN.md": "784eefccfd6289cc143bbf09556e90217cafde5c5593d418a156bd0759c4e35d",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/method_audit/CONSUMED_SOURCE_EXACT100.npz": "4a26801fb8c9e881b38870e45ac924d3bd5b1300a8a20a96674ada77666bcce3",
+    "campaigns/population_learning_transport_2026-10-28/artifacts/results/SOURCE_ARRAYS.npz": "bf3d6eeb82d964ef9a7e0026d9183278040b9c66af9039b24a2c20832ad3971b"
+  },
+  "primary": "Uniform iid animals from the64 pooled centered empirical six-bin residual vectors; outcomes=.5+residual, no sample-cohort recentering.",
+  "primary_acceptance": "Point MonteCarlo success rate>=.80 for each +/- .10 signal and false material superiority<=.05 for each primary null. Exact95%binomial intervals reported; no postcontrol tuning. Sensitivities constrain interpretation but do not replace the frozen primary construction.",
+  "repetitions_per_construction_and_case": 2000,
+  "resource": "Float64 batches of at most16cohorts, one20k x20 count matrix, expected working arrays<200MB. No paid service/network/raw trial access.",
+  "simulation_seed": 202610292,
+  "source": {
+    "animals": 64,
+    "centered_bin_means": [
+      1.4094628242311558e-18,
+      -1.1926223897340549e-17,
+      -4.336808689942018e-18,
+      9.64939933512099e-18,
+      -2.0708261494473135e-17,
+      4.336808689942018e-19
+    ],
+    "centered_max_absolute_error": 0.4209089256958835,
+    "centered_scalar_sd": 0.09789520862543415,
+    "lab_labels": [
+      "angelakilab",
+      "churchlandlab",
+      "cortexlab",
+      "danlab",
+      "hoferlab",
+      "mainenlab",
+      "mrsicflogellab",
+      "wittenlab",
+      "zadorlab"
+    ],
+    "lab_shared_offsets": [
+      [
+        -0.036062612047272236,
+        -0.01998402868679175,
+        -0.02420219493790646,
+        -0.09804070647012884,
+        -0.052865250353894264,
+        -0.060207781281358695
+      ],
+      [
+        -0.018936132133533345,
+        -0.03408627189777414,
+        -0.0418898050140684,
+        -0.034679955579400006,
+        -0.03967097850630884,
+        -0.036222265910318005
+      ],
+      [
+        -0.020601182031472275,
+        -0.02837218802413965,
+        0.0009369252936871214,
+        -0.004962051897943652,
+        0.012417875164826439,
+        0.043015483332486296
+      ],
+      [
+        0.09808934144344703,
+        0.14176334456568346,
+        0.1191349562131713,
+        0.07113348603725217,
+        0.09337492009022005,
+        0.04251203024783862
+      ],
+      [
+        -0.027198673319816374,
+        -0.0656532347365413,
+        -0.08689957084194176,
+        -0.10600138748964445,
+        -0.13221992363892998,
+        -0.12837693757196725
+      ],
+      [
+        0.02386105045887577,
+        0.0638772962900937,
+        0.04905917659105249,
+        0.14297052995196366,
+        0.11375185027785703,
+        0.13117251188232731
+      ],
+      [
+        0.005689157252733983,
+        -0.046120682101518796,
+        -0.05108962243199393,
+        -0.08868131162506698,
+        -0.11702300375939395,
+        -0.09284887209646661
+      ],
+      [
+        -0.0022127062446322884,
+        -0.016955963606472554,
+        -0.0012696813193333878,
+        0.041669425598978266,
+        0.04060272805991639,
+        0.04158106881300137
+      ],
+      [
+        -0.02262824337833025,
+        0.005531728197461023,
+        0.036219816447333,
+        0.07659197147398986,
+        0.08163178266570714,
+        0.059374762584456994
+      ]
+    ],
+    "later": 24,
+    "original": 40,
+    "raw_bin_residual_mean_removed": [
+      -0.016826102721094614,
+      -0.018277274847136964,
+      -0.015720579040532486,
+      -0.02744700630392722,
+      -0.025073533765692747,
+      -0.016603942144658185
+    ]
+  },
+  "status": "frozen_before_control_execution_no_data_release",
+  "truth": "All known means/losses are recomputed by averaging the full finite error pool, after bounding, separately for each environment. Primary truth is .5 per bin; not the realized simulated cohort mean.",
+  "utc": "2026-10-29T13:56:04.092538+00:00"
+}

@@ -1,0 +1,186 @@
+{
+  "attempt_slots": 25,
+  "executed_top_level_attempts": 23,
+  "pre_tool_rejections": 2,
+  "known_additional_redirect_charge": 1,
+  "conservative_public_operation_charge": 26,
+  "cap": 25,
+  "compliance": "NOT CERTIFIED; conservative charge exceeds cap by one after visible redirect; exact provider/HTTP internal operations unknown",
+  "operations": [
+    {
+      "slot": 1,
+      "kind": "web search",
+      "object": "Markant Gureckis 2014 select/receive data github",
+      "result": "returned paper/lab/CV leads",
+      "conservative_operation_charge": 1
+    },
+    {
+      "slot": 2,
+      "kind": "web open",
+      "object": "https://todd.gureckislab.org/gureckis-cv.pdf",
+      "result": "PDF view; provider version differs across cached views",
+      "conservative_operation_charge": 1
+    },
+    {
+      "slot": 3,
+      "kind": "web open",
+      "object": "https://gureckislab.org/publications/MarkantGureckisJEPGEN2013.pdf",
+      "result": "paper PDF text",
+      "conservative_operation_charge": 1
+    },
+    {
+      "slot": 4,
+      "kind": "web find",
+      "object": "CV: Is it better",
+      "result": "Data and Code text; no URI",
+      "conservative_operation_charge": 1
+    },
+    {
+      "slot": 5,
+      "kind": "web find",
+      "object": "paper: randomly assigned",
+      "result": "Y2 ploy and common-test protocol",
+      "conservative_operation_charge": 1
+    },
+    {
+      "slot": 6,
+      "kind": "web find",
+      "object": "paper: http",
+      "result": "reference URLs; no original record",
+      "conservative_operation_charge": 1
+    },
+    {
+      "slot": 7,
+      "kind": "web search",
+      "object": "\"Markant\" \"2014\" \"select\" \"github.com\"",
+      "result": "incidental crossAct lead; no deliberate other family",
+      "conservative_operation_charge": 1
+    },
+    {
+      "slot": 8,
+      "kind": "web search",
+      "object": "\"gureckislab\" \"select\" \"Data and Code\"",
+      "result": "same targeted family; incidental summaries",
+      "conservative_operation_charge": 1
+    },
+    {
+      "slot": 9,
+      "kind": "GitHub repository search",
+      "object": "markant gureckis",
+      "result": "only Action completed inspected; no certified repository",
+      "conservative_operation_charge": 1
+    },
+    {
+      "slot": 10,
+      "kind": "native curl",
+      "object": "CV public URL",
+      "result": "sandbox DNS failure; exit6; zero body",
+      "conservative_operation_charge": 1
+    },
+    {
+      "slot": 11,
+      "kind": "native curl with network permission",
+      "object": "CV public URL",
+      "result": "HTTP200;263726bytes;exit0",
+      "conservative_operation_charge": 1
+    },
+    {
+      "slot": 12,
+      "kind": "native curl with network permission",
+      "object": "https://www.gureckislab.org/papers",
+      "result": "HTTP200;1279920bytes;exit0",
+      "conservative_operation_charge": 1
+    },
+    {
+      "slot": 13,
+      "kind": "web open",
+      "object": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8096649/",
+      "result": "browser-check/reCAPTCHA body; not paper",
+      "conservative_operation_charge": 1
+    },
+    {
+      "slot": 14,
+      "kind": "GitHub fetch",
+      "object": "https://api.github.com/repos/mzettersten/crossAct/git/trees/master?recursive=1",
+      "result": "complete tree;sha d390ff3a9716c7fb0a277f3d3a65ff821afa943c",
+      "conservative_operation_charge": 1
+    },
+    {
+      "slot": 15,
+      "kind": "GitHub fetch",
+      "object": "crossAct README.md",
+      "result": "body3163bytes",
+      "conservative_operation_charge": 1
+    },
+    {
+      "slot": 16,
+      "kind": "GitHub fetch",
+      "object": "crossAct experiment_scripts/version4/crossact_v4.html",
+      "result": "body20124bytes",
+      "conservative_operation_charge": 1
+    },
+    {
+      "slot": 17,
+      "kind": "GitHub fetch",
+      "object": "crossAct data/Crossact_codebook.csv",
+      "result": "body12275bytes",
+      "conservative_operation_charge": 1
+    },
+    {
+      "slot": 18,
+      "kind": "GitHub fetch",
+      "object": "crossAct experiment_scripts/version1/crossact_v1.html",
+      "result": "body20488bytes",
+      "conservative_operation_charge": 1
+    },
+    {
+      "slot": 19,
+      "kind": "GitHub fetch",
+      "object": "crossAct LICENSE",
+      "result": "body1068bytes",
+      "conservative_operation_charge": 1
+    },
+    {
+      "slot": 20,
+      "kind": "pre-tool rejected curl",
+      "object": "raw-host CSV download plus optional headers",
+      "result": "no command execution/network; lexical protected-substring match",
+      "conservative_operation_charge": 1
+    },
+    {
+      "slot": 21,
+      "kind": "pre-tool rejected curl",
+      "object": "raw-host CSV download only",
+      "result": "no command execution/network; same lexical match",
+      "conservative_operation_charge": 1
+    },
+    {
+      "slot": 22,
+      "kind": "GitHub fetch",
+      "object": "crossAct data/Crossact_data.csv",
+      "result": "HTTPError400 too large/unsupported; provider transferred bytes unknown",
+      "conservative_operation_charge": 1
+    },
+    {
+      "slot": 23,
+      "kind": "native curl with network permission",
+      "object": "https://github.com/mzettersten/crossAct/raw/master/data/Crossact_data.csv",
+      "result": "HTTP200;4015641bytes;exit0;redirect to raw host",
+      "conservative_operation_charge": 2
+    },
+    {
+      "slot": 24,
+      "kind": "GitHub fetch",
+      "object": "crossAct experiment_scripts/version4/jspsych-crossact-test.js",
+      "result": "body12350bytes",
+      "conservative_operation_charge": 1
+    },
+    {
+      "slot": 25,
+      "kind": "GitHub fetch",
+      "object": "crossAct experiment_scripts/version4/jspsych-selection-learning.js",
+      "result": "body11138bytes",
+      "conservative_operation_charge": 1
+    }
+  ]
+}

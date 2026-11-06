@@ -1,0 +1,70 @@
+{
+  "status": "CLOSED_PARTIAL_NATIVE_FAILURES_NO_QUALIFYING_MEASUREMENT",
+  "qualifying_first_measurement_milestone": false,
+  "successful_assignment_acquisition_common_probe_calculation": "UNRUN",
+  "recorded_at_utc": "2026-11-01T14:35:44.323070+00:00",
+  "actual_command": ".venv/bin/python lab/tasks/assigned-teacher-common-probe-2026-11-01/first_data_check.py",
+  "runs": [
+    {
+      "native_exit_code": 1,
+      "tool_chunk_id": "95ad4b",
+      "failure": "AssertionError: 9 at assert len(learning) == 24, len(learning)",
+      "raw_records_touched": "same first development person; no score saved",
+      "peak_rss_bytes": null,
+      "read_charge_bytes": 5000000
+    },
+    {
+      "native_exit_code": 1,
+      "tool_chunk_id": "b99545",
+      "failure": "assert metadata['version'] == 'kids2B', metadata",
+      "native_stdout": "DEVELOPMENT_METADATA_AND_COUNTS {'subject': 'Crossact1_p101', 'experiment_name': 'Experiment 2', 'version': 'kids2A', 'age_group': 'kids', 'ambiguity_condition': 'ambiguous'} {'fam-learning': 4, 'fam-selection': 2, 'fam-test': 4, 'learning': 9, 'selection': 4, 'test': 6}",
+      "peak_rss_bytes": null,
+      "read_charge_bytes": 5000000
+    }
+  ],
+  "original_csv_pin": {
+    "file": "Crossact_data.csv",
+    "bytes": 4015641,
+    "sha256": "7cd1c89e84b7e20ad197c6d26213427101918237d26a52c1a2e139dcfa8e4109",
+    "git_blob_sha1": "622d0e34305f7208ef0ec77a0dc6951add1a161c"
+  },
+  "original_development_metadata": {
+    "subject": "Crossact1_p101",
+    "experiment_name": "Experiment 2",
+    "version": "kids2A",
+    "age_group": "kids",
+    "ambiguity_condition": "ambiguous"
+  },
+  "original_development_phase_counts": {
+    "fam-learning": 4,
+    "fam-selection": 2,
+    "fam-test": 4,
+    "learning": 9,
+    "selection": 4,
+    "test": 6
+  },
+  "original_development_total_rows": 29,
+  "probe_correct_count": null,
+  "assignment_independence": "UNCERTIFIED",
+  "v3_actual_protocol": "listed in source tree, unacquired",
+  "native_exit_zero_record_closeout_is_not_a_scientific_milestone": true,
+  "exposure": {
+    "whole_original_csv_acquired_and_hashed_bytes": 4015641,
+    "same_development_person_rows_csv_tokenized_each_failed_pass": 29,
+    "following_person_first_row_csv_tokenized_each_failed_pass": 1,
+    "following_response_values": "not interpreted/rendered/scored; exact identifier not reported by failed runs",
+    "development_response_and_auxiliary_values": "encountered in CSV tokenization; development-exposed, no response score computed",
+    "other_response_scores_aggregates_or_whole_csv_tokenization": "UNRUN"
+  },
+  "unrun": [
+    "assignment-acquisition-probe join",
+    "independent teacher allocation certification",
+    "source/evaluation split",
+    "main freeze",
+    "model fit",
+    "forecast score",
+    "calibration controls",
+    "independent scientific review"
+  ],
+  "native_failed_run_times": "exact times not saved; first before14:27:23Z clock, second after that clock; record-only closeout time is separate"
+}

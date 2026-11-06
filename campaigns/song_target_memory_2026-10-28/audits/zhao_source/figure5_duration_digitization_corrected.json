@@ -1,0 +1,164 @@
+{
+  "axis": {
+    "source": "figure5.jpg panel C",
+    "tick_y_px": [
+      430,
+      309,
+      188,
+      67
+    ],
+    "tick_value_ms": [
+      0,
+      400,
+      800,
+      1200
+    ],
+    "pixel_error": 2
+  },
+  "records": [
+    {
+      "group": "natural_plus_opto_300",
+      "x_px": 1831.0,
+      "y_px": 371.5,
+      "duration_ms": 193.3884297520665,
+      "extraction_error_ms": 6.611570247933882,
+      "component_area": 246,
+      "bbox_width": 27,
+      "bbox_height": 24
+    },
+    {
+      "group": "natural_plus_opto_300",
+      "x_px": 1844.0,
+      "y_px": 333.0,
+      "duration_ms": 320.66115702479374,
+      "extraction_error_ms": 6.611570247933882,
+      "component_area": 247,
+      "bbox_width": 25,
+      "bbox_height": 23
+    },
+    {
+      "group": "natural_plus_opto_300",
+      "x_px": 1819.0,
+      "y_px": 326.0,
+      "duration_ms": 343.8016528925623,
+      "extraction_error_ms": 6.611570247933882,
+      "component_area": 249,
+      "bbox_width": 27,
+      "bbox_height": 23
+    },
+    {
+      "group": "natural_plus_opto_300",
+      "x_px": 1831.0,
+      "y_px": 226.0,
+      "duration_ms": 674.3801652892565,
+      "extraction_error_ms": 6.611570247933882,
+      "component_area": 252,
+      "bbox_width": 27,
+      "bbox_height": 23
+    },
+    {
+      "group": "opto_only_300",
+      "x_px": 1705.0,
+      "y_px": 300.0,
+      "duration_ms": 429.75206611570286,
+      "extraction_error_ms": 6.611570247933882,
+      "component_area": 236,
+      "bbox_width": 25,
+      "bbox_height": 23
+    },
+    {
+      "group": "opto_only_300",
+      "x_px": 1704.5,
+      "y_px": 258.5,
+      "duration_ms": 566.9421487603308,
+      "extraction_error_ms": 6.611570247933882,
+      "component_area": 222,
+      "bbox_width": 26,
+      "bbox_height": 22
+    },
+    {
+      "group": "opto_only_300",
+      "x_px": 1704.5,
+      "y_px": 81.0,
+      "duration_ms": 1153.719008264463,
+      "extraction_error_ms": 6.611570247933882,
+      "component_area": 237,
+      "bbox_width": 26,
+      "bbox_height": 23
+    },
+    {
+      "group": "opto_only_300",
+      "x_px": 1692.5,
+      "y_px": 377.5,
+      "duration_ms": 173.55371900826503,
+      "extraction_error_ms": 9.917355371900822,
+      "method": "manual diamond centers after connected-component overlap; see fig5_lowpoints_reading.png"
+    },
+    {
+      "group": "opto_only_300",
+      "x_px": 1717.5,
+      "y_px": 372.0,
+      "duration_ms": 191.73553719008305,
+      "extraction_error_ms": 9.917355371900822,
+      "method": "manual diamond centers after connected-component overlap; see fig5_lowpoints_reading.png"
+    },
+    {
+      "group": "opto_only_300",
+      "x_px": 1717.5,
+      "y_px": 366.0,
+      "duration_ms": 211.57024793388473,
+      "extraction_error_ms": 9.917355371900822,
+      "method": "manual diamond centers after connected-component overlap; see fig5_lowpoints_reading.png"
+    },
+    {
+      "group": "opto_only_300",
+      "x_px": 1692.5,
+      "y_px": 354.5,
+      "duration_ms": 249.58677685950465,
+      "extraction_error_ms": 9.917355371900822,
+      "method": "manual diamond centers after connected-component overlap; see fig5_lowpoints_reading.png"
+    }
+  ],
+  "summary": {
+    "opto_only_300": {
+      "plotted_element_count": 7,
+      "source_bird_count": 4,
+      "element_duration_median_ms": 249.58677685950465,
+      "element_duration_mean_ms": 425.265643447462,
+      "duration_values_ms": [
+        173.55371900826503,
+        191.73553719008305,
+        211.57024793388473,
+        249.58677685950465,
+        429.75206611570286,
+        566.9421487603308,
+        1153.719008264463
+      ],
+      "conservative_median_extraction_envelope_ms": [
+        236.36363636363689,
+        262.8099173553724
+      ],
+      "envelope_definition": "4 pixels covers 3-pixel symbol centers plus1-pixel axis calibration; not biological CI",
+      "bird_ids_available": false
+    },
+    "natural_plus_opto_300": {
+      "plotted_element_count": 4,
+      "source_bird_count": 3,
+      "element_duration_median_ms": 332.231404958678,
+      "element_duration_mean_ms": 383.05785123966973,
+      "duration_values_ms": [
+        193.3884297520665,
+        320.66115702479374,
+        343.8016528925623,
+        674.3801652892565
+      ],
+      "conservative_median_extraction_envelope_ms": [
+        319.00826446281025,
+        345.4545454545458
+      ],
+      "envelope_definition": "4 pixels covers 3-pixel symbol centers plus1-pixel axis calibration; not biological CI",
+      "bird_ids_available": false
+    }
+  },
+  "warning": "Figure-derived element summaries, not raw measurements. No table row membership or individual-bird values inferred. Source captions give7 elements/4 birds and4 elements/3 birds."
+}

@@ -1,0 +1,221 @@
+{
+  "task": "observed-revision-corrective-judgments-2026-11-02",
+  "decision": "CLOSED source/contribution gate; no new main fit",
+  "empirical_families_deliberately_pursued": 2,
+  "primary_families_deliberately_pursued": 3,
+  "counting": "ArgRewrite V.2 collection; ArgRewrite V.1/2018 quality annotations; Liu2023 revision-quality methods. Liu's elementary corpus was NOT deliberately pursued as an empirical source or acquired; its published examples/summaries are exposed and recorded.",
+  "acquired_original": {
+    "url": "https://raw.githubusercontent.com/petal-cs-pitt/petal-cs-pitt.github.io/master/Data/annotated_revision_improvements.csv.zip",
+    "tree_sha": "f5250be3f5fa90d7b864f2d91ef0130e6426f927",
+    "tree_truncated": false,
+    "git_blob": "00581db66ef19161a18a5eaf1fb92495a11bc527",
+    "bytes": 169209,
+    "sha256": "b85f43a7648b6c250d9539b8b4e9a66c5487a57c082ca8d418354d043b4600d7",
+    "csv_bytes": 666358,
+    "csv_sha256": "13cb346a5f77c48a069891fd27897150efb23080060256598a047827efc06407",
+    "crc32": "725da909",
+    "retrieved_native_at": "2026-11-02T23:06:14.916191Z",
+    "license": "Afrin/Litman2018 p244 expressly makes the corpus freely available for research usage. No separately certified data license file in the ZIP; PETAL site MIT license credits site-template author GeorgeCushen and is NOT taken as a dataset license.",
+    "identifiers": "S1/S2 and 7Label/Comment pairs only; learner/draft/assignment/rater IDs not supplied in this CSV.",
+    "paper": "https://aclanthology.org/W18-0528/",
+    "specific_evidence": "Sections3.1/4/5/6/Table2; original paired quality target, seven crowd votes, NotBetter means harm or no significant effect; edit/length/linguistic model and disagreement/length cautions already prior. Published counts not independently reproduced here."
+  },
+  "v2": {
+    "repository": "https://github.com/omidkashefi/ArgRewrite",
+    "tree_sha": "a433be296c3d3566754106f64d16dbf48182bc00",
+    "tree_truncated": false,
+    "readme_blob": "f67764b77c478892e230cba946d06c14b91f90ad",
+    "scores_object_not_acquired": {
+      "path": "dataset/meta-data/Scores/scores.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e449a146deda7018ef288814b3091d424d94457b",
+      "size": 221580,
+      "url": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/blobs/e449a146deda7018ef288814b3091d424d94457b"
+    },
+    "paper": "https://arxiv.org/html/2206.01677",
+    "version": "arXiv2206.01677v1/2022-06-03; preprint explicitly distinct from version of record 10.1007/s10579-021-09567-z",
+    "evidence": "Sec2collection and Sec4availability; 86people/258drafts, purpose labels, personalized feedback and scores per draft. Payloads remain unacquired.",
+    "license": "Repository landing page reports CC-BY4.0; license file tree-pinned dc8853a70cfa9d7e8933c080caa147815c659fab not acquired/read in full. No new V.2 empirical use in this pass.",
+    "independent_quality_target": "Draft scores documented, but no direct scored-edit/learner/draft original-data reconstruction performed."
+  },
+  "closest_methods": {
+    "paper": "https://aclanthology.org/2023.bea-1.24/",
+    "title": "Liu et al.2023 Predicting the Quality of Revisions in Argumentative Writing",
+    "tree_sha": "01e482b7ec49b4e66fdfff9cc4844508a38b1d00",
+    "tree_truncated": false,
+    "college_data_subtree": [
+      {
+        "path": "data/college",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+        "url": "https://api.github.com/repos/ZhexiongLiu/Revision-Quality-Prediction/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+      },
+      {
+        "path": "data/college/.gitkeep",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/ZhexiongLiu/Revision-Quality-Prediction/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      }
+    ],
+    "scope": "Argument-context-dependent revision quality already a studied target; success labels in this paper are scheme-derived rather than the 2018 seven-vote labels. Do NOT conflate annotation versions or join different corpora.",
+    "not_acquired": "No college/elementary empirical payloads, models or generated contexts acquired; no LLM calls, generated edits or reproduction of prior performance."
+  },
+  "public_operation_ledger": [
+    {
+      "id": 1,
+      "kind": "web search",
+      "target": "ArgRewrite corpus revision quality improvement annotations dataset github",
+      "outcome": "success; relevant and incidental search summaries exposed"
+    },
+    {
+      "id": 2,
+      "kind": "web open",
+      "target": "https://petal-cs-pitt.github.io/resource/",
+      "outcome": "success; primary group resources"
+    },
+    {
+      "id": 3,
+      "kind": "web open",
+      "target": "https://aclanthology.org/W18-0528/",
+      "outcome": "success"
+    },
+    {
+      "id": 4,
+      "kind": "GitHub fetch",
+      "target": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/trees/master?recursive=1",
+      "outcome": "404; branch guess retained"
+    },
+    {
+      "id": 5,
+      "kind": "web click",
+      "target": "published PETAL Data/annotated_revision_improvements.csv.zip",
+      "outcome": "404"
+    },
+    {
+      "id": 6,
+      "kind": "web open",
+      "target": "https://aclanthology.org/W18-0528.pdf",
+      "outcome": "success; primary paper text"
+    },
+    {
+      "id": 7,
+      "kind": "GitHub repo metadata",
+      "target": "omidkashefi/ArgRewrite",
+      "outcome": "success; main branch established"
+    },
+    {
+      "id": 8,
+      "kind": "GitHub tree",
+      "target": "https://api.github.com/repos/petal-cs-pitt/petal-cs-pitt.github.io/git/trees/master?recursive=1",
+      "outcome": "success; complete untruncated tree"
+    },
+    {
+      "id": 9,
+      "kind": "GitHub tree",
+      "target": "https://api.github.com/repos/omidkashefi/ArgRewrite/git/trees/main?recursive=1",
+      "outcome": "success; complete untruncated tree"
+    },
+    {
+      "id": 10,
+      "kind": "native acquisition",
+      "target": "raw.githubusercontent.com PETAL ZIP",
+      "outcome": "exit1; DNS resolution failure"
+    },
+    {
+      "id": 11,
+      "kind": "GitHub binary blob",
+      "target": "00581db66ef19161a18a5eaf1fb92495a11bc527",
+      "outcome": "rejected non-UTF8; no decoded binary returned"
+    },
+    {
+      "id": 12,
+      "kind": "native capped acquisition",
+      "target": "raw.githubusercontent.com PETAL ZIP",
+      "outcome": "success; 169209bytes; approved network escalation"
+    },
+    {
+      "id": 13,
+      "kind": "web open",
+      "target": "https://argrewrite.cs.pitt.edu/",
+      "outcome": "502"
+    },
+    {
+      "id": 14,
+      "kind": "GitHub raw text",
+      "target": "omidkashefi/ArgRewrite/main/dataset/readme.txt",
+      "outcome": "success"
+    },
+    {
+      "id": 15,
+      "kind": "GitHub raw text",
+      "target": "petal-cs-pitt/petal-cs-pitt.github.io/master/LICENSE.md",
+      "outcome": "success; site-template MIT license; NOT certified dataset license"
+    },
+    {
+      "id": 16,
+      "kind": "web search",
+      "target": "\"ArgRewrite\" \"V1\" download corpus",
+      "outcome": "summaries exposed; no alternate empirical data"
+    },
+    {
+      "id": 17,
+      "kind": "web search",
+      "target": "\"ArgRewrite\" \"Electronic communication enriches\"",
+      "outcome": "summaries exposed; original learner not located"
+    },
+    {
+      "id": 18,
+      "kind": "web open",
+      "target": "https://arxiv.org/html/2206.01677",
+      "outcome": "success; primary V.2 protocol"
+    },
+    {
+      "id": 19,
+      "kind": "GitHub repository search",
+      "target": "ArgRewrite",
+      "outcome": "success; original V.2 repo plus incidental forks/POCs metadata"
+    },
+    {
+      "id": 20,
+      "kind": "web find",
+      "target": "V.2 protocol / score",
+      "outcome": "success"
+    },
+    {
+      "id": 21,
+      "kind": "web find",
+      "target": "V.2 protocol / rater",
+      "outcome": "success"
+    },
+    {
+      "id": 22,
+      "kind": "web find",
+      "target": "V.2 protocol / quality",
+      "outcome": "success"
+    },
+    {
+      "id": 23,
+      "kind": "web search",
+      "target": "\"Predicting the Quality of Revisions in Argumentative Writing\"",
+      "outcome": "success; third primary family screened as closest methods only"
+    },
+    {
+      "id": 24,
+      "kind": "GitHub tree",
+      "target": "https://api.github.com/repos/ZhexiongLiu/Revision-Quality-Prediction/git/trees/main?recursive=1",
+      "outcome": "success; data/college only .gitkeep"
+    },
+    {
+      "id": 25,
+      "kind": "web open",
+      "target": "https://aclanthology.org/2023.bea-1.24.pdf",
+      "outcome": "success; methods and published examples/summary exposure only"
+    }
+  ],
+  "operation_count": 25,
+  "operation_note": "IDs count individual query/open/find actions and GitHub/native requests, including failures, rather than number of batched wrapper calls. Within independent batches ordering is logical, not claimed exact server chronology. Provider redirects/retries/subrequests and transport bytes remain unknown."
+}

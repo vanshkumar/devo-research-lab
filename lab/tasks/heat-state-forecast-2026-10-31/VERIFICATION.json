@@ -1,0 +1,195 @@
+{
+  "at_utc": "2026-10-31T17:58:53.414122+00:00",
+  "all_frozen_pins_valid": true,
+  "forecast_hash_valid": true,
+  "all_outcomes_interpreted_after_forecasts_saved": true,
+  "max_prefix_feature_difference_from_full_data": {
+    "neural": {
+      "X": 0.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "behavior": {
+      "X": 0.0,
+      "G": 0.0,
+      "R": 0.0
+    }
+  },
+  "raw_payload_bytes": 166063303,
+  "source_file_sizes": {
+    "prefix_2023-01-16-08.npz": 467368,
+    "derived_2023-01-17-07.npz": 1020357,
+    "derived_2023-01-05-01.npz": 996442,
+    "derived_2023-01-09-15.npz": 1216627,
+    "atanas_kim_2023-2023-01-06-01.json": 8402661,
+    "atanas_kim_2023-2023-01-16-01.json": 8963642,
+    "derived_2023-01-17-14.npz": 1068330,
+    "atanas_kim_2023-2023-01-09-08.json": 8428601,
+    "atanas_kim_2023-2023-01-09-15.json": 9469688,
+    "prefix_2023-01-05-01.npz": 491322,
+    "derived_2022-12-21-06.npz": 796832,
+    "atanas_kim_2023-2023-01-17-07.json": 9261483,
+    "derived_2023-01-06-08.npz": 1046702,
+    "atanas_kim_2023-2023-01-05-01.json": 9413072,
+    "atanas_kim_2023-2023-01-09-22.json": 9387583,
+    "derived_2023-01-16-08.npz": 946252,
+    "prefix_2023-01-17-07.npz": 503890,
+    "atanas_kim_2023-2023-01-10-14.json": 9136439,
+    "derived_2023-01-16-22.npz": 922284,
+    "derived_2023-01-13-07.npz": 971612,
+    "prefix_2023-01-10-14.npz": 529287,
+    "atanas_kim_2023-2023-01-16-08.json": 9291117,
+    "atanas_kim_2023-2023-01-06-08.json": 8069985,
+    "atanas_kim_2023-2023-01-05-18.json": 8312399,
+    "prefix_2023-01-09-08.npz": 285694,
+    "atanas_kim_2023-2023-01-13-07.json": 7791653,
+    "heat-metadata.json": 6663,
+    "derived_2023-01-18-01.npz": 1019867,
+    "derived_2023-01-06-01.npz": 972263,
+    "derived_2023-01-06-15.npz": 925093,
+    "derived_2023-01-16-15.npz": 946204,
+    "prefix_2023-01-10-07.npz": 466146,
+    "derived_2023-01-16-01.npz": 1043750,
+    "prefix_2023-01-05-18.npz": 504290,
+    "atanas_kim_2023-2023-01-18-01.json": 8149397,
+    "atanas_kim_2023-2023-01-10-07.json": 9252336,
+    "derived_2023-01-05-18.npz": 1021456,
+    "atanas_kim_2023-2022-12-21-06.json": 8104121,
+    "derived_2023-01-10-07.npz": 945295,
+    "atanas_kim_2023-2023-01-16-22.json": 9160851,
+    "derived_2023-01-09-22.npz": 970033,
+    "atanas_kim_2023-2023-01-17-14.json": 9253507,
+    "derived_2023-01-09-08.npz": 578666,
+    "derived_2023-01-10-14.npz": 1070842,
+    "atanas_kim_2023-2023-01-06-15.json": 7831928,
+    "atanas_kim_2023-2023-01-16-15.json": 8382840
+  },
+  "additional_results": {
+    "behavior_simple_over_shared": {
+      "animals": 7,
+      "simple_mse": 0.05068121600403596,
+      "state_mse": 0.035901154032851816,
+      "state_fraction_gain": 0.29162800612375095,
+      "paired_difference": 0.01478006197118414,
+      "paired_difference_bootstrap95": [
+        0.0032414763789599507,
+        0.027388115265234585
+      ],
+      "fraction_gain_bootstrap95": [
+        0.08590011945745613,
+        0.442674309903607
+      ],
+      "state_better_animals": 5,
+      "passes_investment_rule": true
+    },
+    "reverse_fraction_simple_over_shared": {
+      "animals": 7,
+      "simple_mse": 0.021477941032209905,
+      "state_mse": 0.015750312966138734,
+      "state_fraction_gain": 0.26667491346035443,
+      "paired_difference": 0.005727628066071174,
+      "paired_difference_bootstrap95": [
+        6.442828020339129e-05,
+        0.011752555303224138
+      ],
+      "fraction_gain_bootstrap95": [
+        0.0038771753162258893,
+        0.43426999808928
+      ],
+      "state_better_animals": 5,
+      "passes_investment_rule": true
+    },
+    "reverse_fraction_simple_over_persistence": {
+      "animals": 7,
+      "simple_mse": 0.01747256584502402,
+      "state_mse": 0.015750312966138734,
+      "state_fraction_gain": 0.09856897345021376,
+      "paired_difference": 0.0017222528788852828,
+      "paired_difference_bootstrap95": [
+        -0.0021356814281356423,
+        0.006142789453679835
+      ],
+      "fraction_gain_bootstrap95": [
+        -0.1364666913328374,
+        0.3089251150573451
+      ],
+      "state_better_animals": 4,
+      "passes_investment_rule": false
+    },
+    "pumping_simple_over_shared": {
+      "animals": 7,
+      "simple_mse": 0.0019759506519324795,
+      "state_mse": 0.0008605728965952263,
+      "state_fraction_gain": 0.5644765238678475,
+      "paired_difference": 0.0011153777553372533,
+      "paired_difference_bootstrap95": [
+        0.0003841452110885719,
+        0.0018194061438960567
+      ],
+      "fraction_gain_bootstrap95": [
+        0.19576492448844585,
+        0.8863450230849386
+      ],
+      "state_better_animals": 5,
+      "passes_investment_rule": true
+    },
+    "pumping_simple_over_persistence": {
+      "animals": 7,
+      "simple_mse": 0.18078288721275884,
+      "state_mse": 0.0008605728965952263,
+      "state_fraction_gain": 0.9952397435959608,
+      "paired_difference": 0.17992231431616365,
+      "paired_difference_bootstrap95": [
+        0.03347119245385114,
+        0.38783184065169773
+      ],
+      "fraction_gain_bootstrap95": [
+        0.9649285279915112,
+        0.9988891150655737
+      ],
+      "state_better_animals": 7,
+      "passes_investment_rule": true
+    },
+    "postvalidation_common_neuron_class_sensitivity": {
+      "classes": [
+        "AVA",
+        "AVJ",
+        "AWB",
+        "CEP",
+        "I1",
+        "I2",
+        "I3",
+        "IL2",
+        "NSM",
+        "OLQ",
+        "RIV",
+        "RMD",
+        "RME",
+        "SMD",
+        "URX",
+        "URY"
+      ],
+      "result": {
+        "animals": 7,
+        "simple_mse": 0.7018896489533216,
+        "state_mse": 0.6066488661592428,
+        "state_fraction_gain": 0.1356919608888728,
+        "paired_difference": 0.09524078279407873,
+        "paired_difference_bootstrap95": [
+          0.030796686841136456,
+          0.16605267887527614
+        ],
+        "fraction_gain_bootstrap95": [
+          0.06255938691099527,
+          0.21135652288450324
+        ],
+        "state_better_animals": 6,
+        "passes_investment_rule": true
+      },
+      "status": "postvalidation label-support diagnostic; no refitting or primary replacement"
+    },
+    "primary_prediction_finite_masks_equal": true
+  },
+  "jobs": "all invoked numerical/acquisition commands finished; no background jobs launched",
+  "limits": "Code used single serial process and BLAS/OMP thread cap1. Full-process memory not OS-profiled; largest JSON<10MB, measured array sizes and implementation keep expected peak well below4GB. No complete OS-process audit claimed."
+}

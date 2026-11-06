@@ -1,0 +1,43 @@
+{
+  "completed": true,
+  "simulation_cohorts": 180,
+  "procedure_results": 360,
+  "fits": 720,
+  "all_fits_converged": true,
+  "source_hashes_unchanged": {
+    "experiments/model.py": true,
+    "experiments/recovery.py": false,
+    "experiments/analysis.py": true,
+    "experiments/design_audit/calibration_challenge.py": true,
+    "experiments/design_audit/sample_size_challenge.py": true
+  },
+  "result_sha256": "129b9eeff22947cd2616e5937a08894a3e3d2ee445ca3012731d0527901a9ece",
+  "source_change_explanation": "Recovery owner confirms only plotting and interval-reporting classification changed; simulate/load_inputs/score_ci unchanged. Source mismatch remains recorded. Independent current-source reruns of two smoke cohorts reproduce both procedures to floating precision.",
+  "current_recovery_sha256": "a4031caf36304dbd551d308dedc89352eaf59b00176217c002bc900b71851e8f",
+  "source_change_reproduction_checks": [
+    {
+      "factor": 2,
+      "scenario": "carryover_null",
+      "variant": "original",
+      "max_numeric_error": 9.367506770274758e-17
+    },
+    {
+      "factor": 2,
+      "scenario": "carryover_null",
+      "variant": "independent800_wide3",
+      "max_numeric_error": 7.892991815694472e-17
+    },
+    {
+      "factor": 4,
+      "scenario": "slow_minus05",
+      "variant": "original",
+      "max_numeric_error": 9.020562075079397e-17
+    },
+    {
+      "factor": 4,
+      "scenario": "slow_minus05",
+      "variant": "independent800_wide3",
+      "max_numeric_error": 9.389190813724468e-17
+    }
+  ]
+}

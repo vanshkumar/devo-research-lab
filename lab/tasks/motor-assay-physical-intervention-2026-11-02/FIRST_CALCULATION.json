@@ -1,0 +1,387 @@
+{
+  "status": "PASS: standard source-constrained exclusion check; not a new identifiability theorem",
+  "completed_utc": "2026-11-03T00:32:41.716752+00:00",
+  "protocol_input_sha256": "ca2fb675aee9f7c57368d14b836d84c9183cdc2f500e87863782f7cb4f679e5c",
+  "timing": {
+    "honda_physical_cursor_delays_ms": [
+      60,
+      160,
+      260,
+      360
+    ],
+    "honda_cursor_to_next_target_lower_bound_ms": 2000,
+    "honda_measurement": "Hand movement direction from start to actual hand position at peak velocity, minus condition baseline",
+    "honda_previous_perturbation_delivered_before_probe": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "honda_own_probe_visual_error_absent": true,
+    "honda_neural_processing_complete": "NOT certified by delivery order alone",
+    "brudner_earliest_nominal_next_target_after_terminal_crossing_ms": [
+      2500,
+      7500
+    ],
+    "brudner_omitted_from_lower_bound": "robot return time, reaction time, display lag and movement time",
+    "brudner_current_heading_precedes_terminal_feedback": true,
+    "early_probe_before_delayed_feedback_supported_by_source": false
+  },
+  "reference_equation": "Y=(a-b*c)*X+b*U; null direction (da,db,dc)=(b,0,1)",
+  "supplied_values": {
+    "a": "97/100",
+    "b": "1/5",
+    "c_T": "1/2",
+    "transition_shift": "1/20",
+    "c_E": "1/4"
+  },
+  "source_certifies_these_coefficients": false,
+  "crossed_reference_rows": [
+    {
+      "physical_delay_ms": 60,
+      "X": "-3/2",
+      "U": "-10",
+      "Y_transition": "-169/50",
+      "Y_error": "-169/50"
+    },
+    {
+      "physical_delay_ms": 60,
+      "X": "-3/2",
+      "U": "10",
+      "Y_transition": "31/50",
+      "Y_error": "31/50"
+    },
+    {
+      "physical_delay_ms": 60,
+      "X": "3/2",
+      "U": "-10",
+      "Y_transition": "-31/50",
+      "Y_error": "-31/50"
+    },
+    {
+      "physical_delay_ms": 60,
+      "X": "3/2",
+      "U": "10",
+      "Y_transition": "169/50",
+      "Y_error": "169/50"
+    },
+    {
+      "physical_delay_ms": 160,
+      "X": "-3/2",
+      "U": "-10",
+      "Y_transition": "-169/50",
+      "Y_error": "-169/50"
+    },
+    {
+      "physical_delay_ms": 160,
+      "X": "-3/2",
+      "U": "10",
+      "Y_transition": "31/50",
+      "Y_error": "31/50"
+    },
+    {
+      "physical_delay_ms": 160,
+      "X": "3/2",
+      "U": "-10",
+      "Y_transition": "-31/50",
+      "Y_error": "-31/50"
+    },
+    {
+      "physical_delay_ms": 160,
+      "X": "3/2",
+      "U": "10",
+      "Y_transition": "169/50",
+      "Y_error": "169/50"
+    },
+    {
+      "physical_delay_ms": 260,
+      "X": "-3/2",
+      "U": "-10",
+      "Y_transition": "-169/50",
+      "Y_error": "-169/50"
+    },
+    {
+      "physical_delay_ms": 260,
+      "X": "-3/2",
+      "U": "10",
+      "Y_transition": "31/50",
+      "Y_error": "31/50"
+    },
+    {
+      "physical_delay_ms": 260,
+      "X": "3/2",
+      "U": "-10",
+      "Y_transition": "-31/50",
+      "Y_error": "-31/50"
+    },
+    {
+      "physical_delay_ms": 260,
+      "X": "3/2",
+      "U": "10",
+      "Y_transition": "169/50",
+      "Y_error": "169/50"
+    },
+    {
+      "physical_delay_ms": 360,
+      "X": "-3/2",
+      "U": "-10",
+      "Y_transition": "-169/50",
+      "Y_error": "-169/50"
+    },
+    {
+      "physical_delay_ms": 360,
+      "X": "-3/2",
+      "U": "10",
+      "Y_transition": "31/50",
+      "Y_error": "31/50"
+    },
+    {
+      "physical_delay_ms": 360,
+      "X": "3/2",
+      "U": "-10",
+      "Y_transition": "-31/50",
+      "Y_error": "-31/50"
+    },
+    {
+      "physical_delay_ms": 360,
+      "X": "3/2",
+      "U": "10",
+      "Y_transition": "169/50",
+      "Y_error": "169/50"
+    }
+  ],
+  "exact_world_max_gap": "0",
+  "independent_eliminated_coefficients_T": [
+    "23/25",
+    "1/5"
+  ],
+  "independent_eliminated_coefficients_E": [
+    "23/25",
+    "1/5"
+  ],
+  "exact_null_checks": 16,
+  "causal_kernel_checks": [
+    {
+      "delay_ms": 60,
+      "measurement_ms": 59,
+      "supplied_kernel": "0",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 60,
+      "measurement_ms": 59,
+      "supplied_kernel": "1/4",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 60,
+      "measurement_ms": 59,
+      "supplied_kernel": "1",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 60,
+      "measurement_ms": 60,
+      "supplied_kernel": "0",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 60,
+      "measurement_ms": 60,
+      "supplied_kernel": "1/4",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 60,
+      "measurement_ms": 60,
+      "supplied_kernel": "1",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 60,
+      "measurement_ms": 2060,
+      "supplied_kernel": "0",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 60,
+      "measurement_ms": 2060,
+      "supplied_kernel": "1/4",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 60,
+      "measurement_ms": 2060,
+      "supplied_kernel": "1",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 160,
+      "measurement_ms": 159,
+      "supplied_kernel": "0",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 160,
+      "measurement_ms": 159,
+      "supplied_kernel": "1/4",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 160,
+      "measurement_ms": 159,
+      "supplied_kernel": "1",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 160,
+      "measurement_ms": 160,
+      "supplied_kernel": "0",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 160,
+      "measurement_ms": 160,
+      "supplied_kernel": "1/4",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 160,
+      "measurement_ms": 160,
+      "supplied_kernel": "1",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 160,
+      "measurement_ms": 2160,
+      "supplied_kernel": "0",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 160,
+      "measurement_ms": 2160,
+      "supplied_kernel": "1/4",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 160,
+      "measurement_ms": 2160,
+      "supplied_kernel": "1",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 260,
+      "measurement_ms": 259,
+      "supplied_kernel": "0",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 260,
+      "measurement_ms": 259,
+      "supplied_kernel": "1/4",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 260,
+      "measurement_ms": 259,
+      "supplied_kernel": "1",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 260,
+      "measurement_ms": 260,
+      "supplied_kernel": "0",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 260,
+      "measurement_ms": 260,
+      "supplied_kernel": "1/4",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 260,
+      "measurement_ms": 260,
+      "supplied_kernel": "1",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 260,
+      "measurement_ms": 2260,
+      "supplied_kernel": "0",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 260,
+      "measurement_ms": 2260,
+      "supplied_kernel": "1/4",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 260,
+      "measurement_ms": 2260,
+      "supplied_kernel": "1",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 360,
+      "measurement_ms": 359,
+      "supplied_kernel": "0",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 360,
+      "measurement_ms": 359,
+      "supplied_kernel": "1/4",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 360,
+      "measurement_ms": 359,
+      "supplied_kernel": "1",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 360,
+      "measurement_ms": 360,
+      "supplied_kernel": "0",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 360,
+      "measurement_ms": 360,
+      "supplied_kernel": "1/4",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 360,
+      "measurement_ms": 360,
+      "supplied_kernel": "1",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 360,
+      "measurement_ms": 2360,
+      "supplied_kernel": "0",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 360,
+      "measurement_ms": 2360,
+      "supplied_kernel": "1/4",
+      "gap": "0"
+    },
+    {
+      "delay_ms": 360,
+      "measurement_ms": 2360,
+      "supplied_kernel": "1",
+      "gap": "0"
+    }
+  ],
+  "storage_expression_exact_checks": 24,
+  "biological_interpretation": "UNIDENTIFIED; neither c freedom nor expression state measured",
+  "original_point_two_degree_five_probe_scale": "UNCHANGED and not re-estimated; no precision or collection-N claim",
+  "empirical_records_accessed": 0,
+  "peak_rss_bytes_this_process": 13565952,
+  "platform_peak_units": "macOS bytes"
+}

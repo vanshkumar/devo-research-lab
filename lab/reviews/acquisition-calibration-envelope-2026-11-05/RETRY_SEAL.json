@@ -1,0 +1,39 @@
+{
+  "utc": "2026-11-05 23:40:06 UTC",
+  "allowance": {
+    "ordinaryUsageAllowed": true,
+    "rateLimits": {
+      "limitId": "codex",
+      "limitName": null,
+      "normalModelSlug": null,
+      "primary": {
+        "usedPercent": 67,
+        "windowDurationMins": 10080,
+        "resetsAt": 1794445923
+      },
+      "secondary": null,
+      "credits": {
+        "hasCredits": false,
+        "unlimited": false,
+        "balance": "0"
+      },
+      "individualLimit": null,
+      "spendControlReached": false,
+      "planType": "prolite",
+      "rateLimitReachedType": null
+    }
+  },
+  "amendment_hashes": [
+    "4ea7fde3fc18186d88cefc81547633f28adaba7d7588a47873397ed108c78f04  lab/reviews/acquisition-calibration-envelope-2026-11-05/FREEZE.md",
+    "4d9916cbddf978a2a88662ff804a821ddb64fabb105661787e5a1664c30d7f94  lab/reviews/acquisition-calibration-envelope-2026-11-05/envelope.py",
+    "bd2c860e4c70b37a4a9a22f7af1227765b8d87e6deba59147f08213c21b5394d  lab/reviews/acquisition-calibration-envelope-2026-11-05/AMENDMENT.md"
+  ],
+  "prior_attempt": {
+    "chunk_id": "4223b9",
+    "wall_time_seconds": 0.426980458,
+    "exit_code": 1,
+    "original_token_count": 75,
+    "output": "Traceback (most recent call last):\n  File \"/Users/vanshkumar/Documents/repos/devo-research-lab/lab/reviews/acquisition-calibration-envelope-2026-11-05/envelope.py\", line 21, in <module>\n    from develop import EXPOSURE, load_old64, owner_names, ratios\nModuleNotFoundError: No module named 'develop'\n"
+  },
+  "bank_bytes_prior_attempt": 0
+}

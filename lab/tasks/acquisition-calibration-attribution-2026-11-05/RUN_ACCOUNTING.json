@@ -1,0 +1,110 @@
+{
+  "status": "complete",
+  "utc": "2026-11-05T23:25:17.831054+00:00",
+  "cpu_seconds_after_import": 1.4048220000000002,
+  "process_wall_seconds_after_import": 1.430279124993831,
+  "self_peak_rss_bytes": 263602176,
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "scipy": "1.18.1",
+  "hashed_input_body_bytes": 27260751,
+  "selected_member_decode_bytes_booked": 58746624,
+  "input_body_plus_decode_bytes": 86007375,
+  "inputs": {
+    "MAIN_COUNTS.npz": {
+      "body_bytes": 21056169,
+      "sha256": "72817c074f99ac41de4c84856798983c50d308e25550934d4c4e4e7f3061723d",
+      "members": {
+        "samples": {
+          "booked_uncompressed_bytes": 44040320,
+          "decoded_array_bytes": 44040192
+        },
+        "conditions": {
+          "booked_uncompressed_bytes": 464,
+          "decoded_array_bytes": 336
+        },
+        "subjects": {
+          "booked_uncompressed_bytes": 3456,
+          "decoded_array_bytes": 3328
+        },
+        "names": {
+          "booked_uncompressed_bytes": 272,
+          "decoded_array_bytes": 144
+        },
+        "cutoffs": {
+          "booked_uncompressed_bytes": 144,
+          "decoded_array_bytes": 16
+        },
+        "windows": {
+          "booked_uncompressed_bytes": 144,
+          "decoded_array_bytes": 16
+        },
+        "stream_offsets": {
+          "booked_uncompressed_bytes": 144,
+          "decoded_array_bytes": 16
+        }
+      }
+    },
+    "REFINED_ADDITIONAL_COUNTS.npz": {
+      "body_bytes": 6200905,
+      "sha256": "c4c7ef8ef21d03e7107fb1b3031a624f5fa0af79d120b2ba58f01c5ecb942c1a",
+      "members": {
+        "samples": {
+          "booked_uncompressed_bytes": 14680192,
+          "decoded_array_bytes": 14680064
+        },
+        "subjects": {
+          "booked_uncompressed_bytes": 3456,
+          "decoded_array_bytes": 3328
+        },
+        "names": {
+          "booked_uncompressed_bytes": 272,
+          "decoded_array_bytes": 144
+        },
+        "cutoffs": {
+          "booked_uncompressed_bytes": 144,
+          "decoded_array_bytes": 16
+        },
+        "windows": {
+          "booked_uncompressed_bytes": 144,
+          "decoded_array_bytes": 16
+        },
+        "stream_offsets": {
+          "booked_uncompressed_bytes": 144,
+          "decoded_array_bytes": 16
+        }
+      }
+    },
+    "MAIN_OBSERVED.npz": {
+      "body_bytes": 3677,
+      "sha256": "5096297f60968bd6ac7cdaf6760aab2f43705f42024f986e38d0b86db9580d16",
+      "members": {
+        "subjects": {
+          "booked_uncompressed_bytes": 3456,
+          "decoded_array_bytes": 3328
+        },
+        "labs": {
+          "booked_uncompressed_bytes": 3712,
+          "decoded_array_bytes": 3584
+        },
+        "cohort": {
+          "booked_uncompressed_bytes": 1920,
+          "decoded_array_bytes": 1792
+        },
+        "observed": {
+          "booked_uncompressed_bytes": 7296,
+          "decoded_array_bytes": 7168
+        },
+        "windows": {
+          "booked_uncompressed_bytes": 144,
+          "decoded_array_bytes": 16
+        },
+        "columns": {
+          "booked_uncompressed_bytes": 800,
+          "decoded_array_bytes": 672
+        }
+      }
+    }
+  },
+  "http_ingress_bytes": 0
+}

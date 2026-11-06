@@ -1,0 +1,11 @@
+# Exact endpoint definitions and labels
+
+All target counts use signed exact100 contrast. Omissions are failures. Trials1,001–1,500 or1,001–3,000 are identical across observation cutoffs. Full(N,K) energy is proper for each sign's marginal count/success law, not the joint law of both sides or whole time trajectories. Mixed ratio energy is proper for the missing/accuracy observable defined in EARLY_DESIGN. Conditional one-step likelihood has a different information regime and must not be subtracted from these forecast scores.
+
+**The saved field name equal_side_mae means individual SIDE-SPECIFIC MAE with equal side weights:** mean over animals and signs of absolute(predicted mean accuracy on that sign minus actual accuracy on that sign). The code takes the absolute value BEFORE averaging sides. It is not the individual error of the pooled/equal-side average and is not a population-curve MAE. Earlier working prose used “equal-side MAE” ambiguously; this file disambiguates its unchanged numerical definition. The reviewer reconstructed the same field, and no primary score/number/gate is changed by this label clarification.
+
+For each animal/sign, expected_ratio is the particle mean K/N on positive-count paths; count_pooled is sum(K)/sum(N). The latter size-weights particles and is a different functional. These remain distinct. At positive support the covariance identity is checked; zero-count mass is explicit and the primary mixed score remains defined there.
+
+MEAN_FUNCTIONALS.json adds a postvalidation descriptive diagnostic: (a) existing individual side-specific MAE, (b) individual MAE after first averaging left/right expected ratios, and (c) cohort mean accuracy under mean ratios or count pooling. These auxiliaries cannot substitute for the frozen primary readout or borrow its interval. Neither functional isolates an animal's latent competence from adaptive opportunity selection.
+
+Auxiliary all-correct counts include literal feedbackType>0, including zero contrast. OBSERVATION_TARGET_CORRECTION records the five-animal correction to that auxiliary target; all exact100 counts and primary scores were unaffected. Files ending SCORES_CORRECTED are authoritative for auxiliary all-correct scores. Original outputs remain preserved.

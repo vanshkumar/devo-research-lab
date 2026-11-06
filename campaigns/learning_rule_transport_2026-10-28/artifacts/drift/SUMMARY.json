@@ -1,0 +1,19 @@
+{
+  "seed": 51691,
+  "mc_actions_per_case": 50000,
+  "mc_cases": 21,
+  "max_abs_mc_z": 2.8061365035861954,
+  "max_abs_mc_second_moment_z": 2.6001873187295534,
+  "max_rl_formula_error": 4.181649194663975e-16,
+  "models": [
+    "dnnglm_nested_best",
+    "reinforce_nested_stable",
+    "reinforce_pure_nested"
+  ],
+  "grid_rows": 3036,
+  "teacher_rows": 912,
+  "prefix_rows": 24,
+  "validation_outcomes_opened": false,
+  "external_outcomes_opened": false,
+  "interpretation": "Exact local conditional expectation/diffusion at fixed state; not an integrated acquisition forecast, causal mechanism, or proof of autonomous failure."
+}

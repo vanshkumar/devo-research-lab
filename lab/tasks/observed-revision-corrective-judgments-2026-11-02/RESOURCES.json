@@ -1,0 +1,82 @@
+{
+  "task": "observed-revision-corrective-judgments-2026-11-02",
+  "initial_native_turn_start_utc": "2026-11-02T23:03:51Z",
+  "first_original_edit_votes_success_utc": "2026-11-02T23:07:19.670890Z",
+  "required_learner_link_milestone": "PARTIAL/UNCERTIFIED; no original learner/draft/assignment/rater IDs certified",
+  "source_contribution_close_utc": "2026-11-02T23:10:40Z",
+  "deadlines_utc": {
+    "original_learner_record": "2026-11-02T23:23:51Z",
+    "source_contribution": "2026-11-02T23:38:51Z",
+    "freeze_or_close": "2026-11-02T23:53:51Z",
+    "hard_stop": "2026-11-03T01:03:51Z"
+  },
+  "clock_note": "Initial native orientation counts; no deadline shift or reset. Completion/report preparation continues after scientific CLOSE within original hard bound.",
+  "usage_inherited_from_PI": {
+    "checked_utc": "2026-11-02T23:03:14Z",
+    "remaining_percent": 25,
+    "seven_day_used_percent": 75,
+    "reset_epoch": 1793830928,
+    "secondary": "unavailable",
+    "other_bucket": "none reported",
+    "reserve_percent": 10,
+    "daily_ceilings": "suspended",
+    "spend_control": false
+  },
+  "caps": {
+    "public_operations": 36,
+    "empirical_families": 2,
+    "total_primary_families": 3,
+    "new_ingress_bytes": 50000000,
+    "additional_read_hash_decode_bytes": 600000000,
+    "peak_rss_bytes": 800000000,
+    "scientific_processes": 1,
+    "numerical_threads": 1,
+    "minutes_including_orientation": 120
+  },
+  "charges": {
+    "public_operations": 25,
+    "public_operation_unit": "individual explicit query/open/find and GitHub/native request attempt; failures included; see SOURCE_MANIFEST ledger",
+    "empirical_families_deliberately_pursued": 2,
+    "total_primary_families": 3,
+    "known_native_successful_ingress_bytes": 169209,
+    "provider_failed_wrapper_ingress_allowance_bytes": 25000000,
+    "total_charged_ingress_bytes": 25169209,
+    "separate_additional_read_hash_decode_allowance_bytes": 100000000,
+    "read_charge_scope": "Conservative task-level allowance includes ordinary context/repeated excerpts, failed passes, original ZIP read/hash and 3 complete CSV inflations/UTF8 decodes, script/import/runtime allowance, source JSON metadata/tool wrapper handling and final report checks. This is not an OS physical-I/O measurement or independently proved upper bound.",
+    "known_original_zip_reads_successful_or_failed_analysis": 3,
+    "known_csv_complete_inflations_utf8_decodes": 3,
+    "known_csv_bytes_each": 666358,
+    "successful_native_peak_rss_bytes": 26279936,
+    "rss_samples": [
+      {
+        "command": "acquire_first.py successful native",
+        "rss_bytes": 26279936
+      },
+      {
+        "command": "first_data_check.py corrected successful native",
+        "rss_bytes": 18956288
+      }
+    ],
+    "raw_dataset_acquisitions": 1,
+    "original_csv_records_tokenized_and_interpreted": 1,
+    "whole_csv_text_decoded": true,
+    "new_goals": 0,
+    "new_dependencies": 0,
+    "paid_calls": 0,
+    "generated_edits": 0,
+    "new_human_experiments": 0,
+    "scientific_jobs_at_close": 0,
+    "pids": [],
+    "sessions": [],
+    "worker_own_numerical_libs": "none; Python stdlib only"
+  },
+  "unknowns": [
+    "Provider redirects/retries/internal request counts, transport bytes and tool-host peaks/runtime are not exposed.",
+    "Physical OS/storage I/O and Python/import/filesystem cache traffic are unmeasured.",
+    "Failed DNS and failed literal-word-count passes have no RSS sample; their peak/runtime allowance is not measured compliance.",
+    "A conservative declared allowance is not proof of a full ingress/read/RSS upper bound; do not label complete resource compliance independently certified."
+  ],
+  "no_resource_extension": true,
+  "preserved_failures": "FAILURES.md",
+  "science_after_close": "None; final records and bounded saved-artifact verification only."
+}

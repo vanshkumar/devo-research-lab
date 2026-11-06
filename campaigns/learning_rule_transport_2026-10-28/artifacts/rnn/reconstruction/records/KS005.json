@@ -1,0 +1,549 @@
+{
+  "subject": "KS005",
+  "split": "animal_holdout",
+  "lab": "cortexlab",
+  "rows_read": 1708,
+  "original_provenance": [
+    {
+      "path": "data/sealed/animal_holdout/KS005/2019-07-23_001_3d22dcf6-98a0-49c2-a74c-bc9bd6f16264_table.pqt",
+      "dataset_id": "e1e8af10-72c7-455b-9cdd-26c8ba136061",
+      "session_uuid": "3d22dcf6-98a0-49c2-a74c-bc9bd6f16264",
+      "date": "2019-07-23",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld5.2.1",
+      "md5": "1e283c405568949b83c6522d2e596956",
+      "sha256": "8f355d0ed9da411115ae58b5912d025e07af718086722d82a3ab92356bb1bcad",
+      "bytes": 44836,
+      "cache_md5": "1e283c405568949b83c6522d2e596956",
+      "bounded_rows": 530,
+      "footer_rows": 530,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/KS005/2019-07-23_001_3d22dcf6-98a0-49c2-a74c-bc9bd6f16264_table.pqt') LIMIT 530"
+    },
+    {
+      "path": "data/sealed/animal_holdout/KS005/2019-07-24_001_23753c36-048f-49b3-b125-ba6891440a49_table.pqt",
+      "dataset_id": "db0cea29-08d6-47d4-830d-8de6519d70f0",
+      "session_uuid": "23753c36-048f-49b3-b125-ba6891440a49",
+      "date": "2019-07-24",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld5.2.2",
+      "md5": "9794fcd4bb846d4455f927daaba4e913",
+      "sha256": "bbcd13251fed10aeea0b4e787f3b00af99ad8c58c57ce443d421ff8f25939ac2",
+      "bytes": 40570,
+      "cache_md5": "9794fcd4bb846d4455f927daaba4e913",
+      "bounded_rows": 464,
+      "footer_rows": 464,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/KS005/2019-07-24_001_23753c36-048f-49b3-b125-ba6891440a49_table.pqt') LIMIT 464"
+    },
+    {
+      "path": "data/sealed/animal_holdout/KS005/2019-07-25_001_42a7cf62-2688-402f-ad1d-20c13faf95ca_table.pqt",
+      "dataset_id": "594dc8e8-b865-425b-b5b3-fd7917e44b44",
+      "session_uuid": "42a7cf62-2688-402f-ad1d-20c13faf95ca",
+      "date": "2019-07-25",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld5.2.3",
+      "md5": "f0bea1ba8aed2f1779602f91f59c0c8c",
+      "sha256": "bf617537d52640cd9f95a0371e7e0b247f7965b4d9d53980c909e2eb3f172a02",
+      "bytes": 57561,
+      "cache_md5": "f0bea1ba8aed2f1779602f91f59c0c8c",
+      "bounded_rows": 714,
+      "footer_rows": 714,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/KS005/2019-07-25_001_42a7cf62-2688-402f-ad1d-20c13faf95ca_table.pqt') LIMIT 714"
+    }
+  ],
+  "targets_and_counts_equal": true,
+  "prefix_weight_endpoint_max_abs_difference": 8.881784197001252e-16,
+  "prefix_hidden_endpoint_max_abs_difference": 3.0531133177191805e-16,
+  "conditional_probability_max_abs_difference": 3.3306690738754696e-16,
+  "conditional_weights_max_abs_difference": 1.7763568394002505e-15,
+  "conditional_hidden_final_max_abs_difference": 3.3306690738754696e-16,
+  "same_trial_perturbation_probability_difference": 0.0,
+  "omission_weight_hidden_hold_difference": 0.0,
+  "forecast_path": "artifacts/forecasts/rnn_source_animals/KS005__rnnglm32.npz",
+  "forecast_sha256": "096331781918df7efc310ad99527bc0a6ff0f7a0d819bfa3cb17e26ace059fb5",
+  "conditional_path": "artifacts/forecasts/rnn_source_animals/KS005__rnnglm32__conditional.npz",
+  "conditional_sha256": "626d3a2606481377f9bde7c2361c06769d51411ba5a17e4b9ef94810ee765511",
+  "scores": [
+    {
+      "subject": "KS005",
+      "split": "animal_holdout",
+      "lab": "cortexlab",
+      "model": "rnnglm32",
+      "arm": "autonomous",
+      "horizon": 1000,
+      "actual_horizon": 500,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.030662402182791135,
+      "crps_by_metric": [
+        0.028974105904224896,
+        0.05659172102654824,
+        0.03567591120352252,
+        0.0014078705968688845
+      ],
+      "mae": 0.056865944360401204,
+      "mae_by_metric": [
+        0.08060394503005619,
+        0.07312545741154886,
+        0.06939453124999978,
+        0.004339843749999995
+      ],
+      "high_accuracy_mae": 0.07686470122080252,
+      "coverage": {
+        "0.5": 0.5,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.0,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.0767530100744882,
+        "0.8": 0.17089663344840386,
+        "0.95": 0.3239873261252722
+      },
+      "energy": 0.07507704070509211,
+      "n_cells": 4,
+      "high_width80": 0.2118932668968077
+    },
+    {
+      "subject": "KS005",
+      "split": "animal_holdout",
+      "lab": "cortexlab",
+      "model": "rnnglm32",
+      "arm": "raw_autonomous",
+      "horizon": 1000,
+      "actual_horizon": 500,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.030662402182791135,
+      "crps_by_metric": [
+        0.028974105904224896,
+        0.05659172102654824,
+        0.03567591120352252,
+        0.0014078705968688845
+      ],
+      "mae": 0.056865944360401204,
+      "mae_by_metric": [
+        0.08060394503005619,
+        0.07312545741154886,
+        0.06939453124999978,
+        0.004339843749999995
+      ],
+      "high_accuracy_mae": 0.07686470122080252,
+      "coverage": {
+        "0.5": 0.5,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.0,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.0767530100744882,
+        "0.8": 0.17089663344840386,
+        "0.95": 0.3239873261252722
+      },
+      "energy": 0.07507704070509211,
+      "n_cells": 4,
+      "high_width80": 0.2118932668968077
+    },
+    {
+      "subject": "KS005",
+      "split": "animal_holdout",
+      "lab": "cortexlab",
+      "model": "rnnglm32",
+      "arm": "conditional_diagnostic",
+      "horizon": 1000,
+      "actual_horizon": 500,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.015334354544889852,
+      "crps_by_metric": [
+        0.036222799498000516,
+        0.014445984875296657,
+        0.009260763209393352,
+        0.0014078705968688845
+      ],
+      "mae": 0.022821349589501334,
+      "mae_by_metric": [
+        0.058296535326089804,
+        0.012965425531916375,
+        0.01568359374999917,
+        0.004339843749999995
+      ],
+      "high_accuracy_mae": 0.03563098042900309,
+      "coverage": {
+        "0.5": 0.5,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.5,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.039761794634597614,
+        "0.8": 0.07890795559666976,
+        "0.95": 0.1110230111008325
+      },
+      "energy": 0.040977123252432655,
+      "n_cells": 4,
+      "high_width80": 0.12881591119333952,
+      "binary_nll": 0.49953975101323317,
+      "static_prefix_binary_nll": 0.560206569092212,
+      "conditional_nll_gain_over_static": 0.060666818078978835
+    },
+    {
+      "subject": "KS005",
+      "split": "animal_holdout",
+      "lab": "cortexlab",
+      "model": "rnnglm32",
+      "arm": "autonomous",
+      "horizon": 3000,
+      "actual_horizon": 500,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.030662402182791135,
+      "crps_by_metric": [
+        0.028974105904224896,
+        0.05659172102654824,
+        0.03567591120352252,
+        0.0014078705968688845
+      ],
+      "mae": 0.056865944360401204,
+      "mae_by_metric": [
+        0.08060394503005619,
+        0.07312545741154886,
+        0.06939453124999978,
+        0.004339843749999995
+      ],
+      "high_accuracy_mae": 0.07686470122080252,
+      "coverage": {
+        "0.5": 0.5,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.0,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.0767530100744882,
+        "0.8": 0.17089663344840386,
+        "0.95": 0.3239873261252722
+      },
+      "energy": 0.07507704070509211,
+      "n_cells": 4,
+      "high_width80": 0.2118932668968077
+    },
+    {
+      "subject": "KS005",
+      "split": "animal_holdout",
+      "lab": "cortexlab",
+      "model": "rnnglm32",
+      "arm": "raw_autonomous",
+      "horizon": 3000,
+      "actual_horizon": 500,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.030662402182791135,
+      "crps_by_metric": [
+        0.028974105904224896,
+        0.05659172102654824,
+        0.03567591120352252,
+        0.0014078705968688845
+      ],
+      "mae": 0.056865944360401204,
+      "mae_by_metric": [
+        0.08060394503005619,
+        0.07312545741154886,
+        0.06939453124999978,
+        0.004339843749999995
+      ],
+      "high_accuracy_mae": 0.07686470122080252,
+      "coverage": {
+        "0.5": 0.5,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.0,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.0767530100744882,
+        "0.8": 0.17089663344840386,
+        "0.95": 0.3239873261252722
+      },
+      "energy": 0.07507704070509211,
+      "n_cells": 4,
+      "high_width80": 0.2118932668968077
+    },
+    {
+      "subject": "KS005",
+      "split": "animal_holdout",
+      "lab": "cortexlab",
+      "model": "rnnglm32",
+      "arm": "conditional_diagnostic",
+      "horizon": 3000,
+      "actual_horizon": 500,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.015334354544889852,
+      "crps_by_metric": [
+        0.036222799498000516,
+        0.014445984875296657,
+        0.009260763209393352,
+        0.0014078705968688845
+      ],
+      "mae": 0.022821349589501334,
+      "mae_by_metric": [
+        0.058296535326089804,
+        0.012965425531916375,
+        0.01568359374999917,
+        0.004339843749999995
+      ],
+      "high_accuracy_mae": 0.03563098042900309,
+      "coverage": {
+        "0.5": 0.5,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.5,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.039761794634597614,
+        "0.8": 0.07890795559666976,
+        "0.95": 0.1110230111008325
+      },
+      "energy": 0.040977123252432655,
+      "n_cells": 4,
+      "high_width80": 0.12881591119333952,
+      "binary_nll": 0.49953975101323317,
+      "static_prefix_binary_nll": 0.560206569092212,
+      "conditional_nll_gain_over_static": 0.060666818078978835
+    },
+    {
+      "subject": "KS005",
+      "split": "animal_holdout",
+      "lab": "cortexlab",
+      "model": "rnnglm32",
+      "arm": "autonomous",
+      "horizon": 5000,
+      "actual_horizon": 500,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.030662402182791135,
+      "crps_by_metric": [
+        0.028974105904224896,
+        0.05659172102654824,
+        0.03567591120352252,
+        0.0014078705968688845
+      ],
+      "mae": 0.056865944360401204,
+      "mae_by_metric": [
+        0.08060394503005619,
+        0.07312545741154886,
+        0.06939453124999978,
+        0.004339843749999995
+      ],
+      "high_accuracy_mae": 0.07686470122080252,
+      "coverage": {
+        "0.5": 0.5,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.0,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.0767530100744882,
+        "0.8": 0.17089663344840386,
+        "0.95": 0.3239873261252722
+      },
+      "energy": 0.07507704070509211,
+      "n_cells": 4,
+      "high_width80": 0.2118932668968077
+    },
+    {
+      "subject": "KS005",
+      "split": "animal_holdout",
+      "lab": "cortexlab",
+      "model": "rnnglm32",
+      "arm": "raw_autonomous",
+      "horizon": 5000,
+      "actual_horizon": 500,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.030662402182791135,
+      "crps_by_metric": [
+        0.028974105904224896,
+        0.05659172102654824,
+        0.03567591120352252,
+        0.0014078705968688845
+      ],
+      "mae": 0.056865944360401204,
+      "mae_by_metric": [
+        0.08060394503005619,
+        0.07312545741154886,
+        0.06939453124999978,
+        0.004339843749999995
+      ],
+      "high_accuracy_mae": 0.07686470122080252,
+      "coverage": {
+        "0.5": 0.5,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.0,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.0767530100744882,
+        "0.8": 0.17089663344840386,
+        "0.95": 0.3239873261252722
+      },
+      "energy": 0.07507704070509211,
+      "n_cells": 4,
+      "high_width80": 0.2118932668968077
+    },
+    {
+      "subject": "KS005",
+      "split": "animal_holdout",
+      "lab": "cortexlab",
+      "model": "rnnglm32",
+      "arm": "conditional_diagnostic",
+      "horizon": 5000,
+      "actual_horizon": 500,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.015334354544889852,
+      "crps_by_metric": [
+        0.036222799498000516,
+        0.014445984875296657,
+        0.009260763209393352,
+        0.0014078705968688845
+      ],
+      "mae": 0.022821349589501334,
+      "mae_by_metric": [
+        0.058296535326089804,
+        0.012965425531916375,
+        0.01568359374999917,
+        0.004339843749999995
+      ],
+      "high_accuracy_mae": 0.03563098042900309,
+      "coverage": {
+        "0.5": 0.5,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.5,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.039761794634597614,
+        "0.8": 0.07890795559666976,
+        "0.95": 0.1110230111008325
+      },
+      "energy": 0.040977123252432655,
+      "n_cells": 4,
+      "high_width80": 0.12881591119333952,
+      "binary_nll": 0.49953975101323317,
+      "static_prefix_binary_nll": 0.560206569092212,
+      "conditional_nll_gain_over_static": 0.060666818078978835
+    }
+  ],
+  "numerical_differences": [
+    {
+      "arm": "autonomous",
+      "horizon": 1000,
+      "crps": 2.0816681711721685e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "raw_autonomous",
+      "horizon": 1000,
+      "crps": 2.0816681711721685e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "conditional_diagnostic",
+      "horizon": 1000,
+      "crps": 3.9898639947466563e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0,
+      "binary_nll": 0.0
+    },
+    {
+      "arm": "autonomous",
+      "horizon": 3000,
+      "crps": 2.0816681711721685e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "raw_autonomous",
+      "horizon": 3000,
+      "crps": 2.0816681711721685e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "conditional_diagnostic",
+      "horizon": 3000,
+      "crps": 3.9898639947466563e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0,
+      "binary_nll": 0.0
+    },
+    {
+      "arm": "autonomous",
+      "horizon": 5000,
+      "crps": 2.0816681711721685e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "raw_autonomous",
+      "horizon": 5000,
+      "crps": 2.0816681711721685e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "conditional_diagnostic",
+      "horizon": 5000,
+      "crps": 3.9898639947466563e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0,
+      "binary_nll": 0.0
+    }
+  ]
+}

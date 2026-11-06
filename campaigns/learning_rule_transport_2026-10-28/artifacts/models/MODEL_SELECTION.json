@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-28",
+  "source_validation_access": false,
+  "external_validation_access": false,
+  "selection_metric": "mean post-prefix conditional Bernoulli NLL across nested development animals with >1000trials; omissions masked from binary likelihood but kept as exposure",
+  "nested_allocation": "DEVELOPMENT_MODEL_SPLIT.json",
+  "prefix": 1000,
+  "fitting_max_trials": 6000,
+  "dnn_architecture": "source DeltaDNNGLM num_weights_mode1; right/left/bias; twoReLUhiddenlayers",
+  "fixed_model_families": [
+    "DNNGLM",
+    "source reward-baseline REINFORCE",
+    "pure reward REINFORCE"
+  ],
+  "dnn_runs": [
+    {
+      "seed": 117,
+      "hidden": 16,
+      "truncation": 100,
+      "epochs": 150,
+      "role": "small-runtime/development pilot"
+    },
+    {
+      "seed": 221,
+      "hidden": 16,
+      "truncation": 500,
+      "epochs": 1000,
+      "checkpoint_interval": 25,
+      "role": "primary optimization seed"
+    },
+    {
+      "seed": 337,
+      "hidden": 16,
+      "truncation": 500,
+      "epochs": 1000,
+      "checkpoint_interval": 25,
+      "role": "optimization stability seed"
+    },
+    {
+      "seed": 443,
+      "hidden": 32,
+      "truncation": 500,
+      "epochs": 1000,
+      "checkpoint_interval": 25,
+      "role": "source-default capacity challenge approved before sourcevalidation"
+    }
+  ],
+  "rl_runs": [
+    {
+      "adder_bound": 1.5,
+      "role": "initial bounded sourcebaselinefit"
+    },
+    {
+      "adder_bound": 10,
+      "role": "bound sensitivity after positive saturation"
+    },
+    {
+      "stable_gain": true,
+      "role": "final stable algebraically-equivalent parameterization"
+    },
+    {
+      "pure_reward": true,
+      "role": "canonical reward-only control"
+    }
+  ],
+  "amendments": [
+    {
+      "trigger": "positiveadders reach \u00b11.5and\u00b110bounds",
+      "action": "reparameterize \u03b1(r+adder) as a+b*r, optimizing finitegains; source family unchanged up to closure; boundeddiagnostics preserved"
+    },
+    {
+      "trigger": "DNN16conditional performance slightly worse than sourcebaseline RL",
+      "action": "source-defaultwidth32 optimization challenge before any source holdout outcome access"
+    }
+  ],
+  "current_selected16": "dnnglm_nested_best.npz",
+  "selected16_status": "final:seed221epoch1000;otherseed337bestepoch950;noall-devrefit",
+  "capacity_challenge_status": "complete:seed443width32fixed1000epochs",
+  "observations": [
+    "The source baseline parameter is subtractivebase; exportedlegacybaseline stores additiveoffset=-sourcebase.",
+    "Published preprocessing removes choice0; study preserves omissions as scored category and skips binary updates."
+  ],
+  "conditional_development_scores": {
+    "DNN16seed221": 0.4509506701209864,
+    "DNN16seed337": 0.45157529314251493,
+    "REINFORCEsourcebaseline": 0.4453803644514169,
+    "REINFORCEpure": 0.5100102493727108,
+    "staticprefix": 0.659138746282896,
+    "DNN32seed443": 0.4488731992988893
+  },
+  "primary_forecast_score_protocol": "Owned by lead:1000prefix,3000future,500-trial bins; model-selectionbinaryNLLfutureup-to5000isnotprimaryforecastmetric",
+  "selected32": "dnnglm32_nested_best.npz",
+  "selected32_checkpoint": {
+    "epoch": 950,
+    "validation_conditional_nll": 0.4488731992988893,
+    "seconds": 500.5825014580041
+  },
+  "all_model_fits_complete_before_source_validation": true,
+  "canonical_models_sha256": {
+    "dnnglm_nested_best.npz": "aa3e9375c30660c690c0372440579261e873d93e5d2373ff70cac6d13b023662",
+    "dnnglm32_nested_best.npz": "9f2fa45cb9c1a39866d8552ecdeaafebf72a409b6f6372707712eaf08fec5462",
+    "reinforce_nested_stable.npz": "c5c8afadcea0b7a6e8ba90c04c0dc8e78f1a9d80442d648b53dd78cb8b3981e2",
+    "reinforce_pure_nested.npz": "ae3631eeb12cd451dec0a356d284e04efc171ad7b26484f42fa9f8a1e6303516"
+  }
+}

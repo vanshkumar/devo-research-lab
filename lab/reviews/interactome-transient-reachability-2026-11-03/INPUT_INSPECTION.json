@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "seed0_baseline.npz": {
+      "t": {
+        "shape": [
+          2001
+        ],
+        "dtype": "float64"
+      },
+      "y": {
+        "shape": [
+          2001,
+          558
+        ],
+        "dtype": "float64"
+      }
+    },
+    "seed0_finite.npz": {
+      "t": {
+        "shape": [
+          2401
+        ],
+        "dtype": "float64"
+      },
+      "y": {
+        "shape": [
+          2401,
+          558
+        ],
+        "dtype": "float64"
+      }
+    },
+    "seed0_sham.npz": {
+      "t": {
+        "shape": [
+          2401
+        ],
+        "dtype": "float64"
+      },
+      "y": {
+        "shape": [
+          2401,
+          558
+        ],
+        "dtype": "float64"
+      }
+    },
+    "seed0_drive.npz": {
+      "t": {
+        "shape": [
+          2401
+        ],
+        "dtype": "float64"
+      },
+      "y": {
+        "shape": [
+          2401,
+          558
+        ],
+        "dtype": "float64"
+      }
+    },
+    "seed0_literal_finite.npz": {
+      "t": {
+        "shape": [
+          2401
+        ],
+        "dtype": "float64"
+      },
+      "y": {
+        "shape": [
+          2401,
+          558
+        ],
+        "dtype": "float64"
+      }
+    },
+    "FWD_20s_reference.npz": {
+      "t": {
+        "shape": [
+          2001
+        ],
+        "dtype": "float64"
+      },
+      "y": {
+        "shape": [
+          2001,
+          558
+        ],
+        "dtype": "float64"
+      },
+      "y0": {
+        "shape": [
+          558
+        ],
+        "dtype": "float64"
+      },
+      "mask": {
+        "shape": [
+          279
+        ],
+        "dtype": "float64"
+      }
+    }
+  },
+  "cached_primary_excerpts": {
+    "interactome-results.json": [
+      "L346: ### Stimuli Transition",
+      "L347: ",
+      "L348: In addition to integration of the dynamical equations, the backend ensures that any modification of stimuli amplitude during stimulation is executed in a realistic manner (i.e., no sudden jumps or drops in the stimulus). Ensuring such continuity produces more realistic shift of stimuli from one value to the other. Explicitly, we determine the magnitude of stimulus during the transition through a combination of two hyperbolic tangent functions:",
+      "L349: Where t_{switch} is the time when the input current was modified, and r, t_{offset} are the constant coefficients that determine the width and initial point of the transition, respectively. Such construction makes sure that every transition takes place in a continuous manner and supports variable transition speeds of r.",
+      "L350: ### Neural Ablation",
+      "L351: In addition, the backend implements neural ablation by instantaneous modification of connectivity matrices (both gap and synaptic). This step is followed by recalculation of the quantities in the network associated with the modified structure (e.g., the equilibrium states of the network Vth; see Materials and Methods section for more detail). Effectively, when the user ablates a neuron in the interface, an array that keeps track of active neurons (1-present, 0-ablated) is being updated.",
+      "L352: The modified array is then sent to the backend, where for each ablated neuron, say neuron i, all elements of the connectivity matrices in row and column i (corresponding to in/out connections) are set to zero.",
+      "L353: Reinsertion of neurons after they were ablated implements the ablation operations in reverse order. Particularly, when the user reinserts the neuron, the interactive interface modifies the active neurons array, such that the corresponding neuron's entry is changed from 0 to 1. The modified array is then transmitted to the backend, where it will restore the corresponding row and column of the connectivity matrices to default values.",
+      "L354: ## Results",
+      "L355: ",
+      "L356: We proceed to demonstrate how application of Neural Interactome to C. elegans nervous system can assist in the study of neural dynamics. In particular, we target two sub circuits (i) a circuit associated with a touch response, which stimulation is known to be associated with forward and backward locomotion (ii) explore neural dynamic patterns induced by the excitation of sub group of sensory neurons, which recently were discovered to be associated with nictation behavior.",
+      "L357: ### Posterior Touch Response Stimulation Scenario",
+      "L358: PLM sensory neurons (PLML/PLMR) in C. elegans nervous system are known as posterior mechanoreceptors. When stimulated by tail touch, PLM neurons excite motor neurons associated with forward crawling motion (Chalfie et al., 1985). AVB interneurons (AVBL/AVBR) are also known as driver cells for forward movement of the worm. We stimulate PLM sensory neurons and AVB interneurons with constant stimuli to examine neural patterns associated with forward crawling motion as a result of posterior touch response.",
+      "L359: We adjust the magnitudes of the input currents by scrolling stimuli bars in the interface. Specifically, we set 1.4 nA for PLM neurons, and 2.3 nA for AVB interneurons, which result in profound oscillations.",
+      "L360: As expected from experimental results and prior work, we observe oscillations in some populations of neurons. We therefore study their periodic cycle. In the top panel of \u301072\u2020Figure 4A\u3011, we show two snapshots of network dynamics taken at discrete percentages into the periodic cycle. We observe that the network graph responds with strong oscillation in about ~40% of the neurons with mostly motor neurons (marked in red) being specifically active.",
+      "L437: ### Threshold Potential (V_{threshold}) Computation",
+      "L438: ",
+      "L439: Threshold potential for each neuron is computed by imposing (Equation 2 for C. elegans) and solving for V_{i}. This is equivalent to Solving the following system of linear equations",
+      "L440: ",
+      "L441: where the solution x is N \u00d7 1 vector with each entry being the threshold potential V_{threshold} for the i_{th} neuron."
+    ],
+    "article-results.json": [
+      "L318: Voltage dynamics of forward-motion motorneurons (neurons of classes DB, DD, VB, and VD) in response to the following sensory inputs: in (A), an input of 2 \u00d7 10^{4} (Arb. Units) into the PLM sensory neuron pair (known experimentally to drive forward motion Chalfie et al.,",
+      "L319: 1985); in (B), an input of 2 \u00d7 10^{4} into the PLM pair with an additional input of 2.4 \u00d7 10^{4} into the ASK sensory neuron pair (known experimentally to promote turning Gray et al., 2005). Simultaneous PLM + ASK stimulation causes bistability, with relatively long transient times \u03c4. To the right of each raster plot is the trajectory within the Forward-Motion 2D Plane (defined by the trajectory in (A), and used for all subsequent projections).",
+      "L328: ### 3.1. Existence of multistable dynamics",
+      "L329: The response to PLM stimulation alone consists of a single possible state (i.e., a limit cycle trajectory), but if the model is capable of describing the dynamics in terms of long-timescale transitions between states under the same input, then we wish to find inputs which allow multiple states and transitional dynamics. We find that such inputs indeed exist. As an example, we consider the response to simultaneous stimulation of the PLM neuron pair along with the ASK neuron pair.",
+      "L330: We choose this stimulation since excitation of ASK neurons have been shown experimentally to promote turning (Gray et al., 2005) and their ablation greatly increases the duration of periods of forward motion (Wakabayashi et al., 2004).",
+      "L331: As we show in Figure \u301060\u20201B\u3011, for this combined input there coexist two different attractors, i.e., the system is bistable. The two trajectories plotted are in response to the same constant input amplitudes into PLM and ASK, and differ only by their initial conditions. Note that the transients before convergence into the eventual fixed point or limit cycle have long timescales (relative to the intrinsic timescales of the system as discussed in Section 2.4).",
+      "L332: The model therefore does exhibit multistability for this given input, but given the large dimensionality of the input space, the discovery, identification and interpretation of these multistable regimes is not trivial.",
+      "L357: \u301063\u2020Image: Figure 3\u3011",
+      "L358: Bifurcation diagram for constant PLM stimulation of varying amplitude. Below an input of 1.2 \u00d7 10^{4} the system goes to a stable fixed point very close to the standard equilibrium, but beyond that input level the system goes to a stable limit cycle (where the plotted point gives the furthest distance from standard equilibrium on the limit cycle).",
+      "L359: The diagram shows the two qualitatively distinct regions of interest for PLM inputs: the low input level in which the system remains at a fixed point, and the higher input level beyond which the system enters into a limit cycle (which in this case can be considered to serve as a proxy for forward motion Kunert et al.,"
+    ]
+  },
+  "elapsed_s": 0.145251083,
+  "rss_bytes_macos": 79003648,
+  "exposure": "Complete named NPZ members decoded for metadata; already consumed author trajectories; no empirical or saved_dynamics inputs."
+}

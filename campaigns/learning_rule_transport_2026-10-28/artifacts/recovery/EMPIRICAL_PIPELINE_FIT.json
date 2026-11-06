@@ -1,0 +1,45 @@
+{
+  "model": {
+    "name": "REINFORCE",
+    "source": "Liu et al.2026 reward-baseline policy gradient;3coefficient mode",
+    "end": 6000,
+    "initialization": "static first200development trials",
+    "training_equal_animals": true,
+    "fit_nll": 0.49089055577300744,
+    "fit_calls": 812,
+    "adder_bound": 1.5,
+    "stable_gain_parameterization": true,
+    "pure_reward": false,
+    "unrewarded_gain": [
+      0.005298532561553409,
+      0.002109241969474169,
+      0.0026283681295033398
+    ],
+    "reward_gain": [
+      0.005754213890696562,
+      0.006000949715505304,
+      0.0019453170168900308
+    ]
+  },
+  "alpha": [
+    0.005754213890696562,
+    0.006000949715505304,
+    0.0019453170168900308
+  ],
+  "baseline": [
+    0.9208091082815151,
+    0.35148469316853165,
+    1.3511258610718881
+  ],
+  "true_alpha": [
+    0.006,
+    0.006,
+    0.003
+  ],
+  "true_baseline": [
+    -0.2,
+    -0.2,
+    -0.2
+  ],
+  "interpretation": "Same static first200 initialization and optimizer used for the empirical canonical rule; no generator initial weights supplied."
+}

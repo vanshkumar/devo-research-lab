@@ -1,0 +1,28 @@
+{
+  "started_utc": "2026-11-05T22:22:18.156021+00:00",
+  "synthetic_controls": {
+    "synthetic_only": true,
+    "source_trial_files_read": 0,
+    "known_answer_checks": [
+      "raw and base64 envelope integrity",
+      "header and size guards",
+      "one variable and 17 columns before decode",
+      "ordered opportunity and timeout",
+      "exact two-entry projection with opaque auxiliary cell",
+      "target correct/wrong/omission counts",
+      "ordinal, key map, clock and feedback corruption"
+    ],
+    "known_target": {
+      "rows": 54,
+      "responded_correct": 52,
+      "responded_wrong": 1,
+      "candidate_omissions": 1
+    }
+  },
+  "resources": {
+    "user_seconds": 0.113115,
+    "system_seconds": 0.047717999999999997,
+    "audit_wall_seconds": 0.0052677089999999815,
+    "peak_rss_bytes": 47710208
+  }
+}

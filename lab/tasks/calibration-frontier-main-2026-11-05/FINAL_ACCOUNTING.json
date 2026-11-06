@@ -1,0 +1,159 @@
+{
+  "utc": "2026-11-05T16:28:54.959790+00:00",
+  "stage1": {
+    "utc": "2026-11-05T14:30:14.672184+00:00",
+    "stage": "Stage1 only; Stage2 unreleased",
+    "native_goal_status": "active",
+    "native_agent_elapsed_seconds": 1995,
+    "native_tokens_used": 135947,
+    "scientific_process_cpu_seconds": 121.99177099999999,
+    "scientific_process_wall_seconds": 122.20934504305478,
+    "measured_explicit_read_decode_bytes": 25634256,
+    "estimated_additional_context_read_charge_bytes": 15000000,
+    "counted_plus_estimated_charge_bytes": 40634256,
+    "peak_recorded_scientific_rss_bytes": 270336000,
+    "stage1_ceilings": {
+      "elapsed_seconds": 5400,
+      "scientific_cpu_seconds": 900,
+      "explicit_read_decode_bytes": 250000000
+    },
+    "remaining_stage2_reservation": {
+      "elapsed_seconds": 10800,
+      "scientific_cpu_seconds": 8100,
+      "explicit_read_decode_bytes": 800000000
+    },
+    "distinct_result_challenge_untouched": {
+      "elapsed_seconds": 9000,
+      "scientific_cpu_seconds": 1800,
+      "explicit_read_decode_bytes": 600000000
+    },
+    "revision_untouched": {
+      "elapsed_seconds": 3600,
+      "scientific_cpu_seconds": 1200,
+      "explicit_read_decode_bytes": 300000000
+    },
+    "failures_or_warnings_in_issued_scientific_processes": [],
+    "external_archive_ingress_bytes": 0,
+    "evaluation_trial_array_reads": 0,
+    "all64_new_main_forecasts": 0,
+    "physical_io": "unknown",
+    "provider_import_runtime_reads": "unknown",
+    "elapsed_note": "Native active-goal elapsed includes agent work since actual creation; initial orientation before creation is not separately timed. It is not scientific CPU.",
+    "prior_lineage": "All inherited costs, exposures, failures and uncertainty remain; acquisition-rule-vs-tracker ACCOUNTING retains1,061,983,723bytes counted-plus-conservative and590.689978serial science wall seconds, plus earlier lineage. No refunds.",
+    "job_disposition": "Both scientific subprocesses exited0; no scientific job remains active; same native goal active awaiting PI release."
+  },
+  "stage2_processes": {
+    "MAIN_EXECUTION.json": {
+      "scientific_cpu_seconds": 4288.366708,
+      "process_wall_seconds": 4292.006889584009,
+      "explicit_read_decode_bytes": 36523980,
+      "peak_rss_bytes": 511950848
+    },
+    "MAIN_CONTROLS.json": {
+      "scientific_cpu_seconds": 8.118568,
+      "process_wall_seconds": 8.146593666053377,
+      "explicit_read_decode_bytes": 0,
+      "peak_rss_bytes": 193314816
+    },
+    "REFERENCE_TO_DEVELOPMENT.json": {
+      "scientific_cpu_seconds": 0.363647,
+      "process_wall_seconds": 0.3638973339693621,
+      "explicit_read_decode_bytes": 72964516,
+      "peak_rss_bytes": 209092608
+    },
+    "ANALYSIS_RESOURCES_INITIAL512.json": {
+      "scientific_cpu_seconds": 12.647992,
+      "process_wall_seconds": 12.663237874978222,
+      "explicit_read_decode_bytes": 241067513,
+      "peak_rss_bytes": 397524992
+    },
+    "REFINEMENT_EXECUTION.json": {
+      "scientific_cpu_seconds": 495.84134600000004,
+      "process_wall_seconds": 496.2831992090214,
+      "explicit_read_decode_bytes": 14435736,
+      "peak_rss_bytes": 274825216
+    },
+    "REFINEMENT_ANALYSIS_RESOURCES.json": {
+      "scientific_cpu_seconds": 4.337929999999999,
+      "process_wall_seconds": 4.341713791014627,
+      "explicit_read_decode_bytes": 89462844,
+      "peak_rss_bytes": 282230784
+    },
+    "PLOT_RESOURCES_FIRST.json": {
+      "scientific_cpu_seconds": 0.474661,
+      "process_wall_seconds": 8.847944334,
+      "explicit_read_decode_bytes": 465530,
+      "peak_rss_bytes": 83804160
+    },
+    "PLOT_RESOURCES_SECOND.json": {
+      "scientific_cpu_seconds": 0.27440400000000004,
+      "process_wall_seconds": 0.27466308300000003,
+      "explicit_read_decode_bytes": 465530,
+      "peak_rss_bytes": 75661312
+    },
+    "PLOT_RESOURCES.json": {
+      "scientific_cpu_seconds": 0.27696,
+      "process_wall_seconds": 0.277170042,
+      "explicit_read_decode_bytes": 602951,
+      "peak_rss_bytes": 76333056
+    }
+  },
+  "stage2_recorded_scientific_cpu_seconds": 4810.702216,
+  "stage2_scientific_process_wall_sum_seconds": 4823.205308918045,
+  "artifact_hashing_parent_cpu_seconds": 0.168835,
+  "artifact_hashing_wall_seconds": 0.179047834,
+  "stage2_known_explicit_read_decode_and_hash_bytes": 639823407,
+  "stage2_uninstrumented_context_read_estimate_bytes": 15000000,
+  "stage2_nominal_image_decode_charge_bytes": 27993600,
+  "stage2_recorded_plus_estimated_bytes": 682817007,
+  "whole_author_recorded_scientific_cpu_seconds": 4932.693987,
+  "whole_author_recorded_parent_cpu_including_hashing_seconds": 4932.862822,
+  "conservative_unmeasured_child_startup_compute_booking_seconds": 60,
+  "whole_author_known_explicit_read_decode_bytes": 665457663,
+  "whole_author_recorded_plus_estimated_bytes": 723451263,
+  "peak_recorded_rss_bytes": 511950848,
+  "source_archive_ingress_bytes": 0,
+  "protected_observation_release": false,
+  "physical_io": "unknown",
+  "runtime_import_provider_reads": "unknown",
+  "child_process_CPU": "not separately instrumented;60s extra booking is conservative planning, not measurement",
+  "process_wall_note": "Sum of process walls is not agent elapsed; the controls briefly overlapped the main. Native goal and Stage2 start/end receipts give agent elapsed.",
+  "prior_lineage": "Original campaign/November4 and acquisition-rule-vs-tracker costs/failures/exposure unchanged; prior1,061,983,723counted-plus-conservative bytes/590.689978serial science-wall seconds not refunded.",
+  "limits": {
+    "stage2_cpu_seconds": 8100,
+    "stage2_read_decode_bytes": 800000000,
+    "stage2_elapsed_seconds": 10800,
+    "whole_author_cpu_seconds": 9000,
+    "whole_author_read_decode_bytes": 1050000000,
+    "whole_author_elapsed_seconds": 16200
+  },
+  "remaining_reserved_result_challenge": {
+    "agent_wall_seconds": 9000,
+    "scientific_cpu_seconds": 1800,
+    "read_decode_bytes": 600000000,
+    "spent_by_author": false
+  },
+  "remaining_reserved_revision": {
+    "agent_wall_seconds": 3600,
+    "scientific_cpu_seconds": 1200,
+    "read_decode_bytes": 300000000,
+    "spent_by_author": false
+  },
+  "job_disposition": "Every issued simulation/analysis/plot subprocess exited0; no scientific job running",
+  "scientific_failure_qualifications": [
+    "Two finite input/engagement alternatives failed source predictive/calibration role",
+    "Nominal max-T simultaneous band coverage modestly short in finite controls",
+    "Early10% proper-score utility and source/site envelope unresolved",
+    "Some source/reference integration warnings remain"
+  ],
+  "administrative_failure": "One attempted report apply_patch was rejected for delete/add of the same path; recovered with update only, no scientific rerun",
+  "native_author_goal_status": "complete",
+  "native_author_goal_created_at": 1793887019,
+  "native_author_goal_tokens_used": 347966,
+  "native_author_goal_elapsed_seconds": 9381,
+  "stage2_agent_elapsed_seconds": 7365,
+  "final_allowance_file": "FINAL_ALLOWANCE.json",
+  "native_completion_file": "NATIVE_COMPLETE.json",
+  "pi_ultimate_goal_status": "active; not completed by author assignment",
+  "closeout_note": "One live stdout-log self-hash entry was excluded and two small administrative script hashes updated without rereading scientific datasets. Reads covered by the existing estimated context charge."
+}

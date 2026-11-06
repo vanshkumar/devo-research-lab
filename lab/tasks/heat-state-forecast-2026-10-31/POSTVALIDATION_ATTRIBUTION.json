@@ -1,0 +1,68 @@
+{
+  "at_utc": "2026-10-31T17:59:34.978375+00:00",
+  "status": "postvalidation consumed-data attribution; no new held-out validation or model promotion",
+  "frozen_full_state_mse": 0.6872496916029631,
+  "frozen_local_mse": 0.7875653197522386,
+  "knockouts": {
+    "behavior_only": {
+      "fixed_alpha": 1.0,
+      "mean_mse": 0.7304267329323114,
+      "per_worm_losses": [
+        0.8349659695593855,
+        0.2201207801372786,
+        0.7409534330770042,
+        0.768060013453901,
+        0.7812552869776996,
+        0.46281165512984873,
+        1.3048199921910617
+      ],
+      "comparison_with_frozen_local": {
+        "animals": 7,
+        "simple_mse": 0.7875653197522386,
+        "state_mse": 0.7304267329323114,
+        "state_fraction_gain": 0.07255091785644208,
+        "paired_difference": 0.057138586819927444,
+        "paired_difference_bootstrap95": [
+          -0.05272659802874597,
+          0.17110371774821218
+        ],
+        "fraction_gain_bootstrap95": [
+          -0.08582151764680424,
+          0.18146598877590425
+        ],
+        "state_better_animals": 3,
+        "passes_investment_rule": false
+      }
+    },
+    "neural_pcs_only": {
+      "fixed_alpha": 1.0,
+      "mean_mse": 0.7866134119150452,
+      "per_worm_losses": [
+        0.7261056426800191,
+        0.1943312825777631,
+        1.078632018015888,
+        0.8410006782573893,
+        0.8202214823022268,
+        0.4652553882750479,
+        1.3807473912969823
+      ],
+      "comparison_with_frozen_local": {
+        "animals": 7,
+        "simple_mse": 0.7875653197522386,
+        "state_mse": 0.7866134119150452,
+        "state_fraction_gain": 0.0012086716026207256,
+        "paired_difference": 0.0009519078371935663,
+        "paired_difference_bootstrap95": [
+          -0.17685174015416813,
+          0.1334793470871066
+        ],
+        "fraction_gain_bootstrap95": [
+          -0.2880660592244848,
+          0.14715110370067763
+        ],
+        "state_better_animals": 4,
+        "passes_investment_rule": false
+      }
+    }
+  }
+}

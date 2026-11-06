@@ -1,0 +1,291 @@
+{
+  "outcome_access": "No outcome values stored, computed, or printed. Only SN,TN,clamp_size,tgt_jump_size retained after CSV row parsing.",
+  "files": [
+    {
+      "name": "tsay_TE_SPE.csv",
+      "sha256": "d366820b97af2ce22ed8491b49b086b32c972d44bf2103e4a7b29b87b3b56a98",
+      "horizons": [
+        {
+          "horizon": 1,
+          "all": 4550,
+          "readout_nojump": 1483,
+          "prior_nojump": 1540,
+          "prior_and_readout_nojump": 494,
+          "all_future_nojump": 1483,
+          "prior_and_all_future_nojump": 494,
+          "prior_nojump_by_index_and_clamp": {
+            "index_jump=1,prior_clamp=-4": 333,
+            "index_jump=0,prior_clamp=4": 172,
+            "index_jump=0,prior_clamp=0": 164,
+            "index_jump=1,prior_clamp=0": 363,
+            "index_jump=1,prior_clamp=4": 339,
+            "index_jump=0,prior_clamp=-4": 169
+          }
+        },
+        {
+          "horizon": 2,
+          "all": 4550,
+          "readout_nojump": 1544,
+          "prior_nojump": 1540,
+          "prior_and_readout_nojump": 526,
+          "all_future_nojump": 524,
+          "prior_and_all_future_nojump": 175,
+          "prior_nojump_by_index_and_clamp": {
+            "index_jump=1,prior_clamp=-4": 333,
+            "index_jump=0,prior_clamp=4": 172,
+            "index_jump=0,prior_clamp=0": 164,
+            "index_jump=1,prior_clamp=0": 363,
+            "index_jump=1,prior_clamp=4": 339,
+            "index_jump=0,prior_clamp=-4": 169
+          }
+        },
+        {
+          "horizon": 3,
+          "all": 4550,
+          "readout_nojump": 1512,
+          "prior_nojump": 1540,
+          "prior_and_readout_nojump": 506,
+          "all_future_nojump": 164,
+          "prior_and_all_future_nojump": 52,
+          "prior_nojump_by_index_and_clamp": {
+            "index_jump=1,prior_clamp=-4": 333,
+            "index_jump=0,prior_clamp=4": 172,
+            "index_jump=0,prior_clamp=0": 164,
+            "index_jump=1,prior_clamp=0": 363,
+            "index_jump=1,prior_clamp=4": 339,
+            "index_jump=0,prior_clamp=-4": 169
+          }
+        },
+        {
+          "horizon": 4,
+          "all": 4550,
+          "readout_nojump": 1542,
+          "prior_nojump": 1540,
+          "prior_and_readout_nojump": 508,
+          "all_future_nojump": 45,
+          "prior_and_all_future_nojump": 16,
+          "prior_nojump_by_index_and_clamp": {
+            "index_jump=1,prior_clamp=-4": 333,
+            "index_jump=0,prior_clamp=4": 172,
+            "index_jump=0,prior_clamp=0": 164,
+            "index_jump=1,prior_clamp=0": 363,
+            "index_jump=1,prior_clamp=4": 339,
+            "index_jump=0,prior_clamp=-4": 169
+          }
+        },
+        {
+          "horizon": 5,
+          "all": 4550,
+          "readout_nojump": 1555,
+          "prior_nojump": 1540,
+          "prior_and_readout_nojump": 529,
+          "all_future_nojump": 13,
+          "prior_and_all_future_nojump": 6,
+          "prior_nojump_by_index_and_clamp": {
+            "index_jump=1,prior_clamp=-4": 333,
+            "index_jump=0,prior_clamp=4": 172,
+            "index_jump=0,prior_clamp=0": 164,
+            "index_jump=1,prior_clamp=0": 363,
+            "index_jump=1,prior_clamp=4": 339,
+            "index_jump=0,prior_clamp=-4": 169
+          }
+        }
+      ],
+      "main_input_cells": [
+        [
+          -4.0,
+          -8.0
+        ],
+        [
+          -4.0,
+          -4.0
+        ],
+        [
+          -4.0,
+          0.0
+        ],
+        [
+          0.0,
+          -4.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          4.0,
+          4.0
+        ],
+        [
+          4.0,
+          8.0
+        ]
+      ]
+    },
+    {
+      "name": "tsay_controljump.csv",
+      "sha256": "21e551a2cc2b2faecffeee3c63d7054e4d4fa50a089c8b82ac888af0d7dd3947",
+      "horizons": [
+        {
+          "horizon": 1,
+          "all": 4521,
+          "readout_nojump": 1525,
+          "prior_nojump": 1517,
+          "prior_and_readout_nojump": 496,
+          "all_future_nojump": 1525,
+          "prior_and_all_future_nojump": 496,
+          "prior_nojump_by_index_and_clamp": {
+            "index_jump=1,prior_clamp=-4": 341,
+            "index_jump=1,prior_clamp=4": 349,
+            "index_jump=0,prior_clamp=4": 165,
+            "index_jump=0,prior_clamp=-4": 163,
+            "index_jump=1,prior_clamp=0": 340,
+            "index_jump=0,prior_clamp=0": 159
+          }
+        },
+        {
+          "horizon": 2,
+          "all": 4521,
+          "readout_nojump": 1468,
+          "prior_nojump": 1517,
+          "prior_and_readout_nojump": 489,
+          "all_future_nojump": 501,
+          "prior_and_all_future_nojump": 159,
+          "prior_nojump_by_index_and_clamp": {
+            "index_jump=1,prior_clamp=-4": 341,
+            "index_jump=1,prior_clamp=4": 349,
+            "index_jump=0,prior_clamp=4": 165,
+            "index_jump=0,prior_clamp=-4": 163,
+            "index_jump=1,prior_clamp=0": 340,
+            "index_jump=0,prior_clamp=0": 159
+          }
+        },
+        {
+          "horizon": 3,
+          "all": 4521,
+          "readout_nojump": 1496,
+          "prior_nojump": 1517,
+          "prior_and_readout_nojump": 476,
+          "all_future_nojump": 151,
+          "prior_and_all_future_nojump": 46,
+          "prior_nojump_by_index_and_clamp": {
+            "index_jump=1,prior_clamp=-4": 341,
+            "index_jump=1,prior_clamp=4": 349,
+            "index_jump=0,prior_clamp=4": 165,
+            "index_jump=0,prior_clamp=-4": 163,
+            "index_jump=1,prior_clamp=0": 340,
+            "index_jump=0,prior_clamp=0": 159
+          }
+        },
+        {
+          "horizon": 4,
+          "all": 4521,
+          "readout_nojump": 1510,
+          "prior_nojump": 1517,
+          "prior_and_readout_nojump": 496,
+          "all_future_nojump": 47,
+          "prior_and_all_future_nojump": 13,
+          "prior_nojump_by_index_and_clamp": {
+            "index_jump=1,prior_clamp=-4": 341,
+            "index_jump=1,prior_clamp=4": 349,
+            "index_jump=0,prior_clamp=4": 165,
+            "index_jump=0,prior_clamp=-4": 163,
+            "index_jump=1,prior_clamp=0": 340,
+            "index_jump=0,prior_clamp=0": 159
+          }
+        },
+        {
+          "horizon": 5,
+          "all": 4521,
+          "readout_nojump": 1493,
+          "prior_nojump": 1517,
+          "prior_and_readout_nojump": 494,
+          "all_future_nojump": 16,
+          "prior_and_all_future_nojump": 6,
+          "prior_nojump_by_index_and_clamp": {
+            "index_jump=1,prior_clamp=-4": 341,
+            "index_jump=1,prior_clamp=4": 349,
+            "index_jump=0,prior_clamp=4": 165,
+            "index_jump=0,prior_clamp=-4": 163,
+            "index_jump=1,prior_clamp=0": 340,
+            "index_jump=0,prior_clamp=0": 159
+          }
+        }
+      ],
+      "main_input_cells": [
+        [
+          -4.0,
+          -8.0
+        ],
+        [
+          -4.0,
+          0.0
+        ],
+        [
+          -4.0,
+          8.0
+        ],
+        [
+          0.0,
+          -8.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          8.0
+        ],
+        [
+          4.0,
+          -8.0
+        ],
+        [
+          4.0,
+          0.0
+        ],
+        [
+          4.0,
+          8.0
+        ]
+      ]
+    }
+  ],
+  "exact_equivalence": [
+    {
+      "effect": "suppression",
+      "retention_nojump": 0.92,
+      "retention_jump": 0.78,
+      "fixed_storage_retention": 0.97,
+      "perceived_error_lambda_nojump": 0.24999999999999967,
+      "perceived_error_lambda_jump": 0.9499999999999997,
+      "maximum_absolute_path_difference_degrees": 1.3322676295501878e-15,
+      "maximum_absolute_state_degrees": 5.626414462112513,
+      "schedules": 40,
+      "trials_per_schedule": 824,
+      "interpretation": "Same latent path and hence same likelihood under matched readout/noise; no oracle can distinguish these parameterizations on these inputs."
+    },
+    {
+      "effect": "enhancement",
+      "retention_nojump": 0.78,
+      "retention_jump": 0.92,
+      "fixed_storage_retention": 0.97,
+      "perceived_error_lambda_nojump": 0.9499999999999997,
+      "perceived_error_lambda_jump": 0.24999999999999967,
+      "maximum_absolute_path_difference_degrees": 2.6645352591003757e-15,
+      "maximum_absolute_state_degrees": 5.129517392400597,
+      "schedules": 40,
+      "trials_per_schedule": 824,
+      "interpretation": "Same latent path and hence same likelihood under matched readout/noise; no oracle can distinguish these parameterizations on these inputs."
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+**2026-11-02 — Published critical-period recovery source gate**
+- Observation: Achille–Rovere–Soatto2019 already gives every deficit condition160later clean epochs and includes constant-rate/Adam controls. Pawlak2025arXiv2510.09687v1 directly reports learning-rate-restart rescue on ResNet18/CIFAR10, using extrapolated CIFAR-Cpixelate rather than certifying the original bilinear corruption; the critical-period gap is reduced, not universally eliminated. This worker closed at source priority, before any original-model execution.
+- Action: Do not fund a generic exposure-matching/reset replication as a new critical-period result. Preserve the original controls, the follow-up's corruption/residual limits and the UNRUN numerical milestone; any same-question continuation must earn a distinct material residual before training. Source closure does not finish the native scientific goal or lab.
+- Confidence: high

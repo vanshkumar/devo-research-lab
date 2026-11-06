@@ -1,0 +1,6 @@
+For PI integration only; shared LEARNINGS was not edited.
+
+**2026-10-30 — Complete focal memory histories and missing intervening practice**
+- Observation: A single predefined cached March–May German/B focal-item design recovers75fit/15unconsumed proposed-validation/62difficulty/46SELECT learner IDs, versus original6/2/10/4. Seventeen of18audited source IDs qualify as development, including both old validation IDs. Yet possible other-item gaps overlap87–92%of focal intervals; enclosed positive jumps affect16–34%conditional on attempt-count semantics. The no-detected-gap/shared-item/source-supported view has36/10/29/23IDs and1,116/485/1,472/1,432repeats, without certifying actual practice completeness. Original counts/229violations/pins independently reproduce.
+- Action: Reuse this completed one-candidate audit. Keep source exposure at person level and distinguish focal counter continuity from a complete other-practice trace. If investing further, freeze one bounded source-calibrated recorded-history comparison with matched ablation and recovery before target access; no unrestricted memory/interference claim, additional cohort search or automatic release. Preserve the review's repeated auxiliary-summary exposure and original stopped protocol.
+- Confidence: high

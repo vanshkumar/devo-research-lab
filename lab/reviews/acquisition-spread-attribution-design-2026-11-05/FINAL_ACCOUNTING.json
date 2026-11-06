@@ -1,0 +1,117 @@
+{
+  "assignment": "Independent acquisition forecast-variation design",
+  "thread_id": "01a1ae1b-26fc-7093-a316-643972f8c327",
+  "decision": "HOLD main funding",
+  "actual_initial_allowance": {
+    "utc": "2026-11-05 23:46:34 UTC",
+    "weekly_remaining_percent": 31,
+    "weekly": {
+      "usedPercent": 69,
+      "windowDurationMins": 10080,
+      "resetsAt": 1794445923
+    },
+    "secondary": null,
+    "individual": null
+  },
+  "subsequent_native_usage": [
+    {
+      "t": {
+        "current_time": "2026-11-05 23:47:20 UTC"
+      },
+      "primary": {
+        "usedPercent": 69,
+        "windowDurationMins": 10080,
+        "resetsAt": 1794445923
+      },
+      "secondary": null,
+      "individual": null,
+      "ordinaryUsageAllowed": true,
+      "weekly_remaining_percent": 31
+    },
+    {
+      "t": {
+        "current_time": "2026-11-05 23:48:59 UTC"
+      },
+      "primary": {
+        "usedPercent": 69,
+        "windowDurationMins": 10080,
+        "resetsAt": 1794445923
+      },
+      "secondary": null,
+      "individual": null,
+      "ordinaryUsageAllowed": true,
+      "weekly_remaining_percent": 31
+    },
+    {
+      "t": {
+        "current_time": "2026-11-05 23:49:32 UTC"
+      },
+      "primary": {
+        "usedPercent": 69,
+        "windowDurationMins": 10080,
+        "resetsAt": 1794445923
+      },
+      "secondary": null,
+      "individual": null,
+      "ordinaryUsageAllowed": true,
+      "weekly_remaining_percent": 31
+    },
+    {
+      "t": {
+        "current_time": "2026-11-05 23:51:49 UTC"
+      },
+      "primary": {
+        "usedPercent": 70,
+        "windowDurationMins": 10080,
+        "resetsAt": 1794445923
+      },
+      "secondary": null,
+      "individual": null,
+      "ordinaryUsageAllowed": true,
+      "weekly_remaining_percent": 30
+    }
+  ],
+  "science_stop_utc": "2026-11-05 23:51:49 UTC",
+  "accounting_utc": "2026-11-05 23:54:33 UTC",
+  "authorized_caps": {
+    "elapsed_minutes": 40,
+    "science_cpu_seconds": 40,
+    "nominal_read_bytes": 12000000,
+    "rss_bytes": 400000000,
+    "storage_bytes": 15000000,
+    "science_processes": 1,
+    "http_ingress_bytes": 0,
+    "review_stop_remaining_percent": 30,
+    "human_reserve_percent": 25
+  },
+  "science_jobs": [
+    {
+      "executable": "aggregate_design.py",
+      "output": "AGGREGATE_DESIGN.json",
+      "tool_chunk_id": "191a9c",
+      "terminal": true,
+      "exit_code": 0,
+      "measured_at_report": {
+        "cpu_seconds_at_report": 0.038806999999999994,
+        "peak_rss_bytes_at_report_on_darwin": 10747904
+      },
+      "read_scope": "Embedded verified published aggregate scalars and synthetic laws. No data-file inputs to the numerical process."
+    }
+  ],
+  "read_accounting": {
+    "nominal_context_text_allowance_bytes": 2000000,
+    "basis": "Conservative allowance for deliberate local text reads and their repeats, including excerpts from the 99,651-byte old aggregate calculation JSON and the 100,653-byte pinned source receipt. No archive members or array data read.",
+    "archive_body_bytes": 0,
+    "case_bank_member_decode_bytes": 0,
+    "raw_auxiliary_protected_decode_bytes": 0,
+    "public_http_ingress_bytes": 0,
+    "unmeasured": "Physical, provider, runtime and shell/context bookkeeping I/O and resource peaks. The process resource measurement is at report, before final JSON print."
+  },
+  "future_allocation_booked": {
+    "main_scientist_minutes": 0,
+    "result_challenge_scientist_minutes": 0,
+    "read_bytes": 0,
+    "cpu_seconds": 0
+  },
+  "synthesis": "Closeout only at 30%; the calculation and authorized source/context reads preceded this observation. PI goal and heartbeat are outside this review assignment."
+}

@@ -1,0 +1,5 @@
+# Preserved reviewer implementation correction
+
+2026-10-31T19:00:30UTC. First independent science pass completed the primary fixed fit/gate and all nine common-grid scores, then stopped before saving the combined result because the optional repeat-wide scorer indexed unseen validation item682 as though it belonged to the source item bank. The frozen model requires zero effect for unseen items. This was a reviewer scorer defect; primary masks contain only seen items and the saved early primary result was unaffected. No target values or predictions were accessed. Preserve the first scan/read charges. Correct scorer to handle missing item effects as zero and repeat within the existing45minute/150MBblock. This does not change author files or scientific choices.
+
+One later inline `python -c` inspection of own JSON outputs was denied before execution by the existing lab hook ("Worker shell composition and inline code are blocked"). No data were read by that command, no controls changed, and the ordinary scoped review-script route remained available. No approval request was needed.

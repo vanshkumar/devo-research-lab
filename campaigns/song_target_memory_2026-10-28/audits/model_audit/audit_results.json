@@ -1,0 +1,303 @@
+{
+  "seed": 21873,
+  "python": "3.9.6 (default, Aug 17 2026, 12:07:42) \n[Clang 21.0.0 (clang-2100.3.34.1)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "numpy_version": "2.0.2",
+  "empirical_data_used": false,
+  "equivalence": {
+    "cases": 1000,
+    "practice_steps_each": 60,
+    "max_absolute_path_difference": 1.9095836023552692e-14,
+    "clock_ratio_grid": [
+      [
+        0.6,
+        0.6,
+        1.0
+      ],
+      [
+        0.6,
+        0.8,
+        0.7499999999999999
+      ],
+      [
+        0.6,
+        1.0,
+        0.6
+      ],
+      [
+        0.6,
+        1.2,
+        0.5
+      ],
+      [
+        0.8,
+        0.6,
+        1.3333333333333335
+      ],
+      [
+        0.8,
+        0.8,
+        1.0
+      ],
+      [
+        0.8,
+        1.0,
+        0.8
+      ],
+      [
+        0.8,
+        1.2,
+        0.6666666666666667
+      ],
+      [
+        1.0,
+        0.6,
+        1.6666666666666667
+      ],
+      [
+        1.0,
+        0.8,
+        1.25
+      ],
+      [
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.2,
+        0.8333333333333334
+      ],
+      [
+        1.2,
+        0.6,
+        2.0
+      ],
+      [
+        1.2,
+        0.8,
+        1.4999999999999998
+      ],
+      [
+        1.2,
+        1.0,
+        1.2
+      ],
+      [
+        1.2,
+        1.2,
+        1.0
+      ]
+    ],
+    "qualification": "Restricted duration models with common write-gate mapping; not proof of biological equality."
+  },
+  "scalar_vector_field": {
+    "checked_points": 4812,
+    "max_finite_difference_error": 2.305426960447221e-09,
+    "analytic_statement": "For any continuous scalar f(x,z), R(x,z)=integral f(u,z)du has dR/dx=f(x,z)."
+  },
+  "information_rank": {
+    "columns": [
+      "private_reference",
+      "private_motor",
+      "shared_trace"
+    ],
+    "endpoint_rank": 1,
+    "endpoint_plus_target_and_motor_probe_rank": 2,
+    "with_genuinely_selective_shared_trace_probe_rank": 3,
+    "endpoint_singular_values": [
+      3.346826855396018,
+      3.433413657575153e-16,
+      3.870825395840448e-17
+    ],
+    "joint_probe_singular_values": [
+      3.7618660797686303,
+      1.0245065143210172,
+      3.400919096507288e-16
+    ],
+    "gauge_direction": [
+      -1.0,
+      -1.0,
+      1.0
+    ],
+    "joint_probe_null_residual": 5.551115123125783e-17,
+    "61_equivalent_allocations_max_readout_spread": 2.220446049250313e-16,
+    "shared_fraction_feasible_interval_in_example": [
+      0.0,
+      0.6
+    ],
+    "qualification": "Local additive decomposition; nonlinear copy construction extends same conceptual ambiguity. Selective row is a conditional assumption, not an available validated manipulation."
+  },
+  "functional_gain_recovery": {
+    "generated_datasets": 60000,
+    "nominal_case_rows": [
+      {
+        "n_birds": 12,
+        "trials_per_cell": 50,
+        "trial_noise_sd": 0.03,
+        "true_evaluator_fraction": 0.0,
+        "mean_estimate": -0.002260037890441432,
+        "bias": -0.002260037890441432,
+        "rmse": 0.058955589828872335,
+        "exact_sampling_rmse": 0.061237243569579436,
+        "ci95_coverage": 0.944,
+        "ci95_positive_rate": 0.021,
+        "exact_positive_rate": 0.025000000000379496,
+        "nearest_grid_recovery": 0.987
+      },
+      {
+        "n_birds": 12,
+        "trials_per_cell": 50,
+        "trial_noise_sd": 0.03,
+        "true_evaluator_fraction": 0.25,
+        "mean_estimate": 0.249958009146796,
+        "bias": -4.19908532039992e-05,
+        "rmse": 0.061345625512673765,
+        "exact_sampling_rmse": 0.061237243569579436,
+        "ci95_coverage": 0.951,
+        "ci95_positive_rate": 0.965,
+        "exact_positive_rate": 0.9595964850126738,
+        "nearest_grid_recovery": 0.958
+      },
+      {
+        "n_birds": 12,
+        "trials_per_cell": 50,
+        "trial_noise_sd": 0.03,
+        "true_evaluator_fraction": 0.5,
+        "mean_estimate": 0.5003418219477089,
+        "bias": 0.00034182194770893126,
+        "rmse": 0.061527982956359306,
+        "exact_sampling_rmse": 0.061237243569579436,
+        "ci95_coverage": 0.948,
+        "ci95_positive_rate": 1.0,
+        "exact_positive_rate": 0.9999999628530947,
+        "nearest_grid_recovery": 0.96
+      },
+      {
+        "n_birds": 12,
+        "trials_per_cell": 50,
+        "trial_noise_sd": 0.03,
+        "true_evaluator_fraction": 0.75,
+        "mean_estimate": 0.7486194385436786,
+        "bias": -0.001380561456321372,
+        "rmse": 0.0626353254287148,
+        "exact_sampling_rmse": 0.061237243569579436,
+        "ci95_coverage": 0.944,
+        "ci95_positive_rate": 1.0,
+        "exact_positive_rate": 1.0,
+        "nearest_grid_recovery": 0.961
+      },
+      {
+        "n_birds": 12,
+        "trials_per_cell": 50,
+        "trial_noise_sd": 0.03,
+        "true_evaluator_fraction": 1.0,
+        "mean_estimate": 0.9955772308749731,
+        "bias": -0.004422769125026926,
+        "rmse": 0.062015343345307734,
+        "exact_sampling_rmse": 0.061237243569579436,
+        "ci95_coverage": 0.946,
+        "ci95_positive_rate": 1.0,
+        "exact_positive_rate": 1.0,
+        "nearest_grid_recovery": 0.98
+      }
+    ],
+    "min_coverage": 0.932,
+    "max_coverage": 0.966,
+    "max_simulated_vs_exact_detection_difference": 0.030122098075017534,
+    "incomplete_inhibition": [
+      {
+        "true_fraction": 0.0,
+        "inhibition_efficacy": 0.0,
+        "expected_estimate_if_full_inhibition_assumed": 0.0
+      },
+      {
+        "true_fraction": 0.0,
+        "inhibition_efficacy": 0.5,
+        "expected_estimate_if_full_inhibition_assumed": 0.0
+      },
+      {
+        "true_fraction": 0.0,
+        "inhibition_efficacy": 1.0,
+        "expected_estimate_if_full_inhibition_assumed": 0.0
+      },
+      {
+        "true_fraction": 0.25,
+        "inhibition_efficacy": 0.0,
+        "expected_estimate_if_full_inhibition_assumed": 0.0
+      },
+      {
+        "true_fraction": 0.25,
+        "inhibition_efficacy": 0.5,
+        "expected_estimate_if_full_inhibition_assumed": 0.125
+      },
+      {
+        "true_fraction": 0.25,
+        "inhibition_efficacy": 1.0,
+        "expected_estimate_if_full_inhibition_assumed": 0.25
+      },
+      {
+        "true_fraction": 0.5,
+        "inhibition_efficacy": 0.0,
+        "expected_estimate_if_full_inhibition_assumed": 0.0
+      },
+      {
+        "true_fraction": 0.5,
+        "inhibition_efficacy": 0.5,
+        "expected_estimate_if_full_inhibition_assumed": 0.25
+      },
+      {
+        "true_fraction": 0.5,
+        "inhibition_efficacy": 1.0,
+        "expected_estimate_if_full_inhibition_assumed": 0.5
+      },
+      {
+        "true_fraction": 0.75,
+        "inhibition_efficacy": 0.0,
+        "expected_estimate_if_full_inhibition_assumed": 0.0
+      },
+      {
+        "true_fraction": 0.75,
+        "inhibition_efficacy": 0.5,
+        "expected_estimate_if_full_inhibition_assumed": 0.375
+      },
+      {
+        "true_fraction": 0.75,
+        "inhibition_efficacy": 1.0,
+        "expected_estimate_if_full_inhibition_assumed": 0.75
+      },
+      {
+        "true_fraction": 1.0,
+        "inhibition_efficacy": 0.0,
+        "expected_estimate_if_full_inhibition_assumed": 0.0
+      },
+      {
+        "true_fraction": 1.0,
+        "inhibition_efficacy": 0.5,
+        "expected_estimate_if_full_inhibition_assumed": 0.5
+      },
+      {
+        "true_fraction": 1.0,
+        "inhibition_efficacy": 1.0,
+        "expected_estimate_if_full_inhibition_assumed": 1.0
+      }
+    ],
+    "off_target_control": {
+      "true_evaluator_fraction": 0.0,
+      "inhibitor_auditory_shift_gain": 0.05,
+      "falsely_inferred_fraction": 0.5
+    },
+    "qualification": "Synthetic noise/power calculation conditional on independently calibrated kappa and selective inhibition. Not a biological power calculation."
+  },
+  "matched_target_tuning": {
+    "n_birds_per_target": 12,
+    "trials_per_probe": 50,
+    "true_target_difference": 1.0,
+    "mean_estimated_target_difference": 1.0010848374478054,
+    "target_difference_rmse": 0.042130514755451876,
+    "reference_vs_motor_readout_max_score_difference": 0.0,
+    "qualification": "Target tuning plus mediation can establish functional evaluation; its memory source remains ambiguous. Calibrated quadratic curvature and no state-dependent response-gain confound assumed."
+  },
+  "script_sha256": "6c2dce05390b728e438f7126964c7a0994912efc17b0102359c682f78f27679c"
+}

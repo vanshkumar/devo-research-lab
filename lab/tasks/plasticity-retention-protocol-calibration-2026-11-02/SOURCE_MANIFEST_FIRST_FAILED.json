@@ -1,0 +1,70 @@
+{
+  "commit": "3138c5556859e0e2918d40f113b40699b6575cfa",
+  "files": [
+    {
+      "path": "lop/slowly_changing_regression/cfg/sgd/cbp/relu.json",
+      "bytes": 664,
+      "sha256": "70fa38ddcf7a56c9ea8a3182d8d66bc7494c21aa4c4ec74eae7d14367c449901",
+      "actual_blob_sha1": "87551b392ba84deb15209ecab3bf6dea3db4ec9d",
+      "expected_blob_sha1": "f19212ea528b0bdefdb275301530b4b2d04e7745",
+      "verified": false
+    },
+    {
+      "path": "lop/slowly_changing_regression/multi_param_expr.py",
+      "bytes": 18990,
+      "sha256": "31af9a3ad7028479fe29e079a26d3e7d10ede1eb15b50b25884a9d034f373815",
+      "actual_blob_sha1": "0b181f64a3990b43d2fc5f2d6d8d72ab76054cff",
+      "expected_blob_sha1": "1827b98ba6eee3a25309203249bb3f85fd18ac03",
+      "verified": false
+    },
+    {
+      "path": "lop/utils/AdamGnT.py",
+      "bytes": 5213,
+      "sha256": "47d28a706c4d0d8b95fb6d501c6d2fc305611ed3fa9393eca03d29a1a8316b72",
+      "actual_blob_sha1": "8795c6c890e8f04dfca7199daa8e64a46e523e26",
+      "expected_blob_sha1": "e071dfd9077e49713e9ea8ddd4759d084fe3b9ec",
+      "verified": false
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 222,
+      "sha256": "b036597f2815b989c88b31059cca1cb90244530861e73e62905e78075455880c",
+      "actual_blob_sha1": "91fe783cb858d286958ae7583a2d75197d7eb3fc",
+      "expected_blob_sha1": "91fe783cb858d286958ae7583a2d75197d7eb3fc",
+      "verified": true
+    }
+  ],
+  "imports": [
+    {
+      "path": "lop/algos/cbp.py",
+      "imports": [
+        "from torch import optim",
+        "from lop.algos.gnt import GnT",
+        "from lop.utils.AdamGnT import AdamGnT",
+        "import torch.nn.functional as F"
+      ]
+    },
+    {
+      "path": "lop/algos/gnt.py",
+      "imports": [
+        "import sys",
+        "import torch",
+        "from math import sqrt",
+        "import torch.nn.functional as F",
+        "from lop.utils.AdamGnT import AdamGnT"
+      ]
+    },
+    {
+      "path": "lop/utils/AdamGnT.py",
+      "imports": [
+        "import torch",
+        "from torch.optim.optimizer import Optimizer"
+      ]
+    }
+  ],
+  "dependencies_installed": 0,
+  "author_torch_execution": "UNRUN",
+  "source_tree_read_bytes": 49985,
+  "seconds": 0.002073416,
+  "max_rss_bytes_macos": 13139968
+}

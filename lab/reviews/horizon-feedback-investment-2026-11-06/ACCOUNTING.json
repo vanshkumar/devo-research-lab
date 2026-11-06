@@ -1,0 +1,210 @@
+{
+  "decision": "HOLD",
+  "scope": "Independent Horizon feedback investment review, original 25 released people and named public metadata/code only.",
+  "originalCheckpointPercent": 11,
+  "revision": {
+    "PIAtUTC": "2026-11-06 15:11:43 UTC",
+    "scope": "Exactly one additional existing-source first-feedback calculation while actual allowance exceeds 10%. Cumulative limits and deadline retained.",
+    "finalInternalPercent": 10,
+    "humanReservePercent": 1,
+    "readbackBeforePlan": {
+      "utc": "2026-11-06 15:12:53 UTC",
+      "ordinaryUsageAllowed": true,
+      "weeklyUsed": 89,
+      "weeklyRemaining": 11,
+      "secondary": null,
+      "individualLimit": null
+    },
+    "readbackBeforeLaunch": {
+      "utc": "2026-11-06 15:14:12 UTC",
+      "ordinaryUsageAllowed": true,
+      "weeklyUsed": 89,
+      "weeklyRemaining": 11,
+      "secondary": null,
+      "individualLimit": null
+    }
+  },
+  "startReceipt": "START_RECEIPT.json",
+  "majorCheckpoints": [
+    {
+      "utc": "2026-11-06 15:01:00 UTC",
+      "ordinaryUsageAllowed": true,
+      "weeklyUsed": 88,
+      "weeklyRemaining": 12,
+      "secondary": null,
+      "individualLimit": null
+    },
+    {
+      "utc": "2026-11-06 15:03:04 UTC",
+      "ordinaryUsageAllowed": true,
+      "weeklyUsed": 88,
+      "weeklyRemaining": 12,
+      "secondary": null,
+      "individualLimit": null
+    },
+    {
+      "utc": "2026-11-06 15:09:15 UTC",
+      "ordinaryUsageAllowed": true,
+      "weeklyUsed": 88,
+      "weeklyRemaining": 12,
+      "secondary": null,
+      "individualLimit": null
+    },
+    {
+      "utc": "2026-11-06 15:16:15 UTC",
+      "ordinaryUsageAllowed": true,
+      "weeklyUsed": 89,
+      "weeklyRemaining": 11,
+      "secondary": null,
+      "individualLimit": null
+    }
+  ],
+  "limits": {
+    "minutes": 45,
+    "scientificCPUSeconds": 300,
+    "logicalReadDecodeBytes": 100000000,
+    "nativeMetadataTextIngressBytes": 4000000,
+    "rssBytes": 800000000,
+    "storageBytes": 60000000,
+    "concurrentScientificProcesses": 1
+  },
+  "jobs": [
+    {
+      "name": "Support check before simulation",
+      "elapsedSeconds": 0.88,
+      "scientificCPUSeconds": 0.67,
+      "status": "stopped before fit/simulation/reduction, failed exactly-80-H6 assumption",
+      "log": "PROBE_SUPPORT_STOP.log",
+      "peakRSSBytes": null
+    },
+    {
+      "name": "Early original fixed-recipe probe",
+      "nativeSession": 15567,
+      "status": "program finished, 25-person JSON verified, timing wrapper exit 1 on restricted kern.clockrate",
+      "scientificCPUSeconds": 43.700005,
+      "processElapsedSeconds": 43.289653458,
+      "measuredRSSBytes": 221478912,
+      "artifact": "PROBE_RESULT.json",
+      "log": "PROBE.log"
+    },
+    {
+      "name": "Fixed first-feedback innovation",
+      "commandExit": 0,
+      "status": "finished, 4,000 H6 games on 25, both exact reward boundary laws",
+      "scientificCPUSeconds": 0.646213,
+      "measuredRSSBytes": 157515776,
+      "artifact": "INNOVATION_RESULT.json",
+      "log": "INNOVATION.log"
+    },
+    {
+      "name": "Penultimate descriptive precision",
+      "status": "saved-only arithmetic, no replay",
+      "artifact": "FEEDBACK_PRECISION.json",
+      "scientificCPUSeconds": null
+    }
+  ],
+  "totalMeasuredScientificCPUSeconds": 45.016218,
+  "additionalUnmetered": "Short metadata/code parsing, process startup and saved reductions. Failed launch peak and physical I/O unmeasured.",
+  "readDecode": {
+    "eligibleSourceCSVScans": 10,
+    "eligibleSourceCSVBytes": 2052611,
+    "logicalSourceScanBytes": 20526110,
+    "logicalSourceAndBothFitReadsBytes": 21388700,
+    "conservativeTotalBookedBytes": 75000000,
+    "physicalIOBytes": null
+  },
+  "storage": {
+    "ownedDirectoryLogicalBytesAtPreclose": 228200,
+    "precloseFiles": 23,
+    "estimateWithCloseoutBytesLessThan": 300000
+  },
+  "ingress": {
+    "providerWireBytes": null,
+    "connectorWebResultContentJSONUtf8Bytes": 285425,
+    "connectorCalls": 22,
+    "nativeSourceWireBodyBytes": 105039,
+    "psych201SearchExcerptPotentialRowTermsLineIds": [],
+    "nativeRequests": [
+      {
+        "path": "api.github.com/repos/marcelbinz/Psych-201/contents/wilson2014humans",
+        "status": 404,
+        "bodyBytes": 0
+      },
+      {
+        "path": "HF pinned tree",
+        "status": 200,
+        "bodyBytes": 2229,
+        "file": "hf_pinned_tree.json"
+      },
+      {
+        "path": "Psych-201 HEAD root tree",
+        "status": 200,
+        "bodyBytes": 34850,
+        "file": "psych_201_root_tree.json"
+      },
+      {
+        "path": "HF pinned commit metadata",
+        "status": 200,
+        "bodyBytes": 3037,
+        "file": "hf_pinned_commits.json"
+      },
+      {
+        "path": "CENTaUR/HorizonTask directory",
+        "status": 200,
+        "bodyBytes": 14037,
+        "file": "centaur_horizon_tree.json"
+      },
+      {
+        "path": "CENTaUR data tree de6e16b…",
+        "status": 200,
+        "bodyBytes": 32768,
+        "capped": true,
+        "file": "centaur_data_tree.json.partial",
+        "note": "First two complete path objects retained; directory response incomplete."
+      },
+      {
+        "path": "CENTaUR preprocess static blob",
+        "status": 200,
+        "bodyBytes": 2514,
+        "file": "centaur_preprocess_blob.json",
+        "verifiedGitSHA1": "9bb613cf2701b337c7873f27a8b4094195ceb5d6"
+      },
+      {
+        "path": "CENTaUR hybrid static blob",
+        "status": 200,
+        "bodyBytes": 3158,
+        "file": "centaur_hybrid_blob.json",
+        "verifiedGitSHA1": "6c61d6ce8c32f7e457a773af09d4ebb9c31d103b"
+      },
+      {
+        "path": "CENTaUR performance static blob",
+        "status": 200,
+        "bodyBytes": 3902,
+        "file": "centaur_performance_blob.json",
+        "verifiedGitSHA1": "ba3b48bf8eb3d8decaa27b8d131df87e8db0480e"
+      },
+      {
+        "path": "CENTaUR query static blob",
+        "status": 200,
+        "bodyBytes": 4614,
+        "file": "centaur_query_blob.json",
+        "verifiedGitSHA1": "573ed177291a69043114e56c0b2e06ced6acae65"
+      },
+      {
+        "path": "CENTaUR exp2 path commit history",
+        "status": 200,
+        "bodyBytes": 3930,
+        "file": "centaur_exp2_commits.json"
+      }
+    ],
+    "sourceBodyAcquisitionBytes": 0,
+    "reviewTrialBodyAcquisitionBytes": 0
+  },
+  "exposure": {
+    "decodedEligible": "Exact existing 25-person Wilson source. Choice/reward and schedule decoded from pinned file. Last diagnostic additionally decoded m1/m2 evaluator-only. Fit/derived outputs and published aggregate figures used.",
+    "protected": "No test, mixed, candidate trial, case or potential-payoff body requested/acquired/decoded. Earlier unrequested RT snippets remain documented in the author's ACCESS.md. Review includes public aggregate and role-metadata exposure.",
+    "nativeGoalFinal": "GOAL_FINAL.json"
+  },
+  "terminalJobs": "Both scientific programs have terminal sessions and verified outputs. No running science or external job.",
+  "notes": "Exact Github object IDs and known native HTTP body byte counts are retained. Provider-side wire/overhead, physical IO and failed-launch RSS are unknown. Shared account percent change is not attributable solely to this review."
+}

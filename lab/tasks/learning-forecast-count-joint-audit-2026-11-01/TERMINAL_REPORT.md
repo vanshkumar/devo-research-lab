@@ -1,0 +1,11 @@
+Completed learning-forecast-count-joint-audit-2026-11-01 (start21/samecycle13), task-local only. RESULT.md/RESULT.json, README, DESIGN/FROZEN_PLAN, ENDPOINTS/COMPARISON_OBJECTS/SCORES.npz, FINAL_AUDIT, RESOURCES, ENVIRONMENT and proposed learning are saved under lab/tasks/learning-forecast-count-joint-audit-2026-11-01/.
+
+First actual calculation13:05:20Z reproduced original RNN/growth6.969991/2.278105pp and count-pooled RNN1.052554pp, verifying all48original ensemble pins and paired integer successes/opportunities. Design/complete comparison objects froze13:11:52Z; main13:12:08Z/final audit13:14:33Z; original deadlines respected.
+
+Identical growth count pooling gives2.269678pp. Both methods have negative count–accuracy covariance in all288cells; growth's cohort bias switches from overprediction to underprediction in every bin despite almost unchanged MAE.
+
+The frozen per-bin/side joint opportunity/success energy score gives RNN0.05092214 versus growth0.05283320:3.617%pointgain, growth-minus-RNN0.00191106, paired-animal95%[−0.00257953,0.00704309], five-labCR1/t[−0.00804996,0.01187208].12/24animals improve; removing Hofer reverses the contrast. ONEcount-only CRPS reference also slightly/imprecisely favors RNN. MCSE0.00032642 is separate. The score evaluates cell joint laws, not full-path dependence; this does not establish reliable joint superiority or a repaired gate.
+
+Within-author independent scalar/SciPy/sorted-CRPS checks reproduce all576scores within5.552e−17 and uncertainty within6.1e−18; distinct scientific review is pending. Native first/freeze/main/audit exits0, warnings empty, jobs0. Final123783434/200MBread-hash-decode;148275200/800MBRSS; oneprocess/thread; zero publicops/downloads/ingress/new raw rows. Failedstart20/5MBallowance and unknown physicalIO/failedpeak remain. A version-recording inline command was denied before execution, then saved scoped code ran; no controls changed.
+
+Recommend a fresh independent review before manuscript integration; bank this small uncertain advantage and avoid further consumed-cohort fitting/gate repair. Historical failures/protected observations/manuscripts unchanged here. Same ACTIVEheartbeat continues; this study endpoint does not end the lab. Finishing now without acknowledgement wait.

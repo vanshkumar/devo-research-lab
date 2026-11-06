@@ -1,0 +1,9 @@
+# Completed source/practical closure — no continuation pending
+
+Fresh Sol/max scientist 01a19ecc-6e78-7891-9c44-94eef6851b9b. Native initial start 2026-11-03T00:26:00Z; orientation included. Current registry PI verified by bounded head: 01a19e9f-9955-70d0-9e45-4cfcdca12c11.
+
+The ONE selected delayed-visual-perturbation / cursor-free next-probe method does not earn a report-free decomposition of transition and fresh error, or a storage anchor. FIRST_CALCULATION native exit0/00:32:41Z and the predeclared favorable control native exit0/00:33:56Z are saved. The positive control separates with a known invariant error representation; the unverified representation can vary with delay. Closure saved before actual00:36:52Z readback; all early gates met, no main test or scientific revision.
+
+Read RESULT.md, RIVALS_AND_ASSUMPTIONS.md, SOURCES.md and RESOURCES.json. Reproduce through README.md. Final saved-output/source audit native exit0/00:39:23Z: PASS, nine primary-transcription checks,16pinned files,115886explicit audit-read bytes,14008320peakRSS. No empirical/old raw/fit/protected release, new human, infrastructure, goal or heartbeat change. Prior results/exposure stay untouched. Six public operations/two deliberate method programs; Honda companion and incidental summaries disclosed. Full10MB ingress allowance charged/complianceUNCERTIFIED; full300MB separate read allowance charged/physicalIO-runtime-toolhost unknowns.
+
+Jobs0, no active PID/session. ONE242word terminal report delivered after final audit to current registry PI01a19e9f-9955-70d0-9e45-4cfcdca12c11 without model/thinking overrides; send_message_to_thread returned that exact threadId with isError:false. Finish without acknowledgement wait or further science. This closure does not finish the broad native goal or stop the lab.

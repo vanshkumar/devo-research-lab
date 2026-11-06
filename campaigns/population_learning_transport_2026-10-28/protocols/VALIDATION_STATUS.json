@@ -1,0 +1,65 @@
+{
+  "utc": "2026-10-29T02:13:37.169480+00:00",
+  "completed_local_date": "2026-10-28",
+  "campaign_status": "complete_at_failed_new_source_population_gate",
+  "objective": "prospective population forecast using frozen source-trained RNN; external cohort conditional on successful newsourcegate",
+  "freeze_sha256": "625535ac5c20fe7301b7dcdec22549fd0a708271cc51dd79df8dee6f5c37a64c",
+  "source_result_sha256": "41455df06ac48550ce584f54c60a7e755d17519238148c261d1cce87ce8ab889",
+  "old_validation": {
+    "original_individual_gate_earned": false,
+    "RNN_individual_gate_earned": false,
+    "development74": "consumed",
+    "original_forecastable48": "complete indexed histories consumed; no restoration"
+  },
+  "new_source": {
+    "allocated": 26,
+    "full_primary": 24,
+    "partial_future": 1,
+    "unopened_insufficient_prefix": [
+      "SWC_007"
+    ],
+    "prefix_animals": 25,
+    "source_forecast_files": 75,
+    "full_primary_forecast_files": 72,
+    "partial_forecast_files": 3,
+    "counterfactual_forecast_files": 75,
+    "unique_rows_returned_to_analysis": 99000,
+    "scored_access_scope": "first4000rows of24primary; first3000ofNYU21; all later rows andSWC007 values unexamined",
+    "population_gate_earned": false,
+    "rnn_mean_curve_mae": 0.06969990518046285,
+    "growth_mean_curve_mae": 0.0227810548403914,
+    "rnn_bias_observed_minus_forecast": -0.06969990518046285,
+    "new_rule_fits": 0
+  },
+  "external": {
+    "strict_animals": 20,
+    "status": "SEALED_PREFIXES_AND_OUTCOMES",
+    "prefix_accesses": 0,
+    "outcome_accesses": 0,
+    "real_forecasts": 0,
+    "external_transport_test_performed": false,
+    "reason": "new prospective source population gate unearned; conditional authorization did not activate",
+    "metadata_only": "reused prior pinned footer coverage; no new raw external field values"
+  },
+  "controls": {
+    "statistical_gate_controls_valid": true,
+    "known_frozen_learner_under_both_trainers_valid": true,
+    "low_source_acceptance_explicit": true
+  },
+  "independent": {
+    "original_byte_targets_exact": true,
+    "numeric_comparisons": 195,
+    "score_max_abs_difference": 7.79e-15,
+    "production_forecasts_replayed": 36,
+    "sampled_curves_counts_pools_exact": true,
+    "semantic_rows": 99000,
+    "semantic_anomalies": 0
+  },
+  "amendments": [
+    "pre_scoring_finite_subgroup_guard: no actual missingness; complete-data scientific results unchanged",
+    "external_access_flag clarified as provisional performance only; independent checks and external freeze additionally required",
+    "audit-only original-byte reader cappedNYU21at3000and aligned finite guard; exact diffs and stopped attempt preserved"
+  ],
+  "interpretation": "prospective selected-source loss versusgrowth; underlying absolutebias>5ppnotestablished; future-session sensitivity preventsunique mechanistic inference; no realcrosspolicyresult",
+  "stop": "bounded campaign complete; no external release, replacement model, successor, paidcompute or publication"
+}

@@ -1,0 +1,107 @@
+{
+  "task_id": "bci-repertoire-forecast-2026-11-01",
+  "owner": "01a19567-731c-7362-b7eb-489de124853e",
+  "fixed_start_utc": "2026-11-01T04:39:18.157Z",
+  "source_gate_utc": "2026-11-01T04:59:18.157Z",
+  "absolute_deadline_utc": "2026-11-01T06:09:18.157Z",
+  "status": "CLOSED_SOURCE_DESIGN_GATE_FAILED_AND_SCREENING_FAMILY_CAP_BREACHED",
+  "scientific_execution_complete_by_utc": "2026-11-01T04:47:12.270346Z",
+  "execution_end_note": "Exact final source-pin process timestamp from SOURCE_MANIFEST.json. No science after recognizing the screening-family scope breach.",
+  "caps": {
+    "primary_source_families": 2,
+    "public_operations": 40,
+    "new_ingress_bytes": 60000000,
+    "additional_scientific_read_decode_hash_bytes": 750000000,
+    "scientific_peak_rss_bytes": 750000000,
+    "concurrent_scientific_processes": 1,
+    "numerical_threads": 1,
+    "duration_minutes": 90,
+    "source_gate_minutes": 20
+  },
+  "source_family_scope": {
+    "targeted_screening_families_count": 3,
+    "families_followed_beyond_discovery": 2,
+    "cap_status": "BREACH",
+    "families": [
+      "Golub/Sadtler/Oby neural reassociation and decoder perturbation",
+      "Perich/Gallego arm-movement manifolds: initial deliberate query only, primary summaries exposed, no subsequent page/file acquisition",
+      "Athalye/Carmena neuroprosthetic learning/control: public fixed-decoder deposit and linked source text followed"
+    ],
+    "preservation": "No exposure was rolled back. Early Perich query is in sources/bci_web_01.json. Closeout explicitly reports the breach to PI. No further science after recognition."
+  },
+  "public_operations_observed_or_attempted": 29,
+  "public_operation_counting": "Each query/open/find and each GitHub call counts separately, including no-match/captcha responses and the failed direct DNS attempt. Provider-internal fanout/redirect/retry counts are unavailable, so 29 is an observed logical count, not exact wire requests.",
+  "public_operations": [
+    {"n": 1, "type": "search", "target": "Golub 2018 learning neural reassociation data code Dryad decoder"},
+    {"n": 2, "type": "search", "target": "Perich Gallego 2018 neural manifold BCI adaptation public data decoder Sadtler", "scope": "extra deliberately screened family; summary exposure preserved"},
+    {"n": 3, "type": "github", "target": "mattgolub/bci_learning repository metadata"},
+    {"n": 4, "type": "web_open", "target": "PMC5876156"},
+    {"n": 5, "type": "search", "target": "Athalye 2017 emergence coordinated neural dynamics BCI learning data available decoder download"},
+    {"n": 6, "type": "github", "target": "bci_learning complete recursive tree"},
+    {"n": 7, "type": "web_find", "target": "PMC5876156 Data availability"},
+    {"n": 8, "type": "web_find", "target": "PMC5876156 github"},
+    {"n": 9, "type": "github", "target": "pinned README.md"},
+    {"n": 10, "type": "github", "target": "pinned run.m"},
+    {"n": 11, "type": "github", "target": "master commit metadata"},
+    {"n": 12, "type": "direct_https_attempt", "target": "pinned exampleData.mat", "result": "sandbox DNS failure; no response body"},
+    {"n": 13, "type": "direct_https", "target": "same pinned exampleData.mat", "result": "platform-approved public read; HTTP200; 252829 bytes"},
+    {"n": 14, "type": "github", "target": "extractSpikesToFactorsMapping.m"},
+    {"n": 15, "type": "github", "target": "computeControlPlaneActivity.m"},
+    {"n": 16, "type": "github", "target": "LICENSE"},
+    {"n": 17, "type": "web_open", "target": "Zenodo8006653 listing only"},
+    {"n": 18, "type": "web_open", "target": "DANDI000404 draft listing only"},
+    {"n": 19, "type": "github", "target": "computeFactorPushingDirections.m"},
+    {"n": 20, "type": "web_open", "target": "PMC10291273", "result": "incorrect guessed ID; captcha only, no substantive text; retained as failed request"},
+    {"n": 21, "type": "search", "target": "Invariant neural dynamics drive commands decoder same"},
+    {"n": 22, "type": "search", "target": "Emergence of Coordinated Neural Dynamics data available"},
+    {"n": 23, "type": "github", "target": "computeProgressOfProjection.m"},
+    {"n": 24, "type": "web_open", "target": "correct PMC10527529", "result": "captcha; indexed primary text was returned by search, direct full-text open unsuccessful"},
+    {"n": 25, "type": "search", "target": "Golub reassociation data download decoder"},
+    {"n": 26, "type": "search", "target": "Sadtler Oby data repository decoder"},
+    {"n": 27, "type": "github", "target": "generatePreLearningActivity.m"},
+    {"n": 28, "type": "web_find", "target": "PMC5876156 smoothing", "result": "no match"},
+    {"n": 29, "type": "web_find", "target": "PMC5876156 progress"}
+  ],
+  "ingress": {
+    "measured_direct_response_body_bytes": 252829,
+    "saved_serialized_connector_response_bytes": 305187,
+    "saved_response_count": 18,
+    "charged_provider_or_failed_transfer_allowance_bytes": 10000000,
+    "charged_new_ingress_bytes": 10252829,
+    "unknown": "Provider-fetched original page/search bodies and internal transfers cannot be measured from returned text. Saved wrapper serialization is not wire ingress. The 10 MB provider charge is conservative accounting, not a measured bound. DNS failure returned zero HTTP body bytes."
+  },
+  "scientific_read_decode_hash": {
+    "charged_additional_bytes": 50000000,
+    "charge_includes": "Full MAT acquisition/hash reads; five successful loadmat passes; failed direct-unit/tolerance diagnostics; saved source captures/text reconstruction/blob hashes; read/JSON overhead and failed-pass margin. This is a conservative manual charge, not automatic exact metering.",
+    "failed_source_check_charge_included_bytes": 1000000,
+    "unknown": "Exact SciPy compressed-stream skipping/decompression and cumulative temporary-buffer bytes not instrumented. Ordinary governance/context reads are not empirical data exposure."
+  },
+  "memory": {
+    "largest_measured_local_peak_rss_bytes": 52953088,
+    "schema_process_peak_rss_bytes": 52953088,
+    "initial_arithmetic_peak_rss_bytes": 45842432,
+    "diagnostic_arithmetic_peak_rss_bytes": 45858816,
+    "final_arithmetic_peak_rss_bytes": 46268416,
+    "source_finalizer_peak_rss_bytes": 11911168,
+    "failed_or_provider_peaks": "DNS-failure process unmeasured; final tails after in-process measurements and provider-side tools unknown. Do not describe largest measured local peak as a certified global maximum."
+  },
+  "concurrency": {
+    "scientific_processes": "One at a time; all local commands completed before the next. No background jobs or other workers.",
+    "numerical_thread_environment_requested": 1,
+    "thread_variables": ["OPENBLAS_NUM_THREADS", "OMP_NUM_THREADS", "MKL_NUM_THREADS", "VECLIB_MAXIMUM_THREADS", "NUMEXPR_NUM_THREADS"],
+    "thread_runtime_count": "Not independently OS-measured; all listed variables set before NumPy/SciPy import."
+  },
+  "exposure": {
+    "full_acquired_hashed_object": "Entire 252829-byte exampleData.mat, including compressed afterLearning bytes; no pristine holdout claim.",
+    "interpreted_measured_arrays": "All beforeLearning clouds: 552 x 86 spikes, 552 x 10 factors, directions, both vraw/Progress arrays, eight angles, 50 trial-window IDs; all expParams old/new decoder fields.",
+    "auxiliary_exposed": "Post-learning-calibrated lambda in expParams was decoded at schema inspection and explicitly excluded from reconstruction. Source publication/code describes selection and empirical scaling.",
+    "afterLearning": "Not requested by loadmat and no returned afterLearning values interpreted/scored. Library may decompress skipped variable/header bytes internally; entire compressed file was acquired/hashed. Treat this example as development/consumed for later claims.",
+    "summary_exposure": "All returned search summaries, Golub primary text portions/48-experiment aggregate description, full retrieved code files/tree, Perich/Gallego summaries, Athalye indexed primary summaries, complete returned DANDI/Zenodo listing text, unrelated returned search snippets. See saved raw connector captures.",
+    "unacquired": "Full 48-experiment Golub trial corpus; any DANDI NWB assets; Zenodo ZIP; any Perich empirical files.",
+    "historical_protected_records": "No old raw datasets or protected Pan20/Flesch/HABITS/memory/reserved-worm/Figure4/optional210 records accessed. No shared registry, memory or policy edits."
+  },
+  "unrun": ["main development/evaluation design and freeze", "initial-error-adjusted learning comparison", "forecast saving/scoring", "model development revision", "uncertainty", "positive/null controls", "main contrary test", "independent scientific review"],
+  "jobs_remaining": 0,
+  "external_contact_publication_spending_reset": "None",
+  "heartbeat": "Unchanged; remains PI-owned and ACTIVE across this task endpoint."
+}

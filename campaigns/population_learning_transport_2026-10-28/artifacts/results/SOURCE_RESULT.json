@@ -1,0 +1,840 @@
+{
+  "utc": "2026-10-29T01:58:30.974584+00:00",
+  "cohort": "source",
+  "subjects": [
+    "CSHL056",
+    "CSHL_012",
+    "IBL_001",
+    "KS018",
+    "NYU-09",
+    "NYU-11",
+    "NYU-12",
+    "NYU-13",
+    "NYU-14",
+    "SWC_001",
+    "SWC_002",
+    "SWC_003",
+    "SWC_011",
+    "SWC_014",
+    "SWC_015",
+    "SWC_017",
+    "SWC_018",
+    "SWC_020",
+    "SWC_021",
+    "SWC_022",
+    "SWC_027",
+    "SWC_028",
+    "SWC_029",
+    "SWC_030"
+  ],
+  "labs": [
+    "churchlandlab",
+    "churchlandlab",
+    "mrsicflogellab",
+    "cortexlab",
+    "angelakilab",
+    "angelakilab",
+    "angelakilab",
+    "angelakilab",
+    "angelakilab",
+    "hoferlab",
+    "hoferlab",
+    "hoferlab",
+    "hoferlab",
+    "hoferlab",
+    "hoferlab",
+    "mrsicflogellab",
+    "mrsicflogellab",
+    "hoferlab",
+    "hoferlab",
+    "mrsicflogellab",
+    "hoferlab",
+    "hoferlab",
+    "mrsicflogellab",
+    "mrsicflogellab"
+  ],
+  "n": 24,
+  "endpoint": "equal_side_exact100_correct_including_omission_failures",
+  "bias_sign": "observed minus forecast; positive means underprediction",
+  "models": {
+    "rnn": {
+      "observed_curve": [
+        0.5154359639808129,
+        0.5304490615715898,
+        0.5576240702782908,
+        0.5334004006593515,
+        0.5557991964413608,
+        0.5871290723657142
+      ],
+      "forecast_curve": [
+        0.5462514639332144,
+        0.5815445397019804,
+        0.6074173006401877,
+        0.6322015473943026,
+        0.6547688871673271,
+        0.6758534575428846
+      ],
+      "scalar_observed": 0.54663962754952,
+      "scalar_forecast": 0.6163395327299828,
+      "conditional_MC_SE": 0.0007764105013522566,
+      "individual_crps": 0.057462390590057776,
+      "population_marginal_crps": 0.05737801547380809,
+      "marginal_metrics": [
+        {
+          "metric": 0,
+          "observed_curve": [
+            0.6063378868788835,
+            0.6329993809052755,
+            0.6294069829508899,
+            0.5800265481944814,
+            0.64227128551963,
+            0.6338988573001985
+          ],
+          "forecast_curve": [
+            0.5788230203116825,
+            0.6155451392483869,
+            0.636266485724195,
+            0.6516480849879066,
+            0.6649777476406943,
+            0.6778345669421726
+          ],
+          "marginal_individual_crps": 0.12479109922859151
+        },
+        {
+          "metric": 1,
+          "observed_curve": [
+            0.4245340410827423,
+            0.42789874223790386,
+            0.4858411576056912,
+            0.48677425312422146,
+            0.4693271073630912,
+            0.5403592874312302
+          ],
+          "forecast_curve": [
+            0.5136799075547466,
+            0.5475439401555725,
+            0.5785681155561794,
+            0.6127550098007045,
+            0.6445600266939654,
+            0.673872348143597
+          ],
+          "marginal_individual_crps": 0.133722183356875
+        },
+        {
+          "metric": 2,
+          "observed_curve": [
+            0.4001666666666666,
+            0.3860833333333333,
+            0.4336666666666667,
+            0.44966666666666666,
+            0.42291666666666666,
+            0.4603333333333334
+          ],
+          "forecast_curve": [
+            0.4581573893229188,
+            0.4595823567708323,
+            0.4641450195312479,
+            0.47377799479166455,
+            0.48163020833333414,
+            0.486941731770834
+          ],
+          "marginal_individual_crps": 0.10363551816631338
+        },
+        {
+          "metric": 3,
+          "observed_curve": [
+            0.011083333333333334,
+            0.007916666666666667,
+            0.00425,
+            0.016833333333333336,
+            0.006583333333333334,
+            0.007416666666666668
+          ],
+          "forecast_curve": [
+            0.007911295572916466,
+            0.004512207031250244,
+            0.00564876302083344,
+            0.004229817708333523,
+            0.003499186197916822,
+            0.00500325520833354
+          ],
+          "marginal_individual_crps": 0.006930940213735307
+        }
+      ],
+      "intervals": {
+        "mean": -0.06969990518046285,
+        "se": 0.011659084459846016,
+        "animal_90": [
+          -0.089682078075791,
+          -0.049717732285134694
+        ],
+        "animal_95": [
+          -0.09381855897884177,
+          -0.04558125138208392
+        ],
+        "cluster_se": 0.019233667649001515,
+        "cluster_90": [
+          -0.11070313774726157,
+          -0.02869667261366412
+        ],
+        "cluster_95": [
+          -0.12310112757953426,
+          -0.01629868278139144
+        ]
+      },
+      "bias_curve": [
+        -0.03081549995240167,
+        -0.05109547813039073,
+        -0.049793230361896985,
+        -0.0988011467349511,
+        -0.09896969072596634,
+        -0.08872438517717023
+      ],
+      "curve_mae": 0.06969990518046285,
+      "max_bin_error": 0.09896969072596634,
+      "lab_scalar_bias": {
+        "angelakilab": -0.03513426336553813,
+        "churchlandlab": -0.06317097583384819,
+        "cortexlab": -0.060158664011142365,
+        "hoferlab": -0.1040922499534939,
+        "mrsicflogellab": -0.04495054871493998
+      },
+      "leave_one_lab_out_bias": {
+        "angelakilab": -0.0787961267107062,
+        "churchlandlab": -0.07029344421197325,
+        "cortexlab": -0.070114741753042,
+        "hoferlab": -0.045133944628297805,
+        "mrsicflogellab": -0.07794969066897046
+      },
+      "bin_animals": [
+        24,
+        24,
+        24,
+        24,
+        24,
+        24
+      ],
+      "checks": {
+        "enough_animals": true,
+        "every_bin_coverage": true,
+        "scalar_animal90": false,
+        "mean_curve_mae": false,
+        "max_bin_error": false,
+        "each_lab_bias": false,
+        "leave_one_lab_out": false,
+        "scalar_cluster90": false,
+        "subgroup_estimates_finite": true
+      },
+      "pass_gate": false
+    },
+    "growth": {
+      "observed_curve": [
+        0.5154359639808129,
+        0.5304490615715898,
+        0.5576240702782908,
+        0.5334004006593515,
+        0.5557991964413608,
+        0.5871290723657142
+      ],
+      "forecast_curve": [
+        0.5177291440718406,
+        0.5450623025083371,
+        0.5631186768318107,
+        0.5813804793568762,
+        0.5924526164142231,
+        0.6167808751563806
+      ],
+      "scalar_observed": 0.54663962754952,
+      "scalar_forecast": 0.5694206823899114,
+      "conditional_MC_SE": 0.0006277460273583842,
+      "individual_crps": 0.048814889519784965,
+      "population_marginal_crps": 0.01623696141271347,
+      "marginal_metrics": [
+        {
+          "metric": 0,
+          "observed_curve": [
+            0.6063378868788835,
+            0.6329993809052755,
+            0.6294069829508899,
+            0.5800265481944814,
+            0.64227128551963,
+            0.6338988573001985
+          ],
+          "forecast_curve": [
+            0.5395916302478162,
+            0.6053272796659273,
+            0.6296482195246249,
+            0.6835255145833689,
+            0.6721126937558601,
+            0.692999743794391
+          ],
+          "marginal_individual_crps": 0.13467133078059154
+        },
+        {
+          "metric": 1,
+          "observed_curve": [
+            0.4245340410827423,
+            0.42789874223790386,
+            0.4858411576056912,
+            0.48677425312422146,
+            0.4693271073630912,
+            0.5403592874312302
+          ],
+          "forecast_curve": [
+            0.4958666578958659,
+            0.4847973253507451,
+            0.4965891341390012,
+            0.47923544413038804,
+            0.5127925390725838,
+            0.5405620065183722
+          ],
+          "marginal_individual_crps": 0.12275611251804568
+        },
+        {
+          "metric": 2,
+          "observed_curve": [
+            0.4001666666666666,
+            0.3860833333333333,
+            0.4336666666666667,
+            0.44966666666666666,
+            0.42291666666666666,
+            0.4603333333333334
+          ],
+          "forecast_curve": [
+            0.4731274414062514,
+            0.4363188476562496,
+            0.43008577473958015,
+            0.39606119791666744,
+            0.4191199544270839,
+            0.425004231770834
+          ],
+          "marginal_individual_crps": 0.1122405063855594
+        },
+        {
+          "metric": 3,
+          "observed_curve": [
+            0.011083333333333334,
+            0.007916666666666667,
+            0.00425,
+            0.016833333333333336,
+            0.006583333333333334,
+            0.007416666666666668
+          ],
+          "forecast_curve": [
+            0.007911295572916466,
+            0.004512207031250244,
+            0.00564876302083344,
+            0.004229817708333523,
+            0.003499186197916822,
+            0.00500325520833354
+          ],
+          "marginal_individual_crps": 0.006930940213735307
+        }
+      ],
+      "intervals": {
+        "mean": -0.0227810548403914,
+        "se": 0.013462359826116876,
+        "animal_90": [
+          -0.045853810042658816,
+          0.00029170036187601417
+        ],
+        "animal_95": [
+          -0.05063006794888773,
+          0.005067958268104935
+        ],
+        "cluster_se": 0.027936891240136822,
+        "cluster_90": [
+          -0.08233822665063421,
+          0.036776116969851405
+        ],
+        "cluster_95": [
+          -0.1003462997785124,
+          0.054784190097729585
+        ]
+      },
+      "bias_curve": [
+        -0.002293180091027698,
+        -0.014613240936747476,
+        -0.005494606553519857,
+        -0.04798007869752463,
+        -0.03665341997286241,
+        -0.02965180279066632
+      ],
+      "curve_mae": 0.0227810548403914,
+      "max_bin_error": 0.04798007869752463,
+      "lab_scalar_bias": {
+        "angelakilab": 0.0500122727664242,
+        "churchlandlab": -0.012734111301640353,
+        "cortexlab": -0.02807847728811541,
+        "hoferlab": -0.06955859230821404,
+        "mrsicflogellab": -0.00794567617132965
+      },
+      "leave_one_lab_out_bias": {
+        "angelakilab": -0.04193719368429024,
+        "churchlandlab": -0.023694413343914218,
+        "cortexlab": -0.02255073212527296,
+        "hoferlab": 0.01063147192233907,
+        "mrsicflogellab": -0.027726181063411976
+      },
+      "bin_animals": [
+        24,
+        24,
+        24,
+        24,
+        24,
+        24
+      ],
+      "checks": {
+        "enough_animals": true,
+        "every_bin_coverage": true,
+        "scalar_animal90": true,
+        "mean_curve_mae": true,
+        "max_bin_error": true,
+        "each_lab_bias": true,
+        "leave_one_lab_out": true,
+        "scalar_cluster90": false,
+        "subgroup_estimates_finite": true
+      },
+      "pass_gate": false
+    },
+    "persistence": {
+      "observed_curve": [
+        0.5154359639808129,
+        0.5304490615715898,
+        0.5576240702782908,
+        0.5334004006593515,
+        0.5557991964413608,
+        0.5871290723657142
+      ],
+      "forecast_curve": [
+        0.4814554374510485,
+        0.4828748778373957,
+        0.48260993224187815,
+        0.4829851194484321,
+        0.4837568150199986,
+        0.4828911875684088
+      ],
+      "scalar_observed": 0.54663962754952,
+      "scalar_forecast": 0.48276222826119364,
+      "conditional_MC_SE": 0.0001792920940307729,
+      "individual_crps": 0.07025205290861918,
+      "population_marginal_crps": 0.059794788323917714,
+      "marginal_metrics": [
+        {
+          "metric": 0,
+          "observed_curve": [
+            0.6063378868788835,
+            0.6329993809052755,
+            0.6294069829508899,
+            0.5800265481944814,
+            0.64227128551963,
+            0.6338988573001985
+          ],
+          "forecast_curve": [
+            0.528254464860484,
+            0.529787039109677,
+            0.5298586951905019,
+            0.5298981393004539,
+            0.5310834793656987,
+            0.5301825613465608
+          ],
+          "marginal_individual_crps": 0.16732812095932778
+        },
+        {
+          "metric": 1,
+          "observed_curve": [
+            0.4245340410827423,
+            0.42789874223790386,
+            0.4858411576056912,
+            0.48677425312422146,
+            0.4693271073630912,
+            0.5403592874312302
+          ],
+          "forecast_curve": [
+            0.43465641004160865,
+            0.4359627165651147,
+            0.43536116929325064,
+            0.43607209959640975,
+            0.43643015067429847,
+            0.43559981379025037
+          ],
+          "marginal_individual_crps": 0.16503898395558378
+        },
+        {
+          "metric": 2,
+          "observed_curve": [
+            0.4001666666666666,
+            0.3860833333333333,
+            0.4336666666666667,
+            0.44966666666666666,
+            0.42291666666666666,
+            0.4603333333333334
+          ],
+          "forecast_curve": [
+            0.44897623697916633,
+            0.45006380208333213,
+            0.44946402994791673,
+            0.4500039062499995,
+            0.4502350260416665,
+            0.44980957031249935
+          ],
+          "marginal_individual_crps": 0.14531997360159818
+        },
+        {
+          "metric": 3,
+          "observed_curve": [
+            0.011083333333333334,
+            0.007916666666666667,
+            0.00425,
+            0.016833333333333336,
+            0.006583333333333334,
+            0.007416666666666668
+          ],
+          "forecast_curve": [
+            0.007911295572916466,
+            0.004512207031250244,
+            0.00564876302083344,
+            0.004229817708333523,
+            0.003499186197916822,
+            0.00500325520833354
+          ],
+          "marginal_individual_crps": 0.006930940213735307
+        }
+      ],
+      "intervals": {
+        "mean": 0.06387739928832624,
+        "se": 0.01540334598602119,
+        "animal_90": [
+          0.03747804317084774,
+          0.09027675540580474
+        ],
+        "animal_95": [
+          0.032013150388425796,
+          0.09574164818822668
+        ],
+        "cluster_se": 0.027513880546624517,
+        "cluster_90": [
+          0.005222021465629445,
+          0.12253277711102303
+        ],
+        "cluster_95": [
+          -0.012513379680346187,
+          0.14026817825699867
+        ]
+      },
+      "bias_curve": [
+        0.03398052652976433,
+        0.04757418373419393,
+        0.07501413803641253,
+        0.050415281210919295,
+        0.072042381421362,
+        0.1042378847973054
+      ],
+      "curve_mae": 0.06387739928832624,
+      "max_bin_error": 0.1042378847973054,
+      "lab_scalar_bias": {
+        "angelakilab": 0.13707966308392,
+        "churchlandlab": 0.04684255422213043,
+        "cortexlab": 0.04302120858088687,
+        "hoferlab": 0.019610343438682423,
+        "mrsicflogellab": 0.08580825268137636
+      },
+      "leave_one_lab_out_bias": {
+        "angelakilab": 0.04461364565790685,
+        "churchlandlab": 0.06542602156707134,
+        "cortexlab": 0.06478419018864971,
+        "hoferlab": 0.09549672489521471,
+        "mrsicflogellab": 0.05656711482397623
+      },
+      "bin_animals": [
+        24,
+        24,
+        24,
+        24,
+        24,
+        24
+      ],
+      "checks": {
+        "enough_animals": true,
+        "every_bin_coverage": true,
+        "scalar_animal90": false,
+        "mean_curve_mae": false,
+        "max_bin_error": false,
+        "each_lab_bias": false,
+        "leave_one_lab_out": false,
+        "scalar_cluster90": false,
+        "subgroup_estimates_finite": true
+      },
+      "pass_gate": false
+    }
+  },
+  "baseline_comparisons": {
+    "growth": {
+      "mean_curve_mae_gain": -0.04691885034007144,
+      "mean_curve_mae_gain_interval95": [
+        -0.056678302428865554,
+        -0.028496779701965902
+      ],
+      "individual_crps_gain": -0.008647501070272802,
+      "individual_crps_gain_interval95": [
+        -0.013889429208022153,
+        -0.0031713124423639128
+      ]
+    },
+    "persistence": {
+      "mean_curve_mae_gain": -0.005822505892136606,
+      "mean_curve_mae_gain_interval95": [
+        -0.05279700126607255,
+        0.04554741352813392
+      ],
+      "individual_crps_gain": 0.012789662318561419,
+      "individual_crps_gain_interval95": [
+        -0.009431029112329223,
+        0.037753249720449175
+      ]
+    }
+  },
+  "gate_checks": {
+    "enough_animals": true,
+    "every_bin_coverage": true,
+    "scalar_animal90": false,
+    "mean_curve_mae": false,
+    "max_bin_error": false,
+    "each_lab_bias": false,
+    "leave_one_lab_out": false,
+    "scalar_cluster90": false,
+    "subgroup_estimates_finite": true,
+    "baseline_noninferiority": false,
+    "known_answer_controls": true
+  },
+  "gate_earned": false,
+  "config": {
+    "minimum_animals": 15,
+    "minimum_bin_fraction": 0.8,
+    "scalar_margin": 0.05,
+    "curve_mae_max": 0.05,
+    "bin_error_max": 0.075,
+    "lab_bias_max": 0.1,
+    "leave_one_lab_out_bias_max": 0.05,
+    "require_cluster90": true,
+    "baseline_mae_noninferiority": 0.01,
+    "known_answer_controls_valid": true,
+    "controls_sha256": "d723cab2b341a1488da93f374da148d27654c9d82b075b28cc60572427f8cfd5",
+    "learner_controls_sha256": "43b123916bfc1e9938fa79c8c6715d354e1913107b85fb2094179cb666d7427f",
+    "inference": "One selected animal mixture conditional on five fixed represented labs and realized opportunity histories; cluster interval is a control-checked conservative safeguard with G=5, not arbitrary-environment validation"
+  },
+  "inference_scope": "selected source animal mixture conditional on fixed represented labs and realized opportunity histories; not arbitrary new laboratories",
+  "partial_subjects": [
+    "NYU-21"
+  ],
+  "all26_disposition": [
+    {
+      "subject": "CSHL056",
+      "lab": "churchlandlab",
+      "prefix_complete": true,
+      "primary_complete": true,
+      "total_opportunities": 4245,
+      "full_future_bins": 6
+    },
+    {
+      "subject": "CSHL_012",
+      "lab": "churchlandlab",
+      "prefix_complete": true,
+      "primary_complete": true,
+      "total_opportunities": 17437,
+      "full_future_bins": 6
+    },
+    {
+      "subject": "IBL_001",
+      "lab": "mrsicflogellab",
+      "prefix_complete": true,
+      "primary_complete": true,
+      "total_opportunities": 9650,
+      "full_future_bins": 6
+    },
+    {
+      "subject": "KS018",
+      "lab": "cortexlab",
+      "prefix_complete": true,
+      "primary_complete": true,
+      "total_opportunities": 34302,
+      "full_future_bins": 6
+    },
+    {
+      "subject": "NYU-09",
+      "lab": "angelakilab",
+      "prefix_complete": true,
+      "primary_complete": true,
+      "total_opportunities": 15239,
+      "full_future_bins": 6
+    },
+    {
+      "subject": "NYU-11",
+      "lab": "angelakilab",
+      "prefix_complete": true,
+      "primary_complete": true,
+      "total_opportunities": 20112,
+      "full_future_bins": 6
+    },
+    {
+      "subject": "NYU-12",
+      "lab": "angelakilab",
+      "prefix_complete": true,
+      "primary_complete": true,
+      "total_opportunities": 20387,
+      "full_future_bins": 6
+    },
+    {
+      "subject": "NYU-13",
+      "lab": "angelakilab",
+      "prefix_complete": true,
+      "primary_complete": true,
+      "total_opportunities": 17415,
+      "full_future_bins": 6
+    },
+    {
+      "subject": "NYU-14",
+      "lab": "angelakilab",
+      "prefix_complete": true,
+      "primary_complete": true,
+      "total_opportunities": 16435,
+      "full_future_bins": 6
+    },
+    {
+      "subject": "NYU-21",
+      "lab": "angelakilab",
+      "prefix_complete": true,
+      "primary_complete": false,
+      "total_opportunities": 3473,
+      "full_future_bins": 4
+    },
+    {
+      "subject": "SWC_001",
+      "lab": "hoferlab",
+      "prefix_complete": true,
+      "primary_complete": true,
+      "total_opportunities": 12778,
+      "full_future_bins": 6
+    },
+    {
+      "subject": "SWC_002",
+      "lab": "hoferlab",
+      "prefix_complete": true,
+      "primary_complete": true,
+      "total_opportunities": 26497,
+      "full_future_bins": 6
+    },
+    {
+      "subject": "SWC_003",
+      "lab": "hoferlab",
+      "prefix_complete": true,
+      "primary_complete": true,
+      "total_opportunities": 24275,
+      "full_future_bins": 6
+    },
+    {
+      "subject": "SWC_007",
+      "lab": "hoferlab",
+      "prefix_complete": false,
+      "primary_complete": false,
+      "total_opportunities": 517,
+      "full_future_bins": 0
+    },
+    {
+      "subject": "SWC_011",
+      "lab": "hoferlab",
+      "prefix_complete": true,
+      "primary_complete": true,
+      "total_opportunities": 23369,
+      "full_future_bins": 6
+    },
+    {
+      "subject": "SWC_014",
+      "lab": "hoferlab",
+      "prefix_complete": true,
+      "primary_complete": true,
+      "total_opportunities": 12123,
+      "full_future_bins": 6
+    },
+    {
+      "subject": "SWC_015",
+      "lab": "hoferlab",
+      "prefix_complete": true,
+      "primary_complete": true,
+      "total_opportunities": 30843,
+      "full_future_bins": 6
+    },
+    {
+      "subject": "SWC_017",
+      "lab": "mrsicflogellab",
+      "prefix_complete": true,
+      "primary_complete": true,
+      "total_opportunities": 24929,
+      "full_future_bins": 6
+    },
+    {
+      "subject": "SWC_018",
+      "lab": "mrsicflogellab",
+      "prefix_complete": true,
+      "primary_complete": true,
+      "total_opportunities": 31794,
+      "full_future_bins": 6
+    },
+    {
+      "subject": "SWC_020",
+      "lab": "hoferlab",
+      "prefix_complete": true,
+      "primary_complete": true,
+      "total_opportunities": 15414,
+      "full_future_bins": 6
+    },
+    {
+      "subject": "SWC_021",
+      "lab": "hoferlab",
+      "prefix_complete": true,
+      "primary_complete": true,
+      "total_opportunities": 15387,
+      "full_future_bins": 6
+    },
+    {
+      "subject": "SWC_022",
+      "lab": "mrsicflogellab",
+      "prefix_complete": true,
+      "primary_complete": true,
+      "total_opportunities": 20882,
+      "full_future_bins": 6
+    },
+    {
+      "subject": "SWC_027",
+      "lab": "hoferlab",
+      "prefix_complete": true,
+      "primary_complete": true,
+      "total_opportunities": 13145,
+      "full_future_bins": 6
+    },
+    {
+      "subject": "SWC_028",
+      "lab": "hoferlab",
+      "prefix_complete": true,
+      "primary_complete": true,
+      "total_opportunities": 15659,
+      "full_future_bins": 6
+    },
+    {
+      "subject": "SWC_029",
+      "lab": "mrsicflogellab",
+      "prefix_complete": true,
+      "primary_complete": true,
+      "total_opportunities": 45816,
+      "full_future_bins": 6
+    },
+    {
+      "subject": "SWC_030",
+      "lab": "mrsicflogellab",
+      "prefix_complete": true,
+      "primary_complete": true,
+      "total_opportunities": 39783,
+      "full_future_bins": 6
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "calculated_at": "2026-11-01T07:11:59.677955+00:00",
+  "source": "Dryad 10.5061/dryad.570pf8n; identical CC0 Zenodo 5034463 mirror",
+  "zip_bytes": 1337958,
+  "zip_sha256": "62ab36d9dc0c223be0d7cfaf852c0559f77b172f9f8d7636cc022745f53187e6",
+  "zip_md5": "235fad11706c1b93c7a12b55fcde5757",
+  "member": "cannonBehavData_forDryad/ADL_B_000342.mat",
+  "member_sha256": "f910c1635af696eb6dc712e590d60fadea2dc86f378519ceb6dec1ee5c39dfdc",
+  "participant": "342",
+  "independent_units": 1,
+  "timing": "Per source article and pinned analysis: pred[t] before outcome[t], next prediction[t+1] after outcome and shield feedback. Circular angles in degrees. No across-block update.",
+  "groups": {
+    "changepoint": {
+      "rows": 240,
+      "valid_within_block_updates": 236,
+      "blocks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "sigma_concentration": [
+        10
+      ],
+      "drift_concentration": [
+        30
+      ],
+      "exported_hazard_fields": {
+        "vola": [
+          0.25
+        ],
+        "oddballProb": [
+          0.25
+        ]
+      },
+      "rms_update_degrees": 52.081179910284945,
+      "current_error_slope": 1.0013446370004935,
+      "signed_error_update_crossproduct": 638700.817500001,
+      "example_rows": [
+        {
+          "trial": 1,
+          "block": 1,
+          "prediction": 12.749999999999996,
+          "outcome": 189.0,
+          "next_prediction": 188.90000000000086,
+          "error": 176.25,
+          "update": 176.1500000000009
+        },
+        {
+          "trial": 2,
+          "block": 1,
+          "prediction": 188.90000000000086,
+          "outcome": 191.0,
+          "next_prediction": 192.6500000000009,
+          "error": 2.0999999999991417,
+          "update": 3.7500000000000284
+        },
+        {
+          "trial": 3,
+          "block": 1,
+          "prediction": 192.6500000000009,
+          "outcome": 172.0,
+          "next_prediction": 173.15000000000077,
+          "error": -20.650000000000887,
+          "update": -19.500000000000114
+        },
+        {
+          "trial": 4,
+          "block": 1,
+          "prediction": 173.15000000000077,
+          "outcome": 203.0,
+          "next_prediction": 203.15000000000094,
+          "error": 29.849999999999227,
+          "update": 30.00000000000017
+        },
+        {
+          "trial": 5,
+          "block": 1,
+          "prediction": 203.15000000000094,
+          "outcome": 166.0,
+          "next_prediction": 167.15000000000074,
+          "error": -37.150000000000944,
+          "update": -36.0000000000002
+        }
+      ],
+      "finite_predictions": 240,
+      "finite_outcomes": 240
+    },
+    "oddball": {
+      "rows": 240,
+      "valid_within_block_updates": 236,
+      "blocks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "sigma_concentration": [
+        10
+      ],
+      "drift_concentration": [
+        30
+      ],
+      "exported_hazard_fields": {
+        "vola": [
+          0.25
+        ],
+        "oddballProb": [
+          0.25
+        ]
+      },
+      "rms_update_degrees": 66.1800631015011,
+      "current_error_slope": 0.9468755052060359,
+      "signed_error_update_crossproduct": 959286.8700000038,
+      "example_rows": [
+        {
+          "trial": 1,
+          "block": 1,
+          "prediction": 0.0,
+          "outcome": 33.0,
+          "next_prediction": 33.75,
+          "error": 33.0,
+          "update": 33.75
+        },
+        {
+          "trial": 2,
+          "block": 1,
+          "prediction": 33.75,
+          "outcome": 10.0,
+          "next_prediction": 8.999999999999996,
+          "error": -23.75,
+          "update": -24.75
+        },
+        {
+          "trial": 3,
+          "block": 1,
+          "prediction": 8.999999999999996,
+          "outcome": 46.0,
+          "next_prediction": 44.24999999999997,
+          "error": 37.0,
+          "update": 35.24999999999997
+        },
+        {
+          "trial": 4,
+          "block": 1,
+          "prediction": 44.24999999999997,
+          "outcome": 333.0,
+          "next_prediction": 333.2000000000007,
+          "error": -71.25,
+          "update": -71.04999999999927
+        },
+        {
+          "trial": 5,
+          "block": 1,
+          "prediction": 333.2000000000007,
+          "outcome": 127.0,
+          "next_prediction": 125.2500000000003,
+          "error": 153.79999999999927,
+          "update": 152.04999999999956
+        }
+      ],
+      "finite_predictions": 240,
+      "finite_outcomes": 240
+    }
+  },
+  "exposure": "Both complete 240-row contexts and all auxiliary fields of participant342 decoded/consumed. Other participant MAT members acquired as ZIP bytes but not decompressed or numerically interpreted. Published all39 summaries exposed.",
+  "resources": {
+    "public_operations_so_far": 21,
+    "known_ingress_body_bytes": 1811039,
+    "conservative_ingress_charge": 8000000,
+    "additional_scientific_read_charge": 25000000,
+    "peak_rss_bytes": 48218112,
+    "unknown": "Provider HTTP fanout/wirebytes/toolhost RSS and actual physical I/O unknown; charges are allowances, not measurements."
+  }
+}

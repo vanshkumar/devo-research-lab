@@ -1,0 +1,180 @@
+{
+  "calculated_at_utc": "2026-11-02T23:27:54.904031+00:00",
+  "purpose": "Cheap equal-information falsifier; standard reference, not a novel claim",
+  "class": "Five reachable outputs; uniform 120 strict rank-utility permutations",
+  "judge": "Exact pairwise signs only; no true utility supplied to any policy",
+  "safety": "Terminal output no worse than incumbent in every consistent world",
+  "results": [
+    {
+      "budget": 0,
+      "worlds": 120,
+      "adaptive_safe_regret_exact": "1/2",
+      "adaptive_safe_regret": 0.5,
+      "direct_champion_regret_exact": "1/2",
+      "analytic_direct_regret_exact": "1/2",
+      "direct_matches_optimal": true,
+      "adaptive_query_uses_min_max": [
+        0,
+        0
+      ],
+      "best_fixed_safe_regret_exact": "1/2",
+      "best_fixed_safe_regret": 0.5,
+      "best_fixed_queries": [],
+      "fixed_designs_examined": 1,
+      "best_fixed_observation_cells": 1,
+      "safety_violations": 0,
+      "incumbent_best_null_worlds": 24
+    },
+    {
+      "budget": 1,
+      "worlds": 120,
+      "adaptive_safe_regret_exact": "1/4",
+      "adaptive_safe_regret": 0.25,
+      "direct_champion_regret_exact": "1/4",
+      "analytic_direct_regret_exact": "1/4",
+      "direct_matches_optimal": true,
+      "adaptive_query_uses_min_max": [
+        1,
+        1
+      ],
+      "best_fixed_safe_regret_exact": "1/4",
+      "best_fixed_safe_regret": 0.25,
+      "best_fixed_queries": [
+        [
+          0,
+          1
+        ]
+      ],
+      "fixed_designs_examined": 10,
+      "best_fixed_observation_cells": 2,
+      "safety_violations": 0,
+      "incumbent_best_null_worlds": 24
+    },
+    {
+      "budget": 2,
+      "worlds": 120,
+      "adaptive_safe_regret_exact": "1/8",
+      "adaptive_safe_regret": 0.125,
+      "direct_champion_regret_exact": "1/8",
+      "analytic_direct_regret_exact": "1/8",
+      "direct_matches_optimal": true,
+      "adaptive_query_uses_min_max": [
+        2,
+        2
+      ],
+      "best_fixed_safe_regret_exact": "3/16",
+      "best_fixed_safe_regret": 0.1875,
+      "best_fixed_queries": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "fixed_designs_examined": 45,
+      "best_fixed_observation_cells": 4,
+      "safety_violations": 0,
+      "incumbent_best_null_worlds": 24
+    },
+    {
+      "budget": 3,
+      "worlds": 120,
+      "adaptive_safe_regret_exact": "1/20",
+      "adaptive_safe_regret": 0.05,
+      "direct_champion_regret_exact": "1/20",
+      "analytic_direct_regret_exact": "1/20",
+      "direct_matches_optimal": true,
+      "adaptive_query_uses_min_max": [
+        3,
+        3
+      ],
+      "best_fixed_safe_regret_exact": "1/8",
+      "best_fixed_safe_regret": 0.125,
+      "best_fixed_queries": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "fixed_designs_examined": 120,
+      "best_fixed_observation_cells": 6,
+      "safety_violations": 0,
+      "incumbent_best_null_worlds": 24
+    },
+    {
+      "budget": 4,
+      "worlds": 120,
+      "adaptive_safe_regret_exact": "0",
+      "adaptive_safe_regret": 0.0,
+      "direct_champion_regret_exact": "0",
+      "analytic_direct_regret_exact": "0",
+      "direct_matches_optimal": true,
+      "adaptive_query_uses_min_max": [
+        4,
+        4
+      ],
+      "best_fixed_safe_regret_exact": "1/10",
+      "best_fixed_safe_regret": 0.1,
+      "best_fixed_queries": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "fixed_designs_examined": 210,
+      "best_fixed_observation_cells": 12,
+      "safety_violations": 0,
+      "incumbent_best_null_worlds": 24
+    }
+  ],
+  "all_direct_budgets_match_optimal": true,
+  "scalar_world_budget_replays": 600,
+  "independent_checks": [
+    "Mask-based Bellman values vs full scalar policy replay",
+    "Independent scalar-filtered version spaces and every terminal safety decision",
+    "Direct scalar tournament vs analytic order-statistic expectation",
+    "All full-budget outputs globally best",
+    "Incumbent-best null always retains incumbent"
+  ],
+  "dp_cache": {
+    "hits": 12610,
+    "misses": 4475,
+    "maxsize": null,
+    "currsize": 4475
+  },
+  "terminal_cache": {
+    "hits": 1304,
+    "misses": 3171,
+    "maxsize": null,
+    "currsize": 3171
+  },
+  "wall_seconds": 0.05812570799999999,
+  "peak_rss_bytes": 15482880,
+  "python": "3.9.6 (default, Oct 19 2026, 19:18:13) \n[Clang 21.0.0 (clang-2100.4.1.1)]",
+  "empirical_records_read": 0,
+  "public_operations_in_process": 0,
+  "randomness": "None; exhaustive finite enumeration"
+}

@@ -1,0 +1,121 @@
+{
+  "created_at": "2026-11-01T06:57:33.097803+00:00",
+  "families": {
+    "primary": [
+      "Van Kleef et al 2004 DOI10.1037/0022-3514.86.1.57",
+      "Ye et al 2023 DOI10.1007/s10726-023-09850-0",
+      "Ferracci et al 2022 DOI10.3390/bs12010008"
+    ],
+    "empirical": [
+      "Ye et al 2023/upbcf",
+      "Ferracci et al 2022"
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://api.osf.io/v2/nodes/upbcf/",
+      "name": "node_upbcf.json",
+      "at": "2026-11-01T06:48:19.260981+00:00",
+      "known_local_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": null,
+      "error": "URLError(gaierror(8, 'nodename nor servname provided, or not known'))",
+      "expected_listing_sha256": null,
+      "listing_match": null
+    },
+    {
+      "url": "https://api.osf.io/v2/nodes/upbcf/",
+      "name": "node_upbcf_ok.json",
+      "at": "2026-11-01T06:48:27.889689+00:00",
+      "known_local_bytes": 4260,
+      "sha256": "5c18d23be33ffe915b92cb4769d5b4920cd60be4f7596e6b47c28d0fc5c22d8b",
+      "status": 200,
+      "error": null,
+      "expected_listing_sha256": null,
+      "listing_match": null
+    },
+    {
+      "url": "https://api.osf.io/v2/nodes/upbcf/files/osfstorage/?page%5Bsize%5D=100",
+      "name": "files_upbcf.json",
+      "at": "2026-11-01T06:48:37.731578+00:00",
+      "known_local_bytes": 1856,
+      "sha256": "cf61648514fa9ed9497c335e483a4dc06b405e86d288e5b42eeb3d4233ca41f7",
+      "status": 200,
+      "error": null,
+      "expected_listing_sha256": null,
+      "listing_match": null
+    },
+    {
+      "url": "https://api.osf.io/v2/nodes/upbcf/files/osfstorage/6480c02bcb70be0028f96dc3/?page%5Bsize%5D=100",
+      "name": "data_code_listing.json",
+      "at": "2026-11-01T06:48:47.925708+00:00",
+      "known_local_bytes": 17349,
+      "sha256": "7046785e334350a9d92a02aab2c3cbe71d5e5bc7ada804196713ca1dbd78ab5c",
+      "status": 200,
+      "error": null,
+      "expected_listing_sha256": null,
+      "listing_match": null
+    },
+    {
+      "url": "https://osf.io/download/2tgzy/",
+      "name": "GDN.Rmd",
+      "at": "2026-11-01T06:49:25.050089+00:00",
+      "known_local_bytes": 4826,
+      "sha256": "006fbfd1608a3de11dcbd004464881e03768b500fd6d40de9d7b58f45b509bce",
+      "status": 200,
+      "error": null,
+      "expected_listing_sha256": "006fbfd1608a3de11dcbd004464881e03768b500fd6d40de9d7b58f45b509bce",
+      "listing_match": true
+    },
+    {
+      "url": "https://osf.io/download/hpc8f/",
+      "name": "Study1_rawdata.csv",
+      "at": "2026-11-01T06:49:29.115868+00:00",
+      "known_local_bytes": 47757,
+      "sha256": "7c886c21731f72d0faf72cd082f8fb9ced05492888d334757d161f72fb5a14ee",
+      "status": 200,
+      "error": null,
+      "expected_listing_sha256": "7c886c21731f72d0faf72cd082f8fb9ced05492888d334757d161f72fb5a14ee",
+      "listing_match": true
+    },
+    {
+      "url": "https://osf.io/download/pr5hv/",
+      "name": "Study1_cleandata.csv",
+      "at": "2026-11-01T06:51:01.146881+00:00",
+      "known_local_bytes": 5957,
+      "sha256": "aeba80854ea5cd3319fb0346a458ddad94580a52f593f96cbefbd6c558b305b8",
+      "status": 200,
+      "error": null,
+      "expected_listing_sha256": "aeba80854ea5cd3319fb0346a458ddad94580a52f593f96cbefbd6c558b305b8",
+      "listing_match": true
+    }
+  ],
+  "external_receipts": [
+    {
+      "path": "sources/001_discovery.json",
+      "bytes": 39575,
+      "sha256": "862d117831889b0f8bac1d0208798ae2dcc0c6af06cda4fc21c6e7b1d096ec3d"
+    },
+    {
+      "path": "sources/002_articles.json",
+      "bytes": 37168,
+      "sha256": "28a8f3d1d667c5a7a063a2269388524ea0825a665aa0971bd102fa6bd52f96c6"
+    },
+    {
+      "path": "sources/003_article_links.json",
+      "bytes": 34642,
+      "sha256": "f08fcbc66f90cff58fbd4a289e71762a2df229256e797c1b9debc872a36ec10d"
+    },
+    {
+      "path": "sources/004_ultimatum_access.json",
+      "bytes": 34034,
+      "sha256": "7f7e6c7e391ff7b7967b2265edd1b875c96b0405e924f8072400a38cdc29f620"
+    }
+  ],
+  "licensing": {
+    "upbcf_node_license": null,
+    "upbcf_access": "public; current user read",
+    "article_2023": "CC-BY4 article, external dataset license not certified"
+  },
+  "version_warning": "Exact retrieved bytes, matching OSF current version-1 listings. Not a certification of historical publication bytes."
+}

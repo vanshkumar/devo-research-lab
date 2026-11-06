@@ -1,0 +1,123 @@
+{
+  "status": "SELECTED_ORIGINAL_SOURCE_AND_CACHED_STATES_VERIFIED",
+  "finished_utc": "2026-11-03T07:15:41.232302+00:00",
+  "new_stability_or_continuation_outcomes_generated": false,
+  "model_tree": "bdb94ca174980e46777f7b1936f539903c688719",
+  "model_source_version": "3.0.0-beta, own 2019 release; not exact 2017",
+  "source_fixed_asset_pins": {
+    "Gg.npy": {
+      "sha256": "01a3c438c8be50dc5fdd8f20d4b48b9063a1bd33e2a0a4af010b8079883d2c10",
+      "bytes": 622808,
+      "git_blob": "07b8ab0aa4471aa19cfae5e662d291493f09819b"
+    },
+    "Gs.npy": {
+      "sha256": "d4b4cf00c11a9bc79b2b6d581ef471f9237c8f09ddd13ec90c866bf19004b3fd",
+      "bytes": 622808,
+      "git_blob": "0a6e1cc361d9fe377f48cbf48e0557fec65debe8"
+    },
+    "emask.npy": {
+      "sha256": "b19b49efcfd78fa471fecaa70cbe765aa319c2db7165add45475f69a053e74e8",
+      "bytes": 359,
+      "git_blob": "ae289f5055e5661739b977cee62935d2f3b0be06"
+    },
+    "FWD.json": {
+      "sha256": "d9e2fb3fec28b196df4b8794668a0ab7825f160b74a8fd4b2b1a55e135d9a748",
+      "git_blob_canonical": "0840d0d732a38e1b76de384310e113ecda8e1405",
+      "local_added_newline": true
+    },
+    "PLM.json": {
+      "sha256": "85fedc98f99c58caa56cbb7a5681d8bc032061ee3857de6ee1286fd5492d03fd",
+      "git_blob_canonical": "87d8afda2195a3fb5a8dec2bd05a1a14ca5104f2",
+      "local_added_newline": true
+    },
+    "initialize.py": {
+      "sha256": "fd045492eed4684e029f3849ae6b57bf20f19d26575510af044742d6a2b4291d",
+      "git_blob": "27bc70d6986e17d00fedf85ffbcaf8cb6b1b7d47"
+    }
+  },
+  "reused_model_helper": {
+    "path": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/reviews/interactome-transient-reachability-2026-11-03/independent_model.py",
+    "sha256": "5c6ffbc618ac7955e78976626efd903008631d9537b6bd057edc93e3c38fc63f",
+    "not_an_independent_review_of_this_helper": true
+  },
+  "cached_input_pins": {
+    "contrary_seed0_finite.npz": {
+      "bytes": 6897826,
+      "sha256": "d204bc889fd0fbd04bb8ad0efa6cd853e0c8ce7a33b749eedd915678b98f79a4"
+    },
+    "contrary_seed0_sham.npz": {
+      "bytes": 9004221,
+      "sha256": "21d0eff1279258b7a535d9c53ac0640d29ee4331aa27e769d39dd54ebad49050"
+    },
+    "contrary_seed1_finite.npz": {
+      "bytes": 6897371,
+      "sha256": "217fac689fa05ea7a59621a0ca4b4ef3a7f4ef43dc3b0030668d3c4bfa41d072"
+    },
+    "contrary_seed1_sham.npz": {
+      "bytes": 9004578,
+      "sha256": "7b16ffcd12ab90a17e226bdf93aac687c8fd83187f8b157c09bb29b2314d0636"
+    }
+  },
+  "cached_section": {
+    "section_neuron": "VB01",
+    "section_source_window_s": [
+      30.0,
+      42.0
+    ],
+    "section_value_source_voltage": 43.89687263267149,
+    "section_min_max": [
+      43.287112058758645,
+      44.680338755547645
+    ]
+  },
+  "background_nonzeros": {
+    "ASKL": 0.24,
+    "ASKR": 0.24,
+    "PLMR": 0.2,
+    "PLML": 0.2
+  },
+  "fwd_nonzeros": {
+    "AVBL": 0.23,
+    "AVBR": 0.23,
+    "PLMR": 0.14,
+    "PLML": 0.14
+  },
+  "neuron_state_motor_counts": [
+    279,
+    558,
+    37
+  ],
+  "actual_noninitial_source_scalar_jacobian_checks": {
+    "seed0_finite": {
+      "source_sparse_rhs_maxabs": 3.031649005909761e-10,
+      "scalar_sparse_rhs_maxabs": 4.2443086082736653e-10,
+      "source_sparse_jac_maxabs": 1.8189894035458565e-12,
+      "central_directional_jac_relative": 4.892207835663495e-10
+    },
+    "seed0_sham": {
+      "source_sparse_rhs_maxabs": 7.275957614183426e-10,
+      "scalar_sparse_rhs_maxabs": 4.850635448860885e-10,
+      "source_sparse_jac_maxabs": 4.547473508864641e-13,
+      "central_directional_jac_relative": 5.411311911534495e-10
+    },
+    "seed1_finite": {
+      "source_sparse_rhs_maxabs": 4.850638409455618e-10,
+      "scalar_sparse_rhs_maxabs": 4.850638409455618e-10,
+      "source_sparse_jac_maxabs": 9.094947017729282e-13,
+      "central_directional_jac_relative": 4.834129630161823e-10
+    },
+    "seed1_sham": {
+      "source_sparse_rhs_maxabs": 4.850635448860885e-10,
+      "scalar_sparse_rhs_maxabs": 4.850635448860885e-10,
+      "source_sparse_jac_maxabs": 9.094947017729282e-13,
+      "central_directional_jac_relative": 5.583416478686187e-10
+    }
+  },
+  "fresh_original_FWD_54step_source_VODE_sparse_Radau_maxabs": 1.6832177493597555e-05,
+  "common_threshold_source_maxabs": 1.8189894035458565e-12,
+  "process_self_elapsed_s": 3.999279042,
+  "rss_bytes_macos": 140165120,
+  "scientific_protocol_revisions": 0,
+  "new_public_operations": 0,
+  "new_empirical_or_protected_inputs": 0
+}

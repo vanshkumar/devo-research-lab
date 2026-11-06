@@ -1,0 +1,50 @@
+# Research-lab state
+
+**CURRENT — Diagnostic sequence CLOSED; curriculum-policy target selected; replacement PREPARED/outgoing native goal PAUSED for sole-owner transfer.**
+
+OutgoingSolultra PI `01a19f91-3d1b-77e1-bb06-1c174831100a`: EXACT2649-character native goal actualPAUSED/readback at updated1793682667/created1793679235/no budget/221967tokens3431seconds. Operator VERIFIEDprepared replacement `01a19fce-063b-7b83-a8dc-c8252b94d097` ordinaryorientationcompleted1793682504/nativegoalNULL BEFORE explicitlyrequesting retirement. ENTIRE adoption/latest127283-1210/pre-handoff203474-3059/operator215416-3260checkpoints and BOTHfullretirementresponses retained registry.pi.native_goal_receipt; earlier accounting in [transfer receipt](lab/history/PI-GOAL-2026-11-03-diagnostic-forecast-handoff.json). Broad mission/fourfinishcriteria unfinished. Outgoing stopsdispatch/sharededits after this finalcloseout; operator now owns archive/sole-ownertransfer/incomingEXACTgoalcreate-readback.
+
+**NEW question:** Do adaptive curriculum policies improve eventual acquisition once their assessment and teaching costs are charged to the same budget, beyond strong simple performance-aware task selection? [Investment](RESEARCH_AGENDA_2026-10-29.md). Genuine target change from prospective capacity measurement to causal training-allocation benefit; previous acquisition/retention question unresolved.
+
+Bank [first forecast pilot](lab/tasks/plasticity-diagnostic-forecast-gate-2026-11-02/RESULT.md): original1Mhistory/sixprefeedbackforecasts/realacquisition;7.602%plannedpointgain but3of6/rawMAEworse/ONElearner. [Matched-state pilot](lab/tasks/plasticity-difficulty-matched-forecast-2026-11-02/RESULT.md) executes8full1Mhistories/fourindependentteacherunits/SAMEfuturetasks. Assaypairedforecasterror14.250%worse thanmarkers/identicalchoices/1of4rankings;calibratedlabelledcopylowererror/initialcompetencelowerregret. ALL80kfutureupdates scalar-replay within6e-15. CLOSEboth fixedrecipes/probe-seedsettingrepair/main; no generalimpossibility/materialnovelty/goalcompletion. Ren2026alreadycoversfuturelearnability/checkpointcomparisons. All states/observations developmentONLY.
+
+IncomingPI owns firstboundedNEWexplicitSolmax exactprior-cost-information/ORIGINALpublishedcurriculum learner/reference gate beforemain—orCLOSE. Matiisen teacher-student/Graves automatedcurriculum are UNCERTIFIEDleads, not assumedrelease/omittedcost/gap. Require realstudentlearning/fairassessment-teachingbudget/strongsimplecontrols/materialconsequence. No arbitrarynewtoy/knownbandittheorem/closeddiagnostic-order-mean-frontier-PMNISTrepair. ALLscientificsource/math/design/code/execution delegated; consequentialclaim needs NEWdistinctindependentchallenge.
+
+ALLscientists nativeidle/completed/jobs0/ONEreporteachcollected. Nov2starts20/cycles16/contextpairs0; completedcycle16archivesONCEatnextrealbooking. HandoffbooksZEROscience. ControllerNov3dayview0/0doesnotrefundNov2; archiveitscompletecurrentdailyrecordONCEatfirstactualNov3booking. Actual05:04:54Z16%remaining/7day84%used/secondaryunavailable/ordinaryallowed;10%floor/capssuspended. Preserve85ops444594722ingressUNCERTIFIED2.8GBSEPARATEreads/current1.296M+11.28Mupdatesplus80kreplay/earlier9.13Msynthetic/full70000MNISTdecode256train64test/auxiliaryexposure/allfailures-qualifications.
+
+Pan20/Flesch/HABITS/memory/reservedworms/Figure4_42/optional210/category remainprotected; oldmousefits/criticalperiod/otherclosedchains CLOSED. No infrastructure/newhumans/payments/credits/contact/publication/protectedrelease. SAMEoperator `01a18836-d7ba-7243-a87b-50fdbe613db3` continuitygoal/30minuteheartbeat ACTIVE. Next: operator archivesexactfinalSTATE/transferssolepolicy-registryowner; incoming creates EXACTunchangedgoalWITHOUTbudget/getACTIVE beforepursuit. Preserve ENTIREnativehistory/accounting/allarchivepointers; newcontext grantsnoallowance/exposure reset.
+
+**Exact native objective to carry unchanged:**
+
+Produce a scientifically consequential, reproducible result about learning and development that changes an informed researcher's belief or next experiment. Current focused question: do learning rules inferred from observed behavior support useful acquisition forecasts when later behavior and feedback must be generated? Advance beyond the existing descriptive benchmark toward a defensible explanatory, predictive or methodological contribution. Keep this question across bounded studies; pivot only for an explicit evidence-based scientific investment decision.
+
+Completion requires: (1) one precise material claim and why it matters relative to the closest prior; (2) a discriminating empirical or mathematical test that earns that claim, with strong simple alternatives, appropriate controls and honest uncertainty; (3) a distinct fresh independent investigator/reviewer actually challenging the strongest remaining explanation and assessing the contribution; and (4) inspectable reproduction artifacts plus a concise synthesis of what was established, what belief or research decision changes, and what remains unearned. A consequential negative result, counterexample, identifiability finding or tested correction can qualify; routine recipe failures or audit agreement alone cannot. Do not manufacture a positive or novelty claim.
+
+Treat the current matched-averaging result and joint count-accuracy audit as milestones, not completion. A manuscript, completed task/review pair, new chat, exhausted local study limit or reached usage reserve does not itself achieve this goal. At each investment decision state how the next bounded test advances the material claim or removes its strongest obstacle; retire low-value tuning and disconnected topic churn. Spend primarily on evidence, not administration.
+
+Operate through the existing lab process only: one Sol/ultra PI, fresh explicit Sol/max scientists for ALL scientific execution and independent review; preserve freezes, all exposure, failed runs, scoped ownership and protected data. No new infrastructure, paid services, credit resets, outside contact or publication. Manual actual usage checks apply to goal continuations and scientific starts/checkpoints; honor the human's existing stop at 10% account allowance remaining or a human stop. Save an honest incomplete checkpoint at that boundary. Keep the existing heartbeat as quiet recovery, not a second research owner. On an authorized PI context handoff preserve this objective and evidence status, retire the outgoing goal without claiming scientific completion, and verify the incoming PI's native goal before it pursues new work.
+
+## Historical state archive
+
+The complete pre-compaction STATE (273,714 bytes; SHA-256 `1413f0bab32f8092634e5e18a6d2cea7ad36533e84e22daa485c7aa017e3bd5c`) is preserved byte for byte in [part 1](lab/history/STATE-2026-11-01T085917Z-part-1.md) and [part 2](lab/history/STATE-2026-11-01T085917Z-part-2.md). Concatenating these parts in order reconstructs it exactly. Each part fits the existing context-read bound. Use task/review artifacts for specific evidence; keep future root STATE updates to CURRENT and these archive pointers instead of appending old versions.
+
+
+The outgoing PI's complete goal handoff is preserved byte for byte in [the November 1 goal handoff](lab/history/STATE-2026-11-01T140106Z-pi-goal-handoff.md); its paused native accounting remains part of this continuing run.
+
+The complete source-gate/direction-change handoff is preserved byte for byte in [the next November 1 goal handoff](lab/history/STATE-2026-11-01T144102Z-pi-goal-handoff.md); both retired native goal histories remain authoritative.
+
+The pre-correction paused handoff and20%goal text are preserved byte-for-byte in [the operations correction archive](lab/history/STATE-2026-11-01-operations-10pct-correction.md); the human's November1 instruction now authorizes10%remaining.
+
+The supported native goal API before/after receipt is [preserved here](lab/history/PI-GOAL-2026-11-01-10pct-resume.json); the scientific objective changes only its allowance floor from20%to10%, with native counters retained.
+
+The pre-consolidation reviewed-human STATE is preserved byte for byte in [the November2 handoff archive](lab/history/STATE-2026-11-02T2116Z-reviewed-human-handoff.md); SHA-256 `be92fcb46db7fe92e27abba7a8f8b1ceb2f4cc7f17cb8be99b3bd317662a401e`. Use current task/review artifacts for ongoing science.
+
+The exact outgoing corrective-feedback handoff is preserved in [the November2 PI handoff](lab/history/STATE-2026-11-02-corrective-feedback-pi-handoff.md); SHA-256 `827cccaa5f5a183c690651f9f8931d31fba26266571b3b39a7873908942af415`.
+
+The complete outgoing motor-assay handoff is preserved byte for byte in [the November2 motor-assay PI archive](lab/history/STATE-2026-11-02-motor-assay-pi-handoff.md); SHA-256 `1b633d6b3df53a56da512da02ea747c288deabe0d44626fc6dd430e216904957`.
+
+The complete outgoing motor-assay/critical-period pivot handoff is preserved byte for byte in [the November3 PI archive](lab/history/STATE-2026-11-03-critical-period-pi-handoff.md); SHA-256 `cced91ae564fc19bc17a48fe8695d4a326b8fd716e7793bb59096f3dacdf4bbb`. Full native goal accounting and retirement are in [the corresponding receipt](lab/history/PI-GOAL-2026-11-03-critical-period-handoff.json).
+
+The complete outgoing critical-period/plasticity pivot handoff is preserved byte for byte in [the November3 plasticity PI archive](lab/history/STATE-2026-11-03-plasticity-retention-pi-handoff.md); SHA-256 `4af00d52077327463057474b970a16fb205f064c66328929dcce7d59fed8ddb5`. Full native accounting/retirement are in [the corresponding receipt](lab/history/PI-GOAL-2026-11-03-plasticity-retention-handoff.json).
+
+The complete outgoing plasticity/diagnostic-forecast pivot handoff is preserved byte for byte in [the November3 diagnostic PI archive](lab/history/STATE-2026-11-03-diagnostic-forecast-pi-handoff.md); SHA-256 `e496472d761d58e57c7e20101ae9b7febd7244b900fdda4e61dc29ac5c66e1ce`. Full native accounting/retirement are in [the corresponding receipt](lab/history/PI-GOAL-2026-11-03-diagnostic-forecast-handoff.json).

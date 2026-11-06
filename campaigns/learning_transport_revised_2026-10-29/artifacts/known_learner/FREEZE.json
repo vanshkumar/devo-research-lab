@@ -1,0 +1,279 @@
+{
+  "date": "2026-10-29",
+  "scope": "synthetic expected conditional law only; Pan data sealed",
+  "selected_prefixes": [
+    {
+      "subject": "NYU-07",
+      "lab": "angelakilab"
+    },
+    {
+      "subject": "CSHL034",
+      "lab": "churchlandlab"
+    },
+    {
+      "subject": "KS017",
+      "lab": "cortexlab"
+    },
+    {
+      "subject": "DY_012",
+      "lab": "danlab"
+    },
+    {
+      "subject": "ZM_2245",
+      "lab": "mainenlab"
+    },
+    {
+      "subject": "SWC_040",
+      "lab": "mrsicflogellab"
+    },
+    {
+      "subject": "CSH_ZAD_009",
+      "lab": "zadorlab"
+    }
+  ],
+  "true_rho": 0.8,
+  "grid": [
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "truth_particles": 2048,
+  "forecast_particles": 512,
+  "grid_particles": 256,
+  "truth_seed_offset": 910000,
+  "fit_tie_tolerance": 0.001,
+  "predictive_success_max_curve_mae": 0.01,
+  "files": [
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/code/known_learner_control.py",
+      "sha256": "2f7b1763dd2ab22a48f84d0fe3511279f3f1817c56c6d2c6bbaac2a1e93e84eb"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/known_learner/PLAN.md",
+      "sha256": "9c5d4eb8141d14ec6095bf8213ff601256778d0a014d212c8dc7fa85ceaca2f5"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/code/common.py",
+      "sha256": "d05a80421368f527068f4c8d953a290480d0023c681f27cbf6718bb8b8d73053"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/code/session_model.py",
+      "sha256": "1eefc9c9f569b20099bb64cf186d64eeeed1b840e411eac6e7dabd9663e62e83"
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/artifacts/rnn/rnnglm32_nested_best.npz",
+      "sha256": "c7f675d18f4143891ed7d2c76d91f74be74da9565fbae5407952768e2c146940"
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/artifacts/baselines/nested_growth_bank.npz",
+      "sha256": "036f3cfedd56e915b051fb29a80a2622cf5a747366ea31aa46b9249a922eea01"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/protocols/FIT_FREEZE.json",
+      "sha256": "e21f59f9c0bc86acf0907c2dd138a45ef33827c60e7b910ce9637c0da68b2c39"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/FIT_DISPOSITION.json",
+      "sha256": "6642d542d8cd791f9183fd23d6ac2fc6a5b25d8549386b0a2d34e092003142b2"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.5/NYU-07.npz",
+      "sha256": "4584dd33d35d33b91705fdda0f5022e4d1a3e35d5c20cc70fbe05555d9f9f50c"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/NYU-07.npz",
+      "sha256": "fe9f1df86e6cb65dd3ec6607589ec976eee186295a03c6d51b08c10528b9df2d"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.7/NYU-07.npz",
+      "sha256": "df32025e46e3a900064abddcb812f19c5076dd92fb53a7309364e54fdc92c195"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.8/NYU-07.npz",
+      "sha256": "3b4c2592221283114c745fc4b7a3e517d425db34efd83bfe8adafd0ec2c2cd7a"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.9/NYU-07.npz",
+      "sha256": "0b1c8023b459fb19cc97cceb7eda711375ab5be65905070e7da746a3c0506171"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_1.0/NYU-07.npz",
+      "sha256": "1bef91a1b0ce94206663ee67d8c69793908afdfd89ee78ab5b833275e9e06c58"
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/data/processed/dev/NYU-07.npz",
+      "sha256": "857d18ed241105a9a70f7f2037a86d7f2c371b4652cbd72987541e4e4b698b88"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.5/CSHL034.npz",
+      "sha256": "80e7aae030f824c04a47347d08b87b80080a55b9d031f510e276c398fb8e90d2"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/CSHL034.npz",
+      "sha256": "278e3499c433e8f9abfb073912d0c1330ff59c24fb43d0cce0fb3a0bd0eb4102"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.7/CSHL034.npz",
+      "sha256": "6b2e033f49dafba0cfea4fb7b3c8cdc86932e2537045b56e5ef2e8fd69d480c0"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.8/CSHL034.npz",
+      "sha256": "678780efa2ca6ab8130bc6739b9e2923bd217f51fc2d0b0dd67ab5776139e2ef"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.9/CSHL034.npz",
+      "sha256": "57836be6f8bd5fe6d0580ee726fd27424bcf21bcec728996a89f2d9f20d90c22"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_1.0/CSHL034.npz",
+      "sha256": "f1043e0d9d2ef99bd228d5d8874e333273ae7f93244fb8ca7041d17ceb925648"
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/data/processed/dev/CSHL034.npz",
+      "sha256": "134786f34e05bcc30b565341befb322413b1356b8f076238ef5945a2c77c7c7a"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.5/KS017.npz",
+      "sha256": "0c1b71090d4d6d4e93d9d1d373e368d7d405fd64e60614da847540a22d710088"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/KS017.npz",
+      "sha256": "66791e4d21e490bad551f89ba18f6d3bb98befab1ffaf8d00e09f34e054ae6eb"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.7/KS017.npz",
+      "sha256": "c2eedf10143124e3e14c79670fc5f6f181c21f62fcb91df1c350e3e7b502dcbf"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.8/KS017.npz",
+      "sha256": "6439a75de0793d1e0d21e34b9634ff640f8390fa74d25fc2c0f1196500ce73fb"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.9/KS017.npz",
+      "sha256": "f432edda2aa5accbcdefab40dad79c1319ae4abc9481326043965d5d5a2ba42d"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_1.0/KS017.npz",
+      "sha256": "2e5e2fc3d5f8e2c31dd263b4745c35f136c18caa687131ac91794281c02f00f4"
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/data/processed/dev/KS017.npz",
+      "sha256": "73c667646307bab6468bc60a9b28171201aeb0d1255850d92cabf5e448ee03ec"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.5/DY_012.npz",
+      "sha256": "745a9343f9e4849adb04814150943e2f85171a861407becd442d48e88cfe4429"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/DY_012.npz",
+      "sha256": "b3dc902f799ec7a4043c239fec78b73eb54fb0ab2939bb38cfd72438a1685d64"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.7/DY_012.npz",
+      "sha256": "7ed81edeab757b8c9743b03e3be742a356a282e2466374dbeebb375e10bc0684"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.8/DY_012.npz",
+      "sha256": "b6257d17d1aa4bb78c254cbf19e8221288e087b412c5f20bd54bd5fe28a78c0a"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.9/DY_012.npz",
+      "sha256": "4c39f3e49b0c9e12b1f3300f5c6fbfd11ad852ec0bcc54511c3c3f30a342d852"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_1.0/DY_012.npz",
+      "sha256": "99e8fcf8462ce391ec704fa08409835911c1e09253cb57bc834bbc1f9b2d59b1"
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/data/processed/dev/DY_012.npz",
+      "sha256": "dd8f9c0d60c3620f28d3f68e0f50c6d82429b9475813ddd5beb916df2216a0b0"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.5/ZM_2245.npz",
+      "sha256": "7a430b349155d33cad0f6fc7d7f00660af265491c59b9425d042c2823a41cfd9"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/ZM_2245.npz",
+      "sha256": "8ab4dad8316f289414fe70afdf3954fc42b094bb0a464923bd0ad9cbf42e44ae"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.7/ZM_2245.npz",
+      "sha256": "7d00e71ff54bcc4b16e961a3469dbeb18d86a825943b879f3837d429c0f28678"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.8/ZM_2245.npz",
+      "sha256": "8d1e4d798e5f58e4971921a1e8ec66ae775b42b94782ba374059de7613faa6f4"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.9/ZM_2245.npz",
+      "sha256": "e2f4e8a347af2a4bcfe489a7694229a3d9842e730348fdd6b4bced71f6b59886"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_1.0/ZM_2245.npz",
+      "sha256": "19630c0ae5da48e4d7672e4b8008d72d5607ab84695fdfa7427ed601ef462864"
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/data/processed/dev/ZM_2245.npz",
+      "sha256": "b5ceffa9918c8c3ad65de81f88087e795833393672c93e23943143e413767430"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.5/SWC_040.npz",
+      "sha256": "09ecacc39143ac2c3eb288d1d0e00603c7c6f6e4f1d7f1566d8c02e69a8d7d2c"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/SWC_040.npz",
+      "sha256": "1f13e23f75f52325b02cf23f5e8a7dee0d6ce6b9c96a271525e91670e21cffe4"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.7/SWC_040.npz",
+      "sha256": "7117d0b43a14feb142667142f0a74631f9a4b7962f9a40d4719d8548c9e1f268"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.8/SWC_040.npz",
+      "sha256": "9a7b0711f8c7caebc6bd3928182424c6ee6dd7a5d318ff4800a4e445f6ad1af8"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.9/SWC_040.npz",
+      "sha256": "946f3e24b8b55275c434aaedb7703f44186be64e45b19574b3fa4902f5580792"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_1.0/SWC_040.npz",
+      "sha256": "7a4aa9d965eef11646a4306847aedf2190d97bb9e18776558bc7b679b503956b"
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/data/processed/dev/SWC_040.npz",
+      "sha256": "14ed31c1f33d79eb1183da627a74665dccbd7b05443c5032a1929cf8b6b9357c"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.5/CSH_ZAD_009.npz",
+      "sha256": "b1c8f7f4bd53e3fea7ccedd3b1171c16247e55fe31f91a118ffb4b8b61b7de56"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.6/CSH_ZAD_009.npz",
+      "sha256": "8b006737fc63c37678a6e17b344ab2a1f679ec490d7756e41abeb9ec2f915bde"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.7/CSH_ZAD_009.npz",
+      "sha256": "a3870ab90b914b3aa2a7a657c4de03ad616dd773f2a98ac34ee1d73a1c6ef3c5"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.8/CSH_ZAD_009.npz",
+      "sha256": "93c1ea395ab8ede84bd139e54429d4d93fac01be782efd3d74ad01765d42f815"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_0.9/CSH_ZAD_009.npz",
+      "sha256": "58bebaaab312fab230956771942b97fd2c49a8f4714157d8438d5492d71d1821"
+    },
+    {
+      "path": "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/rho_1.0/CSH_ZAD_009.npz",
+      "sha256": "fdbfb34ff51fe34c75e4bdb5904e5a46eedb93c1c3366b478ca793a7d6c2d0b9"
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/data/processed/dev/CSH_ZAD_009.npz",
+      "sha256": "81333f88e2230a5852398b3764a22ab0568dbc08ed07f3a25c708efed03f5d3c"
+    }
+  ]
+}

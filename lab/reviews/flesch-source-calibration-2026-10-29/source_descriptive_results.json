@@ -1,0 +1,214 @@
+{
+  "scope": "Consumed source development; no causal or initial-knowledge identification",
+  "B200_early_nonboundary": {
+    "fit": {
+      "0": {
+        "1": {
+          "mean_accuracy": 0.5,
+          "positive_truth_fraction": 0.4722222222222222
+        },
+        "2": {
+          "mean_accuracy": 0.5,
+          "positive_truth_fraction": 0.4305555555555556
+        },
+        "5": {
+          "mean_accuracy": 0.588888888888889,
+          "positive_truth_fraction": 0.46111111111111114
+        },
+        "10": {
+          "mean_accuracy": 0.6916666666666667,
+          "positive_truth_fraction": 0.4583333333333333
+        },
+        "20": {
+          "mean_accuracy": 0.7833333333333332,
+          "positive_truth_fraction": 0.48055555555555557
+        },
+        "40": {
+          "mean_accuracy": 0.8451388888888889,
+          "positive_truth_fraction": 0.47638888888888886
+        }
+      },
+      "200": {
+        "1": {
+          "mean_accuracy": 0.6111111111111112,
+          "positive_truth_fraction": 0.6111111111111112
+        },
+        "2": {
+          "mean_accuracy": 0.5972222222222222,
+          "positive_truth_fraction": 0.5833333333333334
+        },
+        "5": {
+          "mean_accuracy": 0.6611111111111113,
+          "positive_truth_fraction": 0.5666666666666667
+        },
+        "10": {
+          "mean_accuracy": 0.7361111111111112,
+          "positive_truth_fraction": 0.5388888888888889
+        },
+        "20": {
+          "mean_accuracy": 0.8222222222222223,
+          "positive_truth_fraction": 0.5361111111111111
+        },
+        "40": {
+          "mean_accuracy": 0.8715277777777777,
+          "positive_truth_fraction": 0.5069444444444444
+        }
+      }
+    },
+    "check": {
+      "0": {
+        "1": {
+          "mean_accuracy": 0.4166666666666667,
+          "positive_truth_fraction": 0.5833333333333334
+        },
+        "2": {
+          "mean_accuracy": 0.5416666666666666,
+          "positive_truth_fraction": 0.5833333333333334
+        },
+        "5": {
+          "mean_accuracy": 0.6333333333333333,
+          "positive_truth_fraction": 0.5833333333333334
+        },
+        "10": {
+          "mean_accuracy": 0.7416666666666667,
+          "positive_truth_fraction": 0.5583333333333333
+        },
+        "20": {
+          "mean_accuracy": 0.85,
+          "positive_truth_fraction": 0.5166666666666667
+        },
+        "40": {
+          "mean_accuracy": 0.9166666666666666,
+          "positive_truth_fraction": 0.5229166666666667
+        }
+      },
+      "200": {
+        "1": {
+          "mean_accuracy": 0.5,
+          "positive_truth_fraction": 0.4166666666666667
+        },
+        "2": {
+          "mean_accuracy": 0.5416666666666666,
+          "positive_truth_fraction": 0.5
+        },
+        "5": {
+          "mean_accuracy": 0.6166666666666667,
+          "positive_truth_fraction": 0.5333333333333333
+        },
+        "10": {
+          "mean_accuracy": 0.7166666666666667,
+          "positive_truth_fraction": 0.55
+        },
+        "20": {
+          "mean_accuracy": 0.8333333333333334,
+          "positive_truth_fraction": 0.5
+        },
+        "40": {
+          "mean_accuracy": 0.8999999999999999,
+          "positive_truth_fraction": 0.49583333333333335
+        }
+      }
+    },
+    "all": {
+      "0": {
+        "1": {
+          "mean_accuracy": 0.4791666666666667,
+          "positive_truth_fraction": 0.5
+        },
+        "2": {
+          "mean_accuracy": 0.5104166666666666,
+          "positive_truth_fraction": 0.46875
+        },
+        "5": {
+          "mean_accuracy": 0.6,
+          "positive_truth_fraction": 0.49166666666666664
+        },
+        "10": {
+          "mean_accuracy": 0.7041666666666666,
+          "positive_truth_fraction": 0.48333333333333334
+        },
+        "20": {
+          "mean_accuracy": 0.7999999999999999,
+          "positive_truth_fraction": 0.4895833333333333
+        },
+        "40": {
+          "mean_accuracy": 0.8630208333333332,
+          "positive_truth_fraction": 0.48802083333333335
+        }
+      },
+      "200": {
+        "1": {
+          "mean_accuracy": 0.5833333333333334,
+          "positive_truth_fraction": 0.5625
+        },
+        "2": {
+          "mean_accuracy": 0.5833333333333334,
+          "positive_truth_fraction": 0.5625
+        },
+        "5": {
+          "mean_accuracy": 0.65,
+          "positive_truth_fraction": 0.5583333333333333
+        },
+        "10": {
+          "mean_accuracy": 0.7312500000000001,
+          "positive_truth_fraction": 0.5416666666666666
+        },
+        "20": {
+          "mean_accuracy": 0.8249999999999998,
+          "positive_truth_fraction": 0.5270833333333333
+        },
+        "40": {
+          "mean_accuracy": 0.8786458333333332,
+          "positive_truth_fraction": 0.5041666666666667
+        }
+      }
+    }
+  },
+  "final_256_scoring": {
+    "sgd_oja": {
+      "B200": {
+        "population_curve_mae_pp": 21.526462405146525,
+        "energy_score": 0.5573951359882444,
+        "conditional_mc_se_mae_pp": 0.11220151618411181
+      },
+      "Interleaved": {
+        "population_curve_mae_pp": 13.17640263023135,
+        "energy_score": 0.3621118135647001,
+        "conditional_mc_se_mae_pp": 0.10978566236160274
+      }
+    },
+    "context_value": {
+      "B200": {
+        "population_curve_mae_pp": 10.26135720422658,
+        "energy_score": 0.24749101165323162,
+        "conditional_mc_se_mae_pp": 0.1142001100391115
+      },
+      "Interleaved": {
+        "population_curve_mae_pp": 2.447848737673476,
+        "energy_score": 0.18441804702687548,
+        "conditional_mc_se_mae_pp": 0.04055092093564287
+      }
+    },
+    "exposure_growth": {
+      "B200": {
+        "population_curve_mae_pp": 10.305640471055847,
+        "energy_score": 0.24277338631197665,
+        "conditional_mc_se_mae_pp": 0.11736270072909272
+      },
+      "Interleaved": {
+        "population_curve_mae_pp": 2.763326478740187,
+        "energy_score": 0.18521831729279384,
+        "conditional_mc_se_mae_pp": 0.060245138021304816
+      }
+    }
+  },
+  "development_utility": {
+    "equal_group_energy_advantage": -0.001958677537668307,
+    "stratified_person_bootstrap_two_sided95": [
+      -0.005646810101105606,
+      0.0015989487776971645
+    ],
+    "interpretation": "Development only; full calibration unfinished; no demonstrated source utility advantage"
+  },
+  "target_response_values_read": 0
+}

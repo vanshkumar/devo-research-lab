@@ -1,0 +1,63 @@
+{
+  "utc": "2026-11-03T06:57:40.979216+00:00",
+  "new_ODE_executions": 0,
+  "same_frozen_contrary_only": true,
+  "frozen_bytes_unchanged": true,
+  "new_background_threshold_source_maxabs": 1.8189894035458565e-12,
+  "renderer": {
+    "late_motor_difference_rms": 3.8911262620581337,
+    "challenge_motor_difference_rms": 19.008506239650288,
+    "temporal_filter_state_added": false
+  },
+  "original_source_new_trajectory_checks": [
+    {
+      "branch": "finite",
+      "source_RHS_maxabs": 4.547473508864641e-08,
+      "source_Jacobian_maxabs": 9.094947017729282e-13
+    },
+    {
+      "branch": "sham",
+      "source_RHS_maxabs": 4.559115041047335e-08,
+      "source_Jacobian_maxabs": 1.8189894035458565e-12
+    }
+  ],
+  "late_descriptions": {
+    "finite": {
+      "full_voltage_temporal_rms": 2.0928602112722837e-10,
+      "full_gate_temporal_rms": 7.542897686001714e-13,
+      "VB01_30_42_peak_times": [],
+      "VB01_interpeak_intervals_s": [],
+      "VB01_peak_values": []
+    },
+    "sham": {
+      "full_voltage_temporal_rms": 4.316851840783695,
+      "full_gate_temporal_rms": 0.005548995969265101,
+      "VB01_30_42_peak_times": [
+        30.78,
+        33.42,
+        36.06,
+        38.7,
+        41.34
+      ],
+      "VB01_interpeak_intervals_s": [
+        2.6400000000000006,
+        2.6400000000000006,
+        2.6400000000000006,
+        2.6400000000000006
+      ],
+      "VB01_peak_values": [
+        44.680168260193696,
+        44.68024523945951,
+        44.680299121560445,
+        44.68033019627339,
+        44.680338755547645
+      ]
+    }
+  },
+  "late_motor_mean_difference_rms": 3.857418226978218,
+  "conditional_Newton_UNRUN": "Both branches nearsteady prerequisite fails: sham is dynamic; no root hunt or extra continuation.",
+  "phase_conclusion": "The frozen single-time-shift check fails; no claim that every possible phase/long-transient mechanism is excluded.",
+  "strongest_remaining_alternative": "Sham may be a long transient toward the same fixed point; current finite horizon does not certify a separate stable cycle/basin.",
+  "elapsed_s": 0.06085037500000001,
+  "rss_bytes_macos": 156712960
+}

@@ -1,0 +1,270 @@
+{
+  "ENDPOINTS.npz": {
+    "input_pin": {
+      "path": "lab/tasks/learning-forecast-count-joint-audit-2026-11-01/ENDPOINTS.npz",
+      "containing_bytes": 1870785,
+      "decoded_bytes": 7088320,
+      "sha256": "6b6d699fa2dd445ebda98f43a7921271b5e341c13ae75dac4ca6bc0d8a55aac5"
+    },
+    "schemas": {
+      "subjects": {
+        "shape": [
+          24
+        ],
+        "dtype": "<U8"
+      },
+      "labs": {
+        "shape": [
+          24
+        ],
+        "dtype": "<U14"
+      },
+      "observed_accuracy": {
+        "shape": [
+          24,
+          6,
+          2
+        ],
+        "dtype": "float64"
+      },
+      "observed_opportunities": {
+        "shape": [
+          24,
+          6,
+          2
+        ],
+        "dtype": "int64"
+      },
+      "observed_successes": {
+        "shape": [
+          24,
+          6,
+          2
+        ],
+        "dtype": "int64"
+      },
+      "rnn_accuracy": {
+        "shape": [
+          24,
+          512,
+          6,
+          2
+        ],
+        "dtype": "float64"
+      },
+      "rnn_successes": {
+        "shape": [
+          24,
+          512,
+          6,
+          2
+        ],
+        "dtype": "int64"
+      },
+      "rnn_opportunities": {
+        "shape": [
+          24,
+          512,
+          6,
+          2
+        ],
+        "dtype": "int64"
+      },
+      "growth_accuracy": {
+        "shape": [
+          24,
+          512,
+          6,
+          2
+        ],
+        "dtype": "float64"
+      },
+      "growth_successes": {
+        "shape": [
+          24,
+          512,
+          6,
+          2
+        ],
+        "dtype": "int64"
+      },
+      "growth_opportunities": {
+        "shape": [
+          24,
+          512,
+          6,
+          2
+        ],
+        "dtype": "int64"
+      }
+    }
+  },
+  "COMPARISON_OBJECTS.npz": {
+    "input_pin": {
+      "path": "lab/tasks/learning-forecast-count-joint-audit-2026-11-01/COMPARISON_OBJECTS.npz",
+      "containing_bytes": 2265309,
+      "decoded_bytes": 11811136,
+      "sha256": "2c7f26c9e70c4fb2c0213ece3fa5aceb266b29fcfe0960d712c523e103c1bf09"
+    },
+    "schemas": {
+      "subjects": {
+        "shape": [
+          24
+        ],
+        "dtype": "<U8"
+      },
+      "labs": {
+        "shape": [
+          24
+        ],
+        "dtype": "<U14"
+      },
+      "generated_categories": {
+        "shape": [
+          2,
+          24,
+          512,
+          6,
+          2,
+          3
+        ],
+        "dtype": "float64"
+      },
+      "observed_categories": {
+        "shape": [
+          24,
+          6,
+          2,
+          3
+        ],
+        "dtype": "float64"
+      },
+      "opportunities": {
+        "shape": [
+          2,
+          24,
+          512,
+          6,
+          2
+        ],
+        "dtype": "int64"
+      },
+      "successes": {
+        "shape": [
+          2,
+          24,
+          512,
+          6,
+          2
+        ],
+        "dtype": "int64"
+      },
+      "observed_opportunities": {
+        "shape": [
+          24,
+          6,
+          2
+        ],
+        "dtype": "int64"
+      },
+      "observed_successes": {
+        "shape": [
+          24,
+          6,
+          2
+        ],
+        "dtype": "int64"
+      }
+    }
+  },
+  "SCORES.npz": {
+    "input_pin": {
+      "path": "lab/tasks/learning-forecast-count-joint-audit-2026-11-01/SCORES.npz",
+      "containing_bytes": 395671,
+      "decoded_bytes": 421184,
+      "sha256": "1f7cece02eada666ea3a3f1e20bd0e804bd5c97a73577ab7b36b01ee13c68585"
+    },
+    "schemas": {
+      "subjects": {
+        "shape": [
+          24
+        ],
+        "dtype": "<U8"
+      },
+      "labs": {
+        "shape": [
+          24
+        ],
+        "dtype": "<U14"
+      },
+      "joint_v": {
+        "shape": [
+          2,
+          24,
+          6,
+          2
+        ],
+        "dtype": "float64"
+      },
+      "joint_u": {
+        "shape": [
+          2,
+          24,
+          6,
+          2
+        ],
+        "dtype": "float64"
+      },
+      "count_v": {
+        "shape": [
+          2,
+          24,
+          6,
+          2
+        ],
+        "dtype": "float64"
+      },
+      "count_u": {
+        "shape": [
+          2,
+          24,
+          6,
+          2
+        ],
+        "dtype": "float64"
+      },
+      "joint_u_pseudovalues": {
+        "shape": [
+          2,
+          24,
+          512
+        ],
+        "dtype": "float64"
+      },
+      "count_u_pseudovalues": {
+        "shape": [
+          2,
+          24,
+          512
+        ],
+        "dtype": "float64"
+      },
+      "joint_block_u": {
+        "shape": [
+          2,
+          24,
+          8
+        ],
+        "dtype": "float64"
+      },
+      "count_block_u": {
+        "shape": [
+          2,
+          24,
+          8
+        ],
+        "dtype": "float64"
+      }
+    }
+  }
+}

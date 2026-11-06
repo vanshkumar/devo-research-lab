@@ -1,0 +1,4084 @@
+{
+  "started_at": "2026-11-01T07:42:53.684317+00:00",
+  "ended_at": "2026-11-01T07:43:00.108758+00:00",
+  "plan_sha256": "a933aa8e5ebd82d24136aefb57b8e4d3496569f44389f2254eb8890e804df2bd",
+  "replicates": 200,
+  "source_seed": 2026110103,
+  "paired_evaluation_seed": 2026110104,
+  "author_code_imported": false,
+  "original_fit_verification": {
+    "B": {
+      "selected_penalty": 0.01,
+      "cv_losses": [
+        0.04769421487207314,
+        0.04768246628202621,
+        0.047726269186437194,
+        0.04925987413684886,
+        0.05731060596541945
+      ],
+      "max_original_forecast_difference": 9.667511235988968e-11,
+      "nonuniform_moments_vs_direct_max_radians": 4.845235324069108e-11
+    },
+    "H": {
+      "selected_penalty": 0.1,
+      "cv_losses": [
+        0.047138185192114046,
+        0.04700088901503112,
+        0.04666850909411441,
+        0.04747857968402112,
+        0.054071594521694605
+      ],
+      "max_original_forecast_difference": 2.460920356384122e-11,
+      "nonuniform_moments_vs_direct_max_radians": 1.4449552665496412e-11
+    }
+  },
+  "summary": {
+    "source_gain": {
+      "percentiles_2_5_50_97_5": [
+        -0.0010827917371525162,
+        0.01363070360743468,
+        0.02914293362817496
+      ],
+      "mean": 0.013299278846841239,
+      "n_at_least_5_percent": 0,
+      "min": -0.015030394949137271,
+      "max": 0.038910264285856866
+    },
+    "source_plus_paired_evaluation_gain": {
+      "percentiles_2_5_50_97_5": [
+        -0.010940957725727379,
+        0.01348746065586054,
+        0.035187832867353004
+      ],
+      "mean": 0.01283234034345888,
+      "n_at_least_5_percent": 1,
+      "min": -0.016922075741729214,
+      "max": 0.05241440457076918
+    },
+    "both_contexts_positive": 54,
+    "original_joint_passes": 0,
+    "penalty_counts": {
+      "B": {
+        "0.001": 26,
+        "0.01": 46,
+        "0.1": 119,
+        "1.0": 9,
+        "10.0": 0
+      },
+      "H": {
+        "0.001": 18,
+        "0.01": 30,
+        "0.1": 120,
+        "1.0": 32,
+        "10.0": 0
+      }
+    }
+  },
+  "rows": [
+    {
+      "rep": 0,
+      "source_gain": 0.014201507212215247,
+      "source_plus_paired_evaluation_gain": 0.01563723253715077,
+      "context_gain": {
+        "0": 0.02609875429678299,
+        "1": -0.0025745649752162425
+      },
+      "conditional_person_bootstrap95": [
+        0.005955557210695095,
+        0.02095886725877232
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05868063512904056,
+      "H_loss": 0.057847281666038114
+    },
+    {
+      "rep": 1,
+      "source_gain": 0.020725150004444415,
+      "source_plus_paired_evaluation_gain": 0.015589170641987171,
+      "context_gain": {
+        "0": 0.035627762443871,
+        "1": -0.00032801565761220175
+      },
+      "conditional_person_bootstrap95": [
+        0.0031551292011336106,
+        0.03554437898119332
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05858595008232964,
+      "H_loss": 0.05737174747872047
+    },
+    {
+      "rep": 2,
+      "source_gain": 0.0003460864788275009,
+      "source_plus_paired_evaluation_gain": -0.012425459494270763,
+      "context_gain": {
+        "0": 0.01327065599076771,
+        "1": -0.017358695699524196
+      },
+      "conditional_person_bootstrap95": [
+        -0.026932359165254736,
+        0.02760397044987988
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.001
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05807141696029672,
+      "H_loss": 0.058051319228080406
+    },
+    {
+      "rep": 3,
+      "source_gain": 0.02495668466401535,
+      "source_plus_paired_evaluation_gain": 0.015757485539228844,
+      "context_gain": {
+        "0": 0.04385980993290006,
+        "1": -0.0015065371686768803
+      },
+      "conditional_person_bootstrap95": [
+        0.002028036458145524,
+        0.04528191294077991
+      ],
+      "penalties": {
+        "B": 0.001,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05967446143049735,
+      "H_loss": 0.05818518471408148
+    },
+    {
+      "rep": 4,
+      "source_gain": -0.014283763395865012,
+      "source_plus_paired_evaluation_gain": -0.007173282659823421,
+      "context_gain": {
+        "0": -0.004465549817743275,
+        "1": -0.027988864845438277
+      },
+      "conditional_person_bootstrap95": [
+        -0.03225516183972682,
+        0.0040209247028325755
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.001
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05769605383317924,
+      "H_loss": 0.058520170615007465
+    },
+    {
+      "rep": 5,
+      "source_gain": 0.010915536533233183,
+      "source_plus_paired_evaluation_gain": 0.006454240376889464,
+      "context_gain": {
+        "0": 0.019999705606451035,
+        "1": -0.001996656101384442
+      },
+      "conditional_person_bootstrap95": [
+        -0.008120593653290936,
+        0.02575996615267392
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05822332731916254,
+      "H_loss": 0.05758778846272383
+    },
+    {
+      "rep": 6,
+      "source_gain": 0.01876103428596987,
+      "source_plus_paired_evaluation_gain": 0.022972207199832506,
+      "context_gain": {
+        "0": 0.03904813543082797,
+        "1": -0.009476888785578064
+      },
+      "conditional_person_bootstrap95": [
+        0.006559955331130509,
+        0.027730992502296305
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05863532463723259,
+      "H_loss": 0.05753526530134449
+    },
+    {
+      "rep": 7,
+      "source_gain": 0.018009265112635786,
+      "source_plus_paired_evaluation_gain": 0.021408796115291895,
+      "context_gain": {
+        "0": 0.027215673976791588,
+        "1": 0.00526593087288274
+      },
+      "conditional_person_bootstrap95": [
+        0.002511424176180008,
+        0.029513218463482663
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05879092834087002,
+      "H_loss": 0.05773214692616132
+    },
+    {
+      "rep": 8,
+      "source_gain": -0.015030394949137271,
+      "source_plus_paired_evaluation_gain": -0.012639683252373857,
+      "context_gain": {
+        "0": -0.004761021476750615,
+        "1": -0.02921305383052797
+      },
+      "conditional_person_bootstrap95": [
+        -0.042713713291620506,
+        0.008083319770291834
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05852356031663391,
+      "H_loss": 0.05940319254202257
+    },
+    {
+      "rep": 9,
+      "source_gain": 0.015478995941156648,
+      "source_plus_paired_evaluation_gain": 0.011542536126535108,
+      "context_gain": {
+        "0": 0.02036987081679531,
+        "1": 0.008742003439049961
+      },
+      "conditional_person_bootstrap95": [
+        -0.0020590582333484975,
+        0.033684917931619325
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05936705374031139,
+      "H_loss": 0.058448111356426684
+    },
+    {
+      "rep": 10,
+      "source_gain": 0.014879489482706787,
+      "source_plus_paired_evaluation_gain": 0.027094861430337125,
+      "context_gain": {
+        "0": 0.027893705630591126,
+        "1": -0.0037209469262675654
+      },
+      "conditional_person_bootstrap95": [
+        -0.004367044983986079,
+        0.02946917028937901
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05990757192082072,
+      "H_loss": 0.05901617783449037
+    },
+    {
+      "rep": 11,
+      "source_gain": 0.00939313881491155,
+      "source_plus_paired_evaluation_gain": 0.021881748270963453,
+      "context_gain": {
+        "0": 0.020793278033348406,
+        "1": -0.006790264156942616
+      },
+      "conditional_person_bootstrap95": [
+        -0.004591487563562612,
+        0.026952420025708673
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05916491006925306,
+      "H_loss": 0.05860916585600081
+    },
+    {
+      "rep": 12,
+      "source_gain": 0.005682044514461193,
+      "source_plus_paired_evaluation_gain": 0.023562689725187713,
+      "context_gain": {
+        "0": 0.018369813582938876,
+        "1": -0.011898563675729612
+      },
+      "conditional_person_bootstrap95": [
+        -0.012936802489794957,
+        0.02492589637241126
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05819335333544889,
+      "H_loss": 0.0578626961113511
+    },
+    {
+      "rep": 13,
+      "source_gain": 0.0172231426822681,
+      "source_plus_paired_evaluation_gain": 0.012946252654577939,
+      "context_gain": {
+        "0": 0.04549861451563275,
+        "1": -0.025404267848698092
+      },
+      "conditional_person_bootstrap95": [
+        -0.006750237504023998,
+        0.036623312498630316
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.001
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06085652602081846,
+      "H_loss": 0.05980838539001474
+    },
+    {
+      "rep": 14,
+      "source_gain": 0.02909642600465112,
+      "source_plus_paired_evaluation_gain": 0.0050986299132556034,
+      "context_gain": {
+        "0": 0.051124887910854455,
+        "1": -0.002925371441819813
+      },
+      "conditional_person_bootstrap95": [
+        0.004671807469071805,
+        0.0498932485465105
+      ],
+      "penalties": {
+        "B": 0.001,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06020937610699759,
+      "H_loss": 0.05845749845031413
+    },
+    {
+      "rep": 15,
+      "source_gain": 0.017972483131621253,
+      "source_plus_paired_evaluation_gain": 0.013577370089977947,
+      "context_gain": {
+        "0": 0.026860788798536483,
+        "1": 0.005435639722076502
+      },
+      "conditional_person_bootstrap95": [
+        -0.010463011691513124,
+        0.04337953229473626
+      ],
+      "penalties": {
+        "B": 0.001,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.059702644943753484,
+      "H_loss": 0.0586296401645887
+    },
+    {
+      "rep": 16,
+      "source_gain": 0.011085929329485489,
+      "source_plus_paired_evaluation_gain": 0.018638141997745827,
+      "context_gain": {
+        "0": 0.02022403076668111,
+        "1": -0.0016231072561656568
+      },
+      "conditional_person_bootstrap95": [
+        -0.007644473753425561,
+        0.02331721583810789
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.0582475718878167,
+      "H_loss": 0.05760184342225424
+    },
+    {
+      "rep": 17,
+      "source_gain": 0.016897610291397802,
+      "source_plus_paired_evaluation_gain": 0.021561256673276574,
+      "context_gain": {
+        "0": 0.02848913420759369,
+        "1": 0.0002733226665712074
+      },
+      "conditional_person_bootstrap95": [
+        0.0034969300593628468,
+        0.026797957931264535
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05883286579220941,
+      "H_loss": 0.05783873095372655
+    },
+    {
+      "rep": 18,
+      "source_gain": 0.0018122087569363288,
+      "source_plus_paired_evaluation_gain": -4.471706753017557e-05,
+      "context_gain": {
+        "0": 0.008453588155113212,
+        "1": -0.007569392834869015
+      },
+      "conditional_person_bootstrap95": [
+        -0.016653920584003556,
+        0.017132987191845594
+      ],
+      "penalties": {
+        "B": 0.001,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05847439830475548,
+      "H_loss": 0.05836843048809102
+    },
+    {
+      "rep": 19,
+      "source_gain": 0.01833321453726733,
+      "source_plus_paired_evaluation_gain": 0.03683524363570845,
+      "context_gain": {
+        "0": 0.02889580066284847,
+        "1": 0.003235683124738209
+      },
+      "conditional_person_bootstrap95": [
+        -0.003001667473379532,
+        0.03661172789956728
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05987496536286661,
+      "H_loss": 0.058777264777457726
+    },
+    {
+      "rep": 20,
+      "source_gain": 0.014484164919458364,
+      "source_plus_paired_evaluation_gain": 0.02607955568595466,
+      "context_gain": {
+        "0": 0.016865966544054922,
+        "1": 0.011188905530276627
+      },
+      "conditional_person_bootstrap95": [
+        -0.0007929653031377991,
+        0.026148222902502894
+      ],
+      "penalties": {
+        "B": 0.001,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.0597446939000139,
+      "H_loss": 0.05887934190050354
+    },
+    {
+      "rep": 21,
+      "source_gain": 0.007030299764131609,
+      "source_plus_paired_evaluation_gain": 0.011249455536768482,
+      "context_gain": {
+        "0": 0.013523553240468056,
+        "1": -0.001886759640932878
+      },
+      "conditional_person_bootstrap95": [
+        -0.009159426877391378,
+        0.02107070522860531
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05811860531970962,
+      "H_loss": 0.057710014102438804
+    },
+    {
+      "rep": 22,
+      "source_gain": -0.0030110499559574677,
+      "source_plus_paired_evaluation_gain": -0.010370209488849813,
+      "context_gain": {
+        "0": 0.008358173727435747,
+        "1": -0.019506759865537626
+      },
+      "conditional_person_bootstrap95": [
+        -0.01904101825784054,
+        0.009588776821724779
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05942603341272135,
+      "H_loss": 0.05960496816801146
+    },
+    {
+      "rep": 23,
+      "source_gain": 0.00499187418562641,
+      "source_plus_paired_evaluation_gain": -0.00032325588296178154,
+      "context_gain": {
+        "0": 0.015313569150643525,
+        "1": -0.01036565792748112
+      },
+      "conditional_person_bootstrap95": [
+        -0.0034504366664032003,
+        0.015160481931882455
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06009636852788571,
+      "H_loss": 0.05979637501718147
+    },
+    {
+      "rep": 24,
+      "source_gain": 7.879347433725759e-05,
+      "source_plus_paired_evaluation_gain": -0.0010808273709908,
+      "context_gain": {
+        "0": 0.004747598964896738,
+        "1": -0.006448544731316508
+      },
+      "conditional_person_bootstrap95": [
+        -0.01955827295220397,
+        0.013911797767496134
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05808610706150135,
+      "H_loss": 0.05808153025531525
+    },
+    {
+      "rep": 25,
+      "source_gain": 0.003920649904934792,
+      "source_plus_paired_evaluation_gain": -0.004908840195970932,
+      "context_gain": {
+        "0": 0.01141139447667705,
+        "1": -0.006871507787700182
+      },
+      "conditional_person_bootstrap95": [
+        -0.029393021548556664,
+        0.029660782563527457
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05915212201773695,
+      "H_loss": 0.05892020725617142
+    },
+    {
+      "rep": 26,
+      "source_gain": 0.008025562840951017,
+      "source_plus_paired_evaluation_gain": 0.008717262600775544,
+      "context_gain": {
+        "0": 0.013675626161093968,
+        "1": 0.00012545224323123882
+      },
+      "conditional_person_bootstrap95": [
+        -0.011775548832615317,
+        0.027071038489965116
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05892563321909461,
+      "H_loss": 0.05845272184675193
+    },
+    {
+      "rep": 27,
+      "source_gain": 0.019034604445680947,
+      "source_plus_paired_evaluation_gain": 0.034457103101526054,
+      "context_gain": {
+        "0": 0.03526669438676533,
+        "1": -0.0038261043925926774
+      },
+      "conditional_person_bootstrap95": [
+        -0.006753595421073548,
+        0.038917992857452906
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05843568097695774,
+      "H_loss": 0.057323380904047344
+    },
+    {
+      "rep": 28,
+      "source_gain": 0.015339754894217572,
+      "source_plus_paired_evaluation_gain": 0.01879206728050664,
+      "context_gain": {
+        "0": 0.02252753519132522,
+        "1": 0.004815360555177284
+      },
+      "conditional_person_bootstrap95": [
+        -0.006263356377383944,
+        0.032592667981123286
+      ],
+      "penalties": {
+        "B": 0.001,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06086894602169888,
+      "H_loss": 0.05993523130905666
+    },
+    {
+      "rep": 29,
+      "source_gain": 0.02311552244746473,
+      "source_plus_paired_evaluation_gain": 0.03517019897327345,
+      "context_gain": {
+        "0": 0.039341815188232876,
+        "1": -7.927926284367892e-05
+      },
+      "conditional_person_bootstrap95": [
+        0.0044877347711833075,
+        0.04003997667502472
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.059318568070251536,
+      "H_loss": 0.05794738837847217
+    },
+    {
+      "rep": 30,
+      "source_gain": 0.005070707230984572,
+      "source_plus_paired_evaluation_gain": -0.0012340818272114085,
+      "context_gain": {
+        "0": 0.014515947087948344,
+        "1": -0.007944368684064118
+      },
+      "conditional_person_bootstrap95": [
+        -0.014620881374468236,
+        0.027593724467774004
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05869507518460806,
+      "H_loss": 0.05839744964244628
+    },
+    {
+      "rep": 31,
+      "source_gain": 0.008295709855090094,
+      "source_plus_paired_evaluation_gain": 0.008967015400523803,
+      "context_gain": {
+        "0": 0.01279373715968457,
+        "1": 0.0019966048733086605
+      },
+      "conditional_person_bootstrap95": [
+        -0.00568941940034311,
+        0.01879272854140627
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.058102914327656574,
+      "H_loss": 0.05762090940865918
+    },
+    {
+      "rep": 32,
+      "source_gain": 0.00500158938757278,
+      "source_plus_paired_evaluation_gain": 0.01678204601176503,
+      "context_gain": {
+        "0": 0.013145911267229526,
+        "1": -0.006625177525211523
+      },
+      "conditional_person_bootstrap95": [
+        -0.006614154532009453,
+        0.018810012091640942
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05958745571799785,
+      "H_loss": 0.05928942373184625
+    },
+    {
+      "rep": 33,
+      "source_gain": 0.01753679658996743,
+      "source_plus_paired_evaluation_gain": 0.019304705443188408,
+      "context_gain": {
+        "0": 0.03418918562549644,
+        "1": -0.005710939721589536
+      },
+      "conditional_person_bootstrap95": [
+        0.001607975446567879,
+        0.03082178085106915
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.058366835780381675,
+      "H_loss": 0.057343268453701086
+    },
+    {
+      "rep": 34,
+      "source_gain": 0.024872843078495688,
+      "source_plus_paired_evaluation_gain": 0.023912392543202654,
+      "context_gain": {
+        "0": 0.042362961024209334,
+        "1": -0.00040118721271587
+      },
+      "conditional_person_bootstrap95": [
+        0.014623659792333986,
+        0.03606364261811463
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05936614155978015,
+      "H_loss": 0.05788953683658798
+    },
+    {
+      "rep": 35,
+      "source_gain": 0.008869180310568825,
+      "source_plus_paired_evaluation_gain": 0.018145837447112956,
+      "context_gain": {
+        "0": 0.02428004801250072,
+        "1": -0.013708845463077601
+      },
+      "conditional_person_bootstrap95": [
+        -0.017298084366985038,
+        0.035520066583099835
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06010934992235453,
+      "H_loss": 0.05957622925954209
+    },
+    {
+      "rep": 36,
+      "source_gain": 0.02461357098878325,
+      "source_plus_paired_evaluation_gain": 0.032061978058586016,
+      "context_gain": {
+        "0": 0.04425643308483429,
+        "1": -0.004185910565833506
+      },
+      "conditional_person_bootstrap95": [
+        0.005940944979819982,
+        0.03781384502969282
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06017824066308653,
+      "H_loss": 0.058697039264545565
+    },
+    {
+      "rep": 37,
+      "source_gain": 0.011905715877573386,
+      "source_plus_paired_evaluation_gain": 0.0045667643315094875,
+      "context_gain": {
+        "0": 0.01763777406277578,
+        "1": 0.003782273909825773
+      },
+      "conditional_person_bootstrap95": [
+        -0.0020539534764081654,
+        0.02227957726932044
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.058495960872067536,
+      "H_loss": 0.05779952458193905
+    },
+    {
+      "rep": 38,
+      "source_gain": 0.018595823370265774,
+      "source_plus_paired_evaluation_gain": 0.019518154974267676,
+      "context_gain": {
+        "0": 0.0331088210035132,
+        "1": -0.0028182440917583484
+      },
+      "conditional_person_bootstrap95": [
+        0.005699461062662914,
+        0.02856958900372121
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06037006843763669,
+      "H_loss": 0.059247437308119544
+    },
+    {
+      "rep": 39,
+      "source_gain": 0.010630884237867844,
+      "source_plus_paired_evaluation_gain": 0.010433402356409993,
+      "context_gain": {
+        "0": 0.010439368357110124,
+        "1": 0.010892069109648572
+      },
+      "conditional_person_bootstrap95": [
+        -0.005908679702210878,
+        0.025929900426031577
+      ],
+      "penalties": {
+        "B": 1.0,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05993657491347796,
+      "H_loss": 0.05929939612395848
+    },
+    {
+      "rep": 40,
+      "source_gain": 0.023934730591007924,
+      "source_plus_paired_evaluation_gain": 0.021101877559591142,
+      "context_gain": {
+        "0": 0.03578342949917945,
+        "1": 0.007351482281317878
+      },
+      "conditional_person_bootstrap95": [
+        0.013304790964130897,
+        0.03617807456016566
+      ],
+      "penalties": {
+        "B": 1.0,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06019187445049846,
+      "H_loss": 0.058751198151758006
+    },
+    {
+      "rep": 41,
+      "source_gain": 0.01930412816165261,
+      "source_plus_paired_evaluation_gain": 0.021328041063732983,
+      "context_gain": {
+        "0": 0.023506078718353196,
+        "1": 0.013796890184006427
+      },
+      "conditional_person_bootstrap95": [
+        0.006740570206656016,
+        0.03230147451539929
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05988636441116328,
+      "H_loss": 0.058730310357434756
+    },
+    {
+      "rep": 42,
+      "source_gain": 0.007295149949909652,
+      "source_plus_paired_evaluation_gain": 0.018272254186176173,
+      "context_gain": {
+        "0": 0.012773023012481177,
+        "1": -0.0003021801677669522
+      },
+      "conditional_person_bootstrap95": [
+        -0.009238525986687895,
+        0.018249617181095537
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05783528086248308,
+      "H_loss": 0.05741336381619613
+    },
+    {
+      "rep": 43,
+      "source_gain": 0.0012988830826604625,
+      "source_plus_paired_evaluation_gain": -0.009107748997789766,
+      "context_gain": {
+        "0": 0.004951763382332608,
+        "1": -0.0038551384078495676
+      },
+      "conditional_person_bootstrap95": [
+        -0.016838051137830778,
+        0.015037688770589393
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.058214772991864866,
+      "H_loss": 0.05813915880806481
+    },
+    {
+      "rep": 44,
+      "source_gain": 0.010515039712031049,
+      "source_plus_paired_evaluation_gain": -0.0014067729568234544,
+      "context_gain": {
+        "0": 0.018209919527609197,
+        "1": -0.00011342409147285792
+      },
+      "conditional_person_bootstrap95": [
+        -0.0008355827656285502,
+        0.01919683294718904
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05880828559904961,
+      "H_loss": 0.05818991414057914
+    },
+    {
+      "rep": 45,
+      "source_gain": 0.023294138678782494,
+      "source_plus_paired_evaluation_gain": 0.02587023610027661,
+      "context_gain": {
+        "0": 0.039870138829031676,
+        "1": -0.0009156073963179079
+      },
+      "conditional_person_bootstrap95": [
+        0.012895236851333359,
+        0.033951749693913125
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06035113810661339,
+      "H_loss": 0.058945310326135585
+    },
+    {
+      "rep": 46,
+      "source_gain": 0.02049774796993964,
+      "source_plus_paired_evaluation_gain": 0.01499560416159429,
+      "context_gain": {
+        "0": 0.038680991627487726,
+        "1": -0.005467379154265872
+      },
+      "conditional_person_bootstrap95": [
+        -0.0014773442757581789,
+        0.038347986598698536
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.059450142047180174,
+      "H_loss": 0.058231548018719964
+    },
+    {
+      "rep": 47,
+      "source_gain": 0.020471222617702622,
+      "source_plus_paired_evaluation_gain": 0.010651296479572192,
+      "context_gain": {
+        "0": 0.03268598656280952,
+        "1": 0.0037090803986106202
+      },
+      "conditional_person_bootstrap95": [
+        0.004821735038858688,
+        0.0321122038220095
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05901293135095656,
+      "H_loss": 0.057804864495947926
+    },
+    {
+      "rep": 48,
+      "source_gain": 0.01625818336103635,
+      "source_plus_paired_evaluation_gain": 0.017030655790128413,
+      "context_gain": {
+        "0": 0.02511435558487063,
+        "1": 0.0038715589833290265
+      },
+      "conditional_person_bootstrap95": [
+        0.0007428533919585289,
+        0.028387482702095786
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05826748120755246,
+      "H_loss": 0.05732015781409433
+    },
+    {
+      "rep": 49,
+      "source_gain": 0.00924551360722159,
+      "source_plus_paired_evaluation_gain": 0.011115562839809634,
+      "context_gain": {
+        "0": 0.034917601357191685,
+        "1": -0.0265537970981069
+      },
+      "conditional_person_bootstrap95": [
+        -0.009229328692333455,
+        0.022932683330220045
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.058739679514031,
+      "H_loss": 0.05819660100780019
+    },
+    {
+      "rep": 50,
+      "source_gain": 0.017004184652856025,
+      "source_plus_paired_evaluation_gain": 0.00186584138720991,
+      "context_gain": {
+        "0": 0.03484439165018527,
+        "1": -0.007975211528194581
+      },
+      "conditional_person_bootstrap95": [
+        -0.004940641762697428,
+        0.0316121676253282
+      ],
+      "penalties": {
+        "B": 0.001,
+        "H": 0.001
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05921317516028507,
+      "H_loss": 0.058206303395977675
+    },
+    {
+      "rep": 51,
+      "source_gain": 0.003396300753725656,
+      "source_plus_paired_evaluation_gain": 0.009756195272203394,
+      "context_gain": {
+        "0": 0.011769621991810975,
+        "1": -0.00909927064545002
+      },
+      "conditional_person_bootstrap95": [
+        -0.011032170978140032,
+        0.01669939786645613
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06045564483472651,
+      "H_loss": 0.06025031928260736
+    },
+    {
+      "rep": 52,
+      "source_gain": 0.023245317827526146,
+      "source_plus_paired_evaluation_gain": 0.029685930212617784,
+      "context_gain": {
+        "0": 0.04240850166170096,
+        "1": -0.0033535696473745435
+      },
+      "conditional_person_bootstrap95": [
+        0.007885840468465775,
+        0.03703160777443206
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05848896547525119,
+      "H_loss": 0.057129370883375774
+    },
+    {
+      "rep": 53,
+      "source_gain": 0.012170726908885876,
+      "source_plus_paired_evaluation_gain": 0.014446776696288799,
+      "context_gain": {
+        "0": 0.025431581246967427,
+        "1": -0.005934353046163743
+      },
+      "conditional_person_bootstrap95": [
+        -0.006594706759692631,
+        0.026055367001123757
+      ],
+      "penalties": {
+        "B": 0.001,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.058412732210910784,
+      "H_loss": 0.057701806799169905
+    },
+    {
+      "rep": 54,
+      "source_gain": 0.013752246358089582,
+      "source_plus_paired_evaluation_gain": -0.0082203574176003,
+      "context_gain": {
+        "0": 0.029473656827225247,
+        "1": -0.00961414900062918
+      },
+      "conditional_person_bootstrap95": [
+        -0.012079565878340836,
+        0.0329741882123837
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.060376268727495165,
+      "H_loss": 0.05954595940577243
+    },
+    {
+      "rep": 55,
+      "source_gain": 0.009029090556568309,
+      "source_plus_paired_evaluation_gain": 0.017254715212897787,
+      "context_gain": {
+        "0": 0.022453236699821577,
+        "1": -0.010024672203102547
+      },
+      "conditional_person_bootstrap95": [
+        -0.013877608730916428,
+        0.02463289888096334
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.058196228125779105,
+      "H_loss": 0.05767076911198074
+    },
+    {
+      "rep": 56,
+      "source_gain": 0.015689639716865655,
+      "source_plus_paired_evaluation_gain": 0.014134642825304411,
+      "context_gain": {
+        "0": 0.029776291359306928,
+        "1": -0.005083044366436029
+      },
+      "conditional_person_bootstrap95": [
+        0.004102476225999247,
+        0.0256847242991343
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05992285477214868,
+      "H_loss": 0.0589826867699676
+    },
+    {
+      "rep": 57,
+      "source_gain": 0.01389238522515468,
+      "source_plus_paired_evaluation_gain": 0.026645670374818797,
+      "context_gain": {
+        "0": 0.024788438207525076,
+        "1": -0.0020883025057778504
+      },
+      "conditional_person_bootstrap95": [
+        0.001666469695512382,
+        0.02514295209929898
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06021826849108673,
+      "H_loss": 0.05938169310761676
+    },
+    {
+      "rep": 58,
+      "source_gain": -0.0010679847614567528,
+      "source_plus_paired_evaluation_gain": 0.0016161141024784165,
+      "context_gain": {
+        "0": 0.020566798367937733,
+        "1": -0.03230269001702557
+      },
+      "conditional_person_bootstrap95": [
+        -0.020692051703810062,
+        0.01457761645863278
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.001
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05902594001013483,
+      "H_loss": 0.059088978814596314
+    },
+    {
+      "rep": 59,
+      "source_gain": 0.0086298005235389,
+      "source_plus_paired_evaluation_gain": 0.0075462506361266835,
+      "context_gain": {
+        "0": 0.01073995111898085,
+        "1": 0.005668142044488289
+      },
+      "conditional_person_bootstrap95": [
+        -0.007668611238457784,
+        0.02052619225389625
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05843693370866693,
+      "H_loss": 0.05793263462755387
+    },
+    {
+      "rep": 60,
+      "source_gain": 0.0022877140123299666,
+      "source_plus_paired_evaluation_gain": 0.012849777452907718,
+      "context_gain": {
+        "0": 0.006403246420222164,
+        "1": -0.0036111010356365547
+      },
+      "conditional_person_bootstrap95": [
+        -0.02108358413185694,
+        0.021389731160711634
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06050689749722811,
+      "H_loss": 0.06036847501998109
+    },
+    {
+      "rep": 61,
+      "source_gain": 0.011406986951470244,
+      "source_plus_paired_evaluation_gain": 0.00484428054526409,
+      "context_gain": {
+        "0": 0.016852437491789996,
+        "1": 0.003907348188733173
+      },
+      "conditional_person_bootstrap95": [
+        -0.0014815752100025496,
+        0.022049780505663526
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05854756858655188,
+      "H_loss": 0.05787971723564477
+    },
+    {
+      "rep": 62,
+      "source_gain": 0.005116062478372263,
+      "source_plus_paired_evaluation_gain": -0.011719087514785231,
+      "context_gain": {
+        "0": 0.015417993633116578,
+        "1": -0.009450361668650986
+      },
+      "conditional_person_bootstrap95": [
+        -0.016007983092175382,
+        0.02291055206998362
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.058901268560213646,
+      "H_loss": 0.05859992599020421
+    },
+    {
+      "rep": 63,
+      "source_gain": 0.007993414717594183,
+      "source_plus_paired_evaluation_gain": 0.013059788505808134,
+      "context_gain": {
+        "0": 0.017177265269095243,
+        "1": -0.004931044747637836
+      },
+      "conditional_person_bootstrap95": [
+        -0.007715385220934273,
+        0.019702992789359074
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05823648152078951,
+      "H_loss": 0.05777097317230033
+    },
+    {
+      "rep": 64,
+      "source_gain": 0.022284638862867467,
+      "source_plus_paired_evaluation_gain": 0.016173113172375908,
+      "context_gain": {
+        "0": 0.039642998394089024,
+        "1": -0.002400174115899434
+      },
+      "conditional_person_bootstrap95": [
+        0.011650939772120143,
+        0.03246790546513627
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.058867993129565525,
+      "H_loss": 0.057556141162091394
+    },
+    {
+      "rep": 65,
+      "source_gain": 0.016719735478687436,
+      "source_plus_paired_evaluation_gain": 0.012135716518905437,
+      "context_gain": {
+        "0": 0.03557814227308609,
+        "1": -0.009441258759313342
+      },
+      "conditional_person_bootstrap95": [
+        0.0033660981974912075,
+        0.03217994951274695
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05801068008752639,
+      "H_loss": 0.05704075686152419
+    },
+    {
+      "rep": 66,
+      "source_gain": 0.031983922575134716,
+      "source_plus_paired_evaluation_gain": 0.0318423100312375,
+      "context_gain": {
+        "0": 0.049692649337485295,
+        "1": 0.006065217950226298
+      },
+      "conditional_person_bootstrap95": [
+        0.016349936183993843,
+        0.05088911998831247
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06127060858034914,
+      "H_loss": 0.05931093417938387
+    },
+    {
+      "rep": 67,
+      "source_gain": 0.02704633821046254,
+      "source_plus_paired_evaluation_gain": 0.03587555473645543,
+      "context_gain": {
+        "0": 0.045657511252395255,
+        "1": -0.0004210873095997769
+      },
+      "conditional_person_bootstrap95": [
+        0.011120803395241177,
+        0.04068027137628213
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06052002700343986,
+      "H_loss": 0.0588831818845985
+    },
+    {
+      "rep": 68,
+      "source_gain": 0.006363861877048627,
+      "source_plus_paired_evaluation_gain": 0.011613284820486625,
+      "context_gain": {
+        "0": 0.018005863086210216,
+        "1": -0.010525584896788232
+      },
+      "conditional_person_bootstrap95": [
+        -0.009522689908239379,
+        0.022400951887164063
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05909679199032227,
+      "H_loss": 0.05872070816871919
+    },
+    {
+      "rep": 69,
+      "source_gain": 0.007214286953647564,
+      "source_plus_paired_evaluation_gain": -0.0030916189095970825,
+      "context_gain": {
+        "0": 0.01975328654476416,
+        "1": -0.010677230668488136
+      },
+      "conditional_person_bootstrap95": [
+        -0.015365118417109603,
+        0.02384976154134577
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05840887784740249,
+      "H_loss": 0.057987499441970784
+    },
+    {
+      "rep": 70,
+      "source_gain": 0.021070567255258577,
+      "source_plus_paired_evaluation_gain": 0.03687123111495594,
+      "context_gain": {
+        "0": 0.056570995352817066,
+        "1": -0.03009217705196976
+      },
+      "conditional_person_bootstrap95": [
+        -0.00746623241115466,
+        0.043013218123243685
+      ],
+      "penalties": {
+        "B": 0.001,
+        "H": 0.001
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05935255380441645,
+      "H_loss": 0.058101961827709145
+    },
+    {
+      "rep": 71,
+      "source_gain": 0.023683477619203863,
+      "source_plus_paired_evaluation_gain": 0.026881533043914496,
+      "context_gain": {
+        "0": 0.04312148661515014,
+        "1": -0.003916811903011297
+      },
+      "conditional_person_bootstrap95": [
+        0.007489920857455832,
+        0.03993102659555805
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.059011021471831404,
+      "H_loss": 0.057613435265516925
+    },
+    {
+      "rep": 72,
+      "source_gain": 0.00479998114773128,
+      "source_plus_paired_evaluation_gain": 0.004748444784113515,
+      "context_gain": {
+        "0": 0.011702081215167803,
+        "1": -0.004789677370539369
+      },
+      "conditional_person_bootstrap95": [
+        -0.011716018046801807,
+        0.016627548115658954
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05828199088909388,
+      "H_loss": 0.05800223843157398
+    },
+    {
+      "rep": 73,
+      "source_gain": 0.021381391251177218,
+      "source_plus_paired_evaluation_gain": 0.016411729394678387,
+      "context_gain": {
+        "0": 0.03357693959368979,
+        "1": 0.003584182436431993
+      },
+      "conditional_person_bootstrap95": [
+        0.002271174522369288,
+        0.03580367742492272
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.0608165028271229,
+      "H_loss": 0.05951616138564786
+    },
+    {
+      "rep": 74,
+      "source_gain": 0.0011600880912687739,
+      "source_plus_paired_evaluation_gain": -0.0029140085516092817,
+      "context_gain": {
+        "0": 0.006406334229399291,
+        "1": -0.006053412420645721
+      },
+      "conditional_person_bootstrap95": [
+        -0.024240923664183407,
+        0.019059158646816964
+      ],
+      "penalties": {
+        "B": 0.001,
+        "H": 0.001
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05874930159954226,
+      "H_loss": 0.05868114723438627
+    },
+    {
+      "rep": 75,
+      "source_gain": 0.011030097672526051,
+      "source_plus_paired_evaluation_gain": 0.017202121575589313,
+      "context_gain": {
+        "0": 0.029200908578064788,
+        "1": -0.014829739435687994
+      },
+      "conditional_person_bootstrap95": [
+        -0.005819898020808155,
+        0.024015404096079877
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05885749083935519,
+      "H_loss": 0.058208286966637296
+    },
+    {
+      "rep": 76,
+      "source_gain": 0.038910264285856866,
+      "source_plus_paired_evaluation_gain": 0.05241440457076918,
+      "context_gain": {
+        "0": 0.07341124913485442,
+        "1": -0.013200696873344242
+      },
+      "conditional_person_bootstrap95": [
+        0.018944441164212754,
+        0.06107428088146963
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.060802091859227476,
+      "H_loss": 0.05843626639585199
+    },
+    {
+      "rep": 77,
+      "source_gain": 0.0012888149727046105,
+      "source_plus_paired_evaluation_gain": 0.007824741530167434,
+      "context_gain": {
+        "0": 0.018349845528725317,
+        "1": -0.022606914109823517
+      },
+      "conditional_person_bootstrap95": [
+        -0.025833693509447465,
+        0.021125079516028353
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.001
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05774331012256253,
+      "H_loss": 0.057668889679903045
+    },
+    {
+      "rep": 78,
+      "source_gain": 0.02061868855058846,
+      "source_plus_paired_evaluation_gain": 0.0012702301200577804,
+      "context_gain": {
+        "0": 0.03386951738661992,
+        "1": 0.002168413706503669
+      },
+      "conditional_person_bootstrap95": [
+        0.007204258637312728,
+        0.03555221551523653
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05845370872819594,
+      "H_loss": 0.05724846991330246
+    },
+    {
+      "rep": 79,
+      "source_gain": 0.012106192412175476,
+      "source_plus_paired_evaluation_gain": 0.0024879593662553434,
+      "context_gain": {
+        "0": 0.018540759355834546,
+        "1": 0.0030199043584987484
+      },
+      "conditional_person_bootstrap95": [
+        -0.009909446512327825,
+        0.028672344597882246
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.058463978296956244,
+      "H_loss": 0.05775620212651204
+    },
+    {
+      "rep": 80,
+      "source_gain": 0.010929713512145667,
+      "source_plus_paired_evaluation_gain": 0.00851084730057261,
+      "context_gain": {
+        "0": 0.020538934243689133,
+        "1": -0.0022043759300653942
+      },
+      "conditional_person_bootstrap95": [
+        -0.005400691678232266,
+        0.026669110550589497
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.058787075597568406,
+      "H_loss": 0.058144549703070134
+    },
+    {
+      "rep": 81,
+      "source_gain": 0.011749954691784414,
+      "source_plus_paired_evaluation_gain": 0.016814478481821715,
+      "context_gain": {
+        "0": 0.024354247698183507,
+        "1": -0.0059281508845889785
+      },
+      "conditional_person_bootstrap95": [
+        -0.009742538539093086,
+        0.029847597726132408
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05840513177294554,
+      "H_loss": 0.05771887412084573
+    },
+    {
+      "rep": 82,
+      "source_gain": 0.007287176108832227,
+      "source_plus_paired_evaluation_gain": 0.023958747588707308,
+      "context_gain": {
+        "0": 0.032942191954639655,
+        "1": -0.029258997885797555
+      },
+      "conditional_person_bootstrap95": [
+        -0.01049167852197061,
+        0.030462959761253232
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.059600205525881265,
+      "H_loss": 0.059165888332091576
+    },
+    {
+      "rep": 83,
+      "source_gain": 0.010647488621037704,
+      "source_plus_paired_evaluation_gain": 0.008645561669371027,
+      "context_gain": {
+        "0": 0.02061186727212494,
+        "1": -0.0032438220324362277
+      },
+      "conditional_person_bootstrap95": [
+        -0.00890412536623521,
+        0.025535848131850312
+      ],
+      "penalties": {
+        "B": 0.001,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.058365802805386426,
+      "H_loss": 0.057744353584158345
+    },
+    {
+      "rep": 84,
+      "source_gain": 0.007823223045022809,
+      "source_plus_paired_evaluation_gain": 0.0028337785988461484,
+      "context_gain": {
+        "0": 0.014077256706529928,
+        "1": -0.001110072175533272
+      },
+      "conditional_person_bootstrap95": [
+        -0.010300842182296332,
+        0.021601164740380104
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05890425270040556,
+      "H_loss": 0.0584434315932299
+    },
+    {
+      "rep": 85,
+      "source_gain": -0.0016602637892872973,
+      "source_plus_paired_evaluation_gain": -0.005635918366272197,
+      "context_gain": {
+        "0": 0.005804119654304163,
+        "1": -0.012144809908822385
+      },
+      "conditional_person_bootstrap95": [
+        -0.019883184294925176,
+        0.014192958756679499
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05847180387342608,
+      "H_loss": 0.05856888249209144
+    },
+    {
+      "rep": 86,
+      "source_gain": 0.006792552528460671,
+      "source_plus_paired_evaluation_gain": 0.015544904887680455,
+      "context_gain": {
+        "0": 0.016209866716715537,
+        "1": -0.006338706961703577
+      },
+      "conditional_person_bootstrap95": [
+        -0.013872703166794642,
+        0.023888785863921798
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05883372337569748,
+      "H_loss": 0.058434092219223126
+    },
+    {
+      "rep": 87,
+      "source_gain": 0.022357889232376582,
+      "source_plus_paired_evaluation_gain": 0.026580472046751402,
+      "context_gain": {
+        "0": 0.04135118461647158,
+        "1": -0.004192534107931856
+      },
+      "conditional_person_bootstrap95": [
+        -0.00683022598102359,
+        0.04260468312142248
+      ],
+      "penalties": {
+        "B": 0.001,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05970727873966836,
+      "H_loss": 0.058372350015240215
+    },
+    {
+      "rep": 88,
+      "source_gain": 0.014611102611966742,
+      "source_plus_paired_evaluation_gain": 0.008794189288818921,
+      "context_gain": {
+        "0": 0.033630775657379486,
+        "1": -0.012206884806149398
+      },
+      "conditional_person_bootstrap95": [
+        -0.00574517981176198,
+        0.030780258193256867
+      ],
+      "penalties": {
+        "B": 0.001,
+        "H": 0.001
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.059199996361812626,
+      "H_loss": 0.05833501914034212
+    },
+    {
+      "rep": 89,
+      "source_gain": 0.017213107239580583,
+      "source_plus_paired_evaluation_gain": 0.010997788592626567,
+      "context_gain": {
+        "0": 0.02960540525724098,
+        "1": -0.0011889523940828983
+      },
+      "conditional_person_bootstrap95": [
+        0.0010824459560666523,
+        0.03182683955859256
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.061140108199351964,
+      "H_loss": 0.06008769696027696
+    },
+    {
+      "rep": 90,
+      "source_gain": 0.013621207558789372,
+      "source_plus_paired_evaluation_gain": 0.022107656357713612,
+      "context_gain": {
+        "0": 0.032110411127323824,
+        "1": -0.011853569994691338
+      },
+      "conditional_person_bootstrap95": [
+        -0.00860810113962161,
+        0.02837231335303541
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05760297780589143,
+      "H_loss": 0.056818355689193044
+    },
+    {
+      "rep": 91,
+      "source_gain": 0.014282188717768096,
+      "source_plus_paired_evaluation_gain": 0.01903497119148434,
+      "context_gain": {
+        "0": 0.020268612039424427,
+        "1": 0.006172980863173194
+      },
+      "conditional_person_bootstrap95": [
+        0.003647622526353131,
+        0.02176329410621344
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05792502962788417,
+      "H_loss": 0.05709773342325642
+    },
+    {
+      "rep": 92,
+      "source_gain": 0.019432468566789818,
+      "source_plus_paired_evaluation_gain": 0.022644489526063016,
+      "context_gain": {
+        "0": 0.03293319610843315,
+        "1": 0.00040478884505124046
+      },
+      "conditional_person_bootstrap95": [
+        -0.0007332315330134728,
+        0.035083574335580535
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05946683192650429,
+      "H_loss": 0.05831124458432592
+    },
+    {
+      "rep": 93,
+      "source_gain": 0.015210075108973209,
+      "source_plus_paired_evaluation_gain": 0.012811016342249792,
+      "context_gain": {
+        "0": 0.026241194807148926,
+        "1": -0.0002817266628969417
+      },
+      "conditional_person_bootstrap95": [
+        0.004833274424064921,
+        0.02323164315348111
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05834695226216086,
+      "H_loss": 0.057459490735873725
+    },
+    {
+      "rep": 94,
+      "source_gain": 0.014755893965122002,
+      "source_plus_paired_evaluation_gain": 0.007035223095973153,
+      "context_gain": {
+        "0": 0.02824374038607802,
+        "1": -0.004539602953089528
+      },
+      "conditional_person_bootstrap95": [
+        -0.006507640939863318,
+        0.030548046277391144
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05912985747051001,
+      "H_loss": 0.05825734356350239
+    },
+    {
+      "rep": 95,
+      "source_gain": 0.0059681052222350095,
+      "source_plus_paired_evaluation_gain": 0.0004621924746257555,
+      "context_gain": {
+        "0": 0.012117866438442593,
+        "1": -0.002667592931923757
+      },
+      "conditional_person_bootstrap95": [
+        -0.017851372786794394,
+        0.02697059295627121
+      ],
+      "penalties": {
+        "B": 0.001,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.058682709894874764,
+      "H_loss": 0.05833248530749626
+    },
+    {
+      "rep": 96,
+      "source_gain": 0.002706934602963007,
+      "source_plus_paired_evaluation_gain": -0.0008560636780303721,
+      "context_gain": {
+        "0": 0.010571717910427325,
+        "1": -0.008601763180582811
+      },
+      "conditional_person_bootstrap95": [
+        -0.008017457577760623,
+        0.015028686396960315
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05914781531194629,
+      "H_loss": 0.058987706043988716
+    },
+    {
+      "rep": 97,
+      "source_gain": 0.016671536651195584,
+      "source_plus_paired_evaluation_gain": 0.022380845817070005,
+      "context_gain": {
+        "0": 0.038984093539429665,
+        "1": -0.015164813567465796
+      },
+      "conditional_person_bootstrap95": [
+        -0.005545080599107071,
+        0.03428491375726528
+      ],
+      "penalties": {
+        "B": 0.001,
+        "H": 0.001
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05860863257752952,
+      "H_loss": 0.05763153661143678
+    },
+    {
+      "rep": 98,
+      "source_gain": 0.0030141913827367306,
+      "source_plus_paired_evaluation_gain": 0.013390172236012021,
+      "context_gain": {
+        "0": 0.0101043958101118,
+        "1": -0.007764787473597323
+      },
+      "conditional_person_bootstrap95": [
+        -0.013270543804837215,
+        0.017474517822068707
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06095239901735884,
+      "H_loss": 0.06076867682148359
+    },
+    {
+      "rep": 99,
+      "source_gain": 0.025635805905940612,
+      "source_plus_paired_evaluation_gain": 0.003582559687929643,
+      "context_gain": {
+        "0": 0.03370363377227059,
+        "1": 0.01373421015952403
+      },
+      "conditional_person_bootstrap95": [
+        0.011481877903298462,
+        0.03845805432935059
+      ],
+      "penalties": {
+        "B": 0.001,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06245530407613213,
+      "H_loss": 0.06085421202303991
+    },
+    {
+      "rep": 100,
+      "source_gain": 0.01600892184607905,
+      "source_plus_paired_evaluation_gain": 0.019596832750786608,
+      "context_gain": {
+        "0": 0.025949489698603334,
+        "1": 0.0019510581521675618
+      },
+      "conditional_person_bootstrap95": [
+        0.003970764382157527,
+        0.025916522044210778
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05900860096468846,
+      "H_loss": 0.0580639368835983
+    },
+    {
+      "rep": 101,
+      "source_gain": 0.02140688656549794,
+      "source_plus_paired_evaluation_gain": 0.01553056239890549,
+      "context_gain": {
+        "0": 0.038073771304113935,
+        "1": -0.0032452882325231247
+      },
+      "conditional_person_bootstrap95": [
+        0.007693436632883155,
+        0.03574396231659307
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.060296112271092536,
+      "H_loss": 0.05900536023536473
+    },
+    {
+      "rep": 102,
+      "source_gain": 0.012892752459039536,
+      "source_plus_paired_evaluation_gain": 0.015614412336798722,
+      "context_gain": {
+        "0": 0.023497553376647606,
+        "1": -0.0021659917799354833
+      },
+      "conditional_person_bootstrap95": [
+        -0.004584425677074237,
+        0.026642290407540348
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05960713480415175,
+      "H_loss": 0.058838634770329225
+    },
+    {
+      "rep": 103,
+      "source_gain": 0.007006591897461334,
+      "source_plus_paired_evaluation_gain": 0.0033041391194141845,
+      "context_gain": {
+        "0": 0.015607778857406718,
+        "1": -0.004926523845268482
+      },
+      "conditional_person_bootstrap95": [
+        -0.013190048726480202,
+        0.021565442180816644
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05839245784783366,
+      "H_loss": 0.057983325725804176
+    },
+    {
+      "rep": 104,
+      "source_gain": 0.016326429770511464,
+      "source_plus_paired_evaluation_gain": 0.01403529347416077,
+      "context_gain": {
+        "0": 0.029008074609857215,
+        "1": -0.0013502080267395744
+      },
+      "conditional_person_bootstrap95": [
+        0.0007150424587151456,
+        0.029266668553431244
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05901566055186894,
+      "H_loss": 0.058052145514508505
+    },
+    {
+      "rep": 105,
+      "source_gain": 0.019200988739835334,
+      "source_plus_paired_evaluation_gain": 0.02421095084193925,
+      "context_gain": {
+        "0": 0.03385047535832608,
+        "1": -0.0015504237468637605
+      },
+      "conditional_person_bootstrap95": [
+        -0.001966768719184169,
+        0.035564800208436685
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05900320624190187,
+      "H_loss": 0.05787028634323693
+    },
+    {
+      "rep": 106,
+      "source_gain": 0.01031211059132564,
+      "source_plus_paired_evaluation_gain": 0.011896357674093583,
+      "context_gain": {
+        "0": 0.023182380372789524,
+        "1": -0.0078124267686974225
+      },
+      "conditional_person_bootstrap95": [
+        -0.009006735946023076,
+        0.023891307252854085
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.058137655594514406,
+      "H_loss": 0.05753813366050337
+    },
+    {
+      "rep": 107,
+      "source_gain": 0.01694254998063771,
+      "source_plus_paired_evaluation_gain": 0.018233056471127163,
+      "context_gain": {
+        "0": 0.025351763528473903,
+        "1": 0.004979235444988461
+      },
+      "conditional_person_bootstrap95": [
+        0.0025080242827395277,
+        0.02844460977719858
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.059281446558866656,
+      "H_loss": 0.058277067687618554
+    },
+    {
+      "rep": 108,
+      "source_gain": 0.0038236289521540456,
+      "source_plus_paired_evaluation_gain": -0.0023835084195065193,
+      "context_gain": {
+        "0": 0.007443521791599461,
+        "1": -0.0013384131497065077
+      },
+      "conditional_person_bootstrap95": [
+        -0.013938852672618985,
+        0.01791445578297645
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.059413899303619545,
+      "H_loss": 0.05918672259808186
+    },
+    {
+      "rep": 109,
+      "source_gain": 0.01571141972422163,
+      "source_plus_paired_evaluation_gain": 0.013175837115787292,
+      "context_gain": {
+        "0": 0.03116372321812033,
+        "1": -0.008333992508986032
+      },
+      "conditional_person_bootstrap95": [
+        -0.0027131794286823496,
+        0.032476082813347
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06239388618215164,
+      "H_loss": 0.06141358964811854
+    },
+    {
+      "rep": 110,
+      "source_gain": 0.002778355128377319,
+      "source_plus_paired_evaluation_gain": 0.005671008279013456,
+      "context_gain": {
+        "0": 0.011850261408193341,
+        "1": -0.009795804501442795
+      },
+      "conditional_person_bootstrap95": [
+        -0.016194661581102544,
+        0.018146754465792385
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.058751755076288215,
+      "H_loss": 0.05858852183627084
+    },
+    {
+      "rep": 111,
+      "source_gain": 0.02441158744502203,
+      "source_plus_paired_evaluation_gain": 0.009904516479533165,
+      "context_gain": {
+        "0": 0.04260542037945536,
+        "1": -0.001582123266139046
+      },
+      "conditional_person_bootstrap95": [
+        0.006621255492999895,
+        0.03884737053881916
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05960615136509302,
+      "H_loss": 0.058151070588782834
+    },
+    {
+      "rep": 112,
+      "source_gain": 0.005469006685483446,
+      "source_plus_paired_evaluation_gain": 0.02159477551506106,
+      "context_gain": {
+        "0": 0.02354912212171245,
+        "1": -0.019761104564438137
+      },
+      "conditional_person_bootstrap95": [
+        -0.024656614111948034,
+        0.028762758840979473
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05864226904230361,
+      "H_loss": 0.05832155408085933
+    },
+    {
+      "rep": 113,
+      "source_gain": 0.019584896062604495,
+      "source_plus_paired_evaluation_gain": 0.015059851446410422,
+      "context_gain": {
+        "0": 0.029945255258062686,
+        "1": 0.005101434470981547
+      },
+      "conditional_person_bootstrap95": [
+        0.005282026212648458,
+        0.033687389506304025
+      ],
+      "penalties": {
+        "B": 1.0,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05985942190448873,
+      "H_loss": 0.05868708134812173
+    },
+    {
+      "rep": 114,
+      "source_gain": 0.008029177361891682,
+      "source_plus_paired_evaluation_gain": 0.012679636772256253,
+      "context_gain": {
+        "0": 0.027897327191173882,
+        "1": -0.02028911932351285
+      },
+      "conditional_person_bootstrap95": [
+        -0.016578410681121203,
+        0.026221798516486865
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.058338426697890404,
+      "H_loss": 0.05787001712291932
+    },
+    {
+      "rep": 115,
+      "source_gain": 0.024487758851813646,
+      "source_plus_paired_evaluation_gain": 0.03466116837670463,
+      "context_gain": {
+        "0": 0.044370402291897815,
+        "1": -0.00456925654685536
+      },
+      "conditional_person_bootstrap95": [
+        0.006618412045321367,
+        0.046360510155863455
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05977607944400929,
+      "H_loss": 0.05831229722547754
+    },
+    {
+      "rep": 116,
+      "source_gain": 0.011018504760402337,
+      "source_plus_paired_evaluation_gain": 0.013268083647307916,
+      "context_gain": {
+        "0": 0.026470456640743212,
+        "1": -0.012271873685202994
+      },
+      "conditional_person_bootstrap95": [
+        -0.0067764149522481325,
+        0.029511405467058157
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06052521462653322,
+      "H_loss": 0.059858317261046394
+    },
+    {
+      "rep": 117,
+      "source_gain": 0.009595336354310091,
+      "source_plus_paired_evaluation_gain": 0.005552033336321149,
+      "context_gain": {
+        "0": 0.015429783702958999,
+        "1": 0.0012438956189951833
+      },
+      "conditional_person_bootstrap95": [
+        -0.003949956755817658,
+        0.022435770695116458
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06090608243330265,
+      "H_loss": 0.06032166808633178
+    },
+    {
+      "rep": 118,
+      "source_gain": 0.012635707958960518,
+      "source_plus_paired_evaluation_gain": 0.013195400257568157,
+      "context_gain": {
+        "0": 0.017287011265784136,
+        "1": 0.006167625302653801
+      },
+      "conditional_person_bootstrap95": [
+        0.0012227825358740066,
+        0.02169902906408675
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.058948986833213264,
+      "H_loss": 0.058204124651112174
+    },
+    {
+      "rep": 119,
+      "source_gain": 0.013345504420623433,
+      "source_plus_paired_evaluation_gain": 0.01308108303521538,
+      "context_gain": {
+        "0": 0.020582158550408347,
+        "1": 0.0032097318951688214
+      },
+      "conditional_person_bootstrap95": [
+        -0.0037367058991818023,
+        0.026689579776027504
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05906968542143455,
+      "H_loss": 0.05828137067351796
+    },
+    {
+      "rep": 120,
+      "source_gain": 0.01984072664936054,
+      "source_plus_paired_evaluation_gain": 0.027696904399765798,
+      "context_gain": {
+        "0": 0.026244336755092412,
+        "1": 0.011394347401049942
+      },
+      "conditional_person_bootstrap95": [
+        0.00598044959237487,
+        0.037595136309955625
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05895683471864226,
+      "H_loss": 0.05778708827687815
+    },
+    {
+      "rep": 121,
+      "source_gain": 0.004020850808426735,
+      "source_plus_paired_evaluation_gain": 0.005243925943682948,
+      "context_gain": {
+        "0": 0.009692318551835166,
+        "1": -0.00397997272025763
+      },
+      "conditional_person_bootstrap95": [
+        -0.014624701149029468,
+        0.01652627694099231
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05848263580406566,
+      "H_loss": 0.058247485850613956
+    },
+    {
+      "rep": 122,
+      "source_gain": 0.01744039305249878,
+      "source_plus_paired_evaluation_gain": 0.000564285215353233,
+      "context_gain": {
+        "0": 0.0352095149319831,
+        "1": -0.008671257384400999
+      },
+      "conditional_person_bootstrap95": [
+        0.0018796561649676497,
+        0.031210683094912938
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.059525103304998474,
+      "H_loss": 0.058486962106868705
+    },
+    {
+      "rep": 123,
+      "source_gain": 0.01797313841622783,
+      "source_plus_paired_evaluation_gain": 0.031224663303190403,
+      "context_gain": {
+        "0": 0.03357220562163943,
+        "1": -0.004921934825046437
+      },
+      "conditional_person_bootstrap95": [
+        6.0574358356011674e-05,
+        0.04034821403729127
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06007708489425215,
+      "H_loss": 0.058997311131804286
+    },
+    {
+      "rep": 124,
+      "source_gain": 0.012738198248356425,
+      "source_plus_paired_evaluation_gain": 0.013230289501096504,
+      "context_gain": {
+        "0": 0.02277784207301159,
+        "1": -0.001465007533457685
+      },
+      "conditional_person_bootstrap95": [
+        0.0013786232438183083,
+        0.02145313965048309
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05828243956472214,
+      "H_loss": 0.05754002629514886
+    },
+    {
+      "rep": 125,
+      "source_gain": 0.0029273134787872745,
+      "source_plus_paired_evaluation_gain": 0.0010382415755634256,
+      "context_gain": {
+        "0": 0.008845149158872023,
+        "1": -0.005369056215346779
+      },
+      "conditional_person_bootstrap95": [
+        -0.014791574386817878,
+        0.017270480408605536
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.058061322199973495,
+      "H_loss": 0.0578913585089013
+    },
+    {
+      "rep": 126,
+      "source_gain": 0.008778973394925949,
+      "source_plus_paired_evaluation_gain": 0.014187099771018064,
+      "context_gain": {
+        "0": 0.01613399125384618,
+        "1": -0.0014230765044065397
+      },
+      "conditional_person_bootstrap95": [
+        -0.004714288904202085,
+        0.01927633167951443
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05788042736159643,
+      "H_loss": 0.05737229662970203
+    },
+    {
+      "rep": 127,
+      "source_gain": 0.014866790700172716,
+      "source_plus_paired_evaluation_gain": 0.018396511718462016,
+      "context_gain": {
+        "0": 0.027149079634315898,
+        "1": -0.002525793659925224
+      },
+      "conditional_person_bootstrap95": [
+        0.0017398578498564134,
+        0.025757015100449376
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.059156904553509075,
+      "H_loss": 0.05827743123504196
+    },
+    {
+      "rep": 128,
+      "source_gain": 0.02829406892572972,
+      "source_plus_paired_evaluation_gain": 0.02867499204413404,
+      "context_gain": {
+        "0": 0.050892053809831084,
+        "1": -0.0044328391671160094
+      },
+      "conditional_person_bootstrap95": [
+        0.01438535115056735,
+        0.04037880231450418
+      ],
+      "penalties": {
+        "B": 0.001,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.060137127192744104,
+      "H_loss": 0.05843560317095723
+    },
+    {
+      "rep": 129,
+      "source_gain": 0.014181527582465159,
+      "source_plus_paired_evaluation_gain": 0.020638961560326075,
+      "context_gain": {
+        "0": 0.02339441699113909,
+        "1": 0.0010370208226559985
+      },
+      "conditional_person_bootstrap95": [
+        -0.003615970758044212,
+        0.02955998924901965
+      ],
+      "penalties": {
+        "B": 0.001,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.059022110727859886,
+      "H_loss": 0.05818508703659743
+    },
+    {
+      "rep": 130,
+      "source_gain": 0.015452976215723169,
+      "source_plus_paired_evaluation_gain": 0.0012295410842595444,
+      "context_gain": {
+        "0": 0.028120785658394376,
+        "1": -0.002259042471979056
+      },
+      "conditional_person_bootstrap95": [
+        -0.0029963203184803213,
+        0.028162057888316636
+      ],
+      "penalties": {
+        "B": 0.001,
+        "H": 0.001
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05997170522667572,
+      "H_loss": 0.05904496389219154
+    },
+    {
+      "rep": 131,
+      "source_gain": 0.014409223534911475,
+      "source_plus_paired_evaluation_gain": 0.014954094973523402,
+      "context_gain": {
+        "0": 0.026414401509336938,
+        "1": -0.002370942179517055
+      },
+      "conditional_person_bootstrap95": [
+        0.0018488871703403109,
+        0.027111397025241995
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05828230291711404,
+      "H_loss": 0.05744250018625192
+    },
+    {
+      "rep": 132,
+      "source_gain": 0.0062444135536924295,
+      "source_plus_paired_evaluation_gain": 0.001999753610375743,
+      "context_gain": {
+        "0": 0.015253059647464484,
+        "1": -0.007166887208601924
+      },
+      "conditional_person_bootstrap95": [
+        -0.00671903259229995,
+        0.0197769280588576
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06000353697166695,
+      "H_loss": 0.05962885007213159
+    },
+    {
+      "rep": 133,
+      "source_gain": 0.013640199656079988,
+      "source_plus_paired_evaluation_gain": 0.015127971229808801,
+      "context_gain": {
+        "0": 0.03161854449820323,
+        "1": -0.01131817199479146
+      },
+      "conditional_person_bootstrap95": [
+        0.0009673533013524363,
+        0.023939309539486888
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.058595315517782624,
+      "H_loss": 0.05779606371520907
+    },
+    {
+      "rep": 134,
+      "source_gain": 0.016394603318250267,
+      "source_plus_paired_evaluation_gain": 0.016383325739440124,
+      "context_gain": {
+        "0": 0.025504449177432886,
+        "1": 0.003300583210427366
+      },
+      "conditional_person_bootstrap95": [
+        0.00041942145801760486,
+        0.030969143131212365
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.060573660213375034,
+      "H_loss": 0.05958057908264227
+    },
+    {
+      "rep": 135,
+      "source_gain": 0.00308308798028456,
+      "source_plus_paired_evaluation_gain": -0.003829440337133061,
+      "context_gain": {
+        "0": 0.013026764995375917,
+        "1": -0.011191987334769893
+      },
+      "conditional_person_bootstrap95": [
+        -0.014561969176883566,
+        0.016949733749456592
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.0591303063658117,
+      "H_loss": 0.05894800242898472
+    },
+    {
+      "rep": 136,
+      "source_gain": 0.011614624271245488,
+      "source_plus_paired_evaluation_gain": 0.026089769159062803,
+      "context_gain": {
+        "0": 0.02113871864154604,
+        "1": -0.001972776214477223
+      },
+      "conditional_person_bootstrap95": [
+        -0.0031781423903054543,
+        0.02403491221260011
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05865170832534292,
+      "H_loss": 0.05797049077027738
+    },
+    {
+      "rep": 137,
+      "source_gain": 0.02649255680656082,
+      "source_plus_paired_evaluation_gain": 0.029220215073228695,
+      "context_gain": {
+        "0": 0.05160134338224265,
+        "1": -0.009825979582365196
+      },
+      "conditional_person_bootstrap95": [
+        0.006510424357936212,
+        0.04316429043008577
+      ],
+      "penalties": {
+        "B": 0.001,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05940124082769033,
+      "H_loss": 0.05782755008068254
+    },
+    {
+      "rep": 138,
+      "source_gain": 0.002702845227860573,
+      "source_plus_paired_evaluation_gain": -0.016922075741729214,
+      "context_gain": {
+        "0": 0.006540519875195994,
+        "1": -0.003285705289737484
+      },
+      "conditional_person_bootstrap95": [
+        -0.012110506106544842,
+        0.015274204750475254
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06323631337306403,
+      "H_loss": 0.06306539540523615
+    },
+    {
+      "rep": 139,
+      "source_gain": 0.02094201846681787,
+      "source_plus_paired_evaluation_gain": 0.009640370920259489,
+      "context_gain": {
+        "0": 0.040813251905124304,
+        "1": -0.008075364238310012
+      },
+      "conditional_person_bootstrap95": [
+        0.001553986753338905,
+        0.03956175023312656
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05963966271649303,
+      "H_loss": 0.05839068779852944
+    },
+    {
+      "rep": 140,
+      "source_gain": 0.03095673094560425,
+      "source_plus_paired_evaluation_gain": 0.026471489478787857,
+      "context_gain": {
+        "0": 0.050523900045955084,
+        "1": 0.0019592707168364365
+      },
+      "conditional_person_bootstrap95": [
+        0.012324711596550506,
+        0.052742663257346896
+      ],
+      "penalties": {
+        "B": 0.001,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.060264764531057086,
+      "H_loss": 0.05839916442996896
+    },
+    {
+      "rep": 141,
+      "source_gain": 0.011230083559277682,
+      "source_plus_paired_evaluation_gain": 0.00705238910571393,
+      "context_gain": {
+        "0": 0.022895467400750213,
+        "1": -0.006283429218594927
+      },
+      "conditional_person_bootstrap95": [
+        -7.641855911921122e-06,
+        0.019334349390126453
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06067208318767605,
+      "H_loss": 0.059990730623763
+    },
+    {
+      "rep": 142,
+      "source_gain": 0.01841958775329222,
+      "source_plus_paired_evaluation_gain": 0.01806521886261736,
+      "context_gain": {
+        "0": 0.033166772152088075,
+        "1": -0.0020903470722222206
+      },
+      "conditional_person_bootstrap95": [
+        0.004057960905851865,
+        0.03173781557736439
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05890128454297522,
+      "H_loss": 0.05781634716355425
+    },
+    {
+      "rep": 143,
+      "source_gain": 0.021512926038539493,
+      "source_plus_paired_evaluation_gain": 0.022953729452609872,
+      "context_gain": {
+        "0": 0.03584247132209051,
+        "1": 0.0012599071655435834
+      },
+      "conditional_person_bootstrap95": [
+        -0.003225875698067559,
+        0.03988410185386789
+      ],
+      "penalties": {
+        "B": 0.001,
+        "H": 0.001
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05999900027160049,
+      "H_loss": 0.05870824621637124
+    },
+    {
+      "rep": 144,
+      "source_gain": 0.01667986693334922,
+      "source_plus_paired_evaluation_gain": 0.006659296423925043,
+      "context_gain": {
+        "0": 0.025223436564399404,
+        "1": 0.004671605541801238
+      },
+      "conditional_person_bootstrap95": [
+        -0.0004466837108618386,
+        0.034734473963521764
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05988047089177546,
+      "H_loss": 0.05888167260539435
+    },
+    {
+      "rep": 145,
+      "source_gain": 0.012915646851641593,
+      "source_plus_paired_evaluation_gain": 0.017347668014029982,
+      "context_gain": {
+        "0": 0.024002004652746822,
+        "1": -0.002466782976101589
+      },
+      "conditional_person_bootstrap95": [
+        -0.008867447826372749,
+        0.02943945456965183
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05859871102839992,
+      "H_loss": 0.05784187077079571
+    },
+    {
+      "rep": 146,
+      "source_gain": 0.00843728256329257,
+      "source_plus_paired_evaluation_gain": 0.012509414942509567,
+      "context_gain": {
+        "0": 0.014426150905266777,
+        "1": 7.848369744500872e-05
+      },
+      "conditional_person_bootstrap95": [
+        -0.010092948065809607,
+        0.021767162806353837
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05840765978286645,
+      "H_loss": 0.057914857853417746
+    },
+    {
+      "rep": 147,
+      "source_gain": 0.015003421555286445,
+      "source_plus_paired_evaluation_gain": 0.014620393165301948,
+      "context_gain": {
+        "0": 0.02698869202078702,
+        "1": -0.0015385455114860225
+      },
+      "conditional_person_bootstrap95": [
+        -0.0033897248313111395,
+        0.031034538351194886
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05755311785369427,
+      "H_loss": 0.05668962416471421
+    },
+    {
+      "rep": 148,
+      "source_gain": 0.015658017213799003,
+      "source_plus_paired_evaluation_gain": 0.01432466990316128,
+      "context_gain": {
+        "0": 0.024579653605701357,
+        "1": 0.002757513254537103
+      },
+      "conditional_person_bootstrap95": [
+        0.00427321237675096,
+        0.026695971799208868
+      ],
+      "penalties": {
+        "B": 1.0,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06138067016681839,
+      "H_loss": 0.06041957057675183
+    },
+    {
+      "rep": 149,
+      "source_gain": 0.03820862281317472,
+      "source_plus_paired_evaluation_gain": 0.020700955609931904,
+      "context_gain": {
+        "0": 0.06414406226730307,
+        "1": -0.0008583922579363801
+      },
+      "conditional_person_bootstrap95": [
+        0.01381537548517624,
+        0.06694114886178577
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06103522303879086,
+      "H_loss": 0.05870315122338371
+    },
+    {
+      "rep": 150,
+      "source_gain": -0.0050028198197811236,
+      "source_plus_paired_evaluation_gain": -0.00400427092748501,
+      "context_gain": {
+        "0": 0.00042198011264615864,
+        "1": -0.01266212280075485
+      },
+      "conditional_person_bootstrap95": [
+        -0.02290373138839664,
+        0.009057072144275643
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05996829825939942,
+      "H_loss": 0.060268308850490095
+    },
+    {
+      "rep": 151,
+      "source_gain": 0.007173428112522751,
+      "source_plus_paired_evaluation_gain": -0.0034168541907968475,
+      "context_gain": {
+        "0": 0.0241525549957623,
+        "1": -0.016776621687456084
+      },
+      "conditional_person_bootstrap95": [
+        -0.012802555268701554,
+        0.02816391301541599
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.001
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05790708994578004,
+      "H_loss": 0.0574916975988486
+    },
+    {
+      "rep": 152,
+      "source_gain": 0.012830124558189882,
+      "source_plus_paired_evaluation_gain": -0.0031768914117784597,
+      "context_gain": {
+        "0": 0.03270687436493236,
+        "1": -0.01530741346156006
+      },
+      "conditional_person_bootstrap95": [
+        -0.009964631944352436,
+        0.03155483292582834
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05869507335721025,
+      "H_loss": 0.05794200825508515
+    },
+    {
+      "rep": 153,
+      "source_gain": 0.02222007562115047,
+      "source_plus_paired_evaluation_gain": 0.009802555527916978,
+      "context_gain": {
+        "0": 0.056143049432787584,
+        "1": -0.026818408195239174
+      },
+      "conditional_person_bootstrap95": [
+        -0.01011350327980603,
+        0.04414107288919421
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.001
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06070976616973994,
+      "H_loss": 0.05936079057450596
+    },
+    {
+      "rep": 154,
+      "source_gain": 0.019466258602925723,
+      "source_plus_paired_evaluation_gain": 0.00750034891169471,
+      "context_gain": {
+        "0": 0.03282684573132344,
+        "1": -7.91613444095507e-05
+      },
+      "conditional_person_bootstrap95": [
+        0.004563682162115511,
+        0.03451246015589143
+      ],
+      "penalties": {
+        "B": 1.0,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06056349023918156,
+      "H_loss": 0.05938454567628988
+    },
+    {
+      "rep": 155,
+      "source_gain": 0.01885049977826514,
+      "source_plus_paired_evaluation_gain": 0.012539442267326617,
+      "context_gain": {
+        "0": 0.0296284640633403,
+        "1": 0.0037453407631312663
+      },
+      "conditional_person_bootstrap95": [
+        -0.003665375742761362,
+        0.035347036715009474
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05889488392951097,
+      "H_loss": 0.05778468593305677
+    },
+    {
+      "rep": 156,
+      "source_gain": 0.01646325612926236,
+      "source_plus_paired_evaluation_gain": 0.017661051719910503,
+      "context_gain": {
+        "0": 0.03241941075181498,
+        "1": -0.006681819722087479
+      },
+      "conditional_person_bootstrap95": [
+        0.004125077283771358,
+        0.026795358261346113
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.060038256445690774,
+      "H_loss": 0.05904983125227103
+    },
+    {
+      "rep": 157,
+      "source_gain": 0.0015968369801959703,
+      "source_plus_paired_evaluation_gain": -0.008687024856615322,
+      "context_gain": {
+        "0": 0.011749695095103707,
+        "1": -0.01250751215064505
+      },
+      "conditional_person_bootstrap95": [
+        -0.015733434792374566,
+        0.01631403251129296
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05813717587576744,
+      "H_loss": 0.058044340283404855
+    },
+    {
+      "rep": 158,
+      "source_gain": 0.009766715318295205,
+      "source_plus_paired_evaluation_gain": 0.015038823143556312,
+      "context_gain": {
+        "0": 0.01590593573389798,
+        "1": 0.0012387302624758956
+      },
+      "conditional_person_bootstrap95": [
+        -0.007737697546286959,
+        0.02229784060661741
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.058712268538996845,
+      "H_loss": 0.058138842526485164
+    },
+    {
+      "rep": 159,
+      "source_gain": 0.012471844808697452,
+      "source_plus_paired_evaluation_gain": 0.0014753689387763114,
+      "context_gain": {
+        "0": 0.02862852371775304,
+        "1": -0.010086467954698142
+      },
+      "conditional_person_bootstrap95": [
+        -0.009490658741912194,
+        0.02953596019945617
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05867156941697052,
+      "H_loss": 0.05793982670851935
+    },
+    {
+      "rep": 160,
+      "source_gain": 0.01901068813543816,
+      "source_plus_paired_evaluation_gain": 0.01843149900521235,
+      "context_gain": {
+        "0": 0.03152831157871194,
+        "1": 0.0015817280280352453
+      },
+      "conditional_person_bootstrap95": [
+        0.0014685833472992322,
+        0.03207258280981718
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05824732055708792,
+      "H_loss": 0.05713999891125223
+    },
+    {
+      "rep": 161,
+      "source_gain": 0.01551963244299348,
+      "source_plus_paired_evaluation_gain": 0.015245120336483065,
+      "context_gain": {
+        "0": 0.025372579775145954,
+        "1": 0.0018136030705616646
+      },
+      "conditional_person_bootstrap95": [
+        -0.001270972186568336,
+        0.031194241024638112
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05861967316213888,
+      "H_loss": 0.057709917380734076
+    },
+    {
+      "rep": 162,
+      "source_gain": 0.012360038644723015,
+      "source_plus_paired_evaluation_gain": 0.007109892131247797,
+      "context_gain": {
+        "0": 0.033635010873862003,
+        "1": -0.017072144983635074
+      },
+      "conditional_person_bootstrap95": [
+        -0.007073590483155079,
+        0.030741114852440216
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.001
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.0598006047443497,
+      "H_loss": 0.05906146695873173
+    },
+    {
+      "rep": 163,
+      "source_gain": 0.007457688805574847,
+      "source_plus_paired_evaluation_gain": 0.014154964184910246,
+      "context_gain": {
+        "0": 0.026285319050844635,
+        "1": -0.019375727679733723
+      },
+      "conditional_person_bootstrap95": [
+        -0.01176790177389842,
+        0.02038027755412806
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05921905144730048,
+      "H_loss": 0.05877741419024519
+    },
+    {
+      "rep": 164,
+      "source_gain": 0.015027768426172483,
+      "source_plus_paired_evaluation_gain": 0.01628324711572715,
+      "context_gain": {
+        "0": 0.028499904778918728,
+        "1": -0.003566248877908018
+      },
+      "conditional_person_bootstrap95": [
+        0.0003481160376018509,
+        0.026419355655195
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05780440912027817,
+      "H_loss": 0.0569357378460069
+    },
+    {
+      "rep": 165,
+      "source_gain": 0.03671830981206514,
+      "source_plus_paired_evaluation_gain": 0.04143110064903299,
+      "context_gain": {
+        "0": 0.06335939660845413,
+        "1": -0.0024377699423225874
+      },
+      "conditional_person_bootstrap95": [
+        0.010033451676319522,
+        0.058845056035220486
+      ],
+      "penalties": {
+        "B": 0.001,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.060649543110498166,
+      "H_loss": 0.05842259439660669
+    },
+    {
+      "rep": 166,
+      "source_gain": 0.0046543047047318264,
+      "source_plus_paired_evaluation_gain": -0.005788582151668331,
+      "context_gain": {
+        "0": 0.012190034490626833,
+        "1": -0.005798498276124775
+      },
+      "conditional_person_bootstrap95": [
+        -0.009975620080348295,
+        0.01578202708997832
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.058183394329967233,
+      "H_loss": 0.057912591084
+    },
+    {
+      "rep": 167,
+      "source_gain": 0.010601238249090539,
+      "source_plus_paired_evaluation_gain": 0.01458764941006363,
+      "context_gain": {
+        "0": 0.015472229898101486,
+        "1": 0.003898379652881423
+      },
+      "conditional_person_bootstrap95": [
+        -0.0008362397882360871,
+        0.023305256919421227
+      ],
+      "penalties": {
+        "B": 1.0,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.060194535088047785,
+      "H_loss": 0.05955639848028615
+    },
+    {
+      "rep": 168,
+      "source_gain": 0.012822375437543942,
+      "source_plus_paired_evaluation_gain": 0.013397551221743131,
+      "context_gain": {
+        "0": 0.02389315803193337,
+        "1": -0.002889986533436195
+      },
+      "conditional_person_bootstrap95": [
+        -0.003563183991571061,
+        0.025675860678839015
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05842185832038715,
+      "H_loss": 0.057672751319244146
+    },
+    {
+      "rep": 169,
+      "source_gain": 0.0103208018263099,
+      "source_plus_paired_evaluation_gain": -0.01574755563392638,
+      "context_gain": {
+        "0": 0.024395630009819702,
+        "1": -0.009721461077104143
+      },
+      "conditional_person_bootstrap95": [
+        -0.006013920280426887,
+        0.02455518528689946
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05834934749221101,
+      "H_loss": 0.05774713544004941
+    },
+    {
+      "rep": 170,
+      "source_gain": 0.027928085004472636,
+      "source_plus_paired_evaluation_gain": 0.02096809120836718,
+      "context_gain": {
+        "0": 0.03266815791900324,
+        "1": 0.021610395094682655
+      },
+      "conditional_person_bootstrap95": [
+        0.012426539618608253,
+        0.04220037101533883
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.059148785765532154,
+      "H_loss": 0.05749687344876103
+    },
+    {
+      "rep": 171,
+      "source_gain": 0.005145761468631105,
+      "source_plus_paired_evaluation_gain": -0.010921005679854101,
+      "context_gain": {
+        "0": 0.017723818877180553,
+        "1": -0.012882944535612006
+      },
+      "conditional_person_bootstrap95": [
+        -0.014638199088432141,
+        0.01881966375137309
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.001
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05919059478522556,
+      "H_loss": 0.05888601410327439
+    },
+    {
+      "rep": 172,
+      "source_gain": 0.004923952548963606,
+      "source_plus_paired_evaluation_gain": 0.005299507133601611,
+      "context_gain": {
+        "0": 0.01728961395032591,
+        "1": -0.013008091328321036
+      },
+      "conditional_person_bootstrap95": [
+        -0.003957726251460941,
+        0.01670982206266254
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.0595236444449551,
+      "H_loss": 0.05923055284416676
+    },
+    {
+      "rep": 173,
+      "source_gain": 0.012789466318473997,
+      "source_plus_paired_evaluation_gain": 0.015687555734126946,
+      "context_gain": {
+        "0": 0.02135161721890988,
+        "1": 0.001133989609338193
+      },
+      "conditional_person_bootstrap95": [
+        0.0008105387511683716,
+        0.022231588658750526
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05822903868077766,
+      "H_loss": 0.05748432035181274
+    },
+    {
+      "rep": 174,
+      "source_gain": 0.02044355813039267,
+      "source_plus_paired_evaluation_gain": 0.02692763462679182,
+      "context_gain": {
+        "0": 0.025841345379443825,
+        "1": 0.013111854688180324
+      },
+      "conditional_person_bootstrap95": [
+        0.004227048374890372,
+        0.036023232496243174
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05947405683246378,
+      "H_loss": 0.05825819549435903
+    },
+    {
+      "rep": 175,
+      "source_gain": 0.01685635586727452,
+      "source_plus_paired_evaluation_gain": 0.020628011070077057,
+      "context_gain": {
+        "0": 0.023840597870566693,
+        "1": 0.007023361543850304
+      },
+      "conditional_person_bootstrap95": [
+        -0.008650910803353723,
+        0.036130962843102486
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05969476260659008,
+      "H_loss": 0.05868852644468093
+    },
+    {
+      "rep": 176,
+      "source_gain": 0.017343629070321498,
+      "source_plus_paired_evaluation_gain": 0.027553521298929406,
+      "context_gain": {
+        "0": 0.0329916017997578,
+        "1": -0.005087954552259744
+      },
+      "conditional_person_bootstrap95": [
+        0.00698779260001445,
+        0.030035350026531245
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.059113370156170554,
+      "H_loss": 0.05808812979108532
+    },
+    {
+      "rep": 177,
+      "source_gain": 0.010451299257384417,
+      "source_plus_paired_evaluation_gain": 0.015170941830084717,
+      "context_gain": {
+        "0": 0.01586447361410448,
+        "1": 0.002986239868182028
+      },
+      "conditional_person_bootstrap95": [
+        -0.006510217338547769,
+        0.022572627786842134
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05798885196884941,
+      "H_loss": 0.0573827931233308
+    },
+    {
+      "rep": 178,
+      "source_gain": 0.015999489539630374,
+      "source_plus_paired_evaluation_gain": 0.010375109188703324,
+      "context_gain": {
+        "0": 0.02582412938799017,
+        "1": 0.0021182303916353895
+      },
+      "conditional_person_bootstrap95": [
+        0.007365205619697591,
+        0.023705741413215027
+      ],
+      "penalties": {
+        "B": 1.0,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.059302505436589284,
+      "H_loss": 0.0583536956211827
+    },
+    {
+      "rep": 179,
+      "source_gain": 0.00616434109826991,
+      "source_plus_paired_evaluation_gain": 0.0003743283997578173,
+      "context_gain": {
+        "0": 0.006984772005068307,
+        "1": 0.005013939949795598
+      },
+      "conditional_person_bootstrap95": [
+        -0.013441685932850384,
+        0.024141976889820657
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.001
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06048757400388368,
+      "H_loss": 0.0601147079655169
+    },
+    {
+      "rep": 180,
+      "source_gain": 0.014374959844913549,
+      "source_plus_paired_evaluation_gain": 0.004579052976461995,
+      "context_gain": {
+        "0": 0.031090861350933308,
+        "1": -0.008862901894644226
+      },
+      "conditional_person_bootstrap95": [
+        -0.010368552468037105,
+        0.034974972288684784
+      ],
+      "penalties": {
+        "B": 0.001,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.0583424532670427,
+      "H_loss": 0.057503782844075216
+    },
+    {
+      "rep": 181,
+      "source_gain": 0.014309945472471108,
+      "source_plus_paired_evaluation_gain": 0.02116494968161098,
+      "context_gain": {
+        "0": 0.028192849085991845,
+        "1": -0.005594253253900838
+      },
+      "conditional_person_bootstrap95": [
+        0.0006394552103425405,
+        0.023033907783443452
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05935374965042861,
+      "H_loss": 0.05850440072934428
+    },
+    {
+      "rep": 182,
+      "source_gain": -0.00045062580436749933,
+      "source_plus_paired_evaluation_gain": -0.0033702037900207316,
+      "context_gain": {
+        "0": 0.020992989157121555,
+        "1": -0.030853699462946915
+      },
+      "conditional_person_bootstrap95": [
+        -0.033139330846661395,
+        0.027365501020854225
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.001
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05827243135328858,
+      "H_loss": 0.058298690414539604
+    },
+    {
+      "rep": 183,
+      "source_gain": 0.016427428268851907,
+      "source_plus_paired_evaluation_gain": 0.0244788812539547,
+      "context_gain": {
+        "0": 0.03710151633853764,
+        "1": -0.01328121510477942
+      },
+      "conditional_person_bootstrap95": [
+        0.0036480638219715256,
+        0.031778465747624336
+      ],
+      "penalties": {
+        "B": 0.001,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.059409440926494604,
+      "H_loss": 0.05843349659718202
+    },
+    {
+      "rep": 184,
+      "source_gain": 0.013158922317643151,
+      "source_plus_paired_evaluation_gain": 0.02800627654132548,
+      "context_gain": {
+        "0": 0.02281831293076486,
+        "1": -0.00036190170196936933
+      },
+      "conditional_person_bootstrap95": [
+        -0.004249882965178747,
+        0.026178973488614875
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.057975944022550706,
+      "H_loss": 0.05721304307886593
+    },
+    {
+      "rep": 185,
+      "source_gain": 0.01609019659968136,
+      "source_plus_paired_evaluation_gain": 0.021891847197363146,
+      "context_gain": {
+        "0": 0.03136144449339262,
+        "1": -0.006272071285830405
+      },
+      "conditional_person_bootstrap95": [
+        0.0034134190961919745,
+        0.02769233081566826
+      ],
+      "penalties": {
+        "B": 0.001,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.0607623306664114,
+      "H_loss": 0.059784652820133996
+    },
+    {
+      "rep": 186,
+      "source_gain": 0.01613253841741691,
+      "source_plus_paired_evaluation_gain": 0.014670660775982225,
+      "context_gain": {
+        "0": 0.024795765775188272,
+        "1": 0.003937552939065836
+      },
+      "conditional_person_bootstrap95": [
+        0.0008898584797531779,
+        0.029125291746232244
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.058591813966742734,
+      "H_loss": 0.05764657927697811
+    },
+    {
+      "rep": 187,
+      "source_gain": 0.002578073762712463,
+      "source_plus_paired_evaluation_gain": 0.00690726334098668,
+      "context_gain": {
+        "0": 0.013493389692904145,
+        "1": -0.012738648973716238
+      },
+      "conditional_person_bootstrap95": [
+        -0.009251376343486944,
+        0.013750077852883846
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05812977923842062,
+      "H_loss": 0.057979916379733785
+    },
+    {
+      "rep": 188,
+      "source_gain": 0.024341779009033115,
+      "source_plus_paired_evaluation_gain": 0.03458375010368442,
+      "context_gain": {
+        "0": 0.03933086703772215,
+        "1": 0.0033104776630206167
+      },
+      "conditional_person_bootstrap95": [
+        0.0082822170826468,
+        0.03846367257498423
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.059332774830019364,
+      "H_loss": 0.05788850953711431
+    },
+    {
+      "rep": 189,
+      "source_gain": 0.024341184142594785,
+      "source_plus_paired_evaluation_gain": 0.029600635321401447,
+      "context_gain": {
+        "0": 0.04769469304699969,
+        "1": -0.010071361843829285
+      },
+      "conditional_person_bootstrap95": [
+        0.006249988374332172,
+        0.038833530119536344
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06051984846609976,
+      "H_loss": 0.05904672369030449
+    },
+    {
+      "rep": 190,
+      "source_gain": 0.005865594716980227,
+      "source_plus_paired_evaluation_gain": 0.010096343655551343,
+      "context_gain": {
+        "0": 0.017510690762997716,
+        "1": -0.010536613744573708
+      },
+      "conditional_person_bootstrap95": [
+        -0.007498291390259082,
+        0.021303535722060472
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.059430531888637894,
+      "H_loss": 0.059081936474764576
+    },
+    {
+      "rep": 191,
+      "source_gain": 0.006796282204452386,
+      "source_plus_paired_evaluation_gain": -2.354285544359236e-05,
+      "context_gain": {
+        "0": 0.029575169386123146,
+        "1": -0.02521572913671788
+      },
+      "conditional_person_bootstrap95": [
+        -0.013421750872697535,
+        0.021279347793327373
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.058236382998327674,
+      "H_loss": 0.05784059210490446
+    },
+    {
+      "rep": 192,
+      "source_gain": 0.0030847616577230896,
+      "source_plus_paired_evaluation_gain": 0.010623831855532284,
+      "context_gain": {
+        "0": 0.0099090813982472,
+        "1": -0.006440725797430824
+      },
+      "conditional_person_bootstrap95": [
+        -0.020006138754103408,
+        0.019192805629236913
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05825178751297304,
+      "H_loss": 0.058072094632359184
+    },
+    {
+      "rep": 193,
+      "source_gain": 0.012905940452903275,
+      "source_plus_paired_evaluation_gain": 0.01838242022495562,
+      "context_gain": {
+        "0": 0.025360001622939166,
+        "1": -0.004621329568341714
+      },
+      "conditional_person_bootstrap95": [
+        -0.008305284302364302,
+        0.02943666580780647
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.01
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.058164262928852524,
+      "H_loss": 0.05741359841500574
+    },
+    {
+      "rep": 194,
+      "source_gain": 0.02819828959674997,
+      "source_plus_paired_evaluation_gain": 0.01658735912049847,
+      "context_gain": {
+        "0": 0.052785500514789474,
+        "1": -0.007280370910191625
+      },
+      "conditional_person_bootstrap95": [
+        0.01364459036770157,
+        0.05088471970485234
+      ],
+      "penalties": {
+        "B": 1.0,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.06000117825615553,
+      "H_loss": 0.05830924765554224
+    },
+    {
+      "rep": 195,
+      "source_gain": 0.023944958898098334,
+      "source_plus_paired_evaluation_gain": 0.011357482865771762,
+      "context_gain": {
+        "0": 0.04711769204188643,
+        "1": -0.009604374912415059
+      },
+      "conditional_person_bootstrap95": [
+        0.0035006621376520003,
+        0.044738605849152964
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05955455095290749,
+      "H_loss": 0.05812851967814541
+    },
+    {
+      "rep": 196,
+      "source_gain": 0.00887274953556827,
+      "source_plus_paired_evaluation_gain": 0.011332839928442695,
+      "context_gain": {
+        "0": 0.01235474565398198,
+        "1": 0.003732204170451059
+      },
+      "conditional_person_bootstrap95": [
+        -0.009924151007536408,
+        0.02454715167853699
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.0622859181150032,
+      "H_loss": 0.06173327076397586
+    },
+    {
+      "rep": 197,
+      "source_gain": 0.018446398932310926,
+      "source_plus_paired_evaluation_gain": 0.015391962314990848,
+      "context_gain": {
+        "0": 0.026635323205713823,
+        "1": 0.006814378740830129
+      },
+      "conditional_person_bootstrap95": [
+        0.005936015603356432,
+        0.037035311852549865
+      ],
+      "penalties": {
+        "B": 1.0,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.0605266633894541,
+      "H_loss": 0.059410164410530535
+    },
+    {
+      "rep": 198,
+      "source_gain": 0.012782611286098478,
+      "source_plus_paired_evaluation_gain": 0.003948942979724146,
+      "context_gain": {
+        "0": 0.02421569296802073,
+        "1": -0.00324300354706919
+      },
+      "conditional_person_bootstrap95": [
+        -0.00623608179871829,
+        0.02929650605325386
+      ],
+      "penalties": {
+        "B": 0.01,
+        "H": 0.1
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05837862673424294,
+      "H_loss": 0.057632395441282874
+    },
+    {
+      "rep": 199,
+      "source_gain": 0.0009978334708863335,
+      "source_plus_paired_evaluation_gain": -0.0025375820240041147,
+      "context_gain": {
+        "0": 0.00511517456617705,
+        "1": -0.004817014765368333
+      },
+      "conditional_person_bootstrap95": [
+        -0.024221679098272754,
+        0.020083427942631925
+      ],
+      "penalties": {
+        "B": 0.1,
+        "H": 1.0
+      },
+      "passes_original_joint_rule": false,
+      "B_loss": 0.05861754559407225,
+      "H_loss": 0.05855905504509728
+    }
+  ],
+  "input_container_bytes": 21047298,
+  "input_decoded_array_bytes": 21045568,
+  "peak_rss_bytes": 159006720,
+  "elapsed_seconds": 6.424417792,
+  "scope": "Finite empirical source/evaluation bootstrap perturbation, source selection repeated and duplicate identities grouped. These percentiles are not calibrated confidence intervals or new held-out evidence. Original frozen result unchanged."
+}

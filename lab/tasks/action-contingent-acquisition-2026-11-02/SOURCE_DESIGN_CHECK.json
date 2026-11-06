@@ -1,0 +1,152 @@
+{
+  "utc": "2026-11-02T21:43:29.426209+00:00",
+  "first_person_id_sha256": "1e60cdc0b4fae80d9008d5b28e0fcd85baf33cbc11a10610c2ee3f0c2a0d9a3c",
+  "source_sha256": "47083627c365cc3130cc8f75dd2b989e51112a95b043eaf78013750381eac7d6",
+  "phases": {
+    "practice": {
+      "rows": 25,
+      "initial_probabilities": [
+        0.4,
+        0.6,
+        0.75,
+        0.25
+      ],
+      "probability_min": 0.25,
+      "probability_max": 0.75,
+      "main_trial_order_consecutive": true,
+      "increments": 96,
+      "interior_increments": 31,
+      "rounding_checks": {
+        "all_12": {
+          "unique": 92,
+          "observations_beyond_first_occurrences": 4,
+          "values_observed_more_than_once": 4,
+          "largest_multiplicity": 2
+        },
+        "interior_12": {
+          "unique": 31,
+          "observations_beyond_first_occurrences": 0,
+          "values_observed_more_than_once": 0,
+          "largest_multiplicity": 1
+        },
+        "all_10": {
+          "unique": 92,
+          "observations_beyond_first_occurrences": 4,
+          "values_observed_more_than_once": 4,
+          "largest_multiplicity": 2
+        },
+        "interior_10": {
+          "unique": 31,
+          "observations_beyond_first_occurrences": 0,
+          "values_observed_more_than_once": 0,
+          "largest_multiplicity": 1
+        }
+      }
+    },
+    "main": {
+      "rows": 125,
+      "initial_probabilities": [
+        0.25,
+        0.75,
+        0.6,
+        0.4
+      ],
+      "probability_min": 0.25,
+      "probability_max": 0.75,
+      "main_trial_order_consecutive": true,
+      "increments": 496,
+      "interior_increments": 146,
+      "rounding_checks": {
+        "all_12": {
+          "unique": 410,
+          "observations_beyond_first_occurrences": 86,
+          "values_observed_more_than_once": 79,
+          "largest_multiplicity": 3
+        },
+        "interior_12": {
+          "unique": 134,
+          "observations_beyond_first_occurrences": 12,
+          "values_observed_more_than_once": 12,
+          "largest_multiplicity": 2
+        },
+        "all_10": {
+          "unique": 410,
+          "observations_beyond_first_occurrences": 86,
+          "values_observed_more_than_once": 79,
+          "largest_multiplicity": 3
+        },
+        "interior_10": {
+          "unique": 134,
+          "observations_beyond_first_occurrences": 12,
+          "values_observed_more_than_once": 12,
+          "largest_multiplicity": 2
+        }
+      }
+    }
+  },
+  "score_check": {
+    "equals_main_reward_cumulative_sum": true,
+    "last_score": 78.0,
+    "reward_sum": 78.0,
+    "raw_positive_reward_codes": [
+      0.0,
+      1.0
+    ]
+  },
+  "source_pins": {
+    "index.html": {
+      "bytes": 10262,
+      "sha256": "93d7854bbd3fd73e3cc55bbc0d2b27f543d87b642587b61a0602c9aaf95b8baf",
+      "git_blob_of_saved_utf8": "d189407b06243ce181462f0986c3f61ef2f38ff7"
+    },
+    "additional-functions.js": {
+      "bytes": 10274,
+      "sha256": "d236c7c95f964a6c2413c060e121eeca8564e3fc07b75c1c9230b4841daf368d",
+      "git_blob_of_saved_utf8": "6a8e98482f72de2ba5ef174faf9a378768317939"
+    },
+    "jspsych-space-daw-stim.js": {
+      "bytes": 11245,
+      "sha256": "44273c31d2c87a36d8083645cd6928080bb728b97881bad3333d9977f624b8d7",
+      "git_blob_of_saved_utf8": "d32549dfc6edeb9b01bb4e6dd17b02dc0ea810c5"
+    },
+    "make_raw_data.m": {
+      "bytes": 4833,
+      "sha256": "2af45674039a8e3094aa4c373c599f9c60b3bc80e1bf6fe31ba0e8cc987b8fbf",
+      "git_blob_of_saved_utf8": "e702d54093ec50cb262fd8ed96351dbb3da9158f"
+    },
+    "MB_MF_daw_rllik.m": {
+      "bytes": 3555,
+      "sha256": "f17ca4b238bbffbc070754c5574d40b1d448e139a555c85781187b25a9996fc6",
+      "git_blob_of_saved_utf8": "b7af6cecde1a6a8fc90fb9328d21321303e89b76"
+    },
+    "set_opts.m": {
+      "bytes": 1390,
+      "sha256": "ac52da670291c22322d7b6efda06d0d7ced5ae25409acd6184bc4074263e1465",
+      "git_blob_of_saved_utf8": "e659111ebe3c56a976a60c8786b86957ec9454ce"
+    }
+  },
+  "static_law": {
+    "finite_bank_size": 1000,
+    "bank_normal_sd": 0.025,
+    "common_transition_probability": 0.7,
+    "reflection_bounds": [
+      0.25,
+      0.75
+    ],
+    "future_draws_occur_online_before_each_trial": true,
+    "state_draw_after_first_action": true,
+    "reward_draw_after_second_action": true,
+    "literal_source_assertions_pass": true,
+    "first_person_no_omissions_so_empirical_omission_replay_unrun": true
+  },
+  "mat_compressed_element": {
+    "tag": 15,
+    "compressed_bytes": 1894527,
+    "uncompressed_bytes": 36091248,
+    "stream_finished": true
+  },
+  "interpretation": "Same-person protocol fingerprint only. Rounded repeat counts do not estimate material forecast error, prove deployed code identity or exclude every alternative teacher. New independent Gaussian draws are not the literal source bank law; forecasts before the first main trial could integrate this bank prior. No fitting, forecast, source model superiority, biological effect, impossibility or novelty is established.",
+  "exit_code": 0,
+  "elapsed_seconds": 0.21778020799999998,
+  "maxrss_bytes_darwin": 254197760
+}

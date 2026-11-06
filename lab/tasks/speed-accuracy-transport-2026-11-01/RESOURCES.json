@@ -1,0 +1,88 @@
+{
+  "as_of": "2026-11-01T08:25:24.012149+00:00",
+  "public_operations_so_far": 32,
+  "public_operations_cap": 36,
+  "empirical_families_selected": [
+    "Wagenmakers et al2008 Experiment1; same-family Heathcote-Love2012 released reanalysis"
+  ],
+  "primary_work_families_selected": [
+    "Wagenmakers et al2008",
+    "Heathcote and Love2012",
+    "Wagenmakers van der Maas Grasman2007 EZ"
+  ],
+  "ingress_charge_bytes_so_far": 12000000,
+  "ingress_cap_bytes": 30000000,
+  "read_decode_hash_charge_bytes_so_far": 50000000,
+  "read_cap_bytes": 350000000,
+  "largest_measured_local_peak_rss_bytes": 132743168,
+  "rss_cap_bytes": 800000000,
+  "jobs_active": 0,
+  "unknown": [
+    "search-provider fanout and response-body traffic",
+    "pip metadata/HTTP request fanout and exact wire bytes",
+    "toolhost memory",
+    "failed-access wrapper peaks",
+    "physical I/O"
+  ],
+  "charges_note": "Conservative manual allowances, not measured OS-wide traffic/read certificates. First-check charge20MB plus additional30MB allowance for dependency/source inspection and failed passes. Future commands budgeted separately; no metering infrastructure.",
+  "public_operations_final": 32,
+  "ingress_charge_bytes_final": 12000000,
+  "read_decode_hash_charge_bytes_final": 330000000,
+  "read_charges": [
+    {
+      "stage": "orientation_dependencies_first_check_and_failed_imports",
+      "charged_bytes": 50000000
+    },
+    {
+      "stage": "failed_develop_block_factor",
+      "charged_bytes": 20000000
+    },
+    {
+      "stage": "failed_develop_additive_map",
+      "charged_bytes": 40000000
+    },
+    {
+      "stage": "successful_develop",
+      "charged_bytes": 40000000
+    },
+    {
+      "stage": "source_numerical_audit",
+      "charged_bytes": 15000000
+    },
+    {
+      "stage": "freeze_hashes",
+      "charged_bytes": 5000000
+    },
+    {
+      "stage": "predict",
+      "charged_bytes": 30000000
+    },
+    {
+      "stage": "score",
+      "charged_bytes": 30000000
+    },
+    {
+      "stage": "held_numerical_audit",
+      "charged_bytes": 15000000
+    },
+    {
+      "stage": "raw_reconstruction_and_cutoff",
+      "charged_bytes": 35000000
+    },
+    {
+      "stage": "original_controls",
+      "charged_bytes": 20000000
+    },
+    {
+      "stage": "contrary_diagnostic",
+      "charged_bytes": 15000000
+    },
+    {
+      "stage": "final_summary_hash_versions_and_reporting_allowance",
+      "charged_bytes": 15000000
+    }
+  ],
+  "science_status": "author complete; independent review UNRUN",
+  "measured_cap_breach": false,
+  "OS_wide_cap_compliance_certified": false
+}

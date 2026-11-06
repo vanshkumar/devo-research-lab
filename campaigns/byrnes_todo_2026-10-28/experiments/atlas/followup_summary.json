@@ -1,0 +1,1106 @@
+{
+  "results": [
+    {
+      "cluster": "C4-296",
+      "n": 200,
+      "OXT_count_min": 115,
+      "OXT_count_max": 115,
+      "AVP_count_min": 171,
+      "AVP_count_max": 171,
+      "joint_min": 86,
+      "joint_max": 115,
+      "joint_min_fraction": 0.43,
+      "largest_donor": "siletti_H19.30.002",
+      "largest_donor_capacity_max": 84,
+      "min_joint_outside_largest": 2,
+      "min_contributing_donors": 2,
+      "integer_capacity_intervals_unique": true,
+      "milp_min_total": 86,
+      "milp_min_outside_largest": 2,
+      "milp_min_contributing_donors": 2,
+      "spurious_positive_calls_needed_for_zero_true_overlap": 86,
+      "spurious_calls_per_observation_min": 0.43,
+      "artifact_barcode_fraction_to_zero_bound": 0.43
+    },
+    {
+      "cluster": "C4-312",
+      "n": 687,
+      "OXT_count_min": 273,
+      "OXT_count_max": 273,
+      "AVP_count_min": 672,
+      "AVP_count_max": 672,
+      "joint_min": 258,
+      "joint_max": 273,
+      "joint_min_fraction": 0.37554585152838427,
+      "largest_donor": "siletti_H18.30.002",
+      "largest_donor_capacity_max": 275,
+      "min_joint_outside_largest": 0,
+      "min_contributing_donors": 1,
+      "integer_capacity_intervals_unique": true,
+      "milp_min_total": 258,
+      "milp_min_outside_largest": 0,
+      "milp_min_contributing_donors": 1,
+      "spurious_positive_calls_needed_for_zero_true_overlap": 258,
+      "spurious_calls_per_observation_min": 0.37554585152838427,
+      "artifact_barcode_fraction_to_zero_bound": 0.37554585152838427
+    },
+    {
+      "cluster": "C4-313",
+      "n": 309,
+      "OXT_count_min": 303,
+      "OXT_count_max": 303,
+      "AVP_count_min": 205,
+      "AVP_count_max": 205,
+      "joint_min": 199,
+      "joint_max": 205,
+      "joint_min_fraction": 0.6440129449838188,
+      "largest_donor": "siletti_H18.30.002",
+      "largest_donor_capacity_max": 74,
+      "min_joint_outside_largest": 125,
+      "min_contributing_donors": 3,
+      "integer_capacity_intervals_unique": true,
+      "milp_min_total": 199,
+      "milp_min_outside_largest": 125,
+      "milp_min_contributing_donors": 3,
+      "spurious_positive_calls_needed_for_zero_true_overlap": 199,
+      "spurious_calls_per_observation_min": 0.6440129449838188,
+      "artifact_barcode_fraction_to_zero_bound": 0.6440129449838188
+    },
+    {
+      "cluster": "C4-315",
+      "n": 280,
+      "OXT_count_min": 180,
+      "OXT_count_max": 180,
+      "AVP_count_min": 238,
+      "AVP_count_max": 238,
+      "joint_min": 138,
+      "joint_max": 180,
+      "joint_min_fraction": 0.4928571428571429,
+      "largest_donor": "siletti_H19.30.001",
+      "largest_donor_capacity_max": 121,
+      "min_joint_outside_largest": 17,
+      "min_contributing_donors": 2,
+      "integer_capacity_intervals_unique": true,
+      "milp_min_total": 138,
+      "milp_min_outside_largest": 17,
+      "milp_min_contributing_donors": 2,
+      "spurious_positive_calls_needed_for_zero_true_overlap": 138,
+      "spurious_calls_per_observation_min": 0.4928571428571429,
+      "artifact_barcode_fraction_to_zero_bound": 0.4928571428571429
+    }
+  ],
+  "exploratory_source_dataset_bounds": [
+    {
+      "cluster": "C4-296",
+      "source_dataset": "Siletti",
+      "n_capacity_min": 130,
+      "n_capacity_max": 130,
+      "joint_min_in_source": 16,
+      "milp_joint_min_in_source": 16
+    },
+    {
+      "cluster": "C4-296",
+      "source_dataset": "Tadross",
+      "n_capacity_min": 70,
+      "n_capacity_max": 70,
+      "joint_min_in_source": 0,
+      "milp_joint_min_in_source": 0
+    },
+    {
+      "cluster": "C4-312",
+      "source_dataset": "Siletti",
+      "n_capacity_min": 341,
+      "n_capacity_max": 341,
+      "joint_min_in_source": 0,
+      "milp_joint_min_in_source": 0
+    },
+    {
+      "cluster": "C4-312",
+      "source_dataset": "Tadross",
+      "n_capacity_min": 346,
+      "n_capacity_max": 346,
+      "joint_min_in_source": 0,
+      "milp_joint_min_in_source": 0
+    },
+    {
+      "cluster": "C4-313",
+      "source_dataset": "Siletti",
+      "n_capacity_min": 186,
+      "n_capacity_max": 186,
+      "joint_min_in_source": 76,
+      "milp_joint_min_in_source": 76
+    },
+    {
+      "cluster": "C4-313",
+      "source_dataset": "Tadross",
+      "n_capacity_min": 123,
+      "n_capacity_max": 123,
+      "joint_min_in_source": 13,
+      "milp_joint_min_in_source": 13
+    },
+    {
+      "cluster": "C4-315",
+      "source_dataset": "Siletti",
+      "n_capacity_min": 234,
+      "n_capacity_max": 234,
+      "joint_min_in_source": 92,
+      "milp_joint_min_in_source": 92
+    },
+    {
+      "cluster": "C4-315",
+      "source_dataset": "Tadross",
+      "n_capacity_min": 46,
+      "n_capacity_max": 46,
+      "joint_min_in_source": 0,
+      "milp_joint_min_in_source": 0
+    }
+  ],
+  "n_exact_exhaustive_controls": 52,
+  "control_details": [
+    {
+      "capacities": [
+        1,
+        2
+      ],
+      "A": 0,
+      "B": 0,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        1,
+        2
+      ],
+      "A": 0,
+      "B": 1,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        1,
+        2
+      ],
+      "A": 0,
+      "B": 2,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        1,
+        2
+      ],
+      "A": 0,
+      "B": 3,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        1,
+        2
+      ],
+      "A": 1,
+      "B": 0,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        1,
+        2
+      ],
+      "A": 1,
+      "B": 1,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        1,
+        2
+      ],
+      "A": 1,
+      "B": 2,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        1,
+        2
+      ],
+      "A": 1,
+      "B": 3,
+      "expected": [
+        1,
+        0,
+        1
+      ],
+      "exhaustive": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "capacities": [
+        1,
+        2
+      ],
+      "A": 2,
+      "B": 0,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        1,
+        2
+      ],
+      "A": 2,
+      "B": 1,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        1,
+        2
+      ],
+      "A": 2,
+      "B": 2,
+      "expected": [
+        1,
+        0,
+        1
+      ],
+      "exhaustive": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "capacities": [
+        1,
+        2
+      ],
+      "A": 2,
+      "B": 3,
+      "expected": [
+        2,
+        0,
+        1
+      ],
+      "exhaustive": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "capacities": [
+        1,
+        2
+      ],
+      "A": 3,
+      "B": 0,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        1,
+        2
+      ],
+      "A": 3,
+      "B": 1,
+      "expected": [
+        1,
+        0,
+        1
+      ],
+      "exhaustive": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "capacities": [
+        1,
+        2
+      ],
+      "A": 3,
+      "B": 2,
+      "expected": [
+        2,
+        0,
+        1
+      ],
+      "exhaustive": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "capacities": [
+        1,
+        2
+      ],
+      "A": 3,
+      "B": 3,
+      "expected": [
+        3,
+        1,
+        2
+      ],
+      "exhaustive": [
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 0,
+      "B": 0,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 0,
+      "B": 1,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 0,
+      "B": 2,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 0,
+      "B": 3,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 0,
+      "B": 4,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 0,
+      "B": 5,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 1,
+      "B": 0,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 1,
+      "B": 1,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 1,
+      "B": 2,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 1,
+      "B": 3,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 1,
+      "B": 4,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 1,
+      "B": 5,
+      "expected": [
+        1,
+        0,
+        1
+      ],
+      "exhaustive": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 2,
+      "B": 0,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 2,
+      "B": 1,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 2,
+      "B": 2,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 2,
+      "B": 3,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 2,
+      "B": 4,
+      "expected": [
+        1,
+        0,
+        1
+      ],
+      "exhaustive": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 2,
+      "B": 5,
+      "expected": [
+        2,
+        0,
+        1
+      ],
+      "exhaustive": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 3,
+      "B": 0,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 3,
+      "B": 1,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 3,
+      "B": 2,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 3,
+      "B": 3,
+      "expected": [
+        1,
+        0,
+        1
+      ],
+      "exhaustive": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 3,
+      "B": 4,
+      "expected": [
+        2,
+        0,
+        1
+      ],
+      "exhaustive": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 3,
+      "B": 5,
+      "expected": [
+        3,
+        0,
+        1
+      ],
+      "exhaustive": [
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 4,
+      "B": 0,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 4,
+      "B": 1,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 4,
+      "B": 2,
+      "expected": [
+        1,
+        0,
+        1
+      ],
+      "exhaustive": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 4,
+      "B": 3,
+      "expected": [
+        2,
+        0,
+        1
+      ],
+      "exhaustive": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 4,
+      "B": 4,
+      "expected": [
+        3,
+        0,
+        1
+      ],
+      "exhaustive": [
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 4,
+      "B": 5,
+      "expected": [
+        4,
+        1,
+        2
+      ],
+      "exhaustive": [
+        4,
+        1,
+        2
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 5,
+      "B": 0,
+      "expected": [
+        0,
+        0,
+        0
+      ],
+      "exhaustive": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 5,
+      "B": 1,
+      "expected": [
+        1,
+        0,
+        1
+      ],
+      "exhaustive": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 5,
+      "B": 2,
+      "expected": [
+        2,
+        0,
+        1
+      ],
+      "exhaustive": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 5,
+      "B": 3,
+      "expected": [
+        3,
+        0,
+        1
+      ],
+      "exhaustive": [
+        3,
+        0,
+        1
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 5,
+      "B": 4,
+      "expected": [
+        4,
+        1,
+        2
+      ],
+      "exhaustive": [
+        4,
+        1,
+        2
+      ]
+    },
+    {
+      "capacities": [
+        2,
+        3
+      ],
+      "A": 5,
+      "B": 5,
+      "expected": [
+        5,
+        2,
+        2
+      ],
+      "exhaustive": [
+        5,
+        2,
+        2
+      ]
+    }
+  ],
+  "rounding": "inclusive\u00b10.0005 for3decimal gene fractions;\u00b10.005 percentage points for2decimal donor percentages",
+  "assumptions": [
+    "marker percentages and cluster annotationN describe identical barcode universe",
+    "donor percentages are fractions of that sameN rounded to2decimal percentage points",
+    "integer count/category allocations are observations, not ground-truth genuine neurons",
+    "adversarial contamination model counts false positive binary gene calls or wholly artifactual barcodes; not ambientRNA read fraction"
+  ],
+  "untouched_donor_validation": false,
+  "new_raw_data": false
+}

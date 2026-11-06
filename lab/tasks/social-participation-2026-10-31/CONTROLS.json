@@ -1,0 +1,792 @@
+{
+  "finite_difference_gradient_max_error": 2.6420252652314957e-09,
+  "repeat_full_prediction_max_error": 3.446123734984763e-08,
+  "color_relabel_prediction_max_error": 3.477380608463143e-08,
+  "g_zero_nesting_max_error": 0.0,
+  "repeat_fit": {
+    "A": {
+      "stage": "A",
+      "model": "primacy",
+      "n": 462,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 10,
+      "objective": 190.78026346163918,
+      "projected_gradient_max": 2.7964563997784353e-09,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2"
+      ],
+      "coefficients": [
+        1.4484037320507301,
+        0.45299148961713187,
+        0.5854529066904752
+      ]
+    },
+    "F": {
+      "stage": "F",
+      "model": "primacy",
+      "n": 394,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 12,
+      "objective": 269.0885845540675,
+      "projected_gradient_max": 1.3438702445300876e-07,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2",
+        "reference_green_sign"
+      ],
+      "coefficients": [
+        -0.0017836229594011964,
+        0.48212197412408897,
+        -0.09976690511839383,
+        -0.07675275121842523
+      ]
+    },
+    "D": {
+      "stage": "D",
+      "model": "primacy",
+      "n": 394,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 12,
+      "objective": 266.3116542810475,
+      "projected_gradient_max": 7.120297850216062e-07,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2",
+        "first_green_sign",
+        "first_matches_reference_sign"
+      ],
+      "coefficients": [
+        0.3044920029711505,
+        -0.13836954576605645,
+        -0.18410713592338154,
+        0.02712275964029596,
+        0.311374466247401
+      ]
+    },
+    "B": {
+      "stage": "B",
+      "model": "primacy",
+      "n": 462,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 23,
+      "objective": 128.4475343151462,
+      "projected_gradient_max": 5.186827805297306e-07,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2",
+        "one_green",
+        "one_pink",
+        "both_green_first",
+        "both_pink_first",
+        "first_matches_reference_sign"
+      ],
+      "coefficients": [
+        -1.2745387560619832,
+        0.35101635528579556,
+        0.25666142368475886,
+        3.1677124477992877,
+        3.5828988268851045,
+        3.4878734978570844,
+        3.6002289868420068,
+        0.015089940589219445
+      ]
+    },
+    "Y": {
+      "stage": "Y",
+      "model": "primacy",
+      "n": 377,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 29,
+      "objective": 155.3846772290255,
+      "projected_gradient_max": 6.716197417100389e-07,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2",
+        "one_green",
+        "one_pink",
+        "both_green_first",
+        "both_pink_first",
+        "shared_nonnegative_copy_gain"
+      ],
+      "coefficients": [
+        0.08639541260989532,
+        0.08495128051040922,
+        -0.11691072852400437,
+        3.310829354118474,
+        -3.3653429042279654,
+        0.06789420974269494,
+        -0.1220416428473571,
+        0.4196318883473367
+      ]
+    }
+  },
+  "color_fit": {
+    "A": {
+      "stage": "A",
+      "model": "primacy",
+      "n": 462,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 10,
+      "objective": 190.78026346163867,
+      "projected_gradient_max": 2.5325863628467005e-10,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2"
+      ],
+      "coefficients": [
+        1.448403731989729,
+        0.4529914896659764,
+        0.5854529066809003
+      ]
+    },
+    "F": {
+      "stage": "F",
+      "model": "primacy",
+      "n": 394,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 10,
+      "objective": 269.0885845540676,
+      "projected_gradient_max": 2.9839218457228256e-09,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2",
+        "reference_green_sign"
+      ],
+      "coefficients": [
+        0.001783621944499023,
+        -0.48212197461212514,
+        0.09976690457454442,
+        -0.07675274998314323
+      ]
+    },
+    "D": {
+      "stage": "D",
+      "model": "primacy",
+      "n": 394,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 12,
+      "objective": 266.3116542810475,
+      "projected_gradient_max": 1.9900865383393196e-07,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2",
+        "first_green_sign",
+        "first_matches_reference_sign"
+      ],
+      "coefficients": [
+        0.3044920041251694,
+        -0.13836953838845212,
+        -0.1841071248545103,
+        -0.027122759869008174,
+        0.3113744627124276
+      ]
+    },
+    "B": {
+      "stage": "B",
+      "model": "primacy",
+      "n": 462,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 21,
+      "objective": 128.4475343151455,
+      "projected_gradient_max": 1.5902287500701995e-08,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2",
+        "one_green",
+        "one_pink",
+        "both_green_first",
+        "both_pink_first",
+        "first_matches_reference_sign"
+      ],
+      "coefficients": [
+        -1.2745387599332556,
+        0.35101637007353054,
+        0.25666144840817834,
+        3.582898819133736,
+        3.1677124452204937,
+        3.6002289890851134,
+        3.4878734898171033,
+        0.015089924447747358
+      ]
+    },
+    "Y": {
+      "stage": "Y",
+      "model": "primacy",
+      "n": 377,
+      "success": true,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 26,
+      "objective": 155.38467722902556,
+      "projected_gradient_max": 1.7199367785547537e-07,
+      "coefficient_names": [
+        "intercept",
+        "T",
+        "C2",
+        "one_green",
+        "one_pink",
+        "both_green_first",
+        "both_pink_first",
+        "shared_nonnegative_copy_gain"
+      ],
+      "coefficients": [
+        -0.08639539181844204,
+        -0.08495126529966757,
+        0.11691072710499675,
+        3.3653427988137246,
+        -3.310829416355946,
+        0.12204159978710391,
+        -0.06789421395882808,
+        0.41963189722055505
+      ]
+    }
+  },
+  "synthetic": [
+    {
+      "true_g": 1.0,
+      "seed": 20261032,
+      "n": 3000,
+      "fitted_g": 1.0234854826209048,
+      "fit": {
+        "stage": "Y",
+        "model": "primacy",
+        "n": 2204,
+        "success": true,
+        "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+        "iterations": 20,
+        "objective": 1092.2276814317188,
+        "projected_gradient_max": 4.391895508160104e-06,
+        "coefficient_names": [
+          "intercept",
+          "T",
+          "C2",
+          "one_green",
+          "one_pink",
+          "both_green_first",
+          "both_pink_first",
+          "shared_nonnegative_copy_gain"
+        ],
+        "coefficients": [
+          0.15511700070838613,
+          0.25368861033677215,
+          0.06372406634831818,
+          1.2791144217736228,
+          -1.6774878855654125,
+          0.45542621665777416,
+          -0.6791076930831818,
+          1.0234854826209048
+        ]
+      },
+      "cv": {
+        "marginal": {
+          "joint": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 2.686078338335292,
+            "equal_date_nll": 2.6860783383352915
+          },
+          "courtship": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 1.598147175725747,
+            "equal_date_nll": 1.598147175725747
+          },
+          "mating": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 0.5794506711313059,
+            "equal_date_nll": 0.579450671131306
+          },
+          "participation": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 2.1775978468570534,
+            "equal_date_nll": 2.177597846857053
+          },
+          "mating_choice": {
+            "n": 2204,
+            "dates": 15,
+            "nll": 0.6921240809594903,
+            "equal_date_nll": 0.6920799168378468
+          },
+          "eligible_choice": {
+            "n": 1082,
+            "dates": 15,
+            "nll": 0.691693203218368,
+            "equal_date_nll": 0.6918613442711181
+          },
+          "T_eligible_choice": {
+            "n": 365,
+            "dates": 5,
+            "nll": 0.6880917546149239,
+            "equal_date_nll": 0.6880596841107408
+          },
+          "eligible_integrated_choice": {
+            "n": 1082,
+            "dates": 15,
+            "nll": 0.691693203218368,
+            "equal_date_nll": 0.6918613442711181
+          },
+          "T_eligible_integrated_choice": {
+            "n": 365,
+            "dates": 5,
+            "nll": 0.6880917546149239,
+            "equal_date_nll": 0.6880596841107408
+          }
+        },
+        "expression": {
+          "joint": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 2.5867993245727,
+            "equal_date_nll": 2.5867993245727
+          },
+          "courtship": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 1.584683249773351,
+            "equal_date_nll": 1.5846832497733514
+          },
+          "mating": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 0.5677608578618373,
+            "equal_date_nll": 0.5677608578618373
+          },
+          "participation": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 2.1524441076351883,
+            "equal_date_nll": 2.1524441076351883
+          },
+          "mating_choice": {
+            "n": 2204,
+            "dates": 15,
+            "nll": 0.5912276092615856,
+            "equal_date_nll": 0.5914834134596404
+          },
+          "eligible_choice": {
+            "n": 1082,
+            "dates": 15,
+            "nll": 0.6610122054646718,
+            "equal_date_nll": 0.6612118604220404
+          },
+          "T_eligible_choice": {
+            "n": 365,
+            "dates": 5,
+            "nll": 0.6531150353440148,
+            "equal_date_nll": 0.6528285089259532
+          },
+          "eligible_integrated_choice": {
+            "n": 1082,
+            "dates": 15,
+            "nll": 0.6836311874805133,
+            "equal_date_nll": 0.683834339781398
+          },
+          "T_eligible_integrated_choice": {
+            "n": 365,
+            "dates": 5,
+            "nll": 0.6807091928168703,
+            "equal_date_nll": 0.6806543390155445
+          }
+        },
+        "primacy": {
+          "joint": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 2.5187552587902515,
+            "equal_date_nll": 2.5187552587902515
+          },
+          "courtship": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 1.584683249773351,
+            "equal_date_nll": 1.5846832497733514
+          },
+          "mating": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 0.5677608578618373,
+            "equal_date_nll": 0.5677608578618373
+          },
+          "participation": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 2.1524441076351883,
+            "equal_date_nll": 2.1524441076351883
+          },
+          "mating_choice": {
+            "n": 2204,
+            "dates": 15,
+            "nll": 0.4986086449479081,
+            "equal_date_nll": 0.49928128791140697
+          },
+          "eligible_choice": {
+            "n": 1082,
+            "dates": 15,
+            "nll": 0.5531478714429178,
+            "equal_date_nll": 0.5536080387303063
+          },
+          "T_eligible_choice": {
+            "n": 365,
+            "dates": 5,
+            "nll": 0.5509953714882758,
+            "equal_date_nll": 0.5499250475220149
+          },
+          "eligible_integrated_choice": {
+            "n": 1082,
+            "dates": 15,
+            "nll": 0.5829766238220871,
+            "equal_date_nll": 0.5837095505787737
+          },
+          "T_eligible_integrated_choice": {
+            "n": 365,
+            "dates": 5,
+            "nll": 0.5866131528119134,
+            "equal_date_nll": 0.585910253552316
+          }
+        },
+        "cancellation": {
+          "joint": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 2.5413769339694077,
+            "equal_date_nll": 2.541376933969408
+          },
+          "courtship": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 1.584683249773351,
+            "equal_date_nll": 1.5846832497733514
+          },
+          "mating": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 0.5677608578618373,
+            "equal_date_nll": 0.5677608578618373
+          },
+          "participation": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 2.1524441076351883,
+            "equal_date_nll": 2.1524441076351883
+          },
+          "mating_choice": {
+            "n": 2204,
+            "dates": 15,
+            "nll": 0.5294003988215322,
+            "equal_date_nll": 0.5296183992826055
+          },
+          "eligible_choice": {
+            "n": 1082,
+            "dates": 15,
+            "nll": 0.5876872465279874,
+            "equal_date_nll": 0.5880073490373536
+          },
+          "T_eligible_choice": {
+            "n": 365,
+            "dates": 5,
+            "nll": 0.6530707416998077,
+            "equal_date_nll": 0.652760783710241
+          },
+          "eligible_integrated_choice": {
+            "n": 1082,
+            "dates": 15,
+            "nll": 0.6147186290016303,
+            "equal_date_nll": 0.6153060746500877
+          },
+          "T_eligible_integrated_choice": {
+            "n": 365,
+            "dates": 5,
+            "nll": 0.6802242091751167,
+            "equal_date_nll": 0.6801675075180265
+          }
+        }
+      },
+      "primacy_gain_vs_expression_joint": 0.06804406578244837,
+      "primacy_gain_vs_expression_eligible": 0.107864334021754
+    },
+    {
+      "true_g": 0.0,
+      "seed": 20261033,
+      "n": 3000,
+      "fitted_g": 0.0,
+      "fit": {
+        "stage": "Y",
+        "model": "primacy",
+        "n": 2259,
+        "success": true,
+        "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+        "iterations": 18,
+        "objective": 1297.8626768007966,
+        "projected_gradient_max": 1.0052101250046519e-05,
+        "coefficient_names": [
+          "intercept",
+          "T",
+          "C2",
+          "one_green",
+          "one_pink",
+          "both_green_first",
+          "both_pink_first",
+          "shared_nonnegative_copy_gain"
+        ],
+        "coefficients": [
+          0.10508461928596619,
+          -0.047289241565029984,
+          -0.049783603823715036,
+          1.56913690807892,
+          -1.6546961962249662,
+          0.45342480125461126,
+          -0.7259835345214846,
+          0.0
+        ]
+      },
+      "cv": {
+        "marginal": {
+          "joint": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 2.68085252945498,
+            "equal_date_nll": 2.68085252945498
+          },
+          "courtship": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 1.5976292387221256,
+            "equal_date_nll": 1.5976292387221256
+          },
+          "mating": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 0.5604058158608706,
+            "equal_date_nll": 0.5604058158608706
+          },
+          "participation": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 2.1580350545829963,
+            "equal_date_nll": 2.158035054582996
+          },
+          "mating_choice": {
+            "n": 2259,
+            "dates": 15,
+            "nll": 0.6943127156334443,
+            "equal_date_nll": 0.6942772258745503
+          },
+          "eligible_choice": {
+            "n": 1101,
+            "dates": 15,
+            "nll": 0.6945494441702812,
+            "equal_date_nll": 0.6945748606887385
+          },
+          "T_eligible_choice": {
+            "n": 361,
+            "dates": 5,
+            "nll": 0.695323567725835,
+            "equal_date_nll": 0.6953057540461186
+          },
+          "eligible_integrated_choice": {
+            "n": 1101,
+            "dates": 15,
+            "nll": 0.6945494441702812,
+            "equal_date_nll": 0.6945748606887385
+          },
+          "T_eligible_integrated_choice": {
+            "n": 361,
+            "dates": 5,
+            "nll": 0.6953235677258351,
+            "equal_date_nll": 0.6953057540461187
+          }
+        },
+        "expression": {
+          "joint": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 2.5698827466252534,
+            "equal_date_nll": 2.5698827466252534
+          },
+          "courtship": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 1.585678615478354,
+            "equal_date_nll": 1.5856786154783542
+          },
+          "mating": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 0.5504832910592733,
+            "equal_date_nll": 0.5504832910592733
+          },
+          "participation": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 2.136161906537627,
+            "equal_date_nll": 2.1361619065376276
+          },
+          "mating_choice": {
+            "n": 2259,
+            "dates": 15,
+            "nll": 0.575990491484231,
+            "equal_date_nll": 0.5758326355319633
+          },
+          "eligible_choice": {
+            "n": 1101,
+            "dates": 15,
+            "nll": 0.6533308583708289,
+            "equal_date_nll": 0.6535674237597605
+          },
+          "T_eligible_choice": {
+            "n": 361,
+            "dates": 5,
+            "nll": 0.668738492465159,
+            "equal_date_nll": 0.6689890338073257
+          },
+          "eligible_integrated_choice": {
+            "n": 1101,
+            "dates": 15,
+            "nll": 0.6948472353866573,
+            "equal_date_nll": 0.6949690313545953
+          },
+          "T_eligible_integrated_choice": {
+            "n": 361,
+            "dates": 5,
+            "nll": 0.6935381182327113,
+            "equal_date_nll": 0.6934557347145087
+          }
+        },
+        "primacy": {
+          "joint": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 2.569882748053838,
+            "equal_date_nll": 2.5698827480538378
+          },
+          "courtship": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 1.585678615478354,
+            "equal_date_nll": 1.5856786154783542
+          },
+          "mating": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 0.5504832910592733,
+            "equal_date_nll": 0.5504832910592733
+          },
+          "participation": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 2.136161906537627,
+            "equal_date_nll": 2.1361619065376276
+          },
+          "mating_choice": {
+            "n": 2259,
+            "dates": 15,
+            "nll": 0.575990493381422,
+            "equal_date_nll": 0.5758326373548309
+          },
+          "eligible_choice": {
+            "n": 1101,
+            "dates": 15,
+            "nll": 0.6533308558107503,
+            "equal_date_nll": 0.6535674207271374
+          },
+          "T_eligible_choice": {
+            "n": 361,
+            "dates": 5,
+            "nll": 0.6687384908954137,
+            "equal_date_nll": 0.6689890318984111
+          },
+          "eligible_integrated_choice": {
+            "n": 1101,
+            "dates": 15,
+            "nll": 0.6948472336591418,
+            "equal_date_nll": 0.6949690289340749
+          },
+          "T_eligible_integrated_choice": {
+            "n": 361,
+            "dates": 5,
+            "nll": 0.6935381181878884,
+            "equal_date_nll": 0.693455733626102
+          }
+        },
+        "cancellation": {
+          "joint": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 2.5698827450732975,
+            "equal_date_nll": 2.569882745073298
+          },
+          "courtship": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 1.585678615478354,
+            "equal_date_nll": 1.5856786154783542
+          },
+          "mating": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 0.5504832910592733,
+            "equal_date_nll": 0.5504832910592733
+          },
+          "participation": {
+            "n": 3000,
+            "dates": 15,
+            "nll": 2.136161906537627,
+            "equal_date_nll": 2.1361619065376276
+          },
+          "mating_choice": {
+            "n": 2259,
+            "dates": 15,
+            "nll": 0.5759904894232009,
+            "equal_date_nll": 0.5758326334621638
+          },
+          "eligible_choice": {
+            "n": 1101,
+            "dates": 15,
+            "nll": 0.6533308498499694,
+            "equal_date_nll": 0.6535674154405581
+          },
+          "T_eligible_choice": {
+            "n": 361,
+            "dates": 5,
+            "nll": 0.6687384788720961,
+            "equal_date_nll": 0.6689890206587201
+          },
+          "eligible_integrated_choice": {
+            "n": 1101,
+            "dates": 15,
+            "nll": 0.6948472302028152,
+            "equal_date_nll": 0.6949690261419355
+          },
+          "T_eligible_integrated_choice": {
+            "n": 361,
+            "dates": 5,
+            "nll": 0.6935381134519142,
+            "equal_date_nll": 0.6934557298919359
+          }
+        }
+      },
+      "primacy_gain_vs_expression_joint": -1.4285848060069384e-09,
+      "primacy_gain_vs_expression_eligible": 2.5600785935608883e-09
+    }
+  ]
+}

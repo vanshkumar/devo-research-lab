@@ -1,0 +1,186 @@
+{
+  "version": 1,
+  "models": {
+    "dnnglm": {
+      "selected_scale": 0.0,
+      "selection": "minimum equal-animal LOO CRPS at first3000futuretrials;tiespreferloweramplitude",
+      "candidate_scales": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "primary_horizon": 3000,
+      "loo_crps_by_scale": {
+        "0.0": 0.0662140430234476,
+        "0.5": 0.06669572923336778,
+        "1.0": 0.06871681605016138
+      },
+      "n_residual_donors": 10,
+      "n_primary_scored": 10,
+      "donor_subjects": [
+        "CSHL053",
+        "CSHL058",
+        "CSHL059",
+        "CSH_ZAD_005",
+        "CSH_ZAD_007",
+        "DY_015",
+        "KS002",
+        "ZM_1743",
+        "ZM_2240",
+        "ZM_2241"
+      ],
+      "residual_bank_path": "artifacts/calibration/dnnglm_residuals.npz",
+      "residual_bank_sha256": "f4cbe4e710c53dc25a55dbb57016186507dc5304c3fec950680a4c52608a1043",
+      "residual_definition": "observedcurve minus raw forecast sample mean;center donors perbin/metric before sampling;missing donor cells map to centered0",
+      "update_rule_changed": false,
+      "mean_adjustment": "none before clipping;all clipping and finite-sampling mean shifts recorded",
+      "source_manifest_path": "artifacts/calibration/dnnglm_SOURCE_MANIFEST.json"
+    },
+    "growth": {
+      "selected_scale": 0.5,
+      "selection": "minimum equal-animal LOO CRPS at first3000futuretrials;tiespreferloweramplitude",
+      "candidate_scales": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "primary_horizon": 3000,
+      "loo_crps_by_scale": {
+        "0.0": 0.06397158848829919,
+        "0.5": 0.06307555330629257,
+        "1.0": 0.0645006074375998
+      },
+      "n_residual_donors": 10,
+      "n_primary_scored": 10,
+      "donor_subjects": [
+        "CSHL053",
+        "CSHL058",
+        "CSHL059",
+        "CSH_ZAD_005",
+        "CSH_ZAD_007",
+        "DY_015",
+        "KS002",
+        "ZM_1743",
+        "ZM_2240",
+        "ZM_2241"
+      ],
+      "residual_bank_path": "artifacts/calibration/growth_residuals.npz",
+      "residual_bank_sha256": "0ecded268f52553aefeb9ec586d174f16d9a67e9010cd9d4573360fb3322f1af",
+      "residual_definition": "observedcurve minus raw forecast sample mean;center donors perbin/metric before sampling;missing donor cells map to centered0",
+      "update_rule_changed": false,
+      "mean_adjustment": "none before clipping;all clipping and finite-sampling mean shifts recorded",
+      "source_manifest_path": "artifacts/calibration/growth_SOURCE_MANIFEST.json"
+    },
+    "persistence": {
+      "selected_scale": 1.0,
+      "selection": "minimum equal-animal LOO CRPS at first3000futuretrials;tiespreferloweramplitude",
+      "candidate_scales": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "primary_horizon": 3000,
+      "loo_crps_by_scale": {
+        "0.0": 0.11332274039894719,
+        "0.5": 0.10039353642286782,
+        "1.0": 0.09496606179861096
+      },
+      "n_residual_donors": 10,
+      "n_primary_scored": 10,
+      "donor_subjects": [
+        "CSHL053",
+        "CSHL058",
+        "CSHL059",
+        "CSH_ZAD_005",
+        "CSH_ZAD_007",
+        "DY_015",
+        "KS002",
+        "ZM_1743",
+        "ZM_2240",
+        "ZM_2241"
+      ],
+      "residual_bank_path": "artifacts/calibration/persistence_residuals.npz",
+      "residual_bank_sha256": "a04466c1131e42e16073b218f6ab18b7cc47bbdca09f51977734bbb564b7d1f2",
+      "residual_definition": "observedcurve minus raw forecast sample mean;center donors perbin/metric before sampling;missing donor cells map to centered0",
+      "update_rule_changed": false,
+      "mean_adjustment": "none before clipping;all clipping and finite-sampling mean shifts recorded",
+      "source_manifest_path": "artifacts/calibration/persistence_SOURCE_MANIFEST.json"
+    },
+    "reinforce": {
+      "selected_scale": 0.0,
+      "selection": "minimum equal-animal LOO CRPS at first3000futuretrials;tiespreferloweramplitude",
+      "candidate_scales": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "primary_horizon": 3000,
+      "loo_crps_by_scale": {
+        "0.0": 0.05853498206566654,
+        "0.5": 0.059135215276102784,
+        "1.0": 0.0610690942090748
+      },
+      "n_residual_donors": 10,
+      "n_primary_scored": 10,
+      "donor_subjects": [
+        "CSHL053",
+        "CSHL058",
+        "CSHL059",
+        "CSH_ZAD_005",
+        "CSH_ZAD_007",
+        "DY_015",
+        "KS002",
+        "ZM_1743",
+        "ZM_2240",
+        "ZM_2241"
+      ],
+      "residual_bank_path": "artifacts/calibration/reinforce_residuals.npz",
+      "residual_bank_sha256": "ed297f19a930d4599fca90fbb32c6daade11914793a224ac5c6abaddce9a7cdf",
+      "residual_definition": "observedcurve minus raw forecast sample mean;center donors perbin/metric before sampling;missing donor cells map to centered0",
+      "update_rule_changed": false,
+      "mean_adjustment": "none before clipping;all clipping and finite-sampling mean shifts recorded",
+      "source_manifest_path": "artifacts/calibration/reinforce_SOURCE_MANIFEST.json"
+    },
+    "reinforce_pure": {
+      "selected_scale": 1.0,
+      "selection": "minimum equal-animal LOO CRPS at first3000futuretrials;tiespreferloweramplitude",
+      "candidate_scales": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "primary_horizon": 3000,
+      "loo_crps_by_scale": {
+        "0.0": 0.0878314234326105,
+        "0.5": 0.08106262110858423,
+        "1.0": 0.07854680266413602
+      },
+      "n_residual_donors": 10,
+      "n_primary_scored": 10,
+      "donor_subjects": [
+        "CSHL053",
+        "CSHL058",
+        "CSHL059",
+        "CSH_ZAD_005",
+        "CSH_ZAD_007",
+        "DY_015",
+        "KS002",
+        "ZM_1743",
+        "ZM_2240",
+        "ZM_2241"
+      ],
+      "residual_bank_path": "artifacts/calibration/reinforce_pure_residuals.npz",
+      "residual_bank_sha256": "44470c934fe502a79727afb7e8d6e3d3381c70576398e83813e0f3e09835dc99",
+      "residual_definition": "observedcurve minus raw forecast sample mean;center donors perbin/metric before sampling;missing donor cells map to centered0",
+      "update_rule_changed": false,
+      "mean_adjustment": "none before clipping;all clipping and finite-sampling mean shifts recorded",
+      "source_manifest_path": "artifacts/calibration/reinforce_pure_SOURCE_MANIFEST.json"
+    }
+  },
+  "frozen_from": "reserved development-CV outcomes only",
+  "forecast_dir": "artifacts/forecasts/dev_pilot",
+  "last_fit_utc": "2026-10-29T00:19:45.690143+00:00",
+  "source_holdout_outcomes_used": false,
+  "external_outcomes_used": false,
+  "application": "apply_calibration(samples,model_name,seed,config_path)"
+}

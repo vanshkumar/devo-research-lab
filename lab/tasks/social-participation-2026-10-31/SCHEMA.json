@@ -1,0 +1,551 @@
+{
+  "created_utc": "2026-10-31T20:37:04.519687+00:00",
+  "inventory": [
+    {
+      "path": "data/social_learning/data_primacy.csv",
+      "bytes": 27854
+    },
+    {
+      "path": "data/social_learning/dryad_files.json",
+      "bytes": 1452
+    },
+    {
+      "path": "data/social_learning/dryad_metadata.json",
+      "bytes": 7831
+    },
+    {
+      "path": "data/social_learning/figshare_articles.json",
+      "bytes": 2288
+    },
+    {
+      "path": "data/social_learning/figshare_data_metadata.json",
+      "bytes": 4149
+    },
+    {
+      "path": "data/social_learning/figshare_supp_metadata.json",
+      "bytes": 4056
+    },
+    {
+      "path": "data/social_learning/manifest.json",
+      "bytes": 512
+    },
+    {
+      "path": "data/social_learning/primacy_bias_script.Rmd",
+      "bytes": 19942
+    },
+    {
+      "path": "data/social_learning/zenodo_metadata.json",
+      "bytes": 8529
+    }
+  ],
+  "csv_bytes": 27854,
+  "sha256": "0f723df5825865d214e3064c1e16f0e489211f25e45f3eb34e7dfb5c4ebf568b",
+  "n": 462,
+  "columns": {
+    "date": {
+      "unique": 15,
+      "missing": 0,
+      "values": [
+        [
+          "2022-02-22",
+          12
+        ],
+        [
+          "2022-02-23",
+          52
+        ],
+        [
+          "2022-02-24",
+          53
+        ],
+        [
+          "2022-02-28",
+          28
+        ],
+        [
+          "2022-05-09",
+          37
+        ],
+        [
+          "2022-05-10",
+          21
+        ],
+        [
+          "2022-05-16",
+          28
+        ],
+        [
+          "2022-06-27",
+          28
+        ],
+        [
+          "2022-06-28",
+          28
+        ],
+        [
+          "2022-06-30",
+          26
+        ],
+        [
+          "2022-07-01",
+          25
+        ],
+        [
+          "2022-07-04",
+          27
+        ],
+        [
+          "2022-07-05",
+          29
+        ],
+        [
+          "2022-07-15",
+          18
+        ],
+        [
+          "2022-07-26",
+          50
+        ]
+      ]
+    },
+    "device": {
+      "unique": 57,
+      "missing": 0,
+      "values": [
+        [
+          "28",
+          19
+        ],
+        [
+          "15",
+          18
+        ],
+        [
+          "27",
+          17
+        ],
+        [
+          "20",
+          16
+        ],
+        [
+          "22",
+          15
+        ],
+        [
+          "1",
+          15
+        ],
+        [
+          "3",
+          15
+        ],
+        [
+          "19",
+          15
+        ]
+      ]
+    },
+    "treatment": {
+      "unique": 3,
+      "missing": 0,
+      "values": [
+        [
+          "C1",
+          168
+        ],
+        [
+          "C2",
+          152
+        ],
+        [
+          "T",
+          142
+        ]
+      ]
+    },
+    "temperature": {
+      "unique": 14,
+      "missing": 55,
+      "values": [
+        [
+          "22.5",
+          28
+        ],
+        [
+          "22.7",
+          25
+        ],
+        [
+          "24.2",
+          28
+        ],
+        [
+          "24.3",
+          16
+        ],
+        [
+          "24.7",
+          28
+        ],
+        [
+          "24.8",
+          36
+        ],
+        [
+          "25",
+          50
+        ],
+        [
+          "25.1",
+          26
+        ],
+        [
+          "25.2",
+          65
+        ],
+        [
+          "25.3",
+          28
+        ],
+        [
+          "25.4",
+          27
+        ],
+        [
+          "25.6",
+          29
+        ],
+        [
+          "25.8",
+          21
+        ],
+        [
+          "NA",
+          55
+        ]
+      ]
+    },
+    "humidity": {
+      "unique": 12,
+      "missing": 55,
+      "values": [
+        [
+          "40",
+          28
+        ],
+        [
+          "47",
+          24
+        ],
+        [
+          "51",
+          37
+        ],
+        [
+          "53",
+          84
+        ],
+        [
+          "55",
+          26
+        ],
+        [
+          "56",
+          12
+        ],
+        [
+          "59",
+          54
+        ],
+        [
+          "62",
+          68
+        ],
+        [
+          "63",
+          25
+        ],
+        [
+          "64",
+          21
+        ],
+        [
+          "68",
+          28
+        ],
+        [
+          "NA",
+          55
+        ]
+      ]
+    },
+    "pressure_hpa": {
+      "unique": 10,
+      "missing": 55,
+      "values": [
+        [
+          "1013",
+          26
+        ],
+        [
+          "1015",
+          67
+        ],
+        [
+          "1016",
+          28
+        ],
+        [
+          "1017",
+          101
+        ],
+        [
+          "1018",
+          50
+        ],
+        [
+          "1019",
+          43
+        ],
+        [
+          "1020",
+          28
+        ],
+        [
+          "1024",
+          52
+        ],
+        [
+          "1029",
+          12
+        ],
+        [
+          "NA",
+          55
+        ]
+      ]
+    },
+    "demo_color_1": {
+      "unique": 3,
+      "missing": 152,
+      "values": [
+        [
+          "NA",
+          152
+        ],
+        [
+          "g",
+          164
+        ],
+        [
+          "p",
+          146
+        ]
+      ]
+    },
+    "demo_color_2": {
+      "unique": 3,
+      "missing": 168,
+      "values": [
+        [
+          "NA",
+          168
+        ],
+        [
+          "g",
+          141
+        ],
+        [
+          "p",
+          153
+        ]
+      ]
+    },
+    "which_control": {
+      "unique": 3,
+      "missing": 0,
+      "values": [
+        [
+          "c1",
+          168
+        ],
+        [
+          "c2",
+          152
+        ],
+        [
+          "t",
+          142
+        ]
+      ]
+    },
+    "color_court_1": {
+      "unique": 3,
+      "missing": 68,
+      "values": [
+        [
+          "NA",
+          68
+        ],
+        [
+          "g",
+          208
+        ],
+        [
+          "p",
+          186
+        ]
+      ]
+    },
+    "color_court_2": {
+      "unique": 3,
+      "missing": 247,
+      "values": [
+        [
+          "NA",
+          247
+        ],
+        [
+          "g",
+          100
+        ],
+        [
+          "p",
+          115
+        ]
+      ]
+    },
+    "test_color": {
+      "unique": 3,
+      "missing": 85,
+      "values": [
+        [
+          "NA",
+          85
+        ],
+        [
+          "g",
+          194
+        ],
+        [
+          "p",
+          183
+        ]
+      ]
+    },
+    "copy_dc_bin": {
+      "unique": 3,
+      "missing": 10,
+      "values": [
+        [
+          "0",
+          324
+        ],
+        [
+          "1",
+          128
+        ],
+        [
+          "NA",
+          10
+        ]
+      ]
+    }
+  },
+  "first_six_rows": [
+    {
+      "date": "2022-02-22",
+      "device": "4",
+      "treatment": "T",
+      "temperature": "24.8",
+      "humidity": "56",
+      "pressure_hpa": "1029",
+      "demo_color_1": "g",
+      "demo_color_2": "p",
+      "which_control": "t",
+      "color_court_1": "NA",
+      "color_court_2": "NA",
+      "test_color": "g",
+      "copy_dc_bin": "0"
+    },
+    {
+      "date": "2022-02-22",
+      "device": "14",
+      "treatment": "T",
+      "temperature": "24.8",
+      "humidity": "56",
+      "pressure_hpa": "1029",
+      "demo_color_1": "g",
+      "demo_color_2": "p",
+      "which_control": "t",
+      "color_court_1": "p",
+      "color_court_2": "g",
+      "test_color": "g",
+      "copy_dc_bin": "1"
+    },
+    {
+      "date": "2022-02-22",
+      "device": "17",
+      "treatment": "T",
+      "temperature": "24.8",
+      "humidity": "56",
+      "pressure_hpa": "1029",
+      "demo_color_1": "g",
+      "demo_color_2": "p",
+      "which_control": "t",
+      "color_court_1": "g",
+      "color_court_2": "p",
+      "test_color": "g",
+      "copy_dc_bin": "1"
+    },
+    {
+      "date": "2022-02-22",
+      "device": "108",
+      "treatment": "T",
+      "temperature": "24.8",
+      "humidity": "56",
+      "pressure_hpa": "1029",
+      "demo_color_1": "g",
+      "demo_color_2": "p",
+      "which_control": "t",
+      "color_court_1": "g",
+      "color_court_2": "p",
+      "test_color": "g",
+      "copy_dc_bin": "1"
+    },
+    {
+      "date": "2022-02-22",
+      "device": "?",
+      "treatment": "C1",
+      "temperature": "24.8",
+      "humidity": "56",
+      "pressure_hpa": "1029",
+      "demo_color_1": "g",
+      "demo_color_2": "NA",
+      "which_control": "c1",
+      "color_court_1": "NA",
+      "color_court_2": "NA",
+      "test_color": "NA",
+      "copy_dc_bin": "0"
+    },
+    {
+      "date": "2022-02-22",
+      "device": "?",
+      "treatment": "C1",
+      "temperature": "24.8",
+      "humidity": "56",
+      "pressure_hpa": "1029",
+      "demo_color_1": "g",
+      "demo_color_2": "NA",
+      "which_control": "c1",
+      "color_court_1": "NA",
+      "color_court_2": "NA",
+      "test_color": "NA",
+      "copy_dc_bin": "0"
+    }
+  ],
+  "peak_rss_bytes": 12222464,
+  "scientific_input_bytes": 27854,
+  "new_requests": 0
+}

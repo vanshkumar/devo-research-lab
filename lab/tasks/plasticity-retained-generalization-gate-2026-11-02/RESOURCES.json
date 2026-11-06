@@ -1,0 +1,112 @@
+{
+  "status": "CLOSED_SCOPED_GATE_WITH_EXECUTABLE_SHORT_FEASIBILITY",
+  "native_anchor_utc": "2026-11-03T03:30:32Z",
+  "all_evidence_generating_programs_complete_utc": "2026-11-03T03:38:27Z",
+  "scientific_gates_utc": {
+    "prior": "03:50:32Z",
+    "original_learning_reference": "04:05:32Z",
+    "protocol_or_CLOSE": "04:15:32Z",
+    "hard": "04:40:32Z"
+  },
+  "public_operations_new": 20,
+  "public_operations_cap": 20,
+  "screened_programs": 2,
+  "public_data_exact_ingress_bytes": 11594722,
+  "provider_code_pages_queries_headers_failures_allowance_bytes": 50000000,
+  "new_ingress_charge_bytes": 61594722,
+  "new_ingress_cap_bytes": 250000000,
+  "actual_ingress_and_cap_compliance": "UNCERTIFIED; provider redirects/internal requests/physical I/O unknown",
+  "additional_read_hash_decode": {
+    "explicit_file_read_bytes_recorded_across_owned_programs": 179308907,
+    "gzip_decode_bytes_two_passes": 109900096,
+    "checkpoint_array_decode_bytes_reference": 76752080,
+    "decoded_image_fingerprint_bytes": 47090176,
+    "conservative_separate_charge_bytes": 900000000,
+    "cap_bytes": 1000000000,
+    "allowance_includes": "all notes/source/report/context reads, provider text handling, imports/native dependencies, hashes/decodes, acquisition in-memory hash passes, failed context reads, generated/checkpoint/output handling and final bookkeeping",
+    "physical_IO": "UNKNOWN; not complete observed physical-byte certification"
+  },
+  "local_processes": [
+    {
+      "name": "orient.py",
+      "native_exit": 0,
+      "script_seconds": 0.0003761249999999997,
+      "max_rss_bytes": 11091968
+    },
+    {
+      "name": "acquire_mnist.py head",
+      "native_exit": 0,
+      "script_seconds": 0.9277429580000001,
+      "max_rss_bytes": 20250624
+    },
+    {
+      "name": "acquire_mnist.py get",
+      "native_exit": 0,
+      "native_session": 93788,
+      "script_seconds": 7.098879665999999,
+      "max_rss_bytes": 43417600
+    },
+    {
+      "name": "feasibility.py",
+      "native_exit": 0,
+      "native_session": 48447,
+      "after_import_seconds": 2.339791833,
+      "max_rss_bytes": 685064192
+    },
+    {
+      "name": "verify_reference.py",
+      "native_exit": 0,
+      "native_session": 61254,
+      "after_import_seconds": 2.956455209,
+      "max_rss_bytes": 331104256
+    }
+  ],
+  "actual_local_science_script_seconds_recorded": 13.323245790999998,
+  "runtime_accounting": "All five evidence-generating programs completed within the 475-second anchor-to-final-output interval, one process at a time. Conservative 500-second charge includes startup/import/final bookkeeping allowance; exact complete process startup wall not separately measured.",
+  "conservative_local_scientific_process_seconds_charge": 500,
+  "local_scientific_process_seconds_cap": 900,
+  "max_measured_science_RSS_bytes": 685064192,
+  "RSS_cap_bytes": 1000000000,
+  "provider_runtime_toolhost_peaks": "UNKNOWN",
+  "processes_at_once": 1,
+  "requested_threads": 1,
+  "OS_native_thread_count": "UNCERTIFIED; env limits set, enumeration unavailable",
+  "failed_scientific_commands": 0,
+  "method_revisions": 0,
+  "closeout_patch_failure": "One combined DELETE+ADD STATE patch was rejected in verification before any mutation; corrected to direct UPDATE, no scientific rerun.",
+  "failures_and_limitations": [
+    "Broad filename inventory denied for raw/payload browsing roots; no output/no repeated broad inventory.",
+    "Ordinary direct LICENSE cat denied by format guard; use previously verified inventory MIT pin, no bypass/acquisition.",
+    "Ordinary wc of large FEASIBILITY.json denied by context size guard; small derived FEASIBILITY_SUMMARY.json is the PI-facing record.",
+    "PMC recaptcha, guessed arXivv4 404, Nature inaccessible nonretryable redirect.",
+    "Five of six provider-normalized source copies fail Git blob identity; standard BP config passes. No original-byte repair.",
+    "5400 matmul warnings preserved; full explicit 256-update replay agrees without warnings; backend cause unestablished.",
+    "Data and full local dependency licenses not independently reverified; missing Torch is not evidence of compute impossibility.",
+    "No full-history measured cost or qualifying source-linked checkpoint; all main claims UNRUN."
+  ],
+  "exposure": {
+    "all_four_gzip_objects": "acquired, MD5/SHA256 hashed and fully IDX-decoded",
+    "train_60000_labels": "range checked; only selected 256 interpreted/learned",
+    "test_10000_labels": "range checked; only first 64 interpreted/scored",
+    "auxiliary": "all image bytes decoded; no claim other acquired images/labels are pristine unacquired",
+    "protected_old_payloads": 0
+  },
+  "new_training_examples_used": 256,
+  "new_heldout_test_examples_scored": 64,
+  "protected_old_payloads_fits_target_rescores": 0,
+  "dependencies_installed": 0,
+  "paid_compute": 0,
+  "native_goal_edits": 0,
+  "shared_record_edits": 0,
+  "prior_additive": {
+    "operations": 46,
+    "ingress_allowance_bytes": 168000000,
+    "ingress_compliance": "UNCERTIFIED",
+    "separate_read_charge_bytes": 1300000000,
+    "generated_consumed_examples": 9130000
+  },
+  "prior_failures_and_qualifications": "All prior source-copy, beta-default/capacity, method revisions, storage coverage, Torch intent, teacher t7 and runtime/physical-IO unknowns survive; no source/exposure reset.",
+  "jobs": 0,
+  "scientific_goal": "UNFINISHED; no pause/completion asserted",
+  "terminal_report": "saved separately; disposition in STATE"
+}

@@ -1,0 +1,71 @@
+{
+  "created_utc": "2026-10-31T21:35:34.480694+00:00",
+  "start_utc": "2026-10-31T21:20:37.770Z",
+  "deadline_utc": "2026-10-31T22:35:37.770Z",
+  "charged_additional_scientific_read_decoded_hash_bytes": 400000000,
+  "itemized_scientific_pass_subtotal_bytes": 372307376,
+  "remaining_conservative_reserve_within_charge_bytes": 27692624,
+  "charge_policy": "Eight full-file equivalents per raw CSV pass cover physical reads, decoding/tokenization/conversion and hashing. Early per-pass artifacts used four; this authoritative additive ledger corrects all such passes upward without editing frozen history. Remaining reserve covers literature response processing, generated artifact reads/hashes, code/doc reads, plot/final checks.",
+  "itemized": [
+    {
+      "operation": "source_support.py initial input/pin pass",
+      "passes": 1,
+      "charge": 90912912
+    },
+    {
+      "operation": "source_analysis.py initial warning pass + explicit contraction correction + final supported-cell metadata pass",
+      "passes": 3,
+      "charge": 155642208
+    },
+    {
+      "operation": "endpoint_control.py",
+      "passes": 1,
+      "charge": 51880736
+    },
+    {
+      "operation": "measurement_sensitivity.py TsayA+Figure3",
+      "passes": 1,
+      "charge": 31405016
+    },
+    {
+      "operation": "support_witness.py Figure4 inputs + pinned artifacts",
+      "passes": 1,
+      "charge": 41353104
+    },
+    {
+      "operation": "prescription_check.py artifacts/code",
+      "passes": 1,
+      "charge": 1113400
+    }
+  ],
+  "public_operations": 6,
+  "charged_new_ingress_bytes": 2000000,
+  "scientific_processes_peak": 1,
+  "numerical_threads": 1,
+  "jobs_running": 0,
+  "largest_recorded_successful_process_rss_bytes": 87834624,
+  "failures": [
+    {
+      "kind": "pre-tool ordinary-read composition denial",
+      "scientific_bytes": 0
+    },
+    {
+      "kind": "pre-tool wc on data-format denial",
+      "scientific_bytes": 0
+    },
+    {
+      "kind": "first source-analysis matmul warnings",
+      "retained": "SOURCE_ANALYSIS_INITIAL_WARNINGS.json; NUMERICAL_WARNING.md",
+      "charged": true
+    },
+    {
+      "kind": "first artifact verifier Matplotlib default cache warning; fixed scoped MPLCONFIGDIR",
+      "raw_scientific_bytes": 0,
+      "retained": "NUMERICAL_WARNING.md"
+    }
+  ],
+  "full_raw_source_replay_in_this_tranche": false,
+  "note": "Multiple sequential finite processes, never simultaneous scientific jobs. No automatic continuation; task accounting is not a reset of inherited motor lineage.",
+  "completed_at_utc": "2026-10-31T21:39:32.906070+00:00",
+  "elapsed_wall_minutes": 18.9189345
+}

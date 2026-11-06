@@ -1,0 +1,132 @@
+{
+  "at_utc": "2026-10-31T18:00:08.232158+00:00",
+  "status": "postvalidation consumed-data attribution with matched-penalty control; original attribution artifact retained; no model promotion",
+  "frozen_full_state_mse": 0.6872496916029631,
+  "frozen_local_mse": 0.7875653197522386,
+  "full_vs_matched_alpha_local": {
+    "animals": 7,
+    "simple_mse": 0.8373841728335513,
+    "state_mse": 0.6872496916029631,
+    "state_fraction_gain": 0.17928984819782434,
+    "paired_difference": 0.1501344812305882,
+    "paired_difference_bootstrap95": [
+      0.07227698797317474,
+      0.2288086685615572
+    ],
+    "fraction_gain_bootstrap95": [
+      0.10578104529541343,
+      0.25425156549582806
+    ],
+    "state_better_animals": 7,
+    "passes_investment_rule": true
+  },
+  "knockouts": {
+    "matched_alpha_local_only": {
+      "fixed_alpha": 1.0,
+      "mean_mse": 0.8373841728335513,
+      "per_worm_losses": [
+        0.879116262391112,
+        0.21257437976891344,
+        1.0126479430651472,
+        0.9863211203189418,
+        0.9006939612531301,
+        0.472990502900258,
+        1.3973450401373573
+      ]
+    },
+    "behavior_only": {
+      "fixed_alpha": 1.0,
+      "mean_mse": 0.7304267329323114,
+      "per_worm_losses": [
+        0.8349659695593855,
+        0.2201207801372786,
+        0.7409534330770042,
+        0.768060013453901,
+        0.7812552869776996,
+        0.46281165512984873,
+        1.3048199921910617
+      ],
+      "comparison_with_frozen_local": {
+        "animals": 7,
+        "simple_mse": 0.7875653197522386,
+        "state_mse": 0.7304267329323114,
+        "state_fraction_gain": 0.07255091785644208,
+        "paired_difference": 0.057138586819927444,
+        "paired_difference_bootstrap95": [
+          -0.05272659802874597,
+          0.17110371774821218
+        ],
+        "fraction_gain_bootstrap95": [
+          -0.08582151764680424,
+          0.18146598877590425
+        ],
+        "state_better_animals": 3,
+        "passes_investment_rule": false
+      },
+      "comparison_with_matched_alpha_local": {
+        "animals": 7,
+        "simple_mse": 0.8373841728335513,
+        "state_mse": 0.7304267329323114,
+        "state_fraction_gain": 0.12772804092930956,
+        "paired_difference": 0.10695743990124004,
+        "paired_difference_bootstrap95": [
+          0.03987202257090216,
+          0.18066794071599504
+        ],
+        "fraction_gain_bootstrap95": [
+          0.056823953124702675,
+          0.19973481488561762
+        ],
+        "state_better_animals": 6,
+        "passes_investment_rule": true
+      }
+    },
+    "neural_pcs_only": {
+      "fixed_alpha": 1.0,
+      "mean_mse": 0.7866134119150452,
+      "per_worm_losses": [
+        0.7261056426800191,
+        0.1943312825777631,
+        1.078632018015888,
+        0.8410006782573893,
+        0.8202214823022268,
+        0.4652553882750479,
+        1.3807473912969823
+      ],
+      "comparison_with_frozen_local": {
+        "animals": 7,
+        "simple_mse": 0.7875653197522386,
+        "state_mse": 0.7866134119150452,
+        "state_fraction_gain": 0.0012086716026207256,
+        "paired_difference": 0.0009519078371935663,
+        "paired_difference_bootstrap95": [
+          -0.17402842701284243,
+          0.13345664282023723
+        ],
+        "fraction_gain_bootstrap95": [
+          -0.2726510423279649,
+          0.14774415552567244
+        ],
+        "state_better_animals": 4,
+        "passes_investment_rule": false
+      },
+      "comparison_with_matched_alpha_local": {
+        "animals": 7,
+        "simple_mse": 0.8373841728335513,
+        "state_mse": 0.7866134119150452,
+        "state_fraction_gain": 0.06063018930332453,
+        "paired_difference": 0.05077076091850618,
+        "paired_difference_bootstrap95": [
+          -0.0016703826049390056,
+          0.10367289363943209
+        ],
+        "fraction_gain_bootstrap95": [
+          -0.002036233775729368,
+          0.12892615918836337
+        ],
+        "state_better_animals": 6,
+        "passes_investment_rule": false
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "task": "acquisition-probe-reactivity-2026-11-01",
+  "local_model_family": "Pinned postvalidation recurrent GLM learning prescription; existing source and fixed parameters, not new fitting",
+  "local_pins": [
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/rnn_learning.py",
+      "bytes": 4953,
+      "sha256": "9d08cb223a6e418c7d32575c5927864ccb642f89d4365b510fd9341dbc5d4023"
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/code/learning_models.py",
+      "bytes": 6955,
+      "sha256": "46090bda22320171eaca91b979476b7aefc947d0cff4b3fe3c14ae67fa818017"
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/artifacts/rnn/rnnglm32_nested_best.npz",
+      "bytes": 56254,
+      "sha256": "c7f675d18f4143891ed7d2c76d91f74be74da9565fbae5407952768e2c146940"
+    }
+  ],
+  "pin_origin": "campaigns/population_learning_transport_2026-10-28/protocols/FREEZE.json, selected lines93-120 read; pins independently checked on exact source/parameter bytes",
+  "import_safety": "Inspected source imports numerical/standard libraries only and has no top-level empirical loader. Only parameter arrays from a verified inventory decoded; no empirical history, target, bank, calibration, optimizer or sequence/JIT call.",
+  "numerical_parameter_asset_license": "Existing lab asset, reused under explicit task authorization; no new external data license certified",
+  "second_family": "Classical testing-reactivity experimental design: Solomon1949",
+  "public_operations": [
+    {
+      "operation": 1,
+      "type": "search",
+      "query": "Solomon 1949 \"An extension of control group design\" pretest effect learning",
+      "response_length": "long",
+      "returned_tool_json_utf8_bytes": 29636,
+      "provider_ingress_allowance_bytes": 1000000
+    },
+    {
+      "operation": 2,
+      "type": "open",
+      "url": "https://www.researchgate.net/publication/5731865_An_extension_of_control_group_design",
+      "response_length": "long",
+      "returned_tool_json_utf8_bytes": 29685,
+      "provider_ingress_allowance_bytes": 1000000
+    }
+  ],
+  "primary_prior": {
+    "title": "An extension of control group design",
+    "author": "Richard L. Solomon",
+    "year": 1949,
+    "journal": "Psychological Bulletin",
+    "volume": 46,
+    "issue": 2,
+    "pages": "137-150",
+    "doi": "10.1037/h0062958",
+    "publisher_doi": "https://doi.org/10.1037/h0062958",
+    "index_url": "https://pubmed.ncbi.nlm.nih.gov/18116724/",
+    "preview_url": "https://www.researchgate.net/publication/5731865_An_extension_of_control_group_design",
+    "scope": "Primary abstract and publisher first-page preview exposed. General added-group/interaction design precedent supported; full methods and table calculations NOT inspected. Secondary detailed explanations were returned by the search but are not treated as primary verification.",
+    "rights": "Primary preview marked copyrighted; no full paper/PDF acquired or redistributed",
+    "unrelated_search_exposure": "Incidental historical/current study summaries returned by the query/index page were exposed; none pursued as empirical data or used as validation."
+  },
+  "deliberately_targeted_families": 2,
+  "public_operation_count": 2,
+  "operation_limit": 8,
+  "ingress_limit_bytes": 5000000,
+  "charged_ingress_allowance_bytes": 2000000,
+  "returned_tool_json_utf8_bytes": 59321,
+  "actual_provider_ingress_bytes": "unknown: backend acquisition/crawl/redirect bytes are not exposed; 2MB is an allowance, not a measured certificate",
+  "novelty_scope": "Bounded source/design screen only; no exhaustive novelty or general impossibility conclusion"
+}

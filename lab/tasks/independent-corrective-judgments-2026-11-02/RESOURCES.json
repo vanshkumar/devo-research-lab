@@ -1,0 +1,133 @@
+{
+  "recorded_at_utc": "2026-11-02T22:54:44.826123+00:00",
+  "hard_bounds": {
+    "initial_native_turn_utc": "2026-11-02T22:36:28Z",
+    "first_original_due": "2026-11-02T23:01:28Z",
+    "source_gate_due": "2026-11-02T23:16:28Z",
+    "freeze_or_close_due": "2026-11-02T23:31:28Z",
+    "hard_deadline": "2026-11-03T00:36:28Z",
+    "ingress_bytes": 50000000,
+    "read_hash_decode_bytes": 600000000,
+    "peak_rss_bytes": 800000000,
+    "public_operations": 40,
+    "empirical_families": 2,
+    "total_primary_families": 3,
+    "scientific_processes": 1,
+    "numerical_threads": 1
+  },
+  "public_operations": {
+    "top_level_calls": 22,
+    "counting_queries_separately": 23,
+    "conservative_charged_operations": 26,
+    "extra_allowance": "Three operations for observed/uncertified redirects or provider routing. Exact provider subrequests unavailable; this is a conservative booking, not complete network metering."
+  },
+  "ingress": {
+    "known_local_application_response_bytes": 776125,
+    "provider_allowance_bytes": 14000000,
+    "failed_http_allowance_bytes": 750000,
+    "redirect_allowance_bytes": 1000000,
+    "conservative_charged_bytes": 16526125,
+    "note": "Includes failed DNS250KB and failed404500KB budgets. Web/GitHub actual traffic and HTTP-error bodies are unavailable. No whole49.9MBarchive acquisition."
+  },
+  "separate_additional_read_hash_decode": {
+    "conservative_charged_bytes": 350000000,
+    "components_allowance": {
+      "original_CSV_acquisition_hash_decode_and_three_first_check_runs_plus_source_audits": 110000000,
+      "OOXML_acquisition_typed_parse_failed_and_successful_ratio_checks": 10000000,
+      "source_context_metadata_scripts_logs_pins_closeout": 30000000,
+      "stdlib_imports_runtime_toolhost_and_failed_pass_reserve": 200000000
+    },
+    "note": "Booking allowance for repeated reads/hash/decode, not measured physicalIO. Unknown imports/runtime/provider/kernel work is not certified by this allowance."
+  },
+  "largest_measured_scientific_process_peak_rss_bytes_macos": 120979456,
+  "unmeasured_peaks": [
+    "initial first_data_check assertion failure before resource serialization",
+    "initial social_gate assertion failure",
+    "provider/toolhost/wrapper process internals"
+  ],
+  "physical_io_and_runtime": "Unmetered provider/toolhost/kernel IO and internal peaks remain unknown. No total-IO or all-process-memory compliance certification.",
+  "parallelism": "All source/scientific subprocesses run sequentially; only stdlib code, no numerical library threads/GPU/new dependencies.",
+  "jobs_remaining": 0,
+  "purchases_contacts_publication_new_human_experiments": 0,
+  "source_responses": {
+    "zenodo_metadata.json": {
+      "bytes": 8491,
+      "sha256": "3b221ea35ee1b6566f22e44471003a5ef5d5d918b3edce206f2428c1198a0c3d",
+      "url": "https://zenodo.org/api/records/5545872",
+      "final_url": "https://zenodo.org/api/records/5545872",
+      "range": null
+    },
+    "zip_tail.bin": {
+      "bytes": 262144,
+      "sha256": "1cce0ccf91b48e1f69ac2c9783202bb54a5e039def9598c8b3dab365eab3d9e1",
+      "url": "https://zenodo.org/api/records/5545872/files/ML4BL_ZF.zip/content",
+      "final_url": "https://zenodo.org/api/records/5545872/files/ML4BL_ZF.zip/content",
+      "range": "bytes=49654875-49917018"
+    },
+    "README.txt.range": {
+      "bytes": 5405,
+      "sha256": "543b5e27d87c2f19f4118a61261b524d7e9e6bca0000f2c432ad276fab89bfb9",
+      "url": "https://zenodo.org/api/records/5545872/files/ML4BL_ZF.zip/content",
+      "final_url": "https://zenodo.org/api/records/5545872/files/ML4BL_ZF.zip/content",
+      "range": "bytes=71-5475"
+    },
+    "Final_probes_20200816.csv.range": {
+      "bytes": 336277,
+      "sha256": "9e2e03a1cc978ce4d1dac688e5e3da957bd3752a2be80ba9ab3e777afaa09ccc",
+      "url": "https://zenodo.org/api/records/5545872/files/ML4BL_ZF.zip/content",
+      "final_url": "https://zenodo.org/api/records/5545872/files/ML4BL_ZF.zip/content",
+      "range": "bytes=44088641-44424917"
+    },
+    "social_page.html": {
+      "bytes": 129129,
+      "sha256": "3e781ed926803974d67bba08878825f15f63a8f24e0abe41c538245f2af34f96",
+      "url": "https://data.mendeley.com/datasets/63db6zc5fm/2",
+      "final_url": "https://data.mendeley.com/datasets/63db6zc5fm/2",
+      "range": null
+    },
+    "social_files.json": {
+      "bytes": 761,
+      "sha256": "82f2a19877fd4b6e618b096cdd6f5aa8d39ab6698d6e74d509390059fdbe9cda",
+      "url": "https://data.mendeley.com/public-api/datasets/63db6zc5fm/files?folder_id=root&version=2",
+      "final_url": "https://data.mendeley.com/public-api/datasets/63db6zc5fm/files?folder_id=root&version=2",
+      "range": null
+    },
+    "Supplementary Data 1.xlsx": {
+      "bytes": 33918,
+      "sha256": "2f8142a717bb1199e3a43563d57ef0c016c7a72084b2e2b91ed7be66194ef557",
+      "url": "https://data.mendeley.com/public-files/datasets/63db6zc5fm/files/d148839a-8d95-4aff-8b3c-eb2876f9260b/file_downloaded",
+      "final_url": "https://prod-dcd-datasets-public-files-eu-west-1.s3.eu-west-1.amazonaws.com/0e7d67e4-6424-4a51-9153-5d000845bb6a",
+      "range": null
+    }
+  },
+  "code_pins": {
+    "acquire.py": {
+      "bytes": 6670,
+      "sha256": "4649e349447d9d92e56c8d137e89cf8781c7194b4cb8975fccb9c1c814776a2f"
+    },
+    "finalize_accounting.py": {
+      "bytes": 3664,
+      "sha256": "6994afc672d37eb990bf55d0479ee71024d4db74ab0d46a862c750c16073bde2"
+    },
+    "first_data_check.py": {
+      "bytes": 7035,
+      "sha256": "9d30ef44db945cfa7e2ba8c62052b629479d44b04681141616414a1b59692a07"
+    },
+    "inspect_schema.py": {
+      "bytes": 642,
+      "sha256": "6ddc761ca3223456ce6f78a535cd5a62546cb9f26d94a4b11ed50f83655fd9c1"
+    },
+    "social_gate.py": {
+      "bytes": 4415,
+      "sha256": "84816f024986868abf5b02febf4d620751c4175322743fbd4fbb5fc0fe617dc4"
+    },
+    "social_table_check.py": {
+      "bytes": 2931,
+      "sha256": "f187064598acd1026111b67418894dba38b97b3a4039782785fd1d8c42b17a23"
+    },
+    "source_audit.py": {
+      "bytes": 2151,
+      "sha256": "c6b3b14655d039a95a58d35a115b141530687807f2ea8556cf90b5edb294d850"
+    }
+  }
+}

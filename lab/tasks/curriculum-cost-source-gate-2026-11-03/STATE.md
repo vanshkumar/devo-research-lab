@@ -1,0 +1,11 @@
+# Curriculum cost source gate — CLOSED
+
+Actual investigator `01a19fd7-55df-76f3-ad8c-232bb707f9b7`; explicit registered-ID/task-only START. Orientation anchor2026-11-03T05:17:32Z; source05:37:32Z/reference05:52:32Z/protocol06:02:32Z/hard06:27:32Z. Source close record05:23:16Z, before the first gate. No main authorized/executed.
+
+Decision: CLOSE at source/dependency/prior gate. Original TSCL code is acquired/pinned, but author Keras/TensorFlow distributions are unavailable in the allowed environment and exact old framework semantics are unpinned. No student-learning/reference milestone was earned. Generic omitted-assessment premise is also unsupported: all five original addition teachers share both validation passes; Graves explicitly distinguishes training-sample and extra-sample gains. Do not claim unfairness, no curriculum benefit, global unaffordability, novelty or broad scientific-goal completion.
+
+Evidence: PRIOR_INFORMATION_COST_GATE.md; SOURCE_MANIFEST.md; ENVIRONMENT_CHECK.json; SOURCE_AUDIT.json; RESULT.md. Native inventory exits0/no learning; source audit first exits1 due OUR extra cache newline, then exits0/all four source blobs match/call graph passes after exact bookkeeping correction. Failed bytes and amendment retained. Source audit is not numerical learner/scorer reconstruction. Actual student examples/updates/assessments/copies all0; acquisition/policy comparison/main/review UNRUN.
+
+Resources:19NEWpublicops/TWOprimaryprograms/full100MBNEWingress conservative chargeUNCERTIFIED/101MBSEPARATEread charge/10sprocess charge/largest successfulRSS16269312/failed peak and physicalI/O unknown. Source payload26056bytes is not total ingress. Jobs0; one Python entrypoint at a time/no native numerical threads. Details/failures/chronology in RESOURCES.json/CHRONOLOGY.md. All BRIEF prior exposure, failures, unknowns and protected targets preserved; no old numerical payloads or protected data accessed. No shared files/nativegoal/heartbeat changes.
+
+Return: ONE bounded report saved in TERMINAL_REPORT.md for CURRENTregistryPI01a19fce-063b-7b83-a8dc-c8252b94d097, verified by bounded registry read. Native send_message_to_thread succeeded once without overrides/isErrorfalse; notification DELIVERED. Finish/jobs0/no resend/restart/ack wait. Proposed nonduplicate memory entry in PROPOSED_LEARNING.md for PI integration.

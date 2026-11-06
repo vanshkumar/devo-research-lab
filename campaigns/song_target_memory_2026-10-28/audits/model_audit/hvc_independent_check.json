@@ -1,0 +1,166 @@
+{
+  "comparison": "Independent Python scalar loops vs root compiled C++; no root functions imported",
+  "source_files_sha256": {
+    "HVCIter.m": "4e6098a8b7e590cec1d5b8d0531f408ba4d684499655a34603a1029175328bb1",
+    "HVCModel_sporadicSims.m": "adc55123cfe163acd61ae14fb0857dfe28150058f0c2817cb248c0400ddfcfcc",
+    "findChainLength_v3.m": "3bbc28a2e3cfed70657edbc2fbd05cea63c4f6ec59cf0ac8d4641c2611526914"
+  },
+  "kernel_sha256": "26a6553e7edb08a4a5cf5702b854e95a5995d861e197c4e13547006a1bd60fd2",
+  "cases": [
+    {
+      "neurons": 8,
+      "eta": 0.0,
+      "style": "source_parameters",
+      "max_weight_error": 0.0,
+      "exact_activity": true,
+      "total_spikes": 47
+    },
+    {
+      "neurons": 8,
+      "eta": 0.0,
+      "style": "weak_adaptation",
+      "max_weight_error": 0.0,
+      "exact_activity": true,
+      "total_spikes": 554
+    },
+    {
+      "neurons": 8,
+      "eta": 0.0,
+      "style": "silent",
+      "max_weight_error": 0.0,
+      "exact_activity": true,
+      "total_spikes": 0
+    },
+    {
+      "neurons": 8,
+      "eta": 0.025,
+      "style": "source_parameters",
+      "max_weight_error": 0.0,
+      "exact_activity": true,
+      "total_spikes": 45
+    },
+    {
+      "neurons": 8,
+      "eta": 0.025,
+      "style": "weak_adaptation",
+      "max_weight_error": 0.0,
+      "exact_activity": true,
+      "total_spikes": 563
+    },
+    {
+      "neurons": 8,
+      "eta": 0.025,
+      "style": "silent",
+      "max_weight_error": 0.0,
+      "exact_activity": true,
+      "total_spikes": 0
+    },
+    {
+      "neurons": 8,
+      "eta": 0.1,
+      "style": "source_parameters",
+      "max_weight_error": 0.0,
+      "exact_activity": true,
+      "total_spikes": 49
+    },
+    {
+      "neurons": 8,
+      "eta": 0.1,
+      "style": "weak_adaptation",
+      "max_weight_error": 0.0,
+      "exact_activity": true,
+      "total_spikes": 565
+    },
+    {
+      "neurons": 8,
+      "eta": 0.1,
+      "style": "silent",
+      "max_weight_error": 0.0,
+      "exact_activity": true,
+      "total_spikes": 0
+    },
+    {
+      "neurons": 12,
+      "eta": 0.0,
+      "style": "source_parameters",
+      "max_weight_error": 0.0,
+      "exact_activity": true,
+      "total_spikes": 71
+    },
+    {
+      "neurons": 12,
+      "eta": 0.0,
+      "style": "weak_adaptation",
+      "max_weight_error": 0.0,
+      "exact_activity": true,
+      "total_spikes": 879
+    },
+    {
+      "neurons": 12,
+      "eta": 0.0,
+      "style": "silent",
+      "max_weight_error": 0.0,
+      "exact_activity": true,
+      "total_spikes": 0
+    },
+    {
+      "neurons": 12,
+      "eta": 0.025,
+      "style": "source_parameters",
+      "max_weight_error": 2.7755575615628914e-17,
+      "exact_activity": true,
+      "total_spikes": 70
+    },
+    {
+      "neurons": 12,
+      "eta": 0.025,
+      "style": "weak_adaptation",
+      "max_weight_error": 0.0,
+      "exact_activity": true,
+      "total_spikes": 884
+    },
+    {
+      "neurons": 12,
+      "eta": 0.025,
+      "style": "silent",
+      "max_weight_error": 1.3877787807814457e-17,
+      "exact_activity": true,
+      "total_spikes": 0
+    },
+    {
+      "neurons": 12,
+      "eta": 0.1,
+      "style": "source_parameters",
+      "max_weight_error": 2.220446049250313e-16,
+      "exact_activity": true,
+      "total_spikes": 67
+    },
+    {
+      "neurons": 12,
+      "eta": 0.1,
+      "style": "weak_adaptation",
+      "max_weight_error": 2.7755575615628914e-17,
+      "exact_activity": true,
+      "total_spikes": 880
+    },
+    {
+      "neurons": 12,
+      "eta": 0.1,
+      "style": "silent",
+      "max_weight_error": 4.440892098500626e-16,
+      "exact_activity": true,
+      "total_spikes": 0
+    }
+  ],
+  "max_weight_error": 4.440892098500626e-16,
+  "all_activity_exact": true,
+  "trial_times": {
+    "count": 7200,
+    "first_matlab_index": 51,
+    "last_matlab_index": 359740,
+    "dropped_by_root_filter": 0,
+    "minimum_gap_steps": 27,
+    "gaps_at_most_30_steps": 7
+  },
+  "limits": "Validates equation/index translation, not fit to birds or exact MATLAB RNG reproduction."
+}

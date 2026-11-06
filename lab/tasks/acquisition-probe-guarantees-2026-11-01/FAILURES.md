@@ -1,0 +1,11 @@
+# Failed candidate and retained limitations
+
+The candidate general guarantee failed the contribution screen: its quantitative connection is standard sequential change of measure plus proper-score/KL theory. The reference calculation succeeded; successful arithmetic does not make it a new scientific result. No main claim, correction or review was manufactured.
+
+Two preliminary **ordinary read commands**, before START, were rejected by the existing hook: shell composition in `pwd && rg ...`, then the combined `wc -lc` option. Separate bounded `sed` reads and `wc -l` succeeded. The initial 160-line LEARNINGS output was truncated; all 740 lines were subsequently read in bounded, nontruncated chunks. These were context reads, not scientific starts or numerical passes. No protection or gate was changed.
+
+There was one scientific process, `reference_check.py`, with native exit 0 and no emitted warning. There was no failed numerical pass, model fit, empirical acquisition, hidden pilot, model search or postfreeze repair. No original PDF byte hash was obtained; source pins are bibliographic/public equation locations. Web backend ingress, redirects/fan-out, runtime reads and physical I/O are not observable. The 6 MB provider and 25 MB local-context/runtime charges are allowances, not measurements or proved caps.
+
+Preserve the separate assigned-teacher source gate: two failed native checks, exits 1/1; 26 conservative public operations against 25; 20,755,452 ingress allowance; 80 MB read charge; unmeasured scientific/acquisition peaks and physical I/O. Record-only RSS 22,364,160 is not a science-cap certificate. Original full-CSV hash/acquisition, first learner and next-row tokenization exposure remain consumed; V3 is unacquired and protocol/assignment linkage uncertified. No source repair is authorized by this closure.
+
+The banked mouse functional/accuracy limitations, matched-review and older failure/resource records also survive unchanged. Nothing here releases Pan20, Flesch81/B2/B20, later HABITS outcomes, memory targets, reserved worms, Figure4/optional210 or category records, or restores any consumed cohort to validation status. The larger acquisition-forecast question remains open.

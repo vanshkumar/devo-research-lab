@@ -1,0 +1,33 @@
+# Predicting persistent heat responses across worms
+
+PI allocation, 2026-10-31. Canonical PI: `01a19307-65a5-7332-9014-87b0f201e76e`, local, Sol/ultra. This is one new bounded Sol/max investigation in the continuing human-authorized lab. Initial chat creation permits ordinary context reads only; execute after PI registers your actual returned ID and scoped paths and sends START.
+
+## Question and consequence
+
+Can a source-fixed compact state description, initialized from a held animal's pre-heat recording and supplied stimulus timing, predict its persistent behavioral and identified-neuron response better than a shared average heat response and strong local-history/observation-dynamics alternatives? The investment concerns individual perturbation forecasts, not another embedding or reconstruction of observed post-heat activity.
+
+The saved strategy at `lab/tasks/independent-sprint-pilots-2026-10-30/STRATEGY_1_2_7.md` identifies 19 processed heat recordings and a closest mechanistic study whose simulated response lacks persistence. Verify those defining facts and prior work yourself. The previous baseline-only pilot lost its population advantage after stronger local history; it did not test heat or establish absent population information. Use its saved RESULT/SOURCES and `experiments/neural_dynamics/selection.json` to preserve exposure. Memory is a serious alternative but missing histories limit it; the clean temporal-teacher repair is closed. No broad portfolio restart.
+
+## Scientific work and controls
+
+Own scientific design and numerical planning. First verify public source/version, actual heat timing, pre/post coverage, neuron identity, behavioral channels, processing and any earlier heat exposure or restrictions. Inspect metadata/small samples before acquisition. Do not assume that folder names certify pulse timing or that all recordings are untouched. If the defining stimulus/response observations are missing or the prospective comparison cannot distinguish restricted accounts, save the exact failure and stop this branch rather than substituting a weaker reconstruction claim.
+
+Freeze an outcome-blind development/evaluation partition and decoding permissions before first new heat outcomes; retain a genuinely untouched animal evaluation set until consequential model, feature, endpoint and selection choices are frozen. Derive a parsimonious comparison from development evidence and known-answer controls. All competitors receive the same allowed prefix/stimulus information. Include a shared average stimulus-response forecast, persistence and meaningful own-history/drift/calcium alternatives. Do not feed actual post-heat neural or behavioral observations into an autonomous forecast. Challenge any apparent gain with the strongest simple alternative, stimulus/timing controls and a real held-animal test. Preserve failed controls, then use at most one explicit development revision if justified. Save forecasts before opening their evaluation outcomes and record raw plus publication-summary exposure.
+
+Use worms as independent units. Quantify the finite uncertainty; do not treat neurons/frames as extra animals. Distinguish individual forecast gain from reproducing an average heat curve. Whole-record bleaching/interpolation restricts any strictly prospective preprocessing claim. A successful restricted state family supports predictive sufficiency; a failure does not identify synaptic change. Fixed-state versus changing-parameter dynamics are not unrestrictedly identifiable. Source verification, software checks and scientific payoff are separate.
+
+Execute a relevant numerical/source-data check early and save its actual output so PI can verify startup. Acknowledgement, text reads and clocks alone do not count. Aim for useful test/revise evidence and a complete bounded result; no architecture tournament or follow-on assignment. If a staged scientific stop is reached, finish and report immediately.
+
+## Ownership and evidence boundaries
+
+Write only `lab/tasks/heat-state-forecast-2026-10-31/` and `sources/heat_state_forecast_2026-10-31/`. PI owns shared records and this BRIEF; save proposed learning locally. Existing source/code and ordinary reports may be read. Use existing numerical dependencies if suitable; no framework or control-system work.
+
+The four reserved baseline worms in `experiments/neural_dynamics/selection.json` remain unopened. Pan20, Flesch targets, later HABITS, memory answers and every other protected observation remain closed. This brief admits only a separately declared heat-data study after outcome-blind permission/split recording; it releases no old protected cohort. Reuse old pilot summaries rather than rerunning its retired scientific commands. Inherited study/source/exposure limits do not reset; any needed reuse must fit its remaining original limit as well as this assignment. If inherited heat restrictions conflict, stop and report before access.
+
+## Finite allocation and deliverables
+
+One 120-minute block from actual execution start, one scientific process, at most 2 CPU / 4 GB RAM, no automatic continuation. New public acquisition at most 200 MB and 32 specific requests; new decoded/derived scientific input reads at most 500 MB, charged before access. Keep source/raw inputs immutable and charge cache rereads; do not add a metering service. Reserve a separate later review budget rather than spending it here. Preserve all earlier spent bytes/time/counters. Latest PI manual allowance: 56% remaining, ordinary usage allowed, no secondary window; continuing-lab reserve 20%, daily ceilings suspended. Stop safely at limits or PI/human stop. No spending/reset credits, outside contact, publication, people experiments or infrastructure.
+
+Save STATE, hypothesis/protocol and timestamped changes, source/license/version manifest, deterministic configuration/seeds, code, actual outputs, RESULT, README with exact reproduction commands, exposure/accounting and a proposed learning. Leave no jobs at completion/blocker. Recommend the single strongest independent contrary test, or a concrete branch stop. Do not call your own checks independent review.
+
+After saving, send ONE <=400-word completion/blocker report with `send_message_to_thread` to current registry PI (initially `01a19307-65a5-7332-9014-87b0f201e76e`, host local), without model/thinking overrides, then finish. Human authorization is in AGENTS/LAB_WORKFLOW. Include task ID, paths, decisive evidence/limits, jobs and next PI decision. If delivery fails, record it in STATE and finish for the active 30-minute heartbeat; no retry loop. Your assignment ending does not stop the lab or heartbeat.

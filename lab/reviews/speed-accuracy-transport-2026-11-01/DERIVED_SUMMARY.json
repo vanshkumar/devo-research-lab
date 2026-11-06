@@ -1,0 +1,68 @@
+{
+  "at_utc": "2026-11-01T08:48:27.631331+00:00",
+  "original_rule_passes": false,
+  "original_accuracy_MSE_gain": 0.1471395306967237,
+  "original_RT_MSE_gain": -1.580728911793749,
+  "source_reference": "RIDGE",
+  "models": {
+    "IDENTITY": {
+      "accuracy_mse": 0.010882946687091222,
+      "rt_mean_mse_s2": 0.08462954544641059,
+      "joint_loss": 19.102498426700365,
+      "accuracy_MAE": 0.0845998593123651,
+      "rt_mean_MAE_s": 0.24765861302227873
+    },
+    "POP": {
+      "accuracy_mse": 0.003261184381675147,
+      "rt_mean_mse_s2": 0.03743448146211446,
+      "joint_loss": 8.139133168757922,
+      "accuracy_MAE": 0.04230326750779459,
+      "rt_mean_MAE_s": 0.1540646389285041
+    },
+    "DELTA": {
+      "accuracy_mse": 0.0048461197706005715,
+      "rt_mean_mse_s2": 0.023224598502784667,
+      "joint_loss": 5.614143654677047,
+      "accuracy_MAE": 0.053814751287673754,
+      "rt_mean_MAE_s": 0.12148275235443003
+    },
+    "RIDGE": {
+      "accuracy_mse": 0.0026216149411655816,
+      "rt_mean_mse_s2": 0.026640449938315894,
+      "joint_loss": 5.852412975896295,
+      "accuracy_MAE": 0.03843364006888242,
+      "rt_mean_MAE_s": 0.123151186689787
+    },
+    "P": {
+      "accuracy_mse": 0.002235871749054959,
+      "rt_mean_mse_s2": 0.06875177937900583,
+      "joint_loss": 14.197530225612157,
+      "accuracy_MAE": 0.03029426714334146,
+      "rt_mean_MAE_s": 0.22098186888869564
+    },
+    "Q": {
+      "accuracy_mse": 0.0014284249403817284,
+      "rt_mean_mse_s2": 0.06402984712186922,
+      "joint_loss": 13.091654412450191,
+      "accuracy_MAE": 0.02663902859533036,
+      "rt_mean_MAE_s": 0.2095163205048897
+    }
+  },
+  "affine_model": {
+    "accuracy_mse": 0.002147087959669601,
+    "rt_mean_mse_s2": 0.07072926628500369,
+    "joint_loss": 14.575270848934654,
+    "accuracy_MAE": 0.029428781064891874,
+    "rt_mean_MAE_s": 0.2266356073895331
+  },
+  "affine_rule_passes": false,
+  "affine_source_NLL_improvement": 9.540427162776155,
+  "affine_source_gain": 0.0,
+  "affine_common_target_t0_s": 0.1568150466452355,
+  "max_forecast_discrepancy": 5.995204332975845e-15,
+  "original_control_signal_null_passes": [
+    18,
+    2
+  ],
+  "recommendation": "Bank independent reconstruction and finite control limitation; close this consumed-release recipe. One source-only affine map also fails. Full original optimizer/source uncertainty/pipeline power and coverage remain UNRUN."
+}

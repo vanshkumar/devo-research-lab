@@ -1,0 +1,243 @@
+{
+  "created_utc": "2026-11-01T03:24:24Z",
+  "kind": "Actual complete development trial join and narrow source-defined chronology certification",
+  "rows": 538,
+  "columns": [
+    "block_index",
+    "is_contingent_reward",
+    "is_instruction",
+    "is_noncontingent_reward",
+    "is_opto",
+    "is_repeat",
+    "is_response",
+    "is_reward_scheduled",
+    "is_rewarded",
+    "response_time",
+    "response_window_start_time",
+    "response_window_stop_time",
+    "rewarded_modality",
+    "start_time",
+    "stim_name",
+    "stim_start_time",
+    "stim_stop_time",
+    "stop_time",
+    "task_control_response_time",
+    "trial_index",
+    "reward_time"
+  ],
+  "checks": {
+    "all_columns_same_rows": true,
+    "trial_index_consecutive": true,
+    "stimulus_onsets_strictly_increasing": true,
+    "start_stim_response_order": true,
+    "noncatch_stimulus_offset_order": true,
+    "windows_end_before_next_stimulus": true,
+    "response_flag_equals_finite_response_time": true,
+    "actual_responses_inside_window": true,
+    "task_registered_responses_inside_window": true,
+    "reward_flag_equals_finite_delivery": true,
+    "reward_flag_equals_contingent_or_noncontingent": true,
+    "contingent_noncontingent_disjoint": true,
+    "rewards_after_stimulus_and_before_trial_stop": true,
+    "past_rewards_before_next_trial_onset": true,
+    "contingent_rewards_after_response": true,
+    "instruction_equals_scheduled_in_this_session": true,
+    "no_opto_or_repeat": true
+  },
+  "all_checks_pass": true,
+  "source_subject_session": {
+    "general/experiment_description": [
+      "visual-auditory task-switching behavior experiment"
+    ],
+    "general/session_id": [
+      "742903_2024-10-22"
+    ],
+    "general/source_script": [
+      "https://raw.githubusercontent.com/samgale/DynamicRoutingTask/467df765931d707cb6cfbd5a0b74d381ce288acb/DynamicRouting1.py"
+    ],
+    "general/subject/species": [
+      "Mus musculus"
+    ],
+    "general/subject/subject_id": [
+      "742903"
+    ],
+    "session_description": [
+      "ecephys session (day 2) with behavioral task data (day 46) and video recording of behavior"
+    ],
+    "session_start_time": [
+      "2024-10-22T10:58:35-07:00"
+    ]
+  },
+  "data_description": {
+    "creation_time": "2026-05-18T22:02:14-07:00",
+    "data_level": "derived",
+    "data_summary": "visual-auditory task-switching behavior experiment",
+    "describedBy": "https://raw.githubusercontent.com/AllenNeuralDynamics/aind-data-schema/main/src/aind_data_schema/core/data_description.py",
+    "funding_source": [
+      {
+        "fundee": null,
+        "funder": {
+          "abbreviation": "AI",
+          "name": "Allen Institute",
+          "registry": "Research Organization Registry (ROR)",
+          "registry_identifier": "03cpe7c52"
+        },
+        "grant_number": null,
+        "object_type": "Funding"
+      }
+    ],
+    "group": "ephys",
+    "institution": {
+      "abbreviation": "AIND",
+      "name": "Allen Institute for Neural Dynamics",
+      "registry": "Research Organization Registry (ROR)",
+      "registry_identifier": "04szwah67"
+    },
+    "investigators": [
+      {
+        "name": "Shawn Olsen",
+        "object_type": "Person",
+        "registry": "Open Researcher and Contributor ID (ORCID)",
+        "registry_identifier": "0000-0002-9568-7057"
+      },
+      {
+        "name": "Corbett Bennett",
+        "object_type": "Person",
+        "registry": "Open Researcher and Contributor ID (ORCID)",
+        "registry_identifier": "0009-0001-2847-7754"
+      }
+    ],
+    "license": "CC-BY-4.0",
+    "modalities": [
+      {
+        "abbreviation": "ecephys",
+        "name": "Extracellular electrophysiology"
+      },
+      {
+        "abbreviation": "behavior",
+        "name": "Behavior"
+      },
+      {
+        "abbreviation": "behavior-videos",
+        "name": "Behavior videos"
+      }
+    ],
+    "name": "ecephys_742903_2024-10-22_10-58-35_nwb_2026-05-18_22-02-14",
+    "object_type": "Data description",
+    "project_name": "Dynamic Routing",
+    "restrictions": null,
+    "schema_version": "2.3.0",
+    "source_data": null,
+    "subject_id": "742903",
+    "tags": [
+      "prod",
+      "first_block_aud",
+      "late_autorewards"
+    ]
+  },
+  "time_units": "NWB seconds relative to session reference; hardware-corrected export, no independent acquisition clock or water-sensor replay",
+  "reward_counts": {
+    "is_rewarded": 136,
+    "is_contingent_reward": 131,
+    "is_noncontingent_reward": 5,
+    "is_reward_scheduled": 30,
+    "is_instruction": 30
+  },
+  "scheduled_replaced_by_contingent": 25,
+  "response_start_minus_stimulus_range_seconds": [
+    0.05554000000029191,
+    0.0763200000001234
+  ],
+  "response_window_duration_range_seconds": [
+    0.9170599999997648,
+    0.9343099999996411
+  ],
+  "noncontingent_delivery_minus_window_stop_seconds": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "contingent_delivery_minus_response_range_seconds": [
+    0.016429999999672873,
+    0.045680000000174914
+  ],
+  "first_encounters": [
+    {
+      "block": 1,
+      "trial": 91,
+      "stimulus": "aud+",
+      "response": true,
+      "instruction_count_before": 5,
+      "prior_same_stimulus_trial": 84,
+      "other_target_delivered_rewards_since_switch": 5,
+      "rewarded_modality_selection_only": "vis"
+    },
+    {
+      "block": 2,
+      "trial": 188,
+      "stimulus": "vis+",
+      "response": true,
+      "instruction_count_before": 5,
+      "prior_same_stimulus_trial": 171,
+      "other_target_delivered_rewards_since_switch": 7,
+      "rewarded_modality_selection_only": "aud"
+    },
+    {
+      "block": 3,
+      "trial": 275,
+      "stimulus": "aud+",
+      "response": true,
+      "instruction_count_before": 5,
+      "prior_same_stimulus_trial": 265,
+      "other_target_delivered_rewards_since_switch": 5,
+      "rewarded_modality_selection_only": "vis"
+    },
+    {
+      "block": 4,
+      "trial": 363,
+      "stimulus": "vis+",
+      "response": true,
+      "instruction_count_before": 5,
+      "prior_same_stimulus_trial": 356,
+      "other_target_delivered_rewards_since_switch": 5,
+      "rewarded_modality_selection_only": "aud"
+    },
+    {
+      "block": 5,
+      "trial": 459,
+      "stimulus": "aud+",
+      "response": false,
+      "instruction_count_before": 5,
+      "prior_same_stimulus_trial": 438,
+      "other_target_delivered_rewards_since_switch": 6,
+      "rewarded_modality_selection_only": "vis"
+    }
+  ],
+  "first_encounter_count": 5,
+  "codec": {
+    "created_utc": "2026-11-01T03:20:35Z",
+    "package": "numcodecs",
+    "version": "0.12.1",
+    "wheel": "numcodecs-0.12.1-cp39-cp39-macosx_11_0_arm64.whl",
+    "wheel_sha256": "f2207871868b2464dc11c513965fd99b958a9d7cde2629be7b2dc84fdaab013b",
+    "frame_bytes": 3304,
+    "decoded_bytes": 4304,
+    "byte_exact_equal": true,
+    "decoded_sha256": "e5b3fa03f92bb16eeeedc63281529f9d4a606009066de2fc3ee25ebec310da72",
+    "scope": "Independent trusted C-Blosc implementation versus inherited Python Blosc/LZ4 on the complete stored reward frame; all new arrays decoded with trusted numcodecs, not generalized inherited decoder."
+  },
+  "historical_bug": "Development date 2024-10-22 is after both documented fixes; finite response/registered response windows checked directly. 668755_2023-08-31 predates fixes and is excluded outcome-blind from planned evaluation.",
+  "provenance_limit": "Source-defined export links exact commit 467df765931d707cb6cfbd5a0b74d381ce288acb. This is an archive assertion, not independent proof of hardware deployment. Sufficient for conditional exported binary-response forecasts, not hardware or causal timing claims.",
+  "unrun": [
+    "evaluation acquisition",
+    "scientific freeze",
+    "fitting",
+    "controls",
+    "forecasts",
+    "scores",
+    "independent review"
+  ],
+  "rss_bytes": 24068096
+}

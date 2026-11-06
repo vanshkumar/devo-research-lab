@@ -1,0 +1,72 @@
+{
+  "source": "../../tasks/horizon-feedback-forecast-2026-11-06/DEVELOPMENT_LOOKAHEAD.json",
+  "units": "full original source window, equal source people, penultimate realized reward minus the prior within-arm empirical mean divided by 8, multiplied by terminal stay minus .5; descriptive only",
+  "people": 25,
+  "observed_penultimate_surprise_stay": {
+    "mean": -0.0007906994047619087,
+    "person_sd": 0.04575065930181775,
+    "halfwidth6": 0.0480123724200661,
+    "halfwidth25": 0.01888494398531106
+  },
+  "history_penultimate_surprise_stay": {
+    "mean": 0.0057974958147321435,
+    "person_sd": 0.004619885383185928,
+    "halfwidth6": 0.004848272373349811,
+    "halfwidth25": 0.001906994959448751
+  },
+  "lookahead_penultimate_surprise_stay": {
+    "mean": 0.006940131559826078,
+    "person_sd": 0.005263780805240234,
+    "halfwidth6": 0.005523999177619464,
+    "halfwidth25": 0.002172781926532101
+  },
+  "author_ablated_penultimate_surprise_stay": {
+    "mean": -0.025265473356701075,
+    "person_sd": 0.004075024702168714,
+    "halfwidth6": 0.004276476155912351,
+    "halfwidth25": 0.0016820875242809328
+  },
+  "observed_minus_history_moment": {
+    "mean": -0.00658819521949405,
+    "person_sd": 0.045604813931921215,
+    "halfwidth6": 0.047859317090982866,
+    "halfwidth25": 0.018824741975481146
+  },
+  "observed_minus_lookahead_moment": {
+    "mean": -0.007730830964587987,
+    "person_sd": 0.046248727616465576,
+    "halfwidth6": 0.048535063060560456,
+    "halfwidth25": 0.01909053648094989
+  },
+  "observed_minus_ablated_moment": {
+    "mean": 0.024474773951939168,
+    "person_sd": 0.04438141438098632,
+    "halfwidth6": 0.04657543800039905,
+    "halfwidth25": 0.01831974746078697
+  },
+  "ablated_minus_observed_final_reward": {
+    "mean": -0.16324609374999938,
+    "person_sd": 1.4973492990712263,
+    "halfwidth6": 1.5713717198186101,
+    "halfwidth25": 0.6180754129215659
+  },
+  "history_minus_observed_final_reward": {
+    "mean": -0.0047080078125003415,
+    "person_sd": 1.5014662925184756,
+    "halfwidth6": 1.575692239471372,
+    "halfwidth25": 0.6197748242923679
+  },
+  "ablated_minus_history_energy": {
+    "mean": 0.0052226310859387936,
+    "person_sd": 0.015417059423797945,
+    "halfwidth6": 0.01617921162172775,
+    "halfwidth25": 0.006363849353862061
+  },
+  "fixed_roster_illustration": {
+    "n_people": 6,
+    "H6_games_per_person": 160,
+    "innovations": 960,
+    "upper_assumed_standard_deviation_single_moment": 0.5,
+    "normal_95pct_halfwidth": 0.031629363994027236
+  }
+}

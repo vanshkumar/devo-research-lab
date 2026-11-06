@@ -1,0 +1,97 @@
+{
+  "timestamp_utc": "2026-11-01T11:19:47.150071+00:00",
+  "status": "AUTHOR SCIENCE STOPPED; numerical study saved, resource compliance PARTIAL/UNCERTIFIED",
+  "fixed_start_utc": "2026-11-01T10:43:00Z",
+  "first_record_gate_utc": "2026-11-01T11:03:00Z",
+  "first_record_completed_utc": "2026-11-01T10:50:10.447025Z",
+  "design_gate_utc": "2026-11-01T11:13:00Z",
+  "initial_design_completed_utc": "2026-11-01T10:54:34.652336Z",
+  "typed_missingness_amendment_and_audit_completed_utc": "2026-11-01T11:10:16.223000Z",
+  "amendment_freeze_utc": "2026-11-01T11:12:53.746157Z",
+  "hard_stop_utc": "2026-11-01T12:13:00Z",
+  "last_scientific_output_utc": "2026-11-01T11:15:58.099774Z",
+  "public_operations": {
+    "web_tool_calls": 9,
+    "web_subcommands": 18,
+    "native_attempts": 15,
+    "blocked_inline_request": 1,
+    "actual_top_level_attempts": 25,
+    "conservative_expanded_charge": 34,
+    "cap": 36
+  },
+  "source_families": {
+    "empirical": 2,
+    "total": 2,
+    "caps": [
+      2,
+      3
+    ]
+  },
+  "new_ingress": {
+    "known_native_body_bytes": 4954291,
+    "conservative_charge_bytes": 12000000,
+    "cap_bytes": 25000000,
+    "provider_wire_and_search_fanout_unknown": true
+  },
+  "additional_scientific_read": {
+    "cap_bytes": 300000000,
+    "conservative_allowance_bytes": 330000000,
+    "compliance": "UNCERTIFIED: conservative logical-read allowance exceeds cap; exact failed/prefix and physical I/O are unknown. Not a measured330MB OS-wide byte total.",
+    "basis": [
+      "Five full-workbook-equivalent30,316,728-byte allowances: three first_data_check attempts, source fit and typed-cache construction (compressed+decoded+separate whole-file hash access).",
+      "Three25,779,248-byte workbook-equivalent allowances: failed prediction prefix, threshold audit prefix and false numeric-only complete measurement audit. Prefixes charged as full, actual prefix sizes unknown.",
+      "Typed cache verification/read, source-cache comparison, freeze and fourper-stage large-input rehashes; each repeated source.npz+typedcache hash access adds6,786,553logical bytes.",
+      "Predictions/features/scored-cache writes are not reads; separate pin/hash accesses, NPZ compressed+decoded reads, source/evaluation caches, two conditional examples and final augmented-lstsq audit are charged. Arrays reused inRAM for controls/bootstrap, no new payload read on each fit.",
+      "Round to330MBto include pilot/guide/metadata/web/report reads and bounded peek uncertainty. Largest contributors and exact cache sizes are retained in files; no automatic meter was built."
+    ],
+    "discovery_and_action": "Repeated freeze-input hashing was missed in the initial read allowance. Closeout accounting after FINAL_AUDIT showed the conservative total above300MB. Stopped all further science; no reread/repair/rerun to force a compliance certificate. Preserve this as an operational limitation. Exact actual logical bytes may be lower because failed prefixes were overcharged; do not certify cap compliance or claim a measured physical-I/O breach."
+  },
+  "memory": {
+    "cap_bytes": 800000000,
+    "largest_measured_peak_process_rss_bytes": 85934080,
+    "source": "CONTROLS_RUN.json",
+    "failed_first_data_and_prediction_peaks_unknown": true,
+    "toolhost_acquisition_peaks_unknown": true
+  },
+  "parallelism": {
+    "scientific_processes_at_once": 1,
+    "numerical_thread_environment": 1,
+    "mechanism": "OPENBLAS/OMP/MKL/VECLIB/NUMEXPR variables set to1 before NumPy import; no OS-wide thread audit."
+  },
+  "development_revisions": {
+    "allowed": 1,
+    "used": 1,
+    "artifact": "AMENDMENT_1.md",
+    "pre_scoring": true,
+    "source_features_targets_and_fits_unchanged": true,
+    "early_parsing_failures_preserved": true
+  },
+  "usage_checkpoints": [
+    {
+      "utc": "2026-11-01T10:42:10.147Z",
+      "by": "PI START report",
+      "primary_used_percent": 64,
+      "remaining_percent": 36,
+      "secondary": "unavailable",
+      "ordinary_usage_allowed": true
+    },
+    {
+      "utc": "before11:03 source/evaluation checkpoint",
+      "by": "worker manual tool read",
+      "primary_used_percent": 64,
+      "remaining_percent": 36,
+      "secondary": "unavailable",
+      "ordinary_usage_allowed": true
+    },
+    {
+      "utc": "2026-11-01T11:03:26Z",
+      "by": "worker manual tool read",
+      "primary_used_percent": 65,
+      "remaining_percent": 35,
+      "secondary": "unavailable",
+      "ordinary_usage_allowed": true
+    }
+  ],
+  "jobs_remaining": 0,
+  "unchanged_controls": "No paid services/credits/resets/contact/publication/account-security changes. All inherited protected observations untouched; no old closed payloads acquired. Same PI heartbeat unaffected."
+}

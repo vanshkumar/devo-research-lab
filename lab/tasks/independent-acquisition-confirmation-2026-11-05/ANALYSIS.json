@@ -1,0 +1,1499 @@
+{
+  "utc": "2026-11-05T19:55:56.959267+00:00",
+  "n": 192,
+  "conclusion": "inconclusive",
+  "primary": [
+    {
+      "reference": "growth",
+      "cutoff": 200,
+      "D": {
+        "n": 192,
+        "point": 0.00027488347205845723,
+        "se": 0.0031308277016841406,
+        "lower": -0.0072868476257755225,
+        "upper": 0.007836614569892437,
+        "half_width": 0.00756173109783398,
+        "critical": 2.4152498375322153,
+        "df": 191,
+        "family": 3
+      },
+      "mc": {
+        "batch_means": [
+          0.0015598169532484328,
+          -0.0002521689988277203,
+          -0.0001788690194562245,
+          4.993556011635182e-06,
+          -0.0002993650918345203,
+          0.0006836371479729155,
+          0.00038532439475129956,
+          0.0005719339930974104
+        ],
+        "batch_particles": "128neural/main;64ordinary/source",
+        "unbiased_batch_mean": 0.0003094128668704035,
+        "mcse": 0.00022341941683278954,
+        "mc99_half_width": 0.0007818525175101344,
+        "criterion_max_half_width": 0.001512346219566796,
+        "small_against_animal_precision": true,
+        "lower_after_mc": -0.008068700143285657,
+        "upper_after_mc": 0.008618467087402572
+      },
+      "relative_gain_point": 0.10198701464213256,
+      "reference_risk": 0.1383399327965591,
+      "neural_risk": 0.12423105604484479,
+      "U_contrast_mean": 0.00030494439124105515,
+      "V_minus_U_contrast_mean": -3.0060919182597922e-05,
+      "stream_D_means": [
+        0.0002368386969439524,
+        0.0002602798222331182
+      ]
+    },
+    {
+      "reference": "recent100",
+      "cutoff": 200,
+      "D": {
+        "n": 192,
+        "point": -0.0015349668549380054,
+        "se": 0.003044758386102461,
+        "lower": -0.008888819052296826,
+        "upper": 0.005818885342420814,
+        "half_width": 0.0073538521973588195,
+        "critical": 2.4152498375322153,
+        "df": 191,
+        "family": 3
+      },
+      "mc": {
+        "batch_means": [
+          -0.0005894415271175994,
+          -0.0015645155253351496,
+          -0.0016779149512051058,
+          -0.002315695204152958,
+          -0.0011418831037608265,
+          -0.001017622982761656,
+          -0.0019174684803114864,
+          -0.0017230114131593212
+        ],
+        "batch_particles": "128neural/main;64ordinary/source",
+        "unbiased_batch_mean": -0.001493444148475513,
+        "mcse": 0.00019433480262159687,
+        "mc99_half_width": 0.0006800713958681829,
+        "criterion_max_half_width": 0.001470770439471764,
+        "small_against_animal_precision": true,
+        "lower_after_mc": -0.009568890448165009,
+        "upper_after_mc": 0.006498956738288997
+      },
+      "relative_gain_point": 0.08874071554712692,
+      "reference_risk": 0.13632898798878526,
+      "neural_risk": 0.12423105604484479,
+      "U_contrast_mean": -0.0015078672829791015,
+      "V_minus_U_contrast_mean": -2.7099571958903897e-05,
+      "stream_D_means": [
+        -0.0015661676845619185,
+        -0.0015464193014082996
+      ]
+    },
+    {
+      "reference": "recent250",
+      "cutoff": 200,
+      "D": {
+        "n": 192,
+        "point": -0.0010523650187906502,
+        "se": 0.003076476120188742,
+        "lower": -0.00848282346824825,
+        "upper": 0.00637809343066695,
+        "half_width": 0.0074304584494576,
+        "critical": 2.4152498375322153,
+        "df": 191,
+        "family": 3
+      },
+      "mc": {
+        "batch_means": [
+          0.0001612710204794064,
+          -0.0002808224167102521,
+          -0.0017003896485958813,
+          -0.0011721935577506146,
+          -0.0008874252627341313,
+          -0.0004715759548112905,
+          -0.0020442098914621384,
+          -0.0016929583368875685
+        ],
+        "batch_particles": "128neural/main;64ordinary/source",
+        "unbiased_batch_mean": -0.0010110380060590588,
+        "mcse": 0.00027540421451847686,
+        "mc99_half_width": 0.0009637724487273417,
+        "criterion_max_half_width": 0.00148609168989152,
+        "small_against_animal_precision": true,
+        "lower_after_mc": -0.009446595916975591,
+        "upper_after_mc": 0.007341865879394291
+      },
+      "relative_gain_point": 0.09231093861265893,
+      "reference_risk": 0.13686521225117118,
+      "neural_risk": 0.12423105604484479,
+      "U_contrast_mean": -0.0010236534804659002,
+      "V_minus_U_contrast_mean": -2.871153832475007e-05,
+      "stream_D_means": [
+        -0.0007887484680567937,
+        -0.001365497602806827
+      ]
+    }
+  ],
+  "secondary_selected_four": [
+    {
+      "reference": "recent100",
+      "cutoff": 200,
+      "metric": "A",
+      "margin": 0.02,
+      "band": {
+        "n": 192,
+        "point": 0.007189777127422965,
+        "se": 0.004557441645697238,
+        "lower": -0.004302193012640606,
+        "upper": 0.018681747267486535,
+        "half_width": 0.01149197014006357,
+        "critical": 2.521583606213224,
+        "df": 191,
+        "family": 4
+      }
+    },
+    {
+      "reference": "recent100",
+      "cutoff": 200,
+      "metric": "D",
+      "margin": 0.0,
+      "band": {
+        "n": 192,
+        "point": -0.0015349668549380054,
+        "se": 0.003044758386102461,
+        "lower": -0.009212579686214206,
+        "upper": 0.006142645976338195,
+        "half_width": 0.0076776128312762,
+        "critical": 2.521583606213224,
+        "df": 191,
+        "family": 4
+      }
+    },
+    {
+      "reference": "recent100",
+      "cutoff": 1000,
+      "metric": "A",
+      "margin": 0.02,
+      "band": {
+        "n": 192,
+        "point": 0.001193844259053456,
+        "se": 0.0035312731923960736,
+        "lower": -0.00771055633195272,
+        "upper": 0.010098244850059633,
+        "half_width": 0.008904400591006176,
+        "critical": 2.521583606213224,
+        "df": 191,
+        "family": 4
+      }
+    },
+    {
+      "reference": "recent100",
+      "cutoff": 1000,
+      "metric": "D",
+      "margin": 0.0,
+      "band": {
+        "n": 192,
+        "point": -0.004239918387149434,
+        "se": 0.0025172717128306064,
+        "lower": -0.010587429470607375,
+        "upper": 0.0021075926963085067,
+        "half_width": 0.00634751108345794,
+        "critical": 2.521583606213224,
+        "df": 191,
+        "family": 4
+      }
+    }
+  ],
+  "source_contraries": [
+    {
+      "draw": 0,
+      "cutoff": 200,
+      "reference": "growth",
+      "D": {
+        "n": 192,
+        "point": 0.0007214779851175907,
+        "se": 0.0031721996163181993,
+        "lower": -0.008049729352945918,
+        "upper": 0.009492685323181097,
+        "half_width": 0.008771207338063507,
+        "critical": 2.7650237686630117,
+        "df": 191,
+        "family": 8
+      },
+      "mc": {
+        "batch_means": [
+          0.0011532327915235025,
+          0.0008227137287146197,
+          -0.0006536301966557208,
+          0.0007605523832136794,
+          -0.00019067962503111594,
+          0.0013665544546085375,
+          0.0009128697713343794,
+          0.0013851387658486726
+        ],
+        "batch_particles": "128neural/main;64ordinary/source",
+        "unbiased_batch_mean": 0.0006945940091945694,
+        "mcse": 0.00026078726375514783,
+        "mc99_half_width": 0.0009126206736728773,
+        "criterion_max_half_width": 0.0017542414676127015,
+        "small_against_animal_precision": true,
+        "lower_after_mc": -0.008962350026618795,
+        "upper_after_mc": 0.010405305996853974
+      },
+      "relative_gain_point": 0.10519661479174258,
+      "descriptive_accuracy_gain": 0.007159972678004444
+    },
+    {
+      "draw": 0,
+      "cutoff": 200,
+      "reference": "recent100",
+      "D": {
+        "n": 192,
+        "point": -0.0013622702869975616,
+        "se": 0.003111423448990941,
+        "lower": -0.00996543007783296,
+        "upper": 0.007240889503837836,
+        "half_width": 0.008603159790835398,
+        "critical": 2.7650237686630117,
+        "df": 191,
+        "family": 8
+      },
+      "mc": {
+        "batch_means": [
+          -0.0009417962276177333,
+          -0.0016175893647367085,
+          -0.0009659492474915137,
+          -0.001935964987934589,
+          -0.0014067906529206286,
+          -0.0005472025577183695,
+          -0.0033808799781533537,
+          -0.0003914562822506865
+        ],
+        "batch_particles": "128neural/main;64ordinary/source",
+        "unbiased_batch_mean": -0.001398453662352948,
+        "mcse": 0.0003380957897978407,
+        "mc99_half_width": 0.0011831605693020666,
+        "criterion_max_half_width": 0.0017206319581670798,
+        "small_against_animal_precision": true,
+        "lower_after_mc": -0.011148590647135026,
+        "upper_after_mc": 0.008424050073139903
+      },
+      "relative_gain_point": 0.09002152376833839,
+      "descriptive_accuracy_gain": 0.006182604053183265
+    },
+    {
+      "draw": 0,
+      "cutoff": 1000,
+      "reference": "growth",
+      "D": {
+        "n": 192,
+        "point": 0.0029333889595010067,
+        "se": 0.003565089177874435,
+        "lower": -0.006924167354725081,
+        "upper": 0.012790945273727095,
+        "half_width": 0.009857556314226088,
+        "critical": 2.7650237686630117,
+        "df": 191,
+        "family": 8
+      },
+      "mc": {
+        "batch_means": [
+          0.0016063294327305965,
+          0.003346467806964019,
+          0.002167052647363037,
+          0.002785137573090003,
+          0.002846170696775827,
+          0.0032942555955728908,
+          0.002852837867647467,
+          0.004228806355587017
+        ],
+        "batch_particles": "128neural/main;64ordinary/source",
+        "unbiased_batch_mean": 0.002890882246966357,
+        "mcse": 0.00027867488855638463,
+        "mc99_half_width": 0.0009752181178940779,
+        "criterion_max_half_width": 0.001971511262845218,
+        "small_against_animal_precision": true,
+        "lower_after_mc": -0.00789938547261916,
+        "upper_after_mc": 0.013766163391621173
+      },
+      "relative_gain_point": 0.1267022027122956,
+      "descriptive_accuracy_gain": 0.00751238565028135
+    },
+    {
+      "draw": 0,
+      "cutoff": 1000,
+      "reference": "recent100",
+      "D": {
+        "n": 192,
+        "point": -0.0009194808595027297,
+        "se": 0.003136815320888651,
+        "lower": -0.009592849779666141,
+        "upper": 0.007753888060660682,
+        "half_width": 0.008673368920163411,
+        "critical": 2.7650237686630117,
+        "df": 191,
+        "family": 8
+      },
+      "mc": {
+        "batch_means": [
+          -0.0016963872000700393,
+          -0.001319379954094907,
+          -0.0006410321843453334,
+          0.00024763194072827094,
+          -0.0018683974185919917,
+          -0.00040046427392941936,
+          -0.0014637259149615984,
+          -0.0005464713870516543
+        ],
+        "batch_particles": "128neural/main;64ordinary/source",
+        "unbiased_batch_mean": -0.0009610282990395841,
+        "mcse": 0.000260306782686876,
+        "mc99_half_width": 0.0009109392381997669,
+        "criterion_max_half_width": 0.0017346737840326825,
+        "small_against_animal_precision": true,
+        "lower_after_mc": -0.010503789017865908,
+        "upper_after_mc": 0.008664827298860448
+      },
+      "relative_gain_point": 0.0912907104044609,
+      "descriptive_accuracy_gain": 0.002793182757123294
+    },
+    {
+      "draw": 14,
+      "cutoff": 200,
+      "reference": "growth",
+      "D": {
+        "n": 192,
+        "point": 0.005898779922433918,
+        "se": 0.003504331088924378,
+        "lower": -0.0037907788317067216,
+        "upper": 0.015588338676574557,
+        "half_width": 0.00968955875414064,
+        "critical": 2.7650237686630117,
+        "df": 191,
+        "family": 8
+      },
+      "mc": {
+        "batch_means": [
+          0.0068995233972118835,
+          0.005161425012538878,
+          0.00595404610835695,
+          0.0061996287949122085,
+          0.004052203958240487,
+          0.006340657474195339,
+          0.0052709390943110985,
+          0.007183903603876929
+        ],
+        "batch_particles": "128neural/main;64ordinary/source",
+        "unbiased_batch_mean": 0.005882790930455472,
+        "mcse": 0.0003607414121903813,
+        "mc99_half_width": 0.0012624085466228687,
+        "criterion_max_half_width": 0.001937911750828128,
+        "small_against_animal_precision": true,
+        "lower_after_mc": -0.0050531873783295905,
+        "upper_after_mc": 0.016850747223197425
+      },
+      "relative_gain_point": 0.14079696167084588,
+      "descriptive_accuracy_gain": 0.014816168144212313
+    },
+    {
+      "draw": 14,
+      "cutoff": 200,
+      "reference": "recent100",
+      "D": {
+        "n": 192,
+        "point": 0.004627439435462225,
+        "se": 0.0033639066169682498,
+        "lower": -0.004673842316017768,
+        "upper": 0.013928721186942217,
+        "half_width": 0.009301281751479993,
+        "critical": 2.7650237686630117,
+        "df": 191,
+        "family": 8
+      },
+      "mc": {
+        "batch_means": [
+          0.0036542523285557076,
+          0.004426899226409941,
+          0.0058101627097694964,
+          0.005001866760484124,
+          0.004129473615661254,
+          0.004822766290175049,
+          0.0027214802306906928,
+          0.005784291002918642
+        ],
+        "batch_particles": "128neural/main;64ordinary/source",
+        "unbiased_batch_mean": 0.004543899020583114,
+        "mcse": 0.0003714742890474037,
+        "mc99_half_width": 0.0012999680699165381,
+        "criterion_max_half_width": 0.0018602563502959986,
+        "small_against_animal_precision": true,
+        "lower_after_mc": -0.005973810385934306,
+        "upper_after_mc": 0.015228689256858755
+      },
+      "relative_gain_point": 0.13231991399862708,
+      "descriptive_accuracy_gain": 0.015195328782825387
+    },
+    {
+      "draw": 14,
+      "cutoff": 1000,
+      "reference": "growth",
+      "D": {
+        "n": 192,
+        "point": 0.007326024214095668,
+        "se": 0.0037805587415477688,
+        "lower": -0.0031273105651106374,
+        "upper": 0.017779358993301974,
+        "half_width": 0.010453334779206305,
+        "critical": 2.7650237686630117,
+        "df": 191,
+        "family": 8
+      },
+      "mc": {
+        "batch_means": [
+          0.006805951028335464,
+          0.00699528916313544,
+          0.007039185372552416,
+          0.007350844593816207,
+          0.006640698920872428,
+          0.008694412864136013,
+          0.007640508574191012,
+          0.007168046531117561
+        ],
+        "batch_particles": "128neural/main;64ordinary/source",
+        "unbiased_batch_mean": 0.007291867131019567,
+        "mcse": 0.0002283260642428821,
+        "mc99_half_width": 0.0007990232481677414,
+        "criterion_max_half_width": 0.0020906669558412613,
+        "small_against_animal_precision": true,
+        "lower_after_mc": -0.003926333813278379,
+        "upper_after_mc": 0.018578382241469717
+      },
+      "relative_gain_point": 0.16385091693529108,
+      "descriptive_accuracy_gain": 0.014733603039692575
+    },
+    {
+      "draw": 14,
+      "cutoff": 1000,
+      "reference": "recent100",
+      "D": {
+        "n": 192,
+        "point": 0.004088422704116694,
+        "se": 0.0030642148656737944,
+        "lower": -0.004384204231761884,
+        "upper": 0.012561049639995273,
+        "half_width": 0.008472626935878578,
+        "critical": 2.7650237686630117,
+        "df": 191,
+        "family": 8
+      },
+      "mc": {
+        "batch_means": [
+          0.0022787345549422616,
+          0.004439174149358801,
+          0.0044939747523768695,
+          0.004701596579429533,
+          0.0028552543856149547,
+          0.004800203620590185,
+          0.0036455724293928036,
+          0.004965678931939585
+        ],
+        "batch_particles": "128neural/main;64ordinary/source",
+        "unbiased_batch_mean": 0.004022523675455624,
+        "mcse": 0.0003509360445619874,
+        "mc99_half_width": 0.001228094826382923,
+        "criterion_max_half_width": 0.0016945253871757156,
+        "small_against_animal_precision": true,
+        "lower_after_mc": -0.005612299058144807,
+        "upper_after_mc": 0.013789144466378196
+      },
+      "relative_gain_point": 0.13678655007971263,
+      "descriptive_accuracy_gain": 0.011279299615065512
+    }
+  ],
+  "sensitivities": [
+    {
+      "reference": "growth",
+      "by_lab": [
+        {
+          "lab": "angelakilab",
+          "n": 85,
+          "D": -0.001866156944518109
+        },
+        {
+          "lab": "churchlandlab",
+          "n": 9,
+          "D": -0.0014512702904836338
+        },
+        {
+          "lab": "churchlandlab_ucla",
+          "n": 22,
+          "D": 0.010621678568050021
+        },
+        {
+          "lab": "cortexlab",
+          "n": 14,
+          "D": -0.014944836505459051
+        },
+        {
+          "lab": "danlab",
+          "n": 6,
+          "D": 0.03590611675658726
+        },
+        {
+          "lab": "hausserlab",
+          "n": 11,
+          "D": 0.012530519437058655
+        },
+        {
+          "lab": "hoferlab",
+          "n": 3,
+          "D": 0.014147045484233872
+        },
+        {
+          "lab": "mainenlab",
+          "n": 24,
+          "D": 0.0018633534758466794
+        },
+        {
+          "lab": "mrsicflogellab",
+          "n": 7,
+          "D": -0.008154225785429377
+        },
+        {
+          "lab": "steinmetzlab",
+          "n": 7,
+          "D": -0.0081625485689614
+        },
+        {
+          "lab": "wittenlab",
+          "n": 4,
+          "D": -0.03155085790662833
+        }
+      ],
+      "equal_label_band": {
+        "n": 11,
+        "point": 0.0008126197927542353,
+        "se": 0.005319725225923485,
+        "lower": -0.014455377581815528,
+        "upper": 0.016080617167324,
+        "half_width": 0.015267997374569764,
+        "critical": 2.8700725556589806,
+        "df": 10,
+        "family": 3
+      },
+      "animal_weighted_cluster_band": {
+        "point": 0.00027488347205845723,
+        "lower": -0.007092366699520199,
+        "upper": 0.007642133643637114,
+        "df": 10
+      },
+      "leave_one_label_out": [
+        {
+          "excluded": "angelakilab",
+          "n": 107,
+          "D": 0.001975709971208065
+        },
+        {
+          "excluded": "churchlandlab",
+          "n": 183,
+          "D": 0.0003597762800523303
+        },
+        {
+          "excluded": "churchlandlab_ucla",
+          "n": 170,
+          "D": -0.0010641135403639806
+        },
+        {
+          "excluded": "cortexlab",
+          "n": 178,
+          "D": 0.001471940099503655
+        },
+        {
+          "excluded": "danlab",
+          "n": 186,
+          "D": -0.0008745111500231174
+        },
+        {
+          "excluded": "hausserlab",
+          "n": 181,
+          "D": -0.0004699341832730468
+        },
+        {
+          "excluded": "hoferlab",
+          "n": 189,
+          "D": 5.46904242461483e-05
+        },
+        {
+          "excluded": "mainenlab",
+          "n": 168,
+          "D": 4.7959185802997194e-05
+        },
+        {
+          "excluded": "mrsicflogellab",
+          "n": 185,
+          "D": 0.0005938227412607003
+        },
+        {
+          "excluded": "steinmetzlab",
+          "n": 185,
+          "D": 0.0005941376573943444
+        },
+        {
+          "excluded": "wittenlab",
+          "n": 188,
+          "D": 0.0009520269056475381
+        }
+      ],
+      "by_project": [
+        {
+          "cohort": "ASD_project",
+          "band": {
+            "n": 76,
+            "point": -0.0021850337929375,
+            "se": 0.005929382942663251,
+            "lower": -0.01670526695503472,
+            "upper": 0.012335199369159723,
+            "half_width": 0.014520233162097223,
+            "critical": 2.4488607503524293,
+            "df": 75,
+            "family": 3
+          }
+        },
+        {
+          "cohort": "public_subject_aggregate",
+          "band": {
+            "n": 116,
+            "point": 0.0018865534042971878,
+            "se": 0.0034448159613751105,
+            "lower": -0.0064826413887631605,
+            "upper": 0.010255748197357535,
+            "half_width": 0.008369194793060348,
+            "critical": 2.4295041845194865,
+            "df": 115,
+            "family": 3
+          }
+        }
+      ]
+    },
+    {
+      "reference": "recent100",
+      "by_lab": [
+        {
+          "lab": "angelakilab",
+          "n": 85,
+          "D": -0.004338013627043442
+        },
+        {
+          "lab": "churchlandlab",
+          "n": 9,
+          "D": -0.0010920113866874236
+        },
+        {
+          "lab": "churchlandlab_ucla",
+          "n": 22,
+          "D": 0.010470461040641836
+        },
+        {
+          "lab": "cortexlab",
+          "n": 14,
+          "D": -0.018869246042969225
+        },
+        {
+          "lab": "danlab",
+          "n": 6,
+          "D": 0.04036726269127416
+        },
+        {
+          "lab": "hausserlab",
+          "n": 11,
+          "D": 0.004220793388520653
+        },
+        {
+          "lab": "hoferlab",
+          "n": 3,
+          "D": 0.0024885964113356743
+        },
+        {
+          "lab": "mainenlab",
+          "n": 24,
+          "D": 0.005085465395040195
+        },
+        {
+          "lab": "mrsicflogellab",
+          "n": 7,
+          "D": -0.011184489429826033
+        },
+        {
+          "lab": "steinmetzlab",
+          "n": 7,
+          "D": -0.008208332012761405
+        },
+        {
+          "lab": "wittenlab",
+          "n": 4,
+          "D": -0.041183646425000206
+        }
+      ],
+      "equal_label_band": {
+        "n": 11,
+        "point": -0.0020221054543159292,
+        "se": 0.006036751197361711,
+        "lower": -0.019348019391205267,
+        "upper": 0.01530380848257341,
+        "half_width": 0.01732591393688934,
+        "critical": 2.8700725556589806,
+        "df": 10,
+        "family": 3
+      },
+      "animal_weighted_cluster_band": {
+        "point": -0.0015349668549380054,
+        "lower": -0.010263236785526375,
+        "upper": 0.007193303075650363,
+        "df": 10
+      },
+      "leave_one_label_out": [
+        {
+          "excluded": "angelakilab",
+          "n": 107,
+          "D": 0.0006917525434635071
+        },
+        {
+          "excluded": "churchlandlab",
+          "n": 183,
+          "D": -0.0015567515500978714
+        },
+        {
+          "excluded": "churchlandlab_ucla",
+          "n": 170,
+          "D": -0.0030886104649542204
+        },
+        {
+          "excluded": "cortexlab",
+          "n": 178,
+          "D": -0.00017159658172206672
+        },
+        {
+          "excluded": "danlab",
+          "n": 186,
+          "D": -0.002886651679009366
+        },
+        {
+          "excluded": "hausserlab",
+          "n": 181,
+          "D": -0.0018847644387946104
+        },
+        {
+          "excluded": "hoferlab",
+          "n": 189,
+          "D": -0.0015988329385296523
+        },
+        {
+          "excluded": "mainenlab",
+          "n": 168,
+          "D": -0.002480742890649178
+        },
+        {
+          "excluded": "mrsicflogellab",
+          "n": 185,
+          "D": -0.0011698497845368376
+        },
+        {
+          "excluded": "steinmetzlab",
+          "n": 185,
+          "D": -0.0012824611462636075
+        },
+        {
+          "excluded": "wittenlab",
+          "n": 188,
+          "D": -0.0006913779279154063
+        }
+      ],
+      "by_project": [
+        {
+          "cohort": "ASD_project",
+          "band": {
+            "n": 76,
+            "point": -0.00503305963862783,
+            "se": 0.005623048555068078,
+            "lower": -0.018803122542459985,
+            "upper": 0.008737003265204327,
+            "half_width": 0.013770062903832156,
+            "critical": 2.4488607503524293,
+            "df": 75,
+            "family": 3
+          }
+        },
+        {
+          "cohort": "public_subject_aggregate",
+          "band": {
+            "n": 116,
+            "point": 0.0007568870378242923,
+            "se": 0.0034437437389919384,
+            "lower": -0.007609702786469404,
+            "upper": 0.009123476862117988,
+            "half_width": 0.008366589824293696,
+            "critical": 2.4295041845194865,
+            "df": 115,
+            "family": 3
+          }
+        }
+      ]
+    },
+    {
+      "reference": "recent250",
+      "by_lab": [
+        {
+          "lab": "angelakilab",
+          "n": 85,
+          "D": -0.0027089605865306854
+        },
+        {
+          "lab": "churchlandlab",
+          "n": 9,
+          "D": -0.00550586436371566
+        },
+        {
+          "lab": "churchlandlab_ucla",
+          "n": 22,
+          "D": 0.010240758797733647
+        },
+        {
+          "lab": "cortexlab",
+          "n": 14,
+          "D": -0.01811493790471691
+        },
+        {
+          "lab": "danlab",
+          "n": 6,
+          "D": 0.03432379482641821
+        },
+        {
+          "lab": "hausserlab",
+          "n": 11,
+          "D": 0.007678510963664505
+        },
+        {
+          "lab": "hoferlab",
+          "n": 3,
+          "D": 0.007849412625777366
+        },
+        {
+          "lab": "mainenlab",
+          "n": 24,
+          "D": 0.0012917609389993838
+        },
+        {
+          "lab": "mrsicflogellab",
+          "n": 7,
+          "D": -0.010259853180562562
+        },
+        {
+          "lab": "steinmetzlab",
+          "n": 7,
+          "D": -0.00505247749250438
+        },
+        {
+          "lab": "wittenlab",
+          "n": 4,
+          "D": -0.032924448156006696
+        }
+      ],
+      "equal_label_band": {
+        "n": 11,
+        "point": -0.0011983912301312535,
+        "se": 0.0051962008133793385,
+        "lower": -0.016111864578304165,
+        "upper": 0.01371508211804166,
+        "half_width": 0.014913473348172912,
+        "critical": 2.8700725556589806,
+        "df": 10,
+        "family": 3
+      },
+      "animal_weighted_cluster_band": {
+        "point": -0.0010523650187906502,
+        "lower": -0.008398746812991516,
+        "upper": 0.0062940167754102164,
+        "df": 10
+      },
+      "leave_one_label_out": [
+        {
+          "excluded": "angelakilab",
+          "n": 107,
+          "D": 0.0002636221144607792
+        },
+        {
+          "excluded": "churchlandlab",
+          "n": 183,
+          "D": -0.0008333404608435187
+        },
+        {
+          "excluded": "churchlandlab_ucla",
+          "n": 170,
+          "D": -0.002513828100929089
+        },
+        {
+          "excluded": "cortexlab",
+          "n": 178,
+          "D": 0.0002896350958327634
+        },
+        {
+          "excluded": "danlab",
+          "n": 186,
+          "D": -0.0021935314654102905
+        },
+        {
+          "excluded": "hausserlab",
+          "n": 181,
+          "D": -0.0015829707414812962
+        },
+        {
+          "excluded": "hoferlab",
+          "n": 189,
+          "D": -0.0011936630766409362
+        },
+        {
+          "excluded": "mainenlab",
+          "n": 168,
+          "D": -0.0013872401556177982
+        },
+        {
+          "excluded": "mrsicflogellab",
+          "n": 185,
+          "D": -0.0007039735748317136
+        },
+        {
+          "excluded": "steinmetzlab",
+          "n": 185,
+          "D": -0.0009010094116771576
+        },
+        {
+          "excluded": "wittenlab",
+          "n": 188,
+          "D": -0.00037423559033924493
+        }
+      ],
+      "by_project": [
+        {
+          "cohort": "ASD_project",
+          "band": {
+            "n": 76,
+            "point": -0.003202341930433449,
+            "se": 0.005774862327926551,
+            "lower": -0.01734417562398164,
+            "upper": 0.01093949176311474,
+            "half_width": 0.01414183369354819,
+            "critical": 2.4488607503524293,
+            "df": 75,
+            "family": 3
+          }
+        },
+        {
+          "cohort": "public_subject_aggregate",
+          "band": {
+            "n": 116,
+            "point": 0.0003562405440098043,
+            "se": 0.0034242576354983896,
+            "lower": -0.007963007710306336,
+            "upper": 0.008675488798325946,
+            "half_width": 0.00831924825431614,
+            "critical": 2.4295041845194865,
+            "df": 115,
+            "family": 3
+          }
+        }
+      ]
+    }
+  ],
+  "absolute_calibration": [
+    {
+      "cutoff": 200,
+      "actor": "growth",
+      "mean_metrics": {
+        "side_mae": 0.18745881762824182,
+        "proper_V": 0.13833993279655912,
+        "proper_U": 0.13823572019329414,
+        "omission_CRPS": 0.005735005967319014,
+        "count_CRPS": 0.03911613202343384,
+        "literal_success_CRPS": 0.09628070964912573,
+        "side_median_mae": 0.19739204609719307
+      },
+      "mean_zero_N_mass": 0.0,
+      "observed_zero_N_signs": 0,
+      "mean_ratio_bias": -0.039951291011235276,
+      "readouts": {
+        "N": {
+          "n": 384,
+          "coverage80": 0.7317708333333334,
+          "coverage95": 0.8723958333333334,
+          "mean_prediction": 482.77357991536456,
+          "mean_observed": 465.8619791666667,
+          "mean_mid_PIT": 0.458099365234375
+        },
+        "K": {
+          "n": 384,
+          "coverage80": 0.7682291666666666,
+          "coverage95": 0.9166666666666666,
+          "mean_prediction": 239.0550740559896,
+          "mean_observed": 253.83072916666666,
+          "mean_mid_PIT": 0.5639495849609375
+        },
+        "ratio": {
+          "n": 384,
+          "coverage80": 0.6588541666666666,
+          "coverage95": 0.8307291666666666,
+          "mean_prediction": 0.562557138586958,
+          "mean_observed": 0.6025084295981933,
+          "mean_mid_PIT": 0.5557111104329427
+        },
+        "omissions": {
+          "n": 384,
+          "coverage80": 0.7135416666666666,
+          "coverage95": 0.9166666666666666,
+          "mean_prediction": 12.375259399414062,
+          "mean_observed": 13.46875,
+          "mean_mid_PIT": 0.4173583984375
+        },
+        "literal_success": {
+          "n": 384,
+          "coverage80": 0.7135416666666666,
+          "coverage95": 0.9114583333333334,
+          "mean_prediction": 1008.4340209960938,
+          "mean_observed": 1107.4427083333333,
+          "mean_mid_PIT": 0.5904973347981771
+        }
+      }
+    },
+    {
+      "cutoff": 200,
+      "actor": "recent100",
+      "mean_metrics": {
+        "side_mae": 0.18735048297312462,
+        "proper_V": 0.13632898798878526,
+        "proper_U": 0.13622148499971617,
+        "omission_CRPS": 0.005735005967319014,
+        "count_CRPS": 0.038823809066166476,
+        "literal_success_CRPS": 0.09706088148305814,
+        "side_median_mae": 0.19786086837959074
+      },
+      "mean_zero_N_mass": 0.0,
+      "observed_zero_N_signs": 0,
+      "mean_ratio_bias": -0.04148643081463397,
+      "readouts": {
+        "N": {
+          "n": 384,
+          "coverage80": 0.7213541666666666,
+          "coverage95": 0.890625,
+          "mean_prediction": 483.8103968302409,
+          "mean_observed": 465.8619791666667,
+          "mean_mid_PIT": 0.4586346944173177
+        },
+        "K": {
+          "n": 384,
+          "coverage80": 0.7786458333333334,
+          "coverage95": 0.9427083333333334,
+          "mean_prediction": 238.70533752441406,
+          "mean_observed": 253.83072916666666,
+          "mean_mid_PIT": 0.562493642171224
+        },
+        "ratio": {
+          "n": 384,
+          "coverage80": 0.6822916666666666,
+          "coverage95": 0.8489583333333334,
+          "mean_prediction": 0.5610219987835593,
+          "mean_observed": 0.6025084295981933,
+          "mean_mid_PIT": 0.5534400939941406
+        },
+        "omissions": {
+          "n": 384,
+          "coverage80": 0.7135416666666666,
+          "coverage95": 0.9166666666666666,
+          "mean_prediction": 12.375259399414062,
+          "mean_observed": 13.46875,
+          "mean_mid_PIT": 0.4173583984375
+        },
+        "literal_success": {
+          "n": 384,
+          "coverage80": 0.71875,
+          "coverage95": 0.9166666666666666,
+          "mean_prediction": 1003.4909210205078,
+          "mean_observed": 1107.4427083333333,
+          "mean_mid_PIT": 0.5907999674479166
+        }
+      }
+    },
+    {
+      "cutoff": 200,
+      "actor": "recent250",
+      "mean_metrics": {
+        "side_mae": 0.18637943539953827,
+        "proper_V": 0.1368652122511712,
+        "proper_U": 0.13675950033584194,
+        "omission_CRPS": 0.005735005967319014,
+        "count_CRPS": 0.038894586831331256,
+        "literal_success_CRPS": 0.09582853179921706,
+        "side_median_mae": 0.197109739513497
+      },
+      "mean_zero_N_mass": 0.0,
+      "observed_zero_N_signs": 0,
+      "mean_ratio_bias": -0.040187268940895395,
+      "readouts": {
+        "N": {
+          "n": 384,
+          "coverage80": 0.7421875,
+          "coverage95": 0.8697916666666666,
+          "mean_prediction": 482.8046468098958,
+          "mean_observed": 465.8619791666667,
+          "mean_mid_PIT": 0.4594535827636719
+        },
+        "K": {
+          "n": 384,
+          "coverage80": 0.7734375,
+          "coverage95": 0.9192708333333334,
+          "mean_prediction": 239.13172403971353,
+          "mean_observed": 253.83072916666666,
+          "mean_mid_PIT": 0.5625572204589844
+        },
+        "ratio": {
+          "n": 384,
+          "coverage80": 0.6692708333333334,
+          "coverage95": 0.8515625,
+          "mean_prediction": 0.562321160657298,
+          "mean_observed": 0.6025084295981933,
+          "mean_mid_PIT": 0.5534032185872396
+        },
+        "omissions": {
+          "n": 384,
+          "coverage80": 0.7135416666666666,
+          "coverage95": 0.9166666666666666,
+          "mean_prediction": 12.375259399414062,
+          "mean_observed": 13.46875,
+          "mean_mid_PIT": 0.4173583984375
+        },
+        "literal_success": {
+          "n": 384,
+          "coverage80": 0.71875,
+          "coverage95": 0.9322916666666666,
+          "mean_prediction": 1008.4658762613932,
+          "mean_observed": 1107.4427083333333,
+          "mean_mid_PIT": 0.5890274047851562
+        }
+      }
+    },
+    {
+      "cutoff": 200,
+      "actor": "gru",
+      "mean_metrics": {
+        "side_mae": 0.18016070584570165,
+        "proper_V": 0.12423105604484475,
+        "proper_U": 0.12410720378272366,
+        "omission_CRPS": 0.005735005967319014,
+        "count_CRPS": 0.03475660133485992,
+        "literal_success_CRPS": 0.08656041523814202,
+        "side_median_mae": 0.1820443378585531
+      },
+      "mean_zero_N_mass": 0.0,
+      "observed_zero_N_signs": 0,
+      "mean_ratio_bias": 0.006519673552587414,
+      "readouts": {
+        "N": {
+          "n": 384,
+          "coverage80": 0.8619791666666666,
+          "coverage95": 0.96875,
+          "mean_prediction": 468.89656321207684,
+          "mean_observed": 465.8619791666667,
+          "mean_mid_PIT": 0.49625905354817706
+        },
+        "K": {
+          "n": 384,
+          "coverage80": 0.8333333333333334,
+          "coverage95": 0.9583333333333334,
+          "mean_prediction": 252.5050532023112,
+          "mean_observed": 253.83072916666666,
+          "mean_mid_PIT": 0.4959462483723958
+        },
+        "ratio": {
+          "n": 384,
+          "coverage80": 0.7942708333333334,
+          "coverage95": 0.9557291666666666,
+          "mean_prediction": 0.6090281031507807,
+          "mean_observed": 0.6025084295981933,
+          "mean_mid_PIT": 0.48644256591796875
+        },
+        "omissions": {
+          "n": 384,
+          "coverage80": 0.7135416666666666,
+          "coverage95": 0.9166666666666666,
+          "mean_prediction": 12.375259399414062,
+          "mean_observed": 13.46875,
+          "mean_mid_PIT": 0.4173583984375
+        },
+        "literal_success": {
+          "n": 384,
+          "coverage80": 0.8385416666666666,
+          "coverage95": 0.96875,
+          "mean_prediction": 1102.9325764973958,
+          "mean_observed": 1107.4427083333333,
+          "mean_mid_PIT": 0.4915568033854167
+        }
+      }
+    },
+    {
+      "cutoff": 1000,
+      "actor": "growth",
+      "mean_metrics": {
+        "side_mae": 0.1477417677063759,
+        "proper_V": 0.10692434374488169,
+        "proper_U": 0.10684436643722948,
+        "omission_CRPS": 0.005010336334506671,
+        "count_CRPS": 0.03266289740552505,
+        "literal_success_CRPS": 0.07393663078298171,
+        "side_median_mae": 0.14808268012353065
+      },
+      "mean_zero_N_mass": 0.0,
+      "observed_zero_N_signs": 0,
+      "mean_ratio_bias": -0.053582887099516814,
+      "readouts": {
+        "N": {
+          "n": 384,
+          "coverage80": 0.71875,
+          "coverage95": 0.8697916666666666,
+          "mean_prediction": 488.2591247558594,
+          "mean_observed": 465.8619791666667,
+          "mean_mid_PIT": 0.43634287516276044
+        },
+        "K": {
+          "n": 384,
+          "coverage80": 0.6927083333333334,
+          "coverage95": 0.875,
+          "mean_prediction": 236.2283172607422,
+          "mean_observed": 253.83072916666666,
+          "mean_mid_PIT": 0.58636474609375
+        },
+        "ratio": {
+          "n": 384,
+          "coverage80": 0.6692708333333334,
+          "coverage95": 0.8541666666666666,
+          "mean_prediction": 0.5489255424986764,
+          "mean_observed": 0.6025084295981933,
+          "mean_mid_PIT": 0.5973790486653646
+        },
+        "omissions": {
+          "n": 384,
+          "coverage80": 0.7864583333333334,
+          "coverage95": 0.890625,
+          "mean_prediction": 13.3350830078125,
+          "mean_observed": 13.46875,
+          "mean_mid_PIT": 0.40157318115234375
+        },
+        "literal_success": {
+          "n": 384,
+          "coverage80": 0.6458333333333334,
+          "coverage95": 0.7864583333333334,
+          "mean_prediction": 979.2188975016276,
+          "mean_observed": 1107.4427083333333,
+          "mean_mid_PIT": 0.6610666910807291
+        }
+      }
+    },
+    {
+      "cutoff": 1000,
+      "actor": "recent100",
+      "mean_metrics": {
+        "side_mae": 0.1419036609954535,
+        "proper_V": 0.10188535060174737,
+        "proper_U": 0.10180187120095134,
+        "omission_CRPS": 0.005010336334506671,
+        "count_CRPS": 0.03173387273276845,
+        "literal_success_CRPS": 0.07207255149632692,
+        "side_median_mae": 0.13986137441345203
+      },
+      "mean_zero_N_mass": 0.0,
+      "observed_zero_N_signs": 0,
+      "mean_ratio_bias": -0.04938273941470903,
+      "readouts": {
+        "N": {
+          "n": 384,
+          "coverage80": 0.7291666666666666,
+          "coverage95": 0.8880208333333334,
+          "mean_prediction": 486.73316701253253,
+          "mean_observed": 465.8619791666667,
+          "mean_mid_PIT": 0.43730799357096356
+        },
+        "K": {
+          "n": 384,
+          "coverage80": 0.6979166666666666,
+          "coverage95": 0.8802083333333334,
+          "mean_prediction": 237.20564778645834,
+          "mean_observed": 253.83072916666666,
+          "mean_mid_PIT": 0.5778961181640625
+        },
+        "ratio": {
+          "n": 384,
+          "coverage80": 0.7083333333333334,
+          "coverage95": 0.8697916666666666,
+          "mean_prediction": 0.5531256901834843,
+          "mean_observed": 0.6025084295981933,
+          "mean_mid_PIT": 0.5891202290852865
+        },
+        "omissions": {
+          "n": 384,
+          "coverage80": 0.7864583333333334,
+          "coverage95": 0.890625,
+          "mean_prediction": 13.3350830078125,
+          "mean_observed": 13.46875,
+          "mean_mid_PIT": 0.40157318115234375
+        },
+        "literal_success": {
+          "n": 384,
+          "coverage80": 0.6979166666666666,
+          "coverage95": 0.84375,
+          "mean_prediction": 987.9411163330078,
+          "mean_observed": 1107.4427083333333,
+          "mean_mid_PIT": 0.6484654744466146
+        }
+      }
+    },
+    {
+      "cutoff": 1000,
+      "actor": "recent250",
+      "mean_metrics": {
+        "side_mae": 0.14661238716693198,
+        "proper_V": 0.10637489467253608,
+        "proper_U": 0.10629651377145388,
+        "omission_CRPS": 0.005010336334506671,
+        "count_CRPS": 0.03227689675614238,
+        "literal_success_CRPS": 0.07419989057630301,
+        "side_median_mae": 0.14700943422606474
+      },
+      "mean_zero_N_mass": 0.0,
+      "observed_zero_N_signs": 0,
+      "mean_ratio_bias": -0.05615348932673251,
+      "readouts": {
+        "N": {
+          "n": 384,
+          "coverage80": 0.7057291666666666,
+          "coverage95": 0.8515625,
+          "mean_prediction": 487.8162104288737,
+          "mean_observed": 465.8619791666667,
+          "mean_mid_PIT": 0.43595250447591144
+        },
+        "K": {
+          "n": 384,
+          "coverage80": 0.6848958333333334,
+          "coverage95": 0.8802083333333334,
+          "mean_prediction": 236.49083201090494,
+          "mean_observed": 253.83072916666666,
+          "mean_mid_PIT": 0.5833028157552084
+        },
+        "ratio": {
+          "n": 384,
+          "coverage80": 0.671875,
+          "coverage95": 0.8411458333333334,
+          "mean_prediction": 0.5463549402714608,
+          "mean_observed": 0.6025084295981933,
+          "mean_mid_PIT": 0.6026204427083334
+        },
+        "omissions": {
+          "n": 384,
+          "coverage80": 0.7864583333333334,
+          "coverage95": 0.890625,
+          "mean_prediction": 13.3350830078125,
+          "mean_observed": 13.46875,
+          "mean_mid_PIT": 0.40157318115234375
+        },
+        "literal_success": {
+          "n": 384,
+          "coverage80": 0.6822916666666666,
+          "coverage95": 0.828125,
+          "mean_prediction": 982.0138804117838,
+          "mean_observed": 1107.4427083333333,
+          "mean_mid_PIT": 0.6542917887369791
+        }
+      }
+    },
+    {
+      "cutoff": 1000,
+      "actor": "gru",
+      "mean_metrics": {
+        "side_mae": 0.14070981673640007,
+        "proper_V": 0.09593673392872208,
+        "proper_U": 0.09584254854538667,
+        "omission_CRPS": 0.005010336334506671,
+        "count_CRPS": 0.028648081025729577,
+        "literal_success_CRPS": 0.06637069087972243,
+        "side_median_mae": 0.13747281143730913
+      },
+      "mean_zero_N_mass": 0.0,
+      "observed_zero_N_signs": 0,
+      "mean_ratio_bias": -0.021133448904420815,
+      "readouts": {
+        "N": {
+          "n": 384,
+          "coverage80": 0.8151041666666666,
+          "coverage95": 0.9635416666666666,
+          "mean_prediction": 478.80086517333984,
+          "mean_observed": 465.8619791666667,
+          "mean_mid_PIT": 0.46884918212890625
+        },
+        "K": {
+          "n": 384,
+          "coverage80": 0.7838541666666666,
+          "coverage95": 0.9375,
+          "mean_prediction": 248.08295694986978,
+          "mean_observed": 253.83072916666666,
+          "mean_mid_PIT": 0.5227813720703125
+        },
+        "ratio": {
+          "n": 384,
+          "coverage80": 0.7760416666666666,
+          "coverage95": 0.9401041666666666,
+          "mean_prediction": 0.5813749806937725,
+          "mean_observed": 0.6025084295981933,
+          "mean_mid_PIT": 0.5342356363932291
+        },
+        "omissions": {
+          "n": 384,
+          "coverage80": 0.7864583333333334,
+          "coverage95": 0.890625,
+          "mean_prediction": 13.3350830078125,
+          "mean_observed": 13.46875,
+          "mean_mid_PIT": 0.40157318115234375
+        },
+        "literal_success": {
+          "n": 384,
+          "coverage80": 0.7916666666666666,
+          "coverage95": 0.9322916666666666,
+          "mean_prediction": 1055.1871999104817,
+          "mean_observed": 1107.4427083333333,
+          "mean_mid_PIT": 0.5350418090820312
+        }
+      }
+    }
+  ],
+  "primary_positive": false,
+  "primary_selected_negative": false,
+  "nominal_inference": "Working paired independent-animal Student intervals in fixed deposited mixture, no biological/site/source-family universal guarantee.",
+  "source_qualification": "two finite ordinary donor/anchor sensitivities against unchanged primary neural law; old32/source-tail/retraining uncertainty retained",
+  "actual_cohort_composition": {
+    "labs": {
+      "angelakilab": 85,
+      "churchlandlab": 9,
+      "churchlandlab_ucla": 22,
+      "cortexlab": 14,
+      "danlab": 6,
+      "hausserlab": 11,
+      "hoferlab": 3,
+      "mainenlab": 24,
+      "mrsicflogellab": 7,
+      "steinmetzlab": 7,
+      "wittenlab": 4
+    },
+    "cohorts": {
+      "ASD_project": 76,
+      "public_subject_aggregate": 116
+    }
+  },
+  "undefined_MAE_cells": 0
+}

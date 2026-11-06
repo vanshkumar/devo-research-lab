@@ -1,0 +1,11 @@
+Terminal report — critical-period-corruption-transport-2026-11-02: CLOSE current allocation before training; recovery transport remains UNTESTED. Decision01:09:57Z preceded source gate01:20:31Z; original native01:05:31Z/orientation retained, no revision/extension.
+
+Saved /Users/vanshkumar/Documents/repos/devo-research-lab/lab/tasks/critical-period-corruption-transport-2026-11-02/RESULT.md plus PRIOR_GATE.md, SOURCES.md, raw SOURCE_BROWSE_RECEIPTS.json, STATE.md, README.md, RESOURCES.json, MILESTONES.json, explicit UNRUN.md, PROPOSED_LEARNING.md and verified artifact pins.
+
+Primary descriptions confirm original bilinear32→8→32 versus follow-up extrapolated CIFAR-Cpixelate9. Exact severity9 mapping, faithful deployed original/follow-up implementation and checkpoints were not verified. The secondary index’s apparent original Code link actually opens uw-mad-dash/Accordion, whose README identifies another experiment; no substitute code/data acquired. Finite search does NOT prove releases absent. Existing recovery/severity results mean mismatch alone supplies no material contribution.
+
+Original-model/task calculation, independent reference, baseline reproduction, measured training throughput/cost, main effect/uncertainty and review are all UNRUN. The only inventory script exited0, confirming no discoverable torch/torchvision in this project environment; this is NOT learning output or a proof of unaffordability. No guessed transform, toy or numerical replacement.
+
+13/20 publicops; TWO deliberately screened studies plus explicit incidental mislinked third-project README exposure. ZERO model/data/weights/dependency acquisition or protected-oldraw reads. Separate65MB provider-ingress allowance UNCERTIFIED/100MB read charge against1.5GB; inventory11,993,088RSS/closeout12,369,920RSS; physicalIO/provider-runtime/failed peaks unknown, rejections preserved. JSON/link/hash integrity checks pass, without scientific validation.
+
+Recommend bank the provenance stop, CLOSE automatic repair/training from this allocation, and reallocate unless independently justified exact affordable artifacts earn a material test. Native goal remains incomplete; SAME operator heartbeat outside scope. All work saved, jobs0; I finish now.

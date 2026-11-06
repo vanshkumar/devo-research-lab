@@ -1,0 +1,15 @@
+# HABITS feasibility revision
+
+**Completed; feasibility gate failed.** Investigator `/root/habits_feasibility`, actual Sol/max. Started 2026-10-29 at 16:40:33 UTC; substantive work stopped within the single 45-minute block. Final artifact closure was completed on 2026-10-29 at 17:01:40 UTC. The PI reserved today's third start/cycle under the direct human continuation instruction and `PI_AMENDMENT_2026-10-29.md`. Original BRIEF and amendment bytes remain unchanged. No running jobs or continuation.
+
+The persistent cross-curriculum prediction question remains unresolved. Recommend retiring this public-data route as the next investment: all six predeclared early teacher variants failed. Independently documented deployed firmware/configuration or companion logs could justify a separate PI reassessment; no repair, fit, larger prefix or successor is authorized by this result.
+
+Synthetic reader, transport/schema and source-teacher checks passed before the dated access freeze. Conditional BW362 access retained all 4,958 habituation rows and stopped exactly after 200 complete post-habituation rows, at trial 5,158. Received archive bytes 590,072; member compressed bytes buffered 589,824, consumed 581,779; decoded bytes 3,283,772; maximum row 1,912 bytes. No 201st post-habituation row, other mouse, fit or target future was decoded/scored. Unused compressed buffer bytes remain encoded. No whole-member CRC verification is claimed.
+
+Schema and consecutive chronology pass. Both habituation transitions match the source's 1,001/2,001 valid-response thresholds. Teacher replay fails even in a parameter-free invariant: 35 of 41 phase-2 omission/abort predecessors at gaps under 30 minutes are followed by changed pairs, whereas the pinned source repeats. The first example is trial 4,962 at (2,3), abort, then 4,963 at (3,4), six seconds later. No post-hoc deployment variant or exception was added.
+
+The unsigned historical S3 URL first returned 403 with zero archive bytes. A single reconciled, dated public-Figshare-URL retry succeeded with unchanged ETag, member, range checks, caps and frozen decoder/teacher. Both attempts survive.
+
+Outputs: RESULT.md, EXPOSURE.json, ACCESS_FREEZE.json, TRANSPORT_AMENDMENT.json, CHECK_HISTORY.md, DEPLOYMENT_ENVELOPE.md, SCIENTIFIC_DESIGN.md, PROPOSED_LEARNING.md; all code, checks, acquired ranges and consumed prefix are in the assigned source directory. The root PI owns integration and registry updates. No app message, approval request, other directory edit or automatic next stage is needed.
+
+Budget: two primary code lookups, with the full 2 MB metadata/code allowance conservatively reserved because managed-web transport is unmetered; no dependency install, paid resource, credits/reset, agent, new chat or further source search. Account remaining was 46% initially and 45% at the access checkpoint; final telemetry is recorded separately. Shared scientific state was not edited. Pan20 and all historical protected observations remain sealed; BW362's inspected prefix is consumed feasibility/initialization evidence.

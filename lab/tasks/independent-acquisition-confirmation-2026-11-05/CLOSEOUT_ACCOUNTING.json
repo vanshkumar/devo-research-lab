@@ -1,0 +1,83 @@
+{
+  "utc": "2026-11-05T20:34:03.831033+00:00",
+  "assignment": "Author closeout only, same native goal 1793903267",
+  "release": "lab/tasks/research-run-2026-11-05/CONFIRMATION_CLOSEOUT_RELEASE.md",
+  "all_author_jobs_terminal": true,
+  "all_distinct_review_jobs_terminal": true,
+  "new_closeout_science_jobs": 0,
+  "new_closeout_science_cpu_seconds": 0,
+  "new_closeout_experimental_rows_decoded": 0,
+  "new_closeout_public_ingress_bytes": 0,
+  "measured_successful_bookkeeping_cpu_seconds": 0.003262999999999995,
+  "recorded_bookkeeping_read_bytes": 798466,
+  "recorded_bookkeeping_paths_bytes": {
+    "lab/tasks/independent-acquisition-confirmation-2026-11-05/MAIN_RESOURCE_CHECKPOINT.json": 2247,
+    "lab/tasks/independent-acquisition-confirmation-2026-11-05/GOAL_START.json": 3261,
+    "lab/tasks/independent-acquisition-confirmation-2026-11-05/PREFLIGHT_CONTROLS.json": 7221,
+    "lab/tasks/independent-acquisition-confirmation-2026-11-05/PRE_OUTCOME_SEAL.json": 7963,
+    "lab/tasks/independent-acquisition-confirmation-2026-11-05/MEASUREMENT_PRE_FORECAST_SEAL.json": 3083,
+    "lab/tasks/independent-acquisition-confirmation-2026-11-05/MAIN_LAUNCH.json": 237,
+    "lab/tasks/independent-acquisition-confirmation-2026-11-05/MAIN_CHECKPOINT_NATIVE.json": 4000,
+    "lab/tasks/independent-acquisition-confirmation-2026-11-05/FORECAST_COMPLETION.json": 444,
+    "lab/reviews/independent-confirmation-result-2026-11-05/GOAL_FINAL.json": 4166,
+    "lab/reviews/independent-confirmation-result-2026-11-05/RESOURCES.json": 7069,
+    "lab/reviews/independent-confirmation-result-2026-11-05/REVIEW_CALCULATION.json": 46407,
+    "lab/reviews/independent-confirmation-result-2026-11-05/CHRONOLOGY_REVIEW.json": 682793,
+    "lab/tasks/independent-acquisition-confirmation-2026-11-05/RESULT.md": 11310,
+    "lab/tasks/independent-acquisition-confirmation-2026-11-05/RESULT_FIRST_MAIN.md": 8809,
+    "lab/tasks/independent-acquisition-confirmation-2026-11-05/REPRODUCE.md": 6584,
+    "lab/tasks/research-run-2026-11-05/CONFIRMATION_CLOSEOUT_RELEASE.md": 2872
+  },
+  "nominal_failed_accounting_attempt_read_bytes": 798466,
+  "shape_probe_read_bytes": 682793,
+  "estimated_context_booking": {
+    "cpu_seconds": 2,
+    "read_decode_bytes": 20000000,
+    "basis": "Separate estimate for tool context, other summary inspection, unmeasured failed/probe CPU and final bookkeeping."
+  },
+  "booked_closeout_read_bytes": 22279725,
+  "booked_closeout_cpu_seconds_including_admin": 2.003263,
+  "cumulative_author_booked_cpu_seconds_including_closeout": 3300.035715,
+  "cumulative_author_booked_read_decode_bytes_including_closeout": 2256073811,
+  "author_cumulative_HTTP_body_bytes": 458538440,
+  "distinct_review_booked_CPU_seconds_separate": 14.64604,
+  "distinct_review_booked_read_decode_bytes_separate": 1926293806,
+  "initial_author_plus_review_and_closeout_booked_read_decode_bytes": 4182367617,
+  "initial_author_plus_review_and_closeout_booked_CPU_seconds": 3314.681755,
+  "source_qualification_funding_review_and_older_lineage": "Prior separate charges retained in MAIN_RESOURCE_CHECKPOINT and independent review RESOURCES. No refund.",
+  "physical_provider_import_and_shared_model_attribution": "unknown",
+  "resource_ceiling": {
+    "closeout_minutes": 60,
+    "closeout_cpu_seconds": 600,
+    "closeout_read_decode_bytes": 1000000000,
+    "closeout_ingress_bytes": 0,
+    "original_dispatch_deadline_UTC": "2026-11-06T00:27:22Z"
+  },
+  "preserved_failures": {
+    "author": "Original bounded acquisition and compatibility failures, repeated diagnosis, terminal literal log format, first figure and failed closeout accounting probe.",
+    "review": {
+      "job": "Initial chronology attempt",
+      "receipt": "CHRONOLOGY_RESOURCE.json",
+      "log": "CHRONOLOGY.log",
+      "pid": 89823,
+      "status": "failed_and_terminal",
+      "cpu_seconds": 0.330434,
+      "read_decode_bytes": 74942888,
+      "public_ingress_bytes": 0,
+      "details": "One previously acquired NYU-02 aggregate (59,068 rows, same eight fields and session IDs) was projected before a reviewer metadata-key lookup failed. Its body/projection/hash and forecast-input cache charges remain counted. The outer shell also rejected a read-only status variable after the Python failure. The empty per-object ledger is retained in CHRONOLOGY_INITIAL_DECODE.jsonl."
+    }
+  },
+  "measurement_scope": "Exact 192 deposited animals and permitted 802 whole objects. Eight numeric fields plus allowed identity/order were decoded during released work, including auxiliary history. Original field, cohort and protected-target restrictions survive.",
+  "completion_audit": {
+    "pre_outcome_controls": true,
+    "original_and_amended_seal_order": true,
+    "frozen_count_artifacts": true,
+    "independent_chronology_and_score_reconstruction": true,
+    "primary_decision": "inconclusive",
+    "independent_matching_diagnostic_and_qualification": true,
+    "summary_figure_and_reproduction": true,
+    "active_main_checkpoint_preserved": true,
+    "revision_disposition": "No frozen trigger. PI released closeout only.",
+    "final_author_review_response": true
+  }
+}

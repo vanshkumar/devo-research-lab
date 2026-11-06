@@ -1,0 +1,240 @@
+{
+  "timing": "post-source-validation diagnostic; no real data used",
+  "seed": "NEW independent stopping_challenge8739 generator, forecast48739+animalindex",
+  "law": "same known transferable REINFORCE; histories truly generated closed-loop before censoring",
+  "terminal_policy": "begin afterfour500trialsessions; stopafter2consecutive>=75%highcorrect or3consecutive<45%,otherwise6000",
+  "interpretation": "Operational forecast conditions on opportunities without conditioning latent state on termination event. This bounded stopping selection does not validate real RT/fatigue/session-duration stopping.",
+  "dispositions": [
+    {
+      "subject": "stopping_challenge_000",
+      "stop": 3500,
+      "reason": "two consecutive high-accuracy sessions >=75%",
+      "primary_full": false
+    },
+    {
+      "subject": "stopping_challenge_001",
+      "stop": 2500,
+      "reason": "two consecutive high-accuracy sessions >=75%",
+      "primary_full": false
+    },
+    {
+      "subject": "stopping_challenge_002",
+      "stop": 3000,
+      "reason": "two consecutive high-accuracy sessions >=75%",
+      "primary_full": false
+    },
+    {
+      "subject": "stopping_challenge_003",
+      "stop": 3500,
+      "reason": "two consecutive high-accuracy sessions >=75%",
+      "primary_full": false
+    },
+    {
+      "subject": "stopping_challenge_004",
+      "stop": 3000,
+      "reason": "two consecutive high-accuracy sessions >=75%",
+      "primary_full": false
+    },
+    {
+      "subject": "stopping_challenge_005",
+      "stop": 3000,
+      "reason": "two consecutive high-accuracy sessions >=75%",
+      "primary_full": false
+    },
+    {
+      "subject": "stopping_challenge_006",
+      "stop": 3000,
+      "reason": "two consecutive high-accuracy sessions >=75%",
+      "primary_full": false
+    },
+    {
+      "subject": "stopping_challenge_007",
+      "stop": 3500,
+      "reason": "two consecutive high-accuracy sessions >=75%",
+      "primary_full": false
+    },
+    {
+      "subject": "stopping_challenge_008",
+      "stop": 2500,
+      "reason": "two consecutive high-accuracy sessions >=75%",
+      "primary_full": false
+    },
+    {
+      "subject": "stopping_challenge_009",
+      "stop": 3500,
+      "reason": "two consecutive high-accuracy sessions >=75%",
+      "primary_full": false
+    },
+    {
+      "subject": "stopping_challenge_010",
+      "stop": 3000,
+      "reason": "two consecutive high-accuracy sessions >=75%",
+      "primary_full": false
+    },
+    {
+      "subject": "stopping_challenge_011",
+      "stop": 3500,
+      "reason": "two consecutive high-accuracy sessions >=75%",
+      "primary_full": false
+    },
+    {
+      "subject": "stopping_challenge_012",
+      "stop": 3000,
+      "reason": "two consecutive high-accuracy sessions >=75%",
+      "primary_full": false
+    },
+    {
+      "subject": "stopping_challenge_013",
+      "stop": 3500,
+      "reason": "two consecutive high-accuracy sessions >=75%",
+      "primary_full": false
+    },
+    {
+      "subject": "stopping_challenge_014",
+      "stop": 3500,
+      "reason": "two consecutive high-accuracy sessions >=75%",
+      "primary_full": false
+    },
+    {
+      "subject": "stopping_challenge_015",
+      "stop": 3000,
+      "reason": "two consecutive high-accuracy sessions >=75%",
+      "primary_full": false
+    },
+    {
+      "subject": "stopping_challenge_016",
+      "stop": 3500,
+      "reason": "two consecutive high-accuracy sessions >=75%",
+      "primary_full": false
+    },
+    {
+      "subject": "stopping_challenge_017",
+      "stop": 3500,
+      "reason": "two consecutive high-accuracy sessions >=75%",
+      "primary_full": false
+    },
+    {
+      "subject": "stopping_challenge_018",
+      "stop": 3000,
+      "reason": "two consecutive high-accuracy sessions >=75%",
+      "primary_full": false
+    },
+    {
+      "subject": "stopping_challenge_019",
+      "stop": 3000,
+      "reason": "two consecutive high-accuracy sessions >=75%",
+      "primary_full": false
+    },
+    {
+      "subject": "stopping_challenge_020",
+      "stop": 3000,
+      "reason": "two consecutive high-accuracy sessions >=75%",
+      "primary_full": false
+    },
+    {
+      "subject": "stopping_challenge_021",
+      "stop": 5000,
+      "reason": "two consecutive high-accuracy sessions >=75%",
+      "primary_full": true
+    },
+    {
+      "subject": "stopping_challenge_022",
+      "stop": 3500,
+      "reason": "two consecutive high-accuracy sessions >=75%",
+      "primary_full": false
+    },
+    {
+      "subject": "stopping_challenge_023",
+      "stop": 2500,
+      "reason": "two consecutive high-accuracy sessions >=75%",
+      "primary_full": false
+    }
+  ],
+  "summary": [
+    {
+      "model": "oracle",
+      "full_only": true,
+      "n": 1,
+      "crps": 0.014472036013085653,
+      "high_mae": 0.024819585793595254,
+      "coverage80": 0.875
+    },
+    {
+      "model": "pipeline_fitted",
+      "full_only": true,
+      "n": 1,
+      "crps": 0.014451538416697973,
+      "high_mae": 0.027415256910196813,
+      "coverage80": 0.9166666666666666
+    },
+    {
+      "model": "growth",
+      "full_only": true,
+      "n": 1,
+      "crps": 0.019625374223046683,
+      "high_mae": 0.03825249995419218,
+      "coverage80": 0.875
+    },
+    {
+      "model": "persistence",
+      "full_only": true,
+      "n": 1,
+      "crps": 0.09342512409267496,
+      "high_mae": 0.16711524376411563,
+      "coverage80": 0.2916666666666667
+    },
+    {
+      "model": "oracle",
+      "full_only": false,
+      "n": 24,
+      "crps": 0.014144315306622903,
+      "high_mae": 0.024576134141686343,
+      "coverage80": 0.8222222222222223
+    },
+    {
+      "model": "pipeline_fitted",
+      "full_only": false,
+      "n": 24,
+      "crps": 0.014076696630568443,
+      "high_mae": 0.024679782506454945,
+      "coverage80": 0.8526041666666666
+    },
+    {
+      "model": "growth",
+      "full_only": false,
+      "n": 24,
+      "crps": 0.018381412234077382,
+      "high_mae": 0.0339977601055649,
+      "coverage80": 0.8715277777777777
+    },
+    {
+      "model": "persistence",
+      "full_only": false,
+      "n": 24,
+      "crps": 0.08572055099687326,
+      "high_mae": 0.16891532978098323,
+      "coverage80": 0.31597222222222227
+    }
+  ],
+  "comparisons": [
+    {
+      "full_only": true,
+      "gain": {
+        "n": 1,
+        "mean": 0.00517383580634871,
+        "lo": null,
+        "hi": null,
+        "interval_status": "too few independent animals for an informative interval"
+      }
+    },
+    {
+      "full_only": false,
+      "gain": {
+        "n": 24,
+        "mean": 0.004304715603508941,
+        "lo": 0.002881259835350634,
+        "hi": 0.0058881856982216695
+      }
+    }
+  ]
+}

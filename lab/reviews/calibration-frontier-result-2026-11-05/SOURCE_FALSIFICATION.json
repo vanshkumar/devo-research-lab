@@ -1,0 +1,131 @@
+{
+  "original_condition_examples": [
+    {
+      "label": {
+        "index": 388,
+        "kind": "source",
+        "draw": 18,
+        "condition": "primary",
+        "neural": "linear256",
+        "reference": "recent_selected",
+        "cutoff": 200,
+        "horizon": 2000,
+        "metric": "A",
+        "point": 0.0010599996335576688,
+        "margin": 0.02,
+        "primary_lower": null,
+        "primary_upper": null,
+        "joint_lower": -0.040244650436262575,
+        "joint_upper": 0.0423646497033779,
+        "joint_excludes": false,
+        "joint_establishes": false
+      },
+      "se": 0.012664781206040648,
+      "benefit_margin_headroom": 0.018940000366442333,
+      "point_plus_1SE": 0.013724780839598317,
+      "point_plus_1_96SE": 0.02588297079739734,
+      "note": "Descriptive studentizer comparison, not a replacement inferential family or repaired gate"
+    },
+    {
+      "label": {
+        "index": 389,
+        "kind": "source",
+        "draw": 18,
+        "condition": "primary",
+        "neural": "linear256",
+        "reference": "recent_selected",
+        "cutoff": 200,
+        "horizon": 2000,
+        "metric": "D",
+        "point": -0.0055908770368170106,
+        "margin": 0.0,
+        "primary_lower": null,
+        "primary_upper": null,
+        "joint_lower": -0.03887752301879669,
+        "joint_upper": 0.027695768945162673,
+        "joint_excludes": false,
+        "joint_establishes": false
+      },
+      "se": 0.010206310614715237,
+      "benefit_margin_headroom": 0.0055908770368170106,
+      "point_plus_1SE": 0.004615433577898226,
+      "point_plus_1_96SE": 0.014413491768024854,
+      "note": "Descriptive studentizer comparison, not a replacement inferential family or repaired gate"
+    },
+    {
+      "label": {
+        "index": 246,
+        "kind": "source",
+        "draw": 9,
+        "condition": "primary",
+        "neural": "linear256",
+        "reference": "recent_selected",
+        "cutoff": 1000,
+        "horizon": 2000,
+        "metric": "A",
+        "point": 0.005096803025260064,
+        "margin": 0.02,
+        "primary_lower": null,
+        "primary_upper": null,
+        "joint_lower": -0.0280940549873569,
+        "joint_upper": 0.038287661037877035,
+        "joint_excludes": false,
+        "joint_establishes": false
+      },
+      "se": 0.010176940224889899,
+      "benefit_margin_headroom": 0.014903196974739937,
+      "point_plus_1SE": 0.015273743250149963,
+      "point_plus_1_96SE": 0.025043605866044268,
+      "note": "Descriptive studentizer comparison, not a replacement inferential family or repaired gate"
+    },
+    {
+      "label": {
+        "index": 255,
+        "kind": "source",
+        "draw": 9,
+        "condition": "primary",
+        "neural": "exact256",
+        "reference": "recent_selected",
+        "cutoff": 1000,
+        "horizon": 2000,
+        "metric": "D",
+        "point": -0.0030059378991579818,
+        "margin": 0.0,
+        "primary_lower": null,
+        "primary_upper": null,
+        "joint_lower": -0.0230651933759281,
+        "joint_upper": 0.017053317577612137,
+        "joint_excludes": false,
+        "joint_establishes": false
+      },
+      "se": 0.006150544341616105,
+      "benefit_margin_headroom": 0.0030059378991579818,
+      "point_plus_1SE": 0.0031446064424581234,
+      "point_plus_1_96SE": 0.009049129010409582,
+      "note": "Descriptive studentizer comparison, not a replacement inferential family or repaired gate"
+    }
+  ],
+  "largest_retained_original_late_GRU_point_gain": {
+    "draw": 14,
+    "chosen": "100",
+    "cutoff": 1000,
+    "reference": "original",
+    "A": 0.0072764324970131244,
+    "D": 0.0013879547477000757,
+    "ordinary_mae": 0.13683975725614916,
+    "gru_mae": 0.12956332475913607,
+    "relative_score_gain": 0.1135877641966514
+  },
+  "same_draw_strong_recent_reference": {
+    "draw": 14,
+    "chosen": "100",
+    "cutoff": 1000,
+    "reference": "recent_selected",
+    "A": -0.0023384436076616913,
+    "D": -0.005501367819213659,
+    "ordinary_mae": 0.12722488115147434,
+    "gru_mae": 0.12956332475913607,
+    "relative_score_gain": 0.04177990506190421
+  },
+  "interpretation": "Source-only limitations and stronger ordinary explanation; no post-hoc subgroup/model choice or pointwise decision substitution."
+}

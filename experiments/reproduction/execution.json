@@ -1,0 +1,166 @@
+{
+  "python": "3.9.6",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "steps": [
+    {
+      "step": "verify_worm",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "experiments/neural_dynamics/acquire.py",
+        "--part",
+        "discovery"
+      ],
+      "returncode": 0,
+      "seconds": 0.09828208399999999
+    },
+    {
+      "step": "verify_fly",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "experiments/social_learning/acquire.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.03241991700000002
+    },
+    {
+      "step": "neural_controls",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "experiments/neural_dynamics/run.py",
+        "--part",
+        "controls"
+      ],
+      "returncode": 0,
+      "seconds": 1.1416129169999998
+    },
+    {
+      "step": "neural_discovery",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "experiments/neural_dynamics/run.py",
+        "--part",
+        "discovery"
+      ],
+      "returncode": 0,
+      "seconds": 6.7660867090000005
+    },
+    {
+      "step": "local_main",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "experiments/local_learning/run_pilots.py"
+      ],
+      "returncode": 0,
+      "seconds": 2.0520981249999988
+    },
+    {
+      "step": "local_sensitivity",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "experiments/local_learning/run_pilots.py",
+        "--followup"
+      ],
+      "returncode": 0,
+      "seconds": 9.747795041999998
+    },
+    {
+      "step": "local_analytic",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "experiments/local_learning/analytical_check.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.0491566249999984
+    },
+    {
+      "step": "development",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "experiments/development/run.py"
+      ],
+      "returncode": 0,
+      "seconds": 3.0978850840000014
+    },
+    {
+      "step": "development_analytic",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "experiments/development/audit.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.02657487500000144
+    },
+    {
+      "step": "causal",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "experiments/causal_identification/run.py"
+      ],
+      "returncode": 0,
+      "seconds": 3.387699125000001
+    },
+    {
+      "step": "neural_adversarial",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "experiments/causal_identification/neural_audit_check.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.3691633749999994
+    },
+    {
+      "step": "social",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "experiments/social_learning/run.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.5003197919999991
+    },
+    {
+      "step": "social_independent",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "experiments/social_learning/audit_reconstruct.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.020649125000002044
+    },
+    {
+      "step": "social_followup",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "experiments/social_learning/followup.py"
+      ],
+      "returncode": 0,
+      "seconds": 1.6052545830000007
+    },
+    {
+      "step": "social_figure",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "experiments/social_learning/plot.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.4420712910000013
+    },
+    {
+      "step": "local_figure",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "experiments/local_learning/make_figure.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.41230583300000134
+    },
+    {
+      "step": "causal_figure",
+      "command": [
+        "/Users/vanshkumar/Documents/repos/devo-research-lab/.venv/bin/python",
+        "experiments/causal_identification/plot.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.3626482089999996
+    }
+  ]
+}

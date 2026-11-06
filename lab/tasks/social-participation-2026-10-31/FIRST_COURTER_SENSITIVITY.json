@@ -1,0 +1,315 @@
+{
+  "postvalidation": true,
+  "assumption": "Within T, latent standardized-two-courter W is independent of recorded first-courter category. Noneligible outcomes independent of W conditional on first courter. Eligible Y=W.",
+  "theta_cases": [
+    {
+      "theta": 0.5,
+      "feasible_theta_interval": [
+        0.4181818181818182,
+        0.7391304347826086
+      ],
+      "feasible": true,
+      "gate_by_first_courter": [
+        {
+          "first_courter": "none",
+          "marginal_first_courter": 0.12676056338028172,
+          "eligible_reference_mass_within_first": 0.0,
+          "eligible_opposite_mass_within_first": 0.0,
+          "eligibility_given_W_reference": 0.0,
+          "eligibility_given_W_opposite": 0.0,
+          "revelation_risk_ratio": null
+        },
+        {
+          "first_courter": "reference",
+          "marginal_first_courter": 0.38732394366197176,
+          "eligible_reference_mass_within_first": 0.4181818181818182,
+          "eligible_opposite_mass_within_first": 0.10909090909090911,
+          "eligibility_given_W_reference": 0.8363636363636364,
+          "eligibility_given_W_opposite": 0.21818181818181823,
+          "revelation_risk_ratio": 3.8333333333333326
+        },
+        {
+          "first_courter": "opposite",
+          "marginal_first_courter": 0.4859154929577465,
+          "eligible_reference_mass_within_first": 0.24637681159420297,
+          "eligible_opposite_mass_within_first": 0.26086956521739135,
+          "eligibility_given_W_reference": 0.49275362318840593,
+          "eligibility_given_W_opposite": 0.5217391304347827,
+          "revelation_risk_ratio": 0.9444444444444445
+        }
+      ],
+      "original_15cell": [
+        0.11971830985915496,
+        0.007042253521126761,
+        0.0,
+        0.007042253521126761,
+        0.16901408450704222,
+        0.0,
+        0.014084507042253521,
+        0.0,
+        0.21830985915492948,
+        0.007042253521126761,
+        0.16197183098591547,
+        0.04225352112676056,
+        0.007042253521126761,
+        0.11971830985915496,
+        0.12676056338028172
+      ],
+      "latent_emission_2x15": [
+        [
+          0.11971830985915496,
+          0.007042253521126761,
+          0.0,
+          0.0024377031419284935,
+          0.05850487540628383,
+          0.0,
+          0.014498757249378625,
+          0.0,
+          0.2247307373653686,
+          0.0024377031419284935,
+          0.32394366197183094,
+          0.0,
+          0.007249378624689312,
+          0.23943661971830993,
+          0.0
+        ],
+        [
+          0.11971830985915496,
+          0.007042253521126761,
+          0.0,
+          0.011646803900325029,
+          0.2795232936078006,
+          0.0,
+          0.013670256835128422,
+          0.0,
+          0.21188898094449043,
+          0.011646803900325029,
+          0.0,
+          0.08450704225352113,
+          0.006835128417564211,
+          0.0,
+          0.25352112676056343
+        ]
+      ],
+      "reconstructed_15cell": [
+        0.11971830985915496,
+        0.007042253521126761,
+        0.0,
+        0.007042253521126762,
+        0.16901408450704222,
+        0.0,
+        0.014084507042253523,
+        0.0,
+        0.2183098591549295,
+        0.007042253521126762,
+        0.16197183098591547,
+        0.04225352112676056,
+        0.007042253521126762,
+        0.11971830985915496,
+        0.12676056338028172
+      ],
+      "max_cell_error": 2.7755575615628914e-17,
+      "W_row_sums": [
+        1.0,
+        1.0
+      ],
+      "first_courter_given_W": [
+        [
+          0.12676056338028172,
+          0.38732394366197176,
+          0.4859154929577465
+        ],
+        [
+          0.12676056338028172,
+          0.38732394366197176,
+          0.4859154929577465
+        ]
+      ],
+      "max_W_first_courter_dependence": 0.0
+    },
+    {
+      "theta": 0.45,
+      "feasible_theta_interval": [
+        0.4181818181818182,
+        0.7391304347826086
+      ],
+      "feasible": true,
+      "gate_by_first_courter": [
+        {
+          "first_courter": "none",
+          "marginal_first_courter": 0.12676056338028172,
+          "eligible_reference_mass_within_first": 0.0,
+          "eligible_opposite_mass_within_first": 0.0,
+          "eligibility_given_W_reference": 0.0,
+          "eligibility_given_W_opposite": 0.0,
+          "revelation_risk_ratio": null
+        },
+        {
+          "first_courter": "reference",
+          "marginal_first_courter": 0.38732394366197176,
+          "eligible_reference_mass_within_first": 0.4181818181818182,
+          "eligible_opposite_mass_within_first": 0.10909090909090911,
+          "eligibility_given_W_reference": 0.9292929292929293,
+          "eligibility_given_W_opposite": 0.19834710743801656,
+          "revelation_risk_ratio": 4.685185185185184
+        },
+        {
+          "first_courter": "opposite",
+          "marginal_first_courter": 0.4859154929577465,
+          "eligible_reference_mass_within_first": 0.24637681159420297,
+          "eligible_opposite_mass_within_first": 0.26086956521739135,
+          "eligibility_given_W_reference": 0.5475040257648954,
+          "eligibility_given_W_opposite": 0.47430830039525695,
+          "revelation_risk_ratio": 1.154320987654321
+        }
+      ],
+      "original_15cell": [
+        0.11971830985915496,
+        0.007042253521126761,
+        0.0,
+        0.007042253521126761,
+        0.16901408450704222,
+        0.0,
+        0.014084507042253521,
+        0.0,
+        0.21830985915492948,
+        0.007042253521126761,
+        0.16197183098591547,
+        0.04225352112676056,
+        0.007042253521126761,
+        0.11971830985915496,
+        0.12676056338028172
+      ],
+      "latent_emission_2x15": [
+        [
+          0.11971830985915496,
+          0.007042253521126761,
+          0.0,
+          0.0010533285181172508,
+          0.025279884434814014,
+          0.0,
+          0.01293381202246157,
+          0.0,
+          0.20047408634815425,
+          0.0010533285181172508,
+          0.35993740219092324,
+          0.0,
+          0.006466906011230785,
+          0.2660406885758999,
+          0.0
+        ],
+        [
+          0.11971830985915496,
+          0.007042253521126761,
+          0.0,
+          0.011942283069043633,
+          0.2866147936570471,
+          0.0,
+          0.01502598478571967,
+          0.0,
+          0.23290276417865477,
+          0.011942283069043633,
+          0.0,
+          0.07682458386683738,
+          0.007512992392859835,
+          0.0,
+          0.2304737516005122
+        ]
+      ],
+      "reconstructed_15cell": [
+        0.11971830985915496,
+        0.007042253521126762,
+        0.0,
+        0.0070422535211267625,
+        0.16901408450704222,
+        0.0,
+        0.014084507042253527,
+        0.0,
+        0.21830985915492956,
+        0.0070422535211267625,
+        0.16197183098591547,
+        0.04225352112676056,
+        0.007042253521126763,
+        0.11971830985915496,
+        0.12676056338028172
+      ],
+      "max_cell_error": 8.326672684688674e-17,
+      "W_row_sums": [
+        1.0,
+        1.0
+      ],
+      "first_courter_given_W": [
+        [
+          0.12676056338028172,
+          0.38732394366197176,
+          0.4859154929577465
+        ],
+        [
+          0.12676056338028172,
+          0.3873239436619718,
+          0.4859154929577465
+        ]
+      ],
+      "max_W_first_courter_dependence": 5.551115123125783e-17
+    },
+    {
+      "theta": 0.375,
+      "feasible_theta_interval": [
+        0.4181818181818182,
+        0.7391304347826086
+      ],
+      "feasible": false,
+      "gate_by_first_courter": [
+        {
+          "first_courter": "none",
+          "marginal_first_courter": 0.12676056338028172,
+          "eligible_reference_mass_within_first": 0.0,
+          "eligible_opposite_mass_within_first": 0.0,
+          "eligibility_given_W_reference": 0.0,
+          "eligibility_given_W_opposite": 0.0,
+          "revelation_risk_ratio": null
+        },
+        {
+          "first_courter": "reference",
+          "marginal_first_courter": 0.38732394366197176,
+          "eligible_reference_mass_within_first": 0.4181818181818182,
+          "eligible_opposite_mass_within_first": 0.10909090909090911,
+          "eligibility_given_W_reference": 1.1151515151515152,
+          "eligibility_given_W_opposite": 0.1745454545454546,
+          "revelation_risk_ratio": 6.3888888888888875
+        },
+        {
+          "first_courter": "opposite",
+          "marginal_first_courter": 0.4859154929577465,
+          "eligible_reference_mass_within_first": 0.24637681159420297,
+          "eligible_opposite_mass_within_first": 0.26086956521739135,
+          "eligibility_given_W_reference": 0.6570048309178745,
+          "eligibility_given_W_opposite": 0.4173913043478262,
+          "revelation_risk_ratio": 1.5740740740740742
+        }
+      ],
+      "failure": "Required gate probability exceeds one; no witness under W independent of first courter."
+    }
+  ],
+  "accept_first_wait": {
+    "counts_nk_reference_then_opposite_first": [
+      29,
+      23,
+      35,
+      17
+    ],
+    "copy_reference_first": 0.7931034482758621,
+    "copy_opposite_first": 0.4857142857142857,
+    "difference": 0.3073891625615764,
+    "date_bootstrap_95": [
+      0.1389934577434577,
+      0.46562042788129726
+    ],
+    "bootstrap_resamples": 5000,
+    "undefined_resamples": 0,
+    "seed": 20261031,
+    "accept_first_wait_point_inequality_feasible": false,
+    "restricted_model_required_inequality": "q_reference_first <= theta <= q_opposite_first",
+    "interpretation": "A descriptive violation under independent W/first-courter, preferential accept-matched-first, and equal completion after waiting. Not a randomized/causal test or calibrated population interval."
+  }
+}

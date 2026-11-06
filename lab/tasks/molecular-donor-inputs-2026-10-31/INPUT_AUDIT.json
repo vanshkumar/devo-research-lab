@@ -1,0 +1,559 @@
+{
+  "claim": "input certification only; primary receptor prediction unrun",
+  "target_panel_size": 54,
+  "all_source_response_integrity": [
+    {
+      "label": "human_handle",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "human_handle_live",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "human_item",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "mouse_datacite",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "human_bundles",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "mouse_handle",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "human_files",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "mouse_item",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "mouse_bundles",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "mouse_files",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "human_readme",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "human_h5ad_prefix",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "mouse_rds_prefix",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "institutional_links",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "mouse_cellxgene_meta",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "mouse_explorer_schema",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "cellxgene_collections",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "mouse_collection",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "mouse_block_0",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "mouse_block_3637",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "mouse_block_3589",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "mouse_block_3628",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "mouse_block_3614",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "mouse_block_3613",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "mouse_block_3608",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "mouse_block_3610",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "mouse_block_3633",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "mouse_units_2297254188",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "mouse_units_3783065665",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "mouse_units_3783069761",
+      "size_and_sha256_pass": true
+    },
+    {
+      "label": "mouse_units_515980643",
+      "size_and_sha256_pass": true
+    }
+  ],
+  "mouse_units": {
+    "n_categories_observed": 18,
+    "single_SRA_run_labels": [
+      "SRR6854090",
+      "SRR9000480",
+      "SRR9000481",
+      "SRR9000482",
+      "SRR9000483",
+      "SRR9000484",
+      "SRR9000485",
+      "SRR9000486",
+      "SRR9000487",
+      "SRR9000488",
+      "SRR9000489",
+      "SRR9000491",
+      "SRR9000492"
+    ],
+    "composite_SRA_run_labels": [
+      "SRR6854135_SRR6854136_SRR6854141_SRR6854142",
+      "SRR6854077_SRR6854080",
+      "SRR6854157_SRR6854160",
+      "SRR6854065_SRR6854066"
+    ],
+    "pooled_labels": [
+      "pooled"
+    ],
+    "cell_counts_per_category": "unrun: focused-read ceiling reached before codes decoded",
+    "individual_animal_mapping_certified": false,
+    "codes_structure": {
+      "shape": [
+        384925
+      ],
+      "dtype": "int8",
+      "chunks": [
+        12029
+      ],
+      "compression": "gzip"
+    }
+  },
+  "mouse_offline_structure_hdf5_logical_bytes": 8688,
+  "mouse_offline_structure_cached_bytes_loaded": 5973348,
+  "human_reused_small_sample": {
+    "source_asset": "https://datasets.cellxgene.cziscience.com/af06d70d-a2bc-43c1-8378-bc545bc8ee2c.h5ad",
+    "gene_universe_size": 36924,
+    "feature_columns": [
+      "column_index",
+      "_index",
+      "feature_biotype",
+      "feature_length",
+      "feature_name",
+      "feature_reference",
+      "feature_type"
+    ],
+    "cells": [
+      {
+        "source_row_index": 241710,
+        "barcode": "tzan2_N6.3_GGTTGTATCTCATTTG-1",
+        "donor_id": "tzan2",
+        "Dataset": "Tadross",
+        "Sample_ID": "tzan2_N6.3",
+        "C4_named": "C4-312 Mid-3 GLU-4 MEDAG",
+        "non_target_stored_entries": 5063,
+        "non_target_values_finite_positive_integer": true,
+        "non_target_count_sum": 20532.0,
+        "first_three_non_target_observations": [
+          {
+            "source_column_index": 4,
+            "feature_name": "LINC01128",
+            "count": 3.0
+          },
+          {
+            "source_column_index": 7,
+            "feature_name": "LINC02593",
+            "count": 1.0
+          },
+          {
+            "source_column_index": 13,
+            "feature_name": "HES4",
+            "count": 1.0
+          }
+        ]
+      },
+      {
+        "source_row_index": 243245,
+        "barcode": "tzan2_US6.1_CTTTCAACAGCTGAAG-1",
+        "donor_id": "tzan2",
+        "Dataset": "Tadross",
+        "Sample_ID": "tzan2_US6.1",
+        "C4_named": "C4-315 Mid-3 GLU-5 TRH",
+        "non_target_stored_entries": 2745,
+        "non_target_values_finite_positive_integer": true,
+        "non_target_count_sum": 5296.0,
+        "first_three_non_target_observations": [
+          {
+            "source_column_index": 26,
+            "feature_name": "UBE2J2",
+            "count": 1.0
+          },
+          {
+            "source_column_index": 55,
+            "feature_name": "SLC35E2A",
+            "count": 1.0
+          },
+          {
+            "source_column_index": 65,
+            "feature_name": "SKI",
+            "count": 1.0
+          }
+        ]
+      },
+      {
+        "source_row_index": 248769,
+        "barcode": "tzan2_5.1_CCACGAGCAAAGCTAA-1",
+        "donor_id": "tzan2",
+        "Dataset": "Tadross",
+        "Sample_ID": "tzan2_5.1",
+        "C4_named": "C4-312 Mid-3 GLU-4 MEDAG",
+        "non_target_stored_entries": 3998,
+        "non_target_values_finite_positive_integer": true,
+        "non_target_count_sum": 14808.0,
+        "first_three_non_target_observations": [
+          {
+            "source_column_index": 9,
+            "feature_name": "NOC2L",
+            "count": 1.0
+          },
+          {
+            "source_column_index": 10,
+            "feature_name": "KLHL17",
+            "count": 1.0
+          },
+          {
+            "source_column_index": 13,
+            "feature_name": "HES4",
+            "count": 2.0
+          }
+        ]
+      },
+      {
+        "source_row_index": 317822,
+        "barcode": "10X190_5_TCACAAGGTTTCGCTC",
+        "donor_id": "siletti_H18.30.002",
+        "Dataset": "Siletti",
+        "Sample_ID": "siletti_10X190_5",
+        "C4_named": "C4-312 Mid-3 GLU-4 MEDAG",
+        "non_target_stored_entries": 7543,
+        "non_target_values_finite_positive_integer": true,
+        "non_target_count_sum": 47196.0,
+        "first_three_non_target_observations": [
+          {
+            "source_column_index": 4,
+            "feature_name": "LINC01128",
+            "count": 1.0
+          },
+          {
+            "source_column_index": 8,
+            "feature_name": "SAMD11",
+            "count": 1.0
+          },
+          {
+            "source_column_index": 10,
+            "feature_name": "KLHL17",
+            "count": 1.0
+          }
+        ]
+      },
+      {
+        "source_row_index": 334411,
+        "barcode": "10X380_5_ACCCAAACAGTGTGCC",
+        "donor_id": "siletti_H19.30.002",
+        "Dataset": "Siletti",
+        "Sample_ID": "siletti_10X380_5",
+        "C4_named": "C4-296 Mid-3 GLU-3 AVP TFPI2",
+        "non_target_stored_entries": 3920,
+        "non_target_values_finite_positive_integer": true,
+        "non_target_count_sum": 10414.0,
+        "first_three_non_target_observations": [
+          {
+            "source_column_index": 8,
+            "feature_name": "SAMD11",
+            "count": 1.0
+          },
+          {
+            "source_column_index": 13,
+            "feature_name": "HES4",
+            "count": 1.0
+          },
+          {
+            "source_column_index": 23,
+            "feature_name": "SDF4",
+            "count": 2.0
+          }
+        ]
+      },
+      {
+        "source_row_index": 335846,
+        "barcode": "10X376_6_TCTACCGTCGATCCCT",
+        "donor_id": "siletti_H19.30.001",
+        "Dataset": "Siletti",
+        "Sample_ID": "siletti_10X376_6",
+        "C4_named": "C4-296 Mid-3 GLU-3 AVP TFPI2",
+        "non_target_stored_entries": 6693,
+        "non_target_values_finite_positive_integer": true,
+        "non_target_count_sum": 31064.0,
+        "first_three_non_target_observations": [
+          {
+            "source_column_index": 10,
+            "feature_name": "KLHL17",
+            "count": 1.0
+          },
+          {
+            "source_column_index": 13,
+            "feature_name": "HES4",
+            "count": 1.0
+          },
+          {
+            "source_column_index": 26,
+            "feature_name": "UBE2J2",
+            "count": 1.0
+          }
+        ]
+      }
+    ],
+    "n_cells": 6,
+    "donor_ids_in_these_six_cells": [
+      "siletti_H18.30.002",
+      "siletti_H19.30.001",
+      "siletti_H19.30.002",
+      "tzan2"
+    ],
+    "scope": "previously consumed six-cell raw/X leaf sample; no independent evaluation or receptor scoring",
+    "compressed_npz_bytes_read": 90008,
+    "raw_indices_decoded_bytes": 359784
+  },
+  "read_file_manifest": [
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/REQUESTS.json",
+      "bytes": 54539,
+      "sha256": "99f84e408544461035e7bc0f17b695183d70a250ff4be424bc4e845aa961159a"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/human_handle.bin",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/human_handle_live.bin",
+      "bytes": 77,
+      "sha256": "afba4727a61303f7c7b470f5c272ae55b193cf66a1b6831456edbbd6fea8df31"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/human_item.bin",
+      "bytes": 9224,
+      "sha256": "cfdb274fd9f68e7e99c49c10d77e6642b6ab9f8d2ccc7ede2d0d13a71fd95a1b"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/mouse_datacite.bin",
+      "bytes": 9131,
+      "sha256": "010c788d54aef0770fbac07eada7f51732766d27873b20946f3db788e5ac2783"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/human_bundles.bin",
+      "bytes": 2319,
+      "sha256": "40aa0bab1c8d9955a2200d7166c56af63581fec5cc966cb5a667f688178b000c"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/mouse_handle.bin",
+      "bytes": 77,
+      "sha256": "492ac291dcae51a060b5a39a21d11b051b0cd0579440b464e82e94e2ab1dcac6"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/human_files.bin",
+      "bytes": 7592,
+      "sha256": "43cfca5c93de272100be747c5174bedfa8538bf37a64997a5a5e4d94928d51d9"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/mouse_item.bin",
+      "bytes": 8359,
+      "sha256": "aa4fe1a9ea76cf6998ee654d72fa82fef684f0546242a065c9ec3b2fe56a090a"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/mouse_bundles.bin",
+      "bytes": 1316,
+      "sha256": "91245241db0e24aa3c61d05f2d2cbb4a984eebe116153c91ff66266514f58847"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/mouse_files.bin",
+      "bytes": 3166,
+      "sha256": "53c4221541fe61cf4e37224ff8b178936de724f61ab25710a9bdeb09f25a1321"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/human_readme.bin",
+      "bytes": 227,
+      "sha256": "11caedb6d0692ca76e324640289e0c03d4888356f9fdbadf56129835b176cea3"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/human_h5ad_prefix.bin",
+      "bytes": 227,
+      "sha256": "283692b2713d9aaedde02c3856c27c0f1d5359bbd2b4257f7e76626e0cbbf89f"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/mouse_rds_prefix.bin",
+      "bytes": 227,
+      "sha256": "070a5b21835f055711384fedbebe50732357b5c76b7495fde17d44d29c94c8e3"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/institutional_links.bin",
+      "bytes": 41674,
+      "sha256": "cd61c9129c69eaa8a5174da5af41f2986bcb4722b114b0fd54f616fcd7842d7d"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/mouse_cellxgene_meta.bin",
+      "bytes": 205,
+      "sha256": "013a8b307d5569d1d3bccea5f823d38266f9d7db8b6088cc9a6fb6f8eba4a99c"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/mouse_explorer_schema.bin",
+      "bytes": 207,
+      "sha256": "e9639e3c4681ce85f852fbac48e2eeee5ba51296dbfec57c200d59b76237ab80"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/cellxgene_collections.bin",
+      "bytes": 3217014,
+      "sha256": "e9cdb7151f31c72201ee90dd032db75890d18ec64cef20657214a84b07210fc8"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/mouse_collection.bin",
+      "bytes": 8362,
+      "sha256": "a759288711fa696dd284feac9d56d3d604e40585b58998517e3cc266c1521e63"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/mouse_block_0.bin",
+      "bytes": 1048576,
+      "sha256": "3d1422e606c76876cdcacf62f532841b8239b92adb01b236fcca9723f841692e"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/mouse_block_3637.bin",
+      "bytes": 730468,
+      "sha256": "7ffd4bfe708cfc149ac70644a8d67b11dab12ec6d6c81ef3be46a5e5229f2417"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/mouse_block_3589.bin",
+      "bytes": 1048576,
+      "sha256": "80ed2b554b54b216a4e3433baa55d702c647e749e00f20a4e18d90f0a55a502b"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/mouse_block_3628.bin",
+      "bytes": 1048576,
+      "sha256": "eee5e2010bed38445ad5e8e6a5354744e7f78934109eb5951fdf4dd074ace911"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/mouse_block_3614.bin",
+      "bytes": 1048576,
+      "sha256": "31d062a09655ab97340e76b0b8f7ce42283b5f23c0e277cf181c14510fcf0bca"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/mouse_block_3613.bin",
+      "bytes": 1048576,
+      "sha256": "36b6552d11890dba29a667b5c51bc62c71e20a6614d7b06186cae8872831e20f"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/mouse_block_3608.bin",
+      "bytes": 1048576,
+      "sha256": "13aed54e1a956a57ef818e10df4dd85e03191c5542d13aa651ec0aab3e12f0ac"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/mouse_block_3610.bin",
+      "bytes": 1048576,
+      "sha256": "ccff0244cc6d37c58894a37bee8e147ee864b72edd6466e16266b2ee35425448"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/mouse_block_3633.bin",
+      "bytes": 1048576,
+      "sha256": "c361782dcc97b97df8dd3673f9836a9f36c2e29a8208e403cbed32b4c29eb116"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/mouse_units_2297254188.bin",
+      "bytes": 76,
+      "sha256": "243b9d5fb0b4d85eeaf2fc9c13b52693c9dbcaac701bb53e16205e4f0d4c820a"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/mouse_units_3783065665.bin",
+      "bytes": 4096,
+      "sha256": "74dda46759951d66145c15bb72bcc11286f6c48364efc06dd79dde5edb339585"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/mouse_units_3783069761.bin",
+      "bytes": 61440,
+      "sha256": "5ff25dec67ba75d17e2c778dff2599158139db62c525d060d2f29f5b99f9d597"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/sources/mouse_units_515980643.bin",
+      "bytes": 36,
+      "sha256": "113a781eacf3040709aa2bac8318dff87f1dc4b6a31e4dcf80abff95adca3148"
+    },
+    {
+      "path": "lab/tasks/molecular-donor-inputs-2026-10-31/MOUSE_FOCUSED_UNITS_CHECK.json",
+      "bytes": 3424,
+      "sha256": "8c7b57dd7dd4bca2af969190e455bf5c13c5403590e5fc5f4174d4e5d41ce051"
+    },
+    {
+      "path": "campaigns/hypomap_quantitative_2026-10-28/inputs/raw_var.csv",
+      "bytes": 2561696,
+      "sha256": "cfd2caa680e8b840ec1dc4ca1af59bcbb24b4f090e94eef689b03b0e09601e80"
+    },
+    {
+      "path": "campaigns/hypomap_quantitative_2026-10-28/inputs/peptide_obs.csv",
+      "bytes": 616187,
+      "sha256": "4091ec64cec8041cde3e42fbe35be5940c60a78c137574cae3ec4e3828151263"
+    },
+    {
+      "path": "campaigns/hypomap_quantitative_2026-10-28/inputs/normalization_check_vectors.npz",
+      "bytes": 90008,
+      "sha256": "95845681174b64612446a7b86fc72423d50b42c1035fb4af4ade7e1cc2be1b0d"
+    }
+  ],
+  "known_direct_file_bytes_read_in_this_command": 15819982,
+  "peak_rss_bytes_macos": 102694912,
+  "primary_readiness": {
+    "certified": false,
+    "missing": [
+      "source-defined independent mouse animal or justified biological-sample units",
+      "compatible mouse non-target plus receptor numerical observations for those units",
+      "source-linked one-to-one ortholog table and source/processing reconciliation",
+      "frozen excluded-gene matching, training-only normalization and independent evaluation"
+    ],
+    "all_prediction_controls_and_sensitivity": "unrun",
+    "recommendation": "close this acquisition route; no further searches/repairs in this tranche"
+  }
+}

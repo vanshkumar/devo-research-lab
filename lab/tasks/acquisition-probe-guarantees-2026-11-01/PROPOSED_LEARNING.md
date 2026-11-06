@@ -1,0 +1,4 @@
+**2026-11-01 — Acquisition-to-probe theoretical screen**
+- Observation: The bounded acquisition-probe-guarantees allocation closed at its prior screen. The standard sequential change-of-measure/KL bridge requires full-history population log-score regret, supported known teacher probabilities and invariant probe-response dynamics. Its one 64-path exact reference check passed, while the banked relative cell-joint energy result supplies none of those additional inputs. No nonroutine claim or tested measurement correction survived; primary pins and derivation are saved in this task.
+- Action: Keep this routine theorem branch closed; do not relabel the existing 3.617% joint point gain as absolute trajectory KL or purchase an independent review of the reference exercise. Require a concrete new measurement/information contribution before another mathematical allocation, preserving the closed empirical source gate and unfinished scientific goal.
+- Confidence: high

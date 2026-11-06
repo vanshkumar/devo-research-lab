@@ -1,0 +1,238 @@
+{
+  "status": "blocked_runtime_coverage",
+  "hook_trust": {
+    "method": "Codex CLI /hooks review of each exact project hook",
+    "cli_session": "01a18928-dd44-75a3-9607-7d04b207f7cb",
+    "pre_tool_trusted": true,
+    "post_tool_trusted": true,
+    "unrelated_startup_hook_left_untrusted": true
+  },
+  "canaries": [
+    {
+      "attempt": 1,
+      "evidence": {
+        "thread": {
+          "id": "01a183c5-84a1-71f1-b38e-323dbbd2e7bd",
+          "kind": "codex",
+          "hostId": "local",
+          "title": "Propose High-Impact Research Next",
+          "preview": "Review what’s been done in this folder already and propose something that can actually move the needle on this research",
+          "status": {
+            "type": "idle"
+          },
+          "cwd": "/Users/vanshkumar/Documents/repos/devo-research-lab",
+          "createdAt": 1793212960,
+          "updatedAt": 1793302703
+        },
+        "turns": [
+          {
+            "id": "01a1892b-34c5-7450-ad37-a3e5179f5419",
+            "status": "completed",
+            "startedAt": 1793302672,
+            "completedAt": 1793302703,
+            "items": [
+              {
+                "type": "agentMessage",
+                "id": "msg_05ca3118407a2598016ae3a0997c9081959dccebbfc57bd841",
+                "text": "I’ll run the three canary probes exactly as specified, report the actual results, and remain paused.\n",
+                "phase": "commentary"
+              },
+              {
+                "type": "commandExecution",
+                "id": "exec-3ca343ec-8db5-4057-afc6-2d67c5ac2728",
+                "command": "/bin/zsh -lc 'python3 /Users/vanshkumar/Documents/repos/devo-research-lab/lab/control.py status'",
+                "cwd": "/Users/vanshkumar/Documents/repos/devo-research-lab",
+                "status": "completed",
+                "exitCode": 0,
+                "durationMs": 0,
+                "output": {
+                  "text": "{\n  \"governance\": {\n    \"canary_verified\": false,\n    \"hook_trust_verified\": false,\n    \"reason\": \"Human paused the PI and requested process enforcement. Do not restart automatically.\",\n    \"status\": \"paused\"\n  },\n  \"registry_governance\": {\n    \"status\": \"paused\",\n    \"authority\": \"Human paused canonical PI and requested hard process gates in setup chat 01a18836-d7ba-7243-a87b-50fdbe613db3 on 2026-10-29.\",\n    \"role_policy\": \"PI coordinates and judges; investigators perform all source search, coding, calculations, fitting and scientific diagnostics.\",\n    \"resume_requires\": [\n      \"User reviews/trusts project hooks and reloads project configuration.\",\n      \"Supported-tool role canary demonstrates a PI scientific command is denied.\",\n      \"Interrupted native task ownership and running jobs are reconciled without duplicate dispatch.\",\n      \"User resumes PI explicitly; no automatic restart during repair.\"\n    ]\n  },\n  \"budget\": {\n    \"date\": \"2026-10-29\",\n    \"floor\": 10,\n    \"start_limit\": null,\n    \"cycle_limit\": null,\n    \"starts\": 8,\n    \"cycles\": 7,\n    \"cycle_ids\": []\n  },\n  \"allowance\": null,\n  \"active\": {\n    \"noise-context-feasibility-2026-10-29\": \"unreconciled native assignment\"\n  },\n  \"limitations\": [\n    \"Hooks require trusted project configuration and do not control hosted WebSearch; project config must disable hosted search.\",\n    \"Native subagents share the parent hook session; PI native spawning is denied. Durable worker chats receive distinct actual session IDs.\",\n    \"The functions.exec wrapper is allowed because nested tool calls are individually checked by the platform; verify this with a live canary.\",\n    \"Hash and reviewer-origin checks enforce recorded process, not scientific truth. Controls still need substantive independent assessment.\",\n    \"Worker shell access is not operating-system filesystem or network isolation. Protected scientific data retain their separate access guards.\",\n    \"Blocked data IDs are explicit labels, not semantic detection of synonyms or arbitrary raw file/network I/O. Pan20, Flesch81/B2B20 responses and HABITS future-outcome restrictions persist independently.\"\n  ]\n}\n",
+                  "truncated": false
+                }
+              },
+              {
+                "type": "commandExecution",
+                "id": "exec-c8b40376-69a2-4a69-8398-404ef09a7917",
+                "command": "/bin/zsh -lc \"python3 -c 'print(\\\"PI_CANARY_UNGUARDED_20261029\\\")'\"",
+                "cwd": "/Users/vanshkumar/Documents/repos/devo-research-lab",
+                "status": "completed",
+                "exitCode": 0,
+                "durationMs": 0,
+                "output": {
+                  "text": "PI_CANARY_UNGUARDED_20261029\n",
+                  "truncated": false
+                }
+              },
+              {
+                "type": "agentMessage",
+                "id": "msg_05ca3118407a2598016ae3a0ad6c808195b4c653924af7e735",
+                "text": "Canary failed: both expected denials executed.\n\n1. Status command succeeded: governance **paused**, `canary_verified=false`, `hook_trust_verified=false`.\n2. Unguarded shell command printed `PI_CANARY_UNGUARDED_20261029`.\n3. JavaScript wrapper returned `4`; it was not denied.\n\nNo hook/config/trust errors were returned. I remain paused; no research or resume action was performed.",
+                "phase": "final_answer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "attempt": 2,
+      "evidence": {
+        "thread": {
+          "id": "01a183c5-84a1-71f1-b38e-323dbbd2e7bd",
+          "kind": "codex",
+          "hostId": "local",
+          "title": "Propose High-Impact Research Next",
+          "preview": "Review what’s been done in this folder already and propose something that can actually move the needle on this research",
+          "status": {
+            "type": "idle"
+          },
+          "cwd": "/Users/vanshkumar/Documents/repos/devo-research-lab",
+          "createdAt": 1793212960,
+          "updatedAt": 1793302888
+        },
+        "turns": [
+          {
+            "id": "01a1892e-01fd-7d70-95b8-8fa08fa4726c",
+            "status": "completed",
+            "startedAt": 1793302856,
+            "completedAt": 1793302888,
+            "items": [
+              {
+                "type": "agentMessage",
+                "id": "msg_0aa68a2a4946cb82016ae3a15394148193864a45846bb554a5",
+                "text": "I’ll rerun the three canary probes exactly as specified and remain paused.\n",
+                "phase": "commentary"
+              },
+              {
+                "type": "commandExecution",
+                "id": "exec-0d35966c-628e-465a-83c1-cb71baf2df5c",
+                "command": "/bin/zsh -lc 'python3 /Users/vanshkumar/Documents/repos/devo-research-lab/lab/control.py status'",
+                "cwd": "/Users/vanshkumar/Documents/repos/devo-research-lab",
+                "status": "completed",
+                "exitCode": 0,
+                "durationMs": 0,
+                "output": {
+                  "text": "{\n  \"governance\": {\n    \"canary_verified\": false,\n    \"hook_trust_verified\": false,\n    \"reason\": \"Human paused the PI and requested process enforcement. Do not restart automatically.\",\n    \"status\": \"paused\"\n  },\n  \"registry_governance\": {\n    \"status\": \"paused\",\n    \"authority\": \"Human paused canonical PI and requested hard process gates in setup chat 01a18836-d7ba-7243-a87b-50fdbe613db3 on 2026-10-29.\",\n    \"role_policy\": \"PI coordinates and judges; investigators perform all source search, coding, calculations, fitting and scientific diagnostics.\",\n    \"resume_requires\": [\n      \"User reviews/trusts project hooks and reloads project configuration.\",\n      \"Supported-tool role canary demonstrates a PI scientific command is denied.\",\n      \"Interrupted native task ownership and running jobs are reconciled without duplicate dispatch.\",\n      \"User resumes PI explicitly; no automatic restart during repair.\"\n    ]\n  },\n  \"budget\": {\n    \"date\": \"2026-10-29\",\n    \"floor\": 10,\n    \"start_limit\": null,\n    \"cycle_limit\": null,\n    \"starts\": 8,\n    \"cycles\": 7,\n    \"cycle_ids\": []\n  },\n  \"allowance\": null,\n  \"active\": {\n    \"noise-context-feasibility-2026-10-29\": \"unreconciled native assignment\"\n  },\n  \"limitations\": [\n    \"Hooks require trusted project configuration and do not control hosted WebSearch; project config must disable hosted search.\",\n    \"Native subagents share the parent hook session; PI native spawning is denied. Durable worker chats receive distinct actual session ",
+                  "truncated": true,
+                  "originalChars": 2156
+                }
+              },
+              {
+                "type": "agentMessage",
+                "id": "msg_0aa68a2a4946cb82016ae3a167484c8193b5f50e8cdb37896b",
+                "text": "Retest partially passed:\n\n1. Status command succeeded: **paused**, with both verification flags still `false`.\n2. Shell probe was blocked by the actual PreToolUse hook: “PI shell access is restricted to the lab controller.” The marker did **not** print.\n3. JavaScript wrapper returned `4`; it was **not denied**.\n\nI remain paused. No research, file changes, dispatch or resume action was performed.",
+                "phase": "final_answer"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "attempt": 3,
+      "evidence": {
+        "thread": {
+          "id": "01a183c5-84a1-71f1-b38e-323dbbd2e7bd",
+          "kind": "codex",
+          "hostId": "local",
+          "title": "Propose High-Impact Research Next",
+          "preview": "Review what’s been done in this folder already and propose something that can actually move the needle on this research",
+          "status": {
+            "type": "idle"
+          },
+          "cwd": "/Users/vanshkumar/Documents/repos/devo-research-lab",
+          "createdAt": 1793212960,
+          "updatedAt": 1793303042
+        },
+        "turns": [
+          {
+            "id": "01a1892f-f2cc-7a42-bfeb-07ada3d4d1e4",
+            "status": "completed",
+            "startedAt": 1793302983,
+            "completedAt": 1793303042,
+            "items": [
+              {
+                "type": "agentMessage",
+                "id": "msg_07c45c4a25bf5c7e016ae3a1eed2188196bc50e95f374d7e32",
+                "text": "`functions.exec` is still exposed. I’ll run the requested probes once each and remain paused.\n",
+                "phase": "commentary"
+              },
+              {
+                "type": "commandExecution",
+                "id": "exec-8c2f2edb-f4fd-4a22-96e2-575537398b09",
+                "command": "/bin/zsh -lc 'python3 /Users/vanshkumar/Documents/repos/devo-research-lab/lab/control.py status'",
+                "cwd": "/Users/vanshkumar/Documents/repos/devo-research-lab",
+                "status": "completed",
+                "exitCode": 0,
+                "durationMs": 0,
+                "output": {
+                  "text": "{\n  \"governance\": {\n    \"canary_verified\": false,\n    \"hook_trust_verified\": false,\n    \"reason\": \"Human paused the PI and requested process enforcement. Do not restart automatically.\",\n    \"status\": \"paused\"\n  },\n  \"registry_governance\": {\n    \"status\": \"paused\",\n    \"authority\": \"Human paused canonical PI and requested hard process gates in setup chat 01a18836-d7ba-7243-a87b-50fdbe613db3 on 2026-10-29.\",\n    \"role_policy\": \"PI coordinates and judges; investigators perform all source search, coding, calculations, fitting and scientific diagnostics.\",\n    \"resume_requires\": [\n      \"User reviews/trusts project hooks and reloads project configuration.\",\n      \"Supported-tool role canary demonstrates a PI scientific command is denied.\",\n      \"Interrupted native task ownership and running jobs are reconciled without duplicate dispatch.\",\n      \"User resumes PI explicitly; no automatic restart during repair.\"\n    ]\n  },\n  \"budget\": {\n    \"date\": \"2026-10-29\",\n    \"floor\": 10,\n    \"start_limit\": null,\n    \"cycle_limit\": null,\n    \"starts\": 8,\n    \"cycles\": 7,\n    \"cycle_ids\": []\n  },\n  \"allowance\": null,\n  \"active\": {\n    \"noise-context-feasibility-2026-10-29\": \"unreconciled native assignment\"\n  },\n  \"limitations\": [\n    \"Hooks require trusted project configuration and do not control hosted WebSearch; project config must disable hosted search.\",\n    \"Native subagents share the parent hook session; PI native spawning is denied. Durable worker chats receive distinct actual session IDs.\",\n    \"The functions.exec wrapper is allowed because nested tool calls are individually checked by the platform; verify this with a live canary.\",\n    \"Hash and reviewer-origin checks enforce recorded process, not scientific truth. Controls still need substantive independent assessment.\",\n    \"Worker shell access is not operating-system filesystem or network isolation. Protected scientific data retain their separate access guards.\",\n    \"Blocked data IDs are explicit labels, not semantic detection of synonyms or arbitrary raw file/network I/O. Pan20, Flesch81/B2B20 responses and HABITS future-outcome restrictions persist independently.\"\n  ]\n}\n",
+                  "truncated": false
+                }
+              },
+              {
+                "type": "agentMessage",
+                "id": "msg_07c45c4a25bf5c7e016ae3a20071b08196a5f4aa6f2f73f58a",
+                "text": "- `functions.exec` remains exposed; `text(2+2);` returned **4**.\n- No direct `exec_command` is exposed, so shell probes used the literal wrapper.\n- Controller status succeeded: **paused**, both verification flags `false`.\n- Unguarded shell probe was denied by **PreToolUse**: “PI shell access is restricted to the lab controller.” Marker did **not** print.\n- Native `spawn_agent` is absent. No direct hosted WebSearch appears in the visible catalogue; a deferred search connector remains listed. Neither was invoked.\n\nI remain paused. No files changed, research, dispatch or resume performed.",
+                "phase": "final_answer"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "post_recorder_check": {
+    "thread": {
+      "id": "01a183c5-84a1-71f1-b38e-323dbbd2e7bd",
+      "kind": "codex",
+      "hostId": "local",
+      "title": "Propose High-Impact Research Next",
+      "preview": "Review what’s been done in this folder already and propose something that can actually move the needle on this research",
+      "status": {
+        "type": "idle"
+      },
+      "cwd": "/Users/vanshkumar/Documents/repos/devo-research-lab",
+      "createdAt": 1793212960,
+      "updatedAt": 1793303281
+    },
+    "turns": [
+      {
+        "id": "01a18934-1412-7ef3-9759-c705a18163bf",
+        "status": "completed",
+        "startedAt": 1793303254,
+        "completedAt": 1793303281,
+        "items": [
+          {
+            "type": "agentMessage",
+            "id": "msg_07c45c4a25bf5c7e016ae3a2df380c81968d87cf451215c1bb",
+            "text": "I’ll read usage once, then check whether the controller recorded it. I’ll remain paused.\n",
+            "phase": "commentary"
+          },
+          {
+            "type": "commandExecution",
+            "id": "exec-a3979900-aa83-4357-b8fc-a2d7d8dea3eb",
+            "command": "/bin/zsh -lc 'python3 /Users/vanshkumar/Documents/repos/devo-research-lab/lab/control.py status'",
+            "cwd": "/Users/vanshkumar/Documents/repos/devo-research-lab",
+            "status": "completed",
+            "exitCode": 0,
+            "durationMs": 0,
+            "output": {
+              "text": "{\n  \"governance\": {\n    \"canary_verified\": false,\n    \"hook_trust_verified\": false,\n    \"reason\": \"Human paused the PI and requested process enforcement. Do not restart automatically.\",\n    \"status\": \"paused\"\n  },\n  \"registry_governance\": {\n    \"status\": \"paused\",\n    \"authority\": \"Human paused canonical PI and requested hard process gates in setup chat 01a18836-d7ba-7243-a87b-50fdbe613db3 on 2026-10-29.\",\n    \"role_policy\": \"PI coordinates and judges; investigators perform all source search, coding, calculations, fitting and scientific diagnostics.\",\n    \"resume_requires\": [\n      \"User reviews/trusts project hooks and reloads project configuration.\",\n      \"Supported-tool role canary demonstrates a PI scientific command is denied.\",\n      \"Interrupted native task ownership and running jobs are reconciled without duplicate dispatch.\",\n      \"User resumes PI explicitly; no automatic restart during repair.\"\n    ]\n  },\n  \"budget\": {\n    \"date\": \"2026-10-29\",\n    \"floor\": 10,\n    \"start_limit\": null,\n    \"cycle_limit\": null,\n    \"starts\": 8,\n    \"cycles\": 7,\n    \"cycle_ids\": []\n  },\n  \"allowance\": null,\n  \"active\": {\n    \"noise-context-feasibility-2026-10-29\": \"unreconciled native assignment\"\n  },\n  \"limitations\": [\n    \"Hooks require trusted project configuration and do not control hosted WebSearch; project config must disable hosted search.\",\n    \"Native subagents share the parent hook session; PI native spawning is denied. Durable worker chats receive distinct actual session IDs.\",\n    \"The functions.exec wrapper is allowed because nested tool calls are individually checked by the platform; verify this with a live canary.\",\n    \"Hash and reviewer-origin checks enforce recorded process, not scientific truth. Controls still need substantive independent assessment.\",\n    \"",
+              "truncated": true,
+              "originalChars": 2156
+            }
+          },
+          {
+            "type": "agentMessage",
+            "id": "msg_07c45c4a25bf5c7e016ae3a2ef445481969144b4493ab0a593",
+            "text": "Both calls succeeded. Usage reported **31% used, 69% remaining**, but controller status still showed `\"allowance\": null`.\n\nFresh PostToolUse capture was **not demonstrated**. Governance remains paused, both verification flags are `false`, and the full canary has **not passed**. I remain paused.",
+            "phase": "final_answer"
+          }
+        ]
+      }
+    ]
+  },
+  "resume_performed": false,
+  "heartbeat_resumed": false
+}

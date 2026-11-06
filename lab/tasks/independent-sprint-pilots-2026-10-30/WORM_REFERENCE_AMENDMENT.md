@@ -1,0 +1,5 @@
+# Reference-only index correction found during review
+
+The initial reference call requested maxlag0 to reproduce the old current-channel/population models, but its generic forecast function also computed unused local-history/population-history fits whose first lag indices wrapped below zero. Only current-only models were retained in the reference output and asserted against the old result. All actual main/control/shift fits started at maxlag10 and never used negative indices; their results are unaffected.
+
+Preserve the initial code as worm_pilot_initial.py. Correct the reference path to compute only current-only models when maxlag<10, and assert every fitted feature's nonnegative indices. The final verifier will rerun this small reference and check unchanged retained scores. No history fit from the erroneous reference path is used in a scientific claim. Remove an equivalent dead conditional in MSE calculation; no numerical formula changes. This is an implementation correction, not a rescued biological gate or an independent validation.

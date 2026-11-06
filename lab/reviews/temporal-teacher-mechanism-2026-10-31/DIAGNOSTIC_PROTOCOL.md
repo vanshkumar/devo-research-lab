@@ -1,0 +1,18 @@
+# Frozen contrary explanation diagnostic
+
+Freeze this file and diagnostic code before running the crossed responses. The initial pair is a separately predetermined reconstruction of the already reported400witness. All subsequent grids use consumed400–407cases; none is a fresh holdout. No teacher/circuit fitting, plant generation or actor rerun is permitted.
+
+Question: can a generic squared feature-distance objective give the wrong temporal correction at imperfect content even when its response contains a distinct timing signal? The alternative is that the measured failures require missing temporal information or an added temporal state. A fixed invertible two-coordinate metric supplies a logical counterexample; actual circuit feature decompositions test its relevance.
+
+For each of8cases, hold the stored tutored circuit, quiet initial state, readout prototype/variance, correct observable target order and common onset0fixed. Use content `target + alpha*(population-selected-content-target)` at alpha0,.5,1. At each content evaluate target stretch plus[-.02,-.005,0,+.005,+.02]. At target stretch also evaluate ±20mssecond-event gap shifts preserving its exposure. This is21candidates/case. No winner-dependent extra grid or threshold search. The target parameters are evaluator-only labels used to construct this diagnostic, not actor information. Compare independently rendered full-template/waveform errors and the unchanged source population objective. Exact target zero is only a built-in positive control.
+
+Repeat the same21candidates on the stored fixed/unplasticized circuit for case400only as a predeclared contrast, not8additional plants. Reintegrate a small source-equation selection, retaining mismatches/failures. All conditions have the same2200msepisode, zeroHVC, fixed1000msquiet-derived initial state and common nuisance phase. Direct samplewise waveform MSE is primary gold; no source segment-loss helper is imported.
+
+For every candidate change at fixed content, decompose its exact cost difference relative to target timing:
+`Delta L = 2 <m_content-m_tutor, Delta m>/V + ||Delta m||^2/V`, with the same1200-coordinate average and stored variance floor. Record nonzero temporal feature distance, cross term, total change and waveform change. A negative cross term that dominates a positive timing term supports generic feature-metric compensation; it does not prove full-response injectivity or identify a biological mechanism. Report wrong preferences only when gold increases. A zero/weak timing feature would instead support a readout-information objection.
+
+Use explicit per-query absolute cost uncertainty bounds eps0,1e-8,1e-6; a preference is robust only if its gap exceeds2eps. These are fixed numerical sensitivity levels, not calibrated neural/noise precision. The actual scalar actor tie/improvement threshold is audited separately. Do not treat double-precision distinctions or episode normalization as biological feedback capacity.
+
+Analytical control: fixed invertible feature map f(c,t)=(c+t,t), target(0,0). At imperfect contentc=.1, comparet=0and−.05. Exact-target cost is0; no information is removed, yet feature cost can prefer the worse true-error point. This is an ordinary metric-geometric counterexample, not a new learning model or theorem.
+
+Independently audit all8primary case denominators and primary summaries, and replay representative complete scalar actor histories using a separate implementation. Gold remains offline. Preserve source protocols and exact code hashes. Report how much the consequential teaching question advanced, distinguishing useful temporal response, target recognition, corrective fidelity and biological novelty.

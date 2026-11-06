@@ -1,0 +1,97 @@
+{
+  "utc": "2026-11-05T17:29:36.857458+00:00",
+  "purpose": "Indispensable minimal check of actual usable ALF measurement codes, finite inputs and within-session chronology; no fitting, forecasting or performance-based eligibility. A footer alone cannot establish these semantics.",
+  "selection": "SHA256 source-measurement-2026-11-05:subject among78 footer-qualified ASD-project subjects; minimum digest, fixed before source response access.",
+  "source_only_subject": "NYU-42",
+  "exclude_entire_subject_from_all_candidate_evaluation": true,
+  "exact_first_session": {
+    "eid": "63cbe4a9-e50d-4045-ad46-3c68eb40aa81",
+    "subject": "NYU-42",
+    "lab": "angelakilab",
+    "date": "2021-02-24",
+    "number": 2,
+    "protocol": "_iblrig_tasks_trainingChoiceWorld6.4.2",
+    "dataset_id": "877adc83-ee57-42a7-9a2e-0cb2259d37cf",
+    "source_url": "https://ibl-brain-wide-map-public.s3.amazonaws.com/data/angelakilab/Subjects/NYU-42/2021-02-24/002/alf/_ibl_trials.table.877adc83-ee57-42a7-9a2e-0cb2259d37cf.pqt",
+    "file_size": 27778,
+    "etag": "2ede2e84ba5f4f86970d3c6c144bd9c4",
+    "footer_sha256": "b9b2d56b15778babb1abcfc75e5eb543a711b29e7f6afb4cc4ade011586468a1",
+    "rows": 273,
+    "row_groups": 1,
+    "columns": [
+      [
+        "schema",
+        null
+      ],
+      [
+        "intervals_0",
+        "DOUBLE"
+      ],
+      [
+        "intervals_1",
+        "DOUBLE"
+      ],
+      [
+        "goCue_times",
+        "DOUBLE"
+      ],
+      [
+        "response_times",
+        "DOUBLE"
+      ],
+      [
+        "choice",
+        "INT64"
+      ],
+      [
+        "stimOn_times",
+        "DOUBLE"
+      ],
+      [
+        "contrastLeft",
+        "DOUBLE"
+      ],
+      [
+        "contrastRight",
+        "DOUBLE"
+      ],
+      [
+        "feedback_times",
+        "DOUBLE"
+      ],
+      [
+        "feedbackType",
+        "INT64"
+      ],
+      [
+        "rewardVolume",
+        "DOUBLE"
+      ],
+      [
+        "probabilityLeft",
+        "DOUBLE"
+      ],
+      [
+        "firstMovement_times",
+        "DOUBLE"
+      ]
+    ],
+    "required_fields_present": true,
+    "start": 0,
+    "stop": 273,
+    "statistics_queried": false,
+    "trial_values_acquired": false
+  },
+  "fields": [
+    "choice",
+    "contrastLeft",
+    "contrastRight",
+    "feedbackType",
+    "probabilityLeft",
+    "rewardVolume",
+    "intervals_0",
+    "intervals_1"
+  ],
+  "rows_declared": 273,
+  "acquisition": "Only exact eight column chunks in this complete initial session plus already saved footer. All values of these eight fields/rows count as consumed source-only exposure. No other animal/session or later field is authorized."
+}

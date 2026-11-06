@@ -1,0 +1,38 @@
+{
+  "utc": "2026-11-05T17:36:09.511927+00:00",
+  "subject": "NYU-42",
+  "eid": "63cbe4a9-e50d-4045-ad46-3c68eb40aa81",
+  "rows": 273,
+  "fields": [
+    "choice",
+    "contrastLeft",
+    "contrastRight",
+    "feedbackType",
+    "probabilityLeft",
+    "rewardVolume",
+    "intervals_0",
+    "intervals_1"
+  ],
+  "checks": {
+    "choice_codes_valid": true,
+    "feedback_codes_valid": true,
+    "probability_finite_and_bounded": true,
+    "contrast_one_side": true,
+    "reward_finite_nonnegative": true,
+    "finite_ordered_intervals": true,
+    "nonzero_feedback_choice_sign_agreement": true,
+    "omissions_not_rewarded": true
+  },
+  "all_passed": true,
+  "source_ingress_bytes": 6232,
+  "no_new_evaluation_outcomes": true,
+  "source_only_exposure": "All273rows/eightfields consumed; entire NYU-42 remains excluded from candidate evaluation. No later rows or other animals.",
+  "io": {
+    "explicit_reads": 36639,
+    "engine_logical_file_charge": 27778,
+    "decoded_array_bytes": 17472
+  },
+  "cpu_seconds": 0.065927,
+  "process_wall_seconds": 0.7237670000176877,
+  "peak_rss_bytes": 73695232
+}

@@ -1,0 +1,54 @@
+{
+  "task": "memory-source-calibration-2026-10-31",
+  "scientific_question": "Source-fixed recorded intervening practice beyond a matched item/person prescription; source calibration tranche only",
+  "primary_publication": {
+    "authors_year": "Upadhyay, Lancashire, Moser and Gomez-Rodriguez (2021)",
+    "title": "Large-scale randomized experiment reveals machine learning helps people learn and remember more effectively",
+    "doi": "https://doi.org/10.1038/s41539-021-00105-8",
+    "pmcid": "PMC8421401",
+    "literature_scope": "Already compares scheduling policies and HLR/POWER; no novelty claim from this compact comparison"
+  },
+  "code_provenance": {
+    "repository": "https://github.com/Human-Centric-Machine-Learning/spaced-selection",
+    "commit": "fb197043c287a3d4f76787a19c023b964e823c7d",
+    "notebook_blob": "4a578ef357d45908c8717204ef78ed212adff7db",
+    "this_run": "No network; prior source-only text/provenance reused; original source code not executed"
+  },
+  "archive_provenance": {
+    "public_endpoint": "https://owncloud.mpi-sws.org/index.php/s/Pgn3Q9N592Z8MgZ/download",
+    "prior_receipt_bytes": 572563931,
+    "prior_local_sha256": "b582da91b05e16dbda0fb14b52118e41b6f0f566a457c8991a0fa2859179c6af",
+    "this_run_archive_reads": 0,
+    "boundary": "Corrected previously accounted cached pass through May31,2020; not full later archive coverage",
+    "license": "Archive-specific redistribution license not established in saved retrieval; no data redistribution performed",
+    "prior_source_record": "sources/memory_policy_transfer_2026-10-30/PROVENANCE.md"
+  },
+  "actual_cache_inputs": [
+    {
+      "path": "sources/memory_policy_transfer_2026-10-30/metadata_sorted.npy",
+      "bytes": 67265856,
+      "sha256_verified_this_run": "b6ece5e1c7525e0027679b545ab07167772f559adf9cc74c44f405c8f689d9fe",
+      "typed_allowlist": ["uid", "item", "time", "install", "arm", "count", "ordinal"],
+      "excluded_values": ["category", "mode", "sequence"]
+    },
+    {
+      "path": "sources/memory_policy_transfer_2026-10-30/opaque_answers/arm_02.tsv.gz",
+      "random_arm_code": 2,
+      "compressed_bytes_per_scan": 2517030,
+      "inflated_bytes_per_scan": 6255236,
+      "scans": 2,
+      "sha256_verified_this_run": "77aa272fb8eaf6f8f253002aa417025e53603bd86415eb2830e91b0c394c9f13",
+      "only_converted_value": "Binary correct after exact permitted focal-ordinal allowlisting; fit first, validation only after freeze"
+    }
+  ],
+  "frozen_candidate": {
+    "definition": "lab/reviews/memory-readiness-2026-10-30/CANDIDATE_FREEZE.md",
+    "metadata_and_exact_ids": "lab/reviews/memory-readiness-2026-10-30/CANDIDATE_READINESS.json",
+    "comparison": "lab/reviews/memory-readiness-2026-10-30/FUTURE_COMPARISON.md",
+    "verified_pins": ["INITIAL_FREEZE.json", "FIT_FREEZE.json", "FINAL_CHECKS.json"],
+    "item_bank_and_folds": "METADATA_CHECK.json",
+    "cohort_changes": 0
+  },
+  "protected": "Target correct/reply/predictions/scoring; nonrandom shards; Pan20/Flesch/HABITS/reserved worms; original sources/reviews/freezes unchanged",
+  "owned_outputs": "lab/tasks/memory-source-calibration-2026-10-31 only"
+}

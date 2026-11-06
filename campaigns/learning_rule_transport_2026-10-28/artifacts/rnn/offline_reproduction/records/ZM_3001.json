@@ -1,0 +1,179 @@
+{
+  "subject": "ZM_3001",
+  "split": "animal_holdout",
+  "particles": 512,
+  "prefix_n": 1000,
+  "horizon": 5000,
+  "model_sha256": "c7f675d18f4143891ed7d2c76d91f74be74da9565fbae5407952768e2c146940",
+  "forecast_path": "artifacts/forecasts/rnn_source_animals/ZM_3001__rnnglm32.npz",
+  "forecast_sha256": "ca25acf55b385e6c62ffd52824626694ac3e51dab6cbab63243f65aeabfbc2ed",
+  "metadata_sha256": "cc5ecfe85a7fd2b47ff292f4303d0dd921471b0f29c44469054e085590272129",
+  "seed": 40696096,
+  "exact": true,
+  "max_abs_difference": 0.0,
+  "arrays": {
+    "samples": {
+      "exact": true,
+      "shape": [
+        512,
+        10,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "8c771c6f466fb34de2716a6ac3ffa8808351ba7e2ef2fbfdfc02e166eb34ff1d",
+      "saved_array_sha256": "8c771c6f466fb34de2716a6ac3ffa8808351ba7e2ef2fbfdfc02e166eb34ff1d"
+    },
+    "samples_primary": {
+      "exact": true,
+      "shape": [
+        512,
+        10,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "8c771c6f466fb34de2716a6ac3ffa8808351ba7e2ef2fbfdfc02e166eb34ff1d",
+      "saved_array_sha256": "8c771c6f466fb34de2716a6ac3ffa8808351ba7e2ef2fbfdfc02e166eb34ff1d"
+    },
+    "weights": {
+      "exact": true,
+      "shape": [
+        512,
+        10,
+        3
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "1bf017d3e7a769e0d9ad4f5ade6770eea134578946e0ce670eaede8b591e28d2",
+      "saved_array_sha256": "1bf017d3e7a769e0d9ad4f5ade6770eea134578946e0ce670eaede8b591e28d2"
+    },
+    "hidden_final": {
+      "exact": true,
+      "shape": [
+        512,
+        32
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "3e2fc53e193455a93b5c7439858ce65f882d7792348fee3816be45c0e559063c",
+      "saved_array_sha256": "3e2fc53e193455a93b5c7439858ce65f882d7792348fee3816be45c0e559063c"
+    },
+    "counts": {
+      "exact": true,
+      "shape": [
+        512,
+        10,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "4767a6da7e381cbf4170b64d11c2698dcdfd18db0576678a47929f2ba1f269d0",
+      "saved_array_sha256": "4767a6da7e381cbf4170b64d11c2698dcdfd18db0576678a47929f2ba1f269d0"
+    },
+    "pool_fraction": {
+      "exact": true,
+      "shape": [
+        10,
+        6
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "a8baf178d53680fd1d0e5fbfb3299286ccff81b53a094f516a02b8763afd09a4",
+      "saved_array_sha256": "a8baf178d53680fd1d0e5fbfb3299286ccff81b53a094f516a02b8763afd09a4"
+    },
+    "session_start": {
+      "exact": true,
+      "shape": [
+        5000
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "e51a0124b5357b7c38070201986438cf02db800daea57e08f7a6c9d57e70b8b7",
+      "saved_array_sha256": "e51a0124b5357b7c38070201986438cf02db800daea57e08f7a6c9d57e70b8b7"
+    },
+    "seed": {
+      "exact": true,
+      "shape": [],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "3b2783e5980a37dcd90baa367b0171bd28eed6b11ea7f27037de4963cfb28916",
+      "saved_array_sha256": "3b2783e5980a37dcd90baa367b0171bd28eed6b11ea7f27037de4963cfb28916"
+    }
+  },
+  "original_prefix_objects": [
+    {
+      "path": "data/sealed/animal_holdout/ZM_3001/2020-02-11_001_2599b64e-247f-46e9-a753-5e64dac3e7f6_table.pqt",
+      "bytes": 22973,
+      "sha256": "8e20e5d110db1111d5b51367a8fb6742ec606016ac6eacc6f61651c9efef4269",
+      "md5": "f96e0286cc1b1ff1007338f63e3b49df",
+      "published_md5": "f96e0286cc1b1ff1007338f63e3b49df"
+    },
+    {
+      "path": "data/sealed/animal_holdout/ZM_3001/2020-02-11_001_2599b64e-247f-46e9-a753-5e64dac3e7f6_repNum.npy",
+      "bytes": 1704,
+      "sha256": "8302cd67585eeafd7da53757a9899ac2c20d016f99dc4064a0a77b1c77b02c9d",
+      "md5": "7343acdf62490cb39f513cb8adae287e",
+      "published_md5": "7343acdf62490cb39f513cb8adae287e"
+    },
+    {
+      "path": "data/sealed/animal_holdout/ZM_3001/2020-02-12_001_a925b5da-0964-4f03-b063-9f26763a7f37_table.pqt",
+      "bytes": 29385,
+      "sha256": "d26561f70476b38b1a3932c0991048ae3c84973db3958a6ea99defac76a142e2",
+      "md5": "d61ffab8ab9f9f7507830c1b4db7987f",
+      "published_md5": "d61ffab8ab9f9f7507830c1b4db7987f"
+    },
+    {
+      "path": "data/sealed/animal_holdout/ZM_3001/2020-02-12_001_a925b5da-0964-4f03-b063-9f26763a7f37_repNum.npy",
+      "bytes": 2464,
+      "sha256": "d93b58dcc6536b7610e6f2fc1757aff92a343820dd1ca67075d319adf7ddaf15",
+      "md5": "b9cd6b9f1118b15526f7b0c7f4f60fdb",
+      "published_md5": "b9cd6b9f1118b15526f7b0c7f4f60fdb"
+    },
+    {
+      "path": "data/sealed/animal_holdout/ZM_3001/2020-02-13_001_72b9f74b-368a-4613-a78e-e404266391d6_table.pqt",
+      "bytes": 24894,
+      "sha256": "d366a3aa0d7532d3f600040b2acd644eaec4077e84a8a60cd23d7683117c048d",
+      "md5": "13a67c0663dbd5816798c400e3c80cfd",
+      "published_md5": "13a67c0663dbd5816798c400e3c80cfd"
+    },
+    {
+      "path": "data/sealed/animal_holdout/ZM_3001/2020-02-13_001_72b9f74b-368a-4613-a78e-e404266391d6_repNum.npy",
+      "bytes": 1944,
+      "sha256": "0859697ef05e937c22a5d852a7d688d34bd7b0c928696af0f0b1564ae647d0c9",
+      "md5": "df541a5b57dab56f6fc9d7f514485648",
+      "published_md5": "df541a5b57dab56f6fc9d7f514485648"
+    },
+    {
+      "path": "data/sealed/animal_holdout/ZM_3001/2020-02-14_001_59ba3bf5-d937-4497-a9d6-b79f28ce9076_table.pqt",
+      "bytes": 24605,
+      "sha256": "2ff0b93f5c23bb1914ac6408d3be7fd4c3a424e33a2a369be432ceb956ffb939",
+      "md5": "0ee2974558469df64c2ef1d5607a3b92",
+      "published_md5": "0ee2974558469df64c2ef1d5607a3b92"
+    },
+    {
+      "path": "data/sealed/animal_holdout/ZM_3001/2020-02-14_001_59ba3bf5-d937-4497-a9d6-b79f28ce9076_repNum.npy",
+      "bytes": 1912,
+      "sha256": "65260b11c22d3b0bea150c1e376b20b6439807e86aa348e87c5a25d80eb350e8",
+      "md5": "eea4c80ab674c1864aec0b1a4c4f4755",
+      "published_md5": "eea4c80ab674c1864aec0b1a4c4f4755"
+    },
+    {
+      "path": "data/sealed/animal_holdout/ZM_3001/2020-02-17_001_20cf1e45-a496-4f06-a175-b1053799c9ce_table.pqt",
+      "bytes": 30163,
+      "sha256": "ae813b73678a209f897a99218a98d5867197907f4d77fbf43038c21b8cc3e580",
+      "md5": "8c1f9ee9002e0e25ce4c8f88404bc984",
+      "published_md5": "8c1f9ee9002e0e25ce4c8f88404bc984"
+    },
+    {
+      "path": "data/sealed/animal_holdout/ZM_3001/2020-02-17_001_20cf1e45-a496-4f06-a175-b1053799c9ce_repNum.npy",
+      "bytes": 2568,
+      "sha256": "d2fd7b63c127c8e9910dda4c0ce3c239f7e2074383ab3ba516b1ee41f1dea04e",
+      "md5": "e1338fa7bbd2633bde3c4ac3f44a57f0",
+      "published_md5": "e1338fa7bbd2633bde3c4ac3f44a57f0"
+    }
+  ],
+  "prefix_rows_per_session": [
+    197,
+    292,
+    227,
+    223,
+    61
+  ],
+  "opportunity_source": "pinned footer counts only",
+  "future_outcomes_read": false,
+  "external_outcomes_read": false,
+  "seconds": 4.419968624977628
+}

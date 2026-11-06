@@ -1,0 +1,5 @@
+# Initial decoder correction
+
+The initial FIRST_DATA_CHECK.json decoded the first numeric case correctly, but rendered SPSS string slots as floating-point bit patterns and included unnamed continuation slots. That initial output is retained. The reader was corrected before expanded outcomes and any main freeze. SAMPLE_CERTIFICATION.json from the actual executed certify_sample.py reconstructs File=proef1, condition=Control and matching PP_number=1 in both channels, and checks33raw-to-SAV ratings. SOURCE_CERTIFICATION.json verifies60unique participant IDs and matching counterbalancing; PP120 has blank SCR condition, retained explicitly.
+
+AUTHOR_AUDIT_PRE.json verifies1,320development raw-to-SAV ratings and3,067source scoring calculations, with exact source square-root reproduction and bit-exact forecast invariance to replaced future outcomes. These are author checks, not independent scientific review. Existing frozen source ZIP bytes are unchanged. Rerunning first_data_check.py now emits corrected strings and would overwrite its historical output; use a copied output directory or the later certify_sample.py for reproducibility.

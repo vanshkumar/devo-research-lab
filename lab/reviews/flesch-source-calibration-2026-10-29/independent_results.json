@@ -1,0 +1,223 @@
+{
+  "finite_state_witness": {
+    "events": 5,
+    "training_events": 1,
+    "test_nonboundary_events": 3,
+    "late_probability": 0.07,
+    "finite_timeout_probability": 0.11,
+    "mixture_acceptance": 0.41353566893623356,
+    "correct_selected_trajectory_probability": 0.0036633460532271424,
+    "wrong_selected_trajectory_probability": 0.0036919196091021902,
+    "exact_mass": "1"
+  },
+  "source_audit": {
+    "people": 95,
+    "fit_people": 71,
+    "check_people": 24,
+    "groups": {
+      "B2": 40,
+      "B20": 41,
+      "B200": 48,
+      "Interleaved": 47
+    },
+    "timing_all": {
+      "0": 56561,
+      "1": 6,
+      "2": 433
+    },
+    "timing_fit": {
+      "0": 42330,
+      "1": 0,
+      "2": 270
+    },
+    "timing_check": {
+      "0": 14231,
+      "1": 6,
+      "2": 163
+    },
+    "min_test_correct": 110,
+    "max_test_correct": 159,
+    "target_response_values_read": 0
+  },
+  "first_start_source_scores": {
+    "sgd_oja": {
+      "B200": {
+        "energy_score": 0.6003353885266959,
+        "population_curve_mae_pp": 22.64281035051903
+      },
+      "Interleaved": {
+        "energy_score": 0.3939098772492884,
+        "population_curve_mae_pp": 14.404779875067725
+      }
+    },
+    "context_value": {
+      "B200": {
+        "energy_score": 0.25025804910137744,
+        "population_curve_mae_pp": 10.355862598705153
+      },
+      "Interleaved": {
+        "energy_score": 0.18058663690463225,
+        "population_curve_mae_pp": 2.44548631915711
+      }
+    },
+    "exposure_growth": {
+      "B200": {
+        "energy_score": 0.24605312960541403,
+        "population_curve_mae_pp": 10.411862327372177
+      },
+      "Interleaved": {
+        "energy_score": 0.18181263227208366,
+        "population_curve_mae_pp": 2.8005089375138486
+      }
+    }
+  },
+  "first_start_learner_growth_energy_advantage": -0.0014894620642559784,
+  "reviewed_hashes_before": {
+    "sources/flesch_source_calibration_2026-10-29/learning.py": "d2209e2125152e3ca96d10071d6d1bd9ccf074543aa5ec21faa4bb1a1d3c5c27",
+    "sources/flesch_source_calibration_2026-10-29/fit.py": "a9e31476d0fa92484a3f05069eccf1c2f6e19427943362a09cbdac17c1cedfaf",
+    "sources/flesch_source_calibration_2026-10-29/forecast.py": "14ee7c1e4f9765c7f7bbcc387a8b0a7ced3037de3e96de15e6e84687a3fe7c06",
+    "lab/tasks/flesch-source-calibration-2026-10-29/DESIGN.md": "fccb405b92048115d6b17c7a81705eb8f6123c1db54602ec0169269f102d3d79",
+    "lab/tasks/flesch-source-calibration-2026-10-29/MASKS.json": "e98284e8b3fee6374eb294a2dff06ab094df2d30c82d8bf69b658ad8899e4d94"
+  },
+  "reviewed_hashes_after": {
+    "sources/flesch_source_calibration_2026-10-29/learning.py": "d2209e2125152e3ca96d10071d6d1bd9ccf074543aa5ec21faa4bb1a1d3c5c27",
+    "sources/flesch_source_calibration_2026-10-29/fit.py": "a9e31476d0fa92484a3f05069eccf1c2f6e19427943362a09cbdac17c1cedfaf",
+    "sources/flesch_source_calibration_2026-10-29/forecast.py": "14ee7c1e4f9765c7f7bbcc387a8b0a7ced3037de3e96de15e6e84687a3fe7c06",
+    "lab/tasks/flesch-source-calibration-2026-10-29/DESIGN.md": "fccb405b92048115d6b17c7a81705eb8f6123c1db54602ec0169269f102d3d79",
+    "lab/tasks/flesch-source-calibration-2026-10-29/MASKS.json": "e98284e8b3fee6374eb294a2dff06ab094df2d30c82d8bf69b658ad8899e4d94"
+  },
+  "checks": [
+    {
+      "name": "rational history/count mass and DP type 0",
+      "passed": true,
+      "exact_acceptance": "10957686432607381/24414062500000000",
+      "implementation_acceptance": 0.4488268362795983
+    },
+    {
+      "name": "rational history/count mass and DP type 1",
+      "passed": true,
+      "exact_acceptance": "77322282278232653/195312500000000000",
+      "implementation_acceptance": 0.39589008526455116
+    },
+    {
+      "name": "ratio-of-integrals selected law normalizes exactly",
+      "passed": true,
+      "trajectory_probability_correct": 0.0036633460532271424,
+      "wrong_average_of_truncations": 0.0036919196091021902,
+      "preselection_type_weights": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "selected_type_weights": [
+        0.3617800268871177,
+        0.6382199731128824
+      ]
+    },
+    {
+      "name": "complete observed history density type 0",
+      "passed": true
+    },
+    {
+      "name": "complete observed history density type 1",
+      "passed": true
+    },
+    {
+      "name": "helper versus omissions-as-errors witness",
+      "passed": true
+    },
+    {
+      "name": "pre-feedback full network prescription versus vector reconstruction",
+      "passed": true,
+      "max_abs_error": 1.3322676295501878e-15
+    },
+    {
+      "name": "first emission hides its feedback; later state receives it",
+      "passed": true
+    },
+    {
+      "name": "test feedback hidden throughout",
+      "passed": true
+    },
+    {
+      "name": "continued test EMA sensitivity distinct and correctly implemented",
+      "passed": true
+    },
+    {
+      "name": "independent input-derived groups match frozen masks",
+      "passed": true
+    },
+    {
+      "name": "response archive restricted to 95 source columns",
+      "passed": true
+    },
+    {
+      "name": "independent hashed split B200",
+      "passed": true
+    },
+    {
+      "name": "independent hashed split Interleaved",
+      "passed": true
+    },
+    {
+      "name": "all source helper eligibility and fixed N=160 primary",
+      "passed": true
+    },
+    {
+      "name": "original response correctness reconciles without deletion",
+      "passed": true
+    },
+    {
+      "name": "original chosen reward agrees for valid responses",
+      "passed": true
+    },
+    {
+      "name": "saved source score columns and raw-observed curves agree",
+      "passed": true
+    },
+    {
+      "name": "independent saved energy/MAE sgd_oja B200",
+      "passed": true
+    },
+    {
+      "name": "independent saved energy/MAE sgd_oja Interleaved",
+      "passed": true
+    },
+    {
+      "name": "independent saved energy/MAE context_value B200",
+      "passed": true
+    },
+    {
+      "name": "independent saved energy/MAE context_value Interleaved",
+      "passed": true
+    },
+    {
+      "name": "independent saved energy/MAE exposure_growth B200",
+      "passed": true
+    },
+    {
+      "name": "independent saved energy/MAE exposure_growth Interleaved",
+      "passed": true
+    },
+    {
+      "name": "pre-response frozen bytes lab/tasks/flesch-source-calibration-2026-10-29/DESIGN.md",
+      "passed": true
+    },
+    {
+      "name": "pre-response frozen bytes lab/tasks/flesch-source-calibration-2026-10-29/MASKS.json",
+      "passed": true
+    },
+    {
+      "name": "pre-response frozen bytes sources/flesch_source_calibration_2026-10-29/inputs_only.npz",
+      "passed": true
+    },
+    {
+      "name": "review process remains below 512 MB RSS",
+      "passed": true
+    }
+  ],
+  "passed": 27,
+  "elapsed_seconds": 2.047889232635498,
+  "max_rss_bytes": 107347968,
+  "memory_cap_bytes": 536870912,
+  "scientific_gate": "not established: no full-pipeline known-effect/null refit or complete sensitivity envelope checked"
+}

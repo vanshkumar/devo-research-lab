@@ -1,0 +1,284 @@
+{
+  "scope": "Prespecified endpoint-level sensitivity; main analysis unchanged. Reserved INPUT schedules only.",
+  "inference": "Same participant-cluster CR1 and Welch set pooling as primary; all five pre/future eligibility masks retained.",
+  "operators_verified_max_difference": 8.326672684688674e-17,
+  "replicates": 300,
+  "paired_to_original": true,
+  "analysis_sha256": "45d7e7f3630e824f97dd025fc11daafe28c5834018c4112413e9e17e3f2bddfc",
+  "scenarios": {
+    "two_timescale_null": {
+      "replicates": 300,
+      "mean_estimate": 0.005661570461750194,
+      "mean_physical_truth": 0.0,
+      "mean_noiseless_projection": 0.006219012967584367,
+      "bias_to_physical": 0.005661570461750194,
+      "mean_projection_bias": 0.006219012967584367,
+      "rmse": 0.1699030365398601,
+      "empirical_sd": 0.1700924058675687,
+      "mean_se": 0.16518180975751356,
+      "coverage_physical": {
+        "rate": 0.94,
+        "n": 282,
+        "total": 300,
+        "binomial95": [
+          0.9068297039280113,
+          0.9640561255848612
+        ]
+      },
+      "coverage_noiseless_projection": {
+        "rate": 0.94,
+        "n": 282,
+        "total": 300,
+        "binomial95": [
+          0.9068297039280113,
+          0.9640561255848612
+        ]
+      },
+      "reject_zero": {
+        "rate": 0.06,
+        "n": 18,
+        "total": 300,
+        "binomial95": [
+          0.035943874415138764,
+          0.09317029607198865
+        ]
+      },
+      "correct_sign_detection": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "intervals_inside_02": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "falsely_inside_02_at_or_beyond_margin": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "mean_curve": [
+        0.018659395707139,
+        0.013613199672495696,
+        0.007101680709683471,
+        0.001342097421192307,
+        -0.012408521201759523
+      ],
+      "physical_curve": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kind": "two_timescale",
+      "isolated_reference_effect": 0.0,
+      "gains": [
+        0.65,
+        0.2
+      ],
+      "change_comparison": {
+        "original_mean_se": 0.22753027423716854,
+        "original_detection": 0.05,
+        "mean_paired_estimate_difference": 0.02495533897415652,
+        "se_ratio": 0.7259772806555606
+      }
+    },
+    "actual_margin_negative": {
+      "replicates": 300,
+      "mean_estimate": -0.17076735986597535,
+      "mean_physical_truth": -0.20031158334957203,
+      "mean_noiseless_projection": -0.18182790112364586,
+      "bias_to_physical": 0.029544223483596657,
+      "mean_projection_bias": 0.01848368222592615,
+      "rmse": 0.17895912604031408,
+      "empirical_sd": 0.17778905841645182,
+      "mean_se": 0.16929610282365662,
+      "coverage_physical": {
+        "rate": 0.9433333333333334,
+        "n": 283,
+        "total": 300,
+        "binomial95": [
+          0.9108195955658341,
+          0.9666466884833183
+        ]
+      },
+      "coverage_noiseless_projection": {
+        "rate": 0.9366666666666666,
+        "n": 281,
+        "total": 300,
+        "binomial95": [
+          0.9028618033928502,
+          0.9614419801716234
+        ]
+      },
+      "reject_zero": {
+        "rate": 0.16333333333333333,
+        "n": 49,
+        "total": 300,
+        "binomial95": [
+          0.12334431516706613,
+          0.21012027379924478
+        ]
+      },
+      "correct_sign_detection": {
+        "rate": 0.16,
+        "n": 48,
+        "total": 300,
+        "binomial95": [
+          0.1203891479291004,
+          0.20647880175947259
+        ]
+      },
+      "intervals_inside_02": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "falsely_inside_02_at_or_beyond_margin": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "mean_curve": [
+        -0.42096686182218523,
+        -0.22623291972236662,
+        -0.13055916938739784,
+        -0.03817297076789448,
+        -0.03790487763003263
+      ],
+      "physical_curve": [
+        -0.48943825026922033,
+        -0.26083580347421,
+        -0.1387863588063039,
+        -0.07339811369148351,
+        -0.0390993905066422
+      ],
+      "kind": "retention",
+      "isolated_reference_effect": -0.24684887163760752,
+      "gains": [
+        0.9,
+        0.2
+      ],
+      "change_comparison": {
+        "original_mean_se": 0.23486345342189283,
+        "original_detection": 0.17666666666666667,
+        "mean_paired_estimate_difference": 0.05028035789447371,
+        "se_ratio": 0.7208277846427836
+      }
+    },
+    "actual_margin_positive": {
+      "replicates": 300,
+      "mean_estimate": 0.18160271317335042,
+      "mean_physical_truth": 0.20034508609844048,
+      "mean_noiseless_projection": 0.1803980271934196,
+      "bias_to_physical": -0.01874237292509009,
+      "mean_projection_bias": -0.019947058905020888,
+      "rmse": 0.1527978934236454,
+      "empirical_sd": 0.15215142131402717,
+      "mean_se": 0.16709018052239846,
+      "coverage_physical": {
+        "rate": 0.9733333333333334,
+        "n": 292,
+        "total": 300,
+        "binomial95": [
+          0.9481341880389177,
+          0.9884184322456648
+        ]
+      },
+      "coverage_noiseless_projection": {
+        "rate": 0.9766666666666667,
+        "n": 293,
+        "total": 300,
+        "binomial95": [
+          0.9525174349702455,
+          0.9905684979382052
+        ]
+      },
+      "reject_zero": {
+        "rate": 0.13,
+        "n": 39,
+        "total": 300,
+        "binomial95": [
+          0.09410119063157005,
+          0.17340483944723317
+        ]
+      },
+      "correct_sign_detection": {
+        "rate": 0.13,
+        "n": 39,
+        "total": 300,
+        "binomial95": [
+          0.09410119063157005,
+          0.17340483944723317
+        ]
+      },
+      "intervals_inside_02": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "falsely_inside_02_at_or_beyond_margin": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "mean_curve": [
+        0.29303507294101,
+        0.24775892760047416,
+        0.1914404294303442,
+        0.09351278470165211,
+        0.08226635119327166
+      ],
+      "physical_curve": [
+        0.3404009658192004,
+        0.24897278086790242,
+        0.18197895948235185,
+        0.1329961040161007,
+        0.09737662030664734
+      ],
+      "kind": "retention",
+      "isolated_reference_effect": 0.17164966095840714,
+      "gains": [
+        0.9,
+        0.2
+      ],
+      "change_comparison": {
+        "original_mean_se": 0.23073515694654576,
+        "original_detection": 0.11,
+        "mean_paired_estimate_difference": -0.03703938271098972,
+        "se_ratio": 0.7241643741404702
+      }
+    }
+  },
+  "seconds": 34.235004901885986
+}

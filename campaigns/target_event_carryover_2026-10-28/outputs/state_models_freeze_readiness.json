@@ -1,0 +1,81 @@
+{
+  "development_only": true,
+  "reserved_and_external_outcomes_accessed": false,
+  "invariance": [
+    {
+      "frozen_file": "state_models_frozen_predictions.json",
+      "model": "restricted",
+      "max_forecast_change_under_arbitrary_main_outcomes": 0.0,
+      "max_error_from_one_degree_baseline_shift": 1.7763568394002505e-15
+    },
+    {
+      "frozen_file": "state_models_frozen_predictions.json",
+      "model": "alternative",
+      "max_forecast_change_under_arbitrary_main_outcomes": 0.0,
+      "max_error_from_one_degree_baseline_shift": 8.881784197001252e-16
+    },
+    {
+      "frozen_file": "state_models_fgls_frozen_predictions.json",
+      "model": "restricted",
+      "max_forecast_change_under_arbitrary_main_outcomes": 0.0,
+      "max_error_from_one_degree_baseline_shift": 8.881784197001252e-16
+    },
+    {
+      "frozen_file": "state_models_fgls_frozen_predictions.json",
+      "model": "alternative",
+      "max_forecast_change_under_arbitrary_main_outcomes": 0.0,
+      "max_error_from_one_degree_baseline_shift": 1.7763568394002505e-15
+    }
+  ],
+  "fabricated_equal_set_scoring_check": {
+    "mean_person_mse_gain": 4.5,
+    "se": 0.67700320038633,
+    "df": 18.0,
+    "ci95": [
+      3.077669054994692,
+      5.922330945005308
+    ],
+    "set_summaries": [
+      {
+        "file": "A",
+        "set": "A",
+        "n_people": 10,
+        "mean_person_mse_gain": -15.5,
+        "se": 0.9574271077563381,
+        "mean_variance": 0.9166666666666666,
+        "df": 9
+      },
+      {
+        "file": "B",
+        "set": "B",
+        "n_people": 10,
+        "mean_person_mse_gain": 24.5,
+        "se": 0.9574271077563381,
+        "mean_variance": 0.9166666666666666,
+        "df": 9
+      }
+    ],
+    "inference": "Equal fixed-source means; within-source participant variances and Welch-Satterthwaite degrees of freedom."
+  },
+  "provenance_refresh_unchanged_fit": [
+    {
+      "file": "state_models_development.json",
+      "parameter_and_curve_change": 0.0
+    },
+    {
+      "file": "state_models_fgls_development.json",
+      "parameter_and_curve_change": 0.0
+    }
+  ],
+  "sha256": {
+    "experiments/state_models.py": "5a4c40635e0dfa6327a10345bb7681db4787d7637a18d8b92c8737ce3f99d9ac",
+    "audits/state_models/gls_repair.py": "65b1cdab94884bcf543301d6c96c66d2220fef6bfe7f7cd0654cb7668b36147f",
+    "outputs/state_models_frozen_predictions.json": "304d4160a282385fe539fac47d7d09a939069166df613ba7718550c3dc01749b",
+    "outputs/state_models_fgls_frozen_predictions.json": "e96b4da4f18af855c683102e7f8bc40dd1004363141de2042e9ac48b376598ae",
+    "protocol/split.json": "a42404ce2e35b1cd84f3a4df36c0e8c4da15a66d61e486afd19b113fcc443dba"
+  },
+  "post_release_commands": [
+    ".venv/bin/python campaigns/target_event_carryover_2026-10-28/experiments/state_models.py evaluate",
+    ".venv/bin/python campaigns/target_event_carryover_2026-10-28/audits/state_models/gls_repair.py evaluate"
+  ]
+}

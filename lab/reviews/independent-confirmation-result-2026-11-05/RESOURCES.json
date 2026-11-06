@@ -1,0 +1,173 @@
+{
+  "reviewer_thread_id": "01a1ad51-1d94-7db3-bb83-14bb7964da90",
+  "reviewer_goal_created_at": 1793909166,
+  "native_dispatch_utc": "2026-11-05T20:05:37Z",
+  "dispatched_elapsed_deadline_utc": "2026-11-05T22:35:37Z",
+  "code_conservative_elapsed_check_utc": "2026-11-05T22:32:57Z",
+  "release": {
+    "elapsed_seconds": 9000,
+    "science_CPU_seconds": 3600,
+    "explicit_nominal_decoded_read_bytes": 2000000000,
+    "public_ingress_bytes": 0,
+    "whole_study_RSS_ceiling_bytes": 3000000000,
+    "whole_study_storage_ceiling_bytes": 4000000000,
+    "human_reserve_percent": 25
+  },
+  "usage_observations": [
+    {
+      "stage": "pre-goal",
+      "receipt": "GOAL_START.json"
+    },
+    {
+      "stage": "scope",
+      "utc": "2026-11-05 20:08:36 UTC",
+      "ordinaryUsageAllowed": true,
+      "primary": {
+        "usedPercent": 44,
+        "windowDurationMins": 10080,
+        "resetsAt": 1794445923
+      },
+      "secondary": null,
+      "individual": null,
+      "weekly_percent_remaining": 56
+    },
+    {
+      "stage": "before_body_projection",
+      "utc": "2026-11-05 20:13:33 UTC",
+      "ordinaryUsageAllowed": true,
+      "primary": {
+        "usedPercent": 44,
+        "windowDurationMins": 10080,
+        "resetsAt": 1794445923
+      },
+      "secondary": null,
+      "individual": null,
+      "weekly_percent_remaining": 56
+    },
+    {
+      "stage": "before_saved_count_pass",
+      "utc": "2026-11-05 20:18:20 UTC",
+      "ordinaryUsageAllowed": true,
+      "primary": {
+        "usedPercent": 45,
+        "windowDurationMins": 10080,
+        "resetsAt": 1794445923
+      },
+      "secondary": null,
+      "individual": null,
+      "weekly_percent_remaining": 55
+    },
+    {
+      "stage": "completed_scientific_output_checkpoint",
+      "utc": "2026-11-05 20:22:21 UTC",
+      "ordinaryUsageAllowed": true,
+      "primary": {
+        "usedPercent": 46,
+        "windowDurationMins": 10080,
+        "resetsAt": 1794445923
+      },
+      "secondary": null,
+      "individual": null,
+      "weekly_percent_remaining": 54
+    }
+  ],
+  "terminal_jobs": [
+    {
+      "job": "Initial chronology attempt",
+      "receipt": "CHRONOLOGY_RESOURCE.json",
+      "log": "CHRONOLOGY.log",
+      "pid": 89823,
+      "status": "failed_and_terminal",
+      "cpu_seconds": 0.330434,
+      "read_decode_bytes": 74942888,
+      "public_ingress_bytes": 0,
+      "details": "One previously acquired NYU-02 aggregate (59,068 rows, same eight fields and session IDs) was projected before a reviewer metadata-key lookup failed. Its body/projection/hash and forecast-input cache charges remain counted. The outer shell also rejected a read-only status variable after the Python failure. The empty per-object ledger is retained in CHRONOLOGY_INITIAL_DECODE.jsonl."
+    },
+    {
+      "job": "Corrected independent chronology and input boundary",
+      "receipt": "CHRONOLOGY_VERIFIED_RESOURCE.json",
+      "log": "CHRONOLOGY_VERIFIED.log",
+      "pid": 89853,
+      "status": "complete_and_terminal",
+      "exit_code": 0,
+      "cpu_seconds": 1.665286,
+      "read_decode_bytes": 1541686164,
+      "public_ingress_bytes": 0
+    },
+    {
+      "job": "Independent score and one reassignment pass",
+      "receipt": "SCORES_RESOURCE.json",
+      "log": "SCORES.log",
+      "pid": 89957,
+      "status": "complete_and_terminal",
+      "exit_code": 0,
+      "cpu_seconds": 2.65032,
+      "read_decode_bytes": 189664754,
+      "public_ingress_bytes": 0
+    }
+  ],
+  "all_science_jobs_terminal": true,
+  "accounting": {
+    "measured_science_CPU_seconds": 4.64604,
+    "measured_peak_RSS_bytes": 375652352,
+    "recorded_explicit_nominal_decoded_read_bytes": 1806293806,
+    "conservative_context_failed_wrapper_and_closeout_booking": {
+      "read_decode_bytes": 120000000,
+      "cpu_seconds": 10,
+      "basis": "Conservative booking for context text and metadata inspection, command probes, validation of compact derived artifacts and closeout. Separate from actual measured stage charges. Interpreter imports, engine internal buffers and file-system/cache/provider I/O lack measurement."
+    },
+    "cumulative_booked_CPU_seconds": 14.64604,
+    "cumulative_booked_read_decode_bytes": 1926293806,
+    "booked_read_decode_headroom_bytes": 73706194,
+    "total_review_public_ingress_bytes": 0,
+    "own_storage_bytes_before_terminal_accounting": 2000427,
+    "physical_provider_import_IO": "unknown",
+    "shared_model_cost_attribution": "unknown; actual account allowance snapshots retained",
+    "scoped_budget_test": "Recorded charges plus conservative booking are within the independent review ceiling. Separate numerical revision and closeout resources were unused."
+  },
+  "exposure": {
+    "authority": "BRIEF.md and the exact released author footprint, measurement amendment, prior named source records and saved forecast banks/counts.",
+    "full_body_SHA256_verifications": 802,
+    "footprint_unique_rows_projected": 4943360,
+    "main_rows": 576000,
+    "auxiliary_rows": 4367360,
+    "aggregate_session_identity_rows": 4694243,
+    "object_breakdown": {
+      "subject_aggregates": 116,
+      "ASD_sessions": 686
+    },
+    "projected_numeric_fields": [
+      "contrastLeft",
+      "contrastRight",
+      "choice",
+      "feedbackType",
+      "rewardVolume",
+      "probabilityLeft",
+      "intervals_0",
+      "intervals_1"
+    ],
+    "identity_fields": "Aggregate session UUIDs; physical row order. Per-session object identity joins to released metadata.",
+    "repeat_failed_projection_rows": 59068,
+    "per_object_complete_ledger": "REVIEW_DECODE.jsonl",
+    "forecast_count_chunks": {
+      "main": 192,
+      "source_contrary": 384
+    },
+    "holdout_scope": "Full physically acquired body exposure and whole authorized auxiliary projection survive. Additional raw fields, modern11, excluded/source-only and old/protected raw outcomes remained outside this review. Old source fitted bank/metadata hashes and named summary evidence were used. The known old74<=6000/old64<=4000 boundaries and Noel prior summary exposure continue.",
+    "additional_experimental_objects": 0,
+    "rerun_particles": 0,
+    "fitting_jobs": 0,
+    "public_requests": 0
+  },
+  "separately_spent_evidence": {
+    "author_initial_booked_CPU_seconds": 3298.032452,
+    "author_initial_booked_read_decode_bytes": 2233794086,
+    "author_cumulative_HTTP_bodies_bytes": 458538440,
+    "author_resources": "../../tasks/independent-acquisition-confirmation-2026-11-05/MAIN_RESOURCE_CHECKPOINT.json",
+    "author_failures": "The source/synthetic interpreter probe, zero-byte sandbox DNS failure, original compatibility stop, repeated diagnosis reads and terminal literal log-format failure survive in author records.",
+    "source_qualification": "../../tasks/independent-acquisition-cohort-2026-11-05/FINAL_ACCOUNTING.json",
+    "funding_review": "../independent-cohort-investment-2026-11-05/RESOURCES.json",
+    "earlier_fixed_comparison": "../calibration-frontier-result-2026-11-05/RESULT.md",
+    "prior_lineage": "All earlier costs and unknowns remain separately charged."
+  }
+}

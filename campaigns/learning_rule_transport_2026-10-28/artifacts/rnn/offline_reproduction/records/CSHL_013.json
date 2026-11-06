@@ -1,0 +1,164 @@
+{
+  "subject": "CSHL_013",
+  "split": "animal_holdout",
+  "particles": 512,
+  "prefix_n": 1000,
+  "horizon": 5000,
+  "model_sha256": "c7f675d18f4143891ed7d2c76d91f74be74da9565fbae5407952768e2c146940",
+  "forecast_path": "artifacts/forecasts/rnn_source_animals/CSHL_013__rnnglm32.npz",
+  "forecast_sha256": "f988d56884439ca5186c81cae0ac620aa7b42be9efbf286455aa4fa705917847",
+  "metadata_sha256": "399e963613cb570c8eda3caf3b99499c021c8a2f18c137ca553857180be7f2bc",
+  "seed": 30073568,
+  "exact": true,
+  "max_abs_difference": 0.0,
+  "arrays": {
+    "samples": {
+      "exact": true,
+      "shape": [
+        512,
+        10,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "5323fec9ff388194805d3bfe3850408186d1162f9d2648e116c86f999b3f73b8",
+      "saved_array_sha256": "5323fec9ff388194805d3bfe3850408186d1162f9d2648e116c86f999b3f73b8"
+    },
+    "samples_primary": {
+      "exact": true,
+      "shape": [
+        512,
+        10,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "5323fec9ff388194805d3bfe3850408186d1162f9d2648e116c86f999b3f73b8",
+      "saved_array_sha256": "5323fec9ff388194805d3bfe3850408186d1162f9d2648e116c86f999b3f73b8"
+    },
+    "weights": {
+      "exact": true,
+      "shape": [
+        512,
+        10,
+        3
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "7a120c8078970ea97bce676dd3e8ee5ad0e1d7f08781f89d3ceecdc695edc64f",
+      "saved_array_sha256": "7a120c8078970ea97bce676dd3e8ee5ad0e1d7f08781f89d3ceecdc695edc64f"
+    },
+    "hidden_final": {
+      "exact": true,
+      "shape": [
+        512,
+        32
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "e2f2d3f6de607dc8347dc7a129ec002209468443a9c55b4db40ef4a88a161458",
+      "saved_array_sha256": "e2f2d3f6de607dc8347dc7a129ec002209468443a9c55b4db40ef4a88a161458"
+    },
+    "counts": {
+      "exact": true,
+      "shape": [
+        512,
+        10,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "b8a912e0a27357b243df493aa5cf4f00cdc95d4fc56a1cd03643f36c9fd8352e",
+      "saved_array_sha256": "b8a912e0a27357b243df493aa5cf4f00cdc95d4fc56a1cd03643f36c9fd8352e"
+    },
+    "pool_fraction": {
+      "exact": true,
+      "shape": [
+        10,
+        6
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "bcc747fdf48389fa1af2fd12cdf3d90b216dcfce7a58d8f96839aa61a126094b",
+      "saved_array_sha256": "bcc747fdf48389fa1af2fd12cdf3d90b216dcfce7a58d8f96839aa61a126094b"
+    },
+    "session_start": {
+      "exact": true,
+      "shape": [
+        5000
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "aeabfef117a56b8e3338a298b053694ec77b453ca2fb8fcb7a7c0c69a90cb9f8",
+      "saved_array_sha256": "aeabfef117a56b8e3338a298b053694ec77b453ca2fb8fcb7a7c0c69a90cb9f8"
+    },
+    "seed": {
+      "exact": true,
+      "shape": [],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "32af10f18b2353396faf9b688dbf7ccde773a630976bfff40ed89133ec143e8f",
+      "saved_array_sha256": "32af10f18b2353396faf9b688dbf7ccde773a630976bfff40ed89133ec143e8f"
+    }
+  },
+  "original_prefix_objects": [
+    {
+      "path": "data/sealed/animal_holdout/CSHL_013/2019-06-18_001_1f9a7487-aff5-4da5-a074-c2dcf0c0bc64_table.pqt",
+      "bytes": 23859,
+      "sha256": "197e276d24d914e9ce89dfd99d702979a70c6388144cc116d07b3b29db1d7750",
+      "md5": "b5fc9899646e6796461416e2045785a2",
+      "published_md5": "b5fc9899646e6796461416e2045785a2"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSHL_013/2019-06-18_001_1f9a7487-aff5-4da5-a074-c2dcf0c0bc64_repNum.npy",
+      "bytes": 1816,
+      "sha256": "75d926a6d2072138ae7899c903ae331a418bf0c70f0fd92d4d913e61569e019f",
+      "md5": "ca2bf38631e1ce841672d18d6e3d8909",
+      "published_md5": "ca2bf38631e1ce841672d18d6e3d8909"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSHL_013/2019-06-19_001_7ace6963-e18b-486c-aff5-442ff082100c_table.pqt",
+      "bytes": 22992,
+      "sha256": "3467269ead3a8cbbfb938a3ee732e3b5d6e18634c7f658ae84362d0dbdc208b4",
+      "md5": "68a3093897f456c992d17db78a33e2bf",
+      "published_md5": "68a3093897f456c992d17db78a33e2bf"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSHL_013/2019-06-19_001_7ace6963-e18b-486c-aff5-442ff082100c_repNum.npy",
+      "bytes": 1704,
+      "sha256": "58901a2b4b825637c8bd7b4e4331784511ff0f3dc7fec4ec983a77c29b3bd4b5",
+      "md5": "900933228505c0474918f35e93d1707b",
+      "published_md5": "900933228505c0474918f35e93d1707b"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSHL_013/2019-06-20_001_266dac70-916e-4ec1-9965-822255494cba_table.pqt",
+      "bytes": 46293,
+      "sha256": "bf47a6480fd36c15fe180566b951b3dc718c5bccd523e3556a928a08e26d383d",
+      "md5": "3d34a2304873ae5a76c8f936f8cd9f4a",
+      "published_md5": "3d34a2304873ae5a76c8f936f8cd9f4a"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSHL_013/2019-06-20_001_266dac70-916e-4ec1-9965-822255494cba_repNum.npy",
+      "bytes": 4488,
+      "sha256": "54b499706cf6afcf3106a5473e319d1043d427692fb74f0ece9c84286b24e66d",
+      "md5": "86efc16404d2c1ce6f45bb82af5869cc",
+      "published_md5": "86efc16404d2c1ce6f45bb82af5869cc"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSHL_013/2019-06-21_001_26cd5c4b-a6eb-4462-b3e4-e26d1c32c16b_table.pqt",
+      "bytes": 30879,
+      "sha256": "3f55f604b0313659a99c22bf6f8e03f6dff5a4ce7e7243745c9d5c93a27bbc10",
+      "md5": "e23c75950deadf49c4ee6504064c864d",
+      "published_md5": "e23c75950deadf49c4ee6504064c864d"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSHL_013/2019-06-21_001_26cd5c4b-a6eb-4462-b3e4-e26d1c32c16b_repNum.npy",
+      "bytes": 2656,
+      "sha256": "ef3e28eeba01adf07365021065dc34b6bea2caf439b1f74ed10eedbe791c879a",
+      "md5": "7f7c0c7fba231c8bd429772c05112928",
+      "published_md5": "7f7c0c7fba231c8bd429772c05112928"
+    }
+  ],
+  "prefix_rows_per_session": [
+    211,
+    197,
+    545,
+    47
+  ],
+  "opportunity_source": "pinned footer counts only",
+  "future_outcomes_read": false,
+  "external_outcomes_read": false,
+  "seconds": 4.382217333011795
+}

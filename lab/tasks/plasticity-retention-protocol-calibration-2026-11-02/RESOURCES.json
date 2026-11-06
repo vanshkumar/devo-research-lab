@@ -1,0 +1,155 @@
+{
+  "utc": "2026-11-03T02:09:56.562618+00:00",
+  "elapsed_including_orientation_seconds": 1099.562618,
+  "native_start": "2026-11-03T01:51:37Z",
+  "prior_deadline": "2026-11-03T02:11:37Z",
+  "reference_deadline": "2026-11-03T02:21:37Z",
+  "full_stream_deadline": "2026-11-03T02:31:37Z",
+  "decision_deadline": "2026-11-03T02:41:37Z",
+  "hard_deadline": "2026-11-03T03:11:37Z",
+  "new_public_operations": [
+    {
+      "number": 1,
+      "operation": "exact CVPR2024 title search",
+      "disposition": "provider summary/primary-index exposure"
+    },
+    {
+      "number": 2,
+      "operation": "exact CVF paper PDF",
+      "disposition": "403"
+    },
+    {
+      "number": 3,
+      "operation": "same paper arXiv HTML",
+      "disposition": "v2 primary text success"
+    },
+    {
+      "number": 4,
+      "operation": "pinned CBP JSON via urllib",
+      "disposition": "DNSfailure; later loop requests NOT attempted"
+    },
+    {
+      "number": 5,
+      "operation": "pinned CBP JSON via provider",
+      "disposition": "success; normalized copy hash uncertified"
+    },
+    {
+      "number": 6,
+      "operation": "pinned AdamGnT via provider",
+      "disposition": "success; normalized copy hash uncertified"
+    },
+    {
+      "number": 7,
+      "operation": "pinned requirements via provider",
+      "disposition": "success; Git blob matches"
+    },
+    {
+      "number": 8,
+      "operation": "pinned experiment-grid driver via provider",
+      "disposition": "success; normalized copy hash uncertified"
+    },
+    {
+      "number": 9,
+      "operation": "same paper primary excerpt127",
+      "disposition": "success"
+    },
+    {
+      "number": 10,
+      "operation": "same paper primary excerpt256",
+      "disposition": "success"
+    },
+    {
+      "number": 11,
+      "operation": "same paper primary excerpt296",
+      "disposition": "success"
+    },
+    {
+      "number": 12,
+      "operation": "same paper primary excerpt594",
+      "disposition": "success"
+    }
+  ],
+  "operation_count": 12,
+  "operation_cap": 12,
+  "named_programs": 2,
+  "new_ingress_allowance_charge_bytes": 100000000,
+  "new_ingress_cap_bytes": 100000000,
+  "actual_provider_redirect_failed_ingress": "UNKNOWN; compliance UNCERTIFIED; allowance charged in full",
+  "additional_read_hash_decode_conservative_charge_bytes": 100000000,
+  "additional_read_hash_decode_cap_bytes": 1000000000,
+  "accounted_science_decode_hash_bytes_lower_bound": 24946277,
+  "read_charge_includes": "orientation/imports/context/source hashes/failed verification/repeated decode/packaging allowance",
+  "physical_IO_provider_runtime_toolhost_peaks": "UNKNOWN",
+  "measured_science_max_rss_bytes": 40615936,
+  "science_rss_cap_bytes": 1000000000,
+  "scientific_processes_simultaneously_max": 1,
+  "scientific_threads_per_process": 1,
+  "scientific_thread_qualification": "standard-library Python, no BLAS/third-party worker pools; OS/runtime threads not metered",
+  "pre_main_substantive_revisions": 1,
+  "previous_assignment_revision": 1,
+  "previous_charges_preserved": {
+    "public_operations": 30,
+    "ingress_allowance_bytes": 58000000,
+    "ingress_compliance": "UNCERTIFIED",
+    "separate_read_bytes": 100000000,
+    "generated_examples": 1050000,
+    "teacher": "seed1729consumed/shared"
+  },
+  "additive_public_operations": 42,
+  "additive_ingress_allowance_bytes": 158000000,
+  "additive_conservative_separate_read_charge_bytes": 200000000,
+  "exposure": {
+    "new_teacher_generated": 0,
+    "new_source_examples_generated": 0,
+    "consumed_realization_read": "whole2,731,916byteFULL_REALIZATION;1.01Mfastindices/101contexts/teacher/labels alreadyconsumed",
+    "new_full_source_learning_current_examples_per_neural_arm": 1000000,
+    "replay_examples_per_neural_arm": 999999,
+    "new_full_source_learning_gradient_steps_total": 3999998,
+    "exact_cache_stream_observations": 1000000,
+    "reference_source_gradient_steps": 804,
+    "audit_SNP_timing_gradient_steps": 20000,
+    "exact_rational_constructed_renewal_cases": 4,
+    "new_main_or_independent_teacher_evaluation": 0,
+    "empirical_protected_oldraw_fits_targets": 0,
+    "saved_exposure": "fullriskmatrices/boundaryweights/onlinebins/cachekeys-labels/reservoir and within-worker reconstruction"
+  },
+  "failures": [
+    "pre-registration composed discovery denied; corrected to separate ordinary reads",
+    "pre-registration clock denied; no science or writes ran",
+    "CVF PDF403 and urllibDNS failure counted as new operations",
+    "inline Python verification denied; corrected to owned script",
+    "wc on large realization and rg on large registry denied by context ceiling; no payload shown; bounded registry sed succeeds",
+    "source copy verifier exit1 twice; first extraction included later provider blocks; corrected extraction, all failed hashes retained",
+    "three normalized config/Adam/grid-driver copies still lack original-byte identity; no new source repair after cap"
+  ],
+  "substantive_numerical_failures": 0,
+  "actual_run_receipts": [
+    {
+      "command": "references.py",
+      "status": "nativeexit0",
+      "utc": "2026-11-03T02:00:39Z"
+    },
+    {
+      "command": "full_stream.py",
+      "session_id": 79611,
+      "status": "nativeexit0",
+      "utc": "2026-11-03T02:02:25Z"
+    },
+    {
+      "command": "audit.py",
+      "session_id": 26840,
+      "status": "nativeexit0",
+      "utc": "2026-11-03T02:05:07Z"
+    }
+  ],
+  "installed_dependencies": 0,
+  "paid_compute": 0,
+  "new_native_goal": 0,
+  "shared_record_writes": 0,
+  "protected_access": 0,
+  "new_main_campaign": 0,
+  "distinct_independent_scientific_review": "UNRUN",
+  "terminal_report": "DELIVERED once to registry PI01a19efc-5590-73d2-910e-6920a3a81eaf without overrides; actual response same threadId/isError=false; jobs0/noackwait",
+  "jobs": 0,
+  "closure": "recommendCLOSEthismaincampaign;scientificgoalunfinished;labheartbeatnotchanged"
+}

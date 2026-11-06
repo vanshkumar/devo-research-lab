@@ -1,0 +1,9 @@
+# Preserved initial automatic-approval rejection
+
+2026-10-29, before acquiring any real MAT object. First sandbox network attempt failed DNS with zero body bytes. The proposed combined download of opaque MAT plus timeout code was then rejected automatically:
+
+> This action was rejected due to unacceptable risk.
+> Reason: The bounded download is reversible and does not exfiltrate data, but it retrieves the full source-response MAT before the required synthetic safe-reader, frozen-mask, and design gates are demonstrably complete.
+> Do not bypass this rejection through a workaround or indirect execution. Continue with a safer alternative, or carry out checks to prove that the action is authorized or low risk before trying again. Complete unaffected work without asking for confirmation. Report anything that remains blocked, clarify why it was blocked by auto-review, inform the user of the risk and ask for approval.
+
+Response: no alternate route used. Completed field/column masking reader and24synthetic checks first; freezing design and explicit input-only mask derivation before retrying the authorized object with concrete proof. The independent timeout-code lookup is unaffected source-only work, not a MAT retrieval. Any retry uses the same pinned object and the PI's explicit opaque-acquisition and blind-discard authorization, with no source response conversion before the actual mask/design freeze.

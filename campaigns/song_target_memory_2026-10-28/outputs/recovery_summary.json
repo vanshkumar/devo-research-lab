@@ -1,0 +1,91 @@
+{
+  "source": "Roberts2017 Fig6c/f, caption-defined mean markers,5birds per task;3birds shared across tasks",
+  "status": "exploratory published-summary reconstruction, not independent biological replication, paired reanalysis, or untouched validation",
+  "timing_mean_rates_ms_per_day": {
+    "baseline": {
+      "pre": 0.12495751320952887,
+      "post": 0.44444272780644645
+    },
+    "WN": {
+      "pre": 2.0416679541451677,
+      "post": 1.0277631863547882
+    },
+    "return": {
+      "pre": 1.2361029570806175,
+      "post": 0.388900905354881
+    }
+  },
+  "pitch_mean_rates_Hz_per_day": {
+    "baseline": {
+      "pre": 0.750014904906691,
+      "post": 1.0445358612055078
+    },
+    "WN": {
+      "pre": 4.178620401836283,
+      "post": 4.6072258987658765
+    },
+    "return": {
+      "pre": 6.642878435580997,
+      "post": 4.741131580516301
+    }
+  },
+  "post_pre_rate_ratios": {
+    "timing": {
+      "WN": {
+        "ratio_of_group_means": 0.5033938962837401,
+        "extraction_only_interval": [
+          0.48098010421247994,
+          0.5264965539497036
+        ]
+      },
+      "return": {
+        "ratio_of_group_means": 0.3146185381461855,
+        "extraction_only_interval": [
+          0.2825577992390988,
+          0.3483232488975491
+        ]
+      }
+    },
+    "pitch": {
+      "WN": {
+        "ratio_of_group_means": 1.102571053532703,
+        "extraction_only_interval": [
+          1.0442375984907346,
+          1.1643314534132312
+        ]
+      },
+      "return": {
+        "ratio_of_group_means": 0.7137164448353531,
+        "extraction_only_interval": [
+          0.6834977649641589,
+          0.7450398004039432
+        ]
+      }
+    }
+  },
+  "timing_recovery_attenuation_relative_to_learning": 0.6249947416304179,
+  "common_timing_gain_diagnostic": {
+    "calibration": "ratio of post/pre WN group mean rates ONLY; source values already exposed, hence exploratory",
+    "gain": 0.5033938962837401,
+    "predicted_post_return_rate_ms_per_day": 0.6222466837726648,
+    "observed_post_return_rate_ms_per_day": 0.388900905354881,
+    "prediction_extraction_envelope": [
+      0.5796788920898427,
+      0.6670724190635496
+    ],
+    "observed_extraction_envelope": [
+      0.3580014213762634,
+      0.4198003893334985
+    ],
+    "residual_ms_per_day": -0.2333457784177838,
+    "interpretation": "A uniform timing-gain reduction captures part, not all, of displayed recovery-rate reduction. No paired values/variance or fully specified slope estimator are available; cannot likelihood-rank mechanisms or statistically reject gain."
+  },
+  "frozen_rate_model_not_fitted": "The planned exponential recovery fraction model requires per-bird displacement-normalized fractions and actual windows. Figure gives group mean slopes with incompletely specified slope/sign estimator. These rates cannot be substituted for recovery fractions.",
+  "restrictions": [
+    "A pure HVC-local restoring attractor whose timing plasticity is independent of the ablated projection predicts preserved recovery, contrary to the reported within-bird effect under lesion-specific causation and unchanged local state. Fixed intact-first order, no sham/retest cohort and baseline changes qualify that exclusion.",
+    "A selective target-retrieval-only intervention is not established: temporal reinforcement learning also slowed in4/5birds; displayed baseline rate magnitude increased and timing changes slightly after lesion. Signed baseline drift is not established.",
+    "Pitch preservation argues against a general inability to modify any song feature, but a timing-specific feedback/state-estimation/plasticity deficit remains.",
+    "A motor-stored timing target read through the same feedback route remains compatible with an evaluative-reference account.",
+    "Rate ratios are ratios of group means, not means of paired ratios; extraction intervals are not confidence intervals."
+  ]
+}

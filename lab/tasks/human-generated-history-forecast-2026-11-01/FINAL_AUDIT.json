@@ -1,0 +1,181 @@
+{
+  "utc": "2026-11-02T20:37:40.286798+00:00",
+  "all_pass": true,
+  "original_cached_input_mask_agreement": true,
+  "primary_responding": 2867,
+  "scalar_score_checks": {
+    "main": {
+      "equal_person_gain": 0.03389409890715184,
+      "mean_error": 0.0,
+      "max_person_error": 1.0061396160665481e-16
+    },
+    "double_omission": {
+      "equal_person_gain": 0.03377128515253502,
+      "mean_error": 0.0,
+      "max_person_error": 9.020562075079397e-17
+    },
+    "no_omission": {
+      "equal_person_gain": 0.03397417126329285,
+      "mean_error": 6.938893903907228e-18,
+      "max_person_error": 1.0408340855860843e-16
+    }
+  },
+  "exact_beta_omission_reference": {
+    "alpha": 0.5,
+    "beta": 0.5,
+    "paths": 81,
+    "steps": 4,
+    "total_path_mass": [
+      1.0,
+      1.0000000000000004
+    ],
+    "conditional_left_probabilities": [
+      [
+        0.6166061163806863,
+        0.6919266824886905
+      ],
+      [
+        0.3669693367524415,
+        0.42049349129962177
+      ],
+      [
+        0.14554437043713989,
+        0.18055153856254266
+      ],
+      [
+        0.36256630463753753,
+        0.408925565642425
+      ]
+    ],
+    "particle_mean": [
+      [
+        0.6166061163806865,
+        0.6919266824886905
+      ],
+      [
+        0.36694844095426604,
+        0.4204581362862328
+      ],
+      [
+        0.14572642101498112,
+        0.18069376264247317
+      ],
+      [
+        0.36291603191312743,
+        0.40925481705332223
+      ]
+    ],
+    "max_absolute_error": 0.00034972727558990613,
+    "max_mcse": 0.0002987883428599301,
+    "reps": 8,
+    "particles_per_rep": 131072,
+    "scope": "Constructed high-uncertainty law; no empirical refit or changed main forecast."
+  },
+  "contribution_limits": {
+    "source_omission_law": "One condition-specific constant omission probability; independent of scheduled side, choice and past. Jeffreys Beta(.5,.5) calibrated only on original development trials201-600. Main integrates its posterior predictive law; this is an observation assumption, not biological certification.",
+    "teacher_law": "Known deterministic source XLSX continuation selected uniquely by first200 visible inputs/revealed sides. Future realized targets ARE known to the environment and forecaster through this exact lookup. No independent Bernoulli target law is asserted.",
+    "main_minus_exact_no_omission_gain": -8.007235614101993e-05,
+    "all_schedule_point_gains_positive": true,
+    "historical_conditional_point_gain": 0.03396,
+    "historical_comparison_note": "Rounded saved conditional result, different conditioning. Near-equality is descriptive, not a matched causal decomposition or new precision bound."
+  },
+  "forecast_before_score": true,
+  "unchanged_forecast_hash": "1e89b52b30b3134a6f644239ba8790b7c553402ab58dd9768637ceed9ce8cc04",
+  "pins": [
+    {
+      "path": "lab/tasks/human-generated-history-forecast-2026-11-01/FORECAST_INPUTS.json",
+      "bytes": 1085903,
+      "sha256": "5d396ba483a7c33962d19aa986bc8f15c39baf80d8792b48d67e1f119e98fcba",
+      "charge": 3257709
+    },
+    {
+      "path": "campaigns/human_learning_routes_2026-10-28/outputs/primary/shared_fit.json",
+      "bytes": 12947,
+      "sha256": "b3b75d5df78c1d89d1808e7202f5cb25a6faf0eea79774d8bb3f5ae551361062",
+      "charge": 38841
+    },
+    {
+      "path": "campaigns/human_learning_routes_2026-10-28/outputs/primary/no_history_fit.json",
+      "bytes": 8663,
+      "sha256": "a2ee182d45aa6ec8acc1855abc157c2dbee19527378d3187f73695f2d24d50c4",
+      "charge": 25989
+    },
+    {
+      "path": "lab/tasks/human-generated-history-forecast-2026-11-01/SCORES.json",
+      "bytes": 9245,
+      "sha256": "c55001720cb0b1bf199539ec4a0702744929e44384465f8338322b7e346fee4b",
+      "charge": 27735
+    },
+    {
+      "path": "lab/tasks/human-generated-history-forecast-2026-11-01/FORECAST_META.json",
+      "bytes": 1324,
+      "sha256": "66aaa041b4b6c80197b7c838f22e2836c6eb56702fad08f60c60f8e0c99b67a4",
+      "charge": 3972
+    },
+    {
+      "path": "lab/tasks/human-generated-history-forecast-2026-11-01/FORECASTS.npz",
+      "bytes": 3059690,
+      "sha256": "1e89b52b30b3134a6f644239ba8790b7c553402ab58dd9768637ceed9ce8cc04",
+      "charge": 9179070
+    },
+    {
+      "path": "campaigns/human_learning_routes_2026-10-28/inputs/validation_numeric.csv",
+      "bytes": 1872445,
+      "sha256": "c6a7f8d84f80f86aa1e6287187a20ceb6e206a01d47dcc77a124dc658da001e9",
+      "charge": 5617335
+    },
+    {
+      "path": "campaigns/human_learning_routes_2026-10-28/protocol/split_manifest.csv",
+      "bytes": 14977,
+      "charge": 44931,
+      "note": "original attach_split read"
+    },
+    {
+      "path": "lab/tasks/human-generated-history-forecast-2026-11-01/PERSON_SCORES.csv",
+      "bytes": 10236,
+      "sha256": "0814c3056316ac2079aaf0371f34effe765165ed4f36ed24090db6aae2d16ff0",
+      "charge": 30708
+    },
+    {
+      "path": "lab/tasks/human-generated-history-forecast-2026-11-01/RUN_checks.json",
+      "bytes": 1398,
+      "sha256": "7576a2d796fe6ab91ad4c2feac7fa0f19e5148f2a6bddef41578dd92c6195e81",
+      "charge": 4194
+    },
+    {
+      "path": "lab/tasks/human-generated-history-forecast-2026-11-01/RUN_freeze.json",
+      "bytes": 2133,
+      "sha256": "4ff5297341427298ab705db847c8503bf58350f6a3c57a7b83e9ca6e47b7a4fa",
+      "charge": 6399
+    },
+    {
+      "path": "lab/tasks/human-generated-history-forecast-2026-11-01/RUN_forecast.json",
+      "bytes": 3065,
+      "sha256": "b09d9c60fca72a4d4aa508c2b756a8a29eb507812b761fdbfb76dcba1868fd4b",
+      "charge": 9195
+    },
+    {
+      "path": "lab/tasks/human-generated-history-forecast-2026-11-01/RUN_score.json",
+      "bytes": 3985,
+      "sha256": "1c7086267e819930333e9501d683108bf1b23ca732a07ff04188347e0604720f",
+      "charge": 11955
+    }
+  ],
+  "explicit_read_hash_decode_charge": 18258033,
+  "prior_run_explicit_charge": {
+    "checks": 3365759,
+    "freeze": 5325417,
+    "forecast": 17828817,
+    "score": 32674125
+  },
+  "prior_run_peak_rss": {
+    "checks": 104316928,
+    "freeze": 48578560,
+    "forecast": 64667648,
+    "score": 110739456
+  },
+  "wall_seconds": 0.522803042,
+  "peak_rss_bytes": 141950976,
+  "physical_io": "unknown",
+  "runtime_host_peak": "unknown"
+}

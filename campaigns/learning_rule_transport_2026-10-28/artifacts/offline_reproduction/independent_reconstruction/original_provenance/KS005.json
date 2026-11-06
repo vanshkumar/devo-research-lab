@@ -1,0 +1,59 @@
+{
+  "subject": "KS005",
+  "lab": "cortexlab",
+  "indexed_sessions": 3,
+  "table_sessions": 3,
+  "first_indexed_date": "2019-07-23",
+  "last_indexed_date": "2019-07-25",
+  "split": "animal_holdout",
+  "hash_mod_5": 0,
+  "rows_read": 1708,
+  "total_indexed_rows": 1708,
+  "provenance": [
+    {
+      "path": "data/sealed/animal_holdout/KS005/2019-07-23_001_3d22dcf6-98a0-49c2-a74c-bc9bd6f16264_table.pqt",
+      "dataset_id": "e1e8af10-72c7-455b-9cdd-26c8ba136061",
+      "session_uuid": "3d22dcf6-98a0-49c2-a74c-bc9bd6f16264",
+      "date": "2019-07-23",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld5.2.1",
+      "md5": "1e283c405568949b83c6522d2e596956",
+      "sha256": "8f355d0ed9da411115ae58b5912d025e07af718086722d82a3ab92356bb1bcad",
+      "bytes": 44836,
+      "cache_md5": "1e283c405568949b83c6522d2e596956",
+      "bounded_rows": 530,
+      "footer_rows": 530,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/KS005/2019-07-23_001_3d22dcf6-98a0-49c2-a74c-bc9bd6f16264_table.pqt') LIMIT 530"
+    },
+    {
+      "path": "data/sealed/animal_holdout/KS005/2019-07-24_001_23753c36-048f-49b3-b125-ba6891440a49_table.pqt",
+      "dataset_id": "db0cea29-08d6-47d4-830d-8de6519d70f0",
+      "session_uuid": "23753c36-048f-49b3-b125-ba6891440a49",
+      "date": "2019-07-24",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld5.2.2",
+      "md5": "9794fcd4bb846d4455f927daaba4e913",
+      "sha256": "bbcd13251fed10aeea0b4e787f3b00af99ad8c58c57ce443d421ff8f25939ac2",
+      "bytes": 40570,
+      "cache_md5": "9794fcd4bb846d4455f927daaba4e913",
+      "bounded_rows": 464,
+      "footer_rows": 464,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/KS005/2019-07-24_001_23753c36-048f-49b3-b125-ba6891440a49_table.pqt') LIMIT 464"
+    },
+    {
+      "path": "data/sealed/animal_holdout/KS005/2019-07-25_001_42a7cf62-2688-402f-ad1d-20c13faf95ca_table.pqt",
+      "dataset_id": "594dc8e8-b865-425b-b5b3-fd7917e44b44",
+      "session_uuid": "42a7cf62-2688-402f-ad1d-20c13faf95ca",
+      "date": "2019-07-25",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld5.2.3",
+      "md5": "f0bea1ba8aed2f1779602f91f59c0c8c",
+      "sha256": "bf617537d52640cd9f95a0371e7e0b247f7965b4d9d53980c909e2eb3f172a02",
+      "bytes": 57561,
+      "cache_md5": "f0bea1ba8aed2f1779602f91f59c0c8c",
+      "bounded_rows": 714,
+      "footer_rows": 714,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/KS005/2019-07-25_001_42a7cf62-2688-402f-ad1d-20c13faf95ca_table.pqt') LIMIT 714"
+    }
+  ]
+}

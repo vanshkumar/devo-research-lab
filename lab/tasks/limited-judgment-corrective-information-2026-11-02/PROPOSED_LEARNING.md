@@ -1,0 +1,4 @@
+**2026-11-02 — Limited-comparison contribution gate**
+- Observation: In the five-output exact safe-selection reference, all 120 rank-utility permutations and 600 scalar budget/world replays give direct running-champion regret identical to globally optimal adaptive selection at every budget 0–4; the best fixed design still has regret 1/10 at four labels versus zero direct. Closest active-selection and offline preference-coverage theory already addresses the generic query/certification claim. See this task's RESULT.md and PRIOR_CONTRIBUTION_GATE.md.
+- Action: Keep this mathematical allocation closed. Do not promote a passive-versus-active gap into a need for a learned correction objective or another generic coverage theorem; a future allocation must supply a separately justified decision consequence beyond simple equal-information querying, with real label semantics and candidate-generation costs explicit.
+- Confidence: high

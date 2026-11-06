@@ -1,0 +1,119 @@
+{
+  "utc": "2026-11-05T12:55:26Z",
+  "status": "postvalidation archived-reference sensitivity on 24 overlapping consumed animals",
+  "target": "sum exact100 N and K over first four saved future500 bins, then ratio; 2000 generated opportunities after original1000 prefix",
+  "target_compatibility_max_new_MAE_difference": 0.0,
+  "summary": {
+    "old_gru": {
+      "ratio_crps": {
+        "equal_animal": 0.09088788151951842,
+        "equal_site": 0.10756479839642084
+      },
+      "equal_side_mae": {
+        "equal_animal": 0.1298982561757877,
+        "equal_site": 0.15890803610940873
+      }
+    },
+    "old_growth": {
+      "ratio_crps": {
+        "equal_animal": 0.08867635955524049,
+        "equal_site": 0.09748824740792138
+      },
+      "equal_side_mae": {
+        "equal_animal": 0.1200901959298369,
+        "equal_site": 0.1420481747773333
+      }
+    },
+    "new_growth": {
+      "ratio_crps": {
+        "equal_animal": 0.09578324223622736,
+        "equal_site": 0.11884103396569365
+      },
+      "equal_side_mae": {
+        "equal_animal": 0.13239708663834412,
+        "equal_site": 0.17151132577227085
+      }
+    },
+    "new_growth_track": {
+      "ratio_crps": {
+        "equal_animal": 0.13527837003334595,
+        "equal_site": 0.1258386999904486
+      },
+      "equal_side_mae": {
+        "equal_animal": 0.15134230141129562,
+        "equal_site": 0.16466247664274683
+      }
+    },
+    "new_gru": {
+      "ratio_crps": {
+        "equal_animal": 0.09417958238412927,
+        "equal_site": 0.1105902342406304
+      },
+      "equal_side_mae": {
+        "equal_animal": 0.13272673282135503,
+        "equal_site": 0.16222630093761212
+      }
+    }
+  },
+  "current_GRU_gain_over_archived_growth": {
+    "ratio_crps": {
+      "sign": "positive favors current GRU over archived growth",
+      "equal_animal": -0.005503222828888783,
+      "equal_site": -0.013101986832709018,
+      "site_t95": [
+        -0.04889628492399503,
+        0.022692311258577
+      ],
+      "site_contrasts": {
+        "angelakilab": -0.039539454098789666,
+        "churchlandlab": 0.012535283267640814,
+        "cortexlab": -0.04901994833299872,
+        "hoferlab": 0.0066210485986799355,
+        "mrsicflogellab": 0.003893136401922548
+      }
+    },
+    "equal_side_mae": {
+      "sign": "positive favors current GRU over archived growth",
+      "equal_animal": -0.012636536891518127,
+      "equal_site": -0.020178126160278812,
+      "site_t95": [
+        -0.06916292216993164,
+        0.028806669849374012
+      ],
+      "site_contrasts": {
+        "angelakilab": -0.06590107072045327,
+        "churchlandlab": 0.020045378572390964,
+        "cortexlab": -0.05905212860520953,
+        "hoferlab": 0.005271674988748057,
+        "mrsicflogellab": -0.0012544850368702704
+      }
+    }
+  },
+  "old_gru_gain_over_old_growth": {
+    "equal_animal": -0.0022115219642779307,
+    "equal_site": -0.010076550988499466,
+    "site_t95": [
+      -0.04020307291325152,
+      0.02004997093625259
+    ]
+  },
+  "limitations": [
+    "Archived forecasts and new pilot use different observation uncertainty and comparator implementations; these are distinct recipes.",
+    "If target-compatibility check fails, cross-pilot score comparisons do not share the same target and cannot be credited.",
+    "24 old animals and five selected sites are consumed; this is not fresh validation or a new-lab population interval."
+  ],
+  "resources": {
+    "input_sha256": {
+      "lab/reviews/learning-forecast-count-joint-audit-2026-11-01/PAIRED_ENDPOINTS.npz": "e89d1fbf1907cd4c8c27ad996a6e5fe04780c18ca75741362f7be59e31ad7963",
+      "lab/tasks/acquisition-rule-vs-tracker-2026-11-05/GENERATED_SCORES.json": "2f37a238200650e8c36692a26c600dbcff87e245fae0ff89d47c356ba369f2a1"
+    },
+    "explicit_file_read_bytes": 1687253,
+    "decoded_array_bytes": 1182960,
+    "cpu_seconds": 0.011795999999999994,
+    "wall_seconds": 0.011798082967288792,
+    "peak_rss_native_bytes_on_Mac": 40484864,
+    "original_trial_row_reads": 0,
+    "observation_exposure": "previously saved bin-level N/K summaries only",
+    "physical_io_and_runtime_reads": "unknown"
+  }
+}

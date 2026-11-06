@@ -1,0 +1,292 @@
+{
+  "created_utc": "2026-11-01T03:53:10.461458+00:00",
+  "codec_reference": {
+    "filename": "numcodecs-0.12.1-cp39-cp39-macosx_11_0_arm64.whl",
+    "sha256": "f2207871868b2464dc11c513965fd99b958a9d7cde2629be7b2dc84fdaab013b",
+    "cached_PyPI_digest_matches": true,
+    "reward_decoded_bytes": 4304,
+    "decoded_sha256": "e5b3fa03f92bb16eeeedc63281529f9d4a606009066de2fc3ee25ebec310da72",
+    "matches_frozen_inherited_decoded_pin": true,
+    "original_decoder_independent_reexecution": "UNRUN; trusted C-Blosc independently decoded original bytes"
+  },
+  "predecessor_pins": [
+    {
+      "path": "reward_time.blosc",
+      "sha256": "7565635e78d20f44ffe8bc31ed359d0ffcc2b9ba025e6dacf3a4bca6712a7765",
+      "match": true
+    },
+    {
+      "path": "nwb_metadata.json",
+      "sha256": "c868c7ead983c9d911e99f27fc629e40b07c7a3a53b32d94a7e999589c930246",
+      "match": true
+    },
+    {
+      "path": "reward_times.csv",
+      "sha256": "a5b56f2b76c2f199fcc5677daf6765bb7d71b94c04555094ee236270e35887af",
+      "match": true
+    }
+  ],
+  "units": [
+    {
+      "subject": "742903",
+      "session": "742903_2024-10-22",
+      "source_script": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask/467df765931d707cb6cfbd5a0b74d381ce288acb/DynamicRouting1.py",
+      "license": "CC-BY-4.0",
+      "asset": "ecephys_742903_2024-10-22_10-58-35_nwb_2026-05-18_22-02-14",
+      "rows": 538,
+      "table_object_id": "75ebdc83-62fc-463e-b8ba-c7d3af387700",
+      "time_schema_attributes": {
+        "start_time": {
+          "description": "Start time of epoch, in seconds",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "ee7109b2-9dd8-43d7-91c4-76a1d69d3c09",
+          "zarr_dtype": "float64"
+        },
+        "stim_start_time": {
+          "description": "onset of visual or auditory stimulus",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "9cde9a31-61fa-45bb-8c81-a9c4ccc8d46d",
+          "zarr_dtype": "float"
+        },
+        "response_window_start_time": {
+          "description": "start of interval in which the subject should lick if a GO trial, otherwise should not lick",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "5ad95eab-e933-4a4f-a023-2411fff64680",
+          "zarr_dtype": "float"
+        },
+        "response_window_stop_time": {
+          "description": "end of interval in which the subject should lick if a GO trial, otherwise should not lick",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "e0571308-b3ec-4efe-ad99-cdef52283e9b",
+          "zarr_dtype": "float"
+        },
+        "response_time": {
+          "description": "time of first lick within the response window; nan if no lick occurred; may be nan even if `is_response` is True, for sessions prior to 2023-10-20 (see `task_control_response_time.description`)",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "4e0d94e5-3bc6-45b6-9362-02d8c2bc5609",
+          "zarr_dtype": "float"
+        },
+        "reward_time": {
+          "description": "delivery time of water reward, for contingent and non-contingent rewards",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "3df81f43-8721-49f5-9b7d-197c21397cfb",
+          "zarr_dtype": "float"
+        }
+      },
+      "root_attributes": {
+        "namespace": "core",
+        "neurodata_type": "NWBFile",
+        "nwb_version": "2.7.0",
+        "object_id": "599fb53a-c228-4d43-9a68-0278f76ec675"
+      },
+      "date_after_historical_bug_caveat": true
+    },
+    {
+      "subject": "664851",
+      "session": "664851_2023-11-15",
+      "source_script": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask/9ea009a6c787c0049648ab9a93eb8d9df46d3f7b/DynamicRouting1.py",
+      "license": "CC-BY-4.0",
+      "asset": "ecephys_664851_2023-11-15_12-38-21_nwb_2026-05-18_21-58-33",
+      "rows": 534,
+      "table_object_id": "1670b09f-66bd-4cb8-ba42-e47385f063c3",
+      "time_schema_attributes": {
+        "start_time": {
+          "description": "Start time of epoch, in seconds",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "78bce50d-db1d-4134-bc60-00a57dcfbac3",
+          "zarr_dtype": "float64"
+        },
+        "stim_start_time": {
+          "description": "onset of visual or auditory stimulus",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "15d0b854-0a21-4b8f-9e9b-f652d0a590b7",
+          "zarr_dtype": "float"
+        },
+        "response_window_start_time": {
+          "description": "start of interval in which the subject should lick if a GO trial, otherwise should not lick",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "d091cb2a-0be7-46ba-acf8-1b5188dcd08a",
+          "zarr_dtype": "float"
+        },
+        "response_window_stop_time": {
+          "description": "end of interval in which the subject should lick if a GO trial, otherwise should not lick",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "916455c3-ad08-44b6-bc6e-6adcceb5ce81",
+          "zarr_dtype": "float"
+        },
+        "response_time": {
+          "description": "time of first lick within the response window; nan if no lick occurred; may be nan even if `is_response` is True, for sessions prior to 2023-10-20 (see `task_control_response_time.description`)",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "a89c386b-870c-49b2-961b-32f098ec7d4a",
+          "zarr_dtype": "float"
+        },
+        "reward_time": {
+          "description": "delivery time of water reward, for contingent and non-contingent rewards",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "82f226fc-8c50-48a0-a9ba-1b98e9c62ac1",
+          "zarr_dtype": "float"
+        }
+      },
+      "root_attributes": {
+        "namespace": "core",
+        "neurodata_type": "NWBFile",
+        "nwb_version": "2.7.0",
+        "object_id": "1241d885-0a62-4351-ab10-f08bac7c9dd2"
+      },
+      "date_after_historical_bug_caveat": true
+    },
+    {
+      "subject": "713655",
+      "session": "713655_2024-08-09",
+      "source_script": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask/5e6dbc4763d10fe32dd3dd501aa68f855e0a6c1f/DynamicRouting1.py",
+      "license": "CC-BY-4.0",
+      "asset": "ecephys_713655_2024-08-09_10-41-47_nwb_2026-05-18_21-59-59",
+      "rows": 515,
+      "table_object_id": "1d25c364-b1be-460d-8c31-c318973ec6ac",
+      "time_schema_attributes": {
+        "start_time": {
+          "description": "Start time of epoch, in seconds",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "4e8febd3-b503-4c11-b3d5-c67aef51090c",
+          "zarr_dtype": "float64"
+        },
+        "stim_start_time": {
+          "description": "onset of visual or auditory stimulus",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "26a67009-2276-47d1-a4d6-d3a046e90214",
+          "zarr_dtype": "float"
+        },
+        "response_window_start_time": {
+          "description": "start of interval in which the subject should lick if a GO trial, otherwise should not lick",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "87038b63-8c13-440f-96c3-8a2218adf1ca",
+          "zarr_dtype": "float"
+        },
+        "response_window_stop_time": {
+          "description": "end of interval in which the subject should lick if a GO trial, otherwise should not lick",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "53756539-dc7c-4cea-83e9-8c4daed196ef",
+          "zarr_dtype": "float"
+        },
+        "response_time": {
+          "description": "time of first lick within the response window; nan if no lick occurred; may be nan even if `is_response` is True, for sessions prior to 2023-10-20 (see `task_control_response_time.description`)",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "57ec71a3-42d4-499d-bdd0-b966ec836b6c",
+          "zarr_dtype": "float"
+        },
+        "reward_time": {
+          "description": "delivery time of water reward, for contingent and non-contingent rewards",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "9e608a8d-f898-4ca6-91f3-56918fe0e850",
+          "zarr_dtype": "float"
+        }
+      },
+      "root_attributes": {
+        "namespace": "core",
+        "neurodata_type": "NWBFile",
+        "nwb_version": "2.7.0",
+        "object_id": "856d84ed-81e3-48d1-be70-56524977f527"
+      },
+      "date_after_historical_bug_caveat": true
+    },
+    {
+      "subject": "759434",
+      "session": "759434_2025-02-04",
+      "source_script": "https://raw.githubusercontent.com/samgale/DynamicRoutingTask/9cabb82b8284f6b15f9b37ac8179141bb1102548/DynamicRouting1.py",
+      "license": "CC-BY-4.0",
+      "asset": "ecephys_759434_2025-02-04_12-27-22_nwb_2026-05-18_21-56-27",
+      "rows": 545,
+      "table_object_id": "7dc34801-aea0-4555-877a-f7e0482bf81d",
+      "time_schema_attributes": {
+        "start_time": {
+          "description": "Start time of epoch, in seconds",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "4e1258ca-bb9a-460e-92ff-faffe9c1777c",
+          "zarr_dtype": "float64"
+        },
+        "stim_start_time": {
+          "description": "onset of visual or auditory stimulus",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "27de083e-cfee-48b2-aead-f57f7fd711ba",
+          "zarr_dtype": "float"
+        },
+        "response_window_start_time": {
+          "description": "start of interval in which the subject should lick if a GO trial, otherwise should not lick",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "68234724-e38b-47d7-bc97-7e2f0f2bf6b6",
+          "zarr_dtype": "float"
+        },
+        "response_window_stop_time": {
+          "description": "end of interval in which the subject should lick if a GO trial, otherwise should not lick",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "65e18ba3-ec81-4ec9-b036-66792bdbe593",
+          "zarr_dtype": "float"
+        },
+        "response_time": {
+          "description": "time of first lick within the response window; nan if no lick occurred; may be nan even if `is_response` is True, for sessions prior to 2023-10-20 (see `task_control_response_time.description`)",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "9fe75ebc-7d54-4c9e-a151-7fc8b8892188",
+          "zarr_dtype": "float"
+        },
+        "reward_time": {
+          "description": "delivery time of water reward, for contingent and non-contingent rewards",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "b0bee239-77d7-4bc6-aa0f-946a0302b652",
+          "zarr_dtype": "float"
+        }
+      },
+      "root_attributes": {
+        "namespace": "core",
+        "neurodata_type": "NWBFile",
+        "nwb_version": "2.7.0",
+        "object_id": "99a70140-b023-455d-b247-a2725a6330c0"
+      },
+      "date_after_historical_bug_caveat": true
+    }
+  ],
+  "source_independence_statements": [
+    "This dataset comprises five Neuropixels recording sessions from five different mice, each packaged in a \"data asset\" in `/data`."
+  ],
+  "git_blobs": [
+    {
+      "path": "DynamicRouting1.py.txt",
+      "git_blob_sha1": "244201ae2db302db4a1bec043ede6a16ea7ec080",
+      "bytes": 61475,
+      "match": true
+    },
+    {
+      "path": "source_RLmodel.py.txt",
+      "git_blob_sha1": "58ee338bf1ffdd3b98bc7646aad4ccfc6edb8bad",
+      "bytes": 76487,
+      "match": true
+    }
+  ],
+  "closest_cached_model_source_contains_BasicRL": true,
+  "closest_cached_model_source_contains_ContextRL": true,
+  "original_sensor_data_hardware_replay_and_evaluation_commit_bodies": "UNAVAILABLE/UNRUN",
+  "time_unit_scope": "NWB TimeIntervals source convention: seconds in common session reference. Per-column attrs reproduced; no separately measured sensor-clock calibration."
+}

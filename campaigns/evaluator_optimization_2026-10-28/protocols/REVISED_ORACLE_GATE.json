@@ -1,0 +1,9 @@
+{
+  "phase": "development; before held-out generation",
+  "criterion": "every one of IDs0,1,2 oracle normalized improvement >=.95 at64rounds",
+  "oracle_improvements": {"0": 0.9999830206960906, "1": 0.999995095568007, "2": 0.9999896587183497},
+  "pass": true,
+  "actor_variants_tested": ["coordinate_only_initial_pilot", "single_declared_mixed_revision"],
+  "further_actor_tuning_allowed": false,
+  "execution_note": "For concurrency, nonoracle arms0/1 began after their oracle checks while plant2source preparation finished; no heldout or new actor choice preceded the all-three oracle gate."
+}

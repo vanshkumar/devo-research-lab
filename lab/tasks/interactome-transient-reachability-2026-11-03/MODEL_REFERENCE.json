@@ -1,0 +1,121 @@
+{
+  "status": "FULL_ORIGINAL_2019_RELEASE_REFERENCE_EXECUTED",
+  "utc": "2026-11-03T06:14:46.252173+00:00",
+  "constants": {
+    "N": 279,
+    "Gc": 0.1,
+    "C": 0.015,
+    "ggap": 1.0,
+    "gsyn": 1.0,
+    "Ec": -35.0,
+    "ar": 0.6666666666666666,
+    "ad": 3.3333333333333335,
+    "B": 0.125,
+    "Iext": 100000,
+    "rate": 0.025,
+    "offset": 0.15,
+    "inhibitory_reversal": -48.0,
+    "threshold_gate_rounded": 0.0909
+  },
+  "assets": {
+    "Gg.npy": {
+      "bytes": 622808,
+      "git_blob_sha1": "07b8ab0aa4471aa19cfae5e662d291493f09819b",
+      "sha256": "01a3c438c8be50dc5fdd8f20d4b48b9063a1bd33e2a0a4af010b8079883d2c10",
+      "shape": [
+        279,
+        279
+      ],
+      "dtype": "float64",
+      "minimum": 0.0,
+      "maximum": 23.0,
+      "nonzero": 1122
+    },
+    "Gs.npy": {
+      "bytes": 622808,
+      "git_blob_sha1": "0a6e1cc361d9fe377f48cbf48e0557fec65debe8",
+      "sha256": "d4b4cf00c11a9bc79b2b6d581ef471f9237c8f09ddd13ec90c866bf19004b3fd",
+      "shape": [
+        279,
+        279
+      ],
+      "dtype": "float64",
+      "minimum": 0.0,
+      "maximum": 37.0,
+      "nonzero": 2305
+    },
+    "emask.npy": {
+      "bytes": 359,
+      "git_blob_sha1": "ae289f5055e5661739b977cee62935d2f3b0be06",
+      "sha256": "b19b49efcfd78fa471fecaa70cbe765aa319c2db7165add45475f69a053e74e8",
+      "shape": [
+        279,
+        1
+      ],
+      "dtype": "uint8",
+      "minimum": 0.0,
+      "maximum": 1.0,
+      "nonzero": 26
+    },
+    "names": {
+      "bytes": 2822,
+      "git_blob_sha1": "19e964a95d45d30f8e0b1ba3ced52a08192da4c7"
+    },
+    "slider": {
+      "bytes": 2110,
+      "git_blob_sha1": "3f4ecedef8ccfb8794a83121b243333568cd8b57"
+    },
+    "network": {
+      "bytes": 4998,
+      "git_blob_sha1": "64a0ba0a39d5e7745a842ffd0ca1275a68cc8edc"
+    },
+    "FWD": {
+      "bytes": 16781,
+      "git_blob_sha1": "0840d0d732a38e1b76de384310e113ecda8e1405",
+      "local_added_terminal_newline": true
+    },
+    "PLM": {
+      "bytes": 16775,
+      "git_blob_sha1": "87d8afda2195a3fb5a8dec2bd05a1a14ca5104f2",
+      "local_added_terminal_newline": true
+    }
+  },
+  "comparisons": {
+    "DEFAULT_ZERO": {
+      "scalar_rhs_max_relative_error": 0.0,
+      "scalar_rhs_max_absolute_error": 0.0,
+      "integrated_max_absolute_error": 9.481438945080356e-07,
+      "original_vode_success": true,
+      "independent_radau_success": true,
+      "states": 558,
+      "seconds": 0.54
+    },
+    "PUBLISHED_FWD_PRESET": {
+      "scalar_rhs_max_relative_error": 0.0,
+      "scalar_rhs_max_absolute_error": 0.0,
+      "integrated_max_absolute_error": 0.0002382144130024244,
+      "original_vode_success": true,
+      "independent_radau_success": true,
+      "states": 558,
+      "seconds": 0.54
+    }
+  },
+  "sustained_fwd_reference": {
+    "seconds": 20.0,
+    "success": true,
+    "nfev": 8361,
+    "voltage_min": -34.999999999999964,
+    "voltage_max": 6697.087856664918,
+    "motor_last10s_rms_temporal_sd": 5.638259640019669,
+    "VB01_last10s_peaks": 5,
+    "VB01_median_peak_interval": 1.9349999999999996
+  },
+  "python": "3.9.6 (default, Oct 19 2026, 19:18:13) \n[Clang 21.0.0 (clang-2100.4.1.1)]",
+  "numpy": "2.0.2",
+  "scipy": "1.13.1",
+  "elapsed_s": 7.148624792,
+  "max_rss_bytes_macos": 183173120,
+  "independent_units": "one deterministic published connectome, one preselected source-law seed; no animals",
+  "scope": "Source-equation extraction of own pinned2019beta version; not exact2017, not full published numerical reproduction. No NEWpilot evaluation.",
+  "native_threads": "environment variables set1 before NumPy/Scipy import; OS enforcement not independently measured"
+}

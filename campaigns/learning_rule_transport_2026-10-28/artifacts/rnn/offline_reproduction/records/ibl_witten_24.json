@@ -1,0 +1,134 @@
+{
+  "subject": "ibl_witten_24",
+  "split": "lab_holdout",
+  "particles": 512,
+  "prefix_n": 1000,
+  "horizon": 1666,
+  "model_sha256": "c7f675d18f4143891ed7d2c76d91f74be74da9565fbae5407952768e2c146940",
+  "forecast_path": "artifacts/forecasts/rnn_source_labs/ibl_witten_24__rnnglm32.npz",
+  "forecast_sha256": "41970d5ef3ff0c364f823a10901a015301a9dbc11cf922004be01654f477b6db",
+  "metadata_sha256": "12e8886a9e73408e35a49f55a0d195f5ab0ba4c1e19191bb9d7dc98982c38938",
+  "seed": 142249677,
+  "exact": true,
+  "max_abs_difference": 0.0,
+  "arrays": {
+    "samples": {
+      "exact": true,
+      "shape": [
+        512,
+        3,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "8379c161cd7ecf410d00879795dcaf606871927d1d4ff74200b87b8a883240b6",
+      "saved_array_sha256": "8379c161cd7ecf410d00879795dcaf606871927d1d4ff74200b87b8a883240b6"
+    },
+    "samples_primary": {
+      "exact": true,
+      "shape": [
+        512,
+        3,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "8379c161cd7ecf410d00879795dcaf606871927d1d4ff74200b87b8a883240b6",
+      "saved_array_sha256": "8379c161cd7ecf410d00879795dcaf606871927d1d4ff74200b87b8a883240b6"
+    },
+    "weights": {
+      "exact": true,
+      "shape": [
+        512,
+        3,
+        3
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "d297cd7a98618da2ea16870f3c73fbb0975bc1bede87ccbbff03016991a229a9",
+      "saved_array_sha256": "d297cd7a98618da2ea16870f3c73fbb0975bc1bede87ccbbff03016991a229a9"
+    },
+    "hidden_final": {
+      "exact": true,
+      "shape": [
+        512,
+        32
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "bee2d62f6ed7340ee504d9d13d3269c33cad9cbe1243c6fe4be962814da176a2",
+      "saved_array_sha256": "bee2d62f6ed7340ee504d9d13d3269c33cad9cbe1243c6fe4be962814da176a2"
+    },
+    "counts": {
+      "exact": true,
+      "shape": [
+        512,
+        3,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "d922b5776ac1328eb0d826f926c0f38ceb23938036739bd4aa7b37618693873b",
+      "saved_array_sha256": "d922b5776ac1328eb0d826f926c0f38ceb23938036739bd4aa7b37618693873b"
+    },
+    "pool_fraction": {
+      "exact": true,
+      "shape": [
+        3,
+        6
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "a3cd1d0977b5ed2521cfbaca9801978c08730c58d7eaefa8d25e3cca2aaece24",
+      "saved_array_sha256": "a3cd1d0977b5ed2521cfbaca9801978c08730c58d7eaefa8d25e3cca2aaece24"
+    },
+    "session_start": {
+      "exact": true,
+      "shape": [
+        1666
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "a8b15513f1aab81139d18474c5be4ac280d70fbd384e82cbcd4b52acf0a7f120",
+      "saved_array_sha256": "a8b15513f1aab81139d18474c5be4ac280d70fbd384e82cbcd4b52acf0a7f120"
+    },
+    "seed": {
+      "exact": true,
+      "shape": [],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "23a175e126a78de48d3f1805e60dfcd606a7a1926c3d8f20b63e10380223b538",
+      "saved_array_sha256": "23a175e126a78de48d3f1805e60dfcd606a7a1926c3d8f20b63e10380223b538"
+    }
+  },
+  "original_prefix_objects": [
+    {
+      "path": "data/sealed/lab_holdout/ibl_witten_24/2020-03-12_001_534429a6-e3d7-4bf5-a682-a05219ef38e1_table.pqt",
+      "bytes": 60236,
+      "sha256": "d5a8d8e673113800644f72f1980ec30cd0d659af0526561b938afd7be5144d32",
+      "md5": "129562b0353a91b60cfd975344a5c7ea",
+      "published_md5": "129562b0353a91b60cfd975344a5c7ea"
+    },
+    {
+      "path": "data/sealed/lab_holdout/ibl_witten_24/2020-03-12_001_534429a6-e3d7-4bf5-a682-a05219ef38e1_repNum.npy",
+      "bytes": 6200,
+      "sha256": "37415a7ae26e05d8f9378c753dd7ac68541d2d6de48fcb2215a1c650fe2daa8e",
+      "md5": "0285495bde8ec56f6406fa58a4b9b6ff",
+      "published_md5": "0285495bde8ec56f6406fa58a4b9b6ff"
+    },
+    {
+      "path": "data/sealed/lab_holdout/ibl_witten_24/2020-03-13_001_06af8f68-2723-4850-b798-bfa41212da6a_table.pqt",
+      "bytes": 69944,
+      "sha256": "2ae7c2bf128ef26c407b5961f29f3af9dd3962e238a3df1c0de9ac49046cf3a1",
+      "md5": "e4e6899d51cd6ade73eb4c56b31d4114",
+      "published_md5": "e4e6899d51cd6ade73eb4c56b31d4114"
+    },
+    {
+      "path": "data/sealed/lab_holdout/ibl_witten_24/2020-03-13_001_06af8f68-2723-4850-b798-bfa41212da6a_repNum.npy",
+      "bytes": 7344,
+      "sha256": "07a4d2e7378b8d00b8e52e40bde07ba2dd3300caba7c88fda7bca3dc26a2df98",
+      "md5": "2e11e3cd17d3ac149ef3c43cdcb4aaf2",
+      "published_md5": "2e11e3cd17d3ac149ef3c43cdcb4aaf2"
+    }
+  ],
+  "prefix_rows_per_session": [
+    759,
+    241
+  ],
+  "opportunity_source": "pinned footer counts only",
+  "future_outcomes_read": false,
+  "external_outcomes_read": false,
+  "seconds": 1.6058249159832485
+}

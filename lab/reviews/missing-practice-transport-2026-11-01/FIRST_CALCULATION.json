@@ -1,0 +1,172 @@
+{
+  "generated_utc": "2026-11-01T05:23:30.842570+00:00",
+  "basis": "Independent event recurrence constructed from PROTOCOL, before author numerical code/proofs/results.",
+  "rstar": 0.31640625,
+  "K": 2,
+  "worlds": [
+    {
+      "counts": [
+        2,
+        2
+      ],
+      "rho": 0.649519052838329,
+      "source": {
+        "gains": [
+          0.5,
+          0.5
+        ],
+        "certificates": {
+          "A": [
+            {
+              "pre": 0.0,
+              "Y": 0
+            },
+            {
+              "pre": 0.5,
+              "Y": 1
+            }
+          ],
+          "B": [
+            {
+              "pre": 0.0,
+              "Y": 0
+            },
+            {
+              "pre": 0.5,
+              "Y": 1
+            }
+          ]
+        },
+        "block_endpoints": {
+          "A": 0.75,
+          "B": 0.75
+        },
+        "return_A": 0.31640625,
+        "retained_positions": {
+          "A": [
+            1,
+            2
+          ],
+          "B": [
+            1,
+            2
+          ]
+        },
+        "retained_certificates": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0,
+            1
+          ]
+        },
+        "omitted_total": 0
+      },
+      "target_mean_preupdate": 0.3623814006846598,
+      "target_trace": [
+        0.0,
+        0.0,
+        0.3247595264191645,
+        0.3247595264191645,
+        0.4302282764191645,
+        0.4302282764191645,
+        0.4644802577211858,
+        0.4644802577211858,
+        0.47560391494774823,
+        0.47560391494774823,
+        0.4792164286006958,
+        0.4792164286006958
+      ]
+    },
+    {
+      "counts": [
+        3,
+        3
+      ],
+      "rho": 0.75,
+      "source": {
+        "gains": [
+          0.3700394750525634,
+          0.3700394750525634
+        ],
+        "certificates": {
+          "A": [
+            {
+              "pre": 0.0,
+              "Y": 0
+            },
+            {
+              "pre": 0.3700394750525634,
+              "Y": 0
+            },
+            {
+              "pre": 0.6031497370079502,
+              "Y": 1
+            }
+          ],
+          "B": [
+            {
+              "pre": 0.0,
+              "Y": 0
+            },
+            {
+              "pre": 0.3700394750525634,
+              "Y": 0
+            },
+            {
+              "pre": 0.6031497370079502,
+              "Y": 1
+            }
+          ]
+        },
+        "block_endpoints": {
+          "A": 0.75,
+          "B": 0.75
+        },
+        "return_A": 0.31640625,
+        "retained_positions": {
+          "A": [
+            1,
+            3
+          ],
+          "B": [
+            1,
+            3
+          ]
+        },
+        "retained_certificates": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            0,
+            1
+          ]
+        },
+        "omitted_total": 2
+      },
+      "target_mean_preupdate": 0.3617290709565521,
+      "target_trace": [
+        0.0,
+        0.0,
+        0.2775296062894226,
+        0.2775296062894226,
+        0.40865412863932754,
+        0.40865412863932754,
+        0.47060658333909866,
+        0.47060658333909866,
+        0.49987728400243614,
+        0.49987728400243614,
+        0.5137068234690276,
+        0.5137068234690276
+      ]
+    }
+  ],
+  "same_observation": true,
+  "target_gap": 0.0006523297281076923,
+  "limitations": "Finite attained witness, not a sharp or worst-outcome bound. 1e-15 certificate guard solely handles representation of exact n=2 equality; not directed interval certification.",
+  "process_maxrss_bytes": 11042816
+}

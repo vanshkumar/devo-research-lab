@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "models": {
+    "rnnglm32": {
+      "selected_scale": 0.0,
+      "selection": "minimum equal-animal LOO CRPS at first3000futuretrials;tiespreferloweramplitude",
+      "candidate_scales": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "primary_horizon": 3000,
+      "loo_crps_by_scale": {
+        "0.0": 0.054129153739683036,
+        "0.5": 0.05493988618442006,
+        "1.0": 0.0576559216467822
+      },
+      "n_residual_donors": 10,
+      "n_primary_scored": 10,
+      "calibration_seed_base": 20261675,
+      "calibration_seed_rule": "seed_base + integer(first7hexSHA256(subject))",
+      "n_cell_donors": [
+        [
+          10,
+          10,
+          10,
+          10
+        ],
+        [
+          10,
+          10,
+          10,
+          10
+        ],
+        [
+          10,
+          10,
+          10,
+          10
+        ],
+        [
+          10,
+          10,
+          10,
+          10
+        ],
+        [
+          10,
+          10,
+          10,
+          10
+        ],
+        [
+          10,
+          10,
+          10,
+          10
+        ],
+        [
+          9,
+          9,
+          9,
+          9
+        ],
+        [
+          8,
+          8,
+          8,
+          8
+        ],
+        [
+          8,
+          8,
+          8,
+          8
+        ],
+        [
+          8,
+          8,
+          8,
+          8
+        ]
+      ],
+      "donor_subjects": [
+        "CSHL053",
+        "CSHL058",
+        "CSHL059",
+        "CSH_ZAD_005",
+        "CSH_ZAD_007",
+        "DY_015",
+        "KS002",
+        "ZM_1743",
+        "ZM_2240",
+        "ZM_2241"
+      ],
+      "residual_bank_path": "artifacts/rnn/calibration/rnnglm32_residuals.npz",
+      "residual_bank_sha256": "761f11b69392c1e0f9e06ee4a8d357ce9d5cbd90cbe89129ec2da13fbd6a0847",
+      "residual_definition": "observedcurve minus raw forecast sample mean;center donors perbin/metric before sampling;missing donor cells map to centered0",
+      "update_rule_changed": false,
+      "mean_adjustment": "none before clipping;all clipping and finite-sampling mean shifts recorded",
+      "source_manifest_path": "artifacts/rnn/calibration/rnnglm32_SOURCE_MANIFEST.json"
+    }
+  },
+  "frozen_from": "reserved development-CV outcomes only",
+  "forecast_dir": "artifacts/forecasts/rnn_dev",
+  "last_fit_utc": "2026-10-29T00:51:42.952129+00:00",
+  "source_holdout_outcomes_used": false,
+  "external_outcomes_used": false,
+  "application": "apply_calibration(samples,model_name,seed,config_path)"
+}

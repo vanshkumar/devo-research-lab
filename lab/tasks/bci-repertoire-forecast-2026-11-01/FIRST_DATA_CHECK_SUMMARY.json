@@ -1,0 +1,36 @@
+{
+  "timestamp_utc": "2026-11-01T04:46:02.537919+00:00",
+  "sessions": 1,
+  "samples": 552,
+  "spike_values": 47472,
+  "matrix_validation": {
+    "all_inputs_finite": true,
+    "matmul_result_finite": true,
+    "einsum_result_finite": true,
+    "matmul_vs_explicit_contractions_max_abs": 5.551115123125783e-17,
+    "current_original_expression_warnings": [
+      "divide by zero encountered in matmul",
+      "overflow encountered in matmul",
+      "invalid value encountered in matmul",
+      "divide by zero encountered in matmul",
+      "overflow encountered in matmul",
+      "invalid value encountered in matmul",
+      "divide by zero encountered in matmul",
+      "overflow encountered in matmul",
+      "invalid value encountered in matmul"
+    ],
+    "first_pass_warnings_observed_in_tool_output": [
+      "divide by zero encountered in matmul",
+      "overflow encountered in matmul",
+      "invalid value encountered in matmul"
+    ],
+    "first_pass_saved": "FIRST_DATA_CHECK_INITIAL.json and first_data_check_initial.py",
+    "action": "Use explicit einsum contractions for decoder and factor reconstruction; preserve the initial warning record."
+  },
+  "max_factor_error": 2.6645352591003757e-15,
+  "max_raw_velocity_error_mm_per_s": 3.0745269441467826e-08,
+  "max_factor_velocity_error_mm_per_s": 8.526512829121202e-14,
+  "max_raw_dt_scaled_progress_error_mm_per_bin": 8.881784197001252e-15,
+  "max_factor_dt_scaled_progress_error_mm_per_bin": 1.383542169719476e-09,
+  "factor_progress_roundtrip_bound_mm_per_bin": 1.957616966032249e-09
+}

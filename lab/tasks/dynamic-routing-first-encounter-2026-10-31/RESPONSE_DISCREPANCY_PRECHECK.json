@@ -1,0 +1,204 @@
+{
+  "created_utc": "2026-11-01T03:34:39Z",
+  "postvalidation_source_diagnostic": true,
+  "primary_scoring": "BLOCKED by immutable frozen chronology rule; no model/gate revision or replacement animal",
+  "subjects": {
+    "664851": {
+      "rows": 534,
+      "response_flag_time_mismatch_count": 0,
+      "true_flag_missing_time_count": 0,
+      "false_flag_finite_time_count": 0,
+      "contingent_reward_check_failure_count": 0,
+      "mismatch_positions": [],
+      "records": [],
+      "definitions": {
+        "is_response": {
+          "description": "the subject licked one or more times during the response window",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "c5cfa2f9-f7e5-452e-b5dc-517fa26ec643",
+          "zarr_dtype": "bool"
+        },
+        "response_time": {
+          "description": "time of first lick within the response window; nan if no lick occurred; may be nan even if `is_response` is True, for sessions prior to 2023-10-20 (see `task_control_response_time.description`)",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "a89c386b-870c-49b2-961b-32f098ec7d4a",
+          "zarr_dtype": "float"
+        },
+        "task_control_response_time": {
+          "description": "time of first lick in trial, according to the task control script; a bug present until 2023-10-16 allowed a lick ocurring before `response_window_start_time` to be registered as a response, which then affected trial outcome; values in this column represent the time that the task control script registered as a response (regardless of whether the bug was present or not); nan if the task control script did not register a response",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "8505a930-df37-40a3-85d7-0da67160a06a",
+          "zarr_dtype": "float"
+        },
+        "is_contingent_reward": {
+          "description": "the subject received a reward for a correct response",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "7ef66ac3-0d42-4751-91c4-480e4b9555aa",
+          "zarr_dtype": "bool"
+        },
+        "is_noncontingent_reward": {
+          "description": "the subject received a reward that did not depend on its response",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "c32730ba-ea4e-4f4a-a955-ac26b3683845",
+          "zarr_dtype": "bool"
+        }
+      }
+    },
+    "713655": {
+      "rows": 515,
+      "response_flag_time_mismatch_count": 1,
+      "true_flag_missing_time_count": 0,
+      "false_flag_finite_time_count": 1,
+      "contingent_reward_check_failure_count": 1,
+      "mismatch_positions": [
+        54,
+        402
+      ],
+      "records": [
+        {
+          "stim_name": "aud+",
+          "is_response": true,
+          "reward_time": 2850.78235,
+          "block_index": 0,
+          "is_instruction": false,
+          "is_opto": false,
+          "is_repeat": false,
+          "stim_start_time": 2850.69015,
+          "response_window_start_time": 2850.76569,
+          "response_window_stop_time": 2851.6831,
+          "response_time": 2850.97689,
+          "is_noncontingent_reward": false,
+          "is_contingent_reward": true,
+          "is_reward_scheduled": false,
+          "trial_position_0based": 54
+        },
+        {
+          "stim_name": "vis-",
+          "is_response": false,
+          "reward_time": NaN,
+          "block_index": 4,
+          "is_instruction": false,
+          "is_opto": false,
+          "is_repeat": false,
+          "stim_start_time": 5434.60815,
+          "response_window_start_time": 5434.66394,
+          "response_window_stop_time": 5435.5814,
+          "response_time": 5435.55572,
+          "is_noncontingent_reward": false,
+          "is_contingent_reward": false,
+          "is_reward_scheduled": false,
+          "trial_position_0based": 402
+        }
+      ],
+      "definitions": {
+        "is_response": {
+          "description": "the subject licked one or more times during the response window",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "e4dd3c58-06f3-4856-9f13-714f60d01112",
+          "zarr_dtype": "bool"
+        },
+        "response_time": {
+          "description": "time of first lick within the response window; nan if no lick occurred; may be nan even if `is_response` is True, for sessions prior to 2023-10-20 (see `task_control_response_time.description`)",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "57ec71a3-42d4-499d-bdd0-b966ec836b6c",
+          "zarr_dtype": "float"
+        },
+        "task_control_response_time": {
+          "description": "time of first lick in trial, according to the task control script; a bug present until 2023-10-16 allowed a lick ocurring before `response_window_start_time` to be registered as a response, which then affected trial outcome; values in this column represent the time that the task control script registered as a response (regardless of whether the bug was present or not); nan if the task control script did not register a response",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "9ad726cd-18bf-49e2-b8fb-f954aa6d182f",
+          "zarr_dtype": "float"
+        },
+        "is_contingent_reward": {
+          "description": "the subject received a reward for a correct response",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "922a7f55-c16d-4ce4-85e4-3feb42bf0da3",
+          "zarr_dtype": "bool"
+        },
+        "is_noncontingent_reward": {
+          "description": "the subject received a reward that did not depend on its response",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "66e94596-ce49-4d25-9028-94de104e217b",
+          "zarr_dtype": "bool"
+        }
+      }
+    },
+    "759434": {
+      "rows": 545,
+      "response_flag_time_mismatch_count": 1,
+      "true_flag_missing_time_count": 0,
+      "false_flag_finite_time_count": 1,
+      "contingent_reward_check_failure_count": 0,
+      "mismatch_positions": [
+        367
+      ],
+      "records": [
+        {
+          "stim_name": "vis-",
+          "is_response": false,
+          "reward_time": NaN,
+          "block_index": 4,
+          "is_instruction": false,
+          "is_opto": false,
+          "is_repeat": false,
+          "stim_start_time": 4639.42596,
+          "response_window_start_time": 4639.48181,
+          "response_window_stop_time": 4640.41595,
+          "response_time": 4640.38652,
+          "is_noncontingent_reward": false,
+          "is_contingent_reward": false,
+          "is_reward_scheduled": false,
+          "trial_position_0based": 367
+        }
+      ],
+      "definitions": {
+        "is_response": {
+          "description": "the subject licked one or more times during the response window",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "08091cd9-ad77-409b-97b1-3971e9cbec03",
+          "zarr_dtype": "bool"
+        },
+        "response_time": {
+          "description": "time of first lick within the response window; nan if no lick occurred; may be nan even if `is_response` is True, for sessions prior to 2023-10-20 (see `task_control_response_time.description`)",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "9fe75ebc-7d54-4c9e-a151-7fc8b8892188",
+          "zarr_dtype": "float"
+        },
+        "task_control_response_time": {
+          "description": "time of first lick in trial, according to the task control script; a bug present until 2023-10-16 allowed a lick ocurring before `response_window_start_time` to be registered as a response, which then affected trial outcome; values in this column represent the time that the task control script registered as a response (regardless of whether the bug was present or not); nan if the task control script did not register a response",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "807deaf0-56d3-4038-8801-a2004fdd9f74",
+          "zarr_dtype": "float"
+        },
+        "is_contingent_reward": {
+          "description": "the subject received a reward for a correct response",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "7a8c686d-95cb-46c5-94e0-01be52dc88f7",
+          "zarr_dtype": "bool"
+        },
+        "is_noncontingent_reward": {
+          "description": "the subject received a reward that did not depend on its response",
+          "namespace": "hdmf-common",
+          "neurodata_type": "VectorData",
+          "object_id": "baea4aa8-39f2-4181-9bdb-9c004c27dd0e",
+          "zarr_dtype": "bool"
+        }
+      }
+    }
+  },
+  "rss_bytes": 31588352
+}

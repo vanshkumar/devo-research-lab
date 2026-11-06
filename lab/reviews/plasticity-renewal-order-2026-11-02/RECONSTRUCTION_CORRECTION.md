@@ -1,0 +1,5 @@
+# Independent reference failure and correction
+
+The first independent reconstruction exited1 before prediction scoring: I used the target constructor default beta=.75, while the pinned problem config explicitly sets beta=.7. The saved first teacher failed the independent label equality assertion. Original author data/code and all scientific freezes were unchanged. The source manifest's Git-verified prob.json and bp config, and calibration CBP config, all specify .7; this is a reviewer reference mistake, not a discovered author inconsistency.
+
+The exact initial script is retained as reconstruct_beta075_failed.py. RECONSTRUCTION_FAILURE.txt and RECONSTRUCTION_FAILURE_RESOURCES.json retain the failure,0.535s process time,37,109,760-byte peakRSS and5,460,429 explicit read bytes. The corrected independent target uses the configured .7 in the same strict LTU and bias formula; no author helper is imported. This does not spend the ONE contrary test or revise the frozen author evaluation. The earlier model-capacity failed turn and all context exposure remain charged.

@@ -1,0 +1,179 @@
+{
+  "scope": "Reserved INPUTS only; fixed original primary operators. No empirical validation outcomes read.",
+  "retentions": [
+    0.65,
+    0.995
+  ],
+  "gains": [
+    0.65,
+    0.3
+  ],
+  "endpoint_noise_sd": 3.0,
+  "omissions": "Original fixed 3% independent mask, seed194192; full chronological updates retained.",
+  "heterogeneity": "Gain log SD.20; noise log SD.15; same seeds for both drift scenarios.",
+  "process_sd": 0.08,
+  "replicates": 300,
+  "seed": 892034,
+  "analysis_sha256": "45d7e7f3630e824f97dd025fc11daafe28c5834018c4112413e9e17e3f2bddfc",
+  "scenarios": {
+    "drift_0.6": {
+      "replicates": 300,
+      "mean_estimate": 0.0003529803001625975,
+      "mean_physical_truth": 0.0,
+      "mean_noiseless_projection": -0.007831104877738675,
+      "bias_to_physical": 0.0003529803001625975,
+      "mean_projection_bias": -0.007831104877738675,
+      "rmse": 0.22920036279942577,
+      "empirical_sd": 0.2295830488079698,
+      "mean_se": 0.23134357123825205,
+      "coverage_physical": {
+        "rate": 0.9433333333333334,
+        "n": 283,
+        "total": 300,
+        "binomial95": [
+          0.9108195955658341,
+          0.9666466884833183
+        ]
+      },
+      "coverage_noiseless_projection": {
+        "rate": 0.9433333333333334,
+        "n": 283,
+        "total": 300,
+        "binomial95": [
+          0.9108195955658341,
+          0.9666466884833183
+        ]
+      },
+      "reject_zero": {
+        "rate": 0.056666666666666664,
+        "n": 17,
+        "total": 300,
+        "binomial95": [
+          0.03335331151668174,
+          0.08918040443416576
+        ]
+      },
+      "correct_sign_detection": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "intervals_inside_02": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "falsely_inside_02_at_or_beyond_margin": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "mean_curve": [
+        0.020744380453712203,
+        -0.014150175285327918,
+        -0.005840025385052139,
+        -0.0038065459626449426,
+        0.004817267680125778
+      ],
+      "physical_curve": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "drift_3.0": {
+      "replicates": 300,
+      "mean_estimate": 0.0006252072870017075,
+      "mean_physical_truth": 0.0,
+      "mean_noiseless_projection": -0.007831104877738675,
+      "bias_to_physical": 0.0006252072870017075,
+      "mean_projection_bias": -0.007831104877738675,
+      "rmse": 0.22995193423909954,
+      "empirical_sd": 0.23033529691771518,
+      "mean_se": 0.23150444489941654,
+      "coverage_physical": {
+        "rate": 0.9433333333333334,
+        "n": 283,
+        "total": 300,
+        "binomial95": [
+          0.9108195955658341,
+          0.9666466884833183
+        ]
+      },
+      "coverage_noiseless_projection": {
+        "rate": 0.9433333333333334,
+        "n": 283,
+        "total": 300,
+        "binomial95": [
+          0.9108195955658341,
+          0.9666466884833183
+        ]
+      },
+      "reject_zero": {
+        "rate": 0.056666666666666664,
+        "n": 17,
+        "total": 300,
+        "binomial95": [
+          0.03335331151668174,
+          0.08918040443416576
+        ]
+      },
+      "correct_sign_detection": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "intervals_inside_02": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "falsely_inside_02_at_or_beyond_margin": {
+        "rate": 0.0,
+        "n": 0,
+        "total": 300,
+        "binomial95": [
+          0.0,
+          0.01222097469429642
+        ]
+      },
+      "mean_curve": [
+        0.020937963470931173,
+        -0.013921441951343731,
+        -0.005637591623074891,
+        -0.0035064034549950078,
+        0.0052535099934908425
+      ],
+      "physical_curve": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "seconds": 17.069424867630005
+}

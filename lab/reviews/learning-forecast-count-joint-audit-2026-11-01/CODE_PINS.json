@@ -1,0 +1,111 @@
+{
+  "utc": "2026-11-01T13:42:51.056904+00:00",
+  "pins": {
+    "BRIEF.md": {
+      "sha256": "80d7f06a7ab14b42c9927b617f140a4b6b4ec9060e2014b6196cb26761814ffc",
+      "containing_bytes": 7355
+    },
+    "DESIGN.md": {
+      "sha256": "ec3956545c0463589ce4c098a1c6d7de0b8d143db300546f739e5b1060450ab7",
+      "containing_bytes": 6626
+    },
+    "RESOURCE_PLAN.json": {
+      "sha256": "9c9235b06fda336fc5f61a4de9f4b7bbd3ad4171868b2b3ef8dcea19d80df9b7",
+      "containing_bytes": 1799
+    },
+    "schema_calculation.py": {
+      "sha256": "9884a52e90693c875fbfd45d37559d23ddfcbfc8e6b90015277824fa85ce6de1",
+      "containing_bytes": 3341
+    },
+    "first_calculation.py": {
+      "sha256": "079f590b760e2d537a83bafe9b88ccfe07b6a3292df506f38085503fe445a4f5",
+      "containing_bytes": 7342
+    },
+    "freeze.py": {
+      "sha256": "c9813626b016dbffd4c1e41606890e4dabe36c3799795cdeffe9a9f55a0a49ae",
+      "containing_bytes": 896
+    },
+    "review.py": {
+      "sha256": "d4f45229dc9534dc6c4b9dc5875b78e6f1e5c3edd4164a2ce64975d335a36a13",
+      "containing_bytes": 8357
+    },
+    "final_audit.py": {
+      "sha256": "d8c825d17db3ad5bb30a0c1164dc830ca63472e57d69da3e58776a9ddae29d12",
+      "containing_bytes": 11176
+    },
+    "closeout.py": {
+      "sha256": "80ea17b5ba596dfe60162dcd65f41d9444a48407de2f322385383c5a0e12c7a3",
+      "containing_bytes": 3309
+    },
+    "SCHEMA_CALCULATION.json": {
+      "sha256": "460075546208fc347a3d1dc4a4563750390d2db90660884f2fe19545dabf85c6",
+      "containing_bytes": 8148
+    },
+    "FIRST_CALCULATION.json": {
+      "sha256": "375bcb165971a7f125b72f88f8ed218681f1282da9406a997c894261ce8191a3",
+      "containing_bytes": 21646
+    },
+    "FROZEN_PLAN.json": {
+      "sha256": "a969272f30a2e7af6c374916268a174ca3c5a95ed90ebd4d26ea1a99053a972c",
+      "containing_bytes": 926
+    },
+    "PAIRED_ENDPOINTS.npz": {
+      "sha256": "e89d1fbf1907cd4c8c27ad996a6e5fe04780c18ca75741362f7be59e31ad7963",
+      "containing_bytes": 646330
+    },
+    "RECONSTRUCTED_SCORES.npz": {
+      "sha256": "42cfe5d5bd04c81802efd85d5c7a326e1301fdac0f606f0abed8f6137305f752",
+      "containing_bytes": 22429
+    },
+    "REVIEW_ARRAYS.npz": {
+      "sha256": "4b91ff66904a89c5745117d1d1c97e5007d06910950720471ce2447e67144a5e",
+      "containing_bytes": 1067611
+    },
+    "REVIEW_NUMBERS.json": {
+      "sha256": "ec42e0e3d576e3073779a360d024546bd47e7f8f0ef574771eba809c90b4833b",
+      "containing_bytes": 20043
+    },
+    "AUTHOR_ASSET_AUDIT.json": {
+      "sha256": "eb6dab67db5149281173ff29b175ab11144eb4fe8dfe5bd37f0278fb4c159145",
+      "containing_bytes": 4783
+    },
+    "CONTRARY.json": {
+      "sha256": "cf1a4d4202460e13200af75099cce0484c2d863882501f4805f0e846cabfb13b",
+      "containing_bytes": 3032
+    },
+    "FINAL_AUDIT.json": {
+      "sha256": "53039da3358a4cb9cebe6287fedcb286d627dc6c1bf9162daa4d2e6616a31c8b",
+      "containing_bytes": 23640
+    },
+    "REVIEW.md": {
+      "sha256": "e832b5b4916de6ade29859273b6f7d44e71ac6dd1fd347bd7c338bdd98087579",
+      "containing_bytes": 12041
+    },
+    "README.md": {
+      "sha256": "09e55383e1d2a0af8b09872c6946de4d73a50c410d2041fe3d193a0172bcdd9c",
+      "containing_bytes": 4310
+    },
+    "PROPOSED_LEARNING.md": {
+      "sha256": "b4fd295018978156e64e5cead34f63d162b15db90eb9dcd1160c2f6c24883e70",
+      "containing_bytes": 1210
+    },
+    "EXPOSURE.json": {
+      "sha256": "5b91169fad5d56571bd32cda122794cecf5d85d53596f5d9c6ba95560ee20b9a",
+      "containing_bytes": 2087
+    }
+  },
+  "original_source": {
+    "path": "campaigns/population_learning_transport_2026-10-28/code/campaign.py",
+    "sha256": "5fc55619c2e633adbe80615a44022b5148611f527438d8bab8be2447966c06ae",
+    "frozen_original_source_matches": true,
+    "inspected_lines": "35-145",
+    "finding": "Same subject seed/particle order, resets seed+101 action stream and seed+419 trainer per method; shared common initialization. Inspected, never executed/imported."
+  },
+  "mutable_records_excluded": [
+    "STATE.md",
+    "RESOURCES.json",
+    "TERMINAL_REPORT.md",
+    "CODE_PINS.json"
+  ],
+  "terminal_report_words": 256
+}

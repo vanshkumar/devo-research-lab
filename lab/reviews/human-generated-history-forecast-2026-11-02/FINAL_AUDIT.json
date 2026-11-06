@@ -1,0 +1,223 @@
+{
+  "utc": "2026-11-02T21:05:34.017160+00:00",
+  "proper_score_known_answers": {
+    "main": {
+      "expected_gain_under_shared": 0.018523430687513314,
+      "expected_gain_under_baseline": -0.019215340733837124,
+      "max_expected_gain_difference": 6.938893903907228e-18,
+      "absolute_primary_log_scores": [
+        -0.6283206072823547,
+        -0.6622147061895064
+      ],
+      "absolute_log_score_max_difference": 0.0
+    },
+    "double_omission": {
+      "expected_gain_under_shared": 0.018340328709120782,
+      "expected_gain_under_baseline": -0.019024270287392463,
+      "max_expected_gain_difference": 6.938893903907228e-18,
+      "absolute_primary_log_scores": [
+        -0.6284663306856193,
+        -0.6622376158381544
+      ],
+      "absolute_log_score_max_difference": 0.0
+    },
+    "no_omission": {
+      "expected_gain_under_shared": 0.01870473289790848,
+      "expected_gain_under_baseline": -0.019404145652839135,
+      "max_expected_gain_difference": 6.938893903907228e-18,
+      "absolute_primary_log_scores": [
+        -0.628294377910379,
+        -0.6622685491736718
+      ],
+      "absolute_log_score_max_difference": 1.1102230246251565e-16
+    }
+  },
+  "raw_prefix_feedback_encoding_differences": 253,
+  "feedback_encoding_examples": [
+    [
+      "009",
+      {
+        "trial": 4,
+        "choice": 0.0,
+        "raw_feedback": null,
+        "forecast_feedback": 0.0
+      }
+    ],
+    [
+      "011",
+      {
+        "trial": 0,
+        "choice": 0.0,
+        "raw_feedback": null,
+        "forecast_feedback": 0.0
+      }
+    ],
+    [
+      "011",
+      {
+        "trial": 1,
+        "choice": 0.0,
+        "raw_feedback": null,
+        "forecast_feedback": 0.0
+      }
+    ],
+    [
+      "011",
+      {
+        "trial": 2,
+        "choice": 0.0,
+        "raw_feedback": null,
+        "forecast_feedback": 0.0
+      }
+    ],
+    [
+      "011",
+      {
+        "trial": 3,
+        "choice": 0.0,
+        "raw_feedback": null,
+        "forecast_feedback": 0.0
+      }
+    ],
+    [
+      "011",
+      {
+        "trial": 4,
+        "choice": 0.0,
+        "raw_feedback": null,
+        "forecast_feedback": 0.0
+      }
+    ],
+    [
+      "011",
+      {
+        "trial": 5,
+        "choice": 0.0,
+        "raw_feedback": null,
+        "forecast_feedback": 0.0
+      }
+    ],
+    [
+      "011",
+      {
+        "trial": 6,
+        "choice": 0.0,
+        "raw_feedback": null,
+        "forecast_feedback": 0.0
+      }
+    ]
+  ],
+  "all_encoding_differences_are_nonresponses": true,
+  "builder_loops": [
+    {
+      "name": "practice",
+      "params": {
+        "Selected rows": "36:41",
+        "conditionsFile": "$'pregen_sequence_' + str(int(expInfo['participant'][-1])) + '.xlsx'",
+        "isTrials": "True",
+        "loopType": "random",
+        "nReps": "instructions",
+        "random seed": ""
+      },
+      "omitted_parameter_names": [
+        "conditions",
+        "endPoints",
+        "name"
+      ]
+    },
+    {
+      "name": "trials",
+      "params": {
+        "Selected rows": "0:600",
+        "conditionsFile": "$'pregen_sequence_' + str(int(expInfo['participant'][-1])) + '.xlsx'",
+        "isTrials": "True",
+        "loopType": "sequential",
+        "nReps": "1",
+        "random seed": ""
+      },
+      "omitted_parameter_names": [
+        "conditions",
+        "endPoints",
+        "name"
+      ]
+    }
+  ],
+  "source_schedule_prefix_uniqueness_pass": true,
+  "original_saved_run_errors": {
+    "freeze": null,
+    "forecast": null,
+    "score": null
+  },
+  "original_saved_run_times": {
+    "freeze": "2026-11-02T20:33:46.134446+00:00",
+    "forecast": "2026-11-02T20:34:48.942963+00:00",
+    "score": "2026-11-02T20:35:04.210588+00:00"
+  },
+  "prior_scope": "Cached primary API metadata/abstract and source code inspected; targeted primary opens failed, no priority certification.",
+  "elapsed_seconds": 0.11064633300000004,
+  "reads": [
+    {
+      "path": "lab/reviews/human-generated-history-forecast-2026-11-02/RECONSTRUCTION.json",
+      "bytes": 701615,
+      "sha256": "3551fd54928df1914c03fdde10248c82ba0b4f155b27c94f49451443b1bddb75",
+      "read_hash_decode_allowance": 2104845
+    },
+    {
+      "path": "campaigns/human_learning_routes_2026-10-28/inputs/validation_numeric.csv",
+      "bytes": 1872445,
+      "sha256": "c6a7f8d84f80f86aa1e6287187a20ceb6e206a01d47dcc77a124dc658da001e9",
+      "read_hash_decode_allowance": 5617335
+    },
+    {
+      "path": "lab/tasks/human-generated-history-forecast-2026-11-01/FORECAST_META.json",
+      "bytes": 1324,
+      "sha256": "66aaa041b4b6c80197b7c838f22e2836c6eb56702fad08f60c60f8e0c99b67a4",
+      "read_hash_decode_allowance": 3972
+    },
+    {
+      "path": "lab/tasks/human-generated-history-forecast-2026-11-01/SCORES.json",
+      "bytes": 9245,
+      "sha256": "c55001720cb0b1bf199539ec4a0702744929e44384465f8338322b7e346fee4b",
+      "read_hash_decode_allowance": 27735
+    },
+    {
+      "path": "lab/tasks/human-generated-history-forecast-2026-11-01/FORECAST_INPUTS.json",
+      "bytes": 1085903,
+      "sha256": "5d396ba483a7c33962d19aa986bc8f15c39baf80d8792b48d67e1f119e98fcba",
+      "read_hash_decode_allowance": 3257709
+    },
+    {
+      "path": "lab/tasks/human-generated-history-forecast-2026-11-01/FORECASTS.npz",
+      "bytes": 3059690,
+      "sha256": "1e89b52b30b3134a6f644239ba8790b7c553402ab58dd9768637ceed9ce8cc04",
+      "read_hash_decode_allowance": 9179070
+    },
+    {
+      "path": "lab/tasks/human-generated-history-forecast-2026-11-01/RUN_freeze.json",
+      "bytes": 2133,
+      "sha256": "4ff5297341427298ab705db847c8503bf58350f6a3c57a7b83e9ca6e47b7a4fa",
+      "read_hash_decode_allowance": 6399
+    },
+    {
+      "path": "lab/tasks/human-generated-history-forecast-2026-11-01/RUN_forecast.json",
+      "bytes": 3065,
+      "sha256": "b09d9c60fca72a4d4aa508c2b756a8a29eb507812b761fdbfb76dcba1868fd4b",
+      "read_hash_decode_allowance": 9195
+    },
+    {
+      "path": "lab/tasks/human-generated-history-forecast-2026-11-01/RUN_score.json",
+      "bytes": 3985,
+      "sha256": "1c7086267e819930333e9501d683108bf1b23ca732a07ff04188347e0604720f",
+      "read_hash_decode_allowance": 11955
+    },
+    {
+      "path": "campaigns/human_learning_routes_2026-10-28/experiments/source_audit/sources/hoxha_api.json",
+      "bytes": 2054,
+      "sha256": "6e9b46b4dc5239d15b9d80c45405cf109f1f73814be53ccf5634e46723b8a0b2",
+      "read_hash_decode_allowance": 6162
+    }
+  ],
+  "explicit_read_hash_decode_allowance": 20224377,
+  "observed_process_peak_rss_bytes": 111165440,
+  "measurement": "Darwin ru_maxrss; runtime/import/host/physical I/O unknown"
+}

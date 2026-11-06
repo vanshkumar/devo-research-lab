@@ -1,0 +1,103 @@
+{
+  "timestamp_utc": "2026-11-01T11:15:58.099774+00:00",
+  "equal_person_metric_max_difference": 0.0,
+  "gain_reconstruction": {
+    "B": {
+      "point": 0.06517516609254348,
+      "interval95": [
+        0.03793559931268187,
+        0.09181307944571478
+      ]
+    },
+    "H": {
+      "point": 0.0036331384308994075,
+      "interval95": [
+        -0.0008322785915800933,
+        0.007595834981013785
+      ]
+    }
+  },
+  "augmented_lstsq_source_fits_all360CVfolds": {
+    "B": {
+      "selected_penalty": 0.01,
+      "max_coefficient_difference": 1.637578961322106e-14,
+      "intercept_difference": 2.6020852139652106e-18,
+      "cv_mse_max_difference_degrees2": 3.410605131648481e-13,
+      "max_frozen_prediction_difference_normalized": 2.55351295663786e-15
+    },
+    "H": {
+      "selected_penalty": 0.1,
+      "max_coefficient_difference": 7.549516567451064e-14,
+      "intercept_difference": 5.637851296924623e-18,
+      "cv_mse_max_difference_degrees2": 1.5916157281026244e-12,
+      "max_frozen_prediction_difference_normalized": 2.5396351688300456e-15
+    },
+    "P": {
+      "selected_penalty": 0.1,
+      "max_coefficient_difference": 4.75175454539567e-14,
+      "intercept_difference": 1.3444106938820255e-17,
+      "cv_mse_max_difference_degrees2": 1.9326762412674725e-12,
+      "max_frozen_prediction_difference_normalized": 3.608224830031759e-15
+    }
+  },
+  "independent_refit_control_examples": {
+    "signal": {
+      "B": {
+        "penalty": 0.01,
+        "max_prediction_difference_normalized": 3.774758283725532e-15
+      },
+      "H": {
+        "penalty": 1.0,
+        "max_prediction_difference_normalized": 7.771561172376096e-16
+      },
+      "P": {
+        "penalty": 0.0001,
+        "max_prediction_difference_normalized": 1.616484723854228e-13
+      }
+    },
+    "null": {
+      "B": {
+        "penalty": 0.01,
+        "max_prediction_difference_normalized": 4.884981308350689e-15
+      },
+      "H": {
+        "penalty": 0.1,
+        "max_prediction_difference_normalized": 2.831068712794149e-15
+      },
+      "P": {
+        "penalty": 0.1,
+        "max_prediction_difference_normalized": 3.5110803153770576e-15
+      }
+    }
+  },
+  "equal_person_linear_revision_MSE_contrary": {
+    "B": 504.2091330675361,
+    "H": 473.06593309636366,
+    "P": 471.34721907448204,
+    "N": 909.9375607537573,
+    "F": 589.8191796524069
+  },
+  "stability_counts": {
+    "source_point_atleast5percent_vs_H": 0,
+    "source_max_gain_vs_H": 0.011717202051283238,
+    "loo_joint_passes": 0,
+    "loo_count": 23,
+    "control_counts_recounted": {
+      "signal": 100,
+      "null": 0
+    }
+  },
+  "small_freeze_pin_checks": {
+    "analysis.py": "69d818a649c775b08ea3c27b022039db18e023a402c609c1d44be0900d6bf88e",
+    "config.json": "694c9e17835afff55aaf598efeb981c4012336db72489da639e2b1a0c90f2bc3",
+    "PROTOCOL.md": "cbf2914579d1d7eb187068a0d0bbd799db32adac74d0d118d0cc03e27206ece9",
+    "DESIGN_GATE.json": "17f2e16ed0eeb6c70082345cbbbc758510f73dc574a63fa08d7478904acb5fa8",
+    "analysis_v2.py": "a6a1f40b43fa17dc829beb20ef89ae2733686d7ac1783b60d29b5afd796f8506",
+    "AMENDMENT_1.md": "95c78e3128cfbbd6b40c545e40fc4d4711d95a508934ad84041f1fa4721ed3cc",
+    "TYPED_MEASUREMENT_AUDIT.json": "844601fb7c4c48252d0b3f52d84a9cebc84574d2cdd828b7666f4ce6ec6527d8",
+    "SOURCE_FITS.json": "2dfb1d8945f78bd48c5f2389190d65af5db58a9b1705e70589e65e36dbfc2de5",
+    "SOURCE_FEATURE_EQUIVALENCE.json": "00769b2e790b1c1bf73bfc5c36623d2cf65d48a89f0dcda99a33cb386ff94436"
+  },
+  "scope": "Within-author cache-level audit, not distinct review or new raw-XLSX reconstruction. Full source fits and all360source selection folds independently recomputed with augmented least squares. Two full conditional control refits;198other independent control refits and100independent source-bootstrap refits UNRUN.",
+  "peak_rss_bytes": 71090176
+}

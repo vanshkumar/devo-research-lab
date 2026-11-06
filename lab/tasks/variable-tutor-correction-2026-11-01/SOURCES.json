@@ -1,0 +1,55 @@
+{
+  "retrieval_date": "2026-11-01",
+  "purpose": "Check closest primary work; no novelty claim, external code implementation, empirical acquisition or redistribution of source assets.",
+  "targeted_primary_work_families": [
+    {
+      "family": "Gong/Duarte/Mooney/Pearson predictive cancellation and learned error evaluation",
+      "query": "Gong songbird learned evaluation cancellation tutor 2024 2025 neural model",
+      "primary_url": "https://elifesciences.org/reviewed-preprints/111771",
+      "version": "eLife reviewed preprint v1, September 7 2026; DOI10.7554/eLife.111771.1",
+      "verified_scope": "A local circuit learns predictive cancellation and can supply error signals for motor reinforcement learning; article discusses acceptable-song manifold and landscape geometry.",
+      "access": "Search metadata and primary article text through the relevant error-landscape sections read. Earlier PMC12393258 open returned CAPTCHA; preserved as failed access, not absent paper.",
+      "license": "No source code, data, images or substantial text copied; article license not separately certified in this bounded pass. Citation only.",
+      "relationship": "This task is a new abstract feature-space experiment, not an implementation or validation of that circuit. Existing lab circuit results remain closed consumed evidence."
+    },
+    {
+      "family": "Simard/LeCun/Denker tangent distance and transformation invariance",
+      "query": "Simard LeCun Denker 1993 tangent distance transformation invariance primary paper",
+      "primary_url": "https://papers.nips.cc/paper_files/paper/1992/hash/26408ffa703a72e8ac0117e74ad46f33-Abstract.html",
+      "version": "Advances in Neural Information Processing Systems5, NIPS1992 proceedings",
+      "verified_scope": "Primary abstract proposes efficiently computed distances invariant to specified transformations; therefore an invariant metric is established prior, not task novelty.",
+      "access": "Primary abstract read; paper PDF/code not acquired.",
+      "license": "Source licensing not separately certified; citation/brief paraphrase only, no source assets reused."
+    },
+    {
+      "family": "Ho/Ermon generative adversarial imitation learning and distribution matching",
+      "query": "Ho Ermon 2016 Generative Adversarial Imitation Learning paper distribution matching",
+      "primary_url": "https://arxiv.org/html/1606.03476",
+      "version": "arXiv1606.03476v1, June10 2016; NIPS2016",
+      "verified_scope": "Primary introduction and sections2–4 characterize regularized inverse RL through occupancy matching and discuss finite-sample exact-matching limitations. Distribution matching is established prior.",
+      "access": "Primary HTML text read, including mathematical occupancy formulation; no repository/code/data acquired.",
+      "license": "arXiv perpetual nonexclusive license declared on rendered page; no source assets redistributed.",
+      "relationship": "The implemented Gaussian/support costs are not GAIL and do not reproduce its policy-distribution objective."
+    }
+  ],
+  "public_operations": [
+    {"operation":1,"type":"search","family":1,"charge_bytes":500000},
+    {"operation":2,"type":"search","family":2,"charge_bytes":500000},
+    {"operation":3,"type":"search","family":3,"charge_bytes":500000},
+    {"operation":4,"type":"open","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC12393258/","outcome":"CAPTCHA","charge_bytes":500000},
+    {"operation":5,"type":"open","family":2,"outcome":"primary abstract","charge_bytes":500000},
+    {"operation":6,"type":"open","family":3,"outcome":"primary HTML","charge_bytes":500000},
+    {"operation":7,"type":"open","family":1,"outcome":"eLife primary article","charge_bytes":1000000}
+  ],
+  "operations_counting": "Count each targeted query and each open separately, including failure. Three deliberately targeted work families from FIRST query. Incidental results from those queries are summary-exposed but were not screened as additional candidate families or pursued.",
+  "charged_new_ingress_bytes":4000000,
+  "actual_provider_transfer_bytes":null,
+  "provider_peak_rss_bytes":null,
+  "external_data_or_code_downloads":0,
+  "implementation": {
+    "code":"Original code in this owned directory; no source implementation imported.",
+    "python":"3.9.6 existing repository virtual environment",
+    "numpy":"2.0.2 existing environment; NumPy project BSD license, no dependency changes",
+    "synthetic_data":"New generated aligned-feature tutor/plant observations only. No external license gate or old empirical data dependency; no new public licensing/publication performed."
+  }
+}

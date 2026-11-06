@@ -1,0 +1,26 @@
+{
+  "status":"Existing frozen/embedded pins and structural inventory; no new whole-bundle SHA pass after read-accounting stop.",
+  "freeze":"FREEZE.json",
+  "frozen_artifact_count":8,
+  "frozen_pins_verified_by":"run.py main before2026-11-01T06:12:38Zevaluation generation",
+  "sha256":{
+    "PROTOCOL.md":"82d4ce0e1d659adea39d35dc5e3bc125b009fce94570a00d9afd4ad60c19a1f6",
+    "run.py":"42dd3c4f98042a1ae8d940da122f12b6d4424e96a76dd46b35265923dcbe78bc",
+    "audit.py":"c586cb846398f6110b4b797c4117ddf625f271f6ee593620ee10ab4a1721b0b1",
+    "analyze.py":"51affd878c344886a414c58a5bcf69b6182760df43e05df31f2a0ef864767c76",
+    "freeze.py":"14aceb9ea8e757160158e3607821731974c2860c4c626ec7debaab923b8f6123",
+    "DEVELOPMENT.md":"127e2d92e1bdbf830aea2838051f34f24ef7c1bc3b99112b36ae6cbf625436e0",
+    "DEVELOPMENT_REVISION.md":"c80bb8849678e3659082cb9848c40cf37a99cb3fe30cf194d6756972969cd49c",
+    "run_initial.py":"8bfd7f981536f8d23fe0e8148fe62d32009e2288555b90865f51585eb50b6cdb"
+  },
+  "evaluated_bundles":["main","contrary_decoupled","contrary_noiseless","contrary_resolution"],
+  "development_bundles":["first","development","development_decoupled","development_noiseless","development_decoupled_matched","development_noiseless_matched"],
+  "per_bundle_files":["observations.npz","predictions.npz","PREDICTION_INDEX.json","SCORES.json"],
+  "prediction_sha256_location":"Each bundle SCORES.json field prediction_sha256; computed after prediction archive saved and before non-oracle gold scoring.",
+  "prediction_pin_reverification":"AUDIT.json covers four evaluation/contrarybundles. DEVELOPMENT_AUDIT.json covers development and both corrected matched control bundles. Original FIRST/unmatched control pins were recorded at generation; no new closeout hash was executed.",
+  "observation_archive_whole_sha256":null,
+  "scientific_summary":["FIRST_CALCULATION.json","RESULT.md","ANALYSIS.json","AUDIT.json","DEVELOPMENT_AUDIT.json"],
+  "reproduction_and_provenance":["README.md","PROTOCOL.md","SOURCES.json","RESOURCES.json","READ_LIMIT_STOP.md","DEVELOPMENT.md","DEVELOPMENT_REVISION.md","PROPOSED_LEARNING.md"],
+  "mutable_coordination":["STATE.md","REPORT_STATUS.json"],
+  "unrun":"New full-bundle/observationarchiveSHApass and second main reproduction; resource stop retained. No claim that every saved file has a newly verified digest."
+}

@@ -1,0 +1,126 @@
+{
+  "time": "2026-10-31T06:18:42.573110+00:00",
+  "normalized_actor_control": [
+    {
+      "plant": 100,
+      "normalized_final_duration": 1.175,
+      "normalized_actor_score_at_final": 0.032581830564342926,
+      "normalized_score_at_unit_target": 0.03449185536739044,
+      "normalized_chosen_minus_target_Hz": -0.0019100248030475137,
+      "wrong_selected_point_has_lower_score_than_target": true,
+      "raw_final_duration": 0.7,
+      "oracle_final_duration": 1.0000000000000002,
+      "normalized_final_waveform_MSE": 2.5225246370168133,
+      "raw_final_waveform_MSE": 2.6289196574011946,
+      "oracle_final_waveform_MSE": 0.01641081928104339,
+      "normalized_improvement_from_start": -0.048518263123141114,
+      "logical_queries_per_actor": 25,
+      "one_separate_matched_quiet_calibration_slot": true,
+      "physical_integrations": 40
+    },
+    {
+      "plant": 101,
+      "normalized_final_duration": 0.9250000000000002,
+      "normalized_actor_score_at_final": 0.14200887812008384,
+      "normalized_score_at_unit_target": 0.14272169203254512,
+      "normalized_chosen_minus_target_Hz": -0.0007128139124612798,
+      "wrong_selected_point_has_lower_score_than_target": true,
+      "raw_final_duration": 0.7,
+      "oracle_final_duration": 1.0000000000000002,
+      "normalized_final_waveform_MSE": 1.1619733052397616,
+      "raw_final_waveform_MSE": 2.547113251114695,
+      "oracle_final_waveform_MSE": 0.0016940407613871959,
+      "normalized_improvement_from_start": 0.5158803371237097,
+      "logical_queries_per_actor": 25,
+      "one_separate_matched_quiet_calibration_slot": true,
+      "physical_integrations": 32
+    },
+    {
+      "plant": 102,
+      "normalized_final_duration": 0.9250000000000002,
+      "normalized_actor_score_at_final": 0.07925081601167286,
+      "normalized_score_at_unit_target": 0.08024941173337541,
+      "normalized_chosen_minus_target_Hz": -0.0009985957217025498,
+      "wrong_selected_point_has_lower_score_than_target": true,
+      "raw_final_duration": 0.7,
+      "oracle_final_duration": 1.0000000000000002,
+      "normalized_final_waveform_MSE": 1.1766544497235802,
+      "raw_final_waveform_MSE": 2.651576899877554,
+      "oracle_final_waveform_MSE": 0.023315342850131843,
+      "normalized_improvement_from_start": 0.5228761881356768,
+      "logical_queries_per_actor": 25,
+      "one_separate_matched_quiet_calibration_slot": true,
+      "physical_integrations": 32
+    }
+  ],
+  "checks": [
+    {
+      "name": "100_25query_oracle_and_raw_controls",
+      "passed": true
+    },
+    {
+      "name": "101_25query_oracle_and_raw_controls",
+      "passed": true
+    },
+    {
+      "name": "102_25query_oracle_and_raw_controls",
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "scope_excerpts": [
+    {
+      "paragraph_index": 32,
+      "text": "We also observed that increases in population mean firing rates and percentages of active neurons did not persist to the end of the song (Fig. 3E and Fig. S5E), agreeing with experimental findings (21). Using input activity perturbations (analogous to stimulating the axon terminals from upstream auditory regions to these secondary auditory nuclei) much shorter than the duration of a syllable, we further verified that the circuits can signal error on a sub-syllabic basis (Fig. S6A-C). Together, these results suggest that, simply by using local learning to cancel tutor song, our models simultaneously developed sparse population error codes with high temporal precision."
+    },
+    {
+      "paragraph_index": 37,
+      "text": "Yet, while all models contained such a sparse population of perturbation-responsive neurons, not all models provided an equally good quantitative match to data. To quantify the prevalence and magnitude of this perturbation response across models, we measured the Wasserstein distances between the correct-perturbed or correct-deafened joint distributions from experiments and model simulations (Fig. 4D; see SI Methods). The lower this distance, the closer the models are to the experiments. We found that models with recurrent plasticity matched experimental data better than models with plasticity in the feedforward synapses from the premotor area, and the E\u2192I\u2192E model matches experiments the best among all four models. This observation still holds in more realistic and thus more challenging settings, such as training with initially irregular but gradually organizing premotor activity (Fig. S2), training and testing with sparse premotor synapses (Fig. S4), and testing models with perturbations that only cause short (50 ms) changes of input firing patterns (Fig. S6). A brief summary of the results of these simulations is provided in Table 1, which suggests that the E\u2192I\u2192E model with local inhibitory plasticity best matches experimental data."
+    },
+    {
+      "paragraph_index": 39,
+      "text": "In our models, local learning rules give rise to predictive cancellation of tutor song inputs, producing as a byproduct sparse population error codes. Viewed as a function of auditory input, these codes describe an \u201cerror landscape\u201d whose geometry might guide subsequent reinforcement learning. In principle, a good error landscape should produce the lowest error for all variants of the correct song (the mani-fold of correct song), and be sensitive to songs deviating from this manifold. To draw intuition about how the error landscape evolves during training, we periodically froze the networks during training and recorded the singing responses when auditory feedback was perturbed (Fig. 5A). Specifically, we considered two types of perturbations: Perturbations in the \u201coff-manifold\u201d direction interpolate between feedback generated by the correct song pattern and a completely random pattern, while perturbations in the \u201con-manifold\u201d direction interpolate between the correct singing (1) and deafened/no feedback (0) cases. We found that the slope of the population response rapidly grows in the off-manifold direction over training, suggesting a strong increase in the sensitivity to different auditory patterns during singing (Fig. 5B). Along the on-manifold direction, learning shifts the auditory feedback eliciting minimum singing response away from silence and toward to the tutor song pattern (Fig. 5C). Thus, learning alters both the sensitivity and selectivity of auditory feedback during training."
+    },
+    {
+      "paragraph_index": 45,
+      "text": "Together, these results suggest that changes in the recurrent connectivity matrix of the E\u2192I\u2192E model over the course of learning proceed in two ways: First, rapid learning of the landscape modes increases the gain of error responses and thereby sharpening the error landscape. Second, a relatively slower lock-in of memory modes aligns the minimum of the error landscape (smallest error response) with the tutor song pattern, providing a target for subsequent sensorimotor learning (Fig. 5I)."
+    },
+    {
+      "paragraph_index": 46,
+      "text": "Model error codes suffice for reinforcement learning of song"
+    },
+    {
+      "paragraph_index": 48,
+      "text": "We assume that the evaluation of song generation and learning happen at the syllable level. For every syllable index (\u201cstate\u201d) s(t), the actor generates a set of weights a(s) used to linearly combine a set of spectrogram basis elements stored in the rows of a matrix B. That is, the predicted spectrogram is a(s)\u22a4B (Fig. 6A). As above, the generated spectrograms undergo a sparse linear embedding, forming the auditory population input to our local circuit model. Rather than maximizing external rewards from the environment, our agent is trained to minimize the population averaged error signal at each time step, equivalent to maximizing an internal reward signal equal to the negative of this quantity: , where is the mean response of the excitatory population. The agent\u2019s actions are parameterized as a state-dependent Gaussian distribution over basis elements: a(s) \u223c \ud835\udca9(\u00b5(s), I), and at each step of learning, the temporal difference (TD) error signal \u03b4 is used to update the agent\u2019s estimate of the value of each state V (s). Specifically, after each syllable, these functions are updated by a standard temporal difference learning algorithm:"
+    },
+    {
+      "paragraph_index": 50,
+      "text": "(A) Schematic of the actor-critic reinforcement learning model. A syllable-based state variable s(t) indexes both the motor policy (actor a(s)) and the prediction of the expected reward (critic V (s)). Syllables y(s) are generated by linearly combining spectral basis elements B using the outputs of the policy a(s). The negative of mean error signal serves as the reward signal to be maximized. (B) Excitatory population firing rate (error signal) and temporal difference (TD) error plotted as a function of trial. Results shown are for the E\u2192I\u2192E model, but results for the feedforward and premotor\u2192E models are similar (see Fig. S11). (C) Tutor syllable templates (top row), and model-produced song before, during, and after learning (last three rows). The model is able to reproduce the tutor song using only the learned population error code as feedback."
+    },
+    {
+      "paragraph_index": 51,
+      "text": "Using this learning model, we tested the ability of all four of our models to copy a tutor song using their own error signals as a negative intrinsic reward. Learning in this highly simplified task converged quickly, within 2500 trials, as indicated by the exponential decrease in vocal error and the convergence of the TD error to zero (Fig. 6B; Fig. S11A,C). For the E\u2192E model, learning was slower, and only some generated syllables matched the target (Fig. S11D), likely because the population mean rates are largely insensitive to error (Fig. 3E). For the E\u2192I\u2192E (Fig. 6C), as well as the premotor \u2192E (Fig. S11A) and feedforward models, all the generated syllables gradually matched the target syllables. Furthermore, when land-scape and memory connectivity modes were perturbed as in our analysis of the previous section, learning in these perturbed models was impaired, with perturbed memory modes having the strongest effect (Fig. S12). Together, these results demonstrate that the models\u2019 learned error codes are sufficient to guide a motor program to produce songs that resemble a tutor target."
+    },
+    {
+      "paragraph_index": 53,
+      "text": "For animals to learn complex behaviors without external reinforcement, they need an internal mechanism to evaluate their performance. Here, we have used computational models to explore the idea that this internal error is learned via local mechanisms orchestrating predictive cancellation of an expected sensory target. For any given sensory input, mismatches in this cancellation give rise to population error codes that can be used to move performance toward the target. Using songbird vocal learning as paradigmatic example, we implemented plausible circuit models with different connectivity motifs and types of plasticity that learn to cancel the auditory patterns of tutor songs during an early period of sensory learning. In the subsequent practice-based sensorimotor learning phase, auditory input to the system differs from the pattern of the tutor song, and an error code with similarities to observed responses in songbird auditory regions emerges. Among these models, the balanced excitation-inhibition network with Hebbian E\u2192I and I\u2192E plasticity rules (E\u2192I\u2192E model) best matched these experimental data. By characterizing changes to the weight matrix in the E\u2192I\u2192E model during learning, we also found that learning the cancellation proceeded in two ways: sharpening of error responses and reshaping of the geometry of population errors that shifted minimum firing away from silence and toward the target pattern. Finally, we confirmed that the error codes generated by the E\u2192I\u2192E model are capable of guiding a motor policy to produce songs that match the target using a simple reinforcement learning model."
+    },
+    {
+      "paragraph_index": 54,
+      "text": "To our knowledge, this work offers one of the earliest concrete computational models of vocal error evaluation in a local forebrain circuit in songbird auditory areas. Given the rich connectivity among these auditory areas (22, 59) and the fact that several sites are likely to be important to sensory learning (21\u201323, 27), we have treated them as a single balanced EI network model, assuming that the excitatory population both receives premotor information and sends error codes (21, 23, 25, 26). Based on findings that tutor-song-selective neurons are present in area HVC during early sensory learning (35\u201338, 40), we have also assumed that premotor input provides the temporal basis for predictive cancellation of tutor songs. While this idea of error codes arising from predictive cancellation is not new (e.g., 32, 33, in electric fish) and has been discussed in the context of novelty detection in the avian brain (60), ours is the first study to systematically examine both the implications of different types of plasticity in such a system and to demonstrate how the resulting error codes can subserve reinforcement learning."
+    },
+    {
+      "paragraph_index": 55,
+      "text": "Our model thus shares several features with a previous modeling study of song learning (43), which also proposed a form of local learning without an explicit representation of the tutor song. In that work, local plasticity in sensory areas during tutoring results in a predictive model of auditory activity evoked by tutor song. Our model differs from this one in three key ways: First, the focus of (43) was on inverse models as alternatives to reinforcement learning, while our focus is on learning error codes capable of guiding RL. Second, the model of (43) assumed a gating mechanism that selectively disabled recurrent sensory connections during the learning phase, a phenomenon that currently lacks empirical support. Our model, by contrast, focuses on predictive cancellation of sensory and premotor signals based on established physiology and requires no such gating mechanism. Third, the model of (43) posits plasticity based on synaptic competition and local eligibility traces for auditory activity, whereas ours requires only simple (anti-)Hebbian rules. Along related lines, another recent work (61) proposed a model capable of signaling error after predictive associative learning, which minimizes the gap between the actual firing and the prediction from recurrent excitation. When neurons receive external patterns, this learning rule effectively builds association between these patterns in the recurrent weights. On the contrary, our learning rules are anti-associative and produce signals representing the subtraction between sensory feedback and a learned predictive pattern. We demonstrated that this straightforward signal can be directly read out for RL."
+    },
+    {
+      "paragraph_index": 57,
+      "text": "To confirm that the learned error codes are sufficient to guide song generation, we implemented an actor-critic RL system whose components align with prominent theories about learning in the avian song system (3, 4). For simplicity, we chose a scalar critic function and used the mean excitatory rates from our vocal error models to construct the temporal difference (TD) error, and under this assumption, the premotor \u2192E and E\u2192I\u2192E models are capable of learning to produce all syllables, while the E\u2192E model results in matches between some syllables. Yet, our models potentially support multidimensional error signaling, as suggested by the correlation between the error codes and the true difference between the target and actual input patterns, (Fig. 3D), as well as the fact that anti-Hebbian learning encodes negative templates in the connections (Fig. S3)."
+    },
+    {
+      "paragraph_index": 59,
+      "text": "Lastly, while we have attempted to align our models with known zebra finch physiology, we have made several key simplifications for purposes of theoretical tractability and computational efficiency: First, auditory inputs to our model are temporally interpolated sequences of sparse embeddings of song syllable spectrograms (Fig. S1) produced by a classic linear sparse coding model (46, 70). This is, at best, a caricature of early auditory processing and discards sub-syllabic variation. Even so, anti-Hebbian learning of the type we propose is theoretically agnostic to input distribution as long as these inputs maintain reasonable variability. Thus, our models could, in principle, handle sub-syllabic structure by a proper choice of time constants and input scaling. Second, our models learn through bilinear Hebbian or anti-Hebbian rules with fixed thresholds (Fig. 2C and Eq. 6). In reality, the plasticity can be bounded, adaptive, and multi-factored. In this work, we have elided these complexities, focusing simply on what is learnable in principle by simple local rules. Third, we have focused on firing rates and rate-based neurons. Future studies will need to extend these results to the added sparsity and nonlinearities of spiking neural networks. Fourth, we do not presume to account for all auditory processing. While responses of our proposed cancellation circuit are minimal when the bird\u2019s own song closely matches the tutor memory, we do not propose that the bird fails to perceive its own song in these cases. That is, the songbird\u2019s predicament differs from other situations in which the goal of corollary discharge is to perceptually cancel predictable nuisance inputs (28, 29, 32)."
+    }
+  ],
+  "claim": "Fixed mean-rate readout has finite temporal-fidelity counterexamples; exposure normalization changes duration behavior but does not establish a corrected objective."
+}

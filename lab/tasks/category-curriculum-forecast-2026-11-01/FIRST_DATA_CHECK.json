@@ -1,0 +1,129 @@
+{
+  "completed_utc": "2026-11-01T09:12:04.826755+00:00",
+  "command": "python3 lab/tasks/category-curriculum-forecast-2026-11-01/first_data_check.py",
+  "status": "ACTUAL_ORIGINAL_OBSERVATION_ARITHMETIC_EXECUTED",
+  "participant": "highsim/20.dat",
+  "sha256": "04e708007c6aa6ca37f44a461a8d57ba48c3e39976a6f3406752f8df07c1f514",
+  "sha256_matches_osf_listing": true,
+  "headers": [
+    "I am subject 20 in condition 1",
+    "First I categorize blobs in groups 1, 5 and 4. Second are 2, 3 and 0",
+    "I am in BI group"
+  ],
+  "rows": 672,
+  "block_phase_counts": {
+    "1": {
+      "1": 72
+    },
+    "2": {
+      "1": 72
+    },
+    "3": {
+      "1": 72
+    },
+    "4": {
+      "1": 72
+    },
+    "5": {
+      "3": 48
+    },
+    "6": {
+      "1": 72
+    },
+    "7": {
+      "1": 72
+    },
+    "8": {
+      "1": 72
+    },
+    "9": {
+      "1": 72
+    },
+    "10": {
+      "3": 48
+    }
+  },
+  "linked_checks": [
+    {
+      "train_blocks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "test_block": 5,
+      "exposures": 288,
+      "distinct_training_items": 24,
+      "category_counts": {
+        "f": 88,
+        "e": 112,
+        "b": 88
+      },
+      "category_switches": 72,
+      "adjacent_pairs": 287,
+      "switch_fraction": 0.2508710801393728,
+      "test_items": 48,
+      "novel_items": 24,
+      "old_items": 24,
+      "novel_correct": 19,
+      "novel_accuracy": 0.7916666666666666,
+      "old_correct": 17,
+      "first_novel_response": [
+        "20",
+        "1",
+        "3",
+        "290",
+        "5",
+        "1",
+        "2",
+        "0",
+        "339",
+        "e10.gif",
+        "X",
+        "0"
+      ]
+    },
+    {
+      "train_blocks": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "test_block": 10,
+      "exposures": 288,
+      "distinct_training_items": 24,
+      "category_counts": {
+        "c": 100,
+        "d": 96,
+        "a": 92
+      },
+      "category_switches": 219,
+      "adjacent_pairs": 287,
+      "switch_fraction": 0.7630662020905923,
+      "test_items": 48,
+      "novel_items": 24,
+      "old_items": 24,
+      "novel_correct": 6,
+      "novel_accuracy": 0.25,
+      "old_correct": 8,
+      "first_novel_response": [
+        "20",
+        "1",
+        "3",
+        "624",
+        "10",
+        "2",
+        "1",
+        "0",
+        "1425",
+        "d15.gif",
+        "X",
+        "0"
+      ]
+    }
+  ],
+  "exposure": "All 672 participant-20 rows decoded; 18 start and 10 end lines previously rendered. Other 43 ZIP members acquired/hash-compressed but not decoded by this script. Published group summaries already exposed.",
+  "scope": "Response equals supplied answer column agrees with correctness on all rows; novel flag agrees with exact training-item nonmembership. Raw field semantics and chronology still require primary methods certification. This is not a learning-model forecast or unique mechanism test.",
+  "peak_rss_native": 13877248
+}

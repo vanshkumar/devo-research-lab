@@ -1,0 +1,201 @@
+{
+  "calculated_at_utc": "2026-11-02T22:48:38.475428+00:00",
+  "source_declared_sha256": "2f8142a717bb1199e3a43563d57ef0c016c7a72084b2e2b91ed7be66194ef557",
+  "sheet": "Learning and Behavioral Data",
+  "columns": 206,
+  "rows": 18,
+  "unit_records": [
+    {
+      "MaleNum": "Male 1",
+      "Condition": "Cont",
+      "ConditionNum": "0",
+      "Group": "8"
+    },
+    {
+      "MaleNum": "Male 2",
+      "Condition": "Cont",
+      "ConditionNum": "0",
+      "Group": "1"
+    },
+    {
+      "MaleNum": "Male 4",
+      "Condition": "Cont",
+      "ConditionNum": "0",
+      "Group": "2"
+    },
+    {
+      "MaleNum": "Male 6",
+      "Condition": "Cont",
+      "ConditionNum": "0",
+      "Group": "3"
+    },
+    {
+      "MaleNum": "Male 8",
+      "Condition": "Cont",
+      "ConditionNum": "0",
+      "Group": "4"
+    },
+    {
+      "MaleNum": "Male 10",
+      "Condition": "Cont",
+      "ConditionNum": "0",
+      "Group": "5"
+    },
+    {
+      "MaleNum": "Male 12",
+      "Condition": "Cont",
+      "ConditionNum": "0",
+      "Group": "6"
+    },
+    {
+      "MaleNum": "Male 14",
+      "Condition": "Cont",
+      "ConditionNum": "0",
+      "Group": "7"
+    },
+    {
+      "MaleNum": "Male 17",
+      "Condition": "Cont",
+      "ConditionNum": "0",
+      "Group": "9"
+    },
+    {
+      "MaleNum": "Male 3",
+      "Condition": "Yoked",
+      "ConditionNum": "1",
+      "Group": "1"
+    },
+    {
+      "MaleNum": "Male 5",
+      "Condition": "Yoked",
+      "ConditionNum": "1",
+      "Group": "2"
+    },
+    {
+      "MaleNum": "Male 7",
+      "Condition": "Yoked",
+      "ConditionNum": "1",
+      "Group": "3"
+    },
+    {
+      "MaleNum": "Male 9",
+      "Condition": "Yoked",
+      "ConditionNum": "1",
+      "Group": "4"
+    },
+    {
+      "MaleNum": "Male 11",
+      "Condition": "Yoked",
+      "ConditionNum": "1",
+      "Group": "5"
+    },
+    {
+      "MaleNum": "Male 13",
+      "Condition": "Yoked",
+      "ConditionNum": "1",
+      "Group": "6"
+    },
+    {
+      "MaleNum": "Male 15",
+      "Condition": "Yoked",
+      "ConditionNum": "1",
+      "Group": "7"
+    },
+    {
+      "MaleNum": "Male 16",
+      "Condition": "Yoked",
+      "ConditionNum": "1",
+      "Group": "8"
+    },
+    {
+      "MaleNum": "Male 18",
+      "Condition": "Yoked",
+      "ConditionNum": "1",
+      "Group": "9"
+    }
+  ],
+  "pair_count": 9,
+  "conditions": {
+    "Cont": 9,
+    "Yoked": 9
+  },
+  "session_markers": [
+    "5",
+    "10",
+    "15",
+    "20",
+    "25"
+  ],
+  "first_original_subject": {
+    "MaleNum": "Male 1",
+    "Condition": "Cont",
+    "Group": "8",
+    "T5_SongCount": "312",
+    "T5_ContVidCount": "312",
+    "T5_RemVidCount": "143",
+    "T5_ContProp": "0.45833299999999999"
+  },
+  "first_ratio": {
+    "formula": "T5_ContVidCount/T5_SongCount",
+    "exact_fraction": "1",
+    "computed_decimal": "1",
+    "provided": "0.45833299999999999",
+    "absolute_discrepancy": "0.54166700000000001"
+  },
+  "independent_reference": "Original XML cell A2/B2/D2/F2/G2/L2 matches typed output; independent exact rational division matches computed ratio within1e-15. Supplied proportion differs; original equality failure retained, no source repair.",
+  "later_and_aggregate_headers": [
+    "MaleNum",
+    "Condition",
+    "ConditionNum",
+    "Group",
+    "Overall_Similarity",
+    "PercentSimilaity",
+    "Accuracy",
+    "SequentialMatch",
+    "Pitch",
+    "FM",
+    "Entropy",
+    "Goodness",
+    "AM",
+    "Avg_SongDuration",
+    "Avg_SongCount",
+    "Avg_ContVidCount",
+    "Avg_RemVidCount",
+    "Avg_FluffCount",
+    "Avg_BeakWipeCount",
+    "Avg_PerchDuration",
+    "Avg_ContProp",
+    "Avg_FlufftoSongProp",
+    "Avg_BeakWipetoSongProp",
+    "Avg_LandingtoSongProp",
+    "Avg_FlufftoVidProp",
+    "Avg_BeakWipetoVidProp",
+    "Avg_LandingtoVidProp",
+    "Avg_FlufftoContProp",
+    "Avg_BeakWipetoContProp",
+    "Avg_LandingtoContProp",
+    "Avg_SongAfterVidStart",
+    "Avg_SongAfterVidEnd",
+    "Avg_PerchAfterVidStart",
+    "Avg_PerchAfterVidEnd",
+    "Avg_BeakWipeAfterVidStart",
+    "Avg_BeakWipeAfterVidEnd",
+    "Avg_FluffedAfterVidStart",
+    "Avg_FluffedAfterVidEnd",
+    "Avg_TotalFluffAfterVidStart",
+    "Avg_TotalFluffAfterVidEnd",
+    "Avg_SongAfterSong",
+    "Avg_AcContVidProp",
+    "Avg_NonConVidProp",
+    "Avg_VidCount",
+    "Avg_ALLContProp",
+    "AVG_TotalFluffsWipes"
+  ],
+  "identification_limit": {
+    "present": "Subject/condition/sibling-pair identifiers, five sampled-session behavior counts/proportions, final song-learning summaries.",
+    "absent_in_this_table": "Per-vocalization acoustic identity, exact feedback time, feature-specific improvement/rejection judgment and a next-vocalization correction trace.",
+    "not_claimed": "No group effect estimated, causal result reproduced, closed-loop reward learned or biological absence inferred.",
+    "split": "Nine paired cohorts/eighteen birds; repeated sessions are not independent birds. All source cells already decoded, no untouched evaluation claimed."
+  },
+  "peak_rss_bytes_macos": 20971520
+}

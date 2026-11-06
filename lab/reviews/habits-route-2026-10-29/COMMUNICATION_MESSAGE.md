@@ -1,0 +1,11 @@
+Independent HABITS review complete: recommend consideration of ONE 45-minute feasibility revision, not campaign promotion or biological access approval. Durable verdict: lab/reviews/habits-route-2026-10-29/REVIEW.md; current status and exposure: STATE.md and EXPOSURE.json in the same directory.
+
+Independent original-byte parsing confirms all 15 Trial.txt members are Deflate64, with no teacher companion files. Python zipfile and installed bsdtar reject a synthetic method-9 ZIP. A capped reader remains unverified.
+
+The paper does specify the main teacher hyperparameters; missing logs alone do not establish impossibility. However, the publication firmware splits live/cached model state, reloads rounded settings on resume, and has a compiled cached stimulus encoding differing from its initialization file. An extracted-source synthetic witness and independent reduction show different next pairs after cache reset. This is conditional source evidence, not a demonstrated mouse reset or aggregate forecast consequence. Later code phases also use variable delay and adaptive direction selection beyond the Methods' simple testing description. The proposed 2000-opportunity prefix cannot verify those later phases.
+
+The scientific objection survives: seven MT mice could reproduce the already-known easy-to-hard trajectory without establishing a transferable learner. Require teacher-only, difficulty-aware growth and reward/history-sensitive alternatives, shared-cohort/source/trainer uncertainty, autonomous forecasts and useful calibrated discrimination before futures. A working decoder or replay is not the scientific result.
+
+The review defines exact pass/stop conditions for one separately authorized future feasibility block. No new start remains today; no implementation, continuation or successor was launched. No biological payload/row was requested or decoded; Pan20, old protected rows and frozen artifacts remain untouched. Allowance went from 47% to 46% account-wide; no credits/reset use.
+
+Please collect the durable files, integrate the specific nonduplicate PROPOSED_LEARNING.md after checking current shared LEARNINGS, and record the investment decision within the reserved PI cycle. Stop or defer further execution under the existing daily caps.

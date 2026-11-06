@@ -1,0 +1,338 @@
+{
+  "scope": "Development INPUT schedules only; exact expected profiled loss for stipulated mean/covariance.",
+  "true_theta": 0.20000000000000004,
+  "true_parameters": [
+    0.65,
+    0.97,
+    0.9929979219209977
+  ],
+  "noise_sd": 2.5,
+  "noise_covariance": "6.25*(.35*.7**distance+.65*.25**distance)",
+  "formula": "E[min_beta ||y-X_lambda beta||^2]=||(I-P_lambda)mu||^2+tr((I-P_lambda)Sigma)",
+  "implication": "If a wrong lambda has smaller expected profile SSE, many-person OLS profiling with fixed trials can prefer it even though the mean model family contains truth. This is not an optimizer artifact.",
+  "records": [
+    {
+      "parameters": [
+        0.65,
+        0.97,
+        0.9929979219209977
+      ],
+      "profiled_theta": 0.19999999999999996,
+      "noiseless_signal_SSE": 2.655973053826751e-26,
+      "expected_colored_noise_SSE": 79112.07727992855,
+      "expected_colored_profile_SSE": 79112.07727992855,
+      "expected_white_noise_SSE": 85000.0,
+      "expected_white_profile_SSE": 85000.0,
+      "total_rank": 800,
+      "colored_total_minus_true": 0.0,
+      "white_total_minus_true": 0.0,
+      "colored_noise_minus_true": 0.0
+    },
+    {
+      "parameters": [
+        0.65,
+        0.97,
+        0.9
+      ],
+      "profiled_theta": 0.14215279802292202,
+      "noiseless_signal_SSE": 61.56062622920861,
+      "expected_colored_noise_SSE": 79163.45920008128,
+      "expected_colored_profile_SSE": 79225.0198263105,
+      "expected_white_noise_SSE": 85000.0,
+      "expected_white_profile_SSE": 85061.56062622921,
+      "total_rank": 800,
+      "colored_total_minus_true": 112.9425463819498,
+      "white_total_minus_true": 61.560626229213085,
+      "colored_noise_minus_true": 51.38192015273671
+    },
+    {
+      "parameters": [
+        0.65,
+        0.97,
+        0.95
+      ],
+      "profiled_theta": 0.1732237231890573,
+      "noiseless_signal_SSE": 13.830356990430813,
+      "expected_colored_noise_SSE": 79135.09156958072,
+      "expected_colored_profile_SSE": 79148.92192657114,
+      "expected_white_noise_SSE": 85000.0,
+      "expected_white_profile_SSE": 85013.83035699042,
+      "total_rank": 800,
+      "colored_total_minus_true": 36.84464664259576,
+      "white_total_minus_true": 13.830356990423752,
+      "colored_noise_minus_true": 23.01428965217201
+    },
+    {
+      "parameters": [
+        0.65,
+        0.97,
+        1.0
+      ],
+      "profiled_theta": 0.20434098111228152,
+      "noiseless_signal_SSE": 0.38462808250456565,
+      "expected_colored_noise_SSE": 79108.46432115919,
+      "expected_colored_profile_SSE": 79108.8489492417,
+      "expected_white_noise_SSE": 85000.0,
+      "expected_white_profile_SSE": 85000.38462808251,
+      "total_rank": 800,
+      "colored_total_minus_true": -3.2283306868484942,
+      "white_total_minus_true": 0.3846280825091526,
+      "colored_noise_minus_true": -3.612958769357647
+    },
+    {
+      "parameters": [
+        0.65,
+        0.995,
+        0.9
+      ],
+      "profiled_theta": 0.1516798780523077,
+      "noiseless_signal_SSE": 142.30805004968852,
+      "expected_colored_noise_SSE": 79106.52201813848,
+      "expected_colored_profile_SSE": 79248.83006818817,
+      "expected_white_noise_SSE": 85000.0,
+      "expected_white_profile_SSE": 85142.30805004969,
+      "total_rank": 800,
+      "colored_total_minus_true": 136.75278825961868,
+      "white_total_minus_true": 142.30805004968715,
+      "colored_noise_minus_true": -5.555261790068471
+    },
+    {
+      "parameters": [
+        0.65,
+        0.995,
+        0.95
+      ],
+      "profiled_theta": 0.18433984697498662,
+      "noiseless_signal_SSE": 81.34744214978451,
+      "expected_colored_noise_SSE": 79077.30426513012,
+      "expected_colored_profile_SSE": 79158.6517072799,
+      "expected_white_noise_SSE": 85000.0,
+      "expected_white_profile_SSE": 85081.34744214978,
+      "total_rank": 800,
+      "colored_total_minus_true": 46.57442735135555,
+      "white_total_minus_true": 81.34744214978127,
+      "colored_noise_minus_true": -34.77301479842572
+    },
+    {
+      "parameters": [
+        0.65,
+        0.995,
+        1.0
+      ],
+      "profiled_theta": 0.2170335391752422,
+      "noiseless_signal_SSE": 59.157568184983916,
+      "expected_colored_noise_SSE": 79049.38747878191,
+      "expected_colored_profile_SSE": 79108.54504696689,
+      "expected_white_noise_SSE": 85000.0,
+      "expected_white_profile_SSE": 85059.15756818498,
+      "total_rank": 800,
+      "colored_total_minus_true": -3.532232961661066,
+      "white_total_minus_true": 59.15756818497903,
+      "colored_noise_minus_true": -62.68980114664009
+    },
+    {
+      "parameters": [
+        0.7,
+        0.97,
+        0.9
+      ],
+      "profiled_theta": 0.1228681296833949,
+      "noiseless_signal_SSE": 88.23307329476438,
+      "expected_colored_noise_SSE": 79026.79561260369,
+      "expected_colored_profile_SSE": 79115.02868589845,
+      "expected_white_noise_SSE": 85000.0,
+      "expected_white_profile_SSE": 85088.23307329476,
+      "total_rank": 800,
+      "colored_total_minus_true": 2.951405969899497,
+      "white_total_minus_true": 88.23307329475938,
+      "colored_noise_minus_true": -85.28166732485988
+    },
+    {
+      "parameters": [
+        0.7,
+        0.97,
+        0.95
+      ],
+      "profiled_theta": 0.15621837367476352,
+      "noiseless_signal_SSE": 53.63608931343339,
+      "expected_colored_noise_SSE": 78995.56240471038,
+      "expected_colored_profile_SSE": 79049.19849402382,
+      "expected_white_noise_SSE": 85000.0,
+      "expected_white_profile_SSE": 85053.63608931344,
+      "total_rank": 800,
+      "colored_total_minus_true": -62.87878590472974,
+      "white_total_minus_true": 53.63608931344061,
+      "colored_noise_minus_true": -116.51487521817035
+    },
+    {
+      "parameters": [
+        0.7,
+        0.97,
+        1.0
+      ],
+      "profiled_theta": 0.18968886688058603,
+      "noiseless_signal_SSE": 61.8884514286282,
+      "expected_colored_noise_SSE": 78966.65437855417,
+      "expected_colored_profile_SSE": 79028.5428299828,
+      "expected_white_noise_SSE": 85000.0,
+      "expected_white_profile_SSE": 85061.88845142863,
+      "total_rank": 800,
+      "colored_total_minus_true": -83.53444994574238,
+      "white_total_minus_true": 61.888451428632834,
+      "colored_noise_minus_true": -145.42290137437521
+    },
+    {
+      "parameters": [
+        0.7,
+        0.995,
+        0.9
+      ],
+      "profiled_theta": 0.12922221659583494,
+      "noiseless_signal_SSE": 97.97168259144053,
+      "expected_colored_noise_SSE": 78970.74614648725,
+      "expected_colored_profile_SSE": 79068.71782907868,
+      "expected_white_noise_SSE": 85000.0,
+      "expected_white_profile_SSE": 85097.97168259144,
+      "total_rank": 800,
+      "colored_total_minus_true": -43.359450849864515,
+      "white_total_minus_true": 97.97168259143655,
+      "colored_noise_minus_true": -141.33113344130106
+    },
+    {
+      "parameters": [
+        0.7,
+        0.995,
+        0.95
+      ],
+      "profiled_theta": 0.1636749497310299,
+      "noiseless_signal_SSE": 53.78053727569858,
+      "expected_colored_noise_SSE": 78938.47635442181,
+      "expected_colored_profile_SSE": 78992.25689169751,
+      "expected_white_noise_SSE": 85000.0,
+      "expected_white_profile_SSE": 85053.7805372757,
+      "total_rank": 800,
+      "colored_total_minus_true": -119.82038823103358,
+      "white_total_minus_true": 53.78053727569932,
+      "colored_noise_minus_true": -173.6009255067329
+    },
+    {
+      "parameters": [
+        0.7,
+        0.995,
+        1.0
+      ],
+      "profiled_theta": 0.19819397911630504,
+      "noiseless_signal_SSE": 56.72350394211811,
+      "expected_colored_noise_SSE": 78907.8627290762,
+      "expected_colored_profile_SSE": 78964.58623301832,
+      "expected_white_noise_SSE": 85000.0,
+      "expected_white_profile_SSE": 85056.72350394212,
+      "total_rank": 800,
+      "colored_total_minus_true": -147.4910469102324,
+      "white_total_minus_true": 56.72350394212117,
+      "colored_noise_minus_true": -204.21455085235357
+    },
+    {
+      "parameters": [
+        0.75,
+        0.97,
+        0.9
+      ],
+      "profiled_theta": 0.0997017695083369,
+      "noiseless_signal_SSE": 240.00036239367148,
+      "expected_colored_noise_SSE": 78879.4140325645,
+      "expected_colored_profile_SSE": 79119.41439495816,
+      "expected_white_noise_SSE": 85000.0,
+      "expected_white_profile_SSE": 85240.00036239366,
+      "total_rank": 800,
+      "colored_total_minus_true": 7.337115029615234,
+      "white_total_minus_true": 240.00036239366455,
+      "colored_noise_minus_true": -232.6632473640493
+    },
+    {
+      "parameters": [
+        0.75,
+        0.97,
+        0.95
+      ],
+      "profiled_theta": 0.13563112968277524,
+      "noiseless_signal_SSE": 225.9555265999594,
+      "expected_colored_noise_SSE": 78845.13984202566,
+      "expected_colored_profile_SSE": 79071.09536862563,
+      "expected_white_noise_SSE": 85000.0,
+      "expected_white_profile_SSE": 85225.95552659997,
+      "total_rank": 800,
+      "colored_total_minus_true": -40.981911302922526,
+      "white_total_minus_true": 225.9555265999661,
+      "colored_noise_minus_true": -266.93743790288863
+    },
+    {
+      "parameters": [
+        0.75,
+        0.97,
+        1.0
+      ],
+      "profiled_theta": 0.17186320546595402,
+      "noiseless_signal_SSE": 267.39320395411823,
+      "expected_colored_noise_SSE": 78814.23215598527,
+      "expected_colored_profile_SSE": 79081.6253599394,
+      "expected_white_noise_SSE": 85000.0,
+      "expected_white_profile_SSE": 85267.39320395413,
+      "total_rank": 800,
+      "colored_total_minus_true": -30.451919989151065,
+      "white_total_minus_true": 267.39320395412506,
+      "colored_noise_minus_true": -297.8451239432761
+    },
+    {
+      "parameters": [
+        0.75,
+        0.995,
+        0.9
+      ],
+      "profiled_theta": 0.10277604414626415,
+      "noiseless_signal_SSE": 207.2580215135282,
+      "expected_colored_noise_SSE": 78824.6499337942,
+      "expected_colored_profile_SSE": 79031.90795530772,
+      "expected_white_noise_SSE": 85000.0,
+      "expected_white_profile_SSE": 85207.25802151352,
+      "total_rank": 800,
+      "colored_total_minus_true": -80.1693246208306,
+      "white_total_minus_true": 207.258021513524,
+      "colored_noise_minus_true": -287.4273461343546
+    },
+    {
+      "parameters": [
+        0.75,
+        0.995,
+        0.95
+      ],
+      "profiled_theta": 0.13901081316932123,
+      "noiseless_signal_SSE": 190.4985776823679,
+      "expected_colored_noise_SSE": 78789.07610097296,
+      "expected_colored_profile_SSE": 78979.57467865534,
+      "expected_white_noise_SSE": 85000.0,
+      "expected_white_profile_SSE": 85190.49857768237,
+      "total_rank": 800,
+      "colored_total_minus_true": -132.50260127321235,
+      "white_total_minus_true": 190.49857768237416,
+      "colored_noise_minus_true": -323.0011789555865
+    },
+    {
+      "parameters": [
+        0.75,
+        0.995,
+        1.0
+      ],
+      "profiled_theta": 0.17539928642247346,
+      "noiseless_signal_SSE": 232.59530937785962,
+      "expected_colored_noise_SSE": 78755.76101462443,
+      "expected_colored_profile_SSE": 78988.35632400229,
+      "expected_white_noise_SSE": 85000.0,
+      "expected_white_profile_SSE": 85232.59530937787,
+      "total_rank": 800,
+      "colored_total_minus_true": -123.72095592625556,
+      "white_total_minus_true": 232.59530937786622,
+      "colored_noise_minus_true": -356.31626530412177
+    }
+  ]
+}

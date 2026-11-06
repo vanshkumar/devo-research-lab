@@ -1,0 +1,11 @@
+# Exposure and independence
+
+All observations in this task are development forever. No new context/continuation resets exposure. The original2019reference/pulse-to-zero negative, earlier source closures, all protected biological recordings/targets and prior warnings/failures remain unchanged.
+
+Read inputs: full requiredordinaryLEARNINGS/AGENTS/workflow/currentSTATE/topagenda/predecessor reports/code/freezes/resources; exact public2019connectivity/emask/names/FWD/PLMpreset/source/threshold law/license; four full cachedreview finite/sham NPZs decoded/hashed (seeds0/1,20–44s), with42spre-old-challenge states selected and seed0sham30–42sVB01used for ONEpredeclaredsection. The complete cachedfiles/oldchallenge values were already consumed development and were not untouched validation.
+
+New actual full-state trajectory realizations: TWOshortsource-reference realizations (literalVODE and sparseRadau), FOUR42–300scontinuations, FOUR300–302schallenges, ONEtightperiodic-orbit integration and TWOoriginal-sourceBDFcentral-difference flows:13total. The sampled PERIODIC_ORBIT.npz and shooting_0.npz represent the SAMEperiodic integration, not extra independent evidence. TWOlinear tangentODEchecks, TWOequilibrium root solves and THREEfull558x558midpointmonodromy calculations are additional derived/numerical observations. No Newton corrections/alternate roots/sections/periodstarts/horizon extensions/scientific protocol revisions.
+
+All279neurons/558states/all37motorcoordinates, every raw/summary/auxiliary outcome and numerical warning are preserved. ONEconnectome and TWOsource-law initialization controls; correlatedtimepoints/crossings/multipliers are not subjects. No biological sampling CI is warranted. Independent source/scalar/BDF numerical expressions inside this author study do not replace a NEWdistinct fresh scientific reviewer of this claim.
+
+No empirical/oldfitted/saved_dynamics/closed19heat orsixbaseline recording arrays read. Reservedworms/Pan20/Flesch/HABITS/memory/Figure4_42/optional210/category remain protected. Inherited145ops654594722ingressUNCERTIFIED5.801GBseparate read plus original900s/review600sconservativeprocess/20reviewtrajectories and BDFbaseline-fullpath omission survive. New0ops-ingress-deps/1GBseparate read and all process/context/failure/physicalIOunknowns are additive; no controls/ownership/goals/counters were reset.

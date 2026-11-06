@@ -1,0 +1,90 @@
+{
+  "results": [
+    {
+      "plant": 100,
+      "mode": "oracle",
+      "search": "per_order",
+      "rounds": 20,
+      "queries": 1206,
+      "initial_loss": 7.812979913896775,
+      "final_loss": 0.03477894702207039,
+      "improvement": 0.9955485682280829,
+      "final_order": 0,
+      "final_cost": 0.03477894702207039,
+      "feedback": {
+        "logical_feedback_slots": 1206,
+        "source_simulations": 0
+      }
+    },
+    {
+      "plant": 100,
+      "mode": "clocked",
+      "search": "per_order",
+      "rounds": 20,
+      "queries": 1206,
+      "initial_loss": 7.812979913896775,
+      "final_loss": 0.01692042777391576,
+      "improvement": 0.9978343182805551,
+      "final_order": 0,
+      "final_cost": 1.456851092500256,
+      "feedback": {
+        "logical_feedback_slots": 1206,
+        "source_simulations": 2146,
+        "cache_hits": 133
+      }
+    },
+    {
+      "plant": 100,
+      "mode": "unregistered",
+      "search": "per_order",
+      "rounds": 20,
+      "queries": 1206,
+      "initial_loss": 7.812979913896775,
+      "final_loss": 0.1457159109025668,
+      "improvement": 0.9813495090850822,
+      "final_order": 0,
+      "final_cost": 1.8274619759300694,
+      "feedback": {
+        "logical_feedback_slots": 1206,
+        "source_simulations": 2180,
+        "cache_hits": 116
+      }
+    },
+    {
+      "plant": 100,
+      "mode": "onset_reset",
+      "search": "per_order",
+      "rounds": 20,
+      "queries": 1206,
+      "initial_loss": 7.812979913896775,
+      "final_loss": 0.01692042777391576,
+      "improvement": 0.9978343182805551,
+      "final_order": 0,
+      "final_cost": 1.456853500122584,
+      "feedback": {
+        "logical_feedback_slots": 1206,
+        "source_simulations": 2146,
+        "cache_hits": 133
+      }
+    },
+    {
+      "plant": 100,
+      "mode": "no_clock",
+      "search": "per_order",
+      "rounds": 20,
+      "queries": 1206,
+      "initial_loss": 7.812979913896775,
+      "final_loss": 0.03555677510892735,
+      "improvement": 0.9954490123485812,
+      "final_order": 0,
+      "final_cost": 1.5074181956992807,
+      "feedback": {
+        "logical_feedback_slots": 1206,
+        "source_simulations": 2158,
+        "cache_hits": 127
+      }
+    }
+  ],
+  "seconds": 1311.1256504590274,
+  "reference": 1.491712606353157
+}

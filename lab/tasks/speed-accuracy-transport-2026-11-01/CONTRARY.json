@@ -1,0 +1,195 @@
+{
+  "at": "2026-11-01T08:23:03.733024+00:00",
+  "postvalidation": true,
+  "original_signal_passes": 18,
+  "original_null_passes": 2,
+  "signal_gate_pass_counts": {
+    "joint_gain_ge10percent": 100,
+    "paired_interval_lower_positive": 100,
+    "accuracy_mse_better": 100,
+    "rt_mse_better": 100,
+    "accuracy_MAE_le5pp": 18,
+    "rt_MAE_le50ms": 100
+  },
+  "changed_observation_diagnostics": [
+    {
+      "changed_observation": "remove_accuracy_noise",
+      "passes": 100,
+      "n": 100
+    },
+    {
+      "changed_observation": "remove_rt_noise",
+      "passes": 18,
+      "n": 100
+    },
+    {
+      "changed_observation": "remove_both",
+      "passes": 100,
+      "n": 100
+    }
+  ],
+  "leave_one_person": [
+    {
+      "omitted_id": 10,
+      "joint_P_fractional_gain": -1.4976165765231455,
+      "accuracy_MSE_gain": -0.032231473310207814,
+      "RT_MSE_gain": -1.6626303429011955
+    },
+    {
+      "omitted_id": 11,
+      "joint_P_fractional_gain": -1.2662960896508806,
+      "accuracy_MSE_gain": 0.11827093563679447,
+      "RT_MSE_gain": -1.3757263448335895
+    },
+    {
+      "omitted_id": 12,
+      "joint_P_fractional_gain": -1.3148415223320717,
+      "accuracy_MSE_gain": 0.31586352315584476,
+      "RT_MSE_gain": -1.453466744726454
+    },
+    {
+      "omitted_id": 13,
+      "joint_P_fractional_gain": -1.154012802392586,
+      "accuracy_MSE_gain": 0.1318862564817309,
+      "RT_MSE_gain": -1.2685992781394098
+    },
+    {
+      "omitted_id": 14,
+      "joint_P_fractional_gain": -1.61859466350387,
+      "accuracy_MSE_gain": 0.1286166820085205,
+      "RT_MSE_gain": -1.796094019149784
+    },
+    {
+      "omitted_id": 15,
+      "joint_P_fractional_gain": -2.9199832751955586,
+      "accuracy_MSE_gain": 0.031019256949848972,
+      "RT_MSE_gain": -3.3965626404894076
+    },
+    {
+      "omitted_id": 16,
+      "joint_P_fractional_gain": -0.9554407369032845,
+      "accuracy_MSE_gain": 0.20460533150471627,
+      "RT_MSE_gain": -1.063939740591704
+    },
+    {
+      "omitted_id": 17,
+      "joint_P_fractional_gain": -1.3819917364401966,
+      "accuracy_MSE_gain": 0.25019249694729206,
+      "RT_MSE_gain": -1.5440946361771957
+    }
+  ],
+  "primary_P_accuracy_MSE_fractional_gain": 0.1471395306967277,
+  "primary_P_RT_MSE_fractional_gain": -1.5807289117937833,
+  "paper_cutoff_primary_passes": false,
+  "paper_cutoff_P": {
+    "accuracy_mse": 0.002290911024384737,
+    "rt_mean_mse_s2": 0.06873205735179443,
+    "joint_loss": 14.20459367523583,
+    "joint_fractional_gain_over_reference": -1.6715418731433624,
+    "conditional_bootstrap_gain_percentiles": [
+      -7.740172914232664,
+      -0.3081776475721635
+    ],
+    "accuracy_MAE": 0.03069030100014663,
+    "rt_mean_MAE_s": 0.22152980824617718,
+    "people_joint_better": 1,
+    "per_person_losses": [
+      [
+        0.0003654234870191762,
+        0.14865070275563083,
+        29.803225248529998
+      ],
+      [
+        0.003150726503165603,
+        0.04764303281679641,
+        10.158751863992402
+      ],
+      [
+        0.005985036731625244,
+        0.04910189767600426,
+        11.017386881525898
+      ],
+      [
+        0.0016453752895297551,
+        0.07371108950240726,
+        15.071292958387401
+      ],
+      [
+        0.0015072523912832677,
+        0.032648448478342085,
+        6.8311401739250694
+      ],
+      [
+        0.0008870795184026808,
+        0.04917590337560439,
+        10.012596578801412
+      ],
+      [
+        0.00231979950772701,
+        0.12572469008022097,
+        25.60889791758959
+      ],
+      [
+        0.0024665947663251604,
+        0.02320069412934927,
+        5.1334577791348845
+      ]
+    ]
+  },
+  "paper_cutoff_reference": {
+    "accuracy_mse": 0.0026634866336239754,
+    "rt_mean_mse_s2": 0.023921523726933413,
+    "joint_loss": 5.317002072111476,
+    "joint_fractional_gain_over_reference": 0.0,
+    "conditional_bootstrap_gain_percentiles": [
+      0.0,
+      0.0
+    ],
+    "accuracy_MAE": 0.03882967392568775,
+    "rt_mean_MAE_s": 0.1180847678167241,
+    "people_joint_better": 0,
+    "per_person_losses": [
+      [
+        0.003998480211725207,
+        0.062384112387523435,
+        13.276518519849727
+      ],
+      [
+        0.004260022013672645,
+        0.001663553484077301,
+        1.1847150995499889
+      ],
+      [
+        0.003443833170721556,
+        0.003395140739077451,
+        1.3677947819598013
+      ],
+      [
+        0.0022638519397639835,
+        0.0031688710009770867,
+        1.0865445881482139
+      ],
+      [
+        0.0021755415408278773,
+        0.028091986474062355,
+        6.053505602978045
+      ],
+      [
+        0.003397366848774659,
+        0.08178008597401876,
+        17.03549056455868
+      ],
+      [
+        0.0013616619165449702,
+        0.004837931560895195,
+        1.2399186954880328
+      ],
+      [
+        0.00040713542696090417,
+        0.006050508194835728,
+        1.291528724359326
+      ]
+    ]
+  },
+  "interpretation": "Finite conditional resolution/influence checks, no source refitting, replacement holdout, repaired criterion, new primary acceptance, coverage or biological inference."
+}

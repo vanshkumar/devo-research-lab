@@ -1,0 +1,24 @@
+{
+  "frozen_at_utc": "2026-10-29T20:56:26.838902+00:00",
+  "comparison_files": {
+    "COMPARISON.md": "9179f56be2c1487abd18928e235737f935dbc3ac928cd2ac747f12fbe832edb7",
+    "ablation.py": "b31f60ecce1167aae06e5c9d7929f3971a8e62b604f69859f235bc544291d825"
+  },
+  "source_task_files": {
+    "pilot.py": "d30e4fa689c1a2553da613171035b6e3f558e2efd10a00d9d5804ebc72415088",
+    "FROZEN_PROTOCOL.md": "2bd787400dd244993184dc7a1a15cbb9dc30ed0bea7aa06f6d02f03a97c5e4bd",
+    "FREEZE.json": "c674b18fb0f0eace0e8f7074667788d0f038afc0809e67a41f9945b528d7ad5a",
+    "scored_predictions.npz": "9847719a331c2edc524bef5bf6a709ed14b1fa989f417945b1fb6aad9215a905",
+    "scored_metadata.json": "8534054dd429c7070fb29cd0e1f82edbab3f45d9242bec082e80c2f85432b261",
+    "scored_metrics.json": "5826eab831cc157c5403facf6e41d57252f556302e25c3c8f3a857c5e66dc9c8",
+    "AUDIT.json": "3acc2122e4abefdd67c4ecff46c46b997beec2c4d12bcbd8cf6edc1a928789b7",
+    "TECHNICAL_REPORT.md": "0bf7d7c94b9e19bcf9308e520404fcbc40142e9fb48a0e05c8524266cd00acfa",
+    "RESULT.md": "7cb6b54638f467971b3bbd5f3d08eb00857f54a6acb24062590e2f01e831401a",
+    "EXPOSURE.json": "ff7dc3c838dc3803a3912d126f8bda954bc4b20e78c5adcd0f46438a519c55c0"
+  },
+  "status": "Frozen before the sole reliability-one ablation run; consumed synthetic inputs only",
+  "pre_execution_amendment": {
+    "reason": "Cache source saved arrays once instead of repeatedly inflating them; no model/input/metric change; no ablation has yet run.",
+    "previous_ablation_sha256": "dc6f586343f624b13796eb7940c907fdc19c7e60427288f9ecc08bd5ce5639af"
+  }
+}

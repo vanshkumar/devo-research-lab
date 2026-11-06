@@ -1,0 +1,37 @@
+{
+  "utc": "2026-10-29T14:05:35.621037+00:00",
+  "date": "2026-10-29",
+  "status": "explicit postexecution stdout finalization record; original mismatch preserved",
+  "original_manifest_sha256": "401856adabe0322dd15a7379942594a64d59f05d98a82e34b78262117db87467",
+  "original_manifest_path": "artifacts/decision_controls/MANIFEST.json",
+  "mismatches": [
+    {
+      "path": "artifacts/decision_controls/RUN.stdout",
+      "expected": "7666b7c76ff908231cf3ed05ab027630a37dd845ba13f8611a268b0c7200cbf6",
+      "actual": "f2118cfeb46c6f66d4e43c29dcdafab301046234fbed0ff4b9833dc63a8be522"
+    }
+  ],
+  "cause": "Frozen calibrate_decision.py lines277-279 hashes redirected stdout before final status print; only that appended JSON line changes the log.",
+  "stdout_prefix_without_final_line_sha256": "7666b7c76ff908231cf3ed05ab027630a37dd845ba13f8611a268b0c7200cbf6",
+  "appended_final_line": {
+    "status": "failed_primary_control_requirement",
+    "duration_seconds": 22.048321208014386
+  },
+  "original_manifest_remains_changed": false,
+  "numerical_or_protocol_files_changed": false,
+  "access_release": false,
+  "final_files": {
+    "artifacts/decision_controls/CALIBRATION_FREEZE.json": "e5a0349c4e49c96bd49d5fdc0f244ea8399ef4f744db5e5e012530525aad5ad3",
+    "artifacts/decision_controls/FROZEN_CONTROL_INPUTS.npz": "3893e31738e171a550959a1d0e6d32468d344f4017ad1e062f586e6922c2a9fc",
+    "artifacts/decision_controls/REPORT.md": "54c5ca985a93b23f968405e5c378d4a97570ce4db07fbcec37f691911d3209ee",
+    "artifacts/decision_controls/RESULT.json": "97e7a6e647cf50d1774cf3bbc4845f8b610f39ac149432c6cf23b21bd73d6e2d",
+    "artifacts/decision_controls/RUN.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "artifacts/decision_controls/RUN.stdout": "f2118cfeb46c6f66d4e43c29dcdafab301046234fbed0ff4b9833dc63a8be522",
+    "artifacts/decision_controls/double_variability_bounded_REPLICATES.npz": "f528c816fd7dca61e9806e370203a2227212d7e8126c049fbf9aa8f151dba4c1",
+    "artifacts/decision_controls/double_variability_bounded_RESULT.json": "f38cb851f40ef82855a06f0db150aaabca06e8f01e8daeca4852e6066c12c358",
+    "artifacts/decision_controls/primary_pooled64_REPLICATES.npz": "aff2f368266af5b4d7b22006d8c9366fa41dbbc116a3820114e28339b1313a52",
+    "artifacts/decision_controls/primary_pooled64_RESULT.json": "99475c888a468f0f38de969038d6c263f83e17565726aca3898af0cc3f0576cb",
+    "artifacts/decision_controls/shared_empirical_lab_offset_REPLICATES.npz": "459e999e60fbf08be4a96c857244881300127ac6088102cc939321d945fcf0b3",
+    "artifacts/decision_controls/shared_empirical_lab_offset_RESULT.json": "e714d59d08c31af2854210eb16b0b0355844a9d2d1c9e9841feef2748739ac29"
+  }
+}

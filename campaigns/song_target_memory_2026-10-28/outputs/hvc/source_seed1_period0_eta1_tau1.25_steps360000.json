@@ -1,0 +1,46 @@
+{
+  "seed": 1,
+  "period_steps": 0,
+  "mode": "source",
+  "steps": 360000,
+  "trains": 7200,
+  "parameters": [
+    0.115,
+    30.0,
+    0.025,
+    0.2,
+    15.0,
+    0.01,
+    1.0,
+    5.0,
+    10.0
+  ],
+  "training_readout_ms": [
+    660,
+    100,
+    120,
+    750,
+    130,
+    690,
+    120,
+    120,
+    550,
+    120
+  ],
+  "frozen_probe_ms": [
+    null,
+    120,
+    120,
+    120,
+    120,
+    120,
+    null,
+    120,
+    120,
+    null
+  ],
+  "clean_probe_ms": 120,
+  "elapsed_seconds": 11.127619875,
+  "limitation": "neural activity duration, not measured syllable duration; source PRNG not reproduced",
+  "training_readout_status": "measured during training; null means no silence within source readout window"
+}

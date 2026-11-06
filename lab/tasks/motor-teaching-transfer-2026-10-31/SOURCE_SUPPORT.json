@@ -1,0 +1,683 @@
+{
+  "created_utc": "2026-10-31T21:22:33.964918+00:00",
+  "scope": "inputs only; all outcome strings discarded",
+  "files": [
+    {
+      "local": "tsay_TE_SPE.csv",
+      "bytes": 2245333,
+      "sha256": "d366820b97af2ce22ed8491b49b086b32c972d44bf2103e4a7b29b87b3b56a98",
+      "git_blob": "f3e53fbf133a9a4552336b47a64e91788c2f6fe5",
+      "pin_matches": true,
+      "schema": [
+        "",
+        "SN",
+        "TN",
+        "RT",
+        "MT",
+        "tgt_jump",
+        "tgt_jump_size",
+        "tgt_error",
+        "clamp",
+        "clamp_size",
+        "Hand",
+        "Hand_raw",
+        "Exp",
+        "Hand_dt",
+        "RT_dt",
+        "Hand_Diff",
+        "RT_Diff"
+      ],
+      "retained_input_fields": [
+        "Exp",
+        "SN",
+        "TN",
+        "clamp_size",
+        "tgt_jump_size"
+      ],
+      "outcome_numeric_values_decoded": 0,
+      "n_people": 20,
+      "n_exposures": 14400,
+      "clamps": [
+        -4.0,
+        0.0,
+        4.0
+      ],
+      "sizes": {},
+      "input_cells": [
+        {
+          "clamp": -4.0,
+          "jump": -8.0,
+          "label": "",
+          "n": 1600
+        },
+        {
+          "clamp": -4.0,
+          "jump": -4.0,
+          "label": "",
+          "n": 1600
+        },
+        {
+          "clamp": -4.0,
+          "jump": 0.0,
+          "label": "",
+          "n": 1600
+        },
+        {
+          "clamp": 0.0,
+          "jump": -4.0,
+          "label": "",
+          "n": 1600
+        },
+        {
+          "clamp": 0.0,
+          "jump": 0.0,
+          "label": "",
+          "n": 1600
+        },
+        {
+          "clamp": 0.0,
+          "jump": 4.0,
+          "label": "",
+          "n": 1600
+        },
+        {
+          "clamp": 4.0,
+          "jump": 0.0,
+          "label": "",
+          "n": 1600
+        },
+        {
+          "clamp": 4.0,
+          "jump": 4.0,
+          "label": "",
+          "n": 1600
+        },
+        {
+          "clamp": 4.0,
+          "jump": 8.0,
+          "label": "",
+          "n": 1600
+        }
+      ]
+    },
+    {
+      "local": "tsay_controljump.csv",
+      "bytes": 2559465,
+      "sha256": "21e551a2cc2b2faecffeee3c63d7054e4d4fa50a089c8b82ac888af0d7dd3947",
+      "git_blob": "1866fa5d9f3fc81cd0018ab2728cdd9865d48fe8",
+      "pin_matches": true,
+      "schema": [
+        "",
+        "SN",
+        "TN",
+        "RT",
+        "MT",
+        "tgt_jump",
+        "tgt_jump_size",
+        "tgt_error",
+        "clamp",
+        "clamp_size",
+        "Hand",
+        "Hand_raw",
+        "Exp",
+        "Hand_dt",
+        "RT_dt",
+        "Hand_Diff",
+        "RT_Diff"
+      ],
+      "retained_input_fields": [
+        "Exp",
+        "SN",
+        "TN",
+        "clamp_size",
+        "tgt_jump_size"
+      ],
+      "outcome_numeric_values_decoded": 0,
+      "n_people": 20,
+      "n_exposures": 14400,
+      "clamps": [
+        -4.0,
+        0.0,
+        4.0
+      ],
+      "sizes": {},
+      "input_cells": [
+        {
+          "clamp": -4.0,
+          "jump": -8.0,
+          "label": "",
+          "n": 1600
+        },
+        {
+          "clamp": -4.0,
+          "jump": 0.0,
+          "label": "",
+          "n": 1600
+        },
+        {
+          "clamp": -4.0,
+          "jump": 8.0,
+          "label": "",
+          "n": 1600
+        },
+        {
+          "clamp": 0.0,
+          "jump": -8.0,
+          "label": "",
+          "n": 1600
+        },
+        {
+          "clamp": 0.0,
+          "jump": 0.0,
+          "label": "",
+          "n": 1600
+        },
+        {
+          "clamp": 0.0,
+          "jump": 8.0,
+          "label": "",
+          "n": 1600
+        },
+        {
+          "clamp": 4.0,
+          "jump": -8.0,
+          "label": "",
+          "n": 1600
+        },
+        {
+          "clamp": 4.0,
+          "jump": 0.0,
+          "label": "",
+          "n": 1600
+        },
+        {
+          "clamp": 4.0,
+          "jump": 8.0,
+          "label": "",
+          "n": 1600
+        }
+      ]
+    },
+    {
+      "local": "task_success_fig3.csv",
+      "bytes": 1680294,
+      "sha256": "45b06253b53b30d79c0ae524e67981faa82d67cccadfbab588df4058e87b9a4f",
+      "git_blob": "321161ed4548756e74e0087646d6c43675c0ec36",
+      "pin_matches": true,
+      "schema": [
+        "Subject",
+        "TrialNum",
+        "TgtAngle",
+        "TgtID",
+        "TgtSize",
+        "TgtDist",
+        "ClampApplied",
+        "ClampAngle",
+        "MT",
+        "RT",
+        "ITI",
+        "TooSlow",
+        "BadReachAngle",
+        "TrialType",
+        "FalseStart",
+        "HandError",
+        "TargetJump"
+      ],
+      "retained_input_fields": [
+        "ClampAngle",
+        "Subject",
+        "TargetJump",
+        "TgtAngle",
+        "TgtSize",
+        "TrialNum",
+        "TrialType"
+      ],
+      "outcome_numeric_values_decoded": 0,
+      "n_people": 18,
+      "n_exposures": 14400,
+      "clamps": [
+        -4.0,
+        4.0
+      ],
+      "sizes": {
+        "TgtSize": [
+          "12"
+        ]
+      },
+      "input_cells": [
+        {
+          "clamp": -4.0,
+          "jump": -4.0,
+          "label": "",
+          "n": 1798
+        },
+        {
+          "clamp": -4.0,
+          "jump": 0.0,
+          "label": "",
+          "n": 1801
+        },
+        {
+          "clamp": -4.0,
+          "jump": 0.01,
+          "label": "",
+          "n": 1800
+        },
+        {
+          "clamp": -4.0,
+          "jump": 4.0,
+          "label": "",
+          "n": 1801
+        },
+        {
+          "clamp": 4.0,
+          "jump": -4.0,
+          "label": "",
+          "n": 1802
+        },
+        {
+          "clamp": 4.0,
+          "jump": 0.0,
+          "label": "",
+          "n": 1799
+        },
+        {
+          "clamp": 4.0,
+          "jump": 0.01,
+          "label": "",
+          "n": 1800
+        },
+        {
+          "clamp": 4.0,
+          "jump": 4.0,
+          "label": "",
+          "n": 1799
+        }
+      ]
+    },
+    {
+      "local": "task_success_fig4.csv",
+      "bytes": 4879022,
+      "sha256": "af6a1751bc80e73cfbcc288332fe376c42870e2883b449625507d7ecda7fccca",
+      "git_blob": "a5ef0406e77f8391adf4dd59b58cf5b12074bd55",
+      "pin_matches": true,
+      "schema": [
+        "Subject",
+        "TrialNum",
+        "TgtAngle",
+        "TgtSize",
+        "ClampApplied",
+        "ClampAngle",
+        "HandAngle",
+        "MT",
+        "RT",
+        "ITI",
+        "TooSlow",
+        "TrialType",
+        "FalseStart",
+        "HandError",
+        "TargetJump",
+        "TrialLabel"
+      ],
+      "retained_input_fields": [
+        "ClampAngle",
+        "Subject",
+        "TargetJump",
+        "TgtAngle",
+        "TgtSize",
+        "TrialLabel",
+        "TrialNum",
+        "TrialType"
+      ],
+      "outcome_numeric_values_decoded": 0,
+      "n_people": 42,
+      "n_exposures": 36288,
+      "clamps": [
+        -10.5,
+        -8.75,
+        -7.0,
+        -5.25,
+        -3.5,
+        -1.75,
+        1.75,
+        3.5,
+        5.25,
+        7.0,
+        8.75,
+        10.5
+      ],
+      "sizes": {
+        "TgtSize": [
+          "6",
+          "62"
+        ]
+      },
+      "input_cells": [
+        {
+          "clamp": -10.5,
+          "jump": 0.0,
+          "label": "Hit",
+          "n": 1008
+        },
+        {
+          "clamp": -10.5,
+          "jump": 0.0,
+          "label": "Miss",
+          "n": 1008
+        },
+        {
+          "clamp": -10.5,
+          "jump": 10.5,
+          "label": "Jump To",
+          "n": 1008
+        },
+        {
+          "clamp": -8.75,
+          "jump": 0.0,
+          "label": "Hit",
+          "n": 1008
+        },
+        {
+          "clamp": -8.75,
+          "jump": 0.0,
+          "label": "Miss",
+          "n": 1008
+        },
+        {
+          "clamp": -8.75,
+          "jump": 8.75,
+          "label": "Jump To",
+          "n": 1008
+        },
+        {
+          "clamp": -7.0,
+          "jump": 0.0,
+          "label": "Hit",
+          "n": 1008
+        },
+        {
+          "clamp": -7.0,
+          "jump": 0.0,
+          "label": "Miss",
+          "n": 1008
+        },
+        {
+          "clamp": -7.0,
+          "jump": 7.0,
+          "label": "Jump To",
+          "n": 1008
+        },
+        {
+          "clamp": -5.25,
+          "jump": 0.0,
+          "label": "Hit",
+          "n": 1008
+        },
+        {
+          "clamp": -5.25,
+          "jump": 0.0,
+          "label": "Miss",
+          "n": 1008
+        },
+        {
+          "clamp": -5.25,
+          "jump": 5.25,
+          "label": "Jump To",
+          "n": 1008
+        },
+        {
+          "clamp": -3.5,
+          "jump": 0.0,
+          "label": "Hit",
+          "n": 1008
+        },
+        {
+          "clamp": -3.5,
+          "jump": 0.0,
+          "label": "Miss",
+          "n": 1008
+        },
+        {
+          "clamp": -3.5,
+          "jump": 3.5,
+          "label": "Jump To",
+          "n": 1008
+        },
+        {
+          "clamp": -1.75,
+          "jump": 0.0,
+          "label": "Hit",
+          "n": 1008
+        },
+        {
+          "clamp": -1.75,
+          "jump": 0.0,
+          "label": "Miss",
+          "n": 1008
+        },
+        {
+          "clamp": -1.75,
+          "jump": 1.75,
+          "label": "Jump To",
+          "n": 1008
+        },
+        {
+          "clamp": 1.75,
+          "jump": -1.75,
+          "label": "Jump To",
+          "n": 1008
+        },
+        {
+          "clamp": 1.75,
+          "jump": 0.0,
+          "label": "Hit",
+          "n": 1008
+        },
+        {
+          "clamp": 1.75,
+          "jump": 0.0,
+          "label": "Miss",
+          "n": 1008
+        },
+        {
+          "clamp": 3.5,
+          "jump": -3.5,
+          "label": "Jump To",
+          "n": 1008
+        },
+        {
+          "clamp": 3.5,
+          "jump": 0.0,
+          "label": "Hit",
+          "n": 1008
+        },
+        {
+          "clamp": 3.5,
+          "jump": 0.0,
+          "label": "Miss",
+          "n": 1008
+        },
+        {
+          "clamp": 5.25,
+          "jump": -5.25,
+          "label": "Jump To",
+          "n": 1008
+        },
+        {
+          "clamp": 5.25,
+          "jump": 0.0,
+          "label": "Hit",
+          "n": 1008
+        },
+        {
+          "clamp": 5.25,
+          "jump": 0.0,
+          "label": "Miss",
+          "n": 1008
+        },
+        {
+          "clamp": 7.0,
+          "jump": -7.0,
+          "label": "Jump To",
+          "n": 1008
+        },
+        {
+          "clamp": 7.0,
+          "jump": 0.0,
+          "label": "Hit",
+          "n": 1008
+        },
+        {
+          "clamp": 7.0,
+          "jump": 0.0,
+          "label": "Miss",
+          "n": 1008
+        },
+        {
+          "clamp": 8.75,
+          "jump": -8.75,
+          "label": "Jump To",
+          "n": 1008
+        },
+        {
+          "clamp": 8.75,
+          "jump": 0.0,
+          "label": "Hit",
+          "n": 1008
+        },
+        {
+          "clamp": 8.75,
+          "jump": 0.0,
+          "label": "Miss",
+          "n": 1008
+        },
+        {
+          "clamp": 10.5,
+          "jump": -10.5,
+          "label": "Jump To",
+          "n": 1008
+        },
+        {
+          "clamp": 10.5,
+          "jump": 0.0,
+          "label": "Hit",
+          "n": 1008
+        },
+        {
+          "clamp": 10.5,
+          "jump": 0.0,
+          "label": "Miss",
+          "n": 1008
+        }
+      ]
+    }
+  ],
+  "source_clamps": [
+    -4.0,
+    0.0,
+    4.0
+  ],
+  "target_clamps": [
+    -10.5,
+    -8.75,
+    -7.0,
+    -5.25,
+    -3.5,
+    -1.75,
+    1.75,
+    3.5,
+    5.25,
+    7.0,
+    8.75,
+    10.5
+  ],
+  "exact_signed_clamp_overlap": [],
+  "normalized_saturation_counterexample": {
+    "grid": [
+      -10.5,
+      -8.75,
+      -7.0,
+      -5.25,
+      -4.0,
+      -3.5,
+      -1.75,
+      0.0,
+      1.75,
+      3.5,
+      4.0,
+      5.25,
+      7.0,
+      8.75,
+      10.5
+    ],
+    "curves": [
+      {
+        "tau": 1.0,
+        "values": [
+          -1.0006711488841527,
+          -1.0006711001479955,
+          -1.0006694862294665,
+          -1.000616042058273,
+          -1.0,
+          -0.9988478251081311,
+          -0.9420073430680839,
+          0.0,
+          0.9420073430680839,
+          0.9988478251081311,
+          1.0,
+          1.000616042058273,
+          1.0006694862294665,
+          1.0006711001479955,
+          1.0006711488841527
+        ]
+      },
+      {
+        "tau": 4.0,
+        "values": [
+          -1.2993268670385636,
+          -1.2803888930448497,
+          -1.2360592989528725,
+          -1.1356529077292152,
+          -1.0,
+          -0.9242528956295005,
+          -0.5404060055549158,
+          0.0,
+          0.5404060055549158,
+          0.9242528956295005,
+          1.0,
+          1.1356529077292152,
+          1.2360592989528725,
+          1.2803888930448497,
+          1.2993268670385636
+        ]
+      },
+      {
+        "tau": 16.0,
+        "values": [
+          -2.3512393283308586,
+          -2.0340402864371945,
+          -1.680435666415715,
+          -1.293633559867783,
+          -1.0,
+          -0.8791748964840103,
+          -0.4448045275589613,
+          0.0,
+          0.4448045275589613,
+          0.8791748964840103,
+          1.0,
+          1.293633559867783,
+          1.680435666415715,
+          2.0340402864371945,
+          2.3512393283308586
+        ]
+      }
+    ],
+    "max_source_difference": 0.0,
+    "max_target_difference": 1.350568179446706,
+    "interpretation": "Distinct odd monotone saturating sensory-response laws agree on every source clamp but differ at target clamps. This forbids unique absolute amplitude transport without an extra shape assumption, not every normalized contrast test."
+  },
+  "charged_additional_read_decoded_hash_bytes": 45456456,
+  "public_requests": 0,
+  "new_ingress_bytes": 0,
+  "peak_rss_bytes": 87834624
+}

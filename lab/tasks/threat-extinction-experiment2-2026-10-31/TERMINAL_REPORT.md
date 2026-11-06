@@ -1,0 +1,11 @@
+Experiment2assignment complete, jobs0. Owned artifacts: lab/tasks/threat-extinction-experiment2-2026-10-31/{RESULT.md,README.md,STATE.md,RESOURCES.json,SOURCE_CERTIFICATION.json,FREEZE.json,EVALUATION.json,CONTROLS.json,CONTRARY.json,FINAL_VERIFICATION.json}.
+
+Direct dxpb3v1ZIP106,395bytes/CC-BY4/source hashes verified;60IDs pair across both channels/log, with actual PP1rating checks before expansion. Certification uses source-defined reinforcement and logged ordinal cues/shocks, not acquisition hardware or elapsed-time verification.39development/20evaluation physiology(PP120missing);40/20expectancy. Raw high-rate physiology remains off-archive/unrequested.
+
+Frozen20participant test: physiology C/U MSE0.067040/0.069428, cue update worsens3.56%; common-minus-U−0.002388[−0.005502,−0.000127],5/20improve. Past-acquisition scaling narrows disadvantage to0.31%, interval spanszero. Expectancy selects alpha0and gives identical0.107523MSE; source mean0.105326is slightly better. Development pooling revision failed its2%adoption threshold. No main utility gate passes.
+
+Crucial limitation: conditional null full-rule rates2/100physiology,0/100expectancy; known-alpha1rates2/100and56/100. Weak assay discrimination bars absent/equal biological updating claims. One separately frozen POSTVALIDATION static-prefix pooling/contrast baseline also loses(primary0.070326vsC0.067040;scaled0.201395vs0.195339), so common dynamics retain conditional value beyond that static estimator, without unique-mechanism inference.
+
+Author checks reproduce1,980ratings/4,665source scores, future-suffix invariance,9main/5contrary pins,400participant losses from1,800forecasts within2.23e−16. Independent review unrun. All60complete SAV cases, INCLUDING later phases/auxiliary columns, now consumed; initial1/109/110forceddevelopment. No protected/oldraw access.
+
+NEW charge5publicops/128,448ingress/97MBread/35,454,976peakRSS/oneprocess-onethread; predecessor11ops/7,023,489ingress/20MBread remains additive/CLOSED. Failures and unknown predecessor providerpeak preserved. Recommend fresh independent review, bank fixed conditional benchmark, then close archive fitting/reallocate. Proposed memory entry saved in PROPOSED_LEARNING.md; no shared records or heartbeat changed.

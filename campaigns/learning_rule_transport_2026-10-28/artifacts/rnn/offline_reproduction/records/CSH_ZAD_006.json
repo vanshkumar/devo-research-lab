@@ -1,0 +1,164 @@
+{
+  "subject": "CSH_ZAD_006",
+  "split": "animal_holdout",
+  "particles": 512,
+  "prefix_n": 1000,
+  "horizon": 3009,
+  "model_sha256": "c7f675d18f4143891ed7d2c76d91f74be74da9565fbae5407952768e2c146940",
+  "forecast_path": "artifacts/forecasts/rnn_source_animals/CSH_ZAD_006__rnnglm32.npz",
+  "forecast_sha256": "d6bf2e9e25bd036a3f2e33a094d9915619c578d347b73743987753f16752ed5f",
+  "metadata_sha256": "45b87c5a6eab99eeced6f2c5b62ae4d0a5330f1ff7cc6a616423430b9ea311d7",
+  "seed": 265133798,
+  "exact": true,
+  "max_abs_difference": 0.0,
+  "arrays": {
+    "samples": {
+      "exact": true,
+      "shape": [
+        512,
+        6,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "ee875522e0d19374b1dc1f7f91cb0e9d4924d228d777b416f78b5d3b530e7f44",
+      "saved_array_sha256": "ee875522e0d19374b1dc1f7f91cb0e9d4924d228d777b416f78b5d3b530e7f44"
+    },
+    "samples_primary": {
+      "exact": true,
+      "shape": [
+        512,
+        6,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "ee875522e0d19374b1dc1f7f91cb0e9d4924d228d777b416f78b5d3b530e7f44",
+      "saved_array_sha256": "ee875522e0d19374b1dc1f7f91cb0e9d4924d228d777b416f78b5d3b530e7f44"
+    },
+    "weights": {
+      "exact": true,
+      "shape": [
+        512,
+        6,
+        3
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "7e35b7cd7ff30d76676a06f6119b2773bad8b949770f50dd947b12185268140e",
+      "saved_array_sha256": "7e35b7cd7ff30d76676a06f6119b2773bad8b949770f50dd947b12185268140e"
+    },
+    "hidden_final": {
+      "exact": true,
+      "shape": [
+        512,
+        32
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "b542256b733a20b41d1b14307d4f9217189413f4e77949d1e2558c39b92a4643",
+      "saved_array_sha256": "b542256b733a20b41d1b14307d4f9217189413f4e77949d1e2558c39b92a4643"
+    },
+    "counts": {
+      "exact": true,
+      "shape": [
+        512,
+        6,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "e5d7677f5ec6f9c52fe156ba3bcad41be305d86b4b9e14eb968ef76882d3a210",
+      "saved_array_sha256": "e5d7677f5ec6f9c52fe156ba3bcad41be305d86b4b9e14eb968ef76882d3a210"
+    },
+    "pool_fraction": {
+      "exact": true,
+      "shape": [
+        6,
+        6
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "35c9adf1ecf62fb4b0682392c2c42e7e1cdc688e0e783716a7a8f05d19d95d09",
+      "saved_array_sha256": "35c9adf1ecf62fb4b0682392c2c42e7e1cdc688e0e783716a7a8f05d19d95d09"
+    },
+    "session_start": {
+      "exact": true,
+      "shape": [
+        3009
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "b46614958da1397347ec02b303db12189fe2a7ea811b6c811919cd5d968e598e",
+      "saved_array_sha256": "b46614958da1397347ec02b303db12189fe2a7ea811b6c811919cd5d968e598e"
+    },
+    "seed": {
+      "exact": true,
+      "shape": [],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "322aa29ebaec39aec290dbf61e6cf036ea0aa8bfb220739582d0a1fcf4f55393",
+      "saved_array_sha256": "322aa29ebaec39aec290dbf61e6cf036ea0aa8bfb220739582d0a1fcf4f55393"
+    }
+  },
+  "original_prefix_objects": [
+    {
+      "path": "data/sealed/animal_holdout/CSH_ZAD_006/2019-08-19_001_b3003e96-5f81-4c28-a93c-fe4be773e7ef_table.pqt",
+      "bytes": 39830,
+      "sha256": "b37aa5ec74baaaaf10d14604603705f01c26f5065dc3f8ec8a2b473b25633863",
+      "md5": "3a012a2a9c75c018d91afe3f168b04a7",
+      "published_md5": "3a012a2a9c75c018d91afe3f168b04a7"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSH_ZAD_006/2019-08-19_001_b3003e96-5f81-4c28-a93c-fe4be773e7ef_repNum.npy",
+      "bytes": 4272,
+      "sha256": "7df31282d02bb3f0e90c1e80cd525ed96fcaacfeac0d0152f76d5b34c5ee296e",
+      "md5": "1d7e97165ca3fa0c5fd9f0ca2863b1f4",
+      "published_md5": "1d7e97165ca3fa0c5fd9f0ca2863b1f4"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSH_ZAD_006/2019-08-22_001_43ae9a22-d709-4683-b692-a75d9b0a3efc_table.pqt",
+      "bytes": 18748,
+      "sha256": "65392dd043dcf269036e49137ed0fb82fcc08ddf245756f41f54cc9ce9b2c5f8",
+      "md5": "020f3bf15cfe86ef157a24646cb48c06",
+      "published_md5": "020f3bf15cfe86ef157a24646cb48c06"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSH_ZAD_006/2019-08-22_001_43ae9a22-d709-4683-b692-a75d9b0a3efc_repNum.npy",
+      "bytes": 1360,
+      "sha256": "6bca7fe8b395293c00cdd1885e550c2fa83848357af802edbdd1e5c24c5dc950",
+      "md5": "8507843674489a1e6772e1043156756c",
+      "published_md5": "8507843674489a1e6772e1043156756c"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSH_ZAD_006/2019-08-26_001_c206e1e5-5249-43cf-ad2d-07f331568b86_table.pqt",
+      "bytes": 25209,
+      "sha256": "b78d3a703de1c655fe82d39c04990a94ecf4d1cdcb3f1e16bbd8622d4ee13651",
+      "md5": "631b6f773309bb30aee4f081bebb7e92",
+      "published_md5": "631b6f773309bb30aee4f081bebb7e92"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSH_ZAD_006/2019-08-26_001_c206e1e5-5249-43cf-ad2d-07f331568b86_repNum.npy",
+      "bytes": 2400,
+      "sha256": "706c0731c945373feaf00ebd1c07f7e916d8ef64acd61aaafef69ad359c33780",
+      "md5": "b2f38fcab6059e43768adef6d09fc806",
+      "published_md5": "b2f38fcab6059e43768adef6d09fc806"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSH_ZAD_006/2019-08-27_002_6f78c272-93ef-4f5a-85f8-389c3b1f9ecc_table.pqt",
+      "bytes": 20964,
+      "sha256": "ef9a7ebe8df30919b8cabbecb27f7c46fc8ea3d2bb3a3f043214c7234eb4e854",
+      "md5": "4a9e7d00272f4dd0730620ea7f7736ad",
+      "published_md5": "4a9e7d00272f4dd0730620ea7f7736ad"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSH_ZAD_006/2019-08-27_002_6f78c272-93ef-4f5a-85f8-389c3b1f9ecc_repNum.npy",
+      "bytes": 1816,
+      "sha256": "e030f4ea7064bacdf264000cf9b5288486edc884ffd6b90bea9440a256191489",
+      "md5": "2f60661848c63a39340a4e40e0b4f39e",
+      "published_md5": "2f60661848c63a39340a4e40e0b4f39e"
+    }
+  ],
+  "prefix_rows_per_session": [
+    518,
+    154,
+    284,
+    44
+  ],
+  "opportunity_source": "pinned footer counts only",
+  "future_outcomes_read": false,
+  "external_outcomes_read": false,
+  "seconds": 2.7298109169933014
+}

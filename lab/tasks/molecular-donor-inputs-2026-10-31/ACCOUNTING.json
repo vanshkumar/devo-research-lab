@@ -1,0 +1,88 @@
+{
+  "start_authorized_utc": "2026-10-31T19:51:29.229000+00:00",
+  "saved_at_utc": "2026-10-31T20:13:01.584611+00:00",
+  "deadline_utc": "2026-10-31T21:51:29.229Z",
+  "elapsed_minutes_at_save": 21.539260183333333,
+  "scientific_status": "completed_input_attempt_primary_unrun_acquisition_route_closed",
+  "scientific_jobs": 0,
+  "maximum_concurrent_scientific_processes": 1,
+  "numerical_threads": 1,
+  "usage_start_check": {
+    "pi_checked_at_utc": "2026-10-31T19:51:29.229Z",
+    "remaining_percent": 54,
+    "ordinary_usage_allowed": true,
+    "secondary_window": "unavailable",
+    "credits_or_reset_used": false
+  },
+  "new_requests": {
+    "script_attempts_including_failed_DNS": 31,
+    "provider_operations": 5,
+    "provider_breakdown": {
+      "initial_queries": 2,
+      "explorer_open": 1,
+      "targeted_query": 1,
+      "find": 1
+    },
+    "charged_total": 36,
+    "cap": 40,
+    "unused": 4,
+    "provider_internal_backend_request_count": "unavailable; public operations counted explicitly"
+  },
+  "new_ingress": {
+    "measured_application_body_bytes": 12494128,
+    "provider_allowance_bytes": 10000000,
+    "transport_margin_bytes": 2000000,
+    "charged_bytes": 24494128,
+    "cap_bytes": 1000000000,
+    "exact_transport_and_provider_bytes": "unavailable"
+  },
+  "additional_scientific_read_decoded": {
+    "charged_bytes": 250000000,
+    "cap_bytes": 2000000000,
+    "conservative_components": {
+      "ordinary_context_source_code_and_tool_output_allowance": 50000000,
+      "acquisition_body_copy_persistence_and_hash_pass_allowance": 60000000,
+      "all_HDF5_failed_cached_and_logical_pass_allowance": 60000000,
+      "JSON_CSV_NPZ_inspection_human_leaf_and_audit_pass_allowance": 50000000,
+      "final_records_verification_manifest_and_report_allowance": 30000000
+    },
+    "exact_OS_level_total": "not metered; all repeated/cached/failed/decoded/context/output passes covered by conservative charges",
+    "known_direct_file_bytes_in_input_audit": 15819982,
+    "decoded_human_raw_index_array_bytes": 359784,
+    "mouse_sample_logical_HDF5_bytes": 10952,
+    "mouse_offline_unit_logical_HDF5_bytes": 12500,
+    "mouse_focused_unit_logical_HDF5_bytes": 80804,
+    "mouse_audit_logical_HDF5_bytes": 8688
+  },
+  "recorded_peak_rss_bytes": 102694912,
+  "RSS_cap_bytes": 2000000000,
+  "whole_tranche_continuous_peak_profiling": false,
+  "preserved_prior_ledgers": {
+    "molecular_pilot_read_decoded_bytes": 191451239,
+    "molecular_review_read_decoded_bytes": 73081679,
+    "sum_prior_molecular_reads": 264532918,
+    "molecular_ingress_charged_bytes": 20165421,
+    "molecular_public_requests": 20,
+    "historic_HYPOMAP_range_ingress_bytes_separate_ledger": 3277786552,
+    "historic_range_payload_reread_in_this_tranche": 0
+  },
+  "additive_molecular_totals": {
+    "read_decoded_charged_bytes": 514532918,
+    "ingress_charged_bytes": 44659549,
+    "public_operations": 56
+  },
+  "versions": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "h5py": "3.14.0",
+    "hdf5": "1.14.6"
+  },
+  "seed": "none; deterministic input audit, no fit or simulation",
+  "unexecuted_local_failures_covered_by_context_allowance": [
+    "rejected ordinary shell read expressions or binary context reads",
+    "missing lab/STATE path; root STATE used instead",
+    "unquoted question mark in one URL caused zsh glob error before request",
+    "inline resource-summary helper rejected; scoped script used instead"
+  ],
+  "no_full_atlas_no_get_storage_size_no_credits_no_infrastructure": true
+}

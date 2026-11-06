@@ -1,0 +1,62 @@
+{
+  "assignment": "Independent main-design assessment only; no main execution",
+  "reviewer_thread_id": "01a1abe9-a34b-74a1-908a-afd1e0baa6d9",
+  "validation": {
+    "utc": "2026-11-05T13:52:19.468198+00:00",
+    "final_author_pins": {
+      "lab/tasks/acquisition-rule-vs-tracker-2026-11-05/RESULT.md": {
+        "bytes": 15273,
+        "sha256": "a459b990b0b6422379c31baa0523cfa0d05c5ffb3ce756ab4e58cbd540c27754"
+      },
+      "lab/tasks/acquisition-rule-vs-tracker-2026-11-05/EARLY_MAIN_PRICE.md": {
+        "bytes": 10023,
+        "sha256": "4d16b06629e11b9a4e54edef5b3700692083d1dcd70da10f5b1d7762a21027e7"
+      },
+      "lab/tasks/acquisition-rule-vs-tracker-2026-11-05/ENDPOINTS.md": {
+        "bytes": 2268,
+        "sha256": "4c55e798ab47d5c783da1c195abd40824e46b167e8cab188886453c0a690e0ca"
+      },
+      "lab/tasks/acquisition-rule-vs-tracker-2026-11-05/ACCOUNTING.json": {
+        "bytes": 7709,
+        "sha256": "5d6d0671ae8cc5905583b5ecb717c8aaf06219ada523175167ac252791024f18"
+      }
+    },
+    "owned_files": [
+      "ALLOWANCE_CHECK.json",
+      "ALLOWANCE_POSTCHECK.json",
+      "BRIEF.md",
+      "DESIGN_CHECK.json",
+      "GOAL_START.json",
+      "RESULT.md",
+      "REVIEW.md",
+      "design_check.py"
+    ],
+    "checks": "All owned JSON parses; independent exact means/score identity verified; main input hashes checked unchanged before author handoff."
+  },
+  "allowance_at_close": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"ordinaryUsageAllowed\":true,\"rateLimits\":{\"limitId\":\"codex\",\"limitName\":null,\"normalModelSlug\":null,\"primary\":{\"usedPercent\":16,\"windowDurationMins\":10080,\"resetsAt\":1794445923},\"secondary\":null,\"credits\":{\"hasCredits\":false,\"unlimited\":false,\"balance\":\"0\"},\"individualLimit\":null,\"spendControlReached\":false,\"planType\":\"prolite\",\"rateLimitReachedType\":null},\"rateLimitsByLimitId\":{\"codex\":{\"limitId\":\"codex\",\"limitName\":null,\"normalModelSlug\":null,\"primary\":{\"usedPercent\":16,\"windowDurationMins\":10080,\"resetsAt\":1794445923},\"secondary\":null,\"credits\":{\"hasCredits\":false,\"unlimited\":false,\"balance\":\"0\"},\"individualLimit\":null,\"spendControlReached\":false,\"planType\":\"prolite\",\"rateLimitReachedType\":null}},\"rateLimitResetCredits\":{\"availableCount\":3,\"credits\":[{\"id\":\"RateLimitResetCredit_68f8cb15b0b881919f90464998415cf7\",\"resetType\":\"codexRateLimits\",\"status\":\"available\",\"grantedAt\":1791417218,\"expiresAt\":1794009218,\"title\":\"Full reset\",\"description\":\"Thanks for using Codex! You've been granted one free rate limit reset.\"},{\"id\":\"RateLimitResetCredit_847fbd35b34c8191b72f6f43f44fff8e\",\"resetType\":\"codexRateLimits\",\"status\":\"available\",\"grantedAt\":1793478643,\"expiresAt\":1796070643,\"title\":\"Full reset\",\"description\":\"Thanks for using Codex! You've been granted one free rate limit reset.\"},{\"id\":\"RateLimitResetCredit_6d1f1c7a0a348191807fe65dd274c724\",\"resetType\":\"codexRateLimits\",\"status\":\"available\",\"grantedAt\":1793574010,\"expiresAt\":1796166010,\"title\":\"Full reset\",\"description\":\"Thanks for using Codex! You've been granted one free rate limit reset.\"}]},\"accountId\":\"33decb8d-0e6a-4a31-b3a9-0fc345bfcfb9\",\"rateLimitUpsell\":null}"
+      }
+    ],
+    "isError": false
+  },
+  "allowance_remaining_percent": 84,
+  "reserve_remaining_percent": 25,
+  "scientific_script_runs": 2,
+  "scientific_summary_explicit_read_bytes": 2840996,
+  "scientific_script_computational_cpu_seconds_excluding_imports_approximately": 0.092,
+  "scientific_script_max_recorded_RSS_bytes": 90865664,
+  "conservative_additional_explicit_context_and_hash_read_charge_bytes": 20000000,
+  "charge_is_measured": false,
+  "external_primary_source_or_archive_ingress_bytes": 0,
+  "raw_or_protected_empirical_arrays_opened": false,
+  "imported_author_modules": false,
+  "main_forecasts_or_fits_executed": false,
+  "jobs": "All reviewer calculations terminal",
+  "uncertainties": "Physical I/O, import/runtime/library reads and full per-command CPU are not certified. The 20MB context/hash figure is a conservative charge, not measured bytes. Scientific script counters cover four allowed summary files, per run.",
+  "historical_costs": "All author and prior-lineage costs carry unchanged; review price is a proposal, not a booking or measured future usage.",
+  "failed_auxiliary_check": "git status returned not a git repository; no git state mutated, direct file/JSON/hash checks used.",
+  "proposed_memory": "RESULT.md only; shared LEARNINGS not edited by worker."
+}

@@ -1,0 +1,3 @@
+# Independent check failure history
+
+The first review check incorrectly applied the RT>5-second helper override to the **original saved correctness** when reconstructing `saveResponse`. It failed on exactly three of the six late source responses. Reading the already pinned `flesch_response.js::saveResponse` confirmed that saved correctness is action-versus-category equality regardless of RT; the helper later sets late responses to errors. The independent check was corrected to compare raw correctness without that override and to apply the override only to helper eligibility and opportunity scores. This was a reviewer-test error, not evidence of an implementation or source-data failure. No extra data were accessed and no scientific threshold changed.

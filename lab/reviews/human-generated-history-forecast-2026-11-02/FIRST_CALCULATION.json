@@ -1,0 +1,128 @@
+{
+  "utc": "2026-11-02T20:50:07.758084+00:00",
+  "origin": "independently rebuilt original calibration/design and scores; no author imports",
+  "arrays": {
+    "main": [
+      8,
+      39,
+      400,
+      2
+    ],
+    "double_omission": [
+      4,
+      39,
+      400,
+      2
+    ],
+    "no_omission": [
+      39,
+      400,
+      2
+    ]
+  },
+  "input_top_keys": [
+    "people",
+    "observation_calibration",
+    "omission_law",
+    "teacher_law",
+    "prefix_convention"
+  ],
+  "first_person_input_keys": [
+    "subject",
+    "condition",
+    "partition",
+    "source_sequence",
+    "prefix_choice",
+    "prefix_feedback",
+    "side_contrast",
+    "teacher_side",
+    "teacher_bias"
+  ],
+  "validation_columns": [
+    "subject",
+    "session",
+    "trial",
+    "probabilityLeft",
+    "contrastLeft",
+    "contrastRight",
+    "choice",
+    "firstMovement_times_from_stim",
+    "response_times_from_stim",
+    "feedbackType",
+    "stimContrast",
+    "sideContrast",
+    "stimSide",
+    "instructions",
+    "dot.started"
+  ],
+  "people": 39,
+  "primary_responding_trials": 2867,
+  "primary_opportunities": 2895,
+  "main_equal_person_gain": 0.03389409890715184,
+  "no_omission_equal_person_gain": 0.03397417126329286,
+  "first_person": "007",
+  "first_trial": 200,
+  "prefix_raw_calibration": [
+    0.45454545454545453,
+    0.8888888888888888,
+    -0.23,
+    0.0
+  ],
+  "prefix_history": [
+    -0.900643477126998,
+    -0.14505402515157864,
+    -0.013624851714615555
+  ],
+  "prefix_previous_choice": -1.0,
+  "original_kernel_first_probability": [
+    0.6166061163806866,
+    0.6919266824886904
+  ],
+  "saved_exact_first_probability": [
+    0.6166061163806865,
+    0.6919266824886905
+  ],
+  "first_probability_max_abs_difference": 1.1102230246251565e-16,
+  "elapsed_seconds": 0.08352433399999998,
+  "reads": [
+    {
+      "path": "campaigns/human_learning_routes_2026-10-28/inputs/validation_numeric.csv",
+      "bytes": 1872445,
+      "sha256": "c6a7f8d84f80f86aa1e6287187a20ceb6e206a01d47dcc77a124dc658da001e9",
+      "read_hash_decode_allowance": 5617335
+    },
+    {
+      "path": "lab/tasks/human-generated-history-forecast-2026-11-01/FORECAST_META.json",
+      "bytes": 1324,
+      "sha256": "66aaa041b4b6c80197b7c838f22e2836c6eb56702fad08f60c60f8e0c99b67a4",
+      "read_hash_decode_allowance": 3972
+    },
+    {
+      "path": "lab/tasks/human-generated-history-forecast-2026-11-01/FORECAST_INPUTS.json",
+      "bytes": 1085903,
+      "sha256": "5d396ba483a7c33962d19aa986bc8f15c39baf80d8792b48d67e1f119e98fcba",
+      "read_hash_decode_allowance": 3257709
+    },
+    {
+      "path": "campaigns/human_learning_routes_2026-10-28/outputs/primary/shared_fit.json",
+      "bytes": 12947,
+      "sha256": "b3b75d5df78c1d89d1808e7202f5cb25a6faf0eea79774d8bb3f5ae551361062",
+      "read_hash_decode_allowance": 38841
+    },
+    {
+      "path": "campaigns/human_learning_routes_2026-10-28/outputs/primary/no_history_fit.json",
+      "bytes": 8663,
+      "sha256": "a2ee182d45aa6ec8acc1855abc157c2dbee19527378d3187f73695f2d24d50c4",
+      "read_hash_decode_allowance": 25989
+    },
+    {
+      "path": "lab/tasks/human-generated-history-forecast-2026-11-01/FORECASTS.npz",
+      "bytes": 3059690,
+      "sha256": "1e89b52b30b3134a6f644239ba8790b7c553402ab58dd9768637ceed9ce8cc04",
+      "read_hash_decode_allowance": 9179070
+    }
+  ],
+  "explicit_read_hash_decode_allowance": 18122916,
+  "observed_process_peak_rss_bytes": 101269504,
+  "measurement": "Darwin ru_maxrss; runtime/import/host/physical I/O unknown"
+}

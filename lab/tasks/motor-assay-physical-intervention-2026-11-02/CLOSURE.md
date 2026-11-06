@@ -1,0 +1,9 @@
+# CLOSE at the source/practical contribution gate
+
+Decision saved before the actual 2026-11-03T00:36:52Z clock readback, after the substantive reference (00:32:41Z) and the ONE predeclared favorable-restriction check (00:33:56Z). Both native commands exited 0. Initial turn 00:26:00Z; orientation included. This is before the 15-minute reference, 25-minute contribution and 35-minute freeze-or-close deadlines. No extension, main freeze or main experiment.
+
+Close the selected route: **delay visual perturbation feedback, then score the next reach without cursor feedback**. Honda's primary procedure supplies this physical intervention and defining measurement. It removes online visual feedback during the probe. It does not remove the preceding perturbation or independently fix the prediction error and its sensitivity. Brudner's delayed endpoint procedure additionally forbids leaving the endpoint before feedback finishes; an earlier interposed reach would be a new, uncertified procedure.
+
+The exact reference and favorable check establish only familiar conditional system-identification facts. They supply no new physical exclusion restriction, empirical bound on the driving error, storage anchor, or consequential advance beyond the reviewed caveat. Do not promote this screen into a new theorem or a defect in either paper.
+
+No power/sample-size campaign, estimator development, third method program, source-clock repair, raw data access or protocol polishing follows. Proposed human collection under this mechanistic justification remains unsupported. The original observable signed carryover contrast and its 0.2-degree five-probe scale remain intact; no revised precision claim is made. Broader scientific goal unfinished. Any substantive claim would require a fresh distinct review; none has been commissioned or performed by this worker.

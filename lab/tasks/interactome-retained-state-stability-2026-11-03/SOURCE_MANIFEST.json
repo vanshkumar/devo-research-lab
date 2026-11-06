@@ -1,0 +1,125 @@
+{
+  "model": "Kim-Leahy-Shlizerman2019 Neural Interactome 3.0.0-beta",
+  "tree": "bdb94ca174980e46777f7b1936f539903c688719",
+  "reference_pins": "REFERENCE.json: exactsource/connectivity/emask/names/presets/cachedinputs/reusedhelper",
+  "predecessor_manifest": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/tasks/interactome-transient-reachability-2026-11-03/SOURCE_MANIFEST.json",
+  "source_repo_url": "https://github.com/shlizee/C-elegans-Neural-Interactome",
+  "code_license": "BSD-3-Clause, exact original notice copied byte for byte",
+  "license_pin": {
+    "original_path": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/tasks/connectome-persistence-contrast-2026-11-03/sources/interactome-LICENSE",
+    "copy": "SOURCE_LICENSE.txt",
+    "bytes": 1544,
+    "sha256": "bff9fa1cc192c6f9cecf6341db16a42e7c62adaededb3651789ece7557ec2329"
+  },
+  "upstream_fixedasset_license_qualification": "Assets in licensed source repository; separate underlying Varshney/White connectivity terms remain inherited/uncertified",
+  "primary_programs": [
+    {
+      "year": 2017,
+      "doi": "10.3389/fncom.2017.00053"
+    },
+    {
+      "year": 2019,
+      "doi": "10.3389/fncom.2019.00008"
+    }
+  ],
+  "new_public_ops_ingress_dependencies": [
+    0,
+    0,
+    0
+  ],
+  "versions": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "matplotlib": "3.9.4"
+  },
+  "read_only_inputs": "Exact public source/fixedassets and admitted NEWpredecessor modeltrajectories only",
+  "unread_protected_inputs": "All biological/oldfitted/saved_dynamics/reservedworm/Pan20/Flesch/HABITS/memory/Figure4_42/optional210/category targets",
+  "prior_priority_and_physical_calibration": "not exhaustively certified; no biological/firstbistability claim",
+  "raw_output_pins": {
+    "INPUT_STATES.npz": {
+      "bytes": 18348,
+      "sha256": "d72d30bed9151906392c569b0c5a211bc23b5f96c53a9cf1737bd82df8d2b0c0"
+    },
+    "seed0_finite_continuation.npz": {
+      "bytes": 2689576,
+      "sha256": "43cee7b8a3f4a8ece91affbe39cc07745f8a0141da73b62627d7a6db8fd82804"
+    },
+    "seed0_finite_challenge.npz": {
+      "bytes": 798558,
+      "sha256": "34624985075fd36dec9e605262edd2b4431f9e9128fcc1fceadcd61863135020"
+    },
+    "seed0_sham_continuation.npz": {
+      "bytes": 48768906,
+      "sha256": "bea873c7831a6640c788d9d34892cebee80139e19272137c7a1cb6380aec23f7"
+    },
+    "seed0_sham_challenge.npz": {
+      "bytes": 805729,
+      "sha256": "2a635d3be42108075f256f856f53ed9e32e62cf97241a759cc81210e9564c561"
+    },
+    "seed1_finite_continuation.npz": {
+      "bytes": 2678248,
+      "sha256": "9e1c50a6818c64bbc3a5e6fd3619fbadaa3c6c5281670f10d6b5365a31b64dce"
+    },
+    "seed1_finite_challenge.npz": {
+      "bytes": 798512,
+      "sha256": "b1db5f7f4dd310f96e10e046686ae13ee7c82a4ca4eb01d4296c9e648a380739"
+    },
+    "seed1_sham_continuation.npz": {
+      "bytes": 48770483,
+      "sha256": "b4c50c2bb2cfeeabe85f97eed528f82c27754bb19c29a6002e1a4d8c00763c84"
+    },
+    "seed1_sham_challenge.npz": {
+      "bytes": 805625,
+      "sha256": "5ddee67e01158e7b30d254e9bb507df5de95bcede67f527f4a4a99591c4e890d"
+    },
+    "MONODROMY_2048.npz": {
+      "bytes": 5098121,
+      "sha256": "7e1d1aad4f0a24ad8181645f75b1efa310b6e39cb568c60438762cdb4f2ff349"
+    },
+    "PERIODIC_ORBIT.npz": {
+      "bytes": 17193508,
+      "sha256": "60c547ed72a0069e4c8dfbd0b855a9fc59e030b62f2097849651e4ea460e558b"
+    },
+    "MONODROMY_512.npz": {
+      "bytes": 5106637,
+      "sha256": "3b4fcfc8909a11cf861f855192e5ec0411ac262ee5b9ca0a0b8bd48a3ebbd620"
+    },
+    "MONODROMY_1024.npz": {
+      "bytes": 5096146,
+      "sha256": "ce437308d00867990439f55f8c04d2e8b4815a4b41976ebe437cfbd898e464de"
+    },
+    "seed0_finite_equilibrium.npz": {
+      "bytes": 10363,
+      "sha256": "d93ea637badd4ae9d28b77f20c9ad3ac655ee7b6eb54ff0c1bf630d6619e5574"
+    },
+    "seed1_finite_equilibrium.npz": {
+      "bytes": 10385,
+      "sha256": "54419d2bc164ace2b5ea63b7fe8eb3bdc4adff6f17d4a9e8d6f213b0baa12e29"
+    },
+    "TANGENT_fixed_sine.npz": {
+      "bytes": 9141809,
+      "sha256": "fe47be6d1bfff490dcb0bc4904685532d305b4d16581abeae38945116b44a9a7"
+    },
+    "TANGENT_dominant_nontrivial_real.npz": {
+      "bytes": 4738704,
+      "sha256": "2c6f60d0ff80f23815909028e99ef570caf5afefcfb3b8c2acefcea2e707028a"
+    },
+    "NONLINEAR_TANGENT_-1.npz": {
+      "bytes": 2573209,
+      "sha256": "f00122162614427071be65fb54a99f5687af03d67e5992f10568e38988f350a0"
+    },
+    "NONLINEAR_TANGENT_+1.npz": {
+      "bytes": 2573185,
+      "sha256": "5934f01b8fbfeaa4bece4d8acd77b5508ab94cf73be3ebec37254bc1ce9879d0"
+    },
+    "shooting_0.npz": {
+      "bytes": 3274026,
+      "sha256": "6beb6d21bce4182f84013383e6b6706a797cf6b5388f9bd9f3bb8ae092a59e34"
+    },
+    "SOURCE_REFERENCE.npz": {
+      "bytes": 469449,
+      "sha256": "a53cf9ee6280f05850efa561e0fdc23cc604493602750bfc5d9b79c63a64162c"
+    }
+  }
+}

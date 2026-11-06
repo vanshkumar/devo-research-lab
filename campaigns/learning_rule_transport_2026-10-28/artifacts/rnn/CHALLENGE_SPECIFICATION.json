@@ -1,0 +1,52 @@
+{
+  "challenge": "post-source-validation RNNGLM strongest-architecture extension",
+  "date": "2026-10-28",
+  "authorized_before_RNN_fit": true,
+  "original_source_validation_already_consumed": true,
+  "external_outcomes_consumed": false,
+  "worker_reads_source_outcomes": false,
+  "train_split_sha256": "1ebd21840771d2b101a80ee9912615075f7a99d55520e5cfe35bc4d95fbc6d10",
+  "architecture": {
+    "source_class": "DeltaRNNGLM",
+    "hidden": 32,
+    "DNNfirst": false,
+    "num_dnn_layers": 2,
+    "num_weights_mode": 1,
+    "active_parameters": 6342,
+    "including_unused_source_fc": 6438
+  },
+  "fit": {
+    "seed": 557,
+    "max_trials": 6000,
+    "epochs_ceiling": 1000,
+    "checkpoint_every": 25,
+    "truncation": 500,
+    "optimizer": "source Adam.001 StepLR5gamma.999;no decay or clipping",
+    "initialization": "staticfirst200",
+    "individual_calibration": "same1000prefixW0MAP3coefficients; no fittedhiddenparameters",
+    "selection": "minimum equal-animal conditionalresponseNLL on fixed12devCV;allsource/externalexcluded"
+  },
+  "forecast": {
+    "particles": 512,
+    "prefix_n": 1000,
+    "bin_trials": 500,
+    "primary_horizon": 3000,
+    "secondary_horizons": [
+      1000,
+      5000
+    ],
+    "future_conditioning": "realized sessionopportunitiesonly",
+    "uncertainty": "rank3W0Fisher jointstatepropagation; frozencommonomission/exposure;devLOO residualscale0/.5/1",
+    "source_gate": "same practicalpoint/CRPS/calibration/labcriteria;5candidates*2baselines lowerpercentile.005",
+    "stage": "postvalidationdiagnosticexpansion"
+  },
+  "files_owned": [
+    "code/rnn_learning.py",
+    "code/fit_rnn.py",
+    "code/rnn_rollout.py",
+    "artifacts/rnn/",
+    "protocols/RNN_CHALLENGE.md",
+    "logs/rnn*"
+  ],
+  "frozen_original_files_changed": false
+}

@@ -1,0 +1,31 @@
+# PI access and design refinement before any response extraction
+
+2026-10-29. This explicitly authorizes one source-only implementation/calibration block after the independent review. It grants no B2/B20 response access. Scientific question: predictive sufficiency of one shared experience-dependent update prescription across fixed curricula. The operational population is the reported selected cohort, with documented eligibility assumptions. No all-recruited, randomized-allocation causal or unique neural inference is claimed.
+
+## Data boundary
+
+Use the pinned Exp1a allData object at repository commit eb84270a2e3adcb96baa45952bf43b364d1677ac. A complete opaque compressed download is allowed within the block's20MB cap. Verify original object identity/hash. The ten code-verified immutable fields are expt_index, expt_trial, expt_block, expt_branchIDX, expt_leafIDX, expt_rewardIDX, expt_catIDX, expt_contextIDX, expt_sessIDX and expt_exemplarIDX. These environmental inputs may be decoded for all columns; reward/category truth must be projected to the simulated learner only when the task reveals it. Fixed future inputs are exogenous, not actual future responses.
+
+Before response access, derive anonymous source columns from B200/Interleaved schedules and target columns from B2/B20 schedules; cross-check fixed generator/order/phase semantics. Prove selective extraction on synthetic combined-MAT fixtures with target sentinels, malformed inputs and expected field bounds. Freeze the source/target column mask and checks.
+
+Only source columns of resp_reactiontime, resp_category, resp_correct and resp_reward may then be numerically decoded. Acquire no values from any target response field, expt_returnOPT/expt_rewardOPT, vbxi_category, subAcc, subReports, subTurker, subAge, subGender or other personal/report fields. The purported optimal-return fields are response-time derivatives and are not whitelisted inputs. Pre-training grid information is not certified and is excluded from this primary prescription.
+
+MAT compression may require inflating intervening target payload bytes. The PI explicitly permits **blind decompression/discard**, after the masking code is frozen and checked, without float conversion, array materialization, logging, statistics or target outcome use. Report acquisition, inflated-and-discarded target bytes, decoded input/source values and scientific exposure separately. Do not claim zero target-byte inflation. Stop if the implementation cannot enforce value blindness; a generic full-array load followed by slicing is prohibited. This is a new explicit Flesch boundary, not a change to historical HABITS or Pan conditions.
+
+No target-specific history or omission mask may condition forecasts. Later target values remain sealed until a separate frozen predictive test and PI release. Do not access other experiments to obtain a more favorable result.
+
+## Selection and scientific interpretation
+
+Use original correctness/missingness, never the omission-to-rejection reshaper. The code helper makes late RT>5s incorrect, excludes category-zero trials, and takes nanmean over test401–600. The documented strict event is20K>11N, all-missing fails. Primary uses this helper; omissions-as-errors is the declared alternative. Validate source inclusion against the declared rules without deleting inconvenient source people. If neither rule reconciles the source export, stop for PI review. Agreement does not prove that no undocumented filter existed. Any conditional-sampling result assumes the documented selection; arbitrary unknown outcome-dependent filters cannot be bounded. Limit conclusions accordingly rather than claiming an all-recruited process.
+
+For latent person effects, normalize after integrating the full generative law, as derived in the independent review. Selection changes the latent mixture by curriculum. Source-only calibration must include this effect. Respect actual feedback on omissions; fetch the missing timeout caller if needed. The alternate feedback assumption is a labeled sensitivity, never permission to supply labels the participant could not see. No test label enters a learning update.
+
+Freeze all curriculum-independent parameters, representation, context scaling, EMA convention, phase handling, Oja path and causal centering/unknown-context adapter. These are part of the tested sequential prescription. It is publication-grounded, not literally the original two-endpoint runner. No group-specific prior over learning speeds or hidden schedule label may substitute for shared rates. Use explicit initial-state/common-cohort/instruction sensitivities, not unconstrained target shifts.
+
+## PI refinement of the review
+
+The important question is useful parameter transport; it does not require identifying a unique mechanism. Prespecify all three forecasters and a source-only primary choice. A tie between learning prescriptions may leave mechanism unresolved while still supporting predictive utility over growth; report those judgments separately. Do not select a favorable learner on target scores. Multiple comparative claims need appropriate uncertainty/multiplicity treatment fixed before target access.
+
+The review's full-pipeline known-effect/null calibration is the intended scientific check. This first bounded block may establish its implementation, source fits and computational feasibility rather than finish every replicate. Freeze numerical decision criteria and MonteCarlo uncertainty rules before running them. The desired80%sensitivity and5%false-preference levels require adequate precision; a5.1%point estimate with an interval spanning5% is not, alone, demonstrated inflation. No readiness is earned from incomplete or weak controls. Estimate remaining compute and preserve a checkpoint if the bound is reached.
+
+The16-case uncertainty envelope is a transparent sensitivity analysis, not16chances to choose a winner. Structurally identical cases may be collapsed only with a documented proof and no target information. Source data are development; routine optimizer/implementation repairs stay within the finite budget and are recorded. Do not promote successful extraction, fitting or synthetic recovery into empirical transport. Independent target evaluation remains a later decision.

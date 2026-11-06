@@ -1,0 +1,359 @@
+{
+  "source_protocol": {
+    "0": {
+      "networks": 6,
+      "clean_probe_ms": [
+        170,
+        240,
+        30,
+        180,
+        180,
+        300
+      ],
+      "clean_right_censored_count": 0,
+      "right_censor_threshold_ms": 1990,
+      "probe_count": 60,
+      "probe_right_censored_count": 0,
+      "finite_probe_range_ms": [
+        30,
+        700
+      ],
+      "network_finite_probe_medians_ms": [
+        170.0,
+        240.0,
+        30.0,
+        180.0,
+        180.0,
+        300.0
+      ],
+      "warning": "finite-only summaries are conditional, not unbiased duration estimates; ten probes nested within network"
+    },
+    "10": {
+      "networks": 6,
+      "clean_probe_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "clean_right_censored_count": 0,
+      "right_censor_threshold_ms": 1990,
+      "probe_count": 60,
+      "probe_right_censored_count": 0,
+      "finite_probe_range_ms": [
+        100,
+        140
+      ],
+      "network_finite_probe_medians_ms": [
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "warning": "finite-only summaries are conditional, not unbiased duration estimates; ten probes nested within network"
+    }
+  },
+  "matched_train_schedule": {
+    "10": {
+      "networks": 6,
+      "clean_probe_ms": [
+        190,
+        40,
+        null,
+        310,
+        80,
+        50
+      ],
+      "clean_right_censored_count": 1,
+      "right_censor_threshold_ms": 1990,
+      "probe_count": 60,
+      "probe_right_censored_count": 15,
+      "finite_probe_range_ms": [
+        40,
+        310
+      ],
+      "network_finite_probe_medians_ms": [
+        190.0,
+        40.0,
+        null,
+        310.0,
+        80.0,
+        50.0
+      ],
+      "warning": "finite-only summaries are conditional, not unbiased duration estimates; ten probes nested within network"
+    },
+    "20": {
+      "networks": 6,
+      "clean_probe_ms": [
+        null,
+        190,
+        170,
+        190,
+        50,
+        120
+      ],
+      "clean_right_censored_count": 1,
+      "right_censor_threshold_ms": 1990,
+      "probe_count": 60,
+      "probe_right_censored_count": 13,
+      "finite_probe_range_ms": [
+        50,
+        190
+      ],
+      "network_finite_probe_medians_ms": [
+        null,
+        190.0,
+        170.0,
+        190.0,
+        50.0,
+        120.0
+      ],
+      "warning": "finite-only summaries are conditional, not unbiased duration estimates; ten probes nested within network"
+    },
+    "40": {
+      "networks": 6,
+      "clean_probe_ms": [
+        190,
+        null,
+        170,
+        null,
+        null,
+        190
+      ],
+      "clean_right_censored_count": 3,
+      "right_censor_threshold_ms": 1990,
+      "probe_count": 60,
+      "probe_right_censored_count": 20,
+      "finite_probe_range_ms": [
+        170,
+        1400
+      ],
+      "network_finite_probe_medians_ms": [
+        190.0,
+        905.0,
+        170.0,
+        null,
+        null,
+        190.0
+      ],
+      "warning": "finite-only summaries are conditional, not unbiased duration estimates; ten probes nested within network"
+    }
+  },
+  "sensitivity": [
+    {
+      "eta_scale": 0,
+      "tau_scale": 1,
+      "single": {
+        "networks": 1,
+        "clean_probe_ms": [
+          10
+        ],
+        "clean_right_censored_count": 0,
+        "right_censor_threshold_ms": 1990,
+        "probe_count": 10,
+        "probe_right_censored_count": 0,
+        "finite_probe_range_ms": [
+          10,
+          10
+        ],
+        "network_finite_probe_medians_ms": [
+          10.0
+        ],
+        "warning": "finite-only summaries are conditional, not unbiased duration estimates; ten probes nested within network"
+      },
+      "rhythmic": {
+        "networks": 1,
+        "clean_probe_ms": [
+          10
+        ],
+        "clean_right_censored_count": 0,
+        "right_censor_threshold_ms": 1990,
+        "probe_count": 10,
+        "probe_right_censored_count": 0,
+        "finite_probe_range_ms": [
+          10,
+          10
+        ],
+        "network_finite_probe_medians_ms": [
+          10.0
+        ],
+        "warning": "finite-only summaries are conditional, not unbiased duration estimates; ten probes nested within network"
+      }
+    },
+    {
+      "eta_scale": 0.5,
+      "tau_scale": 1,
+      "single": {
+        "networks": 1,
+        "clean_probe_ms": [
+          90
+        ],
+        "clean_right_censored_count": 0,
+        "right_censor_threshold_ms": 1990,
+        "probe_count": 10,
+        "probe_right_censored_count": 0,
+        "finite_probe_range_ms": [
+          90,
+          100
+        ],
+        "network_finite_probe_medians_ms": [
+          90.0
+        ],
+        "warning": "finite-only summaries are conditional, not unbiased duration estimates; ten probes nested within network"
+      },
+      "rhythmic": {
+        "networks": 1,
+        "clean_probe_ms": [
+          100
+        ],
+        "clean_right_censored_count": 0,
+        "right_censor_threshold_ms": 1990,
+        "probe_count": 10,
+        "probe_right_censored_count": 0,
+        "finite_probe_range_ms": [
+          100,
+          100
+        ],
+        "network_finite_probe_medians_ms": [
+          100.0
+        ],
+        "warning": "finite-only summaries are conditional, not unbiased duration estimates; ten probes nested within network"
+      }
+    },
+    {
+      "eta_scale": 2,
+      "tau_scale": 1,
+      "single": {
+        "networks": 1,
+        "clean_probe_ms": [
+          150
+        ],
+        "clean_right_censored_count": 0,
+        "right_censor_threshold_ms": 1990,
+        "probe_count": 10,
+        "probe_right_censored_count": 0,
+        "finite_probe_range_ms": [
+          140,
+          320
+        ],
+        "network_finite_probe_medians_ms": [
+          150.0
+        ],
+        "warning": "finite-only summaries are conditional, not unbiased duration estimates; ten probes nested within network"
+      },
+      "rhythmic": {
+        "networks": 1,
+        "clean_probe_ms": [
+          100
+        ],
+        "clean_right_censored_count": 0,
+        "right_censor_threshold_ms": 1990,
+        "probe_count": 10,
+        "probe_right_censored_count": 0,
+        "finite_probe_range_ms": [
+          100,
+          100
+        ],
+        "network_finite_probe_medians_ms": [
+          100.0
+        ],
+        "warning": "finite-only summaries are conditional, not unbiased duration estimates; ten probes nested within network"
+      }
+    },
+    {
+      "eta_scale": 1,
+      "tau_scale": 0.75,
+      "single": {
+        "networks": 1,
+        "clean_probe_ms": [
+          140
+        ],
+        "clean_right_censored_count": 0,
+        "right_censor_threshold_ms": 1990,
+        "probe_count": 10,
+        "probe_right_censored_count": 0,
+        "finite_probe_range_ms": [
+          120,
+          140
+        ],
+        "network_finite_probe_medians_ms": [
+          140.0
+        ],
+        "warning": "finite-only summaries are conditional, not unbiased duration estimates; ten probes nested within network"
+      },
+      "rhythmic": {
+        "networks": 1,
+        "clean_probe_ms": [
+          100
+        ],
+        "clean_right_censored_count": 0,
+        "right_censor_threshold_ms": 1990,
+        "probe_count": 10,
+        "probe_right_censored_count": 0,
+        "finite_probe_range_ms": [
+          100,
+          100
+        ],
+        "network_finite_probe_medians_ms": [
+          100.0
+        ],
+        "warning": "finite-only summaries are conditional, not unbiased duration estimates; ten probes nested within network"
+      }
+    },
+    {
+      "eta_scale": 1,
+      "tau_scale": 1.25,
+      "single": {
+        "networks": 1,
+        "clean_probe_ms": [
+          120
+        ],
+        "clean_right_censored_count": 0,
+        "right_censor_threshold_ms": 1990,
+        "probe_count": 10,
+        "probe_right_censored_count": 3,
+        "finite_probe_range_ms": [
+          120,
+          120
+        ],
+        "network_finite_probe_medians_ms": [
+          120.0
+        ],
+        "warning": "finite-only summaries are conditional, not unbiased duration estimates; ten probes nested within network"
+      },
+      "rhythmic": {
+        "networks": 1,
+        "clean_probe_ms": [
+          100
+        ],
+        "clean_right_censored_count": 0,
+        "right_censor_threshold_ms": 1990,
+        "probe_count": 10,
+        "probe_right_censored_count": 0,
+        "finite_probe_range_ms": [
+          100,
+          100
+        ],
+        "network_finite_probe_medians_ms": [
+          100.0
+        ],
+        "warning": "finite-only summaries are conditional, not unbiased duration estimates; ten probes nested within network"
+      }
+    }
+  ],
+  "source_single_longer_than_rhythmic_clean_networks": 5,
+  "source_rhythmic_exact_100ms_networks": 6,
+  "matched_100ms_exact_100ms_networks": 0,
+  "source_trial_count": 7200,
+  "source_training_steps": 360000,
+  "matched_training_steps": 1224220,
+  "source_mean_time_between_trials_ms": 499.6374496457841,
+  "matched_mean_time_between_trials_ms": 1700.2500347270457,
+  "exposure_time_warning": "Matched schedule fixes all comparison groups but increases total simulated time and opportunities for spontaneous plasticity. Failure cannot be attributed only to onset period. Source schedule itself is compressed relative to90min/300-370event biological sessions.",
+  "elapsed_sum_child_process_seconds": 904.9125835839998,
+  "main_constraint": "A fixed published model can generate protocol-sensitive timing, but an onset-only mapping ignores pulse width and fixed-parameter timing transfer is not robust to changed between-train spacing. This does not refute motor-scaffold architectures or establish a biological target comparator."
+}

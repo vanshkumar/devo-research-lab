@@ -1,0 +1,4 @@
+**2026-10-31 — Threat-extinction public-source screening**
+- Observation: OSF c3dtn lists only the Experiment 1 registration PDF and 86,678-byte Experiment 1 ZIP, with no child components; the paper's added safety cue belongs to Experiment 2 at the separately cited, uninspected dxpb3 deposit. Ehlers ART Zenodo versions 22098434 and 22127185 both declare embargo through 2031-08-25 and expose no files; the complete linked GitHub tree has only code/license/README files. No participant records were acquired.
+- Action: Do not use c3dtn as certification of the safety-cue experiment or equate a descriptive dataset page/CC-BY metadata with current data access. Preserve the bounded failed pass; if this question is separately allocated again, inspect dxpb3 directly while retaining the paper-summary exposure and unverified pairing/chronology status.
+- Confidence: high

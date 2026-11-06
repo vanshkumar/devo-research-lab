@@ -1,0 +1,121 @@
+{
+  "created_utc": "2026-11-01T00:40:39.505103+00:00",
+  "status": "consumed development, no new holdout",
+  "subjects": [
+    {
+      "subject": "006",
+      "species": "human",
+      "n": 600,
+      "sessions": 1,
+      "probabilityLeft_counts": {
+        "0.2": 296,
+        "0.5": 90,
+        "0.8": 214
+      },
+      "within_session_prior_changes": 10,
+      "within_session_biased_prior_switches": 9,
+      "contrasts": {
+        "0.0": 50,
+        "0.1": 129,
+        "0.25": 128,
+        "0.5": 139,
+        "1.0": 154
+      },
+      "responses": 588,
+      "omissions": 12,
+      "revealed_side_sensory_checks": 538,
+      "revealed_side_sensory_mismatches": 0,
+      "history_ranges": {
+        "2": [
+          -0.9997288424828237,
+          0.9999159853570465
+        ],
+        "8": [
+          -0.9112866762990999,
+          0.9061181139262581
+        ],
+        "32": [
+          -0.5799262653807666,
+          0.5629542867279993
+        ]
+      }
+    },
+    {
+      "subject": "IBL-T1",
+      "species": "mouse",
+      "n": 402,
+      "sessions": 1,
+      "probabilityLeft_counts": {
+        "0.0": 2,
+        "0.09999999999999998": 6,
+        "0.19999999999999996": 12,
+        "0.30000000000000004": 15,
+        "0.4": 8,
+        "0.5": 355,
+        "0.7": 2,
+        "0.8": 2
+      },
+      "within_session_prior_changes": 70,
+      "within_session_biased_prior_switches": 8,
+      "contrasts": {
+        "0.25": 48,
+        "0.5": 180,
+        "1.0": 174
+      },
+      "responses": 399,
+      "omissions": 3,
+      "revealed_side_sensory_checks": 399,
+      "revealed_side_sensory_mismatches": 0,
+      "history_ranges": {
+        "2": [
+          -0.9937294765073116,
+          0.964313013642116
+        ],
+        "8": [
+          -0.7772076652672213,
+          0.4687734630265501
+        ],
+        "32": [
+          -0.3680127996747847,
+          0.1195318631029811
+        ]
+      }
+    }
+  ],
+  "pins": [
+    {
+      "path": "campaigns/human_learning_routes_2026-10-28/inputs/development_numeric.csv",
+      "bytes": 1966603,
+      "sha256": "1b1a57b1a9074de4e795339cb576db3dfa356e5ccae758dd67112de25955b7e0"
+    },
+    {
+      "path": "campaigns/human_learning_routes_2026-10-28/inputs/validation_numeric.csv",
+      "bytes": 1872445,
+      "sha256": "c6a7f8d84f80f86aa1e6287187a20ceb6e206a01d47dcc77a124dc658da001e9"
+    },
+    {
+      "path": "campaigns/learning_rule_transport_2026-10-28/data/processed/dev/IBL-T1.npz",
+      "bytes": 25374,
+      "sha256": "20fc40f30afd952c946ea49af4981a40afffe6b6cd5c5aea0663b538d2e6837c",
+      "old_exposure_pin_matches": true
+    }
+  ],
+  "input_file_bytes_read": 3864422,
+  "decoded_bytes_charged": 8689946,
+  "rss_bytes": 87932928,
+  "timing": "prediction uses only prior within-session responses and feedback; omissions decay traces; reset each session",
+  "human": {
+    "subjects": 1,
+    "rows": 600,
+    "prior_changes": 10,
+    "biased_prior_switches": 9,
+    "sensory_mismatches": 0
+  },
+  "mouse": {
+    "subjects": 1,
+    "rows": 402,
+    "prior_changes": 70,
+    "biased_prior_switches": 8,
+    "sensory_mismatches": 0
+  }
+}

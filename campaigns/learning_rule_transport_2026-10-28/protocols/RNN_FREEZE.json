@@ -1,0 +1,85 @@
+{
+  "utc": "2026-10-29T00:54:16.095779+00:00",
+  "status": "frozen_before_RNN_source_scoring;originalsourceholdoutsalreadyconsumed",
+  "original_freeze": "protocols/FREEZE.json",
+  "files": [
+    {
+      "path": "protocols/FREEZE.json",
+      "sha256": "c0141244ac43d240f858956917e3b2b661c72a01a4bddbccdb3974a818b5741f",
+      "bytes": 10124
+    },
+    {
+      "path": "code/rnn_learning.py",
+      "sha256": "9d08cb223a6e418c7d32575c5927864ccb642f89d4365b510fd9341dbc5d4023",
+      "bytes": 4953
+    },
+    {
+      "path": "code/rnn_rollout.py",
+      "sha256": "80d4292afd97c8fe70eedfeee64c8bf397bbe8bfc2767cc13934fba4feaebf3b",
+      "bytes": 15314
+    },
+    {
+      "path": "code/fit_rnn.py",
+      "sha256": "3c25a9af04defc13fedad0750c736b9cdd636825862d87c5024eeb482cff06a9",
+      "bytes": 17206
+    },
+    {
+      "path": "artifacts/rnn/rnnglm32_nested_best.npz",
+      "sha256": "c7f675d18f4143891ed7d2c76d91f74be74da9565fbae5407952768e2c146940",
+      "bytes": 56254
+    },
+    {
+      "path": "artifacts/rnn/RNN_SELECTION.json",
+      "sha256": "93d57ec82790716ff4e0b5d1e022fcd7e4b345b56e85f84af86d9dc89d6d83f2",
+      "bytes": 825
+    },
+    {
+      "path": "artifacts/rnn/CHALLENGE_SPECIFICATION.json",
+      "sha256": "87c02fc846203a0cf207ff852a465f2262d69eddf729f964715862544f326811",
+      "bytes": 1778
+    },
+    {
+      "path": "artifacts/rnn/calibration/CONFIG.json",
+      "sha256": "5f01d1864d2fa3740fce234b75103874a8225d4b9d2127c5406d8dd23bdf2914",
+      "bytes": 2507
+    },
+    {
+      "path": "artifacts/rnn/calibration/rnnglm32_residuals.npz",
+      "sha256": "761f11b69392c1e0f9e06ee4a8d357ce9d5cbd90cbe89129ec2da13fbd6a0847",
+      "bytes": 3908
+    },
+    {
+      "path": "artifacts/rnn/SOURCE_RECURRENCE_AUDIT.json",
+      "sha256": "d2f58f2e45e104d3bd60400c96578e07651313bad12f48ddaf6484f8e8a23b8c",
+      "bytes": 1058
+    },
+    {
+      "path": "artifacts/rnn/FITTED_SOURCE_RECURRENCE_AUDIT.json",
+      "sha256": "75e095bbf1f43493d78e04a14114ed4c7b3b735166ba38130e8a4976b66d0ca0",
+      "bytes": 668
+    },
+    {
+      "path": "artifacts/rnn/CLOSED_LOOP_SOURCE_AUDIT.json",
+      "sha256": "ff5b44343c07411101fc899317d59040da625c536a79e24913e5c51b8b75d1a8",
+      "bytes": 506
+    },
+    {
+      "path": "artifacts/rnn/PREFIX_LINEARIZATION_AUDIT.json",
+      "sha256": "9ed3e15183c5f2688f4abe7a4717bf029876e73d4c227952f9eefaa62b6a48bc",
+      "bytes": 1668
+    }
+  ],
+  "reason": "Fresh adversarial scientific review identified strongestpublished recurrentarchitecture as missing fromoriginalDNN/RLtest;fitonoriginal62developmentanimalsandselectcheckpoint/varianceonoriginal12developmentCVonly.",
+  "architecture": "exactpublishedRNN-first GRU32 plus2ReLU32layers additive3GLMweights;onefixedseed557;1000epochs;best975",
+  "scientific_policy": "Same1000prefix,3000primary/500bins,512particles,originalbaselines/targets/calibration/gate. JointprefixFisheruncertaintyw/h;sourcevarianceamplitude0selectedbydevelopmentonly.",
+  "multiplicity": {
+    "candidates": 5,
+    "baselines": 2,
+    "one_sided_bootstrap_lower_percentile": 0.005,
+    "resamples": 10000,
+    "seed": 891
+  },
+  "interpretation": "Post-source-validation architecturechallenge,notanuntouchedconfirmatorysourcecomparison. Any external test remainsindependentandrequiresfrozenmaterialsource/labgate;noexternaloutcomesopened.",
+  "external_status": "sealed",
+  "access_boundaries": "RNNworkerreaddevelopmentoutcomesonly;leadmaynowrunsourceRNNforecastswithfixedrule. No externalprefix/readpermission is granted bythisfile."
+}

@@ -1,0 +1,501 @@
+{
+  "utc": "2026-11-05T13:42:07.259919+00:00",
+  "scope": "Independent design calculation from permitted consumed aggregate summaries and a simulated finite law; no new forecasts or empirical trial access.",
+  "input_pins": {
+    "lab/tasks/acquisition-rule-vs-tracker-2026-11-05/EARLY_SCORES.json": {
+      "bytes": 672827,
+      "sha256": "5eeb3e538ea7ee13ac87207099707f1d87e9054422032917e96388ba4406924a"
+    },
+    "lab/tasks/acquisition-rule-vs-tracker-2026-11-05/EARLY_REDUCTION.json": {
+      "bytes": 184572,
+      "sha256": "bf6b733655c1e8a15455a541feaa93b7cecdccea8d438b829b83487ed62b4b38"
+    },
+    "lab/tasks/acquisition-rule-vs-tracker-2026-11-05/EARLY_SOURCE_SELECTION.json": {
+      "bytes": 13165,
+      "sha256": "6620d3e4bbfccbb4c62c81808ef759c8dcdf866732560ecb7ba70f3c22ed52f9"
+    },
+    "lab/tasks/acquisition-rule-vs-tracker-2026-11-05/PREPARATION.json": {
+      "bytes": 549934,
+      "sha256": "0bfe94ad4b2f1185ece80adc1e2dc66bfa083f209e92706df80310825a86af67"
+    }
+  },
+  "saved_mean_reproduction_max_error": 0.0,
+  "primary_long_window_four_endpoint_family": {
+    "n": 64,
+    "family_size": 4,
+    "estimate": [
+      -0.009867063921468279,
+      -0.01602221756589024,
+      -0.007268102147434002,
+      -0.012204265303158431
+    ],
+    "sd": [
+      0.07124786512798485,
+      0.056588285563632525,
+      0.044743314066319546,
+      0.027573520933002627
+    ],
+    "se": [
+      0.008905983140998107,
+      0.007073535695454066,
+      0.005592914258289943,
+      0.0034466901166253284
+    ],
+    "margin": [
+      0.02,
+      0.0,
+      0.02,
+      0.0
+    ],
+    "pointwise_two_sided_t95": [
+      [
+        -0.027664251103131005,
+        0.007930123260194447
+      ],
+      [
+        -0.03015755072508374,
+        -0.0018868844066967372
+      ],
+      [
+        -0.018444649460617114,
+        0.00390844516574911
+      ],
+      [
+        -0.019091925900716365,
+        -0.005316604705600497
+      ]
+    ],
+    "bonferroni_one_sided95_critical": 2.2962367715148795,
+    "bonferroni_one_sided95_upper": [
+      0.010583182053383159,
+      0.0002202952026344636,
+      0.005574553232381234,
+      -0.004289848717346443
+    ],
+    "bonferroni_margin_headroom": [
+      0.009416817946616841,
+      -0.0002202952026344636,
+      0.014425446767618765,
+      0.004289848717346443
+    ],
+    "bootstrap_count": 20000,
+    "centered_bootstrap_maxT_one_sided95_critical": 2.0678800801973045,
+    "centered_bootstrap_maxT_one_sided95_upper": [
+      0.008549441210374726,
+      -0.0013949940046961897,
+      0.004297373837535254,
+      -0.0050769234683759904
+    ],
+    "centered_bootstrap_maxabsT95_critical": 2.3367260990466083,
+    "centered_bootstrap_maxabsT95_lower": [
+      -0.030677907164707644,
+      -0.032551133037995554,
+      -0.020337210864510017,
+      -0.020258236054002836
+    ],
+    "centered_bootstrap_maxabsT95_upper": [
+      0.010943779321771086,
+      0.0005066979062150756,
+      0.005801006569642012,
+      -0.004150294552314028
+    ],
+    "labels": [
+      "200_MAE_gain",
+      "200_score_10percent_margin_contrast",
+      "1000_MAE_gain",
+      "1000_score_10percent_margin_contrast"
+    ],
+    "MAE_units": "fractions; multiply by100 for percentage points",
+    "score_margin_definition": ".9*ordinary_score-neural_score; upper<0 excludes >=10percent relative neural score improvement"
+  },
+  "equal_observed_site_sensitivity": {
+    "n": 9,
+    "family_size": 4,
+    "estimate": [
+      -0.0045856246726167236,
+      -0.007705380320271776,
+      -0.003523339994428748,
+      -0.009029354486137798
+    ],
+    "sd": [
+      0.036481348610830855,
+      0.031856251008421335,
+      0.03590206765466214,
+      0.02275941085043532
+    ],
+    "se": [
+      0.012160449536943618,
+      0.010618750336140445,
+      0.01196735588488738,
+      0.00758647028347844
+    ],
+    "margin": [
+      0.02,
+      0.0,
+      0.02,
+      0.0
+    ],
+    "pointwise_two_sided_t95": [
+      [
+        -0.03262767159075029,
+        0.023456422245516844
+      ],
+      [
+        -0.03219226250611226,
+        0.016781501865568715
+      ],
+      [
+        -0.031120112152438952,
+        0.024073432163581456
+      ],
+      [
+        -0.026523786331442603,
+        0.008465077359167005
+      ]
+    ],
+    "bonferroni_one_sided95_critical": 2.751523596063054,
+    "bonferroni_one_sided95_upper": [
+      0.028874139167017684,
+      0.021512361790321146,
+      0.02940512210532293,
+      0.011844997509684296
+    ],
+    "bonferroni_margin_headroom": [
+      -0.008874139167017684,
+      -0.021512361790321146,
+      -0.00940512210532293,
+      -0.011844997509684296
+    ],
+    "bootstrap_count": 20000,
+    "centered_bootstrap_maxT_one_sided95_critical": 1.7361475341215054,
+    "centered_bootstrap_maxT_one_sided95_upper": [
+      0.016526709804756942,
+      0.010730336891270363,
+      0.01725375541507296,
+      0.0041418771892093725
+    ],
+    "centered_bootstrap_maxabsT95_critical": 2.089565249807155,
+    "centered_bootstrap_maxabsT95_lower": [
+      -0.029995677447047616,
+      -0.029893952019048896,
+      -0.02852991098356457,
+      -0.02488177915918898
+    ],
+    "centered_bootstrap_maxabsT95_upper": [
+      0.02082442810181417,
+      0.014483191378505345,
+      0.021483230994707073,
+      0.006823070186913386
+    ],
+    "site_names": [
+      "angelakilab",
+      "churchlandlab",
+      "cortexlab",
+      "danlab",
+      "hoferlab",
+      "mainenlab",
+      "mrsicflogellab",
+      "wittenlab",
+      "zadorlab"
+    ],
+    "labels": [
+      "200_MAE_gain",
+      "200_score_10percent_margin_contrast",
+      "1000_MAE_gain",
+      "1000_score_10percent_margin_contrast"
+    ]
+  },
+  "equal_animal_cluster_sensitivity": {
+    "working_cluster_se": [
+      0.005719961599657697,
+      0.0040567338437930795,
+      0.008391903108045207,
+      0.005322855299629929
+    ],
+    "df": 8,
+    "bonferroni_upper": [
+      0.005871545388564447,
+      -0.0048600186717460084,
+      0.01582241727022727,
+      0.002441696652202596
+    ],
+    "warning": "Working small-site sensitivity, not calibrated arbitrary-site coverage."
+  },
+  "strata": {
+    "old40": {
+      "n": 40,
+      "primary_estimate": [
+        0.009892432572449195,
+        -0.0036308192414185843,
+        -1.2479763163381757e-05,
+        -0.007528996439341578
+      ]
+    },
+    "later24": {
+      "n": 24,
+      "primary_estimate": [
+        -0.0427995580779974,
+        -0.03667454810667633,
+        -0.01936080612121836,
+        -0.01999638007618652
+      ]
+    }
+  },
+  "paired_information_contrast": {
+    "500": {
+      "estimate": [
+        -0.027112736576479918,
+        -0.011457283750697475
+      ],
+      "animal_t95": [
+        [
+          -0.04606535342704473,
+          -0.008160119725915106
+        ],
+        [
+          -0.026539568780085895,
+          0.0036250012786909445
+        ]
+      ]
+    },
+    "2000": {
+      "estimate": [
+        -0.002598961774034276,
+        0.0002306065848267099
+      ],
+      "animal_t95": [
+        [
+          -0.020316884917226195,
+          0.015118961369157644
+        ],
+        [
+          -0.015256120891491509,
+          0.01571733406114493
+        ]
+      ]
+    }
+  },
+  "all_eight_readout_sensitivity": {
+    "n": 64,
+    "family_size": 8,
+    "estimate": [
+      -0.015202807278984359,
+      -0.019872167620378137,
+      0.01190992929749558,
+      -0.0032698533993438168,
+      -0.009867063921468279,
+      -0.01602221756589024,
+      -0.007268102147434002,
+      -0.012204265303158431
+    ],
+    "sd": [
+      0.07334270343854184,
+      0.05493367453618748,
+      0.04488755323547603,
+      0.030364818492663547,
+      0.07124786512798485,
+      0.056588285563632525,
+      0.044743314066319546,
+      0.027573520933002627
+    ],
+    "se": [
+      0.00916783792981773,
+      0.006866709317023435,
+      0.005610944154434504,
+      0.0037956023115829434,
+      0.008905983140998107,
+      0.007073535695454066,
+      0.005592914258289943,
+      0.0034466901166253284
+    ],
+    "margin": [
+      0.02,
+      0.0,
+      0.02,
+      0.0,
+      0.02,
+      0.0,
+      0.02,
+      0.0
+    ],
+    "pointwise_two_sided_t95": [
+      [
+        -0.03352326950139854,
+        0.0031176549434298283
+      ],
+      [
+        -0.033594191242290974,
+        -0.006150143998465302
+      ],
+      [
+        0.0006973521118693541,
+        0.023122506483121807
+      ],
+      [
+        -0.010854759381865454,
+        0.00431505258317782
+      ],
+      [
+        -0.027664251103131005,
+        0.007930123260194447
+      ],
+      [
+        -0.03015755072508374,
+        -0.0018868844066967372
+      ],
+      [
+        -0.018444649460617114,
+        0.00390844516574911
+      ],
+      [
+        -0.019091925900716365,
+        -0.005316604705600497
+      ]
+    ],
+    "bonferroni_one_sided95_critical": 2.5714411855382133,
+    "bonferroni_one_sided95_upper": [
+      0.008371748756088343,
+      -0.0022148284734651025,
+      0.02633814218596335,
+      0.00649031470858461,
+      0.013034147925003233,
+      0.002166963448775032,
+      0.007113747923516667,
+      -0.0033413043834805544
+    ],
+    "bonferroni_margin_headroom": [
+      0.011628251243911657,
+      0.0022148284734651025,
+      -0.006338142185963349,
+      -0.00649031470858461,
+      0.006965852074996767,
+      -0.002166963448775032,
+      0.012886252076483333,
+      0.0033413043834805544
+    ],
+    "bootstrap_count": 20000,
+    "centered_bootstrap_maxT_one_sided95_critical": 2.3055296272973957,
+    "centered_bootstrap_maxT_one_sided95_upper": [
+      0.005933914686471239,
+      -0.004040765847941542,
+      0.024846127282655464,
+      0.005481020183449141,
+      0.010665944070313977,
+      0.0002860285497247976,
+      0.0056265273779875025,
+      -0.0042578191231656196
+    ],
+    "centered_bootstrap_maxabsT95_critical": 2.5629036938356196,
+    "centered_bootstrap_maxabsT95_lower": [
+      -0.03869909297380052,
+      -0.037470882293472965,
+      -0.0024703802018099866,
+      -0.012997616584030758,
+      -0.032692241010770076,
+      -0.03415100832824757,
+      -0.0216022027593112,
+      -0.02103780013456421
+    ],
+    "centered_bootstrap_maxabsT95_upper": [
+      0.0082934784158318,
+      -0.002273452947283313,
+      0.026290238796801146,
+      0.006457909785343125,
+      0.012958113167833522,
+      0.002106573196467093,
+      0.007065998464443199,
+      -0.003370730471752655
+    ],
+    "labels": [
+      "500_200_MAE_gain",
+      "500_200_score_10percent_margin_contrast",
+      "500_1000_MAE_gain",
+      "500_1000_score_10percent_margin_contrast",
+      "2000_200_MAE_gain",
+      "2000_200_score_10percent_margin_contrast",
+      "2000_1000_MAE_gain",
+      "2000_1000_score_10percent_margin_contrast"
+    ]
+  },
+  "source_selection": {
+    "candidate_order": [
+      "100",
+      "250",
+      "500",
+      "infinity"
+    ],
+    "equal_site_mean": [
+      0.0961033385213361,
+      0.0990987575937764,
+      0.10389747771596172,
+      0.10978863756973115
+    ],
+    "saved_ranking_max_error": 1.3877787807814457e-17,
+    "fixed_source_site_stratified_animal_bootstrap_winner_fraction": {
+      "100": 0.8274,
+      "250": 0.1726,
+      "500": 0.0,
+      "infinity": 0.0
+    },
+    "site_sizes": {
+      "churchlandlab": 3,
+      "cortexlab": 1,
+      "danlab": 1,
+      "mainenlab": 3,
+      "zadorlab": 2
+    },
+    "candidate_minus_selected_paired_bootstrap95": {
+      "250": [
+        -0.002693221097209958,
+        0.009328072127478881
+      ],
+      "500": [
+        0.0021268608300740177,
+        0.013194329535076835
+      ],
+      "infinity": [
+        0.006016849442906785,
+        0.02228907052650353
+      ]
+    },
+    "leave_one_source_site_out_winner": {
+      "churchlandlab": "100",
+      "cortexlab": "100",
+      "danlab": "100",
+      "mainenlab": "100",
+      "zadorlab": "250"
+    },
+    "warning": "Selection stability only. These saved source summaries cannot propagate donor-bank or candidate-specific evaluation uncertainty. Singleton source sites have zero within-site bootstrap variance. Neural source parameters remain fixed."
+  },
+  "mixed_observable_score_check": {
+    "expected_scores": {
+      "truth": 0.26928203230275516,
+      "all_missing": 0.7464101615137755,
+      "positive_only": 0.2991025403784439,
+      "wrong_positive_accuracy": 0.28928203230275507
+    },
+    "positive_CRPS_identity_max_error": 0.0,
+    "missing_vs_positive_distance_formula": "sqrt(a*a-a+1)",
+    "interpretation": "Proper mixed-observable score; not a score of the full count/success or acquisition-path law."
+  },
+  "mean_MAE_counterexample": {
+    "truth_P_accuracy0": 0.8,
+    "truth_P_accuracy1": 0.2,
+    "truthful_mean_forecast": 0.2,
+    "truthful_mean_expected_MAE": 0.32000000000000006,
+    "median_point_forecast_expected_MAE": 0.2,
+    "truthful_distribution_expected_CRPS": 0.16000000000000003,
+    "median_point_distribution_expected_CRPS": 0.2,
+    "interpretation": "Point MAE of particle means is an operational readout, not a proper score of expected accuracy or a full law. Require the proper-score endpoint for a broad forecast-law absence claim; predeclare median-MAE sensitivity without replacing the consumed primary."
+  },
+  "resources": {
+    "explicit_summary_read_bytes": 1420498,
+    "numeric_working_array_bytes": 642656,
+    "computation_phase_cpu_seconds_excluding_imports": 0.04502799999999996,
+    "computation_phase_wall_seconds_excluding_imports": 0.04507224999999998,
+    "peak_RSS_bytes_macOS": 90865664,
+    "external_ingress_bytes": 0,
+    "unknown": "Physical I/O, interpreter/import reads and provider overhead not measured; text context reads are separate."
+  },
+  "uncertainty": "All resampling is developmental and assumes the specified source-site/animal sampling. No coverage certificate for outcome-driven study selection, future model families, unseen sites, or misspecified teachers. Simultaneous bounds omit source refits and integration uncertainty."
+}

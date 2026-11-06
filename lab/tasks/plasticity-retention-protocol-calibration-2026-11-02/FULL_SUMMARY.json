@@ -1,0 +1,138 @@
+{
+  "status": "PASS",
+  "utc": "2026-11-03T02:02:25Z",
+  "input_sha256": "eb3b25252c5aa42bc2a6f6579cf1170e662ce031c03fcc37d8d1e8f5357e28c1",
+  "input_bytes": 2731916,
+  "steps_current": 1000000,
+  "tasks": 100,
+  "steps_per_neural_arm": {
+    "sgd": 1999999,
+    "cbp": 1999999
+  },
+  "replacements": {
+    "sgd": 0,
+    "cbp": 1017
+  },
+  "initial_before_first_task": {
+    "sgd": 2.0134880711205025,
+    "cbp": 2.0134880711205025
+  },
+  "teacher_support_mean": 1.2709375,
+  "teacher_support_variance": 2.97003037109375,
+  "configuration": {
+    "step": 0.01,
+    "decay": 0.99,
+    "effective_maturity": 10,
+    "config_declared_maturity": 100,
+    "replacement_rate": 0.0001,
+    "accumulate": false,
+    "utility": "adaptable_contribution",
+    "reservoir_capacity": 506,
+    "cache_capacity": 677,
+    "cache": "packed-arrayLRU",
+    "replay": "one pre-insertion observed sample per current example"
+  },
+  "seconds_by_activity": {
+    "sgd": 10.30726437400004,
+    "cbp": 25.468959692998947,
+    "cache": 11.09857211999911,
+    "all_support_scoring": 2.0015868000000165,
+    "replay_feeds": 0.5674903730022671
+  },
+  "summaries": {
+    "sgd": {
+      "acquisition_first1000_all_tasks": 1.2194561364368919,
+      "acquisition_first1000_tasks10to99": 1.1907924339665905,
+      "acquisition_normalized_tasks10to99": 0.40093611350111097,
+      "final_all_old_risk": 2.681098645823272,
+      "time_average_all_old_risk": 1.7800117161354534,
+      "normalized_time_average_all_old_risk": 0.5993244154873549,
+      "mean_initial_competence": 0.8488184363732652,
+      "final_current_risk": 0.7110332439825144,
+      "final_old_change_from_initial": 1.830888439829899,
+      "retention_by_age": {
+        "1-9": {
+          "mean_old_risk": 1.762369544421747,
+          "mean_change_from_initial": 0.9099909889959367,
+          "cells": 855
+        },
+        "10-49": {
+          "mean_old_risk": 1.8919556684181174,
+          "mean_change_from_initial": 1.07368057905075,
+          "cells": 2820
+        },
+        "50-99": {
+          "mean_old_risk": 2.098308869853843,
+          "mean_change_from_initial": 1.339695813256522,
+          "cells": 1275
+        }
+      }
+    },
+    "cbp": {
+      "acquisition_first1000_all_tasks": 1.1578599871464623,
+      "acquisition_first1000_tasks10to99": 1.1413602423371825,
+      "acquisition_normalized_tasks10to99": 0.3842924481330683,
+      "final_all_old_risk": 2.060965795236728,
+      "time_average_all_old_risk": 1.9112511569879609,
+      "normalized_time_average_all_old_risk": 0.6435123275470477,
+      "mean_initial_competence": 0.7029900549151171,
+      "final_current_risk": 0.5613291955843813,
+      "final_old_change_from_initial": 1.3565448225505936,
+      "retention_by_age": {
+        "1-9": {
+          "mean_old_risk": 1.8552506597252834,
+          "mean_change_from_initial": 1.1519536761057954,
+          "cells": 855
+        },
+        "10-49": {
+          "mean_old_risk": 2.0098240843903525,
+          "mean_change_from_initial": 1.2922785036740336,
+          "cells": 2820
+        },
+        "50-99": {
+          "mean_old_risk": 2.338349590267335,
+          "mean_change_from_initial": 1.6374441814592255,
+          "cells": 1275
+        }
+      }
+    },
+    "cache": {
+      "acquisition_first1000_all_tasks": 0.09755407536827491,
+      "acquisition_first1000_tasks10to99": 0.09164894945898044,
+      "acquisition_normalized_tasks10to99": 0.030857916589327537,
+      "final_all_old_risk": 2.3069082529297122,
+      "time_average_all_old_risk": 1.4655963783591468,
+      "normalized_time_average_all_old_risk": 0.49346174794146064,
+      "mean_initial_competence": 0.0,
+      "final_current_risk": 0.0,
+      "final_old_change_from_initial": 2.3069082529297122,
+      "retention_by_age": {
+        "1-9": {
+          "mean_old_risk": 0.0,
+          "mean_change_from_initial": 0.0,
+          "cells": 855
+        },
+        "10-49": {
+          "mean_old_risk": 1.8841905911171932,
+          "mean_change_from_initial": 1.8841905911171932,
+          "cells": 2820
+        },
+        "50-99": {
+          "mean_old_risk": 3.215620980271011,
+          "mean_change_from_initial": 3.215620980271011,
+          "cells": 1275
+        }
+      }
+    }
+  },
+  "cache_online_hits": 996800,
+  "cache_observations": 1000000,
+  "cache_packed_payload_bytes": 4062,
+  "cache_array_objects_bytes": 4202,
+  "exposed": "one consumed teacher/stream; all support risks/model endpoints/cache and reservoir; no holdout claim",
+  "seconds_before_serialization": 50.332633791999996,
+  "max_rss_bytes_macos": 34816000,
+  "full_output_sha256": "d3a950cea03fa113193ce1bcecc4f8ebdd4fb123250d2edd3cf2db2ddf0f146b",
+  "full_output_bytes": 749169,
+  "total_seconds": 50.342290792
+}

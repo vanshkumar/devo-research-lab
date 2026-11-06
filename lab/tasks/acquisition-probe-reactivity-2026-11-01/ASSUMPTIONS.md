@@ -1,0 +1,15 @@
+# Information boundary and source semantics
+
+The only empirical-derived numeric asset opened is the explicitly permitted, immutable parameter-only RNN artifact. Its exact hash and all eleven parameter keys are recorded in FIRST_CALCULATION.json. The ZIP member inventory was checked before loading; `kind` and `metadata` arrays were not decoded. No prefixes, biological rows, baseline bank, empirical targets, new fits or consumed scores were opened.
+
+The source modules `rnn_learning.py` and `learning_models.py` were inspected before import. Their top-level imports are numerical/standard libraries, with no top-level empirical loader. This run calls only the RNN constructor, `probs` and `update`; it does not call calibration, `initial_state`, `static_fit`, sequence/JIT compilation, readers or optimizers. `PYTHONDONTWRITEBYTECODE=1` and a task-local NumPy/Numba cache environment keep output scoped. No campaign module was imported.
+
+Constructed histories start with three declared coefficient vectors and exact zero recurrent memory. The four chosen stimulus/choice/feedback events are deterministic reference inputs, not new animals, a generative population, a held-out test or a biological calibration. Their privileges prevent using the resulting one-probe changes as a disturbance bound across learners. The scalar reference recomputes the same GRU equations with explicit row loops, independently of the production vectorized update.
+
+The measured functional is balanced positive/negative exact100 correctness conditional on responding, with omission probability imposed as zero. The first response precedes the post-response update. Full correct/incorrect feedback and existing stimulus/choice/session-start inputs are defined by the frozen RNN. A separate no-feedback, test-context, motivation, elapsed-time or cue-only observation rule is not defined. Numeric execution on such an input would not certify biological protocol validity.
+
+In particular `feedback > 0` maps 0 and -1 to the same input; setting zero is not a no-learning intervention. `choice == 0` skips the entire update, but a left/right response used to score accuracy cannot simultaneously be an omission. Manually freezing weights or hidden state would add an unearned intervention rule.
+
+Terminal-cohort sampling is conditional on credible independent assignment, the same prespecified acquisition protocol up to each endpoint, common stimulus/context at the first response, and independent sampling units. It estimates population response probabilities, not an individual's latent state or persistent learning rule. New cohorts, extra training, timing, feedback and calibration observations are costs. The simple N=400 scale is an SE illustration, not a proposed human/animal experiment, power analysis or validated decision threshold.
+
+All old protected observations, consumed-data restrictions, prior failures and accounting remain unchanged. This allocation closes locally; the canonical PI's scientific goal and continuing lab are not completed by this closure.

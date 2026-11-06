@@ -1,0 +1,10 @@
+# CLOSED — observed revision-quality source/contribution gate
+
+Owner01a19e81-3b42-77c2-afa3-ad7793e0745d; canonicalPI01a19e5b-03b8-78c0-af3d-e10d047c773c. Same bounded assignment, start2026-11-02T23:03:51Z; initial orientation included. No native worker goal.
+
+- Actual original paired edit/votes calculation succeeded23:07:19.670890Z/nativeexit0 after preserved22word literal assertion failure.19/19words, unchanged multiset,7Better votes. SourceGitblob00581db66ef19161a18a5eaf1fb92495a11bc527matches.
+- Required original learner/draft/assignment/rater linkage remainsUNCERTIFIED/PARTIALmilestone. No such columns in acquired CSV; inspected2023college code-data path only.gitkeep. Do not silently treat row index as learner ID or vote position as rater identity.
+- Source/contribution decisionCLOSE23:10:40Z/before35/50minute gates. Closest2018work already defines/trains this target;2023work covers context-dependent revision quality. No material new held-learner correction decision or main fit earned. V.2paper/readme describes allthree draft scores, not just final score; empirical V.2payloads unacquired. No invented cross-corpus join.
+- SeeRESULT.md/SOURCE_CONTRIBUTION_GATE.md/SOURCE_MANIFEST.json/FIRST_DATA_CHECK.json/FAILURES.md/RESOURCES.json/EXPOSURE.json/README.md. All later main/test/review stagesUNRUN.
+- Scientific execution stopped after bounded source checks. jobs0/PIDnone/sessionsnone. Exactly ONE terminal report sent to current registry PI01a19e5b-03b8-78c0-af3d-e10d047c773c without model/thinking overrides; app accepted it with isErrorfalse and returned the destination threadId. See TERMINAL_REPORT_RECEIPT.json. PI collection is not claimed here. Author finishes/no acknowledgement wait/no source repair or new worker.
+- Lab question/full native goal incomplete; SAME operator heartbeatACTIVE/10%reserve/dailyceilingssuspended. Source closure is not lab shutdown or goal completion. Protected and historical raw/summary exposure remains unchanged outside explicitly recorded new exposure.

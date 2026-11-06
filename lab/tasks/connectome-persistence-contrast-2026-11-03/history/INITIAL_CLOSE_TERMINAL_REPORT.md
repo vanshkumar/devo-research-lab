@@ -1,0 +1,9 @@
+Task connectome-persistence-contrast-2026-11-03: CLOSE at source gate 06:01:37Z, before06:13:24Z. Original full model/reference/persistence contrast/main protocol all UNRUN/UNEARNED; jobs0.
+
+Kunert-Graf2017 is verified: bistability and~10s transients use maintained PLM+ASK input/different initial states, with an undefined motor-to-behavior mapping. It explicitly states no sustained oscillation without external input; this is not proof of no fixed-state memory. The named lead therefore does not already supply the requested post-pulse behavioral contrast. The later Neural Interactome2019 public beta source is real but changes reversal/gate constants and recomputes input-dependent thresholds; no exact2017 substitution. Three Git source blobs pass offline checks after preserving/correcting OUR one-extra-newline initial mismatch. No matrices, saved dynamics, recordings, old arrays or protected targets acquired/decoded; no installs or parameter/initial/horizon hunt.
+
+Artifacts: lab/tasks/connectome-persistence-contrast-2026-11-03/{RESULT.md,SOURCE_GATE.md,SOURCE_AUDIT.json,MODEL_REFERENCE_STATUS.json,SOURCE_MANIFEST.json,NATIVE_EXECUTION.json,FAILURES.md,RESOURCES.json,README.md,LEARNINGS_PROPOSED.md}.
+
+Charge13NEWtop-levelops/TWOprograms/full40MBingressUNCERTIFIED/full600MBSEPARATEread/60sconservativeprocessbooking/14155776maxlocalRSS/zero scientific revisions; provider-runtime-physicalIO unknowns remain. Additive totals136ops634594722ingressUNCERTIFIED4.101GBSEPARATEread; all inherited exposure/failures/nativehistories persist.
+
+Bank source clarification/CLOSE this allocation, without a new memory-failure/novelty claim or automatic release/protocol/readout repair. A separately justified investment must earn an exact original executable, legitimate finite intervention and material measurable prediction. Broad native mission unfinished; SAMEoperatorgoal-heartbeat unaffected.

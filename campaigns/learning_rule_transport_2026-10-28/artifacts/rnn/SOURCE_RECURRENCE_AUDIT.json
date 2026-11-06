@@ -1,0 +1,20 @@
+{
+  "architecture": "exact source DeltaRNNGLM RNNfirst, GRU32,2ReLU32,num_weights_mode1",
+  "source_pin": "0ae19f7eec2836ab05487cc0342c7d1ac51a2727",
+  "source_sha256": "aeb559e0373bda95e43c268070adfa6731bcd75a91b042c754be22f1de8f8781",
+  "trials": 511,
+  "seed": 701,
+  "original_vs_numpy_probability_max_abs": 1.2663851978178542e-07,
+  "original_vs_numpy_weight_max_abs": 7.902407690441038e-07,
+  "GRUCell_vs_numpy_weight_max_abs": 7.902407690441038e-07,
+  "GRUCell_vs_numpy_hidden_max_abs": 6.666784790887448e-08,
+  "vectorized_vs_scalar_probability_max_abs": 3.3306690738754696e-16,
+  "vectorized_vs_scalar_hidden_max_abs": 2.220446049250313e-16,
+  "scripted_vs_eager_block_loss_difference": 0.0,
+  "scripted_vs_eager_gradient_max_abs": 5.960464477539063e-08,
+  "omission_extension": "skip both hidden and weight update; observations retained",
+  "parameters": 6438,
+  "post_source_validation_challenge": true,
+  "fitted_model": "artifacts/rnn/main_best.npz",
+  "fitted_model_sha256": "c7f675d18f4143891ed7d2c76d91f74be74da9565fbae5407952768e2c146940"
+}

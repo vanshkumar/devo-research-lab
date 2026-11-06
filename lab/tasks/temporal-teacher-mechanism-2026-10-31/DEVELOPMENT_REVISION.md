@@ -1,0 +1,9 @@
+# Single development numerical revision and next falsification
+
+The first fixture recovers unit duration and64-order fidelity with a population-moment prototype. Joint development on consumed100–102 removes98.04%,95.08%,98.06%true waveform error, while raw/normalized fail and ordered state/template/oracle reach near-zero errors. All results/queries remain under development. No new target has been generated.
+
+Static sensory moments are exactly permutation-invariant, yet floating-point summation can select arbitrary tiny minima among tied orders. Freeze one numerical actor refinement: at initialization, pruning and proposal selection choose the first value within1e−14of the minimum. Acceptance already requires improvement>1e−14. Apply identically to every critic; preserve actor_development_v0.py and all original results. This is not a new teacher variant or an outcome-tuned target preference. Randomized new target orders will expose the order-blind ablation.
+
+Next controlled cycle: keep each consumed feature circuit frozen and replace only the observed tutor goal duration (.84/.92/1.16for100/101/102). Learn all new readout/state/template memories solely from the corresponding raw sensory exemplar with unknown37msglobal onset. Run the entire matched3722-query actor again. This tests learned duration rather than a prewired unit target or fixed circuit time constant. Raw/normalized feature-circuit synapses remain stale in this remapping control; their behavior is not a claim about original source retutoring.
+
+Meaningful ablation: use the same population prototype on a circuit without synaptic tutoring, labelled unplasticized_population, not untutored teacher (its readout still learns from the exemplar). Start with100control, and freeze this ablation on all new cases. The second model changes feature plasticity, not readout architecture/information/search budget.

@@ -1,0 +1,165 @@
+{
+  "utc": "2026-11-05T12:34:04Z",
+  "status": "executed developmental investment checks only",
+  "sign": "positive tracker-minus-GRU loss favors GRU",
+  "observations": 105116,
+  "animal": {
+    "n": 64,
+    "mean": 0.01460535642483856,
+    "sd": 0.023117047402854977,
+    "se": 0.002889630925356872,
+    "descriptive_t95": [
+      0.008830889793776197,
+      0.02037982305590092
+    ]
+  },
+  "equal_site": {
+    "n": 9,
+    "mean": 0.01500093885468177,
+    "sd": 0.015247748730252891,
+    "se": 0.005082582910084297,
+    "descriptive_t95": [
+      0.0032804816465093565,
+      0.02672139606285418
+    ]
+  },
+  "sites": {
+    "angelakilab": {
+      "n": 5,
+      "tracker": 0.6344032089417969,
+      "GRU": 0.6302253868781573,
+      "difference": 0.004177822063639591
+    },
+    "churchlandlab": {
+      "n": 9,
+      "tracker": 0.44216498181139646,
+      "GRU": 0.4335236795364154,
+      "difference": 0.008641302274981055
+    },
+    "cortexlab": {
+      "n": 3,
+      "tracker": 0.47252303722308564,
+      "GRU": 0.44182949438164537,
+      "difference": 0.03069354284144027
+    },
+    "danlab": {
+      "n": 1,
+      "tracker": 0.44087414019151494,
+      "GRU": 0.4438755298379213,
+      "difference": -0.0030013896464063383
+    },
+    "hoferlab": {
+      "n": 19,
+      "tracker": 0.6222004985843027,
+      "GRU": 0.6093277394507463,
+      "difference": 0.012872759133556455
+    },
+    "mainenlab": {
+      "n": 3,
+      "tracker": 0.48769929603335554,
+      "GRU": 0.4770503716772443,
+      "difference": 0.010648924356111256
+    },
+    "mrsicflogellab": {
+      "n": 9,
+      "tracker": 0.5770390379631201,
+      "GRU": 0.5714339234394932,
+      "difference": 0.005605114523626886
+    },
+    "wittenlab": {
+      "n": 10,
+      "tracker": 0.5268673007681874,
+      "GRU": 0.5082321720733387,
+      "difference": 0.018635128694848735
+    },
+    "zadorlab": {
+      "n": 5,
+      "tracker": 0.5596069355107177,
+      "GRU": 0.5128716900603797,
+      "difference": 0.046735245450338025
+    }
+  },
+  "unseen_training_sites_equal_site_mean": 0.015753943914202595,
+  "overlapping_training_sites_equal_site_mean": 0.014785794551961535,
+  "animals_favoring_GRU": 52,
+  "sites_favoring_GRU": 8,
+  "precision_planning_sensitivity": {
+    "0.01": {
+      "margin_nats": 0.01,
+      "normal_sites_for_80pct_CI_inside_symmetric_margin_at_zero": 25,
+      "normal_independent_animals_analogue": 57
+    },
+    "0.005": {
+      "margin_nats": 0.005,
+      "normal_sites_for_80pct_CI_inside_symmetric_margin_at_zero": 98,
+      "normal_independent_animals_analogue": 225
+    }
+  },
+  "teacher_reference": {
+    "joint": {
+      "(0, 0, 0)": 0.24000000000000005,
+      "(0, 0, 1)": 0.06000000000000001,
+      "(1, 1, 0)": 0.14000000000000004,
+      "(1, 1, 1)": 0.5599999999999999
+    },
+    "conditional_given_X2_one": {
+      "(1, 1, 0)": 0.20000000000000007,
+      "(1, 1, 1)": 0.7999999999999999
+    },
+    "do_replay_X2_one": {
+      "(0, 1, 0)": 0.06000000000000001,
+      "(0, 1, 1)": 0.24000000000000005,
+      "(1, 1, 0)": 0.13999999999999999,
+      "(1, 1, 1)": 0.5599999999999999
+    },
+    "actual_P_Y1_one_given_X2_one": 1.0,
+    "replay_P_Y1_one_given_fixed_X2_one": 0.7,
+    "replay_probability_incompatible_with_actual_teacher": 0.30000000000000004,
+    "likelihood_ratio_joint_path_111_p07_vs_p04": 1.7499999999999996,
+    "likelihood_ratio_actual_conditional_path_given_X2_one": 1.0,
+    "interpretation": "A common known adaptive teacher cancels from causal sequential likelihood ratios, not from the normalization conditioning on a full realized future schedule."
+  },
+  "score_update_reference": {
+    "max_score_mean_error": 0.0,
+    "max_reward_mean_error": 3.469446951953614e-18,
+    "score_update_second_moment_range": [
+      3.564e-05,
+      0.0036
+    ],
+    "checked_cases": 42
+  },
+  "limitations": [
+    "Old conditional scores have different training rosters and asymmetric site exposure.",
+    "Nine selected sites are not a random sample of arbitrary new labs; intervals are descriptive.",
+    "Future-horizon precision can differ; normal site-count extrapolation is not a main power guarantee.",
+    "Source-fit and shared-training uncertainty are not represented by these intervals.",
+    "Toy references establish probability distinctions, not biological teacher or learning-rule correctness."
+  ],
+  "resources": {
+    "inputs": [
+      {
+        "path": "lab/tasks/acquisition-reactive-sequence-2026-11-04/CALIBRATION.json",
+        "bytes": 694624,
+        "sha256": "f1edb0e23125cbf859fc6cb509a301a80748482da198f62bd400fb0b3335521d"
+      },
+      {
+        "path": "lab/tasks/acquisition-reactive-sequence-2026-11-04/TRACK_CALIBRATION.json",
+        "bytes": 78717,
+        "sha256": "55c1d11a6ddac8dad7871e24fd71e73700b9dc5f5d20a858cab7d58c4bba9b3b"
+      },
+      {
+        "path": "lab/tasks/acquisition-reactive-sequence-2026-11-04/SOURCE_MANIFEST.json",
+        "bytes": 505053,
+        "sha256": "19c68735e1fd721ad86a5c05debedf98f8782e8d4461799efe3d3d0925958210"
+      }
+    ],
+    "explicit_file_read_bytes": 1278394,
+    "cpu_seconds": 0.0050030000000000005,
+    "wall_seconds": 0.005006074905395508,
+    "peak_rss_reported_native": 19791872,
+    "peak_rss_units": "bytes",
+    "physical_io_and_runtime_import_reads": "unknown",
+    "network_ingress": 0,
+    "original_row_reads": 0
+  }
+}

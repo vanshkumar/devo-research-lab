@@ -1,0 +1,92 @@
+{
+  "science_job": {
+    "terminal": "exited_successfully",
+    "pid": 2802,
+    "tool_chunk": "fa53c0",
+    "exit_code": 0,
+    "session_id": null,
+    "unified_exec_wall_seconds": 0.374542959,
+    "retries": 0
+  },
+  "allowance_immediately_before": {
+    "time": {
+      "current_time": "2026-11-06 00:12:48 UTC"
+    },
+    "before": {
+      "ordinaryUsageAllowed": true,
+      "buckets": {
+        "codex": {
+          "primary": {
+            "usedPercent": 74,
+            "windowDurationMins": 10080,
+            "resetsAt": 1794445923
+          },
+          "secondary": null,
+          "individualLimit": null
+        }
+      }
+    }
+  },
+  "allowance_immediately_after": {
+    "time": {
+      "current_time": "2026-11-06 00:12:50 UTC"
+    },
+    "after": {
+      "ordinaryUsageAllowed": true,
+      "buckets": {
+        "codex": {
+          "primary": {
+            "usedPercent": 74,
+            "windowDurationMins": 10080,
+            "resetsAt": 1794445923
+          },
+          "secondary": null,
+          "individualLimit": null
+        }
+      }
+    }
+  },
+  "assignment_limits": {
+    "wall_minutes": 15,
+    "cpu_seconds": 35,
+    "nominal_read_decode_bytes": 12000000,
+    "rss_bytes": 400000000,
+    "owned_storage_bytes": 15000000,
+    "processes": 1,
+    "ingress_bytes": 0,
+    "weekly_remaining_hard_reserve_percent": 25
+  },
+  "measured_process_cpu_seconds": 4.55904,
+  "measured_process_peak_rss_bytes": 85377024,
+  "nominal_bytes": {
+    "main_process_conservative_full_archive_size_and_summary_bytes": 1241069,
+    "main_process_member_inflation_bytes": 64928,
+    "context_and_repeat_summary_reads_conservative_booking_bytes": 2500000,
+    "total_booked_read_decode_bytes": 3805997
+  },
+  "ingress_bytes": 0,
+  "approximate_owned_file_bytes_including_closeout_upper": 50000,
+  "reserve_stop": {
+    "operator_observed_utc": "2026-11-06T00:12:58Z",
+    "operator_weekly_remaining_percent": 25,
+    "own_native_readback_utc": "2026-11-06 00:14:52 UTC",
+    "own_native_readback": {
+      "ordinaryUsageAllowed": true,
+      "buckets": {
+        "codex": {
+          "primary": {
+            "usedPercent": 75,
+            "windowDurationMins": 10080,
+            "resetsAt": 1794445923
+          },
+          "secondary": null,
+          "individualLimit": null
+        }
+      }
+    },
+    "disposition": "Main job had already exited 0. Reconciliation and native closeout only."
+  },
+  "measurement_limits": "Process getrusage includes imports. Physical I/O, runtime/dependency and platform overhead, and exact incremental account charge are unmeasured. Context booking is conservative, not measured. No extra scientific run after the checkpoint.",
+  "scope": "Old refined owner aggregate and old subject labels; later pooled reviewed scores with subject/actor/origin/owner metadata. The single pooled member inflates all 4,608 cells, with only the fixed two-actor accuracy and mixed-risk slices used. No other score member, raw, forecast, target, reassignment or protected payload decoded.",
+  "run_ledger": "RUN_RESOURCES.json"
+}

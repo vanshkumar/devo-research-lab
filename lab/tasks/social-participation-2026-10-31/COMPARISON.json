@@ -1,0 +1,801 @@
+{
+  "status": "consumed-data exploratory out-of-date prediction",
+  "metric": "natural-log loss; gain=baseline loss minus candidate loss",
+  "joint_models": {
+    "marginal": {
+      "joint": {
+        "n": 462,
+        "dates": 15,
+        "nll": 2.6728812169290066,
+        "equal_date_nll": 2.6613910171596165
+      },
+      "courtship": {
+        "n": 462,
+        "dates": 15,
+        "nll": 1.6151981304017535,
+        "equal_date_nll": 1.6086006273923645
+      },
+      "mating": {
+        "n": 462,
+        "dates": 15,
+        "nll": 0.486236602327147,
+        "equal_date_nll": 0.48528635690272076
+      },
+      "participation": {
+        "n": 462,
+        "dates": 15,
+        "nll": 2.1014347327289005,
+        "equal_date_nll": 2.0938869842950854
+      },
+      "mating_choice": {
+        "n": 377,
+        "dates": 15,
+        "nll": 0.7002872034494674,
+        "equal_date_nll": 0.6986495964022966
+      },
+      "eligible_choice": {
+        "n": 205,
+        "dates": 15,
+        "nll": 0.7049396681901419,
+        "equal_date_nll": 0.7019894124808989
+      },
+      "T_eligible_choice": {
+        "n": 64,
+        "dates": 14,
+        "nll": 0.7145745246238212,
+        "equal_date_nll": 0.7014149284089684
+      },
+      "eligible_integrated_choice": {
+        "n": 205,
+        "dates": 15,
+        "nll": 0.7049396681901419,
+        "equal_date_nll": 0.7019894124808989
+      },
+      "T_eligible_integrated_choice": {
+        "n": 64,
+        "dates": 14,
+        "nll": 0.7145745246238213,
+        "equal_date_nll": 0.7014149284089684
+      }
+    },
+    "expression": {
+      "joint": {
+        "n": 462,
+        "dates": 15,
+        "nll": 2.1905971525402466,
+        "equal_date_nll": 2.1962102598033595
+      },
+      "courtship": {
+        "n": 462,
+        "dates": 15,
+        "nll": 1.6129670615386045,
+        "equal_date_nll": 1.6057656221272325
+      },
+      "mating": {
+        "n": 462,
+        "dates": 15,
+        "nll": 0.23985811114896385,
+        "equal_date_nll": 0.24285037703170606
+      },
+      "participation": {
+        "n": 462,
+        "dates": 15,
+        "nll": 1.8528251726875684,
+        "equal_date_nll": 1.8486159991589384
+      },
+      "mating_choice": {
+        "n": 377,
+        "dates": 15,
+        "nll": 0.41392746602635894,
+        "equal_date_nll": 0.4274774207017587
+      },
+      "eligible_choice": {
+        "n": 205,
+        "dates": 15,
+        "nll": 0.7151976977465078,
+        "equal_date_nll": 0.70802874629885
+      },
+      "T_eligible_choice": {
+        "n": 64,
+        "dates": 14,
+        "nll": 0.7093710191133729,
+        "equal_date_nll": 0.7042929025716801
+      },
+      "eligible_integrated_choice": {
+        "n": 205,
+        "dates": 15,
+        "nll": 0.7049496162361271,
+        "equal_date_nll": 0.7044357959881188
+      },
+      "T_eligible_integrated_choice": {
+        "n": 64,
+        "dates": 14,
+        "nll": 0.7159707755647068,
+        "equal_date_nll": 0.7082985326122279
+      }
+    },
+    "primacy": {
+      "joint": {
+        "n": 462,
+        "dates": 15,
+        "nll": 2.179190716876381,
+        "equal_date_nll": 2.181746917175343
+      },
+      "courtship": {
+        "n": 462,
+        "dates": 15,
+        "nll": 1.6129670615386045,
+        "equal_date_nll": 1.6057656221272325
+      },
+      "mating": {
+        "n": 462,
+        "dates": 15,
+        "nll": 0.23985811114896385,
+        "equal_date_nll": 0.24285037703170606
+      },
+      "participation": {
+        "n": 462,
+        "dates": 15,
+        "nll": 1.8528251726875684,
+        "equal_date_nll": 1.8486159991589384
+      },
+      "mating_choice": {
+        "n": 377,
+        "dates": 15,
+        "nll": 0.39994928757355797,
+        "equal_date_nll": 0.4126330880279288
+      },
+      "eligible_choice": {
+        "n": 205,
+        "dates": 15,
+        "nll": 0.6882875002888137,
+        "equal_date_nll": 0.6754493636509805
+      },
+      "T_eligible_choice": {
+        "n": 64,
+        "dates": 14,
+        "nll": 0.6817042344725476,
+        "equal_date_nll": 0.7054727966885378
+      },
+      "eligible_integrated_choice": {
+        "n": 205,
+        "dates": 15,
+        "nll": 0.6779952348133446,
+        "equal_date_nll": 0.6704494780850124
+      },
+      "T_eligible_integrated_choice": {
+        "n": 64,
+        "dates": 14,
+        "nll": 0.6870474652789433,
+        "equal_date_nll": 0.70557415573984
+      }
+    },
+    "cancellation": {
+      "joint": {
+        "n": 462,
+        "dates": 15,
+        "nll": 2.1844797942957728,
+        "equal_date_nll": 2.1908320917511737
+      },
+      "courtship": {
+        "n": 462,
+        "dates": 15,
+        "nll": 1.6129670615386045,
+        "equal_date_nll": 1.6057656221272325
+      },
+      "mating": {
+        "n": 462,
+        "dates": 15,
+        "nll": 0.23985811114896385,
+        "equal_date_nll": 0.24285037703170606
+      },
+      "participation": {
+        "n": 462,
+        "dates": 15,
+        "nll": 1.8528251726875684,
+        "equal_date_nll": 1.8486159991589384
+      },
+      "mating_choice": {
+        "n": 377,
+        "dates": 15,
+        "nll": 0.40643086255435096,
+        "equal_date_nll": 0.42162142022238963
+      },
+      "eligible_choice": {
+        "n": 205,
+        "dates": 15,
+        "nll": 0.699895794736272,
+        "equal_date_nll": 0.6900122608564984
+      },
+      "T_eligible_choice": {
+        "n": 64,
+        "dates": 14,
+        "nll": 0.7154411616390943,
+        "equal_date_nll": 0.7098385037835672
+      },
+      "eligible_integrated_choice": {
+        "n": 205,
+        "dates": 15,
+        "nll": 0.6887262745235635,
+        "equal_date_nll": 0.6839907224067079
+      },
+      "T_eligible_integrated_choice": {
+        "n": 64,
+        "dates": 14,
+        "nll": 0.7164570288352745,
+        "equal_date_nll": 0.7088277900681644
+      }
+    }
+  },
+  "contrasts": [
+    {
+      "baseline": "marginal",
+      "model": "expression",
+      "metric": "joint",
+      "gain_nat": 0.48228406438876037,
+      "date_bootstrap_95": [
+        0.40542370881598855,
+        0.5620329262681069
+      ],
+      "equal_date_gain": 0.4651807573562569,
+      "n": 462,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "marginal",
+      "model": "expression",
+      "metric": "courtship",
+      "gain_nat": 0.002231068863148865,
+      "date_bootstrap_95": [
+        -0.012023744677718386,
+        0.016578320217438262
+      ],
+      "equal_date_gain": 0.0028350052651319813,
+      "n": 462,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "marginal",
+      "model": "expression",
+      "metric": "mating",
+      "gain_nat": 0.2463784911781832,
+      "date_bootstrap_95": [
+        0.17773714862881282,
+        0.32788176954513365
+      ],
+      "equal_date_gain": 0.24243597987101478,
+      "n": 462,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "marginal",
+      "model": "expression",
+      "metric": "participation",
+      "gain_nat": 0.24860956004133208,
+      "date_bootstrap_95": [
+        0.17499136445375876,
+        0.3372922951007407
+      ],
+      "equal_date_gain": 0.24527098513614679,
+      "n": 462,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "marginal",
+      "model": "expression",
+      "metric": "mating_choice",
+      "gain_nat": 0.2863597374231085,
+      "date_bootstrap_95": [
+        0.22480366662746729,
+        0.347510098070891
+      ],
+      "equal_date_gain": 0.2711721757005379,
+      "n": 377,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "marginal",
+      "model": "expression",
+      "metric": "eligible_choice",
+      "gain_nat": -0.01025802955636611,
+      "date_bootstrap_95": [
+        -0.02427086515088726,
+        0.005210333402098884
+      ],
+      "equal_date_gain": -0.0060393338179509795,
+      "n": 205,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "marginal",
+      "model": "expression",
+      "metric": "T_eligible_choice",
+      "gain_nat": 0.005203505510448545,
+      "date_bootstrap_95": [
+        -0.026604193595637458,
+        0.034832026195432665
+      ],
+      "equal_date_gain": -0.0028779741627116312,
+      "n": 64,
+      "dates_with_observations": 14
+    },
+    {
+      "baseline": "marginal",
+      "model": "expression",
+      "metric": "eligible_integrated_choice",
+      "gain_nat": -9.948045985133048e-06,
+      "date_bootstrap_95": [
+        -0.011667066651611012,
+        0.009232031475041508
+      ],
+      "equal_date_gain": -0.002446383507219895,
+      "n": 205,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "marginal",
+      "model": "expression",
+      "metric": "T_eligible_integrated_choice",
+      "gain_nat": -0.001396250940885471,
+      "date_bootstrap_95": [
+        -0.03198978262618452,
+        0.025200923685588537
+      ],
+      "equal_date_gain": -0.006883604203259389,
+      "n": 64,
+      "dates_with_observations": 14
+    },
+    {
+      "baseline": "expression",
+      "model": "primacy",
+      "metric": "joint",
+      "gain_nat": 0.011406435663865714,
+      "date_bootstrap_95": [
+        -0.0009352776504141088,
+        0.024617279241967712
+      ],
+      "equal_date_gain": 0.014463342628016445,
+      "n": 462,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "expression",
+      "model": "primacy",
+      "metric": "courtship",
+      "gain_nat": 0.0,
+      "date_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "equal_date_gain": 0.0,
+      "n": 462,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "expression",
+      "model": "primacy",
+      "metric": "mating",
+      "gain_nat": 0.0,
+      "date_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "equal_date_gain": 0.0,
+      "n": 462,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "expression",
+      "model": "primacy",
+      "metric": "participation",
+      "gain_nat": 0.0,
+      "date_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "equal_date_gain": 0.0,
+      "n": 462,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "expression",
+      "model": "primacy",
+      "metric": "mating_choice",
+      "gain_nat": 0.01397817845280093,
+      "date_bootstrap_95": [
+        -0.0011650102936088748,
+        0.029298591639695167
+      ],
+      "equal_date_gain": 0.014844332673829848,
+      "n": 377,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "expression",
+      "model": "primacy",
+      "metric": "eligible_choice",
+      "gain_nat": 0.02691019745769428,
+      "date_bootstrap_95": [
+        0.00036690271307337894,
+        0.05540758753170697
+      ],
+      "equal_date_gain": 0.03257938264786937,
+      "n": 205,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "expression",
+      "model": "primacy",
+      "metric": "T_eligible_choice",
+      "gain_nat": 0.02766678464082514,
+      "date_bootstrap_95": [
+        -0.04128108139564845,
+        0.08537416217413304
+      ],
+      "equal_date_gain": -0.001179894116857921,
+      "n": 64,
+      "dates_with_observations": 14
+    },
+    {
+      "baseline": "expression",
+      "model": "primacy",
+      "metric": "eligible_integrated_choice",
+      "gain_nat": 0.02695438142278226,
+      "date_bootstrap_95": [
+        0.0018575639169692401,
+        0.05562540611478162
+      ],
+      "equal_date_gain": 0.03398631790310656,
+      "n": 205,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "expression",
+      "model": "primacy",
+      "metric": "T_eligible_integrated_choice",
+      "gain_nat": 0.028923310285763414,
+      "date_bootstrap_95": [
+        -0.03889100895092667,
+        0.08705632688780639
+      ],
+      "equal_date_gain": 0.0027243768723878648,
+      "n": 64,
+      "dates_with_observations": 14
+    },
+    {
+      "baseline": "cancellation",
+      "model": "primacy",
+      "metric": "joint",
+      "gain_nat": 0.005289077419391623,
+      "date_bootstrap_95": [
+        -0.003935565879930509,
+        0.016082585198626324
+      ],
+      "equal_date_gain": 0.009085174575831108,
+      "n": 462,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "cancellation",
+      "model": "primacy",
+      "metric": "courtship",
+      "gain_nat": 0.0,
+      "date_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "equal_date_gain": 0.0,
+      "n": 462,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "cancellation",
+      "model": "primacy",
+      "metric": "mating",
+      "gain_nat": 0.0,
+      "date_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "equal_date_gain": 0.0,
+      "n": 462,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "cancellation",
+      "model": "primacy",
+      "metric": "participation",
+      "gain_nat": 0.0,
+      "date_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "equal_date_gain": 0.0,
+      "n": 462,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "cancellation",
+      "model": "primacy",
+      "metric": "mating_choice",
+      "gain_nat": 0.006481574980792885,
+      "date_bootstrap_95": [
+        -0.0050586677454534735,
+        0.01919833376586099
+      ],
+      "equal_date_gain": 0.00898833219446073,
+      "n": 377,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "cancellation",
+      "model": "primacy",
+      "metric": "eligible_choice",
+      "gain_nat": 0.011608294447458378,
+      "date_bootstrap_95": [
+        -0.009132910411731655,
+        0.03346025451040634
+      ],
+      "equal_date_gain": 0.014562897205517686,
+      "n": 205,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "cancellation",
+      "model": "primacy",
+      "metric": "T_eligible_choice",
+      "gain_nat": 0.03373692716654677,
+      "date_bootstrap_95": [
+        -0.035750699135094266,
+        0.0929158828356853
+      ],
+      "equal_date_gain": 0.004365707095029221,
+      "n": 64,
+      "dates_with_observations": 14
+    },
+    {
+      "baseline": "cancellation",
+      "model": "primacy",
+      "metric": "eligible_integrated_choice",
+      "gain_nat": 0.010731039710218878,
+      "date_bootstrap_95": [
+        -0.009171543319961527,
+        0.031452909318453647
+      ],
+      "equal_date_gain": 0.013541244321695494,
+      "n": 205,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "cancellation",
+      "model": "primacy",
+      "metric": "T_eligible_integrated_choice",
+      "gain_nat": 0.0294095635563311,
+      "date_bootstrap_95": [
+        -0.03919665067576797,
+        0.08851250323505602
+      ],
+      "equal_date_gain": 0.003253634328324587,
+      "n": 64,
+      "dates_with_observations": 14
+    },
+    {
+      "baseline": "expression",
+      "model": "cancellation",
+      "metric": "joint",
+      "gain_nat": 0.006117358244474091,
+      "date_bootstrap_95": [
+        -0.003141041674237374,
+        0.01480349975300184
+      ],
+      "equal_date_gain": 0.005378168052185339,
+      "n": 462,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "expression",
+      "model": "cancellation",
+      "metric": "courtship",
+      "gain_nat": 0.0,
+      "date_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "equal_date_gain": 0.0,
+      "n": 462,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "expression",
+      "model": "cancellation",
+      "metric": "mating",
+      "gain_nat": 0.0,
+      "date_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "equal_date_gain": 0.0,
+      "n": 462,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "expression",
+      "model": "cancellation",
+      "metric": "participation",
+      "gain_nat": 0.0,
+      "date_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "equal_date_gain": 0.0,
+      "n": 462,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "expression",
+      "model": "cancellation",
+      "metric": "mating_choice",
+      "gain_nat": 0.007496603472008043,
+      "date_bootstrap_95": [
+        -0.003997880862358672,
+        0.017693024047597334
+      ],
+      "equal_date_gain": 0.005856000479369118,
+      "n": 377,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "expression",
+      "model": "cancellation",
+      "metric": "eligible_choice",
+      "gain_nat": 0.015301903010235901,
+      "date_bootstrap_95": [
+        -0.0040569598400608375,
+        0.03518229221927217
+      ],
+      "equal_date_gain": 0.018016485442351685,
+      "n": 205,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "expression",
+      "model": "cancellation",
+      "metric": "T_eligible_choice",
+      "gain_nat": -0.006070142525721628,
+      "date_bootstrap_95": [
+        -0.011455995449236533,
+        -0.0011371210604012199
+      ],
+      "equal_date_gain": -0.005545601211887142,
+      "n": 64,
+      "dates_with_observations": 14
+    },
+    {
+      "baseline": "expression",
+      "model": "cancellation",
+      "metric": "eligible_integrated_choice",
+      "gain_nat": 0.016223341712563386,
+      "date_bootstrap_95": [
+        -0.001043964536415774,
+        0.03526464630649945
+      ],
+      "equal_date_gain": 0.020445073581411066,
+      "n": 205,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "expression",
+      "model": "cancellation",
+      "metric": "T_eligible_integrated_choice",
+      "gain_nat": -0.0004862532705676853,
+      "date_bootstrap_95": [
+        -0.0019584382111940283,
+        0.0007916889407707513
+      ],
+      "equal_date_gain": -0.000529257455936716,
+      "n": 64,
+      "dates_with_observations": 14
+    }
+  ],
+  "eligible_only_models": {
+    "marginal": {
+      "eligible_choice": {
+        "n": 205,
+        "dates": 15,
+        "nll": 0.7079039803093845,
+        "equal_date_nll": 0.7080371061611926
+      },
+      "T_eligible_choice": {
+        "n": 64,
+        "dates": 14,
+        "nll": 0.7188048022807589,
+        "equal_date_nll": 0.7118180754077016
+      }
+    },
+    "primacy": {
+      "eligible_choice": {
+        "n": 205,
+        "dates": 15,
+        "nll": 0.6787630694879835,
+        "equal_date_nll": 0.6702767346246754
+      },
+      "T_eligible_choice": {
+        "n": 64,
+        "dates": 14,
+        "nll": 0.688029460818504,
+        "equal_date_nll": 0.7118006072917479
+      }
+    },
+    "cancellation": {
+      "eligible_choice": {
+        "n": 205,
+        "dates": 15,
+        "nll": 0.6895871295395204,
+        "equal_date_nll": 0.6844309623808928
+      },
+      "T_eligible_choice": {
+        "n": 64,
+        "dates": 14,
+        "nll": 0.7185990010685108,
+        "equal_date_nll": 0.7116477730729687
+      }
+    }
+  },
+  "eligible_only_contrasts": [
+    {
+      "baseline": "marginal",
+      "model": "primacy",
+      "metric": "eligible_choice",
+      "gain_nat": 0.029140910821400835,
+      "date_bootstrap_95": [
+        -0.0023078343625980735,
+        0.06481322184203317
+      ],
+      "equal_date_gain": 0.03776037153651722,
+      "n": 205,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "marginal",
+      "model": "primacy",
+      "metric": "T_eligible_choice",
+      "gain_nat": 0.030775341462254746,
+      "date_bootstrap_95": [
+        -0.051630071801923125,
+        0.10274142956351946
+      ],
+      "equal_date_gain": 1.746811595370958e-05,
+      "n": 64,
+      "dates_with_observations": 14
+    },
+    {
+      "baseline": "cancellation",
+      "model": "primacy",
+      "metric": "eligible_choice",
+      "gain_nat": 0.01082406005153675,
+      "date_bootstrap_95": [
+        -0.013263081882163172,
+        0.03584639450452146
+      ],
+      "equal_date_gain": 0.014154227756217545,
+      "n": 205,
+      "dates_with_observations": 15
+    },
+    {
+      "baseline": "cancellation",
+      "model": "primacy",
+      "metric": "T_eligible_choice",
+      "gain_nat": 0.030569540250006622,
+      "date_bootstrap_95": [
+        -0.05173021678187569,
+        0.10230654291549487
+      ],
+      "equal_date_gain": -0.0001528342187791005,
+      "n": 64,
+      "dates_with_observations": 14
+    }
+  ],
+  "uncertainty": "5000 paired date-proxy resamples; not calibrated coverage or refit uncertainty",
+  "seed": 20261031,
+  "meaningful_gain_nat": 0.01
+}

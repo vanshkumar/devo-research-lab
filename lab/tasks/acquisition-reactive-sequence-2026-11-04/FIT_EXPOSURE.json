@@ -1,0 +1,188 @@
+{
+  "utc": "2026-11-05T04:03:37.110645+00:00",
+  "strata": {
+    "historical40": {
+      "exposure": {
+        "actor_optimizer": {
+          "fit_n": 62,
+          "fit_lab_counts": {
+            "angelakilab": 8,
+            "churchlandlab": 8,
+            "cortexlab": 8,
+            "danlab": 9,
+            "mainenlab": 12,
+            "mrsicflogellab": 5,
+            "zadorlab": 12
+          },
+          "common_animals": [],
+          "common_sites": [
+            "churchlandlab",
+            "cortexlab",
+            "danlab",
+            "mainenlab",
+            "mrsicflogellab",
+            "zadorlab"
+          ],
+          "n_development_animals_in_common_sites": 21
+        },
+        "actor_checkpoint_allocated": {
+          "fit_n": 12,
+          "fit_lab_counts": {
+            "angelakilab": 1,
+            "churchlandlab": 3,
+            "cortexlab": 1,
+            "danlab": 1,
+            "mainenlab": 4,
+            "zadorlab": 2
+          },
+          "common_animals": [],
+          "common_sites": [
+            "churchlandlab",
+            "cortexlab",
+            "danlab",
+            "mainenlab",
+            "zadorlab"
+          ],
+          "n_development_animals_in_common_sites": 18
+        },
+        "session_rho_scored": {
+          "fit_n": 46,
+          "fit_lab_counts": {
+            "angelakilab": 2,
+            "churchlandlab": 8,
+            "cortexlab": 6,
+            "danlab": 5,
+            "mainenlab": 9,
+            "mrsicflogellab": 5,
+            "zadorlab": 11
+          },
+          "common_animals": [],
+          "common_sites": [
+            "churchlandlab",
+            "cortexlab",
+            "danlab",
+            "mainenlab",
+            "mrsicflogellab",
+            "zadorlab"
+          ],
+          "n_development_animals_in_common_sites": 21
+        }
+      },
+      "sites": {
+        "churchlandlab": 7,
+        "zadorlab": 5,
+        "danlab": 1,
+        "cortexlab": 2,
+        "mrsicflogellab": 3,
+        "mainenlab": 3,
+        "hoferlab": 9,
+        "wittenlab": 10
+      },
+      "animal_mean_log_loss": {
+        "static": 0.6972435340888128,
+        "drift": 0.6853237048172793,
+        "history": 0.6133933391913233,
+        "existing": 0.5241184478876835,
+        "session": 0.523942055996804
+      },
+      "animal_mean_track_loss": 0.5432583704474523
+    },
+    "later24": {
+      "exposure": {
+        "actor_optimizer": {
+          "fit_n": 62,
+          "fit_lab_counts": {
+            "angelakilab": 8,
+            "churchlandlab": 8,
+            "cortexlab": 8,
+            "danlab": 9,
+            "mainenlab": 12,
+            "mrsicflogellab": 5,
+            "zadorlab": 12
+          },
+          "common_animals": [],
+          "common_sites": [
+            "angelakilab",
+            "churchlandlab",
+            "cortexlab",
+            "mrsicflogellab"
+          ],
+          "n_development_animals_in_common_sites": 14
+        },
+        "actor_checkpoint_allocated": {
+          "fit_n": 12,
+          "fit_lab_counts": {
+            "angelakilab": 1,
+            "churchlandlab": 3,
+            "cortexlab": 1,
+            "danlab": 1,
+            "mainenlab": 4,
+            "zadorlab": 2
+          },
+          "common_animals": [],
+          "common_sites": [
+            "angelakilab",
+            "churchlandlab",
+            "cortexlab"
+          ],
+          "n_development_animals_in_common_sites": 8
+        },
+        "session_rho_scored": {
+          "fit_n": 46,
+          "fit_lab_counts": {
+            "angelakilab": 2,
+            "churchlandlab": 8,
+            "cortexlab": 6,
+            "danlab": 5,
+            "mainenlab": 9,
+            "mrsicflogellab": 5,
+            "zadorlab": 11
+          },
+          "common_animals": [],
+          "common_sites": [
+            "angelakilab",
+            "churchlandlab",
+            "cortexlab",
+            "mrsicflogellab"
+          ],
+          "n_development_animals_in_common_sites": 14
+        }
+      },
+      "sites": {
+        "churchlandlab": 2,
+        "mrsicflogellab": 6,
+        "cortexlab": 1,
+        "angelakilab": 5,
+        "hoferlab": 10
+      },
+      "animal_mean_log_loss": {
+        "static": 0.7214916477111881,
+        "drift": 0.7241754395214207,
+        "history": 0.633806745028327,
+        "existing": 0.5689762414283616,
+        "session": 0.5682944628963592
+      },
+      "animal_mean_track_loss": 0.5760239876283163
+    }
+  },
+  "source_episode_count": 531,
+  "asset_count": 839,
+  "original_cv_actually_evaluated": 11,
+  "actor_checkpoint": 975,
+  "note": "Session rho shares original GRU weights; these fits were not rotated with our site folds. No current recurrent fit.",
+  "bytes": {
+    "explicit_file_reads": 1348580
+  },
+  "metadata_sha256": {
+    "campaigns/population_learning_transport_2026-10-28/protocols/FREEZE.json": "625535ac5c20fe7301b7dcdec22549fd0a708271cc51dd79df8dee6f5c37a64c",
+    "campaigns/learning_rule_transport_2026-10-28/protocols/RNN_FREEZE.json": "a4bcaac21b1302d0527daa31df119bd64b38c7389fcdd8d9323f7eecad5cd652",
+    "campaigns/learning_rule_transport_2026-10-28/artifacts/rnn/RNN_SELECTION.json": "93d57ec82790716ff4e0b5d1e022fcd7e4b345b56e85f84af86d9dc89d6d83f2",
+    "campaigns/learning_rule_transport_2026-10-28/artifacts/rnn/main_ALLOCATION.json": "ea8380bbc05536ae94ce878058eb2b948caf6ebea573e39cfc544a95b41f0e42",
+    "campaigns/learning_rule_transport_2026-10-28/artifacts/models/DEVELOPMENT_MODEL_SPLIT.json": "1ebd21840771d2b101a80ee9912615075f7a99d55520e5cfe35bc4d95fbc6d10",
+    "campaigns/learning_rule_transport_2026-10-28/protocols/SPLIT.json": "4707198a2b0a1fe867612ddacc5fd7e34203674bf29372e21bbdad320759fe83",
+    "campaigns/learning_transport_revised_2026-10-29/artifacts/transition_fit/FIT_DISPOSITION.json": "6642d542d8cd791f9183fd23d6ac2fc6a5b25d8549386b0a2d34e092003142b2",
+    "lab/tasks/acquisition-reactive-sequence-2026-11-04/SOURCE_MANIFEST.json": "19c68735e1fd721ad86a5c05debedf98f8782e8d4461799efe3d3d0925958210",
+    "lab/tasks/acquisition-reactive-sequence-2026-11-04/CALIBRATION.json": "f1edb0e23125cbf859fc6cb509a301a80748482da198f62bd400fb0b3335521d",
+    "lab/tasks/acquisition-reactive-sequence-2026-11-04/TRACK_CALIBRATION.json": "55c1d11a6ddac8dad7871e24fd71e73700b9dc5f5d20a858cab7d58c4bba9b3b"
+  }
+}

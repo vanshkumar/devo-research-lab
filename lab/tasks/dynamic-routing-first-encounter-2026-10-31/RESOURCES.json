@@ -1,0 +1,51 @@
+{
+  "created_utc": "2026-11-01T03:41:57Z",
+  "status": "CLOSED_frozen_evaluation_source_gate_failed_no_primary_scores",
+  "public_operations": 96,
+  "direct_http_operations": 95,
+  "failed_web_open_operations": 1,
+  "public_operation_limit": 96,
+  "operation_definition": "One logical bounded public source call; provider-internal activity not measured. No retries or further network calls.",
+  "exact_direct_http_ingress_bytes": 3198256,
+  "failed_web_ingress_reserve_bytes": 2000000,
+  "charged_ingress_bytes": 5198256,
+  "ingress_limit_bytes": 20000000,
+  "manual_additional_read_decode_hash_charges": {
+    "source_context_codec_metadata_and_failed_passes": 150000000,
+    "development_and_conditional_controls": 70000000,
+    "evaluation_decode_forecasts_and_failed_score_attempt": 45000000,
+    "postvalidation_source_audit_replay_and_closeout": 40000000
+  },
+  "charged_additional_read_bytes": 305000000,
+  "additional_read_limit_bytes": 400000000,
+  "charge_method": "Explicit conservative manual phase charges, including package handling, materialized arrays, hashing, failures, replay and terminal docs; exact total read I/O not metered. Failed syntax1MB, failed development5MB and guarded score5MB are included, not extra.",
+  "largest_measured_local_rss_bytes": 93536256,
+  "peak_rss_limit_bytes": 750000000,
+  "unmeasured_peaks": [
+    "failed development fit/scoring command peaks",
+    "web provider/inaccessible DOI operation"
+  ],
+  "scientific_processes_at_once": 1,
+  "numerical_threads": 1,
+  "jobs": 0,
+  "new_shared_environment_changes": 0,
+  "dependencies": "Numcodecs0.12.1 ARM64 wheel extracted only to task-local deps; existing numpy/scipy unchanged.",
+  "predecessor_preserved": {
+    "public_operations": 12,
+    "exact_direct_http_ingress_bytes": 2374916,
+    "charged_ingress_bytes": 8374916,
+    "charged_additional_read_bytes": 50000000,
+    "largest_measured_local_rss_bytes": 25411584,
+    "provider_and_failed_connector_peaks": "UNKNOWN",
+    "status": "CLOSED, never restarted"
+  },
+  "lineage": {
+    "public_operations": 108,
+    "charged_ingress_bytes": 13573172,
+    "charged_additional_read_bytes": 355000000
+  },
+  "start_utc": "2026-11-01T03:17:08.682Z",
+  "source_gate_earned_utc": "2026-11-01T03:24:25Z",
+  "scientific_freeze_utc": "2026-11-01T03:32:36Z",
+  "deadline_utc": "2026-11-01T04:37:08.682Z"
+}

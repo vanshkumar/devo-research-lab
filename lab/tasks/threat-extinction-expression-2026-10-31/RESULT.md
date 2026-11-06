@@ -1,0 +1,16 @@
+# No empirical comparison: defining public trial records not certified
+
+The question remains unresolved. This pass acquired source metadata and search output, but zero participant records. It did not test whether cue-specific updating predicts extinction physiology or expectancy better than common habituation. No biological, clinical or model-equivalence conclusion follows.
+
+Two candidate deposits were examined within the fixed bound:
+
+1. **Mertens et al., OSF c3dtn.** The actual complete file listing has two objects: a 91,476-byte registration PDF and an 86,678-byte Experiment 1 ZIP, both version 1, with no child components. Indexed primary-paper methods show that Experiment 1 has two reinforced cues and no safety cue. Its payload was not acquired. The paper's **Experiment 2 does add a safety cue** and cites a different OSF deposit, **dxpb3**. That deposit was discovered in the indexed methods after the two-candidate-deposit allocation was consumed, and was not inspected here. This corrects the initial overbroad rejection of the whole paper. [Primary paper, DOI 10.1016/j.jbtep.2018.09.007](https://doi.org/10.1016/j.jbtep.2018.09.007); [inspected deposit](https://osf.io/c3dtn/).
+2. **Ehlers et al., Zenodo concept 22098433.** Both returned versions, 22098434 and latest 22127185, declare embargo until 2031-08-25 and expose zero files. The linked GitHub tree is complete and contains eight code/license/README files, with no participant data. A CC-BY license label and descriptions of ratings.RData/scr.RData do not certify present access. [Latest returned version](https://zenodo.org/records/22127185); [public code](https://github.com/manaehlers/ART-fear-conditioning).
+
+The executed source reconstruction in `inspect_sources.py` verifies those metadata counts, embargo flags, version identifiers, root-file pins and the complete Git tree. `FIRST_DATA_CHECK.json` explicitly records zero participant rows, no certified participant units, no paired-channel/chronology certification, and **BLOCKED_BEFORE_PARTICIPANT_DATA_CHECK**. It must not be counted as an empirical result merely because it executes successfully.
+
+Public primary-paper summaries of both Mertens experiments, including group figures/statistics, were exposed during discovery. No participant payload was acquired or decoded in this pass; any subsequent split would retain that aggregate prior knowledge. Source descriptions do not establish actual same-participant pairing, exact trial order, delivered US coding, missingness, or supplied scoring in the uninspected Experiment 2 deposit.
+
+All main scientific stages remain unrun: development comparison/revision, protocol freeze, held-participant forecasts, null/known-effect controls, scale sensitivity, and distinct independent empirical review. No artificial substitute or aggregate-only model was fitted. Source/permission failures remain saved; no protected/old raw access occurred. Jobs are zero.
+
+Close this allocation at the two-deposit bound. The useful next investment, if selected by PI, is one separately bounded source check directly at [Experiment 2 dxpb3](https://osf.io/dxpb3/), beginning with a small actual paired record and chronology check. Its availability is still unverified. This is a lead, not an assertion that another study is feasible or a request to expand this assignment's limits.

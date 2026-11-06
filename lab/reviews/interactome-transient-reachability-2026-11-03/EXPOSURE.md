@@ -1,0 +1,13 @@
+# Exposure and preserved restrictions
+
+Inherited totals145publicops/654594722charged ingressUNCERTIFIED/4.901GBseparate-read booking are additive and unchanged. Author900sconservativeprocess/204537856largestsuccessfulRSS, all source/schema/grid/clipping/interruption failures and provider/runtime/physicalIOunknowns survive. Both earlier source closures, their original bytes and nativehistories remain CLOSED. Newcontexts do not reset observations.
+
+Reviewer NEWpublicops=0, NEWingress=0, newdependencies=0. CompletefixedGg/Gs279x279matrices,279emaskvalues,279names, FWD/PLMpresets and cachedoriginalcode/paper/UItext decoded/source-hashed repeatedly. No originalrepositorysaved_dynamics or empirical observations were read.
+
+The admitted author NEWrawmodelbaselines/all six primarybranches/tighterliteralfinite-sham/reference arrays were read/decoded/scored/hashed. Metadata inspection itself decoded complete namedmembers; no pristine status is claimed. All raw/summary/auxiliary author exposure is inherited even when not reread here. Frozen source/config/protocol hashes were checked; none was changed.
+
+Reviewer executed20full-state trajectory realizations: five short/20sreferencecomparisons (including originalreleasedfunctions), fourfreshoriginal-pilot baseline/branchreplays and elevencontraryprimary/BDFbaseline-branch trajectories. All states/all37motorreadouts/initializationcontrols/linear-matrix/warnings/phase/rendering outputs are consumed development forever. Saved completeprimaryrawpaths include all279voltages/279gates. The repeatedcontraryBDFbaseline was consumed and its scalar comparison/endstate retained, but fullrawpath was not separately archived; no selective replacement or rerun concealed that omission. No pre/postvalidation status reset.
+
+ONEcommonbackground contrast was selected/frozen before its new outcomes, with threebranches/twofixedsourceinitializations. `new_conditions_searched:0` inCONTRARY means ZEROadaptiveadditionalsettings, not zero evaluated experimental conditions. Numerical references and same-outcome descriptive audits do not add a second scientific contrary. Scientificprotocolrevisions=0; all frozenbytes unchanged.
+
+All19heat/sixoldbaseline recordings remain consumed/CLOSED. ALLreservedworms/Pan20/Flesch/HABITS/memory/Figure4_42/optional210/category targets retain protection. No old fitted/forecast/numerical inputs, recordings, newhumanexperiments, outside contact, paidservice/cloud/creditreset/publication/securitychange or unrelatedfiles were used. Wholecontext/import/provider/physicalIO are not exhaustively measured; the full900MBreview containing readbudget is conservatively charged without complete-I/O certification.

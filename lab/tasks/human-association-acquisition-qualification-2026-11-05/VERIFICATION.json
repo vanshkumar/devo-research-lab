@@ -1,0 +1,240 @@
+{
+  "scope": "Static metadata and code integrity, plus paper-design arithmetic",
+  "author": {
+    "full_name": "Anne Collins",
+    "orcid": {
+      "id": "0000-0003-3751-3662",
+      "status": "VERIFIED"
+    }
+  },
+  "evaluation_object": {
+    "file_id": "5da0ab3126eb50000b7c6280",
+    "version": "1",
+    "name": "TortoiseAndHareData.csv",
+    "bytes": 4242799,
+    "advertised_hashes": {
+      "md5": "735a0b56a7d143e10fa1c8d99e4ae2ec",
+      "sha256": "5067c78123c8f5693efb903e22e30b9cf093e64cb3892ee34fc96ba264186694"
+    },
+    "versioned_download": "https://osf.io/download/fz9sw/?revision=1"
+  },
+  "source_index": {
+    "tree": "f2d4108dea80642e7d5b95d1c108916091a221c8",
+    "entries": 74,
+    "brown_eeg_expe3": {
+      "path": "RLWM/DataSets/Expe3.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ab7b32fd81296453835edb81a7c59d97d9325a2",
+      "size": 352400,
+      "url": "https://api.github.com/repos/AnneCollins/WMH/git/blobs/2ab7b32fd81296453835edb81a7c59d97d9325a2"
+    },
+    "brown_cf12_expe1": {
+      "path": "RLWM/DataSets/Expe1.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08735e852a578873d4297e4115a1fef37786bc2e",
+      "size": 621081,
+      "url": "https://api.github.com/repos/AnneCollins/WMH/git/blobs/08735e852a578873d4297e4115a1fef37786bc2e"
+    }
+  },
+  "design_arithmetic": {
+    "berkeley_tested_counts": [
+      49,
+      42
+    ],
+    "publication_excluded_on_late_performance": 6,
+    "berkeley_acquisition_opportunities_per_complete_person": 780,
+    "berkeley_retention_opportunities_per_complete_person": 216,
+    "nominal_complete_csv_trial_rows_if_91_and_both_phases": 90636,
+    "brown_eeg_reported_people": 40,
+    "brown_eeg_nominal_max_acquisition_trials_per_person": 1080,
+    "brown_eeg_nominal_3_or_6_load_blocks_across_40_people": 280,
+    "nominal_person_level_95pct_normal_halfwidth_in_SD_units": {
+      "36": 0.326667,
+      "40": 0.309903,
+      "42": 0.302435,
+      "43": 0.298897,
+      "49": 0.28,
+      "85": 0.212592,
+      "91": 0.205464
+    }
+  },
+  "body_price": {
+    "brown_eeg_plus_berkeley_once": 4595199,
+    "two_complete_nominal_reads_from_retained_files": 9190398,
+    "cold_review_redownload_total": 9190398,
+    "brown_cf12_instead_plus_berkeley_once": 4863880
+  },
+  "observed_direct_body_bytes": 118907,
+  "requests_verified": [
+    {
+      "name": "wmh-tree.json",
+      "method": "GET",
+      "body_bytes": 21316,
+      "sha256": "924ce0e069291d03b9e4a2fbfb16de1661d1dd16de81e58a414e9b935256afc0"
+    },
+    {
+      "name": "data-readme.txt",
+      "method": "GET",
+      "body_bytes": 1495,
+      "sha256": "4da69366e171c4ac7db3dcdc62baff4092b0ce2c5ab8a04ab2dc014e94607683"
+    },
+    {
+      "name": "rlwm-readme.txt",
+      "method": "GET",
+      "body_bytes": 2154,
+      "sha256": "240591a44faa4dbb10287269da4e0b4885409edd2e4fcb4b865249b4f5574b2c"
+    },
+    {
+      "name": "validation.m.txt",
+      "method": "GET",
+      "body_bytes": 5305,
+      "sha256": "72ca3debf874486da8f1fd4031b7140b43e21af551972394d7a4ac63675d7ea2"
+    },
+    {
+      "name": "general_fitting_script.m.txt",
+      "method": "GET",
+      "body_bytes": 18002,
+      "sha256": "0f413350483dd871620be60377a6a1d0258fba3be60666e99baf875e5cf016e1"
+    },
+    {
+      "name": "analyzeBehavior.m.txt",
+      "method": "GET",
+      "body_bytes": 3626,
+      "sha256": "fb9816895e609af757d63d03915b6fbda2bcca6e7d8242c982691f38d2fa2128"
+    },
+    {
+      "name": "osf-node.json",
+      "method": "GET",
+      "body_bytes": 4473,
+      "sha256": "64164fbe089e60c67871b9ff97b1e0ec445f0dc163082a0143b8413387661fe5"
+    },
+    {
+      "name": "osf-files.json",
+      "method": "GET",
+      "body_bytes": 2253,
+      "sha256": "33ee7dd04b7e16deab24865b38b98bdc52778233b1e68c53a358db24e36802b6"
+    },
+    {
+      "name": "osf-children.json",
+      "method": "GET",
+      "body_bytes": 128,
+      "sha256": "337a5845bf62ccbe2bee6d47834c9d6317bc033ab935af60bc66d75c688ef71a"
+    },
+    {
+      "name": "osf-contributors.json",
+      "method": "GET",
+      "body_bytes": 1881,
+      "sha256": "820c8b8eb7b443d01db62ebf315eaa80a342a4473818df076522f6039c40c3ce"
+    },
+    {
+      "name": "osf-wikis.json",
+      "method": "GET",
+      "body_bytes": 1053,
+      "sha256": "8f9ad7faa3316226eb98965899754b9723fd681c414d56147ace8b4edf41eaed"
+    },
+    {
+      "name": "osf-versions.json",
+      "method": "GET",
+      "body_bytes": 656,
+      "sha256": "e4ac9333ca58fbe7b71d116f7558db8211a00ce05f6604c4172562ac21524167"
+    },
+    {
+      "name": "osf-linked.json",
+      "method": "GET",
+      "body_bytes": 128,
+      "sha256": "337a5845bf62ccbe2bee6d47834c9d6317bc033ab935af60bc66d75c688ef71a"
+    },
+    {
+      "name": "osf-license.json",
+      "method": "GET",
+      "body_bytes": 13121,
+      "sha256": "32fb3d7b32be0843803f96424fe7739f69574481211a2d323e16f8da8536c635"
+    },
+    {
+      "name": "osf-providers.json",
+      "method": "GET",
+      "body_bytes": 947,
+      "sha256": "4fc2d63847d8cbe9ab74d30a0bb81e349bb70dc2fb725e58ec66e269a36f3ba1"
+    },
+    {
+      "name": "osf-wiki-home.md",
+      "method": "GET",
+      "body_bytes": 226,
+      "sha256": "03670e6641fbcb0a764cbc803e8f692ae55ba2ffaee2f0ba299ddfa55566b081"
+    },
+    {
+      "name": "dne-ref.json",
+      "method": "GET",
+      "body_bytes": 399,
+      "sha256": "95eeed47f7084720325952e71bb2bee1beee85edbc914fa15b2c0308bfe4ffa8"
+    },
+    {
+      "name": "dne-fit_models.m.txt",
+      "method": "GET",
+      "body_bytes": 6509,
+      "sha256": "4f660d87e825fb14104c0dc96e02c7514b5104303a2147e6cded200cc26ac2ed"
+    },
+    {
+      "name": "dne-dynamic_model.m.txt",
+      "method": "GET",
+      "body_bytes": 5164,
+      "sha256": "1880ec216a36d610c0ced0c1df5109d7759dcef00829ad028ea17cce8b8ad2d5"
+    },
+    {
+      "name": "dne-dynamic_model_llh.m.txt",
+      "method": "GET",
+      "body_bytes": 3942,
+      "sha256": "1aa97ff7370750bab51aa086e8f6c934e861cc1bd3d1c4be6f9535eabff56425"
+    },
+    {
+      "name": "dne-static_model.m.txt",
+      "method": "GET",
+      "body_bytes": 5188,
+      "sha256": "c7b70497affa5954c5f22545e67678c2e999b219934d933ae05e667946dc3447"
+    },
+    {
+      "name": "dne-validate_models.m.txt",
+      "method": "GET",
+      "body_bytes": 6569,
+      "sha256": "991f170a739d78bf8dc75ce08671ca7a43d652f5171a348aa243c09b858fd5f2"
+    },
+    {
+      "name": "wmh-RLWM.m.txt",
+      "method": "GET",
+      "body_bytes": 6172,
+      "sha256": "b9878e9a15257844860f9da0618e360059a4f0ef37e17f01bbf6f362be2925c3"
+    },
+    {
+      "name": "wmh-RLWM_llh.m.txt",
+      "method": "GET",
+      "body_bytes": 3555,
+      "sha256": "f18981efc672779432bf7fe96454da5ecfe4079fab8e0acafa1203bf02669d49"
+    },
+    {
+      "name": "wmh-RLWMH.m.txt",
+      "method": "GET",
+      "body_bytes": 4517,
+      "sha256": "279d2ab3831217c00394cf569f0955480da286abd610b2472e1b2f840adb87c7"
+    },
+    {
+      "name": "dne-mat.head",
+      "method": "HEAD",
+      "headers_sha256": "0b024bd47c0406317a0eac251cb8e3ead6ed79624ff535fe7232bec042eb467a",
+      "headers_bytes": 898,
+      "etag": "\"e8a0f56306be184a89d708a87a7b9d6df6fb19fc674ba5faa49648b2ef2ee013\"",
+      "accept-ranges": "bytes",
+      "date": "Thu, 05 Nov 2026 21:13:31 GMT",
+      "content-length": "884772"
+    },
+    {
+      "name": "osf-file-cedar.json",
+      "method": "GET",
+      "body_bytes": 128,
+      "sha256": "337a5845bf62ccbe2bee6d47834c9d6317bc033ab935af60bc66d75c688ef71a"
+    }
+  ],
+  "trial_data_files_opened": 0,
+  "verification_peak_rss_bytes": 11862016
+}

@@ -1,0 +1,1223 @@
+{
+  "comparison": "same first6animals/group,independent samples128vs512 using recorded coupled seeds",
+  "summary": [
+    {
+      "group": "learn_external",
+      "model": "fitted",
+      "n": 6,
+      "mean_delta_crps": 5.398721288735718e-05,
+      "max_abs_delta_crps": 0.001002988988376051,
+      "mean_delta_high_accuracy_mae": 0.0006714508090115458
+    },
+    {
+      "group": "learn_external",
+      "model": "growth",
+      "n": 6,
+      "mean_delta_crps": 3.292562054935458e-05,
+      "max_abs_delta_crps": 0.001668156218178632,
+      "mean_delta_high_accuracy_mae": 0.001153105475508413
+    },
+    {
+      "group": "learn_external",
+      "model": "oracle",
+      "n": 6,
+      "mean_delta_crps": 5.8992524641580946e-05,
+      "max_abs_delta_crps": 0.0009144844124022375,
+      "mean_delta_high_accuracy_mae": 0.0006047990103608576
+    },
+    {
+      "group": "learn_external",
+      "model": "persistence",
+      "n": 6,
+      "mean_delta_crps": -0.0015389844483627915,
+      "max_abs_delta_crps": 0.002830979007086315,
+      "mean_delta_high_accuracy_mae": -0.002580863577778092
+    },
+    {
+      "group": "learn_same",
+      "model": "fitted",
+      "n": 6,
+      "mean_delta_crps": 9.612311934103248e-07,
+      "max_abs_delta_crps": 0.00034210479891797277,
+      "mean_delta_high_accuracy_mae": -0.00037059680920601264
+    },
+    {
+      "group": "learn_same",
+      "model": "growth",
+      "n": 6,
+      "mean_delta_crps": 0.00012865914961092927,
+      "max_abs_delta_crps": 0.0014226176770838934,
+      "mean_delta_high_accuracy_mae": 0.0001445230901047373
+    },
+    {
+      "group": "learn_same",
+      "model": "oracle",
+      "n": 6,
+      "mean_delta_crps": 1.1517322954331341e-05,
+      "max_abs_delta_crps": 0.00032011681762139643,
+      "mean_delta_high_accuracy_mae": -0.00030266069936820024
+    },
+    {
+      "group": "learn_same",
+      "model": "persistence",
+      "n": 6,
+      "mean_delta_crps": -0.00012541112155311368,
+      "max_abs_delta_crps": 0.0022967557236318326,
+      "mean_delta_high_accuracy_mae": -0.0005418571564374137
+    }
+  ],
+  "animals": [
+    {
+      "group": "learn_external",
+      "subject": "learn_external_000",
+      "model": "oracle",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.0022502336175700133,
+      "delta_high_accuracy_mae": -0.006403051117591402
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_000",
+      "model": "oracle",
+      "horizon": 3000,
+      "delta_crps_512_minus128": 0.00027378102305620697,
+      "delta_high_accuracy_mae": 0.0010778144225034939
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_000",
+      "model": "oracle",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -0.00013594624862444185,
+      "delta_high_accuracy_mae": 0.0003966785460329525
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_000",
+      "model": "fitted",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.002306548548577564,
+      "delta_high_accuracy_mae": -0.006677052389408411
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_000",
+      "model": "fitted",
+      "horizon": 3000,
+      "delta_crps_512_minus128": 0.00020295090895752765,
+      "delta_high_accuracy_mae": 0.0007421042307194162
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_000",
+      "model": "fitted",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -0.0001302340390742264,
+      "delta_high_accuracy_mae": 0.00023647081460227704
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_000",
+      "model": "persistence",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.00638023124514777,
+      "delta_high_accuracy_mae": -0.013379424102187759
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_000",
+      "model": "persistence",
+      "horizon": 3000,
+      "delta_crps_512_minus128": -0.002830979007086315,
+      "delta_high_accuracy_mae": -0.006303189692613065
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_000",
+      "model": "persistence",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -0.0019388470064220925,
+      "delta_high_accuracy_mae": -0.004392998974505874
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_000",
+      "model": "growth",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.003158913014063177,
+      "delta_high_accuracy_mae": -0.009347020140950166
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_000",
+      "model": "growth",
+      "horizon": 3000,
+      "delta_crps_512_minus128": -0.0005197913472656107,
+      "delta_high_accuracy_mae": -0.00011558307284258162
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_000",
+      "model": "growth",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -0.0004896162729284802,
+      "delta_high_accuracy_mae": -0.00017230008836760513
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_001",
+      "model": "oracle",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.0004298832437233044,
+      "delta_high_accuracy_mae": 0.0011938047511514532
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_001",
+      "model": "oracle",
+      "horizon": 3000,
+      "delta_crps_512_minus128": -0.0006178148050311402,
+      "delta_high_accuracy_mae": -0.0009587876604142676
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_001",
+      "model": "oracle",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -0.0008779747110025972,
+      "delta_high_accuracy_mae": -0.0024248979072505616
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_001",
+      "model": "fitted",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.0001883421771602077,
+      "delta_high_accuracy_mae": 0.001358652864132781
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_001",
+      "model": "fitted",
+      "horizon": 3000,
+      "delta_crps_512_minus128": -0.0005422297179132202,
+      "delta_high_accuracy_mae": -0.0008746019534317945
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_001",
+      "model": "fitted",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -0.0007948846085503829,
+      "delta_high_accuracy_mae": -0.002342519726151099
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_001",
+      "model": "persistence",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -2.2478714380158582e-07,
+      "delta_high_accuracy_mae": -0.0018853618137792266
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_001",
+      "model": "persistence",
+      "horizon": 3000,
+      "delta_crps_512_minus128": 0.00020916367341962394,
+      "delta_high_accuracy_mae": 0.0012372865364444763
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_001",
+      "model": "persistence",
+      "horizon": 5000,
+      "delta_crps_512_minus128": 0.0007642278051929879,
+      "delta_high_accuracy_mae": 0.0023711623006263116
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_001",
+      "model": "growth",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.0017026654736076452,
+      "delta_high_accuracy_mae": -0.005064046411196274
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_001",
+      "model": "growth",
+      "horizon": 3000,
+      "delta_crps_512_minus128": -0.0013533741187164404,
+      "delta_high_accuracy_mae": -0.004780953140225641
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_001",
+      "model": "growth",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -0.0017450100807038758,
+      "delta_high_accuracy_mae": -0.00477662617685598
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_002",
+      "model": "oracle",
+      "horizon": 1000,
+      "delta_crps_512_minus128": 0.0007651792820764086,
+      "delta_high_accuracy_mae": -0.00037651577187322594
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_002",
+      "model": "oracle",
+      "horizon": 3000,
+      "delta_crps_512_minus128": 0.0006950315675251575,
+      "delta_high_accuracy_mae": 0.0008309138980148525
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_002",
+      "model": "oracle",
+      "horizon": 5000,
+      "delta_crps_512_minus128": 0.00026731511410907696,
+      "delta_high_accuracy_mae": -0.00019586118124984703
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_002",
+      "model": "fitted",
+      "horizon": 1000,
+      "delta_crps_512_minus128": 0.0006838133158123365,
+      "delta_high_accuracy_mae": -0.0005698233572168365
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_002",
+      "model": "fitted",
+      "horizon": 3000,
+      "delta_crps_512_minus128": 0.000690802610300946,
+      "delta_high_accuracy_mae": 0.0011671436945413505
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_002",
+      "model": "fitted",
+      "horizon": 5000,
+      "delta_crps_512_minus128": 0.0002928862172540854,
+      "delta_high_accuracy_mae": 3.0634406191901165e-05
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_002",
+      "model": "persistence",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.0005826967235827603,
+      "delta_high_accuracy_mae": -0.0006089756670619173
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_002",
+      "model": "persistence",
+      "horizon": 3000,
+      "delta_crps_512_minus128": -0.0017644244991462457,
+      "delta_high_accuracy_mae": -0.0037314654798030478
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_002",
+      "model": "persistence",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -0.002390162318381392,
+      "delta_high_accuracy_mae": -0.005207223004957712
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_002",
+      "model": "growth",
+      "horizon": 1000,
+      "delta_crps_512_minus128": 0.0018973206401645196,
+      "delta_high_accuracy_mae": 0.001458573736933394
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_002",
+      "model": "growth",
+      "horizon": 3000,
+      "delta_crps_512_minus128": 0.001668156218178632,
+      "delta_high_accuracy_mae": 0.003677227538777861
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_002",
+      "model": "growth",
+      "horizon": 5000,
+      "delta_crps_512_minus128": 0.001394539634579462,
+      "delta_high_accuracy_mae": 0.0026491802458489984
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_003",
+      "model": "oracle",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.0004323962470952486,
+      "delta_high_accuracy_mae": -0.0005372037994880868
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_003",
+      "model": "oracle",
+      "horizon": 3000,
+      "delta_crps_512_minus128": -0.0009144844124022375,
+      "delta_high_accuracy_mae": -0.0008762943154562164
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_003",
+      "model": "oracle",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -0.0006065411750856113,
+      "delta_high_accuracy_mae": -0.00089209371751902
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_003",
+      "model": "fitted",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.0005179562112631042,
+      "delta_high_accuracy_mae": -0.0004859647535379319
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_003",
+      "model": "fitted",
+      "horizon": 3000,
+      "delta_crps_512_minus128": -0.001002988988376051,
+      "delta_high_accuracy_mae": -0.0009306550911185596
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_003",
+      "model": "fitted",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -0.0007125409254100552,
+      "delta_high_accuracy_mae": -0.0009533873546229768
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_003",
+      "model": "persistence",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.0025597021987100177,
+      "delta_high_accuracy_mae": -0.001968947309944291
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_003",
+      "model": "persistence",
+      "horizon": 3000,
+      "delta_crps_512_minus128": -0.0023288721396128587,
+      "delta_high_accuracy_mae": -0.003958297978633257
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_003",
+      "model": "persistence",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -0.0023970436545334706,
+      "delta_high_accuracy_mae": -0.004108869087066147
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_003",
+      "model": "growth",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.0018219031957723841,
+      "delta_high_accuracy_mae": -0.003541196286015902
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_003",
+      "model": "growth",
+      "horizon": 3000,
+      "delta_crps_512_minus128": -0.0014388652050109293,
+      "delta_high_accuracy_mae": -0.00023336137655818878
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_003",
+      "model": "growth",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -0.0011314636868495903,
+      "delta_high_accuracy_mae": -0.000822488112963829
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_004",
+      "model": "oracle",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.00053000903367309,
+      "delta_high_accuracy_mae": -5.165404498677639e-05
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_004",
+      "model": "oracle",
+      "horizon": 3000,
+      "delta_crps_512_minus128": 0.00033475754497572577,
+      "delta_high_accuracy_mae": 0.0008075448489621023
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_004",
+      "model": "oracle",
+      "horizon": 5000,
+      "delta_crps_512_minus128": 0.0004931794486905845,
+      "delta_high_accuracy_mae": 0.0015771193461345256
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_004",
+      "model": "fitted",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.0005814982021882936,
+      "delta_high_accuracy_mae": -0.00013611202444574477
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_004",
+      "model": "fitted",
+      "horizon": 3000,
+      "delta_crps_512_minus128": 0.0003759644298665932,
+      "delta_high_accuracy_mae": 0.000791837670378201
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_004",
+      "model": "fitted",
+      "horizon": 5000,
+      "delta_crps_512_minus128": 0.00048051586197108906,
+      "delta_high_accuracy_mae": 0.0014827826361845237
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_004",
+      "model": "persistence",
+      "horizon": 1000,
+      "delta_crps_512_minus128": 2.9183982335333203e-05,
+      "delta_high_accuracy_mae": 0.0009949644162562388
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_004",
+      "model": "persistence",
+      "horizon": 3000,
+      "delta_crps_512_minus128": -0.0018793077266703803,
+      "delta_high_accuracy_mae": -0.0007702905026872042
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_004",
+      "model": "persistence",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -0.0017595202339930616,
+      "delta_high_accuracy_mae": -0.0005551188959570796
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_004",
+      "model": "growth",
+      "horizon": 1000,
+      "delta_crps_512_minus128": 0.0016495940122865232,
+      "delta_high_accuracy_mae": 0.005858272882974691
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_004",
+      "model": "growth",
+      "horizon": 3000,
+      "delta_crps_512_minus128": 0.001245690554702552,
+      "delta_high_accuracy_mae": 0.005927812190777107
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_004",
+      "model": "growth",
+      "horizon": 5000,
+      "delta_crps_512_minus128": 0.00026780484561025886,
+      "delta_high_accuracy_mae": 0.002073611080287481
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_005",
+      "model": "oracle",
+      "horizon": 1000,
+      "delta_crps_512_minus128": 0.0001568980526432083,
+      "delta_high_accuracy_mae": -6.60883495288006e-05
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_005",
+      "model": "oracle",
+      "horizon": 3000,
+      "delta_crps_512_minus128": 0.0005826842297257731,
+      "delta_high_accuracy_mae": 0.002747602868555181
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_005",
+      "model": "oracle",
+      "horizon": 5000,
+      "delta_crps_512_minus128": 0.0005000030220571432,
+      "delta_high_accuracy_mae": 0.003048291822344562
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_005",
+      "model": "fitted",
+      "horizon": 1000,
+      "delta_crps_512_minus128": 0.00021839939301406333,
+      "delta_high_accuracy_mae": 0.00013634654069588636
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_005",
+      "model": "fitted",
+      "horizon": 3000,
+      "delta_crps_512_minus128": 0.0005994240344883474,
+      "delta_high_accuracy_mae": 0.003132876302980661
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_005",
+      "model": "fitted",
+      "horizon": 5000,
+      "delta_crps_512_minus128": 0.0004348233382775596,
+      "delta_high_accuracy_mae": 0.003180845418231139
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_005",
+      "model": "persistence",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.0008248781438473553,
+      "delta_high_accuracy_mae": -3.32526687249618e-05
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_005",
+      "model": "persistence",
+      "horizon": 3000,
+      "delta_crps_512_minus128": -0.0006394869910805734,
+      "delta_high_accuracy_mae": -0.001959224349376454
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_005",
+      "model": "persistence",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -0.0016056078288113201,
+      "delta_high_accuracy_mae": -0.004062648376207484
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_005",
+      "model": "growth",
+      "horizon": 1000,
+      "delta_crps_512_minus128": 0.0015876137750398048,
+      "delta_high_accuracy_mae": 0.007684009962730776
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_005",
+      "model": "growth",
+      "horizon": 3000,
+      "delta_crps_512_minus128": 0.0005957376214079241,
+      "delta_high_accuracy_mae": 0.002443490713121922
+    },
+    {
+      "group": "learn_external",
+      "subject": "learn_external_005",
+      "model": "growth",
+      "horizon": 5000,
+      "delta_crps_512_minus128": 0.0004900574248458203,
+      "delta_high_accuracy_mae": 0.0013889976066200627
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_000",
+      "model": "oracle",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.0007771145703149174,
+      "delta_high_accuracy_mae": -0.0019885821556367977
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_000",
+      "model": "oracle",
+      "horizon": 3000,
+      "delta_crps_512_minus128": -3.731207830183318e-05,
+      "delta_high_accuracy_mae": -0.00031391488024195766
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_000",
+      "model": "oracle",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -0.00024206486589140042,
+      "delta_high_accuracy_mae": -0.0008256150547500882
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_000",
+      "model": "fitted",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.0007891513088077087,
+      "delta_high_accuracy_mae": -0.0021936759464368516
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_000",
+      "model": "fitted",
+      "horizon": 3000,
+      "delta_crps_512_minus128": -8.050735225630275e-05,
+      "delta_high_accuracy_mae": -0.0004792964069729802
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_000",
+      "model": "fitted",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -0.00029542491466601727,
+      "delta_high_accuracy_mae": -0.0009912761779793736
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_000",
+      "model": "persistence",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -4.5720304505718345e-05,
+      "delta_high_accuracy_mae": 0.0026851747013933447
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_000",
+      "model": "persistence",
+      "horizon": 3000,
+      "delta_crps_512_minus128": 0.0015464922489974026,
+      "delta_high_accuracy_mae": 0.002996488871492481
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_000",
+      "model": "persistence",
+      "horizon": 5000,
+      "delta_crps_512_minus128": 0.0012969848525693772,
+      "delta_high_accuracy_mae": 0.00219443788371404
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_000",
+      "model": "growth",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.00038013310380313053,
+      "delta_high_accuracy_mae": -0.00010607607292900667
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_000",
+      "model": "growth",
+      "horizon": 3000,
+      "delta_crps_512_minus128": 0.000582446726374277,
+      "delta_high_accuracy_mae": 0.0009624174703341051
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_000",
+      "model": "growth",
+      "horizon": 5000,
+      "delta_crps_512_minus128": 0.0002540731253603268,
+      "delta_high_accuracy_mae": 0.00021858987486553932
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_001",
+      "model": "oracle",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -3.8059335675487416e-06,
+      "delta_high_accuracy_mae": -0.0005834626541715293
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_001",
+      "model": "oracle",
+      "horizon": 3000,
+      "delta_crps_512_minus128": 0.00014377318373794655,
+      "delta_high_accuracy_mae": -6.201964225919371e-05
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_001",
+      "model": "oracle",
+      "horizon": 5000,
+      "delta_crps_512_minus128": 0.00017332264708929193,
+      "delta_high_accuracy_mae": 0.0007870171125329249
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_001",
+      "model": "fitted",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -8.00471907922741e-05,
+      "delta_high_accuracy_mae": -0.0005301304902356474
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_001",
+      "model": "fitted",
+      "horizon": 3000,
+      "delta_crps_512_minus128": 0.00012140365000306956,
+      "delta_high_accuracy_mae": -0.00013601569676759823
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_001",
+      "model": "fitted",
+      "horizon": 5000,
+      "delta_crps_512_minus128": 0.000160453650771223,
+      "delta_high_accuracy_mae": 0.0006900413605701039
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_001",
+      "model": "persistence",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.0016631284216991546,
+      "delta_high_accuracy_mae": -0.004040622957249468
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_001",
+      "model": "persistence",
+      "horizon": 3000,
+      "delta_crps_512_minus128": -0.0013961344671576115,
+      "delta_high_accuracy_mae": -0.0027061109577306564
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_001",
+      "model": "persistence",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -0.0015855843833449262,
+      "delta_high_accuracy_mae": -0.0031216582044922003
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_001",
+      "model": "growth",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -8.234280665511337e-05,
+      "delta_high_accuracy_mae": 0.00035391601030948516
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_001",
+      "model": "growth",
+      "horizon": 3000,
+      "delta_crps_512_minus128": 3.194104861132738e-05,
+      "delta_high_accuracy_mae": 0.00012030767659945707
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_001",
+      "model": "growth",
+      "horizon": 5000,
+      "delta_crps_512_minus128": 3.910169279094933e-05,
+      "delta_high_accuracy_mae": -0.0005354587737884352
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_002",
+      "model": "oracle",
+      "horizon": 1000,
+      "delta_crps_512_minus128": 8.807247237809131e-05,
+      "delta_high_accuracy_mae": 0.00048780209753895853
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_002",
+      "model": "oracle",
+      "horizon": 3000,
+      "delta_crps_512_minus128": -4.98086612174195e-05,
+      "delta_high_accuracy_mae": -0.00022032760556819214
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_002",
+      "model": "oracle",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -0.0002588468544134307,
+      "delta_high_accuracy_mae": -0.0007415412325769491
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_002",
+      "model": "fitted",
+      "horizon": 1000,
+      "delta_crps_512_minus128": 9.098954731056284e-05,
+      "delta_high_accuracy_mae": 7.814280169113341e-05
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_002",
+      "model": "fitted",
+      "horizon": 3000,
+      "delta_crps_512_minus128": -3.605396465800395e-05,
+      "delta_high_accuracy_mae": -0.0004816892364683488
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_002",
+      "model": "fitted",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -0.0002225756908955743,
+      "delta_high_accuracy_mae": -0.0007551073980562387
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_002",
+      "model": "persistence",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.0011925444687035797,
+      "delta_high_accuracy_mae": -0.0009770647792121945
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_002",
+      "model": "persistence",
+      "horizon": 3000,
+      "delta_crps_512_minus128": -0.0022967557236318326,
+      "delta_high_accuracy_mae": -0.0028140610725155
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_002",
+      "model": "persistence",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -0.0023081094853470013,
+      "delta_high_accuracy_mae": -0.0025311863312245386
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_002",
+      "model": "growth",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.001511436591161229,
+      "delta_high_accuracy_mae": -0.0022908865670611955
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_002",
+      "model": "growth",
+      "horizon": 3000,
+      "delta_crps_512_minus128": -0.0010860111483687596,
+      "delta_high_accuracy_mae": -0.002268810949634298
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_002",
+      "model": "growth",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -0.0012796629878854583,
+      "delta_high_accuracy_mae": -0.00270880415043883
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_003",
+      "model": "oracle",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.0011478188254663117,
+      "delta_high_accuracy_mae": -0.001446869678322027
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_003",
+      "model": "oracle",
+      "horizon": 3000,
+      "delta_crps_512_minus128": 0.00032011681762139643,
+      "delta_high_accuracy_mae": 0.0007109367601369695
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_003",
+      "model": "oracle",
+      "horizon": 5000,
+      "delta_crps_512_minus128": 0.0004131215387770497,
+      "delta_high_accuracy_mae": 0.0011005915916362935
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_003",
+      "model": "fitted",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.0011457171310121708,
+      "delta_high_accuracy_mae": -0.001447187369186309
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_003",
+      "model": "fitted",
+      "horizon": 3000,
+      "delta_crps_512_minus128": 0.00034210479891797277,
+      "delta_high_accuracy_mae": 0.0008004192604338933
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_003",
+      "model": "fitted",
+      "horizon": 5000,
+      "delta_crps_512_minus128": 0.00041695183003762765,
+      "delta_high_accuracy_mae": 0.0009570827239412036
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_003",
+      "model": "persistence",
+      "horizon": 1000,
+      "delta_crps_512_minus128": 0.000716681835426794,
+      "delta_high_accuracy_mae": 0.0038288994469220794
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_003",
+      "model": "persistence",
+      "horizon": 3000,
+      "delta_crps_512_minus128": 0.0008015086741017807,
+      "delta_high_accuracy_mae": 0.0008177039302492833
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_003",
+      "model": "persistence",
+      "horizon": 5000,
+      "delta_crps_512_minus128": 0.0005071870569053893,
+      "delta_high_accuracy_mae": 0.000136811492287503
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_003",
+      "model": "growth",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.0009442814546532854,
+      "delta_high_accuracy_mae": -0.0002110759949055241
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_003",
+      "model": "growth",
+      "horizon": 3000,
+      "delta_crps_512_minus128": 3.820404686518536e-05,
+      "delta_high_accuracy_mae": 0.0010085705006901528
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_003",
+      "model": "growth",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -5.916334837985371e-05,
+      "delta_high_accuracy_mae": 0.0002596242455873178
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_004",
+      "model": "oracle",
+      "horizon": 1000,
+      "delta_crps_512_minus128": 0.00027985376811860176,
+      "delta_high_accuracy_mae": 0.0012580057557962099
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_004",
+      "model": "oracle",
+      "horizon": 3000,
+      "delta_crps_512_minus128": -3.6028086240815285e-05,
+      "delta_high_accuracy_mae": 8.583716730375945e-05
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_004",
+      "model": "oracle",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -0.0007723157772111834,
+      "delta_high_accuracy_mae": -0.0015546260585074037
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_004",
+      "model": "fitted",
+      "horizon": 1000,
+      "delta_crps_512_minus128": 0.00013248247452070545,
+      "delta_high_accuracy_mae": 0.0008148293878876833
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_004",
+      "model": "fitted",
+      "horizon": 3000,
+      "delta_crps_512_minus128": -5.54940885083479e-05,
+      "delta_high_accuracy_mae": 1.2082294300476415e-05
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_004",
+      "model": "fitted",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -0.0008450971005296744,
+      "delta_high_accuracy_mae": -0.0016991849269646989
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_004",
+      "model": "persistence",
+      "horizon": 1000,
+      "delta_crps_512_minus128": 0.0010955157845100247,
+      "delta_high_accuracy_mae": -0.001092177228697977
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_004",
+      "model": "persistence",
+      "horizon": 3000,
+      "delta_crps_512_minus128": 0.002028534986341604,
+      "delta_high_accuracy_mae": 0.00035462634241847923
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_004",
+      "model": "persistence",
+      "horizon": 5000,
+      "delta_crps_512_minus128": 0.0017049017569324282,
+      "delta_high_accuracy_mae": -5.864199946103987e-05
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_004",
+      "model": "growth",
+      "horizon": 1000,
+      "delta_crps_512_minus128": 0.0012362720495043278,
+      "delta_high_accuracy_mae": 0.004383217043171128
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_004",
+      "model": "growth",
+      "horizon": 3000,
+      "delta_crps_512_minus128": 0.0014226176770838934,
+      "delta_high_accuracy_mae": 0.0032858936842747807
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_004",
+      "model": "growth",
+      "horizon": 5000,
+      "delta_crps_512_minus128": 0.0004671519901126471,
+      "delta_high_accuracy_mae": 0.0001825299722499063
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_005",
+      "model": "oracle",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.0003395639097098519,
+      "delta_high_accuracy_mae": -0.0004548413784896399
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_005",
+      "model": "oracle",
+      "horizon": 3000,
+      "delta_crps_512_minus128": -0.00027163723787328696,
+      "delta_high_accuracy_mae": -0.002016475995580587
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_005",
+      "model": "oracle",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -0.0005992385512516921,
+      "delta_high_accuracy_mae": -0.0018869067895463387
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_005",
+      "model": "fitted",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.0004764452961607702,
+      "delta_high_accuracy_mae": -0.0008986832103960174
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_005",
+      "model": "fitted",
+      "horizon": 3000,
+      "delta_crps_512_minus128": -0.0002856856563379258,
+      "delta_high_accuracy_mae": -0.0019390810697615182
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_005",
+      "model": "fitted",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -0.0005697453110083232,
+      "delta_high_accuracy_mae": -0.001765390495164318
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_005",
+      "model": "persistence",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.0010028078484005665,
+      "delta_high_accuracy_mae": -0.0019264317574893275
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_005",
+      "model": "persistence",
+      "horizon": 3000,
+      "delta_crps_512_minus128": -0.0014361124479700255,
+      "delta_high_accuracy_mae": -0.0018997900525385691
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_005",
+      "model": "persistence",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -0.0011701892172324146,
+      "delta_high_accuracy_mae": -0.0017897077186725674
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_005",
+      "model": "growth",
+      "horizon": 1000,
+      "delta_crps_512_minus128": -0.0001649135622006897,
+      "delta_high_accuracy_mae": -0.002780557554686397
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_005",
+      "model": "growth",
+      "horizon": 3000,
+      "delta_crps_512_minus128": -0.00021724345290034808,
+      "delta_high_accuracy_mae": -0.002241239841635774
+    },
+    {
+      "group": "learn_same",
+      "subject": "learn_same_005",
+      "model": "growth",
+      "horizon": 5000,
+      "delta_crps_512_minus128": -0.0007060729628227368,
+      "delta_high_accuracy_mae": -0.0028185485941010086
+    }
+  ]
+}

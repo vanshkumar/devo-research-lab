@@ -1,0 +1,11 @@
+# Source-only field audit permission and cohort snapshot
+
+2026-10-30, before converting any new correct field to a number.
+
+COHORT.json freezes the initial eligible people: 6 random-policy fit, 2 random-policy validation, 10 smart and 4 spaced targets. This uses metadata-only German/B context, stable arm/installation, installation March 1–May 10, first 21 days, item counts 1..n without gaps, at least 20 repeated items over at least two dates. READINESS.json reports only 32.3%/29.6% smart/spaced repeat rows in source-fit joint cells with at least ten observations. No target correct/reply has been numerically decoded.
+
+Before fitting, use a source-only semantics audit to establish whether the item-count rule is justified. This audit may inspect correct/difficulty values for the eight eligible random-policy people and at most ten metadata-selected excluded random-policy people: stable arm/install/context, same installation range and >=20 within-window repeats, excluded by item-counter mismatch. Sort by the same previously fixed user hash; take the first ten. These excluded people supply field semantics only, not model selection or a replacement outcome cohort. Save their hashes and audit details. Never analyse smart/spaced answer values in this audit.
+
+Reconstruct count increments, preceding answers and datecreated versus the otherwise uncertified test timestamp. Learn/test and difficulty are excluded from predictors; an apparent learn/test mode is not assumed from its name. The notebook's all-row converter is source evidence, not proof of deployed acquisition semantics. Current-answer-inclusive cumulative correctness in that converter must not be used directly as a pre-response predictor; this does not by itself establish leakage in a published fitted analysis.
+
+The aggregate modes object was unintentionally printed by the completed metadata scanner. Its fields include a timestamp-like test value and binary learn field, whose exact meaning remains uncertified. This was metadata-authorised exposure, but any outcome-derived interpretation remains unknown; record it as potentially outcome-bearing auxiliary exposure, and exclude these fields from prediction and target selection. No target correct/reply value was rendered. No independent-blindness claim is made about auxiliary metadata.

@@ -1,0 +1,21 @@
+# One HABITS feasibility revision
+
+PI decision2026-10-29; earliest eligible work date2026-10-30, America/New_York. **Not dispatched or budget-reserved yet.** Before dispatch, reconcile registry and worker status, check allowance>20%, reserve the daily Sol/max start and PI cycle, and pass actual `gpt-6.1-sol`/`max` settings. Prefer the completed intervention investigator if suitable; no overlapping owner. No starts remain on October29.
+
+Persistent question: can source-inferred learning predict acquisition under another curriculum? HABITS offers randomized training policies but no certified autonomous test yet. This is the single evidence-based feasibility revision after independent review, not a full campaign. Read AGENTS, full LEARNINGS, LAB_WORKFLOW, registry, current root state, the original intervention RESULT, and `lab/reviews/habits-route-2026-10-29/REVIEW.md`.
+
+Own this task directory and `sources/habits_feasibility_2026-10-30/`. Preserve others' edits and historical frozen sources. The PI owns shared state/agenda/registry. Use the publication-pinned firmware, Figshare v1 archive metadata and independent review. Do not restart candidate search.
+
+**Limit:** one Sol/max investigator,45minutes to a completed result/checkpoint, no continuation/subagents/new chats/fitting, at most two primary metadata/code lookups and2MB of those downloads. Ordinary small dependencies may use an isolated environment within that same transfer/time budget. No paid resources, outside contact, publication, credits or resets.
+
+**First, without biological payload access:** implement a bounded method9 reader and test extended-length/distance, dynamic-Huffman, corruption/truncation, row limits and hard compressed/decoded caps on known synthetic cases. Prove that it does not decode later rows internally. Pin an executable teacher preserving live/cache state, accepted-update parity, initialization/reload precision and actual protocol order. Declare credible restart and Methods/code late-phase alternatives. Resolve the habituation-to-working-memory phase mapping from code and record it before payload access.
+
+**Conditional PI access approval:** only after every pre-access condition above passes and an access freeze pins code/tests/phase mapping, inspect BW362 (lexicographically first MT identity) from archive start through its first200complete post-habituation opportunities. Retain habituation for teacher initialization. Hard limits:6MB compressed biological acquisition,16MB decoded,32KiB per row,200post-habituation rows; stop at the first limit. Compressed buffering counts separately from decoded exposure. Stop before any201strow is decoded. Never request another mouse, later rows or a larger cap to finish. Do not claim whole-member CRC verification from a prefix. Record source version/ETag, offsets, byte accounting, prefix hashes and exact exposure.
+
+BW362's inspected prefix becomes consumed feasibility/initialization material; all criterion labels and published outcomes are already exposed. All other HABITS payloads, later BW362 rows, Pan20 and historical protected rows remain unopened. This study remains summary-informed retrospective.
+
+**Pass only if:** schema/chronology support replay; deterministic non-boundary next-pair predictions match and stochastic choices have support; exceptions/variants were declared before comparison; late-phase uncertainty is finitely bounded; and a concrete autonomous comparison separates learner dynamics from teacher-only and difficulty-aware growth, with a calibration plan for seven targets/shared-cohort/source/trainer uncertainty. No power or model-separation claim without computation. A prefix match cannot certify future firmware.
+
+**Stop** for reader/cap failure, missing early chronology, unconstrained hidden per-trial changes or unbounded late-phase policy uncertainty. Do not repair repeatedly, choose a favorable endpoint or expand scope. A pass permits PI scientific-design assessment only; it grants no fitting or target-future access.
+
+Return durable STATE, RESULT, checks and EXPOSURE. Propose one specific nonduplicate learning for PI integration. The PI collects files; do not ask the user for permission merely to deliver this nonessential report. Stop at this endpoint.

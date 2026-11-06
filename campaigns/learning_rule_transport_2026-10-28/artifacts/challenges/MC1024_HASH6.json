@@ -1,0 +1,50 @@
+[
+  {
+    "model": "dnnglm32",
+    "n": 6,
+    "subjects": [
+      "ibl_witten_11",
+      "CSHL_013",
+      "ZM_3001",
+      "ibl_witten_17",
+      "SWC_041",
+      "SWC_034"
+    ],
+    "mean_delta_crps_1024_minus512": 0.0003891894109081262,
+    "max_abs_delta_crps": 0.0035996615874658716,
+    "mean_delta_high_mae_1024_minus512": -0.0007318163479962438,
+    "max_abs_delta_high_mae": 0.010761029935813626
+  },
+  {
+    "model": "reinforce",
+    "n": 6,
+    "subjects": [
+      "ibl_witten_11",
+      "CSHL_013",
+      "ZM_3001",
+      "ibl_witten_17",
+      "SWC_041",
+      "SWC_034"
+    ],
+    "mean_delta_crps_1024_minus512": 0.0007497577615993532,
+    "max_abs_delta_crps": 0.004691738336463178,
+    "mean_delta_high_mae_1024_minus512": -0.00029733943727779333,
+    "max_abs_delta_high_mae": 0.011169011833245313
+  },
+  {
+    "model": "growth",
+    "n": 6,
+    "subjects": [
+      "ibl_witten_11",
+      "CSHL_013",
+      "ZM_3001",
+      "ibl_witten_17",
+      "SWC_041",
+      "SWC_034"
+    ],
+    "mean_delta_crps_1024_minus512": 0.00025452051422890826,
+    "max_abs_delta_crps": 0.0017187482849625457,
+    "mean_delta_high_mae_1024_minus512": 0.0005395422602929648,
+    "max_abs_delta_high_mae": 0.005221215169222096
+  }
+]

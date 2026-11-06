@@ -1,0 +1,58 @@
+{
+  "at_utc": "2026-11-01T08:48:27.631331+00:00",
+  "reviewer_thread_id": "01a1963e-8b48-7421-8169-1bf31d358517",
+  "fixed_START_utc": "2026-11-01T08:35:00Z",
+  "first_actual_calculation_utc": "2026-11-01T08:35:23.849576+00:00",
+  "first_calculation_deadline_utc": "2026-11-01T08:47:00Z",
+  "hard_STOP_utc": "2026-11-01T09:20:00Z",
+  "scientific_execution": "complete; no additional model runs authorized or pending",
+  "jobs_active": 0,
+  "public_operations": 0,
+  "public_operations_cap": 0,
+  "new_ingress_bytes": 0,
+  "new_ingress_cap_bytes": 0,
+  "scientific_read_decode_hash_charges": [
+    {
+      "stage": "independent_first_raw_calculation_imports_decode_hash",
+      "charged_bytes": 30000000
+    },
+    {
+      "stage": "independent_full_reconstruction_analytical_controls_pins",
+      "charged_bytes": 100000000
+    },
+    {
+      "stage": "one_predeclared_affine_map_fit_forecast",
+      "charged_bytes": 70000000
+    },
+    {
+      "stage": "additional_final_raw_checks_source_code_context_import_uncertainty_summary_hash_reporting_allowance",
+      "charged_bytes": 80000000
+    }
+  ],
+  "scientific_read_decode_hash_charge_bytes": 280000000,
+  "scientific_read_decode_hash_cap_bytes": 350000000,
+  "charge_note": "Separate from author330000000bytes. Manual conservative allowances; expanded final allowance from planned30MBto80MB within unchanged350MBcap covers extra final raw denominator/bounds check and import/read/report uncertainty. No automatic metering/new infrastructure.",
+  "largest_measured_process_RSS_bytes_macos": 131825664,
+  "RSS_cap_bytes": 800000000,
+  "scientific_processes_max_concurrent": 1,
+  "numerical_threads": 1,
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "measured_cap_breach": false,
+  "physical_IO_or_OS_wide_compliance_certified": false,
+  "unknown": [
+    "physical IO and file-cache behavior",
+    "actual total logical import/decoder reads versus conservative charges",
+    "toolhost memory",
+    "unmeasured ordinary-read/wrapper peaks"
+  ],
+  "all_empirical_reads": "Same cached original release only. Full31522rows librarydecoded again; firstpairs selected for response summaries/fitting, metadata allblocks exposed. Original full-RAM prefreeze derived/auxiliary exposure preserved; no pristine new holdout.",
+  "protected_payloads_opened": false,
+  "older_scientific_payloads_opened": false,
+  "source_acquisition_refetch": false,
+  "usage_for_assignment": "PIprovidedmanualget_usage_limits08:33:39.816Z38%remaining;dailyceilingssuspended/20%reserve. No spending/reset/credits.",
+  "heartbeat": "SameACTIVE PI heartbeat unchanged. Assignment completion is not overall lab shutdown."
+}

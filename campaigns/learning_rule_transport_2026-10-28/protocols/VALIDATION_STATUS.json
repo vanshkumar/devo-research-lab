@@ -1,0 +1,63 @@
+{
+  "utc": "2026-10-29T01:11:44.190541+00:00",
+  "campaign_status": "complete",
+  "original_source_freeze_sha256": "c0141244ac43d240f858956917e3b2b661c72a01a4bddbccdb3974a818b5741f",
+  "rnn_challenge_freeze_sha256": "a4bcaac21b1302d0527daa31df119bd64b38c7389fcdd8d9323f7eecad5cd652",
+  "development": {
+    "allocated": 74,
+    "fit": 62,
+    "nested_model_selection": 12,
+    "status": "consumed for development/checkpoint/uncertainty and controls"
+  },
+  "source": {
+    "allocated": 54,
+    "prefix_plus_scored_bin": 48,
+    "full_primary": 40,
+    "full_primary_animal_holdout": 21,
+    "full_primary_lab_holdout": 19,
+    "source_labs": [
+      "hoferlab",
+      "wittenlab"
+    ],
+    "consumed": "firststagefullindexedoutcomeconversionfor48animalsafterall6forecastssaved;only<=6000analyzed;6shortanimals prefixonly",
+    "original_gate_earned": false,
+    "RNN_gate_earned": false,
+    "RNN_scope": "post-original-validationarchitecturechallenge;notanuntouchedsourceconfirmation",
+    "new_source_validation_not_available_from_these_consumed_animals": true
+  },
+  "external": {
+    "strict_animals": 20,
+    "published_nonopto_animals": 22,
+    "excluded_prefix_gaps": [
+      "fip_16",
+      "fip_38"
+    ],
+    "status": "SEALEDOUTCOMES",
+    "outcome_access_events": 0,
+    "prefix_calibration_accesses": 0,
+    "curve_analysis": false,
+    "rule_fits": false,
+    "forecast_evaluation": false,
+    "byte_acquisition": "acquiredandhashed;notoutcomeanalysis",
+    "prior_checks": "fip13firstsession schema/rows/hash andlaterinput-onlycontrasts/probabilityLeft; author day mapping and ordinary-protocolmetadata",
+    "ordinary_sessions": 453,
+    "unconditioned_day0_sessions_excluded": 34
+  },
+  "prior_campaigns": "sixcompletedcampaignspreserved;theirholdoutsnotreopenedandremainconsumed",
+  "model_fits_after_source_outcomes": "RNNarchitecturechallengeonly;fit62dev andselect12devCV;choiceofstrongerarchitecturewaspostvalidationandreported",
+  "independent_reconstruction": {
+    "original_curve_exact": true,
+    "original_crps_max_abs_difference": 4.45e-16,
+    "RNN_recurrence_max_abs_difference": 5.2e-15,
+    "RNN_score_max_abs_difference": 1.6e-16
+  },
+  "offline_forecast_replay": {
+    "original_model_forecasts": 288,
+    "RNN_forecasts": 48,
+    "source_animals": 48,
+    "max_abs_difference": 0.0,
+    "network_entrypoints_disabled": true
+  },
+  "decisions": "Stopboundedfirststudyatsourcegate;externaltransportunperformedbydesign,nottreatedasanexternalfailure;nosuccessororautomationlaunched",
+  "completed_local_date": "2026-10-28"
+}

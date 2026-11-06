@@ -1,0 +1,574 @@
+{
+  "label": "first",
+  "started_at": "2026-11-01T06:04:12Z",
+  "finished_at": "2026-11-01T06:04:12Z",
+  "seeds": [
+    1100,
+    1101,
+    1102
+  ],
+  "budgets": [
+    16
+  ],
+  "sigma": 0.08,
+  "radius": 2.0,
+  "rounds": 80,
+  "queries": 641,
+  "prediction_sha256": "e2fde97feaf59eb3a6ef8f395baa61b8891c0d0b48f5abaf889b365e4b3fe329",
+  "prediction_before_gold": true,
+  "summary": {
+    "16": {
+      "first": {
+        "count": 3,
+        "acquired": 0,
+        "mean_removal": 0.11611638806261937,
+        "median_final_error": 0.09176426290783764
+      },
+      "mean": {
+        "count": 3,
+        "acquired": 0,
+        "mean_removal": -0.36090299480783417,
+        "median_final_error": 0.17113809766516744
+      },
+      "gaussian": {
+        "count": 3,
+        "acquired": 2,
+        "mean_removal": 0.9695859826965049,
+        "median_final_error": 0.0034905157651762588
+      },
+      "tangent": {
+        "count": 3,
+        "acquired": 2,
+        "mean_removal": 0.9708812580066756,
+        "median_final_error": 0.003677577580990202
+      },
+      "ball": {
+        "count": 3,
+        "acquired": 2,
+        "mean_removal": 0.9653899068531112,
+        "median_final_error": 0.003575160362773789
+      },
+      "hull": {
+        "count": 3,
+        "acquired": 1,
+        "mean_removal": 0.8812869025156126,
+        "median_final_error": 0.007280595127795073
+      },
+      "nearest": {
+        "count": 3,
+        "acquired": 0,
+        "mean_removal": 0.8114062016676598,
+        "median_final_error": 0.01605288582859074
+      },
+      "absent": {
+        "count": 3,
+        "acquired": 0,
+        "mean_removal": 0.0,
+        "median_final_error": 0.16063412795051135
+      },
+      "shuffled": {
+        "count": 3,
+        "acquired": 0,
+        "mean_removal": -6.463871477327225,
+        "median_final_error": 0.7031855013962164
+      },
+      "truth": {
+        "count": 3,
+        "acquired": 3,
+        "mean_removal": 0.999999999991451,
+        "median_final_error": 7.737086790678002e-13
+      }
+    }
+  },
+  "records": [
+    {
+      "seed": 1100,
+      "n": 16,
+      "method": "first",
+      "resolution": 0.0,
+      "initial_true_error": 0.16063412795051135,
+      "final_true_error": 0.13405491111171347,
+      "removal": 0.16546432055202176,
+      "acquired": false,
+      "endpoint_action": [
+        -0.08401107788085938,
+        -0.7423553466796875,
+        -0.9869575500488281,
+        -0.45668792724609375
+      ]
+    },
+    {
+      "seed": 1100,
+      "n": 16,
+      "method": "mean",
+      "resolution": 0.0,
+      "initial_true_error": 0.16063412795051135,
+      "final_true_error": 0.17113809766516744,
+      "removal": -0.06539064798168037,
+      "acquired": false,
+      "endpoint_action": [
+        -0.3501396179199219,
+        -0.8617401123046875,
+        -0.9824867248535156,
+        -0.5850448608398438
+      ]
+    },
+    {
+      "seed": 1100,
+      "n": 16,
+      "method": "gaussian",
+      "resolution": 0.0,
+      "initial_true_error": 0.16063412795051135,
+      "final_true_error": 0.0051057056967145995,
+      "removal": 0.9682153116410755,
+      "acquired": true,
+      "endpoint_action": [
+        -0.13436126708984375,
+        -0.38056182861328125,
+        -0.4137153625488281,
+        -0.439849853515625
+      ]
+    },
+    {
+      "seed": 1100,
+      "n": 16,
+      "method": "tangent",
+      "resolution": 0.0,
+      "initial_true_error": 0.16063412795051135,
+      "final_true_error": 0.0039771476048605665,
+      "removal": 0.975240954985071,
+      "acquired": true,
+      "endpoint_action": [
+        -0.14526748657226562,
+        -0.3690643310546875,
+        -0.3614997863769531,
+        -0.44977569580078125
+      ]
+    },
+    {
+      "seed": 1100,
+      "n": 16,
+      "method": "ball",
+      "resolution": 0.0,
+      "initial_true_error": 0.16063412795051135,
+      "final_true_error": 0.0068970709172884136,
+      "removal": 0.9570634770749757,
+      "acquired": true,
+      "endpoint_action": [
+        -0.13612747192382812,
+        -0.4013710021972656,
+        -0.4564971923828125,
+        -0.43982505798339844
+      ]
+    },
+    {
+      "seed": 1100,
+      "n": 16,
+      "method": "hull",
+      "resolution": 0.0,
+      "initial_true_error": 0.16063412795051135,
+      "final_true_error": 0.03752669844565382,
+      "removal": 0.7663840248367697,
+      "acquired": false,
+      "endpoint_action": [
+        -0.0977020263671875,
+        -0.4674034118652344,
+        -0.6981515884399414,
+        -0.4030265808105469
+      ]
+    },
+    {
+      "seed": 1100,
+      "n": 16,
+      "method": "nearest",
+      "resolution": 0.0,
+      "initial_true_error": 0.16063412795051135,
+      "final_true_error": 0.06460698385602229,
+      "removal": 0.5978003884957336,
+      "acquired": false,
+      "endpoint_action": [
+        -0.08317184448242188,
+        -0.3458251953125,
+        -0.7448768615722656,
+        -0.24117279052734375
+      ]
+    },
+    {
+      "seed": 1100,
+      "n": 16,
+      "method": "absent",
+      "resolution": 0.0,
+      "initial_true_error": 0.16063412795051135,
+      "final_true_error": 0.16063412795051135,
+      "removal": 0.0,
+      "acquired": false,
+      "endpoint_action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 1100,
+      "n": 16,
+      "method": "shuffled",
+      "resolution": 0.0,
+      "initial_true_error": 0.16063412795051135,
+      "final_true_error": 0.7031855013962164,
+      "removal": -3.3775598023158313,
+      "acquired": false,
+      "endpoint_action": [
+        -1.0,
+        0.21649169921875,
+        -0.02089691162109375,
+        0.6641254425048828
+      ]
+    },
+    {
+      "seed": 1100,
+      "n": 16,
+      "method": "truth",
+      "resolution": 0.0,
+      "initial_true_error": 0.16063412795051135,
+      "final_true_error": 1.3586244149809732e-12,
+      "removal": 0.9999999999915421,
+      "acquired": true,
+      "endpoint_action": [
+        -0.09235382080078125,
+        -0.39116668701171875,
+        -0.3531036376953125,
+        -0.5618019104003906
+      ]
+    },
+    {
+      "seed": 1101,
+      "n": 16,
+      "method": "first",
+      "resolution": 0.0,
+      "initial_true_error": 0.060124309154042904,
+      "final_true_error": 0.09176426290783764,
+      "removal": -0.5262422836781515,
+      "acquired": false,
+      "endpoint_action": [
+        -0.3372993469238281,
+        -0.1820383071899414,
+        -0.035526275634765625,
+        -0.37856292724609375
+      ]
+    },
+    {
+      "seed": 1101,
+      "n": 16,
+      "method": "mean",
+      "resolution": 0.0,
+      "initial_true_error": 0.060124309154042904,
+      "final_true_error": 0.12039294885341938,
+      "removal": -1.0024005356130377,
+      "acquired": false,
+      "endpoint_action": [
+        -0.2527313232421875,
+        0.04000091552734375,
+        0.02010345458984375,
+        -0.5704612731933594
+      ]
+    },
+    {
+      "seed": 1101,
+      "n": 16,
+      "method": "gaussian",
+      "resolution": 0.0,
+      "initial_true_error": 0.060124309154042904,
+      "final_true_error": 0.0034905157651762588,
+      "removal": 0.9419450166781409,
+      "acquired": false,
+      "endpoint_action": [
+        -0.2796974182128906,
+        0.10468101501464844,
+        0.2558250427246094,
+        0.016727447509765625
+      ]
+    },
+    {
+      "seed": 1101,
+      "n": 16,
+      "method": "tangent",
+      "resolution": 0.0,
+      "initial_true_error": 0.060124309154042904,
+      "final_true_error": 0.003677577580990202,
+      "removal": 0.9388337656975321,
+      "acquired": false,
+      "endpoint_action": [
+        -0.27494049072265625,
+        0.12420272827148438,
+        0.26778411865234375,
+        0.03662872314453125
+      ]
+    },
+    {
+      "seed": 1101,
+      "n": 16,
+      "method": "ball",
+      "resolution": 0.0,
+      "initial_true_error": 0.060124309154042904,
+      "final_true_error": 0.003575160362773789,
+      "removal": 0.9405371901469344,
+      "acquired": false,
+      "endpoint_action": [
+        -0.2803497314453125,
+        0.10128974914550781,
+        0.2529411315917969,
+        0.01113128662109375
+      ]
+    },
+    {
+      "seed": 1101,
+      "n": 16,
+      "method": "hull",
+      "resolution": 0.0,
+      "initial_true_error": 0.060124309154042904,
+      "final_true_error": 0.007280595127795073,
+      "removal": 0.8789076293726443,
+      "acquired": false,
+      "endpoint_action": [
+        -0.27782249450683594,
+        0.09077072143554688,
+        0.2231292724609375,
+        -0.06169891357421875
+      ]
+    },
+    {
+      "seed": 1101,
+      "n": 16,
+      "method": "nearest",
+      "resolution": 0.0,
+      "initial_true_error": 0.060124309154042904,
+      "final_true_error": 0.004327575913483567,
+      "removal": 0.9280228584016492,
+      "acquired": false,
+      "endpoint_action": [
+        -0.3611907958984375,
+        -0.045945167541503906,
+        0.2880859375,
+        -0.026274681091308594
+      ]
+    },
+    {
+      "seed": 1101,
+      "n": 16,
+      "method": "absent",
+      "resolution": 0.0,
+      "initial_true_error": 0.060124309154042904,
+      "final_true_error": 0.060124309154042904,
+      "removal": 0.0,
+      "acquired": false,
+      "endpoint_action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 1101,
+      "n": 16,
+      "method": "shuffled",
+      "resolution": 0.0,
+      "initial_true_error": 0.060124309154042904,
+      "final_true_error": 0.882897628497106,
+      "removal": -13.684536769230183,
+      "acquired": false,
+      "endpoint_action": [
+        0.8894500732421875,
+        0.20914173126220703,
+        -1.0,
+        -0.3955698013305664
+      ]
+    },
+    {
+      "seed": 1101,
+      "n": 16,
+      "method": "truth",
+      "resolution": 0.0,
+      "initial_true_error": 0.060124309154042904,
+      "final_true_error": 7.680171831946095e-13,
+      "removal": 0.9999999999872262,
+      "acquired": true,
+      "endpoint_action": [
+        -0.35912322998046875,
+        0.05928802490234375,
+        0.3258171081542969,
+        0.04306793212890625
+      ]
+    },
+    {
+      "seed": 1102,
+      "n": 16,
+      "method": "first",
+      "resolution": 0.0,
+      "initial_true_error": 0.17524096483118795,
+      "final_true_error": 0.05097284285271607,
+      "removal": 0.7091271273139879,
+      "acquired": false,
+      "endpoint_action": [
+        0.7194252014160156,
+        -0.4101524353027344,
+        -0.6781845092773438,
+        0.410247802734375
+      ]
+    },
+    {
+      "seed": 1102,
+      "n": 16,
+      "method": "mean",
+      "resolution": 0.0,
+      "initial_true_error": 0.17524096483118795,
+      "final_true_error": 0.17785517464158365,
+      "removal": -0.014917800828784467,
+      "acquired": false,
+      "endpoint_action": [
+        0.36669921875,
+        -0.9160728454589844,
+        -0.8027191162109375,
+        0.3005027770996094
+      ]
+    },
+    {
+      "seed": 1102,
+      "n": 16,
+      "method": "gaussian",
+      "resolution": 0.0,
+      "initial_true_error": 0.17524096483118795,
+      "final_true_error": 0.00024575446451314636,
+      "removal": 0.998597619770298,
+      "acquired": true,
+      "endpoint_action": [
+        0.5425033569335938,
+        -0.32631492614746094,
+        -0.262481689453125,
+        0.48476409912109375
+      ]
+    },
+    {
+      "seed": 1102,
+      "n": 16,
+      "method": "tangent",
+      "resolution": 0.0,
+      "initial_true_error": 0.17524096483118795,
+      "final_true_error": 0.00025076047377185697,
+      "removal": 0.9985690533374236,
+      "acquired": true,
+      "endpoint_action": [
+        0.5449333190917969,
+        -0.31926727294921875,
+        -0.2564277648925781,
+        0.4872245788574219
+      ]
+    },
+    {
+      "seed": 1102,
+      "n": 16,
+      "method": "ball",
+      "resolution": 0.0,
+      "initial_true_error": 0.17524096483118795,
+      "final_true_error": 0.00025076047377185697,
+      "removal": 0.9985690533374236,
+      "acquired": true,
+      "endpoint_action": [
+        0.5449333190917969,
+        -0.31926727294921875,
+        -0.2564277648925781,
+        0.4872245788574219
+      ]
+    },
+    {
+      "seed": 1102,
+      "n": 16,
+      "method": "hull",
+      "resolution": 0.0,
+      "initial_true_error": 0.17524096483118795,
+      "final_true_error": 0.00025076047377185697,
+      "removal": 0.9985690533374236,
+      "acquired": true,
+      "endpoint_action": [
+        0.5449333190917969,
+        -0.31926727294921875,
+        -0.2564277648925781,
+        0.4872245788574219
+      ]
+    },
+    {
+      "seed": 1102,
+      "n": 16,
+      "method": "nearest",
+      "resolution": 0.0,
+      "initial_true_error": 0.17524096483118795,
+      "final_true_error": 0.01605288582859074,
+      "removal": 0.9083953581055965,
+      "acquired": false,
+      "endpoint_action": [
+        0.4876060485839844,
+        -0.5214805603027344,
+        -0.19525146484375,
+        0.5633811950683594
+      ]
+    },
+    {
+      "seed": 1102,
+      "n": 16,
+      "method": "absent",
+      "resolution": 0.0,
+      "initial_true_error": 0.17524096483118795,
+      "final_true_error": 0.17524096483118795,
+      "removal": 0.0,
+      "acquired": false,
+      "endpoint_action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 1102,
+      "n": 16,
+      "method": "shuffled",
+      "resolution": 0.0,
+      "initial_true_error": 0.17524096483118795,
+      "final_true_error": 0.5834679222854181,
+      "removal": -2.329517860435663,
+      "acquired": false,
+      "endpoint_action": [
+        -0.48409461975097656,
+        -1.0,
+        -1.0,
+        0.9524307250976562
+      ]
+    },
+    {
+      "seed": 1102,
+      "n": 16,
+      "method": "truth",
+      "resolution": 0.0,
+      "initial_true_error": 0.17524096483118795,
+      "final_true_error": 7.737086790678002e-13,
+      "removal": 0.9999999999955849,
+      "acquired": true,
+      "endpoint_action": [
+        0.5605964660644531,
+        -0.3130912780761719,
+        -0.2703590393066406,
+        0.46430206298828125
+      ]
+    }
+  ],
+  "peak_rss_bytes": 32980992,
+  "python": "3.9.6 (default, Oct 19 2026, 19:18:13) \n[Clang 21.0.0 (clang-2100.4.1.1)]",
+  "numpy": "2.0.2",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "numerical_threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  }
+}

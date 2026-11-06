@@ -1,0 +1,77 @@
+[
+  {
+    "original_path": "campaigns/learning_rule_transport_2026-10-28/artifacts/drift/model_snapshots/dnnglm_nested_best.npz",
+    "snapshot_path": "/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/artifacts/drift/model_snapshots/dnnglm_nested_best.npz",
+    "sha256": "aa3e9375c30660c690c0372440579261e873d93e5d2373ff70cac6d13b023662",
+    "kind": "dnnglm",
+    "metadata": {
+      "name": "DNNGLM16",
+      "epoch": 1000,
+      "seed": 221,
+      "end": 6000,
+      "source_pin": "0ae19f7eec2836ab05487cc0342c7d1ac51a2727",
+      "source_mode": 1,
+      "hidden": 16,
+      "truncation": 500,
+      "initialization": "static first200development trials",
+      "training_equal_animals": true,
+      "omissions": "masked and skipbinaryupdate"
+    }
+  },
+  {
+    "original_path": "campaigns/learning_rule_transport_2026-10-28/artifacts/drift/model_snapshots/reinforce_nested_stable.npz",
+    "snapshot_path": "/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/artifacts/drift/model_snapshots/reinforce_nested_stable.npz",
+    "sha256": "c5c8afadcea0b7a6e8ba90c04c0dc8e78f1a9d80442d648b53dd78cb8b3981e2",
+    "kind": "reinforce",
+    "metadata": {
+      "name": "REINFORCE",
+      "source": "Liu et al.2026 reward-baseline policy gradient;3coefficient mode",
+      "end": 6000,
+      "initialization": "static first200development trials",
+      "training_equal_animals": true,
+      "fit_nll": 0.5081498316881672,
+      "fit_calls": 420,
+      "adder_bound": 1.5,
+      "stable_gain_parameterization": true,
+      "pure_reward": false,
+      "unrewarded_gain": [
+        0.08846164211150132,
+        0.08663467592361158,
+        0.20503466908381496
+      ],
+      "reward_gain": [
+        0.0024898332823355407,
+        0.004982458262453332,
+        0.08315761085375288
+      ]
+    }
+  },
+  {
+    "original_path": "campaigns/learning_rule_transport_2026-10-28/artifacts/drift/model_snapshots/reinforce_pure_nested.npz",
+    "snapshot_path": "/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/artifacts/drift/model_snapshots/reinforce_pure_nested.npz",
+    "sha256": "ae3631eeb12cd451dec0a356d284e04efc171ad7b26484f42fa9f8a1e6303516",
+    "kind": "reinforce",
+    "metadata": {
+      "name": "REINFORCE_pure",
+      "source": "Liu et al.2026 reward-baseline policy gradient;3coefficient mode",
+      "end": 6000,
+      "initialization": "static first200development trials",
+      "training_equal_animals": true,
+      "fit_nll": 0.5821461078605187,
+      "fit_calls": 132,
+      "adder_bound": 1.5,
+      "stable_gain_parameterization": false,
+      "pure_reward": true,
+      "unrewarded_gain": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reward_gain": [
+        0.0022420997492788738,
+        0.0010360948172589036,
+        0.37996183656229254
+      ]
+    }
+  }
+]

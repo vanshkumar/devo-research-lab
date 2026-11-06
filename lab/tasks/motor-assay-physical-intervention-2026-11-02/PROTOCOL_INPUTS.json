@@ -1,0 +1,49 @@
+{
+  "status": "Primary-method facts transcribed from public article text; no empirical arrays",
+  "retrieval_date_utc": "2026-11-03",
+  "selected_intervention": "Delay the visual perturbation, then measure the next reach without visual cursor feedback",
+  "honda_2012_delay_program": {
+    "primary_method": "Honda, Hirashima and Nozaki, Frontiers in Psychology 3:540 (2012)",
+    "doi": "10.3389/fpsyg.2012.00540",
+    "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2012.00540/full",
+    "additional_delay_ms": [0, 100, 200, 300],
+    "reported_system_delay_ms": 60,
+    "habituation_additional_delay_ms": [0, 200],
+    "habituation_trials": 100,
+    "perturbation_angle_degrees": [-10, 10],
+    "perturbation_trials_per_condition": 24,
+    "perturbation_trials_per_angle_delay_cell": 3,
+    "nominal_reach_distance_mm": 100,
+    "allowed_peak_velocity_mm_per_second": [350, 550],
+    "position_sample_hz": 500,
+    "start_hold_ms": 2000,
+    "next_trial_start_rule": "After cursor stops, robotic return; hold at start for 2 s; target then appears",
+    "probe_cursor_present": false,
+    "observation": "Hand movement direction from start to actual hand position at peak velocity, minus condition baseline",
+    "source_sections": "Apparatus and motor task; Instructions; Experimental conditions; Data analysis",
+    "unknowns": ["Exact per-trial display clocks and biological error availability", "Predicted hand position and temporal error-integration law", "Event-specific retention, error sensitivity and expression loadings"]
+  },
+  "brudner_2016_endpoint_program": {
+    "primary_method": "Brudner et al., J Neurophysiol 115:1499-1511 (2016)",
+    "doi": "10.1152/jn.00066.2015",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4808111/",
+    "experiment": "Experiments 1 and 2",
+    "terminal_radius_cm": 10,
+    "initial_heading_referent_radii_cm": [1, 3],
+    "cursor_hidden_above_speed_cm_per_second": 5,
+    "nominal_error_delay_ms": [0, 5000],
+    "error_display_duration_ms": 2000,
+    "cursor_delay_immediate_outcome_duration_ms": 7000,
+    "robot_start_hold_ms": 500,
+    "remain_at_endpoint_until_feedback_ends": true,
+    "no_feedback_block_trials_experiment_2": 40,
+    "observation": "Initial heading from the line joining hand positions at 1 and 3 cm; no-feedback aftereffect in Experiment 2",
+    "source_sections": "Experiment 1 Procedure and Experimental conditions; Experiment 2; Analysis",
+    "unknowns": ["Biological prediction error", "Storage-specific observation loading", "Target-jump version of this protocol"]
+  },
+  "not_source_facts": {
+    "new_target_event_factor": "Any added target-event/precursor crossing is a proposed modification, not a deployed condition certified by either paper",
+    "reference_model_parameters": "All reference-model coefficients are supplied illustrative values; no paper estimates are imported",
+    "minimum_neural_latency": "No numerical neural latency or exclusion restriction is certified"
+  }
+}

@@ -1,0 +1,11 @@
+# First executable development fixture, before outputs
+
+Consumed plant100only. Reuse its zero-HVC35-rendition circuit, arbitrary target-independent quiet reset (zeros then1000ms), and fixed2200msprobe with long quiet suffix. No new target or protected payload. First validate its canonical score against the saved previous target mean up to different window scaling; no assumption that a changed readout repairs it.
+
+Population readout: learn the tutor's per-neuron first/second rate moments, phi(r)=[r/100,(r/100)^2], and their within-tutor variance. Cost is mean squared distance to that learned prototype divided by tutor feature variance+1e−6. This is target-specific one-class feature matching, not a gold-supervised readout or a new general kernel method. It commutatively pools the existing dynamical code; it adds no ordered latent sequence.
+
+Sensory temporal memory: learn observable contiguous active runs, occurrence emission means, relative start times and dwell durations directly from the tutor waveform. Starting at the candidate's first observable sensory onset, its learned occurrence/age states emit their stored predictions on the acquired schedule. Compare prediction error without any local time warping. No source motor order/stretch/phase or hidden syllable identity enters learning. This is a transparent compressed sensory-template mechanism, not a claim of a novel neural sequence model; the simple onset-registered full template is a mandatory strong baseline. First-order sensory moment pooling is an order-blind ablation.
+
+Test64fixed policies at exact tutor content; then complete25-query duration actors (start.8,bounds.7–1.2,12rounds of±step.05,halve on failure to.00625) for raw/normalized/population/state/template/gold. Each actor receives scalar feedback only; true waveform errors are computed after queries are saved. Target phase is not supplied: onset is measured from candidate inputs. Harmless±60msphase probes check invariance. The fixed active-run threshold and clocks are explicit inductive structure; the durations/order/emissions are learned from the sensory stream.
+
+This first fixture grounds the subsequent joint actor and frozen new-case protocol. It does not certify global temporal correctness or a biological mechanism. At most one evidence-based development revision follows; no mechanism tournament.

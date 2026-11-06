@@ -1,0 +1,647 @@
+{
+  "max_scalar_numpy_disagreement": 2.220446049250313e-16,
+  "max_decomposition_error": 1.6653345369377348e-16,
+  "scalar_permutations": [
+    {
+      "permutation": [
+        0,
+        1,
+        2
+      ],
+      "raw_mse": 0.6083255769884564,
+      "centered_mse": 0.18469926640751047
+    },
+    {
+      "permutation": [
+        0,
+        2,
+        1
+      ],
+      "raw_mse": 0.5678717073922923,
+      "centered_mse": 0.14424539681134635
+    },
+    {
+      "permutation": [
+        1,
+        0,
+        2
+      ],
+      "raw_mse": 0.6836354004828002,
+      "centered_mse": 0.2600090899018543
+    },
+    {
+      "permutation": [
+        1,
+        2,
+        0
+      ],
+      "raw_mse": 0.6021167178166563,
+      "centered_mse": 0.17849040723571036
+    },
+    {
+      "permutation": [
+        2,
+        0,
+        1
+      ],
+      "raw_mse": 0.7292253335111412,
+      "centered_mse": 0.305599022930195
+    },
+    {
+      "permutation": [
+        2,
+        1,
+        0
+      ],
+      "raw_mse": 0.6881605204411613,
+      "centered_mse": 0.2645342098602152
+    }
+  ],
+  "best_posthoc_permutation_not_adopted": {
+    "permutation": [
+      0,
+      2,
+      1
+    ],
+    "raw_mse": 0.5678717073922923,
+    "centered_mse": 0.14424539681134635
+  },
+  "class_mean_mse": 0.19056608643878445,
+  "species_gene_mean_offset_mse": 0.423626310580946,
+  "mouse_within_gene_variance": 0.03236347908568752,
+  "per_gene_identity_gain": [
+    {
+      "gene": "CALCR",
+      "class_mean_mse": 0.4697485156477126,
+      "identity_centered_mse": 0.6096801077389864,
+      "gain": -0.13993159209127382
+    },
+    {
+      "gene": "GLP1R",
+      "class_mean_mse": 0.0028686146372588124,
+      "identity_centered_mse": 0.015601377745124814,
+      "gain": -0.012732763107866002
+    },
+    {
+      "gene": "LEPR",
+      "class_mean_mse": 0.4148293588414955,
+      "identity_centered_mse": 0.23216638692783628,
+      "gain": 0.18266297191365924
+    },
+    {
+      "gene": "NPY1R",
+      "class_mean_mse": 0.05220414720972286,
+      "identity_centered_mse": 0.03993952055132752,
+      "gain": 0.012264626658395346
+    },
+    {
+      "gene": "PTGER3",
+      "class_mean_mse": 0.013179795857732442,
+      "identity_centered_mse": 0.02610893907427736,
+      "gain": -0.012929143216544918
+    }
+  ],
+  "feature_overlap": {
+    "cross_species": 24,
+    "human_clustering": 18,
+    "either_feature_set": 27,
+    "both_feature_sets": 15,
+    "neither_listed_feature_set": [
+      "AVPR1B",
+      "AVPR2",
+      "CRHR1",
+      "GALR2",
+      "GALR3",
+      "GCGR",
+      "GIPR",
+      "GNRHR",
+      "HCRTR1",
+      "KISS1R",
+      "MC3R",
+      "NMUR1",
+      "NPBWR1",
+      "NPBWR2",
+      "NPY2R",
+      "NPY4R",
+      "NPY5R",
+      "NTSR2",
+      "OXTR",
+      "PROKR1",
+      "PROKR2",
+      "PTH1R",
+      "SSTR3",
+      "SSTR4",
+      "SSTR5",
+      "TACR2",
+      "UTS2R"
+    ]
+  },
+  "pins": [
+    {
+      "file": "hypomap_tree.json",
+      "sha256": "df1780961d21610547c3660a96814b043064a8a233ab521a1f594d58685ef61f",
+      "pass": true
+    },
+    {
+      "file": "01_merge.R",
+      "sha256": "b84b103c5048d6b428e2ca403b7094c395b62523fb74d11cd69d7d6430e7b9f4",
+      "pass": true
+    },
+    {
+      "file": "02_integrate_scVI_crossspecies.py",
+      "sha256": "f2ad94ff03d9238bdc227442a7e0708dd91c55e174f0d83c379ce280003401da",
+      "pass": true
+    },
+    {
+      "file": "feature_set_cross_species.json",
+      "sha256": "82f0e7ecdc540b80591bd67c2c3ede8261a78edbe0edd9d0ec3c18d78729627f",
+      "pass": true
+    },
+    {
+      "file": "parameters_cross_species_neurons_scvi_v1.json",
+      "sha256": "27b1cfd17652f561608c97c8516293c92fa73015e39bf9c9dc96ed88e561c680",
+      "pass": true
+    },
+    {
+      "file": "figure_4_nucseq_gpcr_conservation.R",
+      "sha256": "7be4976af0e0ff1b9d73ee21e9ee390dd3ad36442388093cc7cc43f3690522b9",
+      "pass": true
+    },
+    {
+      "file": "README.md",
+      "sha256": "490879db14b13d6a231ef101e26e49f52fc1c93bcf933eadc751e632e016be93",
+      "pass": true
+    },
+    {
+      "file": "feature_set.json",
+      "sha256": "2be0644b801f664ad8f6b748b6941f01e4d8c0c45ba21d66ea924dbfc1f49240",
+      "pass": true
+    },
+    {
+      "file": "agrp_gpcr_table.txt",
+      "sha256": "072920c2cdd01faa3f259ca9cc4049215ce320c80c0c4536eeced2d9940bcf46",
+      "pass": true
+    },
+    {
+      "file": "pomc_glipr1_gpcr_table.txt",
+      "sha256": "9e85fbc8e6b40399537c1a9677ac3a9ecb36da18f5795ae2891aae9cc7588f6b",
+      "pass": true
+    },
+    {
+      "file": "pomc_glp1r_gpcr_table.txt",
+      "sha256": "251f2038a3d8d03e18cbe01a7bea78f2e9b5c489c641f36e67b60124ef1ec2bb",
+      "pass": true
+    },
+    {
+      "file": "pomc_lepr_gpcr_table.txt",
+      "sha256": "634fead7e7e648f2e8aabf98c603d16110a03139a6799a1e80af234e4ede58ca",
+      "pass": true
+    }
+  ],
+  "exposure": {
+    "pomc_lepr": {
+      "source_rows": 17,
+      "human_clusters": [
+        "C4-373 Mid-2 GABA-GLU-3 POMC PRDM12"
+      ],
+      "mouse_clusters": [
+        "C465-122: Prdm12.Anxa2.Pomc.GLU-5",
+        "C465-123: Cartpt.Anxa2.Pomc.GLU-5"
+      ],
+      "genes": [
+        "BRS3",
+        "CALCR",
+        "CCKAR",
+        "GABRE",
+        "GABRG3",
+        "GABRQ",
+        "GLP1R",
+        "GPR101",
+        "GPR149",
+        "HRH1",
+        "LEPR",
+        "NPY1R",
+        "NPY2R",
+        "NPY5R",
+        "NTSR1",
+        "PTGER3",
+        "RXFP2"
+      ],
+      "ortholog_pairs": [
+        [
+          "RXFP2",
+          "Rxfp2"
+        ],
+        [
+          "GPR149",
+          "Gpr149"
+        ],
+        [
+          "CALCR",
+          "Calcr"
+        ],
+        [
+          "PTGER3",
+          "Ptger3"
+        ],
+        [
+          "GABRE",
+          "Gabre"
+        ],
+        [
+          "HRH1",
+          "Hrh1"
+        ],
+        [
+          "LEPR",
+          "Lepr"
+        ],
+        [
+          "GABRQ",
+          "Gabrq"
+        ],
+        [
+          "GABRG3",
+          "Gabrg3"
+        ],
+        [
+          "GLP1R",
+          "Glp1r"
+        ],
+        [
+          "GPR101",
+          "Gpr101"
+        ],
+        [
+          "NPY1R",
+          "Npy1r"
+        ],
+        [
+          "NPY5R",
+          "Npy5r"
+        ],
+        [
+          "CCKAR",
+          "Cckar"
+        ],
+        [
+          "NTSR1",
+          "Ntsr1"
+        ],
+        [
+          "BRS3",
+          "Brs3"
+        ],
+        [
+          "NPY2R",
+          "Npy2r"
+        ]
+      ],
+      "cluster_expression_values": 51,
+      "global_expression_values": 34,
+      "source_ratio_values": 17
+    },
+    "pomc_glp1r": {
+      "source_rows": 19,
+      "human_clusters": [
+        "C4-374 Mid-2 GABA-GLU-3 POMC CALCR"
+      ],
+      "mouse_clusters": [
+        "C465-125: Tbx3.Ttr.Pomc.GLU-5"
+      ],
+      "genes": [
+        "CALCR",
+        "CCKAR",
+        "GABRE",
+        "GABRG1",
+        "GABRQ",
+        "GHR",
+        "GLP1R",
+        "GLRA2",
+        "GPR176",
+        "GPR179",
+        "LEPR",
+        "NPY1R",
+        "OPRM1",
+        "PRLHR",
+        "PRLR",
+        "PTGER3",
+        "SSTR1",
+        "THRB",
+        "TRPC6"
+      ],
+      "ortholog_pairs": [
+        [
+          "PTGER3",
+          "Ptger3"
+        ],
+        [
+          "CALCR",
+          "Calcr"
+        ],
+        [
+          "GLRA2",
+          "Glra2"
+        ],
+        [
+          "PRLHR",
+          "Prlhr"
+        ],
+        [
+          "THRB",
+          "Thrb"
+        ],
+        [
+          "TRPC6",
+          "Trpc6"
+        ],
+        [
+          "GABRE",
+          "Gabre"
+        ],
+        [
+          "GABRG1",
+          "Gabrg1"
+        ],
+        [
+          "SSTR1",
+          "Sstr1"
+        ],
+        [
+          "OPRM1",
+          "Oprm1"
+        ],
+        [
+          "PRLR",
+          "Prlr"
+        ],
+        [
+          "GABRQ",
+          "Gabrq"
+        ],
+        [
+          "GHR",
+          "Ghr"
+        ],
+        [
+          "LEPR",
+          "Lepr"
+        ],
+        [
+          "NPY1R",
+          "Npy1r"
+        ],
+        [
+          "GPR176",
+          "Gpr176"
+        ],
+        [
+          "GPR179",
+          "Gpr179"
+        ],
+        [
+          "GLP1R",
+          "Glp1r"
+        ],
+        [
+          "CCKAR",
+          "Cckar"
+        ]
+      ],
+      "cluster_expression_values": 38,
+      "global_expression_values": 38,
+      "source_ratio_values": 19
+    },
+    "pomc_glipr1": {
+      "source_rows": 16,
+      "human_clusters": [
+        "C4-375 Mid-2 GABA-GLU-3 POMC ANKRD30A"
+      ],
+      "mouse_clusters": [
+        "C465-124: Glipr1.Pomc.GLU-5"
+      ],
+      "genes": [
+        "ADRA2A",
+        "CALCR",
+        "GLP1R",
+        "GLRA2",
+        "GPR101",
+        "HCRTR2",
+        "LEPR",
+        "NPY1R",
+        "NPY5R",
+        "PRLHR",
+        "PRLR",
+        "PTGER3",
+        "RXFP1",
+        "THRB",
+        "TRPC5",
+        "TRPC6"
+      ],
+      "ortholog_pairs": [
+        [
+          "PRLHR",
+          "Prlhr"
+        ],
+        [
+          "PTGER3",
+          "Ptger3"
+        ],
+        [
+          "GLRA2",
+          "Glra2"
+        ],
+        [
+          "TRPC6",
+          "Trpc6"
+        ],
+        [
+          "LEPR",
+          "Lepr"
+        ],
+        [
+          "CALCR",
+          "Calcr"
+        ],
+        [
+          "THRB",
+          "Thrb"
+        ],
+        [
+          "ADRA2A",
+          "Adra2a"
+        ],
+        [
+          "HCRTR2",
+          "Hcrtr2"
+        ],
+        [
+          "PRLR",
+          "Prlr"
+        ],
+        [
+          "NPY1R",
+          "Npy1r"
+        ],
+        [
+          "TRPC5",
+          "Trpc5"
+        ],
+        [
+          "NPY5R",
+          "Npy5r"
+        ],
+        [
+          "RXFP1",
+          "Rxfp1"
+        ],
+        [
+          "GLP1R",
+          "Glp1r"
+        ],
+        [
+          "GPR101",
+          "Gpr101"
+        ]
+      ],
+      "cluster_expression_values": 32,
+      "global_expression_values": 32,
+      "source_ratio_values": 16
+    },
+    "agrp": {
+      "source_rows": 18,
+      "human_clusters": [
+        "C4-355 Mid-2 GABA-GLU-1 RGS22 AGRP"
+      ],
+      "mouse_clusters": [
+        "C465-286: Otp.Serpina3n.Npy.Agrp.GABA-4",
+        "C465-288: Acvr1c.Npy.Agrp.GABA-4",
+        "C465-289: Acvr1c.Serpina3n.Npy.Agrp.GABA-4",
+        "C465-290: Lepr.Agrp.GABA-4",
+        "C465-287: Nr0b1.Serpina3n.Npy.Agrp.GABA-4"
+      ],
+      "genes": [
+        "AGTR1",
+        "CALCR",
+        "CNGB1",
+        "CRHR1",
+        "GABRE",
+        "GABRQ",
+        "GHR",
+        "GHSR",
+        "GLRA2",
+        "GPR179",
+        "GRIK1",
+        "LEPR",
+        "NPY2R",
+        "SSTR2",
+        "TRPC4",
+        "TRPC5",
+        "TRPC6"
+      ],
+      "ortholog_pairs": [
+        [
+          "AGTR1",
+          "Agtr1b"
+        ],
+        [
+          "GRIK1",
+          "Grik1"
+        ],
+        [
+          "AGTR1",
+          "Agtr1a"
+        ],
+        [
+          "GLRA2",
+          "Glra2"
+        ],
+        [
+          "CNGB1",
+          "Cngb1"
+        ],
+        [
+          "TRPC5",
+          "Trpc5"
+        ],
+        [
+          "LEPR",
+          "Lepr"
+        ],
+        [
+          "GABRE",
+          "Gabre"
+        ],
+        [
+          "GHSR",
+          "Ghsr"
+        ],
+        [
+          "GHR",
+          "Ghr"
+        ],
+        [
+          "TRPC4",
+          "Trpc4"
+        ],
+        [
+          "GABRQ",
+          "Gabrq"
+        ],
+        [
+          "CALCR",
+          "Calcr"
+        ],
+        [
+          "TRPC6",
+          "Trpc6"
+        ],
+        [
+          "CRHR1",
+          "Crhr1"
+        ],
+        [
+          "GPR179",
+          "Gpr179"
+        ],
+        [
+          "SSTR2",
+          "Sstr2"
+        ],
+        [
+          "NPY2R",
+          "Npy2r"
+        ]
+      ],
+      "cluster_expression_values": 108,
+      "global_expression_values": 36,
+      "source_ratio_values": 18
+    }
+  },
+  "distinct_exported_gene_pairs": 40,
+  "all_exported_cluster_expression_values": 229,
+  "datacite_metadata": {
+    "doi": "10.17863/cam.111988",
+    "url": "https://www.repository.cam.ac.uk/handle/1810/373636",
+    "rightsList": [
+      {
+        "rights": "Creative Commons Attribution 4.0 International",
+        "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "schemeUri": "https://spdx.org/licenses/",
+        "rightsIdentifier": "cc-by-4.0",
+        "rightsIdentifierScheme": "SPDX"
+      },
+      {
+        "rights": "open.access",
+        "rightsUri": "http://purl.org/coar/access_right/c_abf2"
+      }
+    ],
+    "sizes": [],
+    "formats": [],
+    "contentUrl": null,
+    "version": null,
+    "updated": "2025-02-17T15:45:21.000Z"
+  },
+  "no_donor_units_in_selected_tables": true,
+  "peak_rss_bytes_macos": 19021824
+}

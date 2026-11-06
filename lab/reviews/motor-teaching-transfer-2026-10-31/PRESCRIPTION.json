@@ -1,0 +1,68 @@
+{
+  "created_utc": "2026-11-01T00:15:07.703334+00:00",
+  "parameters_inherited": [
+    13.574015068501582,
+    0.9499629169769717,
+    0.009689125110138544
+  ],
+  "independent_nonlinear_refit": false,
+  "independent_linear_fit_at_saved_sigma": [
+    0.949962916984279,
+    0.009689125096745708
+  ],
+  "source_rows": [
+    {
+      "clamp": 0.0,
+      "jump": 4.0,
+      "A4": 1.9008111377388743,
+      "observed_signed": 0.005633754261781476,
+      "fitted_signed": 0.038756500440554176
+    },
+    {
+      "clamp": 4.0,
+      "jump": 4.0,
+      "A4": 1.9008111377388743,
+      "observed_signed": -1.6919508810082893,
+      "fitted_signed": -1.691867449105803
+    },
+    {
+      "clamp": 4.0,
+      "jump": 8.0,
+      "A4": 1.9008111377388743,
+      "observed_signed": -1.3722061643971775,
+      "fitted_signed": -1.4464857090531482
+    },
+    {
+      "clamp": 0.0,
+      "jump": 8.0,
+      "A4": 1.9878907258482374,
+      "observed_signed": -0.17885612791015437,
+      "fitted_signed": 0.07751300088110835
+    },
+    {
+      "clamp": 4.0,
+      "jump": -8.0,
+      "A4": 1.9878907258482374,
+      "observed_signed": -1.8059919615524738,
+      "fitted_signed": -1.6710457753222232
+    },
+    {
+      "clamp": 4.0,
+      "jump": 8.0,
+      "A4": 1.9878907258482374,
+      "observed_signed": -1.45200843973554,
+      "fitted_signed": -1.5160197735600065
+    }
+  ],
+  "source_SSE": 0.09464762826287192,
+  "max_saved_source_row_error": 2.886579864025407e-15,
+  "saved_SSE_error": 8.187894806610529e-16,
+  "Figure3": {
+    "stationary": 1.6460036977976493,
+    "jump_to_observed": 0.5647148250174051,
+    "jump_to_predicted": 1.4600946817313878,
+    "observed_ratio": 0.3430823550232559,
+    "predicted_ratio": 0.8870543144495924
+  },
+  "identification": "Finite source fits calibrate the specified Gaussian/linear function at source geometry, conditional on stationary amplitudes and endpoint model. They do not identify unseen clamp amplitudes, a target-size gate or a unique mechanism."
+}

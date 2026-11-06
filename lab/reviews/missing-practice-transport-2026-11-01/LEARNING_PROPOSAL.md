@@ -1,0 +1,4 @@
+**2026-11-01 — Return-score resolution with unknown practice counts**
+- Observation: Independent missing-practice review reconstructs the exact-score K1 worst diameter 0.08221755, but reporting only the nearest 0.05 return score permits K1 worlds with counts (3,2)/(2,3), true returns 0.225001/0.274999, identical displayed 0.25 and exact source endpoints 0.75, whose target scores differ by 0.11433579. The known-count (3,3) calibration analysis does not cover this unknown-count observation coarsening. See lab/reviews/missing-practice-transport-2026-11-01/CONTRARY.json and REVIEW.md.
+- Action: When reusing the favorable K1 example, price the return score's resolution alongside calibration and nonlearning behavior. Preserve the exact-score result and classify finite-resolution failure as a changed observation map; do not generalize the known-count error tolerance to unknown counts or claim the primary K4 gate was repaired.
+- Confidence: high

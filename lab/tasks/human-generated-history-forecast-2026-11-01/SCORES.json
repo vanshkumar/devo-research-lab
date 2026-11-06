@@ -1,0 +1,324 @@
+{
+  "utc": "2026-11-02T20:35:04.209600+00:00",
+  "forecast_saved_utc": "2026-11-02T20:34:48.940459+00:00",
+  "freeze_utc": "2026-11-02T20:33:46.132935+00:00",
+  "postvalidation": true,
+  "people": 39,
+  "primary_opportunities": 2895,
+  "primary_responding": 2867,
+  "settings": {
+    "main": {
+      "primary": {
+        "mean": 0.03389409890715184,
+        "low": 0.02554831467937648,
+        "high": 0.04230609118217431,
+        "reps": 5000
+      },
+      "score_mcse": 1.564007170421729e-05,
+      "all_later": {
+        "mean": 0.014830240395176376,
+        "low": 0.008113093421982085,
+        "high": 0.022214248740822395,
+        "reps": 5000
+      },
+      "zero_primary": {
+        "mean": 0.01864239110728391,
+        "low": 0.003497104610261049,
+        "high": 0.033694890421212015,
+        "reps": 5000
+      },
+      "brier_gain": {
+        "mean": 0.015432999761633025,
+        "low": 0.01169025579635445,
+        "high": 0.019395233884992452,
+        "reps": 5000
+      },
+      "primary_mean_log_shared": -0.6283206072823547,
+      "primary_mean_log_baseline": -0.6622147061895064,
+      "partitions": {
+        "validation_seen_schedule": {
+          "n_people": 14,
+          "mean": 0.026883783438374026
+        },
+        "validation_unseen_schedule": {
+          "n_people": 25,
+          "mean": 0.03781987556966741
+        }
+      },
+      "schedules": {
+        "S01": {
+          "n_people": 2,
+          "mean": 0.011648924899549317
+        },
+        "S02": {
+          "n_people": 8,
+          "mean": 0.04504740507032501
+        },
+        "S03": {
+          "n_people": 9,
+          "mean": 0.04447431037915303
+        },
+        "S04": {
+          "n_people": 2,
+          "mean": 0.021860667302840267
+        },
+        "S05": {
+          "n_people": 2,
+          "mean": 0.0651481627602363
+        },
+        "S06": {
+          "n_people": 8,
+          "mean": 0.023106106908338482
+        },
+        "S07": {
+          "n_people": 2,
+          "mean": 0.026695697099791083
+        },
+        "S08": {
+          "n_people": 2,
+          "mean": 0.017550146779315164
+        },
+        "S09": {
+          "n_people": 2,
+          "mean": 0.039645059114874905
+        },
+        "S10": {
+          "n_people": 2,
+          "mean": 0.005637826112011142
+        }
+      },
+      "leave_one_schedule_out": {
+        "S01": 0.03509654074540062,
+        "S02": 0.031015826348913596,
+        "S03": 0.030720035465551476,
+        "S04": 0.034544554669547055,
+        "S05": 0.03220469005022835,
+        "S06": 0.03667809684232948,
+        "S07": 0.03428320170754972,
+        "S08": 0.034777555778926786,
+        "S09": 0.033583236193220865,
+        "S10": 0.03542146500418647
+      },
+      "schedule_person_interval": {
+        "low": 0.019503681567477116,
+        "high": 0.045059525856071654,
+        "reps": 5000
+      },
+      "known_answer": {
+        "expected_gain_under_shared": 0.018523430687513307,
+        "expected_gain_under_baseline": -0.019215340733837124,
+        "scope": "Exact marginal Bernoulli proper-score identities, not full generative recovery/power."
+      }
+    },
+    "double_omission": {
+      "primary": {
+        "mean": 0.03377128515253502,
+        "low": 0.025526171348879315,
+        "high": 0.04214444002803571,
+        "reps": 5000
+      },
+      "score_mcse": 2.5235933974084867e-05,
+      "all_later": {
+        "mean": 0.014800316203532077,
+        "low": 0.008139745598001761,
+        "high": 0.022168602487094596,
+        "reps": 5000
+      },
+      "zero_primary": {
+        "mean": 0.018487301455209135,
+        "low": 0.003487581349507453,
+        "high": 0.03348064906004774,
+        "reps": 5000
+      },
+      "brier_gain": {
+        "mean": 0.015372318732516295,
+        "low": 0.011661736184619931,
+        "high": 0.019314977937723615,
+        "reps": 5000
+      },
+      "primary_mean_log_shared": -0.6284663306856193,
+      "primary_mean_log_baseline": -0.6622376158381544,
+      "partitions": {
+        "validation_seen_schedule": {
+          "n_people": 14,
+          "mean": 0.026841569108874756
+        },
+        "validation_unseen_schedule": {
+          "n_people": 25,
+          "mean": 0.037651926136984766
+        }
+      },
+      "schedules": {
+        "S01": {
+          "n_people": 2,
+          "mean": 0.012064132980400889
+        },
+        "S02": {
+          "n_people": 8,
+          "mean": 0.0447168263925373
+        },
+        "S03": {
+          "n_people": 9,
+          "mean": 0.04426513720426956
+        },
+        "S04": {
+          "n_people": 2,
+          "mean": 0.021929016170587602
+        },
+        "S05": {
+          "n_people": 2,
+          "mean": 0.06490866868639411
+        },
+        "S06": {
+          "n_people": 8,
+          "mean": 0.023147163430736827
+        },
+        "S07": {
+          "n_people": 2,
+          "mean": 0.026699172225586473
+        },
+        "S08": {
+          "n_people": 2,
+          "mean": 0.017590712071175733
+        },
+        "S09": {
+          "n_people": 2,
+          "mean": 0.03931145513861923
+        },
+        "S10": {
+          "n_people": 2,
+          "mean": 0.005387826489359222
+        }
+      },
+      "leave_one_schedule_out": {
+        "S01": 0.034944644729407136,
+        "S02": 0.030946629348663456,
+        "S03": 0.030623129537014657,
+        "S04": 0.034411407800207856,
+        "S05": 0.03208818333989398,
+        "S06": 0.03651299398396681,
+        "S07": 0.03415356152696467,
+        "S08": 0.034645910724500385,
+        "S09": 0.033471816504638575,
+        "S10": 0.035305526161355336
+      },
+      "schedule_person_interval": {
+        "low": 0.01947416509216694,
+        "high": 0.044831362151704086,
+        "reps": 5000
+      },
+      "known_answer": {
+        "expected_gain_under_shared": 0.018340328709120782,
+        "expected_gain_under_baseline": -0.01902427028739247,
+        "scope": "Exact marginal Bernoulli proper-score identities, not full generative recovery/power."
+      }
+    },
+    "no_omission": {
+      "primary": {
+        "mean": 0.03397417126329286,
+        "low": 0.025567150618877255,
+        "high": 0.04244654281997314,
+        "reps": 5000
+      },
+      "score_mcse": 0.0,
+      "all_later": {
+        "mean": 0.014824248027255437,
+        "low": 0.00805617285622956,
+        "high": 0.022259961979686167,
+        "reps": 5000
+      },
+      "zero_primary": {
+        "mean": 0.018616120112862355,
+        "low": 0.003341707630401078,
+        "high": 0.033805030134404834,
+        "reps": 5000
+      },
+      "brier_gain": {
+        "mean": 0.015465939315728242,
+        "low": 0.011697571637489725,
+        "high": 0.01945584793727357,
+        "reps": 5000
+      },
+      "primary_mean_log_shared": -0.6282943779103789,
+      "primary_mean_log_baseline": -0.6622685491736718,
+      "partitions": {
+        "validation_seen_schedule": {
+          "n_people": 14,
+          "mean": 0.02699688197884234
+        },
+        "validation_unseen_schedule": {
+          "n_people": 25,
+          "mean": 0.037881453262585144
+        }
+      },
+      "schedules": {
+        "S01": {
+          "n_people": 2,
+          "mean": 0.011539307523231663
+        },
+        "S02": {
+          "n_people": 8,
+          "mean": 0.045063471234522735
+        },
+        "S03": {
+          "n_people": 9,
+          "mean": 0.04473954785911264
+        },
+        "S04": {
+          "n_people": 2,
+          "mean": 0.021837149471912138
+        },
+        "S05": {
+          "n_people": 2,
+          "mean": 0.06541823509038394
+        },
+        "S06": {
+          "n_people": 8,
+          "mean": 0.0229840788695541
+        },
+        "S07": {
+          "n_people": 2,
+          "mean": 0.026724632105920555
+        },
+        "S08": {
+          "n_people": 2,
+          "mean": 0.017570084460015963
+        },
+        "S09": {
+          "n_people": 2,
+          "mean": 0.039994854351479356
+        },
+        "S10": {
+          "n_people": 2,
+          "mean": 0.005893910848952768
+        }
+      },
+      "leave_one_schedule_out": {
+        "S01": 0.03518686660059346,
+        "S02": 0.03111241643200772,
+        "S03": 0.030744558284546912,
+        "S04": 0.034630226495259375,
+        "S05": 0.03227449213750415,
+        "S06": 0.036810324139096406,
+        "S07": 0.03436603824477243,
+        "S08": 0.03486087865806457,
+        "S09": 0.03364872893420169,
+        "S10": 0.03549202317758151
+      },
+      "schedule_person_interval": {
+        "low": 0.019511783349092215,
+        "high": 0.045227835029543466,
+        "reps": 5000
+      },
+      "known_answer": {
+        "expected_gain_under_shared": 0.01870473289790847,
+        "expected_gain_under_baseline": -0.019404145652839135,
+        "scope": "Exact marginal Bernoulli proper-score identities, not full generative recovery/power."
+      }
+    }
+  },
+  "primary_utility_pass": true,
+  "omission_sensitivity_robust_pass": true,
+  "learning_refits": 0,
+  "scope": "Known exact deterministic source-schedule continuation; source-only iid observation-law completion; frozen sequential integrated one-step kernels; marginal responding-choice scores. No generated stochastic teacher, joint trajectory/engagement utility, biological mechanism, cross-policy transport or scientific goal completion."
+}

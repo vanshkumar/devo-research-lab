@@ -1,0 +1,87 @@
+{
+  "generated_utc": "2026-11-03T00:15:00.219229+00:00",
+  "predeclaration": "CONTRARY_PREDECLARATION.md",
+  "test": "known all-visual catches plus response-mapping reversal",
+  "both_signed_boundaries": true,
+  "exact_identity_checks": 864,
+  "ordinary_hand_max_probability_gap": 0.0,
+  "shared_criterion_only": {
+    "augmented_world_equality": false,
+    "minimum_catch_probability_gap_on_declared_grid": 0.042577509579925565,
+    "maximum_catch_probability_gap_on_declared_grid": 0.04417853369053759,
+    "catch_logit_separation_absolute": 0.17697113635381623,
+    "max_numerical_criterion_recovery_error_degrees": 1.1102230246251565e-16,
+    "criterion_and_logit_scale_exactly_recovered": true,
+    "conclusion": "The added calibration excludes a wholly shared spatial/response criterion rival."
+  },
+  "hand_specific_signal_mismatch_allowed": {
+    "augmented_world_equality": true,
+    "maximum_hand_probability_gap": 0.0,
+    "maximum_catch_probability_gap": 0.0,
+    "shared_criterion": 0,
+    "common_button_bias": 0.17,
+    "required_hand_specific_mismatch_radius_degrees": 0.26545670453072434,
+    "conclusion": "Catch calibration cannot test its transfer to the hand-report/learning-signal relation."
+  },
+  "cases": [
+    {
+      "sign": -1,
+      "calibrated_shared_criterion_transition_curves": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.21236536362457947,
+          -0.2059944027158421,
+          -0.19981457063436683,
+          -0.19382013351533584,
+          -0.18800552950987576
+        ]
+      ],
+      "calibrated_shared_criterion_transition_means": [
+        0.0,
+        -0.2
+      ],
+      "same_calibration_with_hand_specific_mismatch_naive_mean": -0.1,
+      "true_means_in_indistinguishable_augmented_worlds": [
+        0.0,
+        -0.2
+      ]
+    },
+    {
+      "sign": 1,
+      "calibrated_shared_criterion_transition_curves": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.21236536362457947,
+          0.2059944027158421,
+          0.19981457063436683,
+          0.19382013351533584,
+          0.18800552950987576
+        ]
+      ],
+      "calibrated_shared_criterion_transition_means": [
+        0.0,
+        0.2
+      ],
+      "same_calibration_with_hand_specific_mismatch_naive_mean": 0.1,
+      "true_means_in_indistinguishable_augmented_worlds": [
+        0.0,
+        0.2
+      ]
+    }
+  ],
+  "logistic_scale_degrees_supplied_not_empirical": 3.0,
+  "no_empirical_power_coverage_or_people": true,
+  "max_rss_bytes_macos": 13074432
+}

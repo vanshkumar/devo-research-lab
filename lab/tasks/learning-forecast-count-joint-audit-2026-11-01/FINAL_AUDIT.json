@@ -1,0 +1,235 @@
+{
+  "utc": "2026-11-01T13:14:33.692738+00:00",
+  "status": "independent_endpoint_score_uncertainty_and_pin_audit_passed",
+  "all_576_cell_energy_and_count_scores_max_errors": {
+    "joint_v": 5.551115123125783e-17,
+    "joint_u": 5.551115123125783e-17,
+    "count_v": 5.551115123125783e-17,
+    "count_u": 5.551115123125783e-17
+  },
+  "category_construction_max_error": 0.0,
+  "original_ratio_max_error": 0.0,
+  "scalar_integer_count_checks": [
+    {
+      "method": "rnn",
+      "animal": 0,
+      "bin": 0,
+      "side": 0,
+      "energy": 0.017822948275975012,
+      "vector_error": 6.938893903907228e-18
+    },
+    {
+      "method": "rnn",
+      "animal": 23,
+      "bin": 5,
+      "side": 1,
+      "energy": 0.03876081280053948,
+      "vector_error": 6.938893903907228e-18
+    },
+    {
+      "method": "growth",
+      "animal": 0,
+      "bin": 0,
+      "side": 0,
+      "energy": 0.037308828014902366,
+      "vector_error": 6.938893903907228e-18
+    },
+    {
+      "method": "growth",
+      "animal": 23,
+      "bin": 5,
+      "side": 1,
+      "energy": 0.05434569031778348,
+      "vector_error": 0.0
+    }
+  ],
+  "exact_delete_one_checks": [
+    {
+      "method": "rnn",
+      "animal": 0,
+      "particle": 0,
+      "error": 2.0816681711721685e-15
+    },
+    {
+      "method": "rnn",
+      "animal": 0,
+      "particle": 127,
+      "error": 3.2751579226442118e-15
+    },
+    {
+      "method": "rnn",
+      "animal": 0,
+      "particle": 511,
+      "error": 9.346690088563037e-15
+    },
+    {
+      "method": "rnn",
+      "animal": 23,
+      "particle": 0,
+      "error": 1.6653345369377348e-15
+    },
+    {
+      "method": "rnn",
+      "animal": 23,
+      "particle": 127,
+      "error": 7.771561172376096e-16
+    },
+    {
+      "method": "rnn",
+      "animal": 23,
+      "particle": 511,
+      "error": 5.037636974236648e-15
+    },
+    {
+      "method": "growth",
+      "animal": 0,
+      "particle": 0,
+      "error": 1.329492071988625e-14
+    },
+    {
+      "method": "growth",
+      "animal": 0,
+      "particle": 127,
+      "error": 6.314393452555578e-15
+    },
+    {
+      "method": "growth",
+      "animal": 0,
+      "particle": 511,
+      "error": 3.191891195797325e-16
+    },
+    {
+      "method": "growth",
+      "animal": 23,
+      "particle": 0,
+      "error": 5.440092820663267e-15
+    },
+    {
+      "method": "growth",
+      "animal": 23,
+      "particle": 127,
+      "error": 3.219646771412954e-15
+    },
+    {
+      "method": "growth",
+      "animal": 23,
+      "particle": 511,
+      "error": 1.8110513089197866e-15
+    }
+  ],
+  "permutation_max_error": 0.0,
+  "point_mass_limits": {
+    "identical_point_mass": 0.0,
+    "correctness_only_joint": 0.04999999999999999,
+    "correctness_only_count": 0.0,
+    "count_only_joint": 0.09999999999999998,
+    "count_only_reference": 0.1
+  },
+  "uncertainty_reconstruction": {
+    "main_joint_energy": {
+      "growth_minus_rnn": 0.001911057791103089,
+      "paired_bootstrap95": [
+        -0.002579533136106082,
+        0.007043092236351533
+      ],
+      "cluster_cr1_t95": [
+        -0.008049962844010548,
+        0.011872078426216725
+      ],
+      "max_error": 5.204170427930421e-18
+    },
+    "one_accuracy_blind_count_reference": {
+      "growth_minus_rnn": 0.002290115303463406,
+      "paired_bootstrap95": [
+        -0.0019043570339679712,
+        0.007113045926226505
+      ],
+      "cluster_cr1_t95": [
+        -0.006408446691875038,
+        0.01098867729880185
+      ],
+      "max_error": 6.071532165918825e-18
+    }
+  },
+  "frozen_sources_unchanged": {
+    "DESIGN.md": "e5a327c43f9db419f7ee514f3ba45687bbd31587984cd792396c6ad56e25c11a",
+    "RESOURCE_PLAN.json": "61e6505109e2a945b8f64cb6e01783150e652f80868e620e7a8e07afb319a5ef",
+    "compare.py": "26c9c92cbe141c7ffd0f95f28c7545ee7d18237c88abbb1cc904a1ed41a1a58a",
+    "first_calculation.py": "43826a7a940b6c446fb99d18cebd892cb244e4b861aede21ef0f137e99dd40df",
+    "freeze.py": "31f4740cc2858798b49e7d0e183a534724ec77825c7d3d347464792a818918d9"
+  },
+  "first_numeric_and_design_deadlines_passed": true,
+  "source_ordering_consistent_not_proof_of_historical_nonaccess": true,
+  "input_manifest": [
+    {
+      "path": "ENDPOINTS.npz",
+      "containing_bytes": 1870785,
+      "decoded_bytes": 7088320,
+      "sha256": "6b6d699fa2dd445ebda98f43a7921271b5e341c13ae75dac4ca6bc0d8a55aac5"
+    },
+    {
+      "path": "COMPARISON_OBJECTS.npz",
+      "containing_bytes": 2265309,
+      "decoded_bytes": 11811136,
+      "sha256": "2c7f26c9e70c4fb2c0213ece3fa5aceb266b29fcfe0960d712c523e103c1bf09"
+    },
+    {
+      "path": "SCORES.npz",
+      "containing_bytes": 395671,
+      "decoded_bytes": 421184,
+      "sha256": "1f7cece02eada666ea3a3f1e20bd0e804bd5c97a73577ab7b36b01ee13c68585"
+    },
+    {
+      "path": "RESULT.json",
+      "containing_bytes": 28502,
+      "decoded_bytes": 0,
+      "sha256": "7631e62b80394fab7820874f6ebd9f4bff8dc3b65ac86b07dc15c3a52057b889"
+    },
+    {
+      "path": "FROZEN_PLAN.json",
+      "containing_bytes": 16570,
+      "decoded_bytes": 0,
+      "sha256": "1a318ba84b06fefa27ac9a1f5b73c1a70943f08a0dbca5aa013a7281f928eac3"
+    },
+    {
+      "path": "FIRST_CALCULATION.json",
+      "containing_bytes": 20838,
+      "decoded_bytes": 0,
+      "sha256": "0b65da17ec8350a1e62bdc95bc3d43cc4ee9992ec852b167712351eb4082e35b"
+    },
+    {
+      "path": "DESIGN.md",
+      "containing_bytes": 7178,
+      "decoded_bytes": 0,
+      "sha256": "e5a327c43f9db419f7ee514f3ba45687bbd31587984cd792396c6ad56e25c11a"
+    },
+    {
+      "path": "RESOURCE_PLAN.json",
+      "containing_bytes": 1376,
+      "decoded_bytes": 0,
+      "sha256": "61e6505109e2a945b8f64cb6e01783150e652f80868e620e7a8e07afb319a5ef"
+    },
+    {
+      "path": "compare.py",
+      "containing_bytes": 11109,
+      "decoded_bytes": 0,
+      "sha256": "26c9c92cbe141c7ffd0f95f28c7545ee7d18237c88abbb1cc904a1ed41a1a58a"
+    },
+    {
+      "path": "first_calculation.py",
+      "containing_bytes": 8009,
+      "decoded_bytes": 0,
+      "sha256": "43826a7a940b6c446fb99d18cebd892cb244e4b861aede21ef0f137e99dd40df"
+    },
+    {
+      "path": "freeze.py",
+      "containing_bytes": 2887,
+      "decoded_bytes": 0,
+      "sha256": "31f4740cc2858798b49e7d0e183a534724ec77825c7d3d347464792a818918d9"
+    }
+  ],
+  "cumulative_read_hash_decode_charge_bytes": 118783434,
+  "audit_peak_rss_bytes": 134283264,
+  "physical_io_unknown": true,
+  "elapsed_seconds": 5.220309540978633
+}

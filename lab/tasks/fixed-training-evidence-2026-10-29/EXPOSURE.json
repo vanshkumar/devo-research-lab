@@ -1,0 +1,179 @@
+{
+  "task": "fixed-training-evidence-2026-10-29",
+  "investigator": "/root/fixed_training_evidence",
+  "started_utc": "2026-10-29T17:04:46Z",
+  "hard_stop_utc": "2026-10-29T17:34:46Z",
+  "limits": {
+    "candidates": 3,
+    "targeted_queries": 9,
+    "aggregate_bytes": 10000000,
+    "per_file_bytes": 2000000,
+    "response_rows_decoded": 0,
+    "model_fits": 0,
+    "subagents": 0,
+    "new_chats": 0
+  },
+  "searches": [
+    "category learning blocked interleaved Carvalho Goldstone data code github experiment",
+    "spacing practice memory learning experiment randomized data code github OSF trial",
+    "Flesch 2018 comparing continual task learning minds machines data code github experiment blocked interleaved",
+    "Carvalho Goldstone 2014 2017 sequential attention data OSF task code s87tf",
+    "\"Flesch\" \"B20\" \"model\" \"learning\"",
+    "\"Carvalho\" \"Goldstone\" \"2014\" \"s87tf\" data",
+    "\"Comparing continual task learning\" \"assigned\" \"participants\"",
+    "\"Putting category learning in order\" \"participants\" Experiment 1",
+    "\"Flesch\" \"curriculum\" \"held-out\" \"B20\""
+  ],
+  "raw_and_schema": [
+    {
+      "source": "Flesch2018 Exp1a allData MAT",
+      "commit": "eb84270a2e3adcb96baa45952bf43b364d1677ac",
+      "full_object_bytes": 1275865,
+      "first_request_bytes": 128,
+      "first_request_status": 206,
+      "second_range_bytes_requested": 65536,
+      "second_compressed_application_bytes_read": 392,
+      "structural_bytes_inflated": 592,
+      "value_payload_bytes_inflated": 0,
+      "inspected": "MAT header;26 field names;allData scalar struct;first expt_index dimensions600x176 only",
+      "response_rows_decoded": 0,
+      "numeric_trial_values_read": 0,
+      "opaque_exposure": "Compressed input chunk may contain later value-bearing bytes; those bytes were not inflated. Range budget charged65536 conservatively."
+    },
+    {
+      "source": "Carvalho2014 study aggregate CSV",
+      "object_bytes": 37366,
+      "client_bytes_read": 66,
+      "inspected": "subject,block,schedule,cat_structure,mean_acc,mean_rt header only",
+      "response_rows_decoded": 0
+    },
+    {
+      "source": "Carvalho2014 test aggregate CSV initial attempt",
+      "object_bytes": 14862,
+      "client_bytes_read": 4096,
+      "inspected": "none;newline boundary failed because of CR-only line endings;UTF-8 decode branch was never reached",
+      "response_rows_decoded": 0,
+      "opaque_exposure": "4096 raw CSV bytes read into memory then discarded without decoding/logging/saving. Conservatively charge whole14862-byte response. This file is not untouched at the byte-acquisition level."
+    },
+    {
+      "source": "Carvalho2014 test aggregate CSV retry",
+      "client_bytes_read": 56,
+      "inspected": "subject,studied,schedule,cat_structure,mean_acc,mean_rt header only;stop at CR",
+      "response_rows_decoded": 0
+    },
+    {
+      "source": "Carvalho2014 trial high-sim20.dat",
+      "declared_bytes": 24918,
+      "status": 200,
+      "method": "HEAD",
+      "response_body_bytes_read": 0,
+      "trial_schema": "not decoded/certified"
+    },
+    {
+      "source": "Upadhyay2021 one-day trial CSV",
+      "commit": "fb197043c287a3d4f76787a19c023b964e823c7d",
+      "object_bytes": 13498336,
+      "method": "streamed GET;closed immediately after header newline",
+      "client_bytes_read": 240,
+      "inspected": "22-field CSV header including user,algorithm,question,difficulty,correct,datecreated,countsequence,seconds;no answer row",
+      "response_rows_decoded": 0
+    },
+    {
+      "source": "Upadhyay2021 full archive",
+      "declared_bytes": 572563931,
+      "method": "share-page metadata and HEAD only",
+      "status": 200,
+      "response_body_bytes_read": 0,
+      "etag": "1594bc2966c583c4325bd3927d2afcdc"
+    },
+    {
+      "source": "Carvalho stimulus inputs",
+      "full_input_only_files": [
+        "exemplars_highsim.csv",
+        "exemplars_lowsim.csv",
+        "ReadMe.rtf"
+      ],
+      "inspected": "48x8 categorical feature values per structure and category labels;source hashes match;no human responses"
+    }
+  ],
+  "published_summary_exposure": [
+    {
+      "source": "Flesch2018 primary article",
+      "url": "https://doi.org/10.1073/pnas.1800755115",
+      "exposed": [
+        "B200 final accuracy exceeds Interleaved (d=.47) and B2 (d=.80);training performance plateaus.",
+        "B200 has less irrelevant-dimension intrusion and stronger factorization;2-boundary models and boundary-bias comparisons were already reported;no group lapse-rate difference.",
+        "All participants were retained only above55% test accuracy;recruited until>=40/group;F(3,172) implies176 analyzed people.",
+        "Incidental related-experiment summaries:diagonal condition retains factorization evidence without overall test-accuracy benefit;preexperimental grid prior relates to blocked-training benefit. These other experiments were not assessed as candidates."
+      ]
+    },
+    {
+      "source": "Flesch2023 primary reanalysis",
+      "url": "https://doi.org/10.1371/journal.pcbi.1010808",
+      "exposed": [
+        "Combined sluggish-context and Hebbian-gating model reproduces blocked/interleaved human accuracy,congruency,intrusion and boundary-error patterns;vanilla SGD differs.",
+        "Curriculum-specific learning rates .0905/.0926 and Hebbian rates .0026/.000327;sluggishness/temperature fitted to human choices. No source-only B2/B20 test was established by inspected Methods."
+      ]
+    },
+    {
+      "source": "Carvalho2014 primary abstract and2022 primary modeling paper",
+      "urls": [
+        "https://doi.org/10.3758/s13421-013-0371-0",
+        "https://doi.org/10.1111/cogs.13128"
+      ],
+      "exposed": [
+        "High-similarity categories favor interleaving;low-similarity categories favor blocking.",
+        "SAT-M fits this interaction better than SAT-M-R;reported r2 .96/.44,SSE .008/.103,BIC7053.60/7319.03,Bayes factor<.001.",
+        "ALCOVE and SUSTAIN fail the critical pattern under the paper's shared-parameter fits;SAT-M/common-parameter comparisons already exist.",
+        "Follow-up report describes288 study and48 test trials per schedule,old/novel stimuli andwithin-person schedules."
+      ]
+    },
+    {
+      "source": "Upadhyay2021 primary trial",
+      "url": "https://doi.org/10.1038/s41539-021-00105-8",
+      "exposed": [
+        "Abstract reports~69% longer memory under model-selected instruction.",
+        "Normalized forgetting-rate medians lower underSELECT;reported~48%/~40% decreases versus random/difficulty and~92%/~40% longer median half-lives.",
+        "Selection/difficulty groups more likely to return4-7days;SELECT also has more early stopping.",
+        "~50,700 learners,16.75million answers,~1900 questions,~628,000 sessions;6774 reinstall/multiple-assignment and32445<2day users excluded;11481 retained."
+      ]
+    },
+    {
+      "source": "Incidental search snippets;not candidate assessments",
+      "exposed": [
+        "BRAC student spacing project:N36,means12.61 versus8.17/20,+4.44 words,+54%,d2.15.",
+        "Emeny2021:spaced math practice improves delayed scores;mass practice overconfidence.",
+        "Older-adult working-memory spacing trial:little evidence of spacing benefit under tested schedules.",
+        "Carvalho delayed-test2014 related experiment:refresher/novelty comparisons andN63;one snippet reportscategory F(1,61)=6.67 andold/new F(1,61)=5.55.",
+        "Pan2024 title claims interleaved pretesting enhancement;exclusion counts1/20 were seen.",
+        "Strittmatter2026 incidentalabstract:N200,increasing difficulty helps andnetwork-adverse sequence impairs humans.",
+        "Holton2026 incidentalabstract:human/network matched schedules,305 network runs,14% excluded fornot learning taskB."
+      ]
+    }
+  ],
+  "preservation": {
+    "pan20": "prefixes and outcomes remain sealed",
+    "habits": "no further payload access",
+    "old_mouse": "parked route not reopened",
+    "frozen_historical_files": "unchanged"
+  },
+  "interpretation": "All three candidates and relevant follow-up outcomes are summary-exposed. Any future study must be labeled retrospective/summary-informed with remaining raw trajectories withheld, never completely untouched.",
+  "usage_snapshots": [
+    {
+      "time_utc": "2026-10-29T17:04:46Z",
+      "used_percent": 55,
+      "remaining_percent": 45
+    },
+    {
+      "time_utc": "2026-10-29T17:08:46Z",
+      "used_percent": 28,
+      "remaining_percent": 72
+    },
+    {
+      "time_utc": "2026-10-29T17:24:22Z",
+      "used_percent": 28,
+      "remaining_percent": 72
+    }
+  ],
+  "usage_note": "Same account/window/reset timestamp;unexpected decrease was independently confirmed by PI.No reset or credits were invoked.Do not interpret snapshot difference as task consumption."
+}

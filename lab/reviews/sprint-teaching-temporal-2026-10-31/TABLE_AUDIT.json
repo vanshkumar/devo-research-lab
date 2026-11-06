@@ -1,0 +1,637 @@
+{
+  "rows": [
+    {
+      "plant": 100,
+      "input_keys_shapes": {
+        "basis": [
+          6,
+          100,
+          4
+        ],
+        "bias": [
+          6,
+          100
+        ],
+        "target": [
+          4
+        ],
+        "initial": [
+          4
+        ],
+        "on": [
+          6
+        ],
+        "off": [
+          6
+        ],
+        "seed": []
+      },
+      "orders": [
+        {
+          "variant": "no_clock_forward",
+          "target_index": 0,
+          "target_rank": 5,
+          "chosen_index": 10,
+          "bestwrong_index": 10,
+          "bestwrong_order": [
+            0,
+            4,
+            5,
+            1,
+            3,
+            2
+          ],
+          "target_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "bestwrong_minus_target_Hz": -0.0009734310176514605,
+          "saved_gold_at_chosen": 6.654012604259026
+        },
+        {
+          "variant": "no_clock_reverse",
+          "target_index": 2,
+          "target_rank": 36,
+          "chosen_index": 4,
+          "bestwrong_index": 4,
+          "bestwrong_order": [
+            3,
+            4,
+            5,
+            0,
+            1,
+            2
+          ],
+          "target_order": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "bestwrong_minus_target_Hz": -0.0016108145320405942,
+          "saved_gold_at_chosen": 5.78953863762172
+        },
+        {
+          "variant": "onset_reset",
+          "target_index": 0,
+          "target_rank": 1,
+          "chosen_index": 0,
+          "bestwrong_index": 16,
+          "bestwrong_order": [
+            3,
+            1,
+            2,
+            0,
+            4,
+            5
+          ],
+          "target_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "bestwrong_minus_target_Hz": 0.18572386046034062,
+          "saved_gold_at_chosen": 0.0
+        }
+      ],
+      "duration": [
+        {
+          "variant": "no_clock_forward",
+          "initial_duration": 0.8,
+          "final_duration": 0.7,
+          "initial_gold": 2.4057994273777954,
+          "final_gold": 2.6289196574011946
+        },
+        {
+          "variant": "true_waveform_error",
+          "initial_duration": 0.8,
+          "final_duration": 1.0000000000000002,
+          "initial_gold": 2.4057994273777954,
+          "final_gold": 0.01641081928104339
+        },
+        {
+          "variant": "tonic_forward",
+          "initial_duration": 0.8,
+          "final_duration": 0.7,
+          "initial_gold": 2.4057994273777954,
+          "final_gold": 2.6289196574011946
+        },
+        {
+          "variant": "onset_reset",
+          "initial_duration": 0.8,
+          "final_duration": 1.0187500000000003,
+          "initial_gold": 2.4057994273777954,
+          "final_gold": 0.31046975146244093
+        }
+      ]
+    },
+    {
+      "plant": 101,
+      "input_keys_shapes": {
+        "basis": [
+          6,
+          100,
+          4
+        ],
+        "bias": [
+          6,
+          100
+        ],
+        "target": [
+          4
+        ],
+        "initial": [
+          4
+        ],
+        "on": [
+          6
+        ],
+        "off": [
+          6
+        ],
+        "seed": []
+      },
+      "orders": [
+        {
+          "variant": "no_clock_forward",
+          "target_index": 0,
+          "target_rank": 2,
+          "chosen_index": 4,
+          "bestwrong_index": 4,
+          "bestwrong_order": [
+            3,
+            4,
+            5,
+            0,
+            1,
+            2
+          ],
+          "target_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "bestwrong_minus_target_Hz": -0.0003337193082604273,
+          "saved_gold_at_chosen": 8.109757348151195
+        },
+        {
+          "variant": "no_clock_reverse",
+          "target_index": 2,
+          "target_rank": 33,
+          "chosen_index": 25,
+          "bestwrong_index": 25,
+          "bestwrong_order": [
+            3,
+            1,
+            4,
+            0,
+            2,
+            5
+          ],
+          "target_order": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "bestwrong_minus_target_Hz": -0.0014525890686645226,
+          "saved_gold_at_chosen": 7.966363756966839
+        },
+        {
+          "variant": "onset_reset",
+          "target_index": 0,
+          "target_rank": 1,
+          "chosen_index": 0,
+          "bestwrong_index": 34,
+          "bestwrong_order": [
+            1,
+            5,
+            2,
+            3,
+            4,
+            0
+          ],
+          "target_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "bestwrong_minus_target_Hz": 0.22612152019594145,
+          "saved_gold_at_chosen": 0.0
+        }
+      ],
+      "duration": [
+        {
+          "variant": "no_clock_forward",
+          "initial_duration": 0.8,
+          "final_duration": 0.7,
+          "initial_gold": 2.400177878205057,
+          "final_gold": 2.547113251114695
+        },
+        {
+          "variant": "true_waveform_error",
+          "initial_duration": 0.8,
+          "final_duration": 1.0000000000000002,
+          "initial_gold": 2.400177878205057,
+          "final_gold": 0.0016940407613871974
+        },
+        {
+          "variant": "tonic_forward",
+          "initial_duration": 0.8,
+          "final_duration": 0.7,
+          "initial_gold": 2.400177878205057,
+          "final_gold": 2.547113251114695
+        },
+        {
+          "variant": "onset_reset",
+          "initial_duration": 0.8,
+          "final_duration": 0.9875000000000003,
+          "initial_gold": 2.400177878205057,
+          "final_gold": 0.19234742702340862
+        }
+      ]
+    },
+    {
+      "plant": 102,
+      "input_keys_shapes": {
+        "basis": [
+          6,
+          100,
+          4
+        ],
+        "bias": [
+          6,
+          100
+        ],
+        "target": [
+          4
+        ],
+        "initial": [
+          4
+        ],
+        "on": [
+          6
+        ],
+        "off": [
+          6
+        ],
+        "seed": []
+      },
+      "orders": [
+        {
+          "variant": "no_clock_forward",
+          "target_index": 0,
+          "target_rank": 17,
+          "chosen_index": 7,
+          "bestwrong_index": 7,
+          "bestwrong_order": [
+            4,
+            0,
+            5,
+            1,
+            3,
+            2
+          ],
+          "target_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "bestwrong_minus_target_Hz": -0.0014540066353250225,
+          "saved_gold_at_chosen": 8.19887363508599
+        },
+        {
+          "variant": "no_clock_reverse",
+          "target_index": 2,
+          "target_rank": 4,
+          "chosen_index": 36,
+          "bestwrong_index": 36,
+          "bestwrong_order": [
+            5,
+            4,
+            0,
+            3,
+            1,
+            2
+          ],
+          "target_order": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "bestwrong_minus_target_Hz": -0.0014497573101615036,
+          "saved_gold_at_chosen": 3.966436680121184
+        },
+        {
+          "variant": "onset_reset",
+          "target_index": 0,
+          "target_rank": 1,
+          "chosen_index": 0,
+          "bestwrong_index": 8,
+          "bestwrong_order": [
+            0,
+            1,
+            5,
+            3,
+            2,
+            4
+          ],
+          "target_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "bestwrong_minus_target_Hz": 0.16854730935460305,
+          "saved_gold_at_chosen": 0.0
+        }
+      ],
+      "duration": [
+        {
+          "variant": "no_clock_forward",
+          "initial_duration": 0.8,
+          "final_duration": 0.7,
+          "initial_gold": 2.466140696533038,
+          "final_gold": 2.6515768998775537
+        },
+        {
+          "variant": "true_waveform_error",
+          "initial_duration": 0.8,
+          "final_duration": 1.0000000000000002,
+          "initial_gold": 2.466140696533038,
+          "final_gold": 0.023315342850131843
+        },
+        {
+          "variant": "tonic_forward",
+          "initial_duration": 0.8,
+          "final_duration": 0.7,
+          "initial_gold": 2.466140696533038,
+          "final_gold": 2.6515768998775537
+        },
+        {
+          "variant": "onset_reset",
+          "initial_duration": 0.8,
+          "final_duration": 1.0000000000000002,
+          "initial_gold": 2.466140696533038,
+          "final_gold": 0.023315342850131843
+        }
+      ]
+    }
+  ],
+  "saved_tail_checks": [
+    {
+      "plant": 100,
+      "variant": "no_clock_forward",
+      "saved_prefix_score_max_error": 0.0
+    },
+    {
+      "plant": 100,
+      "variant": "no_clock_forward",
+      "saved_prefix_score_max_error": 0.0
+    },
+    {
+      "plant": 100,
+      "variant": "no_clock_forward",
+      "final_duration": 0.7,
+      "final_minus_target_1300ms": -0.0038005937780392074,
+      "final_minus_target_2000ms": -0.0024715936584505105
+    },
+    {
+      "plant": 100,
+      "variant": "onset_reset",
+      "saved_prefix_score_max_error": 0.0
+    },
+    {
+      "plant": 100,
+      "variant": "onset_reset",
+      "saved_prefix_score_max_error": 0.0
+    },
+    {
+      "plant": 100,
+      "variant": "onset_reset",
+      "final_duration": 1.0187500000000003,
+      "final_minus_target_1300ms": -0.009444029518288932,
+      "final_minus_target_2000ms": -0.00613935718810632
+    },
+    {
+      "plant": 100,
+      "variant": "tonic_forward",
+      "saved_prefix_score_max_error": 0.0
+    },
+    {
+      "plant": 100,
+      "variant": "tonic_forward",
+      "saved_prefix_score_max_error": 0.0
+    },
+    {
+      "plant": 100,
+      "variant": "tonic_forward",
+      "final_duration": 0.7,
+      "final_minus_target_1300ms": -0.0025155483599048623,
+      "final_minus_target_2000ms": -0.001636750720018565
+    },
+    {
+      "plant": 101,
+      "variant": "no_clock_forward",
+      "saved_prefix_score_max_error": 0.0
+    },
+    {
+      "plant": 101,
+      "variant": "no_clock_forward",
+      "saved_prefix_score_max_error": 0.0
+    },
+    {
+      "plant": 101,
+      "variant": "no_clock_forward",
+      "final_duration": 0.7,
+      "final_minus_target_1300ms": -0.018425333440695413,
+      "final_minus_target_2000ms": -0.011976643735436276
+    },
+    {
+      "plant": 101,
+      "variant": "onset_reset",
+      "saved_prefix_score_max_error": 0.0
+    },
+    {
+      "plant": 101,
+      "variant": "onset_reset",
+      "saved_prefix_score_max_error": 0.0
+    },
+    {
+      "plant": 101,
+      "variant": "onset_reset",
+      "final_duration": 0.9875000000000003,
+      "final_minus_target_1300ms": -0.001734926435958739,
+      "final_minus_target_2000ms": -0.001126139618927935
+    },
+    {
+      "plant": 101,
+      "variant": "tonic_forward",
+      "saved_prefix_score_max_error": 0.0
+    },
+    {
+      "plant": 101,
+      "variant": "tonic_forward",
+      "saved_prefix_score_max_error": 0.0
+    },
+    {
+      "plant": 101,
+      "variant": "tonic_forward",
+      "final_duration": 0.7,
+      "final_minus_target_1300ms": -0.015875698501697233,
+      "final_minus_target_2000ms": -0.010318485169733105
+    },
+    {
+      "plant": 102,
+      "variant": "no_clock_forward",
+      "saved_prefix_score_max_error": 0.0
+    },
+    {
+      "plant": 102,
+      "variant": "no_clock_forward",
+      "saved_prefix_score_max_error": 0.0
+    },
+    {
+      "plant": 102,
+      "variant": "no_clock_forward",
+      "final_duration": 0.7,
+      "final_minus_target_1300ms": -0.010125415728061249,
+      "final_minus_target_2000ms": -0.006581899357860799
+    },
+    {
+      "plant": 102,
+      "variant": "onset_reset",
+      "saved_prefix_score_max_error": 0.0
+    },
+    {
+      "plant": 102,
+      "variant": "onset_reset",
+      "saved_prefix_score_max_error": 0.0
+    },
+    {
+      "plant": 102,
+      "variant": "onset_reset",
+      "final_duration": 1.0000000000000002,
+      "final_minus_target_1300ms": 0.0,
+      "final_minus_target_2000ms": 0.0
+    },
+    {
+      "plant": 102,
+      "variant": "tonic_forward",
+      "saved_prefix_score_max_error": 0.0
+    },
+    {
+      "plant": 102,
+      "variant": "tonic_forward",
+      "saved_prefix_score_max_error": 0.0
+    },
+    {
+      "plant": 102,
+      "variant": "tonic_forward",
+      "final_duration": 0.7,
+      "final_minus_target_1300ms": -0.01297768188734083,
+      "final_minus_target_2000ms": -0.008438392320796462
+    }
+  ],
+  "checks": [
+    {
+      "name": "100_no_clock_forward_saved_min_rank",
+      "passed": true
+    },
+    {
+      "name": "100_no_clock_forward_64_unique_permutations",
+      "passed": true
+    },
+    {
+      "name": "100_no_clock_reverse_saved_min_rank",
+      "passed": true
+    },
+    {
+      "name": "100_no_clock_reverse_64_unique_permutations",
+      "passed": true
+    },
+    {
+      "name": "100_onset_reset_saved_min_rank",
+      "passed": true
+    },
+    {
+      "name": "100_onset_reset_64_unique_permutations",
+      "passed": true
+    },
+    {
+      "name": "101_no_clock_forward_saved_min_rank",
+      "passed": true
+    },
+    {
+      "name": "101_no_clock_forward_64_unique_permutations",
+      "passed": true
+    },
+    {
+      "name": "101_no_clock_reverse_saved_min_rank",
+      "passed": true
+    },
+    {
+      "name": "101_no_clock_reverse_64_unique_permutations",
+      "passed": true
+    },
+    {
+      "name": "101_onset_reset_saved_min_rank",
+      "passed": true
+    },
+    {
+      "name": "101_onset_reset_64_unique_permutations",
+      "passed": true
+    },
+    {
+      "name": "102_no_clock_forward_saved_min_rank",
+      "passed": true
+    },
+    {
+      "name": "102_no_clock_forward_64_unique_permutations",
+      "passed": true
+    },
+    {
+      "name": "102_no_clock_reverse_saved_min_rank",
+      "passed": true
+    },
+    {
+      "name": "102_no_clock_reverse_64_unique_permutations",
+      "passed": true
+    },
+    {
+      "name": "102_onset_reset_saved_min_rank",
+      "passed": true
+    },
+    {
+      "name": "102_onset_reset_64_unique_permutations",
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "scope": "Saved arithmetic only; no newly reconstructed dynamics or independent ground-truth calculation yet."
+}

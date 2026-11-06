@@ -1,0 +1,31 @@
+# Source/prior/protocol gate — CLOSE
+
+Decision recorded 2026-11-03T05:46:56Z, before the original 05:57:13Z source deadline. Initial native turn began 05:37:13Z; orientation did not reset the clock. This is a bounded source/design closure, not a numerical finding about persistent circuit memory.
+
+## What the original paper actually establishes
+
+[Morrison and Young, PLOS Computational Biology, 2025](https://doi.org/10.1371/journal.pcbi.1013818), published December 29, 2025, models 15 recurrent premotor neurons driven by a larger set of signal neurons whose dynamics are supplied from recordings rather than simulated. The state is GCaMP z-score, not voltage with a separately validated fluorescence observation equation. The paper explicitly reports increased reversal frequency during heat-inspired signal-neuron perturbations and explicitly reports no persistent state beyond the perturbation. It already points to omitted heat-responsive pathways as a limitation. Discovering this limitation again would not be a new model failure.
+
+The saved [publisher XML](sources/paper.xml), sections sec013 and sec021–sec023, gives the relevant claims and equations. Using the notebook's additional input magnification, the modeled core equation is
+
+`tau * dx_i/dt = -2*(x_i + .8)*(x_i - .1)*(x_i - 1) + d_i + gamma*sum_j A_ij*max(x_j,0) + beta*sum_j W_ij*(x_j-x_i)`.
+
+The active notebook definition uses `gamma=1.4`, `beta=10`, `tau=.2`. The standalone `functions_simulation.jl` is an older two-parameter/scale-factor definition; `simulations.ipynb` redefines `lorenz!` with the three-parameter, divided-by-tau equation before simulation. Importing the helper alone would not certify the active published prescription.
+
+The 15 core names are AVBL, AVBR, RIBL, RIBR, RID, AVDL, AVDR, AVAL, AVAR, RIML, RIMR, AVEL, AVER, AIBL, AIBR. The paper's behavioral proxy is the mean of five forward neurons minus the mean of eight reversal neurons, thresholded at +/- .5. In the inspected notebook, several readout blocks instead use Julia indices `8:13`, six reversal neurons. This is a source discrepancy requiring reconciliation in any faithful replay; no effect size, author-curve error or behavioral conclusion was calculated from it.
+
+## Input and observation restrictions matter
+
+Figure 8 adds triangular perturbations to ongoing recorded signal-neuron traces. For 2023-01-05-01 the positive group is ADAL/AWBL/AWCL and the negative group OLQDL/OLQDR/OLLL/OLLR. Source amplitude is 4 for positive responses and -2 for the negative group; short and ADAL-long decay durations are 50 and 200 sampled time steps. The notebook constructs repeated pulse schedules and additional schedules for a second recorded background, 2023-01-09-22. The paper reports an aggregate over 44 events. These are not 44 independent worms, nor does pulse offset set all background inputs to zero. We did not obtain either recording, derive its clock, simulate these schedules or re-score its behavior.
+
+The source also has an unforced-core signal-propagation experiment, in which unstimulated activity converges to a forward-biased fixed point. It measures steady-state displacement *during* direct stimulation. That existing demonstration is neither the recorded-background heat experiment nor a source-defined test of long post-pulse memory. Choosing a favorable new constant background, initial state, pulse or time horizon would change the experiment rather than supply the missing evidence.
+
+The second deliberately screened primary program is [Atanas/Kim et al., Cell 2023](https://doi.org/10.1016/j.cell.2023.07.035), inspected through its [primary PMC article](https://pmc.ncbi.nlm.nih.gov/articles/PMC10836760/) in the saved [search response](sources/atanas-primary-search.json). It distinguishes a one-second thermal stimulus, temperature recovery within about three seconds, and behavioral changes lasting minutes. It also reports persistent activity and altered behavioral encoding. This establishes the relevant published phenomenon; it does not isolate persistence inside this particular 15-neuron recurrent core from persistent external neural drive. The primary figure's persistent calcium averages also use a 30-second smoothing window. No empirical payload or figure raster was downloaded or decoded here. Closest-prior coverage is limited to these two directly relevant programs, not an exhaustive later-literature search.
+
+## Executability and decision
+
+The publication links the released repository. Tree `8a43146ecca9b7387bbf722072b2527327a19dc5` contains Julia notebooks, processed connectome input and `data/model_weights/avg_model_weights.jld2` (7,735,214 bytes). The weight producer's code saves averaged fitted weights/biases and per-record weight fits. We acquired no weight asset, connectome payload or neural recording. The actual binary schema and neuron-label mapping remain unverified.
+
+The README specifies Julia 1.11.2. `julia` was absent from PATH. The allowed project `.venv` had NumPy/SciPy/Pandas but no h5py; ordinary `python3` had none of those four packages. No installation or custom binary-reader repair was attempted. A source-equation port would require verified parameter decoding and labeling, a justified full source protocol, and its own numerical reference. None was earned. Source inspection and six successful source-pin checks are **not original-model execution**.
+
+CLOSE this allocation before its model gate. The inspected sources do not earn a material new prediction separating restored-input circuit state from continued neural drive, slow relaxation or observation dynamics. This does not prove that such a prediction is impossible, that the original model has a unique attractor, or that biology lacks memory. Original circuit simulation, independent numerical reference, persistence/relaxation tests, main protocol, main evaluation and independent review are all UNRUN. Do not automatically repair dependencies, obtain the closed recordings, add a slow hidden state, sweep parameters/initial states or manufacture a review. A later investment would need a separately justified residual and an admissible executable original protocol; this closure supplies neither permission nor that evidence.

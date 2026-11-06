@@ -1,0 +1,12 @@
+# Bounded source selection
+
+2026-11-02, before any participant acquisition or outcome calculation.
+
+Selected: Kool, Cushman & Gershman (2016), original Daw-paradigm arm ONLY, at wkool/tradeoffs. Do not open novel-paradigm data or fitted results. Original Daw2011 was sought but not located in this search; do not substitute an unrelated replication. Wilson & Collins2019 is a simulation/methods source and supplies no participant object. Gijsen2022's reanalysis supplies the exact link to the selected Kool data and closest existing comparison; no other data that it mentions are pursued. Conservative empirical-source charge: Daw2011 original sought + Kool2016 original selected = TWO. Methods/prior family: Wilson2019. Gijsen is the already inspected reanalysis of this selected data, not a new independent empirical source. No more empirical source chains.
+
+Source pins: root tree 6f849e13a8fe32c0b62ad768d3578068b93ee69e; original raw cell array data/daw paradigm/data.mat is 1,894,663 bytes, Git blob 8f6ffab4ce1e9cd2a88680078ba7c086b23a0d82. Source extraction explicitly attributes these raw data to Kool2016. The PLOS article identifies this repository and declares article CC-BY; the complete repository tree has no LICENSE file, so separate data/code licensing is uncertified. Public research inspection only; no redistribution/publication is authorized.
+
+First data check is fixed to the first raw participant identity in file order, all rows for that identity, with practice separated. Only schema, chronology, chosen outcomes/probabilities, omissions and simple descriptive transitions will be interpreted. Whole MATLAB acquisition/decompression/typed decoding exposes all contained cells and auxiliaries; no numeric interpretation or scoring of other participants is authorized before a further scientific freeze. Full-file decoded exposure is recorded and is not pristine unacquired evaluation.
+
+Primary source-code warning for design gate: the JavaScript first creates a 1,000-element Gaussian bank and samples increments from that finite bank with replacement, followed by a reflection map. It does not draw a fresh independent Gaussian per probability per trial. An autonomous teacher law must preserve or justify this difference; logged future probability paths are future random realizations, not automatically preplanned inputs. Timing/omission semantics and original deployment linkage remain to check. No model fit or main hypothesis frozen yet.
+

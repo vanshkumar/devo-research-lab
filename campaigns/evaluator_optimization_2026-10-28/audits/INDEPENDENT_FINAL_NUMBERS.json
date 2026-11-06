@@ -1,0 +1,902 @@
+{
+  "status": "pass",
+  "method": "No production/verification imports; independent features and loss for all129 points on24 extended trajectories and all288 diagnostic queries; independent finite differences and normalized step; exact frozen primary-prefix comparisons. Bootstrap20k seed20261028 only descriptive. Source costs are saved observations, not re-integrated by this audit.",
+  "checks": {
+    "primary_arrays_preserved": true,
+    "primary_analysis_preserved": true,
+    "maximum_extension_saved_loss_error": 3.907985046680551e-14,
+    "maximum_extension_reported_endpoint_error": 7.355227538141662e-16,
+    "maximum_diagnostic_saved_loss_error": 3.8163916471489756e-16,
+    "maximum_diagnostic_gradient_error": 0.0,
+    "maximum_diagnostic_program_step_error": 0.0,
+    "freeze_mismatches": [],
+    "previous_audit_evidence_mismatches": [],
+    "freeze_files_checked": 18
+  },
+  "extension_summaries": {
+    "oracle_joint": {
+      "true_loss_change": {
+        "mean": 0.0,
+        "interval95": [
+          0.0,
+          0.0
+        ],
+        "min": 0.0,
+        "median": 0.0,
+        "max": 0.0
+      },
+      "additional_normalized_improvement": {
+        "mean": 0.0,
+        "interval95": [
+          0.0,
+          0.0
+        ],
+        "min": 0.0,
+        "median": 0.0,
+        "max": 0.0
+      },
+      "cost_reduction": {
+        "mean": 0.0,
+        "interval95": [
+          0.0,
+          0.0
+        ],
+        "min": 0.0,
+        "median": 0.0,
+        "max": 0.0
+      },
+      "unchanged_programs": 12,
+      "additional_accepted_steps": 0,
+      "changed_plants": []
+    },
+    "learned35_joint": {
+      "true_loss_change": {
+        "mean": 0.0005299252939720231,
+        "interval95": [
+          0.0,
+          0.0015897758819160696
+        ],
+        "min": 0.0,
+        "median": 0.0,
+        "max": 0.006359103527664278
+      },
+      "additional_normalized_improvement": {
+        "mean": -6.485034597949433e-05,
+        "interval95": [
+          -0.000194551037938483,
+          0.0
+        ],
+        "min": -0.0007782041517539319,
+        "median": 0.0,
+        "max": 0.0
+      },
+      "cost_reduction": {
+        "mean": 0.0001353870681785422,
+        "interval95": [
+          0.0,
+          0.00040616120453562665
+        ],
+        "min": 0.0,
+        "median": 0.0,
+        "max": 0.0016246448181425066
+      },
+      "unchanged_programs": 11,
+      "additional_accepted_steps": 7,
+      "changed_plants": [
+        103
+      ]
+    }
+  },
+  "diagnostic_summaries": {
+    "learned35": {
+      "lower_cost_wrong_output_count": 12,
+      "lower_cost_count": 12,
+      "stepped_true_mse": {
+        "mean": 0.01711093282452456,
+        "interval95": [
+          0.009844123350245093,
+          0.027674420107937678
+        ],
+        "min": 0.005185274875569541,
+        "median": 0.011046374046226463,
+        "max": 0.06370891175026293
+      },
+      "cost_change": {
+        "mean": -0.009483454150122583,
+        "interval95": [
+          -0.011638689800399721,
+          -0.007359783702723353
+        ],
+        "min": -0.015623641567160007,
+        "median": -0.009810156349491561,
+        "max": -0.002711218991156006
+      },
+      "cost_rise_plants": []
+    },
+    "learned140": {
+      "lower_cost_wrong_output_count": 11,
+      "lower_cost_count": 11,
+      "stepped_true_mse": {
+        "mean": 0.018763196493537995,
+        "interval95": [
+          0.01203195701876423,
+          0.027836880427881624
+        ],
+        "min": 0.005262590879123761,
+        "median": 0.013846041608020897,
+        "max": 0.058985979689806706
+      },
+      "cost_change": {
+        "mean": -1.1845853070852772,
+        "interval95": [
+          -3.4418884496673408,
+          -0.03782525529691322
+        ],
+        "min": -13.52059937853842,
+        "median": -0.04500024647786416,
+        "max": 0.002344259281914729
+      },
+      "cost_rise_plants": [
+        101
+      ]
+    }
+  },
+  "extension_plant_level": {
+    "oracle_joint": [
+      {
+        "plant_id": 100,
+        "loss64": 2.8468637070698274e-05,
+        "loss128": 2.8468637070698274e-05,
+        "loss_change": 0.0,
+        "additional_normalized_improvement": 0.0,
+        "cost_reduction": 0.0,
+        "program_unchanged": true,
+        "additional_accepted_steps": 0
+      },
+      {
+        "plant_id": 101,
+        "loss64": 5.311266360658695e-05,
+        "loss128": 5.311266360658695e-05,
+        "loss_change": 0.0,
+        "additional_normalized_improvement": 0.0,
+        "cost_reduction": 0.0,
+        "program_unchanged": true,
+        "additional_accepted_steps": 0
+      },
+      {
+        "plant_id": 102,
+        "loss64": 3.553771061439895e-05,
+        "loss128": 3.553771061439895e-05,
+        "loss_change": 0.0,
+        "additional_normalized_improvement": 0.0,
+        "cost_reduction": 0.0,
+        "program_unchanged": true,
+        "additional_accepted_steps": 0
+      },
+      {
+        "plant_id": 103,
+        "loss64": 0.00017236160739403833,
+        "loss128": 0.00017236160739403833,
+        "loss_change": 0.0,
+        "additional_normalized_improvement": 0.0,
+        "cost_reduction": 0.0,
+        "program_unchanged": true,
+        "additional_accepted_steps": 0
+      },
+      {
+        "plant_id": 104,
+        "loss64": 4.5149403512227684e-05,
+        "loss128": 4.5149403512227684e-05,
+        "loss_change": 0.0,
+        "additional_normalized_improvement": 0.0,
+        "cost_reduction": 0.0,
+        "program_unchanged": true,
+        "additional_accepted_steps": 0
+      },
+      {
+        "plant_id": 105,
+        "loss64": 8.651441068444045e-05,
+        "loss128": 8.651441068444045e-05,
+        "loss_change": 0.0,
+        "additional_normalized_improvement": 0.0,
+        "cost_reduction": 0.0,
+        "program_unchanged": true,
+        "additional_accepted_steps": 0
+      },
+      {
+        "plant_id": 106,
+        "loss64": 0.00010132063464499511,
+        "loss128": 0.00010132063464499511,
+        "loss_change": 0.0,
+        "additional_normalized_improvement": 0.0,
+        "cost_reduction": 0.0,
+        "program_unchanged": true,
+        "additional_accepted_steps": 0
+      },
+      {
+        "plant_id": 107,
+        "loss64": 0.00012223488351042284,
+        "loss128": 0.00012223488351042284,
+        "loss_change": 0.0,
+        "additional_normalized_improvement": 0.0,
+        "cost_reduction": 0.0,
+        "program_unchanged": true,
+        "additional_accepted_steps": 0
+      },
+      {
+        "plant_id": 108,
+        "loss64": 0.00044276826320145197,
+        "loss128": 0.00044276826320145197,
+        "loss_change": 0.0,
+        "additional_normalized_improvement": 0.0,
+        "cost_reduction": 0.0,
+        "program_unchanged": true,
+        "additional_accepted_steps": 0
+      },
+      {
+        "plant_id": 109,
+        "loss64": 8.522802067438296e-05,
+        "loss128": 8.522802067438296e-05,
+        "loss_change": 0.0,
+        "additional_normalized_improvement": 0.0,
+        "cost_reduction": 0.0,
+        "program_unchanged": true,
+        "additional_accepted_steps": 0
+      },
+      {
+        "plant_id": 110,
+        "loss64": 8.080318115243518e-05,
+        "loss128": 8.080318115243518e-05,
+        "loss_change": 0.0,
+        "additional_normalized_improvement": 0.0,
+        "cost_reduction": 0.0,
+        "program_unchanged": true,
+        "additional_accepted_steps": 0
+      },
+      {
+        "plant_id": 111,
+        "loss64": 3.9047300181629324e-05,
+        "loss128": 3.9047300181629324e-05,
+        "loss_change": 0.0,
+        "additional_normalized_improvement": 0.0,
+        "cost_reduction": 0.0,
+        "program_unchanged": true,
+        "additional_accepted_steps": 0
+      }
+    ],
+    "learned35_joint": [
+      {
+        "plant_id": 100,
+        "loss64": 0.028625054117114555,
+        "loss128": 0.028625054117114555,
+        "loss_change": 0.0,
+        "additional_normalized_improvement": 0.0,
+        "cost_reduction": 0.0,
+        "program_unchanged": true,
+        "additional_accepted_steps": 0
+      },
+      {
+        "plant_id": 101,
+        "loss64": 0.31907135062480435,
+        "loss128": 0.31907135062480435,
+        "loss_change": 0.0,
+        "additional_normalized_improvement": 0.0,
+        "cost_reduction": 0.0,
+        "program_unchanged": true,
+        "additional_accepted_steps": 0
+      },
+      {
+        "plant_id": 102,
+        "loss64": 0.0876303989348337,
+        "loss128": 0.0876303989348337,
+        "loss_change": 0.0,
+        "additional_normalized_improvement": 0.0,
+        "cost_reduction": 0.0,
+        "program_unchanged": true,
+        "additional_accepted_steps": 0
+      },
+      {
+        "plant_id": 103,
+        "loss64": 0.11415265266077647,
+        "loss128": 0.12051175618844075,
+        "loss_change": 0.006359103527664278,
+        "additional_normalized_improvement": -0.0007782041517539319,
+        "cost_reduction": 0.0016246448181425066,
+        "program_unchanged": false,
+        "additional_accepted_steps": 7
+      },
+      {
+        "plant_id": 104,
+        "loss64": 0.024405319735732622,
+        "loss128": 0.024405319735732622,
+        "loss_change": 0.0,
+        "additional_normalized_improvement": 0.0,
+        "cost_reduction": 0.0,
+        "program_unchanged": true,
+        "additional_accepted_steps": 0
+      },
+      {
+        "plant_id": 105,
+        "loss64": 0.21317144511657263,
+        "loss128": 0.21317144511657263,
+        "loss_change": 0.0,
+        "additional_normalized_improvement": 0.0,
+        "cost_reduction": 0.0,
+        "program_unchanged": true,
+        "additional_accepted_steps": 0
+      },
+      {
+        "plant_id": 106,
+        "loss64": 0.10263259417505743,
+        "loss128": 0.10263259417505743,
+        "loss_change": 0.0,
+        "additional_normalized_improvement": 0.0,
+        "cost_reduction": 0.0,
+        "program_unchanged": true,
+        "additional_accepted_steps": 0
+      },
+      {
+        "plant_id": 107,
+        "loss64": 0.05996498714358477,
+        "loss128": 0.05996498714358477,
+        "loss_change": 0.0,
+        "additional_normalized_improvement": 0.0,
+        "cost_reduction": 0.0,
+        "program_unchanged": true,
+        "additional_accepted_steps": 0
+      },
+      {
+        "plant_id": 108,
+        "loss64": 0.15897317210934273,
+        "loss128": 0.15897317210934273,
+        "loss_change": 0.0,
+        "additional_normalized_improvement": 0.0,
+        "cost_reduction": 0.0,
+        "program_unchanged": true,
+        "additional_accepted_steps": 0
+      },
+      {
+        "plant_id": 109,
+        "loss64": 0.0500307351995948,
+        "loss128": 0.0500307351995948,
+        "loss_change": 0.0,
+        "additional_normalized_improvement": 0.0,
+        "cost_reduction": 0.0,
+        "program_unchanged": true,
+        "additional_accepted_steps": 0
+      },
+      {
+        "plant_id": 110,
+        "loss64": 0.037130717711494066,
+        "loss128": 0.037130717711494066,
+        "loss_change": 0.0,
+        "additional_normalized_improvement": 0.0,
+        "cost_reduction": 0.0,
+        "program_unchanged": true,
+        "additional_accepted_steps": 0
+      },
+      {
+        "plant_id": 111,
+        "loss64": 0.05634399165562408,
+        "loss128": 0.05634399165562408,
+        "loss_change": 0.0,
+        "additional_normalized_improvement": 0.0,
+        "cost_reduction": 0.0,
+        "program_unchanged": true,
+        "additional_accepted_steps": 0
+      }
+    ]
+  },
+  "diagnostic_plant_level": {
+    "learned35": [
+      {
+        "plant_id": 100,
+        "target_cost": 1.491712606353157,
+        "stepped_cost": 1.4853045585426436,
+        "cost_change": -0.006408047810513295,
+        "stepped_true_mse": 0.008369299455157853,
+        "gradient_norm": 0.19035290526873003,
+        "gain_gradient": 0.15456609310241287,
+        "cost_lower": true,
+        "wrong_output": true
+      },
+      {
+        "plant_id": 101,
+        "target_cost": 1.380556446702686,
+        "stepped_cost": 1.369804308782508,
+        "cost_change": -0.01075213792017804,
+        "stepped_true_mse": 0.013827036356521044,
+        "gradient_norm": 0.2822556513297293,
+        "gain_gradient": -0.22203863477992414,
+        "cost_lower": true,
+        "wrong_output": true
+      },
+      {
+        "plant_id": 102,
+        "target_cost": 1.4812984789470587,
+        "stepped_cost": 1.4664145709472536,
+        "cost_change": -0.014883907999805102,
+        "stepped_true_mse": 0.009668123000712273,
+        "gradient_norm": 0.38549264425294527,
+        "gain_gradient": -0.19813941914993638,
+        "cost_lower": true,
+        "wrong_output": true
+      },
+      {
+        "plant_id": 103,
+        "target_cost": 1.5980042088808324,
+        "stepped_cost": 1.5922782137146045,
+        "cost_change": -0.0057259951662278485,
+        "stepped_true_mse": 0.037352233133059576,
+        "gradient_norm": 0.5392620496616213,
+        "gain_gradient": 0.21645038430788244,
+        "cost_lower": true,
+        "wrong_output": true
+      },
+      {
+        "plant_id": 104,
+        "target_cost": 1.3757112848783424,
+        "stepped_cost": 1.3730000658871864,
+        "cost_change": -0.002711218991156006,
+        "stepped_true_mse": 0.009274128062946354,
+        "gradient_norm": 0.11623868282040825,
+        "gain_gradient": 0.04578306145578637,
+        "cost_lower": true,
+        "wrong_output": true
+      },
+      {
+        "plant_id": 105,
+        "target_cost": 1.3714113375558952,
+        "stepped_cost": 1.3603039755455502,
+        "cost_change": -0.011107362010345012,
+        "stepped_true_mse": 0.009419722498434745,
+        "gradient_norm": 0.25458355919357667,
+        "gain_gradient": -0.21677588174447315,
+        "cost_lower": true,
+        "wrong_output": true
+      },
+      {
+        "plant_id": 106,
+        "target_cost": 1.3615862958800564,
+        "stepped_cost": 1.3459626543128964,
+        "cost_change": -0.015623641567160007,
+        "stepped_true_mse": 0.013546927497943813,
+        "gradient_norm": 0.3556238983924754,
+        "gain_gradient": -0.2449913630784284,
+        "cost_lower": true,
+        "wrong_output": true
+      },
+      {
+        "plant_id": 107,
+        "target_cost": 1.3606315435101892,
+        "stepped_cost": 1.3495921917960096,
+        "cost_change": -0.01103935171417958,
+        "stepped_true_mse": 0.010137257653956908,
+        "gradient_norm": 0.2665328806140282,
+        "gain_gradient": -0.13429428044433145,
+        "cost_lower": true,
+        "wrong_output": true
+      },
+      {
+        "plant_id": 108,
+        "target_cost": 1.3475800709154173,
+        "stepped_cost": 1.3416257503061184,
+        "cost_change": -0.005954320609298902,
+        "stepped_true_mse": 0.06370891175026293,
+        "gradient_norm": 0.6406062795333487,
+        "gain_gradient": -0.3420744090951411,
+        "cost_lower": true,
+        "wrong_output": true
+      },
+      {
+        "plant_id": 109,
+        "target_cost": 1.391149875525766,
+        "stepped_cost": 1.3836719745153097,
+        "cost_change": -0.0074779010104564225,
+        "stepped_true_mse": 0.012886789171233613,
+        "gradient_norm": 0.2894473574626197,
+        "gain_gradient": -0.015813327138030076,
+        "cost_lower": true,
+        "wrong_output": true
+      },
+      {
+        "plant_id": 110,
+        "target_cost": 1.4266752603813264,
+        "stepped_cost": 1.4178070856025213,
+        "cost_change": -0.008868174778805082,
+        "stepped_true_mse": 0.011955490438496018,
+        "gradient_norm": 0.2674249708803671,
+        "gain_gradient": -0.2098449922217549,
+        "cost_lower": true,
+        "wrong_output": true
+      },
+      {
+        "plant_id": 111,
+        "target_cost": 1.4383655476642077,
+        "stepped_cost": 1.425116157440862,
+        "cost_change": -0.013249390223345703,
+        "stepped_true_mse": 0.005185274875569541,
+        "gradient_norm": 0.3228542433347367,
+        "gain_gradient": 0.0033731378548607083,
+        "cost_lower": true,
+        "wrong_output": true
+      }
+    ],
+    "learned140": [
+      {
+        "plant_id": 100,
+        "target_cost": 2.217199158854672,
+        "stepped_cost": 2.1504018579475916,
+        "cost_change": -0.06679730090708036,
+        "stepped_true_mse": 0.006337927861413028,
+        "gradient_norm": 2.452650313930807,
+        "gain_gradient": 0.8270132528907137,
+        "cost_lower": true,
+        "wrong_output": true
+      },
+      {
+        "plant_id": 101,
+        "target_cost": 1.8048507423479228,
+        "stepped_cost": 1.8071950016298375,
+        "cost_change": 0.002344259281914729,
+        "stepped_true_mse": 0.020230392370002945,
+        "gradient_norm": 0.6788035701940528,
+        "gain_gradient": -0.14091409984679615,
+        "cost_lower": false,
+        "wrong_output": true
+      },
+      {
+        "plant_id": 102,
+        "target_cost": 20.332487731855586,
+        "stepped_cost": 20.280018456560764,
+        "cost_change": -0.05246927529482193,
+        "stepped_true_mse": 0.01406997543435456,
+        "gradient_norm": 1.6712037597301252,
+        "gain_gradient": 0.2299204603094296,
+        "cost_lower": true,
+        "wrong_output": true
+      },
+      {
+        "plant_id": 103,
+        "target_cost": 28.862576584730515,
+        "stepped_cost": 28.6139927894079,
+        "cost_change": -0.24858379532261665,
+        "stepped_true_mse": 0.033481123513568176,
+        "gradient_norm": 7.74317996990677,
+        "gain_gradient": 2.514975647597737,
+        "cost_lower": true,
+        "wrong_output": true
+      },
+      {
+        "plant_id": 104,
+        "target_cost": 38.29652307724788,
+        "stepped_cost": 38.26173605970393,
+        "cost_change": -0.0347870175439553,
+        "stepped_true_mse": 0.010873816213079826,
+        "gradient_norm": 0.6827133950937522,
+        "gain_gradient": -0.5595305770029313,
+        "cost_lower": true,
+        "wrong_output": true
+      },
+      {
+        "plant_id": 105,
+        "target_cost": 15.935081791755856,
+        "stepped_cost": 2.4144824132174345,
+        "cost_change": -13.52059937853842,
+        "stepped_true_mse": 0.01031399036310953,
+        "gradient_norm": 502.686320391375,
+        "gain_gradient": 295.92294627151955,
+        "cost_lower": true,
+        "wrong_output": true
+      },
+      {
+        "plant_id": 106,
+        "target_cost": 1.9210681593925731,
+        "stepped_cost": 1.8637014384876556,
+        "cost_change": -0.05736672090491757,
+        "stepped_true_mse": 0.019347817658696,
+        "gradient_norm": 0.9890226433665769,
+        "gain_gradient": 0.16222615255736983,
+        "cost_lower": true,
+        "wrong_output": true
+      },
+      {
+        "plant_id": 107,
+        "target_cost": 1.7028817679624335,
+        "stepped_cost": 1.6716677389228023,
+        "cost_change": -0.03121402903963122,
+        "stepped_true_mse": 0.01922242642376973,
+        "gradient_norm": 0.6787856578823599,
+        "gain_gradient": -0.046204915385614775,
+        "cost_lower": true,
+        "wrong_output": true
+      },
+      {
+        "plant_id": 108,
+        "target_cost": 1.8003150307658862,
+        "stepped_cost": 1.7627838131049798,
+        "cost_change": -0.03753121766090639,
+        "stepped_true_mse": 0.058985979689806706,
+        "gradient_norm": 1.361815189674543,
+        "gain_gradient": -0.29423533914803457,
+        "cost_lower": true,
+        "wrong_output": true
+      },
+      {
+        "plant_id": 109,
+        "target_cost": 28.17346439260433,
+        "stepped_cost": 28.059845659512472,
+        "cost_change": -0.1136187330918581,
+        "stepped_true_mse": 0.013410209733844432,
+        "gradient_norm": 1.6780897145630973,
+        "gain_gradient": 0.902196903143988,
+        "cost_lower": true,
+        "wrong_output": true
+      },
+      {
+        "plant_id": 110,
+        "target_cost": 1.8976651948130552,
+        "stepped_cost": 1.879948624245005,
+        "cost_change": -0.017716570568050205,
+        "stepped_true_mse": 0.013622107781687237,
+        "gradient_norm": 0.5680394806780117,
+        "gain_gradient": 0.12268237377495606,
+        "cost_lower": true,
+        "wrong_output": true
+      },
+      {
+        "plant_id": 111,
+        "target_cost": 1.973016131051283,
+        "stepped_cost": 1.936332225618301,
+        "cost_change": -0.036683905432981945,
+        "stepped_true_mse": 0.005262590879123761,
+        "gradient_norm": 0.7226333380269286,
+        "gain_gradient": 0.3235773711265377,
+        "cost_lower": true,
+        "wrong_output": true
+      }
+    ]
+  },
+  "evidence_sha256": {
+    "mixed_results/plant_100/oracle_joint_trajectory.npz": "6ba36cd228f04357a2946352a2d6d3a04f5eabe02bc17ef17f1c5b738f0f0461",
+    "mixed_results/plant_100/learned35_joint_trajectory.npz": "79a4f1952d1762c2079ff5cf84f72fd6cd09b5b75073fef1d3e47a90e7e298c8",
+    "diagnostic_results/plant_100.npz": "b1dbe1f4e8d268415b533858fb4f9189748032f970b958c819deb3bd755c5cf6",
+    "mixed_results/plant_101/oracle_joint_trajectory.npz": "a99959f22a5a07b8893301bd9feeb076b6828e9eca3db9344dd8cb7a1237efc9",
+    "mixed_results/plant_101/learned35_joint_trajectory.npz": "8bb1d28d48c44289147c7ba3f1881a309545abb24dea682424c597d48096a6c8",
+    "diagnostic_results/plant_101.npz": "e78ee9f12f2ada33f5d5508f468a754842099b552dbace354f3414589a1b2a87",
+    "mixed_results/plant_102/oracle_joint_trajectory.npz": "c87f40ac5bac6cf85cbc7b402409d74540e6127e9e385c38bcb64445ee89b21c",
+    "mixed_results/plant_102/learned35_joint_trajectory.npz": "ff1cd8408f93262d13f0b7cf9a948772fcb4045d548d8ef9f0543748d58fa6f6",
+    "diagnostic_results/plant_102.npz": "36bdc8e5eb3934595bd9024039a95effb98328caaab92d51114734f13e0837ab",
+    "mixed_results/plant_103/oracle_joint_trajectory.npz": "e9b329a83807e8ab0188f3b1b58115d6e9546a0447d456cbd292a22b27fb894c",
+    "mixed_results/plant_103/learned35_joint_trajectory.npz": "12f1fa0834dcc630024ddfdff8208ca48af4b18475ae6eac8b45ae321b1c1c34",
+    "diagnostic_results/plant_103.npz": "5c90f0dc9576295917b09c77b4466636f07ec8398919065a097a872dec3ef1ee",
+    "mixed_results/plant_104/oracle_joint_trajectory.npz": "f0e6bb3a069c6b8e4deb41949f95b741ded217982e71967d48a4bffe10fbf416",
+    "mixed_results/plant_104/learned35_joint_trajectory.npz": "a8515209b32f6f0f49d699028b6dac3d57d6e097e10498b9bba3bf48a3cb4c79",
+    "diagnostic_results/plant_104.npz": "c2075b29bc82ebf1f6e94505633921853592f11c29469d2bc4e69ded9d2fec47",
+    "mixed_results/plant_105/oracle_joint_trajectory.npz": "fc5d2ef11db45018ec22c1a0bcb8b5b63929ec37170f744ae6de5fa4c636be36",
+    "mixed_results/plant_105/learned35_joint_trajectory.npz": "aa40d9895b39167ebc84f141d2298b864b37119b6185d7f833c495ce44e74373",
+    "diagnostic_results/plant_105.npz": "98914422c86f7b907e7f36d3e76af31b852ecab0d7886a5ee1ac9a005da3a016",
+    "mixed_results/plant_106/oracle_joint_trajectory.npz": "809253ab621ab16fbf850aacea37318ead206d5c64e62179debf04b688b71360",
+    "mixed_results/plant_106/learned35_joint_trajectory.npz": "53b35c941e87887af241ebc43b5e1de88b638909d2b505c52462c505eb016487",
+    "diagnostic_results/plant_106.npz": "5411f1d3129cd1232493f8299d578036cb74fb3f08e1504eaefb4f4262b1b473",
+    "mixed_results/plant_107/oracle_joint_trajectory.npz": "780e3876a0717a1ef58a6518e3cf0b1a72d6454a500cd4835071cdad1cd441f6",
+    "mixed_results/plant_107/learned35_joint_trajectory.npz": "19c911908d0c76f7f5674184fb8b02272113f00351475821e6a032a27cab8a94",
+    "diagnostic_results/plant_107.npz": "4bb6018738645c605a938c0141bc519ef0ad3761d20926b71a0d62f461028704",
+    "mixed_results/plant_108/oracle_joint_trajectory.npz": "ad4f847aeaf1ce6ba4b3f068ecb04f473fc9f97d111fde87e5ab82b5018ae684",
+    "mixed_results/plant_108/learned35_joint_trajectory.npz": "bd18cb631ff8c4e5078b429baca17186a6cff036924669c21c18d0c1719ad8a1",
+    "diagnostic_results/plant_108.npz": "c62d6e9997373dbc93f34535bb165506cd53c35c722d5dfe49e5c43cb6470faf",
+    "mixed_results/plant_109/oracle_joint_trajectory.npz": "e3bd6c39686ef9848dd946df81a058a615c4d74ed477974d8e9dd2ba659d0b44",
+    "mixed_results/plant_109/learned35_joint_trajectory.npz": "d58a488d5f11b1a51e0c7dc436fd5dc75014688857ed1bd1d1503978b7f87603",
+    "diagnostic_results/plant_109.npz": "188cf857599ef2c1831a20f18ee525a246166368c39a20ac4466b964294c3825",
+    "mixed_results/plant_110/oracle_joint_trajectory.npz": "99a411286ba107560ed906686d4759493f19924a0c09c3ccb060d45d28180132",
+    "mixed_results/plant_110/learned35_joint_trajectory.npz": "3b9b92f60356baaa2cf326de520f863d27f9a3af70174cd61e5b90f766995a86",
+    "diagnostic_results/plant_110.npz": "f26c09928674bee38bcab4f7f67993cb583b9c5c85301b4241a240f6e2fe9a20",
+    "mixed_results/plant_111/oracle_joint_trajectory.npz": "0fa70accc720a9c02407da54d2c12cb0042e155eb7d557ff3767224412809bfa",
+    "mixed_results/plant_111/learned35_joint_trajectory.npz": "d8dae8a0f5365ceb4a183f265672bc7bae4ab40b5c61e6c58ebb401cf133ad6d",
+    "diagnostic_results/plant_111.npz": "c94ae4d17f83f9cf114643783694ae08f2730161a6b6fbc41714534638f8bd6a"
+  },
+  "exploratory_terminal_score_vs_exact_target": {
+    "status": "post-result adversarial diagnostic using saved scalar observations; no new source probes or actor information",
+    "plant_level": {
+      "learned35": [
+        {
+          "plant_id": 100,
+          "terminal_mse": 0.028625054117114312,
+          "target_cost": 1.491712606353157,
+          "terminal_cost": 1.4810566063439154,
+          "terminal_cost_minus_exact_target": -0.010656000009241495,
+          "terminal_cost_lower_than_target": true
+        },
+        {
+          "plant_id": 101,
+          "terminal_mse": 0.31907135062480496,
+          "target_cost": 1.380556446702686,
+          "terminal_cost": 1.3412106651469677,
+          "terminal_cost_minus_exact_target": -0.03934578155571833,
+          "terminal_cost_lower_than_target": true
+        },
+        {
+          "plant_id": 102,
+          "terminal_mse": 0.08763039893483356,
+          "target_cost": 1.4812984789470587,
+          "terminal_cost": 1.4474981484422562,
+          "terminal_cost_minus_exact_target": -0.03380033050480247,
+          "terminal_cost_lower_than_target": true
+        },
+        {
+          "plant_id": 103,
+          "terminal_mse": 0.11415265266077587,
+          "target_cost": 1.5980042088808324,
+          "terminal_cost": 1.5770738767918162,
+          "terminal_cost_minus_exact_target": -0.02093033208901618,
+          "terminal_cost_lower_than_target": true
+        },
+        {
+          "plant_id": 104,
+          "terminal_mse": 0.024405319735732598,
+          "target_cost": 1.3757112848783424,
+          "terminal_cost": 1.369122417861119,
+          "terminal_cost_minus_exact_target": -0.006588867017223388,
+          "terminal_cost_lower_than_target": true
+        },
+        {
+          "plant_id": 105,
+          "terminal_mse": 0.21317144511657268,
+          "target_cost": 1.3714113375558952,
+          "terminal_cost": 1.3382782226803593,
+          "terminal_cost_minus_exact_target": -0.03313311487553583,
+          "terminal_cost_lower_than_target": true
+        },
+        {
+          "plant_id": 106,
+          "terminal_mse": 0.10263259417505782,
+          "target_cost": 1.3615862958800564,
+          "terminal_cost": 1.3222908884136573,
+          "terminal_cost_minus_exact_target": -0.039295407466399146,
+          "terminal_cost_lower_than_target": true
+        },
+        {
+          "plant_id": 107,
+          "terminal_mse": 0.05996498714358431,
+          "target_cost": 1.3606315435101892,
+          "terminal_cost": 1.3420788091550373,
+          "terminal_cost_minus_exact_target": -0.018552734355151923,
+          "terminal_cost_lower_than_target": true
+        },
+        {
+          "plant_id": 108,
+          "terminal_mse": 0.1589731721093434,
+          "target_cost": 1.3475800709154173,
+          "terminal_cost": 1.3036141833048838,
+          "terminal_cost_minus_exact_target": -0.04396588761053355,
+          "terminal_cost_lower_than_target": true
+        },
+        {
+          "plant_id": 109,
+          "terminal_mse": 0.05003073519959496,
+          "target_cost": 1.391149875525766,
+          "terminal_cost": 1.3715996292367372,
+          "terminal_cost_minus_exact_target": -0.019550246289028905,
+          "terminal_cost_lower_than_target": true
+        },
+        {
+          "plant_id": 110,
+          "terminal_mse": 0.037130717711494204,
+          "target_cost": 1.4266752603813264,
+          "terminal_cost": 1.4149684088364667,
+          "terminal_cost_minus_exact_target": -0.011706851544859731,
+          "terminal_cost_lower_than_target": true
+        },
+        {
+          "plant_id": 111,
+          "terminal_mse": 0.056343991655624016,
+          "target_cost": 1.4383655476642077,
+          "terminal_cost": 1.411820541631238,
+          "terminal_cost_minus_exact_target": -0.02654500603296972,
+          "terminal_cost_lower_than_target": true
+        }
+      ],
+      "learned140": [
+        {
+          "plant_id": 100,
+          "terminal_mse": 0.3258927375416856,
+          "target_cost": 2.217199158854672,
+          "terminal_cost": 2.071489349146485,
+          "terminal_cost_minus_exact_target": -0.1457098097081868,
+          "terminal_cost_lower_than_target": true
+        },
+        {
+          "plant_id": 101,
+          "terminal_mse": 0.04238407555149138,
+          "target_cost": 1.8048507423479228,
+          "terminal_cost": 1.7914671789094487,
+          "terminal_cost_minus_exact_target": -0.013383563438474022,
+          "terminal_cost_lower_than_target": true
+        },
+        {
+          "plant_id": 102,
+          "terminal_mse": 0.6447050765283173,
+          "target_cost": 20.332487731855586,
+          "terminal_cost": 3.0723358960638714,
+          "terminal_cost_minus_exact_target": -17.260151835791714,
+          "terminal_cost_lower_than_target": true
+        },
+        {
+          "plant_id": 103,
+          "terminal_mse": 3.156418336344006,
+          "target_cost": 28.862576584730515,
+          "terminal_cost": 25.275392294457195,
+          "terminal_cost_minus_exact_target": -3.5871842902733206,
+          "terminal_cost_lower_than_target": true
+        },
+        {
+          "plant_id": 104,
+          "terminal_mse": 9.440733819609145,
+          "target_cost": 38.29652307724788,
+          "terminal_cost": 36.85815047067319,
+          "terminal_cost_minus_exact_target": -1.4383726065746956,
+          "terminal_cost_lower_than_target": true
+        },
+        {
+          "plant_id": 105,
+          "terminal_mse": 0.16656002913849519,
+          "target_cost": 15.935081791755856,
+          "terminal_cost": 2.156837896770535,
+          "terminal_cost_minus_exact_target": -13.778243894985321,
+          "terminal_cost_lower_than_target": true
+        },
+        {
+          "plant_id": 106,
+          "terminal_mse": 1.070366267478548,
+          "target_cost": 1.9210681593925731,
+          "terminal_cost": 2.162874664541093,
+          "terminal_cost_minus_exact_target": 0.24180650514851965,
+          "terminal_cost_lower_than_target": false
+        },
+        {
+          "plant_id": 107,
+          "terminal_mse": 0.22975303062636332,
+          "target_cost": 1.7028817679624335,
+          "terminal_cost": 1.653065466819459,
+          "terminal_cost_minus_exact_target": -0.04981630114297442,
+          "terminal_cost_lower_than_target": true
+        },
+        {
+          "plant_id": 108,
+          "terminal_mse": 3.8048212763235507,
+          "target_cost": 1.8003150307658862,
+          "terminal_cost": 2.1747399140163304,
+          "terminal_cost_minus_exact_target": 0.3744248832504442,
+          "terminal_cost_lower_than_target": false
+        },
+        {
+          "plant_id": 109,
+          "terminal_mse": 4.400500636312573,
+          "target_cost": 28.17346439260433,
+          "terminal_cost": 2.4361580164505017,
+          "terminal_cost_minus_exact_target": -25.73730637615383,
+          "terminal_cost_lower_than_target": true
+        },
+        {
+          "plant_id": 110,
+          "terminal_mse": 1.3617586897220186,
+          "target_cost": 1.8976651948130552,
+          "terminal_cost": 1.61973854874051,
+          "terminal_cost_minus_exact_target": -0.27792664607254514,
+          "terminal_cost_lower_than_target": true
+        },
+        {
+          "plant_id": 111,
+          "terminal_mse": 1.0855154335165862,
+          "target_cost": 1.973016131051283,
+          "terminal_cost": 1.8518332419990422,
+          "terminal_cost_minus_exact_target": -0.12118288905224084,
+          "terminal_cost_lower_than_target": true
+        }
+      ]
+    },
+    "learned35_lower_cost_count": 12,
+    "learned140_lower_cost_count": 10,
+    "learned140_failed_fidelity_endpoint_lower_cost_count": 6
+  }
+}

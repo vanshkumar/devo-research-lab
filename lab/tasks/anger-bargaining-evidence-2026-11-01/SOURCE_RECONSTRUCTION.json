@@ -1,0 +1,273 @@
+{
+  "calculated_at": "2026-11-01T06:52:24.479842+00:00",
+  "stage": "source-support reconstruction only, all Study1 exposed; not a main comparison",
+  "raw_n": 170,
+  "clean_n": 144,
+  "clean_ids_unique": true,
+  "candidate_link": "clean numeric id = one-based raw participant row position (excluding two Qualtrics export header rows)",
+  "checked_pairs": 144,
+  "all_checked_fields_exact": true,
+  "field_failure_counts": {
+    "branch": 0,
+    "demand": 0,
+    "limit_accept": 0,
+    "limit_reject": 0,
+    "age": 0,
+    "gender": 0,
+    "passed_checks": 0
+  },
+  "raw_passed_check_n": 146,
+  "clean_cells": {
+    "H/H": {
+      "n": 42,
+      "mean_demand": 5.952619047619048,
+      "sd_demand": 1.1196233241233509
+    },
+    "H/A": {
+      "n": 26,
+      "mean_demand": 5.25,
+      "sd_demand": 0.7905694150420949
+    },
+    "A/H": {
+      "n": 37,
+      "mean_demand": 5.145945945945946,
+      "sd_demand": 0.9038788619040701
+    },
+    "A/A": {
+      "n": 39,
+      "mean_demand": 4.82051282051282,
+      "sd_demand": 1.054359243476811
+    }
+  },
+  "clean_factorial_contrasts": {
+    "experienced_A_minus_H": {
+      "estimate_percentage_points": -0.6180801405801413,
+      "conventional_SE": 0.16871007698411677,
+      "F1_140": 13.421700144281514
+    },
+    "communicated_A_minus_H": {
+      "estimate_percentage_points": -0.5140260865260866,
+      "conventional_SE": 0.16871007698411677,
+      "F1_140": 9.28299832955383
+    },
+    "interaction_difference_of_differences": {
+      "estimate_percentage_points": 0.3771859221859222,
+      "conventional_SE": 0.33742015396823355,
+      "F1_140": 1.2495939435549244
+    }
+  },
+  "excluded_from_clean": [
+    {
+      "source_position_id": 3,
+      "condition": "H/A",
+      "demand": 25.0,
+      "passed_checks": false,
+      "limit_accept": 5.0,
+      "limit_reject": 8.0
+    },
+    {
+      "source_position_id": 7,
+      "condition": "A/A",
+      "demand": 5.0,
+      "passed_checks": false,
+      "limit_accept": 5.0,
+      "limit_reject": 5.0
+    },
+    {
+      "source_position_id": 17,
+      "condition": "H/A",
+      "demand": 5.5,
+      "passed_checks": false,
+      "limit_accept": 5.0,
+      "limit_reject": 5.5
+    },
+    {
+      "source_position_id": 27,
+      "condition": "H/A",
+      "demand": 5.0,
+      "passed_checks": false,
+      "limit_accept": 5.0,
+      "limit_reject": 5.5
+    },
+    {
+      "source_position_id": 32,
+      "condition": "H/A",
+      "demand": 5.5,
+      "passed_checks": false,
+      "limit_accept": 5.5,
+      "limit_reject": 5.5
+    },
+    {
+      "source_position_id": 41,
+      "condition": "H/A",
+      "demand": 5.5,
+      "passed_checks": true,
+      "limit_accept": 10.0,
+      "limit_reject": 45.0
+    },
+    {
+      "source_position_id": 45,
+      "condition": "H/A",
+      "demand": 5.0,
+      "passed_checks": false,
+      "limit_accept": 4.0,
+      "limit_reject": 5.0
+    },
+    {
+      "source_position_id": 67,
+      "condition": "A/H",
+      "demand": 10.0,
+      "passed_checks": false,
+      "limit_accept": 10.0,
+      "limit_reject": 10.0
+    },
+    {
+      "source_position_id": 71,
+      "condition": "A/H",
+      "demand": 5.5,
+      "passed_checks": false,
+      "limit_accept": 2.0,
+      "limit_reject": 5.5
+    },
+    {
+      "source_position_id": 81,
+      "condition": "H/A",
+      "demand": 5.0,
+      "passed_checks": false,
+      "limit_accept": 3.0,
+      "limit_reject": 4.0
+    },
+    {
+      "source_position_id": 83,
+      "condition": "H/A",
+      "demand": 7.0,
+      "passed_checks": false,
+      "limit_accept": 7.0,
+      "limit_reject": 8.0
+    },
+    {
+      "source_position_id": 95,
+      "condition": "H/A",
+      "demand": 5.5,
+      "passed_checks": false,
+      "limit_accept": 3.0,
+      "limit_reject": 5.0
+    },
+    {
+      "source_position_id": 103,
+      "condition": "H/H",
+      "demand": 4.6,
+      "passed_checks": false,
+      "limit_accept": 5.0,
+      "limit_reject": 5.1
+    },
+    {
+      "source_position_id": 105,
+      "condition": "A/H",
+      "demand": 5.0,
+      "passed_checks": false,
+      "limit_accept": 3.0,
+      "limit_reject": 7.0
+    },
+    {
+      "source_position_id": 113,
+      "condition": "A/A",
+      "demand": 5.5,
+      "passed_checks": false,
+      "limit_accept": 3.0,
+      "limit_reject": 5.0
+    },
+    {
+      "source_position_id": 117,
+      "condition": "H/A",
+      "demand": 2.0,
+      "passed_checks": false,
+      "limit_accept": 3.0,
+      "limit_reject": 4.0
+    },
+    {
+      "source_position_id": 124,
+      "condition": "H/A",
+      "demand": 5.5,
+      "passed_checks": false,
+      "limit_accept": 5.5,
+      "limit_reject": 5.5
+    },
+    {
+      "source_position_id": 125,
+      "condition": "A/H",
+      "demand": 5.0,
+      "passed_checks": false,
+      "limit_accept": 4.0,
+      "limit_reject": 4.0
+    },
+    {
+      "source_position_id": 132,
+      "condition": "A/H",
+      "demand": 5.5,
+      "passed_checks": false,
+      "limit_accept": 5.5,
+      "limit_reject": 5.6
+    },
+    {
+      "source_position_id": 135,
+      "condition": "H/A",
+      "demand": 5.0,
+      "passed_checks": false,
+      "limit_accept": 5.0,
+      "limit_reject": 6.0
+    },
+    {
+      "source_position_id": 146,
+      "condition": "A/H",
+      "demand": 4.0,
+      "passed_checks": false,
+      "limit_accept": 4.0,
+      "limit_reject": 5.5
+    },
+    {
+      "source_position_id": 147,
+      "condition": "H/A",
+      "demand": 6.5,
+      "passed_checks": false,
+      "limit_accept": 6.5,
+      "limit_reject": 7.0
+    },
+    {
+      "source_position_id": 150,
+      "condition": "H/A",
+      "demand": 2.5,
+      "passed_checks": false,
+      "limit_accept": 3.0,
+      "limit_reject": 3.5
+    },
+    {
+      "source_position_id": 152,
+      "condition": "H/A",
+      "demand": 10.0,
+      "passed_checks": false,
+      "limit_accept": 5.0,
+      "limit_reject": 5.0
+    },
+    {
+      "source_position_id": 160,
+      "condition": "A/A",
+      "demand": 5.0,
+      "passed_checks": true,
+      "limit_accept": 55.0,
+      "limit_reject": 5.5
+    },
+    {
+      "source_position_id": 167,
+      "condition": "H/A",
+      "demand": 4.0,
+      "passed_checks": false,
+      "limit_accept": 4.0,
+      "limit_reject": 5.0
+    }
+  ],
+  "raw_sha256": "7c886c21731f72d0faf72cd082f8fb9ced05492888d334757d161f72fb5a14ee",
+  "clean_sha256": "aeba80854ea5cd3319fb0346a458ddad94580a52f593f96cbefbd6c558b305b8",
+  "payload_read_decode_hash_allowance_bytes": 214856,
+  "peak_rss_bytes": 15728640
+}

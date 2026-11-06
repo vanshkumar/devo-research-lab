@@ -1,0 +1,181 @@
+{
+  "chronology": {
+    "earliest_historical_release_row_not_training_0": 0,
+    "first_training_1_nonzero_prior_same_type": 0,
+    "first_training_1_not_second_latest_training_row": 0,
+    "genotype_disagreement_learner": 0,
+    "historical_ophys_linked_learner": 107,
+    "historical_roster_physical_order_not_chronological": 2,
+    "same_calendar_date_training_rows_learner": 4,
+    "same_timestamp_learner": 0,
+    "training_1_precedes_training_0": 0
+  },
+  "first_0": {
+    "max_bytes": 51750493,
+    "median_bytes": 51677904,
+    "min_bytes": 49084655,
+    "objects": 107,
+    "total_bytes": 5526262907
+  },
+  "first_1": {
+    "max_bytes": 67066390,
+    "median_bytes": 66803398,
+    "min_bytes": 56815998,
+    "objects": 107,
+    "total_bytes": 7138376457
+  },
+  "first_1_by_cre_line": {
+    "Slc17a7-IRES2-Cre": 55,
+    "Sst-IRES-Cre": 24,
+    "Vip-IRES-Cre": 28
+  },
+  "first_1_by_rig": {
+    "BEH.B": 1,
+    "BEH.B-Box1": 2,
+    "BEH.B-Box2": 3,
+    "BEH.B-Box3": 6,
+    "BEH.B-Box4": 3,
+    "BEH.B-Box5": 1,
+    "BEH.B-Box6": 3,
+    "BEH.D": 3,
+    "BEH.D-Box1": 5,
+    "BEH.D-Box2": 5,
+    "BEH.D-Box3": 4,
+    "BEH.D-Box4": 1,
+    "BEH.D-Box5": 4,
+    "BEH.D-Box6": 2,
+    "BEH.F": 3,
+    "BEH.F-Box1": 7,
+    "BEH.F-Box2": 5,
+    "BEH.F-Box3": 4,
+    "BEH.F-Box4": 8,
+    "BEH.F-Box5": 4,
+    "BEH.F-Box6": 7,
+    "BEH.G": 2,
+    "BEH.G-Box1": 4,
+    "BEH.G-Box2": 1,
+    "BEH.G-Box3": 3,
+    "BEH.G-Box4": 5,
+    "BEH.G-Box5": 7,
+    "BEH.G-Box6": 4
+  },
+  "first_1_by_rig_prefix": {
+    "BEH.B": 19,
+    "BEH.D": 24,
+    "BEH.F": 38,
+    "BEH.G": 26
+  },
+  "first_1_by_year": {
+    "2018": 7,
+    "2019": 67,
+    "2020": 26,
+    "2021": 7
+  },
+  "first_1_dates": [
+    "2018-08-27T14:17:50.656000",
+    "2021-05-10T11:00:06.596000"
+  ],
+  "historical_roster": {
+    "columns": [
+      "behavior_session_id",
+      "equipment_name",
+      "full_genotype",
+      "mouse_id",
+      "reporter_line",
+      "driver_line",
+      "sex",
+      "age_in_days",
+      "cre_line",
+      "indicator",
+      "session_number",
+      "prior_exposures_to_session_type",
+      "prior_exposures_to_image_set",
+      "prior_exposures_to_omissions",
+      "ophys_session_id",
+      "ophys_experiment_id",
+      "ophys_container_id",
+      "project_code",
+      "date_of_acquisition",
+      "session_type",
+      "file_id"
+    ],
+    "mice": 107,
+    "rows": 4787,
+    "rows_with_naive_datetime": 4787,
+    "rows_without_file_id": 705,
+    "training_only_bodies": {
+      "max_bytes": 194500858,
+      "median_bytes": 192547354.0,
+      "min_bytes": 49072492,
+      "objects": 4082,
+      "total_bytes": 639617683423
+    }
+  },
+  "latest_behavior_only_manifest": {
+    "added_to_behavior_only": {
+      "875471358": {
+        "old_has_ophys_link": true,
+        "old_label": "OPHYS_6_images_A",
+        "old_roster_has_session": true
+      }
+    },
+    "exact_version_sizes": {
+      "max_bytes": 244361609,
+      "median_bytes": 196034246,
+      "min_bytes": 49084655,
+      "objects": 4079,
+      "total_bytes": 652401010382
+    },
+    "old_roster_session_matches": 4079,
+    "old_training_manifest_matches": 4078,
+    "removed_from_behavior_only": {
+      "1011688792": {
+        "historical_date_of_acquisition": "2020-03-02 14:24:31.166",
+        "mouse_id": "489065",
+        "session_type": "OPHYS_5_images_H_passive"
+      },
+      "934610593": {
+        "historical_date_of_acquisition": "2019-08-29 09:12:54.578",
+        "mouse_id": "453988",
+        "session_type": "OPHYS_5_images_B_passive"
+      },
+      "958310218": {
+        "historical_date_of_acquisition": "2019-09-30 10:46:01.540",
+        "mouse_id": "470784",
+        "session_type": "OPHYS_4_images_A"
+      },
+      "975358131": {
+        "historical_date_of_acquisition": "2019-11-01 12:30:30.567",
+        "mouse_id": "477202",
+        "session_type": "OPHYS_0_images_B_habituation"
+      }
+    },
+    "stages_from_historical_join": {
+      "0": 107,
+      "1": 699,
+      "2": 319,
+      "3": 323,
+      "4": 407,
+      "5": 1550,
+      "None": 674
+    },
+    "unknown_historical_labels": [
+      "1000742242",
+      "1094071961",
+      "944845655",
+      "949292473",
+      "954870355",
+      "974152980",
+      "974193154",
+      "974328466"
+    ]
+  },
+  "paired_0_and_first_1_bytes": 12664639364,
+  "published_example_328341_in_roster": false,
+  "stage_decreases": {},
+  "version_catalogue": {
+    "delete_markers": 7,
+    "pages": 17,
+    "version_entries": 16321
+  }
+}

@@ -1,0 +1,22 @@
+# Scope of the 140-rendition tutoring control
+
+2026-10-28. Bounded primary-source clarification; no new numerical experiments. Source pin remains `8309db5b1e2abb0d937fec7a1f9d434b06a9bd7c`.
+
+**Conclusion:** 140 renditions is a legitimate prespecified exposure-duration sensitivity in this campaign. It is not a source-validated converged teacher, a guarantee of a better evaluator, or a structural-failure test. Unexpected high but finite frozen responses require diagnosis before any dynamical-instability interpretation.
+
+## Exact inspected code locations
+
+- [Upstream training script](../../sources/sensory_evaluator_feasibility_2026-10-28/upstream/simulations/train_models.py), lines22–24:600E/150I/15HVC, HVC peak150 and width20, `tauE=30`, `tauI=10`, `dt=1`. Lines39–48 set35 tutor renditions with200ms post-song silence and500ms initial burn-in. Lines56–58 add small rendition-level fluctuations to the mature clock. These are not a demonstration at140 renditions.
+- Same script, lines130–136: E→I→E training uses `JEI` learning strength `.05`, `JIE` strength `.006`, `tauW=1e5`, `asyn_E=10`, `asyn_I=0`, `rE_th=1.5`, `rI_th=5`, and `noise_strength=.1`. There is no learning-rate annealing, loss-based early stopping or convergence certification in this inspected training branch.
+- [Upstream dynamics/plasticity](../../sources/sensory_evaluator_feasibility_2026-10-28/upstream/src/models.py), lines103–124: a fixed-step Euler update advances membrane inputs; independent normal noise is added to both E and I drives when strength is positive. Rates then pass through `phi`; plasticity is applied afterward. Lines171–195 implement E→I/I→E plasticity with baseline weight decay and a lower weight clip, without an upper clip. Here `asyn_E` and `asyn_I` select **past presynaptic activity**; they denote a pre/post time offset, not asynchronous random noise.
+- [Campaign training wrapper](run.py), lines89–105: uses the unchanged source equations with the same plasticity constants, zero dynamical noise, repeated synthetic target features and the exact clock. The impending next rendition is included before truncation so the35-rendition clock prefix matches the140-rendition run. Lines138–143 train both durations from the same initialization. This makes the comparison about continued exposure under the campaign's fixed regime, while retaining its differences from the original noisy real-song training example.
+
+## Inspected paper claims and their limits
+
+In [Gong et al., reviewed preprint v1](https://elifesciences.org/reviewed-preprints/111771), Results “Population error codes exhibit two-stage learning,” Fig.5B–C, describes sharpening and movement of the response minimum toward the tutor during the tested training regime. The paragraph immediately following Fig.5G–H explicitly entertains incomplete convergence at the chosen fixed learning step. Discussion's final limitations paragraph and Methods “Hebbian and anti-Hebbian learning” state that the rule uses fixed thresholds and acknowledge that biological plasticity can be bounded, adaptive and multifactorial. These observations do not supply a theorem of monotonic alignment or eventual convergence for arbitrary targets, exposure durations and drive distributions.
+
+Consequently, a poor140-rendition teacher challenges the simple claim that **four times more exposure at these fixed settings** cures the35-rendition deficit. It does not rule out a differently scheduled tutoring process, establish that predictive cancellation cannot converge, or contradict the source's bounded sufficiency demonstration. Do not call the140-rendition control “fully trained” or “asymptotic.”
+
+## Interpretation of the reported development anomaly
+
+The owner reports high exact-target probe costs on some140-rendition development circuits and a much lower cost after a tiny motor perturbation. This note does not independently verify those numbers. If source/independent frozen reconstructions agree, the observation establishes sensitivity of the specified finite-time scalar readout around those inputs. High finite rates and weights alone neither establish an unstable differential equation nor distinguish oscillations, a sharp nonlinear transition, initial-state sensitivity, a scoring-window effect, or numerical integration error. Agreement of two implementations at the same time step checks the implementation; it does not by itself check time-step convergence. No such mechanism is asserted here.

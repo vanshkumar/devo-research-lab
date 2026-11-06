@@ -1,0 +1,654 @@
+{
+  "subject": "CSH_ZAD_006",
+  "split": "animal_holdout",
+  "lab": "zadorlab",
+  "rows_read": 4009,
+  "original_provenance": [
+    {
+      "path": "data/sealed/animal_holdout/CSH_ZAD_006/2019-08-19_001_b3003e96-5f81-4c28-a93c-fe4be773e7ef_table.pqt",
+      "dataset_id": "5bdb4d6e-2407-4a66-bbec-4ea297986061",
+      "session_uuid": "b3003e96-5f81-4c28-a93c-fe4be773e7ef",
+      "date": "2019-08-19",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld5.2.9",
+      "md5": "3a012a2a9c75c018d91afe3f168b04a7",
+      "sha256": "b37aa5ec74baaaaf10d14604603705f01c26f5065dc3f8ec8a2b473b25633863",
+      "bytes": 39830,
+      "cache_md5": "3a012a2a9c75c018d91afe3f168b04a7",
+      "bounded_rows": 518,
+      "footer_rows": 518,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/CSH_ZAD_006/2019-08-19_001_b3003e96-5f81-4c28-a93c-fe4be773e7ef_table.pqt') LIMIT 518"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSH_ZAD_006/2019-08-22_001_43ae9a22-d709-4683-b692-a75d9b0a3efc_table.pqt",
+      "dataset_id": "717ba406-59f3-4e8d-b230-c4a5b5d3dab8",
+      "session_uuid": "43ae9a22-d709-4683-b692-a75d9b0a3efc",
+      "date": "2019-08-22",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld5.2.9",
+      "md5": "020f3bf15cfe86ef157a24646cb48c06",
+      "sha256": "65392dd043dcf269036e49137ed0fb82fcc08ddf245756f41f54cc9ce9b2c5f8",
+      "bytes": 18748,
+      "cache_md5": "020f3bf15cfe86ef157a24646cb48c06",
+      "bounded_rows": 154,
+      "footer_rows": 154,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/CSH_ZAD_006/2019-08-22_001_43ae9a22-d709-4683-b692-a75d9b0a3efc_table.pqt') LIMIT 154"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSH_ZAD_006/2019-08-26_001_c206e1e5-5249-43cf-ad2d-07f331568b86_table.pqt",
+      "dataset_id": "8a499391-e60f-4400-9eec-f0f9ed7d7ff9",
+      "session_uuid": "c206e1e5-5249-43cf-ad2d-07f331568b86",
+      "date": "2019-08-26",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld5.2.9",
+      "md5": "631b6f773309bb30aee4f081bebb7e92",
+      "sha256": "b78d3a703de1c655fe82d39c04990a94ecf4d1cdcb3f1e16bbd8622d4ee13651",
+      "bytes": 25209,
+      "cache_md5": "631b6f773309bb30aee4f081bebb7e92",
+      "bounded_rows": 284,
+      "footer_rows": 284,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/CSH_ZAD_006/2019-08-26_001_c206e1e5-5249-43cf-ad2d-07f331568b86_table.pqt') LIMIT 284"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSH_ZAD_006/2019-08-27_002_6f78c272-93ef-4f5a-85f8-389c3b1f9ecc_table.pqt",
+      "dataset_id": "8c0ce439-dfae-4eed-a022-92aa5c1eae2f",
+      "session_uuid": "6f78c272-93ef-4f5a-85f8-389c3b1f9ecc",
+      "date": "2019-08-27",
+      "number": 2,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld5.3.0",
+      "md5": "4a9e7d00272f4dd0730620ea7f7736ad",
+      "sha256": "ef9a7ebe8df30919b8cabbecb27f7c46fc8ea3d2bb3a3f043214c7234eb4e854",
+      "bytes": 20964,
+      "cache_md5": "4a9e7d00272f4dd0730620ea7f7736ad",
+      "bounded_rows": 211,
+      "footer_rows": 211,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/CSH_ZAD_006/2019-08-27_002_6f78c272-93ef-4f5a-85f8-389c3b1f9ecc_table.pqt') LIMIT 211"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSH_ZAD_006/2019-08-29_001_f98f8113-4cb8-400f-8476-805bf9d2462b_table.pqt",
+      "dataset_id": "6248989e-37d5-425b-b62e-30eac139604a",
+      "session_uuid": "f98f8113-4cb8-400f-8476-805bf9d2462b",
+      "date": "2019-08-29",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld5.3.0",
+      "md5": "4452da2cf073e860b22b04dd654bd9c2",
+      "sha256": "c438418a469e68fded55b8b9999cb43a1399fac487520493757f39d8d69fc890",
+      "bytes": 26651,
+      "cache_md5": "4452da2cf073e860b22b04dd654bd9c2",
+      "bounded_rows": 306,
+      "footer_rows": 306,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/CSH_ZAD_006/2019-08-29_001_f98f8113-4cb8-400f-8476-805bf9d2462b_table.pqt') LIMIT 306"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSH_ZAD_006/2019-08-30_001_a60e80af-c3f4-4f7a-9150-54979d818cb4_table.pqt",
+      "dataset_id": "ebc688a1-9640-488e-a354-5b4997014ad5",
+      "session_uuid": "a60e80af-c3f4-4f7a-9150-54979d818cb4",
+      "date": "2019-08-30",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld5.3.0",
+      "md5": "51fee12690f7422c93c7528e1729b3c3",
+      "sha256": "121496f534fb28f082ce46d4266c620e4902828a01ecc2950b98ebd7873548b1",
+      "bytes": 27237,
+      "cache_md5": "51fee12690f7422c93c7528e1729b3c3",
+      "bounded_rows": 286,
+      "footer_rows": 286,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/CSH_ZAD_006/2019-08-30_001_a60e80af-c3f4-4f7a-9150-54979d818cb4_table.pqt') LIMIT 286"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSH_ZAD_006/2019-09-03_001_70f70255-4a38-4e68-9666-f750c96c415e_table.pqt",
+      "dataset_id": "3fb86c8f-3fce-4499-b118-9e5d3192942e",
+      "session_uuid": "70f70255-4a38-4e68-9666-f750c96c415e",
+      "date": "2019-09-03",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld5.3.0",
+      "md5": "c8157bc78a386f7c71c5282cf0f57d3c",
+      "sha256": "8519fa0ecdbc1d51a4ba1f951da4a78e75ad08dfe64c5a93e510f538f3e74902",
+      "bytes": 32766,
+      "cache_md5": "c8157bc78a386f7c71c5282cf0f57d3c",
+      "bounded_rows": 350,
+      "footer_rows": 350,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/CSH_ZAD_006/2019-09-03_001_70f70255-4a38-4e68-9666-f750c96c415e_table.pqt') LIMIT 350"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSH_ZAD_006/2019-09-04_001_9ae5bca9-9d30-42cb-ad13-03cd5469c8f4_table.pqt",
+      "dataset_id": "6a3123be-2e0f-4919-aefe-fec8b66a3332",
+      "session_uuid": "9ae5bca9-9d30-42cb-ad13-03cd5469c8f4",
+      "date": "2019-09-04",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld5.3.0",
+      "md5": "8fdfc61854de54187b81879f5f60f8ff",
+      "sha256": "3a2b8972e8772f7198a401b3c60d8cb41e2f2bfd5422acc221d06e0e8673596f",
+      "bytes": 57834,
+      "cache_md5": "8fdfc61854de54187b81879f5f60f8ff",
+      "bounded_rows": 734,
+      "footer_rows": 734,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/CSH_ZAD_006/2019-09-04_001_9ae5bca9-9d30-42cb-ad13-03cd5469c8f4_table.pqt') LIMIT 734"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSH_ZAD_006/2019-09-05_001_24e237b8-60f6-43dd-9c6e-1349a32a6029_table.pqt",
+      "dataset_id": "46e818e7-664c-4f5b-b4a4-45a6a58ae8bd",
+      "session_uuid": "24e237b8-60f6-43dd-9c6e-1349a32a6029",
+      "date": "2019-09-05",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld5.3.0",
+      "md5": "2801c19c9a72f50a2d6a926c3ec7a028",
+      "sha256": "015d106619f335b202a8e717903b5b8ccd85b2a7e600cb939fb00ad47be5c3e3",
+      "bytes": 35561,
+      "cache_md5": "2801c19c9a72f50a2d6a926c3ec7a028",
+      "bounded_rows": 401,
+      "footer_rows": 401,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/CSH_ZAD_006/2019-09-05_001_24e237b8-60f6-43dd-9c6e-1349a32a6029_table.pqt') LIMIT 401"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSH_ZAD_006/2019-09-06_001_c65c4d0a-59b0-4227-a6c6-1972547129ba_table.pqt",
+      "dataset_id": "671dea80-2df8-4dd4-a85b-ef762270069b",
+      "session_uuid": "c65c4d0a-59b0-4227-a6c6-1972547129ba",
+      "date": "2019-09-06",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld5.3.0",
+      "md5": "55c2b8f39efe6c5dc7f9721f14fa89f9",
+      "sha256": "de5848ddf977938aa20b7e3550f810b3eb2ca37c98eb55ad900ba12e70d30596",
+      "bytes": 58626,
+      "cache_md5": "55c2b8f39efe6c5dc7f9721f14fa89f9",
+      "bounded_rows": 765,
+      "footer_rows": 765,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/CSH_ZAD_006/2019-09-06_001_c65c4d0a-59b0-4227-a6c6-1972547129ba_table.pqt') LIMIT 765"
+    }
+  ],
+  "targets_and_counts_equal": true,
+  "prefix_weight_endpoint_max_abs_difference": 4.440892098500626e-16,
+  "prefix_hidden_endpoint_max_abs_difference": 1.1102230246251565e-16,
+  "conditional_probability_max_abs_difference": 5.551115123125783e-16,
+  "conditional_weights_max_abs_difference": 3.552713678800501e-15,
+  "conditional_hidden_final_max_abs_difference": 4.440892098500626e-16,
+  "same_trial_perturbation_probability_difference": 0.0,
+  "omission_weight_hidden_hold_difference": 0.0,
+  "forecast_path": "artifacts/forecasts/rnn_source_animals/CSH_ZAD_006__rnnglm32.npz",
+  "forecast_sha256": "d6bf2e9e25bd036a3f2e33a094d9915619c578d347b73743987753f16752ed5f",
+  "conditional_path": "artifacts/forecasts/rnn_source_animals/CSH_ZAD_006__rnnglm32__conditional.npz",
+  "conditional_sha256": "cc02f86e429a3483c1f943155dd382abd82c7a9d17afd18fa66f4f57ed23263c",
+  "scores": [
+    {
+      "subject": "CSH_ZAD_006",
+      "split": "animal_holdout",
+      "lab": "zadorlab",
+      "model": "rnnglm32",
+      "arm": "autonomous",
+      "horizon": 1000,
+      "actual_horizon": 1000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.06533033807221267,
+      "crps_by_metric": [
+        0.03194673789911845,
+        0.15203087203405707,
+        0.06985455907534247,
+        0.007489183280332682
+      ],
+      "mae": 0.10478154836776574,
+      "mae_by_metric": [
+        0.07464322747748015,
+        0.22772124724358286,
+        0.10942968749999993,
+        0.0073320312500000625
+      ],
+      "high_accuracy_mae": 0.1511822373605315,
+      "coverage": {
+        "0.5": 0.625,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.75,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.18601398747540557,
+        "0.8": 0.3159656439540589,
+        "0.95": 0.43111269297218363
+      },
+      "energy": 0.3308664780288152,
+      "n_cells": 8,
+      "high_width80": 0.4200812879081177
+    },
+    {
+      "subject": "CSH_ZAD_006",
+      "split": "animal_holdout",
+      "lab": "zadorlab",
+      "model": "rnnglm32",
+      "arm": "raw_autonomous",
+      "horizon": 1000,
+      "actual_horizon": 1000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.06533033807221267,
+      "crps_by_metric": [
+        0.03194673789911845,
+        0.15203087203405707,
+        0.06985455907534247,
+        0.007489183280332682
+      ],
+      "mae": 0.10478154836776574,
+      "mae_by_metric": [
+        0.07464322747748015,
+        0.22772124724358286,
+        0.10942968749999993,
+        0.0073320312500000625
+      ],
+      "high_accuracy_mae": 0.1511822373605315,
+      "coverage": {
+        "0.5": 0.625,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.75,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.18601398747540557,
+        "0.8": 0.3159656439540589,
+        "0.95": 0.43111269297218363
+      },
+      "energy": 0.3308664780288152,
+      "n_cells": 8,
+      "high_width80": 0.4200812879081177
+    },
+    {
+      "subject": "CSH_ZAD_006",
+      "split": "animal_holdout",
+      "lab": "zadorlab",
+      "model": "rnnglm32",
+      "arm": "conditional_diagnostic",
+      "horizon": 1000,
+      "actual_horizon": 1000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.016016688019467505,
+      "crps_by_metric": [
+        0.029372457056650196,
+        0.023041958915544676,
+        0.004163152825342467,
+        0.007489183280332682
+      ],
+      "mae": 0.019880159531391342,
+      "mae_by_metric": [
+        0.03823209621257473,
+        0.03133151066299081,
+        0.0026249999999997664,
+        0.0073320312500000625
+      ],
+      "high_accuracy_mae": 0.03478180343778277,
+      "coverage": {
+        "0.5": 0.625,
+        "0.8": 0.75,
+        "0.95": 0.75
+      },
+      "high_coverage": {
+        "0.5": 0.5,
+        "0.8": 0.5,
+        "0.95": 0.5
+      },
+      "width": {
+        "0.5": 0.025712515666229167,
+        "0.8": 0.049712268263472914,
+        "0.95": 0.08061918719265516
+      },
+      "energy": 0.06374424438230047,
+      "n_cells": 8,
+      "high_width80": 0.06242453652694584,
+      "binary_nll": 0.3826635263714081,
+      "static_prefix_binary_nll": 0.6212875723044207,
+      "conditional_nll_gain_over_static": 0.23862404593301256
+    },
+    {
+      "subject": "CSH_ZAD_006",
+      "split": "animal_holdout",
+      "lab": "zadorlab",
+      "model": "rnnglm32",
+      "arm": "autonomous",
+      "horizon": 3000,
+      "actual_horizon": 3000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.10538132162773953,
+      "crps_by_metric": [
+        0.0776894100408075,
+        0.2537706245132034,
+        0.0855322182811481,
+        0.004533033675799087
+      ],
+      "mae": 0.1811305736249544,
+      "mae_by_metric": [
+        0.17169911496772605,
+        0.4079097680737582,
+        0.13891276041666664,
+        0.00600065104166668
+      ],
+      "high_accuracy_mae": 0.28980444152074214,
+      "coverage": {
+        "0.5": 0.375,
+        "0.8": 0.75,
+        "0.95": 0.875
+      },
+      "high_coverage": {
+        "0.5": 0.25,
+        "0.8": 0.5,
+        "0.95": 0.75
+      },
+      "width": {
+        "0.5": 0.289054912873218,
+        "0.8": 0.45930611243540803,
+        "0.95": 0.5893886443577977
+      },
+      "energy": 0.835693703068483,
+      "n_cells": 24,
+      "high_width80": 0.6292455582041492
+    },
+    {
+      "subject": "CSH_ZAD_006",
+      "split": "animal_holdout",
+      "lab": "zadorlab",
+      "model": "rnnglm32",
+      "arm": "raw_autonomous",
+      "horizon": 3000,
+      "actual_horizon": 3000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.10538132162773953,
+      "crps_by_metric": [
+        0.0776894100408075,
+        0.2537706245132034,
+        0.0855322182811481,
+        0.004533033675799087
+      ],
+      "mae": 0.1811305736249544,
+      "mae_by_metric": [
+        0.17169911496772605,
+        0.4079097680737582,
+        0.13891276041666664,
+        0.00600065104166668
+      ],
+      "high_accuracy_mae": 0.28980444152074214,
+      "coverage": {
+        "0.5": 0.375,
+        "0.8": 0.75,
+        "0.95": 0.875
+      },
+      "high_coverage": {
+        "0.5": 0.25,
+        "0.8": 0.5,
+        "0.95": 0.75
+      },
+      "width": {
+        "0.5": 0.289054912873218,
+        "0.8": 0.45930611243540803,
+        "0.95": 0.5893886443577977
+      },
+      "energy": 0.835693703068483,
+      "n_cells": 24,
+      "high_width80": 0.6292455582041492
+    },
+    {
+      "subject": "CSH_ZAD_006",
+      "split": "animal_holdout",
+      "lab": "zadorlab",
+      "model": "rnnglm32",
+      "arm": "conditional_diagnostic",
+      "horizon": 3000,
+      "actual_horizon": 3000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.013040380312966645,
+      "crps_by_metric": [
+        0.030808171061246382,
+        0.012812707863483859,
+        0.004007608651337248,
+        0.004533033675799087
+      ],
+      "mae": 0.017575829207551016,
+      "mae_by_metric": [
+        0.04196552451023302,
+        0.01899729752830458,
+        0.003339843749999775,
+        0.00600065104166668
+      ],
+      "high_accuracy_mae": 0.030481411019268802,
+      "coverage": {
+        "0.5": 0.625,
+        "0.8": 0.8333333333333334,
+        "0.95": 0.8333333333333334
+      },
+      "high_coverage": {
+        "0.5": 0.5,
+        "0.8": 0.6666666666666666,
+        "0.95": 0.6666666666666666
+      },
+      "width": {
+        "0.5": 0.0235485071145945,
+        "0.8": 0.04316206505705542,
+        "0.95": 0.06716181116779768
+      },
+      "energy": 0.09679008044338705,
+      "n_cells": 24,
+      "high_width80": 0.05719079678077754,
+      "binary_nll": 0.32464579129316334,
+      "static_prefix_binary_nll": 0.7398305201357825,
+      "conditional_nll_gain_over_static": 0.4151847288426192
+    },
+    {
+      "subject": "CSH_ZAD_006",
+      "split": "animal_holdout",
+      "lab": "zadorlab",
+      "model": "rnnglm32",
+      "arm": "autonomous",
+      "horizon": 5000,
+      "actual_horizon": 3000,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.10538132162773953,
+      "crps_by_metric": [
+        0.0776894100408075,
+        0.2537706245132034,
+        0.0855322182811481,
+        0.004533033675799087
+      ],
+      "mae": 0.1811305736249544,
+      "mae_by_metric": [
+        0.17169911496772605,
+        0.4079097680737582,
+        0.13891276041666664,
+        0.00600065104166668
+      ],
+      "high_accuracy_mae": 0.28980444152074214,
+      "coverage": {
+        "0.5": 0.375,
+        "0.8": 0.75,
+        "0.95": 0.875
+      },
+      "high_coverage": {
+        "0.5": 0.25,
+        "0.8": 0.5,
+        "0.95": 0.75
+      },
+      "width": {
+        "0.5": 0.289054912873218,
+        "0.8": 0.45930611243540803,
+        "0.95": 0.5893886443577977
+      },
+      "energy": 0.835693703068483,
+      "n_cells": 24,
+      "high_width80": 0.6292455582041492
+    },
+    {
+      "subject": "CSH_ZAD_006",
+      "split": "animal_holdout",
+      "lab": "zadorlab",
+      "model": "rnnglm32",
+      "arm": "raw_autonomous",
+      "horizon": 5000,
+      "actual_horizon": 3000,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.10538132162773953,
+      "crps_by_metric": [
+        0.0776894100408075,
+        0.2537706245132034,
+        0.0855322182811481,
+        0.004533033675799087
+      ],
+      "mae": 0.1811305736249544,
+      "mae_by_metric": [
+        0.17169911496772605,
+        0.4079097680737582,
+        0.13891276041666664,
+        0.00600065104166668
+      ],
+      "high_accuracy_mae": 0.28980444152074214,
+      "coverage": {
+        "0.5": 0.375,
+        "0.8": 0.75,
+        "0.95": 0.875
+      },
+      "high_coverage": {
+        "0.5": 0.25,
+        "0.8": 0.5,
+        "0.95": 0.75
+      },
+      "width": {
+        "0.5": 0.289054912873218,
+        "0.8": 0.45930611243540803,
+        "0.95": 0.5893886443577977
+      },
+      "energy": 0.835693703068483,
+      "n_cells": 24,
+      "high_width80": 0.6292455582041492
+    },
+    {
+      "subject": "CSH_ZAD_006",
+      "split": "animal_holdout",
+      "lab": "zadorlab",
+      "model": "rnnglm32",
+      "arm": "conditional_diagnostic",
+      "horizon": 5000,
+      "actual_horizon": 3000,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.013040380312966645,
+      "crps_by_metric": [
+        0.030808171061246382,
+        0.012812707863483859,
+        0.004007608651337248,
+        0.004533033675799087
+      ],
+      "mae": 0.017575829207551016,
+      "mae_by_metric": [
+        0.04196552451023302,
+        0.01899729752830458,
+        0.003339843749999775,
+        0.00600065104166668
+      ],
+      "high_accuracy_mae": 0.030481411019268802,
+      "coverage": {
+        "0.5": 0.625,
+        "0.8": 0.8333333333333334,
+        "0.95": 0.8333333333333334
+      },
+      "high_coverage": {
+        "0.5": 0.5,
+        "0.8": 0.6666666666666666,
+        "0.95": 0.6666666666666666
+      },
+      "width": {
+        "0.5": 0.0235485071145945,
+        "0.8": 0.04316206505705542,
+        "0.95": 0.06716181116779768
+      },
+      "energy": 0.09679008044338705,
+      "n_cells": 24,
+      "high_width80": 0.05719079678077754,
+      "binary_nll": 0.32464579129316334,
+      "static_prefix_binary_nll": 0.7398305201357825,
+      "conditional_nll_gain_over_static": 0.4151847288426192
+    }
+  ],
+  "numerical_differences": [
+    {
+      "arm": "autonomous",
+      "horizon": 1000,
+      "crps": 1.3877787807814457e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "raw_autonomous",
+      "horizon": 1000,
+      "crps": 1.3877787807814457e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "conditional_diagnostic",
+      "horizon": 1000,
+      "crps": 2.42861286636753e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0,
+      "binary_nll": 0.0
+    },
+    {
+      "arm": "autonomous",
+      "horizon": 3000,
+      "crps": 1.3877787807814457e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "raw_autonomous",
+      "horizon": 3000,
+      "crps": 1.3877787807814457e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "conditional_diagnostic",
+      "horizon": 3000,
+      "crps": 3.469446951953614e-18,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0,
+      "binary_nll": 5.551115123125783e-17
+    },
+    {
+      "arm": "autonomous",
+      "horizon": 5000,
+      "crps": 1.3877787807814457e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "raw_autonomous",
+      "horizon": 5000,
+      "crps": 1.3877787807814457e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "conditional_diagnostic",
+      "horizon": 5000,
+      "crps": 3.469446951953614e-18,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0,
+      "binary_nll": 5.551115123125783e-17
+    }
+  ]
+}

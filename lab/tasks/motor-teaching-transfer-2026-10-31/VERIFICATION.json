@@ -1,0 +1,71 @@
+{
+  "created_utc": "2026-10-31T21:35:34.480833+00:00",
+  "freeze_pins_pass": true,
+  "matched_ratio_and_LOO_loss_checks": [
+    {
+      "channel": "current",
+      "ratios": [
+        0.8635436265555333,
+        0.37065373551788017
+      ],
+      "mean_square_errors": [
+        0.8632066591368107,
+        0.42600944331019913
+      ],
+      "passed": true
+    },
+    {
+      "channel": "current_plus_next",
+      "ratios": [
+        0.890120458269707,
+        0.3430823550232561
+      ],
+      "mean_square_errors": [
+        1.1475980782340038,
+        0.42216452711632896
+      ],
+      "passed": true
+    }
+  ],
+  "warning_correction": {
+    "initial_final_max_coefficient_difference": 0.0,
+    "initial_final_max_forecast_difference": 0.0,
+    "initial_final_max_loss_difference": 0.0,
+    "endpoint_fit_max_normal_equation_residual": 4.381073281933823e-11,
+    "final_einsum_runs_emitted_no_warnings": true
+  },
+  "additive_generator_controls": [
+    {
+      "source": "tsay_TE_SPE.csv",
+      "rank": 17,
+      "columns": 17,
+      "arbitrary_additive_endpoint_peak": 2.9563491899653807,
+      "max_contrast_recovery_error": 7.105427357601002e-15
+    },
+    {
+      "source": "tsay_controljump.csv",
+      "rank": 17,
+      "columns": 17,
+      "arbitrary_additive_endpoint_peak": 2.9563491899653807,
+      "max_contrast_recovery_error": 7.549516567451064e-15
+    },
+    {
+      "source": "task_success_fig3.csv",
+      "rank": 15,
+      "columns": 15,
+      "arbitrary_additive_endpoint_peak": 2.9563491899653807,
+      "max_contrast_recovery_error": 6.217248937900877e-15
+    }
+  ],
+  "source_support_witness": {
+    "source_base": 4,
+    "source_with_enlarged_stationary_hit": 4,
+    "target_base": 2,
+    "target_with_enlarged_stationary_hit": 3,
+    "new_feature_source_max_absolute": 0.0,
+    "new_feature_target_nonzero_trials": 12096
+  },
+  "figure4_outcome_numeric_values_decoded": 0,
+  "resources_charged_bytes": 400000000,
+  "peak_rss_bytes": 81117184
+}

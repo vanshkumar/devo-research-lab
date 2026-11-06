@@ -1,0 +1,53 @@
+{
+  "started_at_utc": "2026-11-03T06:20:27.549734+00:00",
+  "freeze": {
+    "frozen_at_utc": "2026-11-03T06:18:17.907042+00:00",
+    "evaluation_generated_before_freeze": false,
+    "substantive_protocol_revisions": 0,
+    "sha256": {
+      "PROTOCOL.md": "45df3ae1ea4645def80e64aad9b42359ba640d44d95a9320eb4715f87aa1d476",
+      "CONFIG.json": "ce8c107a39163cab83826801d203c6708cff7e2427115de6988abf103d3f8728",
+      "MODEL_REFERENCE.json": "3ea6bad50ad036e5091d13de9a354f24a52e6cf063fcb8c20ca783195190767b"
+    }
+  },
+  "fixed_config": {
+    "version": "ONE_NEW_FROZEN_PILOT",
+    "seeds": [
+      0,
+      1
+    ],
+    "baseline_seconds": 20.0,
+    "pulse_start": 20.0,
+    "pulse_end": 22.0,
+    "exact_restoration": 22.3,
+    "challenge_start": 42.0,
+    "end": 44.0,
+    "dt": 0.01,
+    "late_window": [
+      40.0,
+      42.0
+    ],
+    "challenge_window": [
+      42.3,
+      44.0
+    ],
+    "linear_origin": 23.0,
+    "linear_times": [
+      40.0,
+      41.0,
+      42.0
+    ],
+    "reference_motor_rms": 5.638259640019669,
+    "material_fraction": 0.1,
+    "late_ratio_minimum": 0.8,
+    "primary_rtol": 1e-08,
+    "primary_atol": 1e-09,
+    "literal_reference_rtol": 1e-10,
+    "literal_reference_atol": 1e-11,
+    "max_process_seconds": 1200,
+    "max_rss_bytes": 1000000000,
+    "max_public_operations": 12,
+    "max_ingress_bytes": 20000000,
+    "max_separate_read_booking_bytes": 800000000
+  }
+}

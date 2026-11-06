@@ -1,0 +1,9 @@
+# Contrary attribution check after evaluation, 2026-10-31T17:59Z
+
+All19heat animals are now consumed. The frozen joint test failed: neural state gain12.74%has an interval spanning zero; behavior worsens24.93%. Fractional fluorescence gives2.51%neural gain. A postvalidation common-label check retains13.57%gain, so missing-class composition alone is not a convincing explanation. Preserve these mixed findings; no primary replacement or new holdout claim.
+
+The highest-value remaining alternative is simpler measured behavioral context. The four global state features combine two pre-heat behavior rates and two neural PCs. Before crediting a neural-state contribution, perform exactly two knockout fits on consumed data: remove the PCs (behavior-only augmentation), and remove the behavioral features (PC-only augmentation). Retain the original neural state alpha1, own-channel features, source12/evaluation7split, class list and endpoint. Do not tune penalties or select a winner. Save both complete outputs and compare with the frozen full-state/local errors. These are postvalidation attribution diagnostics, not a second development revision, independent validation or a new forecast recipe for promotion.
+
+After these checks, finalize the result and recommend a distinct independent review or branch stop. No additional model fitting is planned.
+
+2026-10-31T18:00Z control amendment, before its execution: frozen local and full-state recipes selected different penalties (alpha10 versus1). Add the necessary own-history-only fit at the same alpha1 to distinguish a penalty change from information in the knockout features. This is a numerical attribution control, not a further model selection. Keep the initial attribution output and write the matched result separately. No penalty retuning or primary replacement.

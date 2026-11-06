@@ -1,0 +1,120 @@
+{
+  "subject": "CSH_ZAD_022",
+  "split": "animal_holdout",
+  "particles": 512,
+  "prefix_n": 1000,
+  "horizon": 5000,
+  "model_sha256": "c7f675d18f4143891ed7d2c76d91f74be74da9565fbae5407952768e2c146940",
+  "forecast_path": "artifacts/forecasts/rnn_source_animals/CSH_ZAD_022__rnnglm32.npz",
+  "forecast_sha256": "8fc229afbefeec1ee550c2081e7f66f556b7d252db6fcd782128fc9f95917c52",
+  "metadata_sha256": "8d937c8431ac14e2e5c961f786c8c680f5c5c8885e3f226a69c0c5bd93a0ad34",
+  "seed": 82616374,
+  "exact": true,
+  "max_abs_difference": 0.0,
+  "arrays": {
+    "samples": {
+      "exact": true,
+      "shape": [
+        512,
+        10,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "3a8e00352fde65bc63e5c80cf03acd2a368b72fd67446d4e0dd65e9ed5bc3a14",
+      "saved_array_sha256": "3a8e00352fde65bc63e5c80cf03acd2a368b72fd67446d4e0dd65e9ed5bc3a14"
+    },
+    "samples_primary": {
+      "exact": true,
+      "shape": [
+        512,
+        10,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "3a8e00352fde65bc63e5c80cf03acd2a368b72fd67446d4e0dd65e9ed5bc3a14",
+      "saved_array_sha256": "3a8e00352fde65bc63e5c80cf03acd2a368b72fd67446d4e0dd65e9ed5bc3a14"
+    },
+    "weights": {
+      "exact": true,
+      "shape": [
+        512,
+        10,
+        3
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "e24d66c397333fee595490cb7208b085242980cb2dfdd9f5d65fbcfca6baa05b",
+      "saved_array_sha256": "e24d66c397333fee595490cb7208b085242980cb2dfdd9f5d65fbcfca6baa05b"
+    },
+    "hidden_final": {
+      "exact": true,
+      "shape": [
+        512,
+        32
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "4519e03c26f0516a76a7a5b62464f69438599b632456e93eb2c7baa536a4929d",
+      "saved_array_sha256": "4519e03c26f0516a76a7a5b62464f69438599b632456e93eb2c7baa536a4929d"
+    },
+    "counts": {
+      "exact": true,
+      "shape": [
+        512,
+        10,
+        4
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "25ed90250412c98db07174358f0871a1fc8b7342f66ecab8d77ceb914f0af33d",
+      "saved_array_sha256": "25ed90250412c98db07174358f0871a1fc8b7342f66ecab8d77ceb914f0af33d"
+    },
+    "pool_fraction": {
+      "exact": true,
+      "shape": [
+        10,
+        6
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "edff743f13dd6ee4896b0e1b5b5e1634ecf92c0f5e1fdc1a6e30f03e55c7bacf",
+      "saved_array_sha256": "edff743f13dd6ee4896b0e1b5b5e1634ecf92c0f5e1fdc1a6e30f03e55c7bacf"
+    },
+    "session_start": {
+      "exact": true,
+      "shape": [
+        5000
+      ],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "03d1c480f7307b7105eb6005d0750c0729bf822125988f7f6c4d4385e34971ea",
+      "saved_array_sha256": "03d1c480f7307b7105eb6005d0750c0729bf822125988f7f6c4d4385e34971ea"
+    },
+    "seed": {
+      "exact": true,
+      "shape": [],
+      "max_abs_difference": 0.0,
+      "fresh_array_sha256": "75a6fffdf50e7cd3fe029d8002403adbb7f5423214c8b1fe2ecb9d6566238206",
+      "saved_array_sha256": "75a6fffdf50e7cd3fe029d8002403adbb7f5423214c8b1fe2ecb9d6566238206"
+    }
+  },
+  "original_prefix_objects": [
+    {
+      "path": "data/sealed/animal_holdout/CSH_ZAD_022/2020-02-25_001_d67e094f-086f-48df-8d29-7c70614612a0_table.pqt",
+      "bytes": 33888,
+      "sha256": "861467b09b8f7236d92aa30f2b05aa765e937ca848359fc28e3dcf8f4184b977",
+      "md5": "a31464fe1cdad5a9671387af32922832",
+      "published_md5": "a31464fe1cdad5a9671387af32922832"
+    },
+    {
+      "path": "data/sealed/animal_holdout/CSH_ZAD_022/2020-02-26_002_46ecf94d-c632-4b00-8aec-a97457a38efa_table.pqt",
+      "bytes": 62196,
+      "sha256": "84508f7c183322b7e443cc339cac0a05179c86c259eadbc7d3926c60ec8b3334",
+      "md5": "53287e600c1ca30c4ab997f28aaa60bf",
+      "published_md5": "53287e600c1ca30c4ab997f28aaa60bf"
+    }
+  ],
+  "prefix_rows_per_session": [
+    368,
+    632
+  ],
+  "opportunity_source": "pinned footer counts only",
+  "future_outcomes_read": false,
+  "external_outcomes_read": false,
+  "seconds": 4.377698666008655
+}

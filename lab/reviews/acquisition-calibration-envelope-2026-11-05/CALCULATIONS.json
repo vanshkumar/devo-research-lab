@@ -1,0 +1,2466 @@
+{
+  "native_observed_ratio_mean": 0.5516779511847308,
+  "stress_outcome_shift": 0.052002715950342795,
+  "stress_clipped_outcomes": 7,
+  "fixed_shift_planning": {
+    "raw_ordinary": {
+      "expected_I": -0.0029118490712731603,
+      "variance_one_fixed_recipient": {
+        "independent_signs": 0.00026485058965532095,
+        "same_uniform_signs": 0.0005285401760148334
+      },
+      "SE_at_192": {
+        "independent_signs": 0.0011744914450326136,
+        "same_uniform_signs": 0.0016591604553942106
+      },
+      "SE_at_192_ICC05": {
+        "independent_signs": 0.002151509703134863,
+        "same_uniform_signs": 0.0030393578718141945
+      }
+    },
+    "shifted_ordinary": {
+      "expected_I": 0.002911849071273143,
+      "variance_one_fixed_recipient": {
+        "independent_signs": 0.00026113320230129077,
+        "same_uniform_signs": 0.0005210797580567801
+      },
+      "SE_at_192": {
+        "independent_signs": 0.0011662198600546508,
+        "same_uniform_signs": 0.0016474092002937207
+      },
+      "SE_at_192_ICC05": {
+        "independent_signs": 0.0021363572765968415,
+        "same_uniform_signs": 0.0030178311595680995
+      }
+    },
+    "raw_gru": {
+      "expected_I": 0.003024860557795434,
+      "variance_one_fixed_recipient": {
+        "independent_signs": 0.00029185462581446267,
+        "same_uniform_signs": 0.0005603298009127406
+      },
+      "SE_at_192": {
+        "independent_signs": 0.0012329136937016285,
+        "same_uniform_signs": 0.0017083279485373578
+      },
+      "SE_at_192_ICC05": {
+        "independent_signs": 0.002258531372319395,
+        "same_uniform_signs": 0.003129426078801739
+      }
+    }
+  },
+  "actors": {
+    "recent100": {
+      "forecast_ratio_mean": 0.5595002586692814,
+      "actual": {
+        "pooled": {
+          "equal_original_row_weights": {
+            "rank": {
+              "raw_risk": 0.1276413008801533,
+              "witness_risk": 0.12591405481888365,
+              "gain_witness": 0.0017272460612696439,
+              "gain_upper": 0.0017272462612698105
+            },
+            "value": {
+              "raw_risk": 0.1276413008801533,
+              "witness_risk": 0.12369100514069943,
+              "gain_witness": 0.003950295739453866,
+              "gain_upper": 0.00395029593945388
+            }
+          },
+          "cells": {
+            "all": {
+              "n_sign_rows": 128,
+              "rank": {
+                "raw_risk": 0.1276413008801533,
+                "witness_risk": 0.12591405481888365,
+                "gain_witness": 0.0017272460612696439,
+                "gain_upper": 0.0017272462612698105,
+                "gain_strict_support_witness": 0.0017272457929506935,
+                "fw_gap": 1.6653345369377348e-16,
+                "nonzero_mass_intervals": 82,
+                "conditional_mass_mean_rank": 0.4942054911046495
+              },
+              "value": {
+                "raw_risk": 0.1276413008801533,
+                "witness_risk": 0.12369100514069943,
+                "gain_witness": 0.003950295739453866,
+                "gain_upper": 0.00395029593945388,
+                "threshold_lower_risk": 0.12369100514069942,
+                "witness_error": 1.3877787807814457e-17,
+                "states": 63203,
+                "target_intervals": 129
+              }
+            }
+          }
+        },
+        "sign": {
+          "equal_original_row_weights": {
+            "rank": {
+              "raw_risk": 0.1276413008801533,
+              "witness_risk": 0.1234618684683891,
+              "gain_witness": 0.004179432411764217,
+              "gain_upper": 0.004179432611764411
+            },
+            "value": {
+              "raw_risk": 0.1276413008801533,
+              "witness_risk": 0.12190669566042873,
+              "gain_witness": 0.005734605219724576,
+              "gain_upper": 0.005734605419724596
+            }
+          },
+          "cells": {
+            "L": {
+              "n_sign_rows": 64,
+              "rank": {
+                "raw_risk": 0.12480449410977204,
+                "witness_risk": 0.11960968383377216,
+                "gain_witness": 0.005194810275999884,
+                "gain_upper": 0.005194810475999995,
+                "gain_strict_support_witness": 0.00519480988564959,
+                "fw_gap": 1.1102230246251565e-16,
+                "nonzero_mass_intervals": 56,
+                "conditional_mass_mean_rank": 0.44711936651907025
+              },
+              "value": {
+                "raw_risk": 0.12480449410977204,
+                "witness_risk": 0.11660219234188635,
+                "gain_witness": 0.008202301767885695,
+                "gain_upper": 0.008202301967885708,
+                "threshold_lower_risk": 0.11660219234188633,
+                "witness_error": 1.3877787807814457e-17,
+                "states": 38349,
+                "target_intervals": 65
+              }
+            },
+            "R": {
+              "n_sign_rows": 64,
+              "rank": {
+                "raw_risk": 0.13047810765053458,
+                "witness_risk": 0.12731405310300603,
+                "gain_witness": 0.0031640545475285498,
+                "gain_upper": 0.0031640547475288274,
+                "gain_strict_support_witness": 0.0031640541104382136,
+                "fw_gap": 2.7755575615628914e-16,
+                "nonzero_mass_intervals": 80,
+                "conditional_mass_mean_rank": 0.5317390163317129
+              },
+              "value": {
+                "raw_risk": 0.13047810765053458,
+                "witness_risk": 0.12721119897897112,
+                "gain_witness": 0.0032669086715634565,
+                "gain_upper": 0.0032669088715634844,
+                "threshold_lower_risk": 0.1272111989789711,
+                "witness_error": 2.7755575615628914e-17,
+                "states": 43815,
+                "target_intervals": 65
+              }
+            }
+          }
+        },
+        "roster_sign": {
+          "equal_original_row_weights": {
+            "rank": {
+              "raw_risk": 0.1276413008801533,
+              "witness_risk": 0.11900778913749822,
+              "gain_witness": 0.00863351174265507,
+              "gain_upper": 0.008633511942655285
+            },
+            "value": {
+              "raw_risk": 0.1276413008801533,
+              "witness_risk": 0.11835105466310751,
+              "gain_witness": 0.009290246217045791,
+              "gain_upper": 0.00929024641704579
+            }
+          },
+          "cells": {
+            "later24/L": {
+              "n_sign_rows": 24,
+              "rank": {
+                "raw_risk": 0.08241199248960505,
+                "witness_risk": 0.07347450689405086,
+                "gain_witness": 0.008937485595554198,
+                "gain_upper": 0.00893748579555442,
+                "gain_strict_support_witness": 0.008937485291200767,
+                "fw_gap": 2.220446049250313e-16,
+                "nonzero_mass_intervals": 63,
+                "conditional_mass_mean_rank": 0.38852542006050383
+              },
+              "value": {
+                "raw_risk": 0.08241199248960504,
+                "witness_risk": 0.06830709594604963,
+                "gain_witness": 0.014104896543555415,
+                "gain_upper": 0.014104896743555414,
+                "threshold_lower_risk": 0.06830709594604963,
+                "witness_error": 0.0,
+                "states": 18720,
+                "target_intervals": 25
+              }
+            },
+            "later24/R": {
+              "n_sign_rows": 24,
+              "rank": {
+                "raw_risk": 0.10863668778489688,
+                "witness_risk": 0.10079090433356158,
+                "gain_witness": 0.007845783451335298,
+                "gain_upper": 0.007845783651335852,
+                "gain_strict_support_witness": 0.007845782663726708,
+                "fw_gap": 5.551115123125783e-16,
+                "nonzero_mass_intervals": 44,
+                "conditional_mass_mean_rank": 0.4627745922660239
+              },
+              "value": {
+                "raw_risk": 0.10863668778489688,
+                "witness_risk": 0.10255244373707532,
+                "gain_witness": 0.006084244047821555,
+                "gain_upper": 0.006084244247821555,
+                "threshold_lower_risk": 0.10255244373707532,
+                "witness_error": 0.0,
+                "states": 20723,
+                "target_intervals": 25
+              }
+            },
+            "old40/L": {
+              "n_sign_rows": 40,
+              "rank": {
+                "raw_risk": 0.15023999508187222,
+                "witness_risk": 0.14056501985997338,
+                "gain_witness": 0.009674975221898835,
+                "gain_upper": 0.009674975421898945,
+                "gain_strict_support_witness": 0.009674974471112763,
+                "fw_gap": 1.1102230246251565e-16,
+                "nonzero_mass_intervals": 45,
+                "conditional_mass_mean_rank": 0.48126447060406596
+              },
+              "value": {
+                "raw_risk": 0.1502399950818722,
+                "witness_risk": 0.1398529412114801,
+                "gain_witness": 0.010387053870392099,
+                "gain_upper": 0.010387054070392098,
+                "threshold_lower_risk": 0.1398529412114801,
+                "witness_error": 0.0,
+                "states": 28101,
+                "target_intervals": 41
+              }
+            },
+            "old40/R": {
+              "n_sign_rows": 40,
+              "rank": {
+                "raw_risk": 0.14358295956991718,
+                "witness_risk": 0.1357006586434535,
+                "gain_witness": 0.007882300926463692,
+                "gain_upper": 0.007882301126463803,
+                "gain_strict_support_witness": 0.007882300307738788,
+                "fw_gap": 1.1102230246251565e-16,
+                "nonzero_mass_intervals": 69,
+                "conditional_mass_mean_rank": 0.5733819658616055
+              },
+              "value": {
+                "raw_risk": 0.14358295956991723,
+                "witness_risk": 0.13635470990058898,
+                "gain_witness": 0.007228249669328252,
+                "gain_upper": 0.007228249869328252,
+                "threshold_lower_risk": 0.13635470990058898,
+                "witness_error": 0.0,
+                "states": 30677,
+                "target_intervals": 41
+              }
+            }
+          }
+        },
+        "owner_roster_sign": {
+          "equal_original_row_weights": {
+            "rank": {
+              "raw_risk": 0.12764130088015332,
+              "witness_risk": 0.09168254274137924,
+              "gain_witness": 0.03595875813877407,
+              "gain_upper": 0.03595875833877425
+            },
+            "value": {
+              "raw_risk": 0.1276413008801533,
+              "witness_risk": 0.0840223460883831,
+              "gain_witness": 0.043618954791770206,
+              "gain_upper": 0.0436189549917702
+            }
+          },
+          "cells": {
+            "angelakilab/later24/L": {
+              "n_sign_rows": 5,
+              "rank": {
+                "raw_risk": 0.09881914208875851,
+                "witness_risk": 0.08448858197977369,
+                "gain_witness": 0.014330560108984827,
+                "gain_upper": 0.014330560308984993,
+                "gain_strict_support_witness": 0.014330558291156897,
+                "fw_gap": 1.6653345369377348e-16,
+                "nonzero_mass_intervals": 27,
+                "conditional_mass_mean_rank": 0.4395904485123623
+              },
+              "value": {
+                "raw_risk": 0.09881914208875851,
+                "witness_risk": 0.07271249840457172,
+                "gain_witness": 0.02610664368418679,
+                "gain_upper": 0.026106643884186816,
+                "threshold_lower_risk": 0.0727124984045717,
+                "witness_error": 2.7755575615628914e-17,
+                "states": 4642,
+                "target_intervals": 6
+              }
+            },
+            "angelakilab/later24/R": {
+              "n_sign_rows": 5,
+              "rank": {
+                "raw_risk": 0.1264325793912726,
+                "witness_risk": 0.09246752197928568,
+                "gain_witness": 0.03396505741198691,
+                "gain_upper": 0.03396505761198702,
+                "gain_strict_support_witness": 0.03396505454114365,
+                "fw_gap": 1.1102230246251565e-16,
+                "nonzero_mass_intervals": 25,
+                "conditional_mass_mean_rank": 0.6615303453066889
+              },
+              "value": {
+                "raw_risk": 0.1264325793912726,
+                "witness_risk": 0.08010725606355995,
+                "gain_witness": 0.046325323327712636,
+                "gain_upper": 0.04632532352771265,
+                "threshold_lower_risk": 0.08010725606355994,
+                "witness_error": 1.3877787807814457e-17,
+                "states": 4914,
+                "target_intervals": 6
+              }
+            },
+            "churchland_common_owner/later24/L": {
+              "n_sign_rows": 2,
+              "rank": {
+                "raw_risk": 0.05819496839387919,
+                "witness_risk": 0.007618397080634166,
+                "gain_witness": 0.05057657131324503,
+                "gain_upper": 0.05057657151324507,
+                "gain_strict_support_witness": 0.050576571260055575,
+                "fw_gap": 4.163336342344337e-17,
+                "nonzero_mass_intervals": 10,
+                "conditional_mass_mean_rank": 0.6422185456484875
+              },
+              "value": {
+                "raw_risk": 0.05819496839387921,
+                "witness_risk": 0.012711203432996525,
+                "gain_witness": 0.04548376496088268,
+                "gain_upper": 0.04548376516088268,
+                "threshold_lower_risk": 0.01271120343299653,
+                "witness_error": 5.204170427930421e-18,
+                "states": 1912,
+                "target_intervals": 3
+              }
+            },
+            "churchland_common_owner/later24/R": {
+              "n_sign_rows": 2,
+              "rank": {
+                "raw_risk": 0.11768750459999094,
+                "witness_risk": 0.001245944049987914,
+                "gain_witness": 0.11644156055000303,
+                "gain_upper": 0.11644156075000303,
+                "gain_strict_support_witness": 0.11644156054869799,
+                "fw_gap": 0.0,
+                "nonzero_mass_intervals": 7,
+                "conditional_mass_mean_rank": 0.15502411075857955
+              },
+              "value": {
+                "raw_risk": 0.11768750459999087,
+                "witness_risk": 0.018511789943945575,
+                "gain_witness": 0.0991757146560453,
+                "gain_upper": 0.09917571485604532,
+                "threshold_lower_risk": 0.018511789943945558,
+                "witness_error": 1.734723475976807e-17,
+                "states": 2015,
+                "target_intervals": 3
+              }
+            },
+            "churchland_common_owner/old40/L": {
+              "n_sign_rows": 7,
+              "rank": {
+                "raw_risk": 0.24019286935091197,
+                "witness_risk": 0.19853850954549832,
+                "gain_witness": 0.041654359805413654,
+                "gain_upper": 0.04165436000541377,
+                "gain_strict_support_witness": 0.04165434627598133,
+                "fw_gap": 1.1102230246251565e-16,
+                "nonzero_mass_intervals": 21,
+                "conditional_mass_mean_rank": 0.45740189055112607
+              },
+              "value": {
+                "raw_risk": 0.24019286935091202,
+                "witness_risk": 0.21666676831625883,
+                "gain_witness": 0.02352610103465319,
+                "gain_upper": 0.023526101234653162,
+                "threshold_lower_risk": 0.21666676831625886,
+                "witness_error": 2.7755575615628914e-17,
+                "states": 6484,
+                "target_intervals": 8
+              }
+            },
+            "churchland_common_owner/old40/R": {
+              "n_sign_rows": 7,
+              "rank": {
+                "raw_risk": 0.1996672849728211,
+                "witness_risk": 0.1615462738977945,
+                "gain_witness": 0.038121011075026606,
+                "gain_upper": 0.038121011275026664,
+                "gain_strict_support_witness": 0.03812100840691013,
+                "fw_gap": 5.551115123125783e-17,
+                "nonzero_mass_intervals": 23,
+                "conditional_mass_mean_rank": 0.6100376805911892
+              },
+              "value": {
+                "raw_risk": 0.19966728497282107,
+                "witness_risk": 0.17087389686770568,
+                "gain_witness": 0.02879338810511539,
+                "gain_upper": 0.02879338830511539,
+                "threshold_lower_risk": 0.17087389686770568,
+                "witness_error": 0.0,
+                "states": 6698,
+                "target_intervals": 8
+              }
+            },
+            "cortexlab/later24/L": {
+              "n_sign_rows": 1,
+              "rank": {
+                "raw_risk": 0.06518913744085056,
+                "witness_risk": 5.447543909081459e-05,
+                "gain_witness": 0.06513466200175974,
+                "gain_upper": 0.06513466220175974,
+                "gain_strict_support_witness": 0.06513466200169474,
+                "fw_gap": 0.0,
+                "nonzero_mass_intervals": 3,
+                "conditional_mass_mean_rank": 0.5746433579441392
+              },
+              "value": {
+                "raw_risk": 0.06518913744085057,
+                "witness_risk": 0.0,
+                "gain_witness": 0.06518913744085057,
+                "gain_upper": 0.06518913764085058,
+                "threshold_lower_risk": 0.0,
+                "witness_error": 0.0,
+                "states": 994,
+                "target_intervals": 2
+              }
+            },
+            "cortexlab/later24/R": {
+              "n_sign_rows": 1,
+              "rank": {
+                "raw_risk": 0.17808812465200513,
+                "witness_risk": 0.0002349523687470704,
+                "gain_witness": 0.17785317228325806,
+                "gain_upper": 0.17785317248325827,
+                "gain_strict_support_witness": 0.1778531722830815,
+                "fw_gap": 2.220446049250313e-16,
+                "nonzero_mass_intervals": 3,
+                "conditional_mass_mean_rank": 0.05534492442810463
+              },
+              "value": {
+                "raw_risk": 0.17808812465200513,
+                "witness_risk": 0.0,
+                "gain_witness": 0.17808812465200513,
+                "gain_upper": 0.17808812485200512,
+                "threshold_lower_risk": 0.0,
+                "witness_error": 0.0,
+                "states": 1019,
+                "target_intervals": 2
+              }
+            },
+            "cortexlab/old40/L": {
+              "n_sign_rows": 2,
+              "rank": {
+                "raw_risk": 0.0754521361373428,
+                "witness_risk": 0.014821154361691225,
+                "gain_witness": 0.060630981775651585,
+                "gain_upper": 0.06063098197565164,
+                "gain_strict_support_witness": 0.0606309816570857,
+                "fw_gap": 5.551115123125783e-17,
+                "nonzero_mass_intervals": 13,
+                "conditional_mass_mean_rank": 0.2285251735310579
+              },
+              "value": {
+                "raw_risk": 0.0754521361373428,
+                "witness_risk": 0.012055444878722545,
+                "gain_witness": 0.06339669125862027,
+                "gain_upper": 0.06339669145862024,
+                "threshold_lower_risk": 0.012055444878722569,
+                "witness_error": 2.42861286636753e-17,
+                "states": 1971,
+                "target_intervals": 3
+              }
+            },
+            "cortexlab/old40/R": {
+              "n_sign_rows": 2,
+              "rank": {
+                "raw_risk": 0.188388390665431,
+                "witness_risk": 0.08359925196233052,
+                "gain_witness": 0.10478913870310048,
+                "gain_upper": 0.10478913890310054,
+                "gain_strict_support_witness": 0.10478913285792882,
+                "fw_gap": 5.551115123125783e-17,
+                "nonzero_mass_intervals": 15,
+                "conditional_mass_mean_rank": 0.777271076356407
+              },
+              "value": {
+                "raw_risk": 0.18838839066543095,
+                "witness_risk": 0.10024938520135461,
+                "gain_witness": 0.08813900546407634,
+                "gain_upper": 0.08813900566407633,
+                "threshold_lower_risk": 0.10024938520135462,
+                "witness_error": 1.3877787807814457e-17,
+                "states": 2004,
+                "target_intervals": 3
+              }
+            },
+            "danlab/old40/L": {
+              "n_sign_rows": 1,
+              "rank": {
+                "raw_risk": 0.13222181749172945,
+                "witness_risk": 0.0005686149674888525,
+                "gain_witness": 0.1316532025242406,
+                "gain_upper": 0.13165320272424058,
+                "gain_strict_support_witness": 0.13165320252410895,
+                "fw_gap": 0.0,
+                "nonzero_mass_intervals": 5,
+                "conditional_mass_mean_rank": 0.9974292793514294
+              },
+              "value": {
+                "raw_risk": 0.13222181749172948,
+                "witness_risk": 0.0,
+                "gain_witness": 0.13222181749172948,
+                "gain_upper": 0.13222181769172947,
+                "threshold_lower_risk": 0.0,
+                "witness_error": 0.0,
+                "states": 996,
+                "target_intervals": 2
+              }
+            },
+            "danlab/old40/R": {
+              "n_sign_rows": 1,
+              "rank": {
+                "raw_risk": 0.25115096837535633,
+                "witness_risk": 5.312437744867733e-05,
+                "gain_witness": 0.25109784399790763,
+                "gain_upper": 0.251097844197909,
+                "gain_strict_support_witness": 0.25109784399765656,
+                "fw_gap": 1.3322676295501878e-15,
+                "nonzero_mass_intervals": 7,
+                "conditional_mass_mean_rank": 0.94046687845516
+              },
+              "value": {
+                "raw_risk": 0.25115096837535633,
+                "witness_risk": -5.551115123125783e-17,
+                "gain_witness": 0.2511509683753564,
+                "gain_upper": 0.25115096857535635,
+                "threshold_lower_risk": 0.0,
+                "witness_error": 5.551115123125783e-17,
+                "states": 1004,
+                "target_intervals": 2
+              }
+            },
+            "hoferlab/later24/L": {
+              "n_sign_rows": 10,
+              "rank": {
+                "raw_risk": 0.0890109833198087,
+                "witness_risk": 0.0682389477357762,
+                "gain_witness": 0.020772035584032497,
+                "gain_upper": 0.020772035784032663,
+                "gain_strict_support_witness": 0.020772035064417466,
+                "fw_gap": 1.6653345369377348e-16,
+                "nonzero_mass_intervals": 31,
+                "conditional_mass_mean_rank": 0.3206526218858708
+              },
+              "value": {
+                "raw_risk": 0.0890109833198087,
+                "witness_risk": 0.0458427467434855,
+                "gain_witness": 0.043168236576323196,
+                "gain_upper": 0.04316823677632318,
+                "threshold_lower_risk": 0.04584274674348552,
+                "witness_error": 2.0816681711721685e-17,
+                "states": 9159,
+                "target_intervals": 11
+              }
+            },
+            "hoferlab/later24/R": {
+              "n_sign_rows": 10,
+              "rank": {
+                "raw_risk": 0.10657499448770988,
+                "witness_risk": 0.08885676312448826,
+                "gain_witness": 0.01771823136322162,
+                "gain_upper": 0.017718231563221953,
+                "gain_strict_support_witness": 0.017718230288347472,
+                "fw_gap": 3.3306690738754696e-16,
+                "nonzero_mass_intervals": 36,
+                "conditional_mass_mean_rank": 0.3818748377417972
+              },
+              "value": {
+                "raw_risk": 0.10657499448770986,
+                "witness_risk": 0.07709247967810626,
+                "gain_witness": 0.029482514809603608,
+                "gain_upper": 0.029482515009603607,
+                "threshold_lower_risk": 0.07709247967810626,
+                "witness_error": 0.0,
+                "states": 9337,
+                "target_intervals": 11
+              }
+            },
+            "hoferlab/old40/L": {
+              "n_sign_rows": 9,
+              "rank": {
+                "raw_risk": 0.1101520325050934,
+                "witness_risk": 0.09972514601368347,
+                "gain_witness": 0.010426886491409923,
+                "gain_upper": 0.010426886691410033,
+                "gain_strict_support_witness": 0.010426883075662169,
+                "fw_gap": 1.1102230246251565e-16,
+                "nonzero_mass_intervals": 33,
+                "conditional_mass_mean_rank": 0.44461645815116096
+              },
+              "value": {
+                "raw_risk": 0.11015203250509337,
+                "witness_risk": 0.07627108605337057,
+                "gain_witness": 0.03388094645172279,
+                "gain_upper": 0.033880946651722796,
+                "threshold_lower_risk": 0.07627108605337057,
+                "witness_error": 0.0,
+                "states": 8182,
+                "target_intervals": 10
+              }
+            },
+            "hoferlab/old40/R": {
+              "n_sign_rows": 9,
+              "rank": {
+                "raw_risk": 0.09042458968345483,
+                "witness_risk": 0.07913921663585297,
+                "gain_witness": 0.011285373047601868,
+                "gain_upper": 0.011285373247602256,
+                "gain_strict_support_witness": 0.011285370878063097,
+                "fw_gap": 3.885780586188048e-16,
+                "nonzero_mass_intervals": 31,
+                "conditional_mass_mean_rank": 0.48688178626965906
+              },
+              "value": {
+                "raw_risk": 0.09042458968345483,
+                "witness_risk": 0.05494934702292689,
+                "gain_witness": 0.03547524266052794,
+                "gain_upper": 0.03547524286052793,
+                "threshold_lower_risk": 0.054949347022926906,
+                "witness_error": 1.3877787807814457e-17,
+                "states": 8469,
+                "target_intervals": 10
+              }
+            },
+            "mainenlab/old40/L": {
+              "n_sign_rows": 3,
+              "rank": {
+                "raw_risk": 0.0671166775301544,
+                "witness_risk": 0.05810603213741519,
+                "gain_witness": 0.009010645392739214,
+                "gain_upper": 0.009010645592739296,
+                "gain_strict_support_witness": 0.00901064436355093,
+                "fw_gap": 8.326672684688674e-17,
+                "nonzero_mass_intervals": 17,
+                "conditional_mass_mean_rank": 0.5795330358047155
+              },
+              "value": {
+                "raw_risk": 0.06711667753015442,
+                "witness_risk": 0.040906188175072515,
+                "gain_witness": 0.026210489355081905,
+                "gain_upper": 0.026210489555081897,
+                "threshold_lower_risk": 0.04090618817507252,
+                "witness_error": 6.938893903907228e-18,
+                "states": 2879,
+                "target_intervals": 4
+              }
+            },
+            "mainenlab/old40/R": {
+              "n_sign_rows": 3,
+              "rank": {
+                "raw_risk": 0.16902204615569277,
+                "witness_risk": 0.08856031722588999,
+                "gain_witness": 0.08046172892980279,
+                "gain_upper": 0.08046172912980284,
+                "gain_strict_support_witness": 0.0804617249381364,
+                "fw_gap": 5.551115123125783e-17,
+                "nonzero_mass_intervals": 22,
+                "conditional_mass_mean_rank": 0.7550929412123976
+              },
+              "value": {
+                "raw_risk": 0.16902204615569275,
+                "witness_risk": 0.07298454244770285,
+                "gain_witness": 0.0960375037079899,
+                "gain_upper": 0.0960375039079899,
+                "threshold_lower_risk": 0.07298454244770285,
+                "witness_error": 0.0,
+                "states": 2980,
+                "target_intervals": 4
+              }
+            },
+            "mrsicflogellab/later24/L": {
+              "n_sign_rows": 6,
+              "rank": {
+                "raw_risk": 0.06868386698000545,
+                "witness_risk": 0.0389473752712152,
+                "gain_witness": 0.029736491708790246,
+                "gain_upper": 0.029736491908790467,
+                "gain_strict_support_witness": 0.029736491408318695,
+                "fw_gap": 2.220446049250313e-16,
+                "nonzero_mass_intervals": 34,
+                "conditional_mass_mean_rank": 0.3000399074018284
+              },
+              "value": {
+                "raw_risk": 0.06868386698000545,
+                "witness_risk": 0.041336701486683815,
+                "gain_witness": 0.027347165493321633,
+                "gain_upper": 0.027347165693321632,
+                "threshold_lower_risk": 0.041336701486683815,
+                "witness_error": 0.0,
+                "states": 5555,
+                "target_intervals": 7
+              }
+            },
+            "mrsicflogellab/later24/R": {
+              "n_sign_rows": 6,
+              "rank": {
+                "raw_risk": 0.0826507551920127,
+                "witness_risk": 0.0525654711363291,
+                "gain_witness": 0.0300852840556836,
+                "gain_upper": 0.03008528425568371,
+                "gain_strict_support_witness": 0.030085283549182947,
+                "fw_gap": 1.1102230246251565e-16,
+                "nonzero_mass_intervals": 26,
+                "conditional_mass_mean_rank": 0.5778696976486033
+              },
+              "value": {
+                "raw_risk": 0.08265075519201272,
+                "witness_risk": 0.06028005567499902,
+                "gain_witness": 0.022370699517013697,
+                "gain_upper": 0.022370699717013717,
+                "threshold_lower_risk": 0.060280055674999,
+                "witness_error": 2.0816681711721685e-17,
+                "states": 5774,
+                "target_intervals": 7
+              }
+            },
+            "mrsicflogellab/old40/L": {
+              "n_sign_rows": 3,
+              "rank": {
+                "raw_risk": 0.19940300294983582,
+                "witness_risk": 0.06597036558186271,
+                "gain_witness": 0.13343263736797312,
+                "gain_upper": 0.13343263756797322,
+                "gain_strict_support_witness": 0.13343263569620167,
+                "fw_gap": 1.1102230246251565e-16,
+                "nonzero_mass_intervals": 12,
+                "conditional_mass_mean_rank": 0.09986394463943842
+              },
+              "value": {
+                "raw_risk": 0.19940300294983584,
+                "witness_risk": 0.05243642498377127,
+                "gain_witness": 0.14696657796606458,
+                "gain_upper": 0.14696657816606457,
+                "threshold_lower_risk": 0.05243642498377127,
+                "witness_error": 0.0,
+                "states": 2900,
+                "target_intervals": 4
+              }
+            },
+            "mrsicflogellab/old40/R": {
+              "n_sign_rows": 3,
+              "rank": {
+                "raw_risk": 0.15021308901262467,
+                "witness_risk": 0.0819197236998532,
+                "gain_witness": 0.06829336531277147,
+                "gain_upper": 0.06829336551277153,
+                "gain_strict_support_witness": 0.06829336417438492,
+                "fw_gap": 5.551115123125783e-17,
+                "nonzero_mass_intervals": 16,
+                "conditional_mass_mean_rank": 0.7394005694375184
+              },
+              "value": {
+                "raw_risk": 0.15021308901262467,
+                "witness_risk": 0.061428752889450655,
+                "gain_witness": 0.08878433612317402,
+                "gain_upper": 0.08878433632317399,
+                "threshold_lower_risk": 0.061428752889450676,
+                "witness_error": 2.0816681711721685e-17,
+                "states": 2988,
+                "target_intervals": 4
+              }
+            },
+            "wittenlab/old40/L": {
+              "n_sign_rows": 10,
+              "rank": {
+                "raw_risk": 0.10270147484180142,
+                "witness_risk": 0.09569840988542633,
+                "gain_witness": 0.0070030649563750935,
+                "gain_upper": 0.007003065156375371,
+                "gain_strict_support_witness": 0.007003063958823927,
+                "fw_gap": 2.7755575615628914e-16,
+                "nonzero_mass_intervals": 29,
+                "conditional_mass_mean_rank": 0.5025057613971832
+              },
+              "value": {
+                "raw_risk": 0.1027014748418014,
+                "witness_risk": 0.09061340323030885,
+                "gain_witness": 0.012088071611492543,
+                "gain_upper": 0.012088071811492556,
+                "threshold_lower_risk": 0.09061340323030884,
+                "witness_error": 1.3877787807814457e-17,
+                "states": 9041,
+                "target_intervals": 11
+              }
+            },
+            "wittenlab/old40/R": {
+              "n_sign_rows": 10,
+              "rank": {
+                "raw_risk": 0.13709818240964847,
+                "witness_risk": 0.13109901342719976,
+                "gain_witness": 0.005999168982448705,
+                "gain_upper": 0.005999169182448816,
+                "gain_strict_support_witness": 0.005999168002779054,
+                "fw_gap": 1.1102230246251565e-16,
+                "nonzero_mass_intervals": 38,
+                "conditional_mass_mean_rank": 0.5449708870487204
+              },
+              "value": {
+                "raw_risk": 0.13709818240964847,
+                "witness_risk": 0.12548280744659335,
+                "gain_witness": 0.01161537496305512,
+                "gain_upper": 0.011615375163055146,
+                "threshold_lower_risk": 0.12548280744659332,
+                "witness_error": 2.7755575615628914e-17,
+                "states": 9262,
+                "target_intervals": 11
+              }
+            },
+            "zadorlab/old40/L": {
+              "n_sign_rows": 5,
+              "rank": {
+                "raw_risk": 0.24543630912965303,
+                "witness_risk": 0.16064762235585273,
+                "gain_witness": 0.0847886867738003,
+                "gain_upper": 0.08478868697380033,
+                "gain_strict_support_witness": 0.08478867905544257,
+                "fw_gap": 2.7755575615628914e-17,
+                "nonzero_mass_intervals": 10,
+                "conditional_mass_mean_rank": 0.6904673951273241
+              },
+              "value": {
+                "raw_risk": 0.24543630912965303,
+                "witness_risk": 0.16731923363535325,
+                "gain_witness": 0.07811707549429978,
+                "gain_upper": 0.0781170756942998,
+                "threshold_lower_risk": 0.16731923363535323,
+                "witness_error": 2.7755575615628914e-17,
+                "states": 4766,
+                "target_intervals": 6
+              }
+            },
+            "zadorlab/old40/R": {
+              "n_sign_rows": 5,
+              "rank": {
+                "raw_risk": 0.11504222030563846,
+                "witness_risk": 0.08596313864036156,
+                "gain_witness": 0.029079081665276896,
+                "gain_upper": 0.02907908186527734,
+                "gain_strict_support_witness": 0.02907908014572423,
+                "fw_gap": 4.440892098500626e-16,
+                "nonzero_mass_intervals": 23,
+                "conditional_mass_mean_rank": 0.3477006840256361
+              },
+              "value": {
+                "raw_risk": 0.11504222030563846,
+                "witness_risk": 0.05801170369282349,
+                "gain_witness": 0.05703051661281497,
+                "gain_upper": 0.05703051681281497,
+                "threshold_lower_risk": 0.05801170369282349,
+                "witness_error": 0.0,
+                "states": 4847,
+                "target_intervals": 6
+              }
+            }
+          }
+        }
+      },
+      "pooled_stream_halves": [
+        {
+          "equal_original_row_weights": {
+            "rank": {
+              "raw_risk": 0.12795309126646143,
+              "witness_risk": 0.12598106390324326,
+              "gain_witness": 0.001972027363218165,
+              "gain_upper": 0.0019720275632183317
+            },
+            "value": {
+              "raw_risk": 0.12795309126646146,
+              "witness_risk": 0.12390396311007365,
+              "gain_witness": 0.0040491281563878045,
+              "gain_upper": 0.0040491283563878185
+            }
+          },
+          "cells": {
+            "all": {
+              "n_sign_rows": 128,
+              "rank": {
+                "raw_risk": 0.12795309126646143,
+                "witness_risk": 0.12598106390324326,
+                "gain_witness": 0.001972027363218165,
+                "gain_upper": 0.0019720275632183317,
+                "gain_strict_support_witness": 0.0019720270064014778,
+                "fw_gap": 1.6653345369377348e-16,
+                "nonzero_mass_intervals": 53,
+                "conditional_mass_mean_rank": 0.4962304762841352
+              },
+              "value": {
+                "raw_risk": 0.12795309126646146,
+                "witness_risk": 0.12390396311007365,
+                "gain_witness": 0.0040491281563878045,
+                "gain_upper": 0.0040491283563878185,
+                "threshold_lower_risk": 0.12390396311007364,
+                "witness_error": 1.3877787807814457e-17,
+                "states": 42285,
+                "target_intervals": 129
+              }
+            }
+          }
+        },
+        {
+          "equal_original_row_weights": {
+            "rank": {
+              "raw_risk": 0.12755188691195646,
+              "witness_risk": 0.12600485664453978,
+              "gain_witness": 0.001547030267416677,
+              "gain_upper": 0.001547030467416788
+            },
+            "value": {
+              "raw_risk": 0.12755188691195646,
+              "witness_risk": 0.1234874630564661,
+              "gain_witness": 0.004064423855490357,
+              "gain_upper": 0.004064424055490371
+            }
+          },
+          "cells": {
+            "all": {
+              "n_sign_rows": 128,
+              "rank": {
+                "raw_risk": 0.12755188691195646,
+                "witness_risk": 0.12600485664453978,
+                "gain_witness": 0.001547030267416677,
+                "gain_upper": 0.001547030467416788,
+                "gain_strict_support_witness": 0.0015470300356859035,
+                "fw_gap": 1.1102230246251565e-16,
+                "nonzero_mass_intervals": 70,
+                "conditional_mass_mean_rank": 0.49211285317107445
+              },
+              "value": {
+                "raw_risk": 0.12755188691195646,
+                "witness_risk": 0.1234874630564661,
+                "gain_witness": 0.004064423855490357,
+                "gain_upper": 0.004064424055490371,
+                "threshold_lower_risk": 0.12348746305646609,
+                "witness_error": 1.3877787807814457e-17,
+                "states": 42257,
+                "target_intervals": 129
+              }
+            }
+          }
+        }
+      ],
+      "held_owner_translation": {
+        "source_all_median": -0.010288065843621408,
+        "owner_folds": {
+          "angelakilab": {
+            "n_animals": 5,
+            "shift": -0.013164632769008033,
+            "gain": -0.0011253511418741382
+          },
+          "churchland_common_owner": {
+            "n_animals": 9,
+            "shift": -0.01128462744696912,
+            "gain": -9.772803470611207e-05
+          },
+          "cortexlab": {
+            "n_animals": 3,
+            "shift": -0.008874497415288618,
+            "gain": 0.0010232709355343418
+          },
+          "danlab": {
+            "n_animals": 1,
+            "shift": -0.01504841740135865,
+            "gain": -0.014207319022884371
+          },
+          "hoferlab": {
+            "n_animals": 19,
+            "shift": 0.011995902886239584,
+            "gain": -0.0025437732777812273
+          },
+          "mainenlab": {
+            "n_animals": 3,
+            "shift": -0.01763929094824425,
+            "gain": -0.007893716148601446
+          },
+          "mrsicflogellab": {
+            "n_animals": 9,
+            "shift": -0.007920473101809475,
+            "gain": 0.0005283015916084947
+          },
+          "wittenlab": {
+            "n_animals": 10,
+            "shift": -0.014648116278016654,
+            "gain": -0.0009260729532891566
+          },
+          "zadorlab": {
+            "n_animals": 5,
+            "shift": -0.010285496232753627,
+            "gain": 0.00015644047842092724
+          }
+        },
+        "gain": -0.001459069809030706,
+        "old_roster_gains": {
+          "later24": -0.001359516552082212,
+          "old40": -0.0015188017631998024
+        },
+        "common_owner_target_weighted_gain": -0.002107409340498231,
+        "later_animals_covered_by_owner_label": 174,
+        "unsupported_owner_animals": 18
+      },
+      "actual_matching": {
+        "raw": 0.1276413008801533,
+        "mean_mismatch": 0.031705649496248836,
+        "forecast_variation": 0.02012864687544292,
+        "target_variation": 0.09547114326652656,
+        "reassigned": 0.14730543963821832,
+        "matching_gain": 0.019664138758065
+      },
+      "stress": {
+        "pooled": {
+          "equal_original_row_weights": {
+            "rank": {
+              "raw_risk": 0.12893333846011928,
+              "witness_risk": 0.12435648909542533,
+              "gain_witness": 0.0045768493646939495,
+              "gain_upper": 0.004576849564694061
+            },
+            "value": {
+              "raw_risk": 0.12893333846011928,
+              "witness_risk": 0.12263394292185097,
+              "gain_witness": 0.006299395538268318,
+              "gain_upper": 0.006299395738268318
+            }
+          },
+          "cells": {
+            "all": {
+              "n_sign_rows": 128,
+              "rank": {
+                "raw_risk": 0.12893333846011928,
+                "witness_risk": 0.12435648909542533,
+                "gain_witness": 0.0045768493646939495,
+                "gain_upper": 0.004576849564694061,
+                "gain_strict_support_witness": 0.00457684911171008,
+                "fw_gap": 1.1102230246251565e-16,
+                "nonzero_mass_intervals": 95,
+                "conditional_mass_mean_rank": 0.5639376712331818
+              },
+              "value": {
+                "raw_risk": 0.12893333846011928,
+                "witness_risk": 0.12263394292185097,
+                "gain_witness": 0.006299395538268318,
+                "gain_upper": 0.006299395738268318,
+                "threshold_lower_risk": 0.12263394292185097,
+                "witness_error": 0.0,
+                "states": 63203,
+                "target_intervals": 122
+              }
+            }
+          }
+        },
+        "sign": {
+          "equal_original_row_weights": {
+            "rank": {
+              "raw_risk": 0.1289333384601193,
+              "witness_risk": 0.12254942021696669,
+              "gain_witness": 0.006383918243152625,
+              "gain_upper": 0.006383918443152819
+            },
+            "value": {
+              "raw_risk": 0.12893333846011928,
+              "witness_risk": 0.1208717051490921,
+              "gain_witness": 0.008061633311027203,
+              "gain_upper": 0.008061633511027188
+            }
+          },
+          "cells": {
+            "L": {
+              "n_sign_rows": 64,
+              "rank": {
+                "raw_risk": 0.1214061348867761,
+                "witness_risk": 0.11805111120307282,
+                "gain_witness": 0.003355023683703273,
+                "gain_upper": 0.00335502388370344,
+                "gain_strict_support_witness": 0.003355023413352448,
+                "fw_gap": 1.6653345369377348e-16,
+                "nonzero_mass_intervals": 66,
+                "conditional_mass_mean_rank": 0.5269994382015754
+              },
+              "value": {
+                "raw_risk": 0.12140613488677607,
+                "witness_risk": 0.1151133041847569,
+                "gain_witness": 0.006292830702019164,
+                "gain_upper": 0.006292830902019164,
+                "threshold_lower_risk": 0.1151133041847569,
+                "witness_error": 0.0,
+                "states": 38349,
+                "target_intervals": 60
+              }
+            },
+            "R": {
+              "n_sign_rows": 64,
+              "rank": {
+                "raw_risk": 0.13646054203346253,
+                "witness_risk": 0.12704772923086055,
+                "gain_witness": 0.009412812802601978,
+                "gain_upper": 0.009412813002602199,
+                "gain_strict_support_witness": 0.009412812335172549,
+                "fw_gap": 2.220446049250313e-16,
+                "nonzero_mass_intervals": 85,
+                "conditional_mass_mean_rank": 0.5933888400280402
+              },
+              "value": {
+                "raw_risk": 0.13646054203346253,
+                "witness_risk": 0.1266301061134273,
+                "gain_witness": 0.009830435920035241,
+                "gain_upper": 0.009830436120035212,
+                "threshold_lower_risk": 0.12663010611342732,
+                "witness_error": 2.7755575615628914e-17,
+                "states": 43815,
+                "target_intervals": 63
+              }
+            }
+          }
+        },
+        "roster_sign": {
+          "equal_original_row_weights": {
+            "rank": {
+              "raw_risk": 0.12893333846011928,
+              "witness_risk": 0.11788022063607587,
+              "gain_witness": 0.011053117824043439,
+              "gain_upper": 0.011053118024043542
+            },
+            "value": {
+              "raw_risk": 0.12893333846011928,
+              "witness_risk": 0.1173915726863741,
+              "gain_witness": 0.011541765773745206,
+              "gain_upper": 0.011541765973745205
+            }
+          },
+          "cells": {
+            "later24/L": {
+              "n_sign_rows": 24,
+              "rank": {
+                "raw_risk": 0.07401148396627848,
+                "witness_risk": 0.07151035207071049,
+                "gain_witness": 0.0025011318955679845,
+                "gain_upper": 0.002501132095568151,
+                "gain_strict_support_witness": 0.00250113157951129,
+                "fw_gap": 1.6653345369377348e-16,
+                "nonzero_mass_intervals": 62,
+                "conditional_mass_mean_rank": 0.4812267755726284
+              },
+              "value": {
+                "raw_risk": 0.07401148396627846,
+                "witness_risk": 0.06723627337709594,
+                "gain_witness": 0.006775210589182526,
+                "gain_upper": 0.006775210789182526,
+                "threshold_lower_risk": 0.06723627337709594,
+                "witness_error": 0.0,
+                "states": 18720,
+                "target_intervals": 23
+              }
+            },
+            "later24/R": {
+              "n_sign_rows": 24,
+              "rank": {
+                "raw_risk": 0.1090956631107278,
+                "witness_risk": 0.10171788061968573,
+                "gain_witness": 0.0073777824910420675,
+                "gain_upper": 0.007377782691042179,
+                "gain_strict_support_witness": 0.007377781801267219,
+                "fw_gap": 1.1102230246251565e-16,
+                "nonzero_mass_intervals": 48,
+                "conditional_mass_mean_rank": 0.5301098708818024
+              },
+              "value": {
+                "raw_risk": 0.10909566311072776,
+                "witness_risk": 0.10255244373707532,
+                "gain_witness": 0.006543219373652431,
+                "gain_upper": 0.006543219573652431,
+                "threshold_lower_risk": 0.10255244373707532,
+                "witness_error": 0.0,
+                "states": 20723,
+                "target_intervals": 25
+              }
+            },
+            "old40/L": {
+              "n_sign_rows": 40,
+              "rank": {
+                "raw_risk": 0.14984292543907465,
+                "witness_risk": 0.13853133696430922,
+                "gain_witness": 0.011311588474765433,
+                "gain_upper": 0.011311588674765543,
+                "gain_strict_support_witness": 0.011311587813692098,
+                "fw_gap": 1.1102230246251565e-16,
+                "nonzero_mass_intervals": 58,
+                "conditional_mass_mean_rank": 0.5534808915009628
+              },
+              "value": {
+                "raw_risk": 0.14984292543907465,
+                "witness_risk": 0.13834324865583641,
+                "gain_witness": 0.011499676783238238,
+                "gain_upper": 0.011499676983238238,
+                "threshold_lower_risk": 0.13834324865583641,
+                "witness_error": 0.0,
+                "states": 28101,
+                "target_intervals": 38
+              }
+            },
+            "old40/R": {
+              "n_sign_rows": 40,
+              "rank": {
+                "raw_risk": 0.15287946938710334,
+                "witness_risk": 0.1347484294568958,
+                "gain_witness": 0.018131039930207538,
+                "gain_upper": 0.018131040130207592,
+                "gain_strict_support_witness": 0.01813103926644552,
+                "fw_gap": 5.551115123125783e-17,
+                "nonzero_mass_intervals": 64,
+                "conditional_mass_mean_rank": 0.6320382045476014
+              },
+              "value": {
+                "raw_risk": 0.15287946938710337,
+                "witness_risk": 0.13543655367205792,
+                "gain_witness": 0.017442915715045443,
+                "gain_upper": 0.017442915915045442,
+                "threshold_lower_risk": 0.13543655367205792,
+                "witness_error": 0.0,
+                "states": 30677,
+                "target_intervals": 39
+              }
+            }
+          }
+        }
+      },
+      "stress_raw_risk": 0.12893333846011928,
+      "actual_fixed_plus04_gain": -0.0036642078423783754,
+      "stress_fixed_plus04_gain": 0.00255422725376692
+    },
+    "GRU975": {
+      "forecast_ratio_mean": 0.6064293556346786,
+      "actual": {
+        "pooled": {
+          "equal_original_row_weights": {
+            "rank": {
+              "raw_risk": 0.12910762759094274,
+              "witness_risk": 0.12339422096500702,
+              "gain_witness": 0.005713406625935724,
+              "gain_upper": 0.005713406825935835
+            },
+            "value": {
+              "raw_risk": 0.12910762759094274,
+              "witness_risk": 0.12145353368202638,
+              "gain_witness": 0.0076540939089163595,
+              "gain_upper": 0.007654094108916332
+            }
+          },
+          "cells": {
+            "all": {
+              "n_sign_rows": 128,
+              "rank": {
+                "raw_risk": 0.12910762759094274,
+                "witness_risk": 0.12339422096500702,
+                "gain_witness": 0.005713406625935724,
+                "gain_upper": 0.005713406825935835,
+                "gain_strict_support_witness": 0.005713406524749956,
+                "fw_gap": 1.1102230246251565e-16,
+                "nonzero_mass_intervals": 110,
+                "conditional_mass_mean_rank": 0.4243137963150806
+              },
+              "value": {
+                "raw_risk": 0.12910762759094274,
+                "witness_risk": 0.12145353368202638,
+                "gain_witness": 0.0076540939089163595,
+                "gain_upper": 0.007654094108916332,
+                "threshold_lower_risk": 0.12145353368202641,
+                "witness_error": 2.7755575615628914e-17,
+                "states": 56602,
+                "target_intervals": 129
+              }
+            }
+          }
+        },
+        "sign": {
+          "equal_original_row_weights": {
+            "rank": {
+              "raw_risk": 0.12910762759094274,
+              "witness_risk": 0.12258250383072876,
+              "gain_witness": 0.006525123760213983,
+              "gain_upper": 0.006525123960214204
+            },
+            "value": {
+              "raw_risk": 0.12910762759094271,
+              "witness_risk": 0.12105395206491516,
+              "gain_witness": 0.008053675526027551,
+              "gain_upper": 0.008053675726027536
+            }
+          },
+          "cells": {
+            "L": {
+              "n_sign_rows": 64,
+              "rank": {
+                "raw_risk": 0.12525891487813035,
+                "witness_risk": 0.11724298565907962,
+                "gain_witness": 0.008015929219050727,
+                "gain_upper": 0.008015929419050893,
+                "gain_strict_support_witness": 0.008015929045135595,
+                "fw_gap": 1.6653345369377348e-16,
+                "nonzero_mass_intervals": 83,
+                "conditional_mass_mean_rank": 0.41580364236000167
+              },
+              "value": {
+                "raw_risk": 0.1252589148781303,
+                "witness_risk": 0.11571145389066637,
+                "gain_witness": 0.009547460987463924,
+                "gain_upper": 0.009547461187463895,
+                "threshold_lower_risk": 0.1157114538906664,
+                "witness_error": 2.7755575615628914e-17,
+                "states": 36559,
+                "target_intervals": 65
+              }
+            },
+            "R": {
+              "n_sign_rows": 64,
+              "rank": {
+                "raw_risk": 0.13295634030375514,
+                "witness_risk": 0.1279220220023779,
+                "gain_witness": 0.005034318301377239,
+                "gain_upper": 0.005034318501377516,
+                "gain_strict_support_witness": 0.00503431811018587,
+                "fw_gap": 2.7755575615628914e-16,
+                "nonzero_mass_intervals": 76,
+                "conditional_mass_mean_rank": 0.4323694722601358
+              },
+              "value": {
+                "raw_risk": 0.13295634030375514,
+                "witness_risk": 0.12639645023916396,
+                "gain_witness": 0.006559890064591178,
+                "gain_upper": 0.0065598902645911785,
+                "threshold_lower_risk": 0.12639645023916396,
+                "witness_error": 0.0,
+                "states": 40188,
+                "target_intervals": 65
+              }
+            }
+          }
+        },
+        "roster_sign": {
+          "equal_original_row_weights": {
+            "rank": {
+              "raw_risk": 0.1291076275909427,
+              "witness_risk": 0.11967706454715263,
+              "gain_witness": 0.009430563043790065,
+              "gain_upper": 0.009430563243790262
+            },
+            "value": {
+              "raw_risk": 0.12910762759094274,
+              "witness_risk": 0.11799984817565158,
+              "gain_witness": 0.01110777941529115,
+              "gain_upper": 0.01110777961529115
+            }
+          },
+          "cells": {
+            "later24/L": {
+              "n_sign_rows": 24,
+              "rank": {
+                "raw_risk": 0.11181807638990701,
+                "witness_risk": 0.09689701212680743,
+                "gain_witness": 0.014921064263099582,
+                "gain_upper": 0.014921064463099747,
+                "gain_strict_support_witness": 0.014921063921769728,
+                "fw_gap": 1.6653345369377348e-16,
+                "nonzero_mass_intervals": 60,
+                "conditional_mass_mean_rank": 0.3843731529612728
+              },
+              "value": {
+                "raw_risk": 0.11181807638990704,
+                "witness_risk": 0.09585553868079416,
+                "gain_witness": 0.01596253770911288,
+                "gain_upper": 0.015962537909112864,
+                "threshold_lower_risk": 0.09585553868079418,
+                "witness_error": 1.3877787807814457e-17,
+                "states": 18380,
+                "target_intervals": 25
+              }
+            },
+            "later24/R": {
+              "n_sign_rows": 24,
+              "rank": {
+                "raw_risk": 0.13179475050953426,
+                "witness_risk": 0.10883102885420748,
+                "gain_witness": 0.022963721655326785,
+                "gain_upper": 0.022963721855327118,
+                "gain_strict_support_witness": 0.02296372133573149,
+                "fw_gap": 3.3306690738754696e-16,
+                "nonzero_mass_intervals": 47,
+                "conditional_mass_mean_rank": 0.3512534040653492
+              },
+              "value": {
+                "raw_risk": 0.1317947505095343,
+                "witness_risk": 0.10593895122928583,
+                "gain_witness": 0.025855799280248462,
+                "gain_upper": 0.025855799480248475,
+                "threshold_lower_risk": 0.10593895122928582,
+                "witness_error": 1.3877787807814457e-17,
+                "states": 19722,
+                "target_intervals": 25
+              }
+            },
+            "old40/L": {
+              "n_sign_rows": 40,
+              "rank": {
+                "raw_risk": 0.13332341797106428,
+                "witness_risk": 0.1275941783446869,
+                "gain_witness": 0.0057292396263773915,
+                "gain_upper": 0.005729239826377558,
+                "gain_strict_support_witness": 0.005729239371388667,
+                "fw_gap": 1.6653345369377348e-16,
+                "nonzero_mass_intervals": 73,
+                "conditional_mass_mean_rank": 0.4337688977467343
+              },
+              "value": {
+                "raw_risk": 0.13332341797106428,
+                "witness_risk": 0.1258251607343015,
+                "gain_witness": 0.007498257236762784,
+                "gain_upper": 0.007498257436762784,
+                "threshold_lower_risk": 0.1258251607343015,
+                "witness_error": 0.0,
+                "states": 27197,
+                "target_intervals": 41
+              }
+            },
+            "old40/R": {
+              "n_sign_rows": 40,
+              "rank": {
+                "raw_risk": 0.1336532941802876,
+                "witness_risk": 0.1319356036175926,
+                "gain_witness": 0.0017176905626949956,
+                "gain_upper": 0.0017176907626951623,
+                "gain_strict_support_witness": 0.001717690185710108,
+                "fw_gap": 1.6653345369377348e-16,
+                "nonzero_mass_intervals": 74,
+                "conditional_mass_mean_rank": 0.48072291359774094
+              },
+              "value": {
+                "raw_risk": 0.13365329418028765,
+                "witness_risk": 0.13069765948173556,
+                "gain_witness": 0.00295563469855209,
+                "gain_upper": 0.00295563489855209,
+                "threshold_lower_risk": 0.13069765948173556,
+                "witness_error": 0.0,
+                "states": 28860,
+                "target_intervals": 41
+              }
+            }
+          }
+        },
+        "owner_roster_sign": {
+          "equal_original_row_weights": {
+            "rank": {
+              "raw_risk": 0.12910762759094274,
+              "witness_risk": 0.09123567652742123,
+              "gain_witness": 0.03787195106352149,
+              "gain_upper": 0.03787195126352172
+            },
+            "value": {
+              "raw_risk": 0.12910762759094274,
+              "witness_risk": 0.08997221219160308,
+              "gain_witness": 0.03913541539933966,
+              "gain_upper": 0.039135415599339654
+            }
+          },
+          "cells": {
+            "angelakilab/later24/L": {
+              "n_sign_rows": 5,
+              "rank": {
+                "raw_risk": 0.1253526266680528,
+                "witness_risk": 0.11175242341856978,
+                "gain_witness": 0.013600203249483023,
+                "gain_upper": 0.013600203449483188,
+                "gain_strict_support_witness": 0.013600201933624642,
+                "fw_gap": 1.6653345369377348e-16,
+                "nonzero_mass_intervals": 21,
+                "conditional_mass_mean_rank": 0.4782133700433182
+              },
+              "value": {
+                "raw_risk": 0.12535262666805283,
+                "witness_risk": 0.10809034457214665,
+                "gain_witness": 0.017262282095906176,
+                "gain_upper": 0.017262282295906175,
+                "threshold_lower_risk": 0.10809034457214665,
+                "witness_error": 0.0,
+                "states": 4659,
+                "target_intervals": 6
+              }
+            },
+            "angelakilab/later24/R": {
+              "n_sign_rows": 5,
+              "rank": {
+                "raw_risk": 0.1269909453158875,
+                "witness_risk": 0.12008059779723743,
+                "gain_witness": 0.0069103475186500785,
+                "gain_upper": 0.006910347718650301,
+                "gain_strict_support_witness": 0.006910345543923682,
+                "fw_gap": 2.220446049250313e-16,
+                "nonzero_mass_intervals": 24,
+                "conditional_mass_mean_rank": 0.4857630651292765
+              },
+              "value": {
+                "raw_risk": 0.1269909453158876,
+                "witness_risk": 0.10759905586227983,
+                "gain_witness": 0.019391889453607758,
+                "gain_upper": 0.019391889653607785,
+                "threshold_lower_risk": 0.1075990558622798,
+                "witness_error": 2.7755575615628914e-17,
+                "states": 4848,
+                "target_intervals": 6
+              }
+            },
+            "churchland_common_owner/later24/L": {
+              "n_sign_rows": 2,
+              "rank": {
+                "raw_risk": 0.10000760250247423,
+                "witness_risk": 0.008132951700187954,
+                "gain_witness": 0.09187465080228628,
+                "gain_upper": 0.09187465100228631,
+                "gain_strict_support_witness": 0.09187465072715308,
+                "fw_gap": 2.7755575615628914e-17,
+                "nonzero_mass_intervals": 10,
+                "conditional_mass_mean_rank": 0.7945830936766606
+              },
+              "value": {
+                "raw_risk": 0.10000760250247422,
+                "witness_risk": 0.014571277871903902,
+                "gain_witness": 0.08543632463057031,
+                "gain_upper": 0.0854363248305703,
+                "threshold_lower_risk": 0.014571277871903912,
+                "witness_error": 1.0408340855860843e-17,
+                "states": 1960,
+                "target_intervals": 3
+              }
+            },
+            "churchland_common_owner/later24/R": {
+              "n_sign_rows": 2,
+              "rank": {
+                "raw_risk": 0.24692763317990724,
+                "witness_risk": 0.0033130308825179916,
+                "gain_witness": 0.24361460229738924,
+                "gain_upper": 0.24361460249738956,
+                "gain_strict_support_witness": 0.24361460227768617,
+                "fw_gap": 3.3306690738754696e-16,
+                "nonzero_mass_intervals": 6,
+                "conditional_mass_mean_rank": 0.08988119219173923
+              },
+              "value": {
+                "raw_risk": 0.2469276331799073,
+                "witness_risk": 0.020504361237075098,
+                "gain_witness": 0.22642327194283218,
+                "gain_upper": 0.2264232721428322,
+                "threshold_lower_risk": 0.02050436123707508,
+                "witness_error": 1.734723475976807e-17,
+                "states": 2007,
+                "target_intervals": 3
+              }
+            },
+            "churchland_common_owner/old40/L": {
+              "n_sign_rows": 7,
+              "rank": {
+                "raw_risk": 0.2158750021024787,
+                "witness_risk": 0.18410658360164422,
+                "gain_witness": 0.03176841850083448,
+                "gain_upper": 0.0317684187008347,
+                "gain_strict_support_witness": 0.031768416201592736,
+                "fw_gap": 2.220446049250313e-16,
+                "nonzero_mass_intervals": 24,
+                "conditional_mass_mean_rank": 0.4305173161479562
+              },
+              "value": {
+                "raw_risk": 0.21587500210247867,
+                "witness_risk": 0.1942555122308993,
+                "gain_witness": 0.021619489871579384,
+                "gain_upper": 0.021619490071579383,
+                "threshold_lower_risk": 0.1942555122308993,
+                "witness_error": 0.0,
+                "states": 6520,
+                "target_intervals": 8
+              }
+            },
+            "churchland_common_owner/old40/R": {
+              "n_sign_rows": 7,
+              "rank": {
+                "raw_risk": 0.17613151844448627,
+                "witness_risk": 0.16631675776282123,
+                "gain_witness": 0.009814760681665036,
+                "gain_upper": 0.009814760881665146,
+                "gain_strict_support_witness": 0.009814759253059191,
+                "fw_gap": 1.1102230246251565e-16,
+                "nonzero_mass_intervals": 28,
+                "conditional_mass_mean_rank": 0.5324196993858616
+              },
+              "value": {
+                "raw_risk": 0.1761315184444863,
+                "witness_risk": 0.16402566237473618,
+                "gain_witness": 0.01210585606975012,
+                "gain_upper": 0.012105856269750092,
+                "threshold_lower_risk": 0.1640256623747362,
+                "witness_error": 2.7755575615628914e-17,
+                "states": 6613,
+                "target_intervals": 8
+              }
+            },
+            "cortexlab/later24/L": {
+              "n_sign_rows": 1,
+              "rank": {
+                "raw_risk": 0.06448960235709364,
+                "witness_risk": 0.000179195804195777,
+                "gain_witness": 0.06431040655289787,
+                "gain_upper": 0.06431040675289787,
+                "gain_strict_support_witness": 0.06431040655283368,
+                "fw_gap": 0.0,
+                "nonzero_mass_intervals": 4,
+                "conditional_mass_mean_rank": 0.6540344238281249
+              },
+              "value": {
+                "raw_risk": 0.06448960235709365,
+                "witness_risk": 0.0,
+                "gain_witness": 0.06448960235709365,
+                "gain_upper": 0.06448960255709366,
+                "threshold_lower_risk": 0.0,
+                "witness_error": 0.0,
+                "states": 1007,
+                "target_intervals": 2
+              }
+            },
+            "cortexlab/later24/R": {
+              "n_sign_rows": 1,
+              "rank": {
+                "raw_risk": 0.2861526540493905,
+                "witness_risk": 0.0021951702478316786,
+                "gain_witness": 0.28395748380155883,
+                "gain_upper": 0.28395748400155996,
+                "gain_strict_support_witness": 0.2839574838012759,
+                "fw_gap": 1.1102230246251565e-15,
+                "nonzero_mass_intervals": 3,
+                "conditional_mass_mean_rank": 0.051770278279935356
+              },
+              "value": {
+                "raw_risk": 0.28615265404939055,
+                "witness_risk": 0.0,
+                "gain_witness": 0.28615265404939055,
+                "gain_upper": 0.28615265424939057,
+                "threshold_lower_risk": 0.0,
+                "witness_error": 0.0,
+                "states": 1011,
+                "target_intervals": 2
+              }
+            },
+            "cortexlab/old40/L": {
+              "n_sign_rows": 2,
+              "rank": {
+                "raw_risk": 0.11673793994472094,
+                "witness_risk": 0.03813438160988452,
+                "gain_witness": 0.07860355833483643,
+                "gain_upper": 0.0786035585348366,
+                "gain_strict_support_witness": 0.07860355780068501,
+                "fw_gap": 1.6653345369377348e-16,
+                "nonzero_mass_intervals": 13,
+                "conditional_mass_mean_rank": 0.24004316380962532
+              },
+              "value": {
+                "raw_risk": 0.11673793994472093,
+                "witness_risk": 0.03242766650653878,
+                "gain_witness": 0.08431027343818215,
+                "gain_upper": 0.08431027363818212,
+                "threshold_lower_risk": 0.03242766650653881,
+                "witness_error": 3.469446951953614e-17,
+                "states": 1969,
+                "target_intervals": 3
+              }
+            },
+            "cortexlab/old40/R": {
+              "n_sign_rows": 2,
+              "rank": {
+                "raw_risk": 0.10016101729974172,
+                "witness_risk": 0.04596470028524352,
+                "gain_witness": 0.0541963170144982,
+                "gain_upper": 0.054196317214498316,
+                "gain_strict_support_witness": 0.054196316401130734,
+                "fw_gap": 1.1102230246251565e-16,
+                "nonzero_mass_intervals": 13,
+                "conditional_mass_mean_rank": 0.6780864382928029
+              },
+              "value": {
+                "raw_risk": 0.10016101729974174,
+                "witness_risk": 0.04670801499173419,
+                "gain_witness": 0.05345300230800755,
+                "gain_upper": 0.053453002508007524,
+                "threshold_lower_risk": 0.046708014991734215,
+                "witness_error": 2.7755575615628914e-17,
+                "states": 1978,
+                "target_intervals": 3
+              }
+            },
+            "danlab/old40/L": {
+              "n_sign_rows": 1,
+              "rank": {
+                "raw_risk": 0.12116474470800159,
+                "witness_risk": 7.645097581171263e-05,
+                "gain_witness": 0.12108829373218988,
+                "gain_upper": 0.12108829393218988,
+                "gain_strict_support_witness": 0.1210882937320688,
+                "fw_gap": 0.0,
+                "nonzero_mass_intervals": 3,
+                "conditional_mass_mean_rank": 0.9888712377592166
+              },
+              "value": {
+                "raw_risk": 0.1211647447080016,
+                "witness_risk": 0.0,
+                "gain_witness": 0.1211647447080016,
+                "gain_upper": 0.12116474490800161,
+                "threshold_lower_risk": 0.0,
+                "witness_error": 0.0,
+                "states": 975,
+                "target_intervals": 2
+              }
+            },
+            "danlab/old40/R": {
+              "n_sign_rows": 1,
+              "rank": {
+                "raw_risk": 0.0691287018490494,
+                "witness_risk": 0.00010017739747468045,
+                "gain_witness": 0.06902852445157472,
+                "gain_upper": 0.0690285246515755,
+                "gain_strict_support_witness": 0.0690285244515057,
+                "fw_gap": 7.771561172376096e-16,
+                "nonzero_mass_intervals": 5,
+                "conditional_mass_mean_rank": 0.8297580085666025
+              },
+              "value": {
+                "raw_risk": 0.06912870184904943,
+                "witness_risk": -5.551115123125783e-17,
+                "gain_witness": 0.06912870184904948,
+                "gain_upper": 0.06912870204904943,
+                "threshold_lower_risk": 0.0,
+                "witness_error": 5.551115123125783e-17,
+                "states": 977,
+                "target_intervals": 2
+              }
+            },
+            "hoferlab/later24/L": {
+              "n_sign_rows": 10,
+              "rank": {
+                "raw_risk": 0.1139688744199264,
+                "witness_risk": 0.05489218640660477,
+                "gain_witness": 0.059076688013321624,
+                "gain_upper": 0.05907668821332196,
+                "gain_strict_support_witness": 0.05907668776519852,
+                "fw_gap": 3.3306690738754696e-16,
+                "nonzero_mass_intervals": 33,
+                "conditional_mass_mean_rank": 0.2552373283634139
+              },
+              "value": {
+                "raw_risk": 0.11396887441992638,
+                "witness_risk": 0.057230169257390974,
+                "gain_witness": 0.05673870516253541,
+                "gain_upper": 0.05673870536253538,
+                "threshold_lower_risk": 0.05723016925739101,
+                "witness_error": 3.469446951953614e-17,
+                "states": 8918,
+                "target_intervals": 11
+              }
+            },
+            "hoferlab/later24/R": {
+              "n_sign_rows": 10,
+              "rank": {
+                "raw_risk": 0.11107518253340773,
+                "witness_risk": 0.0704685826664806,
+                "gain_witness": 0.040606599866927134,
+                "gain_upper": 0.04060660006692736,
+                "gain_strict_support_witness": 0.04060659955364898,
+                "fw_gap": 2.220446049250313e-16,
+                "nonzero_mass_intervals": 34,
+                "conditional_mass_mean_rank": 0.3267210980504829
+              },
+              "value": {
+                "raw_risk": 0.11107518253340772,
+                "witness_risk": 0.07000907286189717,
+                "gain_witness": 0.041066109671510545,
+                "gain_upper": 0.04106610987151055,
+                "threshold_lower_risk": 0.07000907286189717,
+                "witness_error": 0.0,
+                "states": 9203,
+                "target_intervals": 11
+              }
+            },
+            "hoferlab/old40/L": {
+              "n_sign_rows": 9,
+              "rank": {
+                "raw_risk": 0.09344125756078148,
+                "witness_risk": 0.06889970893596481,
+                "gain_witness": 0.024541548624816667,
+                "gain_upper": 0.024541548824817055,
+                "gain_strict_support_witness": 0.024541548170296912,
+                "fw_gap": 3.885780586188048e-16,
+                "nonzero_mass_intervals": 29,
+                "conditional_mass_mean_rank": 0.3536711315946197
+              },
+              "value": {
+                "raw_risk": 0.09344125756078146,
+                "witness_risk": 0.0608846602312843,
+                "gain_witness": 0.032556597329497165,
+                "gain_upper": 0.03255659752949717,
+                "threshold_lower_risk": 0.0608846602312843,
+                "witness_error": 0.0,
+                "states": 8174,
+                "target_intervals": 10
+              }
+            },
+            "hoferlab/old40/R": {
+              "n_sign_rows": 9,
+              "rank": {
+                "raw_risk": 0.08101175117689038,
+                "witness_risk": 0.04943536145958605,
+                "gain_witness": 0.03157638971730434,
+                "gain_upper": 0.031576389917304784,
+                "gain_strict_support_witness": 0.03157638954471261,
+                "fw_gap": 4.440892098500626e-16,
+                "nonzero_mass_intervals": 39,
+                "conditional_mass_mean_rank": 0.3871195490390426
+              },
+              "value": {
+                "raw_risk": 0.08101175117689036,
+                "witness_risk": 0.05561009450068883,
+                "gain_witness": 0.025401656676201527,
+                "gain_upper": 0.025401656876201512,
+                "threshold_lower_risk": 0.05561009450068884,
+                "witness_error": 1.3877787807814457e-17,
+                "states": 8368,
+                "target_intervals": 10
+              }
+            },
+            "mainenlab/old40/L": {
+              "n_sign_rows": 3,
+              "rank": {
+                "raw_risk": 0.10876275110117763,
+                "witness_risk": 0.08503589557198271,
+                "gain_witness": 0.023726855529194915,
+                "gain_upper": 0.023726855729194998,
+                "gain_strict_support_witness": 0.02372685413531965,
+                "fw_gap": 8.326672684688674e-17,
+                "nonzero_mass_intervals": 22,
+                "conditional_mass_mean_rank": 0.6336915429662343
+              },
+              "value": {
+                "raw_risk": 0.10876275110117765,
+                "witness_risk": 0.08321060030083906,
+                "gain_witness": 0.025552150800338597,
+                "gain_upper": 0.025552151000338582,
+                "threshold_lower_risk": 0.08321060030083907,
+                "witness_error": 1.3877787807814457e-17,
+                "states": 2900,
+                "target_intervals": 4
+              }
+            },
+            "mainenlab/old40/R": {
+              "n_sign_rows": 3,
+              "rank": {
+                "raw_risk": 0.13609535511131768,
+                "witness_risk": 0.11041802790532486,
+                "gain_witness": 0.02567732720599282,
+                "gain_upper": 0.02567732740599304,
+                "gain_strict_support_witness": 0.025677325906329596,
+                "fw_gap": 2.220446049250313e-16,
+                "nonzero_mass_intervals": 14,
+                "conditional_mass_mean_rank": 0.6372802302973413
+              },
+              "value": {
+                "raw_risk": 0.13609535511131768,
+                "witness_risk": 0.10803938170087517,
+                "gain_witness": 0.02805597341044251,
+                "gain_upper": 0.028055973610442538,
+                "threshold_lower_risk": 0.10803938170087514,
+                "witness_error": 2.7755575615628914e-17,
+                "states": 2973,
+                "target_intervals": 4
+              }
+            },
+            "mrsicflogellab/later24/L": {
+              "n_sign_rows": 6,
+              "rank": {
+                "raw_risk": 0.10877952474269972,
+                "witness_risk": 0.08588704575259523,
+                "gain_witness": 0.022892478990104492,
+                "gain_upper": 0.022892479190104658,
+                "gain_strict_support_witness": 0.02289247789810192,
+                "fw_gap": 1.6653345369377348e-16,
+                "nonzero_mass_intervals": 37,
+                "conditional_mass_mean_rank": 0.3390485651858621
+              },
+              "value": {
+                "raw_risk": 0.10877952474269974,
+                "witness_risk": 0.07992991924581772,
+                "gain_witness": 0.028849605496882022,
+                "gain_upper": 0.02884960569688202,
+                "threshold_lower_risk": 0.07992991924581772,
+                "witness_error": 0.0,
+                "states": 5514,
+                "target_intervals": 7
+              }
+            },
+            "mrsicflogellab/later24/R": {
+              "n_sign_rows": 6,
+              "rank": {
+                "raw_risk": 0.10622658998435044,
+                "witness_risk": 0.09443542058851193,
+                "gain_witness": 0.011791169395838519,
+                "gain_upper": 0.011791169595838796,
+                "gain_strict_support_witness": 0.011791167830459678,
+                "fw_gap": 2.7755575615628914e-16,
+                "nonzero_mass_intervals": 23,
+                "conditional_mass_mean_rank": 0.4286887888465072
+              },
+              "value": {
+                "raw_risk": 0.10622658998435046,
+                "witness_risk": 0.0870255175514294,
+                "gain_witness": 0.01920107243292106,
+                "gain_upper": 0.019201072632921073,
+                "threshold_lower_risk": 0.08702551755142938,
+                "witness_error": 1.3877787807814457e-17,
+                "states": 5590,
+                "target_intervals": 7
+              }
+            },
+            "mrsicflogellab/old40/L": {
+              "n_sign_rows": 3,
+              "rank": {
+                "raw_risk": 0.16758139978513725,
+                "witness_risk": 0.04454369944709004,
+                "gain_witness": 0.12303770033804722,
+                "gain_upper": 0.12303770053804733,
+                "gain_strict_support_witness": 0.1230377000244641,
+                "fw_gap": 1.1102230246251565e-16,
+                "nonzero_mass_intervals": 21,
+                "conditional_mass_mean_rank": 0.16374143525771018
+              },
+              "value": {
+                "raw_risk": 0.16758139978513728,
+                "witness_risk": 0.03915316634782328,
+                "gain_witness": 0.128428233437314,
+                "gain_upper": 0.12842823363731398,
+                "threshold_lower_risk": 0.03915316634782328,
+                "witness_error": 0.0,
+                "states": 2922,
+                "target_intervals": 4
+              }
+            },
+            "mrsicflogellab/old40/R": {
+              "n_sign_rows": 3,
+              "rank": {
+                "raw_risk": 0.1052929672761696,
+                "witness_risk": 0.0766145419244791,
+                "gain_witness": 0.028678425351690504,
+                "gain_upper": 0.028678425551690614,
+                "gain_strict_support_witness": 0.028678424049794593,
+                "fw_gap": 1.1102230246251565e-16,
+                "nonzero_mass_intervals": 17,
+                "conditional_mass_mean_rank": 0.5754033663293179
+              },
+              "value": {
+                "raw_risk": 0.10529296727616959,
+                "witness_risk": 0.07999678767022618,
+                "gain_witness": 0.02529617960594341,
+                "gain_upper": 0.02529617980594342,
+                "threshold_lower_risk": 0.07999678767022617,
+                "witness_error": 1.3877787807814457e-17,
+                "states": 2948,
+                "target_intervals": 4
+              }
+            },
+            "wittenlab/old40/L": {
+              "n_sign_rows": 10,
+              "rank": {
+                "raw_risk": 0.09515446726296221,
+                "witness_risk": 0.08526518214484993,
+                "gain_witness": 0.009889285118112282,
+                "gain_upper": 0.009889285318112392,
+                "gain_strict_support_witness": 0.00988928474088345,
+                "fw_gap": 1.1102230246251565e-16,
+                "nonzero_mass_intervals": 48,
+                "conditional_mass_mean_rank": 0.4222724824755355
+              },
+              "value": {
+                "raw_risk": 0.09515446726296223,
+                "witness_risk": 0.08243984437237827,
+                "gain_witness": 0.012714622890583963,
+                "gain_upper": 0.012714623090583948,
+                "threshold_lower_risk": 0.08243984437237828,
+                "witness_error": 1.3877787807814457e-17,
+                "states": 8824,
+                "target_intervals": 11
+              }
+            },
+            "wittenlab/old40/R": {
+              "n_sign_rows": 10,
+              "rank": {
+                "raw_risk": 0.17400607089011133,
+                "witness_risk": 0.16132671507611546,
+                "gain_witness": 0.012679355813995874,
+                "gain_upper": 0.012679356013996095,
+                "gain_strict_support_witness": 0.012679353686488537,
+                "fw_gap": 2.220446049250313e-16,
+                "nonzero_mass_intervals": 33,
+                "conditional_mass_mean_rank": 0.48282361377491445
+              },
+              "value": {
+                "raw_risk": 0.17400607089011128,
+                "witness_risk": 0.1623249198317454,
+                "gain_witness": 0.011681151058365868,
+                "gain_upper": 0.011681151258365868,
+                "threshold_lower_risk": 0.1623249198317454,
+                "witness_error": 0.0,
+                "states": 9048,
+                "target_intervals": 11
+              }
+            },
+            "zadorlab/old40/L": {
+              "n_sign_rows": 5,
+              "rank": {
+                "raw_risk": 0.16912452723843538,
+                "witness_risk": 0.13806133557097927,
+                "gain_witness": 0.031063191667456108,
+                "gain_upper": 0.03106319186745622,
+                "gain_strict_support_witness": 0.031063187673839615,
+                "fw_gap": 1.1102230246251565e-16,
+                "nonzero_mass_intervals": 20,
+                "conditional_mass_mean_rank": 0.6376898421853763
+              },
+              "value": {
+                "raw_risk": 0.16912452723843543,
+                "witness_risk": 0.1473172801142834,
+                "gain_witness": 0.021807247124152024,
+                "gain_upper": 0.021807247324152023,
+                "threshold_lower_risk": 0.1473172801142834,
+                "witness_error": 0.0,
+                "states": 4723,
+                "target_intervals": 6
+              }
+            },
+            "zadorlab/old40/R": {
+              "n_sign_rows": 5,
+              "rank": {
+                "raw_risk": 0.13008579299919634,
+                "witness_risk": 0.07315534191000157,
+                "gain_witness": 0.05693045108919477,
+                "gain_upper": 0.056930451289194994,
+                "gain_strict_support_witness": 0.05693045067356957,
+                "fw_gap": 2.220446049250313e-16,
+                "nonzero_mass_intervals": 23,
+                "conditional_mass_mean_rank": 0.28341720049804486
+              },
+              "value": {
+                "raw_risk": 0.13008579299919631,
+                "witness_risk": 0.05271872193260831,
+                "gain_witness": 0.077367071066588,
+                "gain_upper": 0.077367071266588,
+                "threshold_lower_risk": 0.05271872193260831,
+                "witness_error": 0.0,
+                "states": 4823,
+                "target_intervals": 6
+              }
+            }
+          }
+        }
+      },
+      "pooled_stream_halves": [
+        {
+          "equal_original_row_weights": {
+            "rank": {
+              "raw_risk": 0.1293521494232436,
+              "witness_risk": 0.12338570983663201,
+              "gain_witness": 0.005966439586611597,
+              "gain_upper": 0.005966439786611763
+            },
+            "value": {
+              "raw_risk": 0.12935214942324352,
+              "witness_risk": 0.12133176070123897,
+              "gain_witness": 0.008020388722004557,
+              "gain_upper": 0.008020388922004556
+            }
+          },
+          "cells": {
+            "all": {
+              "n_sign_rows": 128,
+              "rank": {
+                "raw_risk": 0.1293521494232436,
+                "witness_risk": 0.12338570983663201,
+                "gain_witness": 0.005966439586611597,
+                "gain_upper": 0.005966439786611763,
+                "gain_strict_support_witness": 0.005966439446547511,
+                "fw_gap": 1.6653345369377348e-16,
+                "nonzero_mass_intervals": 81,
+                "conditional_mass_mean_rank": 0.42312993261528364
+              },
+              "value": {
+                "raw_risk": 0.12935214942324352,
+                "witness_risk": 0.12133176070123897,
+                "gain_witness": 0.008020388722004557,
+                "gain_upper": 0.008020388922004556,
+                "threshold_lower_risk": 0.12133176070123897,
+                "witness_error": 0.0,
+                "states": 38816,
+                "target_intervals": 129
+              }
+            }
+          }
+        },
+        {
+          "equal_original_row_weights": {
+            "rank": {
+              "raw_risk": 0.12910356512328047,
+              "witness_risk": 0.12353311773364868,
+              "gain_witness": 0.005570447389631791,
+              "gain_upper": 0.005570447589631958
+            },
+            "value": {
+              "raw_risk": 0.12910356512328047,
+              "witness_risk": 0.12162411749579442,
+              "gain_witness": 0.007479447627486049,
+              "gain_upper": 0.007479447827486063
+            }
+          },
+          "cells": {
+            "all": {
+              "n_sign_rows": 128,
+              "rank": {
+                "raw_risk": 0.12910356512328047,
+                "witness_risk": 0.12353311773364868,
+                "gain_witness": 0.005570447389631791,
+                "gain_upper": 0.005570447589631958,
+                "gain_strict_support_witness": 0.0055704472618736955,
+                "fw_gap": 1.6653345369377348e-16,
+                "nonzero_mass_intervals": 84,
+                "conditional_mass_mean_rank": 0.4257236296665562
+              },
+              "value": {
+                "raw_risk": 0.12910356512328047,
+                "witness_risk": 0.12162411749579442,
+                "gain_witness": 0.007479447627486049,
+                "gain_upper": 0.007479447827486063,
+                "threshold_lower_risk": 0.12162411749579441,
+                "witness_error": 1.3877787807814457e-17,
+                "states": 38768,
+                "target_intervals": 129
+              }
+            }
+          }
+        }
+      ],
+      "held_owner_translation": {
+        "source_all_median": -0.059084840066278455,
+        "owner_folds": {
+          "angelakilab": {
+            "n_animals": 5,
+            "shift": -0.0615311291959903,
+            "gain": -0.00040754351401735696
+          },
+          "churchland_common_owner": {
+            "n_animals": 9,
+            "shift": -0.06394874260359257,
+            "gain": -0.0010647148125685114
+          },
+          "cortexlab": {
+            "n_animals": 3,
+            "shift": -0.05954808874956949,
+            "gain": 0.002262776148528286
+          },
+          "danlab": {
+            "n_animals": 1,
+            "shift": -0.06546637997836413,
+            "gain": -0.061793895627433044
+          },
+          "hoferlab": {
+            "n_animals": 19,
+            "shift": -0.02349625325388388,
+            "gain": 0.007512391063402543
+          },
+          "mainenlab": {
+            "n_animals": 3,
+            "shift": -0.06786896895188477,
+            "gain": -0.025891566516952135
+          },
+          "mrsicflogellab": {
+            "n_animals": 9,
+            "shift": -0.05381608846196273,
+            "gain": 0.008290418502449553
+          },
+          "wittenlab": {
+            "n_animals": 10,
+            "shift": -0.06490565877988536,
+            "gain": -0.0007859924648720241
+          },
+          "zadorlab": {
+            "n_animals": 5,
+            "shift": -0.059540411693789846,
+            "gain": 0.002723491802997019
+          }
+        },
+        "gain": 0.0012313486480789236,
+        "old_roster_gains": {
+          "later24": 0.006246944646717826,
+          "old40": -0.0017780089511044179
+        },
+        "common_owner_target_weighted_gain": -0.00546381223635222,
+        "later_animals_covered_by_owner_label": 174,
+        "unsupported_owner_animals": 18
+      },
+      "actual_matching": {
+        "raw": 0.12910762759094274,
+        "mean_mismatch": 0.03555914464527628,
+        "forecast_variation": 0.005782112182309936,
+        "target_variation": 0.09547114326652656,
+        "reassigned": 0.13681240009411277,
+        "matching_gain": 0.0077047725031700485
+      },
+      "stress": {
+        "pooled": {
+          "equal_original_row_weights": {
+            "rank": {
+              "raw_risk": 0.12376762169114441,
+              "witness_risk": 0.12240838385433035,
+              "gain_witness": 0.0013592378368140617,
+              "gain_upper": 0.0013592380368141728
+            },
+            "value": {
+              "raw_risk": 0.12376762169114441,
+              "witness_risk": 0.12049449192708556,
+              "gain_witness": 0.0032731297640588575,
+              "gain_upper": 0.0032731299640588437
+            }
+          },
+          "cells": {
+            "all": {
+              "n_sign_rows": 128,
+              "rank": {
+                "raw_risk": 0.12376762169114441,
+                "witness_risk": 0.12240838385433035,
+                "gain_witness": 0.0013592378368140617,
+                "gain_upper": 0.0013592380368141728,
+                "gain_strict_support_witness": 0.0013592377400973576,
+                "fw_gap": 1.1102230246251565e-16,
+                "nonzero_mass_intervals": 115,
+                "conditional_mass_mean_rank": 0.4861397196348005
+              },
+              "value": {
+                "raw_risk": 0.12376762169114441,
+                "witness_risk": 0.12049449192708556,
+                "gain_witness": 0.0032731297640588575,
+                "gain_upper": 0.0032731299640588437,
+                "threshold_lower_risk": 0.12049449192708557,
+                "witness_error": 1.3877787807814457e-17,
+                "states": 56602,
+                "target_intervals": 122
+              }
+            }
+          }
+        },
+        "sign": {
+          "equal_original_row_weights": {
+            "rank": {
+              "raw_risk": 0.12376762169114439,
+              "witness_risk": 0.12174026400228286,
+              "gain_witness": 0.0020273576888615308,
+              "gain_upper": 0.002027357888861725
+            },
+            "value": {
+              "raw_risk": 0.12376762169114439,
+              "witness_risk": 0.12015412837949564,
+              "gain_witness": 0.003613493311648744,
+              "gain_upper": 0.003613493511648744
+            }
+          },
+          "cells": {
+            "L": {
+              "n_sign_rows": 64,
+              "rank": {
+                "raw_risk": 0.11888427800475954,
+                "witness_risk": 0.11612242148862811,
+                "gain_witness": 0.0027618565161314224,
+                "gain_upper": 0.002761856716131589,
+                "gain_strict_support_witness": 0.00276185635782078,
+                "fw_gap": 1.6653345369377348e-16,
+                "nonzero_mass_intervals": 85,
+                "conditional_mass_mean_rank": 0.4798767889866279
+              },
+              "value": {
+                "raw_risk": 0.11888427800475951,
+                "witness_risk": 0.11450731233726671,
+                "gain_witness": 0.004376965667492794,
+                "gain_upper": 0.004376965867492794,
+                "threshold_lower_risk": 0.11450731233726671,
+                "witness_error": 0.0,
+                "states": 36559,
+                "target_intervals": 60
+              }
+            },
+            "R": {
+              "n_sign_rows": 64,
+              "rank": {
+                "raw_risk": 0.12865096537752924,
+                "witness_risk": 0.1273581065159376,
+                "gain_witness": 0.0012928588615916392,
+                "gain_upper": 0.0012928590615918613,
+                "gain_strict_support_witness": 0.0012928586777758988,
+                "fw_gap": 2.220446049250313e-16,
+                "nonzero_mass_intervals": 82,
+                "conditional_mass_mean_rank": 0.49150365730165807
+              },
+              "value": {
+                "raw_risk": 0.12865096537752926,
+                "witness_risk": 0.12580094442172457,
+                "gain_witness": 0.002850020955804694,
+                "gain_upper": 0.002850021155804694,
+                "threshold_lower_risk": 0.12580094442172457,
+                "witness_error": 0.0,
+                "states": 40188,
+                "target_intervals": 63
+              }
+            }
+          }
+        },
+        "roster_sign": {
+          "equal_original_row_weights": {
+            "rank": {
+              "raw_risk": 0.1237676216911444,
+              "witness_risk": 0.11882510955363754,
+              "gain_witness": 0.004942512137506876,
+              "gain_upper": 0.004942512337507025
+            },
+            "value": {
+              "raw_risk": 0.1237676216911444,
+              "witness_risk": 0.11716766924709773,
+              "gain_witness": 0.006599952444046683,
+              "gain_upper": 0.006599952644046685
+            }
+          },
+          "cells": {
+            "later24/L": {
+              "n_sign_rows": 24,
+              "rank": {
+                "raw_risk": 0.10324117304285824,
+                "witness_risk": 0.09647987679089624,
+                "gain_witness": 0.006761296251961993,
+                "gain_upper": 0.006761296451962104,
+                "gain_strict_support_witness": 0.006761295982186083,
+                "fw_gap": 1.1102230246251565e-16,
+                "nonzero_mass_intervals": 55,
+                "conditional_mass_mean_rank": 0.4523329118757726
+              },
+              "value": {
+                "raw_risk": 0.10324117304285824,
+                "witness_risk": 0.09493998985443038,
+                "gain_witness": 0.00830118318842786,
+                "gain_upper": 0.00830118338842786,
+                "threshold_lower_risk": 0.09493998985443038,
+                "witness_error": 0.0,
+                "states": 18380,
+                "target_intervals": 23
+              }
+            },
+            "later24/R": {
+              "n_sign_rows": 24,
+              "rank": {
+                "raw_risk": 0.11843766861173155,
+                "witness_risk": 0.10761266584605253,
+                "gain_witness": 0.01082500276567902,
+                "gain_upper": 0.010825002965679242,
+                "gain_strict_support_witness": 0.010825002471372552,
+                "fw_gap": 2.220446049250313e-16,
+                "nonzero_mass_intervals": 65,
+                "conditional_mass_mean_rank": 0.4111704526620696
+              },
+              "value": {
+                "raw_risk": 0.11843766861173154,
+                "witness_risk": 0.10593895122928583,
+                "gain_witness": 0.012498717382445707,
+                "gain_upper": 0.01249871758244572,
+                "threshold_lower_risk": 0.10593895122928582,
+                "witness_error": 1.3877787807814457e-17,
+                "states": 19722,
+                "target_intervals": 25
+              }
+            },
+            "old40/L": {
+              "n_sign_rows": 40,
+              "rank": {
+                "raw_risk": 0.12827014098190032,
+                "witness_risk": 0.12613847347500937,
+                "gain_witness": 0.0021316675068909496,
+                "gain_upper": 0.0021316677068911717,
+                "gain_strict_support_witness": 0.002131667252157604,
+                "fw_gap": 2.220446049250313e-16,
+                "nonzero_mass_intervals": 64,
+                "conditional_mass_mean_rank": 0.49557425035406355
+              },
+              "value": {
+                "raw_risk": 0.12827014098190032,
+                "witness_risk": 0.12465288401121141,
+                "gain_witness": 0.0036172569706889035,
+                "gain_upper": 0.0036172571706889036,
+                "threshold_lower_risk": 0.12465288401121141,
+                "witness_error": 0.0,
+                "states": 27197,
+                "target_intervals": 38
+              }
+            },
+            "old40/R": {
+              "n_sign_rows": 40,
+              "rank": {
+                "raw_risk": 0.13477894343700791,
+                "witness_risk": 0.13164635151446147,
+                "gain_witness": 0.003132591922546446,
+                "gain_upper": 0.0031325921225465016,
+                "gain_strict_support_witness": 0.0031325916304129064,
+                "fw_gap": 5.551115123125783e-17,
+                "nonzero_mass_intervals": 72,
+                "conditional_mass_mean_rank": 0.5407529835060176
+              },
+              "value": {
+                "raw_risk": 0.13477894343700791,
+                "witness_risk": 0.12975629292927157,
+                "gain_witness": 0.005022650507736343,
+                "gain_upper": 0.005022650707736343,
+                "threshold_lower_risk": 0.12975629292927157,
+                "witness_error": 0.0,
+                "states": 28860,
+                "target_intervals": 39
+              }
+            }
+          }
+        }
+      },
+      "stress_raw_risk": 0.12376762169114441,
+      "actual_fixed_plus04_gain": -0.007973636370287036,
+      "stress_fixed_plus04_gain": -0.0027064138403718498
+    }
+  }
+}

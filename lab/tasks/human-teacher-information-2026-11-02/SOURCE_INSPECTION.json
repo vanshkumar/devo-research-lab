@@ -1,0 +1,153 @@
+{
+  "utc": "2026-11-02T21:16:51.130022+00:00",
+  "pins": [
+    {
+      "path": "campaigns/human_learning_routes_2026-10-28/experiments/source_audit/sources/WIN_cursor_ibl_lastrun.py",
+      "bytes": 329800,
+      "sha256": "d1a65a366e62dcc349e4164c3ca258c71f159d5d0b774a1e46c5c353dbf59e35"
+    },
+    {
+      "path": "sources/human_learning_feasibility_2026-10-28/WIN_cursor_ibl.psyexp",
+      "bytes": 1045711,
+      "sha256": "0fd15069a4b9c94d09fe9ed806afad3767207f2503feb2a4e61e208b01a729ef"
+    },
+    {
+      "path": "campaigns/human_learning_routes_2026-10-28/experiments/source_audit/sources/pregen_sequence_0.xlsx",
+      "bytes": 141593,
+      "sha256": "5c7c31702350dbcf6df29674a6e2bc07e533892ef2cdcd55d8d4cb5745e71340",
+      "zip_uncompressed_directory_sum": 837401
+    }
+  ],
+  "snippets": {
+    "campaigns/human_learning_routes_2026-10-28/experiments/source_audit/sources/WIN_cursor_ibl_lastrun.py": [
+      {
+        "line": 341,
+        "text": "    'participant': '',"
+      },
+      {
+        "line": 373,
+        "text": "    Show participant info dialog."
+      },
+      {
+        "line": 384,
+        "text": "    # show participant info dialog"
+      },
+      {
+        "line": 418,
+        "text": "    filename = u'data/%s_%s_%s' % (expInfo['participant'], expName, data.getDateStr(format=\"%Y_%b_%d_%H.%M.%S\"))"
+      },
+      {
+        "line": 912,
+        "text": "    #if int(expInfo['participant']) % 4 in [1, 2]:"
+      },
+      {
+        "line": 1832,
+        "text": "    # so that you can set up the eye tracker and calibrate/validate the participant"
+      },
+      {
+        "line": 1834,
+        "text": "    # so that you can set up the eye tracker and calibrate/validate the participant"
+      },
+      {
+        "line": 1865,
+        "text": "    # Go into Camera Setup mode so that participant setup/EyeLink calibration/validation can be performed"
+      },
+      {
+        "line": 3696,
+        "text": "    practice = data.TrialHandler(nReps=instructions, method='random', "
+      },
+      {
+        "line": 3698,
+        "text": "        trialList=data.importConditions('pregen_sequence_' + str(int(expInfo['participant'][-1])) + '.xlsx', selection='36:41'),"
+      },
+      {
+        "line": 4556,
+        "text": "    trials = data.TrialHandler(nReps=1.0, method='sequential', "
+      },
+      {
+        "line": 4558,
+        "text": "        trialList=data.importConditions('pregen_sequence_' + str(int(expInfo['participant'][-1])) + '.xlsx', selection='0:600'),"
+      }
+    ],
+    "sources/human_learning_feasibility_2026-10-28/WIN_cursor_ibl.psyexp": [
+      {
+        "line": 8,
+        "text": "    <Param val=\"u'data/%s_%s_%s' % (expInfo['participant'], expName, data.getDateStr(format=&quot;%Y_%b_%d_%H.%M.%S&quot;))\" valType=\"code\" updates=\"None\" name=\"Data filename\"/>"
+      },
+      {
+        "line": 11,
+        "text": "    <Param val=\"{'participant': ''}\" valType=\"code\" updates=\"None\" name=\"Experiment info\"/>"
+      },
+      {
+        "line": 332,
+        "text": "        <Param val=\"if (((Number.parseInt(expInfo[&quot;participant&quot;]) % 2) === 0)) {&amp;#10;    bias_file = &quot;nobias_block.xlsx&quot;;&amp;#10;    bias_yn = 0;&amp;#10;} else {&amp;#10;    bias_file = &quot;bias_block.xlsx&quot;;&amp;#10;    bias_yn = 1;&amp;#10;}&amp;#10;psychoJS.experiment.addData(&quot;bias_file&quot;, bias_file);&amp;#10;psychoJS.experiment.addData(&quot;bias_yn&quot;, bias_yn);&amp;#10;\" valType=\"extendedCode\" updates=\"constant\" name=\"Begin JS Routine\"/>"
+      },
+      {
+        "line": 333,
+        "text": "        <Param val=\"if int(expInfo['participant'])%2 == 0:&amp;#10;    bias_file = &quot;nobias_block.xlsx&quot;&amp;#10;    bias_yn = 0&amp;#10;    &amp;#10;else:&amp;#10;    bias_file = &quot;bias_block.xlsx&quot;&amp;#10;    bias_yn = 1&amp;#10;&amp;#10;thisExp.addData(&quot;bias_file&quot;, bias_file)&amp;#10;thisExp.addData(&quot;bias_yn&quot;, bias_yn)\" valType=\"extendedCode\" updates=\"constant\" name=\"Begin Routine\"/>"
+      },
+      {
+        "line": 646,
+        "text": "        <Param val=\"if int(expInfo['participant'])%2 == 0:&amp;#10;    block_breaks = 0&amp;#10;&amp;#10;else:&amp;#10;    block_breaks = 1&amp;#10;&amp;#10;thisExp.addData(&quot;block_breaks&quot;, block_breaks)\" valType=\"extendedCode\" updates=\"constant\" name=\"Begin Experiment\"/>"
+      },
+      {
+        "line": 3928,
+        "text": "        <Param val=\"Please, do not reveal the details of this study while we are still collecting the data.&amp;#10;&amp;#10;This might affect the behaviour of prospective participants.&amp;#10;&amp;#10;It is really important that people who will participate in this study do not yet know about its actual aim and design.&amp;#10;&amp;#10;&amp;#10;You can decide to withdraw your data from the study at any time.&amp;#10;&amp;#10;Note that the coded data may be shared in a public repository, after which it cannot be removed.\" valType=\"str\" updates=\"constant\" name=\"text\"/>"
+      },
+      {
+        "line": 3999,
+        "text": "        <Param val=\"if int(expInfo['participant']) % 4 in [1, 2]:&amp;#10;    instructions = 1&amp;#10;else:&amp;#10;    instructions = 0&amp;#10;&amp;#10;#instructions = 0&amp;#10;thisExp.addData(&quot;instructions&quot;, instructions)\" valType=\"extendedCode\" updates=\"constant\" name=\"Begin Experiment\"/>"
+      },
+      {
+        "line": 5302,
+        "text": "      <Param name=\"conditionsFile\" updates=\"None\" val=\"$'pregen_sequence_' + str(int(expInfo['participant'][-1])) + '.xlsx'\" valType=\"file\"/>"
+      },
+      {
+        "line": 5318,
+        "text": "      <Param name=\"conditionsFile\" updates=\"None\" val=\"$'pregen_sequence_' + str(int(expInfo['participant'][-1])) + '.xlsx'\" valType=\"file\"/>"
+      }
+    ]
+  },
+  "workbook_header_and_first_two_rows": [
+    {
+      "A1": "og_eccentricity",
+      "B1": "og_contrast",
+      "C1": "og_quiescence",
+      "D1": "og_stim_phase1",
+      "E1": "og_stim_phase2",
+      "F1": "eccentricity",
+      "G1": "baseContrast",
+      "H1": "contrastDelta",
+      "I1": "q",
+      "J1": "bias"
+    },
+    {
+      "A2": "-35",
+      "B2": "1",
+      "C2": "0.6101039606035616",
+      "D2": "1.36934611078072",
+      "E2": "2.353304971691044",
+      "F2": "-15",
+      "G2": "0.5",
+      "H2": "0.2",
+      "I2": "0.6101039606035616",
+      "J2": "0.5"
+    },
+    {
+      "A3": "-35",
+      "B3": "0.125",
+      "C3": "0.603376323613809",
+      "D3": "1.445655573953271",
+      "E3": "5.973514161360217",
+      "F3": "-15",
+      "G3": "0.5",
+      "H3": "0.05",
+      "I3": "0.603376323613809",
+      "J3": "0.5"
+    }
+  ],
+  "workbook_rows": 2041,
+  "rss_bytes_darwin": 35831808,
+  "python": "3.9.6 (default, Oct 19 2026, 19:18:13) \n[Clang 21.0.0 (clang-2100.4.1.1)]",
+  "scope": "Inspection preceding the source-grounded calculation; not itself the numeric milestone."
+}

@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-28",
+  "scope": "One consumed synthetic plant and its already-trained pinned circuit; development only",
+  "auditory_drive_gains": [0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 2],
+  "motor_offset_scales": [0, 0.25, 1, 2],
+  "operation": "Multiply the signed centered auditory drive AFTER original feature normalization; do not renormalize. Keep HVC, weights, initial state and scoring windows fixed.",
+  "target": "Original unperturbed target at gain1",
+  "cost": "Mean E rate over six equal120ms context windows; lower is better",
+  "true_loss": "Mean squared error of gain-scaled100-channel feature patterns relative to original target",
+  "checks": ["Repeat all32 probes exactly", "Independently reconstruct feature map and quadratic loss", "Reconstruct frozen network dynamics separately for gain0.5 and1 exact-target probes", "Verify source/generated-state hashes unchanged"],
+  "interpretation_boundary": "Gain is a dimensionless model-input control, not calibrated sound-pressure or raw sensory-neuron firing. A lower gain can honestly reduce squared error for an incorrect shape; compare with true-loss-optimal gain before calling it exploitation.",
+  "stop": "Complete this finite32-cell grid and verification; no fitting, refinement sweep, new plants or actor training"
+}

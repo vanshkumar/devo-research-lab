@@ -1,0 +1,190 @@
+{
+  "review": "human-association-investment-2026-11-05",
+  "owner_native_thread": "01a1ade9-c58b-7dd0-b295-4264ea5250d8",
+  "source_author_native_thread": "01a1ad99-fa72-7801-8deb-32fdece0b50d",
+  "deadline_utc": "2026-11-05 23:37:21 UTC",
+  "resource_caps": {
+    "wall_minutes": 45,
+    "scientific_CPU_seconds": 120,
+    "nominal_read_decode_bytes": 100000000,
+    "HTTP_body_ingress_bytes": 0,
+    "peak_RSS_bytes": 500000000,
+    "storage_bytes": 100000000,
+    "scientific_processes_at_a_time": 1
+  },
+  "allowance": {
+    "release_remaining_percent": 39,
+    "start_receipt": "START_RECEIPT.json",
+    "review_checkpoint_percent": 37,
+    "human_reserve_percent": 25,
+    "before_first_batch": {
+      "utc": "2026-11-05 22:59:05 UTC",
+      "ordinary": true,
+      "weekly": {
+        "usedPercent": 62,
+        "windowDurationMins": 10080,
+        "resetsAt": 1794445923
+      },
+      "secondary": null,
+      "individual": null,
+      "remaining": 38
+    },
+    "after_reconstruction": {
+      "utc": "2026-11-05 23:00:16 UTC",
+      "ordinary": true,
+      "weekly": {
+        "usedPercent": 62,
+        "windowDurationMins": 10080,
+        "resetsAt": 1794445923
+      },
+      "secondary": null,
+      "individual": null,
+      "remaining": 38
+    },
+    "before_stable_type_refinement": {
+      "utc": "2026-11-05 23:01:08 UTC",
+      "ordinary": true,
+      "weekly": {
+        "usedPercent": 62,
+        "windowDurationMins": 10080,
+        "resetsAt": 1794445923
+      },
+      "secondary": null,
+      "individual": null,
+      "remaining": 38
+    },
+    "before_prevalence_refinement": {
+      "utc": "2026-11-05 23:02:09 UTC",
+      "ordinary": true,
+      "weekly": {
+        "usedPercent": 62,
+        "windowDurationMins": 10080,
+        "resetsAt": 1794445923
+      },
+      "secondary": null,
+      "individual": null,
+      "remaining": 38
+    },
+    "last_science_check": {
+      "utc": "2026-11-05 23:03:30 UTC",
+      "ordinary": true,
+      "weekly": {
+        "usedPercent": 62,
+        "windowDurationMins": 10080,
+        "resetsAt": 1794445923
+      },
+      "secondary": null,
+      "individual": null,
+      "remaining": 38
+    },
+    "before_native_close": {
+      "utc": "2026-11-05 23:07:01 UTC",
+      "ordinary": true,
+      "weekly": {
+        "usedPercent": 62,
+        "windowDurationMins": 10080,
+        "resetsAt": 1794445923
+      },
+      "secondary": null,
+      "individual": null,
+      "remaining": 38
+    },
+    "purchase_or_reset_used": false
+  },
+  "invocations": [
+    {
+      "detail": "Stopped after the fit JSON wrapper was misread. NPZ decode completed.",
+      "stderr": "EXECUTION.txt",
+      "exec_result": {
+        "chunk_id": "d6ce96",
+        "wall_time_seconds": 0.303266458,
+        "exit_code": 1,
+        "original_token_count": 0,
+        "output": ""
+      },
+      "cpu_user_seconds": 0.23253,
+      "cpu_system_seconds": 0.069155,
+      "peak_rss_bytes": 89243648,
+      "input_file_bytes": 706520,
+      "nominal_member_decode_bytes": 5183040
+    },
+    {
+      "detail": "Corrected wrapper, full lattice, clock matrix, calibrated trajectories and component reweighting",
+      "stderr": "EXECUTION_FINAL.txt",
+      "exec_result": {
+        "chunk_id": "f2452b",
+        "wall_time_seconds": 0.331016875,
+        "exit_code": 0,
+        "original_token_count": 0,
+        "output": ""
+      },
+      "cpu_user_seconds": 0.394119,
+      "cpu_system_seconds": 0.056275,
+      "peak_rss_bytes": 220397568,
+      "input_file_bytes": 718623,
+      "nominal_member_decode_bytes": 5183040
+    },
+    {
+      "detail": "Same-person type stability refinement",
+      "stderr": "EXECUTION_REFINEMENT.txt",
+      "exec_result": {
+        "chunk_id": "125d2d",
+        "wall_time_seconds": 0.329454083,
+        "exit_code": 0,
+        "original_token_count": 0,
+        "output": ""
+      },
+      "cpu_user_seconds": 0.396957,
+      "cpu_system_seconds": 0.057637,
+      "peak_rss_bytes": 220528640,
+      "input_file_bytes": 718623,
+      "nominal_member_decode_bytes": 5183040
+    },
+    {
+      "detail": "Type-prevalence refinement, final output",
+      "stderr": "EXECUTION_ORACLE.txt",
+      "exec_result": {
+        "chunk_id": "6d3b85",
+        "wall_time_seconds": 0.317194542,
+        "exit_code": 0,
+        "original_token_count": 0,
+        "output": ""
+      },
+      "cpu_user_seconds": 0.392163,
+      "cpu_system_seconds": 0.052879,
+      "peak_rss_bytes": 220626944,
+      "input_file_bytes": 718623,
+      "nominal_member_decode_bytes": 5183040
+    }
+  ],
+  "all_execution_jobs_terminal": true,
+  "totals": {
+    "measured_CPU_seconds": 1.651715,
+    "input_file_bytes": 2862389,
+    "decoded_npz_member_bytes": 20732160,
+    "direct_plus_nominal_decode_bytes": 23594549,
+    "booked_read_decode_bytes_including_context": 30000000,
+    "peak_RSS_bytes": 220626944,
+    "owned_artifact_storage_ceiling_bytes": 1000000,
+    "HTTP_body_ingress_bytes": 0,
+    "new_paths": 0,
+    "new_fits": 0
+  },
+  "execution": "Sequential local Python, BLAS/OpenMP thread limits 1, no scientific subprocess or persistent session. Some independent read-only context calls were batched. Per-process CPU includes library imports, while runtime module reads, physical I/O, provider model costs and supporting host overhead are not independently measured. Nominal read booking and peak observed RSS are distinct from those unknowns.",
+  "exposure": "Existing consumed endpoint archive only, including all 280 saved Brown target pairs and nine actor-clock samples for each block, fitted parameters/role metadata, and prior summaries/code/metadata. No Brown raw matrix or opaque cell, no Berkeley CSV or MAT, no other outcome body read or acquired. Brown author raw and auxiliary exposure remains fully charged.",
+  "prior_source": {
+    "measured_CPU_seconds": 21.688724,
+    "booked_read_decode_bytes": 42000000,
+    "HTTP_body_ingress_bytes": 352400,
+    "peak_RSS_bytes": 168673280,
+    "receipt": "../../tasks/human-association-source-development-2026-11-05/RESUMED_ACCOUNTING.json"
+  },
+  "source_plus_review": {
+    "measured_CPU_seconds": 23.340439,
+    "booked_read_decode_bytes": 72000000,
+    "HTTP_body_ingress_bytes": 352400,
+    "scope": "Brown source development plus this review, apart from separate qualification/lineage and unknown costs."
+  },
+  "final_code_sha256": "0e590d90ebb8d34d5cd5c01cc8a845fee34495b8113190000559e1e5df47fec1",
+  "final_output_sha256": "1c808696fbc3cc7be0a94537d52ab37ec2cb5b7c1a79292fef40db6726088cd1"
+}

@@ -1,0 +1,412 @@
+{
+  "status": "FROZEN_STABILITY_EXPERIMENT_COMPLETE",
+  "runs": [
+    {
+      "method": "Radau",
+      "span": [
+        42.0,
+        300.0
+      ],
+      "nfev": 38130,
+      "njev": 159,
+      "nlu": 10788
+    },
+    {
+      "method": "Radau",
+      "span": [
+        42.0,
+        300.0
+      ],
+      "nfev": 325474,
+      "njev": 3518,
+      "nlu": 9382
+    },
+    {
+      "method": "Radau",
+      "span": [
+        42.0,
+        300.0
+      ],
+      "nfev": 37876,
+      "njev": 138,
+      "nlu": 10708
+    },
+    {
+      "method": "Radau",
+      "span": [
+        42.0,
+        300.0
+      ],
+      "nfev": 325484,
+      "njev": 3518,
+      "nlu": 9382
+    },
+    {
+      "method": "Radau",
+      "span": [
+        0.0,
+        2.6412419163998493
+      ],
+      "nfev": 5491,
+      "njev": 10,
+      "nlu": 58
+    }
+  ],
+  "scientific_protocol_revisions": 0,
+  "initial_native_utc": "2026-11-03T07:10:34Z",
+  "frozen_at_utc": "2026-11-03T07:26:56.467549+00:00",
+  "started_utc": "2026-11-03T07:27:03.412692+00:00",
+  "horizon_s": 300.0,
+  "model_neurons": 279,
+  "model_states": 558,
+  "material_cutoff": 0.5638259640019669,
+  "background_common": true,
+  "seed0_sham_returns": {
+    "crossing_count": 98,
+    "last20_periods": [
+      2.6412419163998493,
+      2.641241916399906,
+      2.641241916399821,
+      2.6412419163998493,
+      2.641241916399906,
+      2.6412419163998493,
+      2.6412419163998493,
+      2.641241916399906,
+      2.6412419163998493,
+      2.6412419163998493,
+      2.6412419163998493,
+      2.641241916399906,
+      2.6412419163998493,
+      2.641241916399906,
+      2.6412419163998493,
+      2.6412419163998493,
+      2.6412419163998493,
+      2.641241916399906,
+      2.641241916399906,
+      2.6412419163997924
+    ],
+    "last20_scaled_return_rms": [
+      1.190765579818085e-14,
+      3.980735845796822e-14,
+      4.3036255753148236e-14,
+      2.681332073785589e-14,
+      3.939509217252575e-14,
+      1.4920823864607864e-14,
+      1.906364440129931e-14,
+      3.234202168771894e-14,
+      2.2569202841765077e-14,
+      2.8997483466673156e-14,
+      2.552987605667812e-14,
+      4.891033195910562e-14,
+      2.50371779032505e-14,
+      5.234763578511064e-14,
+      4.2503727660787065e-14,
+      2.6410688609233825e-14,
+      2.3113290479160626e-14,
+      4.108140543705525e-14,
+      5.3148114502100164e-14,
+      7.476867443386123e-14
+    ],
+    "last20_max_period_range": 1.1368683772161603e-13
+  },
+  "seed1_sham_returns": {
+    "crossing_count": 98,
+    "last20_periods": [
+      2.6412419163998493,
+      2.6412419163998777,
+      2.641241916399821,
+      2.6412419163998777,
+      2.6412419163998493,
+      2.641241916399906,
+      2.6412419163998493,
+      2.6412419163998493,
+      2.641241916399963,
+      2.6412419163997924,
+      2.6412419163998493,
+      2.641241916399906,
+      2.6412419163997924,
+      2.641241916399906,
+      2.6412419163998493,
+      2.641241916399906,
+      2.641241916399906,
+      2.6412419163998493,
+      2.6412419163998493,
+      2.6412419163998493
+    ],
+    "last20_scaled_return_rms": [
+      2.601733918696477e-14,
+      1.7938033286261225e-14,
+      4.244492367247941e-14,
+      3.1762880762898686e-14,
+      1.3174873123893603e-14,
+      4.752197975488072e-14,
+      1.746138494717088e-14,
+      3.741491807425715e-14,
+      1.0247182029382219e-13,
+      9.074170326697918e-14,
+      2.4591347987368538e-14,
+      4.464968538738873e-14,
+      7.194346262532e-14,
+      5.028527062816785e-14,
+      3.477577991202142e-14,
+      4.410917272552187e-14,
+      4.242748472202473e-14,
+      1.9538024875788436e-14,
+      2.4715855232123993e-14,
+      2.295886464619912e-14
+    ],
+    "last20_max_period_range": 1.7053025658242404e-13
+  },
+  "contrasts": {
+    "0": {
+      "late_290_300_motor_rms": 3.7738955803246603,
+      "challenge_300_3_302_motor_rms": 13.132807302811194,
+      "late_full_voltage_rms": 18.98512740792563,
+      "late_full_gate_rms": 0.04456302192155484,
+      "instantaneous_renderer_late_motor_rms": 3.773826145953365,
+      "finite_late_motor_temporal_rms": 1.1296081255518289e-14,
+      "sham_late_motor_temporal_rms": 0.5169344837290017,
+      "material_late_and_challenge": true
+    },
+    "1": {
+      "late_290_300_motor_rms": 3.7738577531948105,
+      "challenge_300_3_302_motor_rms": 13.132096054589168,
+      "late_full_voltage_rms": 18.985266505576195,
+      "late_full_gate_rms": 0.044563134616193614,
+      "instantaneous_renderer_late_motor_rms": 3.773788321461015,
+      "finite_late_motor_temporal_rms": 1.0809254893111017e-14,
+      "sham_late_motor_temporal_rms": 0.5168992459814792,
+      "material_late_and_challenge": true
+    }
+  },
+  "roots": {
+    "seed0_finite": {
+      "solver_success": true,
+      "solver_message": "The solution converged.",
+      "nfev": 2,
+      "voltage_residual_maxabs": 4.850638409455618e-10,
+      "gate_residual_maxabs": 4.107825191113079e-15,
+      "largest_real_eigenvalue_per_s": -1.3695160567698288,
+      "gate_min_max": [
+        7.94320976421597e-05,
+        0.16653661348238824
+      ],
+      "root_to_300s_endpoint": {
+        "voltage_maxabs": 1.8189894035458565e-12,
+        "gate_maxabs": 1.4710455076283324e-15,
+        "scaled_rms": 1.9268892987869112e-14
+      },
+      "source_checks": {
+        "source_rhs_maxabs": 2.425319204727809e-10,
+        "scalar_rhs_maxabs": 2.425319204727809e-10,
+        "source_jac_maxabs": 4.547473508864641e-13,
+        "inherited_dense_jac_maxabs": 0.0
+      },
+      "passes": true
+    },
+    "seed1_finite": {
+      "solver_success": true,
+      "solver_message": "The solution converged.",
+      "nfev": 2,
+      "voltage_residual_maxabs": 4.850638409455618e-10,
+      "gate_residual_maxabs": 3.9968028886505635e-15,
+      "largest_real_eigenvalue_per_s": -1.3695160567699385,
+      "gate_min_max": [
+        7.943209764215751e-05,
+        0.16653661348238824
+      ],
+      "root_to_300s_endpoint": {
+        "voltage_maxabs": 1.8189894035458565e-12,
+        "gate_maxabs": 1.609823385706477e-15,
+        "scaled_rms": 2.4549144735804023e-14
+      },
+      "source_checks": {
+        "source_rhs_maxabs": 4.850638409455618e-10,
+        "scalar_rhs_maxabs": 4.850638409455618e-10,
+        "source_jac_maxabs": 3.410605131648481e-13,
+        "inherited_dense_jac_maxabs": 0.0
+      },
+      "passes": true
+    }
+  },
+  "cycle": {
+    "status": "PERIODIC_ORBIT_AND_FULL_VARIATIONAL_CALCULATION_COMPLETE",
+    "shooting": [
+      {
+        "iteration": 0,
+        "period_s": 2.6412419163998493,
+        "closure": {
+          "voltage_maxabs": 2.8837803256465122e-08,
+          "gate_maxabs": 1.5360747396275798e-11,
+          "scaled_rms": 3.6657929088219627e-10
+        },
+        "section_error": 7.105427357601002e-15
+      }
+    ],
+    "period_s": 2.6412419163998493,
+    "closure": {
+      "voltage_maxabs": 2.8837803256465122e-08,
+      "gate_maxabs": 1.5360747396275798e-11,
+      "scaled_rms": 3.6657929088219627e-10
+    },
+    "monodromy_refinements": [
+      {
+        "steps": 512,
+        "phase_multiplier": [
+          1.0000850543633635,
+          0.0
+        ],
+        "phase_error": 8.505436336347927e-05,
+        "dominant_nontrivial_multiplier": [
+          -0.02081685893853465,
+          0.07321840632756874
+        ],
+        "dominant_nontrivial_modulus": 0.07612014609297467,
+        "tangent_transport_relative": 8.701310971561317e-05,
+        "top12_moduli": [
+          1.0000850543633635,
+          0.07612014609297467,
+          0.07612014609297467,
+          0.027089269161291153,
+          0.027089269161291153,
+          0.013857090461389733,
+          0.013857090461389733,
+          0.004010853763872478,
+          0.002698137855022198,
+          0.002042727525441871,
+          0.002042727525441871,
+          0.001589581069365166
+        ],
+        "all_other_count": 557,
+        "self_elapsed_s": 7.451020667000023
+      },
+      {
+        "steps": 1024,
+        "phase_multiplier": [
+          1.000021261099128,
+          0.0
+        ],
+        "phase_error": 2.1261099127922733e-05,
+        "dominant_nontrivial_multiplier": [
+          -0.02081779509231033,
+          0.07321899278605752
+        ],
+        "dominant_nontrivial_modulus": 0.0761209662124054,
+        "tangent_transport_relative": 2.174943592040163e-05,
+        "top12_moduli": [
+          1.000021261099128,
+          0.0761209662124054,
+          0.0761209662124054,
+          0.027087995970634923,
+          0.027087995970634923,
+          0.013857233067350563,
+          0.013857233067350563,
+          0.004011107528343643,
+          0.002698226292519252,
+          0.0020427751573209754,
+          0.0020427751573209754,
+          0.0015897190408483493
+        ],
+        "all_other_count": 557,
+        "self_elapsed_s": 14.55831383399999
+      },
+      {
+        "steps": 2048,
+        "phase_multiplier": [
+          1.0000053151331982,
+          0.0
+        ],
+        "phase_error": 5.315133198235955e-06,
+        "dominant_nontrivial_multiplier": [
+          -0.020818029147722315,
+          0.07321913941264534
+        ],
+        "dominant_nontrivial_modulus": 0.07612117125953731,
+        "tangent_transport_relative": 5.437080150652986e-06,
+        "top12_moduli": [
+          1.0000053151331982,
+          0.07612117125953731,
+          0.07612117125953731,
+          0.02708767769648833,
+          0.02708767769648833,
+          0.013857268719782724,
+          0.013857268719782724,
+          0.004011170967048673,
+          0.002698248405041115,
+          0.002042787061237748,
+          0.002042787061237748,
+          0.0015897535228541735
+        ],
+        "all_other_count": 557,
+        "self_elapsed_s": 28.79620112500001
+      }
+    ],
+    "dominant_modulus_1024_2048_change": 2.050471319126057e-07,
+    "required_stability_margin": 0.001,
+    "transverse_stability_passes": true,
+    "last20_return_convergence_passes": true,
+    "tangent_BDF_checks": {
+      "fixed_sine": {
+        "relative_action_error": 1.3440513359918492e-05,
+        "passes": true,
+        "nfev": 4566,
+        "nlu": 359
+      },
+      "dominant_nontrivial_real": {
+        "relative_action_error": 3.977424028614522e-06,
+        "passes": true,
+        "nfev": 2533,
+        "nlu": 191
+      }
+    },
+    "nonlinear_source_BDF_central_difference_relative_error": 4.059888242535746e-06,
+    "independent_numerical_checks_pass": true,
+    "source_scalar_jac_checks": [
+      {
+        "source_rhs_maxabs": 4.850626567076688e-10,
+        "scalar_rhs_maxabs": 2.425366574243526e-10,
+        "source_jac_maxabs": 9.094947017729282e-13,
+        "inherited_dense_jac_maxabs": 0.0
+      },
+      {
+        "source_rhs_maxabs": 2.425331047106738e-10,
+        "scalar_rhs_maxabs": 3.031650486207127e-10,
+        "source_jac_maxabs": 9.094947017729282e-13,
+        "inherited_dense_jac_maxabs": 0.0
+      },
+      {
+        "source_rhs_maxabs": 2.4253199448764917e-10,
+        "scalar_rhs_maxabs": 3.0316493759841023e-10,
+        "source_jac_maxabs": 9.094947017729282e-13,
+        "inherited_dense_jac_maxabs": 0.0
+      }
+    ],
+    "initialization_compatibility": {
+      "seed1_last_section_vs_seed0_periodic_state": {
+        "voltage_maxabs": 9.094947017729282e-13,
+        "gate_maxabs": 1.7763568394002505e-15,
+        "scaled_rms": 1.4998457966138344e-14
+      },
+      "finite_seed1_vs_seed0_root": {
+        "voltage_maxabs": 1.8189894035458565e-12,
+        "gate_maxabs": 1.3600232051658168e-15,
+        "scaled_rms": 1.676740340737971e-14
+      },
+      "equilibrium_min_motor_distance_over_cycle": 3.4495910662457097,
+      "equilibrium_mean_motor_distance_over_cycle": 3.788308485907879
+    },
+    "initialization_compatible": true,
+    "rigorous_computer_assisted_theorem": false
+  },
+  "all_predeclared_claim_gates_pass": true,
+  "finished_utc": "2026-11-03T07:30:58.775047+00:00",
+  "process_self_elapsed_s": 235.37122162499998,
+  "rss_bytes_macos": 486735872,
+  "all_raw_summary_auxiliary_outputs_consumed_development": true,
+  "new_public_ops_ingress_dependencies": [
+    0,
+    0,
+    0
+  ],
+  "native_mission_completed": false
+}

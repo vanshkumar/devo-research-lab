@@ -1,0 +1,1070 @@
+{
+  "timestamp": "2026-11-01T01:51:40.366958+00:00",
+  "costs_reconstructed": 16750,
+  "max_cost_error": 7.105427357601002e-15,
+  "max_summary_error": 2.886579864025407e-15,
+  "tempo_range": [
+    0.9339740901680879,
+    1.0567581863983766
+  ],
+  "free_invariance_max": 1.6653345369377348e-16,
+  "source": {
+    "md5": "4441c716563965db4c1522346f99a064",
+    "sha256": "28e8d2787d1faaa177d67f786cf77a03706189ca09933e5f6784547e9023e628",
+    "whole_archive_bytes": 19214942,
+    "gzip_decoded_bytes": 26460160,
+    "wav_seconds": 410.07253125000005,
+    "wav_headers_only_bytes": 1716,
+    "pin_counts": {
+      "FREEZE": 44,
+      "REVISION_FREEZE": 3,
+      "ARTIFACT_MANIFEST": 37
+    },
+    "freeze_chronology": {
+      "main_freeze": "2026-11-01T01:33:27.669668+00:00",
+      "main_output": "2026-11-01T01:33:27.817404+00:00",
+      "revision_freeze": "2026-11-01T01:34:45.924733+00:00",
+      "revision_output": "2026-11-01T01:34:46.074097+00:00"
+    },
+    "primary_metadata_version": 9,
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "contrary": {
+    "overall": {
+      "pairs": 206,
+      "cost_decreasing_pairs": 36,
+      "cost_decreasing_and_closer": 16,
+      "cost_decreasing_but_not_closer": 20,
+      "cost_decreasing_closer_both_accepted": 14,
+      "fraction_decreasing_edits_closer": 0.4444444444444444,
+      "equal_recording_fraction_decreasing_edits_closer": 0.41679675304402114,
+      "equal_recording_decrease_rate": 0.19065476190476194,
+      "equal_recording_closer_both_accepted_rate": 0.07089285714285715,
+      "cross_tab_raw": {
+        "False_False": 148,
+        "False_True": 22,
+        "True_False": 20,
+        "True_True": 16
+      }
+    },
+    "by_phase": {
+      "MAIN": {
+        "pairs": 102,
+        "cost_decreasing_pairs": 18,
+        "cost_decreasing_and_closer": 7,
+        "cost_decreasing_but_not_closer": 11,
+        "cost_decreasing_closer_both_accepted": 5,
+        "fraction_decreasing_edits_closer": 0.3888888888888889,
+        "equal_recording_fraction_decreasing_edits_closer": 0.3234932349323492,
+        "equal_recording_decrease_rate": 0.19357142857142862,
+        "equal_recording_closer_both_accepted_rate": 0.04547619047619048,
+        "cross_tab_raw": {
+          "False_False": 73,
+          "False_True": 11,
+          "True_False": 11,
+          "True_True": 7
+        }
+      },
+      "REVISION": {
+        "pairs": 104,
+        "cost_decreasing_pairs": 18,
+        "cost_decreasing_and_closer": 9,
+        "cost_decreasing_but_not_closer": 9,
+        "cost_decreasing_closer_both_accepted": 9,
+        "fraction_decreasing_edits_closer": 0.5,
+        "equal_recording_fraction_decreasing_edits_closer": 0.5129993658845909,
+        "equal_recording_decrease_rate": 0.18773809523809526,
+        "equal_recording_closer_both_accepted_rate": 0.0963095238095238,
+        "cross_tab_raw": {
+          "False_False": 75,
+          "False_True": 11,
+          "True_False": 9,
+          "True_True": 9
+        }
+      }
+    },
+    "lexical_first_accepted_witness": {
+      "phase": "MAIN",
+      "reference_key": "gy6or6_baseline_260312_0909.3745.wav.csv:34",
+      "recording": "gy6or6_baseline_260312_0909.3745.wav.csv",
+      "factor": 0.8,
+      "reference_intervals_ms": [
+        38.56250000000028,
+        57.43749999999981,
+        47.68750000000033,
+        71.87500000000037,
+        55.8437499999993
+      ],
+      "edited_intervals_ms": [
+        38.56250000000028,
+        57.43749999999981,
+        38.15000000000027,
+        71.87500000000037,
+        55.8437499999993
+      ],
+      "witness_key": "gy6or6_baseline_260312_1020.4180.wav.csv:45",
+      "witness_intervals_ms": [
+        39.09375000000014,
+        56.18750000000005,
+        39.46875000000017,
+        71.43750000000003,
+        57.43749999999981
+      ],
+      "before_nearest_key": "gy6or6_baseline_260312_0958.4033.wav.csv:22",
+      "before_nearest_log_RMS": 0.039406630839434575,
+      "after_nearest_log_RMS": 0.02304492368986986,
+      "distance_change": -0.016361707149564714,
+      "covariance_before": 1.1114781622383973,
+      "covariance_after": 0.34669724856715634,
+      "cost_change": -0.764780913671241,
+      "witness_covariance_cost": 0.4975333371084364,
+      "reference_accepted": true,
+      "edited_accepted": true,
+      "witness_accepted": true,
+      "cost_decreases": true,
+      "closer_to_natural_witness": true,
+      "witness_distance_tie": false,
+      "reference_error_log_RMS": 0.09979282989585708
+    }
+  },
+  "phases": {
+    "MAIN": {
+      "prototype": {
+        "threshold": 0.11779142187011267,
+        "natural_acceptance": 0.9290476190476191,
+        "primary_pass": false,
+        "20pct": [
+          {
+            "location": "global",
+            "factor": 0.8,
+            "rejection": 1.0000000000000002,
+            "strict_increase": 1.0000000000000002,
+            "ties": 0.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "global",
+            "factor": 1.2,
+            "rejection": 1.0000000000000002,
+            "strict_increase": 0.9857142857142859,
+            "ties": 0.0,
+            "decrease": 0.014285714285714285
+          },
+          {
+            "location": "duration_b",
+            "factor": 0.8,
+            "rejection": 0.5071428571428571,
+            "strict_increase": 0.6604761904761907,
+            "ties": 0.0,
+            "decrease": 0.33952380952380956
+          },
+          {
+            "location": "duration_b",
+            "factor": 1.2,
+            "rejection": 0.4871428571428572,
+            "strict_increase": 0.7347619047619048,
+            "ties": 0.0,
+            "decrease": 0.2652380952380953
+          },
+          {
+            "location": "gap_ab",
+            "factor": 0.8,
+            "rejection": 0.5028571428571429,
+            "strict_increase": 0.9433333333333334,
+            "ties": 0.0,
+            "decrease": 0.05666666666666667
+          },
+          {
+            "location": "gap_ab",
+            "factor": 1.2,
+            "rejection": 0.4671428571428572,
+            "strict_increase": 0.9800000000000002,
+            "ties": 0.0,
+            "decrease": 0.02
+          },
+          {
+            "location": "duration_c",
+            "factor": 0.8,
+            "rejection": 0.622857142857143,
+            "strict_increase": 1.0000000000000002,
+            "ties": 0.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "duration_c",
+            "factor": 1.2,
+            "rejection": 0.47285714285714286,
+            "strict_increase": 0.9800000000000002,
+            "ties": 0.0,
+            "decrease": 0.02
+          }
+        ]
+      },
+      "nearest": {
+        "threshold": 0.04428115740498723,
+        "natural_acceptance": 0.9157142857142858,
+        "primary_pass": false,
+        "20pct": [
+          {
+            "location": "global",
+            "factor": 0.8,
+            "rejection": 1.0000000000000002,
+            "strict_increase": 1.0000000000000002,
+            "ties": 0.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "global",
+            "factor": 1.2,
+            "rejection": 1.0000000000000002,
+            "strict_increase": 0.9857142857142859,
+            "ties": 0.0,
+            "decrease": 0.014285714285714285
+          },
+          {
+            "location": "duration_b",
+            "factor": 0.8,
+            "rejection": 0.4895238095238096,
+            "strict_increase": 0.8157142857142858,
+            "ties": 0.0,
+            "decrease": 0.18428571428571427
+          },
+          {
+            "location": "duration_b",
+            "factor": 1.2,
+            "rejection": 0.5838095238095238,
+            "strict_increase": 0.7204761904761905,
+            "ties": 0.0,
+            "decrease": 0.27952380952380956
+          },
+          {
+            "location": "gap_ab",
+            "factor": 0.8,
+            "rejection": 0.9833333333333335,
+            "strict_increase": 1.0000000000000002,
+            "ties": 0.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "gap_ab",
+            "factor": 1.2,
+            "rejection": 0.8757142857142859,
+            "strict_increase": 0.9300000000000002,
+            "ties": 0.0,
+            "decrease": 0.07
+          },
+          {
+            "location": "duration_c",
+            "factor": 0.8,
+            "rejection": 1.0000000000000002,
+            "strict_increase": 1.0000000000000002,
+            "ties": 0.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "duration_c",
+            "factor": 1.2,
+            "rejection": 0.9400000000000002,
+            "strict_increase": 0.9800000000000002,
+            "ties": 0.0,
+            "decrease": 0.02
+          }
+        ]
+      },
+      "covariance": {
+        "threshold": 1.4812060008523384,
+        "natural_acceptance": 0.9257142857142857,
+        "primary_pass": false,
+        "20pct": [
+          {
+            "location": "global",
+            "factor": 0.8,
+            "rejection": 1.0000000000000002,
+            "strict_increase": 1.0000000000000002,
+            "ties": 0.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "global",
+            "factor": 1.2,
+            "rejection": 1.0000000000000002,
+            "strict_increase": 0.9857142857142859,
+            "ties": 0.0,
+            "decrease": 0.014285714285714285
+          },
+          {
+            "location": "duration_b",
+            "factor": 0.8,
+            "rejection": 0.270952380952381,
+            "strict_increase": 0.7614285714285716,
+            "ties": 0.0,
+            "decrease": 0.2385714285714286
+          },
+          {
+            "location": "duration_b",
+            "factor": 1.2,
+            "rejection": 0.30619047619047624,
+            "strict_increase": 0.8514285714285715,
+            "ties": 0.0,
+            "decrease": 0.14857142857142858
+          },
+          {
+            "location": "gap_ab",
+            "factor": 0.8,
+            "rejection": 0.9833333333333335,
+            "strict_increase": 1.0000000000000002,
+            "ties": 0.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "gap_ab",
+            "factor": 1.2,
+            "rejection": 0.9100000000000001,
+            "strict_increase": 0.9157142857142858,
+            "ties": 0.0,
+            "decrease": 0.0842857142857143
+          },
+          {
+            "location": "duration_c",
+            "factor": 0.8,
+            "rejection": 1.0000000000000002,
+            "strict_increase": 1.0000000000000002,
+            "ties": 0.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "duration_c",
+            "factor": 1.2,
+            "rejection": 0.9800000000000002,
+            "strict_increase": 0.9800000000000002,
+            "ties": 0.0,
+            "decrease": 0.02
+          }
+        ]
+      },
+      "free_tempo": {
+        "threshold": 0.11591700246233715,
+        "natural_acceptance": 0.9457142857142857,
+        "primary_pass": false,
+        "20pct": [
+          {
+            "location": "global",
+            "factor": 0.8,
+            "rejection": 0.054285714285714284,
+            "strict_increase": 0.0,
+            "ties": 1.0000000000000002,
+            "decrease": 0.0
+          },
+          {
+            "location": "global",
+            "factor": 1.2,
+            "rejection": 0.054285714285714284,
+            "strict_increase": 0.0,
+            "ties": 1.0000000000000002,
+            "decrease": 0.0
+          },
+          {
+            "location": "duration_b",
+            "factor": 0.8,
+            "rejection": 0.5071428571428571,
+            "strict_increase": 0.7423809523809526,
+            "ties": 0.0,
+            "decrease": 0.25761904761904764
+          },
+          {
+            "location": "duration_b",
+            "factor": 1.2,
+            "rejection": 0.3971428571428572,
+            "strict_increase": 0.7104761904761906,
+            "ties": 0.0,
+            "decrease": 0.28952380952380957
+          },
+          {
+            "location": "gap_ab",
+            "factor": 0.8,
+            "rejection": 0.40190476190476193,
+            "strict_increase": 0.9657142857142857,
+            "ties": 0.0,
+            "decrease": 0.03428571428571429
+          },
+          {
+            "location": "gap_ab",
+            "factor": 1.2,
+            "rejection": 0.2752380952380952,
+            "strict_increase": 0.9057142857142859,
+            "ties": 0.0,
+            "decrease": 0.09428571428571428
+          },
+          {
+            "location": "duration_c",
+            "factor": 0.8,
+            "rejection": 0.5385714285714286,
+            "strict_increase": 0.9857142857142859,
+            "ties": 0.0,
+            "decrease": 0.014285714285714285
+          },
+          {
+            "location": "duration_c",
+            "factor": 1.2,
+            "rejection": 0.16190476190476188,
+            "strict_increase": 0.9800000000000002,
+            "ties": 0.0,
+            "decrease": 0.02
+          }
+        ]
+      },
+      "shuffled_covariance": {
+        "threshold": 1.3195131182307218,
+        "natural_acceptance": 0.9714285714285715,
+        "primary_pass": false,
+        "20pct": [
+          {
+            "location": "global",
+            "factor": 0.8,
+            "rejection": 1.0000000000000002,
+            "strict_increase": 1.0000000000000002,
+            "ties": 0.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "global",
+            "factor": 1.2,
+            "rejection": 1.0000000000000002,
+            "strict_increase": 0.9857142857142859,
+            "ties": 0.0,
+            "decrease": 0.014285714285714285
+          },
+          {
+            "location": "duration_b",
+            "factor": 0.8,
+            "rejection": 0.42714285714285716,
+            "strict_increase": 1.0000000000000002,
+            "ties": 0.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "duration_b",
+            "factor": 1.2,
+            "rejection": 0.014285714285714285,
+            "strict_increase": 0.39285714285714285,
+            "ties": 0.0,
+            "decrease": 0.6071428571428572
+          },
+          {
+            "location": "gap_ab",
+            "factor": 0.8,
+            "rejection": 0.0842857142857143,
+            "strict_increase": 0.4595238095238096,
+            "ties": 0.0,
+            "decrease": 0.5404761904761906
+          },
+          {
+            "location": "gap_ab",
+            "factor": 1.2,
+            "rejection": 0.24523809523809523,
+            "strict_increase": 0.9357142857142858,
+            "ties": 0.0,
+            "decrease": 0.0642857142857143
+          },
+          {
+            "location": "duration_c",
+            "factor": 0.8,
+            "rejection": 0.13857142857142857,
+            "strict_increase": 0.6838095238095239,
+            "ties": 0.0,
+            "decrease": 0.3161904761904762
+          },
+          {
+            "location": "duration_c",
+            "factor": 1.2,
+            "rejection": 0.18523809523809526,
+            "strict_increase": 0.9157142857142858,
+            "ties": 0.0,
+            "decrease": 0.0842857142857143
+          }
+        ]
+      },
+      "absent": {
+        "threshold": 0.0,
+        "natural_acceptance": 1.0000000000000002,
+        "primary_pass": false,
+        "20pct": [
+          {
+            "location": "global",
+            "factor": 0.8,
+            "rejection": 0.0,
+            "strict_increase": 0.0,
+            "ties": 1.0000000000000002,
+            "decrease": 0.0
+          },
+          {
+            "location": "global",
+            "factor": 1.2,
+            "rejection": 0.0,
+            "strict_increase": 0.0,
+            "ties": 1.0000000000000002,
+            "decrease": 0.0
+          },
+          {
+            "location": "duration_b",
+            "factor": 0.8,
+            "rejection": 0.0,
+            "strict_increase": 0.0,
+            "ties": 1.0000000000000002,
+            "decrease": 0.0
+          },
+          {
+            "location": "duration_b",
+            "factor": 1.2,
+            "rejection": 0.0,
+            "strict_increase": 0.0,
+            "ties": 1.0000000000000002,
+            "decrease": 0.0
+          },
+          {
+            "location": "gap_ab",
+            "factor": 0.8,
+            "rejection": 0.0,
+            "strict_increase": 0.0,
+            "ties": 1.0000000000000002,
+            "decrease": 0.0
+          },
+          {
+            "location": "gap_ab",
+            "factor": 1.2,
+            "rejection": 0.0,
+            "strict_increase": 0.0,
+            "ties": 1.0000000000000002,
+            "decrease": 0.0
+          },
+          {
+            "location": "duration_c",
+            "factor": 0.8,
+            "rejection": 0.0,
+            "strict_increase": 0.0,
+            "ties": 1.0000000000000002,
+            "decrease": 0.0
+          },
+          {
+            "location": "duration_c",
+            "factor": 1.2,
+            "rejection": 0.0,
+            "strict_increase": 0.0,
+            "ties": 1.0000000000000002,
+            "decrease": 0.0
+          }
+        ]
+      }
+    },
+    "REVISION": {
+      "prototype": {
+        "threshold": 0.11779142187011267,
+        "natural_acceptance": 0.9,
+        "primary_pass": false,
+        "20pct": [
+          {
+            "location": "global",
+            "factor": 0.8,
+            "rejection": 1.0,
+            "strict_increase": 1.0,
+            "ties": 0.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "global",
+            "factor": 1.2,
+            "rejection": 1.0,
+            "strict_increase": 1.0,
+            "ties": 0.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "duration_b",
+            "factor": 0.8,
+            "rejection": 0.3447619047619047,
+            "strict_increase": 0.6894047619047619,
+            "ties": 0.0,
+            "decrease": 0.31059523809523815
+          },
+          {
+            "location": "duration_b",
+            "factor": 1.2,
+            "rejection": 0.4867857142857143,
+            "strict_increase": 0.7564285714285713,
+            "ties": 0.0,
+            "decrease": 0.24357142857142855
+          },
+          {
+            "location": "gap_ab",
+            "factor": 0.8,
+            "rejection": 0.5173809523809524,
+            "strict_increase": 0.9732142857142857,
+            "ties": 0.0,
+            "decrease": 0.026785714285714288
+          },
+          {
+            "location": "gap_ab",
+            "factor": 1.2,
+            "rejection": 0.4301190476190476,
+            "strict_increase": 0.9666666666666667,
+            "ties": 0.0,
+            "decrease": 0.03333333333333333
+          },
+          {
+            "location": "duration_c",
+            "factor": 0.8,
+            "rejection": 0.5819047619047618,
+            "strict_increase": 1.0,
+            "ties": 0.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "duration_c",
+            "factor": 1.2,
+            "rejection": 0.32392857142857145,
+            "strict_increase": 1.0,
+            "ties": 0.0,
+            "decrease": 0.0
+          }
+        ]
+      },
+      "nearest": {
+        "threshold": 0.04428115740498723,
+        "natural_acceptance": 0.9666666666666667,
+        "primary_pass": false,
+        "20pct": [
+          {
+            "location": "global",
+            "factor": 0.8,
+            "rejection": 1.0,
+            "strict_increase": 1.0,
+            "ties": 0.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "global",
+            "factor": 1.2,
+            "rejection": 1.0,
+            "strict_increase": 1.0,
+            "ties": 0.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "duration_b",
+            "factor": 0.8,
+            "rejection": 0.4048809523809524,
+            "strict_increase": 0.7541666666666667,
+            "ties": 0.0,
+            "decrease": 0.24583333333333332
+          },
+          {
+            "location": "duration_b",
+            "factor": 1.2,
+            "rejection": 0.5451190476190476,
+            "strict_increase": 0.7746428571428571,
+            "ties": 0.0,
+            "decrease": 0.22535714285714284
+          },
+          {
+            "location": "gap_ab",
+            "factor": 0.8,
+            "rejection": 0.9732142857142857,
+            "strict_increase": 0.9874999999999999,
+            "ties": 0.0,
+            "decrease": 0.0125
+          },
+          {
+            "location": "gap_ab",
+            "factor": 1.2,
+            "rejection": 0.781547619047619,
+            "strict_increase": 0.8773809523809524,
+            "ties": 0.0,
+            "decrease": 0.12261904761904761
+          },
+          {
+            "location": "duration_c",
+            "factor": 0.8,
+            "rejection": 1.0,
+            "strict_increase": 1.0,
+            "ties": 0.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "duration_c",
+            "factor": 1.2,
+            "rejection": 0.8773809523809524,
+            "strict_increase": 0.9666666666666667,
+            "ties": 0.0,
+            "decrease": 0.03333333333333333
+          }
+        ]
+      },
+      "covariance": {
+        "threshold": 1.4812060008523384,
+        "natural_acceptance": 1.0,
+        "primary_pass": false,
+        "20pct": [
+          {
+            "location": "global",
+            "factor": 0.8,
+            "rejection": 1.0,
+            "strict_increase": 1.0,
+            "ties": 0.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "global",
+            "factor": 1.2,
+            "rejection": 1.0,
+            "strict_increase": 1.0,
+            "ties": 0.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "duration_b",
+            "factor": 0.8,
+            "rejection": 0.17357142857142854,
+            "strict_increase": 0.7895238095238095,
+            "ties": 0.0,
+            "decrease": 0.21047619047619048
+          },
+          {
+            "location": "duration_b",
+            "factor": 1.2,
+            "rejection": 0.22142857142857142,
+            "strict_increase": 0.835,
+            "ties": 0.0,
+            "decrease": 0.16499999999999998
+          },
+          {
+            "location": "gap_ab",
+            "factor": 0.8,
+            "rejection": 0.9625,
+            "strict_increase": 1.0,
+            "ties": 0.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "gap_ab",
+            "factor": 1.2,
+            "rejection": 0.7933333333333333,
+            "strict_increase": 0.9500000000000001,
+            "ties": 0.0,
+            "decrease": 0.05
+          },
+          {
+            "location": "duration_c",
+            "factor": 0.8,
+            "rejection": 1.0,
+            "strict_increase": 1.0,
+            "ties": 0.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "duration_c",
+            "factor": 1.2,
+            "rejection": 0.9833333333333333,
+            "strict_increase": 1.0,
+            "ties": 0.0,
+            "decrease": 0.0
+          }
+        ]
+      },
+      "free_tempo": {
+        "threshold": 0.11591700246233715,
+        "natural_acceptance": 0.9333333333333333,
+        "primary_pass": false,
+        "20pct": [
+          {
+            "location": "global",
+            "factor": 0.8,
+            "rejection": 0.06666666666666667,
+            "strict_increase": 0.0,
+            "ties": 1.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "global",
+            "factor": 1.2,
+            "rejection": 0.06666666666666667,
+            "strict_increase": 0.0,
+            "ties": 1.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "duration_b",
+            "factor": 0.8,
+            "rejection": 0.3447619047619047,
+            "strict_increase": 0.7094047619047619,
+            "ties": 0.0,
+            "decrease": 0.29059523809523813
+          },
+          {
+            "location": "duration_b",
+            "factor": 1.2,
+            "rejection": 0.3707142857142857,
+            "strict_increase": 0.7145238095238096,
+            "ties": 0.0,
+            "decrease": 0.28547619047619044
+          },
+          {
+            "location": "gap_ab",
+            "factor": 0.8,
+            "rejection": 0.4330952380952381,
+            "strict_increase": 0.9589285714285715,
+            "ties": 0.0,
+            "decrease": 0.04107142857142857
+          },
+          {
+            "location": "gap_ab",
+            "factor": 1.2,
+            "rejection": 0.319047619047619,
+            "strict_increase": 0.9500000000000001,
+            "ties": 0.0,
+            "decrease": 0.05
+          },
+          {
+            "location": "duration_c",
+            "factor": 0.8,
+            "rejection": 0.47678571428571426,
+            "strict_increase": 1.0,
+            "ties": 0.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "duration_c",
+            "factor": 1.2,
+            "rejection": 0.1994047619047619,
+            "strict_increase": 1.0,
+            "ties": 0.0,
+            "decrease": 0.0
+          }
+        ]
+      },
+      "shuffled_covariance": {
+        "threshold": 1.3195131182307218,
+        "natural_acceptance": 0.8857142857142857,
+        "primary_pass": false,
+        "20pct": [
+          {
+            "location": "global",
+            "factor": 0.8,
+            "rejection": 1.0,
+            "strict_increase": 1.0,
+            "ties": 0.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "global",
+            "factor": 1.2,
+            "rejection": 1.0,
+            "strict_increase": 1.0,
+            "ties": 0.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "duration_b",
+            "factor": 0.8,
+            "rejection": 0.39595238095238094,
+            "strict_increase": 1.0,
+            "ties": 0.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "duration_b",
+            "factor": 1.2,
+            "rejection": 0.0,
+            "strict_increase": 0.4123809523809524,
+            "ties": 0.0,
+            "decrease": 0.5876190476190476
+          },
+          {
+            "location": "gap_ab",
+            "factor": 0.8,
+            "rejection": 0.11249999999999999,
+            "strict_increase": 0.5554761904761905,
+            "ties": 0.0,
+            "decrease": 0.44452380952380954
+          },
+          {
+            "location": "gap_ab",
+            "factor": 1.2,
+            "rejection": 0.21488095238095234,
+            "strict_increase": 0.9333333333333333,
+            "ties": 0.0,
+            "decrease": 0.06666666666666667
+          },
+          {
+            "location": "duration_c",
+            "factor": 0.8,
+            "rejection": 0.20357142857142854,
+            "strict_increase": 0.8379761904761904,
+            "ties": 0.0,
+            "decrease": 0.16202380952380951
+          },
+          {
+            "location": "duration_c",
+            "factor": 1.2,
+            "rejection": 0.1261904761904762,
+            "strict_increase": 0.88,
+            "ties": 0.0,
+            "decrease": 0.12
+          }
+        ]
+      },
+      "absent": {
+        "threshold": 0.0,
+        "natural_acceptance": 1.0,
+        "primary_pass": false,
+        "20pct": [
+          {
+            "location": "global",
+            "factor": 0.8,
+            "rejection": 0.0,
+            "strict_increase": 0.0,
+            "ties": 1.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "global",
+            "factor": 1.2,
+            "rejection": 0.0,
+            "strict_increase": 0.0,
+            "ties": 1.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "duration_b",
+            "factor": 0.8,
+            "rejection": 0.0,
+            "strict_increase": 0.0,
+            "ties": 1.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "duration_b",
+            "factor": 1.2,
+            "rejection": 0.0,
+            "strict_increase": 0.0,
+            "ties": 1.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "gap_ab",
+            "factor": 0.8,
+            "rejection": 0.0,
+            "strict_increase": 0.0,
+            "ties": 1.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "gap_ab",
+            "factor": 1.2,
+            "rejection": 0.0,
+            "strict_increase": 0.0,
+            "ties": 1.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "duration_c",
+            "factor": 0.8,
+            "rejection": 0.0,
+            "strict_increase": 0.0,
+            "ties": 1.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "duration_c",
+            "factor": 1.2,
+            "rejection": 0.0,
+            "strict_increase": 0.0,
+            "ties": 1.0,
+            "decrease": 0.0
+          }
+        ]
+      },
+      "bounded_tempo": {
+        "threshold": 0.11591700246233715,
+        "natural_acceptance": 0.9333333333333333,
+        "primary_pass": false,
+        "20pct": [
+          {
+            "location": "global",
+            "factor": 0.8,
+            "rejection": 1.0,
+            "strict_increase": 1.0,
+            "ties": 0.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "global",
+            "factor": 1.2,
+            "rejection": 0.8998809523809523,
+            "strict_increase": 1.0,
+            "ties": 0.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "duration_b",
+            "factor": 0.8,
+            "rejection": 0.3447619047619047,
+            "strict_increase": 0.7094047619047619,
+            "ties": 0.0,
+            "decrease": 0.29059523809523813
+          },
+          {
+            "location": "duration_b",
+            "factor": 1.2,
+            "rejection": 0.3707142857142857,
+            "strict_increase": 0.7145238095238096,
+            "ties": 0.0,
+            "decrease": 0.28547619047619044
+          },
+          {
+            "location": "gap_ab",
+            "factor": 0.8,
+            "rejection": 0.4330952380952381,
+            "strict_increase": 0.9714285714285714,
+            "ties": 0.0,
+            "decrease": 0.02857142857142857
+          },
+          {
+            "location": "gap_ab",
+            "factor": 1.2,
+            "rejection": 0.319047619047619,
+            "strict_increase": 0.9500000000000001,
+            "ties": 0.0,
+            "decrease": 0.05
+          },
+          {
+            "location": "duration_c",
+            "factor": 0.8,
+            "rejection": 0.47678571428571426,
+            "strict_increase": 1.0,
+            "ties": 0.0,
+            "decrease": 0.0
+          },
+          {
+            "location": "duration_c",
+            "factor": 1.2,
+            "rejection": 0.1994047619047619,
+            "strict_increase": 1.0,
+            "ties": 0.0,
+            "decrease": 0.0
+          }
+        ]
+      }
+    }
+  },
+  "sequence_controls": {
+    "altered_phrases": 206,
+    "exact_order_rejections": 206,
+    "bag_order_rejections": 0,
+    "natural_exact_order_acceptance": 103,
+    "scope": "supplied labels only"
+  }
+}

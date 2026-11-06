@@ -1,0 +1,1146 @@
+{
+  "status": "PASS",
+  "completed": [
+    {
+      "seed": 240001,
+      "status": "PASS",
+      "utc": "2026-11-03T02:28:19Z",
+      "source_equations_not_author_torch": true,
+      "realization_sha256": "d728a9115bf8eb0022cae04faa1e6f921030153f4f39509be3aabf279df921c2",
+      "realization_bytes": 2734681,
+      "teacher_exact_reference_checks": 3232,
+      "generated_examples": 1010000,
+      "current_examples": 1000000,
+      "steps": {
+        "cbp_literal": 1000000,
+        "cbp_mean": 1000000,
+        "cbp_literal_replay": 1999999,
+        "cbp_mean_replay": 1999999,
+        "random_literal_replay": 1999999,
+        "random_mean_replay": 1999999,
+        "sgd_replay": 1999999
+      },
+      "replacements": {
+        "cbp_literal": 503,
+        "cbp_mean": 503,
+        "cbp_literal_replay": 1036,
+        "cbp_mean_replay": 1036,
+        "random_literal_replay": 1036,
+        "random_mean_replay": 1036
+      },
+      "compensation": {
+        "cbp_literal": {
+          "sum": 0.0,
+          "abs_sum": 0.0,
+          "square_sum": 0.0
+        },
+        "cbp_mean": {
+          "sum": -1.7034529362700184,
+          "abs_sum": 13.53676613364479,
+          "square_sum": 1.9366676902284738
+        },
+        "cbp_literal_replay": {
+          "sum": 0.0,
+          "abs_sum": 0.0,
+          "square_sum": 0.0
+        },
+        "cbp_mean_replay": {
+          "sum": -3.0627865751484795,
+          "abs_sum": 48.53199716632402,
+          "square_sum": 6.928444826736337
+        },
+        "random_literal_replay": {
+          "sum": 0.0,
+          "abs_sum": 0.0,
+          "square_sum": 0.0
+        },
+        "random_mean_replay": {
+          "sum": 13.31329688580862,
+          "abs_sum": 290.45938590520706,
+          "square_sum": 201.20435368080106
+        }
+      },
+      "teacher_mean": -1.5521875,
+      "teacher_variance": 2.71415146484375,
+      "initial_before": {
+        "cbp_literal": 1.3775970855649728,
+        "cbp_mean": 1.3775970855649728,
+        "cbp_literal_replay": 1.3775970855649728,
+        "cbp_mean_replay": 1.3775970855649728,
+        "random_literal_replay": 1.3775970855649728,
+        "random_mean_replay": 1.3775970855649728,
+        "sgd_replay": 1.3775970855649728,
+        "cache": 1.15625
+      },
+      "storage": {
+        "cbp_literal": {
+          "actual_pickle4_state_bytes": 8934,
+          "actual_deep_python_state_bytes": 55590,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "3565a19d56069f0eda3c46c06229edff6b1487a995be4df500f59f5cc46afea7"
+        },
+        "cbp_mean": {
+          "actual_pickle4_state_bytes": 8934,
+          "actual_deep_python_state_bytes": 55594,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "c5fd5c0d21ebb3c3a98fb696f94c23c4f5692243f4f448e149fd6483ef6a2d63"
+        },
+        "cbp_literal_replay": {
+          "actual_pickle4_state_bytes": 22164,
+          "actual_deep_python_state_bytes": 150894,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "e9cc800d28a00a932f33ab4ddcb8c7942b6a5a7d2e850422f669c21df52b6ba0"
+        },
+        "cbp_mean_replay": {
+          "actual_pickle4_state_bytes": 22164,
+          "actual_deep_python_state_bytes": 150898,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "ca5d1dae6e1564e087a0494eb7595d8ad56d11110874cac4c5ab1a33ea1c60ef"
+        },
+        "random_literal_replay": {
+          "actual_pickle4_state_bytes": 22189,
+          "actual_deep_python_state_bytes": 150957,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "b0ccf6d5c29cbdde71496814cf730e7b43d5fe21c5d8eddcaf5cf7a6e314af76"
+        },
+        "random_mean_replay": {
+          "actual_pickle4_state_bytes": 22189,
+          "actual_deep_python_state_bytes": 150961,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "400c3e2560a17f4037868741aceb523ab156b53bbc561d1528611c76d716defd"
+        },
+        "sgd_replay": {
+          "actual_pickle4_state_bytes": 14343,
+          "actual_deep_python_state_bytes": 100215,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "1845804d819c9687c216e72b83939f994af3a798470d25270a081d704d7a1013"
+        },
+        "cache": {
+          "actual_pickle4_state_bytes": 4233,
+          "actual_deep_python_state_bytes": 4996,
+          "packed_array_objects_bytes": 4202,
+          "packed_payload_bytes": 4062,
+          "pickle4_sha256": "1f38cb7ee7e6facf91ae75a8fe87ddf98cedd77e5f130bab15f70c6524673235",
+          "storage_convention": "full mutable cache state, including capacity/counters/fallback; no RNG"
+        }
+      },
+      "seconds_by_activity": {
+        "cbp_literal": 13.486576325999284,
+        "cbp_mean": 13.330725323002529,
+        "cbp_literal_replay": 26.182534618998886,
+        "cbp_mean_replay": 26.13031486300563,
+        "random_literal_replay": 17.216515226999828,
+        "random_mean_replay": 17.06438861900148,
+        "sgd_replay": 10.207846120008647,
+        "cache": 11.123813450000895,
+        "scoring": 5.133720162000028,
+        "replay_feed": 0.6132987399990854
+      },
+      "total_seconds": 143.316321458,
+      "max_rss_bytes_macos": 39976960,
+      "exposure": "all generated parameter/input/label/unused blocks and all learner/scorer/diagnostic outputs consumed",
+      "output_bytes": 2639928,
+      "output_sha256": "9159a92c50cff64df758fea425f03f6d37a0a9a068140dc47a290ae3afccbc17"
+    },
+    {
+      "seed": 240002,
+      "status": "PASS",
+      "utc": "2026-11-03T02:30:45Z",
+      "source_equations_not_author_torch": true,
+      "realization_sha256": "62403ac0936a2be8245adeb27c357ad4414717944796e839a8fb964d76581339",
+      "realization_bytes": 2733064,
+      "teacher_exact_reference_checks": 3232,
+      "generated_examples": 1010000,
+      "current_examples": 1000000,
+      "steps": {
+        "cbp_literal": 1000000,
+        "cbp_mean": 1000000,
+        "cbp_literal_replay": 1999999,
+        "cbp_mean_replay": 1999999,
+        "random_literal_replay": 1999999,
+        "random_mean_replay": 1999999,
+        "sgd_replay": 1999999
+      },
+      "replacements": {
+        "cbp_literal": 504,
+        "cbp_mean": 504,
+        "cbp_literal_replay": 975,
+        "cbp_mean_replay": 975,
+        "random_literal_replay": 975,
+        "random_mean_replay": 975
+      },
+      "compensation": {
+        "cbp_literal": {
+          "sum": 0.0,
+          "abs_sum": 0.0,
+          "square_sum": 0.0
+        },
+        "cbp_mean": {
+          "sum": 0.8596478055943061,
+          "abs_sum": 12.87421527896916,
+          "square_sum": 1.5379372943082195
+        },
+        "cbp_literal_replay": {
+          "sum": 0.0,
+          "abs_sum": 0.0,
+          "square_sum": 0.0
+        },
+        "cbp_mean_replay": {
+          "sum": -1.8173996158518846,
+          "abs_sum": 32.303754251950515,
+          "square_sum": 3.1536149606090604
+        },
+        "random_literal_replay": {
+          "sum": 0.0,
+          "abs_sum": 0.0,
+          "square_sum": 0.0
+        },
+        "random_mean_replay": {
+          "sum": 5.482325913247453,
+          "abs_sum": 208.56917385947622,
+          "square_sum": 120.4732499349357
+        }
+      },
+      "teacher_mean": 0.628125,
+      "teacher_variance": 2.256708984375,
+      "initial_before": {
+        "cbp_literal": 1.2161512062244917,
+        "cbp_mean": 1.2161512062244917,
+        "cbp_literal_replay": 1.2161512062244917,
+        "cbp_mean_replay": 1.2161512062244917,
+        "random_literal_replay": 1.2161512062244917,
+        "random_mean_replay": 1.2161512062244917,
+        "sgd_replay": 1.2161512062244917,
+        "cache": 2.0
+      },
+      "storage": {
+        "cbp_literal": {
+          "actual_pickle4_state_bytes": 8962,
+          "actual_deep_python_state_bytes": 55578,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "a350781c0a67edb8f2006293cc7bf8720877ce6512cfeedf61c249c8809794c6"
+        },
+        "cbp_mean": {
+          "actual_pickle4_state_bytes": 8962,
+          "actual_deep_python_state_bytes": 55582,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "ff5fc1a36f910041d48e7eaa1937b0ef1e7b801cb61df0eb358db2c358dfe19b"
+        },
+        "cbp_literal_replay": {
+          "actual_pickle4_state_bytes": 21281,
+          "actual_deep_python_state_bytes": 150726,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "694988ddbbc3a6d9d8a692e5a3404da6c9f512f8ad1886186d36fdb06824a5a2"
+        },
+        "cbp_mean_replay": {
+          "actual_pickle4_state_bytes": 21281,
+          "actual_deep_python_state_bytes": 150730,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "ae54ba0dfed5f4a2bc8ad1f05558810a263a9cb88a06ecd55dcecf08e5dce431"
+        },
+        "random_literal_replay": {
+          "actual_pickle4_state_bytes": 21320,
+          "actual_deep_python_state_bytes": 150805,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "2fdda9f6e4874f8c6e6b4f7dbf91a9744efd5374ca8eee9d769c27c9a012475e"
+        },
+        "random_mean_replay": {
+          "actual_pickle4_state_bytes": 21320,
+          "actual_deep_python_state_bytes": 150809,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "94d954e232662f701618cd3d33f34d49799cbcf4ea93cdef85bbe6fbdb4e51df"
+        },
+        "sgd_replay": {
+          "actual_pickle4_state_bytes": 13506,
+          "actual_deep_python_state_bytes": 100047,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "f7168cc49506041d93aa9eac40adfa3765a6d994afd7846934a51ab1166f07fc"
+        },
+        "cache": {
+          "actual_pickle4_state_bytes": 4233,
+          "actual_deep_python_state_bytes": 4996,
+          "packed_array_objects_bytes": 4202,
+          "packed_payload_bytes": 4062,
+          "pickle4_sha256": "40c61750c3c8f0cd783698b0ca92804e5a6ae1ae6bdf1817c99362e4592d61ff",
+          "storage_convention": "full mutable cache state, including capacity/counters/fallback; no RNG"
+        }
+      },
+      "seconds_by_activity": {
+        "cbp_literal": 13.664284306996507,
+        "cbp_mean": 13.526247309994488,
+        "cbp_literal_replay": 26.479809705975214,
+        "cbp_mean_replay": 26.486162298999403,
+        "random_literal_replay": 17.59011260402073,
+        "random_mean_replay": 17.34088591104222,
+        "sgd_replay": 10.6740494239979,
+        "cache": 11.295821986996884,
+        "scoring": 5.221733210999872,
+        "replay_feed": 0.6094792410083869
+      },
+      "total_seconds": 145.736226334,
+      "max_rss_bytes_macos": 46956544,
+      "exposure": "all generated parameter/input/label/unused blocks and all learner/scorer/diagnostic outputs consumed",
+      "output_bytes": 2626095,
+      "output_sha256": "c1c69e146f90f259bdf08fc84d97967979d59da71c911c7b110b9bfbe7592387"
+    },
+    {
+      "seed": 240003,
+      "status": "PASS",
+      "utc": "2026-11-03T02:33:10Z",
+      "source_equations_not_author_torch": true,
+      "realization_sha256": "119979e00165045babd86f726b6061b6bd0bb924956f4dfb115103073ba889f5",
+      "realization_bytes": 2734558,
+      "teacher_exact_reference_checks": 3232,
+      "generated_examples": 1010000,
+      "current_examples": 1000000,
+      "steps": {
+        "cbp_literal": 1000000,
+        "cbp_mean": 1000000,
+        "cbp_literal_replay": 1999999,
+        "cbp_mean_replay": 1999999,
+        "random_literal_replay": 1999999,
+        "random_mean_replay": 1999999,
+        "sgd_replay": 1999999
+      },
+      "replacements": {
+        "cbp_literal": 493,
+        "cbp_mean": 493,
+        "cbp_literal_replay": 978,
+        "cbp_mean_replay": 978,
+        "random_literal_replay": 978,
+        "random_mean_replay": 978
+      },
+      "compensation": {
+        "cbp_literal": {
+          "sum": 0.0,
+          "abs_sum": 0.0,
+          "square_sum": 0.0
+        },
+        "cbp_mean": {
+          "sum": 1.1745183608707916,
+          "abs_sum": 10.764189261864152,
+          "square_sum": 1.1997929250006296
+        },
+        "cbp_literal_replay": {
+          "sum": 0.0,
+          "abs_sum": 0.0,
+          "square_sum": 0.0
+        },
+        "cbp_mean_replay": {
+          "sum": 0.6219077637345003,
+          "abs_sum": 42.42877383810031,
+          "square_sum": 5.386162299558142
+        },
+        "random_literal_replay": {
+          "sum": 0.0,
+          "abs_sum": 0.0,
+          "square_sum": 0.0
+        },
+        "random_mean_replay": {
+          "sum": 10.778254591371638,
+          "abs_sum": 261.06434624928437,
+          "square_sum": 161.43052086946253
+        }
+      },
+      "teacher_mean": -1.005,
+      "teacher_variance": 2.76685,
+      "initial_before": {
+        "cbp_literal": 13.326447914052022,
+        "cbp_mean": 13.326447914052022,
+        "cbp_literal_replay": 13.326447914052022,
+        "cbp_mean_replay": 13.326447914052022,
+        "random_literal_replay": 13.326447914052022,
+        "random_mean_replay": 13.326447914052022,
+        "sgd_replay": 13.326447914052022,
+        "cache": 10.65625
+      },
+      "storage": {
+        "cbp_literal": {
+          "actual_pickle4_state_bytes": 8999,
+          "actual_deep_python_state_bytes": 55498,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "75f311e3f0e6aacad8899fa4b0b170b6604f4a713c8a1cdad022676423ee8e8d"
+        },
+        "cbp_mean": {
+          "actual_pickle4_state_bytes": 8999,
+          "actual_deep_python_state_bytes": 55502,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "449d1c1bc09eaf70043656209fcfb3546f52edb80d2c2aa9312e958023bdeabd"
+        },
+        "cbp_literal_replay": {
+          "actual_pickle4_state_bytes": 22080,
+          "actual_deep_python_state_bytes": 150498,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "1663b259f7c9b87c918ae926432cb211e732c367215b784e39c7faabfad7537b"
+        },
+        "cbp_mean_replay": {
+          "actual_pickle4_state_bytes": 22080,
+          "actual_deep_python_state_bytes": 150502,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "56e04c0a91a9f4e3c22e15ce73076523ceeddde8e40f1faf7afefa12ae8db414"
+        },
+        "random_literal_replay": {
+          "actual_pickle4_state_bytes": 22081,
+          "actual_deep_python_state_bytes": 150477,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "da4c77cb7b6e08e991c64c80e9213ce016fa30f98defe76665a14956bd762ee8"
+        },
+        "random_mean_replay": {
+          "actual_pickle4_state_bytes": 22081,
+          "actual_deep_python_state_bytes": 150481,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "ed193d6596b3ca4dbdcd03c658f6b2a91d42a404504b6874cb34789e2bd81516"
+        },
+        "sgd_replay": {
+          "actual_pickle4_state_bytes": 14265,
+          "actual_deep_python_state_bytes": 99843,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "b1c7caead558f5cf3dceb2d147348b9246f92c9ea9355e97495219c86e0e8335"
+        },
+        "cache": {
+          "actual_pickle4_state_bytes": 4233,
+          "actual_deep_python_state_bytes": 4996,
+          "packed_array_objects_bytes": 4202,
+          "packed_payload_bytes": 4062,
+          "pickle4_sha256": "a750df2ae9bf93fcb998cd4d458549fd023eb61cc9c19a32096248bb3981a003",
+          "storage_convention": "full mutable cache state, including capacity/counters/fallback; no RNG"
+        }
+      },
+      "seconds_by_activity": {
+        "cbp_literal": 13.65810318600569,
+        "cbp_mean": 13.482086817021013,
+        "cbp_literal_replay": 26.540260524996768,
+        "cbp_mean_replay": 26.436207543973865,
+        "random_literal_replay": 17.430177211982993,
+        "random_mean_replay": 17.208949613989716,
+        "sgd_replay": 10.242068244021368,
+        "cache": 11.249337412942054,
+        "scoring": 5.163371749000191,
+        "replay_feed": 0.6137809000063044
+      },
+      "total_seconds": 144.90303070800002,
+      "max_rss_bytes_macos": 50348032,
+      "exposure": "all generated parameter/input/label/unused blocks and all learner/scorer/diagnostic outputs consumed",
+      "output_bytes": 2621727,
+      "output_sha256": "4ab8630cf182b5c802d74b7c71d8512a407b5dc39ebf7f8ba610f5cb23965ab4"
+    },
+    {
+      "seed": 240004,
+      "status": "PASS",
+      "utc": "2026-11-03T02:35:37Z",
+      "source_equations_not_author_torch": true,
+      "realization_sha256": "2e5a252a890608c21ce383091f4646afc305a2ccd8fcb01b6ff1e6246ca6c980",
+      "realization_bytes": 2734341,
+      "teacher_exact_reference_checks": 3232,
+      "generated_examples": 1010000,
+      "current_examples": 1000000,
+      "steps": {
+        "cbp_literal": 1000000,
+        "cbp_mean": 1000000,
+        "cbp_literal_replay": 1999999,
+        "cbp_mean_replay": 1999999,
+        "random_literal_replay": 1999999,
+        "random_mean_replay": 1999999,
+        "sgd_replay": 1999999
+      },
+      "replacements": {
+        "cbp_literal": 470,
+        "cbp_mean": 470,
+        "cbp_literal_replay": 945,
+        "cbp_mean_replay": 945,
+        "random_literal_replay": 945,
+        "random_mean_replay": 945
+      },
+      "compensation": {
+        "cbp_literal": {
+          "sum": 0.0,
+          "abs_sum": 0.0,
+          "square_sum": 0.0
+        },
+        "cbp_mean": {
+          "sum": 1.6262986847294687,
+          "abs_sum": 13.066333114174098,
+          "square_sum": 1.7833533666044734
+        },
+        "cbp_literal_replay": {
+          "sum": 0.0,
+          "abs_sum": 0.0,
+          "square_sum": 0.0
+        },
+        "cbp_mean_replay": {
+          "sum": -2.9253423460058214,
+          "abs_sum": 40.665323804364725,
+          "square_sum": 5.184315641302055
+        },
+        "random_literal_replay": {
+          "sum": 0.0,
+          "abs_sum": 0.0,
+          "square_sum": 0.0
+        },
+        "random_mean_replay": {
+          "sum": -18.702210558885866,
+          "abs_sum": 246.2822295012644,
+          "square_sum": 145.4566229542425
+        }
+      },
+      "teacher_mean": -1.2653125,
+      "teacher_variance": 2.78367177734375,
+      "initial_before": {
+        "cbp_literal": 4.8135819426662305,
+        "cbp_mean": 4.8135819426662305,
+        "cbp_literal_replay": 4.8135819426662305,
+        "cbp_mean_replay": 4.8135819426662305,
+        "random_literal_replay": 4.8135819426662305,
+        "random_mean_replay": 4.8135819426662305,
+        "sgd_replay": 4.8135819426662305,
+        "cache": 2.8125
+      },
+      "storage": {
+        "cbp_literal": {
+          "actual_pickle4_state_bytes": 8920,
+          "actual_deep_python_state_bytes": 55558,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "6451100f5731ca27f13dd2761d6ecc371a2408f8e66b9dd9de873101dde8da24"
+        },
+        "cbp_mean": {
+          "actual_pickle4_state_bytes": 8920,
+          "actual_deep_python_state_bytes": 55562,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "a49a453bc9157d290d136d37c3a866cd194a4e5deb29054277e34c6971da7b74"
+        },
+        "cbp_literal_replay": {
+          "actual_pickle4_state_bytes": 22074,
+          "actual_deep_python_state_bytes": 150850,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "176d19ee69022aa9bcd7244bdd7ad9576a5e3cfdc481fb5e9f347fd086ac5fc0"
+        },
+        "cbp_mean_replay": {
+          "actual_pickle4_state_bytes": 22074,
+          "actual_deep_python_state_bytes": 150854,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "5549070f12a0b7a02d1f81938e020d7a16d56182893fdaa732d37605a8b10ea4"
+        },
+        "random_literal_replay": {
+          "actual_pickle4_state_bytes": 22029,
+          "actual_deep_python_state_bytes": 150829,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "1a8e68668172cb5795c64e58f9a00c984c5a7eebbc6d491caa2bc415cd6ffb4c"
+        },
+        "random_mean_replay": {
+          "actual_pickle4_state_bytes": 22029,
+          "actual_deep_python_state_bytes": 150833,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "cabb2fd6526998cf14e70def21e1f565cb6e60fb11e7ebffc4ac2b646ad54348"
+        },
+        "sgd_replay": {
+          "actual_pickle4_state_bytes": 14269,
+          "actual_deep_python_state_bytes": 100243,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "807e355f727cba86b0f12c6bb46a3ec97924a43ee592be281fdf2af657ed091f"
+        },
+        "cache": {
+          "actual_pickle4_state_bytes": 4233,
+          "actual_deep_python_state_bytes": 4996,
+          "packed_array_objects_bytes": 4202,
+          "packed_payload_bytes": 4062,
+          "pickle4_sha256": "aa85e27694ea4a405efb131c66c4c950f72860ddddba59754c793761edd6286a",
+          "storage_convention": "full mutable cache state, including capacity/counters/fallback; no RNG"
+        }
+      },
+      "seconds_by_activity": {
+        "cbp_literal": 13.794875595013593,
+        "cbp_mean": 13.635923109985015,
+        "cbp_literal_replay": 26.763862395014087,
+        "cbp_mean_replay": 26.767511899019098,
+        "random_literal_replay": 17.665408298968032,
+        "random_mean_replay": 17.49184081795437,
+        "sgd_replay": 10.605668172979904,
+        "cache": 11.40011486706544,
+        "scoring": 5.220807213000228,
+        "replay_feed": 0.623589895018938
+      },
+      "total_seconds": 146.85585583300002,
+      "max_rss_bytes_macos": 50839552,
+      "exposure": "all generated parameter/input/label/unused blocks and all learner/scorer/diagnostic outputs consumed",
+      "output_bytes": 2620237,
+      "output_sha256": "d44f753d9525ac4e680ca26d7fd7b47111fe7eeadc9f0d91fb0de794375eba03"
+    },
+    {
+      "seed": 240005,
+      "status": "PASS",
+      "utc": "2026-11-03T02:38:04Z",
+      "source_equations_not_author_torch": true,
+      "realization_sha256": "b2b4052e419751275e793d2d8ebdcd5f5cbebbb86f6a1072e8a72ec1ab708feb",
+      "realization_bytes": 2734807,
+      "teacher_exact_reference_checks": 3232,
+      "generated_examples": 1010000,
+      "current_examples": 1000000,
+      "steps": {
+        "cbp_literal": 1000000,
+        "cbp_mean": 1000000,
+        "cbp_literal_replay": 1999999,
+        "cbp_mean_replay": 1999999,
+        "random_literal_replay": 1999999,
+        "random_mean_replay": 1999999,
+        "sgd_replay": 1999999
+      },
+      "replacements": {
+        "cbp_literal": 525,
+        "cbp_mean": 525,
+        "cbp_literal_replay": 1047,
+        "cbp_mean_replay": 1047,
+        "random_literal_replay": 1047,
+        "random_mean_replay": 1047
+      },
+      "compensation": {
+        "cbp_literal": {
+          "sum": 0.0,
+          "abs_sum": 0.0,
+          "square_sum": 0.0
+        },
+        "cbp_mean": {
+          "sum": 0.6613037690860873,
+          "abs_sum": 11.897295929957707,
+          "square_sum": 1.4354979947827577
+        },
+        "cbp_literal_replay": {
+          "sum": 0.0,
+          "abs_sum": 0.0,
+          "square_sum": 0.0
+        },
+        "cbp_mean_replay": {
+          "sum": 1.624768991463673,
+          "abs_sum": 40.75110983119513,
+          "square_sum": 5.364389943290916
+        },
+        "random_literal_replay": {
+          "sum": 0.0,
+          "abs_sum": 0.0,
+          "square_sum": 0.0
+        },
+        "random_mean_replay": {
+          "sum": -1.3101488509574568,
+          "abs_sum": 277.6772818584286,
+          "square_sum": 182.03256784848355
+        }
+      },
+      "teacher_mean": -0.9196875,
+      "teacher_variance": 3.37448740234375,
+      "initial_before": {
+        "cbp_literal": 3.2600946658243584,
+        "cbp_mean": 3.2600946658243584,
+        "cbp_literal_replay": 3.2600946658243584,
+        "cbp_mean_replay": 3.2600946658243584,
+        "random_literal_replay": 3.2600946658243584,
+        "random_mean_replay": 3.2600946658243584,
+        "sgd_replay": 3.2600946658243584,
+        "cache": 4.1875
+      },
+      "storage": {
+        "cbp_literal": {
+          "actual_pickle4_state_bytes": 8959,
+          "actual_deep_python_state_bytes": 55526,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "f98e705350edc61704cb3ace0b71744e9de2941684ca56c1d3ecec8426db27b4"
+        },
+        "cbp_mean": {
+          "actual_pickle4_state_bytes": 8959,
+          "actual_deep_python_state_bytes": 55530,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "e44b9865287163a70393627ab86e45841149aa96251062101049cc3d5e7cf40e"
+        },
+        "cbp_literal_replay": {
+          "actual_pickle4_state_bytes": 22020,
+          "actual_deep_python_state_bytes": 150498,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "4258307709b591d30f695a568ca1363878d2d7df9a2a0e785e05a917bc5a958a"
+        },
+        "cbp_mean_replay": {
+          "actual_pickle4_state_bytes": 22020,
+          "actual_deep_python_state_bytes": 150502,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "b4afba63efaceff33d0f5756434c00269e92a5ab31d7204b60a5190d9fe92717"
+        },
+        "random_literal_replay": {
+          "actual_pickle4_state_bytes": 22037,
+          "actual_deep_python_state_bytes": 150433,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "8fcfc9ac2f48d84f6d353275dbd4be94da9dda6f4660b1f53d2a86171b8a3049"
+        },
+        "random_mean_replay": {
+          "actual_pickle4_state_bytes": 22037,
+          "actual_deep_python_state_bytes": 150437,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "4b90566d0cac58d3a654e8b184f7b27408cb6593cce72cca6f22db579cae4df5"
+        },
+        "sgd_replay": {
+          "actual_pickle4_state_bytes": 14196,
+          "actual_deep_python_state_bytes": 99779,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "6f05cc6953889975bfd8b0c35a718420d555bdf6525b520f6f3e43b55dae815c"
+        },
+        "cache": {
+          "actual_pickle4_state_bytes": 4233,
+          "actual_deep_python_state_bytes": 4996,
+          "packed_array_objects_bytes": 4202,
+          "packed_payload_bytes": 4062,
+          "pickle4_sha256": "fc9f82a15b56ab3979b00984d7f53c698283cf10d1acb5bc7adaa5abcbd1a9c0",
+          "storage_convention": "full mutable cache state, including capacity/counters/fallback; no RNG"
+        }
+      },
+      "seconds_by_activity": {
+        "cbp_literal": 13.905288538971377,
+        "cbp_mean": 13.746040837076066,
+        "cbp_literal_replay": 26.855920210993418,
+        "cbp_mean_replay": 26.86966637408773,
+        "random_literal_replay": 17.751569768912304,
+        "random_mean_replay": 17.57010305396807,
+        "sgd_replay": 10.535496343027035,
+        "cache": 11.433648549942063,
+        "scoring": 5.28073799900028,
+        "replay_feed": 0.6247156689662461
+      },
+      "total_seconds": 147.47384616600004,
+      "max_rss_bytes_macos": 51200000,
+      "exposure": "all generated parameter/input/label/unused blocks and all learner/scorer/diagnostic outputs consumed",
+      "output_bytes": 2642710,
+      "output_sha256": "8fdb64469abf0a9fcebda1522edc905703bf0683d1699fbe683dc3daf666822e"
+    },
+    {
+      "seed": 240006,
+      "status": "PASS",
+      "utc": "2026-11-03T02:40:32Z",
+      "source_equations_not_author_torch": true,
+      "realization_sha256": "e6e569dba2551b4dad80d1296a078f090f293a30a9fe9da0fc34bf59b8823ab8",
+      "realization_bytes": 2733255,
+      "teacher_exact_reference_checks": 3232,
+      "generated_examples": 1010000,
+      "current_examples": 1000000,
+      "steps": {
+        "cbp_literal": 1000000,
+        "cbp_mean": 1000000,
+        "cbp_literal_replay": 1999999,
+        "cbp_mean_replay": 1999999,
+        "random_literal_replay": 1999999,
+        "random_mean_replay": 1999999,
+        "sgd_replay": 1999999
+      },
+      "replacements": {
+        "cbp_literal": 471,
+        "cbp_mean": 471,
+        "cbp_literal_replay": 975,
+        "cbp_mean_replay": 975,
+        "random_literal_replay": 975,
+        "random_mean_replay": 975
+      },
+      "compensation": {
+        "cbp_literal": {
+          "sum": 0.0,
+          "abs_sum": 0.0,
+          "square_sum": 0.0
+        },
+        "cbp_mean": {
+          "sum": -0.9999962550299214,
+          "abs_sum": 12.394604838982524,
+          "square_sum": 1.6327501492311025
+        },
+        "cbp_literal_replay": {
+          "sum": 0.0,
+          "abs_sum": 0.0,
+          "square_sum": 0.0
+        },
+        "cbp_mean_replay": {
+          "sum": -4.060458958829621,
+          "abs_sum": 41.70963110135758,
+          "square_sum": 5.545703585203811
+        },
+        "random_literal_replay": {
+          "sum": 0.0,
+          "abs_sum": 0.0,
+          "square_sum": 0.0
+        },
+        "random_mean_replay": {
+          "sum": -5.982358040417502,
+          "abs_sum": 252.63532551980902,
+          "square_sum": 150.72599044190585
+        }
+      },
+      "teacher_mean": 0.845,
+      "teacher_variance": 2.7897250000000002,
+      "initial_before": {
+        "cbp_literal": 1.653341674090871,
+        "cbp_mean": 1.653341674090871,
+        "cbp_literal_replay": 1.653341674090871,
+        "cbp_mean_replay": 1.653341674090871,
+        "random_literal_replay": 1.653341674090871,
+        "random_mean_replay": 1.653341674090871,
+        "sgd_replay": 1.653341674090871,
+        "cache": 1.4375
+      },
+      "storage": {
+        "cbp_literal": {
+          "actual_pickle4_state_bytes": 8988,
+          "actual_deep_python_state_bytes": 55602,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "6ad33537881d6ed288179b94d5b70ac10090160ac28989183a9a44b86f5b4672"
+        },
+        "cbp_mean": {
+          "actual_pickle4_state_bytes": 8988,
+          "actual_deep_python_state_bytes": 55606,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "3f084f968adf27ff3d65e337ea46ba622ff2a71fdbba7050cede9f01f9c01615"
+        },
+        "cbp_literal_replay": {
+          "actual_pickle4_state_bytes": 21391,
+          "actual_deep_python_state_bytes": 150898,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "516336a975761f8fb117763d4801af8948afd6feb32e9bd5f298d40666f01720"
+        },
+        "cbp_mean_replay": {
+          "actual_pickle4_state_bytes": 21391,
+          "actual_deep_python_state_bytes": 150902,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "8b82fb747384825f865ce590487ca0328e60eb8a56b973befe75f0cbca8eb988"
+        },
+        "random_literal_replay": {
+          "actual_pickle4_state_bytes": 21396,
+          "actual_deep_python_state_bytes": 150881,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "509684711146b147ae593193b8feb5adb83d7ff5b37a5bf8f51999092b773e08"
+        },
+        "random_mean_replay": {
+          "actual_pickle4_state_bytes": 21396,
+          "actual_deep_python_state_bytes": 150885,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "aced722deda684b0ff1427d9a8c2a3c8f54175bf2023fa26737b50b8aea82e8b"
+        },
+        "sgd_replay": {
+          "actual_pickle4_state_bytes": 13580,
+          "actual_deep_python_state_bytes": 100219,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "ddb5aa23a47827e4289da2a60eb7ee60c895d44be724e51aeeeef4272e3a3927"
+        },
+        "cache": {
+          "actual_pickle4_state_bytes": 4233,
+          "actual_deep_python_state_bytes": 4996,
+          "packed_array_objects_bytes": 4202,
+          "packed_payload_bytes": 4062,
+          "pickle4_sha256": "28db6ce041bf3b459a84baf1c306f53ea89ab987ad395ca6743f225b58ba6d71",
+          "storage_convention": "full mutable cache state, including capacity/counters/fallback; no RNG"
+        }
+      },
+      "seconds_by_activity": {
+        "cbp_literal": 13.893919826040815,
+        "cbp_mean": 13.70569923201208,
+        "cbp_literal_replay": 26.930609809998828,
+        "cbp_mean_replay": 26.973431876982318,
+        "random_literal_replay": 17.794181381025624,
+        "random_mean_replay": 17.61350144800963,
+        "sgd_replay": 10.631695466925862,
+        "cache": 11.564507478932569,
+        "scoring": 5.254939374999822,
+        "replay_feed": 0.6238956999123957
+      },
+      "total_seconds": 147.9042704169999,
+      "max_rss_bytes_macos": 51462144,
+      "exposure": "all generated parameter/input/label/unused blocks and all learner/scorer/diagnostic outputs consumed",
+      "output_bytes": 2620442,
+      "output_sha256": "eef7c2e23353a51bd385b7763f74b6fbdfeddfa5185de5ccca26f4c512b061ed"
+    },
+    {
+      "seed": 240007,
+      "status": "PASS",
+      "utc": "2026-11-03T02:42:59Z",
+      "source_equations_not_author_torch": true,
+      "realization_sha256": "ea3c674125d52803968fdea07538eb078d5b2fa8af14293ef319630cef0df106",
+      "realization_bytes": 2734653,
+      "teacher_exact_reference_checks": 3232,
+      "generated_examples": 1010000,
+      "current_examples": 1000000,
+      "steps": {
+        "cbp_literal": 1000000,
+        "cbp_mean": 1000000,
+        "cbp_literal_replay": 1999999,
+        "cbp_mean_replay": 1999999,
+        "random_literal_replay": 1999999,
+        "random_mean_replay": 1999999,
+        "sgd_replay": 1999999
+      },
+      "replacements": {
+        "cbp_literal": 496,
+        "cbp_mean": 496,
+        "cbp_literal_replay": 1005,
+        "cbp_mean_replay": 1005,
+        "random_literal_replay": 1005,
+        "random_mean_replay": 1005
+      },
+      "compensation": {
+        "cbp_literal": {
+          "sum": 0.0,
+          "abs_sum": 0.0,
+          "square_sum": 0.0
+        },
+        "cbp_mean": {
+          "sum": -1.5807075469773784,
+          "abs_sum": 10.348870555925842,
+          "square_sum": 1.0405200039284763
+        },
+        "cbp_literal_replay": {
+          "sum": 0.0,
+          "abs_sum": 0.0,
+          "square_sum": 0.0
+        },
+        "cbp_mean_replay": {
+          "sum": -0.9984883729740641,
+          "abs_sum": 33.51038255072336,
+          "square_sum": 3.30514073109452
+        },
+        "random_literal_replay": {
+          "sum": 0.0,
+          "abs_sum": 0.0,
+          "square_sum": 0.0
+        },
+        "random_mean_replay": {
+          "sum": -17.389585869540856,
+          "abs_sum": 209.90832372263225,
+          "square_sum": 114.22519167126802
+        }
+      },
+      "teacher_mean": -1.5196875,
+      "teacher_variance": 1.9233624023437499,
+      "initial_before": {
+        "cbp_literal": 1.24936205317312,
+        "cbp_mean": 1.24936205317312,
+        "cbp_literal_replay": 1.24936205317312,
+        "cbp_mean_replay": 1.24936205317312,
+        "random_literal_replay": 1.24936205317312,
+        "random_mean_replay": 1.24936205317312,
+        "sgd_replay": 1.24936205317312,
+        "cache": 1.3125
+      },
+      "storage": {
+        "cbp_literal": {
+          "actual_pickle4_state_bytes": 8977,
+          "actual_deep_python_state_bytes": 55474,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "8e6e3d0f5519cbb310a1d75ce65ec667d165435102f7055055d0e85bd48c7769"
+        },
+        "cbp_mean": {
+          "actual_pickle4_state_bytes": 8977,
+          "actual_deep_python_state_bytes": 55478,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "c94a654330102f88d400353305142f7ce2ef13930d649c15e1776720554207c9"
+        },
+        "cbp_literal_replay": {
+          "actual_pickle4_state_bytes": 22263,
+          "actual_deep_python_state_bytes": 150734,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "10bf3cdad5fd379c4087947880dab951ebb414afad8bdaf9484b311c4c195f62"
+        },
+        "cbp_mean_replay": {
+          "actual_pickle4_state_bytes": 22263,
+          "actual_deep_python_state_bytes": 150738,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "336b62ee1c167925c30e42eee11d60cecf88b4f8f8ce8237a99ddfa705644ad4"
+        },
+        "random_literal_replay": {
+          "actual_pickle4_state_bytes": 22214,
+          "actual_deep_python_state_bytes": 150685,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "b734f8f6813f336204155aa505c2296d346136a0476c440c2d7f981e052d13fb"
+        },
+        "random_mean_replay": {
+          "actual_pickle4_state_bytes": 22214,
+          "actual_deep_python_state_bytes": 150689,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "597a4dee55aa844d5f135653370eb7b3162bd8bc0bc01b7dee789d4bc20c67c5"
+        },
+        "sgd_replay": {
+          "actual_pickle4_state_bytes": 14428,
+          "actual_deep_python_state_bytes": 100031,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "9904d86237bf3460e42877aae1090e71cc38199f25c0d679001109474259fcc2"
+        },
+        "cache": {
+          "actual_pickle4_state_bytes": 4233,
+          "actual_deep_python_state_bytes": 4996,
+          "packed_array_objects_bytes": 4202,
+          "packed_payload_bytes": 4062,
+          "pickle4_sha256": "46318eef385fd7cdbdf478c211d8fe3caf2e3b7dd17c1c86d349f88bc388d3c4",
+          "storage_convention": "full mutable cache state, including capacity/counters/fallback; no RNG"
+        }
+      },
+      "seconds_by_activity": {
+        "cbp_literal": 13.88813633795803,
+        "cbp_mean": 13.707169896966207,
+        "cbp_literal_replay": 26.899828460955632,
+        "cbp_mean_replay": 26.85316587196087,
+        "random_literal_replay": 17.715850147032256,
+        "random_mean_replay": 17.51617757706174,
+        "sgd_replay": 10.493574252964777,
+        "cache": 11.46394348896581,
+        "scoring": 5.24317970300001,
+        "replay_feed": 0.6245789220445204
+      },
+      "total_seconds": 147.31827891699993,
+      "max_rss_bytes_macos": 51462144,
+      "exposure": "all generated parameter/input/label/unused blocks and all learner/scorer/diagnostic outputs consumed",
+      "output_bytes": 2627541,
+      "output_sha256": "eed3813e78768306f2d4fc47165bb94e84a94b561793f80762097e00af6600ab"
+    },
+    {
+      "seed": 240008,
+      "status": "PASS",
+      "utc": "2026-11-03T02:45:29Z",
+      "source_equations_not_author_torch": true,
+      "realization_sha256": "2154984e6d3dbe33830e123cece53d368fec71890536967c7bb76bd30774efac",
+      "realization_bytes": 2734382,
+      "teacher_exact_reference_checks": 3232,
+      "generated_examples": 1010000,
+      "current_examples": 1000000,
+      "steps": {
+        "cbp_literal": 1000000,
+        "cbp_mean": 1000000,
+        "cbp_literal_replay": 1999999,
+        "cbp_mean_replay": 1999999,
+        "random_literal_replay": 1999999,
+        "random_mean_replay": 1999999,
+        "sgd_replay": 1999999
+      },
+      "replacements": {
+        "cbp_literal": 501,
+        "cbp_mean": 501,
+        "cbp_literal_replay": 1037,
+        "cbp_mean_replay": 1037,
+        "random_literal_replay": 1037,
+        "random_mean_replay": 1037
+      },
+      "compensation": {
+        "cbp_literal": {
+          "sum": 0.0,
+          "abs_sum": 0.0,
+          "square_sum": 0.0
+        },
+        "cbp_mean": {
+          "sum": -1.8899944720843025,
+          "abs_sum": 14.785148719481539,
+          "square_sum": 2.1702815841001306
+        },
+        "cbp_literal_replay": {
+          "sum": 0.0,
+          "abs_sum": 0.0,
+          "square_sum": 0.0
+        },
+        "cbp_mean_replay": {
+          "sum": 2.8929211732581193,
+          "abs_sum": 39.79428658285292,
+          "square_sum": 4.859292363554169
+        },
+        "random_literal_replay": {
+          "sum": 0.0,
+          "abs_sum": 0.0,
+          "square_sum": 0.0
+        },
+        "random_mean_replay": {
+          "sum": 8.253733060239181,
+          "abs_sum": 292.0060565408374,
+          "square_sum": 195.69458795083986
+        }
+      },
+      "teacher_mean": -0.62625,
+      "teacher_variance": 3.4228109375000004,
+      "initial_before": {
+        "cbp_literal": 3.217762497647802,
+        "cbp_mean": 3.217762497647802,
+        "cbp_literal_replay": 3.217762497647802,
+        "cbp_mean_replay": 3.217762497647802,
+        "random_literal_replay": 3.217762497647802,
+        "random_mean_replay": 3.217762497647802,
+        "sgd_replay": 3.217762497647802,
+        "cache": 1.5
+      },
+      "storage": {
+        "cbp_literal": {
+          "actual_pickle4_state_bytes": 8886,
+          "actual_deep_python_state_bytes": 55454,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "e1ae074fbdbd0643c28a42ff44c436098dcca1467d64ba786193d8a241ca7e69"
+        },
+        "cbp_mean": {
+          "actual_pickle4_state_bytes": 8886,
+          "actual_deep_python_state_bytes": 55458,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "3c89034630a9b619bfcf444ef09ed83e16fec3b379177242016d2fbcb762417a"
+        },
+        "cbp_literal_replay": {
+          "actual_pickle4_state_bytes": 21956,
+          "actual_deep_python_state_bytes": 150794,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "ac1317ffb19c14d412b11983c76a24f72771bf6623097d3b8c1d36ae4e3e38b0"
+        },
+        "cbp_mean_replay": {
+          "actual_pickle4_state_bytes": 21956,
+          "actual_deep_python_state_bytes": 150798,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "193322f8cbd79da2be362d5c05cba63ffeacbc964e9e4cf9a42bbc7daa8417b0"
+        },
+        "random_literal_replay": {
+          "actual_pickle4_state_bytes": 21961,
+          "actual_deep_python_state_bytes": 150805,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "c7a58d38b7340ec6e09334a47d06499fb7bd4dbafb815e6d472839a15741bf9d"
+        },
+        "random_mean_replay": {
+          "actual_pickle4_state_bytes": 21961,
+          "actual_deep_python_state_bytes": 150809,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "9c81a09686021d7df65f3e99d40c8d2ad2efb30d4eb3bdc49772638e4dbcbc01"
+        },
+        "sgd_replay": {
+          "actual_pickle4_state_bytes": 14133,
+          "actual_deep_python_state_bytes": 100067,
+          "storage_convention": "full deployed mutable model/method RNG/replay RNG/reservoir; diagnostic logs/teacher/scorer excluded",
+          "pickle4_sha256": "1c1e5e417c793a0add489ccb70e55d0f7e7157e51e7d3f49ac3453a6be71bc05"
+        },
+        "cache": {
+          "actual_pickle4_state_bytes": 4233,
+          "actual_deep_python_state_bytes": 4996,
+          "packed_array_objects_bytes": 4202,
+          "packed_payload_bytes": 4062,
+          "pickle4_sha256": "a67c88d8859b827d5382b3dcae22db9c80585a2fc0b32e450b8d5df94158994f",
+          "storage_convention": "full mutable cache state, including capacity/counters/fallback; no RNG"
+        }
+      },
+      "seconds_by_activity": {
+        "cbp_literal": 14.07107103211115,
+        "cbp_mean": 13.877184960031627,
+        "cbp_literal_replay": 27.27664443099752,
+        "cbp_mean_replay": 27.316218708946053,
+        "random_literal_replay": 18.047525364038847,
+        "random_mean_replay": 17.880781841109183,
+        "sgd_replay": 10.726823096929593,
+        "cache": 11.782752569040895,
+        "scoring": 5.321294999000656,
+        "replay_feed": 0.6294023350951647
+      },
+      "total_seconds": 149.8505204999999,
+      "max_rss_bytes_macos": 51462144,
+      "exposure": "all generated parameter/input/label/unused blocks and all learner/scorer/diagnostic outputs consumed",
+      "output_bytes": 2638460,
+      "output_sha256": "3cb06a740608ab3c6d060a5cddf49b35f5884f65f86018a77cffd638fddfad95"
+    }
+  ],
+  "planned_seeds": [
+    240001,
+    240002,
+    240003,
+    240004,
+    240005,
+    240006,
+    240007,
+    240008
+  ],
+  "main_seconds": 1173.6479286249998,
+  "max_rss_bytes_macos": 51462144,
+  "cpu_seconds": 1172.692424
+}

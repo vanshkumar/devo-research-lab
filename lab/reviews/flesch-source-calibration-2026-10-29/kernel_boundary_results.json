@@ -1,0 +1,66 @@
+{
+  "checks": [
+    {
+      "name": "stable log emission 0000000",
+      "passed": true,
+      "expected": -1060.5427880785655,
+      "actual": -1060.5427880785655
+    },
+    {
+      "name": "stable log emission 1111111",
+      "passed": true,
+      "expected": -1060.5427880785653,
+      "actual": -1060.5427880785653
+    },
+    {
+      "name": "stable log emission 0101010",
+      "passed": true,
+      "expected": -1060.5427880785655,
+      "actual": -1060.5427880785655
+    },
+    {
+      "name": "exact-zero timing mass remains impossible",
+      "passed": true
+    },
+    {
+      "name": "missing action resets persistence state",
+      "passed": true
+    },
+    {
+      "name": "600-event independent recursion type 0",
+      "passed": true,
+      "acceptance": 0.026268548970424146
+    },
+    {
+      "name": "600-event independent recursion type 1",
+      "passed": true,
+      "acceptance": 0.9999998081405391
+    },
+    {
+      "name": "generative selection rate matches separate recursion",
+      "passed": true,
+      "expected": 0.6105073044724931,
+      "observed": 0.61767578125,
+      "mc_se": 0.01077531846927816
+    },
+    {
+      "name": "selection reweights sampled person mixture",
+      "passed": true,
+      "expected": 0.9827890354280878,
+      "observed": 0.9881422924901185,
+      "mc_se": 0.003656684525050571
+    },
+    {
+      "name": "generated opportunity curve counts late/missing as errors and drops only boundaries",
+      "passed": true
+    },
+    {
+      "name": "actual immutable chronology agrees with hardcoded 400/200 phase boundary",
+      "passed": true
+    }
+  ],
+  "passed": 11,
+  "reviewed_learning_sha256": "d2209e2125152e3ca96d10071d6d1bd9ccf074543aa5ec21faa4bb1a1d3c5c27",
+  "target_response_values_read": 0,
+  "max_rss_bytes": 102154240
+}

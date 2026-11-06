@@ -1,0 +1,21 @@
+{
+  "local_date": "2026-11-02",
+  "utc_date": "2026-11-03",
+  "new_public_operations": 4,
+  "new_public_limit": 6,
+  "deliberately_followed_programs": ["existing CBP/loss-of-plasticity"],
+  "operations": [
+    {"operation": 1, "kind": "provider open", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11338828/", "purpose": "primary description and intended algorithm"},
+    {"operation": 2, "kind": "provider find", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11338828/", "pattern": "bias", "purpose": "locate any explicit compensation intent"},
+    {"operation": 3, "kind": "provider excerpt open", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11338828/", "line": 390, "purpose": "methods and stability/plasticity scope"},
+    {"operation": 4, "kind": "provider excerpt open", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11338828/", "line": 255, "purpose": "Algorithm1 specifies replacement but no bias-compensation operation"}
+  ],
+  "primary_article": {"doi": "10.1038/s41586-024-07711-7", "license": "CC BY 4.0", "compensation_intent": "not certified by article pseudocode"},
+  "reused_source": {"repo": "shibhansh/loss-of-plasticity", "commit": "3138c5556859e0e2918d40f113b40699b6575cfa", "root_tree": "803541478812c901d267bd5acd069be20fb824f9", "license": "MIT", "read_only": true, "three_reverified_blob_hashes": "REFERENCE.json"},
+  "new_ingress_charge_bytes": 10000000,
+  "actual_provider_redirect_failure_ingress_bytes": null,
+  "ingress_compliance": "UNCERTIFIED; full allowance charged rather than measured-provider-traffic claim",
+  "new_code_or_dependency_downloads": 0,
+  "new_empirical_or_model_payloads": 0,
+  "prior_lineage": {"public_operations": 42, "ingress_allowance_bytes": 158000000, "ingress_compliance": "UNCERTIFIED", "separate_read_charge_bytes": 200000000, "consumed_generated_examples": 1050000, "consumed_teacher_seed": 1729, "prior_revisions": 2, "three_new_source_transcriptions_failed_byte_identity": true}
+}

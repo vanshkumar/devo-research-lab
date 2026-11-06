@@ -1,0 +1,84 @@
+{
+  "utc": "2026-11-05T18:51:52.340987+00:00",
+  "subject": "CSHL_002",
+  "all_192_retained": true,
+  "no_recoded_arrays": true,
+  "no_scores_no_forecasts": true,
+  "rows_with_negative_contrast": 82,
+  "affected_prefix_rows_200": 0,
+  "affected_prefix_rows_1000": 0,
+  "columns": [
+    "N_left",
+    "K_left",
+    "N_right",
+    "K_right"
+  ],
+  "windows": {
+    "short1001_1500": {
+      "literal_Nl_Kl_Nr_Kr": [
+        153,
+        70,
+        58,
+        27
+      ],
+      "column_side_counterfactual_count_delta": [
+        -33,
+        -7,
+        33,
+        25
+      ],
+      "counterfactual_Nl_Kl_Nr_Kr": [
+        120,
+        63,
+        91,
+        52
+      ],
+      "literal_sign_ratios": [
+        0.45751633986928103,
+        0.46551724137931033
+      ],
+      "counterfactual_sign_ratios": [
+        0.525,
+        0.5714285714285714
+      ],
+      "equal_sign_target_distance": 0.08669749508999003,
+      "maximum_absolute_paired_D_mean_change": 0.0008579439618280263,
+      "maximum_absolute_primary_Bonferroni_endpoint_change": 0.002930092976244912,
+      "maximum_absolute_MAE_contrast_mean_change": 0.0009030989071873961
+    },
+    "primary1001_3000": {
+      "literal_Nl_Kl_Nr_Kr": [
+        480,
+        296,
+        478,
+        199
+      ],
+      "column_side_counterfactual_count_delta": [
+        -33,
+        -7,
+        33,
+        25
+      ],
+      "counterfactual_Nl_Kl_Nr_Kr": [
+        447,
+        289,
+        511,
+        224
+      ],
+      "literal_sign_ratios": [
+        0.6166666666666667,
+        0.41631799163179917
+      ],
+      "counterfactual_sign_ratios": [
+        0.6465324384787472,
+        0.4383561643835616
+      ],
+      "equal_sign_target_distance": 0.025951972281921476,
+      "maximum_absolute_paired_D_mean_change": 0.00025681639237318124,
+      "maximum_absolute_primary_Bonferroni_endpoint_change": 0.000877092142328117,
+      "maximum_absolute_MAE_contrast_mean_change": 0.0002703330446033487
+    }
+  },
+  "scope": "Counterfactual side bookkeeping only, not a changed target cache or a forecast evaluation. The observed case code keeps original fields unchanged.",
+  "proof": "For both positive counts, distance between mixed states is absolute ratio change; triangle inequality bounds each proper-risk change by its equal-sign target distance. D has multiplier1.9. Only one paired animal changes, so mean and its standard error each change at most abs(delta)/192 (centered Euclidean norm inequality). The frozen critical then bounds the band-endpoint displacement. Applies if a separately released mapping only changes those observed targets and forecasts/weights remain fixed."
+}

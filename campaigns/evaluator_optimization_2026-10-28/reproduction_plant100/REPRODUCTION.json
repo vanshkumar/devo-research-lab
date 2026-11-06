@@ -1,0 +1,909 @@
+{
+  "status": "passed",
+  "plants": [
+    100
+  ],
+  "rounds": 64,
+  "arms": [
+    "oracle_joint",
+    "learned35_joint"
+  ],
+  "memoize": true,
+  "compare_authoritative": true,
+  "output_directory": "/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/evaluator_optimization_2026-10-28/reproduction_plant100",
+  "frozen_script_hashes": {
+    "/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/evaluator_optimization_2026-10-28/run.py": "9d7e91c33713553b66afa594aa01efbab1ba54ca6dc27c67da26b62aa72167b5",
+    "/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/evaluator_optimization_2026-10-28/run_mixed.py": "1bf8b6ac3e33b516b09ab8d230f3dc9dfc0d28e207218a0948f8414b415435bb"
+  },
+  "reproduction_wrapper_sha256": "d446bc25a611deb58f32100814f7d2d9e5f0f2ec52713d540cfb8a360dad739d",
+  "scientific_status": "exact software verification; no independent data or restored validation",
+  "plants_completed": [
+    100
+  ],
+  "comparisons": [
+    {
+      "plant_id": 100,
+      "passed": true,
+      "checks": [
+        {
+          "check": "authoritative_directory_exists",
+          "passed": true
+        },
+        {
+          "check": "input_array_names",
+          "passed": true
+        },
+        {
+          "check": "inputs.basis",
+          "passed": true
+        },
+        {
+          "check": "inputs.bias",
+          "passed": true
+        },
+        {
+          "check": "inputs.target",
+          "passed": true
+        },
+        {
+          "check": "inputs.initial",
+          "passed": true
+        },
+        {
+          "check": "inputs.on",
+          "passed": true
+        },
+        {
+          "check": "inputs.off",
+          "passed": true
+        },
+        {
+          "check": "inputs.seed",
+          "passed": true
+        },
+        {
+          "check": "state.config",
+          "passed": true
+        },
+        {
+          "check": "state.source_hashes",
+          "passed": true
+        },
+        {
+          "check": "state.plant_id",
+          "passed": true
+        },
+        {
+          "check": "state.seed",
+          "passed": true
+        },
+        {
+          "check": "current_source_hashes_match",
+          "passed": true
+        },
+        {
+          "check": "state.basis",
+          "passed": true
+        },
+        {
+          "check": "state.bias",
+          "passed": true
+        },
+        {
+          "check": "state.target",
+          "passed": true
+        },
+        {
+          "check": "state.initial",
+          "passed": true
+        },
+        {
+          "check": "state.rh",
+          "passed": true
+        },
+        {
+          "check": "state.initial_hE",
+          "passed": true
+        },
+        {
+          "check": "state.initial_hI",
+          "passed": true
+        },
+        {
+          "check": "state.target_features",
+          "passed": true
+        },
+        {
+          "check": "all_four_evaluator_names",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.attribute_names",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.NI",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.NE",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.NH",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.cW",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.w0_mean",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.w0_std",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.phiE",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.phiI",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.tauE",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.tauI",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.w_inh",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.W.format_shape",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.W.data",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.W.indices",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.W.indptr",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.JEE.format_shape",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.JEE.data",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.JEE.indices",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.JEE.indptr",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.JEI.format_shape",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.JEI.data",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.JEI.indices",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.JEI.indptr",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.JIE.format_shape",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.JIE.data",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.JIE.indices",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.JIE.indptr",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.JII.format_shape",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.JII.data",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.JII.indices",
+          "passed": true
+        },
+        {
+          "check": "net.untutored.JII.indptr",
+          "passed": true
+        },
+        {
+          "check": "probe_states.untutored.hE",
+          "passed": true
+        },
+        {
+          "check": "probe_states.untutored.hI",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.attribute_names",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.NI",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.NE",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.NH",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.cW",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.w0_mean",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.w0_std",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.phiE",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.phiI",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.tauE",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.tauI",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.w_inh",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.W.format_shape",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.W.data",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.W.indices",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.W.indptr",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.JEE.format_shape",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.JEE.data",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.JEE.indices",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.JEE.indptr",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.JEI.format_shape",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.JEI.data",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.JEI.indices",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.JEI.indptr",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.JIE.format_shape",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.JIE.data",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.JIE.indices",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.JIE.indptr",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.JII.format_shape",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.JII.data",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.JII.indices",
+          "passed": true
+        },
+        {
+          "check": "net.learned35.JII.indptr",
+          "passed": true
+        },
+        {
+          "check": "probe_states.learned35.hE",
+          "passed": true
+        },
+        {
+          "check": "probe_states.learned35.hI",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.attribute_names",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.NI",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.NE",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.NH",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.cW",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.w0_mean",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.w0_std",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.phiE",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.phiI",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.tauE",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.tauI",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.w_inh",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.W.format_shape",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.W.data",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.W.indices",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.W.indptr",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.JEE.format_shape",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.JEE.data",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.JEE.indices",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.JEE.indptr",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.JEI.format_shape",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.JEI.data",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.JEI.indices",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.JEI.indptr",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.JIE.format_shape",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.JIE.data",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.JIE.indices",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.JIE.indptr",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.JII.format_shape",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.JII.data",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.JII.indices",
+          "passed": true
+        },
+        {
+          "check": "net.learned140.JII.indptr",
+          "passed": true
+        },
+        {
+          "check": "probe_states.learned140.hE",
+          "passed": true
+        },
+        {
+          "check": "probe_states.learned140.hI",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.attribute_names",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.NI",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.NE",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.NH",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.cW",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.w0_mean",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.w0_std",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.phiE",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.phiI",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.tauE",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.tauI",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.w_inh",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.W.format_shape",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.W.data",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.W.indices",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.W.indptr",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.JEE.format_shape",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.JEE.data",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.JEE.indices",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.JEE.indptr",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.JEI.format_shape",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.JEI.data",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.JEI.indices",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.JEI.indptr",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.JIE.format_shape",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.JIE.data",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.JIE.indices",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.JIE.indptr",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.JII.format_shape",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.JII.data",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.JII.indices",
+          "passed": true
+        },
+        {
+          "check": "net.shuffled35.JII.indptr",
+          "passed": true
+        },
+        {
+          "check": "probe_states.shuffled35.hE",
+          "passed": true
+        },
+        {
+          "check": "probe_states.shuffled35.hI",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.exact_requested_rounds",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.exact_feedback_budget",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.authoritative_has_requested_prefix",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.actor_config",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.broad_candidates_hash",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.frozen_actor_script_hash",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.execution_slot_count",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.execution_accounting",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.queries.field_names",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.queries.actions.exact_length",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.queries.actions.prefix",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.queries.costs.exact_length",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.queries.costs.prefix",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.queries.true_losses.exact_length",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.queries.true_losses.prefix",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.trajectory.field_names",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.trajectory.actions.exact_length",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.trajectory.actions.prefix",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.trajectory.costs.exact_length",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.trajectory.costs.prefix",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.trajectory.steps.exact_length",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.trajectory.steps.prefix",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.trajectory.queries.exact_length",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.trajectory.queries.prefix",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.trajectory.true_losses.exact_length",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.trajectory.true_losses.prefix",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.trajectory.round_types.exact_length",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.trajectory.round_types.prefix",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.checkpoint_rounds",
+          "passed": true
+        },
+        {
+          "check": "oracle_joint.checkpoint_queries",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.exact_requested_rounds",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.exact_feedback_budget",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.authoritative_has_requested_prefix",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.actor_config",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.broad_candidates_hash",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.frozen_actor_script_hash",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.execution_slot_count",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.execution_accounting",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.queries.field_names",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.queries.actions.exact_length",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.queries.actions.prefix",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.queries.costs.exact_length",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.queries.costs.prefix",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.queries.true_losses.exact_length",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.queries.true_losses.prefix",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.trajectory.field_names",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.trajectory.actions.exact_length",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.trajectory.actions.prefix",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.trajectory.costs.exact_length",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.trajectory.costs.prefix",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.trajectory.steps.exact_length",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.trajectory.steps.prefix",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.trajectory.queries.exact_length",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.trajectory.queries.prefix",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.trajectory.true_losses.exact_length",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.trajectory.true_losses.prefix",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.trajectory.round_types.exact_length",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.trajectory.round_types.prefix",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.checkpoint_rounds",
+          "passed": true
+        },
+        {
+          "check": "learned35_joint.checkpoint_queries",
+          "passed": true
+        }
+      ],
+      "comparison": "byte-exact numerical objects and requested actor prefixes"
+    }
+  ],
+  "elapsed_seconds": 136.6876436250168
+}

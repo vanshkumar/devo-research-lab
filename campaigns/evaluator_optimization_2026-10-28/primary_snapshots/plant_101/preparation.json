@@ -1,0 +1,104 @@
+{
+  "plant_id": 101,
+  "seed": 31101,
+  "config": {
+    "motor_dimension": 4,
+    "contexts": 6,
+    "sensory_channels": 100,
+    "seed_rule": "31000+plant_id",
+    "initial_step": 0.4,
+    "min_step": 0.00625,
+    "lower": [
+      -2.0,
+      -2.0,
+      -2.0,
+      -2.0,
+      0.0
+    ],
+    "upper": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "queries_per_round": 10,
+    "tutor_renditions": [
+      35,
+      140
+    ],
+    "shuffled_context_roll": 1,
+    "training": "literal independent35/140/shuffled35 from identical initial state",
+    "training_clock": "one impending rendition included before truncation; exact35/140prefix",
+    "scoring": "mean of six source120ms context windows",
+    "zero_dynamical_noise": true
+  },
+  "source_hashes": {
+    "experiments/sensory_evaluator_preflight_2026-10-28/preflight.py": "5a0eac99870bf409592f8cf8e2831e0ed7ef61f4acdc0f430f5e0d3a95341df6",
+    "sources/sensory_evaluator_feasibility_2026-10-28/upstream/README.md": "489b9d6ac4eb66659297ca8ad641a31485564c761e3eaacc1efca64373dd9476",
+    "sources/sensory_evaluator_feasibility_2026-10-28/upstream/further_analysis/RL_syl_generation.ipynb": "a6aee1c2c0ca6517de14a8c6ad6c7ce1011225a92bfec115cebf8e9252147761",
+    "sources/sensory_evaluator_feasibility_2026-10-28/upstream/simulations/train_models.py": "fb16eca6f7b7251e53272203feae82a0bb7072e5d8540913dfe13ccd6bce2489",
+    "sources/sensory_evaluator_feasibility_2026-10-28/upstream/src/RL.py": "d1bed56de3ea26aa8d62ea302e0c4d29f5187fd2d6f4be98cc67863ecc44dfe0",
+    "sources/sensory_evaluator_feasibility_2026-10-28/upstream/src/models.py": "159730b6cdd10ff18ec8dabebbc68ad75d844242b194bd3313dea77ed956f39f",
+    "sources/sensory_evaluator_feasibility_2026-10-28/upstream/src/train_funcs.py": "01e7b7324ff5683fae4d9f8f6416f922ece5de51a5e4f9957da27dbe8912dce1",
+    "sources/sensory_evaluator_feasibility_2026-10-28/upstream/src/utils.py": "fc8ac6299b699854ea0e85bc3de986a902d0386ec16a6f97569d09d916fd92dc"
+  },
+  "training_seconds": {
+    "learned35": 12.25507533401833,
+    "learned140": 49.12751383302384,
+    "shuffled35": 12.45004979200894
+  },
+  "target_costs": {
+    "untutored": {
+      "mean": 8.6038172881471,
+      "contexts": [
+        8.38183542938955,
+        8.13650901906153,
+        9.680040677215482,
+        8.325404586624066,
+        8.832008774851863,
+        8.267105241740106
+      ],
+      "seconds": 0.14363558299373835
+    },
+    "learned35": {
+      "mean": 1.380556446702686,
+      "contexts": [
+        1.445692844094953,
+        1.4209289206674436,
+        1.3110581749362735,
+        1.3826479916736536,
+        1.4194941570632402,
+        1.3035165917805531
+      ],
+      "seconds": 0.13872350001474842
+    },
+    "learned140": {
+      "mean": 1.8048507423479228,
+      "contexts": [
+        1.4418815630940356,
+        2.2308734056767143,
+        2.191173902481338,
+        1.5858855196985986,
+        1.7400471664229946,
+        1.6392428967138548
+      ],
+      "seconds": 0.13902233299450018
+    },
+    "shuffled35": {
+      "mean": 2.3209769766377892,
+      "contexts": [
+        1.9951013793468373,
+        2.2461057167484952,
+        2.7006934554147284,
+        2.20223045698843,
+        2.351275391196234,
+        2.4304554601320105
+      ],
+      "seconds": 0.13889345800271258
+    }
+  },
+  "initial_true_loss": 6.260413952521083,
+  "target_reachable_true_loss": 0.0,
+  "learned35_suppression": 0.839541403487893
+}

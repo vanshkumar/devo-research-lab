@@ -1,0 +1,174 @@
+{
+  "original_cases": 16,
+  "distinct_selection_laws_under_frozen_finite_correctness_recording": 8,
+  "proof": "For every generated person/trajectory all160nonboundary test opportunities have finitecorrectness; late/timeout correctness0. Thus N160 and both helper and omissions-as-errors select exactly K>=89, independent of feedback/cue/person settings. This collapses event labels only, not numerical likelihood, omitted-training-path integration or the need to run the other8cases.",
+  "cases": [
+    {
+      "case": 1,
+      "selection": "helper",
+      "omitted_training_feedback": "full",
+      "test_cue": "unsmoothed",
+      "person_family": "gaussian",
+      "selection_equivalence_key": "full/unsmoothed/gaussian",
+      "status": "Primary source finite-fit executed; calibration/integration gate unearned",
+      "normalizer_requirement": "Exact count/history DP conditional on person nodes"
+    },
+    {
+      "case": 2,
+      "selection": "helper",
+      "omitted_training_feedback": "full",
+      "test_cue": "unsmoothed",
+      "person_family": "two_component",
+      "selection_equivalence_key": "full/unsmoothed/two_component",
+      "status": "Not executed after source/integration stop",
+      "normalizer_requirement": "Exact count/history DP conditional on person nodes"
+    },
+    {
+      "case": 3,
+      "selection": "helper",
+      "omitted_training_feedback": "full",
+      "test_cue": "continued_ema",
+      "person_family": "gaussian",
+      "selection_equivalence_key": "full/continued_ema/gaussian",
+      "status": "Not executed after source/integration stop",
+      "normalizer_requirement": "Exact count/history DP conditional on person nodes"
+    },
+    {
+      "case": 4,
+      "selection": "helper",
+      "omitted_training_feedback": "full",
+      "test_cue": "continued_ema",
+      "person_family": "two_component",
+      "selection_equivalence_key": "full/continued_ema/two_component",
+      "status": "Not executed after source/integration stop",
+      "normalizer_requirement": "Exact count/history DP conditional on person nodes"
+    },
+    {
+      "case": 5,
+      "selection": "helper",
+      "omitted_training_feedback": "none",
+      "test_cue": "unsmoothed",
+      "person_family": "gaussian",
+      "selection_equivalence_key": "none/unsmoothed/gaussian",
+      "status": "Not executed after source/integration stop",
+      "normalizer_requirement": "Training omission-path integration plus test count/history DP required; not implemented"
+    },
+    {
+      "case": 6,
+      "selection": "helper",
+      "omitted_training_feedback": "none",
+      "test_cue": "unsmoothed",
+      "person_family": "two_component",
+      "selection_equivalence_key": "none/unsmoothed/two_component",
+      "status": "Not executed after source/integration stop",
+      "normalizer_requirement": "Training omission-path integration plus test count/history DP required; not implemented"
+    },
+    {
+      "case": 7,
+      "selection": "helper",
+      "omitted_training_feedback": "none",
+      "test_cue": "continued_ema",
+      "person_family": "gaussian",
+      "selection_equivalence_key": "none/continued_ema/gaussian",
+      "status": "Not executed after source/integration stop",
+      "normalizer_requirement": "Training omission-path integration plus test count/history DP required; not implemented"
+    },
+    {
+      "case": 8,
+      "selection": "helper",
+      "omitted_training_feedback": "none",
+      "test_cue": "continued_ema",
+      "person_family": "two_component",
+      "selection_equivalence_key": "none/continued_ema/two_component",
+      "status": "Not executed after source/integration stop",
+      "normalizer_requirement": "Training omission-path integration plus test count/history DP required; not implemented"
+    },
+    {
+      "case": 9,
+      "selection": "omissions_errors",
+      "omitted_training_feedback": "full",
+      "test_cue": "unsmoothed",
+      "person_family": "gaussian",
+      "selection_equivalence_key": "full/unsmoothed/gaussian",
+      "status": "Primary source finite-fit executed; calibration/integration gate unearned",
+      "normalizer_requirement": "Exact count/history DP conditional on person nodes"
+    },
+    {
+      "case": 10,
+      "selection": "omissions_errors",
+      "omitted_training_feedback": "full",
+      "test_cue": "unsmoothed",
+      "person_family": "two_component",
+      "selection_equivalence_key": "full/unsmoothed/two_component",
+      "status": "Not executed after source/integration stop",
+      "normalizer_requirement": "Exact count/history DP conditional on person nodes"
+    },
+    {
+      "case": 11,
+      "selection": "omissions_errors",
+      "omitted_training_feedback": "full",
+      "test_cue": "continued_ema",
+      "person_family": "gaussian",
+      "selection_equivalence_key": "full/continued_ema/gaussian",
+      "status": "Not executed after source/integration stop",
+      "normalizer_requirement": "Exact count/history DP conditional on person nodes"
+    },
+    {
+      "case": 12,
+      "selection": "omissions_errors",
+      "omitted_training_feedback": "full",
+      "test_cue": "continued_ema",
+      "person_family": "two_component",
+      "selection_equivalence_key": "full/continued_ema/two_component",
+      "status": "Not executed after source/integration stop",
+      "normalizer_requirement": "Exact count/history DP conditional on person nodes"
+    },
+    {
+      "case": 13,
+      "selection": "omissions_errors",
+      "omitted_training_feedback": "none",
+      "test_cue": "unsmoothed",
+      "person_family": "gaussian",
+      "selection_equivalence_key": "none/unsmoothed/gaussian",
+      "status": "Not executed after source/integration stop",
+      "normalizer_requirement": "Training omission-path integration plus test count/history DP required; not implemented"
+    },
+    {
+      "case": 14,
+      "selection": "omissions_errors",
+      "omitted_training_feedback": "none",
+      "test_cue": "unsmoothed",
+      "person_family": "two_component",
+      "selection_equivalence_key": "none/unsmoothed/two_component",
+      "status": "Not executed after source/integration stop",
+      "normalizer_requirement": "Training omission-path integration plus test count/history DP required; not implemented"
+    },
+    {
+      "case": 15,
+      "selection": "omissions_errors",
+      "omitted_training_feedback": "none",
+      "test_cue": "continued_ema",
+      "person_family": "gaussian",
+      "selection_equivalence_key": "none/continued_ema/gaussian",
+      "status": "Not executed after source/integration stop",
+      "normalizer_requirement": "Training omission-path integration plus test count/history DP required; not implemented"
+    },
+    {
+      "case": 16,
+      "selection": "omissions_errors",
+      "omitted_training_feedback": "none",
+      "test_cue": "continued_ema",
+      "person_family": "two_component",
+      "selection_equivalence_key": "none/continued_ema/two_component",
+      "status": "Not executed after source/integration stop",
+      "normalizer_requirement": "Training omission-path integration plus test count/history DP required; not implemented"
+    }
+  ],
+  "network_initialization_sensitivity_seeds": {
+    "73191": "primaryonly",
+    "73192": "notrunafterstop",
+    "73193": "notrunafterstop"
+  },
+  "common_vs_instruction_initial_state_sensitivity": "Not run; no added fit or group-specific prior",
+  "readiness": false
+}

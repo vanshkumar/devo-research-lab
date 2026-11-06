@@ -1,0 +1,62 @@
+{
+  "time": "2026-10-31T00:24:11.437213+00:00",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "numba": "0.68.1"
+  },
+  "source_article_sha256": "222eefc904fe92a4a05b6312986a29e41c265cf47637ac52027e797bb1ddfc63",
+  "timing_excerpts_for_source_inspection": [
+    {
+      "term": "irregular",
+      "text": "sults to the precision of this premotor sequence, we also replicated our experiments using a \u201cdeveloping\u201d premotor input in which the peak time and peak width of premotor input are initially strongly irregular and only gradually become regular over learning. We found that using such premotor input for training does not affect the ability of the network to learn error codes that match experiments (Fig. S2; see below). We modeled the local auditory circuit as consisting of a single population of excitatory projection neurons receiving excitatory premotor input and both excitatory and inhibitory sensory input from the sparse coding network. In other models, we added to this excitatory population a reciprocally connected pool of local inhibitory interne"
+    },
+    {
+      "term": "irregular",
+      "text": "emotor area, and the E\u2192I\u2192E model matches experiments the best among all four models. This observation still holds in more realistic and thus more challenging settings, such as training with initially irregular but gradually organizing premotor activity (Fig. S2), training and testing with sparse premotor synapses (Fig. S4), and testing models with perturbations that only cause short (50 ms) changes of input firing patterns (Fig. S6). A brief summary of the results of these simulations is provided in Table 1 , which suggests that the E\u2192I\u2192E model with local inhibitory plasticity best matches experimental data. Population error codes exhibit two-stage learning In our models, local learning rules give rise to predictive cancellation of tutor song inputs"
+    },
+    {
+      "term": "premotor timing",
+      "text": "fine the bird\u2019s own song by performing error minimization on this landscape. (B) General model structure. A sparse coding model maps tutor song to auditory input, which is sent on to meet song-locked premotor timing input in secondary auditory nuclei. Local plasticity rules in these regions gradually learn to perform predictive cancellation of this pattern, giving rise to sparse error codes. Results To test for the emergence of error codes via local learning, we implemented a simplified model of the interconnected auditory areas of the forebrain as a single network receiving two inputs: upstream auditory input and premotor input ( Fig. 1B ). For the upstream auditory input, we assumed a sparse encoding of the song spectrogram ( 44 , 45 ) and trained a cla"
+    },
+    {
+      "term": "premotor timing",
+      "text": "ng error minimization on this landscape. \",{\"type\":\"Strong\",\"content\":[\"(B)\"]},\" General model structure. A sparse coding model maps tutor song to auditory input, which is sent on to meet song-locked premotor timing input in secondary auditory nuclei. Local plasticity rules in these regions gradually learn to perform predictive cancellation of this pattern, giving rise to sparse error codes.\"]}],\"label\":\"Fig. 1.\"},{\"type\":\"Heading\",\"content\":[\"Results\"],\"id\":\"s1\",\"depth\":1},{\"type\":\"Paragraph\",\"content\":[\"To test for the emergence of error codes via local learning, we implemented a simplified model of the interconnected auditory areas of the forebrain as a single network receiving two inputs: upstream auditory input and premotor input (\",{\"type\":\"Link\",\"c"
+    },
+    {
+      "term": "temporal",
+      "text": "sub-syllabic basis (Fig. S6A-C). Together, these results suggest that, simply by using local learning to cancel tutor song, our models simultaneously developed sparse population error codes with high temporal precision. Experimental data favor error codes learned via inhibitory plasticity As stated above, our models considered four potential kinds of local plasticity in auditory circuits. To determine which of these candidate model is most likely, we compared the error codes from our models with neural activity obtained from one-photon calcium imaging performed in the lateral caudal mesopallium (CML) of adult male zebra finches ( Fig. 4A ) singing undirected song with white noise perturbation before and after deafening ( Fig. 4B , n=8 birds, 397 ne"
+    },
+    {
+      "term": "temporal",
+      "text": "sponse of the excitatory population. The agent\u2019s actions are parameterized as a state-dependent Gaussian distribution over basis elements: a ( s ) \u223c \ud835\udca9( \u00b5 ( s ), I ), and at each step of learning, the temporal difference (TD) error signal \u03b4 is used to update the agent\u2019s estimate of the value of each state V ( s ). Specifically, after each syllable, these functions are updated by a standard temporal difference learning algorithm: where \u03b1 is the learning rate and c = 10 is a constant scaling the mean rate. Fig. 6. Error codes produced by local learning rules can be used to train a motor policy. (A) Schematic of the actor-critic reinforcement learning model. A syllable-based state variable s ( t ) indexes both the motor policy (actor a ( s )) and the p"
+    },
+    {
+      "term": "HVC",
+      "text": "results in negative reinforcement of syllable pitch in adult birds ( 23 ). Another important finding is that several of these auditory regions directly or indirectly receive premotor inputs from area HVC (proper name) ( 21 , 25 \u2013 27 ). The presence of sensorimotor inputs to sensory regions suggests the possibility of corollary discharge mechanisms for the cancellation of self-generated sensory input, similar to those observed in mice ( 28 \u2013 30 ), primates ( 31 ), and weakly electric fish ( 32 \u2013 34 ). Likewise, there is evidence in adult birds that premotor input from HVC to auditory regions may govern the selective engagement of error-responding neurons during singing ( 4 , 21 , 23 ). Interestingly, HVC neurons have been found to exhibit tutor"
+    },
+    {
+      "term": "HVC",
+      "text": "self-generated sensory input, similar to those observed in mice ( 28 \u2013 30 ), primates ( 31 ), and weakly electric fish ( 32 \u2013 34 ). Likewise, there is evidence in adult birds that premotor input from HVC to auditory regions may govern the selective engagement of error-responding neurons during singing ( 4 , 21 , 23 ). Interestingly, HVC neurons have been found to exhibit tutor-song responsiveness in awake birds at early ages ( 35 \u2013 40 ), a feature which declines with age ( 35 ) and disappears in adults ( 41 , 42 ). Thus, both the sensory and premotor information necessary for computing performance errors are present directly upstream of VTA, though the mechanism by which vocal performance error is computed remains unknown. Indeed, few studies "
+    }
+  ],
+  "admitted_saved_states": [
+    {
+      "plant": 100,
+      "path": "campaigns/evaluator_optimization_2026-10-28/primary_snapshots/plant_100/state.pkl",
+      "bytes": 13742317
+    },
+    {
+      "plant": 101,
+      "path": "campaigns/evaluator_optimization_2026-10-28/primary_snapshots/plant_101/state.pkl",
+      "bytes": 13742317
+    },
+    {
+      "plant": 102,
+      "path": "campaigns/evaluator_optimization_2026-10-28/primary_snapshots/plant_102/state.pkl",
+      "bytes": 13742317
+    }
+  ],
+  "license_note": "Existing source audit has no downloaded LICENSE; no redistribution/novelty permission is inferred. Public paper is used as scholarly evidence; only local generated outputs are delivered."
+}

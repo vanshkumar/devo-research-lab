@@ -1,0 +1,239 @@
+{
+  "timing": "post-source-validation diagnostic; no real data used",
+  "seed": "original independent learn_same8102 generator, forecasts retainedseed13000+animalindex",
+  "law": "same known transferable REINFORCE; histories truly generated closed-loop before censoring",
+  "terminal_policy": "begin afterfour500trialsessions; stopafter2consecutive>=85%highcorrect or3consecutive<45%,otherwise6000",
+  "interpretation": "Operational forecast conditions on opportunities without conditioning latent state on termination event. This bounded stopping selection does not validate real RT/fatigue/session-duration stopping.",
+  "dispositions": [
+    {
+      "subject": "learn_same_000",
+      "stop": 6000,
+      "reason": "two consecutive high-accuracy sessions >=85%",
+      "primary_full": true
+    },
+    {
+      "subject": "learn_same_001",
+      "stop": 6000,
+      "reason": "two consecutive high-accuracy sessions >=85%",
+      "primary_full": true
+    },
+    {
+      "subject": "learn_same_002",
+      "stop": 6000,
+      "reason": "maximum6000",
+      "primary_full": true
+    },
+    {
+      "subject": "learn_same_003",
+      "stop": 6000,
+      "reason": "maximum6000",
+      "primary_full": true
+    },
+    {
+      "subject": "learn_same_004",
+      "stop": 6000,
+      "reason": "maximum6000",
+      "primary_full": true
+    },
+    {
+      "subject": "learn_same_005",
+      "stop": 6000,
+      "reason": "two consecutive high-accuracy sessions >=85%",
+      "primary_full": true
+    },
+    {
+      "subject": "learn_same_006",
+      "stop": 5500,
+      "reason": "two consecutive high-accuracy sessions >=85%",
+      "primary_full": true
+    },
+    {
+      "subject": "learn_same_007",
+      "stop": 4000,
+      "reason": "two consecutive high-accuracy sessions >=85%",
+      "primary_full": true
+    },
+    {
+      "subject": "learn_same_008",
+      "stop": 6000,
+      "reason": "maximum6000",
+      "primary_full": true
+    },
+    {
+      "subject": "learn_same_009",
+      "stop": 6000,
+      "reason": "maximum6000",
+      "primary_full": true
+    },
+    {
+      "subject": "learn_same_010",
+      "stop": 6000,
+      "reason": "maximum6000",
+      "primary_full": true
+    },
+    {
+      "subject": "learn_same_011",
+      "stop": 6000,
+      "reason": "maximum6000",
+      "primary_full": true
+    },
+    {
+      "subject": "learn_same_012",
+      "stop": 6000,
+      "reason": "maximum6000",
+      "primary_full": true
+    },
+    {
+      "subject": "learn_same_013",
+      "stop": 5500,
+      "reason": "two consecutive high-accuracy sessions >=85%",
+      "primary_full": true
+    },
+    {
+      "subject": "learn_same_014",
+      "stop": 6000,
+      "reason": "two consecutive high-accuracy sessions >=85%",
+      "primary_full": true
+    },
+    {
+      "subject": "learn_same_015",
+      "stop": 6000,
+      "reason": "maximum6000",
+      "primary_full": true
+    },
+    {
+      "subject": "learn_same_016",
+      "stop": 6000,
+      "reason": "two consecutive high-accuracy sessions >=85%",
+      "primary_full": true
+    },
+    {
+      "subject": "learn_same_017",
+      "stop": 6000,
+      "reason": "two consecutive high-accuracy sessions >=85%",
+      "primary_full": true
+    },
+    {
+      "subject": "learn_same_018",
+      "stop": 4500,
+      "reason": "two consecutive high-accuracy sessions >=85%",
+      "primary_full": true
+    },
+    {
+      "subject": "learn_same_019",
+      "stop": 6000,
+      "reason": "maximum6000",
+      "primary_full": true
+    },
+    {
+      "subject": "learn_same_020",
+      "stop": 6000,
+      "reason": "maximum6000",
+      "primary_full": true
+    },
+    {
+      "subject": "learn_same_021",
+      "stop": 6000,
+      "reason": "maximum6000",
+      "primary_full": true
+    },
+    {
+      "subject": "learn_same_022",
+      "stop": 6000,
+      "reason": "maximum6000",
+      "primary_full": true
+    },
+    {
+      "subject": "learn_same_023",
+      "stop": 6000,
+      "reason": "maximum6000",
+      "primary_full": true
+    }
+  ],
+  "summary": [
+    {
+      "model": "oracle",
+      "full_only": true,
+      "n": 24,
+      "crps": 0.013604636882933679,
+      "high_mae": 0.023926491739934396,
+      "coverage80": 0.859375
+    },
+    {
+      "model": "pipeline_fitted",
+      "full_only": true,
+      "n": 24,
+      "crps": 0.013940874779369542,
+      "high_mae": 0.024494481567640353,
+      "coverage80": 0.8663194444444445
+    },
+    {
+      "model": "growth",
+      "full_only": true,
+      "n": 24,
+      "crps": 0.018001878382999735,
+      "high_mae": 0.032754571309812366,
+      "coverage80": 0.890625
+    },
+    {
+      "model": "persistence",
+      "full_only": true,
+      "n": 24,
+      "crps": 0.07567191864712026,
+      "high_mae": 0.15222912629445595,
+      "coverage80": 0.39409722222222215
+    },
+    {
+      "model": "oracle",
+      "full_only": false,
+      "n": 24,
+      "crps": 0.013604636882933679,
+      "high_mae": 0.023926491739934396,
+      "coverage80": 0.859375
+    },
+    {
+      "model": "pipeline_fitted",
+      "full_only": false,
+      "n": 24,
+      "crps": 0.013940874779369542,
+      "high_mae": 0.024494481567640353,
+      "coverage80": 0.8663194444444445
+    },
+    {
+      "model": "growth",
+      "full_only": false,
+      "n": 24,
+      "crps": 0.018001878382999735,
+      "high_mae": 0.032754571309812366,
+      "coverage80": 0.890625
+    },
+    {
+      "model": "persistence",
+      "full_only": false,
+      "n": 24,
+      "crps": 0.07567191864712026,
+      "high_mae": 0.15222912629445595,
+      "coverage80": 0.39409722222222215
+    }
+  ],
+  "comparisons": [
+    {
+      "full_only": true,
+      "gain": {
+        "n": 24,
+        "mean": 0.004061003603630194,
+        "lo": 0.0027724420192143896,
+        "hi": 0.005505931892412624
+      }
+    },
+    {
+      "full_only": false,
+      "gain": {
+        "n": 24,
+        "mean": 0.004061003603630194,
+        "lo": 0.0027724420192143896,
+        "hi": 0.005505931892412624
+      }
+    }
+  ]
+}

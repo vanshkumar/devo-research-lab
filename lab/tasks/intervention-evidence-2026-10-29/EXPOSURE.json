@@ -1,0 +1,48 @@
+{
+  "task": "intervention-evidence-2026-10-29",
+  "date": "2026-10-29",
+  "purpose": "Source/code/metadata feasibility only. No fitting or scoring of new biological outcomes.",
+  "protected_status": {
+    "pan20": "All prefixes and outcomes remain sealed; no Pan file opened by this task.",
+    "historical_unexamined_rows": "Not opened.",
+    "historical_frozen_files": "Not edited.",
+    "old_transport_implementation": "Parked; no reopening or access release."
+  },
+  "candidates": [
+    {
+      "id": "habits-working-memory-fig5",
+      "summary_exposure": "Primary paper Results s2-4, Methods s4-7/s4-14/s4-15-1 and search snippets inspected. Faster MT acquisition and three random-arm criterion failures are known.",
+      "outcome_bearing_metadata": {
+        "source": "Full 1095-entry archive central directory, saved in HABITS_ZIP_INDEX.json; all paths parsed.",
+        "criterion_statuses": {
+          "MT/trained": ["BW362", "BW398", "BW399", "BW400", "BW428", "BW429", "BW460"],
+          "Random/failed": ["BW382", "BW456", "BW457"],
+          "Random/trained": ["BW378", "BW379", "BW380", "BW455", "BW458"]
+        },
+        "additional_exposure": "Other paradigms' filenames, group names and trained/failed labels were incidentally parsed; they are preserved in the full directory index and cannot later be assumed unseen. They were not developed as additional candidate experiments."
+      },
+      "raw_payload": "Zero compressed member payload bytes requested; only exact EOCD and central-directory bytes acquired. No Trial.txt or companion model/event file decompressed or decoded.",
+      "code": "Publication-linked Git revision 8778c33e1e5f1a59fa461fbaa86ed7b8d0e15afb: two working-memory .ino files and four example initialization files. Example history arrays are initialized constants, not mouse observations. No firmware executed.",
+      "future_label": "Summary-informed retrospective study with raw trajectories withheld, not an untouched criterion-endpoint confirmation."
+    },
+    {
+      "id": "ghani-reversed-contingency",
+      "summary_exposure": "Reused prior published active-sensing summary exposure; additionally inspected primary reversed-mapping Methods and Results sec2.9 including the reported reduced wiggle/accuracy association. No acquisition curve calculated.",
+      "metadata": "Reused original Ghani session/dataset indexes, read-only: 16 subjects, 11 acquisition subjects, 193 sessions and available-table entries. Current code repository tree inspected; embedded output figures were not fetched.",
+      "raw_payload": "No trial table, choice/reward prefix, wheel trace or new raw metadata payload containing behavioral outcomes opened.",
+      "future_label": "Raw acquisition trajectories remain unexamined by this assessment; published active-sensing endpoints are summary-exposed. This does not certify whole-study untouched status."
+    },
+    {
+      "id": "todorov-stable-random-experiment1",
+      "summary_exposure": "Primary preprint v2 Methods plus published error-sensitivity/stability/error-sign summary findings from search snippets inspected. Full primary XML acquired; no numerical outcome reanalysis.",
+      "metadata": "OSF root and both experiment-folder inventories read, including filenames, hashes, sizes and version metadata. Experiment2 inclusion was not assessed as another experiment candidate.",
+      "raw_payload": "No .log file requested or decoded. Input-only sub01_WGPOZPEE.param (620 bytes; OSF current_version 1) inspected for rendering/timing parameters. No participant movement, assigned-error history or trial outcome decoded.",
+      "future_label": "Published summary endpoints are exposed; individual raw response logs remain unread by this task."
+    }
+  ],
+  "prior_work_exposure": "Bak2016 policy-gradient learning-rule inference and simulated adaptive-training findings inspected as primary prior work; no new empirical dataset analyzed.",
+  "validation": "47 original-metadata/hash/source checks pass. These are not model recovery, null calibration, prospective scientific confirmation or an independent reviewer audit.",
+  "source_files": "sources/intervention_evidence_2026-10-29/DOWNLOADS.json, SOURCE_NOTES.md, INSPECTION.json and HABITS_ZIP_INDEX.json",
+  "new_model_fits": 0,
+  "new_scored_outcome_analyses": 0
+}

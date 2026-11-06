@@ -1,0 +1,231 @@
+{
+  "delta_log": {
+    "mean": -0.0010516370056980534,
+    "low": -0.0029104794433954975,
+    "high": 0.0007233444602297807,
+    "n": 39,
+    "reps": 5000
+  },
+  "delta_brier": {
+    "mean": -0.0005644381013310689,
+    "low": -0.001482583211571627,
+    "high": 0.00029261343376203665,
+    "n": 39,
+    "reps": 5000
+  },
+  "history_gain": {
+    "mean": 0.03395673632333555,
+    "low": 0.02457332720077431,
+    "high": 0.04306350701598072,
+    "n": 39,
+    "reps": 5000
+  },
+  "validation_seen_schedule": {
+    "delta_log": {
+      "mean": -0.0014793405829138676,
+      "low": -0.004381143655037795,
+      "high": 0.0011259327188605057,
+      "n": 14,
+      "reps": 5000
+    },
+    "delta_brier": {
+      "mean": -0.0007718109577008586,
+      "low": -0.0021605675342805017,
+      "high": 0.0004638553853209727,
+      "n": 14,
+      "reps": 5000
+    },
+    "history_gain": {
+      "mean": 0.03466536326239191,
+      "low": 0.015605956197395484,
+      "high": 0.052758581569136605,
+      "n": 14,
+      "reps": 5000
+    }
+  },
+  "validation_unseen_schedule": {
+    "delta_log": {
+      "mean": -0.0008121230024571975,
+      "low": -0.003246823907376013,
+      "high": 0.0016422412838876126,
+      "n": 25,
+      "reps": 5000
+    },
+    "delta_brier": {
+      "mean": -0.0004483093017639865,
+      "low": -0.001632414080760387,
+      "high": 0.0007440484628000776,
+      "n": 25,
+      "reps": 5000
+    },
+    "history_gain": {
+      "mean": 0.03355990523746399,
+      "low": 0.023532983877621313,
+      "high": 0.043882691590387456,
+      "n": 25,
+      "reps": 5000
+    }
+  },
+  "schedule_participant_bootstrap_delta_log": {
+    "mean": -0.0010516370056980534,
+    "low": -0.0034849436998476775,
+    "high": 0.001338195556885847,
+    "note": "resamples observed schedules then people; ten schedules total, only three unseen"
+  },
+  "leave_one_schedule_out_delta_log": {
+    "S02": -0.0015135754707805624,
+    "S03": -0.0010269680491212963,
+    "S04": -0.0005093574332014238,
+    "S06": -0.0008067281786259998,
+    "S07": -0.0011143043006321893,
+    "S08": -0.0013293471311946734,
+    "S10": -0.0013272870157133262,
+    "S05": -0.0010892984135611268,
+    "S09": -0.0008777303999757543,
+    "S01": -0.0009523005596343281
+  },
+  "standardized_adaptation_effect": {
+    "mean": 0.029169294282119715,
+    "rms": 0.05011810396924167,
+    "bins": [
+      -0.002444824560331404,
+      0.0349740803986661,
+      0.042878984569563725,
+      0.046642858183120244
+    ]
+  },
+  "fit_diagnostics": {
+    "no_history": {
+      "success": true,
+      "optimizer_success": true,
+      "gradient_quality_pass": true,
+      "attempts": [
+        {
+          "success": true,
+          "iterations": 204,
+          "objective": 6658.944832296278,
+          "max_abs_gradient": 8.526790261139782e-05
+        }
+      ],
+      "status": 0,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 204,
+      "evaluations": 218,
+      "objective": 6658.944832296278,
+      "max_abs_gradient": 8.526790261139782e-05,
+      "n_responses": 16287,
+      "n_participants": 41,
+      "n_fixed": 48,
+      "n_random_per_person": 2,
+      "approximation": "penalized joint mode; no marginal likelihood used",
+      "config": {
+        "taus": [
+          2.0,
+          8.0,
+          32.0
+        ],
+        "random_sd": 0.7,
+        "fixed_sd": 2.0,
+        "intercept_sd": 3.0,
+        "interaction_sd": 1.0,
+        "condition_history_sd": 1.0,
+        "fit_start": 200,
+        "fit_end": 600,
+        "gh_nodes": 20,
+        "maxiter": 1200,
+        "ftol": 1e-14,
+        "gtol": 1e-05,
+        "gradient_tolerance": 0.001,
+        "asymmetric_saturation": false
+      }
+    },
+    "shared": {
+      "success": true,
+      "optimizer_success": true,
+      "gradient_quality_pass": true,
+      "attempts": [
+        {
+          "success": true,
+          "iterations": 218,
+          "objective": 6178.174132945555,
+          "max_abs_gradient": 5.046935855434337e-05
+        }
+      ],
+      "status": 0,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 218,
+      "evaluations": 237,
+      "objective": 6178.174132945555,
+      "max_abs_gradient": 5.046935855434337e-05,
+      "n_responses": 16287,
+      "n_participants": 41,
+      "n_fixed": 63,
+      "n_random_per_person": 5,
+      "approximation": "penalized joint mode; no marginal likelihood used",
+      "config": {
+        "taus": [
+          2.0,
+          8.0,
+          32.0
+        ],
+        "random_sd": 0.7,
+        "fixed_sd": 2.0,
+        "intercept_sd": 3.0,
+        "interaction_sd": 1.0,
+        "condition_history_sd": 1.0,
+        "fit_start": 200,
+        "fit_end": 600,
+        "gh_nodes": 20,
+        "maxiter": 1200,
+        "ftol": 1e-14,
+        "gtol": 1e-05,
+        "gradient_tolerance": 0.001,
+        "asymmetric_saturation": false
+      }
+    },
+    "condition": {
+      "success": true,
+      "optimizer_success": true,
+      "gradient_quality_pass": true,
+      "attempts": [
+        {
+          "success": true,
+          "iterations": 221,
+          "objective": 6177.441366089748,
+          "max_abs_gradient": 3.868279944229183e-05
+        }
+      ],
+      "status": 0,
+      "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+      "iterations": 221,
+      "evaluations": 239,
+      "objective": 6177.441366089748,
+      "max_abs_gradient": 3.868279944229183e-05,
+      "n_responses": 16287,
+      "n_participants": 41,
+      "n_fixed": 66,
+      "n_random_per_person": 5,
+      "approximation": "penalized joint mode; no marginal likelihood used",
+      "config": {
+        "taus": [
+          2.0,
+          8.0,
+          32.0
+        ],
+        "random_sd": 0.7,
+        "fixed_sd": 2.0,
+        "intercept_sd": 3.0,
+        "interaction_sd": 1.0,
+        "condition_history_sd": 1.0,
+        "fit_start": 200,
+        "fit_end": 600,
+        "gh_nodes": 20,
+        "maxiter": 1200,
+        "ftol": 1e-14,
+        "gtol": 1e-05,
+        "gradient_tolerance": 0.001,
+        "asymmetric_saturation": false
+      }
+    }
+  }
+}

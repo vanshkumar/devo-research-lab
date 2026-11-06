@@ -1,0 +1,3 @@
+# Account-only Stage B amendment
+
+At 22:34:28 UTC the PI verified 42% remaining and changed the internal source checkpoint from 40% to 37%, leaving 12 percentage points above the human's 25% reserve at the new checkpoint. Original Stage A pass, prefit freeze, scope, deadlines, cumulative scientific limits, protected evidence and whole-work decision all carry. This buys one fixed substantive Brown comparison. It releases neither Berkeley access nor any main. The PI plans up to 5 account points for source completion, 3 for a fresh design challenge, 4 for a main if earned, 3 for an independent result challenge and 2 for useful revision and closeout. These are planning shares. [PI amendment](../research-run-2026-11-05/BROWN_SOURCE_CONTINUATION.md)

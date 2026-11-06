@@ -1,0 +1,53 @@
+{
+  "utc": "2026-10-31T18:51:32.680823+00:00",
+  "source_fit_ids_consumed": 75,
+  "source_fit_correct_values_interpreted_this_block": 29144,
+  "source_validation_ids_consumed": 15,
+  "source_validation_correct_values_interpreted_this_block": 6229,
+  "total_correct_values_interpreted_this_block_including_previously_exposed_values": 35373,
+  "old_audited_ids_retained_development_exposed": 18,
+  "old_audited_ids_in_fit": 17,
+  "newly_answer_exposed_fit_ids": 58,
+  "newly_answer_exposed_validation_ids": 15,
+  "total_answer_exposed_source_ids_in_lineage": 91,
+  "primary_validation_rows": 485,
+  "primary_validation_ids": 10,
+  "single_validation_assessment": true,
+  "source_validation_retuned": false,
+  "random_arm_code": 2,
+  "random_shard_scans": 2,
+  "compressed_random_shard_ingress_bytes": 5034060,
+  "inflated_random_shard_ingress_bytes": 12510472,
+  "target_correct_reply_interpreted": 0,
+  "real_target_predictions_or_scores": 0,
+  "target_synthetic_recovery_predictions": 0,
+  "nonrandom_shards_opened": 0,
+  "new_auxiliary_field_values_interpreted": 0,
+  "raw_archive_passes": 0,
+  "network_or_downloads": 0,
+  "all_prior_auxiliary_and_summary_exposure_preserved": true,
+  "source_answer_output_sha256": "e08913aafe5c3a28a97a5e286295536c05bba7837241cacd28214ef9f07cbbac",
+  "accounting_npz_inflation_correction": [
+    {
+      "path": "safe_schedules.npz",
+      "decoded_bytes_per_load": 6696480,
+      "loads": 2
+    },
+    {
+      "path": "fit_answers.npz",
+      "decoded_bytes_per_load": 695680,
+      "loads": 2
+    }
+  ],
+  "jobs_remaining": 0,
+  "shared_or_old_source_files_modified": false,
+  "scientific_stop": "failed/imprecise frozen absolute-calibration certification before recovery",
+  "unrun": [
+    "actual-schedule known-answer recovery",
+    "null/boundary false-positive calibration",
+    "0.02nat decision sensitivity",
+    "1.0logit initialization generator sensitivity",
+    "all target-answer/prediction/scoring work"
+  ],
+  "permissions_note": "Two ordinary missing-name reads and one shell-redirection composition were denied before execution; no guard/configuration changes. Simple permitted validation command succeeded once."
+}

@@ -1,0 +1,564 @@
+{
+  "subject": "ZM_1367",
+  "split": "animal_holdout",
+  "lab": "mainenlab",
+  "rows_read": 2759,
+  "original_provenance": [
+    {
+      "path": "data/sealed/animal_holdout/ZM_1367/2019-07-22_001_3eea3a9e-c3a9-4fac-bbcf-02bea3c5750b_table.pqt",
+      "dataset_id": "4001ae88-b50f-40e7-9e45-329dd641f036",
+      "session_uuid": "3eea3a9e-c3a9-4fac-bbcf-02bea3c5750b",
+      "date": "2019-07-22",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld5.2.1",
+      "md5": "2ac3f6b5183e7142ebda86a390284649",
+      "sha256": "3e0901f023def6e29e418513224875d7e3e7005ea4122774cc2b961f88ff3734",
+      "bytes": 71847,
+      "cache_md5": "2ac3f6b5183e7142ebda86a390284649",
+      "bounded_rows": 930,
+      "footer_rows": 930,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/ZM_1367/2019-07-22_001_3eea3a9e-c3a9-4fac-bbcf-02bea3c5750b_table.pqt') LIMIT 930"
+    },
+    {
+      "path": "data/sealed/animal_holdout/ZM_1367/2019-07-23_003_a77bfa12-bbae-40db-a2e6-a4e0543118eb_table.pqt",
+      "dataset_id": "2d79dcd6-ee0b-48f2-8731-c3bdb40d0a93",
+      "session_uuid": "a77bfa12-bbae-40db-a2e6-a4e0543118eb",
+      "date": "2019-07-23",
+      "number": 3,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld5.2.1",
+      "md5": "7dbf857d688e46cdd373dab8653d0b79",
+      "sha256": "be9799e80c68ab3cd43353a97edbcb77511296dd5a1cf941ec001df092b85385",
+      "bytes": 47173,
+      "cache_md5": "7dbf857d688e46cdd373dab8653d0b79",
+      "bounded_rows": 559,
+      "footer_rows": 559,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/ZM_1367/2019-07-23_003_a77bfa12-bbae-40db-a2e6-a4e0543118eb_table.pqt') LIMIT 559"
+    },
+    {
+      "path": "data/sealed/animal_holdout/ZM_1367/2019-07-24_001_9d3b8750-952d-4475-b89b-e9c5e4293bb8_table.pqt",
+      "dataset_id": "c7c8c846-0a1f-4b7f-92af-fbbbe0900a16",
+      "session_uuid": "9d3b8750-952d-4475-b89b-e9c5e4293bb8",
+      "date": "2019-07-24",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld5.2.2",
+      "md5": "5a1420fea5e404f17a6ea2413a48dc3e",
+      "sha256": "0751bd7461fcc9ad8d804802f788c34c6b25eb3c9a607e1c95d38a1f46942dab",
+      "bytes": 66755,
+      "cache_md5": "5a1420fea5e404f17a6ea2413a48dc3e",
+      "bounded_rows": 863,
+      "footer_rows": 863,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/ZM_1367/2019-07-24_001_9d3b8750-952d-4475-b89b-e9c5e4293bb8_table.pqt') LIMIT 863"
+    },
+    {
+      "path": "data/sealed/animal_holdout/ZM_1367/2019-07-26_001_3b173f63-d63b-4764-8c5e-73ae7016b0a1_table.pqt",
+      "dataset_id": "06fb1898-579d-4ac8-a5bb-beb06eff887f",
+      "session_uuid": "3b173f63-d63b-4764-8c5e-73ae7016b0a1",
+      "date": "2019-07-26",
+      "number": 1,
+      "protocol": "_iblrig_tasks_trainingChoiceWorld5.2.3",
+      "md5": "3674d46fa21ad229eb0ba65a1397868c",
+      "sha256": "9b8c160636b25727eec31f4299faf36eddac272bd9bc082c6be432a1d6c7d455",
+      "bytes": 36790,
+      "cache_md5": "3674d46fa21ad229eb0ba65a1397868c",
+      "bounded_rows": 407,
+      "footer_rows": 407,
+      "query": "SELECT \"contrastLeft\",\"contrastRight\",\"choice\",\"feedbackType\",\"rewardVolume\" FROM read_parquet('/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/learning_rule_transport_2026-10-28/data/sealed/animal_holdout/ZM_1367/2019-07-26_001_3b173f63-d63b-4764-8c5e-73ae7016b0a1_table.pqt') LIMIT 407"
+    }
+  ],
+  "targets_and_counts_equal": true,
+  "prefix_weight_endpoint_max_abs_difference": 2.220446049250313e-15,
+  "prefix_hidden_endpoint_max_abs_difference": 5.551115123125783e-16,
+  "conditional_probability_max_abs_difference": 4.718447854656915e-16,
+  "conditional_weights_max_abs_difference": 2.6645352591003757e-15,
+  "conditional_hidden_final_max_abs_difference": 4.440892098500626e-16,
+  "same_trial_perturbation_probability_difference": 0.0,
+  "omission_weight_hidden_hold_difference": 0.0,
+  "forecast_path": "artifacts/forecasts/rnn_source_animals/ZM_1367__rnnglm32.npz",
+  "forecast_sha256": "ce7c39a6927173764613b6efb92b340f63bf5f7080cfea8d4a1fe6e67dbe3522",
+  "conditional_path": "artifacts/forecasts/rnn_source_animals/ZM_1367__rnnglm32__conditional.npz",
+  "conditional_sha256": "c1657ab3ddf386b4d2f54a3a61bfb2a22b89bb77596e67a51be045ffe3156788",
+  "scores": [
+    {
+      "subject": "ZM_1367",
+      "split": "animal_holdout",
+      "lab": "mainenlab",
+      "model": "rnnglm32",
+      "arm": "autonomous",
+      "horizon": 1000,
+      "actual_horizon": 1000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.028937839018074996,
+      "crps_by_metric": [
+        0.04633439859070197,
+        0.03050151135879959,
+        0.03864131298923677,
+        0.0002741331335616436
+      ],
+      "mae": 0.0499810831188127,
+      "mae_by_metric": [
+        0.12693238649835242,
+        0.0184372584768982,
+        0.05306445312500016,
+        0.001490234375000001
+      ],
+      "high_accuracy_mae": 0.07268482248762531,
+      "coverage": {
+        "0.5": 0.875,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.75,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.1291063319767097,
+        "0.8": 0.2748937834153242,
+        "0.95": 0.4119062893059354
+      },
+      "energy": 0.11640130740537313,
+      "n_cells": 8,
+      "high_width80": 0.37543756683064833
+    },
+    {
+      "subject": "ZM_1367",
+      "split": "animal_holdout",
+      "lab": "mainenlab",
+      "model": "rnnglm32",
+      "arm": "raw_autonomous",
+      "horizon": 1000,
+      "actual_horizon": 1000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.028937839018074996,
+      "crps_by_metric": [
+        0.04633439859070197,
+        0.03050151135879959,
+        0.03864131298923677,
+        0.0002741331335616436
+      ],
+      "mae": 0.0499810831188127,
+      "mae_by_metric": [
+        0.12693238649835242,
+        0.0184372584768982,
+        0.05306445312500016,
+        0.001490234375000001
+      ],
+      "high_accuracy_mae": 0.07268482248762531,
+      "coverage": {
+        "0.5": 0.875,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.75,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.1291063319767097,
+        "0.8": 0.2748937834153242,
+        "0.95": 0.4119062893059354
+      },
+      "energy": 0.11640130740537313,
+      "n_cells": 8,
+      "high_width80": 0.37543756683064833
+    },
+    {
+      "subject": "ZM_1367",
+      "split": "animal_holdout",
+      "lab": "mainenlab",
+      "model": "rnnglm32",
+      "arm": "conditional_diagnostic",
+      "horizon": 1000,
+      "actual_horizon": 1000,
+      "full_horizon": true,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.014460534076257952,
+      "crps_by_metric": [
+        0.014546288434935394,
+        0.03172535955062479,
+        0.01129635518590998,
+        0.0002741331335616436
+      ],
+      "mae": 0.021402444761979108,
+      "mae_by_metric": [
+        0.019128450348143033,
+        0.048078984949773806,
+        0.016912109374999595,
+        0.001490234375000001
+      ],
+      "high_accuracy_mae": 0.03360371764895842,
+      "coverage": {
+        "0.5": 0.5,
+        "0.8": 0.875,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.25,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.02990054401426686,
+        "0.8": 0.05662091561474063,
+        "0.95": 0.08162497582221359
+      },
+      "energy": 0.05760549470213431,
+      "n_cells": 8,
+      "high_width80": 0.09129183122948123,
+      "binary_nll": 0.4411252412374072,
+      "static_prefix_binary_nll": 0.4584983251152375,
+      "conditional_nll_gain_over_static": 0.01737308387783032
+    },
+    {
+      "subject": "ZM_1367",
+      "split": "animal_holdout",
+      "lab": "mainenlab",
+      "model": "rnnglm32",
+      "arm": "autonomous",
+      "horizon": 3000,
+      "actual_horizon": 1500,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.027301432314096447,
+      "crps_by_metric": [
+        0.042419095412852624,
+        0.02996854329395719,
+        0.03652629138127853,
+        0.00029179916829745575
+      ],
+      "mae": 0.04082537101945737,
+      "mae_by_metric": [
+        0.10816023379794748,
+        0.015945937779881847,
+        0.03766796875000017,
+        0.0015273437500000011
+      ],
+      "high_accuracy_mae": 0.062053085788914664,
+      "coverage": {
+        "0.5": 0.9166666666666666,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.8333333333333334,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.1240394045743166,
+        "0.8": 0.27529766515844173,
+        "0.95": 0.4199753260309063
+      },
+      "energy": 0.1364753058482791,
+      "n_cells": 12,
+      "high_width80": 0.3744286636502167
+    },
+    {
+      "subject": "ZM_1367",
+      "split": "animal_holdout",
+      "lab": "mainenlab",
+      "model": "rnnglm32",
+      "arm": "raw_autonomous",
+      "horizon": 3000,
+      "actual_horizon": 1500,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.027301432314096447,
+      "crps_by_metric": [
+        0.042419095412852624,
+        0.02996854329395719,
+        0.03652629138127853,
+        0.00029179916829745575
+      ],
+      "mae": 0.04082537101945737,
+      "mae_by_metric": [
+        0.10816023379794748,
+        0.015945937779881847,
+        0.03766796875000017,
+        0.0015273437500000011
+      ],
+      "high_accuracy_mae": 0.062053085788914664,
+      "coverage": {
+        "0.5": 0.9166666666666666,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.8333333333333334,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.1240394045743166,
+        "0.8": 0.27529766515844173,
+        "0.95": 0.4199753260309063
+      },
+      "energy": 0.1364753058482791,
+      "n_cells": 12,
+      "high_width80": 0.3744286636502167
+    },
+    {
+      "subject": "ZM_1367",
+      "split": "animal_holdout",
+      "lab": "mainenlab",
+      "model": "rnnglm32",
+      "arm": "conditional_diagnostic",
+      "horizon": 3000,
+      "actual_horizon": 1500,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.016298848333090674,
+      "crps_by_metric": [
+        0.02694960073357583,
+        0.027851809192068023,
+        0.010102184238421396,
+        0.00029179916829745575
+      ],
+      "mae": 0.02356169531717838,
+      "mae_by_metric": [
+        0.03430288285921431,
+        0.04284624215949947,
+        0.015570312499999739,
+        0.0015273437500000011
+      ],
+      "high_accuracy_mae": 0.03857456250935689,
+      "coverage": {
+        "0.5": 0.5,
+        "0.8": 0.8333333333333334,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.3333333333333333,
+        "0.8": 0.8333333333333334,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.029144519678854088,
+        "0.8": 0.05452360277775256,
+        "0.95": 0.08074941395383174
+      },
+      "energy": 0.07872368334813304,
+      "n_cells": 12,
+      "high_width80": 0.08678053888883842,
+      "binary_nll": 0.4473198008796394,
+      "static_prefix_binary_nll": 0.463361775902222,
+      "conditional_nll_gain_over_static": 0.01604197502258259
+    },
+    {
+      "subject": "ZM_1367",
+      "split": "animal_holdout",
+      "lab": "mainenlab",
+      "model": "rnnglm32",
+      "arm": "autonomous",
+      "horizon": 5000,
+      "actual_horizon": 1500,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.027301432314096447,
+      "crps_by_metric": [
+        0.042419095412852624,
+        0.02996854329395719,
+        0.03652629138127853,
+        0.00029179916829745575
+      ],
+      "mae": 0.04082537101945737,
+      "mae_by_metric": [
+        0.10816023379794748,
+        0.015945937779881847,
+        0.03766796875000017,
+        0.0015273437500000011
+      ],
+      "high_accuracy_mae": 0.062053085788914664,
+      "coverage": {
+        "0.5": 0.9166666666666666,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.8333333333333334,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.1240394045743166,
+        "0.8": 0.27529766515844173,
+        "0.95": 0.4199753260309063
+      },
+      "energy": 0.1364753058482791,
+      "n_cells": 12,
+      "high_width80": 0.3744286636502167
+    },
+    {
+      "subject": "ZM_1367",
+      "split": "animal_holdout",
+      "lab": "mainenlab",
+      "model": "rnnglm32",
+      "arm": "raw_autonomous",
+      "horizon": 5000,
+      "actual_horizon": 1500,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.027301432314096447,
+      "crps_by_metric": [
+        0.042419095412852624,
+        0.02996854329395719,
+        0.03652629138127853,
+        0.00029179916829745575
+      ],
+      "mae": 0.04082537101945737,
+      "mae_by_metric": [
+        0.10816023379794748,
+        0.015945937779881847,
+        0.03766796875000017,
+        0.0015273437500000011
+      ],
+      "high_accuracy_mae": 0.062053085788914664,
+      "coverage": {
+        "0.5": 0.9166666666666666,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.8333333333333334,
+        "0.8": 1.0,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.1240394045743166,
+        "0.8": 0.27529766515844173,
+        "0.95": 0.4199753260309063
+      },
+      "energy": 0.1364753058482791,
+      "n_cells": 12,
+      "high_width80": 0.3744286636502167
+    },
+    {
+      "subject": "ZM_1367",
+      "split": "animal_holdout",
+      "lab": "mainenlab",
+      "model": "rnnglm32",
+      "arm": "conditional_diagnostic",
+      "horizon": 5000,
+      "actual_horizon": 1500,
+      "full_horizon": false,
+      "scope": "post_source_validation_architecture_challenge",
+      "crps": 0.016298848333090674,
+      "crps_by_metric": [
+        0.02694960073357583,
+        0.027851809192068023,
+        0.010102184238421396,
+        0.00029179916829745575
+      ],
+      "mae": 0.02356169531717838,
+      "mae_by_metric": [
+        0.03430288285921431,
+        0.04284624215949947,
+        0.015570312499999739,
+        0.0015273437500000011
+      ],
+      "high_accuracy_mae": 0.03857456250935689,
+      "coverage": {
+        "0.5": 0.5,
+        "0.8": 0.8333333333333334,
+        "0.95": 1.0
+      },
+      "high_coverage": {
+        "0.5": 0.3333333333333333,
+        "0.8": 0.8333333333333334,
+        "0.95": 1.0
+      },
+      "width": {
+        "0.5": 0.029144519678854088,
+        "0.8": 0.05452360277775256,
+        "0.95": 0.08074941395383174
+      },
+      "energy": 0.07872368334813304,
+      "n_cells": 12,
+      "high_width80": 0.08678053888883842,
+      "binary_nll": 0.4473198008796394,
+      "static_prefix_binary_nll": 0.463361775902222,
+      "conditional_nll_gain_over_static": 0.01604197502258259
+    }
+  ],
+  "numerical_differences": [
+    {
+      "arm": "autonomous",
+      "horizon": 1000,
+      "crps": 1.0408340855860843e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "raw_autonomous",
+      "horizon": 1000,
+      "crps": 1.0408340855860843e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "conditional_diagnostic",
+      "horizon": 1000,
+      "crps": 1.734723475976807e-18,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0,
+      "binary_nll": 0.0
+    },
+    {
+      "arm": "autonomous",
+      "horizon": 3000,
+      "crps": 4.85722573273506e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "raw_autonomous",
+      "horizon": 3000,
+      "crps": 4.85722573273506e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "conditional_diagnostic",
+      "horizon": 3000,
+      "crps": 2.7755575615628914e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0,
+      "binary_nll": 0.0
+    },
+    {
+      "arm": "autonomous",
+      "horizon": 5000,
+      "crps": 4.85722573273506e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "raw_autonomous",
+      "horizon": 5000,
+      "crps": 4.85722573273506e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0
+    },
+    {
+      "arm": "conditional_diagnostic",
+      "horizon": 5000,
+      "crps": 2.7755575615628914e-17,
+      "mae": 0.0,
+      "high_accuracy_mae": 0.0,
+      "energy": 0.0,
+      "binary_nll": 0.0
+    }
+  ]
+}

@@ -1,0 +1,1009 @@
+{
+  "date": "2026-11-05",
+  "scope": "Anonymous exact-release catalogue, public methods, and pinned static analysis source. No acquisition of trial objects.",
+  "direct": [
+    {
+      "sequence": 1,
+      "commandBatch": 0,
+      "method": "GET",
+      "saveAs": "wmh-tree.json",
+      "url": "https://api.github.com/repos/AnneCollins/WMH/git/trees/main?recursive=1",
+      "capBytes": 1000000,
+      "httpStatus": 200,
+      "bodyBytes": 21316,
+      "timeSeconds": {
+        "real": 0.49,
+        "user": 0,
+        "sys": 0
+      },
+      "job": "terminal"
+    },
+    {
+      "sequence": 2,
+      "commandBatch": 1,
+      "method": "GET",
+      "saveAs": "data-readme.txt",
+      "url": "https://api.github.com/repos/AnneCollins/WMH/git/blobs/3a050eb35c91e4b93df669251d0094ab66475eac",
+      "capBytes": 3543,
+      "httpStatus": 200,
+      "bodyBytes": 1495,
+      "timeSeconds": {
+        "real": 0.19,
+        "user": 0,
+        "sys": 0
+      },
+      "job": "terminal"
+    },
+    {
+      "sequence": 3,
+      "commandBatch": 1,
+      "method": "GET",
+      "saveAs": "rlwm-readme.txt",
+      "url": "https://api.github.com/repos/AnneCollins/WMH/git/blobs/82ad20f31096e8c4e07b08b3092c2b9807f68ba2",
+      "capBytes": 4202,
+      "httpStatus": 200,
+      "bodyBytes": 2154,
+      "timeSeconds": {
+        "real": 0.17,
+        "user": 0.01,
+        "sys": 0
+      },
+      "job": "terminal"
+    },
+    {
+      "sequence": 4,
+      "commandBatch": 1,
+      "method": "GET",
+      "saveAs": "validation.m.txt",
+      "url": "https://api.github.com/repos/AnneCollins/WMH/git/blobs/fc68e96bf95be98f038a7d1142adc501e389edbc",
+      "capBytes": 7353,
+      "httpStatus": 200,
+      "bodyBytes": 5305,
+      "timeSeconds": {
+        "real": 0.15,
+        "user": 0.01,
+        "sys": 0
+      },
+      "job": "terminal"
+    },
+    {
+      "sequence": 5,
+      "commandBatch": 1,
+      "method": "GET",
+      "saveAs": "general_fitting_script.m.txt",
+      "url": "https://api.github.com/repos/AnneCollins/WMH/git/blobs/65742bc824757ecb9875ce844d4cdd464659e7a8",
+      "capBytes": 20050,
+      "httpStatus": 200,
+      "bodyBytes": 18002,
+      "timeSeconds": {
+        "real": 0.17,
+        "user": 0.01,
+        "sys": 0
+      },
+      "job": "terminal"
+    },
+    {
+      "sequence": 6,
+      "commandBatch": 1,
+      "method": "GET",
+      "saveAs": "analyzeBehavior.m.txt",
+      "url": "https://api.github.com/repos/AnneCollins/WMH/git/blobs/67eb0461928f478cf7d5ec2fb6984b70200af3d4",
+      "capBytes": 5674,
+      "httpStatus": 200,
+      "bodyBytes": 3626,
+      "timeSeconds": {
+        "real": 0.18,
+        "user": 0.01,
+        "sys": 0
+      },
+      "job": "terminal"
+    },
+    {
+      "sequence": 7,
+      "commandBatch": 2,
+      "method": "GET",
+      "saveAs": "osf-node.json",
+      "url": "https://api.osf.io/v2/nodes/5gbr3/",
+      "capBytes": 100000,
+      "httpStatus": 200,
+      "bodyBytes": 4473,
+      "timeSeconds": {
+        "real": 0.19,
+        "user": 0,
+        "sys": 0
+      },
+      "job": "terminal"
+    },
+    {
+      "sequence": 8,
+      "commandBatch": 3,
+      "method": "GET",
+      "saveAs": "osf-files.json",
+      "url": "https://api.osf.io/v2/nodes/5gbr3/files/osfstorage/?page%5Bsize%5D=100",
+      "capBytes": 250000,
+      "httpStatus": 200,
+      "bodyBytes": 2253,
+      "timeSeconds": {
+        "real": 0.15,
+        "user": 0,
+        "sys": 0
+      },
+      "job": "terminal"
+    },
+    {
+      "sequence": 9,
+      "commandBatch": 3,
+      "method": "GET",
+      "saveAs": "osf-children.json",
+      "url": "https://api.osf.io/v2/nodes/5gbr3/children/",
+      "capBytes": 100000,
+      "httpStatus": 200,
+      "bodyBytes": 128,
+      "timeSeconds": {
+        "real": 0.1,
+        "user": 0,
+        "sys": 0
+      },
+      "job": "terminal"
+    },
+    {
+      "sequence": 10,
+      "commandBatch": 3,
+      "method": "GET",
+      "saveAs": "osf-contributors.json",
+      "url": "https://api.osf.io/v2/nodes/5gbr3/contributors/",
+      "capBytes": 100000,
+      "httpStatus": 200,
+      "bodyBytes": 1881,
+      "timeSeconds": {
+        "real": 0.14,
+        "user": 0,
+        "sys": 0
+      },
+      "job": "terminal"
+    },
+    {
+      "sequence": 11,
+      "commandBatch": 4,
+      "method": "GET",
+      "saveAs": "osf-wikis.json",
+      "url": "https://api.osf.io/v2/nodes/5gbr3/wikis/",
+      "capBytes": 100000,
+      "httpStatus": 200,
+      "bodyBytes": 1053,
+      "timeSeconds": {
+        "real": 0.12,
+        "user": 0,
+        "sys": 0
+      },
+      "job": "terminal"
+    },
+    {
+      "sequence": 12,
+      "commandBatch": 4,
+      "method": "GET",
+      "saveAs": "osf-versions.json",
+      "url": "https://api.osf.io/v2/files/5da0ab3126eb50000b7c6280/versions/",
+      "capBytes": 100000,
+      "httpStatus": 200,
+      "bodyBytes": 656,
+      "timeSeconds": {
+        "real": 0.11,
+        "user": 0,
+        "sys": 0
+      },
+      "job": "terminal"
+    },
+    {
+      "sequence": 13,
+      "commandBatch": 4,
+      "method": "GET",
+      "saveAs": "osf-linked.json",
+      "url": "https://api.osf.io/v2/nodes/5gbr3/linked_nodes/",
+      "capBytes": 100000,
+      "httpStatus": 200,
+      "bodyBytes": 128,
+      "timeSeconds": {
+        "real": 0.12,
+        "user": 0,
+        "sys": 0
+      },
+      "job": "terminal"
+    },
+    {
+      "sequence": 14,
+      "commandBatch": 4,
+      "method": "GET",
+      "saveAs": "osf-license.json",
+      "url": "https://api.osf.io/v2/licenses/563c1cf88c5e4a3877f9e96a/",
+      "capBytes": 50000,
+      "httpStatus": 200,
+      "bodyBytes": 13121,
+      "timeSeconds": {
+        "real": 0.09,
+        "user": 0,
+        "sys": 0
+      },
+      "job": "terminal"
+    },
+    {
+      "sequence": 15,
+      "commandBatch": 4,
+      "method": "GET",
+      "saveAs": "osf-providers.json",
+      "url": "https://api.osf.io/v2/nodes/5gbr3/files/",
+      "capBytes": 100000,
+      "httpStatus": 200,
+      "bodyBytes": 947,
+      "timeSeconds": {
+        "real": 0.18,
+        "user": 0,
+        "sys": 0
+      },
+      "job": "terminal"
+    },
+    {
+      "sequence": 16,
+      "commandBatch": 5,
+      "method": "GET",
+      "saveAs": "osf-wiki-home.md",
+      "url": "https://api.osf.io/v2/wikis/y9pgu/content/",
+      "capBytes": 10000,
+      "httpStatus": 200,
+      "bodyBytes": 226,
+      "timeSeconds": {
+        "real": 0.09,
+        "user": 0,
+        "sys": 0
+      },
+      "job": "terminal"
+    },
+    {
+      "sequence": 17,
+      "commandBatch": 5,
+      "method": "GET",
+      "saveAs": "dne-ref.json",
+      "url": "https://api.github.com/repos/jl3676/dynamic_noise_estimation/git/ref/heads/main",
+      "capBytes": 25000,
+      "httpStatus": 200,
+      "bodyBytes": 399,
+      "timeSeconds": {
+        "real": 0.19,
+        "user": 0,
+        "sys": 0
+      },
+      "job": "terminal"
+    },
+    {
+      "sequence": 18,
+      "commandBatch": 6,
+      "method": "GET",
+      "saveAs": "dne-fit_models.m.txt",
+      "url": "https://raw.githubusercontent.com/jl3676/dynamic_noise_estimation/c11a292b2f97e2fe9a94d7985e81d70d4af7b8e1/RLWM/code/fit_models.m",
+      "capBytes": 30000,
+      "httpStatus": 200,
+      "bodyBytes": 6509,
+      "timeSeconds": {
+        "real": 0.19,
+        "user": 0,
+        "sys": 0
+      },
+      "job": "terminal"
+    },
+    {
+      "sequence": 19,
+      "commandBatch": 6,
+      "method": "GET",
+      "saveAs": "dne-dynamic_model.m.txt",
+      "url": "https://raw.githubusercontent.com/jl3676/dynamic_noise_estimation/c11a292b2f97e2fe9a94d7985e81d70d4af7b8e1/RLWM/code/dynamic_model.m",
+      "capBytes": 30000,
+      "httpStatus": 200,
+      "bodyBytes": 5164,
+      "timeSeconds": {
+        "real": 0.14,
+        "user": 0,
+        "sys": 0
+      },
+      "job": "terminal"
+    },
+    {
+      "sequence": 20,
+      "commandBatch": 6,
+      "method": "GET",
+      "saveAs": "dne-dynamic_model_llh.m.txt",
+      "url": "https://raw.githubusercontent.com/jl3676/dynamic_noise_estimation/c11a292b2f97e2fe9a94d7985e81d70d4af7b8e1/RLWM/code/dynamic_model_llh.m",
+      "capBytes": 30000,
+      "httpStatus": 200,
+      "bodyBytes": 3942,
+      "timeSeconds": {
+        "real": 0.12,
+        "user": 0,
+        "sys": 0
+      },
+      "job": "terminal"
+    },
+    {
+      "sequence": 21,
+      "commandBatch": 6,
+      "method": "GET",
+      "saveAs": "dne-static_model.m.txt",
+      "url": "https://raw.githubusercontent.com/jl3676/dynamic_noise_estimation/c11a292b2f97e2fe9a94d7985e81d70d4af7b8e1/RLWM/code/static_model.m",
+      "capBytes": 30000,
+      "httpStatus": 200,
+      "bodyBytes": 5188,
+      "timeSeconds": {
+        "real": 0.12,
+        "user": 0,
+        "sys": 0
+      },
+      "job": "terminal"
+    },
+    {
+      "sequence": 22,
+      "commandBatch": 6,
+      "method": "GET",
+      "saveAs": "dne-validate_models.m.txt",
+      "url": "https://raw.githubusercontent.com/jl3676/dynamic_noise_estimation/c11a292b2f97e2fe9a94d7985e81d70d4af7b8e1/RLWM/code/validate_models.m",
+      "capBytes": 30000,
+      "httpStatus": 200,
+      "bodyBytes": 6569,
+      "timeSeconds": {
+        "real": 0.14,
+        "user": 0,
+        "sys": 0
+      },
+      "job": "terminal"
+    },
+    {
+      "sequence": 23,
+      "commandBatch": 7,
+      "method": "GET",
+      "saveAs": "wmh-RLWM.m.txt",
+      "url": "https://api.github.com/repos/AnneCollins/WMH/git/blobs/9fe6fb69041e01e79d2e12f2a12e082b55cacc84",
+      "capBytes": 8220,
+      "httpStatus": 200,
+      "bodyBytes": 6172,
+      "timeSeconds": {
+        "real": 0.17,
+        "user": 0,
+        "sys": 0
+      },
+      "job": "terminal"
+    },
+    {
+      "sequence": 24,
+      "commandBatch": 7,
+      "method": "GET",
+      "saveAs": "wmh-RLWM_llh.m.txt",
+      "url": "https://api.github.com/repos/AnneCollins/WMH/git/blobs/e2e66109c1bca8e6146952331e8738c03d12fbf6",
+      "capBytes": 5603,
+      "httpStatus": 200,
+      "bodyBytes": 3555,
+      "timeSeconds": {
+        "real": 0.16,
+        "user": 0,
+        "sys": 0
+      },
+      "job": "terminal"
+    },
+    {
+      "sequence": 25,
+      "commandBatch": 7,
+      "method": "GET",
+      "saveAs": "wmh-RLWMH.m.txt",
+      "url": "https://api.github.com/repos/AnneCollins/WMH/git/blobs/33fbe2b2b4e5cb64c1a53a0a5e00722251584f71",
+      "capBytes": 6565,
+      "httpStatus": 200,
+      "bodyBytes": 4517,
+      "timeSeconds": {
+        "real": 0.22,
+        "user": 0.01,
+        "sys": 0
+      },
+      "job": "terminal"
+    },
+    {
+      "sequence": 26,
+      "commandBatch": 8,
+      "method": "HEAD",
+      "saveAs": "dne-mat.head",
+      "url": "https://raw.githubusercontent.com/jl3676/dynamic_noise_estimation/c11a292b2f97e2fe9a94d7985e81d70d4af7b8e1/RLWM/data/TortoiseAndHareData.mat",
+      "capBytes": 0,
+      "httpStatus": 200,
+      "bodyBytes": 0,
+      "timeSeconds": {
+        "real": 0.19,
+        "user": 0,
+        "sys": 0
+      },
+      "job": "terminal"
+    },
+    {
+      "sequence": 27,
+      "commandBatch": 8,
+      "method": "GET",
+      "saveAs": "osf-file-cedar.json",
+      "url": "https://api.osf.io/v2/files/5da0ab3126eb50000b7c6280/cedar_metadata_records/",
+      "capBytes": 50000,
+      "httpStatus": 200,
+      "bodyBytes": 128,
+      "timeSeconds": {
+        "real": 0.1,
+        "user": 0,
+        "sys": 0
+      },
+      "job": "terminal"
+    }
+  ],
+  "connector": [
+    {
+      "sequence": 0,
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "Collins \"The Tortoise and the Hare\" \"data\" github OSF Collins 2018 reinforcement learning working memory"
+          },
+          {
+            "q": "Anne Collins Tortoise Hare 2018 RLWM original data trial task code Collins lab GitHub"
+          },
+          {
+            "q": "Collins 2018 \"The Tortoise and the Hare\" journal supplement experiment Methods dataset"
+          }
+        ],
+        "response_length": "short"
+      },
+      "visibleTextBytes": 16868,
+      "serializedResultBytes": 17037,
+      "job": "terminal",
+      "connectorError": false
+    },
+    {
+      "sequence": 1,
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn920232search39",
+            "pattern": "Participants"
+          },
+          {
+            "ref_id": "turn920232search39",
+            "pattern": "Learning Phase"
+          },
+          {
+            "ref_id": "turn920232search39",
+            "pattern": "github"
+          },
+          {
+            "ref_id": "turn920232search5",
+            "pattern": "Collins (2018)"
+          }
+        ],
+        "response_length": "medium"
+      },
+      "visibleTextBytes": 20697,
+      "serializedResultBytes": 21260,
+      "job": "terminal",
+      "connectorError": false
+    },
+    {
+      "sequence": 2,
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "\"jocn_a_01238\" \"data\" (github OR osf OR zenodo OR figshare OR data availability) Collins"
+          },
+          {
+            "q": "\"tortoise and the hare\" \"Collins\" \"data are available\" task reinforcement trial archive"
+          },
+          {
+            "q": "\"Collins2018\" \"tortoise\" RLWM original data github MAT 91 reinforcement working memory"
+          }
+        ],
+        "response_length": "short"
+      },
+      "visibleTextBytes": 16189,
+      "serializedResultBytes": 16346,
+      "job": "terminal",
+      "connectorError": false
+    },
+    {
+      "sequence": 3,
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "\"The Tortoise and the Hare\" \"data\" site:direct.mit.edu/jocn 01238"
+          },
+          {
+            "q": "\"dynamic noise estimation\" \"RLWM\" \"Collins\" github dataset behavioral Liu"
+          },
+          {
+            "q": "\"Collins\" \"RLWM\" \"n = 91\" \"data\" 2018 GitHub"
+          }
+        ],
+        "response_length": "short"
+      },
+      "visibleTextBytes": 17365,
+      "serializedResultBytes": 17650,
+      "job": "terminal",
+      "connectorError": false
+    },
+    {
+      "sequence": 4,
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn335179search1",
+            "pattern": "Data Availability"
+          },
+          {
+            "ref_id": "turn335179search1",
+            "pattern": "github.com"
+          },
+          {
+            "ref_id": "turn335179search2",
+            "pattern": "Dynamic noise estimation: A generalized method for modeling noise fluctuations"
+          }
+        ],
+        "response_length": "short"
+      },
+      "visibleTextBytes": 18850,
+      "serializedResultBytes": 19067,
+      "job": "terminal",
+      "connectorError": false
+    },
+    {
+      "sequence": 5,
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn263830view2",
+            "id": 27
+          }
+        ],
+        "response_length": "short"
+      },
+      "visibleTextBytes": 9956,
+      "serializedResultBytes": 10298,
+      "job": "terminal",
+      "connectorError": false
+    },
+    {
+      "sequence": 6,
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "\"TortoiseAndHareData\" forecast prediction cross-validation RLWM Collins"
+          },
+          {
+            "q": "\"Collins, 2018\" \"RLWM\" \"out-of-sample\" held-out prediction learning retention"
+          },
+          {
+            "q": "\"The Tortoise and the Hare\" Collins \"held-out\" \"prediction\" reinforcement learning RLWM"
+          }
+        ],
+        "response_length": "short"
+      },
+      "visibleTextBytes": 17776,
+      "serializedResultBytes": 17942,
+      "job": "terminal",
+      "connectorError": false
+    },
+    {
+      "sequence": 7,
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "\"Neural Index of Reinforcement Learning Predicts Improved\" \"learning phase\" \"predicted\" Collins method EEG study"
+          },
+          {
+            "q": "\"Collins\" \"tortoise and the hare\" \"out-of-sample\" reinforcement learning prefix model acquisition predict future trials"
+          },
+          {
+            "q": "\"RLWM\" \"forecasting\" \"held-out participants\" learning model Collins choice acquisition"
+          }
+        ],
+        "response_length": "short"
+      },
+      "visibleTextBytes": 18085,
+      "serializedResultBytes": 18237,
+      "job": "terminal",
+      "connectorError": false
+    },
+    {
+      "sequence": 8,
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "\"Modeling decision dynamics disentangles working memory\" \"Tortoise\" \"out-of-sample\" Collins retention"
+          },
+          {
+            "q": "\"Modeling decision dynamics disentangles working memory\" \"data\" dataset \"Collins (2018)\" reinforcement"
+          },
+          {
+            "q": "\"Modeling decision dynamics disentangles working memory\" \"validation\" learn test cohorts code osf"
+          }
+        ],
+        "response_length": "short"
+      },
+      "visibleTextBytes": 20459,
+      "serializedResultBytes": 20636,
+      "job": "terminal",
+      "connectorError": false
+    },
+    {
+      "sequence": 9,
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn920232search32",
+            "pattern": "We first tested"
+          },
+          {
+            "ref_id": "turn920232search32",
+            "pattern": "Each block included"
+          },
+          {
+            "ref_id": "turn920232search32",
+            "pattern": "maximum likelihood"
+          },
+          {
+            "ref_id": "turn161011search1",
+            "pattern": "Because the analysis targets choice given learned value"
+          }
+        ],
+        "response_length": "short"
+      },
+      "visibleTextBytes": 18060,
+      "serializedResultBytes": 18238,
+      "job": "terminal",
+      "connectorError": false
+    },
+    {
+      "sequence": 10,
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn920232search32",
+            "pattern": "simultaneously modeled"
+          },
+          {
+            "ref_id": "turn920232search32",
+            "pattern": "Bayesian information criterion"
+          },
+          {
+            "ref_id": "turn749608search4",
+            "pattern": "leave-p-out"
+          },
+          {
+            "ref_id": "turn749608search4",
+            "pattern": "Performance of the model on out-of-sample data"
+          }
+        ],
+        "response_length": "short"
+      },
+      "visibleTextBytes": 17186,
+      "serializedResultBytes": 17359,
+      "job": "terminal",
+      "connectorError": false
+    },
+    {
+      "sequence": 11,
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn749608search23",
+            "pattern": "leave-p-out"
+          },
+          {
+            "ref_id": "turn749608search23",
+            "pattern": "out-of-sample data set"
+          },
+          {
+            "ref_id": "turn981529search24",
+            "pattern": "Participants"
+          },
+          {
+            "ref_id": "turn981529search24",
+            "pattern": "data availability"
+          }
+        ],
+        "response_length": "short"
+      },
+      "visibleTextBytes": 16257,
+      "serializedResultBytes": 16590,
+      "job": "terminal",
+      "connectorError": false
+    },
+    {
+      "sequence": 12,
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "\"TortoiseAndHareData\" \"corchoice\" codebook Collins RLWM"
+          },
+          {
+            "q": "\"Tortoise and Hare\" \"5gbr3\" \"task code\" RLWM Collins OR MATLAB"
+          },
+          {
+            "q": "site:escholarship.org \"McDougle\" \"leave-p-out\" \"out-of-sample\" RLWM reinforcement working memory"
+          }
+        ],
+        "response_length": "short"
+      },
+      "visibleTextBytes": 16433,
+      "serializedResultBytes": 16746,
+      "job": "terminal",
+      "connectorError": false
+    },
+    {
+      "sequence": 13,
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn292718search0",
+            "pattern": "Prediction of behavioral effects in a different data set"
+          },
+          {
+            "ref_id": "turn292718search0",
+            "pattern": "out-of-set data"
+          },
+          {
+            "ref_id": "turn292718search0",
+            "pattern": "without re-fitting"
+          }
+        ],
+        "response_length": "short"
+      },
+      "visibleTextBytes": 1080,
+      "serializedResultBytes": 1175,
+      "job": "terminal",
+      "connectorError": false
+    },
+    {
+      "sequence": 14,
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "\"How much of reinforcement learning is working memory\" Collins Frank \"subjects\" \"blocks\" Brown deterministic experiment 2012"
+          },
+          {
+            "q": "\"Within- and across-trial dynamics\" \"participants\" \"Berkeley\" \"9\" Collins Frank 40 learning task set size"
+          },
+          {
+            "q": "site:nature.com \"A habit and working memory model\" \"CF12\" \"same\" \"participants\" source datasets Collins"
+          }
+        ],
+        "response_length": "short"
+      },
+      "visibleTextBytes": 17170,
+      "serializedResultBytes": 17314,
+      "job": "terminal",
+      "connectorError": false
+    },
+    {
+      "sequence": 15,
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn612746search24",
+            "pattern": "At the beginning of each block"
+          },
+          {
+            "ref_id": "turn612746search27",
+            "pattern": "a minimum of nine"
+          },
+          {
+            "ref_id": "turn612746search27",
+            "pattern": "One subject was excluded"
+          },
+          {
+            "ref_id": "turn612746search2",
+            "pattern": "Dataset EEG"
+          }
+        ],
+        "response_length": "short"
+      },
+      "visibleTextBytes": 16044,
+      "serializedResultBytes": 16357,
+      "job": "terminal",
+      "connectorError": false
+    },
+    {
+      "sequence": 16,
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "\"1720963115\" \"minimum\" \"15\" \"block\" stimulus sequence supplemental trial Collins Frank"
+          },
+          {
+            "q": "\"Within- and across-trial dynamics\" \"intertrial\" \"correct\" \"22 blocks\" \"stimuli\" \"timeout\" Collins Frank supplement"
+          },
+          {
+            "q": "\"Collins\" \"Frank\" \"1720963115\" \"9\" \"15\" \"pseudo-randomly\" feedback \"set size\" SI"
+          }
+        ],
+        "response_length": "short"
+      },
+      "visibleTextBytes": 16168,
+      "serializedResultBytes": 16309,
+      "job": "terminal",
+      "connectorError": false
+    },
+    {
+      "sequence": 17,
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn509541search20",
+            "pattern": "each stimulus was presented a minimum"
+          },
+          {
+            "ref_id": "turn509541search20",
+            "pattern": "At the beginning"
+          },
+          {
+            "ref_id": "turn509541search20",
+            "pattern": "missed trials"
+          },
+          {
+            "ref_id": "turn509541search20",
+            "pattern": "randomly"
+          }
+        ],
+        "response_length": "short"
+      },
+      "visibleTextBytes": 15674,
+      "serializedResultBytes": 15993,
+      "job": "terminal",
+      "connectorError": false
+    },
+    {
+      "sequence": 18,
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "\"Switching to online: Testing the validity\" \"Collins (2018)\" \"set size\" \"1.5\" stimulus RLWM methods"
+          },
+          {
+            "q": "\"Switching to online: Testing the validity\" \"participants\" \"10 trials\" \"RLWM\" \"Data availability\" repository"
+          }
+        ],
+        "response_length": "short"
+      },
+      "visibleTextBytes": 18657,
+      "serializedResultBytes": 18779,
+      "job": "terminal",
+      "connectorError": false
+    }
+  ],
+  "rollup": {
+    "requestCount": 27,
+    "directBodies": 118907,
+    "reportedRoundedCurlCpuSeconds": 0.05,
+    "webCalls": 19,
+    "visibleWebTextBytes": 308974,
+    "serializedWebToolBytes": 313333,
+    "directCapBytes": 2296210
+  },
+  "allowance": [
+    {
+      "time": "2026-11-05 21:03:00 UTC",
+      "purpose": "before original-source discovery",
+      "ordinaryUsageAllowed": true,
+      "rateLimitsByLimitId": {
+        "codex": {
+          "limitId": "codex",
+          "limitName": null,
+          "normalModelSlug": null,
+          "primary": {
+            "usedPercent": 50,
+            "windowDurationMins": 10080,
+            "resetsAt": 1794445923
+          },
+          "secondary": null,
+          "credits": {
+            "hasCredits": false,
+            "unlimited": false,
+            "balance": "0"
+          },
+          "individualLimit": null,
+          "spendControlReached": false,
+          "planType": "prolite",
+          "rateLimitReachedType": null
+        }
+      }
+    },
+    {
+      "time": "2026-11-05 21:05:29 UTC",
+      "purpose": "before official Collins 2018 OSF release metadata",
+      "ordinaryUsageAllowed": true,
+      "rateLimitsByLimitId": {
+        "codex": {
+          "limitId": "codex",
+          "limitName": null,
+          "normalModelSlug": null,
+          "primary": {
+            "usedPercent": 51,
+            "windowDurationMins": 10080,
+            "resetsAt": 1794445923
+          },
+          "secondary": null,
+          "credits": {
+            "hasCredits": false,
+            "unlimited": false,
+            "balance": "0"
+          },
+          "individualLimit": null,
+          "spendControlReached": false,
+          "planType": "prolite",
+          "rateLimitReachedType": null
+        }
+      }
+    },
+    {
+      "time": "2026-11-05 21:09:43 UTC",
+      "purpose": "before whole-object disjoint source qualification",
+      "ordinaryUsageAllowed": true,
+      "rateLimitsByLimitId": {
+        "codex": {
+          "limitId": "codex",
+          "limitName": null,
+          "normalModelSlug": null,
+          "primary": {
+            "usedPercent": 51,
+            "windowDurationMins": 10080,
+            "resetsAt": 1794445923
+          },
+          "secondary": null,
+          "credits": {
+            "hasCredits": false,
+            "unlimited": false,
+            "balance": "0"
+          },
+          "individualLimit": null,
+          "spendControlReached": false,
+          "planType": "prolite",
+          "rateLimitReachedType": null
+        }
+      }
+    },
+    {
+      "time": "2026-11-05 21:11:38 UTC",
+      "purpose": "before inspecting source-side export and update code",
+      "ordinaryUsageAllowed": true,
+      "rateLimitsByLimitId": {
+        "codex": {
+          "limitId": "codex",
+          "limitName": null,
+          "normalModelSlug": null,
+          "primary": {
+            "usedPercent": 51,
+            "windowDurationMins": 10080,
+            "resetsAt": 1794445923
+          },
+          "secondary": null,
+          "credits": {
+            "hasCredits": false,
+            "unlimited": false,
+            "balance": "0"
+          },
+          "individualLimit": null,
+          "spendControlReached": false,
+          "planType": "prolite",
+          "rateLimitReachedType": null
+        }
+      }
+    }
+  ],
+  "failures": [
+    "Search service PMC article find on 2024 exact-data reanalysis (web 4) and McDougle and Collins (web 10) returned CAPTCHA instead of methods. Used authors’ linked repositories and the official UC manuscript index.",
+    "The indexed McDougle PDF link opened as an unrelated redirect (web 11). Official UC author manuscript search index supplied relevant cross-validation and model transfer text. UC direct find returned three-line placeholder (web 13).",
+    "Nature publisher fetch redirected to cookie authorization (web 15). Used pinned author release notes/code and its indexed methods.",
+    "Search-service responses included incidental published aggregate findings, descriptive plot captions and hypothesis statements. Exact sizes above are returned UTF-8 text and JSON envelope, not upstream fetch/decode."
+  ],
+  "notes": [
+    "The single HEAD records headers only, including advertised length. No GET or range against any subject data or fit file.",
+    "Direct requests used the exact URLs, identity encoding, no redirects, local curl 8.7.1 filesize caps and 7/18-second connect/total timeouts. Project JSON metadata used JSON Accept where applicable. Blob requests used application/vnd.github.raw+json.",
+    "All nine direct command batches returned exit 0 with no live session. The search service completed all 19 calls, including stated content failures. No denied auto-review or pending delivery."
+  ]
+}

@@ -1,0 +1,1069 @@
+{
+  "status": "pass",
+  "plants": [
+    {
+      "plant_id": 0,
+      "seed": 31000,
+      "target_reachability_loss": 0.0,
+      "target_feature_energy": 4.0,
+      "arms": {
+        "learned140_joint": {
+          "search": "coordinate",
+          "rounds": 32,
+          "queries": 321,
+          "unique_action_queries": 277,
+          "feedback_execution": null,
+          "accepted_updates": 29,
+          "reward_improvements_with_target_deterioration": 7,
+          "loss_max_error": 1.7763568394002505e-15,
+          "initial_true_loss": 5.808191411178267,
+          "final_true_loss": 0.3391927924514335,
+          "terminal_gain": 0.8,
+          "final_action": [
+            1.2245181379995778,
+            -0.7264516893228877,
+            -1.2519131221905828,
+            0.0315197031306394,
+            0.8
+          ]
+        },
+        "learned35_fixed": {
+          "search": "coordinate",
+          "rounds": 32,
+          "queries": 321,
+          "unique_action_queries": 183,
+          "feedback_execution": null,
+          "accepted_updates": 20,
+          "reward_improvements_with_target_deterioration": 4,
+          "loss_max_error": 8.881784197001252e-16,
+          "initial_true_loss": 5.808191411178267,
+          "final_true_loss": 0.010224949671991808,
+          "terminal_gain": 1.0,
+          "final_action": [
+            0.8495181379995778,
+            -0.43270168932288783,
+            -0.7394131221905828,
+            0.11276970313063941,
+            1.0
+          ]
+        },
+        "learned35_joint": {
+          "search": "coordinate",
+          "rounds": 32,
+          "queries": 321,
+          "unique_action_queries": 277,
+          "feedback_execution": null,
+          "accepted_updates": 25,
+          "reward_improvements_with_target_deterioration": 5,
+          "loss_max_error": 1.7763568394002505e-15,
+          "initial_true_loss": 5.808191411178267,
+          "final_true_loss": 0.37026291780691156,
+          "terminal_gain": 1.3,
+          "final_action": [
+            0.8495181379995778,
+            -0.4327016893228878,
+            -0.7581631221905828,
+            0.10651970313063941,
+            1.3
+          ]
+        },
+        "oracle_joint": {
+          "search": "coordinate",
+          "rounds": 32,
+          "queries": 321,
+          "unique_action_queries": 277,
+          "feedback_execution": null,
+          "accepted_updates": 28,
+          "reward_improvements_with_target_deterioration": 0,
+          "loss_max_error": 1.7763568394002505e-15,
+          "initial_true_loss": 5.808191411178267,
+          "final_true_loss": 0.003547338579884425,
+          "terminal_gain": 1.0,
+          "final_action": [
+            0.9245181379995777,
+            -0.45145168932288776,
+            -0.801913122190583,
+            0.10651970313063941,
+            1.0
+          ]
+        },
+        "shuffled35_joint": {
+          "search": "coordinate",
+          "rounds": 32,
+          "queries": 321,
+          "unique_action_queries": 92,
+          "feedback_execution": null,
+          "accepted_updates": 3,
+          "reward_improvements_with_target_deterioration": 1,
+          "loss_max_error": 1.7763568394002505e-15,
+          "initial_true_loss": 5.808191411178267,
+          "final_true_loss": 4.0,
+          "terminal_gain": 0.0,
+          "final_action": [
+            0.7745181379995778,
+            0.37354831067711225,
+            0.19808687780941714,
+            -0.9684802968693607,
+            0.0
+          ]
+        },
+        "untutored_joint": {
+          "search": "coordinate",
+          "rounds": 32,
+          "queries": 321,
+          "unique_action_queries": 253,
+          "feedback_execution": null,
+          "accepted_updates": 22,
+          "reward_improvements_with_target_deterioration": 8,
+          "loss_max_error": 1.7763568394002505e-15,
+          "initial_true_loss": 5.808191411178267,
+          "final_true_loss": 3.6124452793743482,
+          "terminal_gain": 0.19999999999999996,
+          "final_action": [
+            0.3682681379995778,
+            0.5172983106771122,
+            -0.19566312219058288,
+            -0.043480296869360606,
+            0.19999999999999996
+          ]
+        }
+      },
+      "dynamics": [
+        {
+          "arm": "learned35_joint",
+          "location": "initial",
+          "independent_cost": 3.7505488686308954,
+          "saved_cost": 3.750548868630896,
+          "independent_source_context_max_error": 8.881784197001252e-16,
+          "independent_saved_cost_error": 4.440892098500626e-16,
+          "matrices": {
+            "W": {
+              "shape": [
+                600,
+                15
+              ],
+              "sparse": true,
+              "nonzero": 450,
+              "minimum": 0.0,
+              "maximum": 0.06666666666666667
+            },
+            "JEE": {
+              "shape": [
+                600,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 180000,
+              "minimum": 0.0,
+              "maximum": 0.008785810211621725
+            },
+            "JEI": {
+              "shape": [
+                600,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.2376622115240877
+            },
+            "JIE": {
+              "shape": [
+                150,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.14453481846936475
+            },
+            "JII": {
+              "shape": [
+                150,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 11250,
+              "minimum": 0.0,
+              "maximum": 0.02495799399132274
+            }
+          }
+        },
+        {
+          "arm": "learned35_joint",
+          "location": "final",
+          "independent_cost": 1.3592581599407982,
+          "saved_cost": 1.359258159940798,
+          "independent_source_context_max_error": 2.220446049250313e-16,
+          "independent_saved_cost_error": 2.220446049250313e-16,
+          "matrices": {
+            "W": {
+              "shape": [
+                600,
+                15
+              ],
+              "sparse": true,
+              "nonzero": 450,
+              "minimum": 0.0,
+              "maximum": 0.06666666666666667
+            },
+            "JEE": {
+              "shape": [
+                600,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 180000,
+              "minimum": 0.0,
+              "maximum": 0.008785810211621725
+            },
+            "JEI": {
+              "shape": [
+                600,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.2376622115240877
+            },
+            "JIE": {
+              "shape": [
+                150,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.14453481846936475
+            },
+            "JII": {
+              "shape": [
+                150,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 11250,
+              "minimum": 0.0,
+              "maximum": 0.02495799399132274
+            }
+          }
+        },
+        {
+          "arm": "learned140_joint",
+          "location": "final",
+          "independent_cost": 1.7552518672420627,
+          "saved_cost": 1.7552518672420623,
+          "independent_source_context_max_error": 4.440892098500626e-16,
+          "independent_saved_cost_error": 4.440892098500626e-16,
+          "matrices": {
+            "W": {
+              "shape": [
+                600,
+                15
+              ],
+              "sparse": true,
+              "nonzero": 450,
+              "minimum": 0.0,
+              "maximum": 0.06666666666666667
+            },
+            "JEE": {
+              "shape": [
+                600,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 180000,
+              "minimum": 0.0,
+              "maximum": 0.008785810211621725
+            },
+            "JEI": {
+              "shape": [
+                600,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.32858614562615507
+            },
+            "JIE": {
+              "shape": [
+                150,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.36746748242297095
+            },
+            "JII": {
+              "shape": [
+                150,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 11250,
+              "minimum": 0.0,
+              "maximum": 0.02495799399132274
+            }
+          }
+        },
+        {
+          "arm": "shuffled35_joint",
+          "location": "final",
+          "independent_cost": 2.0913151229186817,
+          "saved_cost": 2.0913151229186817,
+          "independent_source_context_max_error": 0.0,
+          "independent_saved_cost_error": 0.0,
+          "matrices": {
+            "W": {
+              "shape": [
+                600,
+                15
+              ],
+              "sparse": true,
+              "nonzero": 450,
+              "minimum": 0.0,
+              "maximum": 0.06666666666666667
+            },
+            "JEE": {
+              "shape": [
+                600,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 180000,
+              "minimum": 0.0,
+              "maximum": 0.008785810211621725
+            },
+            "JEI": {
+              "shape": [
+                600,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.2486285144779265
+            },
+            "JIE": {
+              "shape": [
+                150,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.141874841998625
+            },
+            "JII": {
+              "shape": [
+                150,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 11250,
+              "minimum": 0.0,
+              "maximum": 0.02495799399132274
+            }
+          }
+        },
+        {
+          "arm": "untutored_joint",
+          "location": "final",
+          "independent_cost": 6.881971449019706,
+          "saved_cost": 6.881971449019706,
+          "independent_source_context_max_error": 1.7763568394002505e-15,
+          "independent_saved_cost_error": 0.0,
+          "matrices": {
+            "W": {
+              "shape": [
+                600,
+                15
+              ],
+              "sparse": true,
+              "nonzero": 450,
+              "minimum": 0.0,
+              "maximum": 0.06666666666666667
+            },
+            "JEE": {
+              "shape": [
+                600,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 180000,
+              "minimum": 0.0,
+              "maximum": 0.008785810211621725
+            },
+            "JEI": {
+              "shape": [
+                600,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.03094441409794228
+            },
+            "JIE": {
+              "shape": [
+                150,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.008548501637909274
+            },
+            "JII": {
+              "shape": [
+                150,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 11250,
+              "minimum": 0.0,
+              "maximum": 0.02495799399132274
+            }
+          }
+        },
+        {
+          "arm": "learned35_exact_target",
+          "location": "target",
+          "independent_cost": 1.420300103177171,
+          "independent_saved_context_max_error": 4.440892098500626e-16,
+          "matrices": {
+            "W": {
+              "shape": [
+                600,
+                15
+              ],
+              "sparse": true,
+              "nonzero": 450,
+              "minimum": 0.0,
+              "maximum": 0.06666666666666667
+            },
+            "JEE": {
+              "shape": [
+                600,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 180000,
+              "minimum": 0.0,
+              "maximum": 0.008785810211621725
+            },
+            "JEI": {
+              "shape": [
+                600,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.2376622115240877
+            },
+            "JIE": {
+              "shape": [
+                150,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.14453481846936475
+            },
+            "JII": {
+              "shape": [
+                150,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 11250,
+              "minimum": 0.0,
+              "maximum": 0.02495799399132274
+            }
+          }
+        }
+      ],
+      "burn_state_errors": {
+        "untutored": 2.6645352591003757e-15,
+        "learned35": 2.6645352591003757e-15,
+        "learned140": 3.9968028886505635e-15,
+        "shuffled35": 2.6645352591003757e-15
+      }
+    },
+    {
+      "plant_id": 1,
+      "seed": 31001,
+      "target_reachability_loss": 0.0,
+      "target_feature_energy": 3.999999999999999,
+      "arms": {
+        "learned140_joint": {
+          "search": "coordinate",
+          "rounds": 32,
+          "queries": 321,
+          "unique_action_queries": 197,
+          "feedback_execution": null,
+          "accepted_updates": 15,
+          "reward_improvements_with_target_deterioration": 4,
+          "loss_max_error": 3.552713678800501e-15,
+          "initial_true_loss": 9.196659169582565,
+          "final_true_loss": 4.358478893452403,
+          "terminal_gain": 0.31875,
+          "final_action": [
+            -0.10323322375628603,
+            0.25863021205980286,
+            -0.41634876953105115,
+            -0.28678561603878905,
+            0.31875
+          ]
+        },
+        "learned35_fixed": {
+          "search": "coordinate",
+          "rounds": 32,
+          "queries": 321,
+          "unique_action_queries": 166,
+          "feedback_execution": null,
+          "accepted_updates": 16,
+          "reward_improvements_with_target_deterioration": 4,
+          "loss_max_error": 3.552713678800501e-15,
+          "initial_true_loss": 9.196659169582565,
+          "final_true_loss": 0.024813132669135443,
+          "terminal_gain": 1.0,
+          "final_action": [
+            0.5342667762437141,
+            0.32738021205980283,
+            0.708651230468949,
+            -0.574285616038789,
+            1.0
+          ]
+        },
+        "learned35_joint": {
+          "search": "coordinate",
+          "rounds": 32,
+          "queries": 321,
+          "unique_action_queries": 92,
+          "feedback_execution": null,
+          "accepted_updates": 3,
+          "reward_improvements_with_target_deterioration": 0,
+          "loss_max_error": 3.552713678800501e-15,
+          "initial_true_loss": 9.196659169582565,
+          "final_true_loss": 3.999999999999999,
+          "terminal_gain": 0.0,
+          "final_action": [
+            -0.8532332237562861,
+            -0.14136978794019717,
+            -0.5163487695310511,
+            -0.386785616038789,
+            0.0
+          ]
+        },
+        "oracle_joint": {
+          "search": "coordinate",
+          "rounds": 32,
+          "queries": 321,
+          "unique_action_queries": 92,
+          "feedback_execution": null,
+          "accepted_updates": 3,
+          "reward_improvements_with_target_deterioration": 0,
+          "loss_max_error": 3.552713678800501e-15,
+          "initial_true_loss": 9.196659169582565,
+          "final_true_loss": 3.999999999999999,
+          "terminal_gain": 0.0,
+          "final_action": [
+            -0.8532332237562861,
+            -0.14136978794019717,
+            -0.5163487695310511,
+            -0.386785616038789,
+            0.0
+          ]
+        },
+        "shuffled35_joint": {
+          "search": "coordinate",
+          "rounds": 32,
+          "queries": 321,
+          "unique_action_queries": 92,
+          "feedback_execution": null,
+          "accepted_updates": 3,
+          "reward_improvements_with_target_deterioration": 0,
+          "loss_max_error": 3.552713678800501e-15,
+          "initial_true_loss": 9.196659169582565,
+          "final_true_loss": 3.999999999999999,
+          "terminal_gain": 0.0,
+          "final_action": [
+            -0.8532332237562861,
+            -0.14136978794019717,
+            -0.5163487695310511,
+            -0.386785616038789,
+            0.0
+          ]
+        },
+        "untutored_joint": {
+          "search": "coordinate",
+          "rounds": 32,
+          "queries": 321,
+          "unique_action_queries": 92,
+          "feedback_execution": null,
+          "accepted_updates": 3,
+          "reward_improvements_with_target_deterioration": 0,
+          "loss_max_error": 3.552713678800501e-15,
+          "initial_true_loss": 9.196659169582565,
+          "final_true_loss": 3.999999999999999,
+          "terminal_gain": 0.0,
+          "final_action": [
+            -0.8532332237562861,
+            -0.14136978794019717,
+            -0.5163487695310511,
+            -0.386785616038789,
+            0.0
+          ]
+        }
+      },
+      "dynamics": [
+        {
+          "arm": "learned35_joint",
+          "location": "initial",
+          "independent_cost": 4.518456914760194,
+          "saved_cost": 4.518456914760194,
+          "independent_source_context_max_error": 8.881784197001252e-16,
+          "independent_saved_cost_error": 0.0,
+          "matrices": {
+            "W": {
+              "shape": [
+                600,
+                15
+              ],
+              "sparse": true,
+              "nonzero": 450,
+              "minimum": 0.0,
+              "maximum": 0.06666666666666667
+            },
+            "JEE": {
+              "shape": [
+                600,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 180000,
+              "minimum": 0.0,
+              "maximum": 0.008749178858416626
+            },
+            "JEI": {
+              "shape": [
+                600,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.3218378078920133
+            },
+            "JIE": {
+              "shape": [
+                150,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.20121875972642322
+            },
+            "JII": {
+              "shape": [
+                150,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 11250,
+              "minimum": 0.0,
+              "maximum": 0.024923156650582527
+            }
+          }
+        },
+        {
+          "arm": "learned35_joint",
+          "location": "final",
+          "independent_cost": 1.9639950183625603,
+          "saved_cost": 1.9639950183625603,
+          "independent_source_context_max_error": 0.0,
+          "independent_saved_cost_error": 0.0,
+          "matrices": {
+            "W": {
+              "shape": [
+                600,
+                15
+              ],
+              "sparse": true,
+              "nonzero": 450,
+              "minimum": 0.0,
+              "maximum": 0.06666666666666667
+            },
+            "JEE": {
+              "shape": [
+                600,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 180000,
+              "minimum": 0.0,
+              "maximum": 0.008749178858416626
+            },
+            "JEI": {
+              "shape": [
+                600,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.3218378078920133
+            },
+            "JIE": {
+              "shape": [
+                150,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.20121875972642322
+            },
+            "JII": {
+              "shape": [
+                150,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 11250,
+              "minimum": 0.0,
+              "maximum": 0.024923156650582527
+            }
+          }
+        },
+        {
+          "arm": "learned140_joint",
+          "location": "final",
+          "independent_cost": 20.677652461183484,
+          "saved_cost": 20.677652461183484,
+          "independent_source_context_max_error": 1.7763568394002505e-15,
+          "independent_saved_cost_error": 0.0,
+          "matrices": {
+            "W": {
+              "shape": [
+                600,
+                15
+              ],
+              "sparse": true,
+              "nonzero": 450,
+              "minimum": 0.0,
+              "maximum": 0.06666666666666667
+            },
+            "JEE": {
+              "shape": [
+                600,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 180000,
+              "minimum": 0.0,
+              "maximum": 0.008749178858416626
+            },
+            "JEI": {
+              "shape": [
+                600,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.5875289232596402
+            },
+            "JIE": {
+              "shape": [
+                150,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.9551620318879743
+            },
+            "JII": {
+              "shape": [
+                150,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 11250,
+              "minimum": 0.0,
+              "maximum": 0.024923156650582527
+            }
+          }
+        },
+        {
+          "arm": "shuffled35_joint",
+          "location": "final",
+          "independent_cost": 1.9779231936197874,
+          "saved_cost": 1.9779231936197874,
+          "independent_source_context_max_error": 4.440892098500626e-16,
+          "independent_saved_cost_error": 0.0,
+          "matrices": {
+            "W": {
+              "shape": [
+                600,
+                15
+              ],
+              "sparse": true,
+              "nonzero": 450,
+              "minimum": 0.0,
+              "maximum": 0.06666666666666667
+            },
+            "JEE": {
+              "shape": [
+                600,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 180000,
+              "minimum": 0.0,
+              "maximum": 0.008749178858416626
+            },
+            "JEI": {
+              "shape": [
+                600,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.3118383855250404
+            },
+            "JIE": {
+              "shape": [
+                150,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.15235849174653346
+            },
+            "JII": {
+              "shape": [
+                150,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 11250,
+              "minimum": 0.0,
+              "maximum": 0.024923156650582527
+            }
+          }
+        },
+        {
+          "arm": "untutored_joint",
+          "location": "final",
+          "independent_cost": 8.27804884353066,
+          "saved_cost": 8.278048843530659,
+          "independent_source_context_max_error": 3.552713678800501e-15,
+          "independent_saved_cost_error": 1.7763568394002505e-15,
+          "matrices": {
+            "W": {
+              "shape": [
+                600,
+                15
+              ],
+              "sparse": true,
+              "nonzero": 450,
+              "minimum": 0.0,
+              "maximum": 0.06666666666666667
+            },
+            "JEE": {
+              "shape": [
+                600,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 180000,
+              "minimum": 0.0,
+              "maximum": 0.008749178858416626
+            },
+            "JEI": {
+              "shape": [
+                600,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.02965779053192762
+            },
+            "JIE": {
+              "shape": [
+                150,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.008733314513234378
+            },
+            "JII": {
+              "shape": [
+                150,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 11250,
+              "minimum": 0.0,
+              "maximum": 0.024923156650582527
+            }
+          }
+        },
+        {
+          "arm": "learned35_exact_target",
+          "location": "target",
+          "independent_cost": 1.4039703415527514,
+          "independent_saved_context_max_error": 0.0,
+          "matrices": {
+            "W": {
+              "shape": [
+                600,
+                15
+              ],
+              "sparse": true,
+              "nonzero": 450,
+              "minimum": 0.0,
+              "maximum": 0.06666666666666667
+            },
+            "JEE": {
+              "shape": [
+                600,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 180000,
+              "minimum": 0.0,
+              "maximum": 0.008749178858416626
+            },
+            "JEI": {
+              "shape": [
+                600,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.3218378078920133
+            },
+            "JIE": {
+              "shape": [
+                150,
+                600
+              ],
+              "sparse": true,
+              "nonzero": 45000,
+              "minimum": 0.0,
+              "maximum": 0.20121875972642322
+            },
+            "JII": {
+              "shape": [
+                150,
+                150
+              ],
+              "sparse": true,
+              "nonzero": 11250,
+              "minimum": 0.0,
+              "maximum": 0.024923156650582527
+            }
+          }
+        }
+      ],
+      "burn_state_errors": {
+        "untutored": 3.552713678800501e-15,
+        "learned35": 2.6645352591003757e-15,
+        "learned140": 4.973799150320701e-14,
+        "shuffled35": 2.6645352591003757e-15
+      }
+    }
+  ],
+  "plants_checked": 2,
+  "arms_checked": 12,
+  "full_query_losses_and_optimizer_replay": true,
+  "seeded_plant_target_and_blind_initialization_reconstruction": true,
+  "source_files_unchanged": true,
+  "evidence_unchanged": true,
+  "independent_dynamics_probes": 12,
+  "verification_code_sha256": "75aa9f97a1b240509b5ccd9f920537e44de395f6ce8cb114471d5822a6faa663",
+  "production_code_sha256": "9d7e91c33713553b66afa594aa01efbab1ba54ca6dc27c67da26b62aa72167b5",
+  "all_production_code_sha256": {
+    "run.py": "9d7e91c33713553b66afa594aa01efbab1ba54ca6dc27c67da26b62aa72167b5",
+    "run_mixed.py": "1bf8b6ac3e33b516b09ab8d230f3dc9dfc0d28e207218a0948f8414b415435bb"
+  },
+  "base_directory": "/Users/vanshkumar/Documents/repos/devo-research-lab/campaigns/evaluator_optimization_2026-10-28/results",
+  "evidence_sha256": {
+    "results/plant_000/inputs.npz": "83dcc76398bf222bf3203aa44039b5d5f0ee4b834d3f79220a6e15a3065a9086",
+    "results/plant_000/learned140_joint.json": "7e88023981f51c8a764c17d3a9cb0c85e6c2d822bf0685e593f4d9bf7023eb05",
+    "results/plant_000/learned140_joint_checkpoint.pkl": "e82737097a201af9bc744ccdc4655338f7456fbf4e66a0d86becf1a48190c372",
+    "results/plant_000/learned140_joint_queries.npz": "4b1914531bb1fad11d8b4e06cda5e749ff98f7d2505fcc2137abd1ee5646179e",
+    "results/plant_000/learned140_joint_trajectory.npz": "cbed6f834d2092671e80214f6ef373ec69debac38a2460be1b4eb09707f5d8db",
+    "results/plant_000/learned35_fixed.json": "6730867d6102264c03a2ccedeaba04f98b0414c190c35c41847dd5ca511369fd",
+    "results/plant_000/learned35_fixed_checkpoint.pkl": "6c564ceddc9e6064b09cd2e57a2c8330ffb766c9c78f8654e838d67c49127030",
+    "results/plant_000/learned35_fixed_queries.npz": "5352580470d4a1b2a23dc56a311bf238c37223734cbbf4d1ec52caec2367fc35",
+    "results/plant_000/learned35_fixed_trajectory.npz": "78a2fdbfd761da0b1cdca924e43a13caab021091ff0c36cb81c6f29f379ac7ba",
+    "results/plant_000/learned35_joint.json": "76d7589273a3668483a1d7f85ef49113b3f94b41e833759614dea38a42484a58",
+    "results/plant_000/learned35_joint_checkpoint.pkl": "cd3c1144ac8b9d8545c56310c2be33249764ffff716b46d7578b66b2c7dada8c",
+    "results/plant_000/learned35_joint_queries.npz": "634024b7b5dbe9c883cbc223366babe5a79451e0d967f179c24f3647bc78ba41",
+    "results/plant_000/learned35_joint_trajectory.npz": "b08b3109521b7c62f348e885060b163b93de10712b4de1227aa312f91a08a695",
+    "results/plant_000/oracle_joint.json": "0f51d9684b3e908caa5854207d3402a11fcffc7b385489aee617b42d0a8d62da",
+    "results/plant_000/oracle_joint_checkpoint.pkl": "098707b7478fd0d7501e1d6e404551e692dffe88251b89ab21033da5d4f24cfc",
+    "results/plant_000/oracle_joint_queries.npz": "1e75f7e9fbcdaaaa81f7817bf3c090c1ac1678d05a15ed2f480d363e1db212c7",
+    "results/plant_000/oracle_joint_trajectory.npz": "0889d97f077047201f14f5ed6bb4a0ef5cd861785cf065504763f0d6d04cbc11",
+    "results/plant_000/preparation.json": "81c303897502aac34070fa591eed9187e88040a3eeef1c6b34627dd8be378df9",
+    "results/plant_000/shuffled35_joint.json": "b19422c5d798606512d12cd8f95bade5e933de4ab205f5e43c2a9127c073d655",
+    "results/plant_000/shuffled35_joint_checkpoint.pkl": "8b0cfbacb38aeaeede6bc8e23c7426538f6e873404e0d845c9066a1d717b39b6",
+    "results/plant_000/shuffled35_joint_queries.npz": "171f243d1f81fe708486c5561d81ec4732a8889ed3d4eeea2c7d43f3107dfab2",
+    "results/plant_000/shuffled35_joint_trajectory.npz": "a669b7d9a419c4c737d22114e08373a4af2cb5e78d560c2c6c6310925ebe3449",
+    "results/plant_000/state.pkl": "f4dddd5e48e7012f62579e8f7a3c24efab4a52ef41e472a9849dd41a59b00895",
+    "results/plant_000/untutored_joint.json": "617bb5f28498305fc40e0178db22f595bb988e07551640abc6ae09f8a8da55fb",
+    "results/plant_000/untutored_joint_checkpoint.pkl": "9b1b27c9141d8265678573ee9dcb37c73c311eb0d6dd70a8e3613ac4ddccdc08",
+    "results/plant_000/untutored_joint_queries.npz": "7001c5fcf2ec4f3192ad201b419bbf06089bea335fbb18b8c4c153263442b318",
+    "results/plant_000/untutored_joint_trajectory.npz": "dd48fd38928a9e21f06a78e047dea891cff132632d18ef322b16a471deae540f",
+    "results/plant_001/inputs.npz": "a3ee3b379ed0d2585ae027fda1f77598239bea3791771e056e477d09bba0a3b5",
+    "results/plant_001/learned140_joint.json": "d9c1f5d38b565859978ff89c31b1858c4f0cbcb40d26fa4d7153c26b25d229c5",
+    "results/plant_001/learned140_joint_checkpoint.pkl": "07858490f83a93a450a87ece29a7fff2cb31aa3a41daa25191a0708e4c3e7f7e",
+    "results/plant_001/learned140_joint_queries.npz": "836fdf65e07d33ad55e9f23c2e5cd28208cf5425082a25efc474aa4362a2bfd0",
+    "results/plant_001/learned140_joint_trajectory.npz": "5e6cd785b633701b686b9d891b8b169ae307d8406a66d991edf44fddf2828a9d",
+    "results/plant_001/learned35_fixed.json": "460d77b8d065a0ef2cc400536444e75bf4c035b046b56cb25bc267949504b653",
+    "results/plant_001/learned35_fixed_checkpoint.pkl": "19faf9d9e01e1ba1da1b722d5904f4725cdb941342f0381fe16ae40a3f94a901",
+    "results/plant_001/learned35_fixed_queries.npz": "277b4d108e3688bf653a9c8b8b11478dfed9d099620768fa3f4c6754ad8b4401",
+    "results/plant_001/learned35_fixed_trajectory.npz": "17b734f23ce44719adefa3360bbeee87b26854de23acdf35a7db75d2cf49b81c",
+    "results/plant_001/learned35_joint.json": "fbf44d725da4a67aeb65c59bf915a7840a42045bcc6c776a1c6cea9a044843b1",
+    "results/plant_001/learned35_joint_checkpoint.pkl": "f5ca1cdc42d4db9e05f034c1398448e5e7620fcc1accc2c5caae3fa0d78579b4",
+    "results/plant_001/learned35_joint_queries.npz": "c61c7d4a15f12acb002b49e66bf4f49604569ff6ff9c46d5eb1a8d48a46ea49d",
+    "results/plant_001/learned35_joint_trajectory.npz": "3b6cd775814b9fbf879e6ab8a7ac7ceb799c2e9f3e2a55ef625a45a68abe36a4",
+    "results/plant_001/oracle_joint.json": "43a29ed4a111438facfcdeadbb0290af73a394f5a05fa0446ae7ff0f295ae119",
+    "results/plant_001/oracle_joint_checkpoint.pkl": "6759e77ece350d80115986c37864d5669ddbf89cd4a4eb901ced2378f4cf5d5c",
+    "results/plant_001/oracle_joint_queries.npz": "92ef9596b058c34e72fca22b2afee33357f106ec89bca9e54ca206b439285788",
+    "results/plant_001/oracle_joint_trajectory.npz": "fc2df6892ed8ac2f5873199ac565a13d49a119e1809455c9b5616558d1a98f63",
+    "results/plant_001/preparation.json": "c4af7e6621b53bfae2c4f571d69856a38d29a3e0f46ca1e5d11d2364b12809c6",
+    "results/plant_001/shuffled35_joint.json": "16c023c1e352cf3a5edd44e9cca1c112aae65520506328df22740068eb52bc6f",
+    "results/plant_001/shuffled35_joint_checkpoint.pkl": "160721d73ecc4ffcf8750f40506122aaa8b11f68250e2b42f7039d5b1794287f",
+    "results/plant_001/shuffled35_joint_queries.npz": "5097a50f1afb7abbc134a2782e3f7f426275ad52c984582704d7e43b155e0e78",
+    "results/plant_001/shuffled35_joint_trajectory.npz": "03dc35432e28d9b434808c5b1d16f6d771f75287d7aca1a273f1ea3626b87393",
+    "results/plant_001/state.pkl": "aeae1f5d5693a3217726f7bf8117dd7945632254886cc8092f75cd73dd401e8b",
+    "results/plant_001/untutored_joint.json": "ecddd4a456912644921fbd37ab9275b980de18846db3c20db690158a7b49e57b",
+    "results/plant_001/untutored_joint_checkpoint.pkl": "17204d7bee87e768015255d030103400f7812e8c217a8b69edbf317c841c8752",
+    "results/plant_001/untutored_joint_queries.npz": "634fe06d355cbba2cbe2d7bc622f01a24aa59e54b4b89c0a66cb6f706dc7a4e4",
+    "results/plant_001/untutored_joint_trajectory.npz": "20665b602432dc57fba27185b192fddb5d22b25adbab78bdba9d049ef316bcf4"
+  },
+  "limitations": [
+    "Same simulated plants, not an independent empirical replication.",
+    "Training plasticity is source code; it is not independently reimplemented.",
+    "Frozen dynamics is independently checked only for declared selected plants/probes.",
+    "Target-blindness combines seeded input reconstruction, optimizer replay and code inspection; no sandbox separation is claimed."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "command": ".venv/bin/python lab/reviews/advice-reliability-forecast-2026-11-01/review.py main",
+  "native_session_id": 74589,
+  "native_exit_code": 0,
+  "completed_utc": "2026-11-01T11:36:59.659186+00:00",
+  "stages": {
+    "raw_feature_audit": "PASS; full source/evaluation feature and target reconstruction",
+    "source_fit_score": "PASS;360 selection folds/3 final fits;P-over-H .0036331384308994075;original joint failure reproduced",
+    "controls": "PASS;all200 generators/600 final source fits/72000 source fold-penalty fits/200 decisions;100 signal and0 null passes;zero penalty or joint-decision mismatches",
+    "source_stability": "PASS;all100 original source draws and fits reproduced;zero penalty mismatches/zero5percent gains versusH",
+    "one_contrary": "Calibrated self/adviser exponents -2.928025810094441/-3.1310033695189876;P-over-H .006258945124506421;five-percent joint failure retained",
+    "freeze_inputs": "All original/amended freeze input pins and prediction/feature pins verified"
+  },
+  "peak_rss_bytes": 204767232,
+  "numerical_warnings": {
+    "status": "PRESERVED; explicit-contraction reference audit required before final interpretation",
+    "types": ["divide by zero encountered in matmul", "overflow encountered in matmul", "invalid value encountered in matmul"],
+    "review_py_sites": [175,179,180,192,209,449],
+    "context": "Known project .venv NumPy2.0.2 finite-matrix warning pattern; all source/control/source-resample comparisons nevertheless agree with the original within1.72e-13. Matching saved outputs alone does not resolve warnings for the new contrary."
+  },
+  "warning_followup": "Resolved for numerical interpretation by the full same-design zero-warning explicit reference: NUMERICAL_WARNING_AUDIT.json; original warning run remains preserved.",
+  "scientific_processes_at_once": 1,
+  "numerical_thread_environment": 1,
+  "jobs_remaining": 0
+}

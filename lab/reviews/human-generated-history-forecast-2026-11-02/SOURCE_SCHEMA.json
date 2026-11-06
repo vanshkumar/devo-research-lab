@@ -1,0 +1,86 @@
+{
+  "utc": "2026-11-02T20:52:42.521948+00:00",
+  "workbook_header": [
+    "og_eccentricity",
+    "og_contrast",
+    "og_quiescence",
+    "og_stim_phase1",
+    "og_stim_phase2",
+    "eccentricity",
+    "baseContrast",
+    "contrastDelta",
+    "q",
+    "bias"
+  ],
+  "first_two_rows": [
+    {
+      "og_eccentricity": -35,
+      "og_contrast": 1,
+      "og_quiescence": 0.6101039606035616,
+      "og_stim_phase1": 1.36934611078072,
+      "og_stim_phase2": 2.353304971691044,
+      "eccentricity": -15,
+      "baseContrast": 0.5,
+      "contrastDelta": 0.2,
+      "q": 0.6101039606035616,
+      "bias": 0.5
+    },
+    {
+      "og_eccentricity": -35,
+      "og_contrast": 0.125,
+      "og_quiescence": 0.603376323613809,
+      "og_stim_phase1": 1.445655573953271,
+      "og_stim_phase2": 5.973514161360217,
+      "eccentricity": -15,
+      "baseContrast": 0.5,
+      "contrastDelta": 0.05,
+      "q": 0.603376323613809,
+      "bias": 0.5
+    }
+  ],
+  "expanded_zip_member_allowance": 1674802,
+  "observation_calibration": [
+    {
+      "condition": 0,
+      "source_people": 22,
+      "n": 8800,
+      "omissions": 113,
+      "alpha": 113.5,
+      "beta": 8687.5,
+      "mean": 0.012896261788433132,
+      "q025": 0.010645785794860705,
+      "q975": 0.015356297079706115
+    },
+    {
+      "condition": 1,
+      "source_people": 19,
+      "n": 7600,
+      "omissions": 0,
+      "alpha": 0.5,
+      "beta": 7600.5,
+      "mean": 6.578081831337982e-05,
+      "q025": 6.460768296563804e-08,
+      "q975": 0.00033045334392467257
+    }
+  ],
+  "omission_law": "One condition-specific constant omission probability; independent of scheduled side, choice and past. Jeffreys Beta(.5,.5) calibrated only on original development trials201-600. Main integrates its posterior predictive law; this is an observation assumption, not biological certification.",
+  "teacher_law": "Known deterministic source XLSX continuation selected uniquely by first200 visible inputs/revealed sides. Future realized targets ARE known to the environment and forecaster through this exact lookup. No independent Bernoulli target law is asserted.",
+  "prefix_convention": "Actual observed trials1-200 only; omitted feedback coded0. Later actual choices/feedback/omissions absent from this forecast input file.",
+  "reads": [
+    {
+      "path": "campaigns/human_learning_routes_2026-10-28/experiments/source_audit/sources/pregen_sequence_0.xlsx",
+      "bytes": 141593,
+      "sha256": "5c7c31702350dbcf6df29674a6e2bc07e533892ef2cdcd55d8d4cb5745e71340",
+      "read_hash_decode_allowance": 424779
+    },
+    {
+      "path": "lab/tasks/human-generated-history-forecast-2026-11-01/FORECAST_INPUTS.json",
+      "bytes": 1085903,
+      "sha256": "5d396ba483a7c33962d19aa986bc8f15c39baf80d8792b48d67e1f119e98fcba",
+      "read_hash_decode_allowance": 3257709
+    }
+  ],
+  "explicit_read_hash_decode_allowance": 3682488,
+  "observed_process_peak_rss_bytes": 88948736,
+  "measurement": "Darwin ru_maxrss; runtime/import/host/physical I/O unknown"
+}

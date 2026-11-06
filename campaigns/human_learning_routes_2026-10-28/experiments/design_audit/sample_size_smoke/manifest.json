@@ -1,0 +1,28 @@
+{
+  "args": {
+    "reps": 1,
+    "workers": 2,
+    "factors": [
+      2,
+      4
+    ],
+    "label": "sample_size_smoke"
+  },
+  "scales": {
+    "carryover_null": 0.0,
+    "slow_05": 1.9841320510425955,
+    "slow_minus05": 1.952759971752738
+  },
+  "scope": "Fresh independent simulated people and choices on replicated exact schedules; no real outcomes. Conditional on fixed ten schedules and three held-out schedules.",
+  "condition": "Original assignment proportions, original41/39 development/validation proportions, fresh suffixed IDs.",
+  "added_observations": "Combined variant adds800 independent fully learned sensory choices per person, known lapse/no history, estimated bias; priorSD3 for condition-history effects. Optimistic calibration design.",
+  "criterion": "Report observed detection>=80% for both signs plus null false-detection and Wilson uncertainty; no universal power or new-schedule guarantee.",
+  "seed_rule": "402610280+1000000*factor+10000*scenario_index+replicate",
+  "hashes": {
+    "experiments/model.py": "7c052b36833de38a338fbc86b2810b9d332f0282d4f5bb077a7a4f62bba2114c",
+    "experiments/recovery.py": "693dd3f9975b599dbfd035407e481b6eab1b4850e0c304bfeb44d38c9b8f9b9d",
+    "experiments/analysis.py": "bc3af35c10e4f783e11f5154fafa07609607a7903495c336efdc5cf664acfef3",
+    "experiments/design_audit/calibration_challenge.py": "1013aae824c1f452dfaee92e4c821562c241e2a3b049373812e8ed9d30716e91",
+    "experiments/design_audit/sample_size_challenge.py": "6b9ce5885dae383e1ff942620aa10551563c03a16b7d86df7c3fa543c3e2fe6d"
+  }
+}

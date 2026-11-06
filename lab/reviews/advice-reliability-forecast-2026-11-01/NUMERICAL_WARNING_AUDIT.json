@@ -1,0 +1,149 @@
+{
+  "timestamp_utc": "2026-11-01T11:40:14.490374+00:00",
+  "reason": "Preserved finite-matrix matmul warnings in original main run required explicit-contraction numerical reference before closing the new contrary. No model, seed, window, criterion or data changes. Original warned artifacts remain untouched.",
+  "reference_driver_sha256": "0b60299acbc58ee02b1f70c234220f68e09afaa2eb9bea3d81c6445b6506769e",
+  "independent_review_code_sha256": "3d8e904b64c13fc3f1cd4e80647b3e21c5af95698313850f5fcaa4e232b4e06e",
+  "warnings_in_explicit_reference": [],
+  "full_reference_replay_comparisons": {
+    "SOURCE_FIT_AUDIT.json": {
+      "max_absolute_numeric_difference": 7.958078640513122e-13,
+      "categorical_mismatches": [],
+      "numeric_comparisons": 169
+    },
+    "SCORE_AUDIT.json": {
+      "max_absolute_numeric_difference": 4.547473508864641e-13,
+      "categorical_mismatches": [],
+      "numeric_comparisons": 639
+    },
+    "CONTROL_AUDIT.json": {
+      "max_absolute_numeric_difference": 2.504663143554353e-13,
+      "categorical_mismatches": [],
+      "numeric_comparisons": 2810
+    },
+    "SOURCE_STABILITY_AUDIT.json": {
+      "max_absolute_numeric_difference": 1.63202784619898e-14,
+      "categorical_mismatches": [],
+      "numeric_comparisons": 3316
+    },
+    "CONTRARY.json": {
+      "max_absolute_numeric_difference": 4.547473508864641e-13,
+      "categorical_mismatches": [],
+      "numeric_comparisons": 242
+    }
+  },
+  "full_forecast_comparisons": {
+    "reconstructed_forecasts.npz": {
+      "id": {
+        "shape": [
+          5794
+        ],
+        "same_missing": true,
+        "max_abs_difference": 0.0
+      },
+      "trial": {
+        "shape": [
+          5794
+        ],
+        "same_missing": true,
+        "max_abs_difference": 0.0
+      },
+      "block": {
+        "shape": [
+          5794
+        ],
+        "same_missing": true,
+        "max_abs_difference": 0.0
+      },
+      "y": {
+        "shape": [
+          5794
+        ],
+        "same_missing": true,
+        "max_abs_difference": 0.0
+      },
+      "B": {
+        "shape": [
+          5794
+        ],
+        "same_missing": true,
+        "max_abs_difference": 2.220446049250313e-16
+      },
+      "H": {
+        "shape": [
+          5794
+        ],
+        "same_missing": true,
+        "max_abs_difference": 8.326672684688674e-16
+      },
+      "P": {
+        "shape": [
+          5794
+        ],
+        "same_missing": true,
+        "max_abs_difference": 8.881784197001252e-16
+      },
+      "N": {
+        "shape": [
+          5794
+        ],
+        "same_missing": true,
+        "max_abs_difference": 0.0
+      },
+      "F": {
+        "shape": [
+          5794
+        ],
+        "same_missing": true,
+        "max_abs_difference": 0.0
+      }
+    },
+    "contrary_forecasts.npz": {
+      "id": {
+        "shape": [
+          5794
+        ],
+        "same_missing": true,
+        "max_abs_difference": 0.0
+      },
+      "trial": {
+        "shape": [
+          5794
+        ],
+        "same_missing": true,
+        "max_abs_difference": 0.0
+      },
+      "block": {
+        "shape": [
+          5794
+        ],
+        "same_missing": true,
+        "max_abs_difference": 0.0
+      },
+      "B": {
+        "shape": [
+          5794
+        ],
+        "same_missing": true,
+        "max_abs_difference": 2.220446049250313e-16
+      },
+      "H": {
+        "shape": [
+          5794
+        ],
+        "same_missing": true,
+        "max_abs_difference": 8.881784197001252e-16
+      },
+      "P": {
+        "shape": [
+          5794
+        ],
+        "same_missing": true,
+        "max_abs_difference": 5.273559366969494e-16
+      }
+    }
+  },
+  "finite_contraction_assertions": "All explicit source/control/bootstrap/calibrated-fit matrix operands and results checked finite; expected missing current-judgment rows propagated separately.",
+  "peak_rss_bytes": 205209600,
+  "reference_output_directory": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/reviews/advice-reliability-forecast-2026-11-01/explicit_reference",
+  "jobs_remaining": 0
+}

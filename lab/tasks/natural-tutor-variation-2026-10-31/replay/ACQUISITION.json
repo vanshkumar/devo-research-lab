@@ -1,0 +1,43 @@
+{
+  "web_operations": 0,
+  "web_charged_bytes": 0,
+  "direct_operations": [],
+  "direct_ingress_bytes": 0,
+  "scientific_byte_passes": [
+    {
+      "operation": "first6 actual variability",
+      "bytes": 35676,
+      "kind": "annotation read+decode; two passes"
+    },
+    {
+      "operation": "main freeze",
+      "kind": "hash pins",
+      "bytes": 97409
+    },
+    {
+      "operation": "frozen main",
+      "kind": "pins+CSV read/decode+numeric arrays",
+      "bytes": 200627
+    },
+    {
+      "operation": "revision freeze",
+      "kind": "hash pins",
+      "bytes": 115330
+    },
+    {
+      "operation": "revision final10",
+      "kind": "pins+CSV read/decode+numeric arrays",
+      "bytes": 218730
+    },
+    {
+      "operation": "source and scalar self-audit",
+      "kind": "pins+CSV read/decode/hash+NPZ decoded arrays",
+      "bytes": 676881
+    }
+  ],
+  "scientific_read_decoded_hash_bytes": 1344653,
+  "peak_rss_bytes_measured_max": 32407552,
+  "offline_replay": true,
+  "acquisition_closed": true,
+  "accounting_note": "Entire replay was offline; frozen evaluation code historical web fields are removed here."
+}

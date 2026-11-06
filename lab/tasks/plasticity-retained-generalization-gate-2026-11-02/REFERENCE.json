@@ -1,0 +1,75 @@
+{
+  "status": "PASS_FULL_256_UPDATE_EXPLICIT_REPLAY",
+  "utc_finished": "2026-11-03T03:38:27Z",
+  "initial_64x10_logit_max_gap": 0.0,
+  "final_64x10_logit_max_gap": 4.884981308350689e-15,
+  "all_256_online_loss_max_gap": 2.220446049250313e-15,
+  "all_9594010_parameters_max_gap": 7.632783294297951e-17,
+  "full_reference_learning_seconds": 2.64656175,
+  "total_seconds_after_imports": 2.956455209,
+  "max_rss_bytes_macos": 331104256,
+  "new_warnings": 0,
+  "original_warning_count": 5400,
+  "original_warnings_by_type": {
+    "divide by zero encountered in matmul": 1800,
+    "overflow encountered in matmul": 1800,
+    "invalid value encountered in matmul": 1800
+  },
+  "source_manifest": [
+    {
+      "path": "lop/nets/deep_ffnn.py",
+      "bytes": 2632,
+      "sha256": "6fef6f9c63f7273af1a90c177076c8e03a897918363d9a95dcb97f67a031ee4b",
+      "expected_git_blob": "60526531446f6c07f34177409469bc34d1a35e94",
+      "git_blob": "2cc6642c7c0907e0d7bc5a45b3378b46386412b7",
+      "byte_certified": false
+    },
+    {
+      "path": "lop/permuted_mnist/README.md",
+      "bytes": 1407,
+      "sha256": "3ebb764c2fa50251f7db58fb988a40f31de57576a66bf7d534f83a9f4afbc1e1",
+      "expected_git_blob": "5f71bd82fcc02a75da33b09b59af263de0a90a7e",
+      "git_blob": "a93ec3a1ad22feea8a934ed997443a44a1602426",
+      "byte_certified": false
+    },
+    {
+      "path": "lop/permuted_mnist/cfg/bp/std_net.json",
+      "bytes": 422,
+      "sha256": "c8c5064a6a1114ad1e1c8d2879a69a6212904e5b9d8da731a29d5c2ce311e247",
+      "expected_git_blob": "43665558e925c920adb626cbdbb877fe9bd37e0a",
+      "git_blob": "43665558e925c920adb626cbdbb877fe9bd37e0a",
+      "byte_certified": true
+    },
+    {
+      "path": "lop/permuted_mnist/cfg/cbp.json",
+      "bytes": 520,
+      "sha256": "ddf3e65808feb2f731b0cc07e2d6bf3c3759e5bdb89b68925c2049393b4d48ee",
+      "expected_git_blob": "214839037ccb11454af4f7c51c44fa6825d622a6",
+      "git_blob": "e57ff7907e2b01a488ca0eb84c0e138905e66b9f",
+      "byte_certified": false
+    },
+    {
+      "path": "lop/permuted_mnist/load_mnist.py",
+      "bytes": 1471,
+      "sha256": "15ec880871bc2196b02858ac4547cd3dd821ab4a77d586cbd0d9c8799df6e1cb",
+      "expected_git_blob": "8b6af7865a8f1d4deabc24aa03c57a270d28ce01",
+      "git_blob": "9a0e1657f9664d0ee66f99e03268aea9125217cb",
+      "byte_certified": false
+    },
+    {
+      "path": "lop/permuted_mnist/online_expr.py",
+      "bytes": 8223,
+      "sha256": "ae5bb043c530804291548d7a7720485f66b6a3a9b76b462e70ef30914415880c",
+      "expected_git_blob": "fd955418a2b2ad826cada7d6e835785d5e621252",
+      "git_blob": "af61cf810351b7a5f84aa436211e56dbec57a0a9",
+      "byte_certified": false
+    }
+  ],
+  "all_60000_train_vs_64_test_exact_image_hash_overlap": [],
+  "explicit_file_read_bytes": 89178235,
+  "gzip_inflated_decode_bytes": 54950048,
+  "additional_decoded_image_fingerprint_bytes": 47090176,
+  "threadpools_reported_original": [],
+  "scope": "within-investigator independent numerical implementation; no independent scientific review or new test observations",
+  "warning_backend_cause": "UNIDENTIFIED; whole explicit replay supports numerical outputs, not a universal BLAS diagnosis"
+}

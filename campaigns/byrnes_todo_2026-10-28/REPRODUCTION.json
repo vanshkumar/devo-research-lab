@@ -1,0 +1,110 @@
+{
+  "status": "passed",
+  "python": "3.9.6 (default, Aug 17 2026, 12:07:42) \n[Clang 21.0.0 (clang-2100.3.34.1)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "verified_inputs": 79,
+  "runs": [
+    {
+      "script": "atlas/run.py",
+      "returncode": 0,
+      "seconds": 0.574,
+      "stderr_bytes": 0
+    },
+    {
+      "script": "atlas/followup.py",
+      "returncode": 0,
+      "seconds": 0.662,
+      "stderr_bytes": 0
+    },
+    {
+      "script": "imprinting/analyze_predispositions.py",
+      "returncode": 0,
+      "seconds": 0.963,
+      "stderr_bytes": 0
+    },
+    {
+      "script": "imprinting/analyze_learning.py",
+      "returncode": 0,
+      "seconds": 0.456,
+      "stderr_bytes": 0
+    },
+    {
+      "script": "imprinting/audit_learning.py",
+      "returncode": 0,
+      "seconds": 0.119,
+      "stderr_bytes": 0
+    },
+    {
+      "script": "imprinting/audit_archive.py",
+      "returncode": 0,
+      "seconds": 0.934,
+      "stderr_bytes": 0
+    },
+    {
+      "script": "song_learning/extract.py",
+      "returncode": 0,
+      "seconds": 2.091,
+      "stderr_bytes": 0
+    },
+    {
+      "script": "song_learning/run.py",
+      "returncode": 0,
+      "seconds": 1.005,
+      "stderr_bytes": 0
+    },
+    {
+      "script": "song_learning/followup.py",
+      "returncode": 0,
+      "seconds": 0.965,
+      "stderr_bytes": 0
+    },
+    {
+      "script": "olfaction/run.py",
+      "returncode": 0,
+      "seconds": 0.041,
+      "stderr_bytes": 0
+    },
+    {
+      "script": "concept_finder/run.py",
+      "returncode": 0,
+      "seconds": 0.406,
+      "stderr_bytes": 0
+    },
+    {
+      "script": "concept_finder/check.py",
+      "returncode": 0,
+      "seconds": 0.028,
+      "stderr_bytes": 0
+    },
+    {
+      "script": "sandbox/run.py",
+      "returncode": 0,
+      "seconds": 0.049,
+      "stderr_bytes": 0
+    },
+    {
+      "script": "sandbox/followup.py",
+      "returncode": 0,
+      "seconds": 0.022,
+      "stderr_bytes": 0
+    },
+    {
+      "script": "audit_song.py",
+      "returncode": 0,
+      "seconds": 0.197,
+      "stderr_bytes": 0
+    },
+    {
+      "script": "audit_atlas/audit.py",
+      "returncode": 0,
+      "seconds": 0.308,
+      "stderr_bytes": 0
+    },
+    {
+      "script": "figures.py",
+      "returncode": 0,
+      "seconds": 0.426,
+      "stderr_bytes": 0
+    }
+  ]
+}

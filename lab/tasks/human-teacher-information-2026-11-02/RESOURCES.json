@@ -1,0 +1,72 @@
+{
+  "utc": "2026-11-02T21:25:01.852732+00:00",
+  "separate_task_read_hash_decode_cap_bytes": 300000000,
+  "separate_cumulative_booked_allowance_bytes": 150000000,
+  "stages": [
+    {
+      "stage": "ordinary orientation and inherited records",
+      "allowance_bytes": 10000000
+    },
+    {
+      "stage": "source inspection raw/hash/XML/output allowance",
+      "allowance_bytes": 5000000
+    },
+    {
+      "stage": "first failed calculation",
+      "allowance_bytes": 20000000
+    },
+    {
+      "stage": "successful first calculation explicit compressed/read/decode allowance",
+      "allowance_bytes": 15396570
+    },
+    {
+      "stage": "failed static-source parse",
+      "allowance_bytes": 5000000
+    },
+    {
+      "stage": "successful source-law parse/workbooks/output allowance",
+      "allowance_bytes": 20000000
+    },
+    {
+      "stage": "record compaction, owned output reads/hashes, closeout",
+      "allowance_bytes": 15000000
+    },
+    {
+      "stage": "standard-library/import/runtime allowance",
+      "allowance_bytes": 20000000
+    },
+    {
+      "stage": "remaining record/status/return contingency",
+      "allowance_bytes": 39603430
+    }
+  ],
+  "allowances_are_not_measured_physical_IO_or_certified_complete_IO_upper_bounds": true,
+  "largest_measured_successful_scientific_rss_bytes": 62636032,
+  "rss_cap_bytes": 800000000,
+  "failed_process_rss": "unknown",
+  "tool_runtime_host_peaks": "unknown",
+  "physical_IO": "unknown",
+  "one_scientific_process_at_a_time": true,
+  "numerical_threads": "standard library only; no BLAS or multiprocessing used",
+  "public_operations": 0,
+  "public_ingress_bytes": 0,
+  "hard_deadline_utc": "2026-11-02T22:31:00Z",
+  "first_numeric_completed_utc": "2026-11-02T21:18:49.373341+00:00",
+  "source_law_completed_utc": "2026-11-02T21:20:02.786207+00:00",
+  "new_fits": 0,
+  "new_learning_forecasts": 0,
+  "new_human_scores": 0,
+  "exposure": {
+    "inherited": "All80people already consumed; all prior raw-summary-auxiliary exposure/failures/resource charges/protections preserved.",
+    "this_task_numeric_cache": "Validation CSV fully UTF8 decoded/CSV tokenized:39people23400rows; numeric choice-feedback interpretation restricted to first200perperson. Development cache not read.",
+    "this_task_sources": "Ten source workbooks' XML strings decoded; numeric interpretation limited to first600planned inputs each. Source0inspection explicitly counted2040source data rows; other whole-sheet row counts were not separately saved. Builder inline conditions/source metadata decoded. No human outcomes in these source workbooks.",
+    "original134MBrawCSV": "not opened",
+    "protected_datasets": "not opened"
+  },
+  "failed_passes": 2,
+  "failed_pass_allowance_bytes": 25000000,
+  "ordinary_guard_denials": 4,
+  "record_only_inline_shell_denials": 1,
+  "scope_limit": "No science-goal completion, new empirical source access or independent claim review.",
+  "science_jobs_remaining": 0
+}

@@ -1,0 +1,34 @@
+{
+  "task": "acquisition-probe-guarantees-2026-11-01",
+  "screen_date_utc": "2026-11-01",
+  "deliberately_targeted_theoretical_families": 2,
+  "families": [
+    {
+      "family": "sequential off-policy evaluation / full-history importance sampling",
+      "authors": ["Nan Jiang", "Lihong Li"],
+      "title": "Doubly Robust Off-policy Value Evaluation for Reinforcement Learning",
+      "year": 2016,
+      "version": "ICML 2016, PMLR volume 48, pages 652-661",
+      "canonical_url": "https://proceedings.mlr.press/v48/jiang16.html",
+      "inspected_pdf_url": "https://proceedings.mlr.press/v48/jiang16.pdf",
+      "locations": ["Section 3.2.2, equations (4)-(5), printed page 654", "Section 5, Definition 1, printed page 656"],
+      "inspected_evidence": "Web PDF extraction of trajectory and per-decision importance ratios and discrete-tree history states; no original PDF byte hash acquired.",
+      "application_limit": "Known behavior probabilities, policy support and invariant response dynamics are assumptions. Full histories can represent the process without assuming a visible biological state. This does not certify missing or unlogged histories."
+    },
+    {
+      "family": "proper predictive scores and score divergences",
+      "authors": ["Tilmann Gneiting", "Adrian E. Raftery"],
+      "title": "Strictly Proper Scoring Rules, Prediction, and Estimation",
+      "year": 2007,
+      "version": "JASA 102(477), pages 359-378",
+      "doi": "10.1198/016214506000001437",
+      "inspected_pdf_url": "https://sites.stat.washington.edu/people/raftery/Research/PDF/Gneiting2007jasa.pdf",
+      "locations": ["Section 2, score/entropy/divergence relationship", "Section 4.1, equation (19), printed page 365"],
+      "inspected_evidence": "Web PDF extraction identifying logarithmic-score regret with KL; no original PDF byte hash acquired.",
+      "application_limit": "Propriety concerns the forecasted observable law. Relative score advantage over another fitted model supplies no known absolute KL from truth, and a score of cell marginals supplies no full-trajectory KL."
+    }
+  ],
+  "original_pdf_sha256": null,
+  "pin_limit": "Bibliographic versions, exact public URLs and equation/page locations are pinned; provider-rendered extraction is not an original-byte certificate.",
+  "not_claimed": ["exhaustive novelty search", "new theorem", "new estimator", "biological identification"]
+}

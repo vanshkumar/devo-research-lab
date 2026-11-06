@@ -1,0 +1,90 @@
+{
+  "utc": "2026-11-02T22:08:00.228937+00:00",
+  "scope": "postvalidation numerical reliability of saved experiments only",
+  "frozen_files_unchanged": true,
+  "new_simulations": 0,
+  "new_fits": 0,
+  "gate_revisions": 0,
+  "parameter_support_and_count_bounds_pass": true,
+  "uniform_known_answer": {
+    "source_bank": {
+      "exact_ensemble_mean": 62.5,
+      "Rao_Blackwell_mean_minus_exact": {
+        "estimate": 0.017620117228869206,
+        "MCSE": 0.01645374139928224,
+        "MC99": [
+          -0.02476191202041768,
+          0.06000214647815609
+        ]
+      },
+      "reward_second_moment_minus_conditional_identity": {
+        "estimate": 0.3169164836576137,
+        "MCSE": 0.21689646883418667,
+        "MC99": [
+          -0.24177179660176518,
+          0.8756047639169926
+        ]
+      },
+      "conditional_total_variance_estimate": 66.23476503489708
+    },
+    "fresh_iid": {
+      "exact_ensemble_mean": 62.5,
+      "Rao_Blackwell_mean_minus_exact": {
+        "estimate": 0.017909724944517355,
+        "MCSE": 0.014379921314849109,
+        "MC99": [
+          -0.019130497760998413,
+          0.054949947650033124
+        ]
+      },
+      "reward_second_moment_minus_conditional_identity": {
+        "estimate": 0.2017791389955196,
+        "MCSE": 0.19840761624704054,
+        "MC99": [
+          -0.3092850129808923,
+          0.7128432909719314
+        ]
+      },
+      "conditional_total_variance_estimate": 57.933108556316974
+    },
+    "Gaussian_common_mean": {
+      "exact_ensemble_mean": 62.5,
+      "Rao_Blackwell_mean_minus_exact": {
+        "estimate": 0.03320027092024623,
+        "MCSE": 0.016531382870324008,
+        "MC99": [
+          -0.009381749505320683,
+          0.07578229134581314
+        ]
+      },
+      "reward_second_moment_minus_conditional_identity": {
+        "estimate": 0.05957495338424538,
+        "MCSE": 0.21703116055684182,
+        "MC99": [
+          -0.49946026976129404,
+          0.6186101765297848
+        ]
+      },
+      "conditional_total_variance_estimate": 66.56836999290482
+    }
+  },
+  "conservative_uniform_CDF_MC_bound": {
+    "method": "two-law DKW + union bound, postvalidation reliability check",
+    "confidence": 0.99,
+    "epsilon_per_CDF": 0.006761009307040177,
+    "coverage_difference": -0.0176239013671875,
+    "coverage_difference_bound": [
+      -0.044667938595348206,
+      0.009420135860973209
+    ],
+    "absolute_upper_bound": 0.044667938595348206,
+    "under_original_five_pp_boundary": true,
+    "quantile_estimation_not_required_for_uniform_bound": true
+  },
+  "bank_mean_known_SD": 0.0007905694150420948,
+  "bank_mean_observed_SD": 0.0007885412437485133,
+  "maxrss_bytes_darwin": 51462144,
+  "compressed_input_bytes": 16348945,
+  "decoded_array_bytes_including_float_conversion": 23068672,
+  "exit_code": 0
+}

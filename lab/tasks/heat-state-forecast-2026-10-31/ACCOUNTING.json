@@ -1,0 +1,31 @@
+{
+  "started_utc": "2026-10-31T17:45:04Z",
+  "deadline_utc": "2026-10-31T19:45:04Z",
+  "new_acquisition_limit_bytes": 200000000,
+  "new_scientific_input_read_limit_bytes": 500000000,
+  "request_limit": 32,
+  "requests_reserved": 28,
+  "acquisition_reserved_bytes": 191385005,
+  "scientific_reads_reserved_bytes": 413641303,
+  "entries": [
+    {"purpose": "ordinary and saved scientific-context/source code allowance", "read_reservation_bytes": 20000000, "outcomes": "none new"},
+    {"purpose": "1: GitHub pinned mirror metadata tree", "request_reservation": 1, "acquisition_reservation_bytes": 1000000, "read_reservation_bytes": 1000000},
+    {"purpose": "2-3: primary Atanas and Morrison article verification", "request_reservation": 2, "acquisition_reservation_bytes": 2000000, "read_reservation_bytes": 2000000},
+    {"purpose": "4: first development heat payload attempt failed DNS; zero response bytes; full reservation retained conservatively", "request_reservation": 1, "acquisition_reservation_bytes": 9160851, "read_reservation_bytes": 9160851},
+    {"purpose": "5: sample retry confirmed local mirror payload absent; DNS failed, zero response bytes; reservation retained", "request_reservation": 1, "acquisition_reservation_bytes": 9160851, "read_reservation_bytes": 9160851},
+    {"purpose": "6: same development sample, platform network escalation after sandbox DNS failures", "request_reservation": 1, "acquisition_reservation_bytes": 9160851, "read_reservation_bytes": 9160851},
+    {"purpose": "7-10: primary methods, persistence limitation and Zenodo license; 4 bounded text requests", "request_reservation": 4, "acquisition_reservation_bytes": 4000000, "read_reservation_bytes": 4000000},
+    {"purpose": "11-21: remaining 11 development heat payloads, metadata-pinned; decode all12 including one charged sample cache reread", "request_reservation": 11, "acquisition_reservation_bytes": 93807005, "read_reservation_bytes": 102967856},
+    {"purpose": "development derived-array reads, CV and immediate numerical checks; reserve30MB", "read_reservation_bytes": 30000000},
+    {"purpose": "22-28: evaluation acquisition + blind lexical prefix projection, then separate full outcome cache read only after forecasts saved", "request_reservation": 7, "acquisition_reservation_bytes": 63095447, "read_reservation_bytes": 126190894},
+    {"purpose": "frozen source/prefix derived-array reads, prediction, evaluation outputs and verification", "read_reservation_bytes": 40000000},
+    {"purpose": "postvalidation fixed-alpha knockout attribution, figure and final artifact verification; no new outcomes or acquisition", "read_reservation_bytes": 30000000},
+    {"purpose": "one final cached-input forecast replay and independent scalar MSE formulation, report/source-manifest reads and hashing small outputs; no raw rehash", "read_reservation_bytes": 30000000}
+  ],
+  "inherited": {
+    "baseline_pilot": "six baseline UIDs consumed; four reserved UIDs closed; no raw reuse commissioned",
+    "sprint_pilot": "closed, 15 requests and 417000703 scientific bytes preserved; no rerun/reuse of numerical inputs",
+    "heat": "ordinary-note search completed: no prior lab heat payload analysis/budget found; publication/mirror summaries of all19 already exposed; no status reset. This task ends with all19heat animals consumed."
+  },
+  "note": "Manual finite reservations only; not a metering service. Connector text requests reserve 1MB each when wire counts unavailable. Charge payload lengths and cache rereads before scientific access."
+}

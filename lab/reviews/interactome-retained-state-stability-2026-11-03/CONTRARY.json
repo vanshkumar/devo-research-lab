@@ -1,0 +1,229 @@
+{
+  "started_utc": "2026-11-03T08:10:53.761842+00:00",
+  "runs": [
+    {
+      "seed": 0,
+      "branch": "finite",
+      "challenge": false,
+      "statistics": [
+        {
+          "span": [
+            300.0,
+            302.0
+          ],
+          "nfev": 478,
+          "nlu": 129
+        }
+      ]
+    },
+    {
+      "seed": 0,
+      "branch": "finite",
+      "challenge": true,
+      "statistics": [
+        {
+          "span": [
+            300.0,
+            300.3
+          ],
+          "nfev": 1344,
+          "nlu": 101
+        },
+        {
+          "span": [
+            300.3,
+            302.0
+          ],
+          "nfev": 1346,
+          "nlu": 84
+        }
+      ]
+    },
+    {
+      "seed": 0,
+      "branch": "sham",
+      "challenge": false,
+      "statistics": [
+        {
+          "span": [
+            300.0,
+            302.0
+          ],
+          "nfev": 990,
+          "nlu": 61
+        }
+      ]
+    },
+    {
+      "seed": 0,
+      "branch": "sham",
+      "challenge": true,
+      "statistics": [
+        {
+          "span": [
+            300.0,
+            300.3
+          ],
+          "nfev": 1494,
+          "nlu": 106
+        },
+        {
+          "span": [
+            300.3,
+            302.0
+          ],
+          "nfev": 1401,
+          "nlu": 84
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "branch": "finite",
+      "challenge": false,
+      "statistics": [
+        {
+          "span": [
+            300.0,
+            302.0
+          ],
+          "nfev": 502,
+          "nlu": 137
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "branch": "finite",
+      "challenge": true,
+      "statistics": [
+        {
+          "span": [
+            300.0,
+            300.3
+          ],
+          "nfev": 1344,
+          "nlu": 101
+        },
+        {
+          "span": [
+            300.3,
+            302.0
+          ],
+          "nfev": 1346,
+          "nlu": 84
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "branch": "sham",
+      "challenge": false,
+      "statistics": [
+        {
+          "span": [
+            300.0,
+            302.0
+          ],
+          "nfev": 991,
+          "nlu": 61
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "branch": "sham",
+      "challenge": true,
+      "statistics": [
+        {
+          "span": [
+            300.0,
+            300.3
+          ],
+          "nfev": 1498,
+          "nlu": 105
+        },
+        {
+          "span": [
+            300.3,
+            302.0
+          ],
+          "nfev": 1406,
+          "nlu": 84
+        }
+      ]
+    }
+  ],
+  "native_process_exit": 0,
+  "scores": {
+    "0": {
+      "absolute_challenged_motor_rms": 13.132807240277906,
+      "matched_no_challenge_motor_rms": 3.6825893709787225,
+      "evoked_interaction_motor_rms": 10.30124808067449,
+      "passes_unchanged_material_gate": true,
+      "endpoint_302_challenged": {
+        "motor_rms": 12.920414059619768,
+        "scaled_full_rms": 0.8599786315407912,
+        "V_maxabs": 45.93208611652017,
+        "S_maxabs": 0.13332038467703464
+      },
+      "endpoint_302_no_challenge": {
+        "motor_rms": 3.7425710646545856,
+        "scaled_full_rms": 2.4303473766970787,
+        "V_maxabs": 154.27316375530654,
+        "S_maxabs": 0.16658498146430983
+      },
+      "challenged_replay_motor_maxabs": {
+        "finite": 2.7730169449569075e-07,
+        "sham": 3.8731172935513314e-07
+      }
+    },
+    "1": {
+      "absolute_challenged_motor_rms": 13.13209599222584,
+      "matched_no_challenge_motor_rms": 3.6830475637335645,
+      "evoked_interaction_motor_rms": 10.30017366846114,
+      "passes_unchanged_material_gate": true,
+      "endpoint_302_challenged": {
+        "motor_rms": 12.903714708267866,
+        "scaled_full_rms": 0.8584700734820869,
+        "V_maxabs": 45.84675064277053,
+        "S_maxabs": 0.13313467876009794
+      },
+      "endpoint_302_no_challenge": {
+        "motor_rms": 3.7425563398818533,
+        "scaled_full_rms": 2.430379183244169,
+        "V_maxabs": 154.19015135027848,
+        "S_maxabs": 0.16658499149506206
+      },
+      "challenged_replay_motor_maxabs": {
+        "finite": 2.7706613536793157e-07,
+        "sham": 3.9012036268104566e-07
+      }
+    }
+  },
+  "both_evoked_interactions_material": true,
+  "interpretation": "one fixed matched no-challenge comparison, no altered experimental settings or new post302s horizon",
+  "warnings": [
+    {
+      "category": "UserWarning",
+      "message": "Reading `.npy` or `.npz` file required additional header parsing as it was created on Python 2. Save the file again to speed up loading and avoid this warning.",
+      "filename": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/reviews/interactome-retained-state-stability-2026-11-03/model.py",
+      "lineno": 29
+    },
+    {
+      "category": "UserWarning",
+      "message": "Reading `.npy` or `.npz` file required additional header parsing as it was created on Python 2. Save the file again to speed up loading and avoid this warning.",
+      "filename": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/reviews/interactome-retained-state-stability-2026-11-03/model.py",
+      "lineno": 30
+    },
+    {
+      "category": "UserWarning",
+      "message": "Reading `.npy` or `.npz` file required additional header parsing as it was created on Python 2. Save the file again to speed up loading and avoid this warning.",
+      "filename": "/Users/vanshkumar/Documents/repos/devo-research-lab/lab/reviews/interactome-retained-state-stability-2026-11-03/model.py",
+      "lineno": 31
+    }
+  ],
+  "finished_utc": "2026-11-03T08:10:57.574091+00:00",
+  "self_elapsed_s": 3.8122703330000003,
+  "rss_bytes_macos": 139821056
+}

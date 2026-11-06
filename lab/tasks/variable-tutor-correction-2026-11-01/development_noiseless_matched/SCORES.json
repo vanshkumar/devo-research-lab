@@ -1,0 +1,4008 @@
+{
+  "label": "development_noiseless_matched",
+  "started_at": "2026-11-01T06:08:53Z",
+  "finished_at": "2026-11-01T06:08:54Z",
+  "seeds": [
+    1200,
+    1201,
+    1202,
+    1203,
+    1204,
+    1205,
+    1206,
+    1207,
+    1208,
+    1209,
+    1210,
+    1211
+  ],
+  "budgets": [
+    3,
+    32
+  ],
+  "sigma": 0.0,
+  "radius": 2.0,
+  "coupled": true,
+  "resolution": 0.0,
+  "rounds": 80,
+  "queries": 641,
+  "prediction_sha256": "510d2164f91f1c4d3b38cc39bf2b726f637f42e9799bc056d09d98153c1e775b",
+  "prediction_before_gold": true,
+  "summary": {
+    "3": {
+      "first": {
+        "count": 12,
+        "acquired": 2,
+        "mean_removal": -0.3673744297374375,
+        "median_final_error": 0.18214081504162252
+      },
+      "mean": {
+        "count": 12,
+        "acquired": 0,
+        "mean_removal": -0.226311141310544,
+        "median_final_error": 0.14456243500494387
+      },
+      "gaussian": {
+        "count": 12,
+        "acquired": 12,
+        "mean_removal": 0.9999999999853539,
+        "median_final_error": 8.797979093660991e-13
+      },
+      "tangent": {
+        "count": 12,
+        "acquired": 12,
+        "mean_removal": 0.9999999999922738,
+        "median_final_error": 8.458791433132265e-13
+      },
+      "ball": {
+        "count": 12,
+        "acquired": 8,
+        "mean_removal": 0.8491580259730137,
+        "median_final_error": 1.5621667644327074e-12
+      },
+      "hull": {
+        "count": 12,
+        "acquired": 2,
+        "mean_removal": 0.3522321984277394,
+        "median_final_error": 0.04361891127008817
+      },
+      "nearest": {
+        "count": 12,
+        "acquired": 2,
+        "mean_removal": 0.3291903229796759,
+        "median_final_error": 0.049687637225505774
+      },
+      "absent": {
+        "count": 12,
+        "acquired": 0,
+        "mean_removal": 0.0,
+        "median_final_error": 0.13581210979901664
+      },
+      "shuffled": {
+        "count": 12,
+        "acquired": 0,
+        "mean_removal": -4.019868527826195,
+        "median_final_error": 0.5342420837329078
+      },
+      "truth": {
+        "count": 12,
+        "acquired": 12,
+        "mean_removal": 0.9999999999922738,
+        "median_final_error": 8.458791433132265e-13
+      }
+    },
+    "32": {
+      "first": {
+        "count": 12,
+        "acquired": 2,
+        "mean_removal": -0.3673744297374375,
+        "median_final_error": 0.18214081504162252
+      },
+      "mean": {
+        "count": 12,
+        "acquired": 0,
+        "mean_removal": -0.07660425124801273,
+        "median_final_error": 0.13724836827557096
+      },
+      "gaussian": {
+        "count": 12,
+        "acquired": 12,
+        "mean_removal": 0.9999999999922738,
+        "median_final_error": 8.458791433132265e-13
+      },
+      "tangent": {
+        "count": 12,
+        "acquired": 12,
+        "mean_removal": 0.9999999999922738,
+        "median_final_error": 8.458791433132265e-13
+      },
+      "ball": {
+        "count": 12,
+        "acquired": 12,
+        "mean_removal": 0.9999999999922738,
+        "median_final_error": 8.458791433132265e-13
+      },
+      "hull": {
+        "count": 12,
+        "acquired": 12,
+        "mean_removal": 0.9943572221266389,
+        "median_final_error": 5.167118357701755e-05
+      },
+      "nearest": {
+        "count": 12,
+        "acquired": 8,
+        "mean_removal": 0.9492591018509953,
+        "median_final_error": 0.003929066062502022
+      },
+      "absent": {
+        "count": 12,
+        "acquired": 0,
+        "mean_removal": 0.0,
+        "median_final_error": 0.13581210979901664
+      },
+      "shuffled": {
+        "count": 12,
+        "acquired": 0,
+        "mean_removal": -4.324194868427967,
+        "median_final_error": 0.6470900901367425
+      },
+      "truth": {
+        "count": 12,
+        "acquired": 12,
+        "mean_removal": 0.9999999999922738,
+        "median_final_error": 8.458791433132265e-13
+      }
+    }
+  },
+  "records": [
+    {
+      "seed": 1200,
+      "n": 3,
+      "method": "first",
+      "resolution": 0.0,
+      "initial_true_error": 0.1419837298288968,
+      "final_true_error": 0.16633356848157077,
+      "removal": -0.17149738693312067,
+      "acquired": false,
+      "endpoint_action": [
+        -0.5405426025390625,
+        -0.5162887573242188,
+        -0.3574333190917969,
+        -0.281951904296875
+      ]
+    },
+    {
+      "seed": 1200,
+      "n": 3,
+      "method": "mean",
+      "resolution": 0.0,
+      "initial_true_error": 0.1419837298288968,
+      "final_true_error": 0.2511008772416796,
+      "removal": -0.7685186714300212,
+      "acquired": false,
+      "endpoint_action": [
+        -0.4874267578125,
+        -0.2727394104003906,
+        -0.6588249206542969,
+        -0.2641410827636719
+      ]
+    },
+    {
+      "seed": 1200,
+      "n": 3,
+      "method": "gaussian",
+      "resolution": 0.0,
+      "initial_true_error": 0.1419837298288968,
+      "final_true_error": 6.261695611264047e-13,
+      "removal": 0.9999999999955899,
+      "acquired": true,
+      "endpoint_action": [
+        -0.5018234252929688,
+        -0.3975791931152344,
+        0.09302139282226562,
+        0.386505126953125
+      ]
+    },
+    {
+      "seed": 1200,
+      "n": 3,
+      "method": "tangent",
+      "resolution": 0.0,
+      "initial_true_error": 0.1419837298288968,
+      "final_true_error": 6.261695611264047e-13,
+      "removal": 0.9999999999955899,
+      "acquired": true,
+      "endpoint_action": [
+        -0.5018234252929688,
+        -0.3975791931152344,
+        0.09302139282226562,
+        0.386505126953125
+      ]
+    },
+    {
+      "seed": 1200,
+      "n": 3,
+      "method": "ball",
+      "resolution": 0.0,
+      "initial_true_error": 0.1419837298288968,
+      "final_true_error": 6.261695611264047e-13,
+      "removal": 0.9999999999955899,
+      "acquired": true,
+      "endpoint_action": [
+        -0.5018234252929688,
+        -0.3975791931152344,
+        0.09302139282226562,
+        0.386505126953125
+      ]
+    },
+    {
+      "seed": 1200,
+      "n": 3,
+      "method": "hull",
+      "resolution": 0.0,
+      "initial_true_error": 0.1419837298288968,
+      "final_true_error": 0.16633356848157077,
+      "removal": -0.17149738693312067,
+      "acquired": false,
+      "endpoint_action": [
+        -0.5405426025390625,
+        -0.5162887573242188,
+        -0.3574333190917969,
+        -0.281951904296875
+      ]
+    },
+    {
+      "seed": 1200,
+      "n": 3,
+      "method": "nearest",
+      "resolution": 0.0,
+      "initial_true_error": 0.1419837298288968,
+      "final_true_error": 0.16633356848157077,
+      "removal": -0.17149738693312067,
+      "acquired": false,
+      "endpoint_action": [
+        -0.5405426025390625,
+        -0.5162887573242188,
+        -0.3574333190917969,
+        -0.281951904296875
+      ]
+    },
+    {
+      "seed": 1200,
+      "n": 3,
+      "method": "absent",
+      "resolution": 0.0,
+      "initial_true_error": 0.1419837298288968,
+      "final_true_error": 0.1419837298288968,
+      "removal": 0.0,
+      "acquired": false,
+      "endpoint_action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 1200,
+      "n": 3,
+      "method": "shuffled",
+      "resolution": 0.0,
+      "initial_true_error": 0.1419837298288968,
+      "final_true_error": 0.846222992344988,
+      "removal": -4.959999736341362,
+      "acquired": false,
+      "endpoint_action": [
+        -1.0,
+        0.47415924072265625,
+        0.7671051025390625,
+        -1.0
+      ]
+    },
+    {
+      "seed": 1200,
+      "n": 3,
+      "method": "truth",
+      "resolution": 0.0,
+      "initial_true_error": 0.1419837298288968,
+      "final_true_error": 6.261695611264047e-13,
+      "removal": 0.9999999999955899,
+      "acquired": true,
+      "endpoint_action": [
+        -0.5018234252929688,
+        -0.3975791931152344,
+        0.09302139282226562,
+        0.386505126953125
+      ]
+    },
+    {
+      "seed": 1200,
+      "n": 32,
+      "method": "first",
+      "resolution": 0.0,
+      "initial_true_error": 0.1419837298288968,
+      "final_true_error": 0.16633356848157077,
+      "removal": -0.17149738693312067,
+      "acquired": false,
+      "endpoint_action": [
+        -0.5405426025390625,
+        -0.5162887573242188,
+        -0.3574333190917969,
+        -0.281951904296875
+      ]
+    },
+    {
+      "seed": 1200,
+      "n": 32,
+      "method": "mean",
+      "resolution": 0.0,
+      "initial_true_error": 0.1419837298288968,
+      "final_true_error": 0.1843224342936917,
+      "removal": -0.29819405727555437,
+      "acquired": false,
+      "endpoint_action": [
+        -0.46344757080078125,
+        -0.17973709106445312,
+        -0.6016769409179688,
+        -0.06710052490234375
+      ]
+    },
+    {
+      "seed": 1200,
+      "n": 32,
+      "method": "gaussian",
+      "resolution": 0.0,
+      "initial_true_error": 0.1419837298288968,
+      "final_true_error": 6.261695611264047e-13,
+      "removal": 0.9999999999955899,
+      "acquired": true,
+      "endpoint_action": [
+        -0.5018234252929688,
+        -0.3975791931152344,
+        0.09302139282226562,
+        0.386505126953125
+      ]
+    },
+    {
+      "seed": 1200,
+      "n": 32,
+      "method": "tangent",
+      "resolution": 0.0,
+      "initial_true_error": 0.1419837298288968,
+      "final_true_error": 6.261695611264047e-13,
+      "removal": 0.9999999999955899,
+      "acquired": true,
+      "endpoint_action": [
+        -0.5018234252929688,
+        -0.3975791931152344,
+        0.09302139282226562,
+        0.386505126953125
+      ]
+    },
+    {
+      "seed": 1200,
+      "n": 32,
+      "method": "ball",
+      "resolution": 0.0,
+      "initial_true_error": 0.1419837298288968,
+      "final_true_error": 6.261695611264047e-13,
+      "removal": 0.9999999999955899,
+      "acquired": true,
+      "endpoint_action": [
+        -0.5018234252929688,
+        -0.3975791931152344,
+        0.09302139282226562,
+        0.386505126953125
+      ]
+    },
+    {
+      "seed": 1200,
+      "n": 32,
+      "method": "hull",
+      "resolution": 0.0,
+      "initial_true_error": 0.1419837298288968,
+      "final_true_error": 0.00301658244059196,
+      "removal": 0.9787540273506886,
+      "acquired": true,
+      "endpoint_action": [
+        -0.49004364013671875,
+        -0.341400146484375,
+        0.001552581787109375,
+        0.3663749694824219
+      ]
+    },
+    {
+      "seed": 1200,
+      "n": 32,
+      "method": "nearest",
+      "resolution": 0.0,
+      "initial_true_error": 0.1419837298288968,
+      "final_true_error": 0.0038645515230733263,
+      "removal": 0.9727817297958684,
+      "acquired": true,
+      "endpoint_action": [
+        -0.4847869873046875,
+        -0.3196067810058594,
+        -0.002033233642578125,
+        0.393798828125
+      ]
+    },
+    {
+      "seed": 1200,
+      "n": 32,
+      "method": "absent",
+      "resolution": 0.0,
+      "initial_true_error": 0.1419837298288968,
+      "final_true_error": 0.1419837298288968,
+      "removal": 0.0,
+      "acquired": false,
+      "endpoint_action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 1200,
+      "n": 32,
+      "method": "shuffled",
+      "resolution": 0.0,
+      "initial_true_error": 0.1419837298288968,
+      "final_true_error": 0.9733002112341728,
+      "removal": -5.855012277865129,
+      "acquired": false,
+      "endpoint_action": [
+        -1.0,
+        0.5452537536621094,
+        1.0,
+        -1.0
+      ]
+    },
+    {
+      "seed": 1200,
+      "n": 32,
+      "method": "truth",
+      "resolution": 0.0,
+      "initial_true_error": 0.1419837298288968,
+      "final_true_error": 6.261695611264047e-13,
+      "removal": 0.9999999999955899,
+      "acquired": true,
+      "endpoint_action": [
+        -0.5018234252929688,
+        -0.3975791931152344,
+        0.09302139282226562,
+        0.386505126953125
+      ]
+    },
+    {
+      "seed": 1201,
+      "n": 3,
+      "method": "first",
+      "resolution": 0.0,
+      "initial_true_error": 0.13553740139099696,
+      "final_true_error": 0.19794806160167427,
+      "removal": -0.460468177566985,
+      "acquired": false,
+      "endpoint_action": [
+        -0.5859184265136719,
+        -0.30429649353027344,
+        1.0,
+        -0.0399932861328125
+      ]
+    },
+    {
+      "seed": 1201,
+      "n": 3,
+      "method": "mean",
+      "resolution": 0.0,
+      "initial_true_error": 0.13553740139099696,
+      "final_true_error": 0.08175179346651545,
+      "removal": 0.3968322202763893,
+      "acquired": false,
+      "endpoint_action": [
+        -0.3218517303466797,
+        -0.230133056640625,
+        0.8945121765136719,
+        -0.27365875244140625
+      ]
+    },
+    {
+      "seed": 1201,
+      "n": 3,
+      "method": "gaussian",
+      "resolution": 0.0,
+      "initial_true_error": 0.13553740139099696,
+      "final_true_error": 1.6120187838914585e-13,
+      "removal": 0.9999999999988106,
+      "acquired": true,
+      "endpoint_action": [
+        -0.10111236572265625,
+        -0.17149925231933594,
+        0.41307640075683594,
+        -0.4811744689941406
+      ]
+    },
+    {
+      "seed": 1201,
+      "n": 3,
+      "method": "tangent",
+      "resolution": 0.0,
+      "initial_true_error": 0.13553740139099696,
+      "final_true_error": 1.6120187838914585e-13,
+      "removal": 0.9999999999988106,
+      "acquired": true,
+      "endpoint_action": [
+        -0.10111236572265625,
+        -0.17149925231933594,
+        0.41307640075683594,
+        -0.4811744689941406
+      ]
+    },
+    {
+      "seed": 1201,
+      "n": 3,
+      "method": "ball",
+      "resolution": 0.0,
+      "initial_true_error": 0.13553740139099696,
+      "final_true_error": 1.6120187838914585e-13,
+      "removal": 0.9999999999988106,
+      "acquired": true,
+      "endpoint_action": [
+        -0.10111236572265625,
+        -0.17149925231933594,
+        0.41307640075683594,
+        -0.4811744689941406
+      ]
+    },
+    {
+      "seed": 1201,
+      "n": 3,
+      "method": "hull",
+      "resolution": 0.0,
+      "initial_true_error": 0.13553740139099696,
+      "final_true_error": 0.010590458810572809,
+      "removal": 0.9218632001065038,
+      "acquired": false,
+      "endpoint_action": [
+        -0.16977691650390625,
+        -0.16847801208496094,
+        0.5457000732421875,
+        -0.3395805358886719
+      ]
+    },
+    {
+      "seed": 1201,
+      "n": 3,
+      "method": "nearest",
+      "resolution": 0.0,
+      "initial_true_error": 0.13553740139099696,
+      "final_true_error": 0.008401955553492359,
+      "removal": 0.9380100587198476,
+      "acquired": false,
+      "endpoint_action": [
+        -0.15402603149414062,
+        -0.1584625244140625,
+        0.5066490173339844,
+        -0.3332481384277344
+      ]
+    },
+    {
+      "seed": 1201,
+      "n": 3,
+      "method": "absent",
+      "resolution": 0.0,
+      "initial_true_error": 0.13553740139099696,
+      "final_true_error": 0.13553740139099696,
+      "removal": 0.0,
+      "acquired": false,
+      "endpoint_action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 1201,
+      "n": 3,
+      "method": "shuffled",
+      "resolution": 0.0,
+      "initial_true_error": 0.13553740139099696,
+      "final_true_error": 0.5103270228407311,
+      "removal": -2.765211798391683,
+      "acquired": false,
+      "endpoint_action": [
+        0.34458160400390625,
+        1.0,
+        1.0,
+        -0.12652587890625
+      ]
+    },
+    {
+      "seed": 1201,
+      "n": 3,
+      "method": "truth",
+      "resolution": 0.0,
+      "initial_true_error": 0.13553740139099696,
+      "final_true_error": 1.6120187838914585e-13,
+      "removal": 0.9999999999988106,
+      "acquired": true,
+      "endpoint_action": [
+        -0.10111236572265625,
+        -0.17149925231933594,
+        0.41307640075683594,
+        -0.4811744689941406
+      ]
+    },
+    {
+      "seed": 1201,
+      "n": 32,
+      "method": "first",
+      "resolution": 0.0,
+      "initial_true_error": 0.13553740139099696,
+      "final_true_error": 0.19794806160167427,
+      "removal": -0.460468177566985,
+      "acquired": false,
+      "endpoint_action": [
+        -0.5859184265136719,
+        -0.30429649353027344,
+        1.0,
+        -0.0399932861328125
+      ]
+    },
+    {
+      "seed": 1201,
+      "n": 32,
+      "method": "mean",
+      "resolution": 0.0,
+      "initial_true_error": 0.13553740139099696,
+      "final_true_error": 0.146227854534336,
+      "removal": -0.07887456180821517,
+      "acquired": false,
+      "endpoint_action": [
+        -0.5291309356689453,
+        -0.4073219299316406,
+        1.0,
+        -0.5214176177978516
+      ]
+    },
+    {
+      "seed": 1201,
+      "n": 32,
+      "method": "gaussian",
+      "resolution": 0.0,
+      "initial_true_error": 0.13553740139099696,
+      "final_true_error": 1.6120187838914585e-13,
+      "removal": 0.9999999999988106,
+      "acquired": true,
+      "endpoint_action": [
+        -0.10111236572265625,
+        -0.17149925231933594,
+        0.41307640075683594,
+        -0.4811744689941406
+      ]
+    },
+    {
+      "seed": 1201,
+      "n": 32,
+      "method": "tangent",
+      "resolution": 0.0,
+      "initial_true_error": 0.13553740139099696,
+      "final_true_error": 1.6120187838914585e-13,
+      "removal": 0.9999999999988106,
+      "acquired": true,
+      "endpoint_action": [
+        -0.10111236572265625,
+        -0.17149925231933594,
+        0.41307640075683594,
+        -0.4811744689941406
+      ]
+    },
+    {
+      "seed": 1201,
+      "n": 32,
+      "method": "ball",
+      "resolution": 0.0,
+      "initial_true_error": 0.13553740139099696,
+      "final_true_error": 1.6120187838914585e-13,
+      "removal": 0.9999999999988106,
+      "acquired": true,
+      "endpoint_action": [
+        -0.10111236572265625,
+        -0.17149925231933594,
+        0.41307640075683594,
+        -0.4811744689941406
+      ]
+    },
+    {
+      "seed": 1201,
+      "n": 32,
+      "method": "hull",
+      "resolution": 0.0,
+      "initial_true_error": 0.13553740139099696,
+      "final_true_error": 0.00453552728578702,
+      "removal": 0.966536710610948,
+      "acquired": true,
+      "endpoint_action": [
+        -0.15352249145507812,
+        -0.1923828125,
+        0.5329971313476562,
+        -0.45713043212890625
+      ]
+    },
+    {
+      "seed": 1201,
+      "n": 32,
+      "method": "nearest",
+      "resolution": 0.0,
+      "initial_true_error": 0.13553740139099696,
+      "final_true_error": 0.01570260148877305,
+      "removal": 0.8841456208572692,
+      "acquired": false,
+      "endpoint_action": [
+        -0.1980438232421875,
+        -0.2144298553466797,
+        0.6383304595947266,
+        -0.4523277282714844
+      ]
+    },
+    {
+      "seed": 1201,
+      "n": 32,
+      "method": "absent",
+      "resolution": 0.0,
+      "initial_true_error": 0.13553740139099696,
+      "final_true_error": 0.13553740139099696,
+      "removal": 0.0,
+      "acquired": false,
+      "endpoint_action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 1201,
+      "n": 32,
+      "method": "shuffled",
+      "resolution": 0.0,
+      "initial_true_error": 0.13553740139099696,
+      "final_true_error": 0.5684443097855034,
+      "removal": -3.1940033079552768,
+      "acquired": false,
+      "endpoint_action": [
+        0.47203826904296875,
+        1.0,
+        1.0,
+        -0.003276824951171875
+      ]
+    },
+    {
+      "seed": 1201,
+      "n": 32,
+      "method": "truth",
+      "resolution": 0.0,
+      "initial_true_error": 0.13553740139099696,
+      "final_true_error": 1.6120187838914585e-13,
+      "removal": 0.9999999999988106,
+      "acquired": true,
+      "endpoint_action": [
+        -0.10111236572265625,
+        -0.17149925231933594,
+        0.41307640075683594,
+        -0.4811744689941406
+      ]
+    },
+    {
+      "seed": 1202,
+      "n": 3,
+      "method": "first",
+      "resolution": 0.0,
+      "initial_true_error": 0.28406865505466083,
+      "final_true_error": 0.21636260049493478,
+      "removal": 0.23834398253724254,
+      "acquired": false,
+      "endpoint_action": [
+        0.7805099487304688,
+        -1.0,
+        1.0,
+        0.5096492767333984
+      ]
+    },
+    {
+      "seed": 1202,
+      "n": 3,
+      "method": "mean",
+      "resolution": 0.0,
+      "initial_true_error": 0.28406865505466083,
+      "final_true_error": 0.1741966206885258,
+      "removal": 0.3867798590625683,
+      "acquired": false,
+      "endpoint_action": [
+        0.6783180236816406,
+        -1.0,
+        0.9973030090332031,
+        0.3359184265136719
+      ]
+    },
+    {
+      "seed": 1202,
+      "n": 3,
+      "method": "gaussian",
+      "resolution": 0.0,
+      "initial_true_error": 0.28406865505466083,
+      "final_true_error": 2.1752146911445203e-13,
+      "removal": 0.9999999999992343,
+      "acquired": true,
+      "endpoint_action": [
+        0.4448738098144531,
+        -0.3953285217285156,
+        0.5212879180908203,
+        0.11214828491210938
+      ]
+    },
+    {
+      "seed": 1202,
+      "n": 3,
+      "method": "tangent",
+      "resolution": 0.0,
+      "initial_true_error": 0.28406865505466083,
+      "final_true_error": 2.1752146911445203e-13,
+      "removal": 0.9999999999992343,
+      "acquired": true,
+      "endpoint_action": [
+        0.4448738098144531,
+        -0.3953285217285156,
+        0.5212879180908203,
+        0.11214828491210938
+      ]
+    },
+    {
+      "seed": 1202,
+      "n": 3,
+      "method": "ball",
+      "resolution": 0.0,
+      "initial_true_error": 0.28406865505466083,
+      "final_true_error": 2.1752146911445203e-13,
+      "removal": 0.9999999999992343,
+      "acquired": true,
+      "endpoint_action": [
+        0.4448738098144531,
+        -0.3953285217285156,
+        0.5212879180908203,
+        0.11214828491210938
+      ]
+    },
+    {
+      "seed": 1202,
+      "n": 3,
+      "method": "hull",
+      "resolution": 0.0,
+      "initial_true_error": 0.28406865505466083,
+      "final_true_error": 0.01614534107952123,
+      "removal": 0.9431639471929258,
+      "acquired": false,
+      "endpoint_action": [
+        0.6027793884277344,
+        -0.5296230316162109,
+        0.3971748352050781,
+        0.19094085693359375
+      ]
+    },
+    {
+      "seed": 1202,
+      "n": 3,
+      "method": "nearest",
+      "resolution": 0.0,
+      "initial_true_error": 0.28406865505466083,
+      "final_true_error": 0.01777362584817565,
+      "removal": 0.9374319357946915,
+      "acquired": false,
+      "endpoint_action": [
+        0.6136856079101562,
+        -0.4603424072265625,
+        0.34095191955566406,
+        0.188629150390625
+      ]
+    },
+    {
+      "seed": 1202,
+      "n": 3,
+      "method": "absent",
+      "resolution": 0.0,
+      "initial_true_error": 0.28406865505466083,
+      "final_true_error": 0.28406865505466083,
+      "removal": 0.0,
+      "acquired": false,
+      "endpoint_action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 1202,
+      "n": 3,
+      "method": "shuffled",
+      "resolution": 0.0,
+      "initial_true_error": 0.28406865505466083,
+      "final_true_error": 0.12234220393891765,
+      "removal": 0.569321705292066,
+      "acquired": false,
+      "endpoint_action": [
+        0.15160369873046875,
+        -1.0,
+        0.5827617645263672,
+        0.296417236328125
+      ]
+    },
+    {
+      "seed": 1202,
+      "n": 3,
+      "method": "truth",
+      "resolution": 0.0,
+      "initial_true_error": 0.28406865505466083,
+      "final_true_error": 2.1752146911445203e-13,
+      "removal": 0.9999999999992343,
+      "acquired": true,
+      "endpoint_action": [
+        0.4448738098144531,
+        -0.3953285217285156,
+        0.5212879180908203,
+        0.11214828491210938
+      ]
+    },
+    {
+      "seed": 1202,
+      "n": 32,
+      "method": "first",
+      "resolution": 0.0,
+      "initial_true_error": 0.28406865505466083,
+      "final_true_error": 0.21636260049493478,
+      "removal": 0.23834398253724254,
+      "acquired": false,
+      "endpoint_action": [
+        0.7805099487304688,
+        -1.0,
+        1.0,
+        0.5096492767333984
+      ]
+    },
+    {
+      "seed": 1202,
+      "n": 32,
+      "method": "mean",
+      "resolution": 0.0,
+      "initial_true_error": 0.28406865505466083,
+      "final_true_error": 0.14760843754708458,
+      "removal": 0.4803775956249675,
+      "acquired": false,
+      "endpoint_action": [
+        0.5002174377441406,
+        -1.0,
+        0.9793472290039062,
+        0.22135162353515625
+      ]
+    },
+    {
+      "seed": 1202,
+      "n": 32,
+      "method": "gaussian",
+      "resolution": 0.0,
+      "initial_true_error": 0.28406865505466083,
+      "final_true_error": 2.1752146911445203e-13,
+      "removal": 0.9999999999992343,
+      "acquired": true,
+      "endpoint_action": [
+        0.4448738098144531,
+        -0.3953285217285156,
+        0.5212879180908203,
+        0.11214828491210938
+      ]
+    },
+    {
+      "seed": 1202,
+      "n": 32,
+      "method": "tangent",
+      "resolution": 0.0,
+      "initial_true_error": 0.28406865505466083,
+      "final_true_error": 2.1752146911445203e-13,
+      "removal": 0.9999999999992343,
+      "acquired": true,
+      "endpoint_action": [
+        0.4448738098144531,
+        -0.3953285217285156,
+        0.5212879180908203,
+        0.11214828491210938
+      ]
+    },
+    {
+      "seed": 1202,
+      "n": 32,
+      "method": "ball",
+      "resolution": 0.0,
+      "initial_true_error": 0.28406865505466083,
+      "final_true_error": 2.1752146911445203e-13,
+      "removal": 0.9999999999992343,
+      "acquired": true,
+      "endpoint_action": [
+        0.4448738098144531,
+        -0.3953285217285156,
+        0.5212879180908203,
+        0.11214828491210938
+      ]
+    },
+    {
+      "seed": 1202,
+      "n": 32,
+      "method": "hull",
+      "resolution": 0.0,
+      "initial_true_error": 0.28406865505466083,
+      "final_true_error": 0.00010334236575423265,
+      "removal": 0.9996362063750598,
+      "acquired": true,
+      "endpoint_action": [
+        0.44896697998046875,
+        -0.4139881134033203,
+        0.5272808074951172,
+        0.11568832397460938
+      ]
+    },
+    {
+      "seed": 1202,
+      "n": 32,
+      "method": "nearest",
+      "resolution": 0.0,
+      "initial_true_error": 0.28406865505466083,
+      "final_true_error": 0.004747204487825949,
+      "removal": 0.9832885311231805,
+      "acquired": true,
+      "endpoint_action": [
+        0.3620643615722656,
+        -0.38953399658203125,
+        0.625579833984375,
+        0.07720565795898438
+      ]
+    },
+    {
+      "seed": 1202,
+      "n": 32,
+      "method": "absent",
+      "resolution": 0.0,
+      "initial_true_error": 0.28406865505466083,
+      "final_true_error": 0.28406865505466083,
+      "removal": 0.0,
+      "acquired": false,
+      "endpoint_action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 1202,
+      "n": 32,
+      "method": "shuffled",
+      "resolution": 0.0,
+      "initial_true_error": 0.28406865505466083,
+      "final_true_error": 0.12234220393891765,
+      "removal": 0.569321705292066,
+      "acquired": false,
+      "endpoint_action": [
+        0.15160369873046875,
+        -1.0,
+        0.5827617645263672,
+        0.296417236328125
+      ]
+    },
+    {
+      "seed": 1202,
+      "n": 32,
+      "method": "truth",
+      "resolution": 0.0,
+      "initial_true_error": 0.28406865505466083,
+      "final_true_error": 2.1752146911445203e-13,
+      "removal": 0.9999999999992343,
+      "acquired": true,
+      "endpoint_action": [
+        0.4448738098144531,
+        -0.3953285217285156,
+        0.5212879180908203,
+        0.11214828491210938
+      ]
+    },
+    {
+      "seed": 1203,
+      "n": 3,
+      "method": "first",
+      "resolution": 0.0,
+      "initial_true_error": 0.16930298029593344,
+      "final_true_error": 0.006065540777577232,
+      "removal": 0.9641734553817366,
+      "acquired": true,
+      "endpoint_action": [
+        -0.4256935119628906,
+        -0.03266143798828125,
+        -0.622833251953125,
+        -0.5574226379394531
+      ]
+    },
+    {
+      "seed": 1203,
+      "n": 3,
+      "method": "mean",
+      "resolution": 0.0,
+      "initial_true_error": 0.16930298029593344,
+      "final_true_error": 0.08109445134697196,
+      "removal": 0.5210099006808813,
+      "acquired": false,
+      "endpoint_action": [
+        0.03737831115722656,
+        0.24222946166992188,
+        -0.4778614044189453,
+        -0.5215415954589844
+      ]
+    },
+    {
+      "seed": 1203,
+      "n": 3,
+      "method": "gaussian",
+      "resolution": 0.0,
+      "initial_true_error": 0.16930298029593344,
+      "final_true_error": 5.726880260948365e-13,
+      "removal": 0.9999999999966174,
+      "acquired": true,
+      "endpoint_action": [
+        -0.41126251220703125,
+        -0.10678291320800781,
+        -0.5018463134765625,
+        -0.4947967529296875
+      ]
+    },
+    {
+      "seed": 1203,
+      "n": 3,
+      "method": "tangent",
+      "resolution": 0.0,
+      "initial_true_error": 0.16930298029593344,
+      "final_true_error": 5.726880260948365e-13,
+      "removal": 0.9999999999966174,
+      "acquired": true,
+      "endpoint_action": [
+        -0.41126251220703125,
+        -0.10678291320800781,
+        -0.5018463134765625,
+        -0.4947967529296875
+      ]
+    },
+    {
+      "seed": 1203,
+      "n": 3,
+      "method": "ball",
+      "resolution": 0.0,
+      "initial_true_error": 0.16930298029593344,
+      "final_true_error": 5.726880260948365e-13,
+      "removal": 0.9999999999966174,
+      "acquired": true,
+      "endpoint_action": [
+        -0.41126251220703125,
+        -0.10678291320800781,
+        -0.5018463134765625,
+        -0.4947967529296875
+      ]
+    },
+    {
+      "seed": 1203,
+      "n": 3,
+      "method": "hull",
+      "resolution": 0.0,
+      "initial_true_error": 0.16930298029593344,
+      "final_true_error": 0.005747025243409095,
+      "removal": 0.9660547898603818,
+      "acquired": true,
+      "endpoint_action": [
+        -0.40312957763671875,
+        -0.021728515625,
+        -0.6123046875,
+        -0.5538444519042969
+      ]
+    },
+    {
+      "seed": 1203,
+      "n": 3,
+      "method": "nearest",
+      "resolution": 0.0,
+      "initial_true_error": 0.16930298029593344,
+      "final_true_error": 0.006065540777577232,
+      "removal": 0.9641734553817366,
+      "acquired": true,
+      "endpoint_action": [
+        -0.4256935119628906,
+        -0.03266143798828125,
+        -0.622833251953125,
+        -0.5574226379394531
+      ]
+    },
+    {
+      "seed": 1203,
+      "n": 3,
+      "method": "absent",
+      "resolution": 0.0,
+      "initial_true_error": 0.16930298029593344,
+      "final_true_error": 0.16930298029593344,
+      "removal": 0.0,
+      "acquired": false,
+      "endpoint_action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 1203,
+      "n": 3,
+      "method": "shuffled",
+      "resolution": 0.0,
+      "initial_true_error": 0.16930298029593344,
+      "final_true_error": 0.5432427043420944,
+      "removal": -2.2087013671734095,
+      "acquired": false,
+      "endpoint_action": [
+        0.3912696838378906,
+        0.8935623168945312,
+        -0.46671581268310547,
+        0.23114395141601562
+      ]
+    },
+    {
+      "seed": 1203,
+      "n": 3,
+      "method": "truth",
+      "resolution": 0.0,
+      "initial_true_error": 0.16930298029593344,
+      "final_true_error": 5.726880260948365e-13,
+      "removal": 0.9999999999966174,
+      "acquired": true,
+      "endpoint_action": [
+        -0.41126251220703125,
+        -0.10678291320800781,
+        -0.5018463134765625,
+        -0.4947967529296875
+      ]
+    },
+    {
+      "seed": 1203,
+      "n": 32,
+      "method": "first",
+      "resolution": 0.0,
+      "initial_true_error": 0.16930298029593344,
+      "final_true_error": 0.006065540777577232,
+      "removal": 0.9641734553817366,
+      "acquired": true,
+      "endpoint_action": [
+        -0.4256935119628906,
+        -0.03266143798828125,
+        -0.622833251953125,
+        -0.5574226379394531
+      ]
+    },
+    {
+      "seed": 1203,
+      "n": 32,
+      "method": "mean",
+      "resolution": 0.0,
+      "initial_true_error": 0.16930298029593344,
+      "final_true_error": 0.22233538498364394,
+      "removal": -0.31323964052500686,
+      "acquired": false,
+      "endpoint_action": [
+        0.36040687561035156,
+        0.4122772216796875,
+        -0.346160888671875,
+        -0.4803657531738281
+      ]
+    },
+    {
+      "seed": 1203,
+      "n": 32,
+      "method": "gaussian",
+      "resolution": 0.0,
+      "initial_true_error": 0.16930298029593344,
+      "final_true_error": 5.726880260948365e-13,
+      "removal": 0.9999999999966174,
+      "acquired": true,
+      "endpoint_action": [
+        -0.41126251220703125,
+        -0.10678291320800781,
+        -0.5018463134765625,
+        -0.4947967529296875
+      ]
+    },
+    {
+      "seed": 1203,
+      "n": 32,
+      "method": "tangent",
+      "resolution": 0.0,
+      "initial_true_error": 0.16930298029593344,
+      "final_true_error": 5.726880260948365e-13,
+      "removal": 0.9999999999966174,
+      "acquired": true,
+      "endpoint_action": [
+        -0.41126251220703125,
+        -0.10678291320800781,
+        -0.5018463134765625,
+        -0.4947967529296875
+      ]
+    },
+    {
+      "seed": 1203,
+      "n": 32,
+      "method": "ball",
+      "resolution": 0.0,
+      "initial_true_error": 0.16930298029593344,
+      "final_true_error": 5.726880260948365e-13,
+      "removal": 0.9999999999966174,
+      "acquired": true,
+      "endpoint_action": [
+        -0.41126251220703125,
+        -0.10678291320800781,
+        -0.5018463134765625,
+        -0.4947967529296875
+      ]
+    },
+    {
+      "seed": 1203,
+      "n": 32,
+      "method": "hull",
+      "resolution": 0.0,
+      "initial_true_error": 0.16930298029593344,
+      "final_true_error": 5.726880260948365e-13,
+      "removal": 0.9999999999966174,
+      "acquired": true,
+      "endpoint_action": [
+        -0.41126251220703125,
+        -0.10678291320800781,
+        -0.5018463134765625,
+        -0.4947967529296875
+      ]
+    },
+    {
+      "seed": 1203,
+      "n": 32,
+      "method": "nearest",
+      "resolution": 0.0,
+      "initial_true_error": 0.16930298029593344,
+      "final_true_error": 0.003973828726681203,
+      "removal": 0.9765283002122281,
+      "acquired": true,
+      "endpoint_action": [
+        -0.44379425048828125,
+        -0.18892669677734375,
+        -0.4235267639160156,
+        -0.4505767822265625
+      ]
+    },
+    {
+      "seed": 1203,
+      "n": 32,
+      "method": "absent",
+      "resolution": 0.0,
+      "initial_true_error": 0.16930298029593344,
+      "final_true_error": 0.16930298029593344,
+      "removal": 0.0,
+      "acquired": false,
+      "endpoint_action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 1203,
+      "n": 32,
+      "method": "shuffled",
+      "resolution": 0.0,
+      "initial_true_error": 0.16930298029593344,
+      "final_true_error": 1.0376964847665295,
+      "removal": -5.129227512431773,
+      "acquired": false,
+      "endpoint_action": [
+        0.4162578582763672,
+        1.0,
+        -0.5831623077392578,
+        1.0
+      ]
+    },
+    {
+      "seed": 1203,
+      "n": 32,
+      "method": "truth",
+      "resolution": 0.0,
+      "initial_true_error": 0.16930298029593344,
+      "final_true_error": 5.726880260948365e-13,
+      "removal": 0.9999999999966174,
+      "acquired": true,
+      "endpoint_action": [
+        -0.41126251220703125,
+        -0.10678291320800781,
+        -0.5018463134765625,
+        -0.4947967529296875
+      ]
+    },
+    {
+      "seed": 1204,
+      "n": 3,
+      "method": "first",
+      "resolution": 0.0,
+      "initial_true_error": 0.10101209267990699,
+      "final_true_error": 0.12694493555625364,
+      "removal": -0.2567300823924532,
+      "acquired": false,
+      "endpoint_action": [
+        1.0,
+        -0.19419479370117188,
+        -0.17288970947265625,
+        -0.3153228759765625
+      ]
+    },
+    {
+      "seed": 1204,
+      "n": 3,
+      "method": "mean",
+      "resolution": 0.0,
+      "initial_true_error": 0.10101209267990699,
+      "final_true_error": 0.21444458138560135,
+      "removal": -1.1229594961976073,
+      "acquired": false,
+      "endpoint_action": [
+        0.9823169708251953,
+        -0.3638763427734375,
+        -0.2880134582519531,
+        -0.5449581146240234
+      ]
+    },
+    {
+      "seed": 1204,
+      "n": 3,
+      "method": "gaussian",
+      "resolution": 0.0,
+      "initial_true_error": 0.10101209267990699,
+      "final_true_error": 1.3998024534029721e-12,
+      "removal": 0.9999999999861422,
+      "acquired": true,
+      "endpoint_action": [
+        0.5348739624023438,
+        0.17518234252929688,
+        -0.28908538818359375,
+        0.06083488464355469
+      ]
+    },
+    {
+      "seed": 1204,
+      "n": 3,
+      "method": "tangent",
+      "resolution": 0.0,
+      "initial_true_error": 0.10101209267990699,
+      "final_true_error": 1.3998024534029721e-12,
+      "removal": 0.9999999999861422,
+      "acquired": true,
+      "endpoint_action": [
+        0.5348739624023438,
+        0.17518234252929688,
+        -0.28908538818359375,
+        0.06083488464355469
+      ]
+    },
+    {
+      "seed": 1204,
+      "n": 3,
+      "method": "ball",
+      "resolution": 0.0,
+      "initial_true_error": 0.10101209267990699,
+      "final_true_error": 0.036000225955605716,
+      "removal": 0.6436047902731277,
+      "acquired": false,
+      "endpoint_action": [
+        0.7627029418945312,
+        -0.031261444091796875,
+        -0.250091552734375,
+        -0.15814971923828125
+      ]
+    },
+    {
+      "seed": 1204,
+      "n": 3,
+      "method": "hull",
+      "resolution": 0.0,
+      "initial_true_error": 0.10101209267990699,
+      "final_true_error": 0.12695983218557988,
+      "removal": -0.25687755611496543,
+      "acquired": false,
+      "endpoint_action": [
+        0.9974994659423828,
+        -0.19549179077148438,
+        -0.1824798583984375,
+        -0.3200206756591797
+      ]
+    },
+    {
+      "seed": 1204,
+      "n": 3,
+      "method": "nearest",
+      "resolution": 0.0,
+      "initial_true_error": 0.10101209267990699,
+      "final_true_error": 0.12694493555625364,
+      "removal": -0.2567300823924532,
+      "acquired": false,
+      "endpoint_action": [
+        1.0,
+        -0.19419479370117188,
+        -0.17288970947265625,
+        -0.3153228759765625
+      ]
+    },
+    {
+      "seed": 1204,
+      "n": 3,
+      "method": "absent",
+      "resolution": 0.0,
+      "initial_true_error": 0.10101209267990699,
+      "final_true_error": 0.10101209267990699,
+      "removal": 0.0,
+      "acquired": false,
+      "endpoint_action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 1204,
+      "n": 3,
+      "method": "shuffled",
+      "resolution": 0.0,
+      "initial_true_error": 0.10101209267990699,
+      "final_true_error": 0.7124031344154382,
+      "removal": -6.052651969828433,
+      "acquired": false,
+      "endpoint_action": [
+        0.5919837951660156,
+        -0.06821441650390625,
+        1.0,
+        -1.0
+      ]
+    },
+    {
+      "seed": 1204,
+      "n": 3,
+      "method": "truth",
+      "resolution": 0.0,
+      "initial_true_error": 0.10101209267990699,
+      "final_true_error": 1.3998024534029721e-12,
+      "removal": 0.9999999999861422,
+      "acquired": true,
+      "endpoint_action": [
+        0.5348739624023438,
+        0.17518234252929688,
+        -0.28908538818359375,
+        0.06083488464355469
+      ]
+    },
+    {
+      "seed": 1204,
+      "n": 32,
+      "method": "first",
+      "resolution": 0.0,
+      "initial_true_error": 0.10101209267990699,
+      "final_true_error": 0.12694493555625364,
+      "removal": -0.2567300823924532,
+      "acquired": false,
+      "endpoint_action": [
+        1.0,
+        -0.19419479370117188,
+        -0.17288970947265625,
+        -0.3153228759765625
+      ]
+    },
+    {
+      "seed": 1204,
+      "n": 32,
+      "method": "mean",
+      "resolution": 0.0,
+      "initial_true_error": 0.10101209267990699,
+      "final_true_error": 0.11151761422462064,
+      "removal": -0.10400261261791854,
+      "acquired": false,
+      "endpoint_action": [
+        0.6447830200195312,
+        -0.22503662109375,
+        -0.4401702880859375,
+        -0.4401512145996094
+      ]
+    },
+    {
+      "seed": 1204,
+      "n": 32,
+      "method": "gaussian",
+      "resolution": 0.0,
+      "initial_true_error": 0.10101209267990699,
+      "final_true_error": 1.3998024534029721e-12,
+      "removal": 0.9999999999861422,
+      "acquired": true,
+      "endpoint_action": [
+        0.5348739624023438,
+        0.17518234252929688,
+        -0.28908538818359375,
+        0.06083488464355469
+      ]
+    },
+    {
+      "seed": 1204,
+      "n": 32,
+      "method": "tangent",
+      "resolution": 0.0,
+      "initial_true_error": 0.10101209267990699,
+      "final_true_error": 1.3998024534029721e-12,
+      "removal": 0.9999999999861422,
+      "acquired": true,
+      "endpoint_action": [
+        0.5348739624023438,
+        0.17518234252929688,
+        -0.28908538818359375,
+        0.06083488464355469
+      ]
+    },
+    {
+      "seed": 1204,
+      "n": 32,
+      "method": "ball",
+      "resolution": 0.0,
+      "initial_true_error": 0.10101209267990699,
+      "final_true_error": 1.3998024534029721e-12,
+      "removal": 0.9999999999861422,
+      "acquired": true,
+      "endpoint_action": [
+        0.5348739624023438,
+        0.17518234252929688,
+        -0.28908538818359375,
+        0.06083488464355469
+      ]
+    },
+    {
+      "seed": 1204,
+      "n": 32,
+      "method": "hull",
+      "resolution": 0.0,
+      "initial_true_error": 0.10101209267990699,
+      "final_true_error": 1.3998024534029721e-12,
+      "removal": 0.9999999999861422,
+      "acquired": true,
+      "endpoint_action": [
+        0.5348739624023438,
+        0.17518234252929688,
+        -0.28908538818359375,
+        0.06083488464355469
+      ]
+    },
+    {
+      "seed": 1204,
+      "n": 32,
+      "method": "nearest",
+      "resolution": 0.0,
+      "initial_true_error": 0.10101209267990699,
+      "final_true_error": 0.01052578962027406,
+      "removal": 0.8957967373903559,
+      "acquired": false,
+      "endpoint_action": [
+        0.3625068664550781,
+        0.23687362670898438,
+        -0.3719902038574219,
+        0.10223770141601562
+      ]
+    },
+    {
+      "seed": 1204,
+      "n": 32,
+      "method": "absent",
+      "resolution": 0.0,
+      "initial_true_error": 0.10101209267990699,
+      "final_true_error": 0.10101209267990699,
+      "removal": 0.0,
+      "acquired": false,
+      "endpoint_action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 1204,
+      "n": 32,
+      "method": "shuffled",
+      "resolution": 0.0,
+      "initial_true_error": 0.10101209267990699,
+      "final_true_error": 0.7124031344154382,
+      "removal": -6.052651969828433,
+      "acquired": false,
+      "endpoint_action": [
+        0.5919837951660156,
+        -0.06821441650390625,
+        1.0,
+        -1.0
+      ]
+    },
+    {
+      "seed": 1204,
+      "n": 32,
+      "method": "truth",
+      "resolution": 0.0,
+      "initial_true_error": 0.10101209267990699,
+      "final_true_error": 1.3998024534029721e-12,
+      "removal": 0.9999999999861422,
+      "acquired": true,
+      "endpoint_action": [
+        0.5348739624023438,
+        0.17518234252929688,
+        -0.28908538818359375,
+        0.06083488464355469
+      ]
+    },
+    {
+      "seed": 1205,
+      "n": 3,
+      "method": "first",
+      "resolution": 0.0,
+      "initial_true_error": 0.08083913483949821,
+      "final_true_error": 0.029264164129162173,
+      "removal": 0.6379950850876298,
+      "acquired": false,
+      "endpoint_action": [
+        0.43703460693359375,
+        0.4600791931152344,
+        0.1750946044921875,
+        0.49007415771484375
+      ]
+    },
+    {
+      "seed": 1205,
+      "n": 3,
+      "method": "mean",
+      "resolution": 0.0,
+      "initial_true_error": 0.08083913483949821,
+      "final_true_error": 0.06780286661763743,
+      "removal": 0.16126184734341353,
+      "acquired": false,
+      "endpoint_action": [
+        0.16820144653320312,
+        0.4274864196777344,
+        -0.026554107666015625,
+        0.595184326171875
+      ]
+    },
+    {
+      "seed": 1205,
+      "n": 3,
+      "method": "gaussian",
+      "resolution": 0.0,
+      "initial_true_error": 0.08083913483949821,
+      "final_true_error": 8.04552442068423e-13,
+      "removal": 0.9999999999900475,
+      "acquired": true,
+      "endpoint_action": [
+        0.433258056640625,
+        0.22220611572265625,
+        0.16275405883789062,
+        0.24449920654296875
+      ]
+    },
+    {
+      "seed": 1205,
+      "n": 3,
+      "method": "tangent",
+      "resolution": 0.0,
+      "initial_true_error": 0.08083913483949821,
+      "final_true_error": 8.04552442068423e-13,
+      "removal": 0.9999999999900475,
+      "acquired": true,
+      "endpoint_action": [
+        0.433258056640625,
+        0.22220611572265625,
+        0.16275405883789062,
+        0.24449920654296875
+      ]
+    },
+    {
+      "seed": 1205,
+      "n": 3,
+      "method": "ball",
+      "resolution": 0.0,
+      "initial_true_error": 0.08083913483949821,
+      "final_true_error": 8.04552442068423e-13,
+      "removal": 0.9999999999900475,
+      "acquired": true,
+      "endpoint_action": [
+        0.433258056640625,
+        0.22220611572265625,
+        0.16275405883789062,
+        0.24449920654296875
+      ]
+    },
+    {
+      "seed": 1205,
+      "n": 3,
+      "method": "hull",
+      "resolution": 0.0,
+      "initial_true_error": 0.08083913483949821,
+      "final_true_error": 0.020246747111629868,
+      "removal": 0.7495427536201531,
+      "acquired": false,
+      "endpoint_action": [
+        0.3816490173339844,
+        0.4011497497558594,
+        0.13146209716796875,
+        0.4573936462402344
+      ]
+    },
+    {
+      "seed": 1205,
+      "n": 3,
+      "method": "nearest",
+      "resolution": 0.0,
+      "initial_true_error": 0.08083913483949821,
+      "final_true_error": 0.029264164129162173,
+      "removal": 0.6379950850876298,
+      "acquired": false,
+      "endpoint_action": [
+        0.43703460693359375,
+        0.4600791931152344,
+        0.1750946044921875,
+        0.49007415771484375
+      ]
+    },
+    {
+      "seed": 1205,
+      "n": 3,
+      "method": "absent",
+      "resolution": 0.0,
+      "initial_true_error": 0.08083913483949821,
+      "final_true_error": 0.08083913483949821,
+      "removal": 0.0,
+      "acquired": false,
+      "endpoint_action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 1205,
+      "n": 3,
+      "method": "shuffled",
+      "resolution": 0.0,
+      "initial_true_error": 0.08083913483949821,
+      "final_true_error": 0.5252414631237213,
+      "removal": -5.497366209652791,
+      "acquired": false,
+      "endpoint_action": [
+        1.0,
+        -1.0,
+        0.344207763671875,
+        0.6982879638671875
+      ]
+    },
+    {
+      "seed": 1205,
+      "n": 3,
+      "method": "truth",
+      "resolution": 0.0,
+      "initial_true_error": 0.08083913483949821,
+      "final_true_error": 8.04552442068423e-13,
+      "removal": 0.9999999999900475,
+      "acquired": true,
+      "endpoint_action": [
+        0.433258056640625,
+        0.22220611572265625,
+        0.16275405883789062,
+        0.24449920654296875
+      ]
+    },
+    {
+      "seed": 1205,
+      "n": 32,
+      "method": "first",
+      "resolution": 0.0,
+      "initial_true_error": 0.08083913483949821,
+      "final_true_error": 0.029264164129162173,
+      "removal": 0.6379950850876298,
+      "acquired": false,
+      "endpoint_action": [
+        0.43703460693359375,
+        0.4600791931152344,
+        0.1750946044921875,
+        0.49007415771484375
+      ]
+    },
+    {
+      "seed": 1205,
+      "n": 32,
+      "method": "mean",
+      "resolution": 0.0,
+      "initial_true_error": 0.08083913483949821,
+      "final_true_error": 0.1636018478495637,
+      "removal": -1.023795135541547,
+      "acquired": false,
+      "endpoint_action": [
+        0.07602691650390625,
+        0.593292236328125,
+        -0.08860397338867188,
+        0.8153839111328125
+      ]
+    },
+    {
+      "seed": 1205,
+      "n": 32,
+      "method": "gaussian",
+      "resolution": 0.0,
+      "initial_true_error": 0.08083913483949821,
+      "final_true_error": 8.04552442068423e-13,
+      "removal": 0.9999999999900475,
+      "acquired": true,
+      "endpoint_action": [
+        0.433258056640625,
+        0.22220611572265625,
+        0.16275405883789062,
+        0.24449920654296875
+      ]
+    },
+    {
+      "seed": 1205,
+      "n": 32,
+      "method": "tangent",
+      "resolution": 0.0,
+      "initial_true_error": 0.08083913483949821,
+      "final_true_error": 8.04552442068423e-13,
+      "removal": 0.9999999999900475,
+      "acquired": true,
+      "endpoint_action": [
+        0.433258056640625,
+        0.22220611572265625,
+        0.16275405883789062,
+        0.24449920654296875
+      ]
+    },
+    {
+      "seed": 1205,
+      "n": 32,
+      "method": "ball",
+      "resolution": 0.0,
+      "initial_true_error": 0.08083913483949821,
+      "final_true_error": 8.04552442068423e-13,
+      "removal": 0.9999999999900475,
+      "acquired": true,
+      "endpoint_action": [
+        0.433258056640625,
+        0.22220611572265625,
+        0.16275405883789062,
+        0.24449920654296875
+      ]
+    },
+    {
+      "seed": 1205,
+      "n": 32,
+      "method": "hull",
+      "resolution": 0.0,
+      "initial_true_error": 0.08083913483949821,
+      "final_true_error": 8.04552442068423e-13,
+      "removal": 0.9999999999900475,
+      "acquired": true,
+      "endpoint_action": [
+        0.433258056640625,
+        0.22220611572265625,
+        0.16275405883789062,
+        0.24449920654296875
+      ]
+    },
+    {
+      "seed": 1205,
+      "n": 32,
+      "method": "nearest",
+      "resolution": 0.0,
+      "initial_true_error": 0.08083913483949821,
+      "final_true_error": 0.0048370906739883136,
+      "removal": 0.9401639975045243,
+      "acquired": false,
+      "endpoint_action": [
+        0.32694244384765625,
+        0.18790435791015625,
+        0.08214950561523438,
+        0.2637825012207031
+      ]
+    },
+    {
+      "seed": 1205,
+      "n": 32,
+      "method": "absent",
+      "resolution": 0.0,
+      "initial_true_error": 0.08083913483949821,
+      "final_true_error": 0.08083913483949821,
+      "removal": 0.0,
+      "acquired": false,
+      "endpoint_action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 1205,
+      "n": 32,
+      "method": "shuffled",
+      "resolution": 0.0,
+      "initial_true_error": 0.08083913483949821,
+      "final_true_error": 0.5386973465096487,
+      "removal": -5.663818799882057,
+      "acquired": false,
+      "endpoint_action": [
+        1.0,
+        -1.0,
+        0.3790016174316406,
+        0.7555923461914062
+      ]
+    },
+    {
+      "seed": 1205,
+      "n": 32,
+      "method": "truth",
+      "resolution": 0.0,
+      "initial_true_error": 0.08083913483949821,
+      "final_true_error": 8.04552442068423e-13,
+      "removal": 0.9999999999900475,
+      "acquired": true,
+      "endpoint_action": [
+        0.433258056640625,
+        0.22220611572265625,
+        0.16275405883789062,
+        0.24449920654296875
+      ]
+    },
+    {
+      "seed": 1206,
+      "n": 3,
+      "method": "first",
+      "resolution": 0.0,
+      "initial_true_error": 0.16806372258288937,
+      "final_true_error": 0.28919353138829573,
+      "removal": -0.7207373902221217,
+      "acquired": false,
+      "endpoint_action": [
+        0.2717609405517578,
+        -0.3323802947998047,
+        -0.5329132080078125,
+        0.10180473327636719
+      ]
+    },
+    {
+      "seed": 1206,
+      "n": 3,
+      "method": "mean",
+      "resolution": 0.0,
+      "initial_true_error": 0.16806372258288937,
+      "final_true_error": 0.30239162492465765,
+      "removal": -0.7992676841697202,
+      "acquired": false,
+      "endpoint_action": [
+        0.1897430419921875,
+        -0.2913627624511719,
+        -0.5700035095214844,
+        -0.07497406005859375
+      ]
+    },
+    {
+      "seed": 1206,
+      "n": 3,
+      "method": "gaussian",
+      "resolution": 0.0,
+      "initial_true_error": 0.16806372258288937,
+      "final_true_error": 1.4843078896965644e-11,
+      "removal": 0.9999999999116819,
+      "acquired": true,
+      "endpoint_action": [
+        -0.17665863037109375,
+        0.53521728515625,
+        -0.3228607177734375,
+        0.5003395080566406
+      ]
+    },
+    {
+      "seed": 1206,
+      "n": 3,
+      "method": "tangent",
+      "resolution": 0.0,
+      "initial_true_error": 0.16806372258288937,
+      "final_true_error": 8.872058445580299e-13,
+      "removal": 0.999999999994721,
+      "acquired": true,
+      "endpoint_action": [
+        -0.17666244506835938,
+        0.5352249145507812,
+        -0.3228607177734375,
+        0.5003433227539062
+      ]
+    },
+    {
+      "seed": 1206,
+      "n": 3,
+      "method": "ball",
+      "resolution": 0.0,
+      "initial_true_error": 0.16806372258288937,
+      "final_true_error": 0.08557293119381959,
+      "removal": 0.49083044288981015,
+      "acquired": false,
+      "endpoint_action": [
+        0.04451179504394531,
+        0.07690048217773438,
+        -0.4459724426269531,
+        0.2392730712890625
+      ]
+    },
+    {
+      "seed": 1206,
+      "n": 3,
+      "method": "hull",
+      "resolution": 0.0,
+      "initial_true_error": 0.16806372258288937,
+      "final_true_error": 0.28713702438183925,
+      "removal": -0.7085009183955371,
+      "acquired": false,
+      "endpoint_action": [
+        0.2498302459716797,
+        -0.31771087646484375,
+        -0.5404586791992188,
+        0.06238555908203125
+      ]
+    },
+    {
+      "seed": 1206,
+      "n": 3,
+      "method": "nearest",
+      "resolution": 0.0,
+      "initial_true_error": 0.16806372258288937,
+      "final_true_error": 0.28919353138829573,
+      "removal": -0.7207373902221217,
+      "acquired": false,
+      "endpoint_action": [
+        0.2717609405517578,
+        -0.3323802947998047,
+        -0.5329132080078125,
+        0.10180473327636719
+      ]
+    },
+    {
+      "seed": 1206,
+      "n": 3,
+      "method": "absent",
+      "resolution": 0.0,
+      "initial_true_error": 0.16806372258288937,
+      "final_true_error": 0.16806372258288937,
+      "removal": 0.0,
+      "acquired": false,
+      "endpoint_action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 1206,
+      "n": 3,
+      "method": "shuffled",
+      "resolution": 0.0,
+      "initial_true_error": 0.16806372258288937,
+      "final_true_error": 1.235568268695823,
+      "removal": -6.351784488091641,
+      "acquired": false,
+      "endpoint_action": [
+        -0.334503173828125,
+        -1.0,
+        -1.0,
+        -0.9333152770996094
+      ]
+    },
+    {
+      "seed": 1206,
+      "n": 3,
+      "method": "truth",
+      "resolution": 0.0,
+      "initial_true_error": 0.16806372258288937,
+      "final_true_error": 8.872058445580299e-13,
+      "removal": 0.999999999994721,
+      "acquired": true,
+      "endpoint_action": [
+        -0.17666244506835938,
+        0.5352249145507812,
+        -0.3228607177734375,
+        0.5003433227539062
+      ]
+    },
+    {
+      "seed": 1206,
+      "n": 32,
+      "method": "first",
+      "resolution": 0.0,
+      "initial_true_error": 0.16806372258288937,
+      "final_true_error": 0.28919353138829573,
+      "removal": -0.7207373902221217,
+      "acquired": false,
+      "endpoint_action": [
+        0.2717609405517578,
+        -0.3323802947998047,
+        -0.5329132080078125,
+        0.10180473327636719
+      ]
+    },
+    {
+      "seed": 1206,
+      "n": 32,
+      "method": "mean",
+      "resolution": 0.0,
+      "initial_true_error": 0.16806372258288937,
+      "final_true_error": 0.11446926156948407,
+      "removal": 0.31889369216472285,
+      "acquired": false,
+      "endpoint_action": [
+        0.07364654541015625,
+        0.008787155151367188,
+        -0.46715545654296875,
+        0.18846702575683594
+      ]
+    },
+    {
+      "seed": 1206,
+      "n": 32,
+      "method": "gaussian",
+      "resolution": 0.0,
+      "initial_true_error": 0.16806372258288937,
+      "final_true_error": 8.872058445580299e-13,
+      "removal": 0.999999999994721,
+      "acquired": true,
+      "endpoint_action": [
+        -0.17666244506835938,
+        0.5352249145507812,
+        -0.3228607177734375,
+        0.5003433227539062
+      ]
+    },
+    {
+      "seed": 1206,
+      "n": 32,
+      "method": "tangent",
+      "resolution": 0.0,
+      "initial_true_error": 0.16806372258288937,
+      "final_true_error": 8.872058445580299e-13,
+      "removal": 0.999999999994721,
+      "acquired": true,
+      "endpoint_action": [
+        -0.17666244506835938,
+        0.5352249145507812,
+        -0.3228607177734375,
+        0.5003433227539062
+      ]
+    },
+    {
+      "seed": 1206,
+      "n": 32,
+      "method": "ball",
+      "resolution": 0.0,
+      "initial_true_error": 0.16806372258288937,
+      "final_true_error": 8.872058445580299e-13,
+      "removal": 0.999999999994721,
+      "acquired": true,
+      "endpoint_action": [
+        -0.17666244506835938,
+        0.5352249145507812,
+        -0.3228607177734375,
+        0.5003433227539062
+      ]
+    },
+    {
+      "seed": 1206,
+      "n": 32,
+      "method": "hull",
+      "resolution": 0.0,
+      "initial_true_error": 0.16806372258288937,
+      "final_true_error": 8.872058445580299e-13,
+      "removal": 0.999999999994721,
+      "acquired": true,
+      "endpoint_action": [
+        -0.17666244506835938,
+        0.5352249145507812,
+        -0.3228607177734375,
+        0.5003433227539062
+      ]
+    },
+    {
+      "seed": 1206,
+      "n": 32,
+      "method": "nearest",
+      "resolution": 0.0,
+      "initial_true_error": 0.16806372258288937,
+      "final_true_error": 0.0038843033983228417,
+      "removal": 0.9768879128783602,
+      "acquired": true,
+      "endpoint_action": [
+        -0.1942138671875,
+        0.6067237854003906,
+        -0.29055023193359375,
+        0.5955944061279297
+      ]
+    },
+    {
+      "seed": 1206,
+      "n": 32,
+      "method": "absent",
+      "resolution": 0.0,
+      "initial_true_error": 0.16806372258288937,
+      "final_true_error": 0.16806372258288937,
+      "removal": 0.0,
+      "acquired": false,
+      "endpoint_action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 1206,
+      "n": 32,
+      "method": "shuffled",
+      "resolution": 0.0,
+      "initial_true_error": 0.16806372258288937,
+      "final_true_error": 1.2605914860829246,
+      "removal": -6.500675736021486,
+      "acquired": false,
+      "endpoint_action": [
+        -0.1842193603515625,
+        -1.0,
+        -1.0,
+        -0.960871696472168
+      ]
+    },
+    {
+      "seed": 1206,
+      "n": 32,
+      "method": "truth",
+      "resolution": 0.0,
+      "initial_true_error": 0.16806372258288937,
+      "final_true_error": 8.872058445580299e-13,
+      "removal": 0.999999999994721,
+      "acquired": true,
+      "endpoint_action": [
+        -0.17666244506835938,
+        0.5352249145507812,
+        -0.3228607177734375,
+        0.5003433227539062
+      ]
+    },
+    {
+      "seed": 1207,
+      "n": 3,
+      "method": "first",
+      "resolution": 0.0,
+      "initial_true_error": 0.11871590058588201,
+      "final_true_error": 0.30132900885082337,
+      "removal": -1.5382363050249914,
+      "acquired": false,
+      "endpoint_action": [
+        1.0,
+        -0.2728424072265625,
+        0.7301807403564453,
+        -0.43373870849609375
+      ]
+    },
+    {
+      "seed": 1207,
+      "n": 3,
+      "method": "mean",
+      "resolution": 0.0,
+      "initial_true_error": 0.11871590058588201,
+      "final_true_error": 0.12328311348755641,
+      "removal": -0.038471787512325495,
+      "acquired": false,
+      "endpoint_action": [
+        0.8178539276123047,
+        -0.487579345703125,
+        0.49010467529296875,
+        -0.07437515258789062
+      ]
+    },
+    {
+      "seed": 1207,
+      "n": 3,
+      "method": "gaussian",
+      "resolution": 0.0,
+      "initial_true_error": 0.11871590058588201,
+      "final_true_error": 1.8571794907927355e-13,
+      "removal": 0.9999999999984356,
+      "acquired": true,
+      "endpoint_action": [
+        0.49786376953125,
+        -0.4577674865722656,
+        -0.13126754760742188,
+        -0.01316070556640625
+      ]
+    },
+    {
+      "seed": 1207,
+      "n": 3,
+      "method": "tangent",
+      "resolution": 0.0,
+      "initial_true_error": 0.11871590058588201,
+      "final_true_error": 1.8571794907927355e-13,
+      "removal": 0.9999999999984356,
+      "acquired": true,
+      "endpoint_action": [
+        0.49786376953125,
+        -0.4577674865722656,
+        -0.13126754760742188,
+        -0.01316070556640625
+      ]
+    },
+    {
+      "seed": 1207,
+      "n": 3,
+      "method": "ball",
+      "resolution": 0.0,
+      "initial_true_error": 0.11871590058588201,
+      "final_true_error": 0.004175465712710827,
+      "removal": 0.9648280837520145,
+      "acquired": true,
+      "endpoint_action": [
+        0.5527687072753906,
+        -0.4662742614746094,
+        -0.014802932739257812,
+        -0.020305633544921875
+      ]
+    },
+    {
+      "seed": 1207,
+      "n": 3,
+      "method": "hull",
+      "resolution": 0.0,
+      "initial_true_error": 0.11871590058588201,
+      "final_true_error": 0.06699107542854647,
+      "removal": 0.43570258829748354,
+      "acquired": false,
+      "endpoint_action": [
+        0.6393566131591797,
+        -0.5444297790527344,
+        0.3569355010986328,
+        0.03257560729980469
+      ]
+    },
+    {
+      "seed": 1207,
+      "n": 3,
+      "method": "nearest",
+      "resolution": 0.0,
+      "initial_true_error": 0.11871590058588201,
+      "final_true_error": 0.06699111904697186,
+      "removal": 0.4357022208789223,
+      "acquired": false,
+      "endpoint_action": [
+        0.6393566131591797,
+        -0.5444297790527344,
+        0.3569355010986328,
+        0.0325775146484375
+      ]
+    },
+    {
+      "seed": 1207,
+      "n": 3,
+      "method": "absent",
+      "resolution": 0.0,
+      "initial_true_error": 0.11871590058588201,
+      "final_true_error": 0.11871590058588201,
+      "removal": 0.0,
+      "acquired": false,
+      "endpoint_action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 1207,
+      "n": 3,
+      "method": "shuffled",
+      "resolution": 0.0,
+      "initial_true_error": 0.11871590058588201,
+      "final_true_error": 0.4955997614020895,
+      "removal": -3.174670443944115,
+      "acquired": false,
+      "endpoint_action": [
+        0.5511093139648438,
+        -0.8297119140625,
+        0.7713546752929688,
+        1.0
+      ]
+    },
+    {
+      "seed": 1207,
+      "n": 3,
+      "method": "truth",
+      "resolution": 0.0,
+      "initial_true_error": 0.11871590058588201,
+      "final_true_error": 1.8571794907927355e-13,
+      "removal": 0.9999999999984356,
+      "acquired": true,
+      "endpoint_action": [
+        0.49786376953125,
+        -0.4577674865722656,
+        -0.13126754760742188,
+        -0.01316070556640625
+      ]
+    },
+    {
+      "seed": 1207,
+      "n": 32,
+      "method": "first",
+      "resolution": 0.0,
+      "initial_true_error": 0.11871590058588201,
+      "final_true_error": 0.30132900885082337,
+      "removal": -1.5382363050249914,
+      "acquired": false,
+      "endpoint_action": [
+        1.0,
+        -0.2728424072265625,
+        0.7301807403564453,
+        -0.43373870849609375
+      ]
+    },
+    {
+      "seed": 1207,
+      "n": 32,
+      "method": "mean",
+      "resolution": 0.0,
+      "initial_true_error": 0.11871590058588201,
+      "final_true_error": 0.09749566454694505,
+      "removal": 0.17874805257098403,
+      "acquired": false,
+      "endpoint_action": [
+        0.8289222717285156,
+        -0.4458770751953125,
+        0.38745689392089844,
+        -0.11883544921875
+      ]
+    },
+    {
+      "seed": 1207,
+      "n": 32,
+      "method": "gaussian",
+      "resolution": 0.0,
+      "initial_true_error": 0.11871590058588201,
+      "final_true_error": 1.8571794907927355e-13,
+      "removal": 0.9999999999984356,
+      "acquired": true,
+      "endpoint_action": [
+        0.49786376953125,
+        -0.4577674865722656,
+        -0.13126754760742188,
+        -0.01316070556640625
+      ]
+    },
+    {
+      "seed": 1207,
+      "n": 32,
+      "method": "tangent",
+      "resolution": 0.0,
+      "initial_true_error": 0.11871590058588201,
+      "final_true_error": 1.8571794907927355e-13,
+      "removal": 0.9999999999984356,
+      "acquired": true,
+      "endpoint_action": [
+        0.49786376953125,
+        -0.4577674865722656,
+        -0.13126754760742188,
+        -0.01316070556640625
+      ]
+    },
+    {
+      "seed": 1207,
+      "n": 32,
+      "method": "ball",
+      "resolution": 0.0,
+      "initial_true_error": 0.11871590058588201,
+      "final_true_error": 1.8571794907927355e-13,
+      "removal": 0.9999999999984356,
+      "acquired": true,
+      "endpoint_action": [
+        0.49786376953125,
+        -0.4577674865722656,
+        -0.13126754760742188,
+        -0.01316070556640625
+      ]
+    },
+    {
+      "seed": 1207,
+      "n": 32,
+      "method": "hull",
+      "resolution": 0.0,
+      "initial_true_error": 0.11871590058588201,
+      "final_true_error": 1.8571794907927355e-13,
+      "removal": 0.9999999999984356,
+      "acquired": true,
+      "endpoint_action": [
+        0.49786376953125,
+        -0.4577674865722656,
+        -0.13126754760742188,
+        -0.01316070556640625
+      ]
+    },
+    {
+      "seed": 1207,
+      "n": 32,
+      "method": "nearest",
+      "resolution": 0.0,
+      "initial_true_error": 0.11871590058588201,
+      "final_true_error": 0.002062742344133374,
+      "removal": 0.9826245487423891,
+      "acquired": true,
+      "endpoint_action": [
+        0.5163650512695312,
+        -0.47667694091796875,
+        -0.04542350769042969,
+        0.00032806396484375
+      ]
+    },
+    {
+      "seed": 1207,
+      "n": 32,
+      "method": "absent",
+      "resolution": 0.0,
+      "initial_true_error": 0.11871590058588201,
+      "final_true_error": 0.11871590058588201,
+      "removal": 0.0,
+      "acquired": false,
+      "endpoint_action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 1207,
+      "n": 32,
+      "method": "shuffled",
+      "resolution": 0.0,
+      "initial_true_error": 0.11871590058588201,
+      "final_true_error": 0.6135935712463917,
+      "removal": -4.168587933193524,
+      "acquired": false,
+      "endpoint_action": [
+        0.6973342895507812,
+        -0.786895751953125,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "seed": 1207,
+      "n": 32,
+      "method": "truth",
+      "resolution": 0.0,
+      "initial_true_error": 0.11871590058588201,
+      "final_true_error": 1.8571794907927355e-13,
+      "removal": 0.9999999999984356,
+      "acquired": true,
+      "endpoint_action": [
+        0.49786376953125,
+        -0.4577674865722656,
+        -0.13126754760742188,
+        -0.01316070556640625
+      ]
+    },
+    {
+      "seed": 1208,
+      "n": 3,
+      "method": "first",
+      "resolution": 0.0,
+      "initial_true_error": 0.06914464536024743,
+      "final_true_error": 0.2531475353835043,
+      "removal": -2.6611299987814188,
+      "acquired": false,
+      "endpoint_action": [
+        0.113067626953125,
+        -0.6162109375,
+        -0.6251373291015625,
+        -0.15775680541992188
+      ]
+    },
+    {
+      "seed": 1208,
+      "n": 3,
+      "method": "mean",
+      "resolution": 0.0,
+      "initial_true_error": 0.06914464536024743,
+      "final_true_error": 0.20151751384843558,
+      "removal": -1.9144341228235127,
+      "acquired": false,
+      "endpoint_action": [
+        0.13903045654296875,
+        -0.5045509338378906,
+        -0.6277427673339844,
+        -0.21875762939453125
+      ]
+    },
+    {
+      "seed": 1208,
+      "n": 3,
+      "method": "gaussian",
+      "resolution": 0.0,
+      "initial_true_error": 0.06914464536024743,
+      "final_true_error": 1.5067305716842614e-12,
+      "removal": 0.999999999978209,
+      "acquired": true,
+      "endpoint_action": [
+        0.16819000244140625,
+        0.2575111389160156,
+        -0.18401718139648438,
+        -0.384857177734375
+      ]
+    },
+    {
+      "seed": 1208,
+      "n": 3,
+      "method": "tangent",
+      "resolution": 0.0,
+      "initial_true_error": 0.06914464536024743,
+      "final_true_error": 1.5067305716842614e-12,
+      "removal": 0.999999999978209,
+      "acquired": true,
+      "endpoint_action": [
+        0.16819000244140625,
+        0.2575111389160156,
+        -0.18401718139648438,
+        -0.384857177734375
+      ]
+    },
+    {
+      "seed": 1208,
+      "n": 3,
+      "method": "ball",
+      "resolution": 0.0,
+      "initial_true_error": 0.06914464536024743,
+      "final_true_error": 0.05738765453167005,
+      "removal": 0.1700347260055035,
+      "acquired": false,
+      "endpoint_action": [
+        0.11920547485351562,
+        -0.17064476013183594,
+        -0.3316650390625,
+        -0.236419677734375
+      ]
+    },
+    {
+      "seed": 1208,
+      "n": 3,
+      "method": "hull",
+      "resolution": 0.0,
+      "initial_true_error": 0.06914464536024743,
+      "final_true_error": 0.13231389032133847,
+      "removal": -0.9135811548671018,
+      "acquired": false,
+      "endpoint_action": [
+        0.07142257690429688,
+        -0.395172119140625,
+        -0.3402099609375,
+        -0.12122917175292969
+      ]
+    },
+    {
+      "seed": 1208,
+      "n": 3,
+      "method": "nearest",
+      "resolution": 0.0,
+      "initial_true_error": 0.06914464536024743,
+      "final_true_error": 0.13231389032133847,
+      "removal": -0.9135811548671018,
+      "acquired": false,
+      "endpoint_action": [
+        0.07142257690429688,
+        -0.395172119140625,
+        -0.3402099609375,
+        -0.12122917175292969
+      ]
+    },
+    {
+      "seed": 1208,
+      "n": 3,
+      "method": "absent",
+      "resolution": 0.0,
+      "initial_true_error": 0.06914464536024743,
+      "final_true_error": 0.06914464536024743,
+      "removal": 0.0,
+      "acquired": false,
+      "endpoint_action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 1208,
+      "n": 3,
+      "method": "shuffled",
+      "resolution": 0.0,
+      "initial_true_error": 0.06914464536024743,
+      "final_true_error": 0.45170637831764193,
+      "removal": -5.532774533215503,
+      "acquired": false,
+      "endpoint_action": [
+        1.0,
+        0.7388725280761719,
+        -0.6784267425537109,
+        0.33991050720214844
+      ]
+    },
+    {
+      "seed": 1208,
+      "n": 3,
+      "method": "truth",
+      "resolution": 0.0,
+      "initial_true_error": 0.06914464536024743,
+      "final_true_error": 1.5067305716842614e-12,
+      "removal": 0.999999999978209,
+      "acquired": true,
+      "endpoint_action": [
+        0.16819000244140625,
+        0.2575111389160156,
+        -0.18401718139648438,
+        -0.384857177734375
+      ]
+    },
+    {
+      "seed": 1208,
+      "n": 32,
+      "method": "first",
+      "resolution": 0.0,
+      "initial_true_error": 0.06914464536024743,
+      "final_true_error": 0.2531475353835043,
+      "removal": -2.6611299987814188,
+      "acquired": false,
+      "endpoint_action": [
+        0.113067626953125,
+        -0.6162109375,
+        -0.6251373291015625,
+        -0.15775680541992188
+      ]
+    },
+    {
+      "seed": 1208,
+      "n": 32,
+      "method": "mean",
+      "resolution": 0.0,
+      "initial_true_error": 0.06914464536024743,
+      "final_true_error": 0.10104964316750822,
+      "removal": -0.46142398505385307,
+      "acquired": false,
+      "endpoint_action": [
+        0.0543212890625,
+        -0.30147743225097656,
+        -0.22115325927734375,
+        -0.10667610168457031
+      ]
+    },
+    {
+      "seed": 1208,
+      "n": 32,
+      "method": "gaussian",
+      "resolution": 0.0,
+      "initial_true_error": 0.06914464536024743,
+      "final_true_error": 1.5067305716842614e-12,
+      "removal": 0.999999999978209,
+      "acquired": true,
+      "endpoint_action": [
+        0.16819000244140625,
+        0.2575111389160156,
+        -0.18401718139648438,
+        -0.384857177734375
+      ]
+    },
+    {
+      "seed": 1208,
+      "n": 32,
+      "method": "tangent",
+      "resolution": 0.0,
+      "initial_true_error": 0.06914464536024743,
+      "final_true_error": 1.5067305716842614e-12,
+      "removal": 0.999999999978209,
+      "acquired": true,
+      "endpoint_action": [
+        0.16819000244140625,
+        0.2575111389160156,
+        -0.18401718139648438,
+        -0.384857177734375
+      ]
+    },
+    {
+      "seed": 1208,
+      "n": 32,
+      "method": "ball",
+      "resolution": 0.0,
+      "initial_true_error": 0.06914464536024743,
+      "final_true_error": 1.5067305716842614e-12,
+      "removal": 0.999999999978209,
+      "acquired": true,
+      "endpoint_action": [
+        0.16819000244140625,
+        0.2575111389160156,
+        -0.18401718139648438,
+        -0.384857177734375
+      ]
+    },
+    {
+      "seed": 1208,
+      "n": 32,
+      "method": "hull",
+      "resolution": 0.0,
+      "initial_true_error": 0.06914464536024743,
+      "final_true_error": 0.00020955595851377952,
+      "removal": 0.9969693103866253,
+      "acquired": true,
+      "endpoint_action": [
+        0.16245651245117188,
+        0.23256301879882812,
+        -0.18363571166992188,
+        -0.371337890625
+      ]
+    },
+    {
+      "seed": 1208,
+      "n": 32,
+      "method": "nearest",
+      "resolution": 0.0,
+      "initial_true_error": 0.06914464536024743,
+      "final_true_error": 0.0015699208558500196,
+      "removal": 0.977295120284866,
+      "acquired": true,
+      "endpoint_action": [
+        0.17939376831054688,
+        0.2149982452392578,
+        -0.24876785278320312,
+        -0.39727783203125
+      ]
+    },
+    {
+      "seed": 1208,
+      "n": 32,
+      "method": "absent",
+      "resolution": 0.0,
+      "initial_true_error": 0.06914464536024743,
+      "final_true_error": 0.06914464536024743,
+      "removal": 0.0,
+      "acquired": false,
+      "endpoint_action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 1208,
+      "n": 32,
+      "method": "shuffled",
+      "resolution": 0.0,
+      "initial_true_error": 0.06914464536024743,
+      "final_true_error": 0.3692450380166297,
+      "removal": -4.340182686494994,
+      "acquired": false,
+      "endpoint_action": [
+        1.0,
+        0.7163143157958984,
+        -0.4574127197265625,
+        0.19379806518554688
+      ]
+    },
+    {
+      "seed": 1208,
+      "n": 32,
+      "method": "truth",
+      "resolution": 0.0,
+      "initial_true_error": 0.06914464536024743,
+      "final_true_error": 1.5067305716842614e-12,
+      "removal": 0.999999999978209,
+      "acquired": true,
+      "endpoint_action": [
+        0.16819000244140625,
+        0.2575111389160156,
+        -0.18401718139648438,
+        -0.384857177734375
+      ]
+    },
+    {
+      "seed": 1209,
+      "n": 3,
+      "method": "first",
+      "resolution": 0.0,
+      "initial_true_error": 0.13608681820703633,
+      "final_true_error": 0.4233934664464106,
+      "removal": -2.111201158383165,
+      "acquired": false,
+      "endpoint_action": [
+        0.5713253021240234,
+        0.6457672119140625,
+        -0.8851242065429688,
+        -0.2037811279296875
+      ]
+    },
+    {
+      "seed": 1209,
+      "n": 3,
+      "method": "mean",
+      "resolution": 0.0,
+      "initial_true_error": 0.13608681820703633,
+      "final_true_error": 0.16584175652233132,
+      "removal": -0.21864673380802513,
+      "acquired": false,
+      "endpoint_action": [
+        0.20917510986328125,
+        0.394134521484375,
+        -0.6114006042480469,
+        -0.1622161865234375
+      ]
+    },
+    {
+      "seed": 1209,
+      "n": 3,
+      "method": "gaussian",
+      "resolution": 0.0,
+      "initial_true_error": 0.13608681820703633,
+      "final_true_error": 9.550433766637751e-13,
+      "removal": 0.9999999999929821,
+      "acquired": true,
+      "endpoint_action": [
+        -0.4809608459472656,
+        -0.01392364501953125,
+        -0.4994163513183594,
+        -0.2518196105957031
+      ]
+    },
+    {
+      "seed": 1209,
+      "n": 3,
+      "method": "tangent",
+      "resolution": 0.0,
+      "initial_true_error": 0.13608681820703633,
+      "final_true_error": 9.550433766637751e-13,
+      "removal": 0.9999999999929821,
+      "acquired": true,
+      "endpoint_action": [
+        -0.4809608459472656,
+        -0.01392364501953125,
+        -0.4994163513183594,
+        -0.2518196105957031
+      ]
+    },
+    {
+      "seed": 1209,
+      "n": 3,
+      "method": "ball",
+      "resolution": 0.0,
+      "initial_true_error": 0.13608681820703633,
+      "final_true_error": 0.010805528959286369,
+      "removal": 0.9205982687989124,
+      "acquired": false,
+      "endpoint_action": [
+        -0.3027000427246094,
+        0.0839996337890625,
+        -0.48552703857421875,
+        -0.21103286743164062
+      ]
+    },
+    {
+      "seed": 1209,
+      "n": 3,
+      "method": "hull",
+      "resolution": 0.0,
+      "initial_true_error": 0.13608681820703633,
+      "final_true_error": 0.0776905453570215,
+      "removal": 0.42911042832358226,
+      "acquired": false,
+      "endpoint_action": [
+        -0.028229713439941406,
+        0.21088504791259766,
+        -0.32721710205078125,
+        -0.09180259704589844
+      ]
+    },
+    {
+      "seed": 1209,
+      "n": 3,
+      "method": "nearest",
+      "resolution": 0.0,
+      "initial_true_error": 0.13608681820703633,
+      "final_true_error": 0.07777057984706823,
+      "removal": 0.4285223148596833,
+      "acquired": false,
+      "endpoint_action": [
+        -0.04862213134765625,
+        0.19009780883789062,
+        -0.27388763427734375,
+        -0.0738372802734375
+      ]
+    },
+    {
+      "seed": 1209,
+      "n": 3,
+      "method": "absent",
+      "resolution": 0.0,
+      "initial_true_error": 0.13608681820703633,
+      "final_true_error": 0.13608681820703633,
+      "removal": 0.0,
+      "acquired": false,
+      "endpoint_action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 1209,
+      "n": 3,
+      "method": "shuffled",
+      "resolution": 0.0,
+      "initial_true_error": 0.13608681820703633,
+      "final_true_error": 0.21710378625512128,
+      "removal": -0.5953329581475657,
+      "acquired": false,
+      "endpoint_action": [
+        -1.0,
+        0.2047557830810547,
+        -0.0068798065185546875,
+        0.00272369384765625
+      ]
+    },
+    {
+      "seed": 1209,
+      "n": 3,
+      "method": "truth",
+      "resolution": 0.0,
+      "initial_true_error": 0.13608681820703633,
+      "final_true_error": 9.550433766637751e-13,
+      "removal": 0.9999999999929821,
+      "acquired": true,
+      "endpoint_action": [
+        -0.4809608459472656,
+        -0.01392364501953125,
+        -0.4994163513183594,
+        -0.2518196105957031
+      ]
+    },
+    {
+      "seed": 1209,
+      "n": 32,
+      "method": "first",
+      "resolution": 0.0,
+      "initial_true_error": 0.13608681820703633,
+      "final_true_error": 0.4233934664464106,
+      "removal": -2.111201158383165,
+      "acquired": false,
+      "endpoint_action": [
+        0.5713253021240234,
+        0.6457672119140625,
+        -0.8851242065429688,
+        -0.2037811279296875
+      ]
+    },
+    {
+      "seed": 1209,
+      "n": 32,
+      "method": "mean",
+      "resolution": 0.0,
+      "initial_true_error": 0.13608681820703633,
+      "final_true_error": 0.06033184789406938,
+      "removal": 0.5566664818168998,
+      "acquired": false,
+      "endpoint_action": [
+        -0.08258056640625,
+        0.23514175415039062,
+        -0.6415290832519531,
+        -0.2320232391357422
+      ]
+    },
+    {
+      "seed": 1209,
+      "n": 32,
+      "method": "gaussian",
+      "resolution": 0.0,
+      "initial_true_error": 0.13608681820703633,
+      "final_true_error": 9.550433766637751e-13,
+      "removal": 0.9999999999929821,
+      "acquired": true,
+      "endpoint_action": [
+        -0.4809608459472656,
+        -0.01392364501953125,
+        -0.4994163513183594,
+        -0.2518196105957031
+      ]
+    },
+    {
+      "seed": 1209,
+      "n": 32,
+      "method": "tangent",
+      "resolution": 0.0,
+      "initial_true_error": 0.13608681820703633,
+      "final_true_error": 9.550433766637751e-13,
+      "removal": 0.9999999999929821,
+      "acquired": true,
+      "endpoint_action": [
+        -0.4809608459472656,
+        -0.01392364501953125,
+        -0.4994163513183594,
+        -0.2518196105957031
+      ]
+    },
+    {
+      "seed": 1209,
+      "n": 32,
+      "method": "ball",
+      "resolution": 0.0,
+      "initial_true_error": 0.13608681820703633,
+      "final_true_error": 9.550433766637751e-13,
+      "removal": 0.9999999999929821,
+      "acquired": true,
+      "endpoint_action": [
+        -0.4809608459472656,
+        -0.01392364501953125,
+        -0.4994163513183594,
+        -0.2518196105957031
+      ]
+    },
+    {
+      "seed": 1209,
+      "n": 32,
+      "method": "hull",
+      "resolution": 0.0,
+      "initial_true_error": 0.13608681820703633,
+      "final_true_error": 9.550433766637751e-13,
+      "removal": 0.9999999999929821,
+      "acquired": true,
+      "endpoint_action": [
+        -0.4809608459472656,
+        -0.01392364501953125,
+        -0.4994163513183594,
+        -0.2518196105957031
+      ]
+    },
+    {
+      "seed": 1209,
+      "n": 32,
+      "method": "nearest",
+      "resolution": 0.0,
+      "initial_true_error": 0.13608681820703633,
+      "final_true_error": 0.0013614156680005402,
+      "removal": 0.9899959769363602,
+      "acquired": true,
+      "endpoint_action": [
+        -0.5112533569335938,
+        -0.020580291748046875,
+        -0.5590171813964844,
+        -0.28234100341796875
+      ]
+    },
+    {
+      "seed": 1209,
+      "n": 32,
+      "method": "absent",
+      "resolution": 0.0,
+      "initial_true_error": 0.13608681820703633,
+      "final_true_error": 0.13608681820703633,
+      "removal": 0.0,
+      "acquired": false,
+      "endpoint_action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 1209,
+      "n": 32,
+      "method": "shuffled",
+      "resolution": 0.0,
+      "initial_true_error": 0.13608681820703633,
+      "final_true_error": 0.21710378625512128,
+      "removal": -0.5953329581475657,
+      "acquired": false,
+      "endpoint_action": [
+        -1.0,
+        0.2047557830810547,
+        -0.0068798065185546875,
+        0.00272369384765625
+      ]
+    },
+    {
+      "seed": 1209,
+      "n": 32,
+      "method": "truth",
+      "resolution": 0.0,
+      "initial_true_error": 0.13608681820703633,
+      "final_true_error": 9.550433766637751e-13,
+      "removal": 0.9999999999929821,
+      "acquired": true,
+      "endpoint_action": [
+        -0.4809608459472656,
+        -0.01392364501953125,
+        -0.4994163513183594,
+        -0.2518196105957031
+      ]
+    },
+    {
+      "seed": 1210,
+      "n": 3,
+      "method": "first",
+      "resolution": 0.0,
+      "initial_true_error": 0.17855950100790152,
+      "final_true_error": 0.002334418018163585,
+      "removal": 0.9869263858546498,
+      "acquired": true,
+      "endpoint_action": [
+        0.5852985382080078,
+        0.4142780303955078,
+        0.4587383270263672,
+        -0.07201576232910156
+      ]
+    },
+    {
+      "seed": 1210,
+      "n": 3,
+      "method": "mean",
+      "resolution": 0.0,
+      "initial_true_error": 0.17855950100790152,
+      "final_true_error": 0.11088365239001748,
+      "removal": 0.3790100679934656,
+      "acquired": false,
+      "endpoint_action": [
+        0.30577850341796875,
+        0.6120681762695312,
+        0.18536758422851562,
+        0.3431854248046875
+      ]
+    },
+    {
+      "seed": 1210,
+      "n": 3,
+      "method": "gaussian",
+      "resolution": 0.0,
+      "initial_true_error": 0.17855950100790152,
+      "final_true_error": 1.6789054019410392e-12,
+      "removal": 0.9999999999905975,
+      "acquired": true,
+      "endpoint_action": [
+        0.5466804504394531,
+        0.3684654235839844,
+        0.5140762329101562,
+        -0.12383270263671875
+      ]
+    },
+    {
+      "seed": 1210,
+      "n": 3,
+      "method": "tangent",
+      "resolution": 0.0,
+      "initial_true_error": 0.17855950100790152,
+      "final_true_error": 1.6789054019410392e-12,
+      "removal": 0.9999999999905975,
+      "acquired": true,
+      "endpoint_action": [
+        0.5466804504394531,
+        0.3684654235839844,
+        0.5140762329101562,
+        -0.12383270263671875
+      ]
+    },
+    {
+      "seed": 1210,
+      "n": 3,
+      "method": "ball",
+      "resolution": 0.0,
+      "initial_true_error": 0.17855950100790152,
+      "final_true_error": 1.6789054019410392e-12,
+      "removal": 0.9999999999905975,
+      "acquired": true,
+      "endpoint_action": [
+        0.5466804504394531,
+        0.3684654235839844,
+        0.5140762329101562,
+        -0.12383270263671875
+      ]
+    },
+    {
+      "seed": 1210,
+      "n": 3,
+      "method": "hull",
+      "resolution": 0.0,
+      "initial_true_error": 0.17855950100790152,
+      "final_true_error": 0.002334418018163585,
+      "removal": 0.9869263858546498,
+      "acquired": true,
+      "endpoint_action": [
+        0.5852985382080078,
+        0.4142780303955078,
+        0.4587383270263672,
+        -0.07201576232910156
+      ]
+    },
+    {
+      "seed": 1210,
+      "n": 3,
+      "method": "nearest",
+      "resolution": 0.0,
+      "initial_true_error": 0.17855950100790152,
+      "final_true_error": 0.002334418018163585,
+      "removal": 0.9869263858546498,
+      "acquired": true,
+      "endpoint_action": [
+        0.5852985382080078,
+        0.4142780303955078,
+        0.4587383270263672,
+        -0.07201576232910156
+      ]
+    },
+    {
+      "seed": 1210,
+      "n": 3,
+      "method": "absent",
+      "resolution": 0.0,
+      "initial_true_error": 0.17855950100790152,
+      "final_true_error": 0.17855950100790152,
+      "removal": 0.0,
+      "acquired": false,
+      "endpoint_action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 1210,
+      "n": 3,
+      "method": "shuffled",
+      "resolution": 0.0,
+      "initial_true_error": 0.17855950100790152,
+      "final_true_error": 1.2552056246669636,
+      "removal": -6.029621037143349,
+      "acquired": false,
+      "endpoint_action": [
+        -0.6134624481201172,
+        -1.0,
+        0.5600624084472656,
+        1.0
+      ]
+    },
+    {
+      "seed": 1210,
+      "n": 3,
+      "method": "truth",
+      "resolution": 0.0,
+      "initial_true_error": 0.17855950100790152,
+      "final_true_error": 1.6789054019410392e-12,
+      "removal": 0.9999999999905975,
+      "acquired": true,
+      "endpoint_action": [
+        0.5466804504394531,
+        0.3684654235839844,
+        0.5140762329101562,
+        -0.12383270263671875
+      ]
+    },
+    {
+      "seed": 1210,
+      "n": 32,
+      "method": "first",
+      "resolution": 0.0,
+      "initial_true_error": 0.17855950100790152,
+      "final_true_error": 0.002334418018163585,
+      "removal": 0.9869263858546498,
+      "acquired": true,
+      "endpoint_action": [
+        0.5852985382080078,
+        0.4142780303955078,
+        0.4587383270263672,
+        -0.07201576232910156
+      ]
+    },
+    {
+      "seed": 1210,
+      "n": 32,
+      "method": "mean",
+      "resolution": 0.0,
+      "initial_true_error": 0.17855950100790152,
+      "final_true_error": 0.16481904798435357,
+      "removal": 0.07695167686954907,
+      "acquired": false,
+      "endpoint_action": [
+        0.2248516082763672,
+        0.6554965972900391,
+        0.12382698059082031,
+        0.4427509307861328
+      ]
+    },
+    {
+      "seed": 1210,
+      "n": 32,
+      "method": "gaussian",
+      "resolution": 0.0,
+      "initial_true_error": 0.17855950100790152,
+      "final_true_error": 1.6789054019410392e-12,
+      "removal": 0.9999999999905975,
+      "acquired": true,
+      "endpoint_action": [
+        0.5466804504394531,
+        0.3684654235839844,
+        0.5140762329101562,
+        -0.12383270263671875
+      ]
+    },
+    {
+      "seed": 1210,
+      "n": 32,
+      "method": "tangent",
+      "resolution": 0.0,
+      "initial_true_error": 0.17855950100790152,
+      "final_true_error": 1.6789054019410392e-12,
+      "removal": 0.9999999999905975,
+      "acquired": true,
+      "endpoint_action": [
+        0.5466804504394531,
+        0.3684654235839844,
+        0.5140762329101562,
+        -0.12383270263671875
+      ]
+    },
+    {
+      "seed": 1210,
+      "n": 32,
+      "method": "ball",
+      "resolution": 0.0,
+      "initial_true_error": 0.17855950100790152,
+      "final_true_error": 1.6789054019410392e-12,
+      "removal": 0.9999999999905975,
+      "acquired": true,
+      "endpoint_action": [
+        0.5466804504394531,
+        0.3684654235839844,
+        0.5140762329101562,
+        -0.12383270263671875
+      ]
+    },
+    {
+      "seed": 1210,
+      "n": 32,
+      "method": "hull",
+      "resolution": 0.0,
+      "initial_true_error": 0.17855950100790152,
+      "final_true_error": 0.00020631193319243802,
+      "removal": 0.9988445759983205,
+      "acquired": true,
+      "endpoint_action": [
+        0.5535373687744141,
+        0.38214874267578125,
+        0.49718666076660156,
+        -0.10634994506835938
+      ]
+    },
+    {
+      "seed": 1210,
+      "n": 32,
+      "method": "nearest",
+      "resolution": 0.0,
+      "initial_true_error": 0.17855950100790152,
+      "final_true_error": 0.0008999986677866752,
+      "removal": 0.9949596707948526,
+      "acquired": true,
+      "endpoint_action": [
+        0.6003246307373047,
+        0.38678550720214844,
+        0.4948921203613281,
+        -0.1195068359375
+      ]
+    },
+    {
+      "seed": 1210,
+      "n": 32,
+      "method": "absent",
+      "resolution": 0.0,
+      "initial_true_error": 0.17855950100790152,
+      "final_true_error": 0.17855950100790152,
+      "removal": 0.0,
+      "acquired": false,
+      "endpoint_action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 1210,
+      "n": 32,
+      "method": "shuffled",
+      "resolution": 0.0,
+      "initial_true_error": 0.17855950100790152,
+      "final_true_error": 1.1285920126971616,
+      "removal": -5.320537447330903,
+      "acquired": false,
+      "endpoint_action": [
+        -0.5161819458007812,
+        -1.0,
+        0.0150909423828125,
+        1.0
+      ]
+    },
+    {
+      "seed": 1210,
+      "n": 32,
+      "method": "truth",
+      "resolution": 0.0,
+      "initial_true_error": 0.17855950100790152,
+      "final_true_error": 1.6789054019410392e-12,
+      "removal": 0.9999999999905975,
+      "acquired": true,
+      "endpoint_action": [
+        0.5466804504394531,
+        0.3684654235839844,
+        0.5140762329101562,
+        -0.12383270263671875
+      ]
+    },
+    {
+      "seed": 1211,
+      "n": 3,
+      "method": "first",
+      "resolution": 0.0,
+      "initial_true_error": 0.10250370285062702,
+      "final_true_error": 0.03238415540403969,
+      "removal": 0.684068433593747,
+      "acquired": false,
+      "endpoint_action": [
+        -0.5229911804199219,
+        0.012115478515625,
+        -0.71466064453125,
+        0.26517486572265625
+      ]
+    },
+    {
+      "seed": 1211,
+      "n": 3,
+      "method": "mean",
+      "resolution": 0.0,
+      "initial_true_error": 0.10250370285062702,
+      "final_true_error": 0.0715813180603863,
+      "removal": 0.301670904857966,
+      "acquired": false,
+      "endpoint_action": [
+        -0.5838794708251953,
+        -0.2326183319091797,
+        -0.7006778717041016,
+        -0.12171173095703125
+      ]
+    },
+    {
+      "seed": 1211,
+      "n": 3,
+      "method": "gaussian",
+      "resolution": 0.0,
+      "initial_true_error": 0.10250370285062702,
+      "final_true_error": 1.4454281269243757e-12,
+      "removal": 0.9999999999858987,
+      "acquired": true,
+      "endpoint_action": [
+        -0.4456138610839844,
+        0.137237548828125,
+        -0.42458343505859375,
+        0.11106681823730469
+      ]
+    },
+    {
+      "seed": 1211,
+      "n": 3,
+      "method": "tangent",
+      "resolution": 0.0,
+      "initial_true_error": 0.10250370285062702,
+      "final_true_error": 1.4454281269243757e-12,
+      "removal": 0.9999999999858987,
+      "acquired": true,
+      "endpoint_action": [
+        -0.4456138610839844,
+        0.137237548828125,
+        -0.42458343505859375,
+        0.11106681823730469
+      ]
+    },
+    {
+      "seed": 1211,
+      "n": 3,
+      "method": "ball",
+      "resolution": 0.0,
+      "initial_true_error": 0.10250370285062702,
+      "final_true_error": 1.4454281269243757e-12,
+      "removal": 0.9999999999858987,
+      "acquired": true,
+      "endpoint_action": [
+        -0.4456138610839844,
+        0.137237548828125,
+        -0.42458343505859375,
+        0.11106681823730469
+      ]
+    },
+    {
+      "seed": 1211,
+      "n": 3,
+      "method": "hull",
+      "resolution": 0.0,
+      "initial_true_error": 0.10250370285062702,
+      "final_true_error": 0.015900445709504267,
+      "removal": 0.8448793041879169,
+      "acquired": false,
+      "endpoint_action": [
+        -0.5135726928710938,
+        -0.009860992431640625,
+        -0.61773681640625,
+        0.11716079711914062
+      ]
+    },
+    {
+      "seed": 1211,
+      "n": 3,
+      "method": "nearest",
+      "resolution": 0.0,
+      "initial_true_error": 0.10250370285062702,
+      "final_true_error": 0.03238415540403969,
+      "removal": 0.684068433593747,
+      "acquired": false,
+      "endpoint_action": [
+        -0.5229911804199219,
+        0.012115478515625,
+        -0.71466064453125,
+        0.26517486572265625
+      ]
+    },
+    {
+      "seed": 1211,
+      "n": 3,
+      "method": "absent",
+      "resolution": 0.0,
+      "initial_true_error": 0.10250370285062702,
+      "final_true_error": 0.10250370285062702,
+      "removal": 0.0,
+      "acquired": false,
+      "endpoint_action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 1211,
+      "n": 3,
+      "method": "shuffled",
+      "resolution": 0.0,
+      "initial_true_error": 0.10250370285062702,
+      "final_true_error": 0.6805866090270931,
+      "removal": -5.639629497276546,
+      "acquired": false,
+      "endpoint_action": [
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "seed": 1211,
+      "n": 3,
+      "method": "truth",
+      "resolution": 0.0,
+      "initial_true_error": 0.10250370285062702,
+      "final_true_error": 1.4454281269243757e-12,
+      "removal": 0.9999999999858987,
+      "acquired": true,
+      "endpoint_action": [
+        -0.4456138610839844,
+        0.137237548828125,
+        -0.42458343505859375,
+        0.11106681823730469
+      ]
+    },
+    {
+      "seed": 1211,
+      "n": 32,
+      "method": "first",
+      "resolution": 0.0,
+      "initial_true_error": 0.10250370285062702,
+      "final_true_error": 0.03238415540403969,
+      "removal": 0.684068433593747,
+      "acquired": false,
+      "endpoint_action": [
+        -0.5229911804199219,
+        0.012115478515625,
+        -0.71466064453125,
+        0.26517486572265625
+      ]
+    },
+    {
+      "seed": 1211,
+      "n": 32,
+      "method": "mean",
+      "resolution": 0.0,
+      "initial_true_error": 0.10250370285062702,
+      "final_true_error": 0.1282688820168059,
+      "removal": -0.25135852120118085,
+      "acquired": false,
+      "endpoint_action": [
+        -0.5980224609375,
+        -0.334075927734375,
+        -0.6235504150390625,
+        -0.36655426025390625
+      ]
+    },
+    {
+      "seed": 1211,
+      "n": 32,
+      "method": "gaussian",
+      "resolution": 0.0,
+      "initial_true_error": 0.10250370285062702,
+      "final_true_error": 1.4454281269243757e-12,
+      "removal": 0.9999999999858987,
+      "acquired": true,
+      "endpoint_action": [
+        -0.4456138610839844,
+        0.137237548828125,
+        -0.42458343505859375,
+        0.11106681823730469
+      ]
+    },
+    {
+      "seed": 1211,
+      "n": 32,
+      "method": "tangent",
+      "resolution": 0.0,
+      "initial_true_error": 0.10250370285062702,
+      "final_true_error": 1.4454281269243757e-12,
+      "removal": 0.9999999999858987,
+      "acquired": true,
+      "endpoint_action": [
+        -0.4456138610839844,
+        0.137237548828125,
+        -0.42458343505859375,
+        0.11106681823730469
+      ]
+    },
+    {
+      "seed": 1211,
+      "n": 32,
+      "method": "ball",
+      "resolution": 0.0,
+      "initial_true_error": 0.10250370285062702,
+      "final_true_error": 1.4454281269243757e-12,
+      "removal": 0.9999999999858987,
+      "acquired": true,
+      "endpoint_action": [
+        -0.4456138610839844,
+        0.137237548828125,
+        -0.42458343505859375,
+        0.11106681823730469
+      ]
+    },
+    {
+      "seed": 1211,
+      "n": 32,
+      "method": "hull",
+      "resolution": 0.0,
+      "initial_true_error": 0.10250370285062702,
+      "final_true_error": 0.0008665832335050479,
+      "removal": 0.9915458348390802,
+      "acquired": true,
+      "endpoint_action": [
+        -0.4552421569824219,
+        0.10276412963867188,
+        -0.42937278747558594,
+        0.06456756591796875
+      ]
+    },
+    {
+      "seed": 1211,
+      "n": 32,
+      "method": "nearest",
+      "resolution": 0.0,
+      "initial_true_error": 0.10250370285062702,
+      "final_true_error": 0.018794968692309538,
+      "removal": 0.8166410756916908,
+      "acquired": false,
+      "endpoint_action": [
+        -0.5160865783691406,
+        -0.003704071044921875,
+        -0.6440773010253906,
+        0.15766525268554688
+      ]
+    },
+    {
+      "seed": 1211,
+      "n": 32,
+      "method": "absent",
+      "resolution": 0.0,
+      "initial_true_error": 0.10250370285062702,
+      "final_true_error": 0.10250370285062702,
+      "removal": 0.0,
+      "acquired": false,
+      "endpoint_action": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "seed": 1211,
+      "n": 32,
+      "method": "shuffled",
+      "resolution": 0.0,
+      "initial_true_error": 0.10250370285062702,
+      "final_true_error": 0.6805866090270931,
+      "removal": -5.639629497276546,
+      "acquired": false,
+      "endpoint_action": [
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "seed": 1211,
+      "n": 32,
+      "method": "truth",
+      "resolution": 0.0,
+      "initial_true_error": 0.10250370285062702,
+      "final_true_error": 1.4454281269243757e-12,
+      "removal": 0.9999999999858987,
+      "acquired": true,
+      "endpoint_action": [
+        -0.4456138610839844,
+        0.137237548828125,
+        -0.42458343505859375,
+        0.11106681823730469
+      ]
+    }
+  ],
+  "peak_rss_bytes": 60506112,
+  "python": "3.9.6 (default, Oct 19 2026, 19:18:13) \n[Clang 21.0.0 (clang-2100.4.1.1)]",
+  "numpy": "2.0.2",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "numerical_threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  }
+}

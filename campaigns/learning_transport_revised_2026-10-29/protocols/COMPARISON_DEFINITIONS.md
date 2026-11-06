@@ -1,0 +1,5 @@
+# Pre-computation clarification
+
+2026-10-29. The DESIGN.md source readiness phrase “growth advantage in BOTH historical40/24 strata” uses the same equal-lab population-curve MAE as the primary development ranking: compute each lab's six-bin curve MAE inside that stratum, average labs, and subtract selected loss from growth loss. Pooled-animal population MAE is separately reported. This fixes an ambiguous aggregation before this source comparison is run; it changes no historical gate or protected access.
+
+The paired lab bootstrap samples laboratory-specific loss differences with replacement, giving each lab equal weight. It is a consumed-development robustness screen, not a new-laboratory confidence statement. Use20000 draws/seed202610291. The complete64 includes nine labs; the46 eligible fitting animals cover seven labs. Simulated forecast error SE is reported separately from animal/lab uncertainty. Fit256and comparison512particle counts are fixed; no grid refinement is permitted from their difference.
